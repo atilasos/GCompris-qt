@@ -10,7 +10,7 @@ Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: 
 spaVisitChoice: parse error "Object: size 144, type Spa:Pod:Object:Param:Format (262147), id Spa:Enum:ParamId:EnumFormat (3)" "  Prop: key Spa:Pod:Object:Param:Format:mediaType (1), flags 00000000" "    Id 1        (Spa:Enum:MediaType:audio)" "  Prop: key Spa:Pod:Object:Param:Format:mediaSubtype (2), flags 00000000" "    Id 3        (Spa:Enum:MediaSubtype:iec958)" "  Prop: key Spa:Pod:Object:Param:Format:Audio:iec958Codec (65542), flags 00000000" "    Choice: type Spa:Enum:Choice:Enum, flags 00000000 24 4" "      Id 1        (Spa:Enum:AudioIEC958Codec:PCM)" "      Id 1        (Spa:Enum:AudioIEC958Codec:PCM)" "  Prop: key Spa:Pod:Object:Param:Format:Audio:rate (65539), flags 00000000" "    Choice: type Spa:Enum:Choice:Range, flags 00000000 28 4" "      Int 48000" "      Int 32000" "      Int 192000"
 qt.core.qfuture.continuations: Parent future has 2 result(s), but only the first result will be handled in the continuation.
 qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
-qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-numpad-consumers/.scratch/pt-pt/numpad-consumers/verified/.native-qml-2adbfe13de4d4db08c699215e0344fa2/profile/data/GCompris)
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-numpad-consumers/.scratch/pt-pt/numpad-consumers/verified-style/.native-qml-50425f3c6017430b922f2544d341a662/profile/data/GCompris)
 Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
 Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
 Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
@@ -69,19 +69,19 @@ Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.r
 Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
 Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
 Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
-Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-numpad-consumers/.scratch/pt-pt/numpad-consumers/verified/.native-qml-2adbfe13de4d4db08c699215e0344fa2/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-numpad-consumers/.scratch/pt-pt/numpad-consumers/verified-style/.native-qml-50425f3c6017430b922f2544d341a662/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
 Get voices for  "pt_PT.UTF-8" ,  "pt"
-Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-numpad-consumers/.scratch/pt-pt/numpad-consumers/verified/.native-qml-2adbfe13de4d4db08c699215e0344fa2/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-numpad-consumers/.scratch/pt-pt/numpad-consumers/verified-style/.native-qml-50425f3c6017430b922f2544d341a662/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
 Get voices for  "pt_PT.UTF-8" ,  "pt"
-Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-numpad-consumers/.scratch/pt-pt/numpad-consumers/verified/.native-qml-2adbfe13de4d4db08c699215e0344fa2/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-numpad-consumers/.scratch/pt-pt/numpad-consumers/verified-style/.native-qml-50425f3c6017430b922f2544d341a662/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
 Get voices for  "pt_PT.UTF-8" ,  "pt"
-Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-numpad-consumers/.scratch/pt-pt/numpad-consumers/verified/.native-qml-2adbfe13de4d4db08c699215e0344fa2/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
-Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-numpad-consumers/.scratch/pt-pt/numpad-consumers/verified/.native-qml-2adbfe13de4d4db08c699215e0344fa2/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-numpad-consumers/.scratch/pt-pt/numpad-consumers/verified-style/.native-qml-50425f3c6017430b922f2544d341a662/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-numpad-consumers/.scratch/pt-pt/numpad-consumers/verified-style/.native-qml-50425f3c6017430b922f2544d341a662/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
 Get voices for  "pt_PT.UTF-8" ,  "pt"
-Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-numpad-consumers/.scratch/pt-pt/numpad-consumers/verified/.native-qml-2adbfe13de4d4db08c699215e0344fa2/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-numpad-consumers/.scratch/pt-pt/numpad-consumers/verified-style/.native-qml-50425f3c6017430b922f2544d341a662/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
 Get voices for  "pt_PT.UTF-8" ,  "pt"
-Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-numpad-consumers/.scratch/pt-pt/numpad-consumers/verified/.native-qml-2adbfe13de4d4db08c699215e0344fa2/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
-Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-numpad-consumers/.scratch/pt-pt/numpad-consumers/verified/.native-qml-2adbfe13de4d4db08c699215e0344fa2/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-numpad-consumers/.scratch/pt-pt/numpad-consumers/verified-style/.native-qml-50425f3c6017430b922f2544d341a662/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-numpad-consumers/.scratch/pt-pt/numpad-consumers/verified-style/.native-qml-50425f3c6017430b922f2544d341a662/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
 Get voices for  "pt_PT.UTF-8" ,  "pt"
 qml: Start activity guessnumber/Guessnumber.qml at level -1
 qml: guessnumber/Guessnumber.qml guessnumber/Guessnumber.qml

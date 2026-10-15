@@ -39,7 +39,7 @@ TestCase {
             compare(homeCalls, 2, "Escape reaches the menu");
         } finally { activity.menu=originalMenu; }
     }
-    
+
     function cleanupTestCase() {
         console.log("NATIVE_RESULT", JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,homeCalls:homeCalls}));
     }
