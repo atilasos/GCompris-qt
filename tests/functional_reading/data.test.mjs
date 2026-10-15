@@ -26,7 +26,7 @@ function game(random) {
 }
 test('all PT reading levels produce complete 15-word lists for present and absent targets',()=>{
     assert.deepEqual(data.levels.map(level=>level.words.length),[27,39,81]);
-    for(const probability of [0,0.99999]) {
+    for(const probability of [0,0.05,0.1,0.2,0.3,0.4,0.5,0.6,0.99999]) {
         const {context:g,items}=game(()=>probability);
         for(let level=0;level<3;level++) {
             assert.equal(items.numberOfLevel,3, "All three levels must be exposed to the activity-sequence scheduler");
@@ -41,7 +41,7 @@ test('all PT reading levels produce complete 15-word lists for present and absen
                 assert.ok(source.includes(items.textToFind));
                 assert.equal(g.words.length,15,`level${level+1} probability${probability} round${round}`);
                 assert.ok(g.words.every(word=>source.includes(word)));
-                assert.equal(g.words.includes(items.textToFind),probability>0.5);
+                assert.equal(g.words.includes(items.textToFind),probability>0.5,`level${level+1} random${probability} round${round} target${items.textToFind}`);
                 assert.equal(items.answerButtonFound.isCorrectAnswer,probability>0.5);
                 g.run();assert.equal(items.wordDropTimer.running,true);
                 for(let index=0;index<g.words.length;index++) {

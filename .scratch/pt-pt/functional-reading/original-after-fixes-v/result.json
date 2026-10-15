@@ -1,0 +1,103 @@
+{
+  "activity": "readingv",
+  "locale": "pt_PT",
+  "qml_file": "readingh/Readingh.qml",
+  "source_sha256": "2a7d3c74d6139edbd231ab4f5372d2c8bcc6cc668b29bb424df2281517a8a6c9",
+  "portuguese_catalogue_sha256": "0dfebdffcaf75f9eb9d80f0d4a209695ad1ffc029c13b617393cd6087ed14f29",
+  "private_qm_sha256": "d0bbadfe10cb82fa9d536f21aa9e0e299e8c002cf339ebc4857a7463bee763c1",
+  "case_sha256": "ed4908b7d6fc60b4ceb4cc3599bdc49449d550231feb8457438206980ccccfb7",
+  "private_rcc_sha256": "5ad123049b98dc4094a537a7eb865ee92ceaa4dd874350073d541888f6d74dcb",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-reading/build/native-qml/5eeb777372b54b93a4647ad0f1740746",
+  "version_code": 260200,
+  "network": "docker-none",
+  "timestamp_utc": "2026-10-15T21:00:11.272618+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [
+    {
+      "file": "level-1-correct.png",
+      "sha256": "a2b93fe5caf5c8c42c1f7a4a6bedced73a632abf646226f943a9f0a2118835d3",
+      "bytes": 63874
+    },
+    {
+      "file": "level-1-words-0.png",
+      "sha256": "c03f09af1e3d6f03a6466e2a013f6cec5f2dc0b945293cd2d33379f163411048",
+      "bytes": 56052
+    },
+    {
+      "file": "level-1-words-1.png",
+      "sha256": "57e4ec5aaf9a99e1816d0d5554c1e83c7e1935cb7641295e4b87191807196d1a",
+      "bytes": 55956
+    },
+    {
+      "file": "level-2-correct.png",
+      "sha256": "bd82374f5b7667f38b8f3c0c77388b605248c2ec64959e7de0ac572ca8c18a80",
+      "bytes": 64946
+    },
+    {
+      "file": "level-2-words-1.png",
+      "sha256": "865dd4700a7e192b8c80c8ee7759cb7df6072bc72fee6f5f592e0cba4bf78c87",
+      "bytes": 56864
+    },
+    {
+      "file": "level-2-words-2.png",
+      "sha256": "45153cb1bbe6b92aa0c15c53d4b2554e53631a3e78a2267b98fd8902cde28fef",
+      "bytes": 57169
+    },
+    {
+      "file": "level-3-correct.png",
+      "sha256": "e3a54151ff9a9df69835eae3df35776d878ad5322c0203faf982301e82236b07",
+      "bytes": 64979
+    },
+    {
+      "file": "level-3-words-2.png",
+      "sha256": "221768f66f27129fd76419677653842607e239a214a090b57eed4910f0cc0820",
+      "bytes": 57973
+    },
+    {
+      "file": "level-3-words-3.png",
+      "sha256": "4ae33b57ffc38badbffe7e3fa42641bf57535a19938b20909ea2c80d36afc666",
+      "bytes": 57832
+    }
+  ],
+  "passed": false,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 1,
+    "passes": 1,
+    "mode": "readingv",
+    "solved": 30,
+    "rejected": 3,
+    "completedLevels": [
+      1,
+      2,
+      3
+    ],
+    "presentByLevel": {
+      "0": 4,
+      "1": 6,
+      "2": 5
+    },
+    "absentByLevel": {
+      "0": 6,
+      "1": 4,
+      "2": 5
+    },
+    "speeds": [
+      {
+        "setting": 1,
+        "interval": 5000,
+        "elapsed": 5041
+      },
+      {
+        "setting": 2,
+        "interval": 2500,
+        "elapsed": 2470
+      }
+    ],
+    "phase": "speed-settings"
+  }
+}
