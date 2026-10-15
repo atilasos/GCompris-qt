@@ -104,3 +104,20 @@ portugueses, a preservação de bytes, a seleção pelo índice, a repetição e
 a rejeição de origem modificada, adições danificadas e substituição de originais.
 Os 32 OGG versionados também foram descodificados pelo teste. `msgfmt` validou o
 catálogo com os dez topónimos alterados.
+
+## Revalidação no build integrado
+
+O `getAssets` real do build principal foi executado após a integração e produziu
+o mesmo RCC de 37222943 bytes, com SHA-256
+`4887e4a8c7112e6b744829c82a3476a9f322a593173d17c3b7e369fad21528ee`.
+Sete arranques nativos com perfis novos e rede desativada passaram: `polygons`,
+`sixteen`, `keyboard_training`, `geography`, `geo-country`, `grammar_classes` e
+`grammar_analysis`. Os logs confirmam o registo do novo RCC de 2026-10-15.
+A tentativa de consultar o índice remoto falhou sem impedir o uso do pacote
+local. Evidência em `build/pt-pt/completed-audio-offline/`.
+
+O rastreio tem áudio silenciado e o contentor não tem dispositivo de som.
+A descodificação automática não substitui a reprodução audível no Windows.
+Na revisão dos nomes de caracteres, confirmar especialmente se o sintetizador
+pronuncia `e` e `o` como nomes de letras, e não como palavras funcionais.
+A gravação final de cada nome acentuado continua sujeita à revisão pedagógica.
