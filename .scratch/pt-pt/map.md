@@ -111,3 +111,9 @@
 - [22 — Eventos de teclado duplicados](issues/22-eventos-teclado-duplicados.md)
 - [24 — Categorias traduzidas na ajuda](issues/24-categorias-ajuda.md)
 - [25 — Snapshots dos recursos QML nativos](issues/25-snapshots-recursos-nativos.md)
+
+- [23 — Diagnóstico dos encerramentos durante testes](issues/23-reading-crash.md)
+
+- [26 — Pacote de audição das 32 gravações](issues/26-pacote-audicao.md)
+
+- [29 — Memória matemática](issues/29-memoria-matematica.md)

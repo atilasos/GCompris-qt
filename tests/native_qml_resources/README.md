@@ -43,7 +43,9 @@ o deployment. Nunca escreve no build da checkout nem no build de origem.
 O modo offline usa uma imagem Docker local já existente, identificada pelo ID
 real em `result.json`, independentemente do nome da tag. Mantém rede desativada,
 raiz do host só para leitura e escrita nos diretórios privados de perfil/saída,
-com `/tmp` temporário. O chroot inicial da imagem entra no host; o GNU chroot do
+com `/tmp` temporário. Mounts explícitos só de leitura mantêm o deployment e
+o snapshot visíveis mesmo quando ficam em `/tmp`, incluindo snapshots externos.
+Os mounts do perfil e da saída conservam escrita. O chroot inicial da imagem entra no host; o GNU chroot do
 host aplica `--userspec=UID:GID` antes de iniciar Qt. A verificação exige que os
 ficheiros e symlinks de perfil/saída pertençam ao utilizador e grupo locais.
 A limpeza normal propaga erros, incluindo erros de permissões.
@@ -58,3 +60,19 @@ python3 -m unittest discover -s tests -p test_native_qml_resources.py
 
 Os testes usam apenas ficheiros pequenos temporários. Verificam independência
 após alterações na origem, adulteração e alterações durante a cópia.
+
+Para verificar o percurso offline com recursos em `/tmp`, executa o caso Qt
+normal curto nos dois modos. A pasta de evidência tem de ser nova e exterior
+a `/tmp`; o verificador cria aí os logs e resultados e usa `/tmp` para o
+snapshot externo e para a saída do caso com snapshot automático.
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 python3 tests/native_qml_resources/check_tmp_offline.py \
+  --binary /caminho/build/bin/gcompris-qt \
+  --output /caminho/privado/verificacao-tmp
+```
+
+O verificador exige sucesso nos dois casos, dono local dos ficheiros e remoção
+dos deployments. Remove o diretório temporário após sucesso. As falhas conservam
+os ficheiros para inspeção e aparecem em `summary.json`. Usa a imagem Docker local
+já instalada e mantém rede desativada.

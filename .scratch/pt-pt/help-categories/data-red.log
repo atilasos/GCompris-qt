@@ -1,0 +1,27 @@
+✖ real help formatter translates category tokens and retains the footer and activity ID (1.565519ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 42.981863
+
+✖ failing tests:
+
+test at tests/help_categories/categories.test.mjs:20:1
+✖ real help formatter translates category tokens and retains the footer and activity ID (1.565519ms)
+  AssertionError [ERR_ASSERTION]: <b></b><br/><br/><b>Section: </b>math numeration (example)<br/><br/>
+      at TestContext.<anonymous> (file:///home/proteu/Projetos/GCompris-qt-worktrees/pt-help-categories/tests/help_categories/categories.test.mjs:22:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.start (node:internal/test_runner/test:1191:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

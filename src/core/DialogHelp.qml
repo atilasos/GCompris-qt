@@ -9,6 +9,7 @@
  */
 import QtQuick
 import core 1.0
+import "ActivityCategories.js" as ActivityCategories
 
 /**
  * GCompris' full screen help dialog.
@@ -68,7 +69,7 @@ DialogBackground {
             contentText += "<br/><br/>"
         }
         if(activityInfo.section) {
-            contentText += "<b>" + qsTr("Section:") + " </b>" + activityInfo.section
+            contentText += "<b>" + qsTr("Section:") + " </b>" + ActivityCategories.format(activityInfo.section)
             contentText += " (" + activityInfo.name.split('/')[0] + ")"
             contentText += "<br/><br/>"
         }

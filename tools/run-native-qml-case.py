@@ -146,6 +146,9 @@ def main():
         settings = [f'{key}={env[key]}' for key in ['QT_QPA_PLATFORM', 'XDG_CONFIG_HOME', 'XDG_DATA_HOME', 'XDG_CACHE_HOME']]
         command = ['docker', 'run', '--rm', '--pull=never', '--name', container, '--network', 'none', '--read-only',
                    '--mount', 'type=bind,src=/,dst=/host,readonly',
+                   # Restore private resources beneath /tmp after its tmpfs overlay.
+                   '--mount', f'type=bind,src={deployment},dst=/host{deployment},readonly',
+                   '--mount', f'type=bind,src={snapshot},dst=/host{snapshot},readonly',
                    '--mount', f'type=bind,src={profile},dst=/host{profile}',
                    '--mount', f'type=bind,src={output},dst=/host{output}',
                    '--tmpfs', '/host/tmp:rw,mode=1777', image, 'chroot', '/host', gnu_chroot,
