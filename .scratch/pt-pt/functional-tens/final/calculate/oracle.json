@@ -1,0 +1,12 @@
+{
+  "activity": "tens_complement_calculate",
+  "puzzles": 8,
+  "equations": 28,
+  "rejected": 8,
+  "independent_python_sums": "passed",
+  "datasets_sha256": {
+    "src/activities/tens_complement_calculate/ActivityInfo.qml": "4f9b99ce6f3242136fa0962f4948c69378c6a4fcf86e300791b2d6bbcb669838",
+    "src/activities/tens_complement_calculate/resource/1/Data.qml": "16046db256cb7e5a5c66a08d15034115f17c824044e74bbf935655431dee2ee5",
+    "src/activities/tens_complement_calculate/resource/2/Data.qml": "0629bbbdf43b4eaeff7955e477648a0d4b35c1a8f429273f0c12a847bbefc9e7"
+  }
+}

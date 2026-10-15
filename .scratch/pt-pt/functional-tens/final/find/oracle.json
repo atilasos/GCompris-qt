@@ -1,0 +1,14 @@
+{
+  "activity": "tens_complement_find",
+  "puzzles": 40,
+  "equations": 120,
+  "rejected": 38,
+  "independent_python_sums": "passed",
+  "datasets_sha256": {
+    "src/activities/tens_complement_find/ActivityInfo.qml": "29bbfb7336a1b3d688a1f7f5958238ee4bfaccd50d9c624c1855a141f46159b5",
+    "src/activities/tens_complement_find/resource/1/Data.qml": "3c6197c91b16ce1ecf3f82c50588c7d9c8df2bb0c0128188ebfd85df8726aa7c",
+    "src/activities/tens_complement_find/resource/2/Data.qml": "c96ba7d71fbef6e7b88d56666681b97e967ad254f6b8d01cff25e25ef1861784",
+    "src/activities/tens_complement_find/resource/3/Data.qml": "824ad2b5bfcb8b6dda61ed0e20fcbf814f9910e663a9c9f62ba576514b5016e3",
+    "src/activities/tens_complement_find/resource/4/Data.qml": "a615d4999088591f291422099934f1a97bb32d7c14254b6e5c386e45f0032782"
+  }
+}

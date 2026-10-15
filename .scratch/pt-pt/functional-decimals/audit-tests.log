@@ -1,0 +1,9 @@
+test_addition_respects_total_not_only_operands (test_audit.QuestionAuditTest.test_addition_respects_total_not_only_operands) ... ok
+test_pt_comma_is_a_decimal_separator (test_audit.QuestionAuditTest.test_pt_comma_is_a_decimal_separator) ... ok
+test_shuffled_constraints_require_backtracking (test_audit.QuestionAuditTest.test_shuffled_constraints_require_backtracking) ... ok
+test_subtraction_order_must_avoid_negative_result (test_audit.QuestionAuditTest.test_subtraction_order_must_avoid_negative_result) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK

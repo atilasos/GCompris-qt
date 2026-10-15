@@ -1,7 +1,7 @@
 # Preparar um candidato Windows x64 para testes
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02
 
@@ -119,3 +119,17 @@ compila e executa um NSIS mínimo real, usando o mesmo helper, e verifica os
 bytes sentinela no destino canónico. A execução desse teste PE e a validação
 dos 203 arranques instalados aguardam o próximo CI; a presença do primeiro EXE
 no artefacto falhado ainda não valida a instalação.
+
+## Answer
+
+Actions38807970526 concluiu a construção e instalação nativas com sucesso.
+O EXE de825749189 bytes tem SHA256
+`c9d39bbf9a23617cb6ba3e3544471144c44c76dcd69355a9334e41a0e8805ef2`,
+recalculado após download. O fixture NSIS e os oito arranques preparados passaram;
+os203 arranques instalados passaram com a rede bloqueada.
+[Relatórios CI e limites](../windows/38807970526/README.md).
+
+O professor recebeu o candidato para o Windows11 pessoal confirmado. A tarefa13
+fecha apenas a preparação deste candidato inicial. As tarefas07/08 permanecem
+abertas para o artefacto final, Windows10 e aceitação na escola; as correções
+posteriores ao commit dfc26b730 exigem novo candidato.

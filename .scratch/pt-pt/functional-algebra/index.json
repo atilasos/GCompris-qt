@@ -1,0 +1,354 @@
+[
+  {
+    "case": "config-algebra_by",
+    "passed": true,
+    "result": {
+      "failures": 0,
+      "passes": 2,
+      "speeds": [
+        {
+          "speed": 1,
+          "duration": 100000
+        },
+        {
+          "speed": 2,
+          "duration": 50000
+        },
+        {
+          "speed": 3,
+          "duration": 33333
+        },
+        {
+          "speed": 4,
+          "duration": 25000
+        },
+        {
+          "speed": 5,
+          "duration": 20000
+        },
+        {
+          "speed": 6,
+          "duration": 16666
+        },
+        {
+          "speed": 7,
+          "duration": 14285
+        },
+        {
+          "speed": 8,
+          "duration": 12500
+        },
+        {
+          "speed": 9,
+          "duration": 11111
+        },
+        {
+          "speed": 10,
+          "duration": 10000
+        }
+      ],
+      "recoveredAfterTimeout": true
+    },
+    "result_sha256": "1da72e55cfbc0322790edc864bba7e06704f8b3078bc51ca8c0b2b5e3574df87"
+  },
+  {
+    "case": "configurations-algebra_div",
+    "passed": true,
+    "result": {
+      "failures": 0,
+      "passes": 2,
+      "speeds": [
+        {
+          "speed": 1,
+          "duration": 100000
+        },
+        {
+          "speed": 2,
+          "duration": 50000
+        },
+        {
+          "speed": 3,
+          "duration": 33333
+        },
+        {
+          "speed": 4,
+          "duration": 25000
+        },
+        {
+          "speed": 5,
+          "duration": 20000
+        },
+        {
+          "speed": 6,
+          "duration": 16666
+        },
+        {
+          "speed": 7,
+          "duration": 14285
+        },
+        {
+          "speed": 8,
+          "duration": 12500
+        },
+        {
+          "speed": 9,
+          "duration": 11111
+        },
+        {
+          "speed": 10,
+          "duration": 10000
+        }
+      ],
+      "recoveredAfterTimeout": true
+    },
+    "result_sha256": "3081b109eaf2a52f6bd13f4124dc45418b9534e11c81d054a95bf3e75dbaecf2"
+  },
+  {
+    "case": "configurations-algebra_minus",
+    "passed": true,
+    "result": {
+      "failures": 0,
+      "passes": 2,
+      "speeds": [
+        {
+          "speed": 1,
+          "duration": 100000
+        },
+        {
+          "speed": 2,
+          "duration": 50000
+        },
+        {
+          "speed": 3,
+          "duration": 33333
+        },
+        {
+          "speed": 4,
+          "duration": 25000
+        },
+        {
+          "speed": 5,
+          "duration": 20000
+        },
+        {
+          "speed": 6,
+          "duration": 16666
+        },
+        {
+          "speed": 7,
+          "duration": 14285
+        },
+        {
+          "speed": 8,
+          "duration": 12500
+        },
+        {
+          "speed": 9,
+          "duration": 11111
+        },
+        {
+          "speed": 10,
+          "duration": 10000
+        }
+      ],
+      "recoveredAfterTimeout": true
+    },
+    "result_sha256": "9551f066915169302570104fb54344f15204892f31637775ec8db534f0a2579d"
+  },
+  {
+    "case": "configurations-algebra_plus",
+    "passed": true,
+    "result": {
+      "failures": 0,
+      "passes": 2,
+      "speeds": [
+        {
+          "speed": 1,
+          "duration": 100000
+        },
+        {
+          "speed": 2,
+          "duration": 50000
+        },
+        {
+          "speed": 3,
+          "duration": 33333
+        },
+        {
+          "speed": 4,
+          "duration": 25000
+        },
+        {
+          "speed": 5,
+          "duration": 20000
+        },
+        {
+          "speed": 6,
+          "duration": 16666
+        },
+        {
+          "speed": 7,
+          "duration": 14285
+        },
+        {
+          "speed": 8,
+          "duration": 12500
+        },
+        {
+          "speed": 9,
+          "duration": 11111
+        },
+        {
+          "speed": 10,
+          "duration": 10000
+        }
+      ],
+      "recoveredAfterTimeout": true
+    },
+    "result_sha256": "ff932cd04c216289c040cbfbe9b532d039697ea583dfbbbee859d7b3ebfc4735"
+  },
+  {
+    "case": "controls-algebra_by",
+    "passed": true,
+    "result": {
+      "failures": 0,
+      "passes": 2,
+      "controls": {
+        "activity": "algebra_by",
+        "title": "Multiplicação dos números",
+        "description": "Pratica a operação de multiplicação.",
+        "manual": "É-te apresentada uma multiplicação no ecrã. Descobre rapidamente o resultado e usa o teclado do computador ou o teclado no ecrã para escreveres o produto dos dois números. Tens de ser rápido a enviar a resposta antes que os pinguins no balão aterrem!<br><br><b>Controlos do teclado:</b><ul><li>Algarismos: escreve a tua resposta</li><li>Retroceder: apaga o último algarismo na tua resposta</li><li>Enter: validar a tua resposta</li></ul>",
+        "helpOpened": true,
+        "levelButtons": true,
+        "returnedToMenu": true
+      }
+    },
+    "result_sha256": "99faf50b8ab1fd180f34f23a5a21d1d5a6c5cbb68942478d294794b9e438e430"
+  },
+  {
+    "case": "controls-algebra_div",
+    "passed": true,
+    "result": {
+      "failures": 0,
+      "passes": 2,
+      "controls": {
+        "activity": "algebra_div",
+        "title": "Divisão de números",
+        "description": "Pratica a operação de divisão.",
+        "manual": "É-te apresentada uma divisão no ecrã. Descobre rapidamente o resultado e usa o teclado do computador ou o teclado no ecrã para escreveres o dito resultado. Tens de ser rápido a enviar a resposta antes que os pinguins no balão aterrem!<br><br><b>Controlos do teclado:</b><ul><li>Algarismos: escreve a tua resposta</li><li>Retroceder: apaga o último algarismo na tua resposta</li><li>Enter: validar a tua resposta</li></ul>",
+        "helpOpened": true,
+        "levelButtons": true,
+        "returnedToMenu": true
+      }
+    },
+    "result_sha256": "ed39b6ce96f7510874e6819888faab62811a29b370d1c1d4b10188375221de86"
+  },
+  {
+    "case": "controls-algebra_minus",
+    "passed": true,
+    "result": {
+      "failures": 0,
+      "passes": 2,
+      "controls": {
+        "activity": "algebra_minus",
+        "title": "Subtração de números",
+        "description": "Pratica a operação de subtração.",
+        "manual": "É-te apresentada uma subtração no ecrã. Descobre rapidamente o resultado e usa o teclado do computador ou o teclado no ecrã para escreveres o dito resultado. Tens de ser rápido a enviar a resposta antes que os pinguins no balão aterrem!<br><br><b>Controlos do teclado:</b><ul><li>Algarismos: escreve a tua resposta</li><li>Retroceder: apaga o último algarismo na tua resposta</li><li>Enter: validar a tua resposta</li></ul>",
+        "helpOpened": true,
+        "levelButtons": true,
+        "returnedToMenu": true
+      }
+    },
+    "result_sha256": "e75ea57f4590aa7033e0470e72fd13971d038784047003d031ea050e0c198ca8"
+  },
+  {
+    "case": "controls-algebra_plus",
+    "passed": true,
+    "result": {
+      "failures": 0,
+      "passes": 2,
+      "controls": {
+        "activity": "algebra_plus",
+        "title": "Adição de números",
+        "description": "Pratica a adição de números.",
+        "manual": "É-te apresentada uma adição no ecrã. Descobre rapidamente o resultado e usa o teclado do computador ou o teclado no ecrã para escreveres o dito resultado. Tens de ser rápido e enviar a resposta antes que os pinguins no balão aterrem!<br><br><b>Controlos do teclado:</b><ul><li>Algarismos: escreve a tua resposta</li><li>Retroceder: apaga o último algarismo na tua resposta</li><li>Enter: validar a tua resposta</li></ul>",
+        "helpOpened": true,
+        "levelButtons": true,
+        "returnedToMenu": true
+      }
+    },
+    "result_sha256": "1d0fb9671fda43d12a45988482f04b7429452bbb8b92d9a02052582018ecb8f8"
+  },
+  {
+    "case": "full-algebra_by",
+    "passed": true,
+    "result": {
+      "failures": 0,
+      "passes": 2,
+      "activity": "algebra_by",
+      "correct": 110,
+      "rejected": 11,
+      "levels": 11
+    },
+    "result_sha256": "82575a8c22caafe7008300b67d31cd3592cd7e3e94fc9600fc29401baa56529c"
+  },
+  {
+    "case": "full-algebra_div",
+    "passed": true,
+    "result": {
+      "failures": 0,
+      "passes": 2,
+      "activity": "algebra_div",
+      "correct": 110,
+      "rejected": 11,
+      "levels": 11
+    },
+    "result_sha256": "4b391b736aad21024f72b9b2c1766f66a86c8608bc61f5891256549bfcd1bdc2"
+  },
+  {
+    "case": "full-algebra_minus",
+    "passed": true,
+    "result": {
+      "failures": 0,
+      "passes": 2,
+      "activity": "algebra_minus",
+      "correct": 130,
+      "rejected": 13,
+      "levels": 13
+    },
+    "result_sha256": "3816fe68b63d801f33d6aa034a5911227081d082843c7c0dbc26c095bd01ded0"
+  },
+  {
+    "case": "full-algebra_plus",
+    "passed": true,
+    "result": {
+      "failures": 0,
+      "passes": 2,
+      "activity": "algebra_plus",
+      "correct": 130,
+      "rejected": 13,
+      "levels": 13
+    },
+    "result_sha256": "ea8ef8cf933082cc5eb9a7bcb09463d4fadc106328332ae803791d962d3663bc"
+  },
+  {
+    "case": "keyboard-baseline",
+    "passed": false,
+    "result": {
+      "failures": 1,
+      "passes": 1,
+      "typed": 0
+    },
+    "result_sha256": "8ae801a7bc41680a70451e049d926fdb60ff2a4bf50e66eb3a3d1d48f69bc11f"
+  },
+  {
+    "case": "keyboard-green",
+    "passed": true,
+    "result": {
+      "failures": 0,
+      "passes": 2,
+      "typed": 1
+    },
+    "result_sha256": "66e138c615a8f73e42215e89b60197b1df6d59a772e0425b2bcb4b165d510669"
+  }
+]

@@ -658,22 +658,32 @@ ActivityBase {
             enableInput: !items.buttonsBlocked
         }
 
+        function handleAnswerKey(event, pressed) {
+            var digit = event.key >= Qt.Key_0 && event.key <= Qt.Key_9;
+            var decimal = numpad.displayDecimalButton && (event.key === Qt.Key_Comma || event.key === Qt.Key_Period);
+            if(!items.typeResult || !(digit || decimal || event.key === Qt.Key_Backspace))
+                return;
+            event.accepted = true;
+            if(!items.buttonsBlocked)
+                numpad.updateAnswer(event.key, pressed);
+        }
+
         Keys.enabled: !items.buttonsBlocked
         Keys.onPressed: (event) => {
             if(items.buttonsBlocked)
-                return
+                return;
             if(event.key === Qt.Key_Enter || event.key === Qt.Key_Return) {
+                event.accepted = true;
                 if(items.typeResult) {
-                    Activity.verifyNumberTyping(answerBackground.userEntry)
+                    Activity.verifyNumberTyping(answerBackground.userEntry);
+                } else {
+                    Activity.verifyNumberRepresentation();
                 }
-                else {
-                    Activity.verifyNumberRepresentation()
-                }
-            }
-            else {
-               numpad.updateAnswer(event.key, true);
+            } else {
+                handleAnswerKey(event, true);
             }
         }
+        Keys.onReleased: (event) => handleAnswerKey(event, false)
 
         Image {
             id: hint

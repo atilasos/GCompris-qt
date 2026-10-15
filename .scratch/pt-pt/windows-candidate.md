@@ -123,3 +123,10 @@ pedagógica. A audição e a matriz funcional continuam pendentes no Windows10 r
 As lacunas de áudio e conteúdo já identificadas permanecem pendentes mesmo que o
 programa abra e todas as atividades apareçam na lista. Não aprovar a instalação
 para as crianças antes de fechar essas lacunas e a verificação no Windows10.
+
+## Primeiro candidato disponível
+
+[Provas e checksum](windows/38807970526/README.md). EXE local em
+`build/pt-pt/windows-candidate-38807970526/GCompris-PT-PT-Windows-x64-candidate.exe`.
+O ensaio manual Windows11 foi pedido ao professor; não foi ainda confirmado.
+Este candidato não contém as correções de código posteriores a dfc26b730.

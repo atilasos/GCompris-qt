@@ -270,14 +270,15 @@ ActivityBase {
             enableInput: !items.buttonsBlocked
         }
 
-        Keys.onPressed: (event) => {
+        function handleAnswerKey(event, pressed) {
+            if((event.key < Qt.Key_0 || event.key > Qt.Key_9) && event.key !== Qt.Key_Backspace)
+                return;
+            event.accepted = true;
             if(!items.buttonsBlocked)
-                numpad.updateAnswer(event.key, true);
+                numpad.updateAnswer(event.key, pressed);
         }
 
-        Keys.onReleased: (event) => {
-            if(!items.buttonsBlocked)
-                numpad.updateAnswer(event.key, false);
-        }
+        Keys.onPressed: (event) => handleAnswerKey(event, true)
+        Keys.onReleased: (event) => handleAnswerKey(event, false)
     }
 }
