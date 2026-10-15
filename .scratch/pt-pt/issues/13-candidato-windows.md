@@ -64,3 +64,10 @@ singular) e passou depois da correção (0 maçãs, 1 maçã, 2 maçãs). Os qua
 Windows-candidate passaram em Linux; o teste QTranslator é específico da
 instalação Qt Linux e não se faz passar por uma execução Windows. A compilação
 Windows usa exatamente o mesmo helper de conversão.
+
+
+Primeira execução Windows real: Actions38797896819 falhou na seleção dos pacotes
+Qt, antes de compilar: `qtsvg` não é um módulo opcional da distribuição6.10.2
+MSVC2022. Removido esse nome de `--modules`; o QtSvg faz parte dos pacotes-base
+selecionados por aqt, e o `find_package(Qt6 ... Svg)` do projeto verificará a sua
+presença na configuração seguinte. O erro externo não foi tratado como sucesso.
