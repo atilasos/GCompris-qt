@@ -1,0 +1,15 @@
+test_addition_respects_total_not_only_operands (test_audit.QuestionAuditTest.test_addition_respects_total_not_only_operands) ... ok
+test_pt_comma_is_a_decimal_separator (test_audit.QuestionAuditTest.test_pt_comma_is_a_decimal_separator) ... ok
+test_shuffled_constraints_require_backtracking (test_audit.QuestionAuditTest.test_shuffled_constraints_require_backtracking) ... ok
+test_subtraction_order_must_avoid_negative_result (test_audit.QuestionAuditTest.test_subtraction_order_must_avoid_negative_result) ... ok
+test_green_json_cannot_override_failed_launcher (test_runner.RunnerAcceptanceTest.test_green_json_cannot_override_failed_launcher) ... RUNNER_FIXTURE {"launcher_exit": 1, "qt_passed": true, "runner_exit": 1, "summary_passed": false}
+ok
+test_zero_launcher_exit_and_green_report_are_accepted (test_runner.RunnerAcceptanceTest.test_zero_launcher_exit_and_green_report_are_accepted) ... RUNNER_FIXTURE {"launcher_exit": 0, "qt_passed": true, "runner_exit": 0, "summary_passed": true}
+ok
+test_zero_launcher_exit_cannot_override_failed_qt_report (test_runner.RunnerAcceptanceTest.test_zero_launcher_exit_cannot_override_failed_qt_report) ... RUNNER_FIXTURE {"launcher_exit": 0, "qt_passed": false, "runner_exit": 1, "summary_passed": false}
+ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.182s
+
+OK
