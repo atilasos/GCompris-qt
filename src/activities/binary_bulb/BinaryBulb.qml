@@ -145,6 +145,9 @@ ActivityBase {
         Keys.forwardTo: [tutorialSection]
 
         Keys.onPressed: (event) => {
+            if ([Qt.Key_Enter, Qt.Key_Left, Qt.Key_Return, Qt.Key_Right, Qt.Key_Space].indexOf(event.key) === -1)
+                return;
+            event.accepted = true;
             if(items.buttonsBlocked)
                 return
             if(event.key === Qt.Key_Enter || event.key === Qt.Key_Return) {

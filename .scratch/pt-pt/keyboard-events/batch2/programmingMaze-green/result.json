@@ -1,0 +1,27 @@
+{
+  "activity": "programmingMaze",
+  "locale": "pt_PT",
+  "qml_file": "programmingMaze/ProgrammingMaze.qml",
+  "source_sha256": "b1e6cf4b2f9bd7aea561736b0712798a8b87f99438e0aa8150b2614ac65554d0",
+  "portuguese_catalogue_sha256": "95903c77e759053ce1a836472004f0defd91fe9cce1fce0d8c61850e86c82688",
+  "private_qm_sha256": "41140448e938237c839d40b5f01fe47f62fdb8389b75cac4a9b3eacd9c9722d3",
+  "case_sha256": "ecdb205bd52674aed7cb6bcb61a6214047cb1205fd9b43642a12de95ccf4f1c8",
+  "private_rcc_sha256": "734762353aa903b7e2f39331d4e11542ae6ea579f52eabab2199babf7f94ab23",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-duplicate-keys/build/native-qml/8c9a1e6a7f81489c9d3c10079ebe713c",
+  "version_code": 260200,
+  "network": "not-enforced",
+  "timestamp_utc": "2026-10-15T21:21:31.292013+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [],
+  "passed": true,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 0,
+    "passes": 2,
+    "menuCalls": 1
+  }
+}

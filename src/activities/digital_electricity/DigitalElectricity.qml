@@ -47,6 +47,10 @@ ActivityBase {
         Keys.forwardTo: [tutorialInstruction]
 
         Keys.onPressed: (event) => {
+            if ([Qt.Key_Down, Qt.Key_Enter, Qt.Key_Left, Qt.Key_Minus, Qt.Key_Plus, Qt.Key_Return,
+                 Qt.Key_Right, Qt.Key_Up].indexOf(event.key) === -1)
+                return;
+            event.accepted = true;
             if ((event.key === Qt.Key_Return || event.key === Qt.Key_Enter) && okButton.enabled) {
                 Activity.checkAnswer()
             }

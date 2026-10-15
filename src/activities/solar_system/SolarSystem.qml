@@ -92,6 +92,10 @@ ActivityBase {
         Keys.forwardTo: [message]
 
         Keys.onPressed: (event) => {
+            if ([Qt.Key_Down, Qt.Key_Enter, Qt.Key_Left, Qt.Key_Return, Qt.Key_Right, Qt.Key_Space,
+                 Qt.Key_Up].indexOf(event.key) === -1)
+                return;
+            event.accepted = true;
             if(!mainQuizScreen.visible) {
                 if(event.key === Qt.Key_Down) {
                     planetView.moveCurrentIndexDown();

@@ -1,0 +1,27 @@
+{
+  "activity": "submarine",
+  "locale": "pt_PT",
+  "qml_file": "submarine/Submarine.qml",
+  "source_sha256": "c156f0357b8f9f5e592c5fb97f2be49dbeac3cf8bb4d0753732d82166a2e94d8",
+  "portuguese_catalogue_sha256": "95903c77e759053ce1a836472004f0defd91fe9cce1fce0d8c61850e86c82688",
+  "private_qm_sha256": "41140448e938237c839d40b5f01fe47f62fdb8389b75cac4a9b3eacd9c9722d3",
+  "case_sha256": "3ebf7bd48cb634df94de47c69d2c5f4530d3bfd741f53ea94069f540aeb1fded",
+  "private_rcc_sha256": "909da84a35177ccbc8c15f0978a099c70086fb6109883048c48507737a9178c8",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-duplicate-keys/build/native-qml/5ebd6d4e1f2f4c4b9f9a7e12c583e0ed",
+  "version_code": 260200,
+  "network": "not-enforced",
+  "timestamp_utc": "2026-10-15T21:20:07.821371+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [],
+  "passed": false,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 1,
+    "passes": 1,
+    "menuCalls": 0
+  }
+}

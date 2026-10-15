@@ -1,0 +1,27 @@
+{
+  "activity": "solar_system",
+  "locale": "pt_PT",
+  "qml_file": "solar_system/SolarSystem.qml",
+  "source_sha256": "fb37868cd783e324e575fc144b4a6e4168ba6bbdc16555a89b6d053d592dafb5",
+  "portuguese_catalogue_sha256": "95903c77e759053ce1a836472004f0defd91fe9cce1fce0d8c61850e86c82688",
+  "private_qm_sha256": "41140448e938237c839d40b5f01fe47f62fdb8389b75cac4a9b3eacd9c9722d3",
+  "case_sha256": "6777e3dd6d770fdd226ce1c64c488bcc3a90d0ffc44fa678d446ab5c6a5dfad1",
+  "private_rcc_sha256": "34e4e37f4e8a6ef60be5f506458dc5f4be23396f7bf4f9d5e0547ec069d12cdb",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-duplicate-keys/build/native-qml/635d5a2970fe4ae98cb4cb70b3549a7d",
+  "version_code": 260200,
+  "network": "not-enforced",
+  "timestamp_utc": "2026-10-15T21:21:31.392251+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [],
+  "passed": true,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 0,
+    "passes": 2,
+    "menuCalls": 1
+  }
+}

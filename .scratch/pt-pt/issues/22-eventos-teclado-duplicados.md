@@ -27,3 +27,12 @@ align4_2players e money. Evidência antes/depois e limites em
 `../keyboard-events/README.md`. Apenas teclas reconhecidas são aceites;
 ActivityBase e memória não foram alterados. As restantes candidatas continuam
 sem prova nativa nesta tarefa; a tarefa global mantém-se claimed.
+
+## Segundo lote
+
+Dez motores ensaiados: nove defeitos reproduzidos e corrigidos e um controlo
+negativo, learn_digits, que passou sem alterações. Provas e limites no mesmo
+README e em `../keyboard-events/batch2/summary.json`. Inventário atualizado:
+sete candidatos estáticos, dos quais learn_digits não reproduz o defeito;
+crane, guess24, note_names e três listas de diálogo/menu permanecem sem prova
+nativa neste lote. `Progress: claimed` mantém a pendência explícita.

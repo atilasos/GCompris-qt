@@ -1,0 +1,27 @@
+{
+  "activity": "analog_electricity",
+  "locale": "pt_PT",
+  "qml_file": "analog_electricity/AnalogElectricity.qml",
+  "source_sha256": "6643136e5a300e03f556378e207f1c5a06f0e598fb8671c90154bbf161468cb3",
+  "portuguese_catalogue_sha256": "95903c77e759053ce1a836472004f0defd91fe9cce1fce0d8c61850e86c82688",
+  "private_qm_sha256": "41140448e938237c839d40b5f01fe47f62fdb8389b75cac4a9b3eacd9c9722d3",
+  "case_sha256": "c1f826cdf5ad79efeb19ea9a3dd48b18b5e7058b2ad65f06559dc549810ebab5",
+  "private_rcc_sha256": "263b984c554e49b9c557675250552e15ddafac37b1370c96d1c879c92485d933",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-duplicate-keys/build/native-qml/c335aca5958c4251bb81b811a23a7908",
+  "version_code": 260200,
+  "network": "not-enforced",
+  "timestamp_utc": "2026-10-15T21:19:58.712982+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [],
+  "passed": false,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 1,
+    "passes": 1,
+    "menuCalls": 0
+  }
+}

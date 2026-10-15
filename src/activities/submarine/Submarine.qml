@@ -58,6 +58,13 @@ ActivityBase {
         
         /* Testing purposes, A / Left Key => Reduces velocity, D / Right Key => Increases velocity */
         Keys.onPressed: (event) => {
+            if (event.modifiers === Qt.ControlModifier && event.key === Qt.Key_W)
+                return;
+
+            if ([Qt.Key_A, Qt.Key_D, Qt.Key_Down, Qt.Key_F, Qt.Key_G, Qt.Key_Left, Qt.Key_Minus,
+                 Qt.Key_Plus, Qt.Key_R, Qt.Key_Right, Qt.Key_S, Qt.Key_T, Qt.Key_Up, Qt.Key_W].indexOf(event.key) === -1)
+                return;
+            event.accepted = true;
             if (event.key === Qt.Key_D || event.key === Qt.Key_Right) {
                 submarine.increaseHorizontalVelocity(1)
             }

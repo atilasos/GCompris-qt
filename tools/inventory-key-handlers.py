@@ -34,7 +34,7 @@ def inventory(root):
                     if function:
                         delegated.append(block(text, function.end() - 1))
             handles_arrows = bool(re.search(r'Qt\.Key_(?:Left|Right|Up|Down)', body + ''.join(delegated)))
-            consumes = bool(re.search(r'event\.accepted\s*=\s*true', body + ''.join(delegated)))
+            consumes = bool(re.search(r'event\.accepted\s*=', body + ''.join(delegated)))
             result.append({'path': str(path.relative_to(root)), 'line': source.count('\n', 0, match.start()) + 1,
                            'has_arrow_branch': handles_arrows, 'has_explicit_acceptance': consumes,
                            'delegates': calls, 'candidate': handles_arrows and not consumes})
