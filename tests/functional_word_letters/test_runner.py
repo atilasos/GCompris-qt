@@ -68,5 +68,36 @@ class LessonCheckpointTest(unittest.TestCase):
         self.assertEqual(self.invoke(resume=True),0)
         self.assertEqual(len(self.log.read_text().splitlines()),16)
 
+    def test_resume_rechecks_changed_frozen_inputs_and_launcher(self):
+        self.assertEqual(self.invoke(),0)
+        expected=8
+        for relative in ('poqm/pt/gcompris_qt.po',
+                         'build/functional-input/libfunctionalinput.so',
+                         'tools/run-native-qml-case.py'):
+            with self.subTest(input=relative):
+                path=self.root/relative
+                with path.open('a') as stream:stream.write('\n# changed proof input\n')
+                self.assertEqual(self.invoke(resume=True),0)
+                expected+=8
+                self.assertEqual(len(self.log.read_text().splitlines()),expected)
+                self.assertEqual(self.invoke(resume=True),0)
+                self.assertEqual(len(self.log.read_text().splitlines()),expected)
+
+    def test_invalid_lesson_combinations_reject_before_preparation(self):
+        for activity in ('hangman','letter-in-word'):
+            for lessons in ((999,),(0,),(-1,),(1,999)):
+                with self.subTest(activity=activity,lessons=lessons):
+                    command=[sys.executable,str(self.root/'tests/functional_word_letters/run.py'),
+                        '--activity',activity,'--full-snapshot',str(self.root/'absent-full'),
+                        '--sample-snapshot',str(self.root/'absent-sample'),
+                        '--output',str(self.output)]
+                    for lesson in lessons:command.extend(['--lesson',str(lesson)])
+                    result=subprocess.run(command,text=True,capture_output=True,timeout=10)
+                    self.assertEqual(result.returncode,2,result.stdout+result.stderr)
+                    self.assertIn('No applicable lessons',result.stderr)
+                    self.assertFalse(self.output.exists())
+                    self.assertFalse((self.root/'build/word-letter-sources').exists())
+                    self.assertFalse(self.log.exists())
+
 
 if __name__=='__main__':unittest.main()

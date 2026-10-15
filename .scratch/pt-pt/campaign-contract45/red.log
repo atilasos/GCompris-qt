@@ -1,0 +1,118 @@
+test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) ... 
+  test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) (activity='hangman', lessons=(999,)) ... FAIL
+  test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) (activity='hangman', lessons=(0,)) ... FAIL
+  test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) (activity='hangman', lessons=(-1,)) ... FAIL
+  test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) (activity='hangman', lessons=(1, 999)) ... FAIL
+  test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) (activity='letter-in-word', lessons=(999,)) ... FAIL
+  test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) (activity='letter-in-word', lessons=(0,)) ... FAIL
+  test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) (activity='letter-in-word', lessons=(-1,)) ... FAIL
+  test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) (activity='letter-in-word', lessons=(1, 999)) ... FAIL
+test_resume_rechecks_changed_frozen_inputs_and_launcher (test_runner.LessonCheckpointTest.test_resume_rechecks_changed_frozen_inputs_and_launcher) ... 
+  test_resume_rechecks_changed_frozen_inputs_and_launcher (test_runner.LessonCheckpointTest.test_resume_rechecks_changed_frozen_inputs_and_launcher) (input='poqm/pt/gcompris_qt.po') ... FAIL
+  test_resume_rechecks_changed_frozen_inputs_and_launcher (test_runner.LessonCheckpointTest.test_resume_rechecks_changed_frozen_inputs_and_launcher) (input='build/functional-input/libfunctionalinput.so') ... FAIL
+  test_resume_rechecks_changed_frozen_inputs_and_launcher (test_runner.LessonCheckpointTest.test_resume_rechecks_changed_frozen_inputs_and_launcher) (input='tools/run-native-qml-case.py') ... FAIL
+test_resume_retains_semantically_identical_json_inputs_but_rechecks_changed_words (test_runner.LessonCheckpointTest.test_resume_retains_semantically_identical_json_inputs_but_rechecks_changed_words) ... ok
+
+======================================================================
+FAIL: test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) (activity='hangman', lessons=(999,))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tests/functional_word_letters/test_runner.py", line 96, in test_invalid_lesson_combinations_reject_before_preparation
+    self.assertEqual(result.returncode,2,result.stdout+result.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 2 : 
+
+======================================================================
+FAIL: test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) (activity='hangman', lessons=(0,))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tests/functional_word_letters/test_runner.py", line 97, in test_invalid_lesson_combinations_reject_before_preparation
+    self.assertIn('No applicable lessons',result.stderr)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'No applicable lessons' not found in 'usage: run.py [-h] --full-snapshot FULL_SNAPSHOT\n              --sample-snapshot SAMPLE_SNAPSHOT --output OUTPUT [--jobs JOBS]\n              [--resume] [--activity {hangman,letter-in-word}]\n              [--lesson LESSON]\nrun.py: error: Use new output or explicit --resume\n'
+
+======================================================================
+FAIL: test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) (activity='hangman', lessons=(-1,))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tests/functional_word_letters/test_runner.py", line 97, in test_invalid_lesson_combinations_reject_before_preparation
+    self.assertIn('No applicable lessons',result.stderr)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'No applicable lessons' not found in 'usage: run.py [-h] --full-snapshot FULL_SNAPSHOT\n              --sample-snapshot SAMPLE_SNAPSHOT --output OUTPUT [--jobs JOBS]\n              [--resume] [--activity {hangman,letter-in-word}]\n              [--lesson LESSON]\nrun.py: error: Use new output or explicit --resume\n'
+
+======================================================================
+FAIL: test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) (activity='hangman', lessons=(1, 999))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tests/functional_word_letters/test_runner.py", line 97, in test_invalid_lesson_combinations_reject_before_preparation
+    self.assertIn('No applicable lessons',result.stderr)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'No applicable lessons' not found in 'usage: run.py [-h] --full-snapshot FULL_SNAPSHOT\n              --sample-snapshot SAMPLE_SNAPSHOT --output OUTPUT [--jobs JOBS]\n              [--resume] [--activity {hangman,letter-in-word}]\n              [--lesson LESSON]\nrun.py: error: Use new output or explicit --resume\n'
+
+======================================================================
+FAIL: test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) (activity='letter-in-word', lessons=(999,))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tests/functional_word_letters/test_runner.py", line 97, in test_invalid_lesson_combinations_reject_before_preparation
+    self.assertIn('No applicable lessons',result.stderr)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'No applicable lessons' not found in 'usage: run.py [-h] --full-snapshot FULL_SNAPSHOT\n              --sample-snapshot SAMPLE_SNAPSHOT --output OUTPUT [--jobs JOBS]\n              [--resume] [--activity {hangman,letter-in-word}]\n              [--lesson LESSON]\nrun.py: error: Use new output or explicit --resume\n'
+
+======================================================================
+FAIL: test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) (activity='letter-in-word', lessons=(0,))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tests/functional_word_letters/test_runner.py", line 97, in test_invalid_lesson_combinations_reject_before_preparation
+    self.assertIn('No applicable lessons',result.stderr)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'No applicable lessons' not found in 'usage: run.py [-h] --full-snapshot FULL_SNAPSHOT\n              --sample-snapshot SAMPLE_SNAPSHOT --output OUTPUT [--jobs JOBS]\n              [--resume] [--activity {hangman,letter-in-word}]\n              [--lesson LESSON]\nrun.py: error: Use new output or explicit --resume\n'
+
+======================================================================
+FAIL: test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) (activity='letter-in-word', lessons=(-1,))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tests/functional_word_letters/test_runner.py", line 97, in test_invalid_lesson_combinations_reject_before_preparation
+    self.assertIn('No applicable lessons',result.stderr)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'No applicable lessons' not found in 'usage: run.py [-h] --full-snapshot FULL_SNAPSHOT\n              --sample-snapshot SAMPLE_SNAPSHOT --output OUTPUT [--jobs JOBS]\n              [--resume] [--activity {hangman,letter-in-word}]\n              [--lesson LESSON]\nrun.py: error: Use new output or explicit --resume\n'
+
+======================================================================
+FAIL: test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) (activity='letter-in-word', lessons=(1, 999))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tests/functional_word_letters/test_runner.py", line 97, in test_invalid_lesson_combinations_reject_before_preparation
+    self.assertIn('No applicable lessons',result.stderr)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'No applicable lessons' not found in 'usage: run.py [-h] --full-snapshot FULL_SNAPSHOT\n              --sample-snapshot SAMPLE_SNAPSHOT --output OUTPUT [--jobs JOBS]\n              [--resume] [--activity {hangman,letter-in-word}]\n              [--lesson LESSON]\nrun.py: error: Use new output or explicit --resume\n'
+
+======================================================================
+FAIL: test_resume_rechecks_changed_frozen_inputs_and_launcher (test_runner.LessonCheckpointTest.test_resume_rechecks_changed_frozen_inputs_and_launcher) (input='poqm/pt/gcompris_qt.po')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tests/functional_word_letters/test_runner.py", line 82, in test_resume_rechecks_changed_frozen_inputs_and_launcher
+    self.assertEqual(len(self.log.read_text().splitlines()),expected)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 8 != 16
+
+======================================================================
+FAIL: test_resume_rechecks_changed_frozen_inputs_and_launcher (test_runner.LessonCheckpointTest.test_resume_rechecks_changed_frozen_inputs_and_launcher) (input='build/functional-input/libfunctionalinput.so')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tests/functional_word_letters/test_runner.py", line 82, in test_resume_rechecks_changed_frozen_inputs_and_launcher
+    self.assertEqual(len(self.log.read_text().splitlines()),expected)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 8 != 24
+
+======================================================================
+FAIL: test_resume_rechecks_changed_frozen_inputs_and_launcher (test_runner.LessonCheckpointTest.test_resume_rechecks_changed_frozen_inputs_and_launcher) (input='tools/run-native-qml-case.py')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tests/functional_word_letters/test_runner.py", line 82, in test_resume_rechecks_changed_frozen_inputs_and_launcher
+    self.assertEqual(len(self.log.read_text().splitlines()),expected)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 8 != 32
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.039s
+
+FAILED (failures=11)

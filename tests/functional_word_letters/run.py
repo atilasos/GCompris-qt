@@ -69,12 +69,16 @@ def main():
     parser.add_argument('--lesson',type=int,action='append',help='Optional1-based tracer lesson filter')
     args=parser.parse_args()
     if args.jobs<1:parser.error('jobs must be positive')
+    data=corpus()
+    available_lessons={index+1 for lessons in data['datasets'].values() for index in range(len(lessons))}
+    if not available_lessons or set(args.lesson or [])-available_lessons:
+        parser.error('No applicable lessons for the selected lesson numbers')
     if args.output.exists() and not args.resume:parser.error('Use new output or explicit --resume')
     args.output.mkdir(parents=True,exist_ok=True)
-    data=corpus()
     template=(Path(__file__).parent/(args.activity+'.qml')).read_text()
     source=ROOT/'src/activities'/args.activity/('Hangman.qml' if args.activity=='hangman' else 'LetterInWord.qml')
     current_source_sha=source_digest(source.parent)
+    launcher_sha=sha(ROOT/'tools/run-native-qml-case.py')
     frozen_root,frozen_sha=freeze_sources(args.activity)
     frozen_source=frozen_root/source.relative_to(ROOT)
     tasks=[]
@@ -108,7 +112,7 @@ def main():
         name=task['name']; previous=sorted(args.output.glob(name+'/attempt*/checkpoint.json'))
         for checkpoint in reversed(previous):
             row=json.loads(checkpoint.read_text())
-            if row['passed'] and row['launcher_exit']==0 and sha(args.output/row['report'])==row['report_sha256'] and row['case_sha256']==sha(task['case']) and row['source_sha256']==current_source_sha and row['snapshot_sha256']==sha(task['snapshot']/'manifest.json'):
+            if row['passed'] and row['launcher_exit']==0 and row.get('frozen_source_sha256')==frozen_sha and row.get('launcher_sha256')==launcher_sha and sha(args.output/row['report'])==row['report_sha256'] and row['case_sha256']==sha(task['case']) and row['source_sha256']==current_source_sha and row['snapshot_sha256']==sha(task['snapshot']/'manifest.json'):
                 return row
         attempts=list(args.output.glob(name+'/attempt[0-9][0-9]'))
         attempt=max([int(path.name[7:]) for path in attempts] or [0])+1
@@ -125,7 +129,7 @@ def main():
         actual=len(completions)
         expected=task['expected'] if args.activity=='hangman' else case_result.get('expectedQuestions',-1)
         row={'name':name,'command':command,'launcher_exit':result.returncode,'passed':result.returncode==0 and report.get('passed',False) and actual==expected,
-            'frozen_source_sha256':frozen_sha,'expected':expected,'completed':actual,'case_sha256':sha(task['case']),'source_sha256':current_source_sha,
+            'frozen_source_sha256':frozen_sha,'launcher_sha256':launcher_sha,'expected':expected,'completed':actual,'case_sha256':sha(task['case']),'source_sha256':current_source_sha,
             'snapshot_sha256':sha(task['snapshot']/'manifest.json'),'report_sha256':sha(output/'result.json') if (output/'result.json').exists() else None,
             'report':str((output/'result.json').relative_to(args.output)),'utc':datetime.now(timezone.utc).isoformat()}
         output.mkdir(parents=True,exist_ok=True)
@@ -137,7 +141,7 @@ def main():
         for future in as_completed([pool.submit(run,task) for task in tasks]):
             rows.append(future.result())
             (args.output/'summary.json').write_text(json.dumps(sorted(rows,key=lambda row:row['name']),indent=2)+'\n')
-    return 0 if all(row['passed'] for row in rows) else 1
+    return 0 if rows and all(row['passed'] for row in rows) else 1
 
 
 if __name__=='__main__':raise SystemExit(main())

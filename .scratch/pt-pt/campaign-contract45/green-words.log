@@ -1,0 +1,9 @@
+test_every_translated_word_is_usable_in_complete_and_sample_lessons (test_corpus.PortugueseCorpusTest.test_every_translated_word_is_usable_in_complete_and_sample_lessons) ... ok
+test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) ... ok
+test_resume_rechecks_changed_frozen_inputs_and_launcher (test_runner.LessonCheckpointTest.test_resume_rechecks_changed_frozen_inputs_and_launcher) ... ok
+test_resume_retains_semantically_identical_json_inputs_but_rechecks_changed_words (test_runner.LessonCheckpointTest.test_resume_retains_semantically_identical_json_inputs_but_rechecks_changed_words) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.590s
+
+OK

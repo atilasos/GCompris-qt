@@ -1,0 +1,8 @@
+{
+  "campaigns": 174,
+  "questions": 1740,
+  "reports_all_hashes_match": true,
+  "launchers_all_exit_zero": true,
+  "summary_sha256": "991180e0d172574900494288d07fb122cfd6cdadbbb4a5bb9fbd0689f82d8cea",
+  "note": "Historical receipts unchanged; no Qt cases relaunched and no missing proof identities invented."
+}
