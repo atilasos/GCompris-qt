@@ -23,3 +23,12 @@ python3 tests/functional_word_letters/corpus.py
 A validação interativa completa continua em curso. Este checkpoint não declara
 concluídos os níveis de Hangman. Recursos serão recompilados e selados
 privadamente; Windows, audição física e aprovação docente permanecem separados.
+
+## Total de níveis publicado
+
+O ensaio nativo `letter-level-count-red` confirmou activity.numberOfLevel=0,
+com23 lições carregadas e11 cartões visíveis. O start() calculava maxLevel mas
+não o publicava em items.numberOfLevel, que atualiza ActivityBase. A correção
+publica esse total; `letter-level-count-green` observa23 e passa. Isto corrige
+a informação usada por ActivityBase na decisão de avançar numa sequência;
+a prova isolada cobre o contrato público do total, não uma sequência completa.
