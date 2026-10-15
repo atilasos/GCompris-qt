@@ -1,0 +1,27 @@
+{
+  "activity": "guess24",
+  "locale": "pt_PT",
+  "qml_file": "guess24/Guess24.qml",
+  "source_sha256": "32049beb1d321a4ba62104cc6e19d006d77f3e777490db48d219a4ff12361cc1",
+  "portuguese_catalogue_sha256": "95903c77e759053ce1a836472004f0defd91fe9cce1fce0d8c61850e86c82688",
+  "private_qm_sha256": "41140448e938237c839d40b5f01fe47f62fdb8389b75cac4a9b3eacd9c9722d3",
+  "case_sha256": "2dffaa9f1274993b0cc2b3170d0b2e2e4b71edcbda6a8e66178ccc460337a534",
+  "private_rcc_sha256": "bbbe04f8482fb5271245cbf3f2b511f7416b6bbb59ff2082aa12582a1dd167a5",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-duplicate-keys/build/native-qml/2ee0d696f15c4108bd294cbdbc6ccee0",
+  "version_code": 260200,
+  "network": "not-enforced",
+  "timestamp_utc": "2026-10-15T21:26:37.198209+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [],
+  "passed": false,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 1,
+    "passes": 1,
+    "menuCalls": 0
+  }
+}

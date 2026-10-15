@@ -353,6 +353,11 @@ function moveToNextCard() {
 }
 
 function handleKeys(event) {
+    if ([Qt.Key_Up, Qt.Key_Down, Qt.Key_Left, Qt.Key_Right, Qt.Key_Return, Qt.Key_Enter,
+         Qt.Key_Space, Qt.Key_Plus, Qt.Key_Minus, Qt.Key_Asterisk, Qt.Key_Slash,
+         Qt.Key_Delete, Qt.Key_Backspace, Qt.Key_Tab].indexOf(event.key) === -1)
+        return;
+    event.accepted = true;
     if (items.buttonsBlocked)
         return
     items.keyboardNavigation = true

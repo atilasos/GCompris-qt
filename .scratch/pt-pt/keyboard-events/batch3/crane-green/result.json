@@ -1,0 +1,27 @@
+{
+  "activity": "crane",
+  "locale": "pt_PT",
+  "qml_file": "crane/Crane.qml",
+  "source_sha256": "ad5188db6249f59e55f661721b56e12e85235da4e37f654de09d5240eff3caf6",
+  "portuguese_catalogue_sha256": "95903c77e759053ce1a836472004f0defd91fe9cce1fce0d8c61850e86c82688",
+  "private_qm_sha256": "41140448e938237c839d40b5f01fe47f62fdb8389b75cac4a9b3eacd9c9722d3",
+  "case_sha256": "45c57ba95859242b16ee0a5f7556faa307cea00a639294381241e17c4ff308b7",
+  "private_rcc_sha256": "4883a6da72bb18f84d6821b195440e77eb9db0bb5b958609e94055fcb86f40bc",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-duplicate-keys/build/native-qml/45681f6064b047fd963d6de048e09371",
+  "version_code": 260200,
+  "network": "not-enforced",
+  "timestamp_utc": "2026-10-15T21:29:17.049095+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [],
+  "passed": true,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 0,
+    "passes": 2,
+    "menuCalls": 1
+  }
+}
