@@ -50,7 +50,7 @@ def main():
         relative = qml_path.relative_to(ROOT / 'src/activities')
     except ValueError:
         parser.error('--qml-file must be under this checkout src/activities')
-    if len(relative.parts) < 2 or not re.fullmatch(r'[a-z0-9_-]+', args.activity):
+    if len(relative.parts) < 2 or not re.fullmatch(r'[A-Za-z0-9_-]+', args.activity):
         parser.error('Invalid activity or QML source path')
     if output.exists() and any(output.iterdir()):
         parser.error('Use a new empty output directory for every run')
@@ -129,7 +129,7 @@ def main():
                 'private_qm_sha256': sha(qm), 'case_sha256': sha(args.case), 'private_rcc_sha256': sha(rcc),
                 'binary_sha256': sha(binary), 'runner_sha256': sha(Path(__file__)), 'deployment': str(deployment), 'version_code': version_code,
                 'network': 'docker-none' if args.offline else 'not-enforced', 'timestamp_utc': datetime.now(timezone.utc).isoformat(),
-                'scope': 'Only actions and assertions in the named case; muted native Qt, not Windows or audio approval.'}
+                'scope': 'Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.'}
     log_path = output / 'native.log'
     timeout = False
     with log_path.open('w') as log:
