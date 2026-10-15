@@ -1,7 +1,7 @@
 # Verificar bloqueio dos algarismos no teclado visual
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -13,3 +13,11 @@ os dez algarismos e Backspace. O valor de entrada e enableInput são fixtures
 ao nível do componente, não resolução de puzzles. Corrigir apenas se o teste
 provar a violação. Provar também cliques normais quando enableInput=true.
 Não declarar conclusão de atividades a partir deste contrato de componente.
+
+## Answer
+
+Falha reproduzida em Qt nativo: os botões0–4 respeitavam enableInput=false,
+mas5–9 alteravam a resposta. Acrescentada uma guarda no MouseArea da coluna
+direita. Dois ensaios verdes independentes passaram10cliques bloqueados e
+10ativos, além deBackspace. A preparação do segundo ensaio foi executada pelo
+script reproduzível entregue. [Provas e limites](../numpad-lock/README.md).

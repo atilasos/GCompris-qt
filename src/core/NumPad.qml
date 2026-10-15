@@ -257,7 +257,7 @@ Item {
                     anchors.fill: parent
                     width: parent.width * 2
                     enabled: ApplicationSettings.isVirtualKeyboard &&
-                             containerPanel.opacity > 0
+                             containerPanel.opacity > 0 && containerPanel.enableInput
 
                     onClicked: {
                         if(answer.length < maxDigit)
