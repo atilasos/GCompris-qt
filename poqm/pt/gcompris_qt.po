@@ -22730,7 +22730,7 @@ msgstr ""
 #: activities/ordering_sentences/resource/1/Data.qml:13
 msgctxt "Data|"
 msgid "Below 5 words."
-msgstr "Abaixo de 5 palavras."
+msgstr "Até 5 palavras."
 
 #. These sentences should not need to be translated word by word. Please add at least 10 sentences, each one being between 3 and 5 words. Use | to separate group of words. The aim of the string is to shuffle the group of words and let the child reorder them correctly. We should not be able to form a correct sentence by shuffling some words in the final sentence.
 #: activities/ordering_sentences/resource/1/Data.qml:18
@@ -22756,12 +22756,12 @@ msgstr ""
 "A|Joana|quer|um|livro.\n"
 "A|mãe|fez-me|uma|sandes.\n"
 "Os|tigres|vivem|nas|florestas.\n"
-"O|futebol|é|um|jogo|em equipa."
+"O|futebol|joga-se|em|equipa."
 
 #: activities/ordering_sentences/resource/2/Data.qml:13
 msgctxt "Data|"
 msgid "Below 10 words."
-msgstr "Abaixo de 10 palavras."
+msgstr "Até 10 palavras."
 
 #. These sentences should not need to be translated word by word. Please add at least 10 sentences, each one being between 6 and 10 words. Use | to separate group of words. The aim of the string is to shuffle the group of words and let the child reorder them correctly. We should not be able to form a correct sentence by shuffling some words in the final sentence.
 #: activities/ordering_sentences/resource/2/Data.qml:18
@@ -22778,12 +22778,12 @@ msgid ""
 "Mom|has|asked|me|to|play|in|the|room.\n"
 "I|think|we|are|going|to|have|a|good|day."
 msgstr ""
-"O|Sol|brilha|no|céu.\n"
+"O|Sol|brilha|no|céu|azul.\n"
 "As|crianças|gostam|de|se|divertir|à|noite.\n"
-"Vais|sair|para|almoçar?\n"
+"Vais|sair|de|casa|para|almoçar?\n"
 "A|menina|calçou|os|sapatos|e|saiu.\n"
 "O|José|ficou|doente|depois|de|comer|chocolates|grandes.\n"
-"A|nossa|família|vai|de|férias|para|a|praia|todos|os|anos.\n"
+"A|nossa|família|passa|férias|na|praia|todos|os|anos.\n"
 "O|tio|Paulo|deu-me|um|camião|vermelho.\n"
 "Quando|terminares|o|arroz|podes|comer|a|sobremesa.\n"
 "A|mãe|pediu-me|para|brincar|no|quarto.\n"
