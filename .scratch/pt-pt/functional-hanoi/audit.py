@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the four final native Hanoi receipts and write their evidence index."""
+"""Verify final native Hanoi receipts and write their evidence index."""
 import hashlib
 import json
 from pathlib import Path
@@ -11,6 +11,8 @@ CASES = {
     "simplified-visual-order": ("hanoi", "tests/hanoi_simplified.qml"),
     "controls-real-settled": ("hanoi_real", "tests/hanoi_controls.qml"),
     "controls-simplified-settled": ("hanoi", "tests/hanoi_controls.qml"),
+    "covered-classic": ("hanoi_real", "tests/hanoi_covered.qml"),
+    "covered-simplified": ("hanoi", "tests/hanoi_covered.qml"),
 }
 
 
@@ -50,6 +52,25 @@ def audit():
             assert all(len(x["reference"]) == x["height"] for x in record["completed"])
             assert sum(x["moves"] for x in record["completed"]) == record["moves"] == 213
             assert record["rejected"] == 12
+        elif name.startswith("covered-"):
+            covered = record["covered"]
+            assert covered["activity"] == activity
+            assert covered["coveredNeverMoved"] and covered["onlyTopRedirected"] and covered["exposedMoved"]
+            lower = covered["selectedLower"]
+            assert not covered["initial"][lower]["enabled"]
+            assert len(covered["redirects"]) == (2 if activity == "hanoi_real" else 3)
+            for step in covered["redirects"]:
+                before, after, upper = step["before"], step["after"], step["upper"]
+                assert not before[lower]["enabled"] and before[upper]["enabled"]
+                assert before[upper]["parent"] != after[upper]["parent"]
+                assert before[lower]["x"] == step["start"][0] and before[lower]["y"] == step["start"][1]
+                assert len(before) == len(after)
+                for index in range(len(before)):
+                    if index != upper:
+                        assert all(before[index][field] == after[index][field]
+                                   for field in ("parent", "x", "y", "width", "height"))
+            assert covered["exposedBefore"][lower]["enabled"]
+            assert covered["exposedBefore"][lower]["parent"] != covered["exposedAfter"][lower]["parent"]
         else:
             controls = record["controls"]
             assert controls["helpClosedWithEscape"] and controls["reloadClearedPartial"]
@@ -64,7 +85,7 @@ def audit():
     artifacts = {str(path.relative_to(HERE)): sha(path)
                  for name in CASES for path in sorted((HERE / name).iterdir())
                  if path.is_file()}
-    return {"passed": True, "scope": "Linux native offline; four final cases only",
+    return {"passed": True, "scope": "Linux native offline; six final cases only",
             "cases": receipts, "artifact_sha256": artifacts}
 
 
