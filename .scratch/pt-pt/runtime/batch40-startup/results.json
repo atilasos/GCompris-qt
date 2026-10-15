@@ -1,0 +1,123 @@
+[
+  {
+    "activity": "peg_solitaire",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/batch40-startup/peg_solitaire.log"
+  },
+  {
+    "activity": "hangman",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/batch40-startup/hangman.log"
+  },
+  {
+    "activity": "letter-in-word",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/batch40-startup/letter-in-word.log"
+  },
+  {
+    "activity": "scalesboard",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/batch40-startup/scalesboard.log"
+  },
+  {
+    "activity": "scalesboard_weight",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/batch40-startup/scalesboard_weight.log"
+  },
+  {
+    "activity": "scalesboard_weight_avoirdupois",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/batch40-startup/scalesboard_weight_avoirdupois.log"
+  },
+  {
+    "activity": "memory",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/batch40-startup/memory.log"
+  },
+  {
+    "activity": "memory-tux",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/batch40-startup/memory-tux.log"
+  },
+  {
+    "activity": "memory-sound",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/batch40-startup/memory-sound.log"
+  },
+  {
+    "activity": "memory-sound-tux",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/batch40-startup/memory-sound-tux.log"
+  },
+  {
+    "activity": "memory-case-association-tux",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/batch40-startup/memory-case-association-tux.log"
+  }
+]

@@ -1,0 +1,182 @@
+{
+  "format": 1,
+  "native_cases": [
+    {
+      "activity": "memory",
+      "case": "gameplay",
+      "result": "sealed-gameplay/memory/gameplay/result.json",
+      "sha256": "60c375d613c7858867ec04e838b911dce88a9ef925292b864e5ed3c8b231de43",
+      "case_sha256": "daedcba756028061efc2453edcc08a87966924cd8ef373e2bde92f75ec96fe8a"
+    },
+    {
+      "activity": "memory-case-association-tux",
+      "case": "gameplay",
+      "result": "sealed-gameplay/memory-case-association-tux/gameplay/result.json",
+      "sha256": "c30881529f3ef2dab6ab0d9dc2a492da994a2517c8faeb09e93dea55a57ded22",
+      "case_sha256": "daedcba756028061efc2453edcc08a87966924cd8ef373e2bde92f75ec96fe8a"
+    },
+    {
+      "activity": "memory-sound",
+      "case": "gameplay",
+      "result": "sealed-gameplay/memory-sound/gameplay/result.json",
+      "sha256": "aaaeadf60da87d562ef85b9ffd284b95bb54a2d15c522319b6908fc9a3c465ef",
+      "case_sha256": "daedcba756028061efc2453edcc08a87966924cd8ef373e2bde92f75ec96fe8a"
+    },
+    {
+      "activity": "memory-sound-tux",
+      "case": "gameplay",
+      "result": "sealed-gameplay/memory-sound-tux/gameplay/result.json",
+      "sha256": "c6aeb45379b8998f6943205b362ef5a3c1e4b0da5743786efd70937acec2b53a",
+      "case_sha256": "daedcba756028061efc2453edcc08a87966924cd8ef373e2bde92f75ec96fe8a"
+    },
+    {
+      "activity": "memory-tux",
+      "case": "gameplay",
+      "result": "sealed-gameplay/memory-tux/gameplay/result.json",
+      "sha256": "726c7ddca0ab2302deed093bddada328e2d8166971d86c5a5f38916d82b48db8",
+      "case_sha256": "daedcba756028061efc2453edcc08a87966924cd8ef373e2bde92f75ec96fe8a"
+    },
+    {
+      "activity": "memory",
+      "case": "controls",
+      "result": "final-warning-controls/memory/controls/result.json",
+      "sha256": "cd7187cff809b92200e073e6344f60751bfc4278954e7b8e11bc4d561477bcb2",
+      "case_sha256": "f432e31f802f3239c855e3d296796fdc8af375ddeaa07aa8511ed9a3b42a8037"
+    },
+    {
+      "activity": "memory-case-association-tux",
+      "case": "controls",
+      "result": "final-warning-controls/memory-case-association-tux/controls/result.json",
+      "sha256": "0e31eb50a6f0753a9fd380b214f2c4d51923609810eea0f5174883604b010345",
+      "case_sha256": "f432e31f802f3239c855e3d296796fdc8af375ddeaa07aa8511ed9a3b42a8037"
+    },
+    {
+      "activity": "memory-sound",
+      "case": "controls",
+      "result": "final-warning-controls/memory-sound/controls/result.json",
+      "sha256": "e565654902310686673939204ebbc4453cab35d4a4f9f03333eed15864e98956",
+      "case_sha256": "f432e31f802f3239c855e3d296796fdc8af375ddeaa07aa8511ed9a3b42a8037"
+    },
+    {
+      "activity": "memory-sound-tux",
+      "case": "controls",
+      "result": "final-warning-controls/memory-sound-tux/controls/result.json",
+      "sha256": "db3092965b678ea2ba3073061f72546d34872e750e2e9a9bcd7b0188696d083f",
+      "case_sha256": "f432e31f802f3239c855e3d296796fdc8af375ddeaa07aa8511ed9a3b42a8037"
+    },
+    {
+      "activity": "memory-tux",
+      "case": "controls",
+      "result": "final-warning-controls/memory-tux/controls/result.json",
+      "sha256": "4641ab9bf09593feb20109e857c25ea6dedf8bc2d41b0d8332fff62866184583",
+      "case_sha256": "f432e31f802f3239c855e3d296796fdc8af375ddeaa07aa8511ed9a3b42a8037"
+    },
+    {
+      "activity": "memory",
+      "case": "restart",
+      "result": "final-warning-restart/memory/restart/result.json",
+      "sha256": "fb205ccd1edf5625592f8916991feba7f268a2ebd9f547ff3df5786056ddf044",
+      "case_sha256": "e3e2cef0cafd432cd52a2fe8670613adadacc7b5a050311a024ae308ab0e731e"
+    },
+    {
+      "activity": "memory-case-association-tux",
+      "case": "restart",
+      "result": "final-warning-restart/memory-case-association-tux/restart/result.json",
+      "sha256": "7ce291e767918c7451cdf1245213f8c69ea92ee13852374a3f65766d85b92840",
+      "case_sha256": "e3e2cef0cafd432cd52a2fe8670613adadacc7b5a050311a024ae308ab0e731e"
+    },
+    {
+      "activity": "memory-sound",
+      "case": "restart",
+      "result": "final-warning-restart/memory-sound/restart/result.json",
+      "sha256": "226de205dfeda2e1f51748347742c34d212911f818a407bc531fbefd919d939f",
+      "case_sha256": "e3e2cef0cafd432cd52a2fe8670613adadacc7b5a050311a024ae308ab0e731e"
+    },
+    {
+      "activity": "memory-sound-tux",
+      "case": "restart",
+      "result": "final-warning-restart/memory-sound-tux/restart/result.json",
+      "sha256": "0ce72ac1178507fad2ac28f19c727e35d3a36c36f3acf550f265482a8a218ea9",
+      "case_sha256": "e3e2cef0cafd432cd52a2fe8670613adadacc7b5a050311a024ae308ab0e731e"
+    },
+    {
+      "activity": "memory-tux",
+      "case": "restart",
+      "result": "final-warning-restart/memory-tux/restart/result.json",
+      "sha256": "88c0fae285d97b0bbbb685404c27dc6e83fa157e23ca5d81a11433918a44cba7",
+      "case_sha256": "e3e2cef0cafd432cd52a2fe8670613adadacc7b5a050311a024ae308ab0e731e"
+    },
+    {
+      "activity": "memory",
+      "case": "keyboard_home",
+      "result": "home-warning-green/memory/keyboard_home/result.json",
+      "sha256": "aaf1cc527b96783054736820d67765e0f88f376a4067f0f67dde34ce19db0d13",
+      "case_sha256": "c13364e254309fecf198f613e43908b6c47673243f3e2050110b281aca467be2"
+    },
+    {
+      "activity": "memory-case-association-tux",
+      "case": "keyboard_home",
+      "result": "home-warning-green/memory-case-association-tux/keyboard_home/result.json",
+      "sha256": "ab0353161308e82c3875ed34cc5701d2884a225136ab43574654536c6679762d",
+      "case_sha256": "c13364e254309fecf198f613e43908b6c47673243f3e2050110b281aca467be2"
+    },
+    {
+      "activity": "memory-sound",
+      "case": "keyboard_home",
+      "result": "home-warning-green/memory-sound/keyboard_home/result.json",
+      "sha256": "08e3bbd0d9403c5f86916c60b0e631b781bf474f4c7593c80efdc5b72a110f52",
+      "case_sha256": "c13364e254309fecf198f613e43908b6c47673243f3e2050110b281aca467be2"
+    },
+    {
+      "activity": "memory-sound-tux",
+      "case": "keyboard_home",
+      "result": "home-warning-green/memory-sound-tux/keyboard_home/result.json",
+      "sha256": "60913d4af0fbc111440b2441b71ec5951867023ec27794e484dfea37d9675411",
+      "case_sha256": "c13364e254309fecf198f613e43908b6c47673243f3e2050110b281aca467be2"
+    },
+    {
+      "activity": "memory-tux",
+      "case": "keyboard_home",
+      "result": "home-warning-green/memory-tux/keyboard_home/result.json",
+      "sha256": "f9903fb60d1d755e58dd6c2c0ee6ca4cb21555cfda2f26df691f24906cec19e0",
+      "case_sha256": "c13364e254309fecf198f613e43908b6c47673243f3e2050110b281aca467be2"
+    },
+    {
+      "activity": "memory-case-association-tux",
+      "case": "audio_probe",
+      "result": "final-warning-audio_probe/memory-case-association-tux/audio_probe/result.json",
+      "sha256": "3fbecdddcb20c5f0583084eef0b8697b07c7fa964dcd6f595c69db62b71a1450",
+      "case_sha256": "31a166fd2a3757de5480e77b648f1645506cd1233b82d9f8bcbd8081763ab954"
+    },
+    {
+      "activity": "memory-sound",
+      "case": "audio_probe",
+      "result": "final-warning-audio_probe/memory-sound/audio_probe/result.json",
+      "sha256": "bc5710af40a4f53bededa0649a82bc15d531e23070223a356370091f74e6ed2e",
+      "case_sha256": "31a166fd2a3757de5480e77b648f1645506cd1233b82d9f8bcbd8081763ab954"
+    },
+    {
+      "activity": "memory-sound-tux",
+      "case": "audio_probe",
+      "result": "final-warning-audio_probe/memory-sound-tux/audio_probe/result.json",
+      "sha256": "d0abd92df113482b8df1a675e3b09039361cb11e8dcd08a2b52d0e92fc36daf0",
+      "case_sha256": "31a166fd2a3757de5480e77b648f1645506cd1233b82d9f8bcbd8081763ab954"
+    },
+    {
+      "activity": "memory",
+      "case": "configuration",
+      "result": "configuration/memory/configuration/result.json",
+      "sha256": "b32a42a3d279d559a879dc3ea9813106ea8068e184ba307b048b1404425281c9",
+      "case_sha256": "8f2abd7bce8d6d71b44a06d5c0075dbd5a3e54ab19f51aad524a1c1d7062ee31"
+    },
+    {
+      "activity": "memory-sound",
+      "case": "configuration",
+      "result": "configuration/memory-sound/configuration/result.json",
+      "sha256": "0ee8a6a3e1679873da7e9b57b774bc3d05025adc2f70955377234914a706e0a3",
+      "case_sha256": "8f2abd7bce8d6d71b44a06d5c0075dbd5a3e54ab19f51aad524a1c1d7062ee31"
+    }
+  ],
+  "positive_cases": 25,
+  "scope": "Bounded Linux cases only; global acceptance, Windows, physical devices and teacher review pending."
+}
