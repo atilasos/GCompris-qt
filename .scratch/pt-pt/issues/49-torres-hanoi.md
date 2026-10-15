@@ -1,7 +1,7 @@
 # Validar as duas Torres de Hanói em PT-PT
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -17,3 +17,10 @@ Ajuda PT, navegação/reinício se exposto e menu; inventário dos recursos usad
 e perfil novo Qt offline, com recursos privados. TDD para defeitos, vermelho/
 verde e comandos/hashes. Não certificar Windows, touch/mobile, hardware ou
 revisão linguística/pedagógica docente pelos testes automáticos.
+
+## Answer
+
+Três níveis clássicos e seis simplificados completos por arrastos reais,
+com ordem vertical final verificada no ecrã, 15 tentativas proibidas e dois
+casos de controlos positivos. Sem alterações de produção. Provas, limites,
+hashes e comando de auditoria em `../functional-hanoi/README.md`.
