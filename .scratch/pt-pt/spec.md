@@ -19,6 +19,8 @@ num computador que nunca descarregou esses recursos.
 
 O professor confirmou Windows 10 de 64 bits e dispõe de um computador Windows
 adicional para testar o instalador antes da execução na escola.
+Esse computador pessoal tem Windows 11 25H2, compilação 26300.9711, conforme
+indicado pelo professor. O ensaio nesse sistema não substitui Windows 10 na escola.
 
 ## Critérios de aceitação
 

@@ -10,6 +10,9 @@ Windows 10 de 64 bits, versão 1809 ou posterior. Qt 6.10.2, compilador MSVC2022
 x64, DLLs redistribuíveis do MSVC incluídas. O Qt declara esta versão mínima em
 [Supported Platforms](https://doc.qt.io/qt-6.10/supported-platforms.html).
 O Windows2022 da compilação automática não substitui o Windows10 do professor.
+O computador pessoal disponível para o primeiro ensaio usa Windows11 25H2,
+compilação 26300.9711. Esse ensaio complementa a validação obrigatória nos
+computadores Windows10 x64 da escola.
 
 ## Construção reproduzível
 
@@ -99,7 +102,7 @@ Estes controlos comprovam implantação e arranque. Não comprovam a conclusão 
 níveis, todos os modos, a reprodução audível num dispositivo Windows ou a revisão
 pedagógica. A audição e a matriz funcional continuam pendentes no Windows10 real.
 
-## Teste no Windows10 do professor
+## Primeiro teste no Windows11 pessoal e confirmação no Windows10 da escola
 
 1. Transferir o candidato, `SHA256SUMS.txt` e os logs do mesmo artefacto Actions.
 2. Verificar o EXE com `Get-FileHash .\GCompris-PT-PT-Windows-x64-candidate.exe -Algorithm SHA256`.
