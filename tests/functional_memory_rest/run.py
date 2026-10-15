@@ -30,6 +30,12 @@ def main():
     parser.add_argument('--snapshot', type=Path)
     parser.add_argument('--case', choices=['all', *CASES], default='all')
     args = parser.parse_args()
+    chosen=list(CASES) if args.case=='all' else [args.case]
+    tasks=[(activity,case) for activity in (args.activity or ACTIVITIES) for case in chosen
+           if (case!="audio_probe" or activity in ["memory-sound","memory-sound-tux","memory-case-association-tux"])
+           and (case!="configuration" or activity in ["memory","memory-sound"])]
+    if not tasks:
+        parser.error('No applicable cases for the selected activity and case')
     if args.output.exists() and any(args.output.iterdir()):
         parser.error('Use a new empty output directory')
     if not args.binary.is_file():
@@ -95,14 +101,13 @@ def main():
         path=output/activity/case/'result.json'
         return {'activity':activity,'case':case,'exit_code':process.returncode,'result_sha256':sha(path) if path.exists() else None,
                 'launcher_output':process.stdout+process.stderr}
-    chosen=list(CASES) if args.case=='all' else [args.case]
     with ThreadPoolExecutor(max_workers=args.jobs) as executor:
-        results=list(executor.map(run,[(activity,case) for activity in (args.activity or ACTIVITIES) for case in chosen if (case!="audio_probe" or activity in ["memory-sound","memory-sound-tux","memory-case-association-tux"]) and (case!="configuration" or activity in ["memory","memory-sound"])]))
+        results=list(executor.map(run,tasks))
     summary={'format':1,'source_commit':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),
         'source_files_sha256':source_hashes,'activity_rcc_sha256':rcc_hashes,
         'binary_sha256':sha(binary),'resource_snapshot':str(snapshot),
         'snapshot_json_sha256':{path.name:sha(path) for path in snapshot.glob('*.json')},'cases':results,
-        'passed':all(row['exit_code']==0 for row in results),
+        'passed':bool(results) and all(row['exit_code']==0 for row in results),
         'scope':'Native actions in named cases only. Global Linux, physical keyboard/audio, Windows and teacher approval pending.'}
     (output/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'passed':summary['passed'],'cases':len(results),'output':str(output)}))
