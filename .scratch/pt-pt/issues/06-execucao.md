@@ -33,3 +33,10 @@ teclado (74 percursos). O segundo rastreio de arranque passou com as 1610 vozes
 e a correção de seleção de recursos da tarefa 18. Continuam pendentes os restantes níveis/modos e
 interações, a audição final e Windows. Não resolver este ticket
 com base apenas no teste de arranque.
+
+As tarefas19/20 acrescentam conclusão dos dois jogos de leitura e palavras em
+queda. A tarefa21 cobre três jogos de memória, ainda em curso. Os encerramentos
+durante testes foram encaminhados para diagnóstico separado; não contam como
+aprovados. A tarefa22 já reproduziu e corrigiu eventos duplicados em 14 motores,
+com provas específicas; isto não conclui os jogos completos. A tarefa24 trata
+identificadores de categorias mostrados em inglês no rodapé da ajuda.

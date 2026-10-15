@@ -107,3 +107,6 @@
 - [19 — Leitura horizontal e vertical](issues/19-functional-reading.md)
 - [20 — Palavras em queda](issues/20-palavras-funcionais.md)
 - [21 — Memória: palavras, quantidades e letras](issues/21-memoria-funcional.md)
+
+- [22 — Eventos de teclado duplicados](issues/22-eventos-teclado-duplicados.md)
+- [24 — Categorias traduzidas na ajuda](issues/24-categorias-ajuda.md)

@@ -1,0 +1,760 @@
+warning: opening /proc/self/mem file failed: Read-only file system (30)
+warning: opening /proc/PID/mem file for lwp 2736566.2736566 failed: Read-only file system (30)
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/x86_64-linux-gnu/libthread_db.so.1".
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+[New Thread 0x73f895d146c0 (LWP 2736629)]
+[Thread 0x73f895d146c0 (LWP 2736629) exited]
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+[New Thread 0x73f895d146c0 (LWP 2736630)]
+[Thread 0x73f895d146c0 (LWP 2736630) exited]
+[New Thread 0x73f895d146c0 (LWP 2736631)]
+[New Thread 0x73f8951136c0 (LWP 2736632)]
+[New Thread 0x73f8949126c0 (LWP 2736633)]
+Connected to UdpSocket on port 65524
+[New Thread 0x73f88ffff6c0 (LWP 2736634)]
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+[New Thread 0x73f878bff6c0 (LWP 2736635)]
+[New Thread 0x73f86abff6c0 (LWP 2736641)]
+[New Thread 0x73f86a3fe6c0 (LWP 2736642)]
+[New Thread 0x73f8698be6c0 (LWP 2736643)]
+[New Thread 0x73f8690bd6c0 (LWP 2736644)]
+[New Thread 0x73f8688bc6c0 (LWP 2736645)]
+[New Thread 0x73f8680bb6c0 (LWP 2736646)]
+[New Thread 0x73f8678ba6c0 (LWP 2736647)]
+[New Thread 0x73f8670b96c0 (LWP 2736648)]
+[New Thread 0x73f8668b86c0 (LWP 2736649)]
+[New Thread 0x73f8660b76c0 (LWP 2736650)]
+[New Thread 0x73f85a9ff6c0 (LWP 2736651)]
+[New Thread 0x73f85a1fe6c0 (LWP 2736652)]
+[New Thread 0x73f8599fd6c0 (LWP 2736653)]
+[New Thread 0x73f8591fc6c0 (LWP 2736654)]
+[New Thread 0x73f8589fb6c0 (LWP 2736655)]
+[New Thread 0x73f81bfff6c0 (LWP 2736656)]
+[New Thread 0x73f8135ff6c0 (LWP 2736657)]
+[New Thread 0x73f81b7fe6c0 (LWP 2736658)]
+[New Thread 0x73f81affd6c0 (LWP 2736659)]
+[New Thread 0x73f81a7fc6c0 (LWP 2736660)]
+[New Thread 0x73f819ffb6c0 (LWP 2736661)]
+[New Thread 0x73f8197fa6c0 (LWP 2736662)]
+[New Thread 0x73f818ff96c0 (LWP 2736663)]
+[New Thread 0x73f813fff6c0 (LWP 2736664)]
+[New Thread 0x73f812dfe6c0 (LWP 2736665)]
+[New Thread 0x73f8125fd6c0 (LWP 2736666)]
+[New Thread 0x73f811dfc6c0 (LWP 2736667)]
+[New Thread 0x73f8115fb6c0 (LWP 2736668)]
+[New Thread 0x73f810dfa6c0 (LWP 2736669)]
+[New Thread 0x73f7dbfff6c0 (LWP 2736670)]
+[New Thread 0x73f7d35ff6c0 (LWP 2736671)]
+[New Thread 0x73f7db7fe6c0 (LWP 2736672)]
+[New Thread 0x73f7daffd6c0 (LWP 2736673)]
+[New Thread 0x73f7da7fc6c0 (LWP 2736674)]
+[Thread 0x73f86abff6c0 (LWP 2736641) exited]
+[Thread 0x73f7daffd6c0 (LWP 2736673) exited]
+[Thread 0x73f7db7fe6c0 (LWP 2736672) exited]
+[Thread 0x73f7d35ff6c0 (LWP 2736671) exited]
+[Thread 0x73f7dbfff6c0 (LWP 2736670) exited]
+[Thread 0x73f810dfa6c0 (LWP 2736669) exited]
+[Thread 0x73f8115fb6c0 (LWP 2736668) exited]
+[Thread 0x73f811dfc6c0 (LWP 2736667) exited]
+[Thread 0x73f8125fd6c0 (LWP 2736666) exited]
+[Thread 0x73f812dfe6c0 (LWP 2736665) exited]
+[Thread 0x73f813fff6c0 (LWP 2736664) exited]
+[Thread 0x73f818ff96c0 (LWP 2736663) exited]
+[Thread 0x73f8197fa6c0 (LWP 2736662) exited]
+[Thread 0x73f819ffb6c0 (LWP 2736661) exited]
+[Thread 0x73f81a7fc6c0 (LWP 2736660) exited]
+[Thread 0x73f81affd6c0 (LWP 2736659) exited]
+[Thread 0x73f8680bb6c0 (LWP 2736646) exited]
+[Thread 0x73f85a1fe6c0 (LWP 2736652) exited]
+[Thread 0x73f8591fc6c0 (LWP 2736654) exited]
+[Thread 0x73f8589fb6c0 (LWP 2736655) exited]
+[Thread 0x73f8599fd6c0 (LWP 2736653) exited]
+[Thread 0x73f85a9ff6c0 (LWP 2736651) exited]
+[Thread 0x73f8660b76c0 (LWP 2736650) exited]
+[Thread 0x73f8135ff6c0 (LWP 2736657) exited]
+[Thread 0x73f81bfff6c0 (LWP 2736656) exited]
+[Thread 0x73f8668b86c0 (LWP 2736649) exited]
+[Thread 0x73f8670b96c0 (LWP 2736648) exited]
+[Thread 0x73f8678ba6c0 (LWP 2736647) exited]
+[Thread 0x73f8688bc6c0 (LWP 2736645) exited]
+[Thread 0x73f8690bd6c0 (LWP 2736644) exited]
+[Thread 0x73f8698be6c0 (LWP 2736643) exited]
+[Thread 0x73f86a3fe6c0 (LWP 2736642) exited]
+[Thread 0x73f81b7fe6c0 (LWP 2736658) exited]
+[Thread 0x73f7da7fc6c0 (LWP 2736674) exited]
+Failed to connect to pipewire instance "Host is down"
+[New Thread 0x73f7da7fc6c0 (LWP 2736693)]
+PulseAudioService: pa_context_connect() failed
+[Thread 0x73f7da7fc6c0 (LWP 2736693) exited]
+[New Thread 0x73f7da7fc6c0 (LWP 2736695)]
+[New Thread 0x73f8135ff6c0 (LWP 2736696)]
+[New Thread 0x73f81bfff6c0 (LWP 2736697)]
+[New Thread 0x73f8589fb6c0 (LWP 2736698)]
+[New Thread 0x73f86aad66c0 (LWP 2736699)]
+[New Thread 0x73f866b4c6c0 (LWP 2736723)]
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-reading-crash/build/native-qml/f14aaa58e1bc47f19d5f39b9b98d0060/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-reading-crash/build/native-qml/f14aaa58e1bc47f19d5f39b9b98d0060/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-reading-crash/build/native-qml/f14aaa58e1bc47f19d5f39b9b98d0060/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-reading-crash/build/native-qml/f14aaa58e1bc47f19d5f39b9b98d0060/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-reading-crash/build/native-qml/f14aaa58e1bc47f19d5f39b9b98d0060/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-reading-crash/build/native-qml/f14aaa58e1bc47f19d5f39b9b98d0060/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-reading-crash/build/native-qml/f14aaa58e1bc47f19d5f39b9b98d0060/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-reading-crash/build/native-qml/f14aaa58e1bc47f19d5f39b9b98d0060/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-reading-crash/build/native-qml/f14aaa58e1bc47f19d5f39b9b98d0060/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity readingh/Readingh.qml at level -1
+qml: readingh/Readingh.qml readingh/Readingh.qml
+No audio device detected
+[New Thread 0x73f8599ff6c0 (LWP 2736780)]
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+[Thread 0x73f8599ff6c0 (LWP 2736780) exited]
+[New Thread 0x73f8591fe6c0 (LWP 2736781)]
+load configuration for: "readingh"
+qml: Wordlist: loaded 3 levels from file qrc:/gcompris/src/activities/wordsgame/resource/default-pt.json
+[New Thread 0x73f8193ff6c0 (LWP 2736782)]
+[New Thread 0x73f818bfe6c0 (LWP 2736783)]
+qml: Wordlist: loaded 3 levels from file qrc:/gcompris/src/activities/wordsgame/resource/default-pt.json
+
+Thread 1 "gcompris-qt" received signal SIGBUS, Bus error.
+0x000073f89c967628 in ?? () from /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+READING_CRASH_SIGNAL SIGBUS
+
+Thread 53 (Thread 0x73f818bfe6c0 (LWP 2736783) "Thread (pooled)"):
+#0  __syscall_cancel_arch () at ../sysdeps/unix/sysv/linux/x86_64/syscall_cancel.S:56
+#1  0x000073f89c0a030c in __internal_syscall_cancel (a1=a1@entry=94390472288428, a2=<optimized out>, a3=a3@entry=2615319307, a4=a4@entry=127509404308784, a5=a5@entry=0, a6=a6@entry=4294967295, nr=202) at ./nptl/cancellation.c:49
+        result = <optimized out>
+        pd = <optimized out>
+        ch = <optimized out>
+#2  0x000073f89c0a06e7 in __futex_abstimed_wait_common64 (private=0, futex_word=0x55d8fe9228ac, expected=2615319307, op=7600521, abstime=0x73f818bfd530, cancel=true) at ./nptl/futex-internal.c:57
+        resultvar = <optimized out>
+        __arg6 = <optimized out>
+        __arg5 = <optimized out>
+        __arg4 = <optimized out>
+        __arg3 = <optimized out>
+        __arg2 = <optimized out>
+        __arg1 = <optimized out>
+        _a6 = <optimized out>
+        _a5 = <optimized out>
+        _a4 = <optimized out>
+        _a3 = <optimized out>
+        _a2 = <optimized out>
+        _a1 = <optimized out>
+#3  __futex_abstimed_wait_common (futex_word=0x55d8fe9228ac, expected=2615319307, clockid=29688, abstime=0x73f818bfd530, private=0, cancel=true) at ./nptl/futex-internal.c:87
+        err = <optimized out>
+        clockbit = 7600384
+        op = 7600521
+#4  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word@entry=0x55d8fe9228ac, expected=expected@entry=201, clockid=clockid@entry=1, abstime=abstime@entry=0x73f818bfd640, private=private@entry=0) at ./nptl/futex-internal.c:139
+#5  0x000073f89c0a3382 in __pthread_cond_wait_common (cond=0x55d8fe922888, mutex=0x55d8fe922860, clockid=<optimized out>, abstime=0x73f818bfd640) at ./nptl/pthread_cond_wait.c:421
+        signals = 201
+        g1_start = <optimized out>
+        buffer = {__routine = 0x73f89c0a2e60 <__condvar_cleanup_waiting>, __arg = 0x73f818bfd5c0, __canceltype = 3, __prev = 0x0}
+        cbuffer = {wseq = 407, cond = 0x55d8fe922888, mutex = 0x55d8fe922860, private = 0}
+        err = <optimized out>
+        result = 0
+        wseq = <optimized out>
+        g = <optimized out>
+        seq = 203
+        flags = <optimized out>
+        private = 0
+#6  ___pthread_cond_timedwait64 (cond=0x55d8fe922888, mutex=0x55d8fe922860, abstime=0x73f818bfd640) at ./nptl/pthread_cond_wait.c:478
+        flags = <optimized out>
+        clockid = <optimized out>
+#7  0x000073f89cb12533 in QWaitCondition::wait(QMutex*, QDeadlineTimer) () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#8  0x000073f89ca7ffae in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#9  0x000073f89cb185a6 in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#10 0x000073f89c0a3dfa in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:454
+        ret = <optimized out>
+        pd = <optimized out>
+        out = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {127509404313280, 4020388733202339539, 127509404313280, 140734626130752, 2, 140734626131015, 4020388732759840467, 4020099472482637523}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        prevstate = <optimized out>
+#11 0x000073f89c1373d4 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:100
+
+Thread 52 (Thread 0x73f8193ff6c0 (LWP 2736782) "Thread (pooled)"):
+#0  __syscall_cancel_arch () at ../sysdeps/unix/sysv/linux/x86_64/syscall_cancel.S:56
+#1  0x000073f89c0a030c in __internal_syscall_cancel (a1=a1@entry=94390472608088, a2=<optimized out>, a3=a3@entry=2615319307, a4=a4@entry=127509412701488, a5=a5@entry=0, a6=a6@entry=4294967295, nr=202) at ./nptl/cancellation.c:49
+        result = <optimized out>
+        pd = <optimized out>
+        ch = <optimized out>
+#2  0x000073f89c0a06e7 in __futex_abstimed_wait_common64 (private=0, futex_word=0x55d8fe970958, expected=2615319307, op=7600521, abstime=0x73f8193fe530, cancel=true) at ./nptl/futex-internal.c:57
+        resultvar = <optimized out>
+        __arg6 = <optimized out>
+        __arg5 = <optimized out>
+        __arg4 = <optimized out>
+        __arg3 = <optimized out>
+        __arg2 = <optimized out>
+        __arg1 = <optimized out>
+        _a6 = <optimized out>
+        _a5 = <optimized out>
+        _a4 = <optimized out>
+        _a3 = <optimized out>
+        _a2 = <optimized out>
+        _a1 = <optimized out>
+#3  __futex_abstimed_wait_common (futex_word=0x55d8fe970958, expected=2615319307, clockid=29688, abstime=0x73f8193fe530, private=0, cancel=true) at ./nptl/futex-internal.c:87
+        err = <optimized out>
+        clockbit = 7600384
+        op = 7600521
+#4  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word@entry=0x55d8fe970958, expected=expected@entry=196, clockid=clockid@entry=1, abstime=abstime@entry=0x73f8193fe640, private=private@entry=0) at ./nptl/futex-internal.c:139
+#5  0x000073f89c0a3382 in __pthread_cond_wait_common (cond=0x55d8fe970938, mutex=0x55d8fe970910, clockid=<optimized out>, abstime=0x73f8193fe640) at ./nptl/pthread_cond_wait.c:421
+        signals = 196
+        g1_start = <optimized out>
+        buffer = {__routine = 0x73f89c0a2e60 <__condvar_cleanup_waiting>, __arg = 0x73f8193fe5c0, __canceltype = 3, __prev = 0x0}
+        cbuffer = {wseq = 396, cond = 0x55d8fe970938, mutex = 0x55d8fe970910, private = 0}
+        err = <optimized out>
+        result = 0
+        wseq = <optimized out>
+        g = <optimized out>
+        seq = 198
+        flags = <optimized out>
+        private = 0
+#6  ___pthread_cond_timedwait64 (cond=0x55d8fe970938, mutex=0x55d8fe970910, abstime=0x73f8193fe640) at ./nptl/pthread_cond_wait.c:478
+        flags = <optimized out>
+        clockid = <optimized out>
+#7  0x000073f89cb12533 in QWaitCondition::wait(QMutex*, QDeadlineTimer) () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#8  0x000073f89ca7ffae in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#9  0x000073f89cb185a6 in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#10 0x000073f89c0a3dfa in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:454
+        ret = <optimized out>
+        pd = <optimized out>
+        out = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {127509412705984, 4020387632080099027, 127509412705984, 140734626130752, 2, 140734626131015, 4020387631637599955, 4020099472482637523}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        prevstate = <optimized out>
+#11 0x000073f89c1373d4 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:100
+
+Thread 51 (Thread 0x73f8591fe6c0 (LWP 2736781) "Thread (pooled)"):
+#0  __syscall_cancel_arch () at ../sysdeps/unix/sysv/linux/x86_64/syscall_cancel.S:56
+#1  0x000073f89c0a030c in __internal_syscall_cancel (a1=a1@entry=94390473184348, a2=<optimized out>, a3=a3@entry=2615319307, a4=a4@entry=127510484342064, a5=a5@entry=0, a6=a6@entry=4294967295, nr=202) at ./nptl/cancellation.c:49
+        result = <optimized out>
+        pd = <optimized out>
+        ch = <optimized out>
+#2  0x000073f89c0a06e7 in __futex_abstimed_wait_common64 (private=0, futex_word=0x55d8fe9fd45c, expected=2615319307, op=7600521, abstime=0x73f8591fd530, cancel=true) at ./nptl/futex-internal.c:57
+        resultvar = <optimized out>
+        __arg6 = <optimized out>
+        __arg5 = <optimized out>
+        __arg4 = <optimized out>
+        __arg3 = <optimized out>
+        __arg2 = <optimized out>
+        __arg1 = <optimized out>
+        _a6 = <optimized out>
+        _a5 = <optimized out>
+        _a4 = <optimized out>
+        _a3 = <optimized out>
+        _a2 = <optimized out>
+        _a1 = <optimized out>
+#3  __futex_abstimed_wait_common (futex_word=0x55d8fe9fd45c, expected=2615319307, clockid=29688, abstime=0x73f8591fd530, private=0, cancel=true) at ./nptl/futex-internal.c:87
+        err = <optimized out>
+        clockbit = 7600384
+        op = 7600521
+#4  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word@entry=0x55d8fe9fd45c, expected=expected@entry=217, clockid=clockid@entry=1, abstime=abstime@entry=0x73f8591fd640, private=private@entry=0) at ./nptl/futex-internal.c:139
+#5  0x000073f89c0a3382 in __pthread_cond_wait_common (cond=0x55d8fe9fd438, mutex=0x55d8fe9fd410, clockid=<optimized out>, abstime=0x73f8591fd640) at ./nptl/pthread_cond_wait.c:421
+        signals = 217
+        g1_start = <optimized out>
+        buffer = {__routine = 0x73f89c0a2e60 <__condvar_cleanup_waiting>, __arg = 0x73f8591fd5c0, __canceltype = 3, __prev = 0x0}
+        cbuffer = {wseq = 439, cond = 0x55d8fe9fd438, mutex = 0x55d8fe9fd410, private = 0}
+        err = <optimized out>
+        result = 0
+        wseq = <optimized out>
+        g = <optimized out>
+        seq = 219
+        flags = <optimized out>
+        private = 0
+#6  ___pthread_cond_timedwait64 (cond=0x55d8fe9fd438, mutex=0x55d8fe9fd410, abstime=0x73f8591fd640) at ./nptl/pthread_cond_wait.c:478
+        flags = <optimized out>
+        clockid = <optimized out>
+#7  0x000073f89cb12533 in QWaitCondition::wait(QMutex*, QDeadlineTimer) () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#8  0x000073f89ca7ffae in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#9  0x000073f89cb185a6 in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#10 0x000073f89c0a3dfa in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:454
+        ret = <optimized out>
+        pd = <optimized out>
+        out = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {127510484346560, 4020528096301160147, 127510484346560, 140734626139872, 11, 140734626140135, 4020528095858661075, 4020099472482637523}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        prevstate = <optimized out>
+#11 0x000073f89c1373d4 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:100
+
+Thread 49 (Thread 0x73f866b4c6c0 (LWP 2736723) "QQuickWorkerScr"):
+#0  __syscall_cancel_arch () at ../sysdeps/unix/sysv/linux/x86_64/syscall_cancel.S:56
+#1  0x000073f89c0a039c in __internal_syscall_cancel (a1=<optimized out>, a2=<optimized out>, a3=<optimized out>, a4=<optimized out>, a5=8, a6=0, nr=271) at ./nptl/cancellation.c:49
+        result = <optimized out>
+        pd = <optimized out>
+        ch = <optimized out>
+#2  __syscall_cancel (a1=<optimized out>, a2=<optimized out>, a3=<optimized out>, a4=<optimized out>, a5=a5@entry=8, a6=a6@entry=0, nr=271) at ./nptl/cancellation.c:75
+        r = <optimized out>
+#3  0x000073f89c128136 in __GI_ppoll (fds=<optimized out>, nfds=<optimized out>, timeout=<optimized out>, sigmask=<optimized out>) at ../sysdeps/unix/sysv/linux/ppoll.c:42
+        tval = {tv_sec = 478603000000000, tv_nsec = 1}
+#4  0x000073f89bdc8371 in ??? () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#5  0x000073f89bdc8443 in g_main_context_iteration () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#6  0x000073f89cc0513d in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#7  0x000073f89c998f5b in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#8  0x000073f89ca82aae in QThread::exec() () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#9  0x000073f89b9d7de7 in ??? () at /usr/lib/x86_64-linux-gnu/libQt6QmlWorkerScript.so.6
+#10 0x000073f89cb185a6 in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#11 0x000073f89c0a3dfa in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:454
+        ret = <optimized out>
+        pd = <optimized out>
+        out = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {127510712207040, 4020507576021161683, 127510712207040, 140734626130800, 2, 140734626131063, 4020507575578662611, 4020099472482637523}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        prevstate = <optimized out>
+#12 0x000073f89c1373d4 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:100
+
+Thread 48 (Thread 0x73f86aad66c0 (LWP 2736699) "Thread (pooled)"):
+#0  __syscall_cancel_arch () at ../sysdeps/unix/sysv/linux/x86_64/syscall_cancel.S:56
+#1  0x000073f89c0a030c in __internal_syscall_cancel (a1=a1@entry=94390447727340, a2=<optimized out>, a3=a3@entry=4272731440, a4=a4@entry=127511608502976, a5=a5@entry=0, a6=a6@entry=4294967295, nr=202) at ./nptl/cancellation.c:49
+        result = <optimized out>
+        pd = <optimized out>
+        ch = <optimized out>
+#2  0x000073f89c0a06e7 in __futex_abstimed_wait_common64 (private=21976, futex_word=0x55d8fd1b62ec, expected=4272731440, op=21585, abstime=0x73f89c212ac0 <main_arena>, cancel=true) at ./nptl/futex-internal.c:57
+        resultvar = <optimized out>
+        __arg6 = <optimized out>
+        __arg5 = <optimized out>
+        __arg4 = <optimized out>
+        __arg3 = <optimized out>
+        __arg2 = <optimized out>
+        __arg1 = <optimized out>
+        _a6 = <optimized out>
+        _a5 = <optimized out>
+        _a4 = <optimized out>
+        _a3 = <optimized out>
+        _a2 = <optimized out>
+        _a1 = <optimized out>
+#3  __futex_abstimed_wait_common (futex_word=0x55d8fd1b62ec, expected=4272731440, clockid=0, abstime=0x73f89c212ac0 <main_arena>, private=21976, cancel=true) at ./nptl/futex-internal.c:87
+        err = <optimized out>
+        clockbit = 256
+        op = 21585
+#4  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word@entry=0x55d8fd1b62ec, expected=expected@entry=217, clockid=clockid@entry=1, abstime=abstime@entry=0x73f86aad5640, private=private@entry=0) at ./nptl/futex-internal.c:139
+#5  0x000073f89c0a3382 in __pthread_cond_wait_common (cond=0x55d8fd1b62c8, mutex=0x55d8fd1b62a0, clockid=<optimized out>, abstime=0x73f86aad5640) at ./nptl/pthread_cond_wait.c:421
+        signals = 217
+        g1_start = <optimized out>
+        buffer = {__routine = 0x73f89c0a2e60 <__condvar_cleanup_waiting>, __arg = 0x73f86aad55c0, __canceltype = -22235856, __prev = 0x0}
+        cbuffer = {wseq = 439, cond = 0x55d8fd1b62c8, mutex = 0x55d8fd1b62a0, private = 0}
+        err = <optimized out>
+        result = 0
+        wseq = <optimized out>
+        g = <optimized out>
+        seq = 219
+        flags = <optimized out>
+        private = 0
+#6  ___pthread_cond_timedwait64 (cond=0x55d8fd1b62c8, mutex=0x55d8fd1b62a0, abstime=0x73f86aad5640) at ./nptl/pthread_cond_wait.c:478
+        flags = <optimized out>
+        clockid = <optimized out>
+#7  0x000073f89cb12533 in QWaitCondition::wait(QMutex*, QDeadlineTimer) () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#8  0x000073f89ca7ffae in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#9  0x000073f89cb185a6 in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#10 0x000073f89c0a3dfa in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:454
+        ret = <optimized out>
+        pd = <optimized out>
+        out = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {127510778832576, 4020498843278907091, 127510778832576, 140734626131088, 2, 140734626131351, 4020498842836408019, 4020099472482637523}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        prevstate = <optimized out>
+#11 0x000073f89c1373d4 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:100
+
+Thread 47 (Thread 0x73f8589fb6c0 (LWP 2736698) "Thread (pooled)"):
+#0  __syscall_cancel_arch () at ../sysdeps/unix/sysv/linux/x86_64/syscall_cancel.S:56
+#1  0x000073f89c0a030c in __internal_syscall_cancel (a1=a1@entry=94390473913484, a2=<optimized out>, a3=a3@entry=2615319307, a4=a4@entry=127510475941168, a5=a5@entry=0, a6=a6@entry=4294967295, nr=202) at ./nptl/cancellation.c:49
+        result = <optimized out>
+        pd = <optimized out>
+        ch = <optimized out>
+#2  0x000073f89c0a06e7 in __futex_abstimed_wait_common64 (private=0, futex_word=0x55d8feaaf48c, expected=2615319307, op=7600521, abstime=0x73f8589fa530, cancel=true) at ./nptl/futex-internal.c:57
+        resultvar = <optimized out>
+        __arg6 = <optimized out>
+        __arg5 = <optimized out>
+        __arg4 = <optimized out>
+        __arg3 = <optimized out>
+        __arg2 = <optimized out>
+        __arg1 = <optimized out>
+        _a6 = <optimized out>
+        _a5 = <optimized out>
+        _a4 = <optimized out>
+        _a3 = <optimized out>
+        _a2 = <optimized out>
+        _a1 = <optimized out>
+#3  __futex_abstimed_wait_common (futex_word=0x55d8feaaf48c, expected=2615319307, clockid=29688, abstime=0x73f8589fa530, private=0, cancel=true) at ./nptl/futex-internal.c:87
+        err = <optimized out>
+        clockbit = 7600384
+        op = 7600521
+#4  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word@entry=0x55d8feaaf48c, expected=expected@entry=215, clockid=clockid@entry=1, abstime=abstime@entry=0x73f8589fa640, private=private@entry=0) at ./nptl/futex-internal.c:139
+#5  0x000073f89c0a3382 in __pthread_cond_wait_common (cond=0x55d8feaaf468, mutex=0x55d8feaaf440, clockid=<optimized out>, abstime=0x73f8589fa640) at ./nptl/pthread_cond_wait.c:421
+        signals = 215
+        g1_start = <optimized out>
+        buffer = {__routine = 0x73f89c0a2e60 <__condvar_cleanup_waiting>, __arg = 0x73f8589fa5c0, __canceltype = 3, __prev = 0x0}
+        cbuffer = {wseq = 435, cond = 0x55d8feaaf468, mutex = 0x55d8feaaf440, private = 0}
+        err = <optimized out>
+        result = 0
+        wseq = <optimized out>
+        g = <optimized out>
+        seq = 217
+        flags = <optimized out>
+        private = 0
+#6  ___pthread_cond_timedwait64 (cond=0x55d8feaaf468, mutex=0x55d8feaaf440, abstime=0x73f8589fa640) at ./nptl/pthread_cond_wait.c:478
+        flags = <optimized out>
+        clockid = <optimized out>
+#7  0x000073f89cb12533 in QWaitCondition::wait(QMutex*, QDeadlineTimer) () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#8  0x000073f89ca7ffae in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#9  0x000073f89cb185a6 in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#10 0x000073f89c0a3dfa in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:454
+        ret = <optimized out>
+        pd = <optimized out>
+        out = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {127510475945664, 4020529196349658835, 127510475945664, 140734626128784, 11, 140734626129047, 4020529195907159763, 4020099472482637523}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        prevstate = <optimized out>
+#11 0x000073f89c1373d4 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:100
+
+Thread 46 (Thread 0x73f81bfff6c0 (LWP 2736697) "Thread (pooled)"):
+#0  __syscall_cancel_arch () at ../sysdeps/unix/sysv/linux/x86_64/syscall_cancel.S:56
+#1  0x000073f89c0a030c in __internal_syscall_cancel (a1=a1@entry=94390474092040, a2=<optimized out>, a3=a3@entry=2615319307, a4=a4@entry=127509458838832, a5=a5@entry=0, a6=a6@entry=4294967295, nr=202) at ./nptl/cancellation.c:49
+        result = <optimized out>
+        pd = <optimized out>
+        ch = <optimized out>
+#2  0x000073f89c0a06e7 in __futex_abstimed_wait_common64 (private=0, futex_word=0x55d8feadae08, expected=2615319307, op=7600521, abstime=0x73f81bffe530, cancel=true) at ./nptl/futex-internal.c:57
+        resultvar = <optimized out>
+        __arg6 = <optimized out>
+        __arg5 = <optimized out>
+        __arg4 = <optimized out>
+        __arg3 = <optimized out>
+        __arg2 = <optimized out>
+        __arg1 = <optimized out>
+        _a6 = <optimized out>
+        _a5 = <optimized out>
+        _a4 = <optimized out>
+        _a3 = <optimized out>
+        _a2 = <optimized out>
+        _a1 = <optimized out>
+#3  __futex_abstimed_wait_common (futex_word=0x55d8feadae08, expected=2615319307, clockid=29688, abstime=0x73f81bffe530, private=0, cancel=true) at ./nptl/futex-internal.c:87
+        err = <optimized out>
+        clockbit = 7600384
+        op = 7600521
+#4  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word@entry=0x55d8feadae08, expected=expected@entry=226, clockid=clockid@entry=1, abstime=abstime@entry=0x73f81bffe640, private=private@entry=0) at ./nptl/futex-internal.c:139
+#5  0x000073f89c0a3382 in __pthread_cond_wait_common (cond=0x55d8feadade8, mutex=0x55d8feadadc0, clockid=<optimized out>, abstime=0x73f81bffe640) at ./nptl/pthread_cond_wait.c:421
+        signals = 226
+        g1_start = <optimized out>
+        buffer = {__routine = 0x73f89c0a2e60 <__condvar_cleanup_waiting>, __arg = 0x73f81bffe5c0, __canceltype = 3, __prev = 0x0}
+        cbuffer = {wseq = 456, cond = 0x55d8feadade8, mutex = 0x55d8feadadc0, private = 0}
+        err = <optimized out>
+        result = 0
+        wseq = <optimized out>
+        g = <optimized out>
+        seq = 228
+        flags = <optimized out>
+        private = 0
+#6  ___pthread_cond_timedwait64 (cond=0x55d8feadade8, mutex=0x55d8feadadc0, abstime=0x73f81bffe640) at ./nptl/pthread_cond_wait.c:478
+        flags = <optimized out>
+        clockid = <optimized out>
+#7  0x000073f89cb12533 in QWaitCondition::wait(QMutex*, QDeadlineTimer) () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#8  0x000073f89ca7ffae in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#9  0x000073f89cb185a6 in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#10 0x000073f89c0a3dfa in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:454
+        ret = <optimized out>
+        pd = <optimized out>
+        out = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {127509458843328, 4020391480370796243, 127509458843328, 140734626129472, 2, 140734626129735, 4020391479928297171, 4020099472482637523}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        prevstate = <optimized out>
+#11 0x000073f89c1373d4 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:100
+
+Thread 45 (Thread 0x73f8135ff6c0 (LWP 2736696) "Thread (pooled)"):
+#0  __syscall_cancel_arch () at ../sysdeps/unix/sysv/linux/x86_64/syscall_cancel.S:56
+#1  0x000073f89c0a030c in __internal_syscall_cancel (a1=a1@entry=94390474091272, a2=<optimized out>, a3=a3@entry=2615319307, a4=a4@entry=127509314135344, a5=a5@entry=0, a6=a6@entry=4294967295, nr=202) at ./nptl/cancellation.c:49
+        result = <optimized out>
+        pd = <optimized out>
+        ch = <optimized out>
+#2  0x000073f89c0a06e7 in __futex_abstimed_wait_common64 (private=0, futex_word=0x55d8feadab08, expected=2615319307, op=7600521, abstime=0x73f8135fe530, cancel=true) at ./nptl/futex-internal.c:57
+        resultvar = <optimized out>
+        __arg6 = <optimized out>
+        __arg5 = <optimized out>
+        __arg4 = <optimized out>
+        __arg3 = <optimized out>
+        __arg2 = <optimized out>
+        __arg1 = <optimized out>
+        _a6 = <optimized out>
+        _a5 = <optimized out>
+        _a4 = <optimized out>
+        _a3 = <optimized out>
+        _a2 = <optimized out>
+        _a1 = <optimized out>
+#3  __futex_abstimed_wait_common (futex_word=0x55d8feadab08, expected=2615319307, clockid=29688, abstime=0x73f8135fe530, private=0, cancel=true) at ./nptl/futex-internal.c:87
+        err = <optimized out>
+        clockbit = 7600384
+        op = 7600521
+#4  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word@entry=0x55d8feadab08, expected=expected@entry=220, clockid=clockid@entry=1, abstime=abstime@entry=0x73f8135fe640, private=private@entry=0) at ./nptl/futex-internal.c:139
+#5  0x000073f89c0a3382 in __pthread_cond_wait_common (cond=0x55d8feadaae8, mutex=0x55d8feadaac0, clockid=<optimized out>, abstime=0x73f8135fe640) at ./nptl/pthread_cond_wait.c:421
+        signals = 220
+        g1_start = <optimized out>
+        buffer = {__routine = 0x73f89c0a2e60 <__condvar_cleanup_waiting>, __arg = 0x73f8135fe5c0, __canceltype = 16, __prev = 0x0}
+        cbuffer = {wseq = 444, cond = 0x55d8feadaae8, mutex = 0x55d8feadaac0, private = 0}
+        err = <optimized out>
+        result = 0
+        wseq = <optimized out>
+        g = <optimized out>
+        seq = 222
+        flags = <optimized out>
+        private = 0
+#6  ___pthread_cond_timedwait64 (cond=0x55d8feadaae8, mutex=0x55d8feadaac0, abstime=0x73f8135fe640) at ./nptl/pthread_cond_wait.c:478
+        flags = <optimized out>
+        clockid = <optimized out>
+#7  0x000073f89cb12533 in QWaitCondition::wait(QMutex*, QDeadlineTimer) () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#8  0x000073f89ca7ffae in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#9  0x000073f89cb185a6 in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#10 0x000073f89c0a3dfa in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:454
+        ret = <optimized out>
+        pd = <optimized out>
+        out = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {127509314139840, 4020409897190561491, 127509314139840, 140734626129472, 2, 140734626129735, 4020409896748062419, 4020099472482637523}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        prevstate = <optimized out>
+#11 0x000073f89c1373d4 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:100
+
+Thread 44 (Thread 0x73f7da7fc6c0 (LWP 2736695) "Thread (pooled)"):
+#0  __syscall_cancel_arch () at ../sysdeps/unix/sysv/linux/x86_64/syscall_cancel.S:56
+#1  0x000073f89c0a030c in __internal_syscall_cancel (a1=a1@entry=94390447662872, a2=<optimized out>, a3=a3@entry=4272589888, a4=a4@entry=127511608502976, a5=a5@entry=0, a6=a6@entry=4294967295, nr=202) at ./nptl/cancellation.c:49
+        result = <optimized out>
+        pd = <optimized out>
+        ch = <optimized out>
+#2  0x000073f89c0a06e7 in __futex_abstimed_wait_common64 (private=21976, futex_word=0x55d8fd1a6718, expected=4272589888, op=21585, abstime=0x73f89c212ac0 <main_arena>, cancel=true) at ./nptl/futex-internal.c:57
+        resultvar = <optimized out>
+        __arg6 = <optimized out>
+        __arg5 = <optimized out>
+        __arg4 = <optimized out>
+        __arg3 = <optimized out>
+        __arg2 = <optimized out>
+        __arg1 = <optimized out>
+        _a6 = <optimized out>
+        _a5 = <optimized out>
+        _a4 = <optimized out>
+        _a3 = <optimized out>
+        _a2 = <optimized out>
+        _a1 = <optimized out>
+#3  __futex_abstimed_wait_common (futex_word=0x55d8fd1a6718, expected=4272589888, clockid=0, abstime=0x73f89c212ac0 <main_arena>, private=21976, cancel=true) at ./nptl/futex-internal.c:87
+        err = <optimized out>
+        clockbit = 256
+        op = 21585
+#4  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word@entry=0x55d8fd1a6718, expected=expected@entry=224, clockid=clockid@entry=1, abstime=abstime@entry=0x73f7da7fb640, private=private@entry=0) at ./nptl/futex-internal.c:139
+#5  0x000073f89c0a3382 in __pthread_cond_wait_common (cond=0x55d8fd1a66f8, mutex=0x55d8fd1a66d0, clockid=<optimized out>, abstime=0x73f7da7fb640) at ./nptl/pthread_cond_wait.c:421
+        signals = 224
+        g1_start = <optimized out>
+        buffer = {__routine = 0x73f89c0a2e60 <__condvar_cleanup_waiting>, __arg = 0x73f7da7fb5c0, __canceltype = -22377408, __prev = 0x0}
+        cbuffer = {wseq = 452, cond = 0x55d8fd1a66f8, mutex = 0x55d8fd1a66d0, private = 0}
+        err = <optimized out>
+        result = 0
+        wseq = <optimized out>
+        g = <optimized out>
+        seq = 226
+        flags = <optimized out>
+        private = 0
+#6  ___pthread_cond_timedwait64 (cond=0x55d8fd1a66f8, mutex=0x55d8fd1a66d0, abstime=0x73f7da7fb640) at ./nptl/pthread_cond_wait.c:478
+        flags = <optimized out>
+        clockid = <optimized out>
+#7  0x000073f89cb12533 in QWaitCondition::wait(QMutex*, QDeadlineTimer) () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#8  0x000073f89ca7ffae in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#9  0x000073f89cb185a6 in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#10 0x000073f89c0a3dfa in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:454
+        ret = <optimized out>
+        pd = <optimized out>
+        out = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {127508359923392, 4023068793868785363, 127508359923392, 140734626129472, 2, 140734626129735, 4023068793426286291, 4020099472482637523}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        prevstate = <optimized out>
+#11 0x000073f89c1373d4 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:100
+
+Thread 8 (Thread 0x73f878bff6c0 (LWP 2736635) "gcompris-qt"):
+#0  __syscall_cancel_arch () at ../sysdeps/unix/sysv/linux/x86_64/syscall_cancel.S:56
+#1  0x000073f89c0a039c in __internal_syscall_cancel (a1=<optimized out>, a2=<optimized out>, a3=<optimized out>, a4=0, a5=0, a6=0, nr=7) at ./nptl/cancellation.c:49
+        result = <optimized out>
+        pd = <optimized out>
+        ch = <optimized out>
+#2  __syscall_cancel (a1=<optimized out>, a2=<optimized out>, a3=<optimized out>, a4=a4@entry=0, a5=a5@entry=0, a6=a6@entry=0, nr=7) at ./nptl/cancellation.c:75
+        r = <optimized out>
+#3  0x000073f89c127c0e in __GI___poll (fds=<optimized out>, nfds=<optimized out>, timeout=<optimized out>) at ../sysdeps/unix/sysv/linux/poll.c:29
+#4  0x000073f878f03957 in ??? () at /usr/lib/x86_64-linux-gnu/libcuda.so.1
+#5  0x000073f878fdf265 in ??? () at /usr/lib/x86_64-linux-gnu/libcuda.so.1
+#6  0x000073f878eee3f3 in ??? () at /usr/lib/x86_64-linux-gnu/libcuda.so.1
+#7  0x000073f89c0a3dfa in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:454
+        ret = <optimized out>
+        pd = <optimized out>
+        out = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {127511014930112, 4020459100335904467, 127511014930112, 140734626129568, 0, 140734626129831, 4020459099893405395, 4020099472482637523}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        prevstate = <optimized out>
+#8  0x000073f89c1373d4 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:100
+
+Thread 7 (Thread 0x73f88ffff6c0 (LWP 2736634) "QQmlThread"):
+#0  __syscall_cancel_arch () at ../sysdeps/unix/sysv/linux/x86_64/syscall_cancel.S:56
+#1  0x000073f89c0a039c in __internal_syscall_cancel (a1=<optimized out>, a2=<optimized out>, a3=<optimized out>, a4=<optimized out>, a5=8, a6=0, nr=271) at ./nptl/cancellation.c:49
+        result = <optimized out>
+        pd = <optimized out>
+        ch = <optimized out>
+#2  __syscall_cancel (a1=<optimized out>, a2=<optimized out>, a3=<optimized out>, a4=<optimized out>, a5=a5@entry=8, a6=a6@entry=0, nr=271) at ./nptl/cancellation.c:75
+        r = <optimized out>
+#3  0x000073f89c128136 in __GI_ppoll (fds=<optimized out>, nfds=<optimized out>, timeout=<optimized out>, sigmask=<optimized out>) at ../sysdeps/unix/sysv/linux/ppoll.c:42
+        tval = {tv_sec = 478605000000000, tv_nsec = 1}
+#4  0x000073f89bdc8371 in ??? () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#5  0x000073f89bdc8443 in g_main_context_iteration () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#6  0x000073f89cc0513d in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#7  0x000073f89c998f5b in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#8  0x000073f89ca82aae in QThread::exec() () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#9  0x000073f89cb185a6 in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#10 0x000073f89c0a3dfa in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:454
+        ret = <optimized out>
+        pd = <optimized out>
+        out = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {127511405000384, 4020136393673152211, 127511405000384, 140734626142976, 2, 140734626143239, 4020136393230653139, 4020099472482637523}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        prevstate = <optimized out>
+#11 0x000073f89c1373d4 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:100
+
+Thread 6 (Thread 0x73f8949126c0 (LWP 2736633) "gdbus"):
+#0  __syscall_cancel_arch () at ../sysdeps/unix/sysv/linux/x86_64/syscall_cancel.S:56
+#1  0x000073f89c0a039c in __internal_syscall_cancel (a1=<optimized out>, a2=<optimized out>, a3=<optimized out>, a4=<optimized out>, a5=8, a6=0, nr=271) at ./nptl/cancellation.c:49
+        result = <optimized out>
+        pd = <optimized out>
+        ch = <optimized out>
+#2  __syscall_cancel (a1=<optimized out>, a2=<optimized out>, a3=<optimized out>, a4=<optimized out>, a5=a5@entry=8, a6=a6@entry=0, nr=271) at ./nptl/cancellation.c:75
+        r = <optimized out>
+#3  0x000073f89c128136 in __GI_ppoll (fds=<optimized out>, nfds=<optimized out>, timeout=<optimized out>, sigmask=<optimized out>) at ../sysdeps/unix/sysv/linux/ppoll.c:42
+        tval = {tv_sec = 478602000000000, tv_nsec = 2}
+#4  0x000073f89bdc8371 in ??? () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#5  0x000073f89bdc85f7 in g_main_loop_run () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#6  0x000073f898c361d2 in ??? () at /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+#7  0x000073f89bdfd479 in ??? () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#8  0x000073f89c0a3dfa in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:454
+        ret = <optimized out>
+        pd = <optimized out>
+        out = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {127511481624256, 4020115906142279379, 127511481624256, 140734626140256, 11, 140734626140519, 4020115905699780307, 4020099472482637523}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        prevstate = <optimized out>
+#9  0x000073f89c1373d4 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:100
+
+Thread 5 (Thread 0x73f8951136c0 (LWP 2736632) "gmain"):
+#0  __syscall_cancel_arch () at ../sysdeps/unix/sysv/linux/x86_64/syscall_cancel.S:56
+#1  0x000073f89c0a039c in __internal_syscall_cancel (a1=<optimized out>, a2=<optimized out>, a3=<optimized out>, a4=<optimized out>, a5=8, a6=0, nr=271) at ./nptl/cancellation.c:49
+        result = <optimized out>
+        pd = <optimized out>
+        ch = <optimized out>
+#2  __syscall_cancel (a1=<optimized out>, a2=<optimized out>, a3=<optimized out>, a4=<optimized out>, a5=a5@entry=8, a6=a6@entry=0, nr=271) at ./nptl/cancellation.c:75
+        r = <optimized out>
+#3  0x000073f89c128136 in __GI_ppoll (fds=<optimized out>, nfds=<optimized out>, timeout=<optimized out>, sigmask=<optimized out>) at ../sysdeps/unix/sysv/linux/ppoll.c:42
+        tval = {tv_sec = 478602000000000, tv_nsec = 1}
+#4  0x000073f89bdc8371 in ??? () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#5  0x000073f89bdc8443 in g_main_context_iteration () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#6  0x000073f89bdc8491 in ??? () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#7  0x000073f89bdfd479 in ??? () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#8  0x000073f89c0a3dfa in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:454
+        ret = <optimized out>
+        pd = <optimized out>
+        out = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {127511490016960, 4020114805020038867, 127511490016960, 140734626140400, 2, 140734626140663, 4020114804577539795, 4020099472482637523}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        prevstate = <optimized out>
+#9  0x000073f89c1373d4 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:100
+
+Thread 4 (Thread 0x73f895d146c0 (LWP 2736631) "pool-spawner"):
+#0  syscall () at ../sysdeps/unix/sysv/linux/x86_64/syscall.S:38
+#1  0x000073f89bdf40ab in g_cond_wait () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x000073f89bd8ef6c in ??? () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x000073f89bdfd914 in ??? () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#4  0x000073f89bdfd479 in ??? () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#5  0x000073f89c0a3dfa in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:454
+        ret = <optimized out>
+        pd = <optimized out>
+        out = <optimiwarning: Memory read failed for corefile section, 1048576 bytes at 0x73f7d9ffc000.
+zed out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {127511502603968, 4020114255801095891, 127511502603968, 140734626140640, 2, 140734626140903, 4020114255358596819, 4020099472482637523}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        prevstate = <optimized out>
+#6  0x000073f89c1373d4 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:100
+
+Thread 1 (Thread 0x73f897b2be00 (LWP 2736566) "gcompris-qt"):
+#0  0x000073f89c967628 in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#1  0x000073f89c96aae0 in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#2  0x000073f89c96b253 in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#3  0x000073f89c96b2d9 in QResource::fileName() const () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#4  0x000073f89c96b4b4 in ??? () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#5  0x000073f89c94d4cd in QFileInfo::completeBaseName() const () at /usr/lib/x86_64-linux-gnu/libQt6Core.so.6
+#6  0x000073f89d2f17fa in QV4::GlobalExtensions::currentTranslationContext(QV4::ExecutionEngine*) () at /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6
+#7  0x000073f89d2f1f1e in QV4::GlobalExtensions::method_qsTr(QV4::FunctionObject const*, QV4::Value const*, QV4::Value const*, int) () at /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6
+#8  0x000073f89d266dd4 in QV4::Runtime::CallQmlContextPropertyLookup::call(QV4::ExecutionEngine*, unsigned int, QV4::Value*, int) () at /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6
+#9  0x000073f865875b31 in ??? ()
+#10 0x0000000000000000 in ??? ()
+warning: Memory read failed for corefile section, 1048576 bytes at 0x73f812dff000.
+warning: Memory read failed for corefile section, 1048576 bytes at 0x73f8183fe000.
+warning: Memory read failed for corefile section, 1048576 bytes at 0x73f81b7ff000.
