@@ -278,6 +278,8 @@ function handleKeys(event) {
                 items.debugActive = !items.debugActive
             }
             break
+        default:
+            return
         }
     } else {
         switch (event.key) {
@@ -316,9 +318,12 @@ function handleKeys(event) {
             items.wordsFlow.children[pos[0]].setProposal(pos[1])
             break
         default :
-            break
+            return
         }
     }
+    // ActivityBase forwards unaccepted keys to its page. Consuming handled keys
+    // here prevents a second delivery through the parent from moving twice.
+    event.accepted = true
 }
 
 // Build datas for answerModel

@@ -22650,7 +22650,7 @@ msgstr "Arrasta e larga as letras por ordem alfabética inversa."
 #: activities/ordering_numbers/ordering.js:69
 msgctxt "ordering|"
 msgid "Drag and drop the items in chronological order."
-msgstr "Arrasta e larga as letras por ordem cronológica."
+msgstr "Arrasta e larga as imagens por ordem cronológica."
 
 #: activities/ordering_numbers/ordering.js:70
 msgctxt "ordering|"

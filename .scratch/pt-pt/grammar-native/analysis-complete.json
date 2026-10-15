@@ -1,0 +1,31 @@
+{
+  "activity": "grammar_analysis",
+  "locale": "pt_PT",
+  "qml_file": "grammar_analysis/GrammarAnalysis.qml",
+  "source_sha256": "4046fa035c0b0a48e14c082dd6bf9b4e61a555c3ecf8ba2875e4bc8af5cf7915",
+  "portuguese_catalogue_sha256": "4865d718b6529ee9aa39be44c4b5052a8b0134e8c42d2cc0718c83d1a4b202c4",
+  "private_qm_sha256": "91f5e93165c01fe523d8f005ee3c000e064f7ecf32478756db38b5e5e0c99480",
+  "case_sha256": "323f315ad9c53cae81fd9910f97fb880e05cb241c80e75e7ef4a140940e9ca0d",
+  "private_rcc_sha256": "1c3a600b6dd7ff2d0ed1dd48c044482c4043f1df308f1b6ee5bae234ecea94a2",
+  "binary_sha256": "ab20447c36845d74abeba9974e2d60ca7f20ebf7d59b677ba09f85faf6a90a37",
+  "runner_sha256": "38e719810291aac7954a659ccdfd60a182dbc25d281a283c9645bde68d91d794",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-grammar/build/native-qml/fbc0c11881694fd09f935b7b0f87a07b",
+  "version_code": 260200,
+  "network": "docker-none",
+  "timestamp_utc": "2026-10-15T20:23:39.005968+00:00",
+  "scope": "Only actions and assertions in the named case; muted native Qt, not Windows or audio approval.",
+  "passed": true,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 0,
+    "passes": 2,
+    "solved": 80,
+    "wrongRejected": 7,
+    "keyboardExercises": 7,
+    "erased": 7,
+    "completedLevels": 7,
+    "mergedWords": 18
+  }
+}

@@ -40,5 +40,5 @@ compilados. Ver `../data/review.md` para alterações, limites e reprodução.
 
 Esta conclusão cobre a implementação e a submissão para revisão; não aprova
 linguisticamente todas as palavras nem certifica funcionalmente as 203 atividades.
-Revisão do professor: tarefa 08. Execução interativa: tarefa 07. Áudio acentuado:
-tarefa 05, ainda sem gravações no pacote existente. Windows: tarefas de entrega.
+Revisão do professor: tarefa 08. Execução interativa: tarefa 06. Áudio acentuado:
+tarefa 05, com gravações já acrescentadas e audição final pendente. Windows: tarefas de entrega.
