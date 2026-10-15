@@ -43,7 +43,14 @@ test('all 138 source datasets generate enough distinct, mathematically correct p
     assert.match(source,/columns: 5/);assert.match(source,/rows: 2/);
     const generated=evaluate(context,`get${fn}Table`,table);valid(generated);
     const allowed=family==='add'?['+']:family==='minus'?['−']:family==='mult'?['×']:family==='div'?['÷']:family==='add-minus'?['+','−']:family==='mult-div'?['×','÷']:['+','−','×','÷'];
-    for(const [expression] of generated)assert.ok(allowed.includes(expression.split(' ')[1]));
+    const expected=new Set();
+    for(const op of allowed)for(let n=1;n<=10;n++)expected.add(op==='−'||op==='÷'?n:result(`${table} ${op} ${n}`));
+    assert.deepEqual(generated.map(pair=>pair[1]).sort((a,b)=>a-b),[...expected].sort((a,b)=>a-b));
+    for(const [expression] of generated) {
+     const [left,op,right]=expression.split(' ');assert.ok(allowed.includes(op));
+     if(op==='−'||op==='÷')assert.equal(Number(right),table,`Table ${table}: ${expression}`);
+     else assert.ok(Number(left)===table||Number(right)===table,`Table ${table}: ${expression}`);
+    }
     datasets++;pairs+=generated.length;
    }
   }
@@ -58,8 +65,19 @@ test('primitive tables retain all ten known answers and operand order branches',
   const context=load();vm.runInContext(`Math.random=()=>${random}`,context);
   for(const fn of ['Add','Mult'])for(let table=1;table<=10;table++) {
    const pairs=evaluate(context,`get${fn}Table`,table);valid(pairs);
-   for(let i=0;i<10;i++)assert.equal(Number(pairs[i][0].split(' ')[random===0?2:0]),table);
+   for(let i=0;i<10;i++) {
+    const operands=pairs[i][0].split(' ');
+    assert.equal(Number(operands[random===0?2:0]),table);
+    assert.equal(Number(operands[random===0?0:2]),i+1);
+   }
   }
+ }
+});
+test('subtraction and division preserve the selected table and all ten operands',()=>{
+ for(const fn of ['Minus','Div'])for(let table=1;table<=10;table++) {
+  const pairs=evaluate(load(),`get${fn}Table`,table);valid(pairs);
+  assert.deepEqual(pairs.map(pair=>pair[1]),[1,2,3,4,5,6,7,8,9,10]);
+  for(const [expression] of pairs)assert.equal(Number(expression.split(' ')[2]),table);
  }
 });
 test('oracle rejects a wrong result and duplicate answers rather than trusting matchCode',()=>{

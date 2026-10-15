@@ -31,3 +31,8 @@ Windows, audição, hardware e aceitação docente permanecem critérios separad
 - Lote nativo em execução com snapshot próprio, cópia integral e selada de 269
   ficheiros, core/memory e 14 RCC de dados recompilados privadamente. Nenhum
   binário ou RCC do build principal foi alterado.
+- Os 42 casos auxiliares terminaram aprovados: ajuda/navegação/menu, Escape e
+  reinício nas 14 variantes, incluindo reinício durante um turno pendente do Tux.
+  Os hashes dos casos coincidem com os ficheiros atuais. O teste de dados foi
+  reforçado para confirmar todas as tabelas/operandos e a união completa de
+  respostas nas variantes mistas; agora são quatro testes Node aprovados.
