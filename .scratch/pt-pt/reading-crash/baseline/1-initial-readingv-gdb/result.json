@@ -1,0 +1,50 @@
+{
+  "activity": "readingv",
+  "locale": "pt_PT",
+  "qml_file": "readingh/Readingh.qml",
+  "source_sha256": "2a7d3c74d6139edbd231ab4f5372d2c8bcc6cc668b29bb424df2281517a8a6c9",
+  "portuguese_catalogue_sha256": "0dfebdffcaf75f9eb9d80f0d4a209695ad1ffc029c13b617393cd6087ed14f29",
+  "private_qm_sha256": "d0bbadfe10cb82fa9d536f21aa9e0e299e8c002cf339ebc4857a7463bee763c1",
+  "case_sha256": "7c977a48645102edab099485f52d322ae6bd29f11b12e778700ae2040261f984",
+  "private_rcc_sha256": "65e7d9a7b3fa30c3e592df1e47819aa84ec27302b329685b170c10ed8c4f561f",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "81da996c48ab773a0f1ea168b8097b021705ea55fb97a0d68d6a2419ba863d14",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-reading-crash/build/reading-crash/3553684b5baf43568aefd73c092756fe/initial/build/native-qml/05cfd8b050c84c76ba7958431330e82c",
+  "version_code": 260200,
+  "network": "docker-none",
+  "timestamp_utc": "2026-10-15T21:14:37.480005+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [
+    {
+      "file": "level-1-correct.png",
+      "sha256": "8dede1d5cbd6e23f7b014cecf7ce0321af25c43b14d01b987d862c1cbc16b789",
+      "bytes": 64373
+    },
+    {
+      "file": "level-1-words-0.png",
+      "sha256": "af316d06c79ccd02d0769a81a150042dacebbbea20c9fef34b5bad37cd3b7b00",
+      "bytes": 55378
+    },
+    {
+      "file": "level-1-words-1.png",
+      "sha256": "3aec7315ef364a09e03dcea677f7027afe8ad681d967501da7d0b2a91680786a",
+      "bytes": 55968
+    }
+  ],
+  "passed": true,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 0,
+    "passes": 2,
+    "mode": "readingv",
+    "solved": 3,
+    "rejected": 1,
+    "completedLevels": [],
+    "presentByLevel": {},
+    "absentByLevel": {},
+    "speeds": [],
+    "phase": "replacement-2"
+  }
+}

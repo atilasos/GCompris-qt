@@ -1,0 +1,10 @@
+{
+  "victim": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-reading-crash/build/rcc-race/a89ff3b39f3745c8bd033eff4d72befb/share/gcompris-qt/rcc/click_on_letter.rcc",
+  "victim_activity": "click_on_letter (inactive)",
+  "only_private_file_mutated": true,
+  "cycles": 8,
+  "launcher_exit": 1,
+  "passed": false,
+  "case_result": null,
+  "signal_captured": true
+}

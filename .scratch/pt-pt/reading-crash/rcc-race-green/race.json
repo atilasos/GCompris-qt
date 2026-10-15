@@ -1,0 +1,21 @@
+{
+  "victim": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-reading-crash/build/rcc-race/fc0dce79ce4d434a9fb634ffcb0afacf/share/gcompris-qt/rcc/click_on_letter.rcc",
+  "victim_activity": "click_on_letter (inactive)",
+  "only_private_file_mutated": true,
+  "cycles": 8,
+  "launcher_exit": 1,
+  "passed": true,
+  "case_result": {
+    "failures": 0,
+    "passes": 2,
+    "mode": "readingh",
+    "solved": 3,
+    "rejected": 1,
+    "completedLevels": [],
+    "presentByLevel": {},
+    "absentByLevel": {},
+    "speeds": [],
+    "phase": "replacement-2"
+  },
+  "signal_captured": false
+}
