@@ -1,0 +1,46 @@
+[
+  {
+    "activity": "baby_wordprocessor",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/batch43-startup/baby_wordprocessor.log"
+  },
+  {
+    "activity": "baby_mouse",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/batch43-startup/baby_mouse.log"
+  },
+  {
+    "activity": "clickgame",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/batch43-startup/clickgame.log"
+  },
+  {
+    "activity": "hangman",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/batch43-startup/hangman.log"
+  }
+]
