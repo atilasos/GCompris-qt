@@ -1,7 +1,7 @@
 # Verificar os dados pedagógicos de todos os níveis
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 01
 
@@ -28,3 +28,17 @@ As capturas do professor confirmaram o fallback inglês em `grammar_classes` e
 Oito testes verificam o carregamento, a estrutura, as soluções e a rejeição de
 respostas erradas com o JavaScript original. Ver a tarefa 11 e `../grammar-review.md`.
 As restantes atividades e a revisão linguística final continuam pendentes.
+
+
+## Answer
+
+Inspecionados os pontos de seleção de dados linguísticos e corrigidos os recursos
+PT em falta nas letras e o fallback inglês na leitura. Acrescentados testes de
+respostas, teclado acentuado, todos os níveis novos e vocabulário partilhado.
+Passaram 15 testes JavaScript e os sete arranques Linux com recursos privados
+compilados. Ver `../data/review.md` para alterações, limites e reprodução.
+
+Esta conclusão cobre a implementação e a submissão para revisão; não aprova
+linguisticamente todas as palavras nem certifica funcionalmente as 203 atividades.
+Revisão do professor: tarefa 08. Execução interativa: tarefa 07. Áudio acentuado:
+tarefa 05, ainda sem gravações no pacote existente. Windows: tarefas de entrega.
