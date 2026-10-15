@@ -3,6 +3,7 @@ import hashlib
 import importlib.util
 from pathlib import Path
 import tempfile
+import sys
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -44,6 +45,24 @@ class PackagedRuntimeTest(unittest.TestCase):
             self.assertFalse(result['passed'])
             self.assertIn('bin/GCompris.exe', result['missing'])
             self.assertIn('share/GCompris/rcc/click_on_letter.rcc', result['missing'])
+
+
+class WindowsTranslationTest(unittest.TestCase):
+    @unittest.skipUnless(sys.platform == 'linux' and Path('/usr/lib/qt6/bin/lconvert').exists(),
+                         'Native QTranslator probe runs against the Linux Qt installation')
+    def test_windows_catalog_uses_european_zero_one_two_plural_rules(self):
+        # Reuse the native QTranslator probe, then replace its QM via the Windows
+        # build's own converter. This checks the produced artifact, not flag text.
+        from test_translation_build import TranslationBuildTest
+        fixture = TranslationBuildTest('test_european_portuguese_compiled_zero_one_two_plurals')
+        self.addCleanup(fixture.doCleanups)
+        fixture.setUp()
+        module_spec = importlib.util.spec_from_file_location('compile_portuguese', ROOT / 'tools/windows/compile-portuguese.py')
+        compiler = importlib.util.module_from_spec(module_spec)
+        module_spec.loader.exec_module(compiler)
+        compiler.compile_catalog(Path('/usr/lib/qt6'), fixture.catalog, fixture.ts, fixture.qm)
+        output = fixture.run_command([str(fixture.build / 'probe'), str(fixture.qm)])
+        self.assertEqual(output.splitlines(), ['0 maçãs', '1 maçã', '2 maçãs'])
 
 
 if __name__ == '__main__':

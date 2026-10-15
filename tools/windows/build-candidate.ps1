@@ -25,14 +25,13 @@ try {
     cmake --build $build --parallel 2
     $translation = "$build/share/GCompris/translations"
     New-Item -ItemType Directory -Force $translation | Out-Null
-    & "$QtRoot/bin/lconvert.exe" -if po -of ts -i "$source/poqm/pt/gcompris_qt.po" -o "$build/gcompris_qt_pt.ts"
-    & "$QtRoot/bin/lrelease.exe" -removeidentical -nounfinished "$build/gcompris_qt_pt.ts" -qm "$translation/gcompris_qt_pt.qm"
+    python "$PSScriptRoot/compile-portuguese.py" $QtRoot "$source/poqm/pt/gcompris_qt.po" "$build/gcompris_qt_pt.ts" "$translation/gcompris_qt_pt.qm"
     python "$PSScriptRoot/fetch-assets.py" "$build/share/GCompris/rcc/data3"
     New-Item -ItemType Directory -Force "$stage/bin", "$stage/share", "$stage/lib/qml/Box2D.2.0" | Out-Null
     Copy-Item "$build/bin/GCompris.exe" "$stage/bin/"
     Copy-Item "$build/share/GCompris" "$stage/share/" -Recurse -Force
     Copy-Item "$box2d/qmldir", "$box2d/qmlbox2d.dll" "$stage/lib/qml/Box2D.2.0/"
-    & "$QtRoot/bin/windeployqt.exe" --release --compiler-runtime --include-soft-plugins --add-plugin-types platforms,imageformats,multimedia,tls --openssl-root "$OpenSSLRoot/bin" --qmldir "$source/src" "$stage/bin/GCompris.exe"
+    & "$QtRoot/bin/windeployqt.exe" --release --compiler-runtime --include-soft-plugins --add-plugin-types "platforms,imageformats,multimedia,tls" --openssl-root "$OpenSSLRoot/bin" --qmldir "$source/src" "$stage/bin/GCompris.exe"
     # Deploy dependencies of our dynamic Box2D plugin too.
     & "$QtRoot/bin/windeployqt.exe" --release --compiler-runtime "$stage/lib/qml/Box2D.2.0/qmlbox2d.dll"
     Copy-Item "$OpenSSLRoot/bin/*.dll" "$stage/bin/"
@@ -75,7 +74,7 @@ try {
     }
     python "$PSScriptRoot/verify-package.py" $stage --activities "$source/src/activities/activities.txt" --listed "$artifacts/activities.txt" --output "$artifacts/package-check.json"
     $installer = "$artifacts/GCompris-PT-PT-Windows-x64-candidate.exe"
-    & "${env:ProgramFiles(x86)}/NSIS/makensis.exe" "/DSTAGE=$stage" "/DSOURCE=$source" "/DOUTPUT=$installer" "$PSScriptRoot/candidate.nsi"
+    & "${env:ProgramFiles(x86)}/NSIS/makensis.exe" /INPUTCHARSET UTF8 "/DSTAGE=$stage" "/DSOURCE=$source" "/DOUTPUT=$installer" "$PSScriptRoot/candidate.nsi"
     $installed = "$build/installed"
     $installProcess = Start-Process $installer -ArgumentList '/S',"/D=$installed" -PassThru -Wait
     if ($installProcess.ExitCode -ne 0) { throw "Installer exited $($installProcess.ExitCode)" }
