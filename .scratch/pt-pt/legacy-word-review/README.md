@@ -27,7 +27,7 @@ T3 preview não está exposto nesta sessão. O Hub não testa file:// no Windows
 Os clips duram menos de um segundo; o mostrador arredonda-os para0:00.
 A inspeção dos WAV e o GStreamer identificaram duração/canais válidos.
 
-[Pacote local](../../../../build/pt-pt/audio-review/dois-pares-legados/revisao-2-pares.zip).
+[Pacote local](../../../build/pt-pt/audio-review/dois-pares-legados/revisao-2-pares.zip).
 `package-verification.json` fixa o ZIP mostrado ao professor; não será sobrescrito.
 A pergunta de revisão foi enviada em16/10/2026, hora local, incluindo a opção
 de conservar um áudio antigo se já pronunciar corretamente o nome escolhido.
