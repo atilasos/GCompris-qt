@@ -1,0 +1,11 @@
+✔ all number-word data retain the 21 meanings and five playable grids (2.845773ms)
+✔ all 26 case pairs have corresponding original lower/upper glyphs and sounds (1.443081ms)
+✔ all enumeration datasets count visible butterflies, including zero (6.50302ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 46.769638
