@@ -1,5 +1,8 @@
 # Espaço no teclado visual do processador de texto
 
+Checkpoint parcial anterior à conclusão da tarefa41. O resultado final está
+em README.md; os limites abaixo descrevem o estado desta fatia inicial.
+
 O teclado emitia um espaço, mas TextEdit.insert interpretava-o como um fragmento
 HTML e descartava-o. O caso mínimo usa cliques reais em a/Espaço e observa o
 sinal original. `space-red/result.json` conserva a emissão de um espaço, texto
