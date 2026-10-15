@@ -175,3 +175,6 @@ a aceitação global dos 203 jogos.
 - [45 — Identidade e seleção das campanhas](issues/45-retoma-selecao-campanhas.md)
 
 - [46 — Contagem de objetos, dados e dominós](issues/46-contagem-dados-dominos.md)
+
+- [47 — Preservar saídas das balanças](issues/47-balancas-preservar-provas.md)
+- [48 — Ligar pontos e desenhar](issues/48-ligar-pontos-desenhar.md)
