@@ -77,6 +77,9 @@ ActivityBase {
         onStop: { Activity.stop() }
 
         Keys.onPressed: (event) => {
+            if ([Qt.Key_Right, Qt.Key_Left, Qt.Key_Down, Qt.Key_Space].indexOf(event.key) === -1)
+                return;
+            event.accepted = true;
             if(drop.running || bonus.isPlaying || (items.counter % 2 != 0 && !activity.twoPlayer))
                 return
             if(items.gameDone && !bonus.isPlaying)

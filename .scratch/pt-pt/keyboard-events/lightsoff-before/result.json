@@ -1,0 +1,27 @@
+{
+  "activity": "lightsoff",
+  "locale": "pt_PT",
+  "qml_file": "lightsoff/Lightsoff.qml",
+  "source_sha256": "473812a73ec86c1431311a712d6a25f8a9fe4bf547034a6e85407965e209298b",
+  "portuguese_catalogue_sha256": "0dfebdffcaf75f9eb9d80f0d4a209695ad1ffc029c13b617393cd6087ed14f29",
+  "private_qm_sha256": "d0bbadfe10cb82fa9d536f21aa9e0e299e8c002cf339ebc4857a7463bee763c1",
+  "case_sha256": "dc94116af20f80c877a090d743701f37e9d377014e436b243fe7b680ce0f1882",
+  "private_rcc_sha256": "87b228bcc29cc5eb7ed6381c137a1ac9805593dc986bd5c6cbb9487f49f848d6",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-duplicate-keys/build/native-qml/febba15b59c746eda76c1746717e8d38",
+  "version_code": 260200,
+  "network": "not-enforced",
+  "timestamp_utc": "2026-10-15T21:13:11.736436+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [],
+  "passed": false,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 1,
+    "passes": 1,
+    "menuCalls": 0
+  }
+}
