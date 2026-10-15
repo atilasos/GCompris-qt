@@ -25,9 +25,10 @@ do repositório; nenhuma dependência foi instalada no Python do sistema.
 - [Model card da voz](https://huggingface.co/rhasspy/piper-voices/blob/main/pt/pt_PT/tug%C3%A3o/medium/MODEL_CARD).
   Declara língua PT-PT, um locutor, 22050 Hz e conjunto de treino CC0. Indica
   afinação a partir de `lessac` inglês americano. A declaração CC0 refere-se
-  expressamente ao conjunto de treino, não constitui por si uma declaração de
-  licença dos pesos ou das saídas. Os direitos de distribuição dos recursos
-  finais devem ser confirmados antes da sua inclusão no instalador.
+  ao conjunto de treino. O [repositório que distribui o modelo](https://huggingface.co/rhasspy/piper-voices/blob/main/README.md)
+  declara licença MIT nos seus metadados, consultados em 15 de outubro de 2026.
+  Ao distribuir novos recursos, guardar esta origem e a identificação do modelo
+  com os textos e os hashes usados na geração.
 - Os textos das três amostras foram preparados neste trabalho. Nenhum fonema,
   nome de letra ou gravação existente foi substituído.
 
@@ -51,5 +52,7 @@ O nome do ficheiro de configuração deve ser o nome do modelo seguido de
 `.json`. Os hashes permitem verificar o modelo e a configuração usados aqui.
 
 Para aprovar a voz, ouvir as três amostras e avaliar pronúncia, ritmo e
-inteligibilidade para crianças. Uma aprovação desta voz não aprova a produção
-em massa nem os sons das letras, que têm uma revisão pedagógica própria.
+inteligibilidade para crianças. Conforme autorizado pelo professor, a aprovação
+das amostras permite gerar as instruções e os topónimos em falta. Os sons e nomes
+das letras têm validação pedagógica específica; a revisão final das gravações
+continua pendente depois da geração.
