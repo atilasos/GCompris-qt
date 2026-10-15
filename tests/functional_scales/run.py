@@ -9,6 +9,7 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -71,16 +72,20 @@ def main():
     parser.add_argument('--physical-only', action='store_true', help='disable the visual keyboard preference')
     parser.add_argument('--levels', type=int, default=0, help='partial tracer only; omit for complete gameplay')
     args = parser.parse_args()
-    generated = ROOT / 'build/functional-scales' / args.activity / ('controls.qml' if args.controls else str(args.levels) + ('-physical' if args.physical_only else '') + '-levels.qml')
-    generated.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        args.output.mkdir(parents=True, exist_ok=False)
+    except FileExistsError:
+        parser.error('Use a new output directory for every run')
     case = (ROOT / 'tests/functional_scales' / ('controls.qml' if args.controls else 'gameplay.qml')).read_text()
     case = case.replace('__SCALES_ORACLE__', (ROOT / 'tests/functional_scales/oracle.js').read_text()).replace('__LEVEL_LIMIT__', str(args.levels)).replace('__VIRTUAL_KEYBOARD__', 'false' if args.physical_only else 'true')
-    generated.write_text(case)
-    code = subprocess.call([sys.executable, str(ROOT / 'tools/run-native-qml-case.py'),
-                           '--resource-snapshot', str(args.resource_snapshot.resolve()), '--activity', args.activity,
-                           '--qml-file', str(ROOT / 'src/activities/scalesboard/Scalesboard.qml'), '--case', str(generated),
-                           '--output', str(args.output.resolve()), '--offline', '--timeout', '2400', '--result-marker', 'NATIVE_SCALES_RESULT'])
-    if args.output.is_dir():
+    # The launcher accepts our empty output, while its input stays private.
+    with tempfile.TemporaryDirectory(prefix='functional-scales-case-') as temporary:
+        generated = Path(temporary) / 'case.qml'
+        generated.write_text(case)
+        code = subprocess.call([sys.executable, str(ROOT / 'tools/run-native-qml-case.py'),
+                               '--resource-snapshot', str(args.resource_snapshot.resolve()), '--activity', args.activity,
+                               '--qml-file', str(ROOT / 'src/activities/scalesboard/Scalesboard.qml'), '--case', str(generated),
+                               '--output', str(args.output.resolve()), '--offline', '--timeout', '2400', '--result-marker', 'NATIVE_SCALES_RESULT'])
         shutil.copyfile(generated, args.output / 'case.qml')
     if code or args.controls:
         return code
