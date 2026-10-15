@@ -135,3 +135,5 @@ declarar puzzles completos. A matriz global mantém os critérios pendentes.
 - [30 — Decimais e quantidades](issues/30-decimais-quantidades.md)
 
 - [31 — Complemento da dezena](issues/31-complemento-dezena.md)
+
+- [32 — Adivinhar um número](issues/32-adivinhar-numero.md)
