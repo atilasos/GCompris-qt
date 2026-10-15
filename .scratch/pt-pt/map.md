@@ -22,7 +22,9 @@
   preservando as 1578 gravações originais. A audição/revisão final é tarefa 08.
 - As 203 atividades passaram o arranque Linux sem rede. Os dois jogos de
   gramática, escolha múltipla e cronologia têm conclusão nativa dos seus níveis
-  documentada nas tarefas 16/17. Os restantes percursos continuam na tarefa 06.
+  documentada nas tarefas 16/17. Os quatro jogos de letras e teclado também
+  concluíram 74 percursos de nível/modo na tarefa 15. Os restantes percursos
+  continuam na tarefa 06.
   Ainda não existe evidência final da aplicação instalada em Windows10.
 - Windows10 x64 está confirmado; o professor dispõe de um Windows para testes.
   O primeiro ensaio nativo compilou a aplicação e os recursos, mas a implantação
@@ -66,6 +68,13 @@
 - As duas atividades de gramática concluíram 172 exercícios/15 níveis na interface
   real. Foi corrigida a entrega dupla das teclas.
   [Evidência da tarefa 17](issues/17-gramatica-interativa.md#answer).
+- Os quatro jogos de letras e teclado concluíram 74 percursos, com 1 037 respostas
+  certas e 282 erradas. Foi corrigida a seleção inválida ao mudar de nível.
+  [Evidência da tarefa 15](issues/15-letras-funcionais.md#answer).
+- A seleção de recursos conserva o pacote local mais recente quando o seu checksum
+  é válido. Os 28 testes do DownloadManager e as oito suites C++ passaram; o novo
+  rastreio dos 203 arranques sem rede também passou.
+  [Evidência da tarefa 18](issues/18-preservar-recursos-locais.md).
 
 ## Tarefas
 
@@ -86,3 +95,5 @@
 
 - [16 — Conclusão nativa de escolha múltipla e cronologia](issues/16-validacao-sequencias.md)
 - [17 — Conclusão nativa da gramática e teclado](issues/17-gramatica-interativa.md)
+- [15 — Conclusão nativa dos quatro jogos de letras](issues/15-letras-funcionais.md)
+- [18 — Preservar os recursos locais mais recentes](issues/18-preservar-recursos-locais.md)
