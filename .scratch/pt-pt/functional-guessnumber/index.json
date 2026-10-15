@@ -1,0 +1,42 @@
+[
+  {
+    "case": "controls",
+    "passed": true,
+    "result_sha256": "1c140049207e39edc3e8da2c8f7b05926e45c0f7c396288f20179dde4d2bf22a",
+    "completed": 0,
+    "highHints": null,
+    "lowHints": null
+  },
+  {
+    "case": "final-gameplay",
+    "passed": true,
+    "result_sha256": "8889ee4a379bae3bd903695c614142f94fb6b88cd9f6b0fb54bd32ffb816dbc0",
+    "completed": 34,
+    "highHints": 180,
+    "lowHints": 174
+  },
+  {
+    "case": "gameplay",
+    "passed": true,
+    "result_sha256": "0b07296e384cd10e63476c56646136d6c734ab3923b524e9fd152dbd785b6e2d",
+    "completed": 34,
+    "highHints": 177,
+    "lowHints": 169
+  },
+  {
+    "case": "help-baseline",
+    "passed": false,
+    "result_sha256": "c455b1fcdf21660112bb0848440469ea3ab5d852e627e8d6f128b26e8e669aad",
+    "completed": 0,
+    "highHints": null,
+    "lowHints": null
+  },
+  {
+    "case": "help-green",
+    "passed": true,
+    "result_sha256": "dfa7253b741609fa9c3934652353121259006a1253d0b8651e71a4627826b948",
+    "completed": 0,
+    "highHints": null,
+    "lowHints": null
+  }
+]
