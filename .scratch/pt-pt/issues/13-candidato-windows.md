@@ -1,7 +1,7 @@
 # Preparar um candidato Windows x64 para testes
 
 Status: ready-for-agent
-Progress: open
+Progress: claimed
 Type: task
 Blocked by: 02
 
@@ -33,3 +33,25 @@ revisão dos recursos; não substitui a tarefa 07 nem a aprovação da tarefa 08
 Pode usar GitHub Actions no fork para compilar sem instalar ferramentas de
 desenvolvimento no computador da escola. O tracker continua local, sem necessidade
 de criar PR. O envio de código deve usar apenas o fork `atilasos/GCompris-qt`.
+
+## Comments — implementação da construção automática
+
+Preparados o workflow nativo Windows2022/MSVC x64 e os scripts de implantação em
+`tools/windows/`. Qt6.10.2 exige Windows10 1809+. As ações, Qt, aqtinstall, vcpkg e
+NSIS têm revisões/versões fixadas; os oito ficheiros dos recursos offline atuais
+(quatro RCC e quatro Contents, cerca de853MB) têm hashes SHA256 fixados.
+
+Verificação local: três testes Python passaram, incluindo rejeição de recurso
+alterado; download real de Contents passou o hash; actionlint1.7.7 aprovou o
+workflow e o parser PowerShell7.4.6 aceitou o script. Estes resultados não são uma
+compilação Windows. O workflow precisa agora de ser enviado para a branch de
+integração do fork para gerar o candidato e executar os controlos nativos.
+
+O script instalará o EXE gerado numa pasta separada e verificará a listagem das
+atividades com perfil novo e bloqueio de saída na firewall, além da árvore
+portátil. Os resultados e SHA256 serão guardados no artefacto Actions.
+Procedimento e limites: `../windows-candidate.md`.
+
+A tarefa permanece `claimed` até existir resultado real da compilação, instalador,
+checksum e controlos nativos. A execução no Windows10 do professor continua
+pendente e não pode ser inferida do runner WindowsServer2022.
