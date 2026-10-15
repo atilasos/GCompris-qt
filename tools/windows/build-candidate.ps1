@@ -38,7 +38,7 @@ try {
     Copy-Item "$build/share/GCompris" "$stage/share/" -Recurse -Force
     Copy-Item "$box2d/qmldir", "$box2d/qmlbox2d.dll" "$stage/lib/qml/Box2D.2.0/"
     & "$QtRoot/bin/windeployqt.exe" --help | Set-Content "$build/windeployqt-help.log"
-    & "$QtRoot/bin/windeployqt.exe" --release --compiler-runtime --add-plugin-types "platforms,imageformats,multimedia,tls" --openssl-root "$OpenSSLRoot/bin" --qmldir "$source/src" "$stage/bin/GCompris.exe"
+    & "$QtRoot/bin/windeployqt.exe" --release --compiler-runtime --add-plugin-types "platforms,imageformats,multimedia,tls" --openssl-root "$OpenSSLRoot" --qmldir "$source/src" "$stage/bin/GCompris.exe"
     # Deploy dependencies of our dynamic Box2D plugin too.
     & "$QtRoot/bin/windeployqt.exe" --release --compiler-runtime "$stage/lib/qml/Box2D.2.0/qmlbox2d.dll"
     Copy-Item "$OpenSSLRoot/bin/*.dll" "$stage/bin/"
