@@ -42,3 +42,11 @@ jogador, 22 do Tux e 195 erros/terceiros cliques bloqueados. O índice atualizad
 contém 63 casos completos e lista os sete gameplays restantes como ausentes.
 Os 56 casos auxiliares mantêm-se aprovados; nenhuma execução parcial entra
 nestes totais.
+
+## Terceiro checkpoint
+
+Onze variantes têm gameplay completo aprovado: 168 combinações
+nível/modo, 838 pares do jogador e 37 do Tux. Os 67
+casos completos incluem 313 erros/terceiros cliques bloqueados,
+5 derrotas deliberadas e 2 naturais. O índice continua
+parcial e identifica os três gameplays restantes.
