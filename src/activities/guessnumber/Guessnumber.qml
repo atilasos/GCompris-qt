@@ -186,13 +186,15 @@ ActivityBase {
             enableInput: !bonus.isPlaying
         }
 
-        Keys.onPressed: (event) => {
-            numpad.updateAnswer(event.key, true);
+        function handleAnswerKey(event, pressed) {
+            if(!((event.key >= Qt.Key_0 && event.key <= Qt.Key_9) || event.key === Qt.Key_Backspace))
+                return;
+            event.accepted = true;
+            numpad.updateAnswer(event.key, pressed);
         }
 
-        Keys.onReleased: (event) => {
-            numpad.updateAnswer(event.key, false);
-        }
+        Keys.onPressed: (event) => handleAnswerKey(event, true)
+        Keys.onReleased: (event) => handleAnswerKey(event, false)
 
         Keys.onEnterPressed: {
             if(okButton.enabled) {
