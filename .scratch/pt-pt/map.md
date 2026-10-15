@@ -115,3 +115,5 @@
 - [23 — Diagnóstico dos encerramentos durante testes](issues/23-reading-crash.md)
 
 - [26 — Pacote de audição das 32 gravações](issues/26-pacote-audicao.md)
+
+- [29 — Memória matemática](issues/29-memoria-matematica.md)
