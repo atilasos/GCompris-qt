@@ -169,3 +169,5 @@ a aceitação global dos 203 jogos.
 - [42 — Rejeitar seleções vazias no executor de memória](issues/42-retorno-vazio-memoria.md)
 
 - [43 — Primeiro rato e peixes](issues/43-primeiro-rato-peixes.md)
+
+- [44 — Dois pares de vocabulário legado](issues/44-pares-vocabulario-legado.md)
