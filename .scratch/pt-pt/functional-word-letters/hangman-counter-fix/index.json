@@ -1,0 +1,12 @@
+{
+  "case_sha256": "27f7544c8880ba86bb5cbaa72c1e1dcd18ebbdf11cce33d7137008d407442fdb",
+  "baseline_completed_words": 95,
+  "green_completed_words": 95,
+  "observed_baseline": "After real completion95/95 and automatic advance to next lesson, score.currentSubLevel remained95 instead of1.",
+  "observed_green": "The identical Qt case completed95/95 and verified next-lesson score.currentSubLevel=1.",
+  "baseline_hangman_js_sha256": "c8df64c947b82ce64c9606b571ed8751a5bfcfd995431aa63ed1fbd1b8f54cca",
+  "fixed_hangman_js_sha256": "bad88c46336bf879a75cecf2d23a249d568b76ca2d8626368d095299f6e57b9e",
+  "resource_manifest_sha256": "648adf701e839dd008437bac057dda854993e69946044ab63218b0822f0e3d8d",
+  "baseline_report_sha256": "d49ab599ae56fe787da731c3dd3a4aa20e7b65b1224de6dcf965374c75e9c7de",
+  "green_report_sha256": "1eacb17ddbc60491f399f346fe32df340efc2e11add306940dae03eb2b68d521"
+}
