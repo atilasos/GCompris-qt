@@ -357,8 +357,16 @@ ActivityBase {
                 }
                 while(cardGrid.currentCard.isFound && !items.blockClicks)
             }
-            else if(event.key === Qt.Key_Space || event.key === Qt.Key_Enter || event.key === Qt.Key_Return)
+            else if(event.key === Qt.Key_Space || event.key === Qt.Key_Enter || event.key === Qt.Key_Return) {
                 if(cardGrid.currentCard.isBack && !cardGrid.currentCard.isFound && !cardGrid.currentCard.tuxTurn && items.selectionCount < 2) cardGrid.currentCard.selected()
+            }
+            else {
+                event.accepted = false;
+                return;
+            }
+            // ActivityBase forwards unaccepted keys back to its child. A handled
+            // arrow or flip key must not move/select a second time.
+            event.accepted = true;
         }
 
         Loader {
