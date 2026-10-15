@@ -1,0 +1,38 @@
+[
+  {
+    "key": "fawn.ogg",
+    "translatedText": "corso",
+    "imageResource": "qrc:/gcompris/data/words-webp/fawn.webp",
+    "voiceResource": "qrc:/gcompris/data/voices-ogg/pt/words/fawn.ogg",
+    "captured_files": [
+      {
+        "file": "fawn.webp",
+        "bytes": 30142,
+        "sha256": "ca463533f4b2391ccd8e0fc3a36a965231f6d6ca6bdc55e55f8576f6989e5c92"
+      },
+      {
+        "file": "fawn.ogg",
+        "bytes": 12933,
+        "sha256": "1e8bc6b3d4cc6d6052f0ce6c9b4ff0084ceb9d227fd2e49d32cde570e8d954b3"
+      }
+    ]
+  },
+  {
+    "key": "tick.ogg",
+    "translatedText": "piolho",
+    "imageResource": "qrc:/gcompris/data/words-webp/tick.webp",
+    "voiceResource": "qrc:/gcompris/data/voices-ogg/pt/words/tick.ogg",
+    "captured_files": [
+      {
+        "file": "tick.webp",
+        "bytes": 40338,
+        "sha256": "60cb4a1139111c570202becf9af6eaaa2bbefe440975fe9c7e2616fefd68f1be"
+      },
+      {
+        "file": "tick.ogg",
+        "bytes": 14481,
+        "sha256": "c23c4f3b00f736f4158e073de583a089eac46750ddb6a748f62a2fb4c0cce19b"
+      }
+    ]
+  }
+]
