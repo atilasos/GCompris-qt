@@ -145,3 +145,5 @@ declarar puzzles completos. A matriz global mantém os critérios pendentes.
 - [35 — Aprovação das 32 gravações](issues/35-aprovacao-gravacoes.md)
 
 - [36 — Retorno do launcher decimal](issues/36-retorno-runner-decimais.md)
+
+- [37 — Restantes jogos de memória](issues/37-restante-memoria.md)
