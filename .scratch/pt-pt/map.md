@@ -149,3 +149,5 @@ declarar puzzles completos. A matriz global mantém os critérios pendentes.
 - [37 — Restantes jogos de memória](issues/37-restante-memoria.md)
 
 - [38 — Palavras e letras](issues/38-palavras-letras.md)
+
+- [39 — O meu primeiro teclado](issues/39-primeiro-teclado.md)
