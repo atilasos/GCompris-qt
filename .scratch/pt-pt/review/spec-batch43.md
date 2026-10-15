@@ -1,0 +1,11 @@
+# Revisão Spec incremental — lote43
+
+Intervalo fixo `9594905c7...5ef7db807`, commits, spec e tarefas38/43/44; tarefa41 excluída. Sem alterações ao código/build ou campanhas Qt longas.
+
+**[P2, confiança alta] A retoma pode reutilizar evidência anterior a alterações da tradução/adaptador.** Spec33–35: “Cada conclusão é sustentada por evidência”. Em `tests/functional_word_letters/run.py`, `freeze_sources()` inclui PO, CMake e adaptador IME no `frozen_sha`; porém, a condição que aceita `checkpoint.json` verde compara apenas caso, pasta da atividade, snapshot e relatório. Não compara `row['frozen_source_sha256']` com o novo `frozen_sha`. Assim, alterar o catálogo português recompilado pelo launcher não invalida os checkpoints antigos. Reproduzi com a fixture subprocesso existente, inteiramente temporária: primeira execução iniciou8 casos; alterei só o PO; `--resume` retornou0 com os mesmos8 lançamentos, sem executar novamente. Exigir correspondência do digest congelado antes de reutilizar a prova e acrescentar regressão para PO/adaptador alterados. Considerar também o hash do launcher, se a retoma deve certificar a ferramenta atual. Isto não demonstra que as174 provas arquivadas estejam erradas; compromete a validade de retomas futuras após alterações relevantes.
+
+**Restantes provas:** confirmei hashes do índice de checkpoint,174 campanhas verdes/1740 perguntas e os oito hashes dos resultados positivos rato/peixes. A amostragem aleatória de Letra na palavra é explícita; Hangman integral continua em curso. Reiniciar a pontuação no início da lição corresponde ao comportamento pretendido.
+
+As correções do pato e do total de níveis dos peixes cabem no âmbito funcional. Os casos usam movimento/cliques reais, seis níveis/67 capturas; o relatório distingue22 sprites observados de27 auditados. SoundEffect Null/sem playingChanged permanece explicitamente sem prova de reprodução, apesar dos WAV descodificados; não identifiquei aprovação sonora indevida.
+
+A tarefa44 conserva duas propostas WAV separadas dos32 recursos aprovados, com texto, origem/licenças, hashes e aprovação humana pendente. O pacote inclui originais e propostas; não altera o jogo nem transfere aprovação entre bytes diferentes. Sem scope creep ou outra implementação incorreta demonstrada.

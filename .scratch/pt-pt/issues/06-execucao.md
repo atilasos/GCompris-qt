@@ -43,7 +43,8 @@ com provas específicas; isto não conclui os jogos completos. A tarefa24 trata
 identificadores de categorias mostrados em inglês no rodapé da ajuda.
 
 A matriz liga atualmente evidência funcional de 55 atividades, mantendo os
-critérios globais pending. As tarefas34/38 continuam em campanhas completas; a tarefa37 concluiu os
+critérios globais pending. A tarefa34 concluiu os666 puzzles das três balanças; a tarefa38 concluiu
+Letra na palavra e mantém a matriz Hangman em curso. A tarefa37 concluiu os
 43 percursos das cinco variantes restantes de memória;
 a tarefa39 concluiu a exploração do primeiro teclado. A tarefa40 corrigiu
 apenas os metadados de níveis do Solitário, sem validar os seus puzzles.
