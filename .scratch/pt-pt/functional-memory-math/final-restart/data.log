@@ -1,0 +1,12 @@
+{"datasets":138,"shuffleOrders":2,"pairs":3748}
+✔ all 138 source datasets generate enough distinct, mathematically correct pairs (29.627931ms)
+✔ primitive tables retain all ten known answers and operand order branches (4.033253ms)
+✔ oracle rejects a wrong result and duplicate answers rather than trusting matchCode (0.793283ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 74.162991

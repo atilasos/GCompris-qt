@@ -12,7 +12,7 @@ core num diretório privado e cria uma cópia integral selada. Cada processo usa
 perfil novo em PT-PT e `--network none`. A aplicação real e os seus timers fazem
 o jogo; não há alteração de RNG nativo, matchCode, pontuação ou duração.
 
-Pode selecionar `--case gameplay|controls|keyboard_home|restart`, `--activity ID`
+Pode selecionar `--case gameplay|controls|keyboard_home|restart|datasets`, `--activity ID`
 repetido e `--jobs N`. Para repetir apenas casos sobre um snapshot próprio já
 construído, passe `--snapshot DIRETÓRIO` juntamente com `--binary` dessa cópia.
 Os resultados contêm os hashes do manifesto, dados, QM, caso e binário.
@@ -47,7 +47,9 @@ mesmo nível, sem atribuir pontos nem chamar diretamente as respostas do motor.
 `controls.qml` usa botões reais anterior/próximo, ajuda PT, fechar e menu.
 `keyboard_home.qml` verifica Escape. `restart.qml` testa as quatro setas e
 reinício com carta aberta, esperando mais que o timer original de 1500 ms.
-Nos perfis novos, Enter confirma a configuração inicial quando esta é exibida.
+`datasets.qml` confirma os 138 objetivos de tabelas em português no Qt e os
+contratos de uma tabela, duas tabelas e seleção completa. Nos perfis novos,
+Enter confirma a configuração inicial quando esta é exibida.
 A seleção completa das tabelas e playerCount usam fixtures pelo ciclo normal
 stop/start. Não são gestos exaustivos do seletor de tabelas/opções.
 

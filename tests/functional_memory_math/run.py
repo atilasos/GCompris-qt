@@ -19,7 +19,7 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[2]
 BASES = ['add','minus','mult','div','add-minus','mult-div','add-minus-mult-div']
 ACTIVITIES = ['memory-math-'+base+suffix for base in BASES for suffix in ['', '-tux']]
-CASES = {'gameplay': 700, 'controls': 40, 'keyboard_home': 20, 'restart': 30}
+CASES = {'gameplay': 700, 'controls': 40, 'keyboard_home': 20, 'restart': 30, 'datasets': 35}
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 def main():
