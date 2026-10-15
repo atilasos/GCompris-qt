@@ -56,7 +56,7 @@ def main():
         assert case_count==70
     manifest=EVIDENCE/'resource-manifest.json'
     assert sha(manifest)==next(iter(manifests))
-    for name in ['data.log','build-identity.json','resource-manifest.json']:
+    for name in ['data.log','build-identity.json','resource-manifest.json','environment.json']:
         artifact=EVIDENCE/name
         artifacts[name]={'sha256':sha(artifact),'bytes':artifact.stat().st_size}
     output={'format':1,'complete':not missing,'missing_cases':missing,'native_cases':case_count,'activities':14,'totals':totals,'by_activity':rows,

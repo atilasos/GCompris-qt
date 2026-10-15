@@ -1,33 +1,20 @@
 {
   "format": 1,
-  "complete": false,
-  "missing_cases": [
-    {
-      "activity": "memory-math-mult-div-tux",
-      "case": "gameplay"
-    },
-    {
-      "activity": "memory-math-add-minus-mult-div",
-      "case": "gameplay"
-    },
-    {
-      "activity": "memory-math-add-minus-mult-div-tux",
-      "case": "gameplay"
-    }
-  ],
-  "native_cases": 67,
+  "complete": true,
+  "missing_cases": [],
+  "native_cases": 70,
   "activities": 14,
   "totals": {
-    "completed": 168,
-    "correctPairs": 838,
-    "wrongPairs": 313,
-    "blockedClicks": 313,
-    "tuxPairs": 37,
-    "tuxTurns": 166,
+    "completed": 207,
+    "correctPairs": 1033,
+    "wrongPairs": 395,
+    "blockedClicks": 395,
+    "tuxPairs": 47,
+    "tuxTurns": 223,
     "losses": 2,
-    "winSignals": 168,
-    "lossSignals": 7,
-    "forcedDefeats": 5
+    "winSignals": 207,
+    "lossSignals": 9,
+    "forcedDefeats": 7
   },
   "by_activity": [
     {
@@ -174,13 +161,43 @@
       "forcedDefeats": 0
     },
     {
-      "activity": "memory-math-mult-div-tux"
+      "activity": "memory-math-mult-div-tux",
+      "completed": 9,
+      "correctPairs": 45,
+      "wrongPairs": 26,
+      "blockedClicks": 26,
+      "tuxPairs": 5,
+      "tuxTurns": 26,
+      "losses": 0,
+      "winSignals": 9,
+      "lossSignals": 1,
+      "forcedDefeats": 1
     },
     {
-      "activity": "memory-math-add-minus-mult-div"
+      "activity": "memory-math-add-minus-mult-div",
+      "completed": 20,
+      "correctPairs": 100,
+      "wrongPairs": 25,
+      "blockedClicks": 25,
+      "tuxPairs": 0,
+      "tuxTurns": 0,
+      "losses": 0,
+      "winSignals": 20,
+      "lossSignals": 0,
+      "forcedDefeats": 0
     },
     {
-      "activity": "memory-math-add-minus-mult-div-tux"
+      "activity": "memory-math-add-minus-mult-div-tux",
+      "completed": 10,
+      "correctPairs": 50,
+      "wrongPairs": 31,
+      "blockedClicks": 31,
+      "tuxPairs": 5,
+      "tuxTurns": 31,
+      "losses": 0,
+      "winSignals": 10,
+      "lossSignals": 1,
+      "forcedDefeats": 1
     }
   ],
   "snapshot_manifest_sha256": "c663c544e0ad98a63d876eac0cda20b8230a8b40496bc73e81b83d4416660331",
@@ -192,7 +209,7 @@
     "keyboard_home": "28cfc41ba910eede17e9fc11fba940dc7dcc28489ae359df857e3457c8e46410",
     "datasets": "b219c58b58d083217d41ee3742d934ab51d564babacc5a09fbafef478121a87f"
   },
-  "data_test_sha256": "51513f4d7f06c00832f4db1a41b7e7e440b7440179cc6e005ffce27c42f4f180",
+  "data_test_sha256": "a51dbd7e7efcebded4c8595597aa40ffc946d30d7422d8d9839fa5f7d6423ba1",
   "scope": "Named native cases only; Linux global acceptance, Windows, school, physical input/audio and teacher review pending.",
   "artifacts": {
     "sealed-gameplay/memory-math-add/gameplay/1players-board.png": {
@@ -791,6 +808,18 @@
       "sha256": "ba2f6f0e624b4fca32caa31fbbe5b984e6109a2f84701740887621412a001274",
       "bytes": 34617
     },
+    "sealed-gameplay/memory-math-mult-div-tux/gameplay/1players-board.png": {
+      "sha256": "33ec534293220b116295b8ef68f66dfcce39e8bd8f8be71669e5c7a784fe7d07",
+      "bytes": 182965
+    },
+    "sealed-gameplay/memory-math-mult-div-tux/gameplay/native.log": {
+      "sha256": "6339ac5d64c000c7688673030e9cc9c013d27a9e16d4f1ccff95559de757220f",
+      "bytes": 9293
+    },
+    "sealed-gameplay/memory-math-mult-div-tux/gameplay/result.json": {
+      "sha256": "87387a4201f5276eaaf314492862f35cda7e7c244ac7e088de205d1a8170ad10",
+      "bytes": 34991
+    },
     "final-controls/memory-math-mult-div-tux/controls/help.png": {
       "sha256": "a3b8ce8aba7eaa1bf69b35a2ac398baaaffe20b29019ea2bbbba881270683134",
       "bytes": 101897
@@ -831,6 +860,22 @@
       "sha256": "fe68d04ef51dd63df13803c2ba3af0a01878e435b32f0ff7b096eeec57284a44",
       "bytes": 34625
     },
+    "sealed-gameplay/memory-math-add-minus-mult-div/gameplay/1players-board.png": {
+      "sha256": "ff36fc0cdc4fd6f2bf3a564a8b68d49cde410dc04e95d73e8ac927e538a25454",
+      "bytes": 174284
+    },
+    "sealed-gameplay/memory-math-add-minus-mult-div/gameplay/2players-board.png": {
+      "sha256": "ef7ea925707fbf4e7391070b795c2f178162c7edf07f2f796a2f82b31abf4f08",
+      "bytes": 175554
+    },
+    "sealed-gameplay/memory-math-add-minus-mult-div/gameplay/native.log": {
+      "sha256": "145b6045b2258b33dda2c654231b2f60ee65d9f0982a65112a80e50a8e00beb1",
+      "bytes": 10872
+    },
+    "sealed-gameplay/memory-math-add-minus-mult-div/gameplay/result.json": {
+      "sha256": "f64f085e32d03d677960302652e0ef3e1fd90b46c7c8d2f97046939b2ad1eade",
+      "bytes": 36492
+    },
     "final-controls/memory-math-add-minus-mult-div/controls/help.png": {
       "sha256": "f1ea16fcf803f54e7692e88760a8bdc23f21e20c97c5bd6c68d2136026dcdb41",
       "bytes": 96506
@@ -870,6 +915,18 @@
     "final-datasets/memory-math-add-minus-mult-div/datasets/result.json": {
       "sha256": "cecf4aed26a175ef4743ebe191c0efc337fed32311be44984d13510fe39cda1c",
       "bytes": 34748
+    },
+    "sealed-gameplay/memory-math-add-minus-mult-div-tux/gameplay/1players-board.png": {
+      "sha256": "8a297f916f5101441942f434140d9bccb3126879f1dab3d4c5b2f584e7d9e6d3",
+      "bytes": 181138
+    },
+    "sealed-gameplay/memory-math-add-minus-mult-div-tux/gameplay/native.log": {
+      "sha256": "b72bff140397ecc1549fc2e6c37d9efa2af5e063bd26da287b1b054ae17214bf",
+      "bytes": 9570
+    },
+    "sealed-gameplay/memory-math-add-minus-mult-div-tux/gameplay/result.json": {
+      "sha256": "b02a7279ec306979aa3b90231c03374d5a1d0090c24e501d5a1918f75d1254b8",
+      "bytes": 35134
     },
     "final-controls/memory-math-add-minus-mult-div-tux/controls/help.png": {
       "sha256": "9fb90c322c30fe6439b6eceebe6268752b5122796870555c2ed9b5700bad81eb",
@@ -912,8 +969,8 @@
       "bytes": 34756
     },
     "data.log": {
-      "sha256": "785a730e809dddb80382c76636807aa3feca890e4f6d42e36d45fd150b23caf4",
-      "bytes": 540
+      "sha256": "3640ad30ac88f8f6424b808e67545d95283af3ecacfa1e7bdba78b71c2163fb8",
+      "bytes": 537
     },
     "build-identity.json": {
       "sha256": "973e8da11c8aa0f8f4e804fa7fd2a9acda807f21e048a2414c3ef428183ea4ac",
@@ -922,6 +979,10 @@
     "resource-manifest.json": {
       "sha256": "c663c544e0ad98a63d876eac0cda20b8230a8b40496bc73e81b83d4416660331",
       "bytes": 32009
+    },
+    "environment.json": {
+      "sha256": "432b835f0683a16f619a35ab2d1927754a421262362c53c24e0f0fe7110f6efa",
+      "bytes": 886
     }
   }
 }

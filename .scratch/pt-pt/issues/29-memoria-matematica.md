@@ -1,7 +1,7 @@
 # Validar a memória matemática
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02, 21, 25
 
@@ -39,3 +39,15 @@ Windows, audição, hardware e aceitação docente permanecem critérios separad
 - Segundo checkpoint: sete gameplays completos, 110 combinações nível/modo,
   63 casos nativos aprovados incluindo os 56 auxiliares. `checkpoint.json`
   mantém `complete:false` e enumera os sete gameplays ainda em execução.
+
+## Answer
+
+Lote automatizado delimitado concluído: 70 casos Qt reais, 14 variantes, 207
+combinações nível/modo, 1033 pares do jogador, 47 do Tux, 395 erros/terceiros
+cliques bloqueados e 223 turnos do Tux. Os 207 Bonus positivos e nove negativos
+foram observados: sete derrotas deliberadas e duas naturais com repetição/vitória.
+Quatro testes de dados aprovam 138 datasets e 3748 pares em duas misturas; Qt
+confirma os 138 objetivos PT e seleções de uma/duas/todas as tabelas. Nenhuma
+alteração de produção foi necessária. [Provas, hashes e limites](../functional-memory-math/README.md).
+Mapa/CSV e build principal intocados. Windows, escola, dispositivos, áudio,
+seletor exaustivo e revisão docente/global Linux continuam pendentes.

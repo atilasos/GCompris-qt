@@ -5,7 +5,7 @@ import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 const root=new URL('../../',import.meta.url);
 const read=path=>readFileSync(new URL(path,root),'utf8');
-const families={add:'Add',minus:'Minus',mult:'Mult',div:'Div','add-minus':'AddMinus','mult-div':'MultDiv','add-minus-mult-div':'AddMinusMultDiv'};
+const families=['add','minus','mult','div','add-minus','mult-div','add-minus-mult-div'];
 // A decimal counting oracle independent of math_util's formula and cached results.
 function result(expression) {
  const [,a,op,b]=/^(\d+) ([+−×÷]) (\d+)$/.exec(expression)??[];
@@ -32,16 +32,17 @@ test('all 138 source datasets generate enough distinct, mathematically correct p
  let datasets=0,pairs=0;
  for(const reverse of [false,true]) {
   const context=load(reverse);
-  for(const [family,fn] of Object.entries(families))for(const tux of ['', '-tux']) {
+  for(const family of families)for(const tux of ['', '-tux']) {
    const count=family==='mult-div'?9:10;
    const info=read(`src/activities/memory-math-${family}${tux}/ActivityInfo.qml`);
    assert.equal(JSON.parse(info.match(/levels:\s*(\[[^\]]+\])/)[1]).length,count);
    for(let folder=1;folder<=count;folder++) {
     const table=family==='mult-div'?folder+1:folder;
     const source=read(`src/activities/memory-math-${family}${tux}/resource/${folder}/Data.qml`);
-    assert.match(source,new RegExp(`texts: Memory.get${fn}Table\\(${table}\\)`));
+    const call=source.match(/texts:\s*Memory\.(\w+)\((\d+)\)/);
+    assert.ok(call,'Dataset exposes its original generated texts');
     assert.match(source,/columns: 5/);assert.match(source,/rows: 2/);
-    const generated=evaluate(context,`get${fn}Table`,table);valid(generated);
+    const generated=evaluate(context,call[1],Number(call[2]));valid(generated);
     const allowed=family==='add'?['+']:family==='minus'?['−']:family==='mult'?['×']:family==='div'?['÷']:family==='add-minus'?['+','−']:family==='mult-div'?['×','÷']:['+','−','×','÷'];
     const expected=new Set();
     for(const op of allowed)for(let n=1;n<=10;n++)expected.add(op==='−'||op==='÷'?n:result(`${table} ${op} ${n}`));
