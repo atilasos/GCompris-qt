@@ -1,0 +1,7 @@
+test_every_translated_word_is_usable_in_complete_and_sample_lessons (test_corpus.PortugueseCorpusTest.test_every_translated_word_is_usable_in_complete_and_sample_lessons) ... ok
+test_resume_retains_semantically_identical_json_inputs_but_rechecks_changed_words (test_runner.LessonCheckpointTest.test_resume_retains_semantically_identical_json_inputs_but_rechecks_changed_words) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.459s
+
+OK

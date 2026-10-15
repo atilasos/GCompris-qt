@@ -1,0 +1,15 @@
+test_resume_retains_semantically_identical_json_inputs_but_rechecks_changed_words (test_runner.LessonCheckpointTest.test_resume_retains_semantically_identical_json_inputs_but_rechecks_changed_words) ... FAIL
+
+======================================================================
+FAIL: test_resume_retains_semantically_identical_json_inputs_but_rechecks_changed_words (test_runner.LessonCheckpointTest.test_resume_retains_semantically_identical_json_inputs_but_rechecks_changed_words)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tests/functional_word_letters/test_runner.py", line 65, in test_resume_retains_semantically_identical_json_inputs_but_rechecks_changed_words
+    self.assertEqual(len(self.log.read_text().splitlines()),8)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 16 != 8
+
+----------------------------------------------------------------------
+Ran 1 test in 0.385s
+
+FAILED (failures=1)

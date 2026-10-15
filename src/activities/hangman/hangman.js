@@ -70,6 +70,7 @@ function initLevel() {
 
     maxSubLevel = wordList.length;
     items.score.numberOfSubLevels = maxSubLevel;
+    items.score.currentSubLevel = 0;
     items.score.visible = true;
 
     subLevelsLeft = [];
