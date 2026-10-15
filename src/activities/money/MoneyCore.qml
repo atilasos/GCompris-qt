@@ -243,6 +243,9 @@ ActivityBase {
         Keys.enabled: !items.buttonsBlocked
 
         Keys.onPressed: (event) => {
+            if ([Qt.Key_Tab, Qt.Key_Right, Qt.Key_Left, Qt.Key_Space, Qt.Key_Enter, Qt.Key_Return].indexOf(event.key) === -1)
+                return;
+            event.accepted = true;
             if(event.key === Qt.Key_Tab) {
                 if(items.selectedArea.count !== 0 && items.itemIndex !== -1)
                     items.selectedArea.itemAt(items.itemIndex).selected = false

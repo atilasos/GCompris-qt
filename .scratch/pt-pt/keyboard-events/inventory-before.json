@@ -1,0 +1,602 @@
+{
+  "scope": "Static candidates, not proof of duplication or branch coverage",
+  "handlers": [
+    {
+      "path": "src/activities/algebra_by/Algebra.qml",
+      "line": 273,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/algorithm/Algorithm.qml",
+      "line": 74,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/align4_2players/Align42players.qml",
+      "line": 79,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/analog_electricity/AnalogElectricity.qml",
+      "line": 71,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/baby_keyboard/Baby_keyboard.qml",
+      "line": 152,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/babymatch/Babymatch.qml",
+      "line": 88,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/balancebox/Balancebox.qml",
+      "line": 41,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/ballcatch/Ballcatch.qml",
+      "line": 26,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": true,
+      "delegates": [
+        "processKey"
+      ],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/binary_bulb/BinaryBulb.qml",
+      "line": 147,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/braille_alphabets/BrailleAlphabets.qml",
+      "line": 43,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/braille_alphabets/BrailleMap.qml",
+      "line": 25,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/braille_fun/BrailleFun.qml",
+      "line": 45,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/calcudoku/Calcudoku.qml",
+      "line": 146,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": true,
+      "delegates": [
+        "onKeyPressed"
+      ],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/calendar/Calendar.qml",
+      "line": 70,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/categorization/MenuScreen.qml",
+      "line": 59,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": true,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/click_on_letter/ClickOnLetter.qml",
+      "line": 130,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/colors/FindIt.qml",
+      "line": 90,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/comparator/Comparator.qml",
+      "line": 121,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": true,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/compass/Compass.qml",
+      "line": 1303,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": true,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/crane/Crane.qml",
+      "line": 82,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/digital_electricity/DigitalElectricity.qml",
+      "line": 49,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/drawing_wheels/DrawingWheels.qml",
+      "line": 120,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": true,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/enumerate/Enumerate.qml",
+      "line": 118,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/fifteen/Fifteen.qml",
+      "line": 42,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": true,
+      "delegates": [
+        "processPressedKey",
+        "sixteenPressedKey"
+      ],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/fractions_create/FractionsCreate.qml",
+      "line": 92,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/frieze/Frieze.qml",
+      "line": 409,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [
+        "handleKeys"
+      ],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/graduated_line_read/GraduatedLineRead.qml",
+      "line": 565,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [
+        "handleEvents"
+      ],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/grammar_analysis/GrammarAnalysis.qml",
+      "line": 442,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": true,
+      "delegates": [
+        "handleKeys"
+      ],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/graph-coloring/GraphColoring.qml",
+      "line": 97,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/gravity/Gravity.qml",
+      "line": 26,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": true,
+      "delegates": [
+        "processKeyPress"
+      ],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/guess24/Guess24.qml",
+      "line": 520,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [
+        "handleKeys"
+      ],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/guessnumber/Guessnumber.qml",
+      "line": 189,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/land_safe/LandSafe.qml",
+      "line": 32,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": true,
+      "delegates": [
+        "processKeyPress"
+      ],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/lang/ImageReview.qml",
+      "line": 90,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": true,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/lang/MenuScreen.qml",
+      "line": 53,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": true,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/lang/Quiz.qml",
+      "line": 56,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": true,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/learn_decimals/Learn_decimals.qml",
+      "line": 662,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/learn_digits/Learn_digits.qml",
+      "line": 23,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [
+        "processKey"
+      ],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/lightsoff/Lightsoff.qml",
+      "line": 83,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/maze/Maze.qml",
+      "line": 29,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": true,
+      "delegates": [
+        "processPressedKey"
+      ],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/memory/MemoryCommon.qml",
+      "line": 314,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/menu/BackgroundMusicList.qml",
+      "line": 26,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/menu/Menu.qml",
+      "line": 231,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": true,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/menu/ServerConfigPage.qml",
+      "line": 25,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/money/MoneyCore.qml",
+      "line": 245,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/morse_code/MorseCode.qml",
+      "line": 187,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/morse_code/MorseMap.qml",
+      "line": 24,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/multiple_choice_questions/Multiple_choice_questions.qml",
+      "line": 113,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/note_names/NoteNames.qml",
+      "line": 53,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/piano_composition/MelodyList.qml",
+      "line": 27,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/piano_composition/Piano_composition.qml",
+      "line": 53,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": true,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/planegame/Planegame.qml",
+      "line": 24,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": true,
+      "delegates": [
+        "processPressedKey"
+      ],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/play_piano/PlayPiano.qml",
+      "line": 46,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/polygons/Polygons.qml",
+      "line": 85,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/positions/Positions.qml",
+      "line": 64,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": true,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/programmingMaze/ProgrammingMaze.qml",
+      "line": 124,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/railroad/Railroad.qml",
+      "line": 84,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/redraw/Redraw.qml",
+      "line": 79,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/roman_numerals/RomanNumerals.qml",
+      "line": 238,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/scalesboard/Scalesboard.qml",
+      "line": 430,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/simplepaint/Simplepaint.qml",
+      "line": 42,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/sketch/BackgroundColorSelector.qml",
+      "line": 23,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/sketch/BackgroundSelector.qml",
+      "line": 25,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/sketch/Sketch.qml",
+      "line": 133,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": true,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/solar_system/SolarSystem.qml",
+      "line": 94,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/submarine/Submarine.qml",
+      "line": 60,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": true
+    },
+    {
+      "path": "src/activities/sudoku/Sudoku.qml",
+      "line": 150,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": true,
+      "delegates": [
+        "onKeyPressed"
+      ],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/tangram/Tangram.qml",
+      "line": 29,
+      "has_arrow_branch": true,
+      "has_explicit_acceptance": true,
+      "delegates": [
+        "processPressedKey"
+      ],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/target/Target.qml",
+      "line": 37,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": true,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/tens_complement_swap/Tens_complement_swap.qml",
+      "line": 68,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    },
+    {
+      "path": "src/activities/vertical_subtraction/VerticalSubtraction.qml",
+      "line": 531,
+      "has_arrow_branch": false,
+      "has_explicit_acceptance": false,
+      "delegates": [],
+      "candidate": false
+    }
+  ]
+}
