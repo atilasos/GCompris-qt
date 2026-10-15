@@ -26,9 +26,15 @@
   concluíram 74 percursos de nível/modo na tarefa 15. Os restantes percursos
   continuam na tarefa 06.
   Ainda não existe evidência final da aplicação instalada em Windows10.
+  A leitura e as palavras concluíram os lotes 19/20; permanecem dois encerramentos
+  iniciais da leitura sem causa demonstrada, apesar das repetições sem sinal.
 - Windows10 x64 está confirmado; o professor dispõe de um Windows para testes.
+  O computador pessoal usa Windows11 25H2, compilação 26300.9711; a validação
+  obrigatória em Windows10 terá de decorrer num PC da escola.
   O primeiro ensaio nativo compilou a aplicação e os recursos, mas a implantação
   ainda precisa de fechar os erros identificados pelo candidato na tarefa 13.
+  O candidato 38805685864 passou oito arranques Windows e gerou o EXE; a validação
+  instalada falhou no caminho de destino e continua em correção.
 
 ## Resultados iniciais
 
@@ -97,3 +103,7 @@
 - [17 — Conclusão nativa da gramática e teclado](issues/17-gramatica-interativa.md)
 - [15 — Conclusão nativa dos quatro jogos de letras](issues/15-letras-funcionais.md)
 - [18 — Preservar os recursos locais mais recentes](issues/18-preservar-recursos-locais.md)
+
+- [19 — Leitura horizontal e vertical](issues/19-functional-reading.md)
+- [20 — Palavras em queda](issues/20-palavras-funcionais.md)
+- [21 — Memória: palavras, quantidades e letras](issues/21-memoria-funcional.md)

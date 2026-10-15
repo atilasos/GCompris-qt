@@ -76,3 +76,8 @@ de ajuda mostrou também uma lacuna: a palavra inglesa `WORD` está desenhada
 no ícone SVG, fora do catálogo PO. É necessário corrigir este texto gráfico
 e verificar os restantes ícones com texto antes de concluir a tarefa03.
 A verificação de mensagens de erro e a revisão humana continuam pendentes.
+
+A lacuna gráfica WORD identificada nessa inspeção foi corrigida posteriormente
+na tarefa14, juntamente com os outros sete ícones com texto estrangeiro. As
+renderizações Qt e a revisão das 203 miniaturas estão em `icons/`. A revisão
+humana da interface continua pendente.

@@ -168,8 +168,8 @@ polygons,pending,pending,pending,pending,pending,
 positions,pending,pending,pending,pending,pending,
 programmingMaze,pending,pending,pending,pending,pending,
 railroad,pending,pending,pending,pending,pending,
-readingh,pending,pending,pending,pending,pending,
-readingv,pending,pending,pending,pending,pending,
+readingh,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/readingh.md
+readingv,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/readingv.md
 redraw,pending,pending,pending,pending,pending,
 redraw_symmetrical,pending,pending,pending,pending,pending,
 renewable_energy,pending,pending,pending,pending,pending,
@@ -201,4 +201,4 @@ vertical_addition,pending,pending,pending,pending,pending,
 vertical_subtraction,pending,pending,pending,pending,pending,
 vertical_subtraction_compensation,pending,pending,pending,pending,pending,
 watercycle,pending,pending,pending,pending,pending,
-wordsgame,pending,pending,pending,pending,pending,
+wordsgame,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/wordsgame.md

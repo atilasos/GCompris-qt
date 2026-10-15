@@ -1,0 +1,46 @@
+{
+  "activity": "readingv",
+  "locale": "pt_PT",
+  "qml_file": "readingh/Readingh.qml",
+  "source_sha256": "2a7d3c74d6139edbd231ab4f5372d2c8bcc6cc668b29bb424df2281517a8a6c9",
+  "portuguese_catalogue_sha256": "0dfebdffcaf75f9eb9d80f0d4a209695ad1ffc029c13b617393cd6087ed14f29",
+  "private_qm_sha256": "d0bbadfe10cb82fa9d536f21aa9e0e299e8c002cf339ebc4857a7463bee763c1",
+  "case_sha256": "99e739ee9b0457e0f6dce4c9c7ae4d3f3c9223acede075885c5f9a43144e42da",
+  "private_rcc_sha256": "5e8cbcf826576ffec3b8404b98729ee11d896f517d8843076bb4d85156511be0",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-reading/build/native-qml/aea2850877904058add9e9f0b1271c50",
+  "version_code": 260200,
+  "network": "docker-none",
+  "timestamp_utc": "2026-10-15T21:07:28.941327+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [
+    {
+      "file": "help.png",
+      "sha256": "3697e66a3a48cd01a012b92056f15bdc6397c40619f4711f9622c4638f24732e",
+      "bytes": 68706
+    },
+    {
+      "file": "menu.png",
+      "sha256": "741627db475d8ef74e4cef0361a0669198b41531b1402996da8bc9cfe41bcefd",
+      "bytes": 171583
+    }
+  ],
+  "passed": true,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 0,
+    "passes": 2,
+    "controls": {
+      "activity": "readingv",
+      "title": "Exercício de leitura na vertical",
+      "description": "Lê uma lista vertical de palavras e percebe se uma dada palavra está lá.",
+      "manual": "Aparece uma palavra no quadro. Irá aparecer e desaparecer na vertical uma lista de palavras. Será que a palavra indicada aparece na lista?",
+      "helpOpened": true,
+      "levelButtons": true,
+      "returnedToMenu": true
+    }
+  }
+}
