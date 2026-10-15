@@ -127,7 +127,12 @@ private:
     QNetworkAccessManager accessManager;
     QUrl serverUrl;
 
-    QMap<QString, QString> resourceTypeToLocalFileName; ///< Key constructed from Contents file, values are the filenames in local
+    struct ResourceEntry {
+        QString filename;
+        QString checksum;
+    };
+    ResourceEntry selectedResource(int rt, const QVariantMap &data) const;
+    QMap<QString, ResourceEntry> resources; ///< Selected resource and its matching Contents checksum.
 
     /**
      * Get the platform-specific path storing downloaded resources.
@@ -196,9 +201,8 @@ private:
     /** Parses upstream Contents file and build checksum map. */
     bool parseContents(DownloadJob *job);
 
-    /** Compares the checksum of the file in filename with the contents map in
-     * the passed DownloadJob */
-    bool checksumMatches(DownloadJob *job, const QString &filename) const;
+    /** Compare the file bytes with the checksum selected from a Contents entry. */
+    bool checksumMatches(const QString &filename, const QString &expectedChecksum) const;
 
     bool registerResourceAbsolute(const QString &filename);
 
