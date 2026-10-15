@@ -1,0 +1,99 @@
+{
+  "passed": true,
+  "puzzles": 90,
+  "equations": 253,
+  "rejected": 88,
+  "cases": [
+    {
+      "case": "find",
+      "passed": true,
+      "result": "final/find/result.json",
+      "result_sha256": "76079dd720ba595d1ebd2db5fc399d98ad7b5d3b9db1dbea6c914947a2bf9713",
+      "manifest_sha256": "d58c6a1f390e32293c2e4427b1e86d5ea9c81c132bfdbe798c315d6bb66194bc",
+      "puzzles": 40,
+      "equations": 120,
+      "rejected": 38,
+      "independent_python_sums": "passed",
+      "rejectedByLevel": [
+        5,
+        4,
+        5,
+        4,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "case": "swap",
+      "passed": true,
+      "result": "final/swap/result.json",
+      "result_sha256": "7de918d31d9299c079526994ad58fdf77bb342f081c239f1797cf1981067405a",
+      "manifest_sha256": "d58c6a1f390e32293c2e4427b1e86d5ea9c81c132bfdbe798c315d6bb66194bc",
+      "puzzles": 12,
+      "equations": 45,
+      "rejected": 12,
+      "independent_python_sums": "passed"
+    },
+    {
+      "case": "calculate",
+      "passed": true,
+      "result": "final/calculate/result.json",
+      "result_sha256": "4375b1770445f1b76b022e033b3e3b25208ed19183c8768938f42e4f91dd69bf",
+      "manifest_sha256": "d58c6a1f390e32293c2e4427b1e86d5ea9c81c132bfdbe798c315d6bb66194bc",
+      "puzzles": 8,
+      "equations": 28,
+      "rejected": 8,
+      "independent_python_sums": "passed"
+    },
+    {
+      "case": "use",
+      "passed": true,
+      "result": "final/use/result.json",
+      "result_sha256": "5c570c87c89a69848f731f7ed773ad8fddc2fa76813a6c6639c96f151caf910c",
+      "manifest_sha256": "d58c6a1f390e32293c2e4427b1e86d5ea9c81c132bfdbe798c315d6bb66194bc",
+      "puzzles": 30,
+      "equations": 60,
+      "rejected": 30,
+      "independent_python_sums": "passed",
+      "rejectedByLevel": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "case": "controls-find-verified",
+      "passed": true,
+      "result": "final/controls-find-verified/result.json",
+      "result_sha256": "24859e968202280056e5f94485bcacf73120a7da54980b404121c0404ddfedc7",
+      "manifest_sha256": "d58c6a1f390e32293c2e4427b1e86d5ea9c81c132bfdbe798c315d6bb66194bc"
+    },
+    {
+      "case": "controls-swap-verified",
+      "passed": true,
+      "result": "final/controls-swap-verified/result.json",
+      "result_sha256": "a4da5f05dec8f5f88d0b851b848191963b1a68a247beaa27e8293b7f17dde18a",
+      "manifest_sha256": "d58c6a1f390e32293c2e4427b1e86d5ea9c81c132bfdbe798c315d6bb66194bc"
+    },
+    {
+      "case": "controls-calculate-verified",
+      "passed": true,
+      "result": "final/controls-calculate-verified/result.json",
+      "result_sha256": "a3377d0247c5e44afa060f49444bbe5f81effc4445a453c6d22ac8946858719e",
+      "manifest_sha256": "d58c6a1f390e32293c2e4427b1e86d5ea9c81c132bfdbe798c315d6bb66194bc"
+    },
+    {
+      "case": "controls-use-verified",
+      "passed": true,
+      "result": "final/controls-use-verified/result.json",
+      "result_sha256": "1033fbe65c512624505e7ec6621ab8c1aa2fb07338bf47a576f6f5fcdf91429e",
+      "manifest_sha256": "d58c6a1f390e32293c2e4427b1e86d5ea9c81c132bfdbe798c315d6bb66194bc"
+    }
+  ],
+  "test_runner_sha256": "576dd750b4892ab273a29ec10710b7c900afd2fe5d19ff5e9d44e5f08dff57bf"
+}
