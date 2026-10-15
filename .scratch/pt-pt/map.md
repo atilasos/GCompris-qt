@@ -178,3 +178,5 @@ a aceitação global dos 203 jogos.
 
 - [47 — Preservar saídas das balanças](issues/47-balancas-preservar-provas.md)
 - [48 — Ligar pontos e desenhar](issues/48-ligar-pontos-desenhar.md)
+
+- [49 — Torres de Hanói](issues/49-torres-hanoi.md)
