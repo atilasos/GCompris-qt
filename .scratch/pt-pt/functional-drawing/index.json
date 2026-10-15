@@ -1,0 +1,131 @@
+{
+  "native_cases": [
+    {
+      "case": "clickanddraw-mode1-highlighttrue",
+      "result": "complete/clickanddraw-mode1-highlighttrue/result.json",
+      "result_sha256": "750a54986345a0358975780575f359cf9be9cce45354fb4bb4d426ae85747517",
+      "case_file": "complete/clickanddraw-mode1-highlighttrue.qml",
+      "case_sha256": "5a5731c81fb8698fc95972c893f9fdeb8ce2c577c41c4113f98ebda6a87c99a7"
+    },
+    {
+      "case": "clickanddraw-mode2-highlighttrue",
+      "result": "complete/clickanddraw-mode2-highlighttrue/result.json",
+      "result_sha256": "9863b4c471d38b7e877cf86352fbf5a75258f8716cdd2e140f9c772069acfc73",
+      "case_file": "complete/clickanddraw-mode2-highlighttrue.qml",
+      "case_sha256": "5b5f5e5c688ce2f42aaded2e99ae01647b13528135ffb99c74b485770734e72d"
+    },
+    {
+      "case": "drawletters-mode1-highlighttrue",
+      "result": "complete/drawletters-mode1-highlighttrue/result.json",
+      "result_sha256": "d86da475f89916c7494eb5c4bbb913d32d0cc44412fa2e498db37c09be62dc4b",
+      "case_file": "complete/drawletters-mode1-highlighttrue.qml",
+      "case_sha256": "b091ec89a70a1c94e142264b4716fc0be0e163e126fabebd6e9529c0bb6fe597"
+    },
+    {
+      "case": "drawletters-mode2-highlighttrue",
+      "result": "complete/drawletters-mode2-highlighttrue/result.json",
+      "result_sha256": "7fc330914452eb449e8dec00de85822450bc6215adc3e4fc659f60c979116bce",
+      "case_file": "complete/drawletters-mode2-highlighttrue.qml",
+      "case_sha256": "9b19aeedfa260edc4b7c4735c3cb93caa63db78151f76c059f84cf6a60c84d80"
+    },
+    {
+      "case": "drawnumbers-mode1-highlighttrue",
+      "result": "complete/drawnumbers-mode1-highlighttrue/result.json",
+      "result_sha256": "38df2cf271e56e56706001c2b46dbac1c0ac83e95fdd785ca24b3dcf24654c10",
+      "case_file": "complete/drawnumbers-mode1-highlighttrue.qml",
+      "case_sha256": "ea0455d1586648f9be0a4b7ca270d99ef2a4f126801c1f958fc306ceba4a585a"
+    },
+    {
+      "case": "drawnumbers-mode2-highlighttrue",
+      "result": "complete/drawnumbers-mode2-highlighttrue/result.json",
+      "result_sha256": "6da2ce8cbb9756e1fce85423cf5c8bfb62b6ef27bdc2cefeacdb171d910deb90",
+      "case_file": "complete/drawnumbers-mode2-highlighttrue.qml",
+      "case_sha256": "39b7878b6b9164d31f25662067aa4fbc0d8ea7416dfd32663e3c541bd987c7ad"
+    },
+    {
+      "case": "number_sequence-mode1-highlightfalse",
+      "result": "complete/number_sequence-mode1-highlightfalse/result.json",
+      "result_sha256": "b1b8447b8f17133e07dceecf4e14805e2f0f08bc83ad48f2951dd516cffa6235",
+      "case_file": "complete/number_sequence-mode1-highlightfalse.qml",
+      "case_sha256": "d88e8086ad74976b67077b88a199379e97f7d9233255edb1f95b736c7e27dbb0"
+    },
+    {
+      "case": "number_sequence-mode1-highlighttrue",
+      "result": "complete/number_sequence-mode1-highlighttrue/result.json",
+      "result_sha256": "a918c129c948b8fd399562b698d79a807d7b4bdfcbb61dde4de9e067ac0169b3",
+      "case_file": "complete/number_sequence-mode1-highlighttrue.qml",
+      "case_sha256": "5a5731c81fb8698fc95972c893f9fdeb8ce2c577c41c4113f98ebda6a87c99a7"
+    },
+    {
+      "case": "number_sequence-mode2-highlightfalse",
+      "result": "complete/number_sequence-mode2-highlightfalse/result.json",
+      "result_sha256": "1c332a589f89d93820b4767d891474cee8ce7fd2da8919d83d6571c63e3ef121",
+      "case_file": "complete/number_sequence-mode2-highlightfalse.qml",
+      "case_sha256": "4e4c7bbc53380fb938c1d3499e1486fe77c74175577212cde852b8922ade5690"
+    },
+    {
+      "case": "number_sequence-mode2-highlighttrue",
+      "result": "complete/number_sequence-mode2-highlighttrue/result.json",
+      "result_sha256": "b4b12c80ce03f269d00535990e12473cf714e368dbf97da5be65f02f472bfd2f",
+      "case_file": "complete/number_sequence-mode2-highlighttrue.qml",
+      "case_sha256": "5b5f5e5c688ce2f42aaded2e99ae01647b13528135ffb99c74b485770734e72d"
+    },
+    {
+      "case": "clickanddraw-escape",
+      "result": "controls/clickanddraw-escape/result.json",
+      "result_sha256": "099cfd67c58a30b9d72e533940be088f22d776bf0379470aab27adf9c8887caf",
+      "case_file": "controls/clickanddraw-escape.qml",
+      "case_sha256": "126c6c28e4b030fb4b8a320576c20527e115422eebc6053a87a3d2d2acdfdaa8"
+    },
+    {
+      "case": "clickanddraw-home",
+      "result": "controls/clickanddraw-home/result.json",
+      "result_sha256": "9db28f09467a5300232c99edf8dd65f9c080ffb9f9b64043dd9eb0b8a50a6327",
+      "case_file": "controls/clickanddraw-home.qml",
+      "case_sha256": "281711bef8fb967af18fc4781f1e984e301cb91834f0c267545d717846783487"
+    },
+    {
+      "case": "drawletters-escape",
+      "result": "controls/drawletters-escape/result.json",
+      "result_sha256": "94501d48c5e3e16400d4bb1c65e7e629e8259e291ca35a6dc9dc0e9f4a508a1f",
+      "case_file": "controls/drawletters-escape.qml",
+      "case_sha256": "126c6c28e4b030fb4b8a320576c20527e115422eebc6053a87a3d2d2acdfdaa8"
+    },
+    {
+      "case": "drawletters-home",
+      "result": "controls/drawletters-home/result.json",
+      "result_sha256": "25812e65881948bb0337364d5564bfec59c17d36eb815c89bb609bbfc0ba4332",
+      "case_file": "controls/drawletters-home.qml",
+      "case_sha256": "281711bef8fb967af18fc4781f1e984e301cb91834f0c267545d717846783487"
+    },
+    {
+      "case": "drawnumbers-escape",
+      "result": "controls/drawnumbers-escape/result.json",
+      "result_sha256": "d58b0e43b0f5e7e67594de8e7e6b9a51e62df628ca7f25753a44d0bf84febc86",
+      "case_file": "controls/drawnumbers-escape.qml",
+      "case_sha256": "126c6c28e4b030fb4b8a320576c20527e115422eebc6053a87a3d2d2acdfdaa8"
+    },
+    {
+      "case": "drawnumbers-home",
+      "result": "controls/drawnumbers-home/result.json",
+      "result_sha256": "cc3e3ed4c5b69731688b5ea699eb9376d29bb0ab1a4e21f41bf08ae960c4f42b",
+      "case_file": "controls/drawnumbers-home.qml",
+      "case_sha256": "281711bef8fb967af18fc4781f1e984e301cb91834f0c267545d717846783487"
+    },
+    {
+      "case": "number_sequence-escape",
+      "result": "controls/number_sequence-escape/result.json",
+      "result_sha256": "dbf4317018d65d2f98108192dda5991dcfa9890b0ed8cb7afa3a398eac2ee25c",
+      "case_file": "controls/number_sequence-escape.qml",
+      "case_sha256": "126c6c28e4b030fb4b8a320576c20527e115422eebc6053a87a3d2d2acdfdaa8"
+    },
+    {
+      "case": "number_sequence-home",
+      "result": "controls/number_sequence-home/result.json",
+      "result_sha256": "6dc530c4371da5164cdca86bef43ca91b67a45fc87ba9544ec90af8b1f65dc06",
+      "case_file": "controls/number_sequence-home.qml",
+      "case_sha256": "281711bef8fb967af18fc4781f1e984e301cb91834f0c267545d717846783487"
+    }
+  ],
+  "scope": "18 completed bounded cases; global acceptance pending."
+}
