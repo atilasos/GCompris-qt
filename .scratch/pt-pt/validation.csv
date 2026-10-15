@@ -11,7 +11,7 @@ align4_2players,pending,pending,pending,pending,pending,
 alphabet-sequence,pending,pending,pending,pending,pending,
 analog_electricity,pending,pending,pending,pending,pending,
 baby_keyboard,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/baby_keyboard.md
-baby_mouse,pending,pending,pending,pending,pending,
+baby_mouse,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/baby_mouse.md
 baby_tangram,pending,pending,pending,pending,pending,
 baby_wordprocessor,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/baby_wordprocessor.md
 babymatch,pending,pending,pending,pending,pending,
@@ -36,7 +36,7 @@ chronos,pending,pending,pending,pending,pending,
 click_on_letter,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/click_on_letter.md
 click_on_letter_up,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/click_on_letter_up.md
 clickanddraw,pending,pending,pending,pending,pending,
-clickgame,pending,pending,pending,pending,pending,
+clickgame,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/clickgame.md
 clockgame,pending,pending,pending,pending,pending,
 color_mix,pending,pending,pending,pending,pending,
 color_mix_light,pending,pending,pending,pending,pending,
@@ -101,7 +101,7 @@ learn_quantities,pending,pending,pending,pending,pending,.scratch/pt-pt/validati
 learn_subtractions,pending,pending,pending,pending,pending,
 left_right_click,pending,pending,pending,pending,pending,
 leftright,pending,pending,pending,pending,pending,
-letter-in-word,pending,pending,pending,pending,pending,
+letter-in-word,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/letter-in-word.md
 lightsoff,pending,pending,pending,pending,pending,
 louis-braille,pending,pending,pending,pending,pending,
 magic-hat-minus,pending,pending,pending,pending,pending,
