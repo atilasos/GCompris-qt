@@ -9,7 +9,7 @@ A presença de um instalador não dá por concluída a especificação PT-PT.
 Windows 10 de 64 bits, versão 1809 ou posterior. Qt 6.10.2, compilador MSVC2022
 x64, DLLs redistribuíveis do MSVC incluídas. O Qt declara esta versão mínima em
 [Supported Platforms](https://doc.qt.io/qt-6.10/supported-platforms.html).
-O Windows2022 da compilação automática não substitui o Windows10 do professor.
+O Windows2022 da compilação automática não substitui o Windows10 da escola.
 O computador pessoal disponível para o primeiro ensaio usa Windows11 25H2,
 compilação 26300.9711. Esse ensaio complementa a validação obrigatória nos
 computadores Windows10 x64 da escola.
