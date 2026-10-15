@@ -186,3 +186,5 @@ a aceitação global dos 203 jogos.
 - [51 — Bloqueio dos discos inferiores](issues/51-hanoi-discos-cobertos.md)
 
 - [52 — Ordenação](issues/52-ordenacao.md)
+
+- [53 — Cores](issues/53-cores.md)
