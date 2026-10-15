@@ -5,7 +5,11 @@ TestCase {
     function levelCount(){return {"memory":6,"memory-tux":6,"memory-sound":7,"memory-sound-tux":7,"memory-case-association-tux":4}[activity.activityInfo.shortName()];}
     function initTestCase(){
         wait(1600);ApplicationSettings.isAudioVoicesEnabled=true;ApplicationSettings.isAudioEffectsEnabled=true;
-        activity.audioVoices.muted=false;activityBackground.audioDisabled=false;
+        activity.audioVoices.muted=false;
+        if(audioNeededDialog.active) {
+            audioNeededDialog.item.forceActiveFocus();keyClick(Qt.Key_Escape);
+            tryCompare(audioNeededDialog,"active",false,2000);
+        }
         if(!activity.visible){keyClick(Qt.Key_Return,Qt.NoModifier,0);tryCompare(activity,"visible",true,2500);}
         activity.stop();activity.start();wait(1100);
         compare(items.numberOfLevel,levelCount());compare(activity.numberOfLevel,levelCount());
