@@ -73,6 +73,8 @@ jobs:
         run: |
           $PSNativeCommandUseErrorActionPreference = $true
           choco install nsis --version=3.11.0 -y --no-progress
+      - name: Test native NSIS installation boundary
+        run: ./tools/windows/test-installer.ps1
       - name: Test resource integrity boundary
         run: python -m unittest discover -s tests -p test_windows_candidate.py
       - name: Build and package native x64 candidate
