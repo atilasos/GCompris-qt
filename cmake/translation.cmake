@@ -56,9 +56,9 @@ function(gcompris_create_translation_files)
 
     set(OutTsFile ${CMAKE_BINARY_DIR}/tmp/${TsSource})
     # Qt defaults bare "pt" to Brazilian plural rules. This catalogue is PT-PT.
-    set(QtLocale ${locale})
+    set(QtLanguageOptions)
     if(locale STREQUAL "pt")
-      set(QtLocale "pt_PT")
+      list(APPEND QtLanguageOptions -target-language pt_PT)
     endif()
 
     set(OutQmFile "${GCOMPRIS_TRANSLATIONS_DIR}/${QmOutput}")
@@ -72,7 +72,7 @@ function(gcompris_create_translation_files)
       # Remove the obsolete translations and set po in the ts output file
       COMMAND msgattrib --no-obsolete  ${CMAKE_CURRENT_SOURCE_DIR}/${PoSource} -o ${OutTsFile}
       # Convert the po into ts
-      COMMAND ${QT_MAJOR}::lconvert -target-language ${QtLocale} -if po -of ts -i ${OutTsFile} -o ${OutTsFile}
+      COMMAND ${QT_MAJOR}::lconvert ${QtLanguageOptions} -if po -of ts -i ${OutTsFile} -o ${OutTsFile}
       # Convert the ts in qm removing non finished translations
       COMMAND ${QT_MAJOR}::lrelease -removeidentical -nounfinished ${OutTsFile} -qm "${OutQmFile}"
       )
