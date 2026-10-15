@@ -33,3 +33,10 @@ Todos os níveis e quantidades de exercícios foram mantidos.
 
 Revisão linguística e pedagógica pelo professor. Execução interativa dos restantes
 níveis, avaliação de áudio e instalação offline em Windows 10, incluindo na escola.
+
+## Conclusão de todos os níveis na interface Qt
+
+Verificação nativa de todos os exercícios e modos em Linux, com respostas
+certas/erradas e eventos reais, em [grammar-native](../grammar-native/README.md).
+Inclui a correção da entrega dupla das teclas e navegação completa.
+Windows10, audição e revisão pedagógica permanecem pendentes.
