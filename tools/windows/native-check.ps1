@@ -30,6 +30,8 @@ function Invoke-GComprisNativeCheck {
         $env:PATH = "$(Split-Path -Parent $binary);$env:SystemRoot/System32;$env:SystemRoot"
         $env:QT_QPA_PLATFORM = 'offscreen'
         $env:QT_MEDIA_BACKEND = 'ffmpeg'
+        # GUI Qt on Windows otherwise routes debug/ QML diagnostics to the debugger.
+        $env:QT_FORCE_STDERR_LOGGING = '1'
         New-NetFirewallRule -Name $rule -DisplayName 'GCompris candidate offline test' -Direction Outbound -Program $binary -Action Block | Out-Null
         $firewallAdded = $true
         & $Python "$PSScriptRoot/native-probe.py" --binary $binary --output $Output
