@@ -52,6 +52,7 @@ function start(items_) {
         items.wordlist.useDefault = false
     }
     maxLevel = items.wordlist.maxLevel;
+    items.numberOfLevel = maxLevel;
     items.currentLevel = Core.getInitialLevel(maxLevel);
     initLevel();
 }
@@ -87,7 +88,7 @@ function initSubLevel() {
     } else if(words.indexOf(items.textToFind) > -1) {    // answer should be no
         var wordIndex = words.indexOf(items.textToFind)  // if word is included, remove it
         words.splice(wordIndex, 1)
-        for(var i=level.words.length - 1; i == 0; i--) { // try to get a word from the whole list different from textToFind and not yet in words
+        for(var i=level.words.length - 1; i >= 0; i--) { // try to get a word from the whole list different from textToFind and not yet in words
             if(level.words[i] != items.textToFind && words.indexOf(level.words[i]) == -1) {
                 var wordToAdd = level.words[i]
                 words.push(wordToAdd)
