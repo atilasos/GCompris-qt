@@ -1,0 +1,58 @@
+test_both_clis_reject_path_traversal_and_unsafe_names_before_deployment (test_activity_identifiers.ActivityIdentifierBoundary.test_both_clis_reject_path_traversal_and_unsafe_names_before_deployment) ... ok
+test_every_checked_in_activity_id_passes_both_cli_boundaries (test_activity_identifiers.ActivityIdentifierBoundary.test_every_checked_in_activity_id_passes_both_cli_boundaries) ... ok
+test_invalid_active_syntax_is_not_silently_ignored (test_audit_pt_pt.CatalogAuditTest.test_invalid_active_syntax_is_not_silently_ignored) ... ok
+test_missing_portuguese_plural_form_is_untranslated (test_audit_pt_pt.CatalogAuditTest.test_missing_portuguese_plural_form_is_untranslated) ... ok
+test_multiline_plural_fuzzy_obsolete_and_qt_placeholders (test_audit_pt_pt.CatalogAuditTest.test_multiline_plural_fuzzy_obsolete_and_qt_placeholders) ... ok
+test_report_covers_real_activity_list_and_relative_qt_references (test_audit_pt_pt.CatalogAuditTest.test_report_covers_real_activity_list_and_relative_qt_references) ... ok
+test_country_and_region_names_match_the_spoken_portuguese_labels (test_complete_pt_voices.CompleteVoicesTest.test_country_and_region_names_match_the_spoken_portuguese_labels) ... ok
+test_new_recordings_cover_only_the_32_original_gaps (test_complete_pt_voices.CompleteVoicesTest.test_new_recordings_cover_only_the_32_original_gaps) ... ok
+test_packaging_preserves_original_audio_and_selects_complete_rcc (test_complete_pt_voices.CompleteVoicesTest.test_packaging_preserves_original_audio_and_selects_complete_rcc) ... {"format": 1, "source_rcc": "voices-pt-original.rcc", "source_rcc_sha256": "3cdfbc378efe30cbe22fd9287ed2ba749b7ec56a3325c7596949949849f3c8ad", "original_files": 1, "added_files": 1, "total_files": 2, "original_bytes_preserved": true, "pronunciation": "pending-final-teacher-review", "new_recordings_review": "pending", "files": [{"path": "voices-pt-2026-10-15-00-00-00.rcc", "bytes": 357, "sha256": "50d8912ba1c1724efe055fa1484561155ca68a6d58766d58db8332fec109654f"}, {"path": "Contents", "bytes": 102, "sha256": "95cb438e84e81d200094a20d7318067af2173610dac72f19fa30669c71e58862"}]}
+{"format": 1, "source_rcc": "voices-pt-original.rcc", "source_rcc_sha256": "3cdfbc378efe30cbe22fd9287ed2ba749b7ec56a3325c7596949949849f3c8ad", "original_files": 1, "added_files": 1, "total_files": 2, "original_bytes_preserved": true, "pronunciation": "pending-final-teacher-review", "new_recordings_review": "pending", "files": [{"path": "voices-pt-2026-10-15-00-00-00.rcc", "bytes": 357, "sha256": "50d8912ba1c1724efe055fa1484561155ca68a6d58766d58db8332fec109654f"}, {"path": "Contents", "bytes": 102, "sha256": "95cb438e84e81d200094a20d7318067af2173610dac72f19fa30669c71e58862"}]}
+ok
+test_snapshot_copies_binary_share_and_local_qml_without_source_links (test_native_qml_resources.ResourceSnapshotTests.test_snapshot_copies_binary_share_and_local_qml_without_source_links) ... ok
+test_source_changes_during_copy_are_rejected_and_partial_output_removed (test_native_qml_resources.ResourceSnapshotTests.test_source_changes_during_copy_are_rejected_and_partial_output_removed) ... ok
+test_source_timestamp_change_during_copy_is_rejected (test_native_qml_resources.ResourceSnapshotTests.test_source_timestamp_change_during_copy_is_rejected) ... ok
+test_verification_rejects_tampered_file_manifest_and_symlink (test_native_qml_resources.ResourceSnapshotTests.test_verification_rejects_tampered_file_manifest_and_symlink) ... ok
+test_default_datasets_are_in_the_compiled_resource_bundle (test_offline_resource_build.OfflineResourceBuild.test_default_datasets_are_in_the_compiled_resource_bundle) ... ok
+test_calendar_prompt_keeps_all_date_offsets (test_pt_interface.PortugueseInterfaceTest.test_calendar_prompt_keeps_all_date_offsets) ... ok
+test_calendar_prompt_keeps_before_direction (test_pt_interface.PortugueseInterfaceTest.test_calendar_prompt_keeps_before_direction) ... ok
+test_neighbor_numbers_instructions_have_readable_plural_forms (test_pt_interface.PortugueseInterfaceTest.test_neighbor_numbers_instructions_have_readable_plural_forms) ... ok
+test_missing_recordings_and_wrong_formats_are_reported (test_pt_pt_audio.AudioResourceAudit.test_missing_recordings_and_wrong_formats_are_reported) ... {"pt_voice_files": 2, "missing_counts": {"introductions": 202, "alphabet": 25, "digits_and_numbers": 21, "portuguese_keyboard": 12, "literal_references": 1316, "active_wordset": 1090}, "decode": {"status": "not-run"}}
+ok
+test_approval_is_preserved_only_for_unchanged_audio_and_text (test_pt_pt_audio_review_package.AudioReviewPackageTests.test_approval_is_preserved_only_for_unchanged_audio_and_text) ... ok
+test_invalid_manifest_or_modified_audio_produces_no_zip (test_pt_pt_audio_review_package.AudioReviewPackageTests.test_invalid_manifest_or_modified_audio_produces_no_zip) ... ok
+test_transcriptions_are_escaped_in_html_and_preserved_in_csv (test_pt_pt_audio_review_package.AudioReviewPackageTests.test_transcriptions_are_escaped_in_html_and_preserved_in_csv) ... ok
+test_zip_contains_only_32_manifest_recordings_and_approved_review (test_pt_pt_audio_review_package.AudioReviewPackageTests.test_zip_contains_only_32_manifest_recordings_and_approved_review) ... ok
+test_cross_compiling_keeps_get_assets_without_executing_target_binary (test_pt_voice_cmake.VoiceAssetHook.test_cross_compiling_keeps_get_assets_without_executing_target_binary) ... ok
+test_native_get_assets_builds_host_tool_and_runs_completion_hook (test_pt_voice_cmake.VoiceAssetHook.test_native_get_assets_builds_host_tool_and_runs_completion_hook) ... ok
+test_all_twenty_datasets_have_reachable_targets (test_scales_dataset_feasibility.DatasetFeasibility.test_all_twenty_datasets_have_reachable_targets) ... ok
+test_original_level_thirty_cannot_balance_five (test_scales_dataset_feasibility.DatasetFeasibility.test_original_level_thirty_cannot_balance_five) ... ok
+test_resume_refuses_changed_checked_in_voice_resources (test_smoke_activity.StartupRunner.test_resume_refuses_changed_checked_in_voice_resources) ... ok
+test_resuming_preserves_results_and_refuses_changed_deployed_resources (test_smoke_activity.StartupRunner.test_resuming_preserves_results_and_refuses_changed_deployed_resources) ... ok
+test_a_correct_total_does_not_allow_a_wrong_decomposition (test_tens_math_audit.TensMathAuditTests.test_a_correct_total_does_not_allow_a_wrong_decomposition) ... ok
+test_a_matching_total_does_not_allow_invalid_pairs_or_substituted_cards (test_tens_math_audit.TensMathAuditTests.test_a_matching_total_does_not_allow_invalid_pairs_or_substituted_cards) ... ok
+test_finds_a_wrong_addition_even_when_the_game_reports_completion (test_tens_math_audit.TensMathAuditTests.test_finds_a_wrong_addition_even_when_the_game_reports_completion) ... ok
+test_changed_catalog_rebuilds_compiled_translations (test_translation_build.TranslationBuildTest.test_changed_catalog_rebuilds_compiled_translations) ... ok
+test_european_portuguese_compiled_zero_one_two_plurals (test_translation_build.TranslationBuildTest.test_european_portuguese_compiled_zero_one_two_plurals) ... ok
+test_explicit_brazilian_portuguese_keeps_its_plural_rules (test_translation_build.TranslationBuildTest.test_explicit_brazilian_portuguese_keeps_its_plural_rules) ... ok
+test_real_portuguese_catalog_compiles_and_returns_revised_text (test_translation_build.TranslationBuildTest.test_real_portuguese_catalog_compiles_and_returns_revised_text) ... ok
+test_unchanged_catalog_does_not_recompile (test_translation_build.TranslationBuildTest.test_unchanged_catalog_does_not_recompile) ... ok
+test_nsis_receives_canonical_destination_and_installation_is_checked (test_windows_candidate.CandidateInstallationBoundaryTest.test_nsis_receives_canonical_destination_and_installation_is_checked) ... ok
+test_generated_voice_manifest_preserves_original_and_checks_replacement (test_windows_candidate.CompletedVoicePackageTest.test_generated_voice_manifest_preserves_original_and_checks_replacement) ... ok
+test_mismatched_download_cannot_become_packaged_resource (test_windows_candidate.LockedAssetsTest.test_mismatched_download_cannot_become_packaged_resource) ... ok
+test_verified_asset_is_available_at_the_runtime_relative_path (test_windows_candidate.LockedAssetsTest.test_verified_asset_is_available_at_the_runtime_relative_path) ... ok
+test_authoritative_manifest_selects_all_unique_activity_ids (test_windows_candidate.NativeActivityProbeTest.test_authoritative_manifest_selects_all_unique_activity_ids) ... ok
+test_cli_runs_manifest_in_order_and_rejects_native_list_mismatch (test_windows_candidate.NativeActivityProbeTest.test_cli_runs_manifest_in_order_and_rejects_native_list_mismatch) ... ok
+test_launched_game_must_stay_alive_register_voices_and_have_no_qml_errors (test_windows_candidate.NativeActivityProbeTest.test_launched_game_must_stay_alive_register_voices_and_have_no_qml_errors) ... ok
+test_failure_restores_qt_environment_path_and_removes_firewall_rule (test_windows_candidate.NativeEnvironmentLifecycleTest.test_failure_restores_qt_environment_path_and_removes_firewall_rule) ... ok
+test_empty_stage_cannot_pass_offline_readiness (test_windows_candidate.PackagedRuntimeTest.test_empty_stage_cannot_pass_offline_readiness) ... ok
+test_windows_catalog_uses_european_zero_one_two_plural_rules (test_windows_candidate.WindowsTranslationTest.test_windows_catalog_uses_european_zero_one_two_plural_rules) ... Updating '/tmp/gcompris-translation-9ijblc67/build/translations/gcompris_qt_pt.qm'...
+Removing translations equal to source text in '/tmp/gcompris-translation-9ijblc67/build/translations/gcompris_qt_pt.qm'...
+    Generated 1 translation(s) (1 finished and 0 unfinished)
+ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 25.431s
+
+OK
+voices-ogg/voices-pt.rcc 0454bcbce377972675dbb7fe4bbe6ccd80913ace3a223ee643fa6abd70074cd9
