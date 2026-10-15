@@ -55,3 +55,11 @@ confirmando que a reutilização depende apenas do snapshot.
 Procedimento reproduzível em `tests/native_qml_resources/README.md`.
 Este ensaio valida o launcher e o snapshot. Não substitui a aceitação das
 atividades nem fixa as bibliotecas Qt do sistema.
+
+## Correção da revisão Standards
+
+O tmpfs do contentor escondia deployments e snapshots em `/tmp`. O launcher
+monta agora explicitamente ambos só para leitura, conservando o perfil e a saída
+privados com escrita. Dois casos Qt normais reproduziram a falha e passaram após
+a correção, com dono local e limpeza normal. Evidência e comando reproduzível em
+`../review/tmp-resources/README.md`. Os quatro unitários do snapshot passaram.
