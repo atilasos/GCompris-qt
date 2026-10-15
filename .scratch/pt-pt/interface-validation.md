@@ -58,3 +58,21 @@ O build partilhado não foi alterado por este trabalho.
 - Verificação visual de ajuda e mensagens de erro na aplicação reconstruída.
 - Confirmação do instalador e dos textos em Windows 10 x64.
 - Atividades cujos exercícios vêm de JSON, QML ou áudio têm tarefas próprias.
+
+## Revalidação na aplicação Linux integrada
+
+Em 15 de outubro de 2026, a compilação `build/pt-pt` foi reconstruída com
+as alterações até `4e1e47475`. As oito suites C++ passaram com `LC_ALL=C`.
+O arranque nativo em perfis isolados passou, sem erros QML, para
+`grammar_classes`, `grammar_analysis`, `keyboard_training`, `readingh`,
+`readingv`, `gletters`, `click_on_letter` e `click_on_letter_up`. Logs em
+`build/pt-pt/post-integration-smoke/`. Isto verifica arranque, não conclusão.
+
+Na janela real de `grammar_classes`, foram confirmados o título, a descrição,
+as instruções iniciais, a frase do exercício e o painel de ajuda em português.
+Capturas locais em `build/pt-pt/interface-grammar-game.png`,
+`interface-grammar-help.png` e `interface-grammar-help-page2.png`. O painel
+de ajuda mostrou também uma lacuna: a palavra inglesa `WORD` está desenhada
+no ícone SVG, fora do catálogo PO. É necessário corrigir este texto gráfico
+e verificar os restantes ícones com texto antes de concluir a tarefa03.
+A verificação de mensagens de erro e a revisão humana continuam pendentes.
