@@ -1,0 +1,10 @@
+{
+  "binary": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-runtime/build/runtime-probe/bin/gcompris-qt",
+  "source_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-runtime",
+  "source_sha256": "3ac2f404592689afaf9feee0d3ce403c5d8166d4d9cec00eda99383408ba98ce",
+  "build_sha256": "e0c34055640f7867025c14b86ccc3a3f82a173f9c818c69284ed34f3fc768d54",
+  "runner_sha256": "e6a21667e660ce920ee7e537c33d8396ac9fd74b06a526e071037f8af14a9dc2",
+  "locale": "pt_PT",
+  "seconds": 4.0,
+  "offline_image": "sha256:28bd5fe8b56d1bd048e5babf5b10710ebe0bae67db86916198a6eec434943f8b"
+}

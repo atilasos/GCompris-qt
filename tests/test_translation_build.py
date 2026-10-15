@@ -112,3 +112,11 @@ target_link_libraries(probe PRIVATE Qt6::Core)
         output = self.run_command([str(self.build / 'probe'), str(self.qm),
                                    'ActivityInfo', 'Ctrl + V: paste copied or cut text'])
         self.assertEqual(output.splitlines(), ['Ctrl + V: colar o texto copiado ou cortado'] * 3)
+
+        output = self.run_command([str(self.build / 'probe'), str(self.qm), 'ToolsPanel', 'Pattern'])
+        self.assertEqual(output.splitlines(), ['Padrão'] * 3)
+        output = self.run_command([str(self.build / 'probe'), str(self.qm),
+                                   'Data', 'Which number comes immediately after 2?'])
+        self.assertEqual(output.splitlines(), ['Que número vem imediatamente depois do 2?'] * 3)
+        output = self.run_command([str(self.build / 'probe'), str(self.qm), 'Data', 'dog'])
+        self.assertEqual(output.splitlines(), ['cão'] * 3)

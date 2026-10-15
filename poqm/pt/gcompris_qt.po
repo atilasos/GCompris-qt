@@ -31354,3 +31354,93 @@ msgstr "Iniciar"
 #~ msgctxt "Warning|"
 #~ msgid "and %1 are the divisors of %2."
 #~ msgstr "e %1 são os divisores de %2."
+
+#: activities/multiple_choice_questions/resource/1/Data.qml
+msgctxt "Data|"
+msgid "Find the correct answers."
+msgstr "Encontra as respostas certas."
+
+#: activities/multiple_choice_questions/resource/1/Data.qml
+msgctxt "Data|"
+msgid "Which number comes immediately after 2?"
+msgstr "Que número vem imediatamente depois do 2?"
+
+#: activities/multiple_choice_questions/resource/1/Data.qml
+msgctxt "Data|"
+msgid "3 comes immediately after 2."
+msgstr "O 3 vem imediatamente depois do 2."
+
+#: activities/multiple_choice_questions/resource/1/Data.qml
+msgctxt "Data|"
+msgid "Count: 1, 2, 3."
+msgstr "Conta: 1, 2, 3."
+
+#: activities/multiple_choice_questions/resource/1/Data.qml
+msgctxt "Data|"
+msgid "Which answer is a color?"
+msgstr "Qual das respostas é uma cor?"
+
+#: activities/multiple_choice_questions/resource/1/Data.qml
+msgctxt "Data|"
+msgid "yellow"
+msgstr "amarelo"
+
+#: activities/multiple_choice_questions/resource/1/Data.qml
+msgctxt "Data|"
+msgid "cat"
+msgstr "gato"
+
+#: activities/multiple_choice_questions/resource/1/Data.qml
+msgctxt "Data|"
+msgid "dog"
+msgstr "cão"
+
+#: activities/multiple_choice_questions/resource/1/Data.qml
+msgctxt "Data|"
+msgid "Yellow is a color."
+msgstr "O amarelo é uma cor."
+
+#: activities/multiple_choice_questions/resource/1/Data.qml
+msgctxt "Data|"
+msgid "Choose the color, not the animal or the number."
+msgstr "Escolhe a cor, não o animal nem o número."
+
+#: activities/multiple_choice_questions/resource/1/Data.qml
+msgctxt "Data|"
+msgid "Which numbers are smaller than 3?"
+msgstr "Que números são menores do que 3?"
+
+#: activities/multiple_choice_questions/resource/1/Data.qml
+msgctxt "Data|"
+msgid "1 and 2 are smaller than 3."
+msgstr "O 1 e o 2 são menores do que 3."
+
+#: activities/multiple_choice_questions/resource/1/Data.qml
+msgctxt "Data|"
+msgid "Select both 1 and 2, without selecting 3."
+msgstr "Seleciona o 1 e o 2, sem selecionar o 3."
+
+#: activities/multiple_choice_questions/resource/1/Data.qml
+msgctxt "Data|"
+msgid "Which answers are animals?"
+msgstr "Quais das respostas são animais?"
+
+#: activities/multiple_choice_questions/resource/1/Data.qml
+msgctxt "Data|"
+msgid "Cats and dogs are animals."
+msgstr "Os gatos e os cães são animais."
+
+#: activities/multiple_choice_questions/resource/1/Data.qml
+msgctxt "Data|"
+msgid "Select the cat and the dog, not the number."
+msgstr "Seleciona o gato e o cão, não o número."
+
+#: activities/multiple_choice_questions/resource/1/Data.qml
+msgctxt "Data|"
+msgid "How many sides does a triangle have?"
+msgstr "Quantos lados tem um triângulo?"
+
+#: activities/sketch/ToolsPanel.qml:604
+msgctxt "ToolsPanel|"
+msgid "Pattern"
+msgstr "Padrão"

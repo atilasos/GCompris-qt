@@ -601,7 +601,7 @@ FoldablePanel {
                 GCText {
                     id: patternLabel
                     visible: patternSelector.visible
-                    text: "Pattern"
+                    text: qsTr("Pattern")
                     color: GCStyle.contentColor
                     width: toolsPanel.settingsColumnWidth
                     height: toolsPanel.settingsLineHeight

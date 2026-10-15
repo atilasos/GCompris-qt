@@ -30,7 +30,6 @@ ActivityInfo {
     manual: qsTr("You are provided with some images. Drag and drop them to the upper area in their chronological order.")
     section: "discovery logic"
     createdInVersion: 20000
-    // Default levels are not included as they are only test examples with same content as in chronos activity.
-    levels: []
+    levels: ["1", "2", "3"]
     enabled: currentLevels.length != 0
 }
