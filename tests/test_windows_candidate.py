@@ -155,6 +155,41 @@ class NativeActivityProbeTest(unittest.TestCase):
             self.assertFalse(probe.check_startup(executable, 'good', 'voices-absent.rcc', 0.15, folder)['passed'])
 
 
+class CandidateInstallationBoundaryTest(unittest.TestCase):
+    @unittest.skipUnless(shutil.which('pwsh'), 'Requires PowerShell7')
+    def test_nsis_receives_canonical_destination_and_installation_is_checked(self):
+        with tempfile.TemporaryDirectory() as directory:
+            script = Path(directory) / 'installation.ps1'
+            helper = str(ROOT / 'tools/windows/install-candidate.ps1').replace("'", "''")
+            script.write_text("""
+$ErrorActionPreference = 'Stop'
+. '""" + helper + """'
+$script:mode = 'success'
+function Start-Process { param($FilePath,$ArgumentList,[switch]$PassThru,[switch]$Wait)
+    if ($ArgumentList.Count -ne 2 -or $ArgumentList[0] -ne '/S') { throw 'Unexpected installer arguments' }
+    $destination = $ArgumentList[-1].Substring(3)
+    if ($ArgumentList[-1] -cne ('/D=' + (Get-Item -LiteralPath $destination).FullName)) { throw 'NSIS destination is not canonical' }
+    if ($script:mode -eq 'success') {
+        New-Item -ItemType Directory -Path "$destination/bin" | Out-Null
+        New-Item -ItemType File -Path "$destination/bin/GCompris.exe" | Out-Null
+    }
+    return [pscustomobject]@{ExitCode = $(if ($script:mode -eq 'failure') { 9 } else { 0 })}
+}
+$destination = "$PSScriptRoot/parent with spaces/./installed"
+$result = Invoke-GComprisCandidateInstall -Installer 'candidate.exe' -Destination $destination
+if ($result -cne (Get-Item -LiteralPath $destination).FullName) { throw 'Returned installation root is not canonical' }
+foreach ($mode in @('failure', 'missing-binary')) {
+    $script:mode = $mode
+    $caught = $false
+    try { Invoke-GComprisCandidateInstall -Installer 'candidate.exe' -Destination "$PSScriptRoot/$mode" }
+    catch { $caught = $true }
+    if (!$caught) { throw "Unexpected installation acceptance: $mode" }
+}
+""")
+            result = subprocess.run([shutil.which('pwsh'), '-NoProfile', '-File', str(script)], capture_output=True, text=True)
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
+
 class NativeEnvironmentLifecycleTest(unittest.TestCase):
     @unittest.skipUnless(shutil.which('pwsh'), 'Requires PowerShell7 (available on the native Windows runner)')
     def test_failure_restores_qt_environment_path_and_removes_firewall_rule(self):

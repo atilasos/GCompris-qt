@@ -1,0 +1,155 @@
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.ubuntu.com>
+Enable debuginfod for this session? (y or [n]) [answered N; input not from terminal]
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7fffeffff6c0 (LWP 2647796)]
+exeCount set to:  3
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+[New Thread 0x7fffee9bb6c0 (LWP 2647800)]
+[Thread 0x7fffee9bb6c0 (LWP 2647800) exited]
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+[New Thread 0x7fffee9bb6c0 (LWP 2647801)]
+[Thread 0x7fffee9bb6c0 (LWP 2647801) exited]
+[New Thread 0x7fffee9bb6c0 (LWP 2647803)]
+[New Thread 0x7fffeddba6c0 (LWP 2647804)]
+[New Thread 0x7fffed5b96c0 (LWP 2647805)]
+Connected to UdpSocket on port 65524
+[New Thread 0x7fffecdb86c0 (LWP 2647811)]
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+[New Thread 0x7fffcd7ff6c0 (LWP 2647823)]
+[New Thread 0x7fffbe7ff6c0 (LWP 2647879)]
+[Thread 0x7fffbe7ff6c0 (LWP 2647879) exited]
+[New Thread 0x7fffbe7ff6c0 (LWP 2647886)]
+[New Thread 0x7fffccca26c0 (LWP 2647889)]
+Failed to load cookie file from cookie: Permission denied
+spaVisitChoice: parse error "Object: size 144, type Spa:Pod:Object:Param:Format (262147), id Spa:Enum:ParamId:EnumFormat (3)" "  Prop: key Spa:Pod:Object:Param:Format:mediaType (1), flags 00000000" "    Id 1        (Spa:Enum:MediaType:audio)" "  Prop: key Spa:Pod:Object:Param:Format:mediaSubtype (2), flags 00000000" "    Id 3        (Spa:Enum:MediaSubtype:iec958)" "  Prop: key Spa:Pod:Object:Param:Format:Audio:iec958Codec (65542), flags 00000000" "    Choice: type Spa:Enum:Choice:Enum, flags 00000000 24 4" "      Id 1        (Spa:Enum:AudioIEC958Codec:PCM)" "      Id 1        (Spa:Enum:AudioIEC958Codec:PCM)" "  Prop: key Spa:Pod:Object:Param:Format:Audio:rate (65539), flags 00000000" "    Choice: type Spa:Enum:Choice:Range, flags 00000000 28 4" "      Int 48000" "      Int 32000" "      Int 192000"
+[New Thread 0x7fffbdffe6c0 (LWP 2647903)]
+[New Thread 0x7fffbd7fd6c0 (LWP 2647904)]
+[New Thread 0x7fffbcffc6c0 (LWP 2647905)]
+[New Thread 0x7fffb7fff6c0 (LWP 2647906)]
+qt.core.qfuture.continuations: Parent future has 2 result(s), but only the first result will be handled in the continuation.
+[New Thread 0x7fffb77fe6c0 (LWP 2647909)]
+[New Thread 0x7fffb4a2e6c0 (LWP 2647966)]
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #3, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-reading/build/native-qml/ca8328458a5d4841b287c4d0b82e4965/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-reading/build/native-qml/ca8328458a5d4841b287c4d0b82e4965/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-reading/build/native-qml/ca8328458a5d4841b287c4d0b82e4965/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-reading/build/native-qml/ca8328458a5d4841b287c4d0b82e4965/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-reading/build/native-qml/ca8328458a5d4841b287c4d0b82e4965/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-reading/build/native-qml/ca8328458a5d4841b287c4d0b82e4965/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-reading/build/native-qml/ca8328458a5d4841b287c4d0b82e4965/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-reading/build/native-qml/ca8328458a5d4841b287c4d0b82e4965/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-reading/build/native-qml/ca8328458a5d4841b287c4d0b82e4965/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity readingh/Readingh.qml at level -1
+qml: readingh/Readingh.qml readingh/Readingh.qml
+[New Thread 0x7fff643ff6c0 (LWP 2648219)]
+[New Thread 0x7fff63bfe6c0 (LWP 2648225)]
+[New Thread 0x7fff633fd6c0 (LWP 2648226)]
+[New Thread 0x7fff62bfc6c0 (LWP 2648228)]
+[New Thread 0x7fff623fb6c0 (LWP 2648229)]
+[Thread 0x7fff643ff6c0 (LWP 2648219) exited]
+[New Thread 0x7fff61bfa6c0 (LWP 2648243)]
+load configuration for: "readingh"
+qml: Wordlist: loaded 3 levels from file qrc:/gcompris/src/activities/wordsgame/resource/default-pt.json
+[New Thread 0x7fff613f96c0 (LWP 2648248)]
+[New Thread 0x7fff60bf86c0 (LWP 2648249)]
+qml: Wordlist: loaded 3 levels from file qrc:/gcompris/src/activities/wordsgame/resource/default-pt.json
+qml: NATIVE_READING_RESULT {"failures":1,"passes":1,"mode":"readingh","solved":0,"rejected":0,"completedLevels":[],"presentByLevel":{"0":0},"absentByLevel":{"0":0},"speeds":[],"phase":"level-1"}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+[Thread 0x7fffecdb86c0 (LWP 2647811) exited]
+[Thread 0x7fffb4a2e6c0 (LWP 2647966) exited]
+[Thread 0x7fff613f96c0 (LWP 2648248) exited]
+[Thread 0x7fff60bf86c0 (LWP 2648249) exited]
+[Thread 0x7fffb7fff6c0 (LWP 2647906) exited]
+[Thread 0x7fffbd7fd6c0 (LWP 2647904) exited]
+[Thread 0x7fffbcffc6c0 (LWP 2647905) exited]
+[Thread 0x7fff61bfa6c0 (LWP 2648243) exited]
+[Thread 0x7fffb77fe6c0 (LWP 2647909) exited]
+[Thread 0x7fffbdffe6c0 (LWP 2647903) exited]
+[Thread 0x7fffccca26c0 (LWP 2647889) exited]
+[Thread 0x7fff623fb6c0 (LWP 2648229) exited]
+[Thread 0x7fff62bfc6c0 (LWP 2648228) exited]
+[Thread 0x7fff633fd6c0 (LWP 2648226) exited]
+[Thread 0x7fff63bfe6c0 (LWP 2648225) exited]
+[Thread 0x7fffbe7ff6c0 (LWP 2647886) exited]
+[Thread 0x7fffeffff6c0 (LWP 2647796) exited]
+[Thread 0x7fffeddba6c0 (LWP 2647804) exited]
+[Thread 0x7fffed5b96c0 (LWP 2647805) exited]
+[Thread 0x7fffee9bb6c0 (LWP 2647803) exited]
+[Thread 0x7ffff07bde00 (LWP 2647778) exited]
+[Thread 0x7fffcd7ff6c0 (LWP 2647823) exited]
+[New process 2647778]
+[Inferior 1 (process 2647778) exited normally]

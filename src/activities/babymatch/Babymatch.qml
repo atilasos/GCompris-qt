@@ -86,6 +86,10 @@ ActivityBase {
         }
 
         Keys.onPressed: (event) => {
+            if ([Qt.Key_Left, Qt.Key_Right, Qt.Key_Up, Qt.Key_Down, Qt.Key_Space,
+                 Qt.Key_Tab, Qt.Key_Delete, Qt.Key_Backspace, Qt.Key_Return, Qt.Key_Enter].indexOf(event.key) === -1)
+                return;
+            event.accepted = true;
             if(items.inputLocked) {
                 return;
             }

@@ -120,3 +120,12 @@ Resultados e hashes em `resource-updates-offline-startup.json`; registos locais
 em `build/pt-pt/resource-updates-offline-startup/part-*/`. O áudio está silenciado.
 A conclusão funcional de cada jogo e as restantes aprovações não decorrem deste
 resultado. A matriz global conserva os estados pendentes.
+
+## Rastreio das atividades afetadas por leitura e memória
+
+Após integrar a leitura da tarefa19 e a correção parcial de teclas da tarefa21,
+a compilação principal foi reconstruída. Os 22 jogos que usam o motor de memória,
+readingh, readingv e wordsgame passaram os 25 arranques sem rede. Cada grupo
+conserva o mesmo fingerprint; resultados em `reading-memory-startup.json`.
+É uma verificação de arranque do build integrado, sem reprodução sonora.
+As provas de conclusão continuam nos lotes funcionais próprios.

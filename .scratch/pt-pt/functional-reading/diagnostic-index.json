@@ -1,0 +1,307 @@
+[
+  {
+    "directory": "final/readingh-complete",
+    "passed": false,
+    "exit_code": 0,
+    "timeout": false,
+    "case_sha256": "21e3b4bb30f3051184c95ee543200fd7097c5a43c1ebe03cbe841fb4b563b32b",
+    "private_rcc_sha256": "db5dd6f54a71729f759f9b92dc29b318e6ca98174f789cb05fe2805bced59fab",
+    "failures": 1,
+    "solved": 30,
+    "rejected": 3,
+    "completedLevels": [
+      1,
+      2,
+      3
+    ],
+    "phase": "speed-settings"
+  },
+  {
+    "directory": "final/readingh-controls",
+    "passed": true,
+    "exit_code": 0,
+    "timeout": false,
+    "case_sha256": "e785eb3fd68a811d8646ace805fdee677fd9915359d29f278192b5b5c2eac186",
+    "private_rcc_sha256": "f87c7955196d504c943ee27f5a8943d6bb74f13c3c3a8b5b3ec3ff6605024734",
+    "failures": 0,
+    "solved": null,
+    "rejected": null,
+    "completedLevels": null,
+    "phase": null
+  },
+  {
+    "directory": "final/readingv-complete",
+    "passed": false,
+    "exit_code": 0,
+    "timeout": false,
+    "case_sha256": "21e3b4bb30f3051184c95ee543200fd7097c5a43c1ebe03cbe841fb4b563b32b",
+    "private_rcc_sha256": "671af8cea90c304f0e707651d6bfb83ace007358311b06da19c01ee101fc49ab",
+    "failures": 1,
+    "solved": 30,
+    "rejected": 3,
+    "completedLevels": [
+      1,
+      2,
+      3
+    ],
+    "phase": "speed-settings"
+  },
+  {
+    "directory": "final/readingv-controls",
+    "passed": true,
+    "exit_code": 0,
+    "timeout": false,
+    "case_sha256": "e785eb3fd68a811d8646ace805fdee677fd9915359d29f278192b5b5c2eac186",
+    "private_rcc_sha256": "ee3c3443df27f302e037e7d50dcacf072854c669a08c5c12a21d0b27eee45c4e",
+    "failures": 0,
+    "solved": null,
+    "rejected": null,
+    "completedLevels": null,
+    "phase": null
+  },
+  {
+    "directory": "initial-source-replay",
+    "passed": false,
+    "exit_code": 137,
+    "timeout": true,
+    "case_sha256": "3e6c8ad57d3a25b78b5725e7cbf7aeb715c874baecaea352ab55067d91cc9008",
+    "private_rcc_sha256": "9f95da800d40895293c30316b35a7251b92124274310a3a691a73e3b7329d4f5",
+    "failures": null,
+    "solved": null,
+    "rejected": null,
+    "completedLevels": null,
+    "phase": null
+  },
+  {
+    "directory": "level-count-red-native",
+    "passed": false,
+    "exit_code": 0,
+    "timeout": false,
+    "case_sha256": "59f403de67a594381c63fa21b5ffe04e81eee82fdb87c7732b599dbf192bf39d",
+    "private_rcc_sha256": "86e26d9b3df6f4bb8644116b186e7be4ea8ef1b1099c621345a3c9093a61fb03",
+    "failures": 1,
+    "solved": null,
+    "rejected": null,
+    "completedLevels": null,
+    "phase": null
+  },
+  {
+    "directory": "original-after-fixes-h",
+    "passed": false,
+    "exit_code": 0,
+    "timeout": false,
+    "case_sha256": "f4390a3482d50bcb564e2f50b0be31f7831711b7ad2fa9e3bfb7fb261dbef240",
+    "private_rcc_sha256": "fb2a8d10a29c3fd766edd9112a133bd50555f86ddafbc057a21e2385879bd184",
+    "failures": 1,
+    "solved": 0,
+    "rejected": 0,
+    "completedLevels": [],
+    "phase": "level-1"
+  },
+  {
+    "directory": "original-after-fixes-v",
+    "passed": false,
+    "exit_code": 0,
+    "timeout": false,
+    "case_sha256": "ed4908b7d6fc60b4ceb4cc3599bdc49449d550231feb8457438206980ccccfb7",
+    "private_rcc_sha256": "5ad123049b98dc4094a537a7eb865ee92ceaa4dd874350073d541888f6d74dcb",
+    "failures": 1,
+    "solved": 30,
+    "rejected": 3,
+    "completedLevels": [
+      1,
+      2,
+      3
+    ],
+    "phase": "speed-settings"
+  },
+  {
+    "directory": "original-exact-after-h",
+    "passed": false,
+    "exit_code": 0,
+    "timeout": false,
+    "case_sha256": "3e6c8ad57d3a25b78b5725e7cbf7aeb715c874baecaea352ab55067d91cc9008",
+    "private_rcc_sha256": "18d08608eb67ce777c87420cc79a2c78b6a09a6519aff2e614cced3a064a5cf6",
+    "failures": 1,
+    "solved": 30,
+    "rejected": 3,
+    "completedLevels": [
+      1,
+      2,
+      3
+    ],
+    "phase": "speed-settings"
+  },
+  {
+    "directory": "original-helper-minimal",
+    "passed": true,
+    "exit_code": 0,
+    "timeout": false,
+    "case_sha256": "743d64b0b6c5e6ef3dc3e08f67648f397dd4f3f6fcc5bdf47cf86a74bd37e4d8",
+    "private_rcc_sha256": "a5e902c14a79eaf56d483ea080604017172e0008145d65e526e8763413b55c77",
+    "failures": 0,
+    "solved": 2,
+    "rejected": 0,
+    "completedLevels": [],
+    "phase": "original-helper-round-1"
+  },
+  {
+    "directory": "readingh-controls",
+    "passed": true,
+    "exit_code": 0,
+    "timeout": false,
+    "case_sha256": "3f9ee50349ed5d3277170a631b595adbca9aab423b27410ee9e9c832050ebd5d",
+    "private_rcc_sha256": "c928590d674d6821b24cdc10aaa99611351099134261b1ed1b4f22845cadfb56",
+    "failures": 0,
+    "solved": null,
+    "rejected": null,
+    "completedLevels": null,
+    "phase": null
+  },
+  {
+    "directory": "readingh-final",
+    "passed": false,
+    "exit_code": 0,
+    "timeout": false,
+    "case_sha256": "e2cb592844cdf6dbf75fce81f60e53474b8c8c7c1e566581346a0ba3fdb2f48b",
+    "private_rcc_sha256": "f4000120ae7176aabd35dcd073225394eb396bc55c3fced27b7c29207e15b241",
+    "failures": 1,
+    "solved": 30,
+    "rejected": 3,
+    "completedLevels": [
+      1,
+      2,
+      3
+    ],
+    "phase": "speed-settings"
+  },
+  {
+    "directory": "readingh-full",
+    "passed": false,
+    "exit_code": 139,
+    "timeout": false,
+    "case_sha256": "3e6c8ad57d3a25b78b5725e7cbf7aeb715c874baecaea352ab55067d91cc9008",
+    "private_rcc_sha256": "f7452f88cc32ab2421f15ff8519c24988c2cf287bc9dfe84026304a637e5b127",
+    "failures": null,
+    "solved": null,
+    "rejected": null,
+    "completedLevels": null,
+    "phase": null
+  },
+  {
+    "directory": "readingh-gdb-docker",
+    "passed": false,
+    "exit_code": 0,
+    "timeout": true,
+    "case_sha256": "e2cb592844cdf6dbf75fce81f60e53474b8c8c7c1e566581346a0ba3fdb2f48b",
+    "private_rcc_sha256": "63c23db8d879f8b0a3796dfb937d4950c64c83722cf036b318cf0c1c2c4da231",
+    "failures": null,
+    "solved": null,
+    "rejected": null,
+    "completedLevels": null,
+    "phase": null
+  },
+  {
+    "directory": "readingv-controls",
+    "passed": true,
+    "exit_code": 0,
+    "timeout": false,
+    "case_sha256": "3f9ee50349ed5d3277170a631b595adbca9aab423b27410ee9e9c832050ebd5d",
+    "private_rcc_sha256": "9fb7073e6ac5dab204b6a980866309bad4d700ba53d9b8c4dcd1cb7700e82b3d",
+    "failures": 0,
+    "solved": null,
+    "rejected": null,
+    "completedLevels": null,
+    "phase": null
+  },
+  {
+    "directory": "readingv-final",
+    "passed": false,
+    "exit_code": 0,
+    "timeout": false,
+    "case_sha256": "e2cb592844cdf6dbf75fce81f60e53474b8c8c7c1e566581346a0ba3fdb2f48b",
+    "private_rcc_sha256": "303db0735b5299cc8a53cd48035e3763594da6e29057ad7b472b322cf5af9eac",
+    "failures": 1,
+    "solved": 30,
+    "rejected": 3,
+    "completedLevels": [
+      1,
+      2,
+      3
+    ],
+    "phase": "speed-settings"
+  },
+  {
+    "directory": "readingv-full",
+    "passed": false,
+    "exit_code": 139,
+    "timeout": false,
+    "case_sha256": "3e6c8ad57d3a25b78b5725e7cbf7aeb715c874baecaea352ab55067d91cc9008",
+    "private_rcc_sha256": "d8df3373c5d69afa8138990b7dbcff9ee5bb6c70321300118a585bbc46294161",
+    "failures": null,
+    "solved": null,
+    "rejected": null,
+    "completedLevels": null,
+    "phase": null
+  },
+  {
+    "directory": "verified/readingh-complete",
+    "passed": true,
+    "exit_code": 0,
+    "timeout": false,
+    "case_sha256": "fc7f73bcfa26034f79b76adfae3625d440211ea178958ad544ba6b1682891786",
+    "private_rcc_sha256": "40b3810d991834390fca435037dbd2a319cfdc26968800ddddb814b4279c4111",
+    "failures": 0,
+    "solved": 30,
+    "rejected": 3,
+    "completedLevels": [
+      1,
+      2,
+      3
+    ],
+    "phase": "speed-settings"
+  },
+  {
+    "directory": "verified/readingh-controls",
+    "passed": true,
+    "exit_code": 0,
+    "timeout": false,
+    "case_sha256": "99e739ee9b0457e0f6dce4c9c7ae4d3f3c9223acede075885c5f9a43144e42da",
+    "private_rcc_sha256": "8adc3923c67c5b3bff6326f99fffa576daaa5bebcf4530a27b98d2dcbdc08975",
+    "failures": 0,
+    "solved": null,
+    "rejected": null,
+    "completedLevels": null,
+    "phase": null
+  },
+  {
+    "directory": "verified/readingv-complete",
+    "passed": true,
+    "exit_code": 0,
+    "timeout": false,
+    "case_sha256": "fc7f73bcfa26034f79b76adfae3625d440211ea178958ad544ba6b1682891786",
+    "private_rcc_sha256": "404dea6a7d4fa38486338b9b4624afce54dc79a43094d2082ab233aeedd99ac4",
+    "failures": 0,
+    "solved": 30,
+    "rejected": 3,
+    "completedLevels": [
+      1,
+      2,
+      3
+    ],
+    "phase": "speed-settings"
+  },
+  {
+    "directory": "verified/readingv-controls",
+    "passed": true,
+    "exit_code": 0,
+    "timeout": false,
+    "case_sha256": "99e739ee9b0457e0f6dce4c9c7ae4d3f3c9223acede075885c5f9a43144e42da",
+    "private_rcc_sha256": "5e8cbcf826576ffec3b8404b98729ee11d896f517d8843076bb4d85156511be0",
+    "failures": 0,
+    "solved": null,
+    "rejected": null,
+    "completedLevels": null,
+    "phase": null
+  }
+]

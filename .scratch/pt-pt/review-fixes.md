@@ -70,3 +70,10 @@ passaram, incluindo a captura de stderr Qt e a reposição do ambiente. Foram
 removidos os 14 worktrees de tarefas já integradas; permanecem apenas os três
 worktrees das tarefas em execução. As branches e a evidência versionada foram
 conservadas.
+
+Após a integração das tarefas19/20 e do primeiro fix de memória, passaram
+21 testes Node (incluindo dados reais de leitura/palavras) e os dez testes do
+candidato com PowerShell7.4.6. O build principal passou 25 arranques sem rede
+nas atividades afetadas (`runtime/reading-memory-startup.json`). A prova pequena
+do NSIS é nativa Windows e está a decorrer no CI38807970526; os testes Linux
+da fronteira PowerShell não a substituem.
