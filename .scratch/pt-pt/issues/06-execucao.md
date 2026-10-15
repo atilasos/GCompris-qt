@@ -28,6 +28,8 @@ condicionada a hashes das fontes e da compilação.
 Evidência, comandos e limites: `../runtime/review.md`.
 O arranque integrado das 203 atividades passou com perfis novos e Docker sem
 rede. As tarefas 16/17 acrescentaram conclusão interativa de todos os níveis dos
-quatro jogos abrangidos. Continuam pendentes os restantes níveis/modos e
+quatro jogos abrangidos. A tarefa 15 acrescentou os quatro jogos de letras e
+teclado (74 percursos). O segundo rastreio de arranque passou com as 1610 vozes
+e a correção de seleção de recursos da tarefa 18. Continuam pendentes os restantes níveis/modos e
 interações, a audição final e Windows. Não resolver este ticket
 com base apenas no teste de arranque.

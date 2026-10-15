@@ -64,7 +64,7 @@ try {
     $installProcess = Start-Process $installer -ArgumentList '/S',"/D=$installed" -PassThru -Wait
     if ($installProcess.ExitCode -ne 0) { throw "Installer exited $($installProcess.ExitCode)" }
     # Independent installed processes in the same initially fresh CI account.
-    Invoke-GComprisNativeCheck -InstallRoot $installed -Output "$artifacts/installed" -Python $python
+    Invoke-GComprisNativeCheck -InstallRoot $installed -Output "$artifacts/installed" -Python $python -ActivitiesFile "$source/src/activities/activities.txt"
     python "$PSScriptRoot/verify-package.py" $installed --activities "$source/src/activities/activities.txt" --listed "$artifacts/installed/activities.txt" --output "$artifacts/installer-check.json"
     Compress-Archive -Path "$stage/*" -DestinationPath "$artifacts/GCompris-PT-PT-Windows-x64-portable.zip" -Force
     Get-ChildItem $artifacts -File | Where-Object Extension -in '.exe','.zip' | ForEach-Object {

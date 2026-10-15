@@ -27,6 +27,8 @@
   continuam na tarefa 06.
   Ainda não existe evidência final da aplicação instalada em Windows10.
 - Windows10 x64 está confirmado; o professor dispõe de um Windows para testes.
+  O computador pessoal usa Windows11 25H2, compilação 26300.9711; a validação
+  obrigatória em Windows10 terá de decorrer num PC da escola.
   O primeiro ensaio nativo compilou a aplicação e os recursos, mas a implantação
   ainda precisa de fechar os erros identificados pelo candidato na tarefa 13.
 

@@ -16,3 +16,7 @@ Blocked by: 03, 04, 05, 06
   versões das dependências e instruções de instalação.
 
 A prova da instalação offline depende de um ambiente Windows disponível.
+
+O primeiro ensaio manual pode decorrer no computador pessoal Windows11 25H2
+(compilação 26300.9711), confirmado pelo professor. A aceitação obrigatória em
+Windows10 x64 será executada na escola; não inferir esse resultado do Windows11.

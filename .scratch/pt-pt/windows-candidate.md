@@ -9,7 +9,10 @@ A presença de um instalador não dá por concluída a especificação PT-PT.
 Windows 10 de 64 bits, versão 1809 ou posterior. Qt 6.10.2, compilador MSVC2022
 x64, DLLs redistribuíveis do MSVC incluídas. O Qt declara esta versão mínima em
 [Supported Platforms](https://doc.qt.io/qt-6.10/supported-platforms.html).
-O Windows2022 da compilação automática não substitui o Windows10 do professor.
+O Windows2022 da compilação automática não substitui o Windows10 da escola.
+O computador pessoal disponível para o primeiro ensaio usa Windows11 25H2,
+compilação 26300.9711. Esse ensaio complementa a validação obrigatória nos
+computadores Windows10 x64 da escola.
 
 ## Construção reproduzível
 
@@ -38,8 +41,9 @@ O script regista os comandos em `build/windows-candidate/build.log` e gera:
 - `artifacts/GCompris-PT-PT-Windows-x64-portable.zip`: mesma árvore portátil.
 - `artifacts/SHA256SUMS.txt`: SHA256 dos dois ficheiros.
 - `package-check.json` e `installer-check.json`: inventário e listagem nativa.
-- `staged/` e `installed/`: listagens e logs de oito atividades, com
-  `startup-check.json` por árvore.
+- `staged/`: listagem e logs da amostra de oito atividades.
+- `installed/`: listagem e logs das 203 atividades do manifesto; ambas as árvores
+  incluem `startup-check.json`.
 
 Os artefactos ficam no separador Actions do fork, associados ao commit de origem.
 Não se cria um Release nem se envia código ao projeto original.
@@ -85,17 +89,20 @@ o teste e pede uma conta dedicada, preservando os ficheiros existentes. Os teste
 da instalação usam a mesma conta CI inicialmente limpa e processos independentes;
 não são apresentados como um segundo utilizador Windows novo.
 
-Além de exigir a lista completa das atividades, ambas as árvores abrem oito
-atividades: gramática (duas), letras, letras cadentes, teclado, escolhas múltiplas,
-cronologia e criação de frações. Cada processo tem de permanecer ativo durante
-seis segundos, registar o lançamento da atividade e o RCC PT completado, sem erros
-QML ou erros de imagens detetados. Isto exercita também o import QtGraphs.
+A árvore preparada abre uma amostra de oito atividades: gramática (duas),
+letras, letras cadentes, teclado, escolhas múltiplas, cronologia e criação de
+frações. A árvore instalada abre sequencialmente as 203 atividades de
+`src/activities/activities.txt`, exigindo nomes únicos e correspondência exata
+com a lista devolvida pelo executável. Cada processo tem de permanecer ativo
+durante seis segundos, registar o lançamento da atividade e o RCC PT completado,
+sem erros QML ou erros de imagens detetados. O percurso instalado demora cerca
+de 21 minutos e usa a mesma conta Windows, sem processos concorrentes.
 
 Estes controlos comprovam implantação e arranque. Não comprovam a conclusão dos
 níveis, todos os modos, a reprodução audível num dispositivo Windows ou a revisão
 pedagógica. A audição e a matriz funcional continuam pendentes no Windows10 real.
 
-## Teste no Windows10 do professor
+## Primeiro teste no Windows11 pessoal e confirmação no Windows10 da escola
 
 1. Transferir o candidato, `SHA256SUMS.txt` e os logs do mesmo artefacto Actions.
 2. Verificar o EXE com `Get-FileHash .\GCompris-PT-PT-Windows-x64-candidate.exe -Algorithm SHA256`.

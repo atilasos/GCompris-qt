@@ -4,6 +4,7 @@ function Invoke-GComprisNativeCheck {
         [Parameter(Mandatory)][string]$InstallRoot,
         [Parameter(Mandatory)][string]$Output,
         [Parameter(Mandatory)][string]$Python,
+        [string]$ActivitiesFile,
         [switch]$RequireFreshProfile
     )
     if ($RequireFreshProfile) {
@@ -34,7 +35,9 @@ function Invoke-GComprisNativeCheck {
         $env:QT_FORCE_STDERR_LOGGING = '1'
         New-NetFirewallRule -Name $rule -DisplayName 'GCompris candidate offline test' -Direction Outbound -Program $binary -Action Block | Out-Null
         $firewallAdded = $true
-        & $Python "$PSScriptRoot/native-probe.py" --binary $binary --output $Output
+        $probeArguments = @("$PSScriptRoot/native-probe.py", '--binary', $binary, '--output', $Output)
+        if ($ActivitiesFile) { $probeArguments += @('--activities-file', $ActivitiesFile) }
+        & $Python @probeArguments
         if ($LASTEXITCODE -ne 0) { throw "Native startup checks failed with code $LASTEXITCODE" }
     } finally {
         try {
