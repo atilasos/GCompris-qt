@@ -20,7 +20,7 @@ Windows, hardware e revisão docente global permanecem separados.
 
 ## Answer
 
-Passaram208 entradas e duas rotas de ajuda/foco/menu em Qt real offline.
+Passaram 208 entradas e duas rotas de ajuda/foco/menu em Qt real offline.
 Verificados os caracteres portugueses e as vozes pedidas; o MediaPlayer original
 reproduziu ç com posição/duração/hasAudio reais. Sem alterações de produção.
 [Provas, comandos e limites](../baby-keyboard/README.md).

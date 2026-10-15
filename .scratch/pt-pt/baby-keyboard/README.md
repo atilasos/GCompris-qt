@@ -1,18 +1,18 @@
 # O meu primeiro teclado
 
-Esta atividade é exploração livre, sem níveis ou pontuação. Passaram208 entradas
-por eventos Qt:172 letras/dígitos/caracteres portugueses com preferências de
-teclado visual desligado/ligado, mais36 botões visuais A–Z/0–9. A entrada
+Esta atividade é exploração livre, sem níveis ou pontuação. Passaram 208 entradas
+por eventos Qt: 172 letras/dígitos/caracteres portugueses com preferências de
+teclado visual desligado/ligado, mais 36 botões visuais A–Z/0–9. A entrada
 acentuada usa o adaptador IME já usado nos jogos de letras, sem chamar métodos
 do jogo. Cada resposta verifica o glifo maiúsculo e a rota portuguesa solicitada.
 Os controlos visuais Retroceder/Enter limpam a apresentação; Espaço é mostrado.
 
 O ensaio final também observa o MediaPlayer original dentro de GCAudio.
-Para ç, houve PlayingState, posição23ms, duração835ms e hasAudio verdadeiro,
-seguido de done. Não se substitui o player nem se simula áudio. As208 rotas
+Para ç, houve PlayingState, posição 23 ms, duração 835 ms e hasAudio verdadeiro,
+seguido de done. Não se substitui o player nem se simula áudio. As 208 rotas
 são verificadas, mas não se afirma que cada clip foi ouvido fisicamente.
-A descodificação do inventário completo foi verificada na tarefa05; a audição
-das32 novas gravações foi aprovada pelo professor na tarefa35.
+A descodificação do inventário completo foi verificada na tarefa 05; a audição
+das 32 novas gravações foi aprovada pelo professor na tarefa 35.
 
 A ajuda PT passou com teclado visual desligado e ligado. Após fechar a ajuda
 e clicar no fundo, as teclas físicas voltam a produzir letras sem atribuir
@@ -35,5 +35,5 @@ python3 tools/run-native-qml-case.py --source-root . --binary /build/bin/gcompri
 ```
 
 Para ajuda/foco/menu, usar tests/baby_keyboard_controls.qml. Os resultados e
-respectivos hashes estão em index.json. gameplay é a primeira prova de rotas;
+respetivos hashes estão em index.json. gameplay é a primeira prova de rotas;
 gameplay-player acrescenta a observação real da descodificação.
