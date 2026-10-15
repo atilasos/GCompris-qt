@@ -57,7 +57,7 @@ Data {
             "question": qsTr("Enter the weight of the gift: %1")
         },
         {
-            "masses": [[1, "1"], [8, "8"], [2, "2"], [1, "1"], [7, "7"], [9, "9"], [10, "10"]],
+            "masses": [[1, "1"], [8, "8"], [2, "2"], [2, "2"], [7, "7"], [9, "9"], [10, "10"]],
             "targets": [[4, "4"], [7, "7"], [10, "10"],[5,"5"]],
             "rightDrop": false,
             "message": qsTr("Now you have to guess the weight of the gift."),

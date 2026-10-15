@@ -26,3 +26,9 @@ A concordância do título SI foi reproduzida na ajuda Qt real e corrigida de
 "Balança que usam" para "Balança que usa". Prova red/green independente do
 percurso completo em `../functional-scales/si-help/README.md`. Esta correção
 parcial não resolve a tarefa 34 nem aprova os 666 puzzles previstos.
+
+O percurso encontrou também um puzzle impossível no nível 30 de scalesboard:
+o presente de 5 não era atingível com as massas dadas. A quarta massa conhecida
+passa de 1 para 2. Prova red/green por arrastos reais e auditoria independente
+dos 666 alvos em `../functional-scales/balance-five/README.md`. Os percursos
+completos continuam; Progress mantém-se claimed.
