@@ -190,10 +190,10 @@ sudoku,pending,pending,pending,pending,pending,
 superbrain,pending,pending,pending,pending,pending,
 tangram,pending,pending,pending,pending,pending,
 target,pending,pending,pending,pending,pending,
-tens_complement_calculate,pending,pending,pending,pending,pending,
-tens_complement_find,pending,pending,pending,pending,pending,
-tens_complement_swap,pending,pending,pending,pending,pending,
-tens_complement_use,pending,pending,pending,pending,pending,
+tens_complement_calculate,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/tens_complement_calculate.md
+tens_complement_find,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/tens_complement_find.md
+tens_complement_swap,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/tens_complement_swap.md
+tens_complement_use,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/tens_complement_use.md
 tic_tac_toe,pending,pending,pending,pending,pending,
 tic_tac_toe_2players,pending,pending,pending,pending,pending,
 traffic,pending,pending,pending,pending,pending,
