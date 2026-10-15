@@ -1,9 +1,9 @@
 # Preservar recursos locais mais recentes após consultar atualizações
 
 Status: ready-for-agent
-Progress: implemented-awaiting-review
+Progress: claimed
 Type: task
-Blocked by: 05
+Blocked by: 02
 
 ## Defeito reproduzido
 
@@ -44,3 +44,10 @@ bytes para provar seleção e registo; a descodificação das vozes reais perten
 à tarefa 05. Não equivale a aprovação pedagógica nem validação integral dos
 203 jogos. Windows nativo com esta alteração será verificado no próximo
 candidato CI; a audição em hardware Windows permanece para o professor.
+
+## Integração
+
+Implementação integrada para revisão e revalidação. `Progress: claimed` conserva
+um dos três estados do tracker; a entrega Windows e a audição final são tarefas
+separadas. A dependência é a compilação 02, pois os testes usam RCC sintéticos
+e não dependem da aprovação humana das gravações da tarefa 05.
