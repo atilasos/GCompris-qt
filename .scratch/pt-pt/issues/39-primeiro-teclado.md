@@ -1,7 +1,7 @@
 # Validar O meu primeiro teclado
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02, 25, 35
 
@@ -17,3 +17,13 @@ funcionalidades ou linhas novas apenas para espelhar o teclado do computador.
 
 Perfil novo offline, snapshots privados, nomes acentuados já aprovados.
 Windows, hardware e revisão docente global permanecem separados.
+
+## Answer
+
+Passaram208 entradas e duas rotas de ajuda/foco/menu em Qt real offline.
+Verificados os caracteres portugueses e as vozes pedidas; o MediaPlayer original
+reproduziu ç com posição/duração/hasAudio reais. Sem alterações de produção.
+[Provas, comandos e limites](../baby-keyboard/README.md).
+Não há níveis nesta atividade. O teclado visual tem apenas o layout original
+A–Z/dígitos; os acentos foram exercitados pela entrada física/IME.
+Windows, hardware e aceitação global continuam pendentes.
