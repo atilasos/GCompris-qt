@@ -1,0 +1,114 @@
+{
+  "format": 1,
+  "activities": 203,
+  "tokens": 33,
+  "native_green_cases": 2,
+  "native_red_expected_failures": 2,
+  "scope": "Help footer category labels; not global activity acceptance.",
+  "artifacts": {
+    "README.md": {
+      "sha256": "2e42dffa6cd49c0312a060d04383fcb436cfd7f1977ffc0144ddfde9af1739a4",
+      "bytes": 2869
+    },
+    "data-red.log": {
+      "sha256": "73cb2d0ee44efba788192821c8b558dc9a15a5da035a147c08676a2ecbd50ddc",
+      "bytes": 1047
+    },
+    "native-green/data.log": {
+      "sha256": "fce090a0cbc34d2d02a5cac0c83a47d98a1369aea2c6e633efdde5022c101e08",
+      "bytes": 308
+    },
+    "native-green/en.json": {
+      "sha256": "ce5c97871723fdd76c08b928bf18f0503e8950d1f68bdf64acb8c30241ad5553",
+      "bytes": 1021
+    },
+    "native-green/inventory.json": {
+      "sha256": "bcc1e5e0943976d8fad4125eadaad65f32bf32c65e2c812930134ab4dc193577",
+      "bytes": 43558
+    },
+    "native-green/maze/native.log": {
+      "sha256": "0024dedf329b3d9941f70e7eedeb2464a1bbf029beb31bf94810d17b0637d91d",
+      "bytes": 8839
+    },
+    "native-green/maze/result.json": {
+      "sha256": "073adc96fa26d6b56c5506133a1aa61ceb691656c10c06f29521d31799ac8a31",
+      "bytes": 35119
+    },
+    "native-green/maze/translated-footer.png": {
+      "sha256": "acd92c616ca46fe805bacdaa0d006812956fc965eebef7795859ebfa7e279433",
+      "bytes": 95796
+    },
+    "native-green/memory-wordnumber/native.log": {
+      "sha256": "65ae555ae292d6fbac8f77dc275c9ae735405042aeb5796e764c2d153df7d334",
+      "bytes": 8400
+    },
+    "native-green/memory-wordnumber/result.json": {
+      "sha256": "33d046e3590fa04fc7fa27f58cffcef5d38da60fabfd707e9ca70de2f5dc63c3",
+      "bytes": 34473
+    },
+    "native-green/memory-wordnumber/translated-footer.png": {
+      "sha256": "df05fe55bfa6dd4bc16f79e732389cdb6ac2dab5a5b14d53b478322bb4099294",
+      "bytes": 80818
+    },
+    "native-green/pt_PT.json": {
+      "sha256": "27f9b87b96d5d813059998693daf9a502d704d9f9442f5f1fdfe54c8c9ec2536",
+      "bytes": 1078
+    },
+    "native-green/snapshot.log": {
+      "sha256": "9127f11ccc8209d95977703f1400277833a979fe7bbd285e640337f195dedeec",
+      "bytes": 242
+    },
+    "native-green/summary.json": {
+      "sha256": "10c9114ca74311100cb991e27e8a6acbaac57cc8e2bae02ea09f2d42954876d6",
+      "bytes": 70251
+    },
+    "native-red/data.log": {
+      "sha256": "54796100adf242fd33416bccf50de78c20de9d44989108bbb1bc3b6bb6d4c154",
+      "bytes": 308
+    },
+    "native-red/en.json": {
+      "sha256": "ce5c97871723fdd76c08b928bf18f0503e8950d1f68bdf64acb8c30241ad5553",
+      "bytes": 1021
+    },
+    "native-red/inventory.json": {
+      "sha256": "bcc1e5e0943976d8fad4125eadaad65f32bf32c65e2c812930134ab4dc193577",
+      "bytes": 43558
+    },
+    "native-red/maze/native.log": {
+      "sha256": "78bdfc8ca2657838ed1b42b77ca9851e45290f1c409e3bc6a1a8e9bce04ebff6",
+      "bytes": 10230
+    },
+    "native-red/maze/result.json": {
+      "sha256": "7b34c58dcf9707c9d1b665bb105b217a29df576134548c0340fe77ef7a25364c",
+      "bytes": 35104
+    },
+    "native-red/maze/translated-footer.png": {
+      "sha256": "fbf0fdecbfab9adb7deec848fd60e73048c370fa96564d15e83908f1483e453d",
+      "bytes": 93974
+    },
+    "native-red/memory-wordnumber/native.log": {
+      "sha256": "38b2ae9089570b72dae225faf1c2f5804fc001df00b8eca159d74010fd7c81f3",
+      "bytes": 9114
+    },
+    "native-red/memory-wordnumber/result.json": {
+      "sha256": "8ac174834a8dcb8f8b1a61c0cfbda378a39d47ddfad9e2da4067d0ab09f1fd3d",
+      "bytes": 34462
+    },
+    "native-red/memory-wordnumber/translated-footer.png": {
+      "sha256": "f67d3c3fa696599dcedbd44d7bc634eb37ba82bb63a8184480f464e806fbb7dc",
+      "bytes": 79572
+    },
+    "native-red/pt_PT.json": {
+      "sha256": "27f9b87b96d5d813059998693daf9a502d704d9f9442f5f1fdfe54c8c9ec2536",
+      "bytes": 1078
+    },
+    "native-red/snapshot.log": {
+      "sha256": "7e9c9698ea36bb55c520175ef992e80636f275980eb430fb8b3b0dd8a2518772",
+      "bytes": 242
+    },
+    "native-red/summary.json": {
+      "sha256": "0fdfbf668b5183a658c07aef5617a89f3983e5c03526c5b812d489705a1a96b0",
+      "bytes": 70223
+    }
+  }
+}
