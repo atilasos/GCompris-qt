@@ -29,10 +29,12 @@ class RunnerSelectionCLI(unittest.TestCase):
             self.assertFalse(marker.exists(),'Rejected selections must not prepare data')
             self.assertFalse(output.exists(),'Rejected selections must not create output')
 
-    def test_image_memory_has_no_audio_probe(self):
-        self.assert_rejected_before_preparation('memory','audio_probe')
-
-    def test_tux_memory_has_no_player_configuration(self):
-        self.assert_rejected_before_preparation('memory-tux','configuration')
+    def test_inapplicable_activity_case_combinations(self):
+        invalid=[('memory','audio_probe'),('memory-tux','audio_probe'),
+                 ('memory-tux','configuration'),('memory-sound-tux','configuration'),
+                 ('memory-case-association-tux','configuration')]
+        for activity,case in invalid:
+            with self.subTest(activity=activity,case=case):
+                self.assert_rejected_before_preparation(activity,case)
 
 if __name__=='__main__':unittest.main()
