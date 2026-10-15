@@ -1,6 +1,6 @@
 # Rever dois pares de vocabulário legado
 
-Status: ready-for-agent
+Status: ready-for-human
 Progress: claimed
 Type: task
 Blocked by: 02, 25
@@ -21,3 +21,9 @@ A escolha pedagógica e a audição destas duas propostas exigem o professor.
 Se o áudio antigo já pronunciar a palavra correta, conservar a gravação correta
 em vez de a substituir. A confirmação dos32 ficheiros novos não aprova estes
 pares antigos. Nenhuma aprovação pode ser atribuída pelo agente.
+
+## Comments
+
+Pacote e propostas prontos, ver ../legacy-word-review/README.md.
+Pergunta de audição e escolha pedagógica enviada ao professor. Sem resposta
+ainda; recursos do jogo e aprovação dos32 mantidos. A tarefa continua claimed.

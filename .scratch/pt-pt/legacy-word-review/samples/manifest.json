@@ -1,0 +1,76 @@
+{
+  "status": "awaiting-teacher-review",
+  "sample_only": true,
+  "installed": false,
+  "piper_version": "1.8.0",
+  "model_sha256": "223a7aaca69a155c61897e8ada7c3b13bc306e16c72dbb9c2fed733e2b0927d4",
+  "config_sha256": "fe0918dfc0f1a89264a6eea4afe8e95d8e9fed3cc6c81b5c2f87fcb2b50c7320",
+  "config_override": false,
+  "scope": "Two legacy vocabulary pairs; the 32 approved recordings are unchanged",
+  "pairs": [
+    {
+      "key": "fawn.ogg",
+      "translatedText": "corso",
+      "imageResource": "qrc:/gcompris/data/words-webp/fawn.webp",
+      "voiceResource": "qrc:/gcompris/data/voices-ogg/pt/words/fawn.ogg",
+      "captured_files": [
+        {
+          "file": "fawn.webp",
+          "bytes": 30142,
+          "sha256": "ca463533f4b2391ccd8e0fc3a36a965231f6d6ca6bdc55e55f8576f6989e5c92"
+        },
+        {
+          "file": "fawn.ogg",
+          "bytes": 12933,
+          "sha256": "1e8bc6b3d4cc6d6052f0ce6c9b4ff0084ceb9d227fd2e49d32cde570e8d954b3"
+        }
+      ],
+      "number": 1,
+      "proposed_text": "cervato",
+      "proposed_audio": "fawn-proposta.wav",
+      "review_status": "pending",
+      "files_sha256": {
+        "fawn.webp": "ca463533f4b2391ccd8e0fc3a36a965231f6d6ca6bdc55e55f8576f6989e5c92",
+        "fawn-original.ogg": "1e8bc6b3d4cc6d6052f0ce6c9b4ff0084ceb9d227fd2e49d32cde570e8d954b3",
+        "fawn-proposta.wav": "914085d774ef2b235b8cd9655681af98bab1842efff73014bbde80a741882134"
+      },
+      "audio": {
+        "frames": 12544,
+        "sample_rate": 22050,
+        "channels": 1
+      }
+    },
+    {
+      "key": "tick.ogg",
+      "translatedText": "piolho",
+      "imageResource": "qrc:/gcompris/data/words-webp/tick.webp",
+      "voiceResource": "qrc:/gcompris/data/voices-ogg/pt/words/tick.ogg",
+      "captured_files": [
+        {
+          "file": "tick.webp",
+          "bytes": 40338,
+          "sha256": "60cb4a1139111c570202becf9af6eaaa2bbefe440975fe9c7e2616fefd68f1be"
+        },
+        {
+          "file": "tick.ogg",
+          "bytes": 14481,
+          "sha256": "c23c4f3b00f736f4158e073de583a089eac46750ddb6a748f62a2fb4c0cce19b"
+        }
+      ],
+      "number": 2,
+      "proposed_text": "carraça",
+      "proposed_audio": "tick-proposta.wav",
+      "review_status": "pending",
+      "files_sha256": {
+        "tick.webp": "60cb4a1139111c570202becf9af6eaaa2bbefe440975fe9c7e2616fefd68f1be",
+        "tick-original.ogg": "c23c4f3b00f736f4158e073de583a089eac46750ddb6a748f62a2fb4c0cce19b",
+        "tick-proposta.wav": "8beea8067c7dc6a6aa52baf2b015da882deb68a05f5960fa0f7f0e08c6f7587e"
+      },
+      "audio": {
+        "frames": 13056,
+        "sample_rate": 22050,
+        "channels": 1
+      }
+    }
+  ]
+}
