@@ -26,12 +26,13 @@ function Invoke-GComprisNativeCheck {
     $rule = 'GCompris-Candidate-' + [guid]::NewGuid().ToString('N')
     $firewallAdded = $false
     try {
-        $env:PATH = "$InstallRoot/bin;$env:SystemRoot/System32;$env:SystemRoot"
+        $binary = (Get-Item -LiteralPath "$InstallRoot/bin/GCompris.exe" -ErrorAction Stop).FullName
+        $env:PATH = "$(Split-Path -Parent $binary);$env:SystemRoot/System32;$env:SystemRoot"
         $env:QT_QPA_PLATFORM = 'offscreen'
         $env:QT_MEDIA_BACKEND = 'ffmpeg'
-        New-NetFirewallRule -Name $rule -DisplayName 'GCompris candidate offline test' -Direction Outbound -Program "$InstallRoot/bin/GCompris.exe" -Action Block | Out-Null
+        New-NetFirewallRule -Name $rule -DisplayName 'GCompris candidate offline test' -Direction Outbound -Program $binary -Action Block | Out-Null
         $firewallAdded = $true
-        & $Python "$PSScriptRoot/native-probe.py" --binary "$InstallRoot/bin/GCompris.exe" --output $Output
+        & $Python "$PSScriptRoot/native-probe.py" --binary $binary --output $Output
         if ($LASTEXITCODE -ne 0) { throw "Native startup checks failed with code $LASTEXITCODE" }
     } finally {
         try {

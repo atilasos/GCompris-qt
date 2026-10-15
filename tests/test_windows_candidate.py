@@ -125,6 +125,7 @@ $ErrorActionPreference = 'Stop'
 . '""" + helper + """'
 function New-NetFirewallRule { param($Name,$DisplayName,$Direction,$Program,$Action)
     $script:created = $Name
+    $script:program = $Program
     $env:QT_NEW_LEAK = 'must disappear'
 }
 function Remove-NetFirewallRule { param($Name,$ErrorAction) $script:removed = $Name }
@@ -134,11 +135,15 @@ $env:QSG_RHI_BACKEND = 'retained backend'
 $env:QTDIR = 'retained sdk'
 $env:QT_MEDIA_BACKEND = $null
 $oldPath = $env:PATH
+$bin = New-Item -ItemType Directory -Path "$PSScriptRoot/install/bin"
+$binary = New-Item -ItemType File -Path "$($bin.FullName)/GCompris.exe"
+$expectedProgram = $binary.FullName
 $caught = $false
-try { Invoke-GComprisNativeCheck -InstallRoot 'not-installed' -Output 'not-created' -Python '/intentionally-not-present/python' }
+try { Invoke-GComprisNativeCheck -InstallRoot "$PSScriptRoot/install/." -Output 'not-created' -Python '/intentionally-not-present/python' }
 catch { $caught = $true }
 if (!$caught) { throw 'Expected native invocation failure' }
 if (!$script:created -or $script:created -ne $script:removed) { throw 'Firewall was not restored' }
+if ($script:program -cne $expectedProgram) { throw "Firewall Program is not the canonical executable path: $script:program" }
 if ($env:PATH -ne $oldPath -or $env:QT_PLUGIN_PATH -ne 'retained plugin path' -or
     $env:QML_IMPORT_PATH -ne 'retained qml path' -or $env:QSG_RHI_BACKEND -ne 'retained backend' -or
     $env:QTDIR -ne 'retained sdk' -or $env:QT_MEDIA_BACKEND -or $env:QT_NEW_LEAK) { throw 'Environment leaked' }
