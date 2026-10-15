@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "case": "automatic",
+      "passed": true,
+      "launcher_exit": 0,
+      "case_result": {
+        "failures": 0,
+        "passes": 2
+      },
+      "deployment_removed": true,
+      "ownership_verified": true,
+      "output": "/tmp/gcompris-qml-tmp-fntrdo3r/automatic-case",
+      "snapshot": "/tmp/gcompris-qml-tmp-fntrdo3r/.native-qml-62e7c75365284fb690da859978febd55/resource-snapshot"
+    },
+    {
+      "case": "external",
+      "passed": true,
+      "launcher_exit": 0,
+      "case_result": {
+        "failures": 0,
+        "passes": 2
+      },
+      "deployment_removed": true,
+      "ownership_verified": true,
+      "output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-snapshot-tmp/.scratch/pt-pt/review/tmp-resources/green/external-case",
+      "snapshot": "/tmp/gcompris-qml-tmp-fntrdo3r/external-snapshot"
+    }
+  ],
+  "temporary_root": "/tmp/gcompris-qml-tmp-fntrdo3r",
+  "temporary_removed": true
+}

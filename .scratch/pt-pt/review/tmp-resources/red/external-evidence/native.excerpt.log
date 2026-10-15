@@ -1,0 +1,25 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+Failed to load the resource file  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-snapshot-tmp/.scratch/pt-pt/review/tmp-resources/red/.native-qml-755a1d8ca89c45cd9b44c27900a8bf06/bin/../share/gcompris-qt/rcc/core.rcc"
+Failed to load the resource file menu.rcc
+Failed to load the resource file activities.rcc
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+QQmlComponent: Component is not ready
+supportedLocales: QList(qrc:/gcompris/src/core/LanguageList.qml: No such file or directory)
+supported locales are: ""
+renderer set to:  "software"
+QQmlComponent: Component is not ready
+supportedLocales: QList(qrc:/gcompris/src/core/LanguageList.qml: No such file or directory)
+locale "system" not supported, defaulting to system
+new locale:  "system"
+QQmlComponent: Component is not ready
+supportedLocales: QList(qrc:/gcompris/src/core/LanguageList.qml: No such file or directory)
+locale "system" not supported, defaulting to system
+new locale:  "system"
+QQmlComponent: Component is not ready
+supportedLocales: QList(qrc:/gcompris/src/core/LanguageList.qml: No such file or directory)
