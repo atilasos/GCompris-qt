@@ -167,3 +167,5 @@ a aceitação global dos 203 jogos.
 - [41 — Primeiro processador de texto](issues/41-primeiro-processador-texto.md)
 
 - [42 — Rejeitar seleções vazias no executor de memória](issues/42-retorno-vazio-memoria.md)
+
+- [43 — Primeiro rato e peixes](issues/43-primeiro-rato-peixes.md)
