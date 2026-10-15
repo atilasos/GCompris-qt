@@ -42,7 +42,7 @@ aprovados. A tarefa22 já reproduziu e corrigiu eventos duplicados em 14 motores
 com provas específicas; isto não conclui os jogos completos. A tarefa24 trata
 identificadores de categorias mostrados em inglês no rodapé da ajuda.
 
-A matriz liga atualmente evidência funcional de 52 atividades, mantendo os
+A matriz liga atualmente evidência funcional de 55 atividades, mantendo os
 critérios globais pending. As tarefas34/38 continuam em campanhas completas; a tarefa37 concluiu os
 43 percursos das cinco variantes restantes de memória;
 a tarefa39 concluiu a exploração do primeiro teclado. A tarefa40 corrigiu

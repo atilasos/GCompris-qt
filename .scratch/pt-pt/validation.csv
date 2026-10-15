@@ -175,9 +175,9 @@ redraw_symmetrical,pending,pending,pending,pending,pending,
 renewable_energy,pending,pending,pending,pending,pending,
 reversecount,pending,pending,pending,pending,pending,
 roman_numerals,pending,pending,pending,pending,pending,
-scalesboard,pending,pending,pending,pending,pending,
-scalesboard_weight,pending,pending,pending,pending,pending,
-scalesboard_weight_avoirdupois,pending,pending,pending,pending,pending,
+scalesboard,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/scalesboard.md
+scalesboard_weight,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/scalesboard_weight.md
+scalesboard_weight_avoirdupois,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/scalesboard_weight_avoirdupois.md
 share,pending,pending,pending,pending,pending,
 simplepaint,pending,pending,pending,pending,pending,
 sixteen,pending,pending,pending,pending,pending,
