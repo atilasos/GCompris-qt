@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "activity": "scalesboard_weight",
+  "puzzles": 222,
+  "levels": 45,
+  "rejected": 45,
+  "real_drags": 1407,
+  "auditor_sha256": "40b2d6a5a44f08ea79da51f44f191c2fd85e90330c88a5598dc80757e4acb5ae"
+}

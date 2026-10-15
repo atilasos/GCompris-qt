@@ -1,7 +1,7 @@
 # Validar as três atividades de balanças
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02, 25, 28, 33
 
@@ -32,3 +32,23 @@ o presente de 5 não era atingível com as massas dadas. A quarta massa conhecid
 passa de 1 para 2. Prova red/green por arrastos reais e auditoria independente
 dos 666 alvos em `../functional-scales/balance-five/README.md`. Os percursos
 completos continuam; Progress mantém-se claimed.
+
+## Answer
+
+Os três jogos passaram todos os 20 datasets, 142 níveis e 666 puzzles por
+arrastos/cliques/teclas Qt reais: 4018 arrastos e 142 respostas erradas
+rejeitadas. Pesos ocultos foram resolvidos por somas atingíveis e inclinação,
+sem ler o peso oculto ou a resposta. O auditor independente confirmou unidades,
+pesagens, tentativas e entrada numérica. Pontuação, Bonus e transições naturais.
+
+Três casos de controlos passaram ajuda PT, navegação, reinício e menu. Os
+tracers com teclado visual desligado cobrem só três níveis por jogo: 24 puzzles
+adicionais, sem afirmar outra campanha completa de 666. Os nove casos finais
+passaram sem timeout/erros QML, com UID/GID e limpeza verificados. Sete testes
+Python e os exemplos Node passaram.
+
+Corrigidos apenas o título SI e um puzzle impossível de 5, ambos com provas
+red/green próprias. Auditoria separada confirmou os 666 alvos atingíveis.
+[Provas, comandos, identidade e limites](../functional-scales/README.md).
+Windows, hardware, audição física e aceitação docente global permanecem
+pendentes. Mapa e CSV global não foram alterados.
