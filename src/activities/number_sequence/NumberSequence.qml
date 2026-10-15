@@ -193,7 +193,12 @@ ActivityBase {
                             // Could not make it work with the item.contains() api
                             if(touch.x > part.xAreaStart && touch.x < part.xAreaEnd &&
                                 touch.y > part.yAreaStart && touch.y < part.yAreaEnd) {
+                                var previousPoint = items.pointIndexToClick
                                 part.drawSegment()
+                                // Accept one point per input update. Advancing can
+                                // enlarge the next target over this same position.
+                                if(items.pointIndexToClick !== previousPoint)
+                                    break
                             }
                         }
                     }
@@ -203,7 +208,15 @@ ActivityBase {
                     checkPoints(touchPoints)
                 }
                 onTouchUpdated: (touchPoints) => {
-                    checkPoints(touchPoints)
+                    // Pressed points were already checked by onPressed. Only
+                    // a real movement should trace another segment here.
+                    var movedPoints = []
+                    for(var i in touchPoints) {
+                        var touch = touchPoints[i]
+                        if(touch.pressed && (touch.x !== touch.previousX || touch.y !== touch.previousY))
+                            movedPoints.push(touch)
+                    }
+                    checkPoints(movedPoints)
                 }
             }
         }
