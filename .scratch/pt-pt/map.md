@@ -184,3 +184,5 @@ a aceitação global dos 203 jogos.
 - [50 — Labirintos](issues/50-labirintos.md)
 
 - [51 — Bloqueio dos discos inferiores](issues/51-hanoi-discos-cobertos.md)
+
+- [52 — Ordenação](issues/52-ordenacao.md)
