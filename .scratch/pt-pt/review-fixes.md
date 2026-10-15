@@ -45,3 +45,28 @@ Actionlint1.7.7, o parser PowerShell e a verificação do diff também passaram.
 Os testes Windows reais decorrem no workflow; o computador Windows10 do professor,
 a reprodução audível e a conclusão de todos os níveis e modos permanecem
 verificações separadas, ainda pendentes.
+
+
+A revisão adicional das ferramentas nativas encontrou a rejeição de identificadores
+válidos com maiúsculas, como `programmingMaze`. A expressão de validação aceita
+agora todos os 203 identificadores públicos e continua a rejeitar caminhos e
+argumentos perigosos. Quatro testes exercitam as duas interfaces de linha de comandos.
+
+A revisão da ronda seguinte encontrou uma afirmação de cobertura insuficiente
+sobre a rejeição de letras sem acento em gletters. O teste nativo foi
+alargado e passou 24 rejeições explícitas, nos dois modos. Os resultados
+anteriores permanecem como evidência histórica; ver
+`functional-letters/review-accent.md`. A pequena
+função de entrada Unicode repetida nos dois casos fica local por depender dos
+identificadores QML e das asserções QtTest de cada caso. Não afeta código de produto.
+
+Verificação integrada posterior: 30 testes Python executados, um ignorado por
+PowerShell ausente do PATH; 18 testes Node passaram. A compilação principal
+inclui a correção de seleção de letras e passou os dois casos nativos de
+navegação (`build/pt-pt/integrated-letter-navigation/summary.json`).
+
+Os sete testes do candidato foram repetidos com PowerShell7.4.6 no PATH e
+passaram, incluindo a captura de stderr Qt e a reposição do ambiente. Foram
+removidos os 14 worktrees de tarefas já integradas; permanecem apenas os três
+worktrees das tarefas em execução. As branches e a evidência versionada foram
+conservadas.

@@ -88,7 +88,7 @@ registos e a recusa de reutilização depois de alterar o RCC distribuído.
 
 ## Validação ainda necessária
 
-Falta executar a implantação integrada das 203 atividades, jogar cada modo,
+Falta jogar cada modo da implantação integrada das 203 atividades,
 concluir os níveis, testar respostas e navegação com Qt e validar Windows 10 x64.
 As lacunas sonoras e a revisão do professor permanecem nos respetivos tickets.
 
@@ -107,3 +107,16 @@ anteriores à adição das 32 vozes e aos ícones revistos. O áudio está silen
 neste rastreio. Este resultado não aprova conclusão de níveis, interação,
 pronúncia, Windows nem a revisão do professor. A matriz funcional continua
 pendente, sem conversão automática para `passed`.
+
+## Novo rastreio após a correção dos recursos
+
+O mesmo ensaio de seis segundos passou novamente nas 203 atividades, agora com
+as 1610 vozes, os ícones PT e a correção do DownloadManager da integração
+`368fcf0b9417eed6a41b969ca1ae4e04507c8877`. Os quatro grupos têm fingerprints
+idênticos, rede desativada, perfis novos, zero erros QML e zero saídas prematuras.
+A compilação ainda precede a correção da seleção de letras da tarefa 15.
+
+Resultados e hashes em `resource-updates-offline-startup.json`; registos locais
+em `build/pt-pt/resource-updates-offline-startup/part-*/`. O áudio está silenciado.
+A conclusão funcional de cada jogo e as restantes aprovações não decorrem deste
+resultado. A matriz global conserva os estados pendentes.

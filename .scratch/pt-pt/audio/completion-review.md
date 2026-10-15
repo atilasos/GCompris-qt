@@ -118,6 +118,7 @@ local. Evidência em `build/pt-pt/completed-audio-offline/`.
 
 O rastreio tem áudio silenciado e o contentor não tem dispositivo de som.
 A descodificação automática não substitui a reprodução audível no Windows.
-Na revisão dos nomes de caracteres, confirmar especialmente se o sintetizador
-pronuncia `e` e `o` como nomes de letras, e não como palavras funcionais.
-A gravação final de cada nome acentuado continua sujeita à revisão pedagógica.
+Os textos de síntese usam explicitamente `é` e `ó` como nomes de letras,
+conforme o manifesto, e nomes como `a com til` e `cê cedilhado` aprovados pelo
+professor. A gravação final de cada nome acentuado continua sujeita à audição
+e revisão pedagógica.

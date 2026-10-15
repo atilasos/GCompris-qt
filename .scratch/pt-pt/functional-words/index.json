@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "source_data_sha256": "f792c4398b3bb9a3cba0cf181bb2d3ea573b2c8531ead88c5e38fdaad2a14651",
+  "private_wordsgame_rcc_sha256": "c726e4588ad9788e8cc21881085285c378995023f64e76119714878fa4b32119",
+  "correct_words_gameplay": 90,
+  "wrong_inputs_gameplay": 233,
+  "characters_gameplay": 812,
+  "level_mode_completions": 6,
+  "speed_mode_configurations": 20,
+  "native_cases_passed": 4,
+  "acceptance": {
+    "linux_global": "pending",
+    "windows10": "pending",
+    "teacher_review": "pending",
+    "physical_audio": "pending",
+    "physical_keyboard": "pending"
+  },
+  "artifacts": {
+    "final/adapter.log": {
+      "sha256": "6a0ddf8698134a0b03b6641a8a26850841a9b3d0e26e651fbb76afaf44af3906",
+      "bytes": 544
+    },
+    "final/configurations/native.log": {
+      "sha256": "8826dc45d8e57b233e391e9a8f962490fb1b71eb2da52fa889458098ff7f1977",
+      "bytes": 34156
+    },
+    "final/configurations/result.json": {
+      "sha256": "5e530e10f9c9a1e5ffbdeb2d2561c2a2bed41380c7afd7088f578ca87021910f",
+      "bytes": 4819
+    },
+    "final/configurations/virtual-keyboard.png": {
+      "sha256": "2018dcba2158f7e39241a56e30e65c5a9899e0dee4c142739375e5d72839e1a9",
+      "bytes": 80392
+    },
+    "final/controls/help.png": {
+      "sha256": "678d17c7d5edbe00e559cde98718557adf527aec57aca500eb9fe70885ee9018",
+      "bytes": 68950
+    },
+    "final/controls/menu.png": {
+      "sha256": "741627db475d8ef74e4cef0361a0669198b41531b1402996da8bc9cfe41bcefd",
+      "bytes": 171583
+    },
+    "final/controls/native.log": {
+      "sha256": "dc0fd4bd8e9dbf18e7a6debdf72c80b0bddd0be77af9920e5653d4ec4c26772b",
+      "bytes": 7912
+    },
+    "final/controls/result.json": {
+      "sha256": "cc9daaae71edf43de2411e433f7186ab73bfb7702b30193f08952c293cda4388",
+      "bytes": 1945
+    },
+    "final/data.log": {
+      "sha256": "5dd827ea1179f942ff664a52751247c0bb9fa28235d6120b8a316c55b323ada9",
+      "bytes": 216
+    },
+    "final/gameplay/mixed-level-1.png": {
+      "sha256": "04040d6bf5a78f9be896888521c374e1a0ae46ec80263dd9d95fec0029c66bf7",
+      "bytes": 85408
+    },
+    "final/gameplay/mixed-level-2.png": {
+      "sha256": "ba9269f67692dfb555462f8c82b18223d5e73b394129be8b12dd71f9ec59f8e1",
+      "bytes": 86205
+    },
+    "final/gameplay/mixed-level-3.png": {
+      "sha256": "fa90d6127e06cda0268422345124f1656573fd77800a804e8b50b6bb426c99c2",
+      "bytes": 90643
+    },
+    "final/gameplay/native.log": {
+      "sha256": "1efe79845dadf900c6b3940a23471e9d7c2a76f0f208818b2a7427664e4d001e",
+      "bytes": 14010
+    },
+    "final/gameplay/result.json": {
+      "sha256": "b127a743e588c6fc91d738101c3962cd9a94e8ed00bb4d5b474b43324f177672",
+      "bytes": 11006
+    },
+    "final/gameplay/uppercase-level-1.png": {
+      "sha256": "ef59de977a36d49d30fe6d5f3c17676e296985b331c05a95f09fbdfe8dabb6b0",
+      "bytes": 87511
+    },
+    "final/gameplay/uppercase-level-2.png": {
+      "sha256": "61a757c1a7f2c255bebd339174b4fee689b62ba237183a9654f5d40da0db1d7a",
+      "bytes": 88874
+    },
+    "final/gameplay/uppercase-level-3.png": {
+      "sha256": "2206316482ada1a1b946bee7833d24abd0e18e977af2c4a1f626e8c293c79d9d",
+      "bytes": 93914
+    },
+    "final/missed/after-missed-recovery.png": {
+      "sha256": "ab1fd54b7a9caa89c312517380921cd6579be15310647a5c1da0bc502f7b6e2f",
+      "bytes": 78707
+    },
+    "final/missed/native.log": {
+      "sha256": "b42980cfc62c848602fdfe7cb9d3535af0062708a14c11439077c610eedff292",
+      "bytes": 8315
+    },
+    "final/missed/partial-word.png": {
+      "sha256": "f6ae542c0794c9ac40052b3bce942b96797a8a6b3f793b159c78fd3daa31c55c",
+      "bytes": 76412
+    },
+    "final/missed/result.json": {
+      "sha256": "6224e9d56d146788547b70618086e5401821bb6e88a2b151a03bb15930d52d6a",
+      "bytes": 1700
+    },
+    "final/summary.json": {
+      "sha256": "80df8a7884c36fa3426edd37e7aab3b6e0681137c889c7f7e2a720acb68a2710",
+      "bytes": 17080
+    }
+  }
+}

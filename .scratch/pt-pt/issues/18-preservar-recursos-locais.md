@@ -1,7 +1,7 @@
 # Preservar recursos locais mais recentes após consultar atualizações
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02
 
@@ -68,3 +68,15 @@ individual. A seleção de versão em produção não mudou. Mantendo o mesmo
 pacote real ligado à compilação privada, a suite completa passa: 28 testes,
 zero falhas (`/tmp/pt-resource-isolation-after.log`). Não foram alterados
 recursos nem ficheiros da compilação principal.
+
+## Answer
+
+A implementação e a correção do isolamento foram integradas e revistas.
+Na compilação principal com os recursos reais, as oito suites C++ passam,
+incluindo os 28 casos do DownloadManager (`build/pt-pt/resource-isolation-tests.log`).
+O novo rastreio dos 203 arranques Linux sem rede também passou;
+[relatório e hashes](../runtime/resource-updates-offline-startup.json).
+
+A tarefa fica resolvida neste âmbito de seleção e preservação de recursos.
+O candidato Windows, a audição física e a aceitação global conservam os seus
+próprios estados nas tarefas 13, 05, 07 e 08.

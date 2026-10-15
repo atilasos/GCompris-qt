@@ -1,0 +1,13 @@
+# Spec follow-up — f10265178 to 368fcf0b9
+
+Read-only review of `git diff f10265178ae385d0375b7fd08c4b272350f87141...368fcf0b9417eed6a41b969ca1ae4e04507c8877`, commit list, original spec/prior review, native cases, results and task18.
+
+**No new actionable Spec finding identified.** No demonstrated incorrect gameplay, resource-selection behavior or material scope creep in this delta.
+
+Spec lines31–33 require “Cada atividade e modo têm testes interativos” and “abrir uma atividade não chega.” The four new native cases materially address the earlier missing completion evidence: grammar exercises actual controls for172 answers across15 levels, including contractions, erasing and keyboard navigation; chronology uses37 real drags and verifies wrong/correct ordering, all three completions and restart; multiple choice submits wrong/correct answers in all five questions and exercises the feedback/no-feedback distinction. The private RCC injects QtTest into lexical scope but retains the application controls/models/logic. Reading expected grammar classes from the model establishes interaction correctness; the docs explicitly avoid treating this as independent pedagogical review. Stored results and limits match the cases inspected.
+
+Spec lines34–36 require “As gravações existentes corretas são aproveitadas.” The DownloadManager change retains selected filename/checksum together, validates local bytes before preserving a newer local RCC, passes that checksum into reuse, accepts genuinely newer upstream revisions, and reconciles local indices for restart. New actual Qt-RCC/HTTP tests cover older remote, newer remote, missing/corrupt local, package/cache collisions, offline restart and pt/pt_BR separation. This is within scope because a real online update otherwise discarded the approved32 additions. Sentinel-RCC tests are correctly described as selection tests, not audio decoding/pronunciation evidence.
+
+Verification rerun in this review:9 Node grammar/shuffle tests passed; the real-QTranslator chronology instruction regression test passed. Did not rerun native application cases or the C++ build while integration validation was active. Historical native results precede the global DownloadManager change; the planned integrated rebuild/repeated203 startup checks and next Windows candidate remain necessary evidence, not failures discovered here.
+
+The earlier all203 functional-coverage gap remains open without being reissued as a new finding. Teacher final review, pronunciation, actual Windows10 and school acceptance remain accurately pending. No premature overall acceptance claim found.

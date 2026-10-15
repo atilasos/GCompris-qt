@@ -1,0 +1,7 @@
+********* Start testing of qmltestrunner *********
+Config: Using QtTest library 6.10.2, Qt 6.10.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 15.2.0), ubuntu 26.04
+PASS   : qmltestrunner::FunctionalUnicodeInputAdapter::initTestCase()
+PASS   : qmltestrunner::FunctionalUnicodeInputAdapter::test_preedit_and_commit_reach_real_textinput()
+PASS   : qmltestrunner::FunctionalUnicodeInputAdapter::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 11ms
+********* Finished testing of qmltestrunner *********
