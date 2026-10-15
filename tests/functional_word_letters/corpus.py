@@ -26,7 +26,7 @@ def corpus():
                         text=translations[key]
                         assert unicodedata.is_normalized('NFC',text), (key,text)
                         assert text.strip()==text and text, (key,text)
-                        words.append({'key':key,'text':text,'image':chapter.get('imgPrefix','')+entry['image']})
+                        words.append({'key':key,'text':text,'image':chapter.get('imgPrefix','')+entry['image'],'voice':entry['voice']})
                     else:omitted.append(key)
                 assert words,lesson['name']
                 lessons.append({'name':lesson['name'],'words':words,'omitted':omitted,

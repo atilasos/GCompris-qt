@@ -1,0 +1,32 @@
+{
+  "name": "letter-in-word-sample-lesson05-mode11-case1",
+  "command": [
+    "/usr/bin/python3",
+    "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tools/run-native-qml-case.py",
+    "--resource-snapshot",
+    "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/build/current-lang-v2/sample-snapshot",
+    "--activity",
+    "letter-in-word",
+    "--qml-file",
+    "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/src/activities/letter-in-word/LetterInWord.qml",
+    "--case",
+    "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/letter-complete/letter-in-word-sample-lesson05-mode11-case1.qml",
+    "--start-level",
+    "5",
+    "--output",
+    "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/letter-complete/letter-in-word-sample-lesson05-mode11-case1/attempt01",
+    "--timeout",
+    "648",
+    "--offline"
+  ],
+  "launcher_exit": 0,
+  "passed": true,
+  "expected": 10,
+  "completed": 10,
+  "case_sha256": "8bca06993f6bcc3272b0489e41779679feda0db6e46cfe19a8e26acfa8d05eea",
+  "source_sha256": "6510ff51292523673d27cb170d0647b122a513f64606703e222c7ce3d4a300da",
+  "snapshot_sha256": "06849ab8c2f28c99945d0d7b3a7248a91a08d7d8713a4ffd868163658d05ba6f",
+  "report_sha256": "d92856949111c0742268ffe3fb39ee226ad45ccc20e4bc3836951bf931610b08",
+  "report": "letter-in-word-sample-lesson05-mode11-case1/attempt01/result.json",
+  "utc": "2026-10-15T22:47:57.198186+00:00"
+}
