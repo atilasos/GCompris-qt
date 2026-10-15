@@ -1,0 +1,34 @@
+{
+  "activity": "memory-wordnumber",
+  "locale": "pt_PT",
+  "qml_file": "memory/MemoryCommon.qml",
+  "source_sha256": "67b9ae5b29bb33d6a46493c189b97b60a75abd02da5589203e83e02acad39533",
+  "portuguese_catalogue_sha256": "95903c77e759053ce1a836472004f0defd91fe9cce1fce0d8c61850e86c82688",
+  "private_qm_sha256": "41140448e938237c839d40b5f01fe47f62fdb8389b75cac4a9b3eacd9c9722d3",
+  "case_sha256": "e46f43880b332674eb15cd9e865f26504ec36a3e648312ef71db5a70a6ccd6db",
+  "private_rcc_sha256": "1b3df44953a0f24b4cdc85c2c75c62239556f6a5113d6108d3c306b396d9fbe7",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-memory/build/native-qml/bc9124fb21a7496c99bc33214fb5c6a0",
+  "version_code": 260200,
+  "network": "docker-none",
+  "timestamp_utc": "2026-10-15T21:15:51.206747+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [
+    {
+      "file": "number-name-help.png",
+      "sha256": "fbf4edfe49b48620fecb6396e6c926938cfdb573096e4876ee8ee1d4581b5b15",
+      "bytes": 91884
+    }
+  ],
+  "passed": true,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 0,
+    "passes": 2,
+    "description": "Vira as cartas para associar o numeral ao respetivo número por extenso.",
+    "manual": "Cada carta esconde um numeral (um número representado por algarismos) ou um número escrito por extenso. Tens de fazer corresponder cada numeral ao respetivo número por extenso.<br><br><b>Controlos do teclado:</b><ul><li>Setas: navegação</li><li>Espaço ou Enter: virar a carta selecionada</li></ul>"
+  }
+}
