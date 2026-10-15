@@ -1,0 +1,3621 @@
+{
+  "schema_version": 1,
+  "revision": "1d49ed1b397caca8243bd2b6bbc427a112219bda",
+  "input_sha256": "bbe715e0ca047a8d0335cccf2f1958a79f44094d2b673a55e20b3d1162e7bcff",
+  "scope": "Source inventory only; runtime, audio, offline packaging and linguistic quality are unverified.",
+  "resource_warning": "Missing JSON peers are inspection candidates, not proof of a defect. Shared resources and QML datasets require separate inspection.",
+  "activity_count": 203,
+  "catalogs": [
+    {
+      "path": "poqm/pt/gcompris_qt.po",
+      "entries": 4316,
+      "counts": {
+        "fuzzy": 84,
+        "placeholder-mismatch": 10,
+        "untranslated": 69
+      },
+      "findings": [
+        {
+          "line": 3166,
+          "context": "ActivityInfo|",
+          "source": "Arrows: move the selection cursor through the panel items and board spots",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/babymatch/ActivityInfo.qml:29",
+            "activities/babyshapes/ActivityInfo.qml:29",
+            "activities/chronos/ActivityInfo.qml:30",
+            "activities/details/ActivityInfo.qml:28",
+            "activities/geo-country/ActivityInfo.qml:29",
+            "activities/geography/ActivityInfo.qml:29",
+            "activities/imagename/ActivityInfo.qml:29",
+            "activities/paintings/ActivityInfo.qml:31"
+          ]
+        },
+        {
+          "line": 3179,
+          "context": "ActivityInfo|",
+          "source": "Space: select an item in the list, and place it on a spot. If there is nothing selected in the list, remove item from selected spot",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/babymatch/ActivityInfo.qml:30",
+            "activities/babyshapes/ActivityInfo.qml:30",
+            "activities/chronos/ActivityInfo.qml:31",
+            "activities/details/ActivityInfo.qml:29",
+            "activities/geo-country/ActivityInfo.qml:30",
+            "activities/geography/ActivityInfo.qml:30",
+            "activities/imagename/ActivityInfo.qml:30",
+            "activities/paintings/ActivityInfo.qml:32"
+          ]
+        },
+        {
+          "line": 3196,
+          "context": "ActivityInfo|",
+          "source": "Tab: toggle navigation between the panel and the board without any other action",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/babymatch/ActivityInfo.qml:31",
+            "activities/babyshapes/ActivityInfo.qml:31",
+            "activities/chronos/ActivityInfo.qml:32",
+            "activities/details/ActivityInfo.qml:30",
+            "activities/geo-country/ActivityInfo.qml:31",
+            "activities/geography/ActivityInfo.qml:31",
+            "activities/imagename/ActivityInfo.qml:31",
+            "activities/paintings/ActivityInfo.qml:33"
+          ]
+        },
+        {
+          "line": 3213,
+          "context": "ActivityInfo|",
+          "source": "Delete or Backspace: remove item from selected spot",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/babymatch/ActivityInfo.qml:32",
+            "activities/babyshapes/ActivityInfo.qml:32",
+            "activities/chronos/ActivityInfo.qml:33",
+            "activities/details/ActivityInfo.qml:31",
+            "activities/geo-country/ActivityInfo.qml:32",
+            "activities/geography/ActivityInfo.qml:32",
+            "activities/imagename/ActivityInfo.qml:32",
+            "activities/paintings/ActivityInfo.qml:34"
+          ]
+        },
+        {
+          "line": 6586,
+          "context": "ActivityConfig|",
+          "source": "Template Mode",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/ActivityConfig.qml:18"
+          ]
+        },
+        {
+          "line": 6592,
+          "context": "ActivityInfo|",
+          "source": "Compass",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:14"
+          ]
+        },
+        {
+          "line": 6598,
+          "context": "ActivityInfo|",
+          "source": "Use the compass to draw.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:16"
+          ]
+        },
+        {
+          "line": 6607,
+          "context": "ActivityInfo|",
+          "source": "Learn how to draw circles and arcs with a compass.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:19"
+          ]
+        },
+        {
+          "line": 6613,
+          "context": "ActivityInfo|",
+          "source": "In template mode, each level contains a template to replicate or to get inspiration from. In free mode, you can draw freely and adjust the canvas size and grid spacing as you want from the compass settings menu.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:23"
+          ]
+        },
+        {
+          "line": 6621,
+          "context": "ActivityInfo|",
+          "source": "<br><b>Drawing with the compass:</b>",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:24"
+          ]
+        },
+        {
+          "line": 6626,
+          "context": "ActivityInfo|",
+          "source": "Move the compass by dragging the leg without the pen.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:25"
+          ]
+        },
+        {
+          "line": 6636,
+          "context": "ActivityInfo|",
+          "source": "Move the pen by dragging the other leg or the circle around the pen tip.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:26"
+          ]
+        },
+        {
+          "line": 6644,
+          "context": "ActivityInfo|",
+          "source": "Rotate and draw by dragging the pen with the left mouse button.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:27"
+          ]
+        },
+        {
+          "line": 6649,
+          "context": "ActivityInfo|",
+          "source": "Rotate without drawing by dragging the compass hinge, or by dragging the pen with the right mouse button.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:28"
+          ]
+        },
+        {
+          "line": 6656,
+          "context": "ActivityInfo|",
+          "source": "The snap to grid setting can be temporarily inverted by pressing the Control key.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:29"
+          ]
+        },
+        {
+          "line": 6666,
+          "context": "ActivityInfo|",
+          "source": "<b>Templates:</b>",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:30"
+          ]
+        },
+        {
+          "line": 6671,
+          "context": "ActivityInfo|",
+          "source": "Each level in template mode presents a template to replicate or to get inspiration from.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:31"
+          ]
+        },
+        {
+          "line": 6678,
+          "context": "ActivityInfo|",
+          "source": "Each template is divided into steps which can be scrolled through using the arrows.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:32"
+          ]
+        },
+        {
+          "line": 6685,
+          "context": "ActivityInfo|",
+          "source": "Each step shows where to place the tip of the compass and the circle or arc to be drawn.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:33"
+          ]
+        },
+        {
+          "line": 6695,
+          "context": "ActivityInfo|",
+          "source": "You can change the position of the template by clicking on its corners.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:34"
+          ]
+        },
+        {
+          "line": 6730,
+          "context": "ActivityInfo|",
+          "source": "Ctrl: invert snap to grid while it is pressed",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:40"
+          ]
+        },
+        {
+          "line": 6735,
+          "context": "ActivityInfo|",
+          "source": "P: open the pen panel",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:41"
+          ]
+        },
+        {
+          "line": 6743,
+          "context": "ActivityInfo|",
+          "source": "Left arrow: previous template step",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:42"
+          ]
+        },
+        {
+          "line": 6751,
+          "context": "ActivityInfo|",
+          "source": "Right arrow: next template step",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:43"
+          ]
+        },
+        {
+          "line": 6756,
+          "context": "ActivityInfo|",
+          "source": "Tab: toggle the template visibility",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:44"
+          ]
+        },
+        {
+          "line": 6761,
+          "context": "ActivityInfo|",
+          "source": "Space: toggle the compass and grid visibility",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:45"
+          ]
+        },
+        {
+          "line": 6769,
+          "context": "compass|",
+          "source": "Free mode",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/compass.js:103"
+          ]
+        },
+        {
+          "line": 6777,
+          "context": "Compass|",
+          "source": "Previous step",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:439"
+          ]
+        },
+        {
+          "line": 6785,
+          "context": "Compass|",
+          "source": "Next step",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:464"
+          ]
+        },
+        {
+          "line": 6793,
+          "context": "Compass|",
+          "source": "All steps",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:477"
+          ]
+        },
+        {
+          "line": 6798,
+          "context": "Compass|",
+          "source": "Current step",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:477"
+          ]
+        },
+        {
+          "line": 6806,
+          "context": "Compass|",
+          "source": "File menu",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:549"
+          ]
+        },
+        {
+          "line": 6811,
+          "context": "Compass|",
+          "source": "Compass and grid settings",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:558"
+          ]
+        },
+        {
+          "line": 6819,
+          "context": "Compass|",
+          "source": "Pen settings",
+          "reasons": [
+            "fuzzy",
+            "placeholder-mismatch"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:567"
+          ]
+        },
+        {
+          "line": 6827,
+          "context": "Compass|",
+          "source": "Undo",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:588"
+          ]
+        },
+        {
+          "line": 6835,
+          "context": "Compass|",
+          "source": "Redo",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:598"
+          ]
+        },
+        {
+          "line": 6840,
+          "context": "Compass|",
+          "source": "Show template",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:612"
+          ]
+        },
+        {
+          "line": 6848,
+          "context": "Compass|",
+          "source": "Hide template",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:612"
+          ]
+        },
+        {
+          "line": 6853,
+          "context": "Compass|",
+          "source": "Show compass and grid",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:624"
+          ]
+        },
+        {
+          "line": 6858,
+          "context": "Compass|",
+          "source": "Hide compass and grid",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:624"
+          ]
+        },
+        {
+          "line": 6866,
+          "context": "Compass|",
+          "source": "Save your image",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:775"
+          ]
+        },
+        {
+          "line": 6874,
+          "context": "Compass|",
+          "source": "Open an image",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:790"
+          ]
+        },
+        {
+          "line": 6882,
+          "context": "Compass|",
+          "source": "Create a new image",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:813"
+          ]
+        },
+        {
+          "line": 6890,
+          "context": "Compass|",
+          "source": "Background color",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:832"
+          ]
+        },
+        {
+          "line": 6898,
+          "context": "Compass|",
+          "source": "Canvas size",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:892"
+          ]
+        },
+        {
+          "line": 6903,
+          "context": "Compass|",
+          "source": "Grid spacing",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:962"
+          ]
+        },
+        {
+          "line": 6908,
+          "context": "Compass|",
+          "source": "Snap to grid",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:1013"
+          ]
+        },
+        {
+          "line": 6913,
+          "context": "Compass|",
+          "source": "Show grid",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:1039"
+          ]
+        },
+        {
+          "line": 6921,
+          "context": "Compass|",
+          "source": "Color",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:1103"
+          ]
+        },
+        {
+          "line": 6929,
+          "context": "Compass|",
+          "source": "Opacity",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:1149"
+          ]
+        },
+        {
+          "line": 6937,
+          "context": "Compass|",
+          "source": " Pen size",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:1193"
+          ]
+        },
+        {
+          "line": 6945,
+          "context": "Compass|",
+          "source": "You did not save this image. Do you want to close this activity?",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:1253"
+          ]
+        },
+        {
+          "line": 6953,
+          "context": "Compass|",
+          "source": "Do you want to erase this image?",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:1254"
+          ]
+        },
+        {
+          "line": 6961,
+          "context": "Compass|",
+          "source": "Yes",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:1255"
+          ]
+        },
+        {
+          "line": 6969,
+          "context": "Compass|",
+          "source": "No",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/Compass.qml:1256"
+          ]
+        },
+        {
+          "line": 6977,
+          "context": "Data|",
+          "source": "The target",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/resource/1/Data.qml:13"
+          ]
+        },
+        {
+          "line": 6985,
+          "context": "Data|",
+          "source": "The peony",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/resource/10/Data.qml:13"
+          ]
+        },
+        {
+          "line": 6993,
+          "context": "Data|",
+          "source": "The snail",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/resource/11/Data.qml:13"
+          ]
+        },
+        {
+          "line": 7001,
+          "context": "Data|",
+          "source": "The rose",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/resource/12/Data.qml:13"
+          ]
+        },
+        {
+          "line": 7006,
+          "context": "Data|",
+          "source": "The swirl",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/resource/13/Data.qml:13"
+          ]
+        },
+        {
+          "line": 7014,
+          "context": "Data|",
+          "source": "The spiral",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/resource/14/Data.qml:13"
+          ]
+        },
+        {
+          "line": 7019,
+          "context": "Data|",
+          "source": "The twist",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/resource/15/Data.qml:13"
+          ]
+        },
+        {
+          "line": 7027,
+          "context": "Data|",
+          "source": "The face",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/resource/16/Data.qml:15"
+          ]
+        },
+        {
+          "line": 7035,
+          "context": "Data|",
+          "source": "The bear",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/resource/17/Data.qml:15"
+          ]
+        },
+        {
+          "line": 7040,
+          "context": "Data|",
+          "source": "The lion",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/resource/18/Data.qml:14"
+          ]
+        },
+        {
+          "line": 7049,
+          "context": "Data|",
+          "source": "The mouse",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/resource/19/Data.qml:16"
+          ]
+        },
+        {
+          "line": 7057,
+          "context": "Data|",
+          "source": "The shell",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/resource/2/Data.qml:13"
+          ]
+        },
+        {
+          "line": 7062,
+          "context": "Data|",
+          "source": "The lotus flower",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/resource/3/Data.qml:13"
+          ]
+        },
+        {
+          "line": 7067,
+          "context": "Data|",
+          "source": "The carpet of flowers",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/resource/4/Data.qml:13"
+          ]
+        },
+        {
+          "line": 7072,
+          "context": "Data|",
+          "source": "The clover",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/resource/5/Data.qml:13"
+          ]
+        },
+        {
+          "line": 7080,
+          "context": "Data|",
+          "source": "The balloon",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/compass/resource/6/Data.qml:13"
+          ]
+        },
+        {
+          "line": 7085,
+          "context": "Data|",
+          "source": "The daisy",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/resource/7/Data.qml:13"
+          ]
+        },
+        {
+          "line": 7091,
+          "context": "Data|",
+          "source": "The periwinkle",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/resource/8/Data.qml:14"
+          ]
+        },
+        {
+          "line": 7096,
+          "context": "Data|",
+          "source": "The soccer ball",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/resource/9/Data.qml:13"
+          ]
+        },
+        {
+          "line": 8163,
+          "context": "ActivityInfo|",
+          "source": "Make beautiful drawings by rolling the gear in the cogwheel with the chosen pen. Select a wheel size, a gear size, pen's settings and color from the popup panels, and press the play button to roll the gear. On the first level, only some specific wheel and gear size combinations are available to get started. On the second level, all size combinations are available to give more creative freedom. You can use the file menu to save your image, open a previously saved image, or create a new image with selected background color. Saving an image will save it in an SVG file (vector format), along with a PNG file (pixel format). Only the SVG file can be opened again from the activity.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/drawing_wheels/ActivityInfo.qml:27"
+          ]
+        },
+        {
+          "line": 8449,
+          "context": "Enumerate|",
+          "source": "Enumerate up to %1 fruits.",
+          "reasons": [
+            "fuzzy",
+            "placeholder-mismatch"
+          ],
+          "references": [
+            "activities/enumerate/Enumerate.qml:65"
+          ]
+        },
+        {
+          "line": 8457,
+          "context": "Enumerate|",
+          "source": "Group %1 types of fruit and enumerate each group (%2 fruits max).",
+          "reasons": [
+            "fuzzy",
+            "placeholder-mismatch"
+          ],
+          "references": [
+            "activities/enumerate/Enumerate.qml:66"
+          ]
+        },
+        {
+          "line": 8466,
+          "context": "Data|",
+          "source": "Enumerate up to %1 fruits.",
+          "reasons": [
+            "fuzzy",
+            "placeholder-mismatch"
+          ],
+          "references": [
+            "activities/enumerate/resource/1/Data.qml:13"
+          ]
+        },
+        {
+          "line": 8476,
+          "context": "Data|",
+          "source": "Group %1 types of fruit and enumerate each group (%2 fruits max).",
+          "reasons": [
+            "fuzzy",
+            "placeholder-mismatch"
+          ],
+          "references": [
+            "activities/enumerate/resource/2/Data.qml:13",
+            "activities/enumerate/resource/3/Data.qml:13",
+            "activities/enumerate/resource/4/Data.qml:13"
+          ]
+        },
+        {
+          "line": 10624,
+          "context": "board1|",
+          "source": "Bisons live on the plains of North America and were hunted by the Native Americans for food. However, their near-extinction is due to the fact that the colonizers massacred them for sport and to clear land, rather than to hunting by indigenous peoples.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/explore_world_animals/resource/board/board1.qml:53"
+          ]
+        },
+        {
+          "line": 11322,
+          "context": "ActivityInfo|",
+          "source": "The fifteen puzzle",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/fifteen/ActivityInfo.qml:15"
+          ]
+        },
+        {
+          "line": 16636,
+          "context": "Data|",
+          "source": "Graduation to find between 1 and 7.",
+          "reasons": [
+            "placeholder-mismatch"
+          ],
+          "references": [
+            "activities/graduated_line_use/resource/2/Data.qml:9"
+          ]
+        },
+        {
+          "line": 16641,
+          "context": "Data|",
+          "source": "Graduation to find between 1 and 10.",
+          "reasons": [
+            "placeholder-mismatch"
+          ],
+          "references": [
+            "activities/graduated_line_use/resource/3/Data.qml:9"
+          ]
+        },
+        {
+          "line": 17224,
+          "context": "ActivityInfo|",
+          "source": "Read the instructions that give you the range of the number to find. Enter a number in the top right entry box, and press the OK button to validate it. You will be told if your number is higher or lower than the one to find. Then try again until you find the correct answer. The distance between the helicopter and the right side of the screen represents how far you are from the number to find. If the helicopter is above or under the vertical center of the screen, it means your number is higher or lower than the number to find.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/guessnumber/ActivityInfo.qml:23"
+          ]
+        },
+        {
+          "line": 17256,
+          "context": "guessnumber|",
+          "source": "Your number is too high.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/guessnumber/guessnumber.js:61"
+          ]
+        },
+        {
+          "line": 17264,
+          "context": "guessnumber|",
+          "source": "Your number is too low.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/guessnumber/guessnumber.js:64"
+          ]
+        },
+        {
+          "line": 17277,
+          "context": "Guessnumber|",
+          "source": "Guess a number between %1 and %2.",
+          "reasons": [
+            "fuzzy",
+            "placeholder-mismatch"
+          ],
+          "references": [
+            "activities/guessnumber/Guessnumber.qml:116"
+          ]
+        },
+        {
+          "line": 17289,
+          "context": "Data|",
+          "source": "Guess a number between %1 and %2.",
+          "reasons": [
+            "fuzzy",
+            "placeholder-mismatch"
+          ],
+          "references": [
+            "activities/guessnumber/resource/1/Data.qml:16",
+            "activities/guessnumber/resource/2/Data.qml:14",
+            "activities/guessnumber/resource/3/Data.qml:16",
+            "activities/guessnumber/resource/4/Data.qml:16",
+            "activities/guessnumber/resource/5/Data.qml:16"
+          ]
+        },
+        {
+          "line": 17950,
+          "context": "ActivityConfig|",
+          "source": "Uppercase letters",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/keyboard_training/ActivityConfig.qml:28"
+          ]
+        },
+        {
+          "line": 17958,
+          "context": "ActivityConfig|",
+          "source": "Lowercase letters",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/keyboard_training/ActivityConfig.qml:29"
+          ]
+        },
+        {
+          "line": 17967,
+          "context": "ActivityInfo|",
+          "source": "Keyboard training",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/keyboard_training/ActivityInfo.qml:14"
+          ]
+        },
+        {
+          "line": 17976,
+          "context": "ActivityInfo|",
+          "source": "Find the requested character and type it on the keyboard.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/keyboard_training/ActivityInfo.qml:16"
+          ]
+        },
+        {
+          "line": 17985,
+          "context": "ActivityInfo|",
+          "source": "Learn to type on a keyboard.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/keyboard_training/ActivityInfo.qml:19"
+          ]
+        },
+        {
+          "line": 17991,
+          "context": "ActivityInfo|",
+          "source": "A character is displayed. Find it on the keyboard and type it.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/keyboard_training/ActivityInfo.qml:23"
+          ]
+        },
+        {
+          "line": 19463,
+          "context": "Data|",
+          "source": "Calculate remaining stars up to 10, with 2 or 3 different star sets.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/magic-hat-minus/resource/9/Data.qml:13"
+          ]
+        },
+        {
+          "line": 19559,
+          "context": "Data|",
+          "source": "Add stars up to 10, with 2 or 3 different star sets.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/magic-hat-plus/resource/9/Data.qml:13"
+          ]
+        },
+        {
+          "line": 21430,
+          "context": "Menu|",
+          "source": "GCompris is connected to teacher's server, and the user is authenticated as %1.",
+          "reasons": [
+            "fuzzy",
+            "placeholder-mismatch"
+          ],
+          "references": [
+            "activities/menu/Menu.qml:215"
+          ]
+        },
+        {
+          "line": 23266,
+          "context": "ActivityConfig|",
+          "source": "Use the default starting hole",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/peg_solitaire/ActivityConfig.qml:27"
+          ]
+        },
+        {
+          "line": 23272,
+          "context": "ActivityInfo|",
+          "source": "Peg solitaire",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/peg_solitaire/ActivityInfo.qml:14"
+          ]
+        },
+        {
+          "line": 23278,
+          "context": "ActivityInfo|",
+          "source": "Remove all the pieces in the correct order until only one remains.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/peg_solitaire/ActivityInfo.qml:16"
+          ]
+        },
+        {
+          "line": 23284,
+          "context": "ActivityInfo|",
+          "source": "To move a piece, make it jump another one in an orthogonal direction, to a hole two positions away. The jumped piece is removed from the board. You can click on a movable piece and then on its destination, or drag and drop it to its destination. The game is over when no more piece can be moved, and is won if only one piece remains. If the option to use the default starting hole is not selected, you need to choose the first piece to remove by clicking on it. You can use the undo button to undo your last move, and the redo button to redo it.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/peg_solitaire/ActivityInfo.qml:23"
+          ]
+        },
+        {
+          "line": 23298,
+          "context": "peg_solitaire|",
+          "source": "English board",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/peg_solitaire/peg_solitaire.js:28"
+          ]
+        },
+        {
+          "line": 23307,
+          "context": "peg_solitaire|",
+          "source": "French board",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/peg_solitaire/peg_solitaire.js:44"
+          ]
+        },
+        {
+          "line": 23313,
+          "context": "peg_solitaire|",
+          "source": "32 holes diamond board",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/peg_solitaire/peg_solitaire.js:61"
+          ]
+        },
+        {
+          "line": 23322,
+          "context": "peg_solitaire|",
+          "source": "Asymmetrical board",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/peg_solitaire/peg_solitaire.js:79"
+          ]
+        },
+        {
+          "line": 24343,
+          "context": "ActivityInfo|",
+          "source": "Polygons",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/ActivityInfo.qml:19"
+          ]
+        },
+        {
+          "line": 24349,
+          "context": "ActivityInfo|",
+          "source": "Learn about special polygons and draw them in a grid.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/ActivityInfo.qml:21"
+          ]
+        },
+        {
+          "line": 24358,
+          "context": "ActivityInfo|",
+          "source": "Learn about special polygons.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/polygons/ActivityInfo.qml:24"
+          ]
+        },
+        {
+          "line": 24364,
+          "context": "ActivityInfo|",
+          "source": "Click on the grid to place points corresponding to the ends of the polygon's lines. As long as the shape is not closed, the last point is of a different color to indicate that it will be connected to the next point added. After placing at least 3 points, you can close the shape by clicking on the first or the last point. When the shape is closed, you can not add new points. You can move a point by dragging it, or delete it with a double-click. You can restart the shape by clicking on the reload button. When the shape is correct, press the OK button to validate your answer.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/ActivityInfo.qml:28"
+          ]
+        },
+        {
+          "line": 24377,
+          "context": "ActivityInfo|",
+          "source": "Arrows: move the keyboard cursor in the grid, and if a point is selected move it",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/ActivityInfo.qml:30"
+          ]
+        },
+        {
+          "line": 24384,
+          "context": "ActivityInfo|",
+          "source": "Enter: create a point at the cursor position, or validate your answer when the shape is closed",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/ActivityInfo.qml:31"
+          ]
+        },
+        {
+          "line": 24394,
+          "context": "ActivityInfo|",
+          "source": "Space: select or deselect the point at the cursor position",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/polygons/ActivityInfo.qml:32"
+          ]
+        },
+        {
+          "line": 24402,
+          "context": "ActivityInfo|",
+          "source": "Tab: select next point",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/polygons/ActivityInfo.qml:33"
+          ]
+        },
+        {
+          "line": 24410,
+          "context": "ActivityInfo|",
+          "source": "Delete: delete selected point",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/polygons/ActivityInfo.qml:34"
+          ]
+        },
+        {
+          "line": 24415,
+          "context": "TutorialDataset|",
+          "source": "A polygon is a closed shape made of at least 3 connected lines.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:20"
+          ]
+        },
+        {
+          "line": 24420,
+          "context": "TutorialDataset|",
+          "source": "To draw a polygon, click on the grid to place the ends of the polygon's lines.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:21"
+          ]
+        },
+        {
+          "line": 24427,
+          "context": "TutorialDataset|",
+          "source": "After placing at least 3 points, you can close the shape by clicking on the first or the last point.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:22"
+          ]
+        },
+        {
+          "line": 24437,
+          "context": "TutorialDataset|",
+          "source": "The points should not be all aligned.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:23"
+          ]
+        },
+        {
+          "line": 24442,
+          "context": "TutorialDataset|",
+          "source": "Draw a polygon.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:26"
+          ]
+        },
+        {
+          "line": 24447,
+          "context": "TutorialDataset|",
+          "source": "A triangle is a polygon with 3 sides.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:39"
+          ]
+        },
+        {
+          "line": 24455,
+          "context": "TutorialDataset|",
+          "source": "Draw a triangle.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:42"
+          ]
+        },
+        {
+          "line": 24460,
+          "context": "TutorialDataset|",
+          "source": "A right triangle is a triangle in which two sides are perpendicular, forming a right angle (90 degrees).",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:57"
+          ]
+        },
+        {
+          "line": 24467,
+          "context": "TutorialDataset|",
+          "source": "Draw a right triangle.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:60"
+          ]
+        },
+        {
+          "line": 24472,
+          "context": "TutorialDataset|",
+          "source": "An isosceles triangle is a triangle with two sides of equal length and two angles of equal measure.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:74"
+          ]
+        },
+        {
+          "line": 24479,
+          "context": "TutorialDataset|",
+          "source": "Draw an isosceles triangle.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:77"
+          ]
+        },
+        {
+          "line": 24484,
+          "context": "TutorialDataset|",
+          "source": "A quadrilateral is a four-sided polygon, having 4 sides and 4 corners.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:100"
+          ]
+        },
+        {
+          "line": 24489,
+          "context": "TutorialDataset|",
+          "source": "Draw a quadrilateral.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:103"
+          ]
+        },
+        {
+          "line": 24494,
+          "context": "TutorialDataset|",
+          "source": "A rectangle is a quadrilateral with 4 right angles.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:118"
+          ]
+        },
+        {
+          "line": 24499,
+          "context": "TutorialDataset|",
+          "source": "Draw a rectangle.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:121"
+          ]
+        },
+        {
+          "line": 24504,
+          "context": "TutorialDataset|",
+          "source": "A square is a rectangle with 4 sides of equal length.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:142"
+          ]
+        },
+        {
+          "line": 24512,
+          "context": "TutorialDataset|",
+          "source": "Draw a square.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:145"
+          ]
+        },
+        {
+          "line": 24517,
+          "context": "TutorialDataset|",
+          "source": "A parallelogram is a quadrilateral with opposite sides of equal length and opposite angles of equal measure.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:168"
+          ]
+        },
+        {
+          "line": 24524,
+          "context": "TutorialDataset|",
+          "source": "Draw a parallelogram which is not a rectangle.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:171"
+          ]
+        },
+        {
+          "line": 24529,
+          "context": "TutorialDataset|",
+          "source": "A rhombus is a parallelogram with four sides of equal length.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:192"
+          ]
+        },
+        {
+          "line": 24534,
+          "context": "TutorialDataset|",
+          "source": "Draw a rhombus which is not a square.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/TutorialDataset.qml:195"
+          ]
+        },
+        {
+          "line": 25361,
+          "context": "Reversecount|",
+          "source": "Dots",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/reversecount/Reversecount.qml:81"
+          ]
+        },
+        {
+          "line": 25369,
+          "context": "Reversecount|",
+          "source": "Arabic numbers",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/reversecount/Reversecount.qml:82"
+          ]
+        },
+        {
+          "line": 25377,
+          "context": "Reversecount|",
+          "source": "Roman numbers",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/reversecount/Reversecount.qml:83"
+          ]
+        },
+        {
+          "line": 25385,
+          "context": "Reversecount|",
+          "source": "Images",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/reversecount/Reversecount.qml:84"
+          ]
+        },
+        {
+          "line": 26667,
+          "context": "ActivityInfo|",
+          "source": "The sixteen puzzle",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/sixteen/ActivityInfo.qml:14"
+          ]
+        },
+        {
+          "line": 26676,
+          "context": "ActivityInfo|",
+          "source": "Slide the rows and columns to recreate the image.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/sixteen/ActivityInfo.qml:16"
+          ]
+        },
+        {
+          "line": 26682,
+          "context": "ActivityInfo|",
+          "source": "Click on an arrow to slide the corresponding row or column in this direction.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/sixteen/ActivityInfo.qml:23"
+          ]
+        },
+        {
+          "line": 26691,
+          "context": "ActivityInfo|",
+          "source": "Arrows: navigate to select arrow buttons.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/sixteen/ActivityInfo.qml:25"
+          ]
+        },
+        {
+          "line": 26699,
+          "context": "ActivityInfo|",
+          "source": "Space or Enter: click on selected button.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/sixteen/ActivityInfo.qml:26"
+          ]
+        },
+        {
+          "line": 27099,
+          "context": "Smallnumbers2|",
+          "source": "Dots",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/smallnumbers2/Smallnumbers2.qml:23"
+          ]
+        },
+        {
+          "line": 27107,
+          "context": "Smallnumbers2|",
+          "source": "Arabic numbers",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/smallnumbers2/Smallnumbers2.qml:24"
+          ]
+        },
+        {
+          "line": 27115,
+          "context": "Smallnumbers2|",
+          "source": "Roman numbers",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/smallnumbers2/Smallnumbers2.qml:25"
+          ]
+        },
+        {
+          "line": 27123,
+          "context": "Smallnumbers2|",
+          "source": "Images",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/smallnumbers2/Smallnumbers2.qml:26"
+          ]
+        },
+        {
+          "line": 28776,
+          "context": "Data|",
+          "source": "Maximum value: 5000.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/target/resource/4/Data.qml:14"
+          ]
+        },
+        {
+          "line": 29631,
+          "context": "ActivityBase|",
+          "source": "You are currently in a sequence, going back to the menu will cancel it, do you confirm?",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "core/ActivityBase.qml:218"
+          ]
+        },
+        {
+          "line": 29641,
+          "context": "ActivityBase|",
+          "source": "Yes",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "core/ActivityBase.qml:219"
+          ]
+        },
+        {
+          "line": 29649,
+          "context": "ActivityBase|",
+          "source": "No",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "core/ActivityBase.qml:224"
+          ]
+        },
+        {
+          "line": 29659,
+          "context": "ChangeLog|",
+          "source": "New command-line option to run a list of activities with specific datasets in sequence (--with-sequence sequence.json)",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "core/ChangeLog.qml:30"
+          ]
+        },
+        {
+          "line": 30648,
+          "context": "QObject|",
+          "source": "Start the sequence of activities passed in the json file.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "core/main.cpp:149"
+          ]
+        },
+        {
+          "line": 30756,
+          "context": "main|",
+          "source": "The following activities do not have any active datasets! All of their datasets will be reactivated.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "core/main.qml:510"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "po/pt/gcompris_voices.po",
+      "entries": 174,
+      "counts": {
+        "fuzzy": 3,
+        "untranslated": 15
+      },
+      "findings": [
+        {
+          "line": 24,
+          "context": "",
+          "source": "Find the missing numbers.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/adjacent_numbers/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 89,
+          "context": "",
+          "source": "Click on the column where you wish your token to fall and try to align 4 tokens before Tux.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/align4/ActivityInfo.qml:18"
+          ]
+        },
+        {
+          "line": 350,
+          "context": "",
+          "source": "Use the compass to draw.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 379,
+          "context": "",
+          "source": "Roll the gear in the cogwheel to draw.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/drawing_wheels/ActivityInfo.qml:22"
+          ]
+        },
+        {
+          "line": 508,
+          "context": "",
+          "source": "Reproduce and complete the frieze model.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/frieze/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 582,
+          "context": "",
+          "source": "Find the value corresponding to the given spot on the graduated line.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/graduated_line_read/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 588,
+          "context": "",
+          "source": "Place the given value on the graduated line.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/graduated_line_use/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 596,
+          "context": "",
+          "source": "Assign the requested grammatical classes to the corresponding words.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/grammar_analysis/ActivityInfo.qml:21",
+            "activities/grammar_classes/ActivityInfo.qml:21"
+          ]
+        },
+        {
+          "line": 619,
+          "context": "",
+          "source": "Use the four numbers with given operators to find 24",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/guess24/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 686,
+          "context": "",
+          "source": "Find the requested character and type it on the keyboard.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/keyboard_training/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 979,
+          "context": "",
+          "source": "Answer the questions.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/multiple_choice_questions/ActivityInfo.qml:19"
+          ]
+        },
+        {
+          "line": 1086,
+          "context": "",
+          "source": "Remove all the pieces in the correct order until only one remains.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/peg_solitaire/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 1136,
+          "context": "",
+          "source": "Draw the requested polygons by clicking on the grid.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/ActivityInfo.qml:22"
+          ]
+        },
+        {
+          "line": 1242,
+          "context": "",
+          "source": "Click on an arrow to slide the corresponding row or column in this direction. You must put all the pieces in the correct order. The numbers on the pieces can help you.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/sixteen/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 1254,
+          "context": "",
+          "source": "Use the tools to draw images.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/sketch/ActivityInfo.qml:21"
+          ]
+        },
+        {
+          "line": 1343,
+          "context": "",
+          "source": "Create pairs of numbers equal to ten. Select a number, then select another number of the same operation to swap their position. Then, select the result box to type the result.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/tens_complement_calculate/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 1408,
+          "context": "",
+          "source": "Solve the given addition.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/vertical_addition/ActivityInfo.qml:18"
+          ]
+        },
+        {
+          "line": 1416,
+          "context": "",
+          "source": "Solve the given subtraction.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/vertical_subtraction/ActivityInfo.qml:18",
+            "activities/vertical_subtraction_compensation/ActivityInfo.qml:18"
+          ]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "adjacent_numbers",
+      "title_source": "Find the adjacent numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "advanced_colors",
+      "title_source": "Advanced colors",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "algebra_by",
+      "title_source": "Multiplication of numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "algebra_div",
+      "title_source": "Division of numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "algebra_minus",
+      "title_source": "Subtraction of numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "algebra_plus",
+      "title_source": "Addition of numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "algorithm",
+      "title_source": "Logical associations",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "align4",
+      "title_source": "Align four (against Tux)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "align4_2players",
+      "title_source": "Align four (with a friend)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "alphabet-sequence",
+      "title_source": "Alphabet sequence",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "analog_electricity",
+      "title_source": "Analog electricity",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "baby_keyboard",
+      "title_source": "My first keyboard",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "baby_mouse",
+      "title_source": "My first mouse",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "baby_tangram",
+      "title_source": "Simple puzzle",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "baby_wordprocessor",
+      "title_source": "My first word processor",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "babymatch",
+      "title_source": "Matching items",
+      "catalog_findings": 4,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "babyshapes",
+      "title_source": "Complete the puzzle",
+      "catalog_findings": 4,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "balancebox",
+      "title_source": "Balance box",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "ballcatch",
+      "title_source": "Make the ball go to Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "bargame",
+      "title_source": "Bargame (against Tux)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "bargame_2players",
+      "title_source": "Bargame (with a friend)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "binary_bulb",
+      "title_source": "Binary bulbs",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "braille_alphabets",
+      "title_source": "Discover the braille system",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "braille_fun",
+      "title_source": "Braille fun",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "calcudoku",
+      "title_source": "Calcudoku",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "calendar",
+      "title_source": "Calendar",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "canal_lock",
+      "title_source": "Operate a canal lock",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "categorization",
+      "title_source": "Categorization",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "checkers",
+      "title_source": "Play checkers (against Tux)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "checkers_2players",
+      "title_source": "Play checkers (with a friend)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "chess",
+      "title_source": "Play chess (against Tux)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "chess_2players",
+      "title_source": "Play chess (with a friend)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "chess_partyend",
+      "title_source": "End of chess game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "chronos",
+      "title_source": "Chronos",
+      "catalog_findings": 4,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "click_on_letter",
+      "title_source": "Click on a lowercase letter",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [
+        "src/activities/click_on_letter/resource/levels-en.json"
+      ],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "click_on_letter_up",
+      "title_source": "Click on an uppercase letter",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "clickanddraw",
+      "title_source": "Click and draw",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "clickgame",
+      "title_source": "Click on me",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "clockgame",
+      "title_source": "Learning clock",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "color_mix",
+      "title_source": "Mixing paint colors",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "color_mix_light",
+      "title_source": "Mixing light colors",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "colors",
+      "title_source": "Colors",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "comparator",
+      "title_source": "Compare numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "compass",
+      "title_source": "Compass",
+      "catalog_findings": 70,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "crane",
+      "title_source": "Build the same model",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "details",
+      "title_source": "Find the details",
+      "catalog_findings": 4,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "digital_electricity",
+      "title_source": "Digital electricity",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "drawing_wheels",
+      "title_source": "Drawing wheels",
+      "catalog_findings": 1,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "drawletters",
+      "title_source": "Draw letters",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "drawnumbers",
+      "title_source": "Draw numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "enumerate",
+      "title_source": "Count the items",
+      "catalog_findings": 4,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "erase",
+      "title_source": "Move the mouse or touch the screen",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "erase_2clic",
+      "title_source": "Double tap or double click",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "erase_clic",
+      "title_source": "Click or tap",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "explore_farm_animals",
+      "title_source": "Explore farm animals",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "explore_monuments",
+      "title_source": "Explore monuments",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "explore_world_animals",
+      "title_source": "Explore world animals",
+      "catalog_findings": 1,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "explore_world_music",
+      "title_source": "Explore world music",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "family",
+      "title_source": "Family",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "family_find_relative",
+      "title_source": "Point the relatives",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "fifteen",
+      "title_source": "The fifteen puzzle",
+      "catalog_findings": 1,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "find_the_day",
+      "title_source": "Find the day",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "followline",
+      "title_source": "Control the hose-pipe",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "football",
+      "title_source": "The football game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "fractions_create",
+      "title_source": "Create the fractions",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "fractions_find",
+      "title_source": "Find the fractions",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "frieze",
+      "title_source": "Frieze",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "geo-country",
+      "title_source": "Locate the region",
+      "catalog_findings": 4,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "geography",
+      "title_source": "Locate the countries",
+      "catalog_findings": 4,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "gletters",
+      "title_source": "Simple letters",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [
+        "src/activities/gletters/resource/default-en.json",
+        "src/activities/gletters/resource/upper-en.json"
+      ],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "gnumch-equality",
+      "title_source": "Gnumch equality",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "gnumch-factors",
+      "title_source": "Gnumch factors",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "gnumch-inequality",
+      "title_source": "Gnumch inequality",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "gnumch-multiples",
+      "title_source": "Gnumch multiples",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "gnumch-primes",
+      "title_source": "Gnumch primes",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "graduated_line_read",
+      "title_source": "Read a graduated line",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "graduated_line_use",
+      "title_source": "Use a graduated line",
+      "catalog_findings": 2,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "grammar_analysis",
+      "title_source": "Grammatical analysis",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [
+        "src/activities/grammar_analysis/resource/grammar_analysis-en.json"
+      ],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "grammar_classes",
+      "title_source": "Grammatical classes",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [
+        "src/activities/grammar_classes/resource/grammar_classes-en.json"
+      ],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "graph-coloring",
+      "title_source": "Graph coloring",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "gravity",
+      "title_source": "Gravity",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "guess24",
+      "title_source": "Guess 24",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "guesscount",
+      "title_source": "Guesscount",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "guessnumber",
+      "title_source": "Guess a number",
+      "catalog_findings": 5,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "hangman",
+      "title_source": "The classic hangman game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "hanoi",
+      "title_source": "Simplified Tower of Hanoi",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "hanoi_real",
+      "title_source": "The Tower of Hanoi",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "hexagon",
+      "title_source": "Hexagon",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "imagename",
+      "title_source": "Name the image",
+      "catalog_findings": 4,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "instruments",
+      "title_source": "Music instruments",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "keyboard_training",
+      "title_source": "Keyboard training",
+      "catalog_findings": 6,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "land_safe",
+      "title_source": "Land safe",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "lang",
+      "title_source": "Enrich your vocabulary",
+      "catalog_findings": 0,
+      "portuguese_json": [
+        "src/activities/lang/resource/content-pt.json"
+      ],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "learn_additions",
+      "title_source": "Learn addition",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "learn_decimals",
+      "title_source": "Learn decimal numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "learn_decimals_additions",
+      "title_source": "Addition with decimal numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "learn_decimals_subtractions",
+      "title_source": "Subtraction with decimal numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "learn_digits",
+      "title_source": "Learn digits",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "learn_quantities",
+      "title_source": "Learn quantities",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "learn_subtractions",
+      "title_source": "Learn subtraction",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "left_right_click",
+      "title_source": "Mouse click training",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "leftright",
+      "title_source": "Find your left and right hands",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "letter-in-word",
+      "title_source": "Letter in which word",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "lightsoff",
+      "title_source": "Lights off",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "louis-braille",
+      "title_source": "The history of Louis Braille",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "magic-hat-minus",
+      "title_source": "The magician hat (subtraction)",
+      "catalog_findings": 1,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "magic-hat-plus",
+      "title_source": "The magician hat (addition)",
+      "catalog_findings": 1,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "maze",
+      "title_source": "Maze",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "mazeinvisible",
+      "title_source": "Invisible maze",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "mazerelative",
+      "title_source": "Relative maze",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "melody",
+      "title_source": "Melody",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory",
+      "title_source": "Memory game with images",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-case-association",
+      "title_source": "Case association memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-case-association-tux",
+      "title_source": "Case association memory game against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-enumerate",
+      "title_source": "Enumeration memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-add",
+      "title_source": "Addition memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-add-minus",
+      "title_source": "Addition and subtraction memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-add-minus-mult-div",
+      "title_source": "All operations memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-add-minus-mult-div-tux",
+      "title_source": "All operations memory game against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-add-minus-tux",
+      "title_source": "Addition and subtraction memory game against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-add-tux",
+      "title_source": "Addition memory game against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-div",
+      "title_source": "Division memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-div-tux",
+      "title_source": "Division memory game against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-minus",
+      "title_source": "Subtraction memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-minus-tux",
+      "title_source": "Subtraction memory game against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-mult",
+      "title_source": "Multiplication memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-mult-div",
+      "title_source": "Multiplication and division memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-mult-div-tux",
+      "title_source": "Multiplication and division memory game against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-mult-tux",
+      "title_source": "Multiplication memory game against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-sound",
+      "title_source": "Audio memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-sound-tux",
+      "title_source": "Audio memory game against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-tux",
+      "title_source": "Memory game with images against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-wordnumber",
+      "title_source": "Wordnumber memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "mining",
+      "title_source": "Mining for gold",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "missing-letter",
+      "title_source": "Missing letter",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "money",
+      "title_source": "Money",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "money_back",
+      "title_source": "Give Tux his change",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "money_back_cents",
+      "title_source": "Give Tux his change, including cents",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "money_cents",
+      "title_source": "Money with cents",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "morse_code",
+      "title_source": "Discover the International Morse code",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "mosaic",
+      "title_source": "Rebuild the mosaic",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "multiple_choice_questions",
+      "title_source": "Multiple-choice questions",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "nine_men_morris",
+      "title_source": "Nine men's morris (against Tux)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "nine_men_morris_2players",
+      "title_source": "Nine men's morris (with a friend)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "note_names",
+      "title_source": "Name that note",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "number_sequence",
+      "title_source": "Number sequence",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "numbers-odd-even",
+      "title_source": "Even and odd numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "ordering_alphabets",
+      "title_source": "Ordering letters",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "ordering_chronology",
+      "title_source": "Ordering chronology",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "ordering_numbers",
+      "title_source": "Ordering numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "ordering_sentences",
+      "title_source": "Ordering sentences",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "oware",
+      "title_source": "Play oware (against Tux)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "oware_2players",
+      "title_source": "Play oware (with a friend)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "paintings",
+      "title_source": "Assemble the puzzle",
+      "catalog_findings": 4,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "path_decoding",
+      "title_source": "Path decoding",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "path_decoding_relative",
+      "title_source": "Relative path decoding",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "path_encoding",
+      "title_source": "Path encoding",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "path_encoding_relative",
+      "title_source": "Relative path encoding",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "peg_solitaire",
+      "title_source": "Peg solitaire",
+      "catalog_findings": 8,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "penalty",
+      "title_source": "Penalty kick",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "photo_hunter",
+      "title_source": "Photo hunter",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "piano_composition",
+      "title_source": "Piano composition",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "planegame",
+      "title_source": "Numerical order",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "play_piano",
+      "title_source": "Play piano",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "play_rhythm",
+      "title_source": "Play rhythm",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "polygons",
+      "title_source": "Polygons",
+      "catalog_findings": 30,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "positions",
+      "title_source": "Positions",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "programmingMaze",
+      "title_source": "Program the path",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "railroad",
+      "title_source": "Railroad",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "readingh",
+      "title_source": "Horizontal reading practice",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "readingv",
+      "title_source": "Vertical reading practice",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "redraw",
+      "title_source": "Redraw the given image",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "redraw_symmetrical",
+      "title_source": "Mirror the given image",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "renewable_energy",
+      "title_source": "Renewable energy",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "reversecount",
+      "title_source": "Count intervals",
+      "catalog_findings": 4,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "roman_numerals",
+      "title_source": "Roman numerals",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "scalesboard",
+      "title_source": "Balance the scales properly",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "scalesboard_weight",
+      "title_source": "Balance using the International System of Units",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "scalesboard_weight_avoirdupois",
+      "title_source": "Balance using the imperial system of units",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "share",
+      "title_source": "Share pieces of candy",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "simplepaint",
+      "title_source": "Draw in a grid",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "sixteen",
+      "title_source": "The sixteen puzzle",
+      "catalog_findings": 5,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "sketch",
+      "title_source": "Sketch",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "smallnumbers",
+      "title_source": "Numbers with dice",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [
+        "src/activities/smallnumbers/resource/default-en.json"
+      ],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "smallnumbers2",
+      "title_source": "Numbers with dominoes",
+      "catalog_findings": 4,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [
+        "src/activities/smallnumbers2/resource/default-en.json"
+      ],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "solar_system",
+      "title_source": "Solar system",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "submarine",
+      "title_source": "Pilot a submarine",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "sudoku",
+      "title_source": "Sudoku",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "superbrain",
+      "title_source": "Super brain",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "tangram",
+      "title_source": "The tangram puzzle game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "target",
+      "title_source": "Practice addition with a target game",
+      "catalog_findings": 1,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "tens_complement_calculate",
+      "title_source": "Calculate with ten's complement",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "tens_complement_find",
+      "title_source": "Find ten's complement",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "tens_complement_swap",
+      "title_source": "Swap ten's complement",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "tens_complement_use",
+      "title_source": "Use ten's complement",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "tic_tac_toe",
+      "title_source": "Tic tac toe (against Tux)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "tic_tac_toe_2players",
+      "title_source": "Tic tac toe (with a friend)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "traffic",
+      "title_source": "A sliding-block puzzle game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "vertical_addition",
+      "title_source": "Vertical addition",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "vertical_subtraction",
+      "title_source": "Vertical subtraction",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "vertical_subtraction_compensation",
+      "title_source": "Vertical subtraction (compensation)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "watercycle",
+      "title_source": "Watercycle",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "wordsgame",
+      "title_source": "Falling words",
+      "catalog_findings": 0,
+      "portuguese_json": [
+        "src/activities/wordsgame/resource/default-pt.json"
+      ],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    }
+  ]
+}

@@ -1,0 +1,1869 @@
+{
+  "schema_version": 1,
+  "revision": "1d49ed1b397caca8243bd2b6bbc427a112219bda",
+  "input_sha256": "d390dc53d107c4cf54fb354bd125be271d6a314d2071ae92c9be44492ed4843c",
+  "scope": "Source inventory only; runtime, audio, offline packaging and linguistic quality are unverified.",
+  "resource_warning": "Missing JSON peers are inspection candidates, not proof of a defect. Shared resources and QML datasets require separate inspection.",
+  "activity_count": 203,
+  "catalogs": [
+    {
+      "path": "poqm/pt/gcompris_qt.po",
+      "entries": 4316,
+      "counts": {},
+      "findings": []
+    },
+    {
+      "path": "po/pt/gcompris_voices.po",
+      "entries": 174,
+      "counts": {
+        "fuzzy": 3,
+        "untranslated": 15
+      },
+      "findings": [
+        {
+          "line": 24,
+          "context": "",
+          "source": "Find the missing numbers.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/adjacent_numbers/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 89,
+          "context": "",
+          "source": "Click on the column where you wish your token to fall and try to align 4 tokens before Tux.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/align4/ActivityInfo.qml:18"
+          ]
+        },
+        {
+          "line": 350,
+          "context": "",
+          "source": "Use the compass to draw.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/compass/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 379,
+          "context": "",
+          "source": "Roll the gear in the cogwheel to draw.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/drawing_wheels/ActivityInfo.qml:22"
+          ]
+        },
+        {
+          "line": 508,
+          "context": "",
+          "source": "Reproduce and complete the frieze model.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/frieze/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 582,
+          "context": "",
+          "source": "Find the value corresponding to the given spot on the graduated line.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/graduated_line_read/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 588,
+          "context": "",
+          "source": "Place the given value on the graduated line.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/graduated_line_use/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 596,
+          "context": "",
+          "source": "Assign the requested grammatical classes to the corresponding words.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/grammar_analysis/ActivityInfo.qml:21",
+            "activities/grammar_classes/ActivityInfo.qml:21"
+          ]
+        },
+        {
+          "line": 619,
+          "context": "",
+          "source": "Use the four numbers with given operators to find 24",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/guess24/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 686,
+          "context": "",
+          "source": "Find the requested character and type it on the keyboard.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/keyboard_training/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 979,
+          "context": "",
+          "source": "Answer the questions.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/multiple_choice_questions/ActivityInfo.qml:19"
+          ]
+        },
+        {
+          "line": 1086,
+          "context": "",
+          "source": "Remove all the pieces in the correct order until only one remains.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/peg_solitaire/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 1136,
+          "context": "",
+          "source": "Draw the requested polygons by clicking on the grid.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/polygons/ActivityInfo.qml:22"
+          ]
+        },
+        {
+          "line": 1242,
+          "context": "",
+          "source": "Click on an arrow to slide the corresponding row or column in this direction. You must put all the pieces in the correct order. The numbers on the pieces can help you.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/sixteen/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 1254,
+          "context": "",
+          "source": "Use the tools to draw images.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/sketch/ActivityInfo.qml:21"
+          ]
+        },
+        {
+          "line": 1343,
+          "context": "",
+          "source": "Create pairs of numbers equal to ten. Select a number, then select another number of the same operation to swap their position. Then, select the result box to type the result.",
+          "reasons": [
+            "fuzzy"
+          ],
+          "references": [
+            "activities/tens_complement_calculate/ActivityInfo.qml:17"
+          ]
+        },
+        {
+          "line": 1408,
+          "context": "",
+          "source": "Solve the given addition.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/vertical_addition/ActivityInfo.qml:18"
+          ]
+        },
+        {
+          "line": 1416,
+          "context": "",
+          "source": "Solve the given subtraction.",
+          "reasons": [
+            "untranslated"
+          ],
+          "references": [
+            "activities/vertical_subtraction/ActivityInfo.qml:18",
+            "activities/vertical_subtraction_compensation/ActivityInfo.qml:18"
+          ]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "adjacent_numbers",
+      "title_source": "Find the adjacent numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "advanced_colors",
+      "title_source": "Advanced colors",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "algebra_by",
+      "title_source": "Multiplication of numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "algebra_div",
+      "title_source": "Division of numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "algebra_minus",
+      "title_source": "Subtraction of numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "algebra_plus",
+      "title_source": "Addition of numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "algorithm",
+      "title_source": "Logical associations",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "align4",
+      "title_source": "Align four (against Tux)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "align4_2players",
+      "title_source": "Align four (with a friend)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "alphabet-sequence",
+      "title_source": "Alphabet sequence",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "analog_electricity",
+      "title_source": "Analog electricity",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "baby_keyboard",
+      "title_source": "My first keyboard",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "baby_mouse",
+      "title_source": "My first mouse",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "baby_tangram",
+      "title_source": "Simple puzzle",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "baby_wordprocessor",
+      "title_source": "My first word processor",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "babymatch",
+      "title_source": "Matching items",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "babyshapes",
+      "title_source": "Complete the puzzle",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "balancebox",
+      "title_source": "Balance box",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "ballcatch",
+      "title_source": "Make the ball go to Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "bargame",
+      "title_source": "Bargame (against Tux)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "bargame_2players",
+      "title_source": "Bargame (with a friend)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "binary_bulb",
+      "title_source": "Binary bulbs",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "braille_alphabets",
+      "title_source": "Discover the braille system",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "braille_fun",
+      "title_source": "Braille fun",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "calcudoku",
+      "title_source": "Calcudoku",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "calendar",
+      "title_source": "Calendar",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "canal_lock",
+      "title_source": "Operate a canal lock",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "categorization",
+      "title_source": "Categorization",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "checkers",
+      "title_source": "Play checkers (against Tux)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "checkers_2players",
+      "title_source": "Play checkers (with a friend)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "chess",
+      "title_source": "Play chess (against Tux)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "chess_2players",
+      "title_source": "Play chess (with a friend)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "chess_partyend",
+      "title_source": "End of chess game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "chronos",
+      "title_source": "Chronos",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "click_on_letter",
+      "title_source": "Click on a lowercase letter",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [
+        "src/activities/click_on_letter/resource/levels-en.json"
+      ],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "click_on_letter_up",
+      "title_source": "Click on an uppercase letter",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "clickanddraw",
+      "title_source": "Click and draw",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "clickgame",
+      "title_source": "Click on me",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "clockgame",
+      "title_source": "Learning clock",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "color_mix",
+      "title_source": "Mixing paint colors",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "color_mix_light",
+      "title_source": "Mixing light colors",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "colors",
+      "title_source": "Colors",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "comparator",
+      "title_source": "Compare numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "compass",
+      "title_source": "Compass",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "crane",
+      "title_source": "Build the same model",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "details",
+      "title_source": "Find the details",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "digital_electricity",
+      "title_source": "Digital electricity",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "drawing_wheels",
+      "title_source": "Drawing wheels",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "drawletters",
+      "title_source": "Draw letters",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "drawnumbers",
+      "title_source": "Draw numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "enumerate",
+      "title_source": "Count the items",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "erase",
+      "title_source": "Move the mouse or touch the screen",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "erase_2clic",
+      "title_source": "Double tap or double click",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "erase_clic",
+      "title_source": "Click or tap",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "explore_farm_animals",
+      "title_source": "Explore farm animals",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "explore_monuments",
+      "title_source": "Explore monuments",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "explore_world_animals",
+      "title_source": "Explore world animals",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "explore_world_music",
+      "title_source": "Explore world music",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "family",
+      "title_source": "Family",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "family_find_relative",
+      "title_source": "Point the relatives",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "fifteen",
+      "title_source": "The fifteen puzzle",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "find_the_day",
+      "title_source": "Find the day",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "followline",
+      "title_source": "Control the hose-pipe",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "football",
+      "title_source": "The football game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "fractions_create",
+      "title_source": "Create the fractions",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "fractions_find",
+      "title_source": "Find the fractions",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "frieze",
+      "title_source": "Frieze",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "geo-country",
+      "title_source": "Locate the region",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "geography",
+      "title_source": "Locate the countries",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "gletters",
+      "title_source": "Simple letters",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [
+        "src/activities/gletters/resource/default-en.json",
+        "src/activities/gletters/resource/upper-en.json"
+      ],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "gnumch-equality",
+      "title_source": "Gnumch equality",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "gnumch-factors",
+      "title_source": "Gnumch factors",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "gnumch-inequality",
+      "title_source": "Gnumch inequality",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "gnumch-multiples",
+      "title_source": "Gnumch multiples",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "gnumch-primes",
+      "title_source": "Gnumch primes",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "graduated_line_read",
+      "title_source": "Read a graduated line",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "graduated_line_use",
+      "title_source": "Use a graduated line",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "grammar_analysis",
+      "title_source": "Grammatical analysis",
+      "catalog_findings": 0,
+      "portuguese_json": [
+        "src/activities/grammar_analysis/resource/grammar_analysis-pt.json"
+      ],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "grammar_classes",
+      "title_source": "Grammatical classes",
+      "catalog_findings": 0,
+      "portuguese_json": [
+        "src/activities/grammar_classes/resource/grammar_classes-pt.json"
+      ],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "graph-coloring",
+      "title_source": "Graph coloring",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "gravity",
+      "title_source": "Gravity",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "guess24",
+      "title_source": "Guess 24",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "guesscount",
+      "title_source": "Guesscount",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "guessnumber",
+      "title_source": "Guess a number",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "hangman",
+      "title_source": "The classic hangman game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "hanoi",
+      "title_source": "Simplified Tower of Hanoi",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "hanoi_real",
+      "title_source": "The Tower of Hanoi",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "hexagon",
+      "title_source": "Hexagon",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "imagename",
+      "title_source": "Name the image",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "instruments",
+      "title_source": "Music instruments",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "keyboard_training",
+      "title_source": "Keyboard training",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "land_safe",
+      "title_source": "Land safe",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "lang",
+      "title_source": "Enrich your vocabulary",
+      "catalog_findings": 0,
+      "portuguese_json": [
+        "src/activities/lang/resource/content-pt.json"
+      ],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "learn_additions",
+      "title_source": "Learn addition",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "learn_decimals",
+      "title_source": "Learn decimal numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "learn_decimals_additions",
+      "title_source": "Addition with decimal numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "learn_decimals_subtractions",
+      "title_source": "Subtraction with decimal numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "learn_digits",
+      "title_source": "Learn digits",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "learn_quantities",
+      "title_source": "Learn quantities",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "learn_subtractions",
+      "title_source": "Learn subtraction",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "left_right_click",
+      "title_source": "Mouse click training",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "leftright",
+      "title_source": "Find your left and right hands",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "letter-in-word",
+      "title_source": "Letter in which word",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "lightsoff",
+      "title_source": "Lights off",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "louis-braille",
+      "title_source": "The history of Louis Braille",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "magic-hat-minus",
+      "title_source": "The magician hat (subtraction)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "magic-hat-plus",
+      "title_source": "The magician hat (addition)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "maze",
+      "title_source": "Maze",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "mazeinvisible",
+      "title_source": "Invisible maze",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "mazerelative",
+      "title_source": "Relative maze",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "melody",
+      "title_source": "Melody",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory",
+      "title_source": "Memory game with images",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-case-association",
+      "title_source": "Case association memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-case-association-tux",
+      "title_source": "Case association memory game against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-enumerate",
+      "title_source": "Enumeration memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-add",
+      "title_source": "Addition memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-add-minus",
+      "title_source": "Addition and subtraction memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-add-minus-mult-div",
+      "title_source": "All operations memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-add-minus-mult-div-tux",
+      "title_source": "All operations memory game against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-add-minus-tux",
+      "title_source": "Addition and subtraction memory game against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-add-tux",
+      "title_source": "Addition memory game against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-div",
+      "title_source": "Division memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-div-tux",
+      "title_source": "Division memory game against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-minus",
+      "title_source": "Subtraction memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-minus-tux",
+      "title_source": "Subtraction memory game against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-mult",
+      "title_source": "Multiplication memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-mult-div",
+      "title_source": "Multiplication and division memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-mult-div-tux",
+      "title_source": "Multiplication and division memory game against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-math-mult-tux",
+      "title_source": "Multiplication memory game against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-sound",
+      "title_source": "Audio memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-sound-tux",
+      "title_source": "Audio memory game against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-tux",
+      "title_source": "Memory game with images against Tux",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "memory-wordnumber",
+      "title_source": "Wordnumber memory game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "mining",
+      "title_source": "Mining for gold",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "missing-letter",
+      "title_source": "Missing letter",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "money",
+      "title_source": "Money",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "money_back",
+      "title_source": "Give Tux his change",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "money_back_cents",
+      "title_source": "Give Tux his change, including cents",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "money_cents",
+      "title_source": "Money with cents",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "morse_code",
+      "title_source": "Discover the International Morse code",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "mosaic",
+      "title_source": "Rebuild the mosaic",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "multiple_choice_questions",
+      "title_source": "Multiple-choice questions",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "nine_men_morris",
+      "title_source": "Nine men's morris (against Tux)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "nine_men_morris_2players",
+      "title_source": "Nine men's morris (with a friend)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "note_names",
+      "title_source": "Name that note",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "number_sequence",
+      "title_source": "Number sequence",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "numbers-odd-even",
+      "title_source": "Even and odd numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "ordering_alphabets",
+      "title_source": "Ordering letters",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "ordering_chronology",
+      "title_source": "Ordering chronology",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "ordering_numbers",
+      "title_source": "Ordering numbers",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "ordering_sentences",
+      "title_source": "Ordering sentences",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "oware",
+      "title_source": "Play oware (against Tux)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "oware_2players",
+      "title_source": "Play oware (with a friend)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "paintings",
+      "title_source": "Assemble the puzzle",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "path_decoding",
+      "title_source": "Path decoding",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "path_decoding_relative",
+      "title_source": "Relative path decoding",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "path_encoding",
+      "title_source": "Path encoding",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "path_encoding_relative",
+      "title_source": "Relative path encoding",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "peg_solitaire",
+      "title_source": "Peg solitaire",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "penalty",
+      "title_source": "Penalty kick",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "photo_hunter",
+      "title_source": "Photo hunter",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "piano_composition",
+      "title_source": "Piano composition",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "planegame",
+      "title_source": "Numerical order",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "play_piano",
+      "title_source": "Play piano",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "play_rhythm",
+      "title_source": "Play rhythm",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "polygons",
+      "title_source": "Polygons",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "positions",
+      "title_source": "Positions",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "programmingMaze",
+      "title_source": "Program the path",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "railroad",
+      "title_source": "Railroad",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "readingh",
+      "title_source": "Horizontal reading practice",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "readingv",
+      "title_source": "Vertical reading practice",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "redraw",
+      "title_source": "Redraw the given image",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "redraw_symmetrical",
+      "title_source": "Mirror the given image",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "renewable_energy",
+      "title_source": "Renewable energy",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "reversecount",
+      "title_source": "Count intervals",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "roman_numerals",
+      "title_source": "Roman numerals",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "scalesboard",
+      "title_source": "Balance the scales properly",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "scalesboard_weight",
+      "title_source": "Balance using the International System of Units",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "scalesboard_weight_avoirdupois",
+      "title_source": "Balance using the imperial system of units",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "share",
+      "title_source": "Share pieces of candy",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "simplepaint",
+      "title_source": "Draw in a grid",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "sixteen",
+      "title_source": "The sixteen puzzle",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "sketch",
+      "title_source": "Sketch",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "smallnumbers",
+      "title_source": "Numbers with dice",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [
+        "src/activities/smallnumbers/resource/default-en.json"
+      ],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "smallnumbers2",
+      "title_source": "Numbers with dominoes",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [
+        "src/activities/smallnumbers2/resource/default-en.json"
+      ],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "solar_system",
+      "title_source": "Solar system",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "submarine",
+      "title_source": "Pilot a submarine",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "sudoku",
+      "title_source": "Sudoku",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "superbrain",
+      "title_source": "Super brain",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "tangram",
+      "title_source": "The tangram puzzle game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "target",
+      "title_source": "Practice addition with a target game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "tens_complement_calculate",
+      "title_source": "Calculate with ten's complement",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "tens_complement_find",
+      "title_source": "Find ten's complement",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "tens_complement_swap",
+      "title_source": "Swap ten's complement",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "tens_complement_use",
+      "title_source": "Use ten's complement",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "tic_tac_toe",
+      "title_source": "Tic tac toe (against Tux)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "tic_tac_toe_2players",
+      "title_source": "Tic tac toe (with a friend)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "traffic",
+      "title_source": "A sliding-block puzzle game",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "vertical_addition",
+      "title_source": "Vertical addition",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "vertical_subtraction",
+      "title_source": "Vertical subtraction",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "vertical_subtraction_compensation",
+      "title_source": "Vertical subtraction (compensation)",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "watercycle",
+      "title_source": "Watercycle",
+      "catalog_findings": 0,
+      "portuguese_json": [],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    },
+    {
+      "id": "wordsgame",
+      "title_source": "Falling words",
+      "catalog_findings": 0,
+      "portuguese_json": [
+        "src/activities/wordsgame/resource/default-pt.json"
+      ],
+      "english_json_without_portuguese_peer": [],
+      "invalid_portuguese_json": []
+    }
+  ]
+}

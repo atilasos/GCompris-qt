@@ -1,0 +1,1586 @@
+[
+  {
+    "context": "ActivityInfo|",
+    "source": "Arrows: move the selection cursor through the panel items and board spots",
+    "before": "",
+    "after": "Setas: mover o cursor de seleção entre os elementos do painel e as posições do tabuleiro",
+    "references": [
+      "activities/babymatch/ActivityInfo.qml:29",
+      "activities/babyshapes/ActivityInfo.qml:29",
+      "activities/chronos/ActivityInfo.qml:30",
+      "activities/details/ActivityInfo.qml:28",
+      "activities/geo-country/ActivityInfo.qml:29",
+      "activities/geography/ActivityInfo.qml:29",
+      "activities/imagename/ActivityInfo.qml:29",
+      "activities/paintings/ActivityInfo.qml:31"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Space: select an item in the list, and place it on a spot. If there is nothing selected in the list, remove item from selected spot",
+    "before": "",
+    "after": "Espaço: selecionar um elemento da lista e colocá-lo numa posição. Se não houver nenhum elemento selecionado na lista, remover o elemento da posição selecionada",
+    "references": [
+      "activities/babymatch/ActivityInfo.qml:30",
+      "activities/babyshapes/ActivityInfo.qml:30",
+      "activities/chronos/ActivityInfo.qml:31",
+      "activities/details/ActivityInfo.qml:29",
+      "activities/geo-country/ActivityInfo.qml:30",
+      "activities/geography/ActivityInfo.qml:30",
+      "activities/imagename/ActivityInfo.qml:30",
+      "activities/paintings/ActivityInfo.qml:32"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Tab: toggle navigation between the panel and the board without any other action",
+    "before": "Tabulador: alternar entre a área superior e a inferior",
+    "after": "Tab: alternar a navegação entre o painel e o tabuleiro, sem executar outra ação",
+    "references": [
+      "activities/babymatch/ActivityInfo.qml:31",
+      "activities/babyshapes/ActivityInfo.qml:31",
+      "activities/chronos/ActivityInfo.qml:32",
+      "activities/details/ActivityInfo.qml:30",
+      "activities/geo-country/ActivityInfo.qml:31",
+      "activities/geography/ActivityInfo.qml:31",
+      "activities/imagename/ActivityInfo.qml:31",
+      "activities/paintings/ActivityInfo.qml:33"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Delete or Backspace: remove item from selected spot",
+    "before": "Eliminar ou Retroceder: remove o item seleccionado da área de resposta",
+    "after": "Delete ou Backspace: remover o elemento da posição selecionada",
+    "references": [
+      "activities/babymatch/ActivityInfo.qml:32",
+      "activities/babyshapes/ActivityInfo.qml:32",
+      "activities/chronos/ActivityInfo.qml:33",
+      "activities/details/ActivityInfo.qml:31",
+      "activities/geo-country/ActivityInfo.qml:32",
+      "activities/geography/ActivityInfo.qml:32",
+      "activities/imagename/ActivityInfo.qml:32",
+      "activities/paintings/ActivityInfo.qml:34"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityConfig|",
+    "source": "Template Mode",
+    "before": "Modo Livre",
+    "after": "Modo com modelo",
+    "references": [
+      "activities/compass/ActivityConfig.qml:18"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Compass",
+    "before": "",
+    "after": "Compasso",
+    "references": [
+      "activities/compass/ActivityInfo.qml:14"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Use the compass to draw.",
+    "before": "",
+    "after": "Usa o compasso para desenhar.",
+    "references": [
+      "activities/compass/ActivityInfo.qml:16"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Learn how to draw circles and arcs with a compass.",
+    "before": "Aprende a desenhar as letras de forma divertida.",
+    "after": "Aprende a desenhar circunferências e arcos com um compasso.",
+    "references": [
+      "activities/compass/ActivityInfo.qml:19"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "In template mode, each level contains a template to replicate or to get inspiration from. In free mode, you can draw freely and adjust the canvas size and grid spacing as you want from the compass settings menu.",
+    "before": "",
+    "after": "No modo com modelo, cada nível contém um modelo que podes reproduzir ou usar como inspiração. No modo livre, podes desenhar livremente e ajustar o tamanho da área de desenho e o espaçamento da grelha no menu de configuração do compasso.",
+    "references": [
+      "activities/compass/ActivityInfo.qml:23"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "<br><b>Drawing with the compass:</b>",
+    "before": "",
+    "after": "<br><b>Desenhar com o compasso:</b>",
+    "references": [
+      "activities/compass/ActivityInfo.qml:24"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Move the compass by dragging the leg without the pen.",
+    "before": "",
+    "after": "Move o compasso arrastando a haste sem caneta.",
+    "references": [
+      "activities/compass/ActivityInfo.qml:25"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Move the pen by dragging the other leg or the circle around the pen tip.",
+    "before": "Complete o 'puzzle', arrastando cada peça do conjunto de peças de lado para o espaço correspondente.",
+    "after": "Move a caneta arrastando a outra haste ou o círculo à volta da ponta da caneta.",
+    "references": [
+      "activities/compass/ActivityInfo.qml:26"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Rotate and draw by dragging the pen with the left mouse button.",
+    "before": "",
+    "after": "Roda e desenha arrastando a caneta com o botão esquerdo do rato.",
+    "references": [
+      "activities/compass/ActivityInfo.qml:27"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Rotate without drawing by dragging the compass hinge, or by dragging the pen with the right mouse button.",
+    "before": "",
+    "after": "Roda sem desenhar arrastando a articulação do compasso ou arrastando a caneta com o botão direito do rato.",
+    "references": [
+      "activities/compass/ActivityInfo.qml:28"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "The snap to grid setting can be temporarily inverted by pressing the Control key.",
+    "before": "",
+    "after": "Podes inverter temporariamente a opção de encaixar na grelha enquanto manténs premida a tecla Control.",
+    "references": [
+      "activities/compass/ActivityInfo.qml:29"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "<b>Templates:</b>",
+    "before": "<b>Planos de mergulho</b>",
+    "after": "<b>Modelos:</b>",
+    "references": [
+      "activities/compass/ActivityInfo.qml:30"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Each level in template mode presents a template to replicate or to get inspiration from.",
+    "before": "",
+    "after": "Cada nível do modo com modelo apresenta um modelo que podes reproduzir ou usar como inspiração.",
+    "references": [
+      "activities/compass/ActivityInfo.qml:31"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Each template is divided into steps which can be scrolled through using the arrows.",
+    "before": "",
+    "after": "Cada modelo está dividido em passos que podes percorrer com as setas.",
+    "references": [
+      "activities/compass/ActivityInfo.qml:32"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Each step shows where to place the tip of the compass and the circle or arc to be drawn.",
+    "before": "",
+    "after": "Cada passo mostra onde colocar a ponta do compasso e a circunferência ou o arco a desenhar.",
+    "references": [
+      "activities/compass/ActivityInfo.qml:33"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "You can change the position of the template by clicking on its corners.",
+    "before": "Poderás mudar o valor do reóstato ao arrastar a sua barra deslizante respectiva.",
+    "after": "Podes mudar a posição do modelo clicando nos seus cantos.",
+    "references": [
+      "activities/compass/ActivityInfo.qml:34"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Ctrl: invert snap to grid while it is pressed",
+    "before": "",
+    "after": "Ctrl: inverter a opção de encaixar na grelha enquanto a tecla está premida",
+    "references": [
+      "activities/compass/ActivityInfo.qml:40"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "P: open the pen panel",
+    "before": "",
+    "after": "P: abrir o painel da caneta",
+    "references": [
+      "activities/compass/ActivityInfo.qml:41"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Left arrow: previous template step",
+    "before": "Cursor para baixo: seleccionar o item anterior",
+    "after": "Seta para a esquerda: passo anterior do modelo",
+    "references": [
+      "activities/compass/ActivityInfo.qml:42"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Right arrow: next template step",
+    "before": "Cursor para Direita: resposta da mão direita",
+    "after": "Seta para a direita: passo seguinte do modelo",
+    "references": [
+      "activities/compass/ActivityInfo.qml:43"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Tab: toggle the template visibility",
+    "before": "",
+    "after": "Tab: mostrar ou ocultar o modelo",
+    "references": [
+      "activities/compass/ActivityInfo.qml:44"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Space: toggle the compass and grid visibility",
+    "before": "",
+    "after": "Espaço: mostrar ou ocultar o compasso e a grelha",
+    "references": [
+      "activities/compass/ActivityInfo.qml:45"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "compass|",
+    "source": "Free mode",
+    "before": "Modo Livre",
+    "after": "Modo livre",
+    "references": [
+      "activities/compass/compass.js:103"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Previous step",
+    "before": "Anterior",
+    "after": "Passo anterior",
+    "references": [
+      "activities/compass/Compass.qml:439"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Next step",
+    "before": "Seguinte",
+    "after": "Passo seguinte",
+    "references": [
+      "activities/compass/Compass.qml:464"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "All steps",
+    "before": "Todas as palavras",
+    "after": "Todos os passos",
+    "references": [
+      "activities/compass/Compass.qml:477"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Current step",
+    "before": "",
+    "after": "Passo atual",
+    "references": [
+      "activities/compass/Compass.qml:477"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "File menu",
+    "before": "Menu ficheiro",
+    "after": "Menu Ficheiro",
+    "references": [
+      "activities/compass/Compass.qml:549"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Compass and grid settings",
+    "before": "",
+    "after": "Configuração do compasso e da grelha",
+    "references": [
+      "activities/compass/Compass.qml:558"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Pen settings",
+    "before": "Configuração da %1",
+    "after": "Configuração da caneta",
+    "references": [
+      "activities/compass/Compass.qml:567"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Undo",
+    "before": "Desfazer",
+    "after": "Desfazer",
+    "references": [
+      "activities/compass/Compass.qml:588"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Redo",
+    "before": "Refazer",
+    "after": "Refazer",
+    "references": [
+      "activities/compass/Compass.qml:598"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Show template",
+    "before": "",
+    "after": "Mostrar modelo",
+    "references": [
+      "activities/compass/Compass.qml:612"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Hide template",
+    "before": "Templo Dourado",
+    "after": "Ocultar modelo",
+    "references": [
+      "activities/compass/Compass.qml:612"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Show compass and grid",
+    "before": "",
+    "after": "Mostrar compasso e grelha",
+    "references": [
+      "activities/compass/Compass.qml:624"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Hide compass and grid",
+    "before": "",
+    "after": "Ocultar compasso e grelha",
+    "references": [
+      "activities/compass/Compass.qml:624"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Save your image",
+    "before": "Guardar a tua imagem",
+    "after": "Guardar a tua imagem",
+    "references": [
+      "activities/compass/Compass.qml:775"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Open an image",
+    "before": "Abrir uma imagem",
+    "after": "Abrir uma imagem",
+    "references": [
+      "activities/compass/Compass.qml:790"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Create a new image",
+    "before": "Criar uma nova imagem",
+    "after": "Criar uma nova imagem",
+    "references": [
+      "activities/compass/Compass.qml:813"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Background color",
+    "before": "Cor do fundo",
+    "after": "Cor de fundo",
+    "references": [
+      "activities/compass/Compass.qml:832"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Canvas size",
+    "before": "Tamanho da caneta",
+    "after": "Tamanho da área de desenho",
+    "references": [
+      "activities/compass/Compass.qml:892"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Grid spacing",
+    "before": "",
+    "after": "Espaçamento da grelha",
+    "references": [
+      "activities/compass/Compass.qml:962"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Snap to grid",
+    "before": "",
+    "after": "Encaixar na grelha",
+    "references": [
+      "activities/compass/Compass.qml:1013"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Show grid",
+    "before": "",
+    "after": "Mostrar grelha",
+    "references": [
+      "activities/compass/Compass.qml:1039"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Color",
+    "before": "Cores",
+    "after": "Cor",
+    "references": [
+      "activities/compass/Compass.qml:1103"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Opacity",
+    "before": "Opacidade",
+    "after": "Opacidade",
+    "references": [
+      "activities/compass/Compass.qml:1149"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": " Pen size",
+    "before": "Tamanho da caneta",
+    "after": " Espessura da caneta",
+    "references": [
+      "activities/compass/Compass.qml:1193"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "You did not save this image. Do you want to close this activity?",
+    "before": "Não seleccionaste nenhuma nota. Desejas apagar todas as notas?",
+    "after": "Não guardaste esta imagem. Queres fechar esta atividade?",
+    "references": [
+      "activities/compass/Compass.qml:1253"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Do you want to erase this image?",
+    "before": "Desejas realmente anular todas as jogadas?",
+    "after": "Queres apagar esta imagem?",
+    "references": [
+      "activities/compass/Compass.qml:1254"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "Yes",
+    "before": "Sim",
+    "after": "Sim",
+    "references": [
+      "activities/compass/Compass.qml:1255"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Compass|",
+    "source": "No",
+    "before": "Não",
+    "after": "Não",
+    "references": [
+      "activities/compass/Compass.qml:1256"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The target",
+    "before": "Terceiro maior",
+    "after": "O alvo",
+    "references": [
+      "activities/compass/resource/1/Data.qml:13"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The peony",
+    "before": "O Panteão.",
+    "after": "A peónia",
+    "references": [
+      "activities/compass/resource/10/Data.qml:13"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The snail",
+    "before": "Iguais",
+    "after": "O caracol",
+    "references": [
+      "activities/compass/resource/11/Data.qml:13"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The rose",
+    "before": "Iguais",
+    "after": "A rosa",
+    "references": [
+      "activities/compass/resource/12/Data.qml:13"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The swirl",
+    "before": "",
+    "after": "O remoinho",
+    "references": [
+      "activities/compass/resource/13/Data.qml:13"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The spiral",
+    "before": "Iguais",
+    "after": "A espiral",
+    "references": [
+      "activities/compass/resource/14/Data.qml:13"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The twist",
+    "before": "",
+    "after": "A torção",
+    "references": [
+      "activities/compass/resource/15/Data.qml:13"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The face",
+    "before": "Iguais",
+    "after": "O rosto",
+    "references": [
+      "activities/compass/resource/16/Data.qml:15"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The bear",
+    "before": "Iguais",
+    "after": "O urso",
+    "references": [
+      "activities/compass/resource/17/Data.qml:15"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The lion",
+    "before": "",
+    "after": "O leão",
+    "references": [
+      "activities/compass/resource/18/Data.qml:14"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The mouse",
+    "before": "casa",
+    "after": "O rato",
+    "references": [
+      "activities/compass/resource/19/Data.qml:16"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The shell",
+    "before": "Iguais",
+    "after": "A concha",
+    "references": [
+      "activities/compass/resource/2/Data.qml:13"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The lotus flower",
+    "before": "",
+    "after": "A flor de lótus",
+    "references": [
+      "activities/compass/resource/3/Data.qml:13"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The carpet of flowers",
+    "before": "",
+    "after": "O tapete de flores",
+    "references": [
+      "activities/compass/resource/4/Data.qml:13"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The clover",
+    "before": "",
+    "after": "O trevo",
+    "references": [
+      "activities/compass/resource/5/Data.qml:13"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The balloon",
+    "before": "O Panteão.",
+    "after": "O balão",
+    "references": [
+      "activities/compass/resource/6/Data.qml:13"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The daisy",
+    "before": "",
+    "after": "A margarida",
+    "references": [
+      "activities/compass/resource/7/Data.qml:13"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The periwinkle",
+    "before": "",
+    "after": "A pervinca",
+    "references": [
+      "activities/compass/resource/8/Data.qml:14"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "The soccer ball",
+    "before": "",
+    "after": "A bola de futebol",
+    "references": [
+      "activities/compass/resource/9/Data.qml:13"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Make beautiful drawings by rolling the gear in the cogwheel with the chosen pen. Select a wheel size, a gear size, pen's settings and color from the popup panels, and press the play button to roll the gear. On the first level, only some specific wheel and gear size combinations are available to get started. On the second level, all size combinations are available to give more creative freedom. You can use the file menu to save your image, open a previously saved image, or create a new image with selected background color. Saving an image will save it in an SVG file (vector format), along with a PNG file (pixel format). Only the SVG file can be opened again from the activity.",
+    "before": "Faz belos desenhos rolando a engrenagem na roda dentada com a caneta escolhida. Selecciona um tamanho de roda, um tamanho de engrenagem, a cor e as configurações da caneta dos painéis de popup, e pressiona o botão tocar para pores a engrenagem em andamento. Podes usar o menu ficheiro para guardares a imagem que criares, abrires uma imagem guardada anteriormente ou criares uma nova imagem com a cor de fundo  seleccionada. Guardar uma imagem irá guardá-la num arquivo SVG (formato vetorial), juntamente com um arquivo PNG (formato de map de pixeis). Só o ficheiro SVG poderá ser aberto novamente a partir da actividade.",
+    "after": "Faz belos desenhos rodando a engrenagem dentro da roda dentada com a caneta escolhida. Escolhe os tamanhos da roda e da engrenagem, a configuração da caneta e a cor nos painéis e carrega no botão de reprodução para rodar a engrenagem. No primeiro nível, só estão disponíveis algumas combinações de tamanhos para te ajudar a começar. No segundo nível, estão disponíveis todas as combinações, para teres mais liberdade criativa. Podes usar o menu Ficheiro para guardar a tua imagem, abrir uma imagem guardada anteriormente ou criar uma imagem com a cor de fundo escolhida. A imagem é guardada num ficheiro SVG, em formato vetorial, e num ficheiro PNG, em formato de píxeis. Só o ficheiro SVG pode ser aberto novamente nesta atividade.",
+    "references": [
+      "activities/drawing_wheels/ActivityInfo.qml:27"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Enumerate|",
+    "source": "Enumerate up to %1 fruits.",
+    "before": "Contar até 4 frutos.",
+    "after": "Conta até %1 frutos.",
+    "references": [
+      "activities/enumerate/Enumerate.qml:65"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Enumerate|",
+    "source": "Group %1 types of fruit and enumerate each group (%2 fruits max).",
+    "before": "Agrupar 2 tipos de frutos e contar cada um dos grupos (máx. de 5 frutos).",
+    "after": "Agrupa %1 tipos de frutos e conta os frutos de cada grupo, até um máximo de %2 frutos.",
+    "references": [
+      "activities/enumerate/Enumerate.qml:66"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "Enumerate up to %1 fruits.",
+    "before": "Contar até 4 frutos.",
+    "after": "Conta até %1 frutos.",
+    "references": [
+      "activities/enumerate/resource/1/Data.qml:13"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "Group %1 types of fruit and enumerate each group (%2 fruits max).",
+    "before": "Agrupar 2 tipos de frutos e contar cada um dos grupos (máx. de 5 frutos).",
+    "after": "Agrupa %1 tipos de frutos e conta os frutos de cada grupo, até um máximo de %2 frutos.",
+    "references": [
+      "activities/enumerate/resource/2/Data.qml:13",
+      "activities/enumerate/resource/3/Data.qml:13",
+      "activities/enumerate/resource/4/Data.qml:13"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "board1|",
+    "source": "Bisons live on the plains of North America and were hunted by the Native Americans for food. However, their near-extinction is due to the fact that the colonizers massacred them for sport and to clear land, rather than to hunting by indigenous peoples.",
+    "before": "",
+    "after": "Os bisontes vivem nas planícies da América do Norte e eram caçados pelos povos indígenas para alimentação. No entanto, a sua quase extinção deve-se ao massacre pelos colonizadores, por desporto e para desocupar terras, e não à caça praticada pelos povos indígenas.",
+    "references": [
+      "activities/explore_world_animals/resource/board/board1.qml:53"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "The fifteen puzzle",
+    "before": "O jogo dos quinze",
+    "after": "O jogo dos quinze",
+    "references": [
+      "activities/fifteen/ActivityInfo.qml:15"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "Graduation to find between 1 and 7.",
+    "before": "Escala para encontrar números entre 1 e %1.",
+    "after": "Encontra a marca da escala entre 1 e 7.",
+    "references": [
+      "activities/graduated_line_use/resource/2/Data.qml:9"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "Graduation to find between 1 and 10.",
+    "before": "Escala para encontrar números entre 1 e %1.",
+    "after": "Encontra a marca da escala entre 1 e 10.",
+    "references": [
+      "activities/graduated_line_use/resource/3/Data.qml:9"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Read the instructions that give you the range of the number to find. Enter a number in the top right entry box, and press the OK button to validate it. You will be told if your number is higher or lower than the one to find. Then try again until you find the correct answer. The distance between the helicopter and the right side of the screen represents how far you are from the number to find. If the helicopter is above or under the vertical center of the screen, it means your number is higher or lower than the number to find.",
+    "before": "Lê as instruções que te dão o intervalo do número a encontrar. Indica um número no campo superior direito. Ser-te-á dito se o seu número é maior ou menor. Depois indica outro número. A distância entre o Tux e a área de fuga à direita representa quão longe estás da resposta certa. Se o Tux estiver acima ou abaixo da área de fuga, significa que o teu número está acima ou abaixo do número correcto.",
+    "after": "Lê as instruções que indicam o intervalo do número a descobrir. Escreve um número na caixa do canto superior direito e carrega no botão OK para o confirmar. Recebes uma indicação de que o teu número é maior ou menor do que o número a descobrir. Tenta novamente até encontrares a resposta certa. A distância entre o helicóptero e o lado direito do ecrã representa a distância entre o teu número e o número a descobrir. Se o helicóptero estiver acima ou abaixo do centro vertical do ecrã, o teu número é, respetivamente, maior ou menor do que o número a descobrir.",
+    "references": [
+      "activities/guessnumber/ActivityInfo.qml:23"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "guessnumber|",
+    "source": "Your number is too high.",
+    "before": "O seu número é demasiado elevado",
+    "after": "O teu número é demasiado alto.",
+    "references": [
+      "activities/guessnumber/guessnumber.js:61"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "guessnumber|",
+    "source": "Your number is too low.",
+    "before": "O seu número é demasiado baixo",
+    "after": "O teu número é demasiado baixo.",
+    "references": [
+      "activities/guessnumber/guessnumber.js:64"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Guessnumber|",
+    "source": "Guess a number between %1 and %2.",
+    "before": "Adivinhar um número entre 1 e %1.",
+    "after": "Adivinha um número entre %1 e %2.",
+    "references": [
+      "activities/guessnumber/Guessnumber.qml:116"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "Guess a number between %1 and %2.",
+    "before": "Adivinhar um número entre 1 e %1.",
+    "after": "Adivinha um número entre %1 e %2.",
+    "references": [
+      "activities/guessnumber/resource/1/Data.qml:16",
+      "activities/guessnumber/resource/2/Data.qml:14",
+      "activities/guessnumber/resource/3/Data.qml:16",
+      "activities/guessnumber/resource/4/Data.qml:16",
+      "activities/guessnumber/resource/5/Data.qml:16"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityConfig|",
+    "source": "Uppercase letters",
+    "before": "Desenhar as letras",
+    "after": "Letras maiúsculas",
+    "references": [
+      "activities/keyboard_training/ActivityConfig.qml:28"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityConfig|",
+    "source": "Lowercase letters",
+    "before": "Desenhar as letras",
+    "after": "Letras minúsculas",
+    "references": [
+      "activities/keyboard_training/ActivityConfig.qml:29"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Keyboard training",
+    "before": "Treino com o teclado.",
+    "after": "Treino de teclado",
+    "references": [
+      "activities/keyboard_training/ActivityInfo.qml:14"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Find the requested character and type it on the keyboard.",
+    "before": "Lê a pauta musical e depois toca-a no teclado.",
+    "after": "Encontra o caráter pedido e escreve-o no teclado.",
+    "references": [
+      "activities/keyboard_training/ActivityInfo.qml:16"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Learn to type on a keyboard.",
+    "before": "Aprende a soletrar palavras",
+    "after": "Aprende a escrever no teclado.",
+    "references": [
+      "activities/keyboard_training/ActivityInfo.qml:19"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "A character is displayed. Find it on the keyboard and type it.",
+    "before": "",
+    "after": "É apresentado um caráter. Encontra-o no teclado e escreve-o.",
+    "references": [
+      "activities/keyboard_training/ActivityInfo.qml:23"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "Calculate remaining stars up to 10, with 2 or 3 different star sets.",
+    "before": "Aprende a calcular as estrelas que faltam até 100 com coeficientes.",
+    "after": "Calcula as estrelas que faltam até 10, com 2 ou 3 conjuntos diferentes de estrelas.",
+    "references": [
+      "activities/magic-hat-minus/resource/9/Data.qml:13"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "Add stars up to 10, with 2 or 3 different star sets.",
+    "before": "Adicionar estrelas até às 100 com coeficientes.",
+    "after": "Adiciona estrelas até 10, com 2 ou 3 conjuntos diferentes de estrelas.",
+    "references": [
+      "activities/magic-hat-plus/resource/9/Data.qml:13"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Menu|",
+    "source": "GCompris is connected to teacher's server, and the user is authenticated as %1.",
+    "before": "O GCompris está ligado ao servidor do professor e o utilizador está autenticado.",
+    "after": "O GCompris está ligado ao servidor do professor e o utilizador está autenticado como %1.",
+    "references": [
+      "activities/menu/Menu.qml:215"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityConfig|",
+    "source": "Use the default starting hole",
+    "before": "",
+    "after": "Usar a posição vazia inicial predefinida",
+    "references": [
+      "activities/peg_solitaire/ActivityConfig.qml:27"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Peg solitaire",
+    "before": "",
+    "after": "Solitário de peças",
+    "references": [
+      "activities/peg_solitaire/ActivityInfo.qml:14"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Remove all the pieces in the correct order until only one remains.",
+    "before": "",
+    "after": "Remove as peças pela ordem correta até restar apenas uma.",
+    "references": [
+      "activities/peg_solitaire/ActivityInfo.qml:16"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "To move a piece, make it jump another one in an orthogonal direction, to a hole two positions away. The jumped piece is removed from the board. You can click on a movable piece and then on its destination, or drag and drop it to its destination. The game is over when no more piece can be moved, and is won if only one piece remains. If the option to use the default starting hole is not selected, you need to choose the first piece to remove by clicking on it. You can use the undo button to undo your last move, and the redo button to redo it.",
+    "before": "",
+    "after": "Para mover uma peça, faz com que salte por cima de outra, na horizontal ou na vertical, para uma posição vazia duas posições adiante. A peça saltada é retirada do tabuleiro. Podes clicar numa peça que possa ser movida e depois no destino, ou arrastá-la para o destino. O jogo termina quando não é possível mover mais peças. Ganhas se restar apenas uma peça. Se a opção de usar a posição vazia inicial predefinida estiver desativada, clica na primeira peça que queres retirar. Podes usar o botão Desfazer para anular a última jogada e o botão Refazer para a repetir.",
+    "references": [
+      "activities/peg_solitaire/ActivityInfo.qml:23"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "peg_solitaire|",
+    "source": "English board",
+    "before": "",
+    "after": "Tabuleiro inglês",
+    "references": [
+      "activities/peg_solitaire/peg_solitaire.js:28"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "peg_solitaire|",
+    "source": "French board",
+    "before": "Polinésia Francesa",
+    "after": "Tabuleiro francês",
+    "references": [
+      "activities/peg_solitaire/peg_solitaire.js:44"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "peg_solitaire|",
+    "source": "32 holes diamond board",
+    "before": "",
+    "after": "Tabuleiro em losango com 32 posições",
+    "references": [
+      "activities/peg_solitaire/peg_solitaire.js:61"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "peg_solitaire|",
+    "source": "Asymmetrical board",
+    "before": "Ordem numérica",
+    "after": "Tabuleiro assimétrico",
+    "references": [
+      "activities/peg_solitaire/peg_solitaire.js:79"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Polygons",
+    "before": "",
+    "after": "Polígonos",
+    "references": [
+      "activities/polygons/ActivityInfo.qml:19"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Learn about special polygons and draw them in a grid.",
+    "before": "",
+    "after": "Conhece alguns polígonos especiais e desenha-os numa grelha.",
+    "references": [
+      "activities/polygons/ActivityInfo.qml:21"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Learn about special polygons.",
+    "before": "Aprende sobre algumas ferramentas de pintura digital.",
+    "after": "Conhece alguns polígonos especiais.",
+    "references": [
+      "activities/polygons/ActivityInfo.qml:24"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Click on the grid to place points corresponding to the ends of the polygon's lines. As long as the shape is not closed, the last point is of a different color to indicate that it will be connected to the next point added. After placing at least 3 points, you can close the shape by clicking on the first or the last point. When the shape is closed, you can not add new points. You can move a point by dragging it, or delete it with a double-click. You can restart the shape by clicking on the reload button. When the shape is correct, press the OK button to validate your answer.",
+    "before": "",
+    "after": "Clica na grelha para colocar os pontos que correspondem às extremidades dos lados do polígono. Enquanto a figura não estiver fechada, o último ponto tem uma cor diferente para indicar que será ligado ao próximo ponto. Depois de colocares pelo menos 3 pontos, podes fechar a figura clicando no primeiro ou no último ponto. Quando a figura está fechada, não podes acrescentar pontos. Podes mover um ponto arrastando-o ou apagá-lo com um duplo clique. Para recomeçar a figura, clica no botão de reiniciar. Quando a figura estiver correta, carrega no botão OK para confirmar a resposta.",
+    "references": [
+      "activities/polygons/ActivityInfo.qml:28"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Arrows: move the keyboard cursor in the grid, and if a point is selected move it",
+    "before": "",
+    "after": "Setas: mover o cursor na grelha ou mover o ponto selecionado",
+    "references": [
+      "activities/polygons/ActivityInfo.qml:30"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Enter: create a point at the cursor position, or validate your answer when the shape is closed",
+    "before": "",
+    "after": "Enter: criar um ponto na posição do cursor ou confirmar a resposta quando a figura estiver fechada",
+    "references": [
+      "activities/polygons/ActivityInfo.qml:31"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Space: select or deselect the point at the cursor position",
+    "before": "Espaço: seleccionar ou anular a selecção da resposta destacada",
+    "after": "Espaço: selecionar ou desmarcar o ponto na posição do cursor",
+    "references": [
+      "activities/polygons/ActivityInfo.qml:32"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Tab: select next point",
+    "before": "Cursor para cima: seleccionar o item seguinte",
+    "after": "Tab: selecionar o ponto seguinte",
+    "references": [
+      "activities/polygons/ActivityInfo.qml:33"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Delete: delete selected point",
+    "before": "Ctrl + D: apagar o texto seleccionado",
+    "after": "Delete: apagar o ponto selecionado",
+    "references": [
+      "activities/polygons/ActivityInfo.qml:34"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "A polygon is a closed shape made of at least 3 connected lines.",
+    "before": "",
+    "after": "Um polígono é uma figura fechada formada por pelo menos 3 segmentos de reta ligados entre si.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:20"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "To draw a polygon, click on the grid to place the ends of the polygon's lines.",
+    "before": "",
+    "after": "Para desenhares um polígono, clica na grelha para colocar as extremidades dos seus lados.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:21"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "After placing at least 3 points, you can close the shape by clicking on the first or the last point.",
+    "before": "",
+    "after": "Depois de colocares pelo menos 3 pontos, podes fechar a figura clicando no primeiro ou no último ponto.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:22"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "The points should not be all aligned.",
+    "before": "O resultado não deve ser um número negativo.",
+    "after": "Os pontos não podem estar todos alinhados.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:23"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "Draw a polygon.",
+    "before": "",
+    "after": "Desenha um polígono.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:26"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "A triangle is a polygon with 3 sides.",
+    "before": "",
+    "after": "Um triângulo é um polígono com 3 lados.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:39"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "Draw a triangle.",
+    "before": "Descobrir o triângulo",
+    "after": "Desenha um triângulo.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:42"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "A right triangle is a triangle in which two sides are perpendicular, forming a right angle (90 degrees).",
+    "before": "",
+    "after": "Um triângulo retângulo é um triângulo em que dois lados são perpendiculares, formando um ângulo reto de 90 graus.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:57"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "Draw a right triangle.",
+    "before": "",
+    "after": "Desenha um triângulo retângulo.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:60"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "An isosceles triangle is a triangle with two sides of equal length and two angles of equal measure.",
+    "before": "",
+    "after": "Um triângulo isósceles tem dois lados com o mesmo comprimento e dois ângulos com a mesma amplitude.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:74"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "Draw an isosceles triangle.",
+    "before": "",
+    "after": "Desenha um triângulo isósceles.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:77"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "A quadrilateral is a four-sided polygon, having 4 sides and 4 corners.",
+    "before": "",
+    "after": "Um quadrilátero é um polígono com 4 lados e 4 vértices.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:100"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "Draw a quadrilateral.",
+    "before": "",
+    "after": "Desenha um quadrilátero.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:103"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "A rectangle is a quadrilateral with 4 right angles.",
+    "before": "",
+    "after": "Um retângulo é um quadrilátero com 4 ângulos retos.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:118"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "Draw a rectangle.",
+    "before": "",
+    "after": "Desenha um retângulo.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:121"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "A square is a rectangle with 4 sides of equal length.",
+    "before": "",
+    "after": "Um quadrado é um retângulo com os 4 lados do mesmo comprimento.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:142"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "Draw a square.",
+    "before": "Percentagens com um quadrado.",
+    "after": "Desenha um quadrado.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:145"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "A parallelogram is a quadrilateral with opposite sides of equal length and opposite angles of equal measure.",
+    "before": "",
+    "after": "Um paralelogramo é um quadrilátero cujos lados opostos têm o mesmo comprimento e cujos ângulos opostos têm a mesma amplitude.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:168"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "Draw a parallelogram which is not a rectangle.",
+    "before": "",
+    "after": "Desenha um paralelogramo que não seja um retângulo.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:171"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "A rhombus is a parallelogram with four sides of equal length.",
+    "before": "",
+    "after": "Um losango é um paralelogramo com os 4 lados do mesmo comprimento.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:192"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "TutorialDataset|",
+    "source": "Draw a rhombus which is not a square.",
+    "before": "",
+    "after": "Desenha um losango que não seja um quadrado.",
+    "references": [
+      "activities/polygons/TutorialDataset.qml:195"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Reversecount|",
+    "source": "Dots",
+    "before": "Pontos",
+    "after": "Pontos",
+    "references": [
+      "activities/reversecount/Reversecount.qml:81"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Reversecount|",
+    "source": "Arabic numbers",
+    "before": "Números árabes",
+    "after": "Números árabes",
+    "references": [
+      "activities/reversecount/Reversecount.qml:82"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Reversecount|",
+    "source": "Roman numbers",
+    "before": "Números romanos",
+    "after": "Números romanos",
+    "references": [
+      "activities/reversecount/Reversecount.qml:83"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Reversecount|",
+    "source": "Images",
+    "before": "Imagens",
+    "after": "Imagens",
+    "references": [
+      "activities/reversecount/Reversecount.qml:84"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "The sixteen puzzle",
+    "before": "O jogo dos quinze",
+    "after": "O jogo dos dezasseis",
+    "references": [
+      "activities/sixteen/ActivityInfo.qml:14"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Slide the rows and columns to recreate the image.",
+    "before": "Mover cada um dos itens para recriar a imagem.",
+    "after": "Desliza as linhas e as colunas para reconstruir a imagem.",
+    "references": [
+      "activities/sixteen/ActivityInfo.qml:16"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Click on an arrow to slide the corresponding row or column in this direction.",
+    "before": "",
+    "after": "Clica numa seta para deslizar a linha ou a coluna correspondente nessa direção.",
+    "references": [
+      "activities/sixteen/ActivityInfo.qml:23"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Arrows: navigate to select arrow buttons.",
+    "before": "Cursores: navegação pelas respostas",
+    "after": "Setas: navegar para selecionar os botões com setas.",
+    "references": [
+      "activities/sixteen/ActivityInfo.qml:25"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityInfo|",
+    "source": "Space or Enter: click on selected button.",
+    "before": "Espaço ou Enter: virar a carta seleccionada",
+    "after": "Espaço ou Enter: ativar o botão selecionado.",
+    "references": [
+      "activities/sixteen/ActivityInfo.qml:26"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Smallnumbers2|",
+    "source": "Dots",
+    "before": "Pontos",
+    "after": "Pontos",
+    "references": [
+      "activities/smallnumbers2/Smallnumbers2.qml:23"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Smallnumbers2|",
+    "source": "Arabic numbers",
+    "before": "Números árabes",
+    "after": "Números árabes",
+    "references": [
+      "activities/smallnumbers2/Smallnumbers2.qml:24"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Smallnumbers2|",
+    "source": "Roman numbers",
+    "before": "Números romanos",
+    "after": "Números romanos",
+    "references": [
+      "activities/smallnumbers2/Smallnumbers2.qml:25"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Smallnumbers2|",
+    "source": "Images",
+    "before": "Imagens",
+    "after": "Imagens",
+    "references": [
+      "activities/smallnumbers2/Smallnumbers2.qml:26"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "Data|",
+    "source": "Maximum value: 5000.",
+    "before": "Valor máximo: 50000.",
+    "after": "Valor máximo: 5000.",
+    "references": [
+      "activities/target/resource/4/Data.qml:14"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityBase|",
+    "source": "You are currently in a sequence, going back to the menu will cancel it, do you confirm?",
+    "before": "",
+    "after": "Estás numa sequência de atividades. Se voltares ao menu, a sequência será cancelada. Queres continuar?",
+    "references": [
+      "core/ActivityBase.qml:218"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityBase|",
+    "source": "Yes",
+    "before": "Sim",
+    "after": "Sim",
+    "references": [
+      "core/ActivityBase.qml:219"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ActivityBase|",
+    "source": "No",
+    "before": "Não",
+    "after": "Não",
+    "references": [
+      "core/ActivityBase.qml:224"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "ChangeLog|",
+    "source": "New command-line option to run a list of activities with specific datasets in sequence (--with-sequence sequence.json)",
+    "before": "Nova opção da linha de comandos para apresentar todas as actividades e iniciar uma específica",
+    "after": "Nova opção da linha de comandos para executar uma sequência de atividades com conjuntos de dados específicos (--with-sequence sequence.json)",
+    "references": [
+      "core/ChangeLog.qml:30"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "QObject|",
+    "source": "Start the sequence of activities passed in the json file.",
+    "before": "",
+    "after": "Iniciar a sequência de atividades indicada no ficheiro JSON.",
+    "references": [
+      "core/main.cpp:149"
+    ],
+    "teacher_review": "pending"
+  },
+  {
+    "context": "main|",
+    "source": "The following activities do not have any active datasets! All of their datasets will be reactivated.",
+    "before": "",
+    "after": "As seguintes atividades não têm conjuntos de dados ativos. Todos os seus conjuntos de dados serão reativados.",
+    "references": [
+      "core/main.qml:510"
+    ],
+    "teacher_review": "pending"
+  }
+]

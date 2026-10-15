@@ -56,7 +56,7 @@ Rectangle {
         anchors.right: parent.right
         anchors.bottom: parent.bottom
 
-        palette: ["#ffffff","#e87836","#e8ba36","#75d11c","#1cd1d1","#1c8cd1","#cc78d6","#e07070","#000000"]
+        paletteColors: ["#ffffff","#e87836","#e8ba36","#75d11c","#1cd1d1","#1c8cd1","#cc78d6","#e07070","#000000"]
         defaultPalette: ["#ffffff","#e87836","#e8ba36","#75d11c","#1cd1d1","#1c8cd1","#cc78d6","#e07070","#000000"]
     }
 

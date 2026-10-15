@@ -3165,7 +3165,7 @@ msgstr ""
 msgctxt "ActivityInfo|"
 msgid ""
 "Arrows: move the selection cursor through the panel items and board spots"
-msgstr ""
+msgstr "Setas: mover o cursor de seleção entre os elementos do painel e as posições do tabuleiro"
 
 #: activities/babymatch/ActivityInfo.qml:30
 #: activities/babyshapes/ActivityInfo.qml:30
@@ -3179,7 +3179,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Space: select an item in the list, and place it on a spot. If there is "
 "nothing selected in the list, remove item from selected spot"
-msgstr ""
+msgstr "Espaço: selecionar um elemento da lista e colocá-lo numa posição. Se não houver nenhum elemento selecionado na lista, remover o elemento da posição selecionada"
 
 #: activities/babymatch/ActivityInfo.qml:31
 #: activities/babyshapes/ActivityInfo.qml:31
@@ -3189,14 +3189,13 @@ msgstr ""
 #: activities/geography/ActivityInfo.qml:31
 #: activities/imagename/ActivityInfo.qml:31
 #: activities/paintings/ActivityInfo.qml:33
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Tab: navigate between the bottom and the top areas"
 msgctxt "ActivityInfo|"
 msgid ""
 "Tab: toggle navigation between the panel and the board without any other "
 "action"
-msgstr "Tabulador: alternar entre a área superior e a inferior"
+msgstr "Tab: alternar a navegação entre o painel e o tabuleiro, sem executar outra ação"
 
 #: activities/babymatch/ActivityInfo.qml:32
 #: activities/babyshapes/ActivityInfo.qml:32
@@ -3206,12 +3205,11 @@ msgstr "Tabulador: alternar entre a área superior e a inferior"
 #: activities/geography/ActivityInfo.qml:32
 #: activities/imagename/ActivityInfo.qml:32
 #: activities/paintings/ActivityInfo.qml:34
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Delete or Backspace: remove the selected item from the answer area"
 msgctxt "ActivityInfo|"
 msgid "Delete or Backspace: remove item from selected spot"
-msgstr "Eliminar ou Retroceder: remove o item seleccionado da área de resposta"
+msgstr "Delete ou Backspace: remover o elemento da posição selecionada"
 
 #: activities/babymatch/resource/board/board1_0.qml:14
 msgctxt "board1_0|"
@@ -6579,33 +6577,31 @@ msgid "2 decimal places between 0 and 99.99."
 msgstr "2 casas decimais entre 0 e 99,99."
 
 #: activities/compass/ActivityConfig.qml:18
-#, fuzzy
 #| msgctxt "ActivityConfig|"
 #| msgid "Free Mode"
 msgctxt "ActivityConfig|"
 msgid "Template Mode"
-msgstr "Modo Livre"
+msgstr "Modo com modelo"
 
 #. Activity title
 #: activities/compass/ActivityInfo.qml:14
 msgctxt "ActivityInfo|"
 msgid "Compass"
-msgstr ""
+msgstr "Compasso"
 
 #. Help title
 #: activities/compass/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Use the compass to draw."
-msgstr ""
+msgstr "Usa o compasso para desenhar."
 
 #. Help goal
 #: activities/compass/ActivityInfo.qml:19
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Learn how to draw letters in a fun way."
 msgctxt "ActivityInfo|"
 msgid "Learn how to draw circles and arcs with a compass."
-msgstr "Aprende a desenhar as letras de forma divertida."
+msgstr "Aprende a desenhar circunferências e arcos com um compasso."
 
 #. Help manual
 #: activities/compass/ActivityInfo.qml:23
@@ -6614,20 +6610,19 @@ msgid ""
 "In template mode, each level contains a template to replicate or to get "
 "inspiration from. In free mode, you can draw freely and adjust the canvas "
 "size and grid spacing as you want from the compass settings menu."
-msgstr ""
+msgstr "No modo com modelo, cada nível contém um modelo que podes reproduzir ou usar como inspiração. No modo livre, podes desenhar livremente e ajustar o tamanho da área de desenho e o espaçamento da grelha no menu de configuração do compasso."
 
 #: activities/compass/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "<br><b>Drawing with the compass:</b>"
-msgstr ""
+msgstr "<br><b>Desenhar com o compasso:</b>"
 
 #: activities/compass/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Move the compass by dragging the leg without the pen."
-msgstr ""
+msgstr "Move o compasso arrastando a haste sem caneta."
 
 #: activities/compass/ActivityInfo.qml:26
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid ""
 #| "Complete the puzzle by dragging each piece on the side to the matching "
@@ -6635,67 +6630,61 @@ msgstr ""
 msgctxt "ActivityInfo|"
 msgid ""
 "Move the pen by dragging the other leg or the circle around the pen tip."
-msgstr ""
-"Complete o 'puzzle', arrastando cada peça do conjunto de peças de lado para "
-"o espaço correspondente."
+msgstr "Move a caneta arrastando a outra haste ou o círculo à volta da ponta da caneta."
 
 #: activities/compass/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Rotate and draw by dragging the pen with the left mouse button."
-msgstr ""
+msgstr "Roda e desenha arrastando a caneta com o botão esquerdo do rato."
 
 #: activities/compass/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid ""
 "Rotate without drawing by dragging the compass hinge, or by dragging the pen "
 "with the right mouse button."
-msgstr ""
+msgstr "Roda sem desenhar arrastando a articulação do compasso ou arrastando a caneta com o botão direito do rato."
 
 #: activities/compass/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
 msgid ""
 "The snap to grid setting can be temporarily inverted by pressing the Control "
 "key."
-msgstr ""
+msgstr "Podes inverter temporariamente a opção de encaixar na grelha enquanto manténs premida a tecla Control."
 
 #: activities/compass/ActivityInfo.qml:30
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "<b>Diving planes</b>"
 msgctxt "ActivityInfo|"
 msgid "<b>Templates:</b>"
-msgstr "<b>Planos de mergulho</b>"
+msgstr "<b>Modelos:</b>"
 
 #: activities/compass/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
 msgid ""
 "Each level in template mode presents a template to replicate or to get "
 "inspiration from."
-msgstr ""
+msgstr "Cada nível do modo com modelo apresenta um modelo que podes reproduzir ou usar como inspiração."
 
 #: activities/compass/ActivityInfo.qml:32
 msgctxt "ActivityInfo|"
 msgid ""
 "Each template is divided into steps which can be scrolled through using the "
 "arrows."
-msgstr ""
+msgstr "Cada modelo está dividido em passos que podes percorrer com as setas."
 
 #: activities/compass/ActivityInfo.qml:33
 msgctxt "ActivityInfo|"
 msgid ""
 "Each step shows where to place the tip of the compass and the circle or arc "
 "to be drawn."
-msgstr ""
+msgstr "Cada passo mostra onde colocar a ponta do compasso e a circunferência ou o arco a desenhar."
 
 #: activities/compass/ActivityInfo.qml:34
-#, fuzzy
 #| msgctxt "TutorialDataset|"
 #| msgid "You can change the rheostat value by dragging its slider."
 msgctxt "ActivityInfo|"
 msgid "You can change the position of the template by clicking on its corners."
-msgstr ""
-"Poderás mudar o valor do reóstato ao arrastar a sua barra deslizante "
-"respectiva."
+msgstr "Podes mudar a posição do modelo clicando nos seus cantos."
 
 #: activities/compass/ActivityInfo.qml:36
 #: activities/drawing_wheels/ActivityInfo.qml:29
@@ -6728,99 +6717,90 @@ msgstr "Ctrl + O: abrir uma imagem"
 #: activities/compass/ActivityInfo.qml:40
 msgctxt "ActivityInfo|"
 msgid "Ctrl: invert snap to grid while it is pressed"
-msgstr ""
+msgstr "Ctrl: inverter a opção de encaixar na grelha enquanto a tecla está premida"
 
 #: activities/compass/ActivityInfo.qml:41
 msgctxt "ActivityInfo|"
 msgid "P: open the pen panel"
-msgstr ""
+msgstr "P: abrir o painel da caneta"
 
 #: activities/compass/ActivityInfo.qml:42
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Down arrow: select previous item"
 msgctxt "ActivityInfo|"
 msgid "Left arrow: previous template step"
-msgstr "Cursor para baixo: seleccionar o item anterior"
+msgstr "Seta para a esquerda: passo anterior do modelo"
 
 #: activities/compass/ActivityInfo.qml:43
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Right arrow: right hand answer"
 msgctxt "ActivityInfo|"
 msgid "Right arrow: next template step"
-msgstr "Cursor para Direita: resposta da mão direita"
+msgstr "Seta para a direita: passo seguinte do modelo"
 
 #: activities/compass/ActivityInfo.qml:44
 msgctxt "ActivityInfo|"
 msgid "Tab: toggle the template visibility"
-msgstr ""
+msgstr "Tab: mostrar ou ocultar o modelo"
 
 #: activities/compass/ActivityInfo.qml:45
 msgctxt "ActivityInfo|"
 msgid "Space: toggle the compass and grid visibility"
-msgstr ""
+msgstr "Espaço: mostrar ou ocultar o compasso e a grelha"
 
 #: activities/compass/compass.js:103
-#, fuzzy
 #| msgctxt "ActivityConfig|"
 #| msgid "Free Mode"
 msgctxt "compass|"
 msgid "Free mode"
-msgstr "Modo Livre"
+msgstr "Modo livre"
 
 #: activities/compass/Compass.qml:439
-#, fuzzy
 #| msgctxt "IntroMessage|"
 #| msgid "Previous"
 msgctxt "Compass|"
 msgid "Previous step"
-msgstr "Anterior"
+msgstr "Passo anterior"
 
 #: activities/compass/Compass.qml:464
-#, fuzzy
 #| msgctxt "IntroMessage|"
 #| msgid "Next"
 msgctxt "Compass|"
 msgid "Next step"
-msgstr "Seguinte"
+msgstr "Passo seguinte"
 
 #: activities/compass/Compass.qml:477
-#, fuzzy
 #| msgctxt "ActivityConfig|"
 #| msgid "All the words"
 msgctxt "Compass|"
 msgid "All steps"
-msgstr "Todas as palavras"
+msgstr "Todos os passos"
 
 #: activities/compass/Compass.qml:477
 msgctxt "Compass|"
 msgid "Current step"
-msgstr ""
+msgstr "Passo atual"
 
 #: activities/compass/Compass.qml:549
-#, fuzzy
 #| msgctxt "DrawingWheels|"
 #| msgid "File menu"
 msgctxt "Compass|"
 msgid "File menu"
-msgstr "Menu ficheiro"
+msgstr "Menu Ficheiro"
 
 #: activities/compass/Compass.qml:558
 msgctxt "Compass|"
 msgid "Compass and grid settings"
-msgstr ""
+msgstr "Configuração do compasso e da grelha"
 
 #: activities/compass/Compass.qml:567
-#, fuzzy
 #| msgctxt "DialogChooseLevel|"
 #| msgid "%1 settings"
 msgctxt "Compass|"
 msgid "Pen settings"
-msgstr "Configuração da %1"
+msgstr "Configuração da caneta"
 
 #: activities/compass/Compass.qml:588
-#, fuzzy
 #| msgctxt "DrawingWheels|"
 #| msgid "Undo"
 msgctxt "Compass|"
@@ -6828,7 +6808,6 @@ msgid "Undo"
 msgstr "Desfazer"
 
 #: activities/compass/Compass.qml:598
-#, fuzzy
 #| msgctxt "DrawingWheels|"
 #| msgid "Redo"
 msgctxt "Compass|"
@@ -6838,28 +6817,26 @@ msgstr "Refazer"
 #: activities/compass/Compass.qml:612
 msgctxt "Compass|"
 msgid "Show template"
-msgstr ""
+msgstr "Mostrar modelo"
 
 #: activities/compass/Compass.qml:612
-#, fuzzy
 #| msgctxt "board2|"
 #| msgid "Golden Temple"
 msgctxt "Compass|"
 msgid "Hide template"
-msgstr "Templo Dourado"
+msgstr "Ocultar modelo"
 
 #: activities/compass/Compass.qml:624
 msgctxt "Compass|"
 msgid "Show compass and grid"
-msgstr ""
+msgstr "Mostrar compasso e grelha"
 
 #: activities/compass/Compass.qml:624
 msgctxt "Compass|"
 msgid "Hide compass and grid"
-msgstr ""
+msgstr "Ocultar compasso e grelha"
 
 #: activities/compass/Compass.qml:775
-#, fuzzy
 #| msgctxt "DrawingWheels|"
 #| msgid "Save your image"
 msgctxt "Compass|"
@@ -6867,7 +6844,6 @@ msgid "Save your image"
 msgstr "Guardar a tua imagem"
 
 #: activities/compass/Compass.qml:790
-#, fuzzy
 #| msgctxt "DrawingWheels|"
 #| msgid "Open an image"
 msgctxt "Compass|"
@@ -6875,7 +6851,6 @@ msgid "Open an image"
 msgstr "Abrir uma imagem"
 
 #: activities/compass/Compass.qml:813
-#, fuzzy
 #| msgctxt "DrawingWheels|"
 #| msgid "Create a new image"
 msgctxt "Compass|"
@@ -6883,46 +6858,42 @@ msgid "Create a new image"
 msgstr "Criar uma nova imagem"
 
 #: activities/compass/Compass.qml:832
-#, fuzzy
 #| msgctxt "DrawingWheels|"
 #| msgid "Background color"
 msgctxt "Compass|"
 msgid "Background color"
-msgstr "Cor do fundo"
+msgstr "Cor de fundo"
 
 #: activities/compass/Compass.qml:892
-#, fuzzy
 #| msgctxt "DrawingWheels|"
 #| msgid "Pen size"
 msgctxt "Compass|"
 msgid "Canvas size"
-msgstr "Tamanho da caneta"
+msgstr "Tamanho da área de desenho"
 
 #: activities/compass/Compass.qml:962
 msgctxt "Compass|"
 msgid "Grid spacing"
-msgstr ""
+msgstr "Espaçamento da grelha"
 
 #: activities/compass/Compass.qml:1013
 msgctxt "Compass|"
 msgid "Snap to grid"
-msgstr ""
+msgstr "Encaixar na grelha"
 
 #: activities/compass/Compass.qml:1039
 msgctxt "Compass|"
 msgid "Show grid"
-msgstr ""
+msgstr "Mostrar grelha"
 
 #: activities/compass/Compass.qml:1103
-#, fuzzy
 #| msgctxt "category_colors|"
 #| msgid "Colors"
 msgctxt "Compass|"
 msgid "Color"
-msgstr "Cores"
+msgstr "Cor"
 
 #: activities/compass/Compass.qml:1149
-#, fuzzy
 #| msgctxt "DrawingWheels|"
 #| msgid "Opacity"
 msgctxt "Compass|"
@@ -6930,31 +6901,27 @@ msgid "Opacity"
 msgstr "Opacidade"
 
 #: activities/compass/Compass.qml:1193
-#, fuzzy
 #| msgctxt "DrawingWheels|"
 #| msgid "Pen size"
 msgctxt "Compass|"
 msgid " Pen size"
-msgstr "Tamanho da caneta"
+msgstr " Espessura da caneta"
 
 #: activities/compass/Compass.qml:1253
-#, fuzzy
 #| msgctxt "DrawingWheels|"
 #| msgid "You did not save this image. Do you want to close this activity?"
 msgctxt "Compass|"
 msgid "You did not save this image. Do you want to close this activity?"
-msgstr "Não seleccionaste nenhuma nota. Desejas apagar todas as notas?"
+msgstr "Não guardaste esta imagem. Queres fechar esta atividade?"
 
 #: activities/compass/Compass.qml:1254
-#, fuzzy
 #| msgctxt "DrawingWheels|"
 #| msgid "Do you want to erase this image?"
 msgctxt "Compass|"
 msgid "Do you want to erase this image?"
-msgstr "Desejas realmente anular todas as jogadas?"
+msgstr "Queres apagar esta imagem?"
 
 #: activities/compass/Compass.qml:1255
-#, fuzzy
 #| msgctxt "balanceboxeditor|"
 #| msgid "Yes"
 msgctxt "Compass|"
@@ -6962,7 +6929,6 @@ msgid "Yes"
 msgstr "Sim"
 
 #: activities/compass/Compass.qml:1256
-#, fuzzy
 #| msgctxt "balanceboxeditor|"
 #| msgid "No"
 msgctxt "Compass|"
@@ -6970,131 +6936,121 @@ msgid "No"
 msgstr "Não"
 
 #: activities/compass/resource/1/Data.qml:13
-#, fuzzy
 #| msgctxt "Dataset|"
 #| msgid "Third largest"
 msgctxt "Data|"
 msgid "The target"
-msgstr "Terceiro maior"
+msgstr "O alvo"
 
 #: activities/compass/resource/10/Data.qml:13
-#, fuzzy
 #| msgctxt "board8|"
 #| msgid "The Pantheon"
 msgctxt "Data|"
 msgid "The peony"
-msgstr "O Panteão."
+msgstr "A peónia"
 
 #: activities/compass/resource/11/Data.qml:13
-#, fuzzy
 #| msgctxt "Dataset|"
 #| msgid "The same"
 msgctxt "Data|"
 msgid "The snail"
-msgstr "Iguais"
+msgstr "O caracol"
 
 #: activities/compass/resource/12/Data.qml:13
-#, fuzzy
 #| msgctxt "Dataset|"
 #| msgid "The same"
 msgctxt "Data|"
 msgid "The rose"
-msgstr "Iguais"
+msgstr "A rosa"
 
 #: activities/compass/resource/13/Data.qml:13
 msgctxt "Data|"
 msgid "The swirl"
-msgstr ""
+msgstr "O remoinho"
 
 #: activities/compass/resource/14/Data.qml:13
-#, fuzzy
 #| msgctxt "Dataset|"
 #| msgid "The same"
 msgctxt "Data|"
 msgid "The spiral"
-msgstr "Iguais"
+msgstr "A espiral"
 
 #: activities/compass/resource/15/Data.qml:13
 msgctxt "Data|"
 msgid "The twist"
-msgstr ""
+msgstr "A torção"
 
 #: activities/compass/resource/16/Data.qml:15
-#, fuzzy
 #| msgctxt "Dataset|"
 #| msgid "The same"
 msgctxt "Data|"
 msgid "The face"
-msgstr "Iguais"
+msgstr "O rosto"
 
 #: activities/compass/resource/17/Data.qml:15
-#, fuzzy
 #| msgctxt "Dataset|"
 #| msgid "The same"
 msgctxt "Data|"
 msgid "The bear"
-msgstr "Iguais"
+msgstr "O urso"
 
 #: activities/compass/resource/18/Data.qml:14
 msgctxt "Data|"
 msgid "The lion"
-msgstr ""
+msgstr "O leão"
 
 #. The animal
 #: activities/compass/resource/19/Data.qml:16
-#, fuzzy
 #| msgctxt "board3_0|"
 #| msgid "house"
 msgctxt "Data|"
 msgid "The mouse"
-msgstr "casa"
+msgstr "O rato"
 
 #: activities/compass/resource/2/Data.qml:13
-#, fuzzy
 #| msgctxt "Dataset|"
 #| msgid "The same"
 msgctxt "Data|"
 msgid "The shell"
-msgstr "Iguais"
+msgstr "A concha"
 
 #: activities/compass/resource/3/Data.qml:13
 msgctxt "Data|"
 msgid "The lotus flower"
-msgstr ""
+msgstr "A flor de lótus"
 
 #: activities/compass/resource/4/Data.qml:13
 msgctxt "Data|"
 msgid "The carpet of flowers"
-msgstr ""
+msgstr "O tapete de flores"
 
 #: activities/compass/resource/5/Data.qml:13
 msgctxt "Data|"
 msgid "The clover"
-msgstr ""
+msgstr "O trevo"
 
 #: activities/compass/resource/6/Data.qml:13
-#, fuzzy
 #| msgctxt "board8|"
 #| msgid "The Pantheon"
 msgctxt "Data|"
 msgid "The balloon"
-msgstr "O Panteão."
+msgstr "O balão"
 
 #: activities/compass/resource/7/Data.qml:13
 msgctxt "Data|"
 msgid "The daisy"
-msgstr ""
+msgstr "A margarida"
 
 #. The flower
 #: activities/compass/resource/8/Data.qml:14
 msgctxt "Data|"
 msgid "The periwinkle"
-msgstr ""
+msgstr "A pervinca"
 
 #: activities/compass/resource/9/Data.qml:13
 msgctxt "Data|"
 msgid "The soccer ball"
-msgstr ""
+msgstr "A bola de futebol"
 
 #. Activity title
 #: activities/crane/ActivityInfo.qml:20
@@ -8149,7 +8105,6 @@ msgstr ""
 
 #. Help manual
 #: activities/drawing_wheels/ActivityInfo.qml:27
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid ""
 #| "Make beautiful drawings by rolling the gear in the cogwheel with the "
@@ -8171,16 +8126,7 @@ msgid ""
 "background color. Saving an image will save it in an SVG file (vector "
 "format), along with a PNG file (pixel format). Only the SVG file can be "
 "opened again from the activity."
-msgstr ""
-"Faz belos desenhos rolando a engrenagem na roda dentada com a caneta "
-"escolhida. Selecciona um tamanho de roda, um tamanho de engrenagem, a cor e "
-"as configurações da caneta dos painéis de popup, e pressiona o botão tocar "
-"para pores a engrenagem em andamento. Podes usar o menu ficheiro para "
-"guardares a imagem que criares, abrires uma imagem guardada anteriormente ou "
-"criares uma nova imagem com a cor de fundo  seleccionada. Guardar uma imagem "
-"irá guardá-la num arquivo SVG (formato vetorial), juntamente com um arquivo "
-"PNG (formato de map de pixeis). Só o ficheiro SVG poderá ser aberto "
-"novamente a partir da actividade."
+msgstr "Faz belos desenhos rodando a engrenagem dentro da roda dentada com a caneta escolhida. Escolhe os tamanhos da roda e da engrenagem, a configuração da caneta e a cor nos painéis e carrega no botão de reprodução para rodar a engrenagem. No primeiro nível, só estão disponíveis algumas combinações de tamanhos para te ajudar a começar. No segundo nível, estão disponíveis todas as combinações, para teres mais liberdade criativa. Podes usar o menu Ficheiro para guardar a tua imagem, abrir uma imagem guardada anteriormente ou criar uma imagem com a cor de fundo escolhida. A imagem é guardada num ficheiro SVG, em formato vetorial, e num ficheiro PNG, em formato de píxeis. Só o ficheiro SVG pode ser aberto novamente nesta atividade."
 
 #: activities/drawing_wheels/DrawingWheels.qml:406
 msgctxt "DrawingWheels|"
@@ -8442,40 +8388,38 @@ msgstr ""
 "configurada com o 'botão OK')"
 
 #: activities/enumerate/Enumerate.qml:65
-#, fuzzy, qt-format
+#, qt-format
 #| msgctxt "Data|"
 #| msgid "Enumerate up to 4 fruit."
 msgctxt "Enumerate|"
 msgid "Enumerate up to %1 fruits."
-msgstr "Contar até 4 frutos."
+msgstr "Conta até %1 frutos."
 
 #: activities/enumerate/Enumerate.qml:66
-#, fuzzy, qt-format
+#, qt-format
 #| msgctxt "Data|"
 #| msgid "Group 2 types of fruit and enumerate each group (5 fruit max)."
 msgctxt "Enumerate|"
 msgid "Group %1 types of fruit and enumerate each group (%2 fruits max)."
-msgstr ""
-"Agrupar 2 tipos de frutos e contar cada um dos grupos (máx. de 5 frutos)."
+msgstr "Agrupa %1 tipos de frutos e conta os frutos de cada grupo, até um máximo de %2 frutos."
 
 #: activities/enumerate/resource/1/Data.qml:13
-#, fuzzy, qt-format
+#, qt-format
 #| msgctxt "Data|"
 #| msgid "Enumerate up to 4 fruit."
 msgctxt "Data|"
 msgid "Enumerate up to %1 fruits."
-msgstr "Contar até 4 frutos."
+msgstr "Conta até %1 frutos."
 
 #: activities/enumerate/resource/2/Data.qml:13
 #: activities/enumerate/resource/3/Data.qml:13
 #: activities/enumerate/resource/4/Data.qml:13
-#, fuzzy, qt-format
+#, qt-format
 #| msgctxt "Data|"
 #| msgid "Group 2 types of fruit and enumerate each group (5 fruit max)."
 msgctxt "Data|"
 msgid "Group %1 types of fruit and enumerate each group (%2 fruits max)."
-msgstr ""
-"Agrupar 2 tipos de frutos e contar cada um dos grupos (máx. de 5 frutos)."
+msgstr "Agrupa %1 tipos de frutos e conta os frutos de cada grupo, até um máximo de %2 frutos."
 
 #. Activity title
 #: activities/erase/ActivityInfo.qml:15
@@ -10626,7 +10570,7 @@ msgid ""
 "Americans for food. However, their near-extinction is due to the fact that "
 "the colonizers massacred them for sport and to clear land, rather than to "
 "hunting by indigenous peoples."
-msgstr ""
+msgstr "Os bisontes vivem nas planícies da América do Norte e eram caçados pelos povos indígenas para alimentação. No entanto, a sua quase extinção deve-se ao massacre pelos colonizadores, por desporto e para desocupar terras, e não à caça praticada pelos povos indígenas."
 
 #: activities/explore_world_animals/resource/board/board1.qml:63
 #: activities/explore_world_animals/resource/board/board1.qml:66
@@ -11315,7 +11259,6 @@ msgstr ""
 
 #. Activity title
 #: activities/fifteen/ActivityInfo.qml:15
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "The fifteen game"
 msgctxt "ActivityInfo|"
@@ -16634,12 +16577,12 @@ msgstr "Escala para encontrar números entre 1 e 5."
 #: activities/graduated_line_use/resource/2/Data.qml:9
 msgctxt "Data|"
 msgid "Graduation to find between 1 and 7."
-msgstr "Escala para encontrar números entre 1 e %1."
+msgstr "Encontra a marca da escala entre 1 e 7."
 
 #: activities/graduated_line_use/resource/3/Data.qml:9
 msgctxt "Data|"
 msgid "Graduation to find between 1 and 10."
-msgstr "Escala para encontrar números entre 1 e %1."
+msgstr "Encontra a marca da escala entre 1 e 10."
 
 #: activities/graduated_line_use/resource/4/Data.qml:9
 msgctxt "Data|"
@@ -17210,7 +17153,6 @@ msgstr "Pratica a comparação de números."
 
 #. Help manual
 #: activities/guessnumber/ActivityInfo.qml:23
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid ""
 #| "Read the instructions that give you the range of the number to find. "
@@ -17230,13 +17172,7 @@ msgid ""
 "the number to find. If the helicopter is above or under the vertical center "
 "of the screen, it means your number is higher or lower than the number to "
 "find."
-msgstr ""
-"Lê as instruções que te dão o intervalo do número a encontrar. Indica um "
-"número no campo superior direito. Ser-te-á dito se o seu número é maior ou "
-"menor. Depois indica outro número. A distância entre o Tux e a área de fuga "
-"à direita representa quão longe estás da resposta certa. Se o Tux estiver "
-"acima ou abaixo da área de fuga, significa que o teu número está acima ou "
-"abaixo do número correcto."
+msgstr "Lê as instruções que indicam o intervalo do número a descobrir. Escreve um número na caixa do canto superior direito e carrega no botão OK para o confirmar. Recebes uma indicação de que o teu número é maior ou menor do que o número a descobrir. Tenta novamente até encontrares a resposta certa. A distância entre o helicóptero e o lado direito do ecrã representa a distância entre o teu número e o número a descobrir. Se o helicóptero estiver acima ou abaixo do centro vertical do ecrã, o teu número é, respetivamente, maior ou menor do que o número a descobrir."
 
 #: activities/guessnumber/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
@@ -17249,20 +17185,18 @@ msgid "Backspace: erase a number"
 msgstr "Retroceder: apagar um número"
 
 #: activities/guessnumber/guessnumber.js:61
-#, fuzzy
 #| msgctxt "guessnumber|"
 #| msgid "Your number is too high"
 msgctxt "guessnumber|"
 msgid "Your number is too high."
-msgstr "O seu número é demasiado elevado"
+msgstr "O teu número é demasiado alto."
 
 #: activities/guessnumber/guessnumber.js:64
-#, fuzzy
 #| msgctxt "guessnumber|"
 #| msgid "Your number is too low"
 msgctxt "guessnumber|"
 msgid "Your number is too low."
-msgstr "O seu número é demasiado baixo"
+msgstr "O teu número é demasiado baixo."
 
 #: activities/guessnumber/guessnumber.js:69
 msgctxt "guessnumber|"
@@ -17270,24 +17204,24 @@ msgid "You found the number!"
 msgstr "Descobriu o número!"
 
 #: activities/guessnumber/Guessnumber.qml:116
-#, fuzzy, qt-format
+#, qt-format
 #| msgctxt "Data|"
 #| msgid "Guess a number between 1 and %1."
 msgctxt "Guessnumber|"
 msgid "Guess a number between %1 and %2."
-msgstr "Adivinhar um número entre 1 e %1."
+msgstr "Adivinha um número entre %1 e %2."
 
 #: activities/guessnumber/resource/1/Data.qml:16
 #: activities/guessnumber/resource/2/Data.qml:14
 #: activities/guessnumber/resource/3/Data.qml:16
 #: activities/guessnumber/resource/4/Data.qml:16
 #: activities/guessnumber/resource/5/Data.qml:16
-#, fuzzy, qt-format
+#, qt-format
 #| msgctxt "Data|"
 #| msgid "Guess a number between 1 and %1."
 msgctxt "Data|"
 msgid "Guess a number between %1 and %2."
-msgstr "Adivinhar um número entre 1 e %1."
+msgstr "Adivinha um número entre %1 e %2."
 
 #: activities/hangman/ActivityConfig.qml:42
 msgctxt "ActivityConfig|"
@@ -17943,53 +17877,48 @@ msgid "Find the tuba"
 msgstr "Descobrir a tuba"
 
 #: activities/keyboard_training/ActivityConfig.qml:28
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Draw letters"
 msgctxt "ActivityConfig|"
 msgid "Uppercase letters"
-msgstr "Desenhar as letras"
+msgstr "Letras maiúsculas"
 
 #: activities/keyboard_training/ActivityConfig.qml:29
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Draw letters"
 msgctxt "ActivityConfig|"
 msgid "Lowercase letters"
-msgstr "Desenhar as letras"
+msgstr "Letras minúsculas"
 
 #. Activity title
 #: activities/keyboard_training/ActivityInfo.qml:14
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Keyboard training."
 msgctxt "ActivityInfo|"
 msgid "Keyboard training"
-msgstr "Treino com o teclado."
+msgstr "Treino de teclado"
 
 #. Help title
 #: activities/keyboard_training/ActivityInfo.qml:16
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Read the score, and then play it on the keyboard."
 msgctxt "ActivityInfo|"
 msgid "Find the requested character and type it on the keyboard."
-msgstr "Lê a pauta musical e depois toca-a no teclado."
+msgstr "Encontra o caráter pedido e escreve-o no teclado."
 
 #. Help goal
 #: activities/keyboard_training/ActivityInfo.qml:19
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Learn to spell words."
 msgctxt "ActivityInfo|"
 msgid "Learn to type on a keyboard."
-msgstr "Aprende a soletrar palavras"
+msgstr "Aprende a escrever no teclado."
 
 #. Help manual
 #: activities/keyboard_training/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "A character is displayed. Find it on the keyboard and type it."
-msgstr ""
+msgstr "É apresentado um caráter. Encontra-o no teclado e escreve-o."
 
 #. Activity title
 #: activities/land_safe/ActivityInfo.qml:15
@@ -19456,12 +19385,11 @@ msgid "Calculate remaining stars up to 10000 with coefficients."
 msgstr "Aprende a calcular as estrelas que faltam até 10000 com coeficientes."
 
 #: activities/magic-hat-minus/resource/9/Data.qml:13
-#, fuzzy
 #| msgctxt "Data|"
 #| msgid "Calculate remaining stars up to 100 with coefficients."
 msgctxt "Data|"
 msgid "Calculate remaining stars up to 10, with 2 or 3 different star sets."
-msgstr "Aprende a calcular as estrelas que faltam até 100 com coeficientes."
+msgstr "Calcula as estrelas que faltam até 10, com 2 ou 3 conjuntos diferentes de estrelas."
 
 #. text displaying coefficient with which the set of stars is to be multiplied along with multiplication symbol.
 #: activities/magic-hat-minus/StarsBar.qml:36
@@ -19552,12 +19480,11 @@ msgid "Add stars up to 10000 with coefficients."
 msgstr "Adicionar estrelas até às 10000 com coeficientes."
 
 #: activities/magic-hat-plus/resource/9/Data.qml:13
-#, fuzzy
 #| msgctxt "Data|"
 #| msgid "Add stars up to 100 with coefficients."
 msgctxt "Data|"
 msgid "Add stars up to 10, with 2 or 3 different star sets."
-msgstr "Adicionar estrelas até às 100 com coeficientes."
+msgstr "Adiciona estrelas até 10, com 2 ou 3 conjuntos diferentes de estrelas."
 
 #. Activity title
 #: activities/maze/ActivityInfo.qml:15
@@ -21422,7 +21349,7 @@ msgstr ""
 "utilizador seleccionado está errada."
 
 #: activities/menu/Menu.qml:215
-#, fuzzy, qt-format
+#, qt-format
 #| msgctxt "Menu|"
 #| msgid ""
 #| "GCompris is connected to teacher's server, and the user is authenticated."
@@ -21430,9 +21357,7 @@ msgctxt "Menu|"
 msgid ""
 "GCompris is connected to teacher's server, and the user is authenticated as "
 "%1."
-msgstr ""
-"O GCompris está ligado ao servidor do professor e o utilizador está "
-"autenticado."
+msgstr "O GCompris está ligado ao servidor do professor e o utilizador está autenticado como %1."
 
 #: activities/menu/Menu.qml:216
 msgctxt "Menu|"
@@ -23264,19 +23189,19 @@ msgstr "Codificação de caminhos"
 #: activities/peg_solitaire/ActivityConfig.qml:27
 msgctxt "ActivityConfig|"
 msgid "Use the default starting hole"
-msgstr ""
+msgstr "Usar a posição vazia inicial predefinida"
 
 #. Activity title
 #: activities/peg_solitaire/ActivityInfo.qml:14
 msgctxt "ActivityInfo|"
 msgid "Peg solitaire"
-msgstr ""
+msgstr "Solitário de peças"
 
 #. Help title
 #: activities/peg_solitaire/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Remove all the pieces in the correct order until only one remains."
-msgstr ""
+msgstr "Remove as peças pela ordem correta até restar apenas uma."
 
 #. Help manual
 #: activities/peg_solitaire/ActivityInfo.qml:23
@@ -23290,37 +23215,35 @@ msgid ""
 "hole is not selected, you need to choose the first piece to remove by "
 "clicking on it. You can use the undo button to undo your last move, and the "
 "redo button to redo it."
-msgstr ""
+msgstr "Para mover uma peça, faz com que salte por cima de outra, na horizontal ou na vertical, para uma posição vazia duas posições adiante. A peça saltada é retirada do tabuleiro. Podes clicar numa peça que possa ser movida e depois no destino, ou arrastá-la para o destino. O jogo termina quando não é possível mover mais peças. Ganhas se restar apenas uma peça. Se a opção de usar a posição vazia inicial predefinida estiver desativada, clica na primeira peça que queres retirar. Podes usar o botão Desfazer para anular a última jogada e o botão Refazer para a repetir."
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:28
 msgctxt "peg_solitaire|"
 msgid "English board"
-msgstr ""
+msgstr "Tabuleiro inglês"
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:44
-#, fuzzy
 #| msgctxt "board14_0|"
 #| msgid "French Polynesia"
 msgctxt "peg_solitaire|"
 msgid "French board"
-msgstr "Polinésia Francesa"
+msgstr "Tabuleiro francês"
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:61
 msgctxt "peg_solitaire|"
 msgid "32 holes diamond board"
-msgstr ""
+msgstr "Tabuleiro em losango com 32 posições"
 
 #. Board for the Peg solitaire game
 #: activities/peg_solitaire/peg_solitaire.js:79
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Numerical order"
 msgctxt "peg_solitaire|"
 msgid "Asymmetrical board"
-msgstr "Ordem numérica"
+msgstr "Tabuleiro assimétrico"
 
 #. Activity title
 #: activities/penalty/ActivityInfo.qml:15
@@ -24341,22 +24264,21 @@ msgstr "Continuar"
 #: activities/polygons/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Polygons"
-msgstr ""
+msgstr "Polígonos"
 
 #. Help title
 #: activities/polygons/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Learn about special polygons and draw them in a grid."
-msgstr ""
+msgstr "Conhece alguns polígonos especiais e desenha-os numa grelha."
 
 #. Help goal
 #: activities/polygons/ActivityInfo.qml:24
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Learn about some digital painting tools."
 msgctxt "ActivityInfo|"
 msgid "Learn about special polygons."
-msgstr "Aprende sobre algumas ferramentas de pintura digital."
+msgstr "Conhece alguns polígonos especiais."
 
 #. Help manual
 #: activities/polygons/ActivityInfo.qml:28
@@ -24370,169 +24292,163 @@ msgid ""
 "can move a point by dragging it, or delete it with a double-click. You can "
 "restart the shape by clicking on the reload button. When the shape is "
 "correct, press the OK button to validate your answer."
-msgstr ""
+msgstr "Clica na grelha para colocar os pontos que correspondem às extremidades dos lados do polígono. Enquanto a figura não estiver fechada, o último ponto tem uma cor diferente para indicar que será ligado ao próximo ponto. Depois de colocares pelo menos 3 pontos, podes fechar a figura clicando no primeiro ou no último ponto. Quando a figura está fechada, não podes acrescentar pontos. Podes mover um ponto arrastando-o ou apagá-lo com um duplo clique. Para recomeçar a figura, clica no botão de reiniciar. Quando a figura estiver correta, carrega no botão OK para confirmar a resposta."
 
 #: activities/polygons/ActivityInfo.qml:30
 msgctxt "ActivityInfo|"
 msgid ""
 "Arrows: move the keyboard cursor in the grid, and if a point is selected "
 "move it"
-msgstr ""
+msgstr "Setas: mover o cursor na grelha ou mover o ponto selecionado"
 
 #: activities/polygons/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
 msgid ""
 "Enter: create a point at the cursor position, or validate your answer when "
 "the shape is closed"
-msgstr ""
+msgstr "Enter: criar um ponto na posição do cursor ou confirmar a resposta quando a figura estiver fechada"
 
 #: activities/polygons/ActivityInfo.qml:32
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Space: select or deselect the highlighted answer"
 msgctxt "ActivityInfo|"
 msgid "Space: select or deselect the point at the cursor position"
-msgstr "Espaço: seleccionar ou anular a selecção da resposta destacada"
+msgstr "Espaço: selecionar ou desmarcar o ponto na posição do cursor"
 
 #: activities/polygons/ActivityInfo.qml:33
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Up arrow: select next item"
 msgctxt "ActivityInfo|"
 msgid "Tab: select next point"
-msgstr "Cursor para cima: seleccionar o item seguinte"
+msgstr "Tab: selecionar o ponto seguinte"
 
 #: activities/polygons/ActivityInfo.qml:34
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Ctrl + D: delete selected text"
 msgctxt "ActivityInfo|"
 msgid "Delete: delete selected point"
-msgstr "Ctrl + D: apagar o texto seleccionado"
+msgstr "Delete: apagar o ponto selecionado"
 
 #: activities/polygons/TutorialDataset.qml:20
 msgctxt "TutorialDataset|"
 msgid "A polygon is a closed shape made of at least 3 connected lines."
-msgstr ""
+msgstr "Um polígono é uma figura fechada formada por pelo menos 3 segmentos de reta ligados entre si."
 
 #: activities/polygons/TutorialDataset.qml:21
 msgctxt "TutorialDataset|"
 msgid ""
 "To draw a polygon, click on the grid to place the ends of the polygon's "
 "lines."
-msgstr ""
+msgstr "Para desenhares um polígono, clica na grelha para colocar as extremidades dos seus lados."
 
 #: activities/polygons/TutorialDataset.qml:22
 msgctxt "TutorialDataset|"
 msgid ""
 "After placing at least 3 points, you can close the shape by clicking on the "
 "first or the last point."
-msgstr ""
+msgstr "Depois de colocares pelo menos 3 pontos, podes fechar a figura clicando no primeiro ou no último ponto."
 
 #: activities/polygons/TutorialDataset.qml:23
-#, fuzzy
 #| msgctxt "VerticalSubtraction|"
 #| msgid "The result should not be a negative number."
 msgctxt "TutorialDataset|"
 msgid "The points should not be all aligned."
-msgstr "O resultado não deve ser um número negativo."
+msgstr "Os pontos não podem estar todos alinhados."
 
 #: activities/polygons/TutorialDataset.qml:26
 msgctxt "TutorialDataset|"
 msgid "Draw a polygon."
-msgstr ""
+msgstr "Desenha um polígono."
 
 #: activities/polygons/TutorialDataset.qml:39
 msgctxt "TutorialDataset|"
 msgid "A triangle is a polygon with 3 sides."
-msgstr ""
+msgstr "Um triângulo é um polígono com 3 lados."
 
 #: activities/polygons/TutorialDataset.qml:42
-#, fuzzy
 #| msgctxt "instruments|"
 #| msgid "Find the triangle"
 msgctxt "TutorialDataset|"
 msgid "Draw a triangle."
-msgstr "Descobrir o triângulo"
+msgstr "Desenha um triângulo."
 
 #: activities/polygons/TutorialDataset.qml:57
 msgctxt "TutorialDataset|"
 msgid ""
 "A right triangle is a triangle in which two sides are perpendicular, forming "
 "a right angle (90 degrees)."
-msgstr ""
+msgstr "Um triângulo retângulo é um triângulo em que dois lados são perpendiculares, formando um ângulo reto de 90 graus."
 
 #: activities/polygons/TutorialDataset.qml:60
 msgctxt "TutorialDataset|"
 msgid "Draw a right triangle."
-msgstr ""
+msgstr "Desenha um triângulo retângulo."
 
 #: activities/polygons/TutorialDataset.qml:74
 msgctxt "TutorialDataset|"
 msgid ""
 "An isosceles triangle is a triangle with two sides of equal length and two "
 "angles of equal measure."
-msgstr ""
+msgstr "Um triângulo isósceles tem dois lados com o mesmo comprimento e dois ângulos com a mesma amplitude."
 
 #: activities/polygons/TutorialDataset.qml:77
 msgctxt "TutorialDataset|"
 msgid "Draw an isosceles triangle."
-msgstr ""
+msgstr "Desenha um triângulo isósceles."
 
 #: activities/polygons/TutorialDataset.qml:100
 msgctxt "TutorialDataset|"
 msgid "A quadrilateral is a four-sided polygon, having 4 sides and 4 corners."
-msgstr ""
+msgstr "Um quadrilátero é um polígono com 4 lados e 4 vértices."
 
 #: activities/polygons/TutorialDataset.qml:103
 msgctxt "TutorialDataset|"
 msgid "Draw a quadrilateral."
-msgstr ""
+msgstr "Desenha um quadrilátero."
 
 #: activities/polygons/TutorialDataset.qml:118
 msgctxt "TutorialDataset|"
 msgid "A rectangle is a quadrilateral with 4 right angles."
-msgstr ""
+msgstr "Um retângulo é um quadrilátero com 4 ângulos retos."
 
 #: activities/polygons/TutorialDataset.qml:121
 msgctxt "TutorialDataset|"
 msgid "Draw a rectangle."
-msgstr ""
+msgstr "Desenha um retângulo."
 
 #: activities/polygons/TutorialDataset.qml:142
 msgctxt "TutorialDataset|"
 msgid "A square is a rectangle with 4 sides of equal length."
-msgstr ""
+msgstr "Um quadrado é um retângulo com os 4 lados do mesmo comprimento."
 
 #: activities/polygons/TutorialDataset.qml:145
-#, fuzzy
 #| msgctxt "Data|"
 #| msgid "Percentages with a square."
 msgctxt "TutorialDataset|"
 msgid "Draw a square."
-msgstr "Percentagens com um quadrado."
+msgstr "Desenha um quadrado."
 
 #: activities/polygons/TutorialDataset.qml:168
 msgctxt "TutorialDataset|"
 msgid ""
 "A parallelogram is a quadrilateral with opposite sides of equal length and "
 "opposite angles of equal measure."
-msgstr ""
+msgstr "Um paralelogramo é um quadrilátero cujos lados opostos têm o mesmo comprimento e cujos ângulos opostos têm a mesma amplitude."
 
 #: activities/polygons/TutorialDataset.qml:171
 msgctxt "TutorialDataset|"
 msgid "Draw a parallelogram which is not a rectangle."
-msgstr ""
+msgstr "Desenha um paralelogramo que não seja um retângulo."
 
 #: activities/polygons/TutorialDataset.qml:192
 msgctxt "TutorialDataset|"
 msgid "A rhombus is a parallelogram with four sides of equal length."
-msgstr ""
+msgstr "Um losango é um paralelogramo com os 4 lados do mesmo comprimento."
 
 #: activities/polygons/TutorialDataset.qml:195
 msgctxt "TutorialDataset|"
 msgid "Draw a rhombus which is not a square."
-msgstr ""
+msgstr "Desenha um losango que não seja um quadrado."
 
 #. Activity title
 #: activities/positions/ActivityInfo.qml:15
@@ -25354,7 +25270,6 @@ msgid "Numbers between %1 and %2."
 msgstr "Números entre %1 e %2."
 
 #: activities/reversecount/Reversecount.qml:81
-#, fuzzy
 #| msgctxt "ActivityConfig|"
 #| msgid "Dots"
 msgctxt "Reversecount|"
@@ -25362,7 +25277,6 @@ msgid "Dots"
 msgstr "Pontos"
 
 #: activities/reversecount/Reversecount.qml:82
-#, fuzzy
 #| msgctxt "ActivityConfig|"
 #| msgid "Arabic numbers"
 msgctxt "Reversecount|"
@@ -25370,7 +25284,6 @@ msgid "Arabic numbers"
 msgstr "Números árabes"
 
 #: activities/reversecount/Reversecount.qml:83
-#, fuzzy
 #| msgctxt "ActivityConfig|"
 #| msgid "Roman numbers"
 msgctxt "Reversecount|"
@@ -25378,7 +25291,6 @@ msgid "Roman numbers"
 msgstr "Números romanos"
 
 #: activities/reversecount/Reversecount.qml:84
-#, fuzzy
 #| msgctxt "ActivityConfig|"
 #| msgid "Images"
 msgctxt "Reversecount|"
@@ -26660,44 +26572,40 @@ msgstr "Tabulador: alternar entre o selector de cores e a área de pintura"
 
 #. Activity title
 #: activities/sixteen/ActivityInfo.qml:14
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "The fifteen game"
 msgctxt "ActivityInfo|"
 msgid "The sixteen puzzle"
-msgstr "O jogo dos quinze"
+msgstr "O jogo dos dezasseis"
 
 #. Help title
 #: activities/sixteen/ActivityInfo.qml:16
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Move each item to recreate the image."
 msgctxt "ActivityInfo|"
 msgid "Slide the rows and columns to recreate the image."
-msgstr "Mover cada um dos itens para recriar a imagem."
+msgstr "Desliza as linhas e as colunas para reconstruir a imagem."
 
 #. Help manual
 #: activities/sixteen/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid ""
 "Click on an arrow to slide the corresponding row or column in this direction."
-msgstr ""
+msgstr "Clica numa seta para deslizar a linha ou a coluna correspondente nessa direção."
 
 #: activities/sixteen/ActivityInfo.qml:25
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Arrows: navigate through the answers"
 msgctxt "ActivityInfo|"
 msgid "Arrows: navigate to select arrow buttons."
-msgstr "Cursores: navegação pelas respostas"
+msgstr "Setas: navegar para selecionar os botões com setas."
 
 #: activities/sixteen/ActivityInfo.qml:26
-#, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Space or Enter: flip the selected card"
 msgctxt "ActivityInfo|"
 msgid "Space or Enter: click on selected button."
-msgstr "Espaço ou Enter: virar a carta seleccionada"
+msgstr "Espaço ou Enter: ativar o botão selecionado."
 
 #. Activity title
 #: activities/sketch/ActivityInfo.qml:18
@@ -27092,7 +27000,6 @@ msgid "Type the number on the domino, from 0 to 9."
 msgstr "Escreve o número nos dominós, de 0 a 9."
 
 #: activities/smallnumbers2/Smallnumbers2.qml:23
-#, fuzzy
 #| msgctxt "ActivityConfig|"
 #| msgid "Dots"
 msgctxt "Smallnumbers2|"
@@ -27100,7 +27007,6 @@ msgid "Dots"
 msgstr "Pontos"
 
 #: activities/smallnumbers2/Smallnumbers2.qml:24
-#, fuzzy
 #| msgctxt "ActivityConfig|"
 #| msgid "Arabic numbers"
 msgctxt "Smallnumbers2|"
@@ -27108,7 +27014,6 @@ msgid "Arabic numbers"
 msgstr "Números árabes"
 
 #: activities/smallnumbers2/Smallnumbers2.qml:25
-#, fuzzy
 #| msgctxt "ActivityConfig|"
 #| msgid "Roman numbers"
 msgctxt "Smallnumbers2|"
@@ -27116,7 +27021,6 @@ msgid "Roman numbers"
 msgstr "Números romanos"
 
 #: activities/smallnumbers2/Smallnumbers2.qml:26
-#, fuzzy
 #| msgctxt "ActivityConfig|"
 #| msgid "Images"
 msgctxt "Smallnumbers2|"
@@ -28769,12 +28673,11 @@ msgid "Maximum value: 500."
 msgstr "Valor máximo: 500."
 
 #: activities/target/resource/4/Data.qml:14
-#, fuzzy
 #| msgctxt "Data|"
 #| msgid "Maximum value: 50000."
 msgctxt "Data|"
 msgid "Maximum value: 5000."
-msgstr "Valor máximo: 50000."
+msgstr "Valor máximo: 5000."
 
 #: activities/target/resource/5/Data.qml:14
 msgctxt "Data|"
@@ -29631,10 +29534,9 @@ msgctxt "ActivityBase|"
 msgid ""
 "You are currently in a sequence, going back to the menu will cancel it, do "
 "you confirm?"
-msgstr ""
+msgstr "Estás numa sequência de atividades. Se voltares ao menu, a sequência será cancelada. Queres continuar?"
 
 #: core/ActivityBase.qml:219
-#, fuzzy
 #| msgctxt "balanceboxeditor|"
 #| msgid "Yes"
 msgctxt "ActivityBase|"
@@ -29642,7 +29544,6 @@ msgid "Yes"
 msgstr "Sim"
 
 #: core/ActivityBase.qml:224
-#, fuzzy
 #| msgctxt "balanceboxeditor|"
 #| msgid "No"
 msgctxt "ActivityBase|"
@@ -29650,7 +29551,6 @@ msgid "No"
 msgstr "Não"
 
 #: core/ChangeLog.qml:30
-#, fuzzy
 #| msgctxt "ChangeLog|"
 #| msgid ""
 #| "New command-line option to list all the activities and start on a "
@@ -29659,9 +29559,7 @@ msgctxt "ChangeLog|"
 msgid ""
 "New command-line option to run a list of activities with specific datasets "
 "in sequence (--with-sequence sequence.json)"
-msgstr ""
-"Nova opção da linha de comandos para apresentar todas as actividades e "
-"iniciar uma específica"
+msgstr "Nova opção da linha de comandos para executar uma sequência de atividades com conjuntos de dados específicos (--with-sequence sequence.json)"
 
 #: core/ChangeLog.qml:31 core/ChangeLog.qml:48 core/ChangeLog.qml:54
 #: core/ChangeLog.qml:60 core/ChangeLog.qml:69 core/ChangeLog.qml:75
@@ -30646,7 +30544,7 @@ msgstr ""
 #: core/main.cpp:149
 msgctxt "QObject|"
 msgid "Start the sequence of activities passed in the json file."
-msgstr ""
+msgstr "Iniciar a sequência de atividades indicada no ficheiro JSON."
 
 #: core/main.cpp:153
 msgctxt "QObject|"
@@ -30756,7 +30654,7 @@ msgctxt "main|"
 msgid ""
 "The following activities do not have any active datasets! All of their "
 "datasets will be reactivated."
-msgstr ""
+msgstr "As seguintes atividades não têm conjuntos de dados ativos. Todos os seus conjuntos de dados serão reativados."
 
 #: core/main.qml:550
 #, qt-format

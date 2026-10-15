@@ -57,7 +57,7 @@ FoldablePanel {
         anchors.right: parent.right
         anchors.bottom: parent.bottom
 
-        palette: paletteSelector.currentPalette.modelData
+        paletteColors: paletteSelector.currentPalette.modelData
         defaultPalette: paletteSelector.defaultPaletteList[paletteSelector.currentIndex]
 
         // save edited colors to palette lists and refresh paletteListView
@@ -66,8 +66,8 @@ FoldablePanel {
            paletteSelector.currentPalette.refreshColor(colorIndex, editedColor);
         }
         onResetSelectedPalette: {
-            for(var i = 0; i < palette.length; i++) {
-                 paletteSelector.currentPalette.modelData[i] = palette[i];
+            for(var i = 0; i < paletteColors.length; i++) {
+                 paletteSelector.currentPalette.modelData[i] = paletteColors[i];
             }
             paletteSelector.currentPalette.reloadPaletteColors(paletteSelector.paletteList[paletteSelector.currentIndex]);
         }
