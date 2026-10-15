@@ -117,3 +117,17 @@
 - [26 — Pacote de audição das 32 gravações](issues/26-pacote-audicao.md)
 
 - [29 — Memória matemática](issues/29-memoria-matematica.md)
+
+- [27 — Quatro operações com balão](issues/27-calculo-interativo.md)
+
+- [28 — Entradas dos consumidores NumPad](issues/28-consumidores-numpad.md)
+
+O primeiro candidato Windows foi instalado e os203 jogos arrancaram no CI
+WindowsServer2022 sem rede. O EXE foi descarregado e o checksum recalculado.
+[Provas e limites](windows/38807970526/README.md). O ensaio manual no Windows11
+pessoal foi pedido; a execução obrigatória Windows10/escola permanece pendente.
+
+Os três jogos de memória concluíram34percursos com snapshot selado,180pares
+corretos e42errados. As quatro operações concluíram48níveis,480respostas corretas
+e48erradas. Os quatro consumidores NumPad passaram10casos de entrada, sem
+declarar puzzles completos. A matriz global mantém os critérios pendentes.
