@@ -224,6 +224,7 @@ function start(activity_, activityBackground_, bar_, bonus_, items_) {
     bar = bar_
     bonus = bonus_
     items = items_
+    items.numberOfLevel = levelProperty.length;
     items.currentLevel = Core.getInitialLevel(levelProperty.length);
     isActivityStopped = false
     initLevel()

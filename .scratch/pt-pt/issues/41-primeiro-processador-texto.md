@@ -1,7 +1,7 @@
 # Validar o primeiro processador de texto em PT-PT
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -21,3 +21,10 @@ aprovar Windows nem aceitação docente global por estes testes.
 
 Espaço do teclado visual descartado pelo parser HTML: correção e vermelho/verde
 em [space-fix.md](../first-wordprocessor/space-fix.md). A tarefa continua claimed.
+
+## Answer
+
+Quatro casos finais offline passaram. Texto português, teclado visual completo,
+três formatos, guardar/carregar, reinício, áudio configurado, ajuda/foco/menu.
+Corrigidos o Espaço visual e a grafia de Subtítulo. [Provas e limites](../first-wordprocessor/README.md).
+Os critérios globais mantêm-se pendentes.

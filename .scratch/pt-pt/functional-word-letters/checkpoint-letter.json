@@ -1,0 +1,35 @@
+{
+  "scope": "Checkpoint concluído de letter-in-word e ensaios auxiliares; Hangman integral ainda em curso.",
+  "letter_campaigns": 174,
+  "letter_questions": 1740,
+  "evidence": [
+    {
+      "path": "letter-complete/summary.json",
+      "sha256": "991180e0d172574900494288d07fb122cfd6cdadbbb4a5bb9fbd0689f82d8cea"
+    },
+    {
+      "path": "letter-complete/audit.json",
+      "sha256": "2c281249e3f29b1ad9ea9d03d8012d43844a2955edcfab70eff71191da154b24"
+    },
+    {
+      "path": "controls-hangman/result.json",
+      "sha256": "5ced5f514f20062b72dc9f8285a978bfbab23fbbed9410c10bf8c77d80e18c06"
+    },
+    {
+      "path": "controls-letter/result.json",
+      "sha256": "e64470ae05d07a5d359cf0f3465bc82ee31843c35e60c02d1755adf4a36c7ee5"
+    },
+    {
+      "path": "hangman-loss/result.json",
+      "sha256": "35cbc4b561e59dcb65b207eba027e9aeb8100074dc3bff86c71058be60b7df22"
+    },
+    {
+      "path": "hangman-accent-policy/result.json",
+      "sha256": "9bc7bc6cfe82afe0f1640b3d276291cf40b9c4db716d678b2e60bca385bfb093"
+    },
+    {
+      "path": "full-resource-audit-canonical/result.json",
+      "sha256": "be7b6a65570faef7e40c4e970cd43deffbf3f801063c99204d93c43e5f2597ba"
+    }
+  ]
+}

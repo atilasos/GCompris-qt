@@ -1,0 +1,21 @@
+{
+  "archive": "/home/proteu/Projetos/GCompris-qt/build/pt-pt/audio-review/dois-pares-legados/revisao-2-pares.zip",
+  "bytes": 145228,
+  "sha256": "fe3563da247ebe91a149b32b7c7849795534284dba06c91f79677f400c81c179",
+  "members": [
+    "NOTICE.md",
+    "fawn-original.ogg",
+    "fawn-proposta.wav",
+    "fawn.webp",
+    "index.html",
+    "manifest.json",
+    "tick-original.ogg",
+    "tick-proposta.wav",
+    "tick.webp"
+  ],
+  "status": "awaiting-teacher-review",
+  "game_resources_changed": false,
+  "browser_scope": "Hub Chromium via local HTTP; no errors; not Windows file:// or physical hearing",
+  "samples_are_wav": true,
+  "approval_not_automatically_transferred_to_other_files": true
+}
