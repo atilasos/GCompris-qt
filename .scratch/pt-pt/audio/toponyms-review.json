@@ -1,0 +1,62 @@
+[
+  {
+    "source": "Hauts de France",
+    "before": "Hauts de France",
+    "after": "Altos de França",
+    "teacher_review": "pending"
+  },
+  {
+    "source": "Île-de-France",
+    "before": "Île-de-France",
+    "after": "Ilha de França",
+    "teacher_review": "pending"
+  },
+  {
+    "source": "Grand est",
+    "before": "Grand est",
+    "after": "Grande Leste",
+    "teacher_review": "pending"
+  },
+  {
+    "source": "Pays de la Loire",
+    "before": "Pays de la Loire",
+    "after": "País do Loire",
+    "teacher_review": "pending"
+  },
+  {
+    "source": "Centre-Val de Loire",
+    "before": "Centre-Val de Loire",
+    "after": "Centro-Vale do Loire",
+    "teacher_review": "pending"
+  },
+  {
+    "source": "Bourgogne-Franche-Comté",
+    "before": "Borgonha-Franche-Comté",
+    "after": "Borgonha-Franco-Condado",
+    "teacher_review": "pending"
+  },
+  {
+    "source": "Nouvelle-Aquitaine",
+    "before": "Nouvelle-Aquitaine",
+    "after": "Nova Aquitânia",
+    "teacher_review": "pending"
+  },
+  {
+    "source": "Auvergne-Rhône-Alpes",
+    "before": "Auvergne-Rhône-Alpes",
+    "after": "Auvérnia-Ródano-Alpes",
+    "teacher_review": "pending"
+  },
+  {
+    "source": "Provence-Alpes-Côte d'Azur",
+    "before": "Provença-Alpes-Côte d'Azur",
+    "after": "Provença-Alpes-Costa Azul",
+    "teacher_review": "pending"
+  },
+  {
+    "source": "Bahrain",
+    "before": "Bahrain",
+    "after": "Barém",
+    "teacher_review": "pending"
+  }
+]
