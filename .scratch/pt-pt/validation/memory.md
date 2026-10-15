@@ -1,14 +1,17 @@
-# memory
+# memory: verificação funcional nativa PT-PT
 
-Passaram os 6 níveis em 12 percursos de modos aplicáveis, com Qt real,
-PT-PT, perfil novo e rede desativada. A tarefa37 cobre seleção, temporizadores,
-respostas erradas/bloqueios, transições, reinício, ajuda e Home/Escape.
-Os seletores de jogadores, quando disponíveis, foram gravados pela interface.
+Resultado global: **pending**.
 
-[Provas, contagens e limites](../functional-memory-rest/README.md),
-[índice dos 25 casos finais do lote](../functional-memory-rest/index.json).
+Os 12 percursos (um e dois jogadores) completaram todos os níveis, com respostas certas,
+erradas, bloqueio, pontuação, Bonus e transições. Os casos separados verificam
+reinício/temporizadores, quatro setas e seleção, ajuda PT, navegação e Home/Escape.
+Os seletores 1/2 jogadores, quando expostos, foram gravados pela interface.
+Dados e identidades de recursos têm referência independente; sons usam o leitor
+Qt original, sem dispositivo físico. Ver o relatório para a cobertura por letra.
 
-Os recursos carregados foram comparados por bytes e os players originais
-observados. O relatório distingue sons efetivamente reproduzidos de recursos
-apenas inventariados. Pendente: aceitação global Linux, Windows 10/escola,
-dispositivos físicos, audição física e revisão linguística/pedagógica docente.
+[Resultado](../functional-memory-rest/sealed-gameplay/memory/gameplay/result.json).
+[Relatório e limites](../functional-memory-rest/README.md).
+[Índice e hashes dos 25 casos](../functional-memory-rest/index.json).
+
+Pendente: aceitação global Linux, Windows 10 x64/escola, teclado/rato físicos,
+audição/pronúncia e revisão linguística/pedagógica pelo professor.
