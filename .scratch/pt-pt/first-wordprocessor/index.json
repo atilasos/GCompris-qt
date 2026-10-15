@@ -1,0 +1,33 @@
+{
+  "cases": [
+    {
+      "name": "space-green",
+      "result": ".scratch/pt-pt/first-wordprocessor/space-green/result.json",
+      "sha256": "4424715660554a2a891ed88260cc347cee444eb0cc3b464366228e7bdd2cc0e4",
+      "case_sha256": "d435c6f2bc34058136f55ea885ec97e8c60b5feb6f3115fdeebea666a8f20ade",
+      "source_sha256": "e7cf1ce00b906d9dd07307b3b0a337a1301b52d75923852000c3038a18a04b7f"
+    },
+    {
+      "name": "typing-final",
+      "result": ".scratch/pt-pt/first-wordprocessor/typing-final/result.json",
+      "sha256": "c6c481776f2819fbaa4e5c9fec2d99b3fa865744d442d62e1807a332d0fe9761",
+      "case_sha256": "ec0001d510e26545533a02be0ea6d626f6cf2b2a4db799d236563a50bf79121b",
+      "source_sha256": "e7cf1ce00b906d9dd07307b3b0a337a1301b52d75923852000c3038a18a04b7f"
+    },
+    {
+      "name": "creation-settled",
+      "result": ".scratch/pt-pt/first-wordprocessor/creation-settled/result.json",
+      "sha256": "86ac1b1aba0a1977b3ca4ca133f51e99557fcd552b50a07813eecd80a7ae1d18",
+      "case_sha256": "ee00d7c9d3ce24c696ed31c09a1b527277e570dc61d64d485d098bdd69137cc8",
+      "source_sha256": "e7cf1ce00b906d9dd07307b3b0a337a1301b52d75923852000c3038a18a04b7f"
+    },
+    {
+      "name": "controls",
+      "result": ".scratch/pt-pt/first-wordprocessor/controls/result.json",
+      "sha256": "cce35761bd59ceea31f199a1aef600f9f6058ee252e956060b3f2152185fb3e3",
+      "case_sha256": "5eeb8c2713020a5e59e82aa77515adc752c7d1f9422a50c79242d1acab3c73c7",
+      "source_sha256": "e7cf1ce00b906d9dd07307b3b0a337a1301b52d75923852000c3038a18a04b7f"
+    }
+  ],
+  "scope": "Native Qt Linux offline; no physical audio or Windows acceptance"
+}

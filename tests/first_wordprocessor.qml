@@ -35,7 +35,7 @@ TestCase {
         ensure(button!==null,"Visual key: "+text);mouseClick(button);
     }
     function test_a_portuguese_input_and_line_formatting() {
-        var sentence="Olá, João! A maçã é ótima. À Á Â Ã Ç É Ê Í Ó Ô Õ Ú";
+        var sentence="Olá, João! A maçã é ótima. àáâãçéêíóôõú ÀÁÂÃÇÉÊÍÓÔÕÚ";
         for(var visible of [false,true]) {
             ApplicationSettings.isVirtualKeyboard=visible;
             wait(400); clearByKeys();
@@ -70,6 +70,25 @@ TestCase {
         for(var digit of "0123456789")clickKey(digit);
         checked(plain(),letter+"  0123456789");
         observations.push({visualText:plain()});
+    }
+    function test_c_shift_and_all_visual_letters() {
+        ApplicationSettings.isVirtualKeyboard=true;wait(600);clearByKeys();
+        var shift=null;
+        function scan(root) {
+            if(root.specialKey===Qt.Key_Shift)return root;
+            if(root.children)for(var child of root.children){var found=scan(child);if(found)return found;}
+            return null;
+        }
+        shift=scan(keyboard);ensure(shift!==null,"Shift key exists");
+        var lower=findKey(keyboard,"a")!==null;
+        var first=lower?"abcdefghijklmnopqrstuvwxyz":"ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        var second=lower?"ABCDEFGHIJKLMNOPQRSTUVWXYZ":"abcdefghijklmnopqrstuvwxyz";
+        for(var character of first)clickKey(character);
+        checked(plain(),first);
+        mouseClick(shift);wait(200);
+        for(var character of second)clickKey(character);
+        checked(plain(),first+second);
+        observations.push({visualLetters:plain(),shift:true});
     }
     function cleanupTestCase() {
         console.log("NATIVE_WORDPROCESSOR_RESULT",JSON.stringify({
