@@ -16,3 +16,8 @@ Não substituir teclado, armazenamento ou áudio por chamadas ao motor.
 Usar Qt real, perfil novo offline e recursos privados. Conservar comandos,
 hashes e resultados. Distinguir áudio descodificado de audição física, e não
 aprovar Windows nem aceitação docente global por estes testes.
+
+## Checkpoint parcial
+
+Espaço do teclado visual descartado pelo parser HTML: correção e vermelho/verde
+em [space-fix.md](../first-wordprocessor/space-fix.md). A tarefa continua claimed.
