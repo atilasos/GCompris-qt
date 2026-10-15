@@ -1,0 +1,18 @@
+F
+======================================================================
+FAIL: test_image_memory_has_no_audio_probe (test_runner_cli.RunnerSelectionCLI.test_image_memory_has_no_audio_probe)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-memory-rest/tests/functional_memory_rest/test_runner_cli.py", line 33, in test_image_memory_has_no_audio_probe
+    self.assert_rejected_before_preparation('memory','audio_probe')
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-memory-rest/tests/functional_memory_rest/test_runner_cli.py", line 27, in assert_rejected_before_preparation
+    self.assertEqual(result.returncode,2,result.stdout+result.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 2 : {"passed": true, "cases": 0, "output": "/tmp/tmp1adhenyt/output"}
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.066s
+
+FAILED (failures=1)
