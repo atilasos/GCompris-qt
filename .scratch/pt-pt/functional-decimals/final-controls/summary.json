@@ -1,0 +1,98 @@
+[
+  {
+    "name": "learn_decimals-landscape-physical",
+    "command": [
+      "/usr/bin/python3",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/tools/run-native-qml-case.py",
+      "--resource-snapshot",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/build/decimals-core33/snapshot",
+      "--activity",
+      "learn_decimals",
+      "--qml-file",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/src/activities/learn_decimals/Learn_decimals.qml",
+      "--case",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/.scratch/pt-pt/functional-decimals/final-controls/learn_decimals-landscape-physical.qml",
+      "--output",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/.scratch/pt-pt/functional-decimals/final-controls/learn_decimals-landscape-physical",
+      "--timeout",
+      "300",
+      "--offline"
+    ],
+    "exit_code": 0,
+    "passed": true,
+    "expected_completions": 0,
+    "actual_completions": 0
+  },
+  {
+    "name": "learn_decimals_additions-landscape-physical",
+    "command": [
+      "/usr/bin/python3",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/tools/run-native-qml-case.py",
+      "--resource-snapshot",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/build/decimals-core33/snapshot",
+      "--activity",
+      "learn_decimals_additions",
+      "--qml-file",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/src/activities/learn_decimals/Learn_decimals.qml",
+      "--case",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/.scratch/pt-pt/functional-decimals/final-controls/learn_decimals_additions-landscape-physical.qml",
+      "--output",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/.scratch/pt-pt/functional-decimals/final-controls/learn_decimals_additions-landscape-physical",
+      "--timeout",
+      "300",
+      "--offline"
+    ],
+    "exit_code": 0,
+    "passed": true,
+    "expected_completions": 0,
+    "actual_completions": 0
+  },
+  {
+    "name": "learn_decimals_subtractions-landscape-physical",
+    "command": [
+      "/usr/bin/python3",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/tools/run-native-qml-case.py",
+      "--resource-snapshot",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/build/decimals-core33/snapshot",
+      "--activity",
+      "learn_decimals_subtractions",
+      "--qml-file",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/src/activities/learn_decimals/Learn_decimals.qml",
+      "--case",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/.scratch/pt-pt/functional-decimals/final-controls/learn_decimals_subtractions-landscape-physical.qml",
+      "--output",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/.scratch/pt-pt/functional-decimals/final-controls/learn_decimals_subtractions-landscape-physical",
+      "--timeout",
+      "300",
+      "--offline"
+    ],
+    "exit_code": 0,
+    "passed": true,
+    "expected_completions": 0,
+    "actual_completions": 0
+  },
+  {
+    "name": "learn_quantities-landscape-physical",
+    "command": [
+      "/usr/bin/python3",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/tools/run-native-qml-case.py",
+      "--resource-snapshot",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/build/decimals-core33/snapshot",
+      "--activity",
+      "learn_quantities",
+      "--qml-file",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/src/activities/learn_decimals/Learn_decimals.qml",
+      "--case",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/.scratch/pt-pt/functional-decimals/final-controls/learn_quantities-landscape-physical.qml",
+      "--output",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-decimals/.scratch/pt-pt/functional-decimals/final-controls/learn_quantities-landscape-physical",
+      "--timeout",
+      "300",
+      "--offline"
+    ],
+    "exit_code": 0,
+    "passed": true,
+    "expected_completions": 0,
+    "actual_completions": 0
+  }
+]
