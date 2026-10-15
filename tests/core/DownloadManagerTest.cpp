@@ -38,6 +38,11 @@ private Q_SLOTS:
      */
     void initTestCase()
     {
+        if (qEnvironmentVariableIsSet("GCOMPRIS_ISOLATED_NETWORK_FIXTURE")) {
+            QStandardPaths::setTestModeEnabled(true);
+            QCoreApplication::setOrganizationName(QStringLiteral("GComprisResourceFixture"));
+            QCoreApplication::setApplicationName(qEnvironmentVariable("GCOMPRIS_ISOLATED_NETWORK_FIXTURE"));
+        }
         ApplicationSettingsMock::getInstance()->setIsAutomaticDownloadsEnabled(false);
         downloadManager = DownloadManager::getInstance();
     }
@@ -68,6 +73,10 @@ private Q_SLOTS:
 
     void test_onlineOlderIndexKeepsValidNewerVoicesAndOfflineRestart()
     {
+        if (!qEnvironmentVariableIsSet("GCOMPRIS_ISOLATED_NETWORK_FIXTURE")) {
+            runNetworkCaseInIsolatedApplication();
+            return;
+        }
         QTemporaryDir folder;
         QVERIFY(folder.isValid());
         auto *settings = ApplicationSettingsMock::getInstance();
@@ -146,6 +155,10 @@ private Q_SLOTS:
 
     void test_onlineVoiceUpdatesAndRepair()
     {
+        if (!qEnvironmentVariableIsSet("GCOMPRIS_ISOLATED_NETWORK_FIXTURE")) {
+            runNetworkCaseInIsolatedApplication();
+            return;
+        }
         QFETCH(QString, state);
         QFETCH(bool, remoteNewer);
         QTemporaryDir folder;
@@ -360,6 +373,35 @@ private Q_SLOTS:
     }
     
 private:
+    // cachePath alone does not isolate applicationDirPath or Qt standard paths.
+    // Keep packaged resources beside the parent executable visible to other tests,
+    // and run each network scenario from its own application directory/profile.
+    static void runNetworkCaseInIsolatedApplication()
+    {
+        QTemporaryDir folder;
+        QVERIFY(folder.isValid());
+        const QString executable = folder.filePath(QFileInfo(QCoreApplication::applicationFilePath()).fileName());
+        QVERIFY(QFile::copy(QCoreApplication::applicationFilePath(), executable));
+        auto environment = QProcessEnvironment::systemEnvironment();
+        environment.insert(QStringLiteral("GCOMPRIS_ISOLATED_NETWORK_FIXTURE"), QFileInfo(folder.path()).fileName());
+        environment.insert(QStringLiteral("PATH"), QCoreApplication::applicationDirPath() + QDir::listSeparator() + environment.value(QStringLiteral("PATH")));
+        environment.insert(QStringLiteral("XDG_CACHE_HOME"), folder.filePath(QStringLiteral("cache")));
+        environment.insert(QStringLiteral("XDG_DATA_HOME"), folder.filePath(QStringLiteral("data")));
+        environment.insert(QStringLiteral("XDG_CONFIG_HOME"), folder.filePath(QStringLiteral("config")));
+        environment.insert(QStringLiteral("XDG_DATA_DIRS"), folder.filePath(QStringLiteral("system-data")));
+        QString selector = QString::fromLatin1(QTest::currentTestFunction());
+        const QString tag = QString::fromLatin1(QTest::currentDataTag());
+        if (!tag.isEmpty()) selector += ':' + tag;
+        QProcess process;
+        process.setProcessEnvironment(environment);
+        process.setWorkingDirectory(folder.path());
+        process.start(executable, {selector});
+        QVERIFY(process.waitForFinished(20000));
+        QCOMPARE(process.exitStatus(), QProcess::NormalExit);
+        const QByteArray output = process.readAllStandardOutput() + process.readAllStandardError();
+        QVERIFY2(process.exitCode() == 0, output.constData());
+    }
+
     static QByteArray fixtureBytes(const QString &path)
     {
         QFile file(path);
