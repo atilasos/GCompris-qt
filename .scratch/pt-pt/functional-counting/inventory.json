@@ -1,0 +1,494 @@
+{
+  "activities": {
+    "enumerate": {
+      "datasets": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "levels": [
+        {
+          "dataset": "1",
+          "subLevels": 4,
+          "numberOfItemType": 1,
+          "numberOfItemMax": 2
+        },
+        {
+          "dataset": "1",
+          "subLevels": 4,
+          "numberOfItemType": 1,
+          "numberOfItemMax": 3
+        },
+        {
+          "dataset": "1",
+          "subLevels": 4,
+          "numberOfItemType": 1,
+          "numberOfItemMax": 4
+        },
+        {
+          "dataset": "2",
+          "subLevels": 4,
+          "numberOfItemType": 2,
+          "numberOfItemMax": 3
+        },
+        {
+          "dataset": "2",
+          "subLevels": 4,
+          "numberOfItemType": 2,
+          "numberOfItemMax": 4
+        },
+        {
+          "dataset": "2",
+          "subLevels": 4,
+          "numberOfItemType": 2,
+          "numberOfItemMax": 5
+        },
+        {
+          "dataset": "3",
+          "subLevels": 5,
+          "numberOfItemType": 3,
+          "numberOfItemMax": 3
+        },
+        {
+          "dataset": "3",
+          "subLevels": 5,
+          "numberOfItemType": 3,
+          "numberOfItemMax": 4
+        },
+        {
+          "dataset": "3",
+          "subLevels": 5,
+          "numberOfItemType": 3,
+          "numberOfItemMax": 5
+        },
+        {
+          "dataset": "3",
+          "subLevels": 5,
+          "numberOfItemType": 3,
+          "numberOfItemMax": 6
+        },
+        {
+          "dataset": "4",
+          "subLevels": 5,
+          "numberOfItemType": 4,
+          "numberOfItemMax": 6
+        },
+        {
+          "dataset": "4",
+          "subLevels": 5,
+          "numberOfItemType": 4,
+          "numberOfItemMax": 7
+        },
+        {
+          "dataset": "4",
+          "subLevels": 5,
+          "numberOfItemType": 4,
+          "numberOfItemMax": 8
+        },
+        {
+          "dataset": "4",
+          "subLevels": 5,
+          "numberOfItemType": 4,
+          "numberOfItemMax": 9
+        }
+      ],
+      "questions": 64
+    },
+    "smallnumbers": {
+      "datasets": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "levels": [
+        {
+          "dataset": "1",
+          "subLevels": 8,
+          "allowed_digits": [
+            1,
+            2
+          ]
+        },
+        {
+          "dataset": "1",
+          "subLevels": 10,
+          "allowed_digits": [
+            1,
+            2,
+            3,
+            3
+          ]
+        },
+        {
+          "dataset": "2",
+          "subLevels": 12,
+          "allowed_digits": [
+            1,
+            2,
+            3,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "dataset": "3",
+          "subLevels": 14,
+          "allowed_digits": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "dataset": "4",
+          "subLevels": 16,
+          "allowed_digits": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "dataset": "5",
+          "subLevels": 18,
+          "allowed_digits": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ]
+        },
+        {
+          "dataset": "6",
+          "subLevels": 20,
+          "allowed_digits": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "dataset": "7",
+          "subLevels": 22,
+          "allowed_digits": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "dataset": "8",
+          "subLevels": 24,
+          "allowed_digits": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "questions": 144
+    },
+    "smallnumbers2": {
+      "datasets": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "levels": [
+        {
+          "dataset": "1",
+          "subLevels": 8,
+          "allowed_digits": [
+            1,
+            2
+          ]
+        },
+        {
+          "dataset": "1",
+          "subLevels": 10,
+          "allowed_digits": [
+            1,
+            2,
+            3,
+            3
+          ]
+        },
+        {
+          "dataset": "2",
+          "subLevels": 12,
+          "allowed_digits": [
+            1,
+            2,
+            3,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "dataset": "3",
+          "subLevels": 14,
+          "allowed_digits": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "dataset": "4",
+          "subLevels": 16,
+          "allowed_digits": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "dataset": "5",
+          "subLevels": 18,
+          "allowed_digits": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ]
+        },
+        {
+          "dataset": "6",
+          "subLevels": 20,
+          "allowed_digits": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "dataset": "7",
+          "subLevels": 22,
+          "allowed_digits": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "dataset": "8",
+          "subLevels": 24,
+          "allowed_digits": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "questions": 144
+    }
+  },
+  "dice": {
+    "dice0.svg": {
+      "visible_top_pips": 0,
+      "sha256": "8ea788d1bd6d2187bee3676ecdf9e00391e3c01ecb966d2f0a746ae9ed435927"
+    },
+    "dice1.svg": {
+      "visible_top_pips": 1,
+      "sha256": "c482bb82af29cd590c95775b396e70ceb13a9ba11a1e058dbaa2f072a8d2b556"
+    },
+    "dice2.svg": {
+      "visible_top_pips": 2,
+      "sha256": "30a9b9de55f8c4c2de8ff6e0997520dcb564252009932ff56ff7d1458c9f3069"
+    },
+    "dice3.svg": {
+      "visible_top_pips": 3,
+      "sha256": "aeb05616bf16557f39e5d8fbaa45eb1b7109b0b59574fcf012ae59b11690554e"
+    },
+    "dice4.svg": {
+      "visible_top_pips": 4,
+      "sha256": "6d09b3c1007d8e28cc400c36633ac13e44be09c78c3ebcf249345b28d0f6df44"
+    },
+    "dice5.svg": {
+      "visible_top_pips": 5,
+      "sha256": "0b2aabe5d942b291c7f756d51d576dd797bb1ba26b6d3cf1c5a25f66a2dbcf33"
+    },
+    "dice6.svg": {
+      "visible_top_pips": 6,
+      "sha256": "2626c28c3ef686bc0a0cd25029ff9bc21fd85325a73106c277bf307bcd6508d7"
+    },
+    "dice7.svg": {
+      "visible_top_pips": 7,
+      "sha256": "d80bfcb6acc7306affc707cb169bb68d0db39f65ee7ae7eb3cf7d3abfa2953b3"
+    },
+    "dice8.svg": {
+      "visible_top_pips": 8,
+      "sha256": "4f4698d5a8500591eff1662f9c2b85b15f5db9e7daa18f53a85c56e6f24dd700"
+    },
+    "dice9.svg": {
+      "visible_top_pips": 9,
+      "sha256": "55349d4490edcf05da1aa22891bbbd692eed99725e6cb85a62774b036b2333c7"
+    }
+  },
+  "source_files": {
+    "src/activities/enumerate/resource/1/Data.qml": "620877d021fc1dfe76f62e2ee5b3d085f5719870f38729c20a5ddcff861c6b6f",
+    "src/activities/enumerate/resource/2/Data.qml": "fe7ace1b776fbfb4fdc3acf13d5dc20e3ad7a8b1d719d747b556c1ced3a19cd8",
+    "src/activities/enumerate/resource/3/Data.qml": "be8fb7dc7ee49b5c86bdc3ab892b82503a863af9706f104eb3ffad81cbbe9dea",
+    "src/activities/enumerate/resource/4/Data.qml": "01e8902a7b75c50f0f0e8894109980b6f4d6b2be63f9fdde0cbf615a4e00812d",
+    "src/activities/enumerate/resource/apple.svg": "1764d0f8c4012e8dbd420aa2b7a8b6bec942f431b74aa04a99f8d819f51346d7",
+    "src/activities/enumerate/resource/background.svg": "a18c1928aa195a5afda534ab4c53ef8b0f330e977e3f4032902a79f5f71d28f5",
+    "src/activities/enumerate/resource/banana.svg": "c2273a89b1f8c016ab8ac640e989fb13853657c426993b1eff6048852df5002c",
+    "src/activities/enumerate/resource/cherries.svg": "13b3a7598f41929a1a113e58969f4a7482a9e413d16a8a404f0a2be0dea8fdc2",
+    "src/activities/enumerate/resource/grapes.svg": "c2aa09249528994b4bba919a333dff4d860ee54160bdf77cd69e7d0f390f7730",
+    "src/activities/enumerate/resource/lemon.svg": "f0542c52040ba800360a60d833df485d9027a82a186550b72a3d762d97bff021",
+    "src/activities/enumerate/resource/orange.svg": "755b9f215f146c9bd8712b437826373152bd8ac162313a7bf999ea40b32fdb42",
+    "src/activities/enumerate/resource/peach.svg": "eab9f0a239a23870fefa0bee2ca1d1bc41536cc6ae9ee87942abf4377b901a1a",
+    "src/activities/enumerate/resource/pear.svg": "b4850905ccf30d950d9971d2098ef08be14116e1885048e169c75987599e391f",
+    "src/activities/enumerate/resource/pineapple.svg": "220b994bc331b8fa184817b5fa5037da6359de5f209586c2525015c4a2c25282",
+    "src/activities/enumerate/resource/plum.svg": "7a4c897c4410b1959d9e7312424852c554e17be45891841766fb1d3b02059d83",
+    "src/activities/enumerate/resource/question_mark.svg": "9752da265e99c6c1f2c21bfd088643cf84bfcda476ac17a1a980faad4c24c449",
+    "src/activities/enumerate/resource/strawberry.svg": "65abae03da58824832800c9d6628cc7acfb14d91266af3399b37d3a98e08cc15",
+    "src/activities/enumerate/resource/turtle.svg": "b4ca87296383caf5e88184b59892c6e322b81e4e66f999705d41ed108ddfa361",
+    "src/activities/enumerate/resource/watermelon.svg": "a06766b4e7003d9a4fb81a95204d8051bac5722f4eb507bd406084838ecdb2a3",
+    "src/activities/smallnumbers/resource/1/Data.qml": "4a5103c56b9a7cb05a68ebc85d137decf86cdb8f63f848f6fd2264677251b55b",
+    "src/activities/smallnumbers/resource/2/Data.qml": "da29370e5f23dc294491433c4c4e6457b8c802bb81979be12797cc235735115b",
+    "src/activities/smallnumbers/resource/3/Data.qml": "ee0ad8c56b7b1ff470c1a261f9bb7bdfb32b1eb1371cac190c0078426d6029ba",
+    "src/activities/smallnumbers/resource/4/Data.qml": "5e1efb2b359d4f0e6dc679f71fd33eeddd8e871460f3ef20afbd9ff368ac5af1",
+    "src/activities/smallnumbers/resource/5/Data.qml": "99b1156330a55ebb243e275318380b837208b2d65f93cf12be27f10a992af1b9",
+    "src/activities/smallnumbers/resource/6/Data.qml": "1d06a7d6994a811063d532ab9fcbdedb76fe6d185980d969f9356eddfdd40c68",
+    "src/activities/smallnumbers/resource/7/Data.qml": "8a3a723fb697814990dc77472ece39881bdd4b1a27760e4cfa67b5b316a39330",
+    "src/activities/smallnumbers/resource/8/Data.qml": "8e766cbd25737de12f34b6827914a030bc2093c7a0d7c16491472442193d69fa",
+    "src/activities/smallnumbers/resource/background.svg": "bccde53974c1c93ba217b9f86311919cd7431e59a18b9ed4f3498a433452d85b",
+    "src/activities/smallnumbers/resource/default-en.json": "52f430b03487652cf8ab8d41231be13bdc70ece78f8752ad5615ebd61064105c",
+    "src/activities/smallnumbers/resource/dice0.svg": "8ea788d1bd6d2187bee3676ecdf9e00391e3c01ecb966d2f0a746ae9ed435927",
+    "src/activities/smallnumbers/resource/dice1.svg": "c482bb82af29cd590c95775b396e70ceb13a9ba11a1e058dbaa2f072a8d2b556",
+    "src/activities/smallnumbers/resource/dice2.svg": "30a9b9de55f8c4c2de8ff6e0997520dcb564252009932ff56ff7d1458c9f3069",
+    "src/activities/smallnumbers/resource/dice3.svg": "aeb05616bf16557f39e5d8fbaa45eb1b7109b0b59574fcf012ae59b11690554e",
+    "src/activities/smallnumbers/resource/dice4.svg": "6d09b3c1007d8e28cc400c36633ac13e44be09c78c3ebcf249345b28d0f6df44",
+    "src/activities/smallnumbers/resource/dice5.svg": "0b2aabe5d942b291c7f756d51d576dd797bb1ba26b6d3cf1c5a25f66a2dbcf33",
+    "src/activities/smallnumbers/resource/dice6.svg": "2626c28c3ef686bc0a0cd25029ff9bc21fd85325a73106c277bf307bcd6508d7",
+    "src/activities/smallnumbers/resource/dice7.svg": "d80bfcb6acc7306affc707cb169bb68d0db39f65ee7ae7eb3cf7d3abfa2953b3",
+    "src/activities/smallnumbers/resource/dice8.svg": "4f4698d5a8500591eff1662f9c2b85b15f5db9e7daa18f53a85c56e6f24dd700",
+    "src/activities/smallnumbers/resource/dice9.svg": "55349d4490edcf05da1aa22891bbbd692eed99725e6cb85a62774b036b2333c7",
+    "src/activities/smallnumbers2/resource/1/Data.qml": "904f6e4ad61fddb603b4e440dc447ff7c52cdd9af67ced79c90a4cced3327d72",
+    "src/activities/smallnumbers2/resource/2/Data.qml": "da62f975298f7b5edb89ccc8019eea8c7719eda10c501fecd79da5827fc6950c",
+    "src/activities/smallnumbers2/resource/3/Data.qml": "7dfc0f14527c9929a7a457ed5dce7c5ffec7af43c0c6890a3b6e3c9483a7e907",
+    "src/activities/smallnumbers2/resource/4/Data.qml": "8d3b4a36864e0fafeadef2b47446a7dd82e976532aacf1c1ba0a48b61d4ff9ec",
+    "src/activities/smallnumbers2/resource/5/Data.qml": "d9bf5f34b6bf7f4cc0e38d25ab9e0f92a786840b483cfff5f13dc3ae04487bd6",
+    "src/activities/smallnumbers2/resource/6/Data.qml": "1ed1ace3cb2c117fd02ce1d83ddaed5f150f5e1d0b76d6fe5062128c41f67ed6",
+    "src/activities/smallnumbers2/resource/7/Data.qml": "422e27857b8fd7526669ad5fa0539842ea9a936632dbff720392bc9ab7136885",
+    "src/activities/smallnumbers2/resource/8/Data.qml": "cbf6ea0189312078c630decb68f01746f8d1ed3738cbca33e0b099ac20673a45",
+    "src/activities/smallnumbers2/resource/background.svg": "b31b14826c84cbff2f81cdb6b8d3d03f47efb6b0055824c18bd900a8db0f8cc7",
+    "src/activities/smallnumbers2/resource/default-en.json": "52f430b03487652cf8ab8d41231be13bdc70ece78f8752ad5615ebd61064105c"
+  }
+}
