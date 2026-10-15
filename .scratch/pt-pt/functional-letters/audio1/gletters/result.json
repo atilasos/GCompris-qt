@@ -1,0 +1,38 @@
+{
+  "activity": "gletters",
+  "locale": "pt_PT",
+  "qml_file": "gletters/Gletters.qml",
+  "source_sha256": "eae8c3f01e094ec9d274ec92d9fa574f20cccd4b30784964ff9937e7f2620038",
+  "portuguese_catalogue_sha256": "4865d718b6529ee9aa39be44c4b5052a8b0134e8c42d2cc0718c83d1a4b202c4",
+  "private_qm_sha256": "91f5e93165c01fe523d8f005ee3c000e064f7ecf32478756db38b5e5e0c99480",
+  "case_sha256": "a572b5360ab13aec186e882e40d73a450aac40c19bcf2fc7ff4189d68a09399b",
+  "private_rcc_sha256": "9a144a556e7eebeffad95553d153bbcb5f1c0dd44b8c28afc74a62458f555677",
+  "binary_sha256": "ab20447c36845d74abeba9974e2d60ca7f20ebf7d59b677ba09f85faf6a90a37",
+  "runner_sha256": "4faa81300d446301ee8eb7e0c3054368344dd27226a2ce3076e60043bdc71366",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-letters/build/native-qml/72e63fdd11314591a144676e5b17320d",
+  "version_code": 260200,
+  "network": "docker-none",
+  "timestamp_utc": "2026-10-15T20:34:40.728970+00:00",
+  "scope": "Only actions and assertions in the named case; muted native Qt, not Windows or audio approval.",
+  "screenshots": [
+    {
+      "file": "voice-route.png",
+      "sha256": "8397dbbd4b06828a5d7973018976fae837f59aba4c699fccebcb585b990538b7",
+      "bytes": 144670
+    }
+  ],
+  "passed": true,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 0,
+    "passes": 2,
+    "audioRoute": {
+      "activity": "gletters",
+      "typed": "a",
+      "answerScore": 1,
+      "voiceDone": 1
+    }
+  }
+}

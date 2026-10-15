@@ -1,0 +1,382 @@
+{
+  "format": 1,
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+  "native_passed_cases": 15,
+  "level_mode_completions": 74,
+  "gameplay_correct_inputs": 1037,
+  "gameplay_wrong_inputs": 282,
+  "cases": [
+    {
+      "suite": "gameplay",
+      "activity": "gletters",
+      "path": "run3/gletters",
+      "artifacts": {
+        "falling-false-level-1.png": {
+          "sha256": "4d0214503f7c1c010332f384e3f99748548060ad03343babb034d9af358db5e9",
+          "bytes": 43443
+        },
+        "falling-false-level-11.png": {
+          "sha256": "7b612295a5f6d316a7065bc59c451b75bad282a5d62776b730b6168e7fe83bbc",
+          "bytes": 143582
+        },
+        "falling-false-level-12.png": {
+          "sha256": "a5efdec9f6abe9224e9e1b4717ee91c8440c676fa389988e04daf6dd733c251f",
+          "bytes": 145021
+        },
+        "falling-false-level-13.png": {
+          "sha256": "ed6b29952e6525564876b80ef6611a2b0f02fb9f05b20eea76bd8c22030422d3",
+          "bytes": 145581
+        },
+        "falling-minimum-speed.png": {
+          "sha256": "8d15a1f025e35c2e303993a8a2eca7d57514e552753209f2f382e23dd2c10f93",
+          "bytes": 147519
+        },
+        "falling-true-level-1.png": {
+          "sha256": "4d0214503f7c1c010332f384e3f99748548060ad03343babb034d9af358db5e9",
+          "bytes": 43443
+        },
+        "falling-true-level-11.png": {
+          "sha256": "1c86f44a9724af6e4757b7e3df7a761ec9d02ec815283db7afc90d54d396b09b",
+          "bytes": 143881
+        },
+        "falling-true-level-12.png": {
+          "sha256": "7dedeede3b79b6dbb4d940b8f0756cd20738756a1a4a034abe3d0a87db2abb6a",
+          "bytes": 143792
+        },
+        "falling-true-level-13.png": {
+          "sha256": "f361a0ca4d8b1b5815f68ff30edfd7472d8cf1d0a86b4c9b82bcf48b66d6f194",
+          "bytes": 144067
+        },
+        "native.log": {
+          "sha256": "b076a05adbf43987409b57e79259e8e452abbd1a8b782a5940649176cb8c332b",
+          "bytes": 13601
+        },
+        "result.json": {
+          "sha256": "7c9a7e1abeb1ffd7a4bb4a461043fd3278aa2e38bc8fccab79236fbf674006b3",
+          "bytes": 6672
+        }
+      }
+    },
+    {
+      "suite": "gameplay",
+      "activity": "keyboard_training",
+      "path": "run3/keyboard_training",
+      "artifacts": {
+        "keyboard-lowercase-level-1.png": {
+          "sha256": "4d0214503f7c1c010332f384e3f99748548060ad03343babb034d9af358db5e9",
+          "bytes": 43443
+        },
+        "keyboard-lowercase-level-11.png": {
+          "sha256": "d2067564d0fc44d9fbe7826c16171f1555208660f5ee929a996af23dc5e67f7e",
+          "bytes": 113515
+        },
+        "keyboard-lowercase-level-12.png": {
+          "sha256": "ba8c1c08935be4d80f4c8295874c9ae633fbd59b08f6b2c8bffac97b3e5698d2",
+          "bytes": 114348
+        },
+        "keyboard-lowercase-level-13.png": {
+          "sha256": "4d0214503f7c1c010332f384e3f99748548060ad03343babb034d9af358db5e9",
+          "bytes": 43443
+        },
+        "keyboard-uppercase-level-1.png": {
+          "sha256": "4d0214503f7c1c010332f384e3f99748548060ad03343babb034d9af358db5e9",
+          "bytes": 43443
+        },
+        "keyboard-uppercase-level-11.png": {
+          "sha256": "4d0214503f7c1c010332f384e3f99748548060ad03343babb034d9af358db5e9",
+          "bytes": 43443
+        },
+        "keyboard-uppercase-level-12.png": {
+          "sha256": "6c32579a460928592710d884f4f0753303d8e438b8d33ba2d2a6b1c74ac7e6bd",
+          "bytes": 115480
+        },
+        "keyboard-uppercase-level-13.png": {
+          "sha256": "4d0214503f7c1c010332f384e3f99748548060ad03343babb034d9af358db5e9",
+          "bytes": 43443
+        },
+        "native.log": {
+          "sha256": "105be00b2a68287febbafdfbaae9e82b5d68d07fc8d68032c60fc3328f2728ac",
+          "bytes": 12893
+        },
+        "result.json": {
+          "sha256": "715f8d4669f9b5a2e19a3adda7cb67f84016d062ea9d4dd5d33fa770598b89be",
+          "bytes": 6499
+        }
+      }
+    },
+    {
+      "suite": "gameplay",
+      "activity": "click_on_letter",
+      "path": "run4/click_on_letter",
+      "artifacts": {
+        "click-lowercase-level-1.png": {
+          "sha256": "049ffd4ca29dc257788a8b4b157954c636bb08f227cf1612726379c66982014d",
+          "bytes": 96980
+        },
+        "click-lowercase-level-11.png": {
+          "sha256": "6aa8e70f9c6e2602ff19e2d07440eb04daf8724cb2b8c80308c2f77e9a9a1081",
+          "bytes": 121072
+        },
+        "click-lowercase-level-3.png": {
+          "sha256": "32bcc45f8e7f47e1027cc94f8bc0afbf2a7663028af487ab608d3481aa72c747",
+          "bytes": 105870
+        },
+        "native.log": {
+          "sha256": "2e84d3db79952f6c26dd49d539c573f75fc4c5c972023a0357e23b19e8cc7e8b",
+          "bytes": 9258
+        },
+        "result.json": {
+          "sha256": "f251d1c230e27e17e3edcd406490391adc15813cf09a2e7ea303823dfedf06e4",
+          "bytes": 3048
+        }
+      }
+    },
+    {
+      "suite": "gameplay",
+      "activity": "click_on_letter_up",
+      "path": "run4/click_on_letter_up",
+      "artifacts": {
+        "click-uppercase-level-1.png": {
+          "sha256": "9782a9a2c0e6b4fcdbdd9b4d34e84289b606eaaab2ec15056d6d7e2174c303cf",
+          "bytes": 97898
+        },
+        "click-uppercase-level-11.png": {
+          "sha256": "5e4b53b07973367c5fd85b3666ed546776624b6f0c7c2d2ec98fe88a182afcd7",
+          "bytes": 124393
+        },
+        "click-uppercase-level-3.png": {
+          "sha256": "d7fe49419dd58153b705d31b970d57cca33e0ab8335211892107dc93906fd676",
+          "bytes": 107643
+        },
+        "native.log": {
+          "sha256": "06ce7fdc8d7b8080eed3a2c12659f812cd835a9f3869b23e42cacff97ff4c29d",
+          "bytes": 9276
+        },
+        "result.json": {
+          "sha256": "f773d756763e82e73fc136d5f0479020da909bdc6d627b92ffa40363f53b3c07",
+          "bytes": 3051
+        }
+      }
+    },
+    {
+      "suite": "controls",
+      "activity": "gletters",
+      "path": "automation-controls/controls/gletters",
+      "artifacts": {
+        "help.png": {
+          "sha256": "1142c9d5b8a73b631d4437eb12238643674064b48720fd1af51cc601e28c709b",
+          "bytes": 58528
+        },
+        "menu.png": {
+          "sha256": "741627db475d8ef74e4cef0361a0669198b41531b1402996da8bc9cfe41bcefd",
+          "bytes": 171583
+        },
+        "native.log": {
+          "sha256": "3bf93a992861b30d9ac6f6ae991007abc0800b75eda0da1de4a38c92dd4ccc54",
+          "bytes": 7893
+        },
+        "result.json": {
+          "sha256": "3bdfda9b5c84966e66c1cfec90a71d88b5299bed0ba3db68aeb97c18e053bb14",
+          "bytes": 1844
+        }
+      }
+    },
+    {
+      "suite": "controls",
+      "activity": "keyboard_training",
+      "path": "automation-controls/controls/keyboard_training",
+      "artifacts": {
+        "help.png": {
+          "sha256": "5c84dcdbeb85ced7522f560bf09b29f41d839269aa689a9a636a1e8b95f1e964",
+          "bytes": 58167
+        },
+        "menu.png": {
+          "sha256": "741627db475d8ef74e4cef0361a0669198b41531b1402996da8bc9cfe41bcefd",
+          "bytes": 171583
+        },
+        "native.log": {
+          "sha256": "8bbbc818fc709f4bdcb88333dcd017a9d487c02a220256f01a49fd6760204029",
+          "bytes": 7971
+        },
+        "result.json": {
+          "sha256": "20f1dd787403c9b3e7bbd747b856ae5ccaee78b67ee88db5df70a49d6fce2d77",
+          "bytes": 1886
+        }
+      }
+    },
+    {
+      "suite": "controls",
+      "activity": "click_on_letter",
+      "path": "automation-controls/controls/click_on_letter",
+      "artifacts": {
+        "help.png": {
+          "sha256": "6833712cdfc52e2c50ffa09d4a13667419698db00493573b4bffa0ed326fceb1",
+          "bytes": 86428
+        },
+        "menu.png": {
+          "sha256": "741627db475d8ef74e4cef0361a0669198b41531b1402996da8bc9cfe41bcefd",
+          "bytes": 171583
+        },
+        "native.log": {
+          "sha256": "c9dff2c1189c4f0ca3ece536994ef11920a0dec0fc4413a9f1d7e3c2f9b088d6",
+          "bytes": 8190
+        },
+        "result.json": {
+          "sha256": "dea4badf1cf8b59ccfa96874c4f1b94653fa2cc6815c7cf5009e177482bba9cc",
+          "bytes": 2090
+        }
+      }
+    },
+    {
+      "suite": "controls",
+      "activity": "click_on_letter_up",
+      "path": "automation-controls/controls/click_on_letter_up",
+      "artifacts": {
+        "help.png": {
+          "sha256": "e3c04a7b4a90e2c934984b72b2119985ac33ea22979b75c74d716ad60400a437",
+          "bytes": 87899
+        },
+        "menu.png": {
+          "sha256": "741627db475d8ef74e4cef0361a0669198b41531b1402996da8bc9cfe41bcefd",
+          "bytes": 171583
+        },
+        "native.log": {
+          "sha256": "dfa5a57da7e39e29acb2d75cf30c12bb8376dcb69a75612b0d794a8c132ebf65",
+          "bytes": 8211
+        },
+        "result.json": {
+          "sha256": "4b9cd360527da6bc214182bd163f47898d5da75153011863cd0569f31f237d61",
+          "bytes": 2096
+        }
+      }
+    },
+    {
+      "suite": "audio",
+      "activity": "gletters",
+      "path": "audio1/gletters",
+      "artifacts": {
+        "native.log": {
+          "sha256": "5d06ce8d77864acda0a1124c8eb47ab921a5fabb4b9b41dc89af5991083ab82d",
+          "bytes": 8455
+        },
+        "result.json": {
+          "sha256": "92ae29f7d030ac39bde930b74df2c9f5938e50b04b23e671e35202200da3dd7e",
+          "bytes": 1504
+        },
+        "voice-route.png": {
+          "sha256": "8397dbbd4b06828a5d7973018976fae837f59aba4c699fccebcb585b990538b7",
+          "bytes": 144670
+        }
+      }
+    },
+    {
+      "suite": "audio",
+      "activity": "keyboard_training",
+      "path": "audio1/keyboard_training",
+      "artifacts": {
+        "native.log": {
+          "sha256": "105ba9a41a0dca7c044739afbf40aae591ac43f52cd473cd71dc417d2afebc2c",
+          "bytes": 8527
+        },
+        "result.json": {
+          "sha256": "3d1aaffeebc212927093810ae56356b7a5008aa30c4f5a66c830a4c5bf6978de",
+          "bytes": 1540
+        },
+        "voice-route.png": {
+          "sha256": "310785d67d0b43a07a6df930102dc790953a13c6e740ae6e17b6e09b5e609b79",
+          "bytes": 114164
+        }
+      }
+    },
+    {
+      "suite": "audio",
+      "activity": "click_on_letter",
+      "path": "audio1/click_on_letter",
+      "artifacts": {
+        "native.log": {
+          "sha256": "69ab75c9aee5ce60515ca0b5ccc66f93b86cfec1abe50c0a62a599a7f31c95e5",
+          "bytes": 8567
+        },
+        "result.json": {
+          "sha256": "dd030f5e2a0de09ea916958b9d7e2f1705c7ee7171020ba4565062ace897ae5e",
+          "bytes": 1538
+        },
+        "voice-route.png": {
+          "sha256": "e237c82a785cef96865988c7cb2f6c5bbd228d3e1f75d3f4f78df898cb911f01",
+          "bytes": 99902
+        }
+      }
+    },
+    {
+      "suite": "audio",
+      "activity": "click_on_letter_up",
+      "path": "audio1/click_on_letter_up",
+      "artifacts": {
+        "native.log": {
+          "sha256": "f34722d3bd5d02c093d2716d737dbe6dd4e5d27329dd3374ecf574bb6dce7a4b",
+          "bytes": 8588
+        },
+        "result.json": {
+          "sha256": "b1be41f8415c43b5c277b119b63a6633fbbd37fd2f5393190c91fdb0205bb030",
+          "bytes": 1545
+        },
+        "voice-route.png": {
+          "sha256": "8b8fd5307f4ce8eb048da32e8cebcf1ac37f90f9637e719a2be7dbbd4cc74e3b",
+          "bytes": 100073
+        }
+      }
+    },
+    {
+      "suite": "navigation",
+      "activity": "click_on_letter",
+      "path": "automation-navigation/navigation/click_on_letter",
+      "artifacts": {
+        "native.log": {
+          "sha256": "3d8c139b8ebfb0255611eaf6adb53706409a416a51a779f878f786eecb714d8c",
+          "bytes": 8595
+        },
+        "result.json": {
+          "sha256": "a77f7a803fb61139ab4727485b8fbe702e6d567cd15fe0347a3eea484c8d0b2c",
+          "bytes": 1247
+        }
+      }
+    },
+    {
+      "suite": "navigation",
+      "activity": "click_on_letter_up",
+      "path": "automation-navigation/navigation/click_on_letter_up",
+      "artifacts": {
+        "native.log": {
+          "sha256": "204a3e9c24cb86100bc684080c8bc02187f456696e15cfa041e08933061c48d9",
+          "bytes": 8613
+        },
+        "result.json": {
+          "sha256": "b72ce78cd8bcce4054964f1494e665e11ee255e0f8c7bcf81f36bf93b5d4a265",
+          "bytes": 1250
+        }
+      }
+    },
+    {
+      "suite": "speed",
+      "activity": "gletters",
+      "path": "automation-speed/speed/gletters",
+      "artifacts": {
+        "native.log": {
+          "sha256": "188bf434567868ce877dce210dd17a6c14e57264671de7066900f3f873baffda",
+          "bytes": 14432
+        },
+        "result.json": {
+          "sha256": "a2c3a2d1be4da9565086b66f9efd732f0e34a8aab29a6336a57d50bd99e4fc06",
+          "bytes": 2436
+        }
+      }
+    }
+  ],
+  "linux_acceptance": "pending",
+  "windows10": "pending",
+  "teacher_review": "pending",
+  "physical_audio_output": "not-available-in-headless-tests",
+  "physical_portuguese_keyboard_layout": "not-tested; real Qt preedit/commit tested",
+  "scope": "Native gameplay and selected controls only; does not certify all203activities or final linguistic/pedagogical approval.",
+  "ime_adapter_sha256": "46df58a797d671f396b3b4c72d9d2dd8649b344d493bc677850a304c02a31779"
+}

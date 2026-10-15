@@ -122,6 +122,11 @@ function initLevel() {
                 "letter": answerArr[i],
             });
         }
+        // The new answer model can be shorter than the previous one. Selection
+        // and navigation belong to this model and must not retain a stale index.
+        items.train.currentIndex = -1;
+        items.keyNavigationMode = false;
+        items.lastSelectedIndex = -1;
     }
 
     currentLetter = questions.split("|")[items.score.currentSubLevel];

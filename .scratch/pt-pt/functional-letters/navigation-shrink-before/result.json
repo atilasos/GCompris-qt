@@ -1,0 +1,28 @@
+{
+  "activity": "click_on_letter",
+  "locale": "pt_PT",
+  "qml_file": "click_on_letter/ClickOnLetter.qml",
+  "source_sha256": "8bbc296f6790eaf7eba6535dd74ac061c341e1de4f82763fa4d4c536233f378b",
+  "portuguese_catalogue_sha256": "4865d718b6529ee9aa39be44c4b5052a8b0134e8c42d2cc0718c83d1a4b202c4",
+  "private_qm_sha256": "91f5e93165c01fe523d8f005ee3c000e064f7ecf32478756db38b5e5e0c99480",
+  "case_sha256": "4cdac04a0cd9c6623ea11e0bd0d0a180a922a5f99fbc590d06058669d4e07c1b",
+  "private_rcc_sha256": "c9423dbf6c0dafeea274163709f629395575271662aa14aa68d90531786c57f9",
+  "binary_sha256": "ab20447c36845d74abeba9974e2d60ca7f20ebf7d59b677ba09f85faf6a90a37",
+  "runner_sha256": "4faa81300d446301ee8eb7e0c3054368344dd27226a2ce3076e60043bdc71366",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-letters/build/native-qml/5cfda00e91d54664bfc1e187146d66cc",
+  "version_code": 260200,
+  "network": "docker-none",
+  "timestamp_utc": "2026-10-15T20:27:19.071771+00:00",
+  "scope": "Only actions and assertions in the named case; muted native Qt, not Windows or audio approval.",
+  "screenshots": [],
+  "passed": false,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [
+    "qrc:/gcompris/src/activities/click_on_letter/click_on_letter.js:192: TypeError: Cannot read property 'letter' of undefined"
+  ],
+  "case_result": {
+    "failures": 1,
+    "passes": 1
+  }
+}
