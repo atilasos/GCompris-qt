@@ -365,21 +365,9 @@ add_custom_target(getAssets
   DEPENDS assetsFolders predownloadAssets
   )
 
-# Complete the fork's PT-PT offline voices from pinned upstream recordings and
-# reviewed additions. The synthesis engine/model are not build dependencies.
-if(COMPRESSED_AUDIO STREQUAL "ogg")
-  add_executable(pt_audio_rcc_inventory EXCLUDE_FROM_ALL
-    tools/pt-pt-audio/rcc_inventory.cpp)
-  target_link_libraries(pt_audio_rcc_inventory PRIVATE ${QT_MAJOR}::Core)
-  add_dependencies(getAssets pt_audio_rcc_inventory)
-  add_custom_command(TARGET getAssets POST_BUILD
-    COMMAND python3 "${CMAKE_SOURCE_DIR}/tools/pt-pt-audio/complete_voices.py"
-      --voices-dir "${GCOMPRIS_ASSETS_DIR}/data3/voices-ogg"
-      --inventory-tool "$<TARGET_FILE:pt_audio_rcc_inventory>"
-      --rcc-tool "$<TARGET_FILE:${QT_MAJOR}::rcc>"
-      --if-present
-    VERBATIM)
-endif()
+# Complete PT-PT assets only with a host-native inspection utility.
+include(cmake/CompletePtVoices.cmake)
+gcompris_complete_pt_voices(getAssets)
 
 add_custom_command(
     OUTPUT doBundleConvertedOggs

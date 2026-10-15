@@ -4,8 +4,8 @@
 
 - Âmbito aprovado em `spec.md`.
 - Tracker local em Markdown. O trabalho decorre no fork `atilasos/GCompris-qt`.
-- Branch de trabalho: `work/pt-pt`. Nenhum commit ou push é necessário para registar
-  a auditoria inicial.
+- Branch de integração: `integration/pt-pt`, com branches de tarefa isoladas.
+  Os commits e o candidato Windows são enviados apenas para o fork.
 - As tarefas estão em `issues/`. Dependências referem os números dos ficheiros.
 
 ## Decisions-so-far
@@ -18,11 +18,13 @@
 
 ## Fog
 
-- O inventário de vozes distribuídas em RCC ainda não foi inspecionado.
+- O inventário RCC foi inspecionado e os 32 recursos em falta foram acrescentados,
+  preservando as 1578 gravações originais. A audição/revisão final é tarefa 08.
 - A execução Linux tem verificações iniciais; faltam testes completos dos níveis
   e modos. Não existe evidência de execução Windows.
-- A arquitetura dos PC da escola e o mecanismo disponível para compilar e testar
-  Windows precisam de confirmação antes de produzir o instalador.
+- Windows10 x64 está confirmado; o professor dispõe de um Windows para testes.
+  O primeiro ensaio nativo compilou a aplicação e os recursos, mas a implantação
+  ainda precisa de fechar os erros identificados pelo candidato na tarefa 13.
 
 ## Resultados iniciais
 
@@ -42,8 +44,12 @@
   atividades. [Evidência da tarefa 02](issues/02-build-linux.md#answer).
 - Corrigida incompatibilidade QML que impedia o arranque de atividades com o
   seletor de cores. [Evidência da tarefa 09](issues/09-seletor-cores.md#answer).
-- Oito suites C++ passam com locale controlado. A falha da expectativa no locale
-  `C` permanece registada na tarefa 10.
+- A expectativa de locale foi corrigida sem alterar o produto. As oito suites C++
+  passaram em `C`, `pt_PT.UTF-8` e `en_US.UTF-8`.
+  [Evidência da tarefa 10](issues/10-teste-locale-default.md#answer).
+- Os oito ícones com texto estrangeiro foram corrigidos e renderizados pelo Qt.
+  A variante portuguesa do ícone de memória conserva a relação `2 dois`.
+  [Evidência da tarefa 14](issues/14-icones-gramatica.md#answer).
 - Acrescentados conteúdos PT de gramática após o professor confirmar o fallback
   inglês. São 15 níveis e 172 exercícios, com oito testes de carregamento e respostas.
   Ver a [evidência da tarefa 11](issues/11-gramatica-portugues.md#answer).
@@ -62,3 +68,6 @@
 - [09 — Compatibilidade do seletor de cores](issues/09-seletor-cores.md)
 - [10 — Expectativa do teste de locale](issues/10-teste-locale-default.md)
 - [11 — Conteúdos de gramática em português](issues/11-gramatica-portugues.md)
+
+- [13 — Candidato Windows x64](issues/13-candidato-windows.md)
+- [14 — Ícones e texto incorporado](issues/14-icones-gramatica.md)
