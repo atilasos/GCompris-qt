@@ -2,7 +2,10 @@
 
 Estas três amostras foram geradas localmente com Piper 1.8.0 e a voz
 `pt_PT-tugão-medium`, sem ligação à rede durante a síntese. Não foram instaladas
-nos jogos. O professor ainda não aprovou a pronúncia, a velocidade ou a clareza.
+nos jogos nesta fase. Em 15 de outubro de 2026, o professor aprovou a voz, o
+ritmo e a pronúncia para gerar as instruções e os topónimos em falta. Aprovou
+também nomes explícitos dos caracteres, como «a com acento agudo», «a com til»
+e «cê cedilhado». A geração e a revisão dos ficheiros finais têm registo próprio.
 
 | Ficheiro | Finalidade |
 | --- | --- |
