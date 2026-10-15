@@ -55,19 +55,28 @@ function(gcompris_create_translation_files)
     string(REPLACE ".ts" ".qm" QmOutput ${TsSource})
 
     set(OutTsFile ${CMAKE_BINARY_DIR}/tmp/${TsSource})
+    # Qt defaults bare "pt" to Brazilian plural rules. This catalogue is PT-PT.
+    set(QtLocale ${locale})
+    if(locale STREQUAL "pt")
+      set(QtLocale "pt_PT")
+    endif()
 
+    set(OutQmFile "${GCOMPRIS_TRANSLATIONS_DIR}/${QmOutput}")
     add_custom_command(
-      OUTPUT ${QmOutput}
+      OUTPUT "${OutQmFile}"
+      BYPRODUCTS "${OutTsFile}"
+      DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/${PoSource}"
+      VERBATIM
       COMMAND cmake -E make_directory ${GCOMPRIS_TRANSLATIONS_DIR}
       COMMAND cmake -E make_directory ${CMAKE_BINARY_DIR}/tmp
       # Remove the obsolete translations and set po in the ts output file
       COMMAND msgattrib --no-obsolete  ${CMAKE_CURRENT_SOURCE_DIR}/${PoSource} -o ${OutTsFile}
       # Convert the po into ts
-      COMMAND ${QT_MAJOR}::lconvert -if po -of ts -i ${OutTsFile} -o ${OutTsFile}
+      COMMAND ${QT_MAJOR}::lconvert -target-language ${QtLocale} -if po -of ts -i ${OutTsFile} -o ${OutTsFile}
       # Convert the ts in qm removing non finished translations
-      COMMAND ${QT_MAJOR}::lrelease -removeidentical -nounfinished ${OutTsFile} -qm ${GCOMPRIS_TRANSLATIONS_DIR}/${QmOutput}
+      COMMAND ${QT_MAJOR}::lrelease -removeidentical -nounfinished ${OutTsFile} -qm "${OutQmFile}"
       )
-    list(APPEND QM_FILES ${QmOutput})
+    list(APPEND QM_FILES "${OutQmFile}")
   endforeach()
 
   # Install translations
