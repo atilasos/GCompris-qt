@@ -1,0 +1,152 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-drawing/build/drawing-final-snapshot/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-drawing/.scratch/pt-pt/functional-drawing/complete/.native-qml-1e3e5478fd6f4fc3813846b33fd7d558/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-drawing/.scratch/pt-pt/functional-drawing/complete/.native-qml-1e3e5478fd6f4fc3813846b33fd7d558/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-drawing/.scratch/pt-pt/functional-drawing/complete/.native-qml-1e3e5478fd6f4fc3813846b33fd7d558/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-drawing/.scratch/pt-pt/functional-drawing/complete/.native-qml-1e3e5478fd6f4fc3813846b33fd7d558/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-drawing/.scratch/pt-pt/functional-drawing/complete/.native-qml-1e3e5478fd6f4fc3813846b33fd7d558/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-drawing/.scratch/pt-pt/functional-drawing/complete/.native-qml-1e3e5478fd6f4fc3813846b33fd7d558/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-drawing/.scratch/pt-pt/functional-drawing/complete/.native-qml-1e3e5478fd6f4fc3813846b33fd7d558/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-drawing/.scratch/pt-pt/functional-drawing/complete/.native-qml-1e3e5478fd6f4fc3813846b33fd7d558/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-drawing/.scratch/pt-pt/functional-drawing/complete/.native-qml-1e3e5478fd6f4fc3813846b33fd7d558/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity drawnumbers/Drawnumbers.qml at level 0
+qml: drawnumbers/Drawnumbers.qml drawnumbers/Drawnumbers.qml
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+load configuration for: "drawnumbers"
+notifyAudioVoices:  true
+notifyAudioEffects:  true
+load configuration for: "drawnumbers"
+save configuration for: "drawnumbers"
+No audio device detected
+[vorbis @ 0x5b9b2fad9e80] Could not update timestamps for discarded samples.
+load configuration for: "drawnumbers"
+No audio device detected
+[vorbis @ 0x74b69c001f40] Could not update timestamps for discarded samples.
+qml: DRAWING_LEVEL drawnumbers 1 23
+No audio device detected
+[vorbis @ 0x74b69c0023c0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x74b69c028a80] Could not update timestamps for discarded samples.
+qml: DRAWING_LEVEL drawnumbers 2 15
+No audio device detected
+[vorbis @ 0x74b69c097c80] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x74b69c097c80] Could not update timestamps for discarded samples.
+qml: DRAWING_LEVEL drawnumbers 3 24
+No audio device detected
+[vorbis @ 0x74b69c097c80] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x74b69c097c80] Could not update timestamps for discarded samples.
+qml: DRAWING_LEVEL drawnumbers 4 27
+No audio device detected
+[vorbis @ 0x74b69c0a9080] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x74b69c0a9080] Could not update timestamps for discarded samples.
+qml: DRAWING_LEVEL drawnumbers 5 23
+No audio device detected
+[vorbis @ 0x74b69c0a9080] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x74b69c0a9080] Could not update timestamps for discarded samples.
+qml: DRAWING_LEVEL drawnumbers 6 28
+No audio device detected
+[vorbis @ 0x74b69c0a9080] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x74b69c0a9080] Could not update timestamps for discarded samples.
+qml: DRAWING_LEVEL drawnumbers 7 26
+No audio device detected
+[vorbis @ 0x74b69c0a9080] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x74b69c0a9080] Could not update timestamps for discarded samples.
+qml: DRAWING_LEVEL drawnumbers 8 17
+No audio device detected
+[vorbis @ 0x74b69c0a9080] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x74b69c0a9080] Could not update timestamps for discarded samples.
+qml: DRAWING_LEVEL drawnumbers 9 29
+No audio device detected
+[vorbis @ 0x74b69c0a9080] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x74b69c0a9080] Could not update timestamps for discarded samples.
+qml: DRAWING_LEVEL drawnumbers 10 25
+qml: NATIVE_DRAWING_RESULT {"failures":0,"passes":2,"mode":1,"highlight":true,"completed":[{"level":1,"points":23,"final":"zero.svg"},{"level":2,"points":15,"final":"one.svg"},{"level":3,"points":24,"final":"two.svg"},{"level":4,"points":27,"final":"three.svg"},{"level":5,"points":23,"final":"four.svg"},{"level":6,"points":28,"final":"five.svg"},{"level":7,"points":26,"final":"six.svg"},{"level":8,"points":17,"final":"seven.svg"},{"level":9,"points":29,"final":"eight.svg"},{"level":10,"points":25,"final":"nine.svg"}],"wins":10,"wrong":20,"pauses":1,"images":{"qrc:/gcompris/src/activities/drawnumbers/resource/paper.svg":"drawnumbers-paper.svg","qrc:/gcompris/src/activities/drawnumbers/resource/zero.svg":"drawnumbers-zero.svg","qrc:/gcompris/src/activities/drawnumbers/resource/one.svg":"drawnumbers-one.svg","qrc:/gcompris/src/activities/drawnumbers/resource/two.svg":"drawnumbers-two.svg","qrc:/gcompris/src/activities/drawnumbers/resource/three.svg":"drawnumbers-three.svg","qrc:/gcompris/src/activities/drawnumbers/resource/four.svg":"drawnumbers-four.svg","qrc:/gcompris/src/activities/drawnumbers/resource/five.svg":"drawnumbers-five.svg","qrc:/gcompris/src/activities/drawnumbers/resource/six.svg":"drawnumbers-six.svg","qrc:/gcompris/src/activities/drawnumbers/resource/seven.svg":"drawnumbers-seven.svg","qrc:/gcompris/src/activities/drawnumbers/resource/eight.svg":"drawnumbers-eight.svg","qrc:/gcompris/src/activities/drawnumbers/resource/nine.svg":"drawnumbers-nine.svg"},"requested":[{"serial":1,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0030.ogg"},{"serial":2,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg"},{"serial":3,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0031.ogg"},{"serial":4,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"},{"serial":5,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0032.ogg"},{"serial":6,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/awesome.ogg"},{"serial":7,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0033.ogg"},{"serial":8,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg"},{"serial":9,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0034.ogg"},{"serial":10,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg"},{"serial":11,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0035.ogg"},{"serial":12,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg"},{"serial":13,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0036.ogg"},{"serial":14,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/great.ogg"},{"serial":15,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0037.ogg"},{"serial":16,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg"},{"serial":17,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0038.ogg"},{"serial":18,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"},{"serial":19,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0039.ogg"},{"serial":20,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/fantastic.ogg"}],"playing":[{"serial":1,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0030.ogg"},{"serial":2,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg"},{"serial":3,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0031.ogg"},{"serial":4,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"},{"serial":5,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0032.ogg"},{"serial":6,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/awesome.ogg"},{"serial":7,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0033.ogg"},{"serial":8,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg"},{"serial":9,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0034.ogg"},{"serial":10,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg"},{"serial":11,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0035.ogg"},{"serial":12,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg"},{"serial":13,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0036.ogg"},{"serial":14,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/great.ogg"},{"serial":15,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0037.ogg"},{"serial":16,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg"},{"serial":17,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0038.ogg"},{"serial":18,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"},{"serial":19,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0039.ogg"},{"serial":20,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/fantastic.ogg"}],"progressed":[{"serial":1,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0030.ogg","position":58,"duration":673,"playbackState":1},{"serial":2,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg","position":36,"duration":905,"playbackState":1},{"serial":3,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0031.ogg","position":42,"duration":464,"playbackState":1},{"serial":4,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg","position":44,"duration":928,"playbackState":1},{"serial":5,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0032.ogg","position":43,"duration":638,"playbackState":1},{"serial":6,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/awesome.ogg","position":36,"duration":905,"playbackState":1},{"serial":7,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0033.ogg","position":39,"duration":499,"playbackState":1},{"serial":8,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg","position":36,"duration":952,"playbackState":1},{"serial":9,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0034.ogg","position":39,"duration":615,"playbackState":1},{"serial":10,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg","position":36,"duration":905,"playbackState":1},{"serial":11,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0035.ogg","position":39,"duration":696,"playbackState":1},{"serial":12,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg","position":36,"duration":905,"playbackState":1},{"serial":13,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0036.ogg","position":39,"duration":708,"playbackState":1},{"serial":14,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/great.ogg","position":50,"duration":754,"playbackState":1},{"serial":15,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0037.ogg","position":39,"duration":708,"playbackState":1},{"serial":16,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg","position":36,"duration":952,"playbackState":1},{"serial":17,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0038.ogg","position":39,"duration":684,"playbackState":1},{"serial":18,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg","position":44,"duration":928,"playbackState":1},{"serial":19,"route":"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0039.ogg","position":39,"duration":673,"playbackState":1},{"serial":20,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/fantastic.ogg","position":42,"duration":975,"playbackState":1}],"audioErrors":[],"copiedRoutes":{"qrc:/gcompris/data/voices-ogg/pt/alphabet/U0030.ogg":"U0030.ogg","qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg":"congratulation.ogg","qrc:/gcompris/data/voices-ogg/pt/alphabet/U0031.ogg":"U0031.ogg","qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg":"waytogo.ogg","qrc:/gcompris/data/voices-ogg/pt/alphabet/U0032.ogg":"U0032.ogg","qrc:/gcompris/data/voices-ogg/pt/misc/awesome.ogg":"awesome.ogg","qrc:/gcompris/data/voices-ogg/pt/alphabet/U0033.ogg":"U0033.ogg","qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg":"perfect.ogg","qrc:/gcompris/data/voices-ogg/pt/alphabet/U0034.ogg":"U0034.ogg","qrc:/gcompris/data/voices-ogg/pt/alphabet/U0035.ogg":"U0035.ogg","qrc:/gcompris/data/voices-ogg/pt/alphabet/U0036.ogg":"U0036.ogg","qrc:/gcompris/data/voices-ogg/pt/misc/great.ogg":"great.ogg","qrc:/gcompris/data/voices-ogg/pt/alphabet/U0037.ogg":"U0037.ogg","qrc:/gcompris/data/voices-ogg/pt/alphabet/U0038.ogg":"U0038.ogg","qrc:/gcompris/data/voices-ogg/pt/alphabet/U0039.ogg":"U0039.ogg","qrc:/gcompris/data/voices-ogg/pt/misc/fantastic.ogg":"fantastic.ogg"},"clickSoundStatus":0}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
