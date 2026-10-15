@@ -98,6 +98,47 @@ class CompletedVoicePackageTest(unittest.TestCase):
 
 
 class NativeActivityProbeTest(unittest.TestCase):
+    def test_authoritative_manifest_selects_all_unique_activity_ids(self):
+        probe_spec = importlib.util.spec_from_file_location('native_probe_manifest', ROOT / 'tools/windows/native-probe.py')
+        probe = importlib.util.module_from_spec(probe_spec)
+        probe_spec.loader.exec_module(probe)
+        names = probe.read_activities(ROOT / 'src/activities/activities.txt')
+        self.assertEqual(len(names), 203)
+        self.assertEqual(len(set(names)), 203)
+        self.assertIn('programmingMaze', names)
+        self.assertIn('alphabet-sequence', names)
+        with tempfile.TemporaryDirectory() as directory:
+            manifest = Path(directory) / 'activities.txt'
+            for text in ['', 'gletters\ngletters\n', '../outside', 'path/name', 'two words', 'game;cmd']:
+                manifest.write_text(text)
+                with self.subTest(text=text), self.assertRaises(ValueError):
+                    probe.read_activities(manifest)
+
+    @unittest.skipIf(sys.platform == 'win32', 'Executable fixture uses a POSIX shebang')
+    def test_cli_runs_manifest_in_order_and_rejects_native_list_mismatch(self):
+        import json
+        with tempfile.TemporaryDirectory() as directory:
+            folder = Path(directory)
+            binary = folder / 'game'
+            binary.write_text("#!/usr/bin/env python3\nimport sys,time\nif '--list-activities' in sys.argv:print('programmingMaze\\nalphabet-sequence');sys.exit(0)\na=sys.argv[-1]\nprint('Start activity '+a+'/Game.qml',flush=True)\nprint('Successfully registered resource voices-completed.rcc',flush=True)\ntime.sleep(3)\n")
+            binary.chmod(0o755)
+            manifest = folder / 'manifest.txt'
+            manifest.write_text('# full manifest fixture\nprogrammingMaze\nalphabet-sequence\n')
+            command = [sys.executable, str(ROOT / 'tools/windows/native-probe.py'), '--binary', str(binary),
+                       '--activities-file', str(manifest), '--output', str(folder / 'result'),
+                       '--seconds', '0.1', '--expected-voice', 'voices-completed.rcc']
+            result = subprocess.run(command, capture_output=True, text=True)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            report = json.loads((folder / 'result/startup-check.json').read_text())
+            self.assertEqual([row['activity'] for row in report['activities']], ['programmingMaze', 'alphabet-sequence'])
+            self.assertTrue(report['activity_list_matches_manifest'])
+            manifest.write_text('programmingMaze\n')
+            result = subprocess.run(command, capture_output=True, text=True)
+            self.assertNotEqual(result.returncode, 0)
+            report = json.loads((folder / 'result/startup-check.json').read_text())
+            self.assertFalse(report['passed'])
+            self.assertFalse(report['activity_list_matches_manifest'])
+
     @unittest.skipUnless(sys.platform != 'win32', 'Executable fixture uses a POSIX shebang; Windows runs the native app')
     def test_launched_game_must_stay_alive_register_voices_and_have_no_qml_errors(self):
         probe_spec = importlib.util.spec_from_file_location('native_probe', ROOT / 'tools/windows/native-probe.py')
