@@ -19,3 +19,10 @@ entrada de massa após equilibrar, pontuação/Bonus/transições, ajuda PT,
 navegação, reinício e menu. Sem atribuir modelos, mover os pratos ou emitir
 validações. Recursos privados selados, perfil novo e rede desligada.
 Distinguir dispositivos físicos, Windows, audição e professor pendentes.
+
+## Comments
+
+A concordância do título SI foi reproduzida na ajuda Qt real e corrigida de
+"Balança que usam" para "Balança que usa". Prova red/green independente do
+percurso completo em `../functional-scales/si-help/README.md`. Esta correção
+parcial não resolve a tarefa 34 nem aprova os 666 puzzles previstos.
