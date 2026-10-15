@@ -1,0 +1,66 @@
+{
+  "positive_native_cases": [
+    {
+      "case": "levels-green",
+      "result": "levels-green/result.json",
+      "result_sha256": "eadb0325ee65dd7bb21bbf0ccb019edd4daecac3c2d4617d74d7e9cbeaa11ea0",
+      "case_file": "tests/functional_mouse_fish/fish_levels.qml",
+      "case_sha256": "f95a630a3736e0b8c5b578bbf7bbc9dc93e507741d808ac03e1e3386f3e7cba4"
+    },
+    {
+      "case": "boundaries-complete",
+      "result": "boundaries-complete/result.json",
+      "result_sha256": "f4353d44237b75834eb0c1c3355a1ba30b929a1122dd6e80943f2ddc2e136993",
+      "case_file": "tests/functional_mouse_fish/duck_boundaries.qml",
+      "case_sha256": "c04e51bd8a3d6ec76f08a03f4eeb95f6e8d9cdf0e5b4cc632069071287b36c9d"
+    },
+    {
+      "case": "fish-gameplay",
+      "result": "fish-gameplay/result.json",
+      "result_sha256": "0d06d528010d7255e4ce9c2f2d6ee6c4b75654d99fb661d5790cec890639cb3c",
+      "case_file": "tests/functional_mouse_fish/fish_gameplay.qml",
+      "case_sha256": "ce581408044788052d6d885028cd6112cb5745474fa988a7f3feb5c0ab5ac033"
+    },
+    {
+      "case": "duck-free",
+      "result": "duck-free/result.json",
+      "result_sha256": "412413b0278a307c9bdb48a859687212fb37fc3abeb517acec97aa7638d407fc",
+      "case_file": "tests/functional_mouse_fish/duck_free.qml",
+      "case_sha256": "30ea2b6dc5755b77638da5d77f0550fa43585a668df64bbca0f746bc81380ff1"
+    },
+    {
+      "case": "help-green",
+      "result": "help-green/result.json",
+      "result_sha256": "ed6223f914679f685eaabb680bc242e45af2865abf248aefd8239b2f7bd53997",
+      "case_file": "tests/functional_mouse_fish/controls.qml",
+      "case_sha256": "9a4c8d286f69be5dbf6889f2d7df47e0b73e76b566855a79fa3c81a667991bca"
+    },
+    {
+      "case": "clickgame-controls",
+      "result": "clickgame-controls/result.json",
+      "result_sha256": "d712e677eb7779446f0d25f27bd3c8c5010282737d183f493fcba4f564fb13a0",
+      "case_file": ".scratch/pt-pt/functional-mouse-fish/controls-original.qml",
+      "case_sha256": "94691addad09999a626d88e357b286681cb5679b9e9b8bb122181304073ada97"
+    },
+    {
+      "case": "clickgame-escape",
+      "result": "clickgame-escape/result.json",
+      "result_sha256": "ca051e5bb2d2151d96bef5a11b8af5ac4c97314e808a3c2d6fd434d4a8b48524",
+      "case_file": ".scratch/pt-pt/functional-mouse-fish/clickgame-escape.qml",
+      "case_sha256": "c09ec86563fac21eaebafdcfa9962ff53bceb9e55654f01feabde205a999850d"
+    },
+    {
+      "case": "baby_mouse-escape-final",
+      "result": "baby_mouse-escape-final/result.json",
+      "result_sha256": "3801cb78b4720a7aab63466b767eb914f4727713a4b2de474c7d039a2a7b53e7",
+      "case_file": ".scratch/pt-pt/functional-mouse-fish/baby_mouse-escape-final.qml",
+      "case_sha256": "6dab6ca4ade6838d403d1e49e461654d0ac5f835039ef5453e78c4d18cb4be94"
+    }
+  ],
+  "negative_cases": [
+    "levels-red",
+    "boundaries-red",
+    "help-red"
+  ],
+  "scope": "Bounded cases; SoundEffect playback, physical devices, Windows and teacher review remain pending."
+}

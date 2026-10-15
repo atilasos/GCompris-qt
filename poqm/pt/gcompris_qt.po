@@ -2976,8 +2976,8 @@ msgid ""
 "Doing a simple click in the central area shows a marker at the click "
 "position."
 msgstr ""
-"Ao fazer um simples 'click' na área central mostra uma marcação na posição "
-"onde carregou."
+"Um simples clique na área central mostra uma marca na posição onde "
+"carregaste."
 
 #. Activity title
 #: activities/baby_tangram/ActivityInfo.qml:15
