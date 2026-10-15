@@ -95,5 +95,10 @@ aprovado nem prova de execução Windows10.
 As correções da revisão estão descritas em `../review-fixes.md`. O cache do SDK
 é guardado imediatamente depois da preparação, antes das verificações de
 implantação; uma falha posterior deixará de obrigar a repetir essa preparação.
-A tarefa06 continua em curso: oito arranques Windows são uma amostra adicional,
-não validação interativa das 203 atividades nem conclusão de níveis.
+A tarefa06 continua em curso: o workflow mantém oito arranques na árvore
+preparada e exige o arranque sequencial das 203 atividades na árvore instalada.
+Isto não valida interativamente todos os jogos nem a conclusão dos níveis.
+A extensão `--activities-file` foi testada contra o manifesto real (203 nomes
+únicos, incluindo maiúsculas e hífens), rejeição de nomes inválidos/duplicados e
+um executável fixture que comprova a ordem e a rejeição de listas divergentes.
+A prova dos 203 arranques Windows exige um novo ensaio CI após integração.

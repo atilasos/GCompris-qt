@@ -38,8 +38,9 @@ O script regista os comandos em `build/windows-candidate/build.log` e gera:
 - `artifacts/GCompris-PT-PT-Windows-x64-portable.zip`: mesma árvore portátil.
 - `artifacts/SHA256SUMS.txt`: SHA256 dos dois ficheiros.
 - `package-check.json` e `installer-check.json`: inventário e listagem nativa.
-- `staged/` e `installed/`: listagens e logs de oito atividades, com
-  `startup-check.json` por árvore.
+- `staged/`: listagem e logs da amostra de oito atividades.
+- `installed/`: listagem e logs das 203 atividades do manifesto; ambas as árvores
+  incluem `startup-check.json`.
 
 Os artefactos ficam no separador Actions do fork, associados ao commit de origem.
 Não se cria um Release nem se envia código ao projeto original.
@@ -85,11 +86,14 @@ o teste e pede uma conta dedicada, preservando os ficheiros existentes. Os teste
 da instalação usam a mesma conta CI inicialmente limpa e processos independentes;
 não são apresentados como um segundo utilizador Windows novo.
 
-Além de exigir a lista completa das atividades, ambas as árvores abrem oito
-atividades: gramática (duas), letras, letras cadentes, teclado, escolhas múltiplas,
-cronologia e criação de frações. Cada processo tem de permanecer ativo durante
-seis segundos, registar o lançamento da atividade e o RCC PT completado, sem erros
-QML ou erros de imagens detetados. Isto exercita também o import QtGraphs.
+A árvore preparada abre uma amostra de oito atividades: gramática (duas),
+letras, letras cadentes, teclado, escolhas múltiplas, cronologia e criação de
+frações. A árvore instalada abre sequencialmente as 203 atividades de
+`src/activities/activities.txt`, exigindo nomes únicos e correspondência exata
+com a lista devolvida pelo executável. Cada processo tem de permanecer ativo
+durante seis segundos, registar o lançamento da atividade e o RCC PT completado,
+sem erros QML ou erros de imagens detetados. O percurso instalado demora cerca
+de 21 minutos e usa a mesma conta Windows, sem processos concorrentes.
 
 Estes controlos comprovam implantação e arranque. Não comprovam a conclusão dos
 níveis, todos os modos, a reprodução audível num dispositivo Windows ou a revisão
