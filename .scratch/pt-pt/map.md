@@ -131,3 +131,5 @@ Os três jogos de memória concluíram34percursos com snapshot selado,180pares
 corretos e42errados. As quatro operações concluíram48níveis,480respostas corretas
 e48erradas. Os quatro consumidores NumPad passaram10casos de entrada, sem
 declarar puzzles completos. A matriz global mantém os critérios pendentes.
+
+- [30 — Decimais e quantidades](issues/30-decimais-quantidades.md)
