@@ -1,0 +1,212 @@
+{
+  "passed": true,
+  "scope": "Linux native offline; four final cases only",
+  "cases": [
+    {
+      "directory": "classic-visual-order",
+      "activity": "hanoi_real",
+      "case": "tests/hanoi_real.qml",
+      "case_sha256": "078ab1d56f206bd06ef38f62512951253412b807c7a4b0ae92637730c035275d",
+      "result": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 1,
+            "discs": 3,
+            "moves": 7
+          },
+          {
+            "level": 2,
+            "discs": 4,
+            "moves": 15
+          },
+          {
+            "level": 3,
+            "discs": 5,
+            "moves": 31
+          }
+        ],
+        "moves": 53,
+        "rejected": 3
+      }
+    },
+    {
+      "directory": "simplified-visual-order",
+      "activity": "hanoi",
+      "case": "tests/hanoi_simplified.qml",
+      "case_sha256": "936762e8ce644d4670f84f8c8304642d6b744d1526a54fcef9913c2bedd85ca8",
+      "result": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 1,
+            "height": 5,
+            "auxiliaryPegs": 3,
+            "moves": 27,
+            "reference": [
+              "}:#18bdb6",
+              "~:#be177a",
+              "+:#8d18bd",
+              "=:#be9c17",
+              "?:#ca0cbf"
+            ]
+          },
+          {
+            "level": 2,
+            "height": 5,
+            "auxiliaryPegs": 4,
+            "moves": 31,
+            "reference": [
+              "?:#be7a17",
+              "&:#8d18bd",
+              "|:#17be52",
+              "%:#be1717",
+              ">:#be9c17"
+            ]
+          },
+          {
+            "level": 3,
+            "height": 6,
+            "auxiliaryPegs": 5,
+            "moves": 33,
+            "reference": [
+              "*:#be7a17",
+              "{:#bd5e18",
+              "/:#be1717",
+              "%:#65be17",
+              "{:#bd5e18",
+              ">:#8d18bd"
+            ]
+          },
+          {
+            "level": 4,
+            "height": 7,
+            "auxiliaryPegs": 6,
+            "moves": 30,
+            "reference": [
+              ">:#bebb17",
+              "?:#1777be",
+              "=:#be3e17",
+              "/:#8d18bd",
+              "|:#17be52",
+              "=:#be3e17",
+              ">:#bebb17"
+            ]
+          },
+          {
+            "level": 5,
+            "height": 8,
+            "auxiliaryPegs": 6,
+            "moves": 37,
+            "reference": [
+              "*:#1777be",
+              "=:#18bdb6",
+              "}:#be177a",
+              "}:#be177a",
+              "*:#1777be",
+              "=:#18bdb6",
+              "<:#8d18bd",
+              "+:#be1717"
+            ]
+          },
+          {
+            "level": 6,
+            "height": 9,
+            "auxiliaryPegs": 5,
+            "moves": 55,
+            "reference": [
+              "~:#be7a17",
+              "<:#1777be",
+              "#:#ca0cbf",
+              "+:#65be17",
+              "#:#ca0cbf",
+              "+:#65be17",
+              "|:#173fbe",
+              "/:#bebb17",
+              "#:#ca0cbf"
+            ]
+          }
+        ],
+        "moves": 213,
+        "rejected": 12
+      }
+    },
+    {
+      "directory": "controls-real-settled",
+      "activity": "hanoi_real",
+      "case": "tests/hanoi_controls.qml",
+      "case_sha256": "523e879027001214774975ad189abeec2e82a3c4778b45979876a281294910ad",
+      "result": {
+        "failures": 0,
+        "passes": 2,
+        "controls": {
+          "activity": "hanoi_real",
+          "levels": 3,
+          "helpClosedWithEscape": true,
+          "reloadClearedPartial": true,
+          "dragAfterHelp": true,
+          "resources": [
+            "qrc:/gcompris/src/activities/hanoi_real/resource/background.svg",
+            "qrc:/gcompris/src/activities/hanoi_real/resource/disc_support.svg",
+            "qrc:/gcompris/src/activities/hanoi_real/resource/disc_support-green.svg"
+          ]
+        }
+      }
+    },
+    {
+      "directory": "controls-simplified-settled",
+      "activity": "hanoi",
+      "case": "tests/hanoi_controls.qml",
+      "case_sha256": "523e879027001214774975ad189abeec2e82a3c4778b45979876a281294910ad",
+      "result": {
+        "failures": 0,
+        "passes": 2,
+        "controls": {
+          "activity": "hanoi",
+          "levels": 6,
+          "helpClosedWithEscape": true,
+          "reloadClearedPartial": true,
+          "dragAfterHelp": true,
+          "resources": [
+            "qrc:/gcompris/src/activities/hanoi_real/resource/background.svg",
+            "qrc:/gcompris/src/activities/hanoi_real/resource/disc_support.svg",
+            "qrc:/gcompris/src/activities/hanoi_real/resource/disc_support-green.svg",
+            "qrc:/gcompris/src/activities/hanoi_real/resource/disc_support-red.svg"
+          ]
+        }
+      }
+    }
+  ],
+  "artifact_sha256": {
+    "classic-visual-order/classic-1.png": "acbe7c44afe6ed4639a466129815105cbd00adcabf7a75134d229afd82f8ae3d",
+    "classic-visual-order/classic-2.png": "703a039117603ce572922fa6f0323771e652f7100fcf3c492fa71fed409c7693",
+    "classic-visual-order/classic-3.png": "a149cb7caae8c8ad37d8c3f09cf6a2c68c891c18244355bc2acfaffa7923be71",
+    "classic-visual-order/native.log": "4a028c88d40f1420c20db0a25419e4273ac7775ebf82767f8ab926de93054625",
+    "classic-visual-order/result.json": "c863a5679e4fd1408e2c951ffd2db1b1f478ecc433181a9652c5c4b8949a481c",
+    "simplified-visual-order/native.log": "f81aa2bdba6d993581e01318b5b15ed6e3fa9d60ab275c5371d4b152e7280f3b",
+    "simplified-visual-order/result.json": "07e357a31a56d2c36657ca49993671e4af7567331cd6c1df12e88059e96b2500",
+    "simplified-visual-order/simplified-1.png": "e3ec9543d56a049191d1e261da1749b2cc270f799a9a89e3e302acfd62455ac2",
+    "simplified-visual-order/simplified-2.png": "8c1a72abc360213efd7a2cb9815b07ab291d6f4a0e3ad987393675b872fac2bd",
+    "simplified-visual-order/simplified-3.png": "4111d2d9ef1e77a6e750284735d7cbcec69d749f43decee0842b023b42052af4",
+    "simplified-visual-order/simplified-4.png": "77436a723f08fa293ae40d78f3147e2d57724844c96c9d27f83bfc48ec8ffe8b",
+    "simplified-visual-order/simplified-5.png": "3fad7a946836bc4cda1b9fed38eca5d6ba65f14bdaf17219397c45742683c709",
+    "simplified-visual-order/simplified-6.png": "378a70e98faa3ee52b4069a6f49c2e4e9251475dd09da587431c84cfb1d31d0f",
+    "controls-real-settled/background.svg": "38ec763a9f711abc4ff00668cd187701f8b6abf71142932825718292f96dd390",
+    "controls-real-settled/disc_support-green.svg": "9503aa06ce9410c800326991d26cfc687479acdab9c201a6dcb5ccfad3e3c44c",
+    "controls-real-settled/disc_support.svg": "3cc7b7111a435f1c93924c7be786700a33f495d134e65fb8b217e0593126c2fa",
+    "controls-real-settled/help.png": "cc6b903c2dd0b0724579c2eb6696565c27c4cf0eadef0716ee4a0036f0bc3718",
+    "controls-real-settled/menu.png": "b7a21fa528ec2f1326745c708057e94cf17242fdbecdc05b7a2e5820074bd954",
+    "controls-real-settled/native.log": "7be5835fd1c4c1fe73dc4308c228402ebaa31348be1711d0f8d373ff6a09c980",
+    "controls-real-settled/result.json": "9d96d128dfc33d3973f516c5b0d650fc50460378f6ef79f43dec935a84a57f39",
+    "controls-simplified-settled/background.svg": "38ec763a9f711abc4ff00668cd187701f8b6abf71142932825718292f96dd390",
+    "controls-simplified-settled/disc_support-green.svg": "9503aa06ce9410c800326991d26cfc687479acdab9c201a6dcb5ccfad3e3c44c",
+    "controls-simplified-settled/disc_support-red.svg": "cf70ce68a04cfce68b97d950da81c288fd6a23193d2b13167b54567c0d42deaa",
+    "controls-simplified-settled/disc_support.svg": "3cc7b7111a435f1c93924c7be786700a33f495d134e65fb8b217e0593126c2fa",
+    "controls-simplified-settled/help.png": "63ae188c42c5f83384fcca9e76f1a634f4b29dae050199905781a6250c3442f3",
+    "controls-simplified-settled/menu.png": "3df8db53efb9146e4765459a5b056ee1563ec6ee7e9ccf370c03a398ff8d855e",
+    "controls-simplified-settled/native.log": "71a0eb0fd823ccf94fe6a4dfa8fc694a9aa9a21e152f644aea240100f2a8b4b2",
+    "controls-simplified-settled/result.json": "2bb7d3ccaad961000955fe73fce085c98ac4304cf514d7850010f54017abd233"
+  }
+}
