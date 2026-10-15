@@ -5374,3 +5374,9 @@ path = "src/activities/adjacent_numbers/adjacent_numbers.svg"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2024 Timothée Giet"
 SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "src/activities/memory-wordnumber/memory-wordnumber-pt.svg"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2015 Timothée Giet"
+SPDX-License-Identifier = "CC-BY-SA-4.0"

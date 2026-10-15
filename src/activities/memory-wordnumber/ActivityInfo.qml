@@ -9,7 +9,9 @@ import core 1.0
 ActivityInfo {
   name: "memory-wordnumber/MemoryWordnumber.qml"
   difficulty: 3
-  icon: "memory-wordnumber/memory-wordnumber.svg"
+  icon: ApplicationInfo.getVoicesLocale(ApplicationSettings.locale) === "pt"
+      ? "memory-wordnumber/memory-wordnumber-pt.svg"
+      : "memory-wordnumber/memory-wordnumber.svg"
   author: "Bruno Coudoin &lt;bruno.coudoin@gcompris.net&gt;"
   //: Activity title
   title: qsTr("Wordnumber memory game")
