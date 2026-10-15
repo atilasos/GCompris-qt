@@ -40,6 +40,7 @@ function start(_items) {
     levels = Lang.getAllLessons(dataset);
     items.score.currentSubLevel = 0;
     maxLevel = levels.length;
+    items.numberOfLevel = maxLevel;
     items.currentLevel = Core.getInitialLevel(maxLevel);
     initLevel();
 }
