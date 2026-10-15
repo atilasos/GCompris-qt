@@ -10,7 +10,8 @@ continua aberta para audição pedagógica final, testes nas atividades e Window
 `resources/pt-pt-voices/` contém apenas os 32 novos OGG, `texts.json`,
 `manifest.json` e `NOTICE.md`. Os textos, hashes, duração, formato, versão do
 Piper, hashes do modelo/configuração e referências de origem são explícitos.
-O manifesto continua a indicar revisão final pendente.
+A revisão final da pronúncia e dos textos das 32 gravações foi aprovada pelo
+professor em 15 de outubro de 2026. O manifesto liga a aprovação aos ficheiros.
 
 Os doze caracteres são anunciados por nomes explícitos, como "a com til" e
 "cê cedilhado". Nenhuma vogal simples, fonema ou gravação original foi usada

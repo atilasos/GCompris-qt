@@ -52,3 +52,10 @@ Capturas locais conservadas fora do Git:
 O Hub bloqueou `file://` pela sua política. A abertura offline por duplo clique,
 a reprodução física no Windows e a revisão de pronúncia e pedagógica continuam
 pendentes no computador do professor. Nenhuma aprovação foi registada.
+
+## Seguimento da audição
+
+O professor ouviu e aprovou as 32 gravações completas em 15 de outubro de 2026.
+O ZIP original e o seu hash foram preservados. A tarefa35 liga a aprovação
+aos textos e hashes individuais; estados pending acima descrevem o pacote
+original antes dessa decisão, não uma audição ainda por fazer.

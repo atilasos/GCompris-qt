@@ -17,7 +17,37 @@ SOURCE = ROOT / 'resources/pt-pt-voices'
 
 
 class AudioReviewPackageTests(unittest.TestCase):
-    def test_zip_contains_only_32_manifest_recordings_and_pending_review(self):
+    def test_approval_is_preserved_only_for_unchanged_audio_and_text(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source = root / 'voices'
+            shutil.copytree(SOURCE, source)
+            manifest = json.loads((source / 'manifest.json').read_text())
+            manifest['teacher_review'] = {'recordings': {
+                row['file']: {'text': row['text'], 'sha256': row['sha256']}
+                for row in manifest['recordings']}}
+            approved_manifest = json.dumps(manifest)
+            for changed in ('none', 'text', 'audio'):
+                manifest = json.loads(approved_manifest)
+                if changed == 'text':
+                    manifest['recordings'][0]['text'] += ' texto revisto'
+                if changed == 'audio':
+                    row = manifest['recordings'][0]
+                    path = source / row['file']
+                    path.write_bytes(path.read_bytes() + b'changed')
+                    row['sha256'] = hashlib.sha256(path.read_bytes()).hexdigest()
+                    row['bytes'] = path.stat().st_size
+                (source / 'manifest.json').write_text(json.dumps(manifest))
+                output = root / (changed + '.zip')
+                result = subprocess.run([sys.executable, str(SCRIPT), '--source', str(source),
+                                         '--output', str(output)], check=True, capture_output=True, text=True)
+                self.assertEqual(json.loads(result.stdout)['review_status'], 'approved' if changed == 'none' else 'partial')
+                with zipfile.ZipFile(output) as archive:
+                    rows = list(csv.DictReader(io.StringIO(archive.read('review.csv').decode('utf-8-sig')), delimiter=';'))
+                    self.assertEqual(rows[0]['estado'], 'approved' if changed == 'none' else 'pending')
+                    self.assertTrue(all(row['estado'] == 'approved' for row in rows[1:]))
+
+    def test_zip_contains_only_32_manifest_recordings_and_approved_review(self):
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory) / 'review.zip'
             subprocess.run([sys.executable, str(SCRIPT), '--source', str(SOURCE),
@@ -39,7 +69,8 @@ class AudioReviewPackageTests(unittest.TestCase):
                 self.assertEqual(len(review), 32)
                 self.assertEqual([row['ficheiro'] for row in review], [row['file'] for row in recordings])
                 self.assertEqual([row['transcricao'] for row in review], [row['text'] for row in recordings])
-                self.assertEqual({row['estado'] for row in review}, {'pending'})
+                self.assertEqual({row['estado'] for row in review}, {'approved'})
+                self.assertIn('aprovou a pronúncia e os textos', archive.read('index.html').decode('utf-8'))
                 self.assertEqual({row['grupo'] for row in review}, {'Caracteres', 'Topónimos', 'Instruções'})
                 self.assertEqual([row['numero'] for row in review], [f'{number:02d}' for number in range(1, 33)])
                 self.assertTrue(all(row['correcoes'] == '' for row in review))

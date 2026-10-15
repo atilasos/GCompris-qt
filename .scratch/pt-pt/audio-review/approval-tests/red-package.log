@@ -1,0 +1,17 @@
+F...
+======================================================================
+FAIL: test_approval_is_preserved_only_for_unchanged_audio_and_text (test_pt_pt_audio_review_package.AudioReviewPackageTests.test_approval_is_preserved_only_for_unchanged_audio_and_text)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-audio-approval/tests/test_pt_pt_audio_review_package.py", line 36, in test_approval_is_preserved_only_for_unchanged_audio_and_text
+    self.assertEqual(json.loads(result.stdout)['review_status'], 'partial' if changed else 'approved')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'pending' != 'approved'
+- pending
++ approved
+
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.311s
+
+FAILED (failures=1)

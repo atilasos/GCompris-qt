@@ -1,0 +1,23 @@
+{
+  "format": 1,
+  "source_rcc": "voices-pt-2026-09-23-18-56-49.rcc",
+  "source_rcc_sha256": "522d05bcf421e3cee2fdebf7ba9469ff294a69b61d629464283855297e006b8f",
+  "original_files": 1578,
+  "added_files": 32,
+  "total_files": 1610,
+  "original_bytes_preserved": true,
+  "pronunciation": "approved-new-recordings",
+  "new_recordings_review": "approved",
+  "files": [
+    {
+      "path": "voices-pt-2026-10-15-00-00-00.rcc",
+      "bytes": 37222943,
+      "sha256": "4887e4a8c7112e6b744829c82a3476a9f322a593173d17c3b7e369fad21528ee"
+    },
+    {
+      "path": "Contents",
+      "bytes": 3484,
+      "sha256": "ed0e6b6d5a5d36227124a8e4fbde4b442981c8678bbb396d853a167136155484"
+    }
+  ]
+}

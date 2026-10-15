@@ -9,13 +9,19 @@ import io
 import json
 from pathlib import Path, PurePosixPath
 import zipfile
+from complete_voices import recording_review_status
 
 ROOT = Path(__file__).resolve().parents[2]
 GROUPS = {'alphabet': 'Caracteres', 'france': 'Topónimos',
           'geography': 'Topónimos', 'intro': 'Instruções'}
 
 
-def render_page(recordings):
+def render_page(recordings, review_status):
+    review_text = {
+        'approved': 'O professor aprovou a pronúncia e os textos destas 32 gravações.',
+        'partial': 'Algumas gravações têm aprovação registada. Consulta o estado de cada ficheiro no CSV.',
+        'pending': 'A geração destas gravações foi autorizada. A audição e a revisão pedagógica final de cada gravação continuam pendentes.'
+    }[review_status]
     sections = []
     for group_number, group in enumerate(dict.fromkeys(GROUPS.values())):
         clips = []
@@ -55,15 +61,14 @@ audio { width: 100%; max-width: 35rem; }
 <body>
 <h1>Audição das 32 novas gravações PT-PT</h1>
 <div class="instructions">
-<p>A geração destas gravações foi autorizada. A audição e a revisão pedagógica
-final de cada gravação continuam pendentes.</p>
+<p>''' + review_text + '''</p>
 <p>Ouve cada gravação e compara-a com a transcrição. Nos caracteres, avalia o nome
 explícito da letra com o acento ou a cedilha. Estes nomes não substituem fonemas.</p>
 <p>Para comunicar uma correção, indica o número e o nome do ficheiro apresentados
 no cartão, a palavra ou passagem a corrigir e a pronúncia ou o texto pretendido.</p>
 <p>Podes preencher a coluna <strong>correcoes</strong> de <a href="review.csv">review.csv</a>.
-Todas as linhas começam com o estado <code>pending</code>. Esta página não guarda
-respostas nem marca aprovações.</p>
+A coluna <strong>estado</strong> reflete as aprovações registadas. Esta página não
+guarda respostas nem marca novas aprovações.</p>
 </div>
 <nav aria-label="Grupos"><a href="#grupo-0">Caracteres</a> ·
 <a href="#grupo-1">Topónimos</a> · <a href="#grupo-2">Instruções</a></nav>
@@ -97,11 +102,12 @@ def package_review(source, output):
         if len(data) != row['bytes'] or hashlib.sha256(data).hexdigest() != row['sha256']:
             raise ValueError(f'SHA-256 ou tamanho diferente do manifesto: {name}')
         payloads[name] = data
-        writer.writerow([f'{number:02d}', name, GROUPS[path.parts[0]], row['text'], 'pending', ''])
+        writer.writerow([f'{number:02d}', name, GROUPS[path.parts[0]], row['text'], recording_review_status(manifest, row), ''])
     payloads['manifest.json'] = manifest_bytes
     payloads['NOTICE.md'] = (source / 'NOTICE.md').read_bytes()
     payloads['review.csv'] = csv_buffer.getvalue().encode('utf-8-sig')
-    payloads['index.html'] = render_page(recordings).encode('utf-8')
+    review_status = recording_review_status(manifest)
+    payloads['index.html'] = render_page(recordings, review_status).encode('utf-8')
     output.parent.mkdir(parents=True, exist_ok=True)
     # Exclusive creation preserves any review archive already prepared by a teacher.
     with output.open('xb') as stream:
@@ -112,7 +118,7 @@ def package_review(source, output):
                 info.external_attr = 0o100644 << 16
                 archive.writestr(info, data)
     return {'output': str(output.resolve()), 'recordings': len(recordings),
-            'sha256': hashlib.sha256(output.read_bytes()).hexdigest(), 'review_status': 'pending'}
+            'sha256': hashlib.sha256(output.read_bytes()).hexdigest(), 'review_status': review_status}
 
 
 def main():
