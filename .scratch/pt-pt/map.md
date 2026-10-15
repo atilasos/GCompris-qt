@@ -110,3 +110,4 @@
 
 - [22 — Eventos de teclado duplicados](issues/22-eventos-teclado-duplicados.md)
 - [24 — Categorias traduzidas na ajuda](issues/24-categorias-ajuda.md)
+- [25 — Snapshots dos recursos QML nativos](issues/25-snapshots-recursos-nativos.md)
