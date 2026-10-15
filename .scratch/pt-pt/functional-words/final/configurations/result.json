@@ -1,0 +1,174 @@
+{
+  "activity": "wordsgame",
+  "locale": "pt_PT",
+  "qml_file": "gletters/Gletters.qml",
+  "source_sha256": "eae8c3f01e094ec9d274ec92d9fa574f20cccd4b30784964ff9937e7f2620038",
+  "portuguese_catalogue_sha256": "0dfebdffcaf75f9eb9d80f0d4a209695ad1ffc029c13b617393cd6087ed14f29",
+  "private_qm_sha256": "d0bbadfe10cb82fa9d536f21aa9e0e299e8c002cf339ebc4857a7463bee763c1",
+  "case_sha256": "20b993ee0dc1809be4db15fe23338b1ac74af2bedc4823a5e3de61eb1ec315e0",
+  "private_rcc_sha256": "5a43fd183879175eea394192a90a47f447a344f4aad8823d05ee2c1c624c99c8",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-words/build/native-qml/f2c8556fd6454096ad385d11b9c2e372",
+  "version_code": 260200,
+  "network": "docker-none",
+  "timestamp_utc": "2026-10-15T20:59:15.561456+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [
+    {
+      "file": "virtual-keyboard.png",
+      "sha256": "2018dcba2158f7e39241a56e30e65c5a9899e0dee4c142739375e5d72839e1a9",
+      "bytes": 80392
+    }
+  ],
+  "passed": true,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 0,
+    "passes": 2,
+    "configurations": [
+      {
+        "uppercaseOnly": false,
+        "speed": 1,
+        "dropInterval": 89900,
+        "completedWord": "peça",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": false,
+        "speed": 2,
+        "dropInterval": 44800,
+        "completedWord": "mota",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": false,
+        "speed": 3,
+        "dropInterval": 29700,
+        "completedWord": "vi",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": false,
+        "speed": 4,
+        "dropInterval": 22100,
+        "completedWord": "rio",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": false,
+        "speed": 5,
+        "dropInterval": 17500,
+        "completedWord": "eu",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": false,
+        "speed": 6,
+        "dropInterval": 14400,
+        "completedWord": "burro",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": false,
+        "speed": 7,
+        "dropInterval": 12157,
+        "completedWord": "remo",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": false,
+        "speed": 8,
+        "dropInterval": 10450,
+        "completedWord": "voa",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": false,
+        "speed": 9,
+        "dropInterval": 9100,
+        "completedWord": "eu",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": false,
+        "speed": 10,
+        "dropInterval": 8000,
+        "completedWord": "seu",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": true,
+        "speed": 1,
+        "dropInterval": 89900,
+        "completedWord": "NADA",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": true,
+        "speed": 2,
+        "dropInterval": 44800,
+        "completedWord": "FECHA",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": true,
+        "speed": 3,
+        "dropInterval": 29700,
+        "completedWord": "VILA",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": true,
+        "speed": 4,
+        "dropInterval": 22100,
+        "completedWord": "REMO",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": true,
+        "speed": 5,
+        "dropInterval": 17500,
+        "completedWord": "BEBI",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": true,
+        "speed": 6,
+        "dropInterval": 14400,
+        "completedWord": "VEM",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": true,
+        "speed": 7,
+        "dropInterval": 12157,
+        "completedWord": "COM",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": true,
+        "speed": 8,
+        "dropInterval": 10450,
+        "completedWord": "RIR",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": true,
+        "speed": 9,
+        "dropInterval": 9100,
+        "completedWord": "FIO",
+        "restartAfterPrefix": true
+      },
+      {
+        "uppercaseOnly": true,
+        "speed": 10,
+        "dropInterval": 8000,
+        "completedWord": "MOTA",
+        "restartAfterPrefix": true
+      }
+    ]
+  }
+}

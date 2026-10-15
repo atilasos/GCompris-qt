@@ -1,0 +1,46 @@
+{
+  "activity": "wordsgame",
+  "locale": "pt_PT",
+  "qml_file": "gletters/Gletters.qml",
+  "source_sha256": "eae8c3f01e094ec9d274ec92d9fa574f20cccd4b30784964ff9937e7f2620038",
+  "portuguese_catalogue_sha256": "0dfebdffcaf75f9eb9d80f0d4a209695ad1ffc029c13b617393cd6087ed14f29",
+  "private_qm_sha256": "d0bbadfe10cb82fa9d536f21aa9e0e299e8c002cf339ebc4857a7463bee763c1",
+  "case_sha256": "cef751eea5649ded6e52d3614a0a5e39b125eeff6fbd211453f1a489c81402ef",
+  "private_rcc_sha256": "d87f8ab29c18b319c619b84eff0e618ac70e121b43e4b79092c9764dc6f15c9d",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-words/build/native-qml/ae9015bbe575402289011e144ee439b1",
+  "version_code": 260200,
+  "network": "docker-none",
+  "timestamp_utc": "2026-10-15T20:59:15.567552+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [
+    {
+      "file": "help.png",
+      "sha256": "678d17c7d5edbe00e559cde98718557adf527aec57aca500eb9fe70885ee9018",
+      "bytes": 68950
+    },
+    {
+      "file": "menu.png",
+      "sha256": "741627db475d8ef74e4cef0361a0669198b41531b1402996da8bc9cfe41bcefd",
+      "bytes": 171583
+    }
+  ],
+  "passed": true,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 0,
+    "passes": 2,
+    "controls": {
+      "activity": "wordsgame",
+      "title": "Palavras em queda",
+      "description": "Escreve as palavras em queda, antes que elas cheguem ao chão.",
+      "manual": "Escreve a palavra completa, à medida que vai caindo, antes de chegar ao chão.",
+      "helpOpened": true,
+      "levelButtons": true,
+      "returnedToMenu": true
+    }
+  }
+}
