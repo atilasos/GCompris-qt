@@ -80,6 +80,7 @@ ActivityBase {
             property int numberOfLevel: 0
             onNumberOfLevelChanged: activity.numberOfLevel = numberOfLevel
             property alias trainModel: trainModel
+            property alias train: train
             property GCAudio audioVoices: activity.audioVoices
             property alias winSound: winSound
             property alias parser: parser

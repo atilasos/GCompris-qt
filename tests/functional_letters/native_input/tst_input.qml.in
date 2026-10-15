@@ -1,0 +1,28 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+import QtQuick
+import QtTest
+import "file:@CMAKE_CURRENT_BINARY_DIR@" as Native
+Item {
+    width:200;height:100
+    property var committed: []
+    TextInput {
+        id: field
+        focus: true
+        onTextChanged: if(text !== "") { parent.committed.push(text); text = ""; }
+    }
+    Native.UnicodeInput { id: input }
+    TestCase {
+        name:"FunctionalUnicodeInputAdapter"
+        when:windowShown
+        function test_preedit_and_commit_reach_real_textinput() {
+            for(var character of "àáâãéêíóôõúçÀÁÂÃÉÊÍÓÔÕÚÇ") {
+                var before=parent.committed.length;
+                verify(input.preedit(field, character));
+                compare(parent.committed.length,before);
+                verify(input.commit(field, character));
+                compare(parent.committed.length,before+1);
+                compare(parent.committed[before],character);
+            }
+        }
+    }
+}

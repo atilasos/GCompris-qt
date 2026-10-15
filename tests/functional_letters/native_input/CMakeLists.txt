@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+cmake_minimum_required(VERSION 3.20)
+project(FunctionalInput LANGUAGES CXX)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_CXX_STANDARD 17)
+find_package(Qt6 REQUIRED COMPONENTS Core Qml Quick)
+add_library(functionalinput MODULE input.cpp)
+target_link_libraries(functionalinput PRIVATE Qt6::Core Qt6::Qml Qt6::Quick)
+configure_file(qmldir qmldir COPYONLY)
+file(MAKE_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/check")
+configure_file(tst_input.qml.in check/tst_input.qml @ONLY)
