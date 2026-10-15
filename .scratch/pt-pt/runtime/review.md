@@ -91,3 +91,19 @@ registos e a recusa de reutilização depois de alterar o RCC distribuído.
 Falta executar a implantação integrada das 203 atividades, jogar cada modo,
 concluir os níveis, testar respostas e navegação com Qt e validar Windows 10 x64.
 As lacunas sonoras e a revisão do professor permanecem nos respetivos tickets.
+
+## Rastreio integrado das 203 atividades
+
+Em 15 de outubro de 2026, a compilação Linux com as alterações até
+`9c536b4cea786311cd472045ad80f12112807d80` passou o arranque das 203 atividades
+com `pt_PT`, perfis novos e rede desativada por Docker `--network none`.
+Cada processo foi observado durante seis segundos. Quatro grupos independentes
+usaram o mesmo fingerprint das fontes e dos recursos; não houve erros QML nem
+saídas prematuras. As três falhas do rastreio inicial ficaram resolvidas.
+
+Resultados por atividade e hashes em `integrated-offline-startup.json`; logs
+locais em `build/pt-pt/integrated-offline-startup/part-*/`. O teste usa os recursos
+anteriores à adição das 32 vozes e aos ícones revistos. O áudio está silenciado
+neste rastreio. Este resultado não aprova conclusão de níveis, interação,
+pronúncia, Windows nem a revisão do professor. A matriz funcional continua
+pendente, sem conversão automática para `passed`.
