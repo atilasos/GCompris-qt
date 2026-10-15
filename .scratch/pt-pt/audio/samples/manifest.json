@@ -1,0 +1,38 @@
+{
+  "status": "awaiting-teacher-approval",
+  "piper_version": "1.8.0",
+  "model_sha256": "223a7aaca69a155c61897e8ada7c3b13bc306e16c72dbb9c2fed733e2b0927d4",
+  "config_sha256": "fe0918dfc0f1a89264a6eea4afe8e95d8e9fed3cc6c81b5c2f87fcb2b50c7320",
+  "model_name": "pt_PT-tugão-medium",
+  "config_override": false,
+  "sample_only": true,
+  "samples": [
+    {
+      "file": "polygons.wav",
+      "text": "Desenha os polígonos pedidos, clicando na grelha.",
+      "sha256": "903a49e8dc7217c7f62603dff8ef15872c9440291d0a83d53b43c0b292de9141",
+      "frames": 56320,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2
+    },
+    {
+      "file": "sixteen.wav",
+      "text": "Clica numa seta para deslocares a respetiva linha ou coluna nessa direção. Coloca todas as peças pela ordem correta. Os números nas peças podem ajudar-te.",
+      "sha256": "c8a7151f7cfa16a9da89ad58ba7fe305dbcf33449ad36b013e3c0ae4983f5243",
+      "frames": 165376,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2
+    },
+    {
+      "file": "vocabulario.wav",
+      "text": "O comboio chega à estação. O autocarro leva dezasseis crianças e dezassete mochilas.",
+      "sha256": "45f94a062d5c67407e73741e0531c4cf90e616bbc1489200a5a01b241085f3d6",
+      "frames": 92928,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2
+    }
+  ]
+}
