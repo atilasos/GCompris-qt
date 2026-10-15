@@ -102,3 +102,20 @@ A extensão `--activities-file` foi testada contra o manifesto real (203 nomes
 únicos, incluindo maiúsculas e hífens), rejeição de nomes inválidos/duplicados e
 um executável fixture que comprova a ordem e a rejeição de listas divergentes.
 A prova dos 203 arranques Windows exige um novo ensaio CI após integração.
+
+## Falha real de instalação e fronteira NSIS
+
+Actions 38805685864 confirmou os oito arranques nativos da árvore preparada
+(com marcadores, RCC PT completado e sem erros QML) e a lista de 203 atividades.
+Gerou um instalador de 825756403 bytes, mas a instalação silenciosa não colocou
+o executável no destino esperado: NSIS elimina barras `/` do argumento `/D=`
+(função `validate_filename`, código oficial v3.11, `Source/exehead/util.c`).
+
+O helper `install-candidate.ps1` cria o destino e obtém o `FullName` nativo antes
+de passar `/D=` como último argumento sem aspas adicionais; também exige
+`bin/GCompris.exe` após exit0. O teste PowerShell cobre caminho com espaços e
+`/.`, exit não zero e sucesso sem executável. Antes do build principal o CI
+compila e executa um NSIS mínimo real, usando o mesmo helper, e verifica os
+bytes sentinela no destino canónico. A execução desse teste PE e a validação
+dos 203 arranques instalados aguardam o próximo CI; a presença do primeiro EXE
+no artefacto falhado ainda não valida a instalação.

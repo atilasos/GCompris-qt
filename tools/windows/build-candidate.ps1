@@ -6,6 +6,7 @@ param(
 $ErrorActionPreference = 'Stop'
 $PSNativeCommandUseErrorActionPreference = $true
 . "$PSScriptRoot/native-check.ps1"
+. "$PSScriptRoot/install-candidate.ps1"
 $python = (Get-Command python).Source
 $source = (Resolve-Path "$PSScriptRoot/../..").Path
 $build = "$source/build/windows-candidate"
@@ -60,9 +61,7 @@ try {
     python "$PSScriptRoot/verify-package.py" $stage --activities "$source/src/activities/activities.txt" --listed "$artifacts/staged/activities.txt" --output "$artifacts/package-check.json"
     $installer = "$artifacts/GCompris-PT-PT-Windows-x64-candidate.exe"
     & "${env:ProgramFiles(x86)}/NSIS/makensis.exe" /INPUTCHARSET UTF8 "/DSTAGE=$stage" "/DSOURCE=$source" "/DOUTPUT=$installer" "$PSScriptRoot/candidate.nsi"
-    $installed = "$build/installed"
-    $installProcess = Start-Process $installer -ArgumentList '/S',"/D=$installed" -PassThru -Wait
-    if ($installProcess.ExitCode -ne 0) { throw "Installer exited $($installProcess.ExitCode)" }
+    $installed = Invoke-GComprisCandidateInstall -Installer $installer -Destination "$build/installed"
     # Independent installed processes in the same initially fresh CI account.
     Invoke-GComprisNativeCheck -InstallRoot $installed -Output "$artifacts/installed" -Python $python -ActivitiesFile "$source/src/activities/activities.txt"
     python "$PSScriptRoot/verify-package.py" $installed --activities "$source/src/activities/activities.txt" --listed "$artifacts/installed/activities.txt" --output "$artifacts/installer-check.json"
