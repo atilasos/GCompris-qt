@@ -17,6 +17,9 @@ um instalador para Windows 10, com permissões administrativas disponíveis na
 escola. O instalador inclui todos os recursos para jogar sem Internet, incluindo
 num computador que nunca descarregou esses recursos.
 
+O professor confirmou Windows 10 de 64 bits e dispõe de um computador Windows
+adicional para testar o instalador antes da execução na escola.
+
 ## Critérios de aceitação
 
 - Menus, instruções, ajuda, mensagens, palavras, respostas aceites e vozes usam

@@ -28,7 +28,7 @@ var words
 function start(items_) {
     items = items_
     items.score.currentSubLevel = 0
-    var locale = items.locale == "system" ? "$LOCALE" : items.locale
+    var locale = GCompris.ApplicationInfo.getVoicesLocale(items.locale)
 
     items.wordlist.loadFromFile(GCompris.ApplicationInfo.getLocaleFilePath(
             dataSetUrl + "default-"+locale+".json"));
