@@ -25681,7 +25681,7 @@ msgstr "Balança até 100."
 #: activities/scalesboard_weight/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Balance using the International System of Units"
-msgstr "Balança que usam o Sistema Internacional de Unidades"
+msgstr "Balança que usa o Sistema Internacional de Unidades"
 
 #. Help title
 #: activities/scalesboard_weight/ActivityInfo.qml:17
