@@ -1,0 +1,538 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-counting-dice/build/counting-current/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-counting-dice/.scratch/pt-pt/functional-counting/.native-qml-cfa3dd6f0d43441f918c13e2106f0b2e/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-counting-dice/.scratch/pt-pt/functional-counting/.native-qml-cfa3dd6f0d43441f918c13e2106f0b2e/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-counting-dice/.scratch/pt-pt/functional-counting/.native-qml-cfa3dd6f0d43441f918c13e2106f0b2e/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-counting-dice/.scratch/pt-pt/functional-counting/.native-qml-cfa3dd6f0d43441f918c13e2106f0b2e/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-counting-dice/.scratch/pt-pt/functional-counting/.native-qml-cfa3dd6f0d43441f918c13e2106f0b2e/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-counting-dice/.scratch/pt-pt/functional-counting/.native-qml-cfa3dd6f0d43441f918c13e2106f0b2e/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-counting-dice/.scratch/pt-pt/functional-counting/.native-qml-cfa3dd6f0d43441f918c13e2106f0b2e/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-counting-dice/.scratch/pt-pt/functional-counting/.native-qml-cfa3dd6f0d43441f918c13e2106f0b2e/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-counting-dice/.scratch/pt-pt/functional-counting/.native-qml-cfa3dd6f0d43441f918c13e2106f0b2e/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity enumerate/Enumerate.qml at level -1
+qml: enumerate/Enumerate.qml enumerate/Enumerate.qml
+No audio device detected
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+load configuration for: "enumerate"
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+virtualkeyboard set to:  true
+load configuration for: "enumerate"
+save configuration for: "enumerate"
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+load configuration for: "enumerate"
+qml: COUNTING_PUZZLE 1 1 1 1
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 1 2 2
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 1 3 1
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 1 4 2
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_LEVEL_COMPLETED 1 1
+qml: COUNTING_PUZZLE 1 2 1 3
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 2 2 3
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 2 3 3
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 2 4 2
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_LEVEL_COMPLETED 1 2
+qml: COUNTING_PUZZLE 1 3 1 4
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 3 2 3
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 3 3 4
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 3 4 2
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_LEVEL_COMPLETED 1 3
+qml: COUNTING_PUZZLE 1 4 1 4
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 4 2 6
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 4 3 3
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 4 4 3
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_LEVEL_COMPLETED 1 4
+qml: COUNTING_PUZZLE 1 5 1 4
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 5 2 6
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 5 3 6
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 5 4 5
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_LEVEL_COMPLETED 1 5
+qml: COUNTING_PUZZLE 1 6 1 3
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 6 2 4
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 6 3 5
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 6 4 4
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_LEVEL_COMPLETED 1 6
+qml: COUNTING_PUZZLE 1 7 1 8
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 7 2 4
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 7 3 5
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 7 4 8
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 7 5 6
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_LEVEL_COMPLETED 1 7
+qml: COUNTING_PUZZLE 1 8 1 8
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 8 2 8
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 8 3 6
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 8 4 9
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 8 5 6
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_LEVEL_COMPLETED 1 8
+qml: COUNTING_PUZZLE 1 9 1 10
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 9 2 11
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 9 3 7
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 9 4 8
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 9 5 6
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_LEVEL_COMPLETED 1 9
+qml: COUNTING_PUZZLE 1 10 1 13
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 10 2 12
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 10 3 14
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 10 4 8
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 10 5 11
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_LEVEL_COMPLETED 1 10
+qml: COUNTING_PUZZLE 1 11 1 17
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 11 2 9
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 11 3 16
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 11 4 14
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 11 5 17
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_LEVEL_COMPLETED 1 11
+qml: COUNTING_PUZZLE 1 12 1 8
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 12 2 14
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 12 3 10
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 12 4 16
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 12 5 8
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_LEVEL_COMPLETED 1 12
+qml: COUNTING_PUZZLE 1 13 1 16
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 13 2 21
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 13 3 16
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 13 4 18
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 13 5 9
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_LEVEL_COMPLETED 1 13
+qml: COUNTING_PUZZLE 1 14 1 23
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 14 2 16
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 14 3 12
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 14 4 8
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_PUZZLE 1 14 5 13
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: COUNTING_LEVEL_COMPLETED 1 14
+qml: NATIVE_COUNTING_RESULT {"failures":0,"passes":2,"observations":[{"mode":1,"level":1,"round":1,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/banana.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","count":1}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","from":[752,401],"to":[672,421]}},{"mode":1,"level":1,"round":2,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","count":2}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","from":[401,147],"to":[451,167]}},{"mode":1,"level":1,"round":3,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/grapes.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","count":1}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","from":[428,434],"to":[478,454]}},{"mode":1,"level":1,"round":4,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","count":2}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","from":[587,158],"to":[637,178]}},{"mode":1,"level":2,"round":1,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","count":3}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","from":[570,175],"to":[620,195]}},{"mode":1,"level":2,"round":2,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","count":3}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","from":[484,203],"to":[534,223]}},{"mode":1,"level":2,"round":3,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","count":3}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","from":[573,69],"to":[623,89]}},{"mode":1,"level":2,"round":4,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":2}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","from":[407,510],"to":[457,530]}},{"mode":1,"level":3,"round":1,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","count":4}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","from":[265,235],"to":[315,255]}},{"mode":1,"level":3,"round":2,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","count":3}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","from":[489,425],"to":[539,445]}},{"mode":1,"level":3,"round":3,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","count":4}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","from":[571,403],"to":[621,423]}},{"mode":1,"level":3,"round":4,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","count":2}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","from":[509,159],"to":[559,179]}},{"mode":1,"level":4,"round":1,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","count":1}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","from":[478,179],"to":[528,199]}},{"mode":1,"level":4,"round":2,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","count":3}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","from":[619,517],"to":[669,537]}},{"mode":1,"level":4,"round":3,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":2}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","from":[233,322],"to":[283,342]}},{"mode":1,"level":4,"round":4,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":1}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","from":[358,331],"to":[408,351]}},{"mode":1,"level":5,"round":1,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/plum.svg","count":1}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/plum.svg","from":[286,370],"to":[336,390]}},{"mode":1,"level":5,"round":2,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","count":3}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","from":[687,390],"to":[737,410]}},{"mode":1,"level":5,"round":3,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":2}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","from":[493,315],"to":[543,335]}},{"mode":1,"level":5,"round":4,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","count":2}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","from":[239,311],"to":[289,331]}},{"mode":1,"level":6,"round":1,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","count":1}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","from":[195,220],"to":[245,240]}},{"mode":1,"level":6,"round":2,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":1}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","from":[247,236],"to":[297,256]}},{"mode":1,"level":6,"round":3,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":3}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","from":[669,83],"to":[719,103]}},{"mode":1,"level":6,"round":4,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","count":1}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","from":[312,178],"to":[362,198]}},{"mode":1,"level":7,"round":1,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":3}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","from":[254,437],"to":[304,457]}},{"mode":1,"level":7,"round":2,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","count":1}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","from":[694,414],"to":[744,434]}},{"mode":1,"level":7,"round":3,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","count":2}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","from":[310,529],"to":[360,549]}},{"mode":1,"level":7,"round":4,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":3}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","from":[464,545],"to":[514,565]}},{"mode":1,"level":7,"round":5,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/plum.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","count":1}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","from":[532,398],"to":[582,418]}},{"mode":1,"level":8,"round":1,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/plum.svg","count":4}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/plum.svg","from":[433,69],"to":[483,89]}},{"mode":1,"level":8,"round":2,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":4}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","from":[210,184],"to":[260,204]}},{"mode":1,"level":8,"round":3,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/plum.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":1}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","from":[335,301],"to":[385,321]}},{"mode":1,"level":8,"round":4,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":2}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","from":[335,507],"to":[385,527]}},{"mode":1,"level":8,"round":5,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","count":4}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","from":[534,475],"to":[584,495]}},{"mode":1,"level":9,"round":1,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":3}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","from":[365,440],"to":[415,460]}},{"mode":1,"level":9,"round":2,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","count":5},{"source":"qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","count":5}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","from":[449,45],"to":[499,65]}},{"mode":1,"level":9,"round":3,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","count":5},{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","count":1}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","from":[589,73],"to":[639,93]}},{"mode":1,"level":9,"round":4,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":5},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":1}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","from":[262,284],"to":[312,304]}},{"mode":1,"level":9,"round":5,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","count":3}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","from":[588,490],"to":[638,510]}},{"mode":1,"level":10,"round":1,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","count":6},{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":5}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","from":[337,451],"to":[387,471]}},{"mode":1,"level":10,"round":2,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":5}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","from":[451,47],"to":[501,67]}},{"mode":1,"level":10,"round":3,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":6},{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","count":4}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","from":[277,489],"to":[327,509]}},{"mode":1,"level":10,"round":4,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":3}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","from":[633,326],"to":[683,346]}},{"mode":1,"level":10,"round":5,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","count":4}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","from":[464,433],"to":[514,453]}},{"mode":1,"level":11,"round":1,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":6},{"source":"qrc:/gcompris/src/activities/enumerate/resource/plum.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","count":6}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","from":[670,532],"to":[720,552]}},{"mode":1,"level":11,"round":2,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","count":2}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","from":[555,124],"to":[605,144]}},{"mode":1,"level":11,"round":3,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","count":5},{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/plum.svg","count":6}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/plum.svg","from":[405,514],"to":[455,534]}},{"mode":1,"level":11,"round":4,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":6},{"source":"qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","count":4}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","from":[709,387],"to":[629,407]}},{"mode":1,"level":11,"round":5,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/plum.svg","count":6},{"source":"qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":6}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","from":[447,364],"to":[497,384]}},{"mode":1,"level":12,"round":1,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/plum.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","count":3}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","from":[306,135],"to":[356,155]}},{"mode":1,"level":12,"round":2,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","count":3}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","from":[337,526],"to":[387,546]}},{"mode":1,"level":12,"round":3,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","count":5},{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":2}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","from":[536,470],"to":[586,490]}},{"mode":1,"level":12,"round":4,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","count":7},{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","count":4}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","from":[726,57],"to":[646,77]}},{"mode":1,"level":12,"round":5,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","count":1}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","from":[369,475],"to":[419,495]}},{"mode":1,"level":13,"round":1,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":8},{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","count":4}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","from":[699,203],"to":[749,223]}},{"mode":1,"level":13,"round":2,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":6},{"source":"qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","count":8}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","from":[489,299],"to":[539,319]}},{"mode":1,"level":13,"round":3,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/plum.svg","count":7},{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":5},{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":3}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","from":[327,432],"to":[377,452]}},{"mode":1,"level":13,"round":4,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","count":8},{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","count":5}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","from":[526,136],"to":[576,156]}},{"mode":1,"level":13,"round":5,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/banana.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/banana.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":1}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","from":[477,92],"to":[527,112]}},{"mode":1,"level":14,"round":1,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","count":8},{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","count":8},{"source":"qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","count":4}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","from":[761,194],"to":[681,214]}},{"mode":1,"level":14,"round":2,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/peach.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/apple.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/peach.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/apple.svg","count":5},{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","count":5}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","from":[299,181],"to":[349,201]}},{"mode":1,"level":14,"round":3,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/lemon.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","count":6},{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":1}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","from":[418,118],"to":[468,138]}},{"mode":1,"level":14,"round":4,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/plum.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","qrc:/gcompris/src/activities/enumerate/resource/cherries.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/plum.svg","count":4},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":2},{"source":"qrc:/gcompris/src/activities/enumerate/resource/strawberry.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","count":1}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/cherries.svg","from":[586,356],"to":[636,376]}},{"mode":1,"level":14,"round":5,"pictures":["qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","qrc:/gcompris/src/activities/enumerate/resource/orange.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg","qrc:/gcompris/src/activities/enumerate/resource/pear.svg"],"answers":[{"source":"qrc:/gcompris/src/activities/enumerate/resource/grapes.svg","count":5},{"source":"qrc:/gcompris/src/activities/enumerate/resource/orange.svg","count":1},{"source":"qrc:/gcompris/src/activities/enumerate/resource/watermelon.svg","count":3},{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","count":4}],"drag":{"source":"qrc:/gcompris/src/activities/enumerate/resource/pear.svg","from":[564,356],"to":[614,376]}}]}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs

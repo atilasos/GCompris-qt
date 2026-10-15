@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "activity": "smallnumbers2",
+  "questions": 576,
+  "modes": [
+    "dot",
+    "image",
+    "number",
+    "roman"
+  ],
+  "result_sha256": "666ec33b4cd1b1572d2de40c0f1ac3757243c573e4dd9e1a33b447ed143505e7",
+  "case_sha256": "cdd3948d0ae54c56d81f12ea8eee019ea68e9b1546668e79b3051c03e973ee5f",
+  "scope": "Observed counts and recorded native actions only; no physical audio or Windows acceptance."
+}

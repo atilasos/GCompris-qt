@@ -1,0 +1,15 @@
+    function dragFruit() {
+        var image=itemList.itemAt(itemList.count-1);
+        var start=image.mapToItem(activityBackground,image.width/2,image.height/2);
+        var x=start.x>activityBackground.width-100?start.x-65:start.x+65;
+        mousePress(activityBackground,start.x,start.y,Qt.LeftButton,Qt.NoModifier,20);
+        mouseMove(activityBackground,start.x+15,start.y+15,20,Qt.LeftButton);
+        mouseMove(activityBackground,start.x+30,start.y+30,20,Qt.LeftButton);
+        mouseMove(activityBackground,x,start.y+35,40,Qt.LeftButton);
+        ensure(image.Drag.active,"A real drag owns the intended fruit");
+        mouseRelease(activityBackground,x,start.y+35,Qt.LeftButton,Qt.NoModifier,20);
+        wait(300);
+        var end=image.mapToItem(activityBackground,image.width/2,image.height/2);
+        ensure(Math.abs(end.x-start.x)+Math.abs(end.y-start.y)>15,"Fruit has been reorganized by input");
+        return {source:String(image.source),from:[start.x,start.y],to:[end.x,end.y]};
+    }
