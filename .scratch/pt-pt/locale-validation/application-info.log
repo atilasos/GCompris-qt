@@ -1,0 +1,26 @@
+********* Start testing of ApplicationInfoTest *********
+Config: Using QtTest library 6.10.2, Qt 6.10.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 15.2.0), ubuntu 26.04
+PASS   : ApplicationInfoTest::initTestCase()
+PASS   : ApplicationInfoTest::LocaleTest(British English)
+PASS   : ApplicationInfoTest::WindowTest(dummy1)
+PASS   : ApplicationInfoTest::systemVoicesLocaleTest(C fallback)
+PASS   : ApplicationInfoTest::systemVoicesLocaleTest(Portugal)
+PASS   : ApplicationInfoTest::systemVoicesLocaleTest(United States)
+PASS   : ApplicationInfoTest::systemVoicesLocaleTest(United Kingdom)
+PASS   : ApplicationInfoTest::systemVoicesLocaleTest(Brazil)
+PASS   : ApplicationInfoTest::systemVoicesLocaleTest(France)
+PASS   : ApplicationInfoTest::getVoicesLocaleTest(en_US)
+PASS   : ApplicationInfoTest::getVoicesLocaleTest(pt_BR)
+PASS   : ApplicationInfoTest::getVoicesLocaleTest(pt_PT)
+PASS   : ApplicationInfoTest::getVoicesLocaleTest(fr_FR)
+PASS   : ApplicationInfoTest::getAudioFilePathForLocaleTest(absolutePath_en)
+PASS   : ApplicationInfoTest::getAudioFilePathForLocaleTest(absolutePath_pt_BR)
+PASS   : ApplicationInfoTest::getAudioFilePathForLocaleTest(absolute_fr)
+PASS   : ApplicationInfoTest::getAudioFilePathForLocaleTest(relative_fr)
+PASS   : ApplicationInfoTest::cleanupTestCase()
+Totals: 18 passed, 0 failed, 0 skipped, 0 blacklisted, 163ms
+********* Finished testing of ApplicationInfoTest *********
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.

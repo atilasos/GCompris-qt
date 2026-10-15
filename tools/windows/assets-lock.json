@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "audio": "ogg",
+  "locale": "pt",
+  "files": [
+    {
+      "path": "Contents",
+      "url": "https://cdn.kde.org/gcompris/data3/Contents",
+      "sha256": "48dceb5c4f548cb79aa34125e5ac34e709b76f8613f5bcc166bb2dd97de7c399",
+      "bytes": 201
+    },
+    {
+      "path": "backgroundMusic/Contents",
+      "url": "https://cdn.kde.org/gcompris/data3/backgroundMusic/Contents",
+      "sha256": "71c12726969fb9cdfbf0b0216fe3d7fad70f184fbd9111799a493afac3e4907a",
+      "bytes": 234
+    },
+    {
+      "path": "backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc",
+      "url": "https://cdn.kde.org/gcompris/data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc",
+      "sha256": "66187620c25dffefec8b243b66714af85235b77efaf98b6a7a4ce15c7b3bc852",
+      "bytes": 16582790
+    },
+    {
+      "path": "full-ogg-2026-09-23-18-56-49.rcc",
+      "url": "https://cdn.kde.org/gcompris/data3/full-ogg-2026-09-23-18-56-49.rcc",
+      "sha256": "1897ce40d9114cc467db8389a75acfe1d095b36fdbd7be98e537284dc0134568",
+      "bytes": 756342583
+    },
+    {
+      "path": "voices-ogg/Contents",
+      "url": "https://cdn.kde.org/gcompris/data3/voices-ogg/Contents",
+      "sha256": "167da7498e96e3ae148cd48ed17e48cc6c24c9e9acede22289530ebadced8bc7",
+      "bytes": 3484
+    },
+    {
+      "path": "voices-ogg/voices-pt-2026-09-23-18-56-49.rcc",
+      "url": "https://cdn.kde.org/gcompris/data3/voices-ogg/voices-pt-2026-09-23-18-56-49.rcc",
+      "sha256": "522d05bcf421e3cee2fdebf7ba9469ff294a69b61d629464283855297e006b8f",
+      "bytes": 36864646
+    },
+    {
+      "path": "words/Contents",
+      "url": "https://cdn.kde.org/gcompris/data3/words/Contents",
+      "sha256": "dbec314d2c1abc25132135e794c5e1ff06afae89ddda6dc86395435008294574",
+      "bytes": 69
+    },
+    {
+      "path": "words/words-webp-2022-04-10-21-14-15.rcc",
+      "url": "https://cdn.kde.org/gcompris/data3/words/words-webp-2022-04-10-21-14-15.rcc",
+      "sha256": "1e032186d2d900da803958648c8882fffe02a29295b55af10f8dd7b8061febb3",
+      "bytes": 43138043
+    }
+  ]
+}
