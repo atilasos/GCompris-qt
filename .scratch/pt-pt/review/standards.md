@@ -1,0 +1,9 @@
+Standards review against `1d49ed1b397caca8243bd2b6bbc427a112219bda...396113909`.
+
+- **P1 correctness, Android asset build** — `CMakeLists.txt:370–381` builds `pt_audio_rcc_inventory` with the target toolchain, then `complete_voices.py:27–30` executes it on the build host. Android defaults to OGG, and `tools/android_build_embedded_apk.sh:96` calls `make getAssets`. When Portuguese assets are included, this attempts to execute an Android ARM binary on the host and fails. Build a host-native inventory utility or separate host-side resource completion from the cross-compiled targets. This is source-traced; no Android build was run.
+
+- **P3 documented tracker violation** — `docs/agents/issue-tracker.md:30–31` requires resolved results to be referenced in the map decisions. `.scratch/pt-pt/issues/10-teste-locale-default.md:4` and `14-icones-gramatica.md:4` are resolved, but `.scratch/pt-pt/map.md:45–46` still reports the locale failure and has no result reference for either resolution; task 14 is absent from its index. Update the map to point to both answers and replace the obsolete locale finding.
+
+- **P3 judgment, possible Duplicated Code** — `tools/windows/build-candidate.ps1:58–78,86–101` repeats the profile/environment/firewall/process lifecycle for staged and installed smoke checks. The blocks have already diverged: only the first initializes QPA, media, QML and plugin environment variables, while both restore only PATH and AppData. Consequently the second silently depends on environment left by the first, and dot-sourcing the script retains those overrides. Extract one parameterized smoke function that explicitly initializes and restores its full environment.
+
+Reviewed AGENTS.md, HACKING, README/README.md, REUSE.toml and docs/agents rules; no GLOSSARY.md or docs/adr exists. Formatting/licensing metadata checks that tooling can enforce were excluded. No additional meaningful hard coding-standard violations found.
