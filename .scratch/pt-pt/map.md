@@ -180,3 +180,5 @@ a aceitação global dos 203 jogos.
 - [48 — Ligar pontos e desenhar](issues/48-ligar-pontos-desenhar.md)
 
 - [49 — Torres de Hanói](issues/49-torres-hanoi.md)
+
+- [50 — Labirintos](issues/50-labirintos.md)
