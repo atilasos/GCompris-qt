@@ -14,7 +14,7 @@ foram alterados nesta tarefa.
 
 ## Prova final e limites
 
-`final/summary.json` liga os dez casos:
+`verified/summary.json` liga os dez casos:
 
 | Atividade | Âmbito ensaiado |
 | --- | --- |
@@ -64,3 +64,9 @@ conserva o manifesto e hashes dos recursos, executável, QML, catálogo, caso e
 RCC privado. O snapshot usado ficou em `build/numpad-resource-snapshot`, fora
 do Git. Os ensaios foram nativos Linux com QtTest; não são audição, aceitação
 Windows nem validação interativa das 203 atividades.
+
+`final/` conserva o primeiro percurso de dez casos. `verified/` repete os dez
+com o launcher atualizado após sincronizar 75f56f71f: todos passaram, os hashes
+QML e do launcher coincidem com as fontes entregues, e o mesmo manifesto
+selado foi conservado. A rede não foi bloqueada nestes casos; a validação
+offline e Windows continua nos respetivos percursos de implantação.

@@ -21,5 +21,5 @@ as derivadas de balanças e as fases de resultado de adição/subtração decima
 três controlos de fase inativa completam os dez casos. Escape/Ctrl+W continuam
 a alcançar o menu; vírgula PT e normalização de ponto verificadas. Provas,
 comando de repetição e limites em `../numpad-consumers/README.md` e
-`../numpad-consumers/final/summary.json`. Não é conclusão de níveis nem prova
+`../numpad-consumers/verified/summary.json`. Não é conclusão de níveis nem prova
 Windows. NumPad global e Algebra foram preservados.
