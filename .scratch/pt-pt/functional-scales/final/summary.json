@@ -1,0 +1,123 @@
+{
+  "passed": true,
+  "native_cases": [
+    {
+      "activity": "scalesboard",
+      "group": "controls",
+      "result": "controls/scalesboard/result.json",
+      "result_sha256": "af65d76bb4b42f63745a20eb075c3b47797b47994888088f0494ecf584fabd57",
+      "case_sha256": "b3f7ef53360706ccc374546eef615e8ced053fb7c138ac5ab33d842cfdf986f4"
+    },
+    {
+      "activity": "scalesboard_weight",
+      "group": "controls",
+      "result": "controls/scalesboard_weight/result.json",
+      "result_sha256": "a67f6fa05ec679c2a945c0db09994f8a3fa6566ecf172a92ac33dd194650f2e8",
+      "case_sha256": "b3f7ef53360706ccc374546eef615e8ced053fb7c138ac5ab33d842cfdf986f4"
+    },
+    {
+      "activity": "scalesboard_weight_avoirdupois",
+      "group": "controls",
+      "result": "controls/scalesboard_weight_avoirdupois/result.json",
+      "result_sha256": "a1018d0728be5965d4ec40ebb415297dafece2fd7ac19edaac7a134bad7d4574",
+      "case_sha256": "b3f7ef53360706ccc374546eef615e8ced053fb7c138ac5ab33d842cfdf986f4"
+    },
+    {
+      "activity": "scalesboard",
+      "group": "gameplay",
+      "result": "gameplay/scalesboard/result.json",
+      "result_sha256": "c61b56fe459e6b14283ab7ce47463720065d9c3293a3d3b4181c182046d27d77",
+      "case_sha256": "f4e8fda7cf635300071d43b4ef8016bf50dc0cb80a98e36fd5a93b9521d8cb5f",
+      "passed": true,
+      "puzzles": 223,
+      "levels": 52,
+      "rejected": 52,
+      "real_drags": 1365,
+      "auditor_sha256": "40b2d6a5a44f08ea79da51f44f191c2fd85e90330c88a5598dc80757e4acb5ae",
+      "hidden_puzzles": 80,
+      "right_pan_solutions": 56
+    },
+    {
+      "activity": "scalesboard_weight",
+      "group": "gameplay",
+      "result": "gameplay/scalesboard_weight/result.json",
+      "result_sha256": "b218e6f866f112c4093b2419d4e998894ae9f62a8d728c503b86767947022b97",
+      "case_sha256": "2a235e29b7d1ac7c4260b0a4fade7a3ab47275acb2aa163322bab62375445ac7",
+      "passed": true,
+      "puzzles": 222,
+      "levels": 45,
+      "rejected": 45,
+      "real_drags": 1407,
+      "auditor_sha256": "40b2d6a5a44f08ea79da51f44f191c2fd85e90330c88a5598dc80757e4acb5ae",
+      "hidden_puzzles": 89,
+      "right_pan_solutions": 38
+    },
+    {
+      "activity": "scalesboard_weight_avoirdupois",
+      "group": "gameplay",
+      "result": "gameplay/scalesboard_weight_avoirdupois/result.json",
+      "result_sha256": "0fbe8e5da22755e2574d799fb2d7d0ff700efd31dde8b5bf394e6cbd683d2d1b",
+      "case_sha256": "601ac757b547c792f3ed7fa54783ad7f66a5c804461acc03566f3764dd4cc476",
+      "passed": true,
+      "puzzles": 221,
+      "levels": 45,
+      "rejected": 45,
+      "real_drags": 1246,
+      "auditor_sha256": "40b2d6a5a44f08ea79da51f44f191c2fd85e90330c88a5598dc80757e4acb5ae",
+      "hidden_puzzles": 90,
+      "right_pan_solutions": 38
+    },
+    {
+      "activity": "scalesboard",
+      "group": "physical",
+      "result": "physical/scalesboard/result.json",
+      "result_sha256": "21e82c20bbb6cb38c9f9d719bc41ce67c0903b3c15b6fa52318a5175f72c202c",
+      "case_sha256": "18eec477c3f373eef329c2818f061fc5cfddbafa68c36271750bb982fc8ca80c",
+      "passed": true,
+      "puzzles": 6,
+      "levels": 3,
+      "rejected": 3,
+      "real_drags": 21,
+      "auditor_sha256": "40b2d6a5a44f08ea79da51f44f191c2fd85e90330c88a5598dc80757e4acb5ae"
+    },
+    {
+      "activity": "scalesboard_weight",
+      "group": "physical",
+      "result": "physical/scalesboard_weight/result.json",
+      "result_sha256": "5dd1628c848877d9308fcbacb923d85fff1c939f6c4218877da87f95c36eb1e2",
+      "case_sha256": "18eec477c3f373eef329c2818f061fc5cfddbafa68c36271750bb982fc8ca80c",
+      "passed": true,
+      "puzzles": 9,
+      "levels": 3,
+      "rejected": 3,
+      "real_drags": 30,
+      "auditor_sha256": "40b2d6a5a44f08ea79da51f44f191c2fd85e90330c88a5598dc80757e4acb5ae"
+    },
+    {
+      "activity": "scalesboard_weight_avoirdupois",
+      "group": "physical",
+      "result": "physical/scalesboard_weight_avoirdupois/result.json",
+      "result_sha256": "19e87c3e40326f2f4679beb9774c580d45204c61df41517e80cd12acb37fdd3c",
+      "case_sha256": "18eec477c3f373eef329c2818f061fc5cfddbafa68c36271750bb982fc8ca80c",
+      "passed": true,
+      "puzzles": 9,
+      "levels": 3,
+      "rejected": 3,
+      "real_drags": 32,
+      "auditor_sha256": "40b2d6a5a44f08ea79da51f44f191c2fd85e90330c88a5598dc80757e4acb5ae"
+    }
+  ],
+  "complete_gameplay": {
+    "puzzles": 666,
+    "levels": 142,
+    "rejected": 142,
+    "real_drags": 4018
+  },
+  "physical_preference_scope": "First three levels per activity only; 24 additional puzzles. Not a second 666-puzzle campaign.",
+  "resource_manifest_sha256": "de5136826745bb10ec107cb2ee1b2377c4c7bed167b8bcfe0fe10866128b46fa",
+  "snapshot_files": 269,
+  "runtime_uid": 1000,
+  "runtime_gid": 1000,
+  "offline_image_id": "sha256:28bd5fe8b56d1bd048e5babf5b10710ebe0bae67db86916198a6eec434943f8b",
+  "scope": "Native Qt Linux PT-PT offline; Windows, physical devices/audio and global teacher acceptance pending."
+}
