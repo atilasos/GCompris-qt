@@ -38,3 +38,16 @@ reiniciam a seleção e recebem Espaço corretamente.
 A aprovação global Linux, Windows, teclado físico/teclas mortas, audição e revisão
 docente continuam pendentes. O tracker global e a matriz são atualizados pelo
 integrador. Nenhuma escrita foi feita no build principal.
+
+## Revisão de cobertura nativa de gletters
+
+A revisão detetou que a descrição de erros de acentos excedia a evidência inicial.
+O caso agora rejeita explicitamente omissão de acento/cedilha nas 12 formas PT,
+nos dois modos, sem outra letra ativa que pudesse aceitar a resposta. A etapa
+red confirma a lacuna anterior; a green repete os 26 percursos com 425 certas e
+252 erradas. Os restantes casos não mudaram. Evidência inicial preservada e
+[novo relatório com hashes](../functional-letters/review-accent.md).
+
+A sugestão de partilhar o pequeno helper input foi avaliada: mantém-se local
+para preservar os IDs/asserções lexicais dos fragmentos injetados, sem ampliar
+o launcher. O plugin de eventos IME continua partilhado e passou o self-test.

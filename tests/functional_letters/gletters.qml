@@ -7,6 +7,7 @@ TestCase {
     property int correctInputs: 0
     property int wrongInputs: 0
     property var typedCharacters: ({})
+    property var rejectedUnaccented: ({mixed: {}, uppercase: {}})
 
     property var unicodeInput: null
     function input(text) {
@@ -65,6 +66,33 @@ TestCase {
                         wrongInputs++;
                     }
                 }
+                // Independent spelling pairs: omitting an accent or cedilla
+                // must not answer a different letter. An unrelated active
+                // unaccented target could legitimately accept the same key.
+                var plainLetters = {"à":"a", "á":"a", "â":"a", "ã":"a",
+                    "é":"e", "ê":"e", "í":"i", "ó":"o", "ô":"o",
+                    "õ":"o", "ú":"u", "ç":"c"};
+                var accent = target.toLowerCase();
+                var mode = uppercaseOnly ? "uppercase" : "mixed";
+                if(plainLetters[accent] !== undefined && !rejectedUnaccented[mode][accent]) {
+                    var plain = plainLetters[accent];
+                    if(!uppercaseOnly && target === target.toUpperCase()) plain = plain.toUpperCase();
+                    var activeMatch = false;
+                    for(var active = 0; active < Activity.droppedWords.length; active++) {
+                        var activeText = Activity.droppedWords[active].text;
+                        if(uppercaseOnly ? activeText.toUpperCase() === plain.toUpperCase() : activeText === plain)
+                            activeMatch = true;
+                    }
+                    if(!activeMatch) {
+                        input(plain);
+                        compare(items.score.currentSubLevel, question, "Accent omission must be rejected: " + target);
+                        verify(!word.wonState, "Accented target remains unanswered");
+                        rejectedUnaccented[mode][accent] = true;
+                        wrongInputs++;
+                        console.log("NATIVE_UNACCENTED_REJECT", JSON.stringify({mode:mode,
+                            target:target, input:plain, level:level+1, score:items.score.currentSubLevel}));
+                    }
+                }
                 var submitted = uppercaseOnly ? target.toLowerCase() : target;
                 input(submitted);
                 tryCompare(items.score, "currentSubLevel", question + 1, 1000);
@@ -84,6 +112,10 @@ TestCase {
         runMode(true);
         for(var character of "àáâãéêíóôõúç") verify(typedCharacters[character] === true, character);
         compare(correctInputs, 424);
+        for(var mode of ["mixed", "uppercase"])
+            for(var accent of "àáâãéêíóôõúç")
+                verify(rejectedUnaccented[mode][accent] === true,
+                       mode + ": reject unaccented " + accent);
         // Exercise the minimum speed configuration through the same lifecycle.
         activityBackground.stop();
         activity.speedSetting = 1;
@@ -99,6 +131,6 @@ TestCase {
     function cleanupTestCase() {
         console.log("NATIVE_LETTERS_RESULT", JSON.stringify({failures:qtest_results.failCount,
             passes:qtest_results.passCount, completed:completed, correctInputs:correctInputs,
-            wrongInputs:wrongInputs, typedCharacters:Object.keys(typedCharacters)}));
+            wrongInputs:wrongInputs, rejectedUnaccented:rejectedUnaccented, typedCharacters:Object.keys(typedCharacters)}));
     }
 }

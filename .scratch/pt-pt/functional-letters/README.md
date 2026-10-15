@@ -4,7 +4,7 @@ Resultado global de aceitação: **pending**. Os quinze casos nativos delimitado
 neste relatório passaram; isto não aprova os restantes jogos, Windows ou a revisão
 linguística e pedagógica.
 
-## Cobertura demonstrada
+## Cobertura da execução inicial
 
 | Atividade | Níveis/modos concluídos | Respostas certas | Respostas erradas rejeitadas |
 | --- | --- | --- | --- |
@@ -27,6 +27,16 @@ gletters tem respostas certas/erradas nas dez velocidades; os quatro têm
 verificação do percurso de vozes. Os modos são aplicados como fixtures de
 configuração pelo ciclo normal de reinício: não se afirma cobrir os gestos de
 cada opção no diálogo de configuração.
+
+## Atualização após revisão de cobertura
+
+A afirmação inicial de erros de acentos em gletters era excessiva: o caso inicial
+não submetia a forma sem acento. A [revisão nativa](review-accent.md) acrescenta
+24 tentativas, doze por modo. O novo caso passou com 425 respostas certas e
+252 erradas; o composto por atividade é agora 1 037 certas/306 erradas e 74
+percursos. Os restantes catorze casos mantêm a evidência histórica. O índice
+inicial e as suas contagens permanecem intactos; o novo índice é
+[review-accent-index.json](review-accent-index.json).
 
 ## Evidência e reprodução
 

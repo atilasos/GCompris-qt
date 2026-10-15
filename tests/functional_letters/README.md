@@ -30,7 +30,8 @@ log, hashes de QML/RCC/binário/launcher, resultado e capturas aplicáveis.
 ## Casos
 
 - `gletters.qml`: completa os 13 níveis nos modos misto e apenas maiúsculas;
-  testa rejeições, igualdade de maiúsculas/minúsculas, acentos e cedilha,
+  testa rejeições, igualdade de maiúsculas/minúsculas, omissão das 12 formas
+  com acentos/cedilha em ambos os modos,
   transições automáticas e uma resposta na velocidade mínima.
 - `keyboard_training.qml`: completa os 13 níveis nos modos de maiúsculas e
   minúsculas, com as animações, erros e transições originais; verifica caracteres
@@ -62,6 +63,18 @@ TextInput real que limpa o texto como as atividades fazem.
 
 Isto prova o tratamento do texto composto. Não emula o mapa físico de um teclado
 português nem substitui a verificação das teclas mortas no computador real.
+
+## Adaptadores locais dos casos
+
+Os dois casos de escrita mantêm o pequeno helper `input()` junto do respetivo
+TestCase. Estes fragmentos são injetados separadamente nos componentes reais e
+o helper depende dos IDs lexicais TextInput/Score, das asserções QtTest e do
+ciclo de vida do próprio caso. Partilhá-lo exigiria uma interface que recebe
+esses objetos e callbacks, ou mais um mecanismo de carregamento no launcher.
+Para esta sequência de 12 linhas, a leitura local preserva a garantia de
+pré-edição sem resposta e evita uma abstração maior do que a duplicação.
+O plugin nativo que realmente entrega os eventos já é partilhado e tem self-test.
+Se a sequência passar a mudar independentemente ou crescer, reavaliar a extração.
 
 ## Limites
 
