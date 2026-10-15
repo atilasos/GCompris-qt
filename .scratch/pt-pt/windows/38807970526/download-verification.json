@@ -1,0 +1,10 @@
+{
+  "run": 38807970526,
+  "source_commit": "dfc26b730790f2b0488864d6b9941c2c25109541",
+  "file": "GCompris-PT-PT-Windows-x64-candidate.exe",
+  "bytes": 825749189,
+  "sha256": "c9d39bbf9a23617cb6ba3e3544471144c44c76dcd69355a9334e41a0e8805ef2",
+  "matches_ci_checksum": true,
+  "installed_startups_passed": 203,
+  "portable_zip_downloaded": false
+}
