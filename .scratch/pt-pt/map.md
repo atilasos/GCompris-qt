@@ -173,3 +173,5 @@ a aceitação global dos 203 jogos.
 - [44 — Dois pares de vocabulário legado](issues/44-pares-vocabulario-legado.md)
 
 - [45 — Identidade e seleção das campanhas](issues/45-retoma-selecao-campanhas.md)
+
+- [46 — Contagem de objetos, dados e dominós](issues/46-contagem-dados-dominos.md)
