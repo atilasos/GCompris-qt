@@ -29,16 +29,16 @@ time.sleep(5)
             (deployed / 'game.rcc').write_bytes(b'initial RCC bytes')
             output = folder / 'results'
             command = ['python3', str(ROOT / 'tools/smoke-activity.py'), '--binary', str(binary),
-                       '--source-root', str(source), '--output', str(output), '--seconds', '0.2', 'alpha', 'broken']
+                       '--source-root', str(source), '--output', str(output), '--seconds', '0.2', 'programmingMaze', 'broken']
             first = subprocess.run(command, capture_output=True, text=True)
             self.assertEqual(first.returncode, 1, first.stderr)
             rows = json.loads((output / 'results.json').read_text())
             self.assertEqual([row['startup_check'] for row in rows], ['passed', 'failed'])
             self.assertIn('subLevels', rows[1]['qml_errors'][0])
-            before = (output / 'alpha.log').stat().st_mtime_ns
+            before = (output / 'programmingMaze.log').stat().st_mtime_ns
             resumed = subprocess.run(command + ['--resume'], capture_output=True, text=True)
             self.assertEqual(resumed.returncode, 1, resumed.stderr)
-            self.assertEqual((output / 'alpha.log').stat().st_mtime_ns, before)
+            self.assertEqual((output / 'programmingMaze.log').stat().st_mtime_ns, before)
             (source / 'game.qml').write_text('changed source')
             changed_source = subprocess.run(command + ['--resume'], capture_output=True, text=True)
             self.assertNotEqual(changed_source.returncode, 0)
@@ -48,7 +48,7 @@ time.sleep(5)
             changed = subprocess.run(command + ['--resume'], capture_output=True, text=True)
             self.assertNotEqual(changed.returncode, 0)
             self.assertIn('fingerprint', changed.stderr)
-            self.assertEqual((output / 'alpha.log').stat().st_mtime_ns, before)
+            self.assertEqual((output / 'programmingMaze.log').stat().st_mtime_ns, before)
 
 
 if __name__ == '__main__':

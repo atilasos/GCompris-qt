@@ -65,5 +65,35 @@ class WindowsTranslationTest(unittest.TestCase):
         self.assertEqual(output.splitlines(), ['0 maçãs', '1 maçã', '2 maçãs'])
 
 
+class CompletedVoicePackageTest(unittest.TestCase):
+    def test_generated_voice_manifest_preserves_original_and_checks_replacement(self):
+        runtime_spec = importlib.util.spec_from_file_location('verify_package', ROOT / 'tools/windows/verify-package.py')
+        runtime = importlib.util.module_from_spec(runtime_spec)
+        runtime_spec.loader.exec_module(runtime)
+        with tempfile.TemporaryDirectory() as temporary:
+            stage = Path(temporary)
+            voice_dir = stage / 'share/GCompris/rcc/data3/voices-ogg'
+            voice_dir.mkdir(parents=True)
+            original = b'original voices'
+            completed = b'original voices plus approved additions'
+            contents = b'pt updated contents'
+            for name, data in [('original.rcc', original), ('completed.rcc', completed), ('Contents', contents)]:
+                (voice_dir / name).write_bytes(data)
+            entry = lambda name, data: {'path': name, 'bytes': len(data), 'sha256': hashlib.sha256(data).hexdigest()}
+            original_entries = [entry('voices-ogg/original.rcc', original), entry('voices-ogg/Contents', b'old contents')]
+            completion = {'format': 1, 'source_rcc': 'original.rcc', 'source_rcc_sha256': hashlib.sha256(original).hexdigest(),
+                          'original_files': 1578, 'added_files': 32, 'total_files': 1610, 'original_bytes_preserved': True,
+                          'files': [entry('completed.rcc', completed), entry('Contents', contents)]}
+            result = runtime.check(stage, [], original_entries, completion=completion)
+            self.assertEqual(result['corrupt'], [])
+            (voice_dir / 'completed.rcc').write_bytes(b'corrupted')
+            result = runtime.check(stage, [], original_entries, completion=completion)
+            self.assertIn('share/GCompris/rcc/data3/voices-ogg/completed.rcc', result['corrupt'])
+            (voice_dir / 'completed.rcc').write_bytes(completed)
+            (voice_dir / 'original.rcc').write_bytes(b'corrupted original')
+            result = runtime.check(stage, [], original_entries, completion=completion)
+            self.assertIn('share/GCompris/rcc/data3/voices-ogg/original.rcc', result['corrupt'])
+
+
 if __name__ == '__main__':
     unittest.main()

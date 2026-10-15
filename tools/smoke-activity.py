@@ -113,7 +113,7 @@ def main():
     parser.add_argument("--offline-container-image", default="alpine:latest", help="already installed image with chroot; never pulled")
     parser.add_argument("activities", nargs="+")
     args = parser.parse_args()
-    if args.seconds <= 0 or any(not re.fullmatch(r"[a-z0-9_-]+", name) for name in args.activities):
+    if args.seconds <= 0 or any(not re.fullmatch(r"[A-Za-z0-9_-]+", name) for name in args.activities):
         parser.error("Use a positive duration and activity identifiers from activities.txt")
     if not args.binary.is_file() or not args.source_root.is_dir():
         parser.error("Binary and source root must exist")

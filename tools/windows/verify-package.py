@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 
 
-def check(stage, activities, entries, listed=None):
+def check(stage, activities, entries, listed=None, completion=None):
     required = ['bin/GCompris.exe', 'bin/Qt6Core.dll', 'bin/Qt6Gui.dll',
                 'bin/Qt6Qml.dll', 'bin/vcruntime140.dll', 'bin/msvcp140.dll', 'bin/Qt6Quick.dll', 'bin/Qt6Multimedia.dll',
                 'bin/platforms/qwindows.dll', 'bin/platforms/qoffscreen.dll',
@@ -24,7 +24,26 @@ def check(stage, activities, entries, listed=None):
         if not list(stage.glob(pattern)):
             missing.append(pattern)
     corrupt = []
-    for entry in entries:
+    replacements = []
+    if completion is not None:
+        source = next((entry for entry in entries if entry['path'] == 'voices-ogg/' + completion.get('source_rcc', '')), None)
+        valid = (completion.get('format') == 1 and source is not None and
+                 completion.get('source_rcc_sha256') == source['sha256'] and
+                 completion.get('original_files') == 1578 and completion.get('added_files') == 32 and
+                 completion.get('total_files') == 1610 and completion.get('original_bytes_preserved') is True)
+        replacements = completion.get('files', [])
+        paths = [entry.get('path', '') for entry in replacements]
+        valid = valid and len(paths) == 2 and 'Contents' in paths and sum(path.endswith('.rcc') for path in paths) == 1
+        valid = valid and all(Path(path).name == path and path not in ('', '.', '..') for path in paths)
+        if not valid:
+            corrupt.append('voice-completion-manifest')
+            replacements = []
+    # The original locked RCC remains packaged and checked. Only the catalogue
+    # changes, to select the generated standard RCC containing the approved audio.
+    effective_entries = [entry for entry in entries
+                         if not (replacements and entry['path'] == 'voices-ogg/Contents')]
+    effective_entries += [dict(entry, path='voices-ogg/' + entry['path']) for entry in replacements]
+    for entry in effective_entries:
         relative = 'share/GCompris/rcc/data3/' + entry['path']
         path = stage / relative
         if not path.is_file():
@@ -52,7 +71,9 @@ if __name__ == '__main__':
                   if line.strip() and not line.lstrip().startswith('#')]
     listed = None if args.listed is None else args.listed.read_text(encoding='utf-8-sig').split()
     entries = json.loads(Path(__file__).with_name('assets-lock.json').read_text())['files']
-    result = check(args.stage, activities, entries, listed)
+    manifest = args.stage / 'share/GCompris/rcc/data3/voices-ogg/completion.json'
+    completion = json.loads(manifest.read_text()) if manifest.exists() else None
+    result = check(args.stage, activities, entries, listed, completion)
     args.output.write_text(json.dumps(result, indent=2) + '\n')
     print(json.dumps(result, indent=2))
     raise SystemExit(0 if result['passed'] else 1)
