@@ -97,6 +97,7 @@ function initLevel() {
         mazeRows = 16
     } else if (items.currentLevel + 1 == 18) {
         mazeColumns = 18
+        mazeRows = 16
     } else if (items.currentLevel + 1 == 19) {
         mazeColumns = 19
         mazeRows = 18
@@ -251,7 +252,7 @@ function getMaze() {
 }
 
 function autoMove() {
-    if (items && items.fastMode) {
+    if (items && items.fastMode && (!invisibleMode || !items.wallVisible)) {
         var number = 0
         var result = 0
         if (getPlayerRotation() !== 90 && !(maze[getId(
