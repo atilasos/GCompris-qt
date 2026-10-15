@@ -1,0 +1,1 @@
+qtshadertools qtmultimedia qtsensors qtimageformats qtgraphs qtquick3d qtquicktimeline qtcharts

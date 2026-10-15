@@ -5,6 +5,8 @@ param(
 )
 $ErrorActionPreference = 'Stop'
 $PSNativeCommandUseErrorActionPreference = $true
+. "$PSScriptRoot/native-check.ps1"
+$python = (Get-Command python).Source
 $source = (Resolve-Path "$PSScriptRoot/../..").Path
 $build = "$source/build/windows-candidate"
 $stage = "$build/stage"
@@ -35,7 +37,8 @@ try {
     Copy-Item "$build/bin/GCompris.exe" "$stage/bin/"
     Copy-Item "$build/share/GCompris" "$stage/share/" -Recurse -Force
     Copy-Item "$box2d/qmldir", "$box2d/qmlbox2d.dll" "$stage/lib/qml/Box2D.2.0/"
-    & "$QtRoot/bin/windeployqt.exe" --release --compiler-runtime --include-soft-plugins --add-plugin-types "platforms,imageformats,multimedia,tls" --openssl-root "$OpenSSLRoot/bin" --qmldir "$source/src" "$stage/bin/GCompris.exe"
+    & "$QtRoot/bin/windeployqt.exe" --help | Set-Content "$build/windeployqt-help.log"
+    & "$QtRoot/bin/windeployqt.exe" --release --compiler-runtime --add-plugin-types "platforms,imageformats,multimedia,tls" --openssl-root "$OpenSSLRoot/bin" --qmldir "$source/src" "$stage/bin/GCompris.exe"
     # Deploy dependencies of our dynamic Box2D plugin too.
     & "$QtRoot/bin/windeployqt.exe" --release --compiler-runtime "$stage/lib/qml/Box2D.2.0/qmlbox2d.dll"
     Copy-Item "$OpenSSLRoot/bin/*.dll" "$stage/bin/"
@@ -53,53 +56,16 @@ try {
     git -C $source rev-parse HEAD | Set-Content "$stage/source-commit.txt"
     Copy-Item "$PSScriptRoot/assets-lock.json" "$stage/assets-lock.json"
     python "$PSScriptRoot/verify-package.py" $stage --activities "$source/src/activities/activities.txt" --output "$artifacts/package-check.json"
-    # Native execution from the packaged tree with an empty profile and no Qt SDK
-    # on PATH: a positive list requires loading main.qml and all ActivityInfo RCCs.
-    $savedPath = $env:PATH
-    $savedAppData = $env:APPDATA
-    $savedLocalAppData = $env:LOCALAPPDATA
-    try {
-        $env:PATH = "$stage/bin;$env:SystemRoot/System32;$env:SystemRoot"
-        $env:APPDATA = "$build/clean-profile/roaming"
-        $env:LOCALAPPDATA = "$build/clean-profile/local"
-        $env:QT_QPA_PLATFORM = 'offscreen'
-        $env:QT_MEDIA_BACKEND = 'ffmpeg'
-        $env:QML_IMPORT_PATH = ''
-        $env:QML2_IMPORT_PATH = ''
-        $env:QT_PLUGIN_PATH = ''
-        New-NetFirewallRule -DisplayName 'GCompris Candidate Offline' -Direction Outbound -Program "$stage/bin/GCompris.exe" -Action Block | Out-Null
-        $process = Start-Process "$stage/bin/GCompris.exe" -ArgumentList '--locale','pt_PT','--renderer','software','--list-activities' -PassThru -Wait -RedirectStandardOutput "$artifacts/activities.txt" -RedirectStandardError "$artifacts/native-startup.log"
-        if ($process.ExitCode -ne 0) { throw "Packaged app exited $($process.ExitCode)" }
-    } finally {
-        Remove-NetFirewallRule -DisplayName 'GCompris Candidate Offline' -ErrorAction SilentlyContinue
-        $env:PATH = $savedPath
-        $env:APPDATA = $savedAppData
-        $env:LOCALAPPDATA = $savedLocalAppData
-    }
-    python "$PSScriptRoot/verify-package.py" $stage --activities "$source/src/activities/activities.txt" --listed "$artifacts/activities.txt" --output "$artifacts/package-check.json"
+    Invoke-GComprisNativeCheck -InstallRoot $stage -Output "$artifacts/staged" -Python $python -RequireFreshProfile
+    python "$PSScriptRoot/verify-package.py" $stage --activities "$source/src/activities/activities.txt" --listed "$artifacts/staged/activities.txt" --output "$artifacts/package-check.json"
     $installer = "$artifacts/GCompris-PT-PT-Windows-x64-candidate.exe"
     & "${env:ProgramFiles(x86)}/NSIS/makensis.exe" /INPUTCHARSET UTF8 "/DSTAGE=$stage" "/DSOURCE=$source" "/DOUTPUT=$installer" "$PSScriptRoot/candidate.nsi"
     $installed = "$build/installed"
     $installProcess = Start-Process $installer -ArgumentList '/S',"/D=$installed" -PassThru -Wait
     if ($installProcess.ExitCode -ne 0) { throw "Installer exited $($installProcess.ExitCode)" }
-    # Exercise the actual NSIS output, with a distinct first-run profile.
-    $savedPath = $env:PATH
-    $savedAppData = $env:APPDATA
-    $savedLocalAppData = $env:LOCALAPPDATA
-    try {
-        $env:PATH = "$installed/bin;$env:SystemRoot/System32;$env:SystemRoot"
-        $env:APPDATA = "$build/installed-profile/roaming"
-        $env:LOCALAPPDATA = "$build/installed-profile/local"
-        New-NetFirewallRule -DisplayName 'GCompris Installed Candidate Offline' -Direction Outbound -Program "$installed/bin/GCompris.exe" -Action Block | Out-Null
-        $process = Start-Process "$installed/bin/GCompris.exe" -ArgumentList '--locale','pt_PT','--renderer','software','--list-activities' -PassThru -Wait -RedirectStandardOutput "$artifacts/installed-activities.txt" -RedirectStandardError "$artifacts/installed-startup.log"
-        if ($process.ExitCode -ne 0) { throw "Installed app exited $($process.ExitCode)" }
-    } finally {
-        Remove-NetFirewallRule -DisplayName 'GCompris Installed Candidate Offline' -ErrorAction SilentlyContinue
-        $env:PATH = $savedPath
-        $env:APPDATA = $savedAppData
-        $env:LOCALAPPDATA = $savedLocalAppData
-    }
-    python "$PSScriptRoot/verify-package.py" $installed --activities "$source/src/activities/activities.txt" --listed "$artifacts/installed-activities.txt" --output "$artifacts/installer-check.json"
+    # Independent installed processes in the same initially fresh CI account.
+    Invoke-GComprisNativeCheck -InstallRoot $installed -Output "$artifacts/installed" -Python $python
+    python "$PSScriptRoot/verify-package.py" $installed --activities "$source/src/activities/activities.txt" --listed "$artifacts/installed/activities.txt" --output "$artifacts/installer-check.json"
     Compress-Archive -Path "$stage/*" -DestinationPath "$artifacts/GCompris-PT-PT-Windows-x64-portable.zip" -Force
     Get-ChildItem $artifacts -File | Where-Object Extension -in '.exe','.zip' | ForEach-Object {
         "$((Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLower())  $($_.Name)"

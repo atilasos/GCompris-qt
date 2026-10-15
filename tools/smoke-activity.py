@@ -45,7 +45,7 @@ def hash_paths(root, paths):
 
 
 def fingerprint(binary, source_root, locale, seconds, offline_image):
-    source_paths = [source_root / name for name in ("src", "cmake", "poqm/pt", "po/pt", "CMakeLists.txt")]
+    source_paths = [source_root / name for name in ("src", "resources", "cmake", "poqm/pt", "po/pt", "CMakeLists.txt")]
     if not any(path.exists() for path in source_paths):
         source_paths = [source_root]
     deployment = binary.parent.parent

@@ -16,7 +16,11 @@ O Windows2022 da compilação automática não substitui o Windows10 do professo
 O workflow `.github/workflows/windows-pt-pt-candidate.yml` executa apenas no fork
 `atilasos/GCompris-qt`, em pushes da branch `integration/pt-pt` ou manualmente.
 As ações externas são fixadas por SHA. Qt6.10.2 e aqtinstall3.3.0 estão fixados;
-OpenSSL vem da revisão fixa de vcpkg declarada no workflow. O submódulo Box2D usa
+OpenSSL vem da revisão fixa de vcpkg declarada no workflow. O SDK Qt e o prefixo
+OpenSSL instalado têm cache separado, com chave que inclui runner, compilador,
+versão Qt, hash de `qt-modules.txt` e revisão vcpkg. O cache é guardado antes dos
+testes de implantação para sobreviver a uma falha posterior, e não inclui fontes
+nem candidatos. O submódulo Box2D usa
 sempre a revisão registada no Git. O NSIS está fixado na versão3.11.0.
 O runner Windows2022 e o compilador são mantidos pelo GitHub e podem receber
 atualizações: não se afirma reprodução binária bit a bit.
@@ -34,7 +38,8 @@ O script regista os comandos em `build/windows-candidate/build.log` e gera:
 - `artifacts/GCompris-PT-PT-Windows-x64-portable.zip`: mesma árvore portátil.
 - `artifacts/SHA256SUMS.txt`: SHA256 dos dois ficheiros.
 - `package-check.json` e `installer-check.json`: inventário e listagem nativa.
-- `activities.txt`, `installed-activities.txt` e logs dos dois arranques.
+- `staged/` e `installed/`: listagens e logs de oito atividades, com
+  `startup-check.json` por árvore.
 
 Os artefactos ficam no separador Actions do fork, associados ao commit de origem.
 Não se cria um Release nem se envia código ao projeto original.
@@ -68,14 +73,27 @@ A documentação oficial desta implantação é
 ## Verificações automáticas previstas
 
 O script verifica a presença dos RCC de todas as atividades da lista de fontes,
-tradução PT, DLLs, plugins e hashes dos recursos. Executa a árvore empacotada com
-perfil novo e sem QtSDK no PATH. Uma regra temporária da firewall bloqueia as
-ligações de saída do processo GCompris durante esta execução.
+tradução PT, DLLs, plugins e hashes dos recursos. Usa uma função única para testar
+a árvore empacotada e a instalada, com uma regra temporária da firewall a bloquear
+saídas do processo. Todas as variáveis Qt/QML/QSG e PATH alteradas são restauradas
+em `finally`, juntamente com a remoção dessa regra.
 
-Depois, instala o EXE silenciosamente numa pasta de teste e repete a listagem
-com outro perfil novo e bloqueio de saída. Ambas as listagens têm de corresponder
-exatamente às atividades das fontes. Estes controlos são de implantação e
-arranque; não comprovam a conclusão de todos os jogos nem a audição das vozes.
+Antes da primeira execução, exige que não existam dados GCompris nas Known Folders
+reais do Windows. O Qt consulta essas pastas através de APIs Windows; mudar apenas
+APPDATA/LOCALAPPDATA não cria um perfil novo. Se existirem dados, o script recusa
+o teste e pede uma conta dedicada, preservando os ficheiros existentes. Os testes
+da instalação usam a mesma conta CI inicialmente limpa e processos independentes;
+não são apresentados como um segundo utilizador Windows novo.
+
+Além de exigir a lista completa das atividades, ambas as árvores abrem oito
+atividades: gramática (duas), letras, letras cadentes, teclado, escolhas múltiplas,
+cronologia e criação de frações. Cada processo tem de permanecer ativo durante
+seis segundos, registar o lançamento da atividade e o RCC PT completado, sem erros
+QML ou erros de imagens detetados. Isto exercita também o import QtGraphs.
+
+Estes controlos comprovam implantação e arranque. Não comprovam a conclusão dos
+níveis, todos os modos, a reprodução audível num dispositivo Windows ou a revisão
+pedagógica. A audição e a matriz funcional continuam pendentes no Windows10 real.
 
 ## Teste no Windows10 do professor
 
