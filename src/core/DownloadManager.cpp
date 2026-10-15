@@ -19,6 +19,8 @@
 #include <QMutexLocker>
 #include <QDirIterator>
 #include <QCoreApplication>
+#include <QDateTime>
+#include <QRegularExpression>
 
 const QString DownloadManager::contentsFilename = QLatin1String("Contents");
 DownloadManager *DownloadManager::_instance = nullptr;
@@ -132,14 +134,15 @@ void DownloadManager::initializeAssets()
         localFolderForData + QLatin1String("words/Contents")
     };
     for (const QString &contentsFolder: files) {
-        QFileInfo fi(getAbsoluteResourcePath(contentsFolder));
-        if (fi.exists()) {
-            DownloadJob job(GCompris::ResourceType::NONE);
-            job.file.setFileName(fi.filePath());
-            parseContents(&job);
-        }
-        else {
-            qDebug() << fi.filePath() << "does not exist, cannot parse Contents for " << contentsFolder;
+        // A downloaded index may select a newer valid RCC than the package index.
+        // Inspect every local location; parseContents keeps the newest usable entry.
+        for (const auto &base : getSystemResourcePaths()) {
+            const QFileInfo file(base + '/' + contentsFolder);
+            if (file.exists()) {
+                DownloadJob job(GCompris::ResourceType::NONE);
+                job.file.setFileName(file.filePath());
+                parseContents(&job);
+            }
         }
     }
 
@@ -203,35 +206,33 @@ QString DownloadManager::getLocalSubFolderForData(const GCompris::ResourceType &
     return QString();
 }
 
-QString DownloadManager::getResourcePath(/*const GCompris::ResourceType &rt*/ int rt, const QVariantMap &data) const
+DownloadManager::ResourceEntry DownloadManager::selectedResource(int rt, const QVariantMap &data) const
 {
-    // qDebug() << "getResourcePath" << GCompris::ResourceType(rt) << resourceTypeToLocalFileName << data["locale"].toString();
-    GCompris::ResourceType resource = GCompris::ResourceType(rt);
+    const auto resource = GCompris::ResourceType(rt);
+    QString key;
     switch (resource) {
     case GCompris::ResourceType::WORDSET:
-        if (resourceTypeToLocalFileName.contains("words")) {
-            return getLocalSubFolderForData(resource) + resourceTypeToLocalFileName["words"];
-        }
+        key = QStringLiteral("words");
         break;
     case GCompris::ResourceType::BACKGROUND_MUSIC:
-        if (resourceTypeToLocalFileName.contains("backgroundMusic-" COMPRESSED_AUDIO)) {
-            return getLocalSubFolderForData(resource) + resourceTypeToLocalFileName["backgroundMusic-" COMPRESSED_AUDIO];
-        }
+        key = QStringLiteral("backgroundMusic-" COMPRESSED_AUDIO);
         break;
     case GCompris::ResourceType::VOICES:
-        if (resourceTypeToLocalFileName.contains(data["locale"].toString())) {
-            return getLocalSubFolderForData(resource) + resourceTypeToLocalFileName[data["locale"].toString()];
-        }
+        key = data.value(QStringLiteral("locale")).toString();
         break;
     case GCompris::ResourceType::FULL:
-        if (resourceTypeToLocalFileName.contains("full-" COMPRESSED_AUDIO)) {
-            return getLocalSubFolderForData(resource) + resourceTypeToLocalFileName["full-" COMPRESSED_AUDIO];
-        }
+        key = QStringLiteral("full-" COMPRESSED_AUDIO);
         break;
     default:
-        return QString();
+        return {};
     }
-    return QString();
+    return resources.value(key);
+}
+
+QString DownloadManager::getResourcePath(int rt, const QVariantMap &data) const
+{
+    const auto entry = selectedResource(rt, data);
+    return entry.filename.isEmpty() ? QString() : getLocalSubFolderForData(GCompris::ResourceType(rt)) + entry.filename;
 }
 
 bool DownloadManager::updateResource(/*const GCompris::ResourceType &*/ int rt, const QVariantMap &extra)
@@ -239,11 +240,17 @@ bool DownloadManager::updateResource(/*const GCompris::ResourceType &*/ int rt, 
     if (checkDownloadRestriction())
         return downloadResource(rt, extra); // check for updates and register
 
-    QString resourcePath = getResourcePath(rt, extra);
-    QString absPath = getAbsoluteResourcePath(resourcePath);
-    // automatic download prohibited -> register if available
-    if (!resourcePath.isEmpty())
-        return registerResourceAbsolute(absPath);
+    const QString resourcePath = getResourcePath(rt, extra);
+    const auto entry = selectedResource(rt, extra);
+    // A packaged and a cached RCC may share a name but have different contents.
+    // Register only the file matching the selected index.
+    if (!resourcePath.isEmpty()) {
+        for (const auto &base : getSystemResourcePaths()) {
+            const QString absolutePath = base + '/' + resourcePath;
+            if (checksumMatches(absolutePath, entry.checksum))
+                return registerResourceAbsolute(absolutePath);
+        }
+    }
 
     qDebug() << "No such local resource and download prohibited: "
              << GCompris::ResourceType(rt) << extra;
@@ -469,42 +476,60 @@ bool DownloadManager::parseContents(DownloadJob *job)
             qWarning() << "Invalid format of Contents file!";
             return false;
         }
-        job->contents[parts[1]] = parts[0];
-        if (parts[1].startsWith(QLatin1String("voices"))) {
-            QString locale = parts[1];
-            locale.remove(0, locale.indexOf('-') + 1); // Remove "voices-" prefix
-            locale = locale.left(locale.indexOf('-')); // Remove the date and ".rcc" suffix
-            // Retrieve locale from filename
-            resourceTypeToLocalFileName[locale] = parts[1];
-            qDebug() << "Contents: " << locale << " -> " << parts[1];
+        ResourceEntry selected{parts[1], parts[0]};
+        job->contents[selected.filename] = selected.checksum;
+        QString key;
+        GCompris::ResourceType resourceType;
+        if (selected.filename.startsWith(QLatin1String("voices"))) {
+            key = selected.filename.section('-', 1, 1);
+            resourceType = GCompris::ResourceType::VOICES;
         }
-        else if (parts[1].startsWith(QLatin1String("words"))) {
-            QString type = parts[1];
-            type = type.left(type.indexOf('-'));
-            resourceTypeToLocalFileName[type] = parts[1];
-            qDebug() << "Contents: " << type << " -> " << parts[1];
+        else if (selected.filename.startsWith(QLatin1String("words"))) {
+            key = selected.filename.section('-', 0, 0);
+            resourceType = GCompris::ResourceType::WORDSET;
         }
         else {
-            QString type = parts[1];
-            type = type.section('-', 0, 1); // keep backgroundMusic-$CA or full-$CA
-            resourceTypeToLocalFileName[type] = parts[1];
-            qDebug() << "Contents: " << type << " -> " << parts[1];
+            key = selected.filename.section('-', 0, 1);
+            resourceType = selected.filename.startsWith(QLatin1String("backgroundMusic"))
+                ? GCompris::ResourceType::BACKGROUND_MUSIC : GCompris::ResourceType::FULL;
         }
+        const auto current = resources.constFind(key);
+        if (current != resources.cend() &&
+            (current->filename != selected.filename || current->checksum != selected.checksum)) {
+            static const QRegularExpression datedRcc(QStringLiteral("-(\\d{4}-\\d{2}-\\d{2}-\\d{2}-\\d{2}-\\d{2})\\.rcc$"));
+            const auto timestamp = [&](const QString &filename) {
+                return QDateTime::fromString(datedRcc.match(filename).captured(1) + QStringLiteral(" UTC"),
+                                             QStringLiteral("yyyy-MM-dd-HH-mm-ss t"));
+            };
+            const auto currentDate = timestamp(current->filename);
+            const auto incomingDate = timestamp(selected.filename);
+            const auto available = [&](const ResourceEntry &entry) {
+                const QString relativePath = getLocalSubFolderForData(resourceType) + entry.filename;
+                for (const auto &base : getSystemResourcePaths()) {
+                    if (checksumMatches(base + '/' + relativePath, entry.checksum)) return true;
+                }
+                return false;
+            };
+            const bool older = currentDate.isValid() && incomingDate.isValid() && currentDate > incomingDate;
+            const bool unusableLocalIndex = job->url.isEmpty() && !available(selected);
+            if ((older || unusableLocalIndex) && available(current.value())) {
+                selected = current.value();
+                // The remote index does not know this newer local filename.
+                // Keep its checksum with the job so the queue can reuse it.
+                job->contents[selected.filename] = selected.checksum;
+            }
+        }
+        resources[key] = selected;
+        qDebug() << "Contents: " << key << " -> " << selected.filename;
         // qDebug() << "Contents: " << parts[1] << " -> " << parts[0];
     }
     job->file.close();
     return true;
 }
 
-bool DownloadManager::checksumMatches(DownloadJob *job, const QString &filename) const
+bool DownloadManager::checksumMatches(const QString &filename, const QString &expectedChecksum) const
 {
-    Q_ASSERT(!job->contents.empty());
-
-    if (!QFile::exists(filename))
-        return false;
-
-    QString basename = QFileInfo(filename).fileName();
-    if (!job->contents.contains(basename))
+    if (expectedChecksum.isEmpty() || !QFile::exists(filename))
         return false;
 
     QFile file(filename);
@@ -521,9 +546,7 @@ bool DownloadManager::checksumMatches(DownloadJob *job, const QString &filename)
     }
     file.close();
     QByteArray fileHash = fileHasher.result().toHex();
-    // qDebug() << "Checking file-hash ~ contents-hash: " << fileHash << " ~ " << job->contents[basename];
-
-    return (fileHash == job->contents[basename]);
+    return fileHash == expectedChecksum;
 }
 
 void DownloadManager::unregisterResource_locked(const QString &filename)
@@ -631,7 +654,8 @@ void DownloadManager::downloadInProgress(qint64 bytesReceived, qint64 bytesTotal
 void DownloadManager::finishAllDownloads(int code)
 {
     Q_UNUSED(code)
-    QList<QString> registeredFiles = resourceTypeToLocalFileName.values();
+    QStringList registeredFiles;
+    for (const auto &resource : std::as_const(resources)) registeredFiles.append(resource.filename);
     // Remove all previous rcc for this kind of download
     for (auto *job: activeJobs) {
         QString subfolder = getLocalSubFolderForData(job->resourceType);
@@ -739,7 +763,7 @@ void DownloadManager::finishDownload()
         }
         else {
             qDebug() << "Download of RCC file finished successfully: " << job->url;
-            if (!checksumMatches(job, targetFilename)) {
+            if (!checksumMatches(targetFilename, job->contents.value(QFileInfo(targetFilename).fileName()))) {
                 qWarning() << "Checksum of downloaded file does not match: "
                            << targetFilename;
                 Q_EMIT error(QNetworkReply::UnknownContentError,
@@ -782,7 +806,7 @@ void DownloadManager::finishDownload()
         for (const QString &base: getSystemResourcePaths()) {
             QString filename = base + '/' + relPath;
             if (QFile::exists(filename)
-                && checksumMatches(job, filename)) {
+                && checksumMatches(filename, job->contents.value(QFileInfo(filename).fileName()))) {
                 // file is up2date, register! necessary:
                 qDebug() << "Local resource is up-to-date:"
                          << QFileInfo(filename).fileName();
