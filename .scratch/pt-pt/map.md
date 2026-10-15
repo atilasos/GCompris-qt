@@ -20,8 +20,10 @@
 
 - O inventário RCC foi inspecionado e os 32 recursos em falta foram acrescentados,
   preservando as 1578 gravações originais. A audição/revisão final é tarefa 08.
-- A execução Linux tem verificações iniciais; faltam testes completos dos níveis
-  e modos. Não existe evidência de execução Windows.
+- As 203 atividades passaram o arranque Linux sem rede. Os dois jogos de
+  gramática, escolha múltipla e cronologia têm conclusão nativa dos seus níveis
+  documentada nas tarefas 16/17. Os restantes percursos continuam na tarefa 06.
+  Ainda não existe evidência final da aplicação instalada em Windows10.
 - Windows10 x64 está confirmado; o professor dispõe de um Windows para testes.
   O primeiro ensaio nativo compilou a aplicação e os recursos, mas a implantação
   ainda precisa de fechar os erros identificados pelo candidato na tarefa 13.
@@ -32,14 +34,17 @@
   [Evidência da tarefa 01](issues/01-inventario.md#answer).
 - Submódulo qml-box2d preparado na revisão fixada pelo projeto.
 - Primeira ronda de 155 mensagens da interface corrigida. Catálogo com zero entradas
-  vazias, fuzzy ou diferenças nos marcadores Qt. Revisão do professor e testes da
-  tradução compilada continuam pendentes na tarefa 03.
+  vazias, fuzzy ou diferenças nos marcadores Qt. A segunda ronda corrigiu mais 637
+  campos e a compilação/plurais PT-PT foi verificada com Qt real.
+  A revisão do professor continua pendente na tarefa 03.
 - Texto anterior e novo em `interface-review.json`. Todas as revisões humanas estão
   pendentes. A referência anterior às alterações está em `baseline-audit.json`.
-- Catálogo de introduções de voz ainda com 15 entradas vazias e 3 fuzzy; gravações
-  não inspecionadas. O inventário inicial tinha sete ficheiros JSON ingleses sem
-  correspondente PT. Após corrigir as duas atividades de gramática, restam cinco
-  candidatos a inspeção, não cinco defeitos confirmados.
+- As 15 entradas vazias e 3 fuzzy do catálogo de vozes foram corrigidas. O RCC
+  completo tem 1610 gravações descodificadas, incluindo 32 adições aprovadas para
+  geração. A audição final permanece pendente na tarefa 05.
+- Os dados de letras, leitura e vocabulário foram corrigidos, distinguindo os
+  recursos numéricos neutros das lacunas linguísticas reais.
+  [Evidência da tarefa 04](issues/04-dados.md#answer).
 - Compilação Linux e recursos PT preparados. A aplicação lista todas as 203
   atividades. [Evidência da tarefa 02](issues/02-build-linux.md#answer).
 - Corrigida incompatibilidade QML que impedia o arranque de atividades com o
@@ -54,6 +59,13 @@
   inglês. São 15 níveis e 172 exercícios, com oito testes de carregamento e respostas.
   Ver a [evidência da tarefa 11](issues/11-gramatica-portugues.md#answer).
   A revisão linguística final continua pendente.
+
+- Escolha múltipla e cronologia concluíram os seus três níveis, com respostas
+  certas/erradas, reinício e navegação em Qt real sem rede.
+  [Evidência da tarefa 16](issues/16-validacao-sequencias.md#answer).
+- As duas atividades de gramática concluíram 172 exercícios/15 níveis na interface
+  real. Foi corrigida a entrega dupla das teclas.
+  [Evidência da tarefa 17](issues/17-gramatica-interativa.md#answer).
 
 ## Tarefas
 
@@ -71,3 +83,6 @@
 
 - [13 — Candidato Windows x64](issues/13-candidato-windows.md)
 - [14 — Ícones e texto incorporado](issues/14-icones-gramatica.md)
+
+- [16 — Conclusão nativa de escolha múltipla e cronologia](issues/16-validacao-sequencias.md)
+- [17 — Conclusão nativa da gramática e teclado](issues/17-gramatica-interativa.md)

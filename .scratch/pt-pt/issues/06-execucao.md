@@ -26,6 +26,8 @@ passou a ser traduzível. O verificador tem resultados incrementais e retomada
 condicionada a hashes das fontes e da compilação.
 
 Evidência, comandos e limites: `../runtime/review.md`.
-Continuam pendentes a execução integrada das 203 atividades, a conclusão dos
-níveis/modos, as restantes interações, o áudio e Windows. Não resolver este ticket
+O arranque integrado das 203 atividades passou com perfis novos e Docker sem
+rede. As tarefas 16/17 acrescentaram conclusão interativa de todos os níveis dos
+quatro jogos abrangidos. Continuam pendentes os restantes níveis/modos e
+interações, a audição final e Windows. Não resolver este ticket
 com base apenas no teste de arranque.
