@@ -137,3 +137,5 @@ declarar puzzles completos. A matriz global mantém os critérios pendentes.
 - [31 — Complemento da dezena](issues/31-complemento-dezena.md)
 
 - [32 — Adivinhar um número](issues/32-adivinhar-numero.md)
+
+- [33 — Bloqueio do teclado visual](issues/33-teclado-virtual-bloqueado.md)
