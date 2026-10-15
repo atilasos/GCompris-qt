@@ -1,0 +1,44 @@
+[
+  {
+    "phase": "help-red",
+    "activity": "memory",
+    "passed": false,
+    "sha256": "de52c54bf7ecc93ade9e845ef9af7b56115d515d3f902409363833d037a0c8a3"
+  },
+  {
+    "phase": "help-red",
+    "activity": "memory-sound",
+    "passed": false,
+    "sha256": "6b9e04addb470f4abb90051f786ef8852322144852972ae1bc87c0988a0982bc"
+  },
+  {
+    "phase": "help-green",
+    "activity": "memory",
+    "passed": true,
+    "sha256": "ce0cb034fb52685a10c540762e222a5c29af9d64a4fe37fa6f1cd74d5d626632"
+  },
+  {
+    "phase": "help-green",
+    "activity": "memory-case-association-tux",
+    "passed": true,
+    "sha256": "24796d9f0d6137ab1f267913dfc9716dfb135877186085ee5db2aa11d9b990b6"
+  },
+  {
+    "phase": "help-green",
+    "activity": "memory-sound",
+    "passed": true,
+    "sha256": "85c6e09cd4a3fbe8c6c5d12bc40e7ec88f10e78487f1c9e92921f60ccee6b9f0"
+  },
+  {
+    "phase": "help-green",
+    "activity": "memory-sound-tux",
+    "passed": true,
+    "sha256": "d2f77398907875553240d6f924cedd436de1cbe4ff9f0ba49711068c2a43373a"
+  },
+  {
+    "phase": "help-green",
+    "activity": "memory-tux",
+    "passed": true,
+    "sha256": "75086e5b83ab61e7deb9bb9b9d16475178c370edf741979d6ef436eedf722cbb"
+  }
+]

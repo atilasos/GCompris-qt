@@ -18,3 +18,11 @@ de bytes/rota, distinguindo isso de uma audição física ou revisão docente.
 Ajuda PT, reinício, navegação/menu e recursos privados selados. Não encurtar
 temporizadores nem simular turnos. Identificar seletores/gestos não cobertos
 e critérios Windows/hardware/áudio físico/docente pendentes.
+
+## Checkpoint: ajuda (parcial)
+
+Duas correções PO comprovadas com ajuda Qt real: limite de duas cartas nas
+variantes de imagens e concordância «os gémeos» nas variantes de sons.
+Red em duas atividades; green nas cinco, com navegação/ajuda/Home.
+Provas: `../functional-memory-rest/help-review.md`. A tarefa mantém-se claimed;
+percursos completos e restantes critérios continuam pendentes.
