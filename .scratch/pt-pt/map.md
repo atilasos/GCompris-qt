@@ -139,3 +139,5 @@ declarar puzzles completos. A matriz global mantém os critérios pendentes.
 - [32 — Adivinhar um número](issues/32-adivinhar-numero.md)
 
 - [33 — Bloqueio do teclado visual](issues/33-teclado-virtual-bloqueado.md)
+
+- [34 — Balanças e unidades de massa](issues/34-balancas.md)
