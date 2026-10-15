@@ -51,3 +51,20 @@ Implementação integrada para revisão e revalidação. `Progress: claimed` con
 um dos três estados do tracker; a entrega Windows e a audição final são tarefas
 separadas. A dependência é a compilação 02, pois os testes usam RCC sintéticos
 e não dependem da aprovação humana das gravações da tarefa 05.
+
+## Isolamento dos testes após integração
+
+O primeiro ensaio privado não incluía o RCC PT real junto do executável de
+teste. Com o pacote real de 1610 vozes presente, quatro casos HTTP falharam:
+o recurso real de outubro era corretamente preferido às fixtures de janeiro
+a março. Não era uma regressão do produto. A reprodução privada liga
+`build/resource-updates/share/gcompris-qt/rcc/data3` ao diretório de recursos
+da compilação principal, somente para leitura. Registo antes da correção:
+`/tmp/pt-resource-isolation-before.log` (quatro falhas).
+
+Os quatro casos HTTP passam agora por processos com executável copiado para
+diretório temporário, diretório de trabalho próprio e perfil Qt de teste
+individual. A seleção de versão em produção não mudou. Mantendo o mesmo
+pacote real ligado à compilação privada, a suite completa passa: 28 testes,
+zero falhas (`/tmp/pt-resource-isolation-after.log`). Não foram alterados
+recursos nem ficheiros da compilação principal.

@@ -1,0 +1,114 @@
+{
+  "activity": "click_on_letter",
+  "locale": "pt_PT",
+  "qml_file": "click_on_letter/ClickOnLetter.qml",
+  "source_sha256": "5871aef62345e8fe6acb774beb428300422fcf4985ccb7ec5dbd1fbe8dac1f2a",
+  "portuguese_catalogue_sha256": "4865d718b6529ee9aa39be44c4b5052a8b0134e8c42d2cc0718c83d1a4b202c4",
+  "private_qm_sha256": "91f5e93165c01fe523d8f005ee3c000e064f7ecf32478756db38b5e5e0c99480",
+  "case_sha256": "75dff0070842ad8665d5fa17747ecf4247370e9c59cd4ad1eb00269240910776",
+  "private_rcc_sha256": "e3dbdbb72c04bc333aa3ca692112da95c19877aae8270c10d836c68f0f50553f",
+  "binary_sha256": "ab20447c36845d74abeba9974e2d60ca7f20ebf7d59b677ba09f85faf6a90a37",
+  "runner_sha256": "4faa81300d446301ee8eb7e0c3054368344dd27226a2ce3076e60043bdc71366",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-letters/build/native-qml/6a633ca6b3864ff995f9d4e605a73a91",
+  "version_code": 260200,
+  "network": "docker-none",
+  "timestamp_utc": "2026-10-15T20:28:14.173460+00:00",
+  "scope": "Only actions and assertions in the named case; muted native Qt, not Windows or audio approval.",
+  "screenshots": [
+    {
+      "file": "click-lowercase-level-1.png",
+      "sha256": "049ffd4ca29dc257788a8b4b157954c636bb08f227cf1612726379c66982014d",
+      "bytes": 96980
+    },
+    {
+      "file": "click-lowercase-level-11.png",
+      "sha256": "6aa8e70f9c6e2602ff19e2d07440eb04daf8724cb2b8c80308c2f77e9a9a1081",
+      "bytes": 121072
+    },
+    {
+      "file": "click-lowercase-level-3.png",
+      "sha256": "32bcc45f8e7f47e1027cc94f8bc0afbf2a7663028af487ab608d3481aa72c747",
+      "bytes": 105870
+    }
+  ],
+  "passed": true,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 0,
+    "passes": 2,
+    "completed": [
+      {
+        "mode": "lowercase",
+        "level": 1,
+        "correct": 5,
+        "score": 5
+      },
+      {
+        "mode": "lowercase",
+        "level": 2,
+        "correct": 5,
+        "score": 5
+      },
+      {
+        "mode": "lowercase",
+        "level": 3,
+        "correct": 5,
+        "score": 5
+      },
+      {
+        "mode": "lowercase",
+        "level": 4,
+        "correct": 8,
+        "score": 8
+      },
+      {
+        "mode": "lowercase",
+        "level": 5,
+        "correct": 8,
+        "score": 8
+      },
+      {
+        "mode": "lowercase",
+        "level": 6,
+        "correct": 8,
+        "score": 8
+      },
+      {
+        "mode": "lowercase",
+        "level": 7,
+        "correct": 8,
+        "score": 8
+      },
+      {
+        "mode": "lowercase",
+        "level": 8,
+        "correct": 8,
+        "score": 8
+      },
+      {
+        "mode": "lowercase",
+        "level": 9,
+        "correct": 8,
+        "score": 8
+      },
+      {
+        "mode": "lowercase",
+        "level": 10,
+        "correct": 10,
+        "score": 10
+      },
+      {
+        "mode": "lowercase",
+        "level": 11,
+        "correct": 21,
+        "score": 21
+      }
+    ],
+    "correctInputs": 94,
+    "wrongInputs": 11,
+    "pointerInputs": 60,
+    "keyboardInputs": 45
+  }
+}

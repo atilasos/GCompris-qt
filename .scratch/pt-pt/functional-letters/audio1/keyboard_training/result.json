@@ -1,0 +1,38 @@
+{
+  "activity": "keyboard_training",
+  "locale": "pt_PT",
+  "qml_file": "keyboard_training/Keyboard_training.qml",
+  "source_sha256": "efd3bbda41ae6b15952d796aef596a4d92bca09bf4f166d762c9e77fbbeeedac",
+  "portuguese_catalogue_sha256": "4865d718b6529ee9aa39be44c4b5052a8b0134e8c42d2cc0718c83d1a4b202c4",
+  "private_qm_sha256": "91f5e93165c01fe523d8f005ee3c000e064f7ecf32478756db38b5e5e0c99480",
+  "case_sha256": "a572b5360ab13aec186e882e40d73a450aac40c19bcf2fc7ff4189d68a09399b",
+  "private_rcc_sha256": "0e3e3c7367cbea351676dd02a3cfeb4e33feff27d65af3bbc00733316b01089a",
+  "binary_sha256": "ab20447c36845d74abeba9974e2d60ca7f20ebf7d59b677ba09f85faf6a90a37",
+  "runner_sha256": "4faa81300d446301ee8eb7e0c3054368344dd27226a2ce3076e60043bdc71366",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-letters/build/native-qml/da429c5aba74459899d5b27a86db1f0b",
+  "version_code": 260200,
+  "network": "docker-none",
+  "timestamp_utc": "2026-10-15T20:34:40.633302+00:00",
+  "scope": "Only actions and assertions in the named case; muted native Qt, not Windows or audio approval.",
+  "screenshots": [
+    {
+      "file": "voice-route.png",
+      "sha256": "310785d67d0b43a07a6df930102dc790953a13c6e740ae6e17b6e09b5e609b79",
+      "bytes": 114164
+    }
+  ],
+  "passed": true,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 0,
+    "passes": 2,
+    "audioRoute": {
+      "activity": "keyboard_training",
+      "typed": "U",
+      "answerScore": 1,
+      "voiceDone": 1
+    }
+  }
+}
