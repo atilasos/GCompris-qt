@@ -1,0 +1,82 @@
+{
+  "scope": "Nine reproduced keyboard dispatch fixes; one native negative control; no whole-game or Windows acceptance",
+  "passed": true,
+  "fixed": [
+    {
+      "activity": "binary_bulb",
+      "result": "binary_bulb-green/result.json",
+      "source_sha256": "5e84234c4016a1e49dedeeeb863118c98ad86a5d7f428a52a2efb1d7f6f08b80",
+      "private_rcc_sha256": "a50df4e4b4f4e6819a9ef51fcb6566707d6b80fa2f15c2c71fd609bcae131918",
+      "passed": true
+    },
+    {
+      "activity": "frieze",
+      "result": "frieze-green/result.json",
+      "source_sha256": "8938ec780b5d12ea69c695ca9acfe1aa4d9d5e1379d77809130b25a14b7f987a",
+      "private_rcc_sha256": "000179b723ac0e9eea677b57d007afd4a17dd2d9da627e7f203b65fc14cbc1ec",
+      "passed": true
+    },
+    {
+      "activity": "solar_system",
+      "result": "solar_system-green/result.json",
+      "source_sha256": "fb37868cd783e324e575fc144b4a6e4168ba6bbdc16555a89b6d053d592dafb5",
+      "private_rcc_sha256": "34e4e37f4e8a6ef60be5f506458dc5f4be23396f7bf4f9d5e0547ec069d12cdb",
+      "passed": true
+    },
+    {
+      "activity": "polygons",
+      "result": "polygons-green/result.json",
+      "source_sha256": "10ca212e34bae609749d294206cdfa57dbace545a200728ea189df0b9d5c029e",
+      "private_rcc_sha256": "285ae4b56bf5ca3d1451fc442b5e37ec785ea5caed566f18bcdc2e6a5cbcb501",
+      "passed": true
+    },
+    {
+      "activity": "analog_electricity",
+      "result": "analog_electricity-green/result.json",
+      "source_sha256": "f9a8e6336ce4247aa76538de7ed3820fc471baa50a7c4d8092adef77cd9eea26",
+      "private_rcc_sha256": "680eb70253c4a8af46944a9ed3345dfb570061223e800d07d2a42f3dae19375a",
+      "passed": true
+    },
+    {
+      "activity": "digital_electricity",
+      "result": "digital_electricity-green/result.json",
+      "source_sha256": "5505f64ec3d4f35f9abea1829cf6e124f4ad8deb6106b7f2a0b3685f68bf84b3",
+      "private_rcc_sha256": "de5e3404aa02a3a8c6d726d52f750c87beee70c7333ea94f3a33374532a4c560",
+      "passed": true
+    },
+    {
+      "activity": "submarine",
+      "result": "submarine-ctrl-w-green/result.json",
+      "source_sha256": "072648124677ce510d9fa92bfef20bea4248d9e6a2808dc2a4597f2f9eb588f7",
+      "private_rcc_sha256": "3d03523c2c1dbfd481ca96615825831315f7de75f36595a4786133adc1d35849",
+      "passed": true,
+      "global_ctrl_w_verified": true
+    },
+    {
+      "activity": "simplepaint",
+      "result": "simplepaint-green/result.json",
+      "source_sha256": "9fa2ae85b5c1b9b7c360dc05ffb962b9a027c3a27147cc51b695211602f93400",
+      "private_rcc_sha256": "612d42712d9e60fe7d518a26e27acf1f8e7005c6028341ff391a3eb5649f11c4",
+      "passed": true
+    },
+    {
+      "activity": "programmingMaze",
+      "result": "programmingMaze-green/result.json",
+      "source_sha256": "b1e6cf4b2f9bd7aea561736b0712798a8b87f99438e0aa8150b2614ac65554d0",
+      "private_rcc_sha256": "734762353aa903b7e2f39331d4e11542ae6ea579f52eabab2199babf7f94ab23",
+      "passed": true
+    }
+  ],
+  "negative_control": "learn_digits-before/result.json",
+  "javascript_dependencies": {
+    "src/activities/frieze/frieze.js": "c7b8c251969e659fb695c544bd38780976098766fbb7e7aee3470e395ecc273e"
+  },
+  "remaining_unreproduced": [
+    "crane",
+    "guess24",
+    "note_names",
+    "menu/BackgroundMusicList",
+    "menu/ServerConfigPage",
+    "piano_composition/MelodyList"
+  ]
+}

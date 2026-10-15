@@ -1,0 +1,27 @@
+{
+  "activity": "frieze",
+  "locale": "pt_PT",
+  "qml_file": "frieze/Frieze.qml",
+  "source_sha256": "8938ec780b5d12ea69c695ca9acfe1aa4d9d5e1379d77809130b25a14b7f987a",
+  "portuguese_catalogue_sha256": "95903c77e759053ce1a836472004f0defd91fe9cce1fce0d8c61850e86c82688",
+  "private_qm_sha256": "41140448e938237c839d40b5f01fe47f62fdb8389b75cac4a9b3eacd9c9722d3",
+  "case_sha256": "0242443636f38977f83f98ccb85902f1f902cc8f7092179ccf5228d4b6d036af",
+  "private_rcc_sha256": "4d8a701ecf75fc3f72d8aa324e1b478710470c6622f7225650fe2983d5d27585",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-duplicate-keys/build/native-qml/82b23f3a5fb04c46ae31e25be7f204a8",
+  "version_code": 260200,
+  "network": "not-enforced",
+  "timestamp_utc": "2026-10-15T21:19:58.675174+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [],
+  "passed": false,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 1,
+    "passes": 1,
+    "menuCalls": 0
+  }
+}

@@ -40,6 +40,10 @@ ActivityBase {
         property bool spaceIsPressed: false
 
         Keys.onPressed: (event) => {
+            if ([Qt.Key_Left, Qt.Key_Right, Qt.Key_Up, Qt.Key_Down, Qt.Key_Space, Qt.Key_Return,
+                 Qt.Key_Enter, Qt.Key_Tab].indexOf(event.key) === -1)
+                return;
+            event.accepted = true;
             items.keyboardControls = true;
 
             if(event.key === Qt.Key_Up) {

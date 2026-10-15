@@ -1,0 +1,27 @@
+{
+  "activity": "polygons",
+  "locale": "pt_PT",
+  "qml_file": "polygons/Polygons.qml",
+  "source_sha256": "62815f5b583a74b0afbc8390e320a027e02ac535cc54040326d836dafe78cab2",
+  "portuguese_catalogue_sha256": "95903c77e759053ce1a836472004f0defd91fe9cce1fce0d8c61850e86c82688",
+  "private_qm_sha256": "41140448e938237c839d40b5f01fe47f62fdb8389b75cac4a9b3eacd9c9722d3",
+  "case_sha256": "e320a9b51cdc76bbb3661d1de6063f33a57844972fabf68af9d5a7e5fe34fd50",
+  "private_rcc_sha256": "64d7fcab9dcdcf4960cf840a146f1c09a597863774954ad7fb4767f9d00c3f0f",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-duplicate-keys/build/native-qml/c6d1da3cf1134a0cb00c498692307db0",
+  "version_code": 260200,
+  "network": "not-enforced",
+  "timestamp_utc": "2026-10-15T21:19:58.655797+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [],
+  "passed": false,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 1,
+    "passes": 1,
+    "menuCalls": 0
+  }
+}
