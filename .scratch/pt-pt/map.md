@@ -163,3 +163,5 @@ As 43 atividades com evidência funcional ligada na matriz não representam
 a aceitação global dos 203 jogos.
 
 - [40 — Contrato dos níveis do Solitário](issues/40-niveis-solitario.md)
+
+- [41 — Primeiro processador de texto](issues/41-primeiro-processador-texto.md)
