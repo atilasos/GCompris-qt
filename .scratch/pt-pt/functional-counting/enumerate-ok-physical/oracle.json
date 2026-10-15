@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "activity": "enumerate",
+  "questions": 12,
+  "modes": [
+    2
+  ],
+  "result_sha256": "8b78c2b4e92a2c0b1058caeb580946af08e7c1cb120b9facbf3f3acc497ecc85",
+  "case_sha256": "c9e6f4bc39757ef63844f11b6aa2f5ea86a85ca3cd223a0dae1d022980a71965",
+  "scope": "Observed counts and recorded native actions only; no physical audio or Windows acceptance."
+}
