@@ -44,7 +44,7 @@ jobs:
           $ErrorActionPreference = 'Stop'
           $PSNativeCommandUseErrorActionPreference = $true
           python -m pip install aqtinstall==3.3.0
-          python -m aqt install-qt windows desktop 6.10.2 win64_msvc2022_64 --outputdir C:/Qt --modules qtshadertools qtmultimedia qtsensors qtimageformats qtsvg qtgraphs qtquick3d qtquicktimeline qtcharts
+          python -m aqt install-qt windows desktop 6.10.2 win64_msvc2022_64 --outputdir C:/Qt --modules qtshadertools qtmultimedia qtsensors qtimageformats qtgraphs qtquick3d qtquicktimeline qtcharts
           git clone --filter=blob:none https://github.com/microsoft/vcpkg.git C:/candidate-vcpkg
           git -C C:/candidate-vcpkg checkout c52f7bd748185ef0e0daf033d9f2ddfc8a3449ea
           & C:/candidate-vcpkg/bootstrap-vcpkg.bat -disableMetrics
