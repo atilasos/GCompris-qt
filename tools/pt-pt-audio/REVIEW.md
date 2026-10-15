@@ -21,7 +21,9 @@ O resultado apresenta o caminho do ZIP e o seu SHA-256. O ZIP inclui:
 - `review.csv`, com número, ficheiro, grupo, transcrição, estado e correções.
 
 O CSV usa ponto e vírgula e UTF-8 com BOM para abertura no Excel do Windows.
-Todas as linhas começam em `pending`. O script não marca nenhuma aprovação.
+O estado é `approved` apenas quando texto e SHA256 correspondem ao registo de
+audição do professor. Ficheiros novos ou alterados ficam `pending`; os restantes
+conservam a aprovação. O script não atribui aprovação por conta própria.
 
 ## Ouvir no Windows
 
@@ -49,9 +51,16 @@ PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover \
 ```
 
 Os testes verificam os 36 membros exatos do ZIP, hashes dos OGG, preservação do
-manifesto e aviso, 32 linhas pendentes, escaping de transcrições e rejeição de
+manifesto e aviso, estados ligados ao texto/áudio aprovado, escaping de transcrições e rejeição de
 entradas inválidas. Nenhuma gravação antiga, modelo ou WAV entra no pacote.
 
 A verificação de browser disponível nesta máquina usa uma cópia extraída por
 HTTP local. O Hub bloqueia navegação `file://`; esse modo e a reprodução sonora
 no Windows continuam a ser verificados no computador do professor.
+
+## Aprovação registada
+
+Em 15 de outubro de 2026, o professor confirmou: «Ouvi as 32 e aprovo.»
+O manifesto conserva os textos e hashes exatos dos 32 OGG e o SHA256 do ZIP
+ouvido. Esse ZIP foi preservado; não é necessário voltar a aprovar os mesmos
+ficheiros. Esta decisão não substitui a reprodução nas atividades/Windows.

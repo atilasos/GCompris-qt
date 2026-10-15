@@ -1,0 +1,19 @@
+..{"format": 1, "source_rcc": "voices-pt-original.rcc", "source_rcc_sha256": "4c30591d0de1e7477f262142645cda7aaaea0672651877ea5679c82bac3221bd", "original_files": 1, "added_files": 1, "total_files": 2, "original_bytes_preserved": true, "pronunciation": "pending-final-teacher-review", "files": [{"path": "voices-pt-2026-10-15-00-00-00.rcc", "bytes": 357, "sha256": "50d8912ba1c1724efe055fa1484561155ca68a6d58766d58db8332fec109654f"}, {"path": "Contents", "bytes": 102, "sha256": "95cb438e84e81d200094a20d7318067af2173610dac72f19fa30669c71e58862"}]}
+{"format": 1, "source_rcc": "voices-pt-original.rcc", "source_rcc_sha256": "4c30591d0de1e7477f262142645cda7aaaea0672651877ea5679c82bac3221bd", "original_files": 1, "added_files": 1, "total_files": 2, "original_bytes_preserved": true, "pronunciation": "pending-final-teacher-review", "files": [{"path": "voices-pt-2026-10-15-00-00-00.rcc", "bytes": 357, "sha256": "50d8912ba1c1724efe055fa1484561155ca68a6d58766d58db8332fec109654f"}, {"path": "Contents", "bytes": 102, "sha256": "95cb438e84e81d200094a20d7318067af2173610dac72f19fa30669c71e58862"}]}
+F
+======================================================================
+FAIL: test_packaging_preserves_original_audio_and_selects_complete_rcc (test_complete_pt_voices.CompleteVoicesTest.test_packaging_preserves_original_audio_and_selects_complete_rcc)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-audio-approval/tests/test_complete_pt_voices.py", line 63, in test_packaging_preserves_original_audio_and_selects_complete_rcc
+    self.assertEqual(metadata['pronunciation'], 'approved-new-recordings')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'pending-final-teacher-review' != 'approved-new-recordings'
+- pending-final-teacher-review
++ approved-new-recordings
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.826s
+
+FAILED (failures=1)

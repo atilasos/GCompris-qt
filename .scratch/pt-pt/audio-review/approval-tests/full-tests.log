@@ -1,0 +1,12 @@
+........{"format": 1, "source_rcc": "voices-pt-original.rcc", "source_rcc_sha256": "50698c18a126bf207aa3b43fd8ecb04fe1fc1faab1d486b3c53fca68149d9202", "original_files": 1, "added_files": 1, "total_files": 2, "original_bytes_preserved": true, "pronunciation": "pending-final-teacher-review", "new_recordings_review": "pending", "files": [{"path": "voices-pt-2026-10-15-00-00-00.rcc", "bytes": 357, "sha256": "50d8912ba1c1724efe055fa1484561155ca68a6d58766d58db8332fec109654f"}, {"path": "Contents", "bytes": 102, "sha256": "95cb438e84e81d200094a20d7318067af2173610dac72f19fa30669c71e58862"}]}
+{"format": 1, "source_rcc": "voices-pt-original.rcc", "source_rcc_sha256": "50698c18a126bf207aa3b43fd8ecb04fe1fc1faab1d486b3c53fca68149d9202", "original_files": 1, "added_files": 1, "total_files": 2, "original_bytes_preserved": true, "pronunciation": "pending-final-teacher-review", "new_recordings_review": "pending", "files": [{"path": "voices-pt-2026-10-15-00-00-00.rcc", "bytes": 357, "sha256": "50d8912ba1c1724efe055fa1484561155ca68a6d58766d58db8332fec109654f"}, {"path": "Contents", "bytes": 102, "sha256": "95cb438e84e81d200094a20d7318067af2173610dac72f19fa30669c71e58862"}]}
+.........{"pt_voice_files": 2, "missing_counts": {"introductions": 202, "alphabet": 25, "digits_and_numbers": 21, "portuguese_keyboard": 12, "literal_references": 1316, "active_wordset": 1090}, "decode": {"status": "not-run"}}
+..........................Updating '/tmp/gcompris-translation-tvokb9da/build/translations/gcompris_qt_pt.qm'...
+Removing translations equal to source text in '/tmp/gcompris-translation-tvokb9da/build/translations/gcompris_qt_pt.qm'...
+    Generated 1 translation(s) (1 finished and 0 unfinished)
+.
+----------------------------------------------------------------------
+Ran 44 tests in 25.263s
+
+OK
+voices-ogg/voices-pt.rcc 0454bcbce377972675dbb7fe4bbe6ccd80913ace3a223ee643fa6abd70074cd9

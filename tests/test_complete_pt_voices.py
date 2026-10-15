@@ -53,6 +53,22 @@ class CompleteVoicesTest(unittest.TestCase):
             subprocess.run(command, check=True)
             self.assertEqual(completed.read_bytes(), before)
 
+            manifest['recordings'][0]['text'] = 'Nova gravação'
+            manifest['teacher_review'] = {'recordings': {
+                row['file']: {'text': row['text'], 'sha256': row['sha256']}
+                for row in manifest['recordings']}}
+            (additions / 'manifest.json').write_text(json.dumps(manifest))
+            subprocess.run(command, check=True, capture_output=True)
+            metadata = json.loads((folder / 'completion.json').read_text())
+            self.assertEqual(metadata['pronunciation'], 'approved-new-recordings')
+            self.assertEqual(completed.read_bytes(), before)
+            manifest['recordings'][0]['text'] = 'Texto alterado depois da aprovação'
+            (additions / 'manifest.json').write_text(json.dumps(manifest))
+            subprocess.run(command, check=True, capture_output=True)
+            metadata = json.loads((folder / 'completion.json').read_text())
+            self.assertEqual(metadata['pronunciation'], 'pending-final-teacher-review')
+            self.assertEqual(completed.read_bytes(), before)
+
             new.write_bytes(b'OggSchanged-recording')
             damaged = subprocess.run(command, capture_output=True, text=True)
             self.assertNotEqual(damaged.returncode, 0)

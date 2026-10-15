@@ -23,9 +23,9 @@ Inventário de bytes RCC e descodificação dos 1578 ficheiros concluídos em Li
 Os guiões PO foram corrigidos. Relatório e procedimento reproduzível em
 `../audio/review.md` e `../audio/coverage.json`.
 
-A aceitação continua pendente: gravações em falta, aprovação das amostras de voz,
-validação pedagógica dos sons/letras, audição nas atividades e reprodução no
-Windows 10 x64. A inspeção do catálogo não substitui gravações. Não marcar como
+As amostras de voz e as 32 gravações completas foram aprovadas pelo professor.
+A aceitação continua pendente para audição nas atividades, validação pedagógica
+global dos sons/letras e reprodução no Windows 10 x64. A inspeção do catálogo não substitui gravações. Não marcar como
 resolvida enquanto estes critérios permanecerem pendentes.
 
 
@@ -44,6 +44,13 @@ rótulos geográficos do catálogo com os nomes portugueses gravados.
 
 Procedimento e evidência em `../audio/completion-review.md`. A integração Windows
 usa o mesmo combinador depois de obter os recursos originais. A tarefa continua
-aberta para audição final pelo professor, verificação nas atividades e reprodução
-em Windows. A aprovação da voz para gerar recursos não é aprovação final de cada
-ficheiro nem certificação dos 203 jogos.
+aberta para verificação nas atividades e reprodução em Windows. O professor
+aprovou a pronúncia e os textos das 32 gravações completas; essa aprovação
+não é certificação dos 203 jogos.
+
+### Aprovação das 32 gravações completas
+
+O professor ouviu o ZIP da tarefa26 e confirmou «Ouvi as 32 e aprovo.»
+Os textos e SHA256 foram comparados com o ZIP ouvido e os OGG atuais.
+O registo em resources/pt-pt-voices/manifest.json e na tarefa35 conserva
+a aprovação por ficheiro; não há nova geração nem alteração dos bytes sonoros.

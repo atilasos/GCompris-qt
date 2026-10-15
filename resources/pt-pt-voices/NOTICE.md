@@ -8,7 +8,9 @@ das 1578 gravações existentes no pacote original.
 O professor aprovou a voz, o ritmo e a pronúncia das amostras para gerar instruções
 e topónimos, e aprovou nomes explícitos dos caracteres acentuados, como "a com
 acento agudo", "a com til" e "cê cedilhado". Estes nomes não substituem fonemas.
-A revisão pedagógica e a audição final de cada gravação continuam pendentes.
+O professor aprovou a pronúncia e os textos das 32 gravações em 15 de outubro de 2026.
+O campo teacher_review do manifesto identifica os textos e os hashes aprovados.
+A reprodução nas atividades e nos computadores Windows continua a ser verificada.
 
 ## Origem e licenças
 

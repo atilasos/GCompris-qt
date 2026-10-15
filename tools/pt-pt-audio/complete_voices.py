@@ -23,6 +23,19 @@ def digest(path, algorithm='sha256'):
     return hashlib.new(algorithm, path.read_bytes()).hexdigest()
 
 
+def recording_review_status(manifest, recording=None):
+    approved = manifest.get('teacher_review', {}).get('recordings', {})
+    def status(row):
+        reviewed = approved.get(row['file'])
+        return 'approved' if reviewed == {'text': row.get('text'), 'sha256': row['sha256']} else 'pending'
+    if recording is not None:
+        return status(recording)
+    statuses = [status(row) for row in manifest['recordings']]
+    if statuses and all(value == 'approved' for value in statuses):
+        return 'approved'
+    return 'partial' if 'approved' in statuses else 'pending'
+
+
 def inventory(utility, rcc, export=None):
     command = [str(utility), str(rcc)]
     if export is not None:
@@ -81,7 +94,9 @@ def complete(voices_dir, additions, utility, rcc_tool):
     result = {'format': 1, 'source_rcc': original.name, 'source_rcc_sha256': digest(original),
               'original_files': len(source), 'added_files': len(manifest['recordings']),
               'total_files': len(expected), 'original_bytes_preserved': True,
-              'pronunciation': 'pending-final-teacher-review', 'files': [
+              'pronunciation': ('approved-new-recordings' if recording_review_status(manifest) == 'approved'
+                                else 'pending-final-teacher-review'),
+              'new_recordings_review': recording_review_status(manifest), 'files': [
                   {'path': name, 'bytes': (voices_dir / name).stat().st_size,
                    'sha256': digest(voices_dir / name)} for name in (OUTPUT, 'Contents')]}
     shutil.copyfile(additions / 'manifest.json', voices_dir / 'additions-manifest.json')
