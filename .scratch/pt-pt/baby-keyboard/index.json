@@ -1,0 +1,2539 @@
+[
+  {
+    "case": "gameplay",
+    "result_sha256": "f831c6ed42602dc3980cb163398832e2ee45babf2687c256924665eeaaf98223",
+    "passed": true,
+    "result": {
+      "failures": 0,
+      "passes": 3,
+      "observations": [
+        {
+          "input": "a",
+          "displayed": "A",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0061.ogg"
+        },
+        {
+          "input": "b",
+          "displayed": "B",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0062.ogg"
+        },
+        {
+          "input": "c",
+          "displayed": "C",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0063.ogg"
+        },
+        {
+          "input": "d",
+          "displayed": "D",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0064.ogg"
+        },
+        {
+          "input": "e",
+          "displayed": "E",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0065.ogg"
+        },
+        {
+          "input": "f",
+          "displayed": "F",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0066.ogg"
+        },
+        {
+          "input": "g",
+          "displayed": "G",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0067.ogg"
+        },
+        {
+          "input": "h",
+          "displayed": "H",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0068.ogg"
+        },
+        {
+          "input": "i",
+          "displayed": "I",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0069.ogg"
+        },
+        {
+          "input": "j",
+          "displayed": "J",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006A.ogg"
+        },
+        {
+          "input": "k",
+          "displayed": "K",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006B.ogg"
+        },
+        {
+          "input": "l",
+          "displayed": "L",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006C.ogg"
+        },
+        {
+          "input": "m",
+          "displayed": "M",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006D.ogg"
+        },
+        {
+          "input": "n",
+          "displayed": "N",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006E.ogg"
+        },
+        {
+          "input": "o",
+          "displayed": "O",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006F.ogg"
+        },
+        {
+          "input": "p",
+          "displayed": "P",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0070.ogg"
+        },
+        {
+          "input": "q",
+          "displayed": "Q",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0071.ogg"
+        },
+        {
+          "input": "r",
+          "displayed": "R",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0072.ogg"
+        },
+        {
+          "input": "s",
+          "displayed": "S",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0073.ogg"
+        },
+        {
+          "input": "t",
+          "displayed": "T",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0074.ogg"
+        },
+        {
+          "input": "u",
+          "displayed": "U",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0075.ogg"
+        },
+        {
+          "input": "v",
+          "displayed": "V",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0076.ogg"
+        },
+        {
+          "input": "w",
+          "displayed": "W",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0077.ogg"
+        },
+        {
+          "input": "x",
+          "displayed": "X",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0078.ogg"
+        },
+        {
+          "input": "y",
+          "displayed": "Y",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0079.ogg"
+        },
+        {
+          "input": "z",
+          "displayed": "Z",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U007A.ogg"
+        },
+        {
+          "input": "A",
+          "displayed": "A",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0061.ogg"
+        },
+        {
+          "input": "B",
+          "displayed": "B",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0062.ogg"
+        },
+        {
+          "input": "C",
+          "displayed": "C",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0063.ogg"
+        },
+        {
+          "input": "D",
+          "displayed": "D",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0064.ogg"
+        },
+        {
+          "input": "E",
+          "displayed": "E",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0065.ogg"
+        },
+        {
+          "input": "F",
+          "displayed": "F",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0066.ogg"
+        },
+        {
+          "input": "G",
+          "displayed": "G",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0067.ogg"
+        },
+        {
+          "input": "H",
+          "displayed": "H",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0068.ogg"
+        },
+        {
+          "input": "I",
+          "displayed": "I",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0069.ogg"
+        },
+        {
+          "input": "J",
+          "displayed": "J",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006A.ogg"
+        },
+        {
+          "input": "K",
+          "displayed": "K",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006B.ogg"
+        },
+        {
+          "input": "L",
+          "displayed": "L",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006C.ogg"
+        },
+        {
+          "input": "M",
+          "displayed": "M",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006D.ogg"
+        },
+        {
+          "input": "N",
+          "displayed": "N",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006E.ogg"
+        },
+        {
+          "input": "O",
+          "displayed": "O",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006F.ogg"
+        },
+        {
+          "input": "P",
+          "displayed": "P",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0070.ogg"
+        },
+        {
+          "input": "Q",
+          "displayed": "Q",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0071.ogg"
+        },
+        {
+          "input": "R",
+          "displayed": "R",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0072.ogg"
+        },
+        {
+          "input": "S",
+          "displayed": "S",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0073.ogg"
+        },
+        {
+          "input": "T",
+          "displayed": "T",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0074.ogg"
+        },
+        {
+          "input": "U",
+          "displayed": "U",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0075.ogg"
+        },
+        {
+          "input": "V",
+          "displayed": "V",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0076.ogg"
+        },
+        {
+          "input": "W",
+          "displayed": "W",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0077.ogg"
+        },
+        {
+          "input": "X",
+          "displayed": "X",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0078.ogg"
+        },
+        {
+          "input": "Y",
+          "displayed": "Y",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0079.ogg"
+        },
+        {
+          "input": "Z",
+          "displayed": "Z",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U007A.ogg"
+        },
+        {
+          "input": "0",
+          "displayed": "0",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0030.ogg"
+        },
+        {
+          "input": "1",
+          "displayed": "1",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0031.ogg"
+        },
+        {
+          "input": "2",
+          "displayed": "2",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0032.ogg"
+        },
+        {
+          "input": "3",
+          "displayed": "3",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0033.ogg"
+        },
+        {
+          "input": "4",
+          "displayed": "4",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0034.ogg"
+        },
+        {
+          "input": "5",
+          "displayed": "5",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0035.ogg"
+        },
+        {
+          "input": "6",
+          "displayed": "6",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0036.ogg"
+        },
+        {
+          "input": "7",
+          "displayed": "7",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0037.ogg"
+        },
+        {
+          "input": "8",
+          "displayed": "8",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0038.ogg"
+        },
+        {
+          "input": "9",
+          "displayed": "9",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0039.ogg"
+        },
+        {
+          "input": "à",
+          "displayed": "À",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E0.ogg"
+        },
+        {
+          "input": "á",
+          "displayed": "Á",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E1.ogg"
+        },
+        {
+          "input": "â",
+          "displayed": "Â",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E2.ogg"
+        },
+        {
+          "input": "ã",
+          "displayed": "Ã",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E3.ogg"
+        },
+        {
+          "input": "ç",
+          "displayed": "Ç",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E7.ogg"
+        },
+        {
+          "input": "é",
+          "displayed": "É",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E9.ogg"
+        },
+        {
+          "input": "ê",
+          "displayed": "Ê",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00EA.ogg"
+        },
+        {
+          "input": "í",
+          "displayed": "Í",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00ED.ogg"
+        },
+        {
+          "input": "ó",
+          "displayed": "Ó",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F3.ogg"
+        },
+        {
+          "input": "ô",
+          "displayed": "Ô",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F4.ogg"
+        },
+        {
+          "input": "õ",
+          "displayed": "Õ",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F5.ogg"
+        },
+        {
+          "input": "ú",
+          "displayed": "Ú",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00FA.ogg"
+        },
+        {
+          "input": "À",
+          "displayed": "À",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E0.ogg"
+        },
+        {
+          "input": "Á",
+          "displayed": "Á",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E1.ogg"
+        },
+        {
+          "input": "Â",
+          "displayed": "Â",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E2.ogg"
+        },
+        {
+          "input": "Ã",
+          "displayed": "Ã",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E3.ogg"
+        },
+        {
+          "input": "Ç",
+          "displayed": "Ç",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E7.ogg"
+        },
+        {
+          "input": "É",
+          "displayed": "É",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E9.ogg"
+        },
+        {
+          "input": "Ê",
+          "displayed": "Ê",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00EA.ogg"
+        },
+        {
+          "input": "Í",
+          "displayed": "Í",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00ED.ogg"
+        },
+        {
+          "input": "Ó",
+          "displayed": "Ó",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F3.ogg"
+        },
+        {
+          "input": "Ô",
+          "displayed": "Ô",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F4.ogg"
+        },
+        {
+          "input": "Õ",
+          "displayed": "Õ",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F5.ogg"
+        },
+        {
+          "input": "Ú",
+          "displayed": "Ú",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00FA.ogg"
+        },
+        {
+          "input": "a",
+          "displayed": "A",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0061.ogg"
+        },
+        {
+          "input": "b",
+          "displayed": "B",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0062.ogg"
+        },
+        {
+          "input": "c",
+          "displayed": "C",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0063.ogg"
+        },
+        {
+          "input": "d",
+          "displayed": "D",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0064.ogg"
+        },
+        {
+          "input": "e",
+          "displayed": "E",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0065.ogg"
+        },
+        {
+          "input": "f",
+          "displayed": "F",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0066.ogg"
+        },
+        {
+          "input": "g",
+          "displayed": "G",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0067.ogg"
+        },
+        {
+          "input": "h",
+          "displayed": "H",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0068.ogg"
+        },
+        {
+          "input": "i",
+          "displayed": "I",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0069.ogg"
+        },
+        {
+          "input": "j",
+          "displayed": "J",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006A.ogg"
+        },
+        {
+          "input": "k",
+          "displayed": "K",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006B.ogg"
+        },
+        {
+          "input": "l",
+          "displayed": "L",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006C.ogg"
+        },
+        {
+          "input": "m",
+          "displayed": "M",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006D.ogg"
+        },
+        {
+          "input": "n",
+          "displayed": "N",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006E.ogg"
+        },
+        {
+          "input": "o",
+          "displayed": "O",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006F.ogg"
+        },
+        {
+          "input": "p",
+          "displayed": "P",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0070.ogg"
+        },
+        {
+          "input": "q",
+          "displayed": "Q",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0071.ogg"
+        },
+        {
+          "input": "r",
+          "displayed": "R",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0072.ogg"
+        },
+        {
+          "input": "s",
+          "displayed": "S",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0073.ogg"
+        },
+        {
+          "input": "t",
+          "displayed": "T",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0074.ogg"
+        },
+        {
+          "input": "u",
+          "displayed": "U",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0075.ogg"
+        },
+        {
+          "input": "v",
+          "displayed": "V",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0076.ogg"
+        },
+        {
+          "input": "w",
+          "displayed": "W",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0077.ogg"
+        },
+        {
+          "input": "x",
+          "displayed": "X",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0078.ogg"
+        },
+        {
+          "input": "y",
+          "displayed": "Y",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0079.ogg"
+        },
+        {
+          "input": "z",
+          "displayed": "Z",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U007A.ogg"
+        },
+        {
+          "input": "A",
+          "displayed": "A",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0061.ogg"
+        },
+        {
+          "input": "B",
+          "displayed": "B",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0062.ogg"
+        },
+        {
+          "input": "C",
+          "displayed": "C",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0063.ogg"
+        },
+        {
+          "input": "D",
+          "displayed": "D",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0064.ogg"
+        },
+        {
+          "input": "E",
+          "displayed": "E",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0065.ogg"
+        },
+        {
+          "input": "F",
+          "displayed": "F",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0066.ogg"
+        },
+        {
+          "input": "G",
+          "displayed": "G",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0067.ogg"
+        },
+        {
+          "input": "H",
+          "displayed": "H",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0068.ogg"
+        },
+        {
+          "input": "I",
+          "displayed": "I",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0069.ogg"
+        },
+        {
+          "input": "J",
+          "displayed": "J",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006A.ogg"
+        },
+        {
+          "input": "K",
+          "displayed": "K",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006B.ogg"
+        },
+        {
+          "input": "L",
+          "displayed": "L",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006C.ogg"
+        },
+        {
+          "input": "M",
+          "displayed": "M",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006D.ogg"
+        },
+        {
+          "input": "N",
+          "displayed": "N",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006E.ogg"
+        },
+        {
+          "input": "O",
+          "displayed": "O",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006F.ogg"
+        },
+        {
+          "input": "P",
+          "displayed": "P",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0070.ogg"
+        },
+        {
+          "input": "Q",
+          "displayed": "Q",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0071.ogg"
+        },
+        {
+          "input": "R",
+          "displayed": "R",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0072.ogg"
+        },
+        {
+          "input": "S",
+          "displayed": "S",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0073.ogg"
+        },
+        {
+          "input": "T",
+          "displayed": "T",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0074.ogg"
+        },
+        {
+          "input": "U",
+          "displayed": "U",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0075.ogg"
+        },
+        {
+          "input": "V",
+          "displayed": "V",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0076.ogg"
+        },
+        {
+          "input": "W",
+          "displayed": "W",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0077.ogg"
+        },
+        {
+          "input": "X",
+          "displayed": "X",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0078.ogg"
+        },
+        {
+          "input": "Y",
+          "displayed": "Y",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0079.ogg"
+        },
+        {
+          "input": "Z",
+          "displayed": "Z",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U007A.ogg"
+        },
+        {
+          "input": "0",
+          "displayed": "0",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0030.ogg"
+        },
+        {
+          "input": "1",
+          "displayed": "1",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0031.ogg"
+        },
+        {
+          "input": "2",
+          "displayed": "2",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0032.ogg"
+        },
+        {
+          "input": "3",
+          "displayed": "3",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0033.ogg"
+        },
+        {
+          "input": "4",
+          "displayed": "4",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0034.ogg"
+        },
+        {
+          "input": "5",
+          "displayed": "5",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0035.ogg"
+        },
+        {
+          "input": "6",
+          "displayed": "6",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0036.ogg"
+        },
+        {
+          "input": "7",
+          "displayed": "7",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0037.ogg"
+        },
+        {
+          "input": "8",
+          "displayed": "8",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0038.ogg"
+        },
+        {
+          "input": "9",
+          "displayed": "9",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0039.ogg"
+        },
+        {
+          "input": "à",
+          "displayed": "À",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E0.ogg"
+        },
+        {
+          "input": "á",
+          "displayed": "Á",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E1.ogg"
+        },
+        {
+          "input": "â",
+          "displayed": "Â",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E2.ogg"
+        },
+        {
+          "input": "ã",
+          "displayed": "Ã",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E3.ogg"
+        },
+        {
+          "input": "ç",
+          "displayed": "Ç",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E7.ogg"
+        },
+        {
+          "input": "é",
+          "displayed": "É",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E9.ogg"
+        },
+        {
+          "input": "ê",
+          "displayed": "Ê",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00EA.ogg"
+        },
+        {
+          "input": "í",
+          "displayed": "Í",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00ED.ogg"
+        },
+        {
+          "input": "ó",
+          "displayed": "Ó",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F3.ogg"
+        },
+        {
+          "input": "ô",
+          "displayed": "Ô",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F4.ogg"
+        },
+        {
+          "input": "õ",
+          "displayed": "Õ",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F5.ogg"
+        },
+        {
+          "input": "ú",
+          "displayed": "Ú",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00FA.ogg"
+        },
+        {
+          "input": "À",
+          "displayed": "À",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E0.ogg"
+        },
+        {
+          "input": "Á",
+          "displayed": "Á",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E1.ogg"
+        },
+        {
+          "input": "Â",
+          "displayed": "Â",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E2.ogg"
+        },
+        {
+          "input": "Ã",
+          "displayed": "Ã",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E3.ogg"
+        },
+        {
+          "input": "Ç",
+          "displayed": "Ç",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E7.ogg"
+        },
+        {
+          "input": "É",
+          "displayed": "É",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E9.ogg"
+        },
+        {
+          "input": "Ê",
+          "displayed": "Ê",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00EA.ogg"
+        },
+        {
+          "input": "Í",
+          "displayed": "Í",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00ED.ogg"
+        },
+        {
+          "input": "Ó",
+          "displayed": "Ó",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F3.ogg"
+        },
+        {
+          "input": "Ô",
+          "displayed": "Ô",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F4.ogg"
+        },
+        {
+          "input": "Õ",
+          "displayed": "Õ",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F5.ogg"
+        },
+        {
+          "input": "Ú",
+          "displayed": "Ú",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00FA.ogg"
+        },
+        {
+          "input": "A",
+          "displayed": "A",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0061.ogg"
+        },
+        {
+          "input": "B",
+          "displayed": "B",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0062.ogg"
+        },
+        {
+          "input": "C",
+          "displayed": "C",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0063.ogg"
+        },
+        {
+          "input": "D",
+          "displayed": "D",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0064.ogg"
+        },
+        {
+          "input": "E",
+          "displayed": "E",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0065.ogg"
+        },
+        {
+          "input": "F",
+          "displayed": "F",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0066.ogg"
+        },
+        {
+          "input": "G",
+          "displayed": "G",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0067.ogg"
+        },
+        {
+          "input": "H",
+          "displayed": "H",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0068.ogg"
+        },
+        {
+          "input": "I",
+          "displayed": "I",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0069.ogg"
+        },
+        {
+          "input": "J",
+          "displayed": "J",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006A.ogg"
+        },
+        {
+          "input": "K",
+          "displayed": "K",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006B.ogg"
+        },
+        {
+          "input": "L",
+          "displayed": "L",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006C.ogg"
+        },
+        {
+          "input": "M",
+          "displayed": "M",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006D.ogg"
+        },
+        {
+          "input": "N",
+          "displayed": "N",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006E.ogg"
+        },
+        {
+          "input": "O",
+          "displayed": "O",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006F.ogg"
+        },
+        {
+          "input": "P",
+          "displayed": "P",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0070.ogg"
+        },
+        {
+          "input": "Q",
+          "displayed": "Q",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0071.ogg"
+        },
+        {
+          "input": "R",
+          "displayed": "R",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0072.ogg"
+        },
+        {
+          "input": "S",
+          "displayed": "S",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0073.ogg"
+        },
+        {
+          "input": "T",
+          "displayed": "T",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0074.ogg"
+        },
+        {
+          "input": "U",
+          "displayed": "U",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0075.ogg"
+        },
+        {
+          "input": "V",
+          "displayed": "V",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0076.ogg"
+        },
+        {
+          "input": "W",
+          "displayed": "W",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0077.ogg"
+        },
+        {
+          "input": "X",
+          "displayed": "X",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0078.ogg"
+        },
+        {
+          "input": "Y",
+          "displayed": "Y",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0079.ogg"
+        },
+        {
+          "input": "Z",
+          "displayed": "Z",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U007A.ogg"
+        },
+        {
+          "input": "0",
+          "displayed": "0",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0030.ogg"
+        },
+        {
+          "input": "1",
+          "displayed": "1",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0031.ogg"
+        },
+        {
+          "input": "2",
+          "displayed": "2",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0032.ogg"
+        },
+        {
+          "input": "3",
+          "displayed": "3",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0033.ogg"
+        },
+        {
+          "input": "4",
+          "displayed": "4",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0034.ogg"
+        },
+        {
+          "input": "5",
+          "displayed": "5",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0035.ogg"
+        },
+        {
+          "input": "6",
+          "displayed": "6",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0036.ogg"
+        },
+        {
+          "input": "7",
+          "displayed": "7",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0037.ogg"
+        },
+        {
+          "input": "8",
+          "displayed": "8",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0038.ogg"
+        },
+        {
+          "input": "9",
+          "displayed": "9",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0039.ogg"
+        }
+      ],
+      "decodedVoiceDone": 37
+    }
+  },
+  {
+    "case": "gameplay-player",
+    "result_sha256": "ad8bf05ec5d60ddaa1f5033c9ee7cbefd8ba9c1b099f966cde4283c445ca59d6",
+    "passed": true,
+    "result": {
+      "failures": 0,
+      "passes": 3,
+      "observations": [
+        {
+          "input": "a",
+          "displayed": "A",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0061.ogg"
+        },
+        {
+          "input": "b",
+          "displayed": "B",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0062.ogg"
+        },
+        {
+          "input": "c",
+          "displayed": "C",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0063.ogg"
+        },
+        {
+          "input": "d",
+          "displayed": "D",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0064.ogg"
+        },
+        {
+          "input": "e",
+          "displayed": "E",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0065.ogg"
+        },
+        {
+          "input": "f",
+          "displayed": "F",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0066.ogg"
+        },
+        {
+          "input": "g",
+          "displayed": "G",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0067.ogg"
+        },
+        {
+          "input": "h",
+          "displayed": "H",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0068.ogg"
+        },
+        {
+          "input": "i",
+          "displayed": "I",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0069.ogg"
+        },
+        {
+          "input": "j",
+          "displayed": "J",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006A.ogg"
+        },
+        {
+          "input": "k",
+          "displayed": "K",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006B.ogg"
+        },
+        {
+          "input": "l",
+          "displayed": "L",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006C.ogg"
+        },
+        {
+          "input": "m",
+          "displayed": "M",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006D.ogg"
+        },
+        {
+          "input": "n",
+          "displayed": "N",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006E.ogg"
+        },
+        {
+          "input": "o",
+          "displayed": "O",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006F.ogg"
+        },
+        {
+          "input": "p",
+          "displayed": "P",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0070.ogg"
+        },
+        {
+          "input": "q",
+          "displayed": "Q",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0071.ogg"
+        },
+        {
+          "input": "r",
+          "displayed": "R",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0072.ogg"
+        },
+        {
+          "input": "s",
+          "displayed": "S",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0073.ogg"
+        },
+        {
+          "input": "t",
+          "displayed": "T",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0074.ogg"
+        },
+        {
+          "input": "u",
+          "displayed": "U",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0075.ogg"
+        },
+        {
+          "input": "v",
+          "displayed": "V",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0076.ogg"
+        },
+        {
+          "input": "w",
+          "displayed": "W",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0077.ogg"
+        },
+        {
+          "input": "x",
+          "displayed": "X",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0078.ogg"
+        },
+        {
+          "input": "y",
+          "displayed": "Y",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0079.ogg"
+        },
+        {
+          "input": "z",
+          "displayed": "Z",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U007A.ogg"
+        },
+        {
+          "input": "A",
+          "displayed": "A",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0061.ogg"
+        },
+        {
+          "input": "B",
+          "displayed": "B",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0062.ogg"
+        },
+        {
+          "input": "C",
+          "displayed": "C",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0063.ogg"
+        },
+        {
+          "input": "D",
+          "displayed": "D",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0064.ogg"
+        },
+        {
+          "input": "E",
+          "displayed": "E",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0065.ogg"
+        },
+        {
+          "input": "F",
+          "displayed": "F",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0066.ogg"
+        },
+        {
+          "input": "G",
+          "displayed": "G",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0067.ogg"
+        },
+        {
+          "input": "H",
+          "displayed": "H",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0068.ogg"
+        },
+        {
+          "input": "I",
+          "displayed": "I",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0069.ogg"
+        },
+        {
+          "input": "J",
+          "displayed": "J",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006A.ogg"
+        },
+        {
+          "input": "K",
+          "displayed": "K",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006B.ogg"
+        },
+        {
+          "input": "L",
+          "displayed": "L",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006C.ogg"
+        },
+        {
+          "input": "M",
+          "displayed": "M",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006D.ogg"
+        },
+        {
+          "input": "N",
+          "displayed": "N",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006E.ogg"
+        },
+        {
+          "input": "O",
+          "displayed": "O",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006F.ogg"
+        },
+        {
+          "input": "P",
+          "displayed": "P",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0070.ogg"
+        },
+        {
+          "input": "Q",
+          "displayed": "Q",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0071.ogg"
+        },
+        {
+          "input": "R",
+          "displayed": "R",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0072.ogg"
+        },
+        {
+          "input": "S",
+          "displayed": "S",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0073.ogg"
+        },
+        {
+          "input": "T",
+          "displayed": "T",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0074.ogg"
+        },
+        {
+          "input": "U",
+          "displayed": "U",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0075.ogg"
+        },
+        {
+          "input": "V",
+          "displayed": "V",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0076.ogg"
+        },
+        {
+          "input": "W",
+          "displayed": "W",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0077.ogg"
+        },
+        {
+          "input": "X",
+          "displayed": "X",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0078.ogg"
+        },
+        {
+          "input": "Y",
+          "displayed": "Y",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0079.ogg"
+        },
+        {
+          "input": "Z",
+          "displayed": "Z",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U007A.ogg"
+        },
+        {
+          "input": "0",
+          "displayed": "0",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0030.ogg"
+        },
+        {
+          "input": "1",
+          "displayed": "1",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0031.ogg"
+        },
+        {
+          "input": "2",
+          "displayed": "2",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0032.ogg"
+        },
+        {
+          "input": "3",
+          "displayed": "3",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0033.ogg"
+        },
+        {
+          "input": "4",
+          "displayed": "4",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0034.ogg"
+        },
+        {
+          "input": "5",
+          "displayed": "5",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0035.ogg"
+        },
+        {
+          "input": "6",
+          "displayed": "6",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0036.ogg"
+        },
+        {
+          "input": "7",
+          "displayed": "7",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0037.ogg"
+        },
+        {
+          "input": "8",
+          "displayed": "8",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0038.ogg"
+        },
+        {
+          "input": "9",
+          "displayed": "9",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0039.ogg"
+        },
+        {
+          "input": "à",
+          "displayed": "À",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E0.ogg"
+        },
+        {
+          "input": "á",
+          "displayed": "Á",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E1.ogg"
+        },
+        {
+          "input": "â",
+          "displayed": "Â",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E2.ogg"
+        },
+        {
+          "input": "ã",
+          "displayed": "Ã",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E3.ogg"
+        },
+        {
+          "input": "ç",
+          "displayed": "Ç",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E7.ogg"
+        },
+        {
+          "input": "é",
+          "displayed": "É",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E9.ogg"
+        },
+        {
+          "input": "ê",
+          "displayed": "Ê",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00EA.ogg"
+        },
+        {
+          "input": "í",
+          "displayed": "Í",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00ED.ogg"
+        },
+        {
+          "input": "ó",
+          "displayed": "Ó",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F3.ogg"
+        },
+        {
+          "input": "ô",
+          "displayed": "Ô",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F4.ogg"
+        },
+        {
+          "input": "õ",
+          "displayed": "Õ",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F5.ogg"
+        },
+        {
+          "input": "ú",
+          "displayed": "Ú",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00FA.ogg"
+        },
+        {
+          "input": "À",
+          "displayed": "À",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E0.ogg"
+        },
+        {
+          "input": "Á",
+          "displayed": "Á",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E1.ogg"
+        },
+        {
+          "input": "Â",
+          "displayed": "Â",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E2.ogg"
+        },
+        {
+          "input": "Ã",
+          "displayed": "Ã",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E3.ogg"
+        },
+        {
+          "input": "Ç",
+          "displayed": "Ç",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E7.ogg"
+        },
+        {
+          "input": "É",
+          "displayed": "É",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E9.ogg"
+        },
+        {
+          "input": "Ê",
+          "displayed": "Ê",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00EA.ogg"
+        },
+        {
+          "input": "Í",
+          "displayed": "Í",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00ED.ogg"
+        },
+        {
+          "input": "Ó",
+          "displayed": "Ó",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F3.ogg"
+        },
+        {
+          "input": "Ô",
+          "displayed": "Ô",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F4.ogg"
+        },
+        {
+          "input": "Õ",
+          "displayed": "Õ",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F5.ogg"
+        },
+        {
+          "input": "Ú",
+          "displayed": "Ú",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00FA.ogg"
+        },
+        {
+          "input": "a",
+          "displayed": "A",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0061.ogg"
+        },
+        {
+          "input": "b",
+          "displayed": "B",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0062.ogg"
+        },
+        {
+          "input": "c",
+          "displayed": "C",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0063.ogg"
+        },
+        {
+          "input": "d",
+          "displayed": "D",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0064.ogg"
+        },
+        {
+          "input": "e",
+          "displayed": "E",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0065.ogg"
+        },
+        {
+          "input": "f",
+          "displayed": "F",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0066.ogg"
+        },
+        {
+          "input": "g",
+          "displayed": "G",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0067.ogg"
+        },
+        {
+          "input": "h",
+          "displayed": "H",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0068.ogg"
+        },
+        {
+          "input": "i",
+          "displayed": "I",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0069.ogg"
+        },
+        {
+          "input": "j",
+          "displayed": "J",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006A.ogg"
+        },
+        {
+          "input": "k",
+          "displayed": "K",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006B.ogg"
+        },
+        {
+          "input": "l",
+          "displayed": "L",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006C.ogg"
+        },
+        {
+          "input": "m",
+          "displayed": "M",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006D.ogg"
+        },
+        {
+          "input": "n",
+          "displayed": "N",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006E.ogg"
+        },
+        {
+          "input": "o",
+          "displayed": "O",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006F.ogg"
+        },
+        {
+          "input": "p",
+          "displayed": "P",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0070.ogg"
+        },
+        {
+          "input": "q",
+          "displayed": "Q",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0071.ogg"
+        },
+        {
+          "input": "r",
+          "displayed": "R",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0072.ogg"
+        },
+        {
+          "input": "s",
+          "displayed": "S",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0073.ogg"
+        },
+        {
+          "input": "t",
+          "displayed": "T",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0074.ogg"
+        },
+        {
+          "input": "u",
+          "displayed": "U",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0075.ogg"
+        },
+        {
+          "input": "v",
+          "displayed": "V",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0076.ogg"
+        },
+        {
+          "input": "w",
+          "displayed": "W",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0077.ogg"
+        },
+        {
+          "input": "x",
+          "displayed": "X",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0078.ogg"
+        },
+        {
+          "input": "y",
+          "displayed": "Y",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0079.ogg"
+        },
+        {
+          "input": "z",
+          "displayed": "Z",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U007A.ogg"
+        },
+        {
+          "input": "A",
+          "displayed": "A",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0061.ogg"
+        },
+        {
+          "input": "B",
+          "displayed": "B",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0062.ogg"
+        },
+        {
+          "input": "C",
+          "displayed": "C",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0063.ogg"
+        },
+        {
+          "input": "D",
+          "displayed": "D",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0064.ogg"
+        },
+        {
+          "input": "E",
+          "displayed": "E",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0065.ogg"
+        },
+        {
+          "input": "F",
+          "displayed": "F",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0066.ogg"
+        },
+        {
+          "input": "G",
+          "displayed": "G",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0067.ogg"
+        },
+        {
+          "input": "H",
+          "displayed": "H",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0068.ogg"
+        },
+        {
+          "input": "I",
+          "displayed": "I",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0069.ogg"
+        },
+        {
+          "input": "J",
+          "displayed": "J",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006A.ogg"
+        },
+        {
+          "input": "K",
+          "displayed": "K",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006B.ogg"
+        },
+        {
+          "input": "L",
+          "displayed": "L",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006C.ogg"
+        },
+        {
+          "input": "M",
+          "displayed": "M",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006D.ogg"
+        },
+        {
+          "input": "N",
+          "displayed": "N",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006E.ogg"
+        },
+        {
+          "input": "O",
+          "displayed": "O",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006F.ogg"
+        },
+        {
+          "input": "P",
+          "displayed": "P",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0070.ogg"
+        },
+        {
+          "input": "Q",
+          "displayed": "Q",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0071.ogg"
+        },
+        {
+          "input": "R",
+          "displayed": "R",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0072.ogg"
+        },
+        {
+          "input": "S",
+          "displayed": "S",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0073.ogg"
+        },
+        {
+          "input": "T",
+          "displayed": "T",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0074.ogg"
+        },
+        {
+          "input": "U",
+          "displayed": "U",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0075.ogg"
+        },
+        {
+          "input": "V",
+          "displayed": "V",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0076.ogg"
+        },
+        {
+          "input": "W",
+          "displayed": "W",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0077.ogg"
+        },
+        {
+          "input": "X",
+          "displayed": "X",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0078.ogg"
+        },
+        {
+          "input": "Y",
+          "displayed": "Y",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0079.ogg"
+        },
+        {
+          "input": "Z",
+          "displayed": "Z",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U007A.ogg"
+        },
+        {
+          "input": "0",
+          "displayed": "0",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0030.ogg"
+        },
+        {
+          "input": "1",
+          "displayed": "1",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0031.ogg"
+        },
+        {
+          "input": "2",
+          "displayed": "2",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0032.ogg"
+        },
+        {
+          "input": "3",
+          "displayed": "3",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0033.ogg"
+        },
+        {
+          "input": "4",
+          "displayed": "4",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0034.ogg"
+        },
+        {
+          "input": "5",
+          "displayed": "5",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0035.ogg"
+        },
+        {
+          "input": "6",
+          "displayed": "6",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0036.ogg"
+        },
+        {
+          "input": "7",
+          "displayed": "7",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0037.ogg"
+        },
+        {
+          "input": "8",
+          "displayed": "8",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0038.ogg"
+        },
+        {
+          "input": "9",
+          "displayed": "9",
+          "method": "keyClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0039.ogg"
+        },
+        {
+          "input": "à",
+          "displayed": "À",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E0.ogg"
+        },
+        {
+          "input": "á",
+          "displayed": "Á",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E1.ogg"
+        },
+        {
+          "input": "â",
+          "displayed": "Â",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E2.ogg"
+        },
+        {
+          "input": "ã",
+          "displayed": "Ã",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E3.ogg"
+        },
+        {
+          "input": "ç",
+          "displayed": "Ç",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E7.ogg"
+        },
+        {
+          "input": "é",
+          "displayed": "É",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E9.ogg"
+        },
+        {
+          "input": "ê",
+          "displayed": "Ê",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00EA.ogg"
+        },
+        {
+          "input": "í",
+          "displayed": "Í",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00ED.ogg"
+        },
+        {
+          "input": "ó",
+          "displayed": "Ó",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F3.ogg"
+        },
+        {
+          "input": "ô",
+          "displayed": "Ô",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F4.ogg"
+        },
+        {
+          "input": "õ",
+          "displayed": "Õ",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F5.ogg"
+        },
+        {
+          "input": "ú",
+          "displayed": "Ú",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00FA.ogg"
+        },
+        {
+          "input": "À",
+          "displayed": "À",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E0.ogg"
+        },
+        {
+          "input": "Á",
+          "displayed": "Á",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E1.ogg"
+        },
+        {
+          "input": "Â",
+          "displayed": "Â",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E2.ogg"
+        },
+        {
+          "input": "Ã",
+          "displayed": "Ã",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E3.ogg"
+        },
+        {
+          "input": "Ç",
+          "displayed": "Ç",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E7.ogg"
+        },
+        {
+          "input": "É",
+          "displayed": "É",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E9.ogg"
+        },
+        {
+          "input": "Ê",
+          "displayed": "Ê",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00EA.ogg"
+        },
+        {
+          "input": "Í",
+          "displayed": "Í",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00ED.ogg"
+        },
+        {
+          "input": "Ó",
+          "displayed": "Ó",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F3.ogg"
+        },
+        {
+          "input": "Ô",
+          "displayed": "Ô",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F4.ogg"
+        },
+        {
+          "input": "Õ",
+          "displayed": "Õ",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00F5.ogg"
+        },
+        {
+          "input": "Ú",
+          "displayed": "Ú",
+          "method": "inputMethod",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00FA.ogg"
+        },
+        {
+          "input": "A",
+          "displayed": "A",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0061.ogg"
+        },
+        {
+          "input": "B",
+          "displayed": "B",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0062.ogg"
+        },
+        {
+          "input": "C",
+          "displayed": "C",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0063.ogg"
+        },
+        {
+          "input": "D",
+          "displayed": "D",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0064.ogg"
+        },
+        {
+          "input": "E",
+          "displayed": "E",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0065.ogg"
+        },
+        {
+          "input": "F",
+          "displayed": "F",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0066.ogg"
+        },
+        {
+          "input": "G",
+          "displayed": "G",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0067.ogg"
+        },
+        {
+          "input": "H",
+          "displayed": "H",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0068.ogg"
+        },
+        {
+          "input": "I",
+          "displayed": "I",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0069.ogg"
+        },
+        {
+          "input": "J",
+          "displayed": "J",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006A.ogg"
+        },
+        {
+          "input": "K",
+          "displayed": "K",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006B.ogg"
+        },
+        {
+          "input": "L",
+          "displayed": "L",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006C.ogg"
+        },
+        {
+          "input": "M",
+          "displayed": "M",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006D.ogg"
+        },
+        {
+          "input": "N",
+          "displayed": "N",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006E.ogg"
+        },
+        {
+          "input": "O",
+          "displayed": "O",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U006F.ogg"
+        },
+        {
+          "input": "P",
+          "displayed": "P",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0070.ogg"
+        },
+        {
+          "input": "Q",
+          "displayed": "Q",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0071.ogg"
+        },
+        {
+          "input": "R",
+          "displayed": "R",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0072.ogg"
+        },
+        {
+          "input": "S",
+          "displayed": "S",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0073.ogg"
+        },
+        {
+          "input": "T",
+          "displayed": "T",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0074.ogg"
+        },
+        {
+          "input": "U",
+          "displayed": "U",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0075.ogg"
+        },
+        {
+          "input": "V",
+          "displayed": "V",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0076.ogg"
+        },
+        {
+          "input": "W",
+          "displayed": "W",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0077.ogg"
+        },
+        {
+          "input": "X",
+          "displayed": "X",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0078.ogg"
+        },
+        {
+          "input": "Y",
+          "displayed": "Y",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0079.ogg"
+        },
+        {
+          "input": "Z",
+          "displayed": "Z",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U007A.ogg"
+        },
+        {
+          "input": "0",
+          "displayed": "0",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0030.ogg"
+        },
+        {
+          "input": "1",
+          "displayed": "1",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0031.ogg"
+        },
+        {
+          "input": "2",
+          "displayed": "2",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0032.ogg"
+        },
+        {
+          "input": "3",
+          "displayed": "3",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0033.ogg"
+        },
+        {
+          "input": "4",
+          "displayed": "4",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0034.ogg"
+        },
+        {
+          "input": "5",
+          "displayed": "5",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0035.ogg"
+        },
+        {
+          "input": "6",
+          "displayed": "6",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0036.ogg"
+        },
+        {
+          "input": "7",
+          "displayed": "7",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0037.ogg"
+        },
+        {
+          "input": "8",
+          "displayed": "8",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0038.ogg"
+        },
+        {
+          "input": "9",
+          "displayed": "9",
+          "method": "mouseClick",
+          "voice": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U0039.ogg"
+        }
+      ],
+      "voiceDone": 37,
+      "audioProbe": {
+        "source": "qrc:/gcompris/data/voices-ogg/pt/alphabet/U00E7.ogg",
+        "position": 23,
+        "duration": 835,
+        "hasAudio": true,
+        "playbackState": 1
+      }
+    }
+  },
+  {
+    "case": "controls",
+    "result_sha256": "3b95bc721052b2fc2355fb727ac2bf15d454e2e504a28c7699022690a7a9d64e",
+    "passed": true,
+    "result": {
+      "failures": 0,
+      "passes": 2,
+      "helpRoutes": 2
+    }
+  }
+]
