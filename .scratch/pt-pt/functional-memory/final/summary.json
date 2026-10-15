@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "source_commit": "1cca9f763299d27ae517cf82cb03b66ee297424a",
+  "source_files_sha256": {
+    "src/activities/memory-wordnumber/ActivityConfig.qml": "bcec12db9f44dd7d655eb494f2921f9835df3e6e1a829096dac63bcbc583cd75",
+    "src/activities/memory-wordnumber/ActivityInfo.qml": "bdde2f293e6e7430f26f7c4c303c71c3d68b2d6e8babfe8ca85899e073e15f17",
+    "src/activities/memory-wordnumber/CMakeLists.txt": "ca4eec2e0533bc3c850452348baaad8d84f1e9577e8596351f960338e73cd9af",
+    "src/activities/memory-wordnumber/MemoryWordnumber.qml": "7d1de6d9288bbba5a664c5390af87b284c66362627736bb36869a2ffc26a6427",
+    "src/activities/memory-wordnumber/dataset.js": "c90d20348ff859501f4615f866d106e4dd5b6747e55a5bb0cb6a7dd333eb6122",
+    "src/activities/memory-wordnumber/memory-wordnumber-pt.svg": "c187538bd04e0907073662f3e560288a6e4c36a1624b6bbfb467adbd336b6e57",
+    "src/activities/memory-wordnumber/memory-wordnumber.svg": "eb601cdc24474ad92f9bcb4e8efd73eeae6a0b1ab9fdc6ec1099c27b98a7c491",
+    "src/activities/memory-case-association/ActivityConfig.qml": "bcec12db9f44dd7d655eb494f2921f9835df3e6e1a829096dac63bcbc583cd75",
+    "src/activities/memory-case-association/ActivityInfo.qml": "4580b83f4d5edcd736921f6f480dcf2d67b0ca46977dfabcdafcd95cf9e0550c",
+    "src/activities/memory-case-association/CMakeLists.txt": "7f165b813258fc4511b8fa694faa4acdd0da8ec8ba3487d6f348774af460c9fb",
+    "src/activities/memory-case-association/MemoryCaseAssociation.qml": "9e945a2e0848bce1c000a1e0f33de9fb319c6a18ef92cc6fddacf03252acab0b",
+    "src/activities/memory-case-association/dataset.js": "de89c5b4e2ff9ec873a91acfc4d25caf9bc37539d061997d55821cb680f1cab6",
+    "src/activities/memory-case-association/memory-case-association.svg": "1e1a5099f2608a30e177f6be97e5721ce5a5119381ad87773c090d832d2f2069",
+    "src/activities/memory-enumerate/ActivityConfig.qml": "bcec12db9f44dd7d655eb494f2921f9835df3e6e1a829096dac63bcbc583cd75",
+    "src/activities/memory-enumerate/ActivityInfo.qml": "e57f6f52984e068683ab8fab3da8ee953a4dbcd84b10eadda03a39549db58158",
+    "src/activities/memory-enumerate/CMakeLists.txt": "412a11770a239dd7426fe42bea053ea829c8d962e4b4e3a91a5bc18a505cfb5f",
+    "src/activities/memory-enumerate/MemoryEnumerate.qml": "61b4e51ac26e405298ce165fa1b4dafc1e1522a36c4b64690cdc5923e979e610",
+    "src/activities/memory-enumerate/memory-enumerate.svg": "974b4f2114515f2247479c6a54ba2460d3493c3d4b419613594f149214eefb19",
+    "src/activities/memory-enumerate/resource/1/Data.qml": "4273fdfe91f8aa561f02e7c26fc4ce199fdf693d4dc510f1ea6ac7e74dd75301",
+    "src/activities/memory-enumerate/resource/2/Data.qml": "6a20d0597d0c2c9a6f88b1a94eb8641b73da9c7ee3af904358baa59f9255aa64",
+    "src/activities/memory-enumerate/resource/3/Data.qml": "52f4cb1ba7b52a8518b8bb8c9e57d64078291b9fb15749f918e2dc7bd909c369",
+    "src/activities/memory-enumerate/resource/4/Data.qml": "9e04938d94f5079b23d45f030af91ebdb5ee90f300c1dbbc96201b41669932c2",
+    "src/activities/memory-enumerate/resource/5/Data.qml": "355b083ad4875cc45aa59fceebdfa38753ef81dad2b3d7be0764e16d49f0579b",
+    "src/activities/memory-enumerate/resource/6/Data.qml": "ec93ae7fbbd87ed2145d8ff2d73275f834b61b31f5b0b68bca7676e96a2cddcf",
+    "src/activities/memory-enumerate/resource/7/Data.qml": "edbb060cd6c02d95423429402b7f361add8b7d98bd0d24752979d89a04e46fbc",
+    "src/activities/memory-enumerate/resource/8/Data.qml": "551ca8995b0a850ee84afb02757eba6b232440931569a5a1a8d8ae1ac34e8ec3",
+    "src/activities/memory-enumerate/resource/butterfly.svg": "fb15e6fc4eaea7252ccc19e5a9f397ca539efde72985ade62b652811b2046749"
+  },
+  "activity_rcc_sha256": {
+    "memory-wordnumber": "619e397d37a1d0b11727431dd8de307a2504ebc26aa7a17315bcaee0aefa6db3",
+    "memory-case-association": "f327aef8ef4b15a800defac809ef5fcc07f45ffe3753a1300a1af0642eae52ef",
+    "memory-enumerate": "64903b87abec12776c234e4a8fd33faaadf079c3185963fbbede29acfd3ddf05"
+  },
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "cases": [
+    {
+      "activity": "memory-wordnumber",
+      "case": "gameplay",
+      "exit_code": 1,
+      "result_sha256": "f91f44886eb9f7d357203ab18232e4d6503232cc942aa3825ddc09581fd0843d",
+      "launcher_output": "{\"activity\": \"memory-wordnumber\", \"locale\": \"pt_PT\", \"qml_file\": \"memory/MemoryCommon.qml\", \"source_sha256\": \"67b9ae5b29bb33d6a46493c189b97b60a75abd02da5589203e83e02acad39533\", \"portuguese_catalogue_sha256\": \"0dfebdffcaf75f9eb9d80f0d4a209695ad1ffc029c13b617393cd6087ed14f29\", \"private_qm_sha256\": \"d0bbadfe10cb82fa9d536f21aa9e0e299e8c002cf339ebc4857a7463bee763c1\", \"case_sha256\": \"25c0fa4452f63dc877aa8851113c0a4fbecc7fd75f31c594a114fd35c5e8658e\", \"private_rcc_sha256\": \"b3945a28c13cbfcfbe1f373b0725944aef737529280c7e897123086fbbae7fcd\", \"binary_sha256\": \"3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb\", \"runner_sha256\": \"70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5\", \"deployment\": \"/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-memory/build/native-qml/7f919d4ec84849aca5b5903bea5e472d\", \"version_code\": 260200, \"network\": \"docker-none\", \"timestamp_utc\": \"2026-10-15T21:09:05.698998+00:00\", \"scope\": \"Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.\", \"screenshots\": [{\"file\": \"1players-board.png\", \"sha256\": \"c108a475f99ff0a19bba5dc2f4d65422d8486b8226d8f93f0fc29858293c13b6\", \"bytes\": 152194}], \"passed\": false, \"timeout\": false, \"exit_code\": 139, \"qml_errors\": [], \"case_result\": null}\n"
+    },
+    {
+      "activity": "memory-wordnumber",
+      "case": "controls",
+      "exit_code": 0,
+      "result_sha256": "e6e61f32cb255a857c00815297255c56791a319aaab003d2cb89098b1a9ade58",
+      "launcher_output": "{\"activity\": \"memory-wordnumber\", \"locale\": \"pt_PT\", \"qml_file\": \"memory/MemoryCommon.qml\", \"source_sha256\": \"67b9ae5b29bb33d6a46493c189b97b60a75abd02da5589203e83e02acad39533\", \"portuguese_catalogue_sha256\": \"0dfebdffcaf75f9eb9d80f0d4a209695ad1ffc029c13b617393cd6087ed14f29\", \"private_qm_sha256\": \"d0bbadfe10cb82fa9d536f21aa9e0e299e8c002cf339ebc4857a7463bee763c1\", \"case_sha256\": \"73fec184a03770106a9112955de7ba080d44746858f56af071bb1410718fdcf4\", \"private_rcc_sha256\": \"20761292902f5feee17a02f47ee5a6c18ef0f177f079b2e30023de13a9c08d36\", \"binary_sha256\": \"3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb\", \"runner_sha256\": \"70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5\", \"deployment\": \"/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-memory/build/native-qml/043dd0204bbd4593b90a183bb5e23c7f\", \"version_code\": 260200, \"network\": \"docker-none\", \"timestamp_utc\": \"2026-10-15T21:09:05.619814+00:00\", \"scope\": \"Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.\", \"screenshots\": [{\"file\": \"help.png\", \"sha256\": \"295734d0f3b4c21b89cb2041b49f7967cc4f2f50c9405a31037f7b8aaf2af5b4\", \"bytes\": 92222}, {\"file\": \"menu.png\", \"sha256\": \"741627db475d8ef74e4cef0361a0669198b41531b1402996da8bc9cfe41bcefd\", \"bytes\": 171583}], \"passed\": true, \"timeout\": false, \"exit_code\": 0, \"qml_errors\": [], \"case_result\": {\"failures\": 0, \"passes\": 2, \"controls\": {\"activity\": \"memory-wordnumber\", \"title\": \"Jogo de memória de números e palavras\", \"description\": \"Vira as cartas para fazeres corresponder o número à imagem desenhada.\", \"manual\": \"Cada carta esconde um numeral (um número representado por imagens) ou o nome de um número (um número escrito por extenso). Tens de fazer de corresponder os numerais aos respetivos nomes dos números.<br><br><b>Controlos do teclado:</b><ul><li>Setas: navegação</li><li>Espaço ou Enter: virar a carta selecionada</li></ul>\", \"helpOpened\": true, \"levelButtons\": true, \"returnedToMenu\": true}}}\n"
+    },
+    {
+      "activity": "memory-wordnumber",
+      "case": "keyboard_home",
+      "exit_code": 0,
+      "result_sha256": "6acc27e4541d7fd91f140f3281c64927300a50dc1b216946505d0fb7129a0f83",
+      "launcher_output": "{\"activity\": \"memory-wordnumber\", \"locale\": \"pt_PT\", \"qml_file\": \"memory/MemoryCommon.qml\", \"source_sha256\": \"67b9ae5b29bb33d6a46493c189b97b60a75abd02da5589203e83e02acad39533\", \"portuguese_catalogue_sha256\": \"0dfebdffcaf75f9eb9d80f0d4a209695ad1ffc029c13b617393cd6087ed14f29\", \"private_qm_sha256\": \"d0bbadfe10cb82fa9d536f21aa9e0e299e8c002cf339ebc4857a7463bee763c1\", \"case_sha256\": \"cf28b6307f92669b45d6057ff16a39cb381b7e7694eb04f6565b14352a2eff45\", \"private_rcc_sha256\": \"1e51a0f232fbf28d2bc3bf9626cf7966a091f14120974a1eba16e1292b15bfd3\", \"binary_sha256\": \"3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb\", \"runner_sha256\": \"70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5\", \"deployment\": \"/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-memory/build/native-qml/24707d5f6d324bd282528d961bd211d1\", \"version_code\": 260200, \"network\": \"docker-none\", \"timestamp_utc\": \"2026-10-15T21:09:05.638177+00:00\", \"scope\": \"Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.\", \"screenshots\": [], \"passed\": true, \"timeout\": false, \"exit_code\": 0, \"qml_errors\": [], \"case_result\": {\"failures\": 0, \"passes\": 2}}\n"
+    },
+    {
+      "activity": "memory-case-association",
+      "case": "gameplay",
+      "exit_code": 1,
+      "result_sha256": "d1ccba26c4b4bfe9e6bc760eebba3f0b7d823b8245b8121b2eed86847ad534d9",
+      "launcher_output": "{\"activity\": \"memory-case-association\", \"locale\": \"pt_PT\", \"qml_file\": \"memory/MemoryCommon.qml\", \"source_sha256\": \"67b9ae5b29bb33d6a46493c189b97b60a75abd02da5589203e83e02acad39533\", \"portuguese_catalogue_sha256\": \"0dfebdffcaf75f9eb9d80f0d4a209695ad1ffc029c13b617393cd6087ed14f29\", \"private_qm_sha256\": \"d0bbadfe10cb82fa9d536f21aa9e0e299e8c002cf339ebc4857a7463bee763c1\", \"case_sha256\": \"25c0fa4452f63dc877aa8851113c0a4fbecc7fd75f31c594a114fd35c5e8658e\", \"private_rcc_sha256\": \"9bdfdf266e7a1d575b4b0a2c90d0a60c116a70a53b30ecd4e3b637d9bbbe5e82\", \"binary_sha256\": \"3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb\", \"runner_sha256\": \"70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5\", \"deployment\": \"/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-memory/build/native-qml/c13dd22c22644439a55fca8f02e8b40f\", \"version_code\": 260200, \"network\": \"docker-none\", \"timestamp_utc\": \"2026-10-15T21:09:05.586606+00:00\", \"scope\": \"Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.\", \"screenshots\": [{\"file\": \"1players-board.png\", \"sha256\": \"354f30812904f4c6ece64e4db3e22536acf68133979f9e4710e18a81a99d3984\", \"bytes\": 149890}], \"passed\": false, \"timeout\": false, \"exit_code\": 139, \"qml_errors\": [], \"case_result\": null}\n"
+    },
+    {
+      "activity": "memory-case-association",
+      "case": "controls",
+      "exit_code": 0,
+      "result_sha256": "dfb833a66cd2cf4c85ef4baf88a603a1ee7b75c06fbbd1120ab72329553e93ab",
+      "launcher_output": "{\"activity\": \"memory-case-association\", \"locale\": \"pt_PT\", \"qml_file\": \"memory/MemoryCommon.qml\", \"source_sha256\": \"67b9ae5b29bb33d6a46493c189b97b60a75abd02da5589203e83e02acad39533\", \"portuguese_catalogue_sha256\": \"0dfebdffcaf75f9eb9d80f0d4a209695ad1ffc029c13b617393cd6087ed14f29\", \"private_qm_sha256\": \"d0bbadfe10cb82fa9d536f21aa9e0e299e8c002cf339ebc4857a7463bee763c1\", \"case_sha256\": \"73fec184a03770106a9112955de7ba080d44746858f56af071bb1410718fdcf4\", \"private_rcc_sha256\": \"69945ceb87d1412c8ccbcd176bdff36e563099de89a1ee5fe73f46016b24d573\", \"binary_sha256\": \"3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb\", \"runner_sha256\": \"70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5\", \"deployment\": \"/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-memory/build/native-qml/43178eb4a68f4a139b09286e0572eb5e\", \"version_code\": 260200, \"network\": \"docker-none\", \"timestamp_utc\": \"2026-10-15T21:09:11.125618+00:00\", \"scope\": \"Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.\", \"screenshots\": [{\"file\": \"help.png\", \"sha256\": \"8c1cbdf4c4f5b60fcae3c9a3b5c080e8bf187c189cac862d872ded931e4e3174\", \"bytes\": 96051}, {\"file\": \"menu.png\", \"sha256\": \"741627db475d8ef74e4cef0361a0669198b41531b1402996da8bc9cfe41bcefd\", \"bytes\": 171583}], \"passed\": true, \"timeout\": false, \"exit_code\": 0, \"qml_errors\": [], \"case_result\": {\"failures\": 0, \"passes\": 2, \"controls\": {\"activity\": \"memory-case-association\", \"title\": \"Jogo de memória de associação de maiúsculas/minúsculas\", \"description\": \"Vira as cartas para descobrires as versões maiúsculas e minúsculas da mesma letra.\", \"manual\": \"Cada carta esconde uma letra, seja em maiúsculas ou em minúsculas. Terás de estabelecer a correspondência entre a maiúscula e a minúscula da mesma letra.<br><br><b>Controlos do teclado:</b><ul><li>Setas: navegação</li><li>Espaço ou Enter: virar a carta selecionada</li></ul>\", \"helpOpened\": true, \"levelButtons\": true, \"returnedToMenu\": true}}}\n"
+    },
+    {
+      "activity": "memory-case-association",
+      "case": "keyboard_home",
+      "exit_code": 0,
+      "result_sha256": "6d88c11a16c8cbc23b0fcfb453a90e160b7ff8a43893391244d5f38ffb904991",
+      "launcher_output": "{\"activity\": \"memory-case-association\", \"locale\": \"pt_PT\", \"qml_file\": \"memory/MemoryCommon.qml\", \"source_sha256\": \"67b9ae5b29bb33d6a46493c189b97b60a75abd02da5589203e83e02acad39533\", \"portuguese_catalogue_sha256\": \"0dfebdffcaf75f9eb9d80f0d4a209695ad1ffc029c13b617393cd6087ed14f29\", \"private_qm_sha256\": \"d0bbadfe10cb82fa9d536f21aa9e0e299e8c002cf339ebc4857a7463bee763c1\", \"case_sha256\": \"cf28b6307f92669b45d6057ff16a39cb381b7e7694eb04f6565b14352a2eff45\", \"private_rcc_sha256\": \"d160a7ebec3f9d636a9483de2e9e7f36876fb7ae4e7ddffc948e38162b87a969\", \"binary_sha256\": \"3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb\", \"runner_sha256\": \"70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5\", \"deployment\": \"/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-memory/build/native-qml/3711aa1d8abd4095a4e5297d77c1302b\", \"version_code\": 260200, \"network\": \"docker-none\", \"timestamp_utc\": \"2026-10-15T21:09:13.755238+00:00\", \"scope\": \"Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.\", \"screenshots\": [], \"passed\": true, \"timeout\": false, \"exit_code\": 0, \"qml_errors\": [], \"case_result\": {\"failures\": 0, \"passes\": 2}}\n"
+    },
+    {
+      "activity": "memory-enumerate",
+      "case": "gameplay",
+      "exit_code": 1,
+      "result_sha256": "2a8314e0e644632e6271dd601f68908cdd682f4832a2d56de182287cad14fe9e",
+      "launcher_output": "{\"activity\": \"memory-enumerate\", \"locale\": \"pt_PT\", \"qml_file\": \"memory/MemoryCommon.qml\", \"source_sha256\": \"67b9ae5b29bb33d6a46493c189b97b60a75abd02da5589203e83e02acad39533\", \"portuguese_catalogue_sha256\": \"0dfebdffcaf75f9eb9d80f0d4a209695ad1ffc029c13b617393cd6087ed14f29\", \"private_qm_sha256\": \"d0bbadfe10cb82fa9d536f21aa9e0e299e8c002cf339ebc4857a7463bee763c1\", \"case_sha256\": \"25c0fa4452f63dc877aa8851113c0a4fbecc7fd75f31c594a114fd35c5e8658e\", \"private_rcc_sha256\": \"2fa11ecc0e136df10f0e17a44b992e4ff64980cf3cd3fcb2947858263bf628bf\", \"binary_sha256\": \"3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb\", \"runner_sha256\": \"70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5\", \"deployment\": \"/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-memory/build/native-qml/e119c8e53e63426f972725a44961698a\", \"version_code\": 260200, \"network\": \"docker-none\", \"timestamp_utc\": \"2026-10-15T21:09:19.135068+00:00\", \"scope\": \"Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.\", \"screenshots\": [{\"file\": \"1players-board.png\", \"sha256\": \"2f08f05cd531ca2b7f0b462b5c90f9d28485f3a34776e69ff334d970e23a0cfe\", \"bytes\": 133020}], \"passed\": false, \"timeout\": false, \"exit_code\": 139, \"qml_errors\": [], \"case_result\": null}\n"
+    },
+    {
+      "activity": "memory-enumerate",
+      "case": "controls",
+      "exit_code": 0,
+      "result_sha256": "678f20aba5baf0e7f434ef11bf952a2a1c090bf1151d309b837f31c7bbbc7114",
+      "launcher_output": "{\"activity\": \"memory-enumerate\", \"locale\": \"pt_PT\", \"qml_file\": \"memory/MemoryCommon.qml\", \"source_sha256\": \"67b9ae5b29bb33d6a46493c189b97b60a75abd02da5589203e83e02acad39533\", \"portuguese_catalogue_sha256\": \"0dfebdffcaf75f9eb9d80f0d4a209695ad1ffc029c13b617393cd6087ed14f29\", \"private_qm_sha256\": \"d0bbadfe10cb82fa9d536f21aa9e0e299e8c002cf339ebc4857a7463bee763c1\", \"case_sha256\": \"73fec184a03770106a9112955de7ba080d44746858f56af071bb1410718fdcf4\", \"private_rcc_sha256\": \"9fc141d60a8b7f1666e84be946c7ddc87ddea5f8ae8fb2051956057bfb6cfeea\", \"binary_sha256\": \"3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb\", \"runner_sha256\": \"70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5\", \"deployment\": \"/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-memory/build/native-qml/587a41414212482881626a5c38842616\", \"version_code\": 260200, \"network\": \"docker-none\", \"timestamp_utc\": \"2026-10-15T21:09:19.181478+00:00\", \"scope\": \"Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.\", \"screenshots\": [{\"file\": \"help.png\", \"sha256\": \"4ae0b97b6f8b36cca41b39304c91ef6462bd8745c96c4abf8edc279444aa99ca\", \"bytes\": 82121}, {\"file\": \"menu.png\", \"sha256\": \"741627db475d8ef74e4cef0361a0669198b41531b1402996da8bc9cfe41bcefd\", \"bytes\": 171583}], \"passed\": true, \"timeout\": false, \"exit_code\": 0, \"qml_errors\": [], \"case_result\": {\"failures\": 0, \"passes\": 2, \"controls\": {\"activity\": \"memory-enumerate\", \"title\": \"Jogo de enumeração por memória\", \"description\": \"Vira as cartas para fazeres corresponder o número à imagem.\", \"manual\": \"Cada carta esconde uma imagem com o número de itens ou um número. Tens de fazer corresponder os números com as imagens respetivas.<br><br><b>Controlos do teclado:</b><ul><li>Setas: navegação</li><li>Espaço ou Enter: virar a carta selecionada</li></ul>\", \"helpOpened\": true, \"levelButtons\": true, \"returnedToMenu\": true}}}\n"
+    },
+    {
+      "activity": "memory-enumerate",
+      "case": "keyboard_home",
+      "exit_code": 1,
+      "result_sha256": "ccfd5b8c4f130cffb90f0393d1dc3848a1c00415f3cd9fe883f9c356c1ac7acc",
+      "launcher_output": "{\"activity\": \"memory-enumerate\", \"locale\": \"pt_PT\", \"qml_file\": \"memory/MemoryCommon.qml\", \"source_sha256\": \"67b9ae5b29bb33d6a46493c189b97b60a75abd02da5589203e83e02acad39533\", \"portuguese_catalogue_sha256\": \"0dfebdffcaf75f9eb9d80f0d4a209695ad1ffc029c13b617393cd6087ed14f29\", \"private_qm_sha256\": \"d0bbadfe10cb82fa9d536f21aa9e0e299e8c002cf339ebc4857a7463bee763c1\", \"case_sha256\": \"cf28b6307f92669b45d6057ff16a39cb381b7e7694eb04f6565b14352a2eff45\", \"private_rcc_sha256\": \"d438eafa97deb550209b9592dccf63d4299937d8c4f4040c874cd8d6c433e148\", \"binary_sha256\": \"3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb\", \"runner_sha256\": \"70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5\", \"deployment\": \"/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-memory/build/native-qml/9166ccca6c07458cb133a056ce6ea0da\", \"version_code\": 260200, \"network\": \"docker-none\", \"timestamp_utc\": \"2026-10-15T21:09:27.224497+00:00\", \"scope\": \"Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.\", \"screenshots\": [], \"passed\": false, \"timeout\": false, \"exit_code\": 139, \"qml_errors\": [], \"case_result\": null}\n"
+    }
+  ],
+  "passed": false,
+  "scope": "Native actions in named cases only. Global Linux, physical keyboard/audio, Windows and teacher approval pending."
+}
