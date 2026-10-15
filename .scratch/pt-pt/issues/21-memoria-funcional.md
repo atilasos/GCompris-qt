@@ -20,3 +20,9 @@ vezes. MemoryCommon agora aceita as teclas tratadas e preserva Escape. O caso de
 regressão completa um nível e regressa ao menu por Escape.
 [Prova red/green](../functional-memory/key-fix.md). O lote completo continua
 claimed até concluir todos os níveis/modos dos três jogos.
+
+Ajuda de memory-wordnumber corrigida após prova nativa red/green: as cartas
+associam algarismos e palavras, não «imagens desenhadas».
+[Detalhes e hashes](../functional-memory/help-fix.md). O lote completo encontrou
+saídas 139 em execução paralela; o diagnóstico está coordenado com a tarefa23.
+Não há aprovação global e a tarefa continua claimed.

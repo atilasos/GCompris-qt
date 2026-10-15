@@ -20721,7 +20721,7 @@ msgstr "Jogo de memória de números e palavras"
 #: activities/memory-wordnumber/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Flip the cards to match a numeral with its number name."
-msgstr "Vira as cartas para fazeres corresponder o número à imagem desenhada."
+msgstr "Vira as cartas para associar o numeral ao respetivo número por extenso."
 
 #. Help goal
 #: activities/memory-wordnumber/ActivityInfo.qml:20
@@ -20737,9 +20737,9 @@ msgid ""
 "number name (a number written in words). You have to match the numerals with "
 "the corresponding number names."
 msgstr ""
-"Cada carta esconde um numeral (um número representado por imagens) ou o "
-"nome de um número (um número escrito por extenso). Tens de fazer de "
-"corresponder os numerais aos respetivos nomes dos números."
+"Cada carta esconde um numeral (um número representado por algarismos) ou um "
+"número escrito por extenso. Tens de fazer corresponder cada numeral ao "
+"respetivo número por extenso."
 
 #: activities/memory-wordnumber/dataset.js:11
 msgctxt "dataset|"
