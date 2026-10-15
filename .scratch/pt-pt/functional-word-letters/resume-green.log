@@ -1,0 +1,6 @@
+test_resume_retains_semantically_identical_json_inputs_but_rechecks_changed_words (test_runner.LessonCheckpointTest.test_resume_retains_semantically_identical_json_inputs_but_rechecks_changed_words) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.473s
+
+OK
