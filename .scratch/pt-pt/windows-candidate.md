@@ -48,6 +48,14 @@ música são descarregados antes do empacotamento, a partir das URLs e SHA256 fi
 em `tools/windows/assets-lock.json`. Uma alteração no CDN que invalide esses hashes
 faz falhar a compilação em vez de distribuir dados não verificados.
 
+Após esse download, o utilitário Qt `pt_audio_rcc_inventory` e o script
+`complete_voices.py` recompõem o pacote standard com as 1578 gravações originais e
+as 32 adições aprovadas. O RCC original permanece incluído e verificado pelo hash
+fixo. O novo RCC e o índice `Contents` são verificados pelos hashes do
+`completion.json`, que referencia também a identidade do original. O pacote
+inclui as notas de origem/licença dessas adições. A revisão final da pronúncia
+continua a ser registada pelo professor.
+
 A tradução portuguesa é compilada com `lconvert/lrelease` do Qt. O `windeployqt`
 atual lê os imports QML das fontes e distribui DLLs e plugins, incluindo FFmpeg,
 imagens, TLS e QtGraphs. Esta rota evita a lista manual antiga de plugins do Qt5

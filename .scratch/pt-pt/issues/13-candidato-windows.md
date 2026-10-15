@@ -71,3 +71,14 @@ Qt, antes de compilar: `qtsvg` não é um módulo opcional da distribuição6.10
 MSVC2022. Removido esse nome de `--modules`; o QtSvg faz parte dos pacotes-base
 selecionados por aqt, e o `find_package(Qt6 ... Svg)` do projeto verificará a sua
 presença na configuração seguinte. O erro externo não foi tratado como sucesso.
+
+
+Seguimento de áudio: o pipeline passa a executar o target Qt
+`pt_audio_rcc_inventory` e `complete_voices.py` depois do download fixado. Mantém
+intacto o RCC original e inclui o RCC standard com 1610 gravações, mais manifestos
+e notas. O verificador mantém todos os hashes originais exceto o índice de vozes
+atualizado, que é verificado juntamente com o RCC novo pelo manifesto de conclusão.
+Teste de regressão rejeita corrupção tanto do original como do RCC completado.
+A revisão final da pronúncia permanece explícita. O script NSIS também foi
+compilado localmente por NSIS3.10 com um payload mínimo: comprova a sintaxe do
+instalador/desinstalador, não a execução no Windows.

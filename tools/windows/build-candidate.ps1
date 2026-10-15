@@ -27,6 +27,10 @@ try {
     New-Item -ItemType Directory -Force $translation | Out-Null
     python "$PSScriptRoot/compile-portuguese.py" $QtRoot "$source/poqm/pt/gcompris_qt.po" "$build/gcompris_qt_pt.ts" "$translation/gcompris_qt_pt.qm"
     python "$PSScriptRoot/fetch-assets.py" "$build/share/GCompris/rcc/data3"
+    cmake --build $build --target pt_audio_rcc_inventory --parallel 2
+    $rcc = "$QtRoot/bin/rcc.exe"
+    if (!(Test-Path $rcc)) { $rcc = "$QtRoot/libexec/rcc.exe" }
+    python "$source/tools/pt-pt-audio/complete_voices.py" --voices-dir "$build/share/GCompris/rcc/data3/voices-ogg" --inventory-tool "$build/bin/pt_audio_rcc_inventory.exe" --rcc-tool $rcc
     New-Item -ItemType Directory -Force "$stage/bin", "$stage/share", "$stage/lib/qml/Box2D.2.0" | Out-Null
     Copy-Item "$build/bin/GCompris.exe" "$stage/bin/"
     Copy-Item "$build/share/GCompris" "$stage/share/" -Recurse -Force
