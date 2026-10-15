@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "locale": "pt_PT",
+  "letter_policy": "explicit-accent-names; not phoneme replacement",
+  "generation_approved": true,
+  "final_teacher_review": "pending",
+  "source_rcc": "voices-pt-2026-09-23-18-56-49.rcc",
+  "source_rcc_sha256": "522d05bcf421e3cee2fdebf7ba9469ff294a69b61d629464283855297e006b8f",
+  "source_files": 1578,
+  "model_name": "pt_PT-tugão-medium",
+  "model_sha256": "223a7aaca69a155c61897e8ada7c3b13bc306e16c72dbb9c2fed733e2b0927d4",
+  "config_sha256": "fe0918dfc0f1a89264a6eea4afe8e95d8e9fed3cc6c81b5c2f87fcb2b50c7320",
+  "recordings": [
+    {
+      "file": "alphabet/U00E0.ogg",
+      "text": "a com acento grave"
+    },
+    {
+      "file": "alphabet/U00E1.ogg",
+      "text": "a com acento agudo"
+    },
+    {
+      "file": "alphabet/U00E2.ogg",
+      "text": "a com acento circunflexo"
+    },
+    {
+      "file": "alphabet/U00E3.ogg",
+      "text": "a com til"
+    },
+    {
+      "file": "alphabet/U00E7.ogg",
+      "text": "cê cedilhado"
+    },
+    {
+      "file": "alphabet/U00E9.ogg",
+      "text": "é com acento agudo"
+    },
+    {
+      "file": "alphabet/U00EA.ogg",
+      "text": "é com acento circunflexo"
+    },
+    {
+      "file": "alphabet/U00ED.ogg",
+      "text": "i com acento agudo"
+    },
+    {
+      "file": "alphabet/U00F3.ogg",
+      "text": "ó com acento agudo"
+    },
+    {
+      "file": "alphabet/U00F4.ogg",
+      "text": "ó com acento circunflexo"
+    },
+    {
+      "file": "alphabet/U00F5.ogg",
+      "text": "ó com til"
+    },
+    {
+      "file": "alphabet/U00FA.ogg",
+      "text": "u com acento agudo"
+    },
+    {
+      "file": "france/auvergne-rhone-alpes.ogg",
+      "text": "Auvérnia-Ródano-Alpes"
+    },
+    {
+      "file": "france/bourgogne-franche-comte.ogg",
+      "text": "Borgonha-Franco-Condado"
+    },
+    {
+      "file": "france/bretagne.ogg",
+      "text": "Bretanha"
+    },
+    {
+      "file": "france/centre-val-de-loire.ogg",
+      "text": "Centro-Vale do Loire"
+    },
+    {
+      "file": "france/corse.ogg",
+      "text": "Córsega"
+    },
+    {
+      "file": "france/grand-est.ogg",
+      "text": "Grande Leste"
+    },
+    {
+      "file": "france/haut-de-france.ogg",
+      "text": "Altos de França"
+    },
+    {
+      "file": "france/ile-de-france.ogg",
+      "text": "Ilha de França"
+    },
+    {
+      "file": "france/normandie.ogg",
+      "text": "Normandia"
+    },
+    {
+      "file": "france/nouvelle-aquitaine.ogg",
+      "text": "Nova Aquitânia"
+    },
+    {
+      "file": "france/occitanie.ogg",
+      "text": "Occitânia"
+    },
+    {
+      "file": "france/paca.ogg",
+      "text": "Provença-Alpes-Costa Azul"
+    },
+    {
+      "file": "france/pays-de-la-loire.ogg",
+      "text": "País do Loire"
+    },
+    {
+      "file": "geography/bahrain.ogg",
+      "text": "Barém"
+    },
+    {
+      "file": "geography/nauru.ogg",
+      "text": "Nauru"
+    },
+    {
+      "file": "geography/palestine.ogg",
+      "text": "Palestina"
+    },
+    {
+      "file": "geography/singapore.ogg",
+      "text": "Singapura"
+    },
+    {
+      "file": "geography/wallis_and_futuna.ogg",
+      "text": "Wallis e Futuna"
+    },
+    {
+      "file": "intro/polygons.ogg",
+      "text": "Desenha os polígonos pedidos, clicando na grelha."
+    },
+    {
+      "file": "intro/sixteen.ogg",
+      "text": "Clica numa seta para deslocares a respetiva linha ou coluna nessa direção. Coloca todas as peças pela ordem correta. Os números nas peças podem ajudar-te."
+    }
+  ]
+}

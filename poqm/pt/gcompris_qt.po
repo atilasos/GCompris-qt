@@ -13486,7 +13486,7 @@ msgstr "Regiões da França"
 #: activities/geo-country/resource/board/board1_0.qml:27
 msgctxt "board1_0|"
 msgid "Hauts de France"
-msgstr "Hauts de France"
+msgstr "Altos de França"
 
 #. Region of France: Normandy
 #: activities/geo-country/resource/board/board1_0.qml:35
@@ -13498,13 +13498,13 @@ msgstr "Normandia"
 #: activities/geo-country/resource/board/board1_0.qml:43
 msgctxt "board1_0|"
 msgid "Île-de-France"
-msgstr "Île-de-France"
+msgstr "Ilha de França"
 
 #. Region of France: Grand est
 #: activities/geo-country/resource/board/board1_0.qml:51
 msgctxt "board1_0|"
 msgid "Grand est"
-msgstr "Grand est"
+msgstr "Grande Leste"
 
 #. Region of France: Brittany
 #: activities/geo-country/resource/board/board1_0.qml:59
@@ -13516,31 +13516,31 @@ msgstr "Bretanha"
 #: activities/geo-country/resource/board/board1_0.qml:67
 msgctxt "board1_0|"
 msgid "Pays de la Loire"
-msgstr "Pays de la Loire"
+msgstr "País do Loire"
 
 #. Region of France: Centre-Val de Loire
 #: activities/geo-country/resource/board/board1_0.qml:75
 msgctxt "board1_0|"
 msgid "Centre-Val de Loire"
-msgstr "Centre-Val de Loire"
+msgstr "Centro-Vale do Loire"
 
 #. Region of France: Bourgogne-Franche-Comté
 #: activities/geo-country/resource/board/board1_0.qml:83
 msgctxt "board1_0|"
 msgid "Bourgogne-Franche-Comté"
-msgstr "Borgonha-Franche-Comté"
+msgstr "Borgonha-Franco-Condado"
 
 #. Region of France: Nouvelle-Aquitaine
 #: activities/geo-country/resource/board/board1_0.qml:91
 msgctxt "board1_0|"
 msgid "Nouvelle-Aquitaine"
-msgstr "Nouvelle-Aquitaine"
+msgstr "Nova Aquitânia"
 
 #. Region of France: Auvergne-Rhône-Alpes
 #: activities/geo-country/resource/board/board1_0.qml:99
 msgctxt "board1_0|"
 msgid "Auvergne-Rhône-Alpes"
-msgstr "Auvergne-Rhône-Alpes"
+msgstr "Auvérnia-Ródano-Alpes"
 
 #. Region of France: Occitanie
 #: activities/geo-country/resource/board/board1_0.qml:107
@@ -13552,7 +13552,7 @@ msgstr "Occitânia"
 #: activities/geo-country/resource/board/board1_0.qml:115
 msgctxt "board1_0|"
 msgid "Provence-Alpes-Côte d'Azur"
-msgstr "Provença-Alpes-Côte d'Azur"
+msgstr "Provença-Alpes-Costa Azul"
 
 #. Region of France: Corsica
 #: activities/geo-country/resource/board/board1_0.qml:123
@@ -16043,7 +16043,7 @@ msgstr "Palestina"
 #: activities/geography/resource/board/board9_0.qml:159
 msgctxt "board9_0|"
 msgid "Bahrain"
-msgstr "Bahrain"
+msgstr "Barém"
 
 #: activities/gletters/ActivityConfig.qml:44
 #: activities/wordsgame/ActivityConfig.qml:44
