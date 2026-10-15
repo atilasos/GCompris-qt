@@ -53,7 +53,7 @@ def main():
         report = json.loads((output/'result.json').read_text()) if (output/'result.json').exists() else {}
         actual = len((report.get('case_result') or {}).get('completed',[]))
         row = {'name':name,'command':command,'exit_code':result.returncode,'passed':report.get('passed',False),'expected_completions':sum(counts) if args.case=='campaign' else 0,'actual_completions':actual}
-        row['passed'] = row['passed'] and actual==row['expected_completions']
+        row['passed'] = result.returncode == 0 and row['passed'] and actual==row['expected_completions']
         print(json.dumps(row),flush=True)
         return row
 
