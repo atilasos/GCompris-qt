@@ -1,0 +1,14 @@
+{
+  "automatic": {
+    "sha256": "3ca8d7c3bbf5a91cf55d2d6b709e36f34a72821a0d3a0b440ccaa344898d20e4",
+    "bytes": 174,
+    "lines": 2,
+    "excerpt_lines": 2
+  },
+  "external": {
+    "sha256": "ee16e3edf1595ef02cc415d5864ac743c8d9e37bc2cf9d48f4b6d1fed3f494da",
+    "bytes": 1424791,
+    "lines": 27935,
+    "excerpt_lines": 25
+  }
+}
