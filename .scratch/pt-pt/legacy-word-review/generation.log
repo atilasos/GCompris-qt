@@ -1,0 +1,2 @@
+[0;93m2026-10-15 23:07:54.892415028 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier[m
+{"archive": "/output/dois-pares-legados/revisao-2-pares.zip", "sha256": "fe3563da247ebe91a149b32b7c7849795534284dba06c91f79677f400c81c179", "pairs": 2, "status": "awaiting-teacher-review"}
