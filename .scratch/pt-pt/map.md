@@ -151,3 +151,13 @@ declarar puzzles completos. A matriz global mantém os critérios pendentes.
 - [38 — Palavras e letras](issues/38-palavras-letras.md)
 
 - [39 — O meu primeiro teclado](issues/39-primeiro-teclado.md)
+
+O professor ouviu e aprovou a pronúncia e os textos das 32 gravações completas.
+A tarefa35 liga essa aprovação aos textos/SHA256; o ZIP ouvido foi preservado.
+Não é necessária nova aprovação dos mesmos ficheiros. A reprodução no Windows
+e os restantes critérios de aceitação mantêm os seus estados próprios.
+
+A memória matemática concluiu 14 variantes e 207 combinações nível/modo;
+decimais/quantidades concluíram 316 puzzles em 16 campanhas offline e quatro casos de controlos.
+As 42 atividades com evidência funcional ligada na matriz não representam
+a aceitação global dos 203 jogos.
