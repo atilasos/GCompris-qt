@@ -50,6 +50,28 @@ time.sleep(5)
             self.assertIn('fingerprint', changed.stderr)
             self.assertEqual((output / 'programmingMaze.log').stat().st_mtime_ns, before)
 
+    def test_resume_refuses_changed_checked_in_voice_resources(self):
+        with tempfile.TemporaryDirectory() as directory:
+            folder = Path(directory)
+            binary = folder / 'bin/gcompris-qt'
+            binary.parent.mkdir()
+            binary.write_text("#!/usr/bin/env python3\nimport time\nprint('qml: Start activity gletters/Game.qml at level -1',flush=True)\ntime.sleep(5)\n")
+            binary.chmod(0o755)
+            source = folder / 'source'
+            (source / 'src').mkdir(parents=True)
+            (source / 'src/Game.qml').write_text('unchanged game source')
+            voice = source / 'resources/pt-pt-voices/alphabet/U00E7.ogg'
+            voice.parent.mkdir(parents=True)
+            voice.write_bytes(b'original checked-in voice')
+            command = ['python3', str(ROOT / 'tools/smoke-activity.py'), '--binary', str(binary),
+                       '--source-root', str(source), '--output', str(folder / 'results'), '--seconds', '0.2', 'gletters']
+            first = subprocess.run(command, capture_output=True, text=True)
+            self.assertEqual(first.returncode, 0, first.stderr)
+            voice.write_bytes(b'revised checked-in voice')
+            resumed = subprocess.run(command + ['--resume'], capture_output=True, text=True)
+            self.assertNotEqual(resumed.returncode, 0)
+            self.assertIn('fingerprint', resumed.stderr)
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -4,6 +4,8 @@ import importlib.util
 from pathlib import Path
 import tempfile
 import sys
+import shutil
+import subprocess
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -93,6 +95,56 @@ class CompletedVoicePackageTest(unittest.TestCase):
             (voice_dir / 'original.rcc').write_bytes(b'corrupted original')
             result = runtime.check(stage, [], original_entries, completion=completion)
             self.assertIn('share/GCompris/rcc/data3/voices-ogg/original.rcc', result['corrupt'])
+
+
+class NativeActivityProbeTest(unittest.TestCase):
+    @unittest.skipUnless(sys.platform != 'win32', 'Executable fixture uses a POSIX shebang; Windows runs the native app')
+    def test_launched_game_must_stay_alive_register_voices_and_have_no_qml_errors(self):
+        probe_spec = importlib.util.spec_from_file_location('native_probe', ROOT / 'tools/windows/native-probe.py')
+        probe = importlib.util.module_from_spec(probe_spec)
+        probe_spec.loader.exec_module(probe)
+        with tempfile.TemporaryDirectory() as directory:
+            folder = Path(directory)
+            executable = folder / 'game'
+            executable.write_text("#!/usr/bin/env python3\nimport sys,time\na=sys.argv[-1]\nprint('Start activity '+a+'/Game.qml',flush=True)\nprint('Successfully registered resource voices-completed.rcc',flush=True)\nif a=='broken':print('TypeError: missing data',flush=True)\nif a=='early':sys.exit(0)\ntime.sleep(3)\n")
+            executable.chmod(0o755)
+            self.assertTrue(probe.check_startup(executable, 'good', 'voices-completed.rcc', 0.15, folder)['passed'])
+            self.assertFalse(probe.check_startup(executable, 'broken', 'voices-completed.rcc', 0.15, folder)['passed'])
+            self.assertFalse(probe.check_startup(executable, 'early', 'voices-completed.rcc', 0.15, folder)['passed'])
+            self.assertFalse(probe.check_startup(executable, 'good', 'voices-absent.rcc', 0.15, folder)['passed'])
+
+
+class NativeEnvironmentLifecycleTest(unittest.TestCase):
+    @unittest.skipUnless(shutil.which('pwsh'), 'Requires PowerShell7 (available on the native Windows runner)')
+    def test_failure_restores_qt_environment_path_and_removes_firewall_rule(self):
+        with tempfile.TemporaryDirectory() as directory:
+            script = Path(directory) / 'lifecycle.ps1'
+            helper = str(ROOT / 'tools/windows/native-check.ps1').replace("'", "''")
+            script.write_text("""
+$ErrorActionPreference = 'Stop'
+. '""" + helper + """'
+function New-NetFirewallRule { param($Name,$DisplayName,$Direction,$Program,$Action)
+    $script:created = $Name
+    $env:QT_NEW_LEAK = 'must disappear'
+}
+function Remove-NetFirewallRule { param($Name,$ErrorAction) $script:removed = $Name }
+$env:QT_PLUGIN_PATH = 'retained plugin path'
+$env:QML_IMPORT_PATH = 'retained qml path'
+$env:QSG_RHI_BACKEND = 'retained backend'
+$env:QTDIR = 'retained sdk'
+$env:QT_MEDIA_BACKEND = $null
+$oldPath = $env:PATH
+$caught = $false
+try { Invoke-GComprisNativeCheck -InstallRoot 'not-installed' -Output 'not-created' -Python '/intentionally-not-present/python' }
+catch { $caught = $true }
+if (!$caught) { throw 'Expected native invocation failure' }
+if (!$script:created -or $script:created -ne $script:removed) { throw 'Firewall was not restored' }
+if ($env:PATH -ne $oldPath -or $env:QT_PLUGIN_PATH -ne 'retained plugin path' -or
+    $env:QML_IMPORT_PATH -ne 'retained qml path' -or $env:QSG_RHI_BACKEND -ne 'retained backend' -or
+    $env:QTDIR -ne 'retained sdk' -or $env:QT_MEDIA_BACKEND -or $env:QT_NEW_LEAK) { throw 'Environment leaked' }
+""")
+            result = subprocess.run([shutil.which('pwsh'), '-NoProfile', '-File', str(script)], capture_output=True, text=True)
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
 
 
 if __name__ == '__main__':

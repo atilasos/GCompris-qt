@@ -82,3 +82,18 @@ Teste de regressão rejeita corrupção tanto do original como do RCC completado
 A revisão final da pronúncia permanece explícita. O script NSIS também foi
 compilado localmente por NSIS3.10 com um payload mínimo: comprova a sintaxe do
 instalador/desinstalador, não a execução no Windows.
+
+
+Segundo ensaio real, Actions38798167757: compilação MSVC da aplicação/Box2D e dos
+RCC concluída, catálogo PT com 3869 mensagens compilado e os oito ficheiros offline
+descarregados com hashes corretos. A implantação falhou porque o windeployqt
+real da versão6.10.2 não aceita `--include-soft-plugins`. A opção foi removida;
+as restantes opções foram confirmadas no código Qt tagv6.10.2, e o próximo
+ensaio guardará também o `--help` real da ferramenta. Ainda não há instalador
+aprovado nem prova de execução Windows10.
+
+As correções da revisão estão descritas em `../review-fixes.md`. O cache do SDK
+é guardado imediatamente depois da preparação, antes das verificações de
+implantação; uma falha posterior deixará de obrigar a repetir essa preparação.
+A tarefa06 continua em curso: oito arranques Windows são uma amostra adicional,
+não validação interativa das 203 atividades nem conclusão de níveis.
