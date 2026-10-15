@@ -55,3 +55,12 @@ Procedimento e limites: `../windows-candidate.md`.
 A tarefa permanece `claimed` até existir resultado real da compilação, instalador,
 checksum e controlos nativos. A execução no Windows10 do professor continua
 pendente e não pode ser inferida do runner WindowsServer2022.
+
+
+Correção antes do primeiro envio: a rota Windows passa a compilar a tradução com
+`compile-portuguese.py`, indicando explicitamente `pt_PT` ao lconvert. Um teste
+com o QTranslator real reproduziu o defeito sem essa opção (0/1/2 devolviam todos
+singular) e passou depois da correção (0 maçãs, 1 maçã, 2 maçãs). Os quatro testes
+Windows-candidate passaram em Linux; o teste QTranslator é específico da
+instalação Qt Linux e não se faz passar por uma execução Windows. A compilação
+Windows usa exatamente o mesmo helper de conversão.
