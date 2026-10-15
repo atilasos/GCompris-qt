@@ -51,6 +51,10 @@ ActivityBase {
         Keys.forwardTo: [introMessage]
 
         Keys.onPressed: (event) => {
+            if ([Qt.Key_1, Qt.Key_2, Qt.Key_3, Qt.Key_4, Qt.Key_5, Qt.Key_6, Qt.Key_7,
+                 Qt.Key_Left, Qt.Key_Right].indexOf(event.key) === -1)
+                return;
+            event.accepted = true;
             var keyNoteBindings = {}
             keyNoteBindings[Qt.Key_1] = 'C'
             keyNoteBindings[Qt.Key_2] = 'D'

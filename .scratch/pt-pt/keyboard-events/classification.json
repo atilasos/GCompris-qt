@@ -1,0 +1,142 @@
+{
+  "src/activities/babymatch/Babymatch.qml": {
+    "classification": "reproduced_and_fixed",
+    "before": ".scratch/pt-pt/keyboard-events/babymatch-red-final-case/result.json",
+    "after": ".scratch/pt-pt/keyboard-events/babymatch-fixed-test/result.json",
+    "case": "tests/native/keyboard-babymatch.qml"
+  },
+  "src/activities/algorithm/Algorithm.qml": {
+    "classification": "reproduced_and_fixed",
+    "before": ".scratch/pt-pt/keyboard-events/algorithm-before/result.json",
+    "after": ".scratch/pt-pt/keyboard-events/algorithm-green/result.json",
+    "case": "tests/native/key-navigation/algorithm.qml"
+  },
+  "src/activities/lightsoff/Lightsoff.qml": {
+    "classification": "reproduced_and_fixed",
+    "before": ".scratch/pt-pt/keyboard-events/lightsoff-before/result.json",
+    "after": ".scratch/pt-pt/keyboard-events/lightsoff-green/result.json",
+    "case": "tests/native/key-navigation/lightsoff.qml"
+  },
+  "src/activities/align4_2players/Align42players.qml": {
+    "classification": "reproduced_and_fixed",
+    "before": ".scratch/pt-pt/keyboard-events/align4_2players-before/result.json",
+    "after": ".scratch/pt-pt/keyboard-events/align4_2players-green/result.json",
+    "case": "tests/native/key-navigation/align4_2players.qml"
+  },
+  "src/activities/money/MoneyCore.qml": {
+    "classification": "reproduced_and_fixed",
+    "before": ".scratch/pt-pt/keyboard-events/money-red/result.json",
+    "after": ".scratch/pt-pt/keyboard-events/money-green/result.json",
+    "case": "tests/native/key-navigation/money.qml"
+  },
+  "src/activities/binary_bulb/BinaryBulb.qml": {
+    "classification": "reproduced_and_fixed",
+    "before": ".scratch/pt-pt/keyboard-events/batch2/binary_bulb-red/result.json",
+    "after": ".scratch/pt-pt/keyboard-events/batch2/binary_bulb-green/result.json",
+    "case": "tests/native/key-navigation/binary_bulb.qml"
+  },
+  "src/activities/frieze/Frieze.qml": {
+    "classification": "reproduced_and_fixed",
+    "before": ".scratch/pt-pt/keyboard-events/batch2/frieze-red/result.json",
+    "after": ".scratch/pt-pt/keyboard-events/batch2/frieze-green/result.json",
+    "case": "tests/native/key-navigation/frieze.qml",
+    "dependencies": {
+      "src/activities/frieze/frieze.js": "c7b8c251969e659fb695c544bd38780976098766fbb7e7aee3470e395ecc273e"
+    }
+  },
+  "src/activities/programmingMaze/ProgrammingMaze.qml": {
+    "classification": "reproduced_and_fixed",
+    "before": ".scratch/pt-pt/keyboard-events/batch2/programmingMaze-before/result.json",
+    "after": ".scratch/pt-pt/keyboard-events/batch2/programmingMaze-green/result.json",
+    "case": "tests/native/key-navigation/programmingMaze.qml"
+  },
+  "src/activities/simplepaint/Simplepaint.qml": {
+    "classification": "reproduced_and_fixed",
+    "before": ".scratch/pt-pt/keyboard-events/batch2/simplepaint-before/result.json",
+    "after": ".scratch/pt-pt/keyboard-events/batch2/simplepaint-green/result.json",
+    "case": "tests/native/key-navigation/simplepaint.qml"
+  },
+  "src/activities/solar_system/SolarSystem.qml": {
+    "classification": "reproduced_and_fixed",
+    "before": ".scratch/pt-pt/keyboard-events/batch2/solar_system-red/result.json",
+    "after": ".scratch/pt-pt/keyboard-events/batch2/solar_system-green/result.json",
+    "case": "tests/native/key-navigation/solar_system.qml"
+  },
+  "src/activities/polygons/Polygons.qml": {
+    "classification": "reproduced_and_fixed",
+    "before": ".scratch/pt-pt/keyboard-events/batch2/polygons-red/result.json",
+    "after": ".scratch/pt-pt/keyboard-events/batch2/polygons-green/result.json",
+    "case": "tests/native/key-navigation/polygons.qml"
+  },
+  "src/activities/submarine/Submarine.qml": {
+    "classification": "reproduced_and_fixed",
+    "before": ".scratch/pt-pt/keyboard-events/batch2/submarine-red/result.json",
+    "after": ".scratch/pt-pt/keyboard-events/batch2/submarine-ctrl-w-green/result.json",
+    "case": "tests/native/key-navigation/submarine.qml"
+  },
+  "src/activities/analog_electricity/AnalogElectricity.qml": {
+    "classification": "reproduced_and_fixed",
+    "before": ".scratch/pt-pt/keyboard-events/batch2/analog_electricity-red/result.json",
+    "after": ".scratch/pt-pt/keyboard-events/batch2/analog_electricity-green/result.json",
+    "case": "tests/native/key-navigation/analog_electricity.qml"
+  },
+  "src/activities/digital_electricity/DigitalElectricity.qml": {
+    "classification": "reproduced_and_fixed",
+    "before": ".scratch/pt-pt/keyboard-events/batch2/digital_electricity-red/result.json",
+    "after": ".scratch/pt-pt/keyboard-events/batch2/digital_electricity-green/result.json",
+    "case": "tests/native/key-navigation/digital_electricity.qml"
+  },
+  "src/activities/crane/Crane.qml": {
+    "classification": "reproduced_and_fixed",
+    "before": ".scratch/pt-pt/keyboard-events/batch3/crane-before/result.json",
+    "after": ".scratch/pt-pt/keyboard-events/batch3/crane-green/result.json",
+    "case": "tests/native/key-navigation/crane.qml"
+  },
+  "src/activities/guess24/Guess24.qml": {
+    "classification": "reproduced_and_fixed",
+    "before": ".scratch/pt-pt/keyboard-events/batch3/guess24-before/result.json",
+    "after": ".scratch/pt-pt/keyboard-events/batch3/guess24-green/result.json",
+    "case": "tests/native/key-navigation/guess24.qml",
+    "dependencies": {
+      "src/activities/guess24/guess24.js": "f59fb3a3e146cd2a84a29bc56dcb764a51fd1dabd8c80bdc662133ad08917f12"
+    }
+  },
+  "src/activities/note_names/NoteNames.qml": {
+    "classification": "reproduced_and_fixed",
+    "before": ".scratch/pt-pt/keyboard-events/batch3/note_names-red/result.json",
+    "after": ".scratch/pt-pt/keyboard-events/batch3/note_names-green/result.json",
+    "case": "tests/native/key-navigation/note_names.qml"
+  },
+  "src/activities/learn_digits/Learn_digits.qml": {
+    "classification": "native_negative_control",
+    "after": ".scratch/pt-pt/keyboard-events/batch2/learn_digits-before/result.json",
+    "context": "Handler belongs to ActivityBase root; one tested arrow and Escape passed without a fix.",
+    "case": "tests/native/key-navigation/learn_digits.qml"
+  },
+  "src/activities/menu/BackgroundMusicList.qml": {
+    "classification": "native_negative_control",
+    "after": ".scratch/pt-pt/keyboard-events/batch3/menu-dialogs-green/result.json",
+    "context": "Nested Rectangle in actual menu settings; one down scroll signal and Escape close passed unchanged.",
+    "case": "tests/native/key-navigation/menu-dialogs.qml"
+  },
+  "src/activities/menu/ServerConfigPage.qml": {
+    "classification": "native_negative_control",
+    "after": ".scratch/pt-pt/keyboard-events/batch3/menu-dialogs-green/result.json",
+    "context": "Nested Rectangle in actual menu settings; one down scroll signal and Escape close passed unchanged.",
+    "case": "tests/native/key-navigation/menu-dialogs.qml"
+  },
+  "src/activities/piano_composition/MelodyList.qml": {
+    "classification": "native_negative_control",
+    "after": ".scratch/pt-pt/keyboard-events/batch3/melody-dialog-green/result.json",
+    "context": "Nested Rectangle in actual piano activity; one down scroll signal and Escape close passed unchanged.",
+    "case": "tests/native/key-navigation/melody-dialog.qml"
+  },
+  "src/activities/memory/MemoryCommon.qml": {
+    "classification": "existing_acceptance_not_detected_by_initial_heuristic",
+    "context": "The existing handler assigns event.accepted through a variable or branch; no change in this keyboard triage task."
+  },
+  "src/activities/multiple_choice_questions/Multiple_choice_questions.qml": {
+    "classification": "existing_acceptance_not_detected_by_initial_heuristic",
+    "context": "The existing handler assigns event.accepted through a variable or branch; no change in this keyboard triage task."
+  }
+}
