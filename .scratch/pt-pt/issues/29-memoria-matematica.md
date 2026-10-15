@@ -36,3 +36,6 @@ Windows, audição, hardware e aceitação docente permanecem critérios separad
   Os hashes dos casos coincidem com os ficheiros atuais. O teste de dados foi
   reforçado para confirmar todas as tabelas/operandos e a união completa de
   respostas nas variantes mistas; agora são quatro testes Node aprovados.
+- Segundo checkpoint: sete gameplays completos, 110 combinações nível/modo,
+  63 casos nativos aprovados incluindo os 56 auxiliares. `checkpoint.json`
+  mantém `complete:false` e enumera os sete gameplays ainda em execução.

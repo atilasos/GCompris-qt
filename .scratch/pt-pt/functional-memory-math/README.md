@@ -33,3 +33,12 @@ CSV não foram alterados.
 Windows, escola, som/pronúncia, dispositivos físicos e revisão docente continuam
 pendentes. A aceitação global Linux também permanece pendente. [Procedimento de
 reprodução](../../../tests/functional_memory_math/README.md).
+
+## Segundo checkpoint
+
+Sete variantes têm gameplay completo aprovado, acrescentando multiplicação com
+Tux e sem Tux e divisão sem Tux. São 110 combinações nível/modo, 548 pares do
+jogador, 22 do Tux e 195 erros/terceiros cliques bloqueados. O índice atualizado
+contém 63 casos completos e lista os sete gameplays restantes como ausentes.
+Os 56 casos auxiliares mantêm-se aprovados; nenhuma execução parcial entra
+nestes totais.
