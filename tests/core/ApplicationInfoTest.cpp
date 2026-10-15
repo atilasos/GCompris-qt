@@ -10,6 +10,8 @@
  */
 
 #include <QObject>
+#include <QProcess>
+#include <QProcessEnvironment>
 #include <QTest>
 
 #include "src/core/ApplicationInfo.h"
@@ -24,6 +26,10 @@ private Q_SLOTS:
     void WindowTest_data();
     void WindowTest();
 
+#ifdef Q_OS_UNIX
+    void systemVoicesLocaleTest_data();
+    void systemVoicesLocaleTest();
+#endif
     void getVoicesLocaleTest_data();
     void getVoicesLocaleTest();
     void getAudioFilePathForLocaleTest_data();
@@ -100,12 +106,58 @@ void ApplicationInfoTest::WindowTest()
     QVERIFY(appInfo.isPortraitMode() == portraitMode);
 }
 
+// POSIX locale environment fixtures do not select the Windows system locale.
+#ifdef Q_OS_UNIX
+void ApplicationInfoTest::systemVoicesLocaleTest_data()
+{
+    QTest::addColumn<QString>("systemLocale");
+    QTest::addColumn<QString>("localeName");
+    QTest::addColumn<QString>("expected");
+    QTest::newRow("C fallback") << "C" << "C" << "en_US";
+    QTest::newRow("Portugal") << "pt_PT.UTF-8" << "pt_PT" << "pt";
+    QTest::newRow("United States") << "en_US.UTF-8" << "en_US" << "en_US";
+    QTest::newRow("United Kingdom") << "en_GB.UTF-8" << "en_GB" << "en_GB";
+    QTest::newRow("Brazil") << "pt_BR.UTF-8" << "pt_BR" << "pt_BR";
+    QTest::newRow("France") << "fr_FR.UTF-8" << "fr_FR" << "fr";
+}
+
+void ApplicationInfoTest::systemVoicesLocaleTest()
+{
+    QFETCH(QString, systemLocale);
+    QFETCH(QString, localeName);
+    QFETCH(QString, expected);
+
+    // QLocale caches the system locale. Start a fresh process for each fixture
+    // rather than changing the application's process-wide default locale.
+    QProcess child;
+    auto environment = QProcessEnvironment::systemEnvironment();
+    environment.insert(QStringLiteral("LC_ALL"), systemLocale);
+    environment.insert(QStringLiteral("LANG"), systemLocale);
+    environment.remove(QStringLiteral("LANGUAGE"));
+    environment.insert(QStringLiteral("GCOMPRIS_TEST_SYSTEM_LOCALE_NAME"), localeName);
+    environment.insert(QStringLiteral("GCOMPRIS_TEST_SYSTEM_VOICES_EXPECTED"), expected);
+    child.setProcessEnvironment(environment);
+    child.setProcessChannelMode(QProcess::MergedChannels);
+    child.start(QCoreApplication::applicationFilePath(),
+                {QStringLiteral("getVoicesLocaleTest:system-default")});
+    QVERIFY2(child.waitForFinished(30000), qPrintable(child.errorString()));
+    const QByteArray output = child.readAll();
+    QVERIFY2(child.exitStatus() == QProcess::NormalExit, output.constData());
+    QVERIFY2(child.exitCode() == 0, output.constData());
+}
+
+#endif
+
 void ApplicationInfoTest::getVoicesLocaleTest_data()
 {
     QTest::addColumn<QString>("actual");
     QTest::addColumn<QString>("expected");
-    QTest::newRow("default") << GC_DEFAULT_LOCALE
-                             << QLocale::system().name();
+    // This row is executed by systemVoicesLocaleTest in a fresh process with
+    // a known system locale. Expected values come from its independent table.
+    if (qEnvironmentVariableIsSet("GCOMPRIS_TEST_SYSTEM_VOICES_EXPECTED")) {
+        QTest::newRow("system-default") << GC_DEFAULT_LOCALE
+            << qEnvironmentVariable("GCOMPRIS_TEST_SYSTEM_VOICES_EXPECTED");
+    }
     QTest::newRow("en_US") << "en_US"
                            << "en_US";
     QTest::newRow("pt_BR") << "pt_BR"
@@ -118,18 +170,16 @@ void ApplicationInfoTest::getVoicesLocaleTest_data()
 
 void ApplicationInfoTest::getVoicesLocaleTest()
 {
-    // Set default locale to "C". ALlows to test GC_DEFAULT_LOCALE
-    QLocale defaultLocale = QLocale::system();
-    QLocale::setDefault(QLocale::c());
     ApplicationInfo appInfo;
     ApplicationInfo::getInstance();
 
     QFETCH(QString, actual);
     QFETCH(QString, expected);
 
+    if (actual == GC_DEFAULT_LOCALE) {
+        QCOMPARE(QLocale::system().name(), qEnvironmentVariable("GCOMPRIS_TEST_SYSTEM_LOCALE_NAME"));
+    }
     QCOMPARE(appInfo.getVoicesLocale(actual), expected);
-
-    QLocale::setDefault(defaultLocale);
 }
 
 void ApplicationInfoTest::getAudioFilePathForLocaleTest_data()
