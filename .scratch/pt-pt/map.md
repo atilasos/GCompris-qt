@@ -147,3 +147,5 @@ declarar puzzles completos. A matriz global mantém os critérios pendentes.
 - [36 — Retorno do launcher decimal](issues/36-retorno-runner-decimais.md)
 
 - [37 — Restantes jogos de memória](issues/37-restante-memoria.md)
+
+- [38 — Palavras e letras](issues/38-palavras-letras.md)
