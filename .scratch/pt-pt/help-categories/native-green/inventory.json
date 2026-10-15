@@ -1,0 +1,1646 @@
+{
+  "adjacent_numbers": {
+    "filter_ids": "math numeration",
+    "labels": [
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "a25818654a731f73ba076a856ed3c54c78f31d0ef21233f4d1f81912273d143a"
+  },
+  "advanced_colors": {
+    "filter_ids": "reading colors vocabulary",
+    "labels": [
+      "Leitura",
+      "Cores",
+      "Vocabulário"
+    ],
+    "source_sha256": "d80491304b6f0cbaa5fd110da128140e637c5d4c3fc5002cb04548aec80342b9"
+  },
+  "algebra_by": {
+    "filter_ids": "math multiplication arithmetic",
+    "labels": [
+      "Matemática",
+      "Multiplicação",
+      "Aritmética"
+    ],
+    "source_sha256": "42abff4470b22f83477de61d49b08a31b4830a3ef6c24567c3bd007625dfe58f"
+  },
+  "algebra_div": {
+    "filter_ids": "math division arithmetic",
+    "labels": [
+      "Matemática",
+      "Divisão",
+      "Aritmética"
+    ],
+    "source_sha256": "0406f2055ec428c65a9c3e3fa39e06a1becdca190aad99e967acec091a48cad1"
+  },
+  "algebra_minus": {
+    "filter_ids": "math subtraction arithmetic",
+    "labels": [
+      "Matemática",
+      "Subtração",
+      "Aritmética"
+    ],
+    "source_sha256": "8cb84554d3ba726da2c1d797fd950b39a7aa6f94303fef2cdb8cfd139f4543ae"
+  },
+  "algebra_plus": {
+    "filter_ids": "math addition arithmetic",
+    "labels": [
+      "Matemática",
+      "Adição",
+      "Aritmética"
+    ],
+    "source_sha256": "29f5fb9592580d4c19808050be525052fc08f3304142593a50cc7c8a14d73787"
+  },
+  "algorithm": {
+    "filter_ids": "discovery logic",
+    "labels": [
+      "Descoberta",
+      "Lógica"
+    ],
+    "source_sha256": "0c977cbc90d95deb429e4f53124a85ce0311a9eb8a2e36522b02a2fa1206c9f5"
+  },
+  "align4": {
+    "filter_ids": "strategy",
+    "labels": [
+      "Estratégia"
+    ],
+    "source_sha256": "9fcbcbf01b6b6fe6ddd37f435bd8540c8695d4f627650d25e15a93501d5be8fc"
+  },
+  "align4_2players": {
+    "filter_ids": "strategy",
+    "labels": [
+      "Estratégia"
+    ],
+    "source_sha256": "0ea92a0f762ae4a8796e8280fff9eebb81a7d790346d495ae863674497cc40b7"
+  },
+  "alphabet-sequence": {
+    "filter_ids": "reading letters",
+    "labels": [
+      "Leitura",
+      "Letras"
+    ],
+    "source_sha256": "2e4de615c3802d666e538d9a9afcd07b77bd0ec3804214dc609140ab7a95ea8c"
+  },
+  "analog_electricity": {
+    "filter_ids": "sciences experiment",
+    "labels": [
+      "Ciências",
+      "Experiências"
+    ],
+    "source_sha256": "9b43df4fae31fc2687443f4da1b69402640c71941273d4f54f0538926e4da459"
+  },
+  "baby_keyboard": {
+    "filter_ids": "computer keyboard letters numeration",
+    "labels": [
+      "Computador",
+      "Teclado",
+      "Letras",
+      "Numeração"
+    ],
+    "source_sha256": "741ec5b2b507168988050e9a5beb21c035c36bf694b2dfe916d377603e5af7bc"
+  },
+  "baby_mouse": {
+    "filter_ids": "computer mouse",
+    "labels": [
+      "Computador",
+      "Rato"
+    ],
+    "source_sha256": "abf4b8ecbdf371b39ff554f89623da8e48ed77df68fe5b14886f7a592ab902d7"
+  },
+  "baby_tangram": {
+    "filter_ids": "puzzle",
+    "labels": [
+      "Quebra-cabeças"
+    ],
+    "source_sha256": "4ce6fc6c7dc405bf475496bca411ab8a0db15e6434c8cdf35968149ffe1663ae"
+  },
+  "baby_wordprocessor": {
+    "filter_ids": "computer keyboard reading letters",
+    "labels": [
+      "Computador",
+      "Teclado",
+      "Leitura",
+      "Letras"
+    ],
+    "source_sha256": "cd296db1369a7a07537425658c943a67040d75382d0fe92284012b1f1ce90b89"
+  },
+  "babymatch": {
+    "filter_ids": "reading vocabulary",
+    "labels": [
+      "Leitura",
+      "Vocabulário"
+    ],
+    "source_sha256": "7c3f2156b759d5b2f2de9363e7798333356766aeabc8bbe40e50211284c4605e"
+  },
+  "babyshapes": {
+    "filter_ids": "computer",
+    "labels": [
+      "Computador"
+    ],
+    "source_sha256": "c8dc03e455c86d997f6779ff20a71907f92d51bd4b684f2aa93da58ecd0c4485"
+  },
+  "balancebox": {
+    "filter_ids": "mobile fun",
+    "labels": [
+      "Dispositivos móveis",
+      "Diversão"
+    ],
+    "source_sha256": "7c205c0d05084779d3af36d35a6bf91594c75588bae58d20a8ac6fe324967592"
+  },
+  "ballcatch": {
+    "filter_ids": "computer keyboard",
+    "labels": [
+      "Computador",
+      "Teclado"
+    ],
+    "source_sha256": "8eae0f5eb160f4ce2f99525ba15559d5a526efa8843cc0d34205ee35bb3081aa"
+  },
+  "bargame": {
+    "filter_ids": "strategy",
+    "labels": [
+      "Estratégia"
+    ],
+    "source_sha256": "1e826b531e54047c81e760bf0caeb26a0eec2bd04cdce577c535706979e98463"
+  },
+  "bargame_2players": {
+    "filter_ids": "strategy",
+    "labels": [
+      "Estratégia"
+    ],
+    "source_sha256": "38859cf3d96db992bb7d0b833c3da0296b4b1b495323a110f5f89b0ab9db5f61"
+  },
+  "binary_bulb": {
+    "filter_ids": "sciences experiment",
+    "labels": [
+      "Ciências",
+      "Experiências"
+    ],
+    "source_sha256": "40da6325a15ae2711912ef6c2ac8ca527f21509b44c6db6f2b7e9a47507b336d"
+  },
+  "braille_alphabets": {
+    "filter_ids": "reading letters braille",
+    "labels": [
+      "Leitura",
+      "Letras",
+      "Braille"
+    ],
+    "source_sha256": "4c3ccc3aa2d84328d55571214b3fe37552b6f2c583874bd91a383f0dc33b0527"
+  },
+  "braille_fun": {
+    "filter_ids": "reading braille letters",
+    "labels": [
+      "Leitura",
+      "Braille",
+      "Letras"
+    ],
+    "source_sha256": "9f3ee11a47bba73e633fdebc1a3b03582d440541d63e6e4f8cc2195002c48e8c"
+  },
+  "calcudoku": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "c471e743c5a1fdd2fcdfb4a6aa325954512fc76fa30d14efce6cdbfececcb3f2"
+  },
+  "calendar": {
+    "filter_ids": "math measures",
+    "labels": [
+      "Matemática",
+      "Medidas"
+    ],
+    "source_sha256": "1f2109891f0d6f0a88184d79288e8ae6d046c3bc2f660cd61a71c92bbe436d68"
+  },
+  "canal_lock": {
+    "filter_ids": "sciences experiment",
+    "labels": [
+      "Ciências",
+      "Experiências"
+    ],
+    "source_sha256": "6ed69f52c28b7e9360cfaf8550d0cfdac1a6bb3c5c8b92f15a3c6e9a4d11b5b2"
+  },
+  "categorization": {
+    "filter_ids": "reading vocabulary",
+    "labels": [
+      "Leitura",
+      "Vocabulário"
+    ],
+    "source_sha256": "a0aa2894b16ad5f07f92f90b4f5be4887c10a6098c116316b54ac7a75c3cc432"
+  },
+  "checkers": {
+    "filter_ids": "strategy",
+    "labels": [
+      "Estratégia"
+    ],
+    "source_sha256": "4a9d781cb1e02fb359c369ec0b7422a82bc690bb1920b905cd75ea0c671c5ae7"
+  },
+  "checkers_2players": {
+    "filter_ids": "strategy",
+    "labels": [
+      "Estratégia"
+    ],
+    "source_sha256": "b3f3c8ecc929c1737afcd40bb6a7cb4037168e34ead87288a285f106661f46c2"
+  },
+  "chess": {
+    "filter_ids": "strategy",
+    "labels": [
+      "Estratégia"
+    ],
+    "source_sha256": "bc8dea2ef52283b02717b8b5c7e8003a38a9fd284a4374d0f99f1ffd72407d9f"
+  },
+  "chess_2players": {
+    "filter_ids": "strategy",
+    "labels": [
+      "Estratégia"
+    ],
+    "source_sha256": "26c449d314fd76b49e534b0a2c2665b669a81353fd010176fa99d402435f3967"
+  },
+  "chess_partyend": {
+    "filter_ids": "strategy",
+    "labels": [
+      "Estratégia"
+    ],
+    "source_sha256": "bfeb0f309383eb0c7edd4890972c1b6acacce55bbaa1dec1d9998eae4a4b7783"
+  },
+  "chronos": {
+    "filter_ids": "sciences history",
+    "labels": [
+      "Ciências",
+      "História"
+    ],
+    "source_sha256": "6633a481fa42f1c033a36936f60463d6510d23afcc27b53010eb6c011f478ec6"
+  },
+  "click_on_letter": {
+    "filter_ids": "reading letters",
+    "labels": [
+      "Leitura",
+      "Letras"
+    ],
+    "source_sha256": "7e45f4d81658bd8e68c6c2ebc24e248ab1ed67e059e72353ff1c6c713cf56f26"
+  },
+  "click_on_letter_up": {
+    "filter_ids": "reading letters",
+    "labels": [
+      "Leitura",
+      "Letras"
+    ],
+    "source_sha256": "7a184730ec8ffbf7241d06ca4dda6d1a47b44f8e441fa1e924341b0a0c9eb5c1"
+  },
+  "clickanddraw": {
+    "filter_ids": "computer mouse",
+    "labels": [
+      "Computador",
+      "Rato"
+    ],
+    "source_sha256": "95b3a6539552b3c4b6f7aa087768362faaa20eda2df3ae1d8d21400db87437a4"
+  },
+  "clickgame": {
+    "filter_ids": "computer mouse",
+    "labels": [
+      "Computador",
+      "Rato"
+    ],
+    "source_sha256": "8141cceb378e8e5145d466abca75916961b2258d656700e6af3d7c1c8ce6de86"
+  },
+  "clockgame": {
+    "filter_ids": "math measures",
+    "labels": [
+      "Matemática",
+      "Medidas"
+    ],
+    "source_sha256": "405f25420bc62fff1520529873fd4c6b1b4c5359337c05e14f13ab44f7d7e5dd"
+  },
+  "color_mix": {
+    "filter_ids": "sciences experiment color",
+    "labels": [
+      "Ciências",
+      "Experiências",
+      "Cores"
+    ],
+    "source_sha256": "0f53076209c2be40066fe15b241642826259025c79e70d0e6a417d86f2287934"
+  },
+  "color_mix_light": {
+    "filter_ids": "sciences experiment color",
+    "labels": [
+      "Ciências",
+      "Experiências",
+      "Cores"
+    ],
+    "source_sha256": "d1ab649af691eb8dade53cb590cd1adeecb82049f6b0438f72415c4295d31409"
+  },
+  "colors": {
+    "filter_ids": "reading color vocabulary",
+    "labels": [
+      "Leitura",
+      "Cores",
+      "Vocabulário"
+    ],
+    "source_sha256": "3791454570e488bf62ddc34e5ec842cc443875494b0cb0f75a5ada1b18f0a372"
+  },
+  "comparator": {
+    "filter_ids": "math numeration",
+    "labels": [
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "f90dbe6ccce07f1fb10b8161c81d2ef420fd24dc6c2fb73eba7dc35c186621b9"
+  },
+  "compass": {
+    "filter_ids": "discovery arts fun",
+    "labels": [
+      "Descoberta",
+      "Arte",
+      "Diversão"
+    ],
+    "source_sha256": "6e01f28067a44862ac56e22096adb997333f9a9b39af170a0fd715436c352aca"
+  },
+  "crane": {
+    "filter_ids": "puzzle",
+    "labels": [
+      "Quebra-cabeças"
+    ],
+    "source_sha256": "d977c1893257adec5fb2819a5c8f15f79e2fc080670ae4ec842cd523d916bfb2"
+  },
+  "details": {
+    "filter_ids": "discovery arts",
+    "labels": [
+      "Descoberta",
+      "Arte"
+    ],
+    "source_sha256": "179644b2719dd1b66be00d9f07dbdaad0c8ad1344c889ab554601d803bbaf72b"
+  },
+  "digital_electricity": {
+    "filter_ids": "sciences experiment",
+    "labels": [
+      "Ciências",
+      "Experiências"
+    ],
+    "source_sha256": "83ca40d58b812907aa551876f009bf06df807734e230e4b48dd251e294351f32"
+  },
+  "drawing_wheels": {
+    "filter_ids": "discovery arts fun",
+    "labels": [
+      "Descoberta",
+      "Arte",
+      "Diversão"
+    ],
+    "source_sha256": "feeeff7c148fae8fe06f2e326eed7be1b93f7ed9193742b4ade728ed6fc924a7"
+  },
+  "drawletters": {
+    "filter_ids": "reading letters",
+    "labels": [
+      "Leitura",
+      "Letras"
+    ],
+    "source_sha256": "ef67ff3443a58734c83a8b539c562f5d1a1f706d2e644be04c3575b3368e518c"
+  },
+  "drawnumbers": {
+    "filter_ids": "math numeration",
+    "labels": [
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "2f3b7fbc9d857e97b6c59bc3a25aecbe3f7cb84e9416f167115ad70e07029d81"
+  },
+  "enumerate": {
+    "filter_ids": "math numeration",
+    "labels": [
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "9bf56ab576b429173d1471139a465099f2c198bcc950c1f45b37809cad4bc8f2"
+  },
+  "erase": {
+    "filter_ids": "computer mouse",
+    "labels": [
+      "Computador",
+      "Rato"
+    ],
+    "source_sha256": "0896e14eca78474266dc6cf7169f72d50ef97f3613fd4de68880cff71567d13b"
+  },
+  "erase_2clic": {
+    "filter_ids": "computer mouse",
+    "labels": [
+      "Computador",
+      "Rato"
+    ],
+    "source_sha256": "43ba1894da5cad1df077a54da86f7b9e16197d7569309d7784e0224879f18271"
+  },
+  "erase_clic": {
+    "filter_ids": "computer mouse",
+    "labels": [
+      "Computador",
+      "Rato"
+    ],
+    "source_sha256": "89c48d26f7f2a67399c8fa65c5649a4476f54589a91c243a7536d6f3f03d5e5d"
+  },
+  "explore_farm_animals": {
+    "filter_ids": "sciences experiment",
+    "labels": [
+      "Ciências",
+      "Experiências"
+    ],
+    "source_sha256": "00e71064be38fbd696034d69171219d0da3b8831a2501ed8397bf612cb834bb3"
+  },
+  "explore_monuments": {
+    "filter_ids": "sciences geography",
+    "labels": [
+      "Ciências",
+      "Geografia"
+    ],
+    "source_sha256": "03a9cf49db554aef0c17c77e9080e98dfdaaf7bfba48a6c9d2a73b01b5672494"
+  },
+  "explore_world_animals": {
+    "filter_ids": "sciences experiment",
+    "labels": [
+      "Ciências",
+      "Experiências"
+    ],
+    "source_sha256": "099c84069ece49babc2c0656ddc4f4d00e2228671f37d84e46baec4f0db37c72"
+  },
+  "explore_world_music": {
+    "filter_ids": "discovery music",
+    "labels": [
+      "Descoberta",
+      "Música"
+    ],
+    "source_sha256": "c2fdb4f0c8b0c4ae3584c3ec8249d9342082a450e123d08178f038483d61a734"
+  },
+  "family": {
+    "filter_ids": "sciences history",
+    "labels": [
+      "Ciências",
+      "História"
+    ],
+    "source_sha256": "f5ed9b20f0d27410203c9300f706073fae2fe07efdd7c0f3681807b28777c72a"
+  },
+  "family_find_relative": {
+    "filter_ids": "sciences history",
+    "labels": [
+      "Ciências",
+      "História"
+    ],
+    "source_sha256": "19484bc3b0aca398b4e9cc41fcfd11f5dc206da17ae6b7f321760312027fea15"
+  },
+  "fifteen": {
+    "filter_ids": "discovery logic",
+    "labels": [
+      "Descoberta",
+      "Lógica"
+    ],
+    "source_sha256": "2718e5b131b368b95a6af1032e5567993b26ca5985b4dcee8afa69af5780948c"
+  },
+  "find_the_day": {
+    "filter_ids": "math measures",
+    "labels": [
+      "Matemática",
+      "Medidas"
+    ],
+    "source_sha256": "d2d47585bb85f50cb6111a504e4a7ab43a20b24a5cc5c81eb04abacdba3b36cd"
+  },
+  "followline": {
+    "filter_ids": "computer mouse",
+    "labels": [
+      "Computador",
+      "Rato"
+    ],
+    "source_sha256": "8dcfed2b337360c8db741f76cf89020fd1699d80ef40819d2c5c45c197da86c4"
+  },
+  "football": {
+    "filter_ids": "fun",
+    "labels": [
+      "Diversão"
+    ],
+    "source_sha256": "77bfd621e64af62648275c6732d0a1b669f47fc7038a4a183e4d596d32776abb"
+  },
+  "fractions_create": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "2dfc0a47e6724dc712d1f489248a63307a2cfe9aff46b2c32e1b9379337729c1"
+  },
+  "fractions_find": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "36f6640126afa369f7a30027212265e9c22c9d63e40839153ce7b53fcbe9170b"
+  },
+  "frieze": {
+    "filter_ids": "discovery logic",
+    "labels": [
+      "Descoberta",
+      "Lógica"
+    ],
+    "source_sha256": "ec2554ae36aa094540b09e2bd0f7a6b61856198d7cb79e7900c3061346bec787"
+  },
+  "geo-country": {
+    "filter_ids": "sciences geography",
+    "labels": [
+      "Ciências",
+      "Geografia"
+    ],
+    "source_sha256": "7a4dc70bc009c3792b6cc330fe847e37d1fee6209316ddab92232a3f139ef4ff"
+  },
+  "geography": {
+    "filter_ids": "sciences geography",
+    "labels": [
+      "Ciências",
+      "Geografia"
+    ],
+    "source_sha256": "5354cc368477f2af54aee38c56f5cb0baa3eba6fe25679320193921210765dd3"
+  },
+  "gletters": {
+    "filter_ids": "computer keyboard reading letters",
+    "labels": [
+      "Computador",
+      "Teclado",
+      "Leitura",
+      "Letras"
+    ],
+    "source_sha256": "0f7341d352d1e3a61f860a42263870fe60d4abff14c9035925b609a08bca8eaf"
+  },
+  "gnumch-equality": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "009e80ccc2a3aaedefdf409383718687b4b75a24e0da04a4d46cdbe232546f14"
+  },
+  "gnumch-factors": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "4045f505463bf60a38075fa4e0f76728d4211f21abc6e35996bbfa978b83dd35"
+  },
+  "gnumch-inequality": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "3a646afea282b2bf8b9a057eb5ea9851b2a88adafcd38dc33e52411f3a9fae41"
+  },
+  "gnumch-multiples": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "fb4ec6fb0768e521bc2ed1b99839c4140daddaed57f865407f92915aceafc57e"
+  },
+  "gnumch-primes": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "21c87a27d5e7db3736ae16ec53bc6cba69ed9c05f24dd021e7beaf455e662f48"
+  },
+  "graduated_line_read": {
+    "filter_ids": "math numeration",
+    "labels": [
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "0164951f6c38d9d0b6cdb64f770e0dc162eb5e8be8da3804e067e50de028cff3"
+  },
+  "graduated_line_use": {
+    "filter_ids": "math numeration",
+    "labels": [
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "8cfb1f09231c35c8d133b9a2c9991d1953a2795bc0d2cce6bc19ab7a6d13648c"
+  },
+  "grammar_analysis": {
+    "filter_ids": "reading words",
+    "labels": [
+      "Leitura",
+      "Palavras"
+    ],
+    "source_sha256": "87129cf95de9937073b865438d18d4982d2a180f831e910ea56ee16c7291086f"
+  },
+  "grammar_classes": {
+    "filter_ids": "reading words",
+    "labels": [
+      "Leitura",
+      "Palavras"
+    ],
+    "source_sha256": "56cd6db25a8339acc8ef4fb64a7c74d1eecc250795aa617e6ede9ce83d483e7a"
+  },
+  "graph-coloring": {
+    "filter_ids": "discovery logic",
+    "labels": [
+      "Descoberta",
+      "Lógica"
+    ],
+    "source_sha256": "72136c87928ba8619e6166ed2181379cc6de1bdd59d77085b116000918a621ee"
+  },
+  "gravity": {
+    "filter_ids": "sciences experiment",
+    "labels": [
+      "Ciências",
+      "Experiências"
+    ],
+    "source_sha256": "784a58a58519687ff5e51ad9d77c64cae9d0733364b8e28a15150c06a0816bdc"
+  },
+  "guess24": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "53e92ba754109a0062fec0b73d25f3ad432449123a7a49fcc2837b9c7966efb1"
+  },
+  "guesscount": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "e3a11120ee2bd37314790f5d900acba9031ed2d25c2eafa97640a96ba0318990"
+  },
+  "guessnumber": {
+    "filter_ids": "math numeration",
+    "labels": [
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "748ce7e8c45f6edf94e06f0a0c8e421c48d663dec979d3cf7981903ff59c5231"
+  },
+  "hangman": {
+    "filter_ids": "keyboard reading words",
+    "labels": [
+      "Teclado",
+      "Leitura",
+      "Palavras"
+    ],
+    "source_sha256": "0d7ba526e0fb79c3ce80282c23f75eb60f86d49ec71e1ee1ca78906482f763d9"
+  },
+  "hanoi": {
+    "filter_ids": "discovery logic",
+    "labels": [
+      "Descoberta",
+      "Lógica"
+    ],
+    "source_sha256": "e64e47828962373f7b4b4f5f91656f47924c08b1464c79839316f4974553b703"
+  },
+  "hanoi_real": {
+    "filter_ids": "discovery logic",
+    "labels": [
+      "Descoberta",
+      "Lógica"
+    ],
+    "source_sha256": "439fea503f65345cae7cfd4a5e878164877d76fe27a247cab7ed6c6e25689acb"
+  },
+  "hexagon": {
+    "filter_ids": "fun",
+    "labels": [
+      "Diversão"
+    ],
+    "source_sha256": "afdb72db3a2f8b4202f99a22ad504f9c838de6749fff8e38aa2fb1ef79d3ce51"
+  },
+  "imagename": {
+    "filter_ids": "reading words",
+    "labels": [
+      "Leitura",
+      "Palavras"
+    ],
+    "source_sha256": "3e52f864063aade227b54d7f3699844ffd6be9232cd91cf435d6b5076e0b559c"
+  },
+  "instruments": {
+    "filter_ids": "discovery music",
+    "labels": [
+      "Descoberta",
+      "Música"
+    ],
+    "source_sha256": "f22423a81f4887f8f80e83e4059297e830165cec99dc4a87262e4ef4af6a3993"
+  },
+  "keyboard_training": {
+    "filter_ids": "computer keyboard letters",
+    "labels": [
+      "Computador",
+      "Teclado",
+      "Letras"
+    ],
+    "source_sha256": "38ffad74daa3f54b0345b4df776e59e9d6b50e240dc770d2df71d6e215962f63"
+  },
+  "land_safe": {
+    "filter_ids": "sciences experiment",
+    "labels": [
+      "Ciências",
+      "Experiências"
+    ],
+    "source_sha256": "87900a426edc3dbf0f59d964b9ba5e4341555d7043c43f58eff45888c1882527"
+  },
+  "lang": {
+    "filter_ids": "reading vocabulary",
+    "labels": [
+      "Leitura",
+      "Vocabulário"
+    ],
+    "source_sha256": "249c7b8b6d38c582e19b88bb4d8a5b77446725556a43ceafa2e50fc9ea60f0de"
+  },
+  "learn_additions": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "d479a0a66dc4b0ebdab073f3075e1e53010bdf06b30e028ccea70cdd1a8f1432"
+  },
+  "learn_decimals": {
+    "filter_ids": "math numeration",
+    "labels": [
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "bd103fa597025afd4a6c838f1a141174c5184e49763fc7fff8f5e3015f0cad77"
+  },
+  "learn_decimals_additions": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "664ef858fda0dce033b4315e66d5e4389f37a853ce8c18cec07c5f8ce472eb5c"
+  },
+  "learn_decimals_subtractions": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "020232eaf0ef1075235c3211aecc7a55f8f01b8999137f09d11408353af8d48e"
+  },
+  "learn_digits": {
+    "filter_ids": "math numeration",
+    "labels": [
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "97f8ccfb0203d45cf500f0c247aa6e4f1f58c94568bc36d8f4101ac9089c53b1"
+  },
+  "learn_quantities": {
+    "filter_ids": "math numeration",
+    "labels": [
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "8c2745ccefcb3c6c8dcb5aa7059138c26340d517b0b4df216210e0099855c67d"
+  },
+  "learn_subtractions": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "84d7970e446a4f8be8200bab2c583750c7d73c7e4b9e74b0104b843ea0089cf8"
+  },
+  "left_right_click": {
+    "filter_ids": "computer mouse",
+    "labels": [
+      "Computador",
+      "Rato"
+    ],
+    "source_sha256": "a7fdf6422ea28c370fefaf0e3107c5e439240174267b12f58c333c39522c1dc1"
+  },
+  "leftright": {
+    "filter_ids": "puzzle",
+    "labels": [
+      "Quebra-cabeças"
+    ],
+    "source_sha256": "93ae80885185fed0a2187e0fc2376ebeb08961e6a8f28dfedfc8f5c8a01c3c7e"
+  },
+  "letter-in-word": {
+    "filter_ids": "reading words",
+    "labels": [
+      "Leitura",
+      "Palavras"
+    ],
+    "source_sha256": "7102e287580de7a8eda55b5a989f867d03e19c7c112eddb59cf70afabf4ea7cb"
+  },
+  "lightsoff": {
+    "filter_ids": "discovery logic",
+    "labels": [
+      "Descoberta",
+      "Lógica"
+    ],
+    "source_sha256": "d49e3ca36861122c1b5a6ac6f8c83c1aa30c922d3e8affe75a4ebb13f30d6833"
+  },
+  "louis-braille": {
+    "filter_ids": "sciences history",
+    "labels": [
+      "Ciências",
+      "História"
+    ],
+    "source_sha256": "07514825ff3c7d2aa4776c953beb193fce15df9e2d200ffaa21587b929c49afa"
+  },
+  "magic-hat-minus": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "868e04b257571114e497a7b9e13e62319dc6ab176acb70efcfceb90263e7afef"
+  },
+  "magic-hat-plus": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "06c89e9ae0eca9e5db742cb836731fedb2e9cc7702ebc37d093dbb8ef3303ad8"
+  },
+  "maze": {
+    "filter_ids": "fun maze",
+    "labels": [
+      "Diversão",
+      "Labirintos"
+    ],
+    "source_sha256": "ece9817dd744bfce376db541055ca2ce29b95d7b82b72c2b497e4d4993e51a2f"
+  },
+  "mazeinvisible": {
+    "filter_ids": "fun maze",
+    "labels": [
+      "Diversão",
+      "Labirintos"
+    ],
+    "source_sha256": "2b7477fdc4a9c631af23a2cd68b246561edce9cc5b111a9b251bd79ac85be429"
+  },
+  "mazerelative": {
+    "filter_ids": "fun maze",
+    "labels": [
+      "Diversão",
+      "Labirintos"
+    ],
+    "source_sha256": "cb48d8ef61cd9de717ab088849a741a2a9921fa949699e18a48b96ac6542d11a"
+  },
+  "melody": {
+    "filter_ids": "discovery memory music",
+    "labels": [
+      "Descoberta",
+      "Memória",
+      "Música"
+    ],
+    "source_sha256": "0565f3a7abdd36f4763a717baf03611a20ff031277b8738aee134279f63e41ec"
+  },
+  "memory": {
+    "filter_ids": "fun memory",
+    "labels": [
+      "Diversão",
+      "Memória"
+    ],
+    "source_sha256": "56b8dcf3c12de133a766fb23c2e18e077e73e9b4621e5639cae90006012346ed"
+  },
+  "memory-case-association": {
+    "filter_ids": "reading letters",
+    "labels": [
+      "Leitura",
+      "Letras"
+    ],
+    "source_sha256": "4580b83f4d5edcd736921f6f480dcf2d67b0ca46977dfabcdafcd95cf9e0550c"
+  },
+  "memory-case-association-tux": {
+    "filter_ids": "reading letters",
+    "labels": [
+      "Leitura",
+      "Letras"
+    ],
+    "source_sha256": "e6c69f65d69d7aedc23b9f0f124e063c78b60c1e030290a7db314f2b8dcbf557"
+  },
+  "memory-enumerate": {
+    "filter_ids": "math numeration",
+    "labels": [
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "e57f6f52984e068683ab8fab3da8ee953a4dbcd84b10eadda03a39549db58158"
+  },
+  "memory-math-add": {
+    "filter_ids": "math memory arithmetic",
+    "labels": [
+      "Matemática",
+      "Memória",
+      "Aritmética"
+    ],
+    "source_sha256": "1c1438a71da5be37a06a573996e3d817465f7bac7cfcce88ecac11f76ed3210b"
+  },
+  "memory-math-add-minus": {
+    "filter_ids": "math memory arithmetic",
+    "labels": [
+      "Matemática",
+      "Memória",
+      "Aritmética"
+    ],
+    "source_sha256": "de87564d3cd33ef5a174884c31685177ed6354c6802d005c1c9d446e98d612a4"
+  },
+  "memory-math-add-minus-mult-div": {
+    "filter_ids": "math memory arithmetic",
+    "labels": [
+      "Matemática",
+      "Memória",
+      "Aritmética"
+    ],
+    "source_sha256": "bbae06ffb12eff85e4d49caa45305f28173ccc4cc8fadf3d94a2d784ecd92717"
+  },
+  "memory-math-add-minus-mult-div-tux": {
+    "filter_ids": "math memory arithmetic",
+    "labels": [
+      "Matemática",
+      "Memória",
+      "Aritmética"
+    ],
+    "source_sha256": "a09cfbba37d197117e3db78f27d12d072f545b5ad5223eb58cfa9797dd928456"
+  },
+  "memory-math-add-minus-tux": {
+    "filter_ids": "math memory arithmetic",
+    "labels": [
+      "Matemática",
+      "Memória",
+      "Aritmética"
+    ],
+    "source_sha256": "a07336cf26eee654129bff7b6b843799b18b1bbb6898db2e0d5a2006310c00be"
+  },
+  "memory-math-add-tux": {
+    "filter_ids": "math memory arithmetic",
+    "labels": [
+      "Matemática",
+      "Memória",
+      "Aritmética"
+    ],
+    "source_sha256": "09cfab8a73e7356b12154e1a0d923303502c9e7d8fd44d6a8003c26e31dc3545"
+  },
+  "memory-math-div": {
+    "filter_ids": "math memory arithmetic",
+    "labels": [
+      "Matemática",
+      "Memória",
+      "Aritmética"
+    ],
+    "source_sha256": "6b2eaa0e92d7055ff2c51b2a5f781d016f6e4b5bb92dc6074cb5f721ca7d9739"
+  },
+  "memory-math-div-tux": {
+    "filter_ids": "math memory arithmetic",
+    "labels": [
+      "Matemática",
+      "Memória",
+      "Aritmética"
+    ],
+    "source_sha256": "63eccb42a5eb8cf14d564bef5088ed15926b37db108301dce94225375a98b34b"
+  },
+  "memory-math-minus": {
+    "filter_ids": "math memory arithmetic",
+    "labels": [
+      "Matemática",
+      "Memória",
+      "Aritmética"
+    ],
+    "source_sha256": "4551559052e099d66cb027741240263d7d5c0f74b9670dc9e332999724cea1d6"
+  },
+  "memory-math-minus-tux": {
+    "filter_ids": "math memory arithmetic",
+    "labels": [
+      "Matemática",
+      "Memória",
+      "Aritmética"
+    ],
+    "source_sha256": "1a9bb7da2540b24c5364605205ceb940781c6a962a52fb793c0b009cdc77c563"
+  },
+  "memory-math-mult": {
+    "filter_ids": "math memory arithmetic",
+    "labels": [
+      "Matemática",
+      "Memória",
+      "Aritmética"
+    ],
+    "source_sha256": "ea57978cba3532223c1248d100b4db0475d678381032701a2762dacad147dd55"
+  },
+  "memory-math-mult-div": {
+    "filter_ids": "math memory arithmetic",
+    "labels": [
+      "Matemática",
+      "Memória",
+      "Aritmética"
+    ],
+    "source_sha256": "d18b780c070466c4a0420a8d62f5d7c4db7b5c6af5f7e561a2c17d9889a27232"
+  },
+  "memory-math-mult-div-tux": {
+    "filter_ids": "math memory arithmetic",
+    "labels": [
+      "Matemática",
+      "Memória",
+      "Aritmética"
+    ],
+    "source_sha256": "664e318405662dbd132f05481fe33b355b142f193a85ff92673659d7a6262618"
+  },
+  "memory-math-mult-tux": {
+    "filter_ids": "math memory arithmetic",
+    "labels": [
+      "Matemática",
+      "Memória",
+      "Aritmética"
+    ],
+    "source_sha256": "3cac89a890cbf93aa167756380ef13d5f64cadf74d27e297d8df617d94785e74"
+  },
+  "memory-sound": {
+    "filter_ids": "discovery memory music",
+    "labels": [
+      "Descoberta",
+      "Memória",
+      "Música"
+    ],
+    "source_sha256": "2bf33450ba75174f8044f671f181ece188128f3a9662620f2b8b69e5a75d9379"
+  },
+  "memory-sound-tux": {
+    "filter_ids": "discovery memory music",
+    "labels": [
+      "Descoberta",
+      "Memória",
+      "Música"
+    ],
+    "source_sha256": "ef9f37716ed90bd130bc0579ecd09e51754df72139a82c115751f2a1eb87554a"
+  },
+  "memory-tux": {
+    "filter_ids": "fun memory",
+    "labels": [
+      "Diversão",
+      "Memória"
+    ],
+    "source_sha256": "14156057b9ebfc5076727948883bbd1db3a7e4bc182b7f50c75787a1ecbbf18e"
+  },
+  "memory-wordnumber": {
+    "filter_ids": "math numeration",
+    "labels": [
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "bdde2f293e6e7430f26f7c4c303c71c3d68b2d6e8babfe8ca85899e073e15f17"
+  },
+  "mining": {
+    "filter_ids": "computer mouse",
+    "labels": [
+      "Computador",
+      "Rato"
+    ],
+    "source_sha256": "eed9924557f41288e79366ba24f9e2ed810d8c7ca50fbb96144475cfd3d1f91a"
+  },
+  "missing-letter": {
+    "filter_ids": "reading words",
+    "labels": [
+      "Leitura",
+      "Palavras"
+    ],
+    "source_sha256": "3fb84e909daec52293f45b54777720b0cbf8d47db4c9e157c582b6f053ec355b"
+  },
+  "money": {
+    "filter_ids": "math money measures",
+    "labels": [
+      "Matemática",
+      "Dinheiro",
+      "Medidas"
+    ],
+    "source_sha256": "7218638064032080487df7d0f0c12f6226ec3eb448a8c60799b6926e4831f67d"
+  },
+  "money_back": {
+    "filter_ids": "math money measures",
+    "labels": [
+      "Matemática",
+      "Dinheiro",
+      "Medidas"
+    ],
+    "source_sha256": "4de6839b736f3476f7d1051ebb42119b757435ba438e7528e1ea30e8602225e4"
+  },
+  "money_back_cents": {
+    "filter_ids": "math money measures",
+    "labels": [
+      "Matemática",
+      "Dinheiro",
+      "Medidas"
+    ],
+    "source_sha256": "234609fc8b9027a085c979823a464e0d4a43530eb3a363c89bf7db09162a306b"
+  },
+  "money_cents": {
+    "filter_ids": "math money measures",
+    "labels": [
+      "Matemática",
+      "Dinheiro",
+      "Medidas"
+    ],
+    "source_sha256": "ae1c5a51fbe4455433ad76590bf21cea01fa83069e8ad31734f3af35a53463db"
+  },
+  "morse_code": {
+    "filter_ids": "reading letters",
+    "labels": [
+      "Leitura",
+      "Letras"
+    ],
+    "source_sha256": "654da0d64f6dfa2d950232d433082b3f6140d704927b462f723d27f1d7e23f99"
+  },
+  "mosaic": {
+    "filter_ids": "puzzle",
+    "labels": [
+      "Quebra-cabeças"
+    ],
+    "source_sha256": "6ad6a133149e65ec5d7e99428e9b6dbf702d7788a2e8e1a95cc0b4b5ee18a81b"
+  },
+  "multiple_choice_questions": {
+    "filter_ids": "computer",
+    "labels": [
+      "Computador"
+    ],
+    "source_sha256": "9eef1d569b5958043b76a22d4a028c0bc1125a0a31efc4be2d0ff8ac862f9c47"
+  },
+  "nine_men_morris": {
+    "filter_ids": "strategy",
+    "labels": [
+      "Estratégia"
+    ],
+    "source_sha256": "23b2ac31fb3a7e9afe1bb0f70067ece13b1f7f91727ec3501e69efcfaa90449e"
+  },
+  "nine_men_morris_2players": {
+    "filter_ids": "strategy",
+    "labels": [
+      "Estratégia"
+    ],
+    "source_sha256": "ce82a5e881f70e94d5ac242c5d8442a0cf21f2f56b8e3ab9ad999a7f0e59c1dd"
+  },
+  "note_names": {
+    "filter_ids": "discovery music",
+    "labels": [
+      "Descoberta",
+      "Música"
+    ],
+    "source_sha256": "7471f7df2528e62f6893131c1d4aa4f77a995dcaf2bae9e2e9007eede0d3ed37"
+  },
+  "number_sequence": {
+    "filter_ids": "math numeration",
+    "labels": [
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "26b1e332a770488192ee3a656a1e5165091013321b6a0454b7e9c0beded3ff10"
+  },
+  "numbers-odd-even": {
+    "filter_ids": "math numeration",
+    "labels": [
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "9b49adf4b2c44ca95917d51c70c23322b1d80f369be580d2bfa23163979f368f"
+  },
+  "ordering_alphabets": {
+    "filter_ids": "reading letters",
+    "labels": [
+      "Leitura",
+      "Letras"
+    ],
+    "source_sha256": "66b273ef5956cfe2349669d0af51548935ec232e76a4dcd67c378c28bbb4cd42"
+  },
+  "ordering_chronology": {
+    "filter_ids": "discovery logic",
+    "labels": [
+      "Descoberta",
+      "Lógica"
+    ],
+    "source_sha256": "17f8eecf74eb6e1002554b8e1c8bc6bb705c54b958ac544d48003b8a47a80382"
+  },
+  "ordering_numbers": {
+    "filter_ids": "math numeration",
+    "labels": [
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "3b62774398dfe5fd32aca84566bef7d0dd2772c407e9e9320ce313900ef75eec"
+  },
+  "ordering_sentences": {
+    "filter_ids": "reading words",
+    "labels": [
+      "Leitura",
+      "Palavras"
+    ],
+    "source_sha256": "ac8c632df2b9d5945cccebe4e7247c4a2836493b6ffe2f6a1b5307f366d724ef"
+  },
+  "oware": {
+    "filter_ids": "strategy",
+    "labels": [
+      "Estratégia"
+    ],
+    "source_sha256": "d07d44f19c1f7e913f93a4cf8a644919dfe910cf9a010f40943e6096f6b8d64f"
+  },
+  "oware_2players": {
+    "filter_ids": "strategy",
+    "labels": [
+      "Estratégia"
+    ],
+    "source_sha256": "4ba3d5472b39c2d534f345a2a4ac10eff68e42d2338ed4a1567cdb8d3b2bed96"
+  },
+  "paintings": {
+    "filter_ids": "discovery arts puzzle",
+    "labels": [
+      "Descoberta",
+      "Arte",
+      "Quebra-cabeças"
+    ],
+    "source_sha256": "91784d849dec3473e808d6af0079ed901cf7145e878722cdc439fb18174e19e8"
+  },
+  "path_decoding": {
+    "filter_ids": "discovery logic",
+    "labels": [
+      "Descoberta",
+      "Lógica"
+    ],
+    "source_sha256": "94ec5fc1043aaf19dd6f09a508d97d7e59d9fb81445993aa457c5e7975447a9f"
+  },
+  "path_decoding_relative": {
+    "filter_ids": "discovery logic",
+    "labels": [
+      "Descoberta",
+      "Lógica"
+    ],
+    "source_sha256": "279f439fdc862a3efb7efb9cf393372f649eadad0536092580da1802fab27ab5"
+  },
+  "path_encoding": {
+    "filter_ids": "discovery logic",
+    "labels": [
+      "Descoberta",
+      "Lógica"
+    ],
+    "source_sha256": "22357bb23ee427df153c323cb6b86a124857bdf2f451c09570beb23a7c1effe6"
+  },
+  "path_encoding_relative": {
+    "filter_ids": "discovery logic",
+    "labels": [
+      "Descoberta",
+      "Lógica"
+    ],
+    "source_sha256": "0c5b3b110d0896c6f82038aa9023e9f43f7935372d9edd12b39196ba0ade7779"
+  },
+  "peg_solitaire": {
+    "filter_ids": "logic",
+    "labels": [
+      "Lógica"
+    ],
+    "source_sha256": "ccde5948203308e0d226eb7e4bfd923b36e2687df5295093162f6643b616fd7c"
+  },
+  "penalty": {
+    "filter_ids": "computer mouse",
+    "labels": [
+      "Computador",
+      "Rato"
+    ],
+    "source_sha256": "f833b5095532c465533e6f1c07de2265df24141bf128b29361db199da214f9af"
+  },
+  "photo_hunter": {
+    "filter_ids": "fun",
+    "labels": [
+      "Diversão"
+    ],
+    "source_sha256": "8a44786f0ecd70bad4c7ddb0136c315e0373020a07fd0592c3552b478f0ad1e1"
+  },
+  "piano_composition": {
+    "filter_ids": "discovery music",
+    "labels": [
+      "Descoberta",
+      "Música"
+    ],
+    "source_sha256": "3b35c8f4bc8fe5b1b7a5c082dde0f7397f20b1d023422b42f9fe4713abe5030b"
+  },
+  "planegame": {
+    "filter_ids": "math numeration",
+    "labels": [
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "895b2c2ee757c4b993d6dd9e20d5fb896bb9a2338785523147fa65453ffed385"
+  },
+  "play_piano": {
+    "filter_ids": "discovery music",
+    "labels": [
+      "Descoberta",
+      "Música"
+    ],
+    "source_sha256": "b78def1eeb44f7060d8a328f665c0e032d0b61cf65b975a939221b3790a0f036"
+  },
+  "play_rhythm": {
+    "filter_ids": "discovery music",
+    "labels": [
+      "Descoberta",
+      "Música"
+    ],
+    "source_sha256": "4551914ef55de22c78f0768d4af116eecab21ee0452aa88b787186b1a7bee9c4"
+  },
+  "polygons": {
+    "filter_ids": "discovery arts",
+    "labels": [
+      "Descoberta",
+      "Arte"
+    ],
+    "source_sha256": "bd140a8ab6467061fd16a7dbfffa064139374d4bcb38402742accadf4703db2c"
+  },
+  "positions": {
+    "filter_ids": "discovery logic",
+    "labels": [
+      "Descoberta",
+      "Lógica"
+    ],
+    "source_sha256": "599d3f2874192e52a6b985dfb666111e0f75d0e441921f6e2668849defda154c"
+  },
+  "programmingMaze": {
+    "filter_ids": "fun",
+    "labels": [
+      "Diversão"
+    ],
+    "source_sha256": "98efdb0580a0f27a216392b945d953b037e9441fa2d7b684fa1d692ae6db0673"
+  },
+  "railroad": {
+    "filter_ids": "discovery logic",
+    "labels": [
+      "Descoberta",
+      "Lógica"
+    ],
+    "source_sha256": "66f8bc381d3fe1000897aa415cab495b15a2d809f9a3635dca09832ac229b5c4"
+  },
+  "readingh": {
+    "filter_ids": "reading words",
+    "labels": [
+      "Leitura",
+      "Palavras"
+    ],
+    "source_sha256": "86ae01ff059191f0d2ee7632eae215375355f288e4838a0dc72ba5fe627cdaa9"
+  },
+  "readingv": {
+    "filter_ids": "reading words",
+    "labels": [
+      "Leitura",
+      "Palavras"
+    ],
+    "source_sha256": "fd833939d53ad56e4f70a787e3ee525c4ac66924963b44bf9978b021e5015a9b"
+  },
+  "redraw": {
+    "filter_ids": "puzzle",
+    "labels": [
+      "Quebra-cabeças"
+    ],
+    "source_sha256": "d00c2c957a0e26c0f2eee8c915edacc4ffe5dbab470517fd3167212cdd7cbfb3"
+  },
+  "redraw_symmetrical": {
+    "filter_ids": "puzzle",
+    "labels": [
+      "Quebra-cabeças"
+    ],
+    "source_sha256": "156a9ce1bad1a817ffbaea6debe6af656dbce1b300c400a1eb26eb941fe2ad78"
+  },
+  "renewable_energy": {
+    "filter_ids": "sciences experiment",
+    "labels": [
+      "Ciências",
+      "Experiências"
+    ],
+    "source_sha256": "8a90c60ca0bc674210d434d5e7e1c40383df78eda028b9eaba8485ff0069e6f7"
+  },
+  "reversecount": {
+    "filter_ids": "math numeration",
+    "labels": [
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "508ffe3ae9aa1fb3387b66a7cf8f9ebb003cdd091719dbeb2d91b1a379caa4c4"
+  },
+  "roman_numerals": {
+    "filter_ids": "sciences history",
+    "labels": [
+      "Ciências",
+      "História"
+    ],
+    "source_sha256": "efd6eec0fbeee76304dd7e005c700258c082e751a23f4702e016f5dd6533dfe5"
+  },
+  "scalesboard": {
+    "filter_ids": "math measures",
+    "labels": [
+      "Matemática",
+      "Medidas"
+    ],
+    "source_sha256": "e82137430ab56e75cd420efc8fc4b7f7fc45a03223a160e70567120cb882260c"
+  },
+  "scalesboard_weight": {
+    "filter_ids": "math measures",
+    "labels": [
+      "Matemática",
+      "Medidas"
+    ],
+    "source_sha256": "962ce1fc89040137014cd69378cc35cb962e3353d1c11ed4ceb0a392d1aad5e4"
+  },
+  "scalesboard_weight_avoirdupois": {
+    "filter_ids": "math measures",
+    "labels": [
+      "Matemática",
+      "Medidas"
+    ],
+    "source_sha256": "585e2f5d09c6ed2602d89897c4499989c2800003dd08c47fe3197c594be19244"
+  },
+  "share": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "0e70f9ebd1d96fedd75fd3c4227c15f811cb12301f0613ceb9c21fe3d03e67ec"
+  },
+  "simplepaint": {
+    "filter_ids": "discovery arts fun",
+    "labels": [
+      "Descoberta",
+      "Arte",
+      "Diversão"
+    ],
+    "source_sha256": "8f7ab68f81fede6b51bb9213ec8ded10f731950120d94dabbaaf1f7a9db50d7d"
+  },
+  "sixteen": {
+    "filter_ids": "discovery logic",
+    "labels": [
+      "Descoberta",
+      "Lógica"
+    ],
+    "source_sha256": "7bfa8cc5477c74d156728a7b398a9a1d43de6fc19d8df62d9aacfc2e90c55327"
+  },
+  "sketch": {
+    "filter_ids": "discovery arts fun",
+    "labels": [
+      "Descoberta",
+      "Arte",
+      "Diversão"
+    ],
+    "source_sha256": "8d0711526306ef6a728d5561fed4b1c39cb51f2cff0932e2de8f5381aa6d219a"
+  },
+  "smallnumbers": {
+    "filter_ids": "computer keyboard math numeration",
+    "labels": [
+      "Computador",
+      "Teclado",
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "76783ecc4e9c2aa6fe348289ce30e03f29fa1ee206fd7ad77938eacc9262d232"
+  },
+  "smallnumbers2": {
+    "filter_ids": "math numeration",
+    "labels": [
+      "Matemática",
+      "Numeração"
+    ],
+    "source_sha256": "f586455bea879dccf7ce48917bbd68ec72ba6e41f2530d471adfc204d00ac22e"
+  },
+  "solar_system": {
+    "filter_ids": "sciences experiment",
+    "labels": [
+      "Ciências",
+      "Experiências"
+    ],
+    "source_sha256": "9587dfabff56a1fc8984c8905fe2fe26ba23b8b5e1bc0613f295e556eba7cb35"
+  },
+  "submarine": {
+    "filter_ids": "sciences experiment",
+    "labels": [
+      "Ciências",
+      "Experiências"
+    ],
+    "source_sha256": "7fc0509247495ad0d9ab41bd7f92aa1a5b7c766d25dd3969f352361af1d32d47"
+  },
+  "sudoku": {
+    "filter_ids": "discovery logic",
+    "labels": [
+      "Descoberta",
+      "Lógica"
+    ],
+    "source_sha256": "461383e9a708078fa29f1be1dab1999135cf203adbe06d96fb03e7d165f0576d"
+  },
+  "superbrain": {
+    "filter_ids": "discovery logic",
+    "labels": [
+      "Descoberta",
+      "Lógica"
+    ],
+    "source_sha256": "01e22c591a5212fd765c694324c9ce1067ff66086925de4d90a8bc0de829755d"
+  },
+  "tangram": {
+    "filter_ids": "puzzle",
+    "labels": [
+      "Quebra-cabeças"
+    ],
+    "source_sha256": "687648b806bf11a02519fb2f824e7a31c4745d1122ef4b4494abb58f0957eb4b"
+  },
+  "target": {
+    "filter_ids": "math addition arithmetic",
+    "labels": [
+      "Matemática",
+      "Adição",
+      "Aritmética"
+    ],
+    "source_sha256": "0439407e8d5e355f688bf5651241dcacfdece493877cbf74b9bd1b0c28c9eb40"
+  },
+  "tens_complement_calculate": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "4f9b99ce6f3242136fa0962f4948c69378c6a4fcf86e300791b2d6bbcb669838"
+  },
+  "tens_complement_find": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "29bbfb7336a1b3d688a1f7f5958238ee4bfaccd50d9c624c1855a141f46159b5"
+  },
+  "tens_complement_swap": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "7b21a71237023cba76752eccf571dd5848717ef22f07f6edd67bff14a04fed8d"
+  },
+  "tens_complement_use": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "7f59a0b3d2d66abd9b304dd8710766d2ef329484ca18e9dd30d266eb2df48aa4"
+  },
+  "tic_tac_toe": {
+    "filter_ids": "strategy",
+    "labels": [
+      "Estratégia"
+    ],
+    "source_sha256": "39211bc3f50188b21f95ae76c27b8037722e65d8d817f31eeb188f2c73df3222"
+  },
+  "tic_tac_toe_2players": {
+    "filter_ids": "strategy",
+    "labels": [
+      "Estratégia"
+    ],
+    "source_sha256": "ce6db9b9f2e4da59565baa7e2da287c6a7e53b46b1b8a02cad13052ee38ea3cf"
+  },
+  "traffic": {
+    "filter_ids": "discovery logic",
+    "labels": [
+      "Descoberta",
+      "Lógica"
+    ],
+    "source_sha256": "c38f25b673c57a9e393e9540f2d6d41824176406f4f307049b9bfce3c247ba7c"
+  },
+  "vertical_addition": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "ed8d994024c498ec62d5c2228f1a41bd0e53ade06a4fadde616ef829b4b7b72e"
+  },
+  "vertical_subtraction": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "24a54b3f64247f3dc1425abd941574b545ce3cde248d8d318f6e3acd75b58fe3"
+  },
+  "vertical_subtraction_compensation": {
+    "filter_ids": "math arithmetic",
+    "labels": [
+      "Matemática",
+      "Aritmética"
+    ],
+    "source_sha256": "44599902474d4372c9c0cd1cdf1587b2d10fd9d7b60d426946735e82abfeaca1"
+  },
+  "watercycle": {
+    "filter_ids": "sciences experiment",
+    "labels": [
+      "Ciências",
+      "Experiências"
+    ],
+    "source_sha256": "468b547339d95fa4eab7a6c06169e7afc47ada5df7013cd2fa6d5f674891e6b3"
+  },
+  "wordsgame": {
+    "filter_ids": "computer keyboard reading words",
+    "labels": [
+      "Computador",
+      "Teclado",
+      "Leitura",
+      "Palavras"
+    ],
+    "source_sha256": "930319ff08edf50dadeba5c22d95fe9ff8d10439f1164ef5ec2d5d7a8070dd93"
+  }
+}

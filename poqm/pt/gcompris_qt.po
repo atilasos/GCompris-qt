@@ -31444,3 +31444,113 @@ msgstr "Quantos lados tem um triângulo?"
 msgctxt "ToolsPanel|"
 msgid "Pattern"
 msgstr "Padrão"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Computer"
+msgstr "Computador"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Discovery"
+msgstr "Descoberta"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Sciences"
+msgstr "Ciências"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Fun"
+msgstr "Diversão"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Mathematics"
+msgstr "Matemática"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Puzzles"
+msgstr "Quebra-cabeças"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Reading"
+msgstr "Leitura"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Strategy"
+msgstr "Estratégia"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Memory"
+msgstr "Memória"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Mouse"
+msgstr "Rato"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Keyboard"
+msgstr "Teclado"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Money"
+msgstr "Dinheiro"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Colors"
+msgstr "Cores"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Mazes"
+msgstr "Labirintos"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Addition"
+msgstr "Adição"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Braille"
+msgstr "Braille"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Subtraction"
+msgstr "Subtração"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Mobile devices"
+msgstr "Dispositivos móveis"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Multiplication"
+msgstr "Multiplicação"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Division"
+msgstr "Divisão"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Logic"
+msgstr "Lógica"
+
+#: core/ActivityCategories.js
+msgctxt "DialogHelp|"
+msgid "Arithmetic"
+msgstr "Aritmética"
