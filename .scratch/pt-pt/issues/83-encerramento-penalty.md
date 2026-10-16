@@ -1,7 +1,7 @@
 # Diagnosticar o encerramento intermitente após penáltis
 
 Status: ready-for-agent
-Progress: open
+Progress: claimed
 Type: task
 Blocked by: 02, 25
 
