@@ -1,0 +1,25 @@
+    property var controls: ({})
+    function icon(suffix){wait(1600);var button=find(bar,function(o){return o.source!==undefined && String(o.source).endsWith(suffix);});ensure(button!==null,suffix);mouseClick(button);wait(350);}
+    function test_keyboard_restart_help_menu(){
+        wait(1200);checked(activity.currentLevel,0);checked(score.currentSubLevel,0);
+        var current=choiceGridView.currentItem,at=-1;
+        for(var i=0;i<choiceGridView.count;i++)if(choiceGridView.itemAtIndex(i)===current)at=i;
+        ensure(at>=0);var left=String(image(choiceGridView.itemAtIndex((at+7)%8)).source),original=String(image(current).source);
+        keyClick(Qt.Key_Left);wait(150);checked(String(image(choiceGridView.currentItem).source),left);
+        keyClick(Qt.Key_Right);wait(150);checked(String(image(choiceGridView.currentItem).source),original);
+        var expected=association(drawn(question),drawn(answer).slice(0,4));
+        for(var n=4;n<8;n++){input(expected[n],true);correct++;}
+        checked(score.currentSubLevel,1);tryCompare(answer,"count",5,5000);
+        icon("bar_previous.svg");checked(activity.currentLevel,6);checked(score.currentSubLevel,0);checked(answer.count,5);
+        icon("bar_next.svg");checked(activity.currentLevel,0);checked(score.currentSubLevel,0);checked(answer.count,5);
+        var depth=pageView.depth;icon("bar_help.svg");tryCompare(pageView,"depth",depth+1,3000);wait(500);
+        checked(pageView.currentItem.title,"Associações lógicas");ensure(pageView.currentItem.content.indexOf("Olha para as duas sequências")>=0);
+        ensure(pageView.currentItem.content.indexOf("Look at the two sequences")<0);grabImage(pageView).save("__QA_OUTPUT__/help.png");
+        keyClick(Qt.Key_Escape);tryCompare(pageView,"depth",depth,3000);wait(500);
+        expected=association(drawn(question),drawn(answer).slice(0,4));input(expected[4],true);correct++;
+        checked(String(image(answer.itemAt(4)).source),expected[4]);checked(answer.count,6);
+        controls={leftRight:true,selectionKeys:true,restart:true,navigation:true,helpPortuguese:true,escape:true,inputAfterHelp:true};
+        ActivityInfoTree.startingActivity="";icon("bar_home.svg");tryCompare(pageView,"depth",1,3000);ensure(pageView.currentItem.isMenu);grabImage(pageView).save("__QA_OUTPUT__/menu.png");
+    }
+    function cleanupTestCase(){console.log("NATIVE_RESULT",JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,controls:controls}));}
+}
