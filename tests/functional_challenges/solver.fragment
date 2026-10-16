@@ -15,15 +15,15 @@
   return search(values.map((v,i)=>({value:v,slot:i})));
  }
  function chain(values,ops,target,avoid){
-  function search(acc,remaining,left){
-   if(left.length===0)return (avoid?acc!==target:acc===target)?[]:null;
-   for(var oi=0;oi<left.length;oi++)for(var index of remaining){
-    var op=left[oi],value=rational(acc,op,values[index]);if(value===null || value.d!==1 || value.n<0)continue;
-    var tail=search(value.n,remaining.filter(i=>i!==index),left.filter((v,i)=>i!==oi));
+  function search(acc,remaining,depth){
+   if(depth===0)return (avoid?acc!==target:acc===target)?[]:null;
+   for(var op of ops)for(var index of remaining){
+    var value=rational(acc,op,values[index]);if(value===null || value.d!==1 || value.n<0)continue;
+    var tail=search(value.n,remaining.filter(i=>i!==index),depth-1);
     if(tail!==null)return [{b:index,op:op,left:acc,right:values[index],result:value.n}].concat(tail);
    }
    return null;
   }
-  for(var i=0;i<values.length;i++){var result=search(values[i],values.map((v,k)=>k).filter(k=>k!==i),ops);if(result!==null){result[0].a=i;return result;}}
+  for(var i=0;i<values.length;i++){var result=search(values[i],values.map((v,k)=>k).filter(k=>k!==i),ops.length);if(result!==null){result[0].a=i;return result;}}
   return null;
  }

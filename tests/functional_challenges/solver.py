@@ -30,17 +30,17 @@ def combine(numbers,target,operators):
  return visit([(Fraction(value),index) for index,value in enumerate(numbers)])
 
 def chain(numbers,target,operators):
- def visit(acc,remaining,ops):
-  if not ops:return [] if acc==target else None
-  for op_index,op in enumerate(ops):
+ def visit(acc,remaining,depth):
+  if depth==0:return [] if acc==target else None
+  for op in operators:
    for index in remaining:
     value=calculate(acc,op,numbers[index])
     if not admissible(value):continue
-    tail=visit(value,[i for i in remaining if i!=index],ops[:op_index]+ops[op_index+1:])
+    tail=visit(value,[i for i in remaining if i!=index],depth-1)
     if tail is not None:return [{'b':index,'op':op,'left':int(acc),'right':numbers[index],'result':int(value)},*tail]
   return None
  for index,value in enumerate(numbers):
-  steps=visit(Fraction(value),[i for i in range(len(numbers)) if i!=index],list(operators))
+  steps=visit(Fraction(value),[i for i in range(len(numbers)) if i!=index],len(operators))
   if steps is not None:
    if steps:steps[0]['a']=index
    return steps
