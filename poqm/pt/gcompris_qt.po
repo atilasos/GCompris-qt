@@ -8502,11 +8502,7 @@ msgid ""
 "animal and learn about it, what its name is, what sound it makes, and what "
 "it looks like. Study well this information, because you will be tested in "
 "level 2 and 3."
-msgstr ""
-"No primeiro nível, os jogadores começam a explorar cada animal no ecrã. "
-"Carrega no ponto de interrogação e aprende sobre o animal, qual o seu nome, "
-"o som que faz e como é que se parece. Estuda bem esta informação, porque "
-"será testada no nível 2 e 3."
+msgstr "Na primeira etapa, explora cada animal no ecrã. Carrega num animal para aprenderes o seu nome, o som que faz e o seu aspeto. Estuda esta informação para responderes às perguntas das etapas 2 e 3."
 
 #: activities/explore_farm_animals/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
@@ -8558,10 +8554,7 @@ msgid ""
 "The horse goes 'neigh'. Horses are adapted to run, allowing them to quickly "
 "escape predators, and possess an excellent sense of balance. They have "
 "single-toed hooves."
-msgstr ""
-"O cavalo relincha. Os cavalos estão treinados para correr, permitindo-lhe "
-"fugir rapidamente aos predadores, tendo um sentido de equilíbrio excelente. "
-"Têm cascos únicos por cada pata."
+msgstr "O cavalo relincha. Os cavalos estão adaptados à corrida, o que lhes permite fugir rapidamente dos predadores. Têm um excelente sentido de equilíbrio e cascos com um único dedo em cada pata."
 
 #: activities/explore_farm_animals/resource/board/board1.qml:25
 msgctxt "board1|"
@@ -8578,9 +8571,7 @@ msgctxt "board1|"
 msgid ""
 "The chicken goes 'cluck'. Domestic chickens have wings, but are not capable "
 "of long-distance flight. They have a comb on their head."
-msgstr ""
-"A galinha faz 'có-có-ró'. As galinhas domésticas têm asas, mas não conseguem "
-"voar a longas distâncias. Têm uma crista na cabeça."
+msgstr "A galinha cacareja. As galinhas domésticas têm asas, mas não conseguem voar longas distâncias. Têm uma crista na cabeça."
 
 #: activities/explore_farm_animals/resource/board/board1.qml:37
 msgctxt "board1|"
@@ -8598,15 +8589,12 @@ msgid ""
 "The cow goes 'moo'. Cows have a wide field of view of 330°. They have a well-"
 "developed sense of taste, with around 20,000 taste buds. They can detect "
 "odours 8km away."
-msgstr ""
-"A vaca faz 'mú'. As vacas têm um campo de visão amplo de 330°. Têm um "
-"sentido de paladar bem desenvolvido, com cerca de 20 000 amostras de sabor. "
-"Eles consegue detectar odores a 8km de distância."
+msgstr "A vaca faz 'mú'. As vacas têm um amplo campo de visão, de 330°. Têm o paladar bem desenvolvido, com cerca de 20 000 papilas gustativas. Conseguem detetar odores a 8 km de distância."
 
 #: activities/explore_farm_animals/resource/board/board1.qml:49
 msgctxt "board1|"
 msgid "This animal has around 20,000 taste buds."
-msgstr "Este animal conhece cerca de 20 000 amostras de sabores."
+msgstr "Este animal tem cerca de 20 000 papilas gustativas."
 
 #: activities/explore_farm_animals/resource/board/board1.qml:57
 msgctxt "board1|"
@@ -8678,14 +8666,12 @@ msgctxt "board1|"
 msgid ""
 "The owl goes 'hoot'. Owls are nocturnal birds, they have excellent vision "
 "and hearing at night."
-msgstr ""
-"A coruja faz 'hu, hu'. As corujas são animais nocturnos, pelo que têm uma "
-"visão e audição excelentes à noite."
+msgstr "A coruja faz 'hu, hu'. As corujas são animais noturnos, pelo que têm uma visão e audição excelentes à noite."
 
 #: activities/explore_farm_animals/resource/board/board1.qml:97
 msgctxt "board1|"
 msgid "This animal is a nocturnal bird."
-msgstr "Este animal é um pássaro nocturno."
+msgstr "Este animal tem hábitos noturnos."
 
 #: activities/explore_farm_animals/resource/board/board1.qml:105
 msgctxt "board1|"
@@ -8697,9 +8683,7 @@ msgctxt "board1|"
 msgid ""
 "The dog goes 'woof'. Dogs are probably the oldest domesticated species. They "
 "are descendants of the wolf."
-msgstr ""
-"O cão faz 'ão'. Os cães são provavelmente a espécie domesticada mais antiga. "
-"Eles são descendentes dos lobos."
+msgstr "O cão ladra. Os cães são provavelmente a espécie domesticada mais antiga e descendem dos lobos."
 
 #: activities/explore_farm_animals/resource/board/board1.qml:109
 msgctxt "board1|"
@@ -8817,13 +8801,7 @@ msgid ""
 "recognizable as a classical template for the stadia of today. It was the "
 "first permanent amphitheatre to be raised in Rome, and the most impressive "
 "arena the Classical world had yet seen."
-msgstr ""
-"O Coliseu é hoje o edifício mais reconhecido da Roma Clássica. Mesmo 2 000 "
-"anos após a sua construção, e apesar dos séculos em que o edifício "
-"abandonado foi pilhado para materiais de construção, é imediatamente "
-"reconhecível. Um modelo clássico para os estados dos dias de hoje, foi o "
-"primeiro anfiteatro permanente a ser construído em Roma e sendo a arena mais "
-"impressionante que o mundo clássico tinha visto até à altura."
+msgstr "O Coliseu é um dos edifícios mais reconhecidos da Roma clássica. Mesmo 2 000 anos após a sua construção, e apesar dos séculos em que foi abandonado e pilhado para obter materiais de construção, continua a ser imediatamente reconhecível. É um modelo clássico dos estádios atuais. Foi o primeiro anfiteatro permanente de Roma e a arena mais impressionante que o mundo clássico conhecera até então."
 
 #: activities/explore_monuments/resource/board/board1.qml:41
 #: activities/explore_monuments/resource/board/board1.qml:44
@@ -8855,11 +8833,7 @@ msgid ""
 "gigantic dragon, it winds up and down across deserts, grasslands, mountains "
 "and plateaus, stretching approximately 13170 miles (21196 kilometers) from "
 "east to west of China."
-msgstr ""
-"A Grande Muralha foi aprensentada como Património Mundial da Humanidade pela "
-"UNESCO em 1987. Tal como um dragão gigante, ela sobe e desce por vários "
-"desertos, prados,montanhas e planícies, estendendo-se por cerca de 13 170 "
-"milhas (21 196quilómetros) de Este para Oeste na China."
+msgstr "A Grande Muralha foi inscrita como Património Mundial da Humanidade pela UNESCO em 1987. Tal como um dragão gigante, ela sobe e desce por vários desertos, prados, montanhas e planícies, estendendo-se por cerca de 13 170 milhas (21 196 quilómetros) de Este para Oeste na China."
 
 #: activities/explore_monuments/resource/board/board1.qml:63
 #: activities/explore_monuments/resource/board/board1.qml:66
@@ -8877,14 +8851,7 @@ msgid ""
 "in the continuous rock escarpments. The natural setting, on the eastern "
 "slopes of the Andes, encompasses the upper Amazon basin with its rich "
 "diversity of flora and fauna."
-msgstr ""
-"Machu Picchu eleva-se a 2 430 m acima do nível do mar, no meio de uma "
-"floresta montanhosa tropical, com um cenário extraordinariamente bonito. Foi "
-"provavelmente a mais impressionante criação urbana do Império Inca na sua "
-"altura; as suas paredes, terraços e rampas gigantes parecem ter sido "
-"cortadas naturalmente nas escarpas de rocha contínuas. O cenário natural, "
-"nas escarpas orientais dos Andes, compõe a nascente superior do Amazonas com "
-"a sua rica diversidade de flora e fauna."
+msgstr "Machu Picchu eleva-se a 2 430 m acima do nível do mar, no meio de uma floresta montanhosa tropical, com um cenário extraordinariamente bonito. Foi provavelmente a mais impressionante criação urbana do Império Inca no seu apogeu; as suas paredes, terraços e rampas gigantes parecem ter sido cortadas naturalmente nas escarpas de rocha contínuas. O cenário natural, nas escarpas orientais dos Andes, abrange a bacia superior do Amazonas com a sua rica diversidade de flora e fauna."
 
 #: activities/explore_monuments/resource/board/board1.qml:74
 #: activities/explore_monuments/resource/board/board1.qml:77
@@ -8973,13 +8940,7 @@ msgid ""
 "observe street festivals while unseen from the outside. Constructed of red "
 "and pink sandstone, the palace sits on the edge of the City Palace, and "
 "extends to the zenana, or women's chambers."
-msgstr ""
-"O Hawa Mahal é um palácio em Jaipur, Índia, que teve esse nome por ser uma "
-"muralha espelhada elevada, para que as mulheres da família real pudessem "
-"observar os festivais de rua, mas que não fossem observadas do exterior. "
-"Construído com pedra de arenito vermelha e rosa, o palácio situa-se no "
-"extremo da áreado Palácio da Cidade, estendendo-se até à 'zenana', ou "
-"aposentos das mulheres."
+msgstr "O Hawa Mahal é um palácio em Jaipur, na Índia, cujo nome se refere a uma fachada alta que permitia às mulheres da família real observar os festivais na rua sem serem vistas do exterior. Construído em arenito vermelho e rosa, situa-se junto ao Palácio da Cidade e estende-se até à zenana, os aposentos das mulheres."
 
 #: activities/explore_monuments/resource/board/board2.qml:40
 #: activities/explore_monuments/resource/board/board2.qml:43
@@ -8996,13 +8957,7 @@ msgid ""
 "by the Arabian Sea in the Colaba district. The Gateway of India is a "
 "monument that marks India's chief ports and is a major tourist attraction "
 "for visitors who arrive in India for the first time."
-msgstr ""
-"O Portão da Índia é um dos marcos mais únicos da Índia, situado na cidade "
-"de Mumbai. A estrutura colossal foi construída em 1924. Localizada na ponta"
-" do Apollo Bunder, o portão tem uma vista sobre o porto de Mumbai, rodeado "
-"pelo Mar Árabe no distrito de Colaba. O Portão da Índia é um monumento que "
-"marca os portos principais da Índia e é uma atração turística importante "
-"para os visitantes que chegam à Índia pela primeira vez."
+msgstr "O Portão da Índia é um dos marcos mais únicos da Índia, situado na cidade de Mumbai. A estrutura colossal foi construída em 1924. Localizado na ponta do Apollo Bunder, o portão tem uma vista sobre o porto de Mumbai, rodeado pelo Mar Árabe no distrito de Colaba. O Portão da Índia é um monumento que marca os portos principais da Índia e é uma atração turística importante para os visitantes que chegam à Índia pela primeira vez."
 
 #: activities/explore_monuments/resource/board/board2.qml:51
 #: activities/explore_monuments/resource/board/board2.qml:54
@@ -9063,11 +9018,7 @@ msgid ""
 "The Konark Sun Temple (also spelled Konarak) is a 13th-century Hindu temple "
 "dedicated to the Sun god. Shaped like a giant chariot, the temple is known "
 "for the exquisite stone carvings that cover the entire structure."
-msgstr ""
-"O Tempo do Sol de Konark (também dito como Konarak) é um templo Hindu do "
-"século XIII dedicado ao deus do Sol. Com o formato de uma carroça gigante, o "
-"tempo é conhecido pelas gravações em pedra formidáveis que cobrem toda a "
-"estrutura."
+msgstr "O Templo do Sol de Konark (também dito como Konarak) é um templo Hindu do século XIII dedicado ao deus do Sol. Com o formato de uma carroça gigante, o templo é conhecido pelas esculturas em pedra formidáveis que cobrem toda a estrutura."
 
 #: activities/explore_monuments/resource/board/board2.qml:84
 #: activities/explore_monuments/resource/board/board2.qml:87
@@ -9082,11 +9033,7 @@ msgid ""
 "spectacular monuments in India. Also known as Amba Vilas, it is located in "
 "the heart of the city of Mysore. The palace was initially built by the "
 "Wodeyar kings in the 14th century."
-msgstr ""
-"O Palácio de Mysore ou o Palácio do Marajá Mysore é um dos maiores e mais "
-"espectaculares monumentos do país. Também conhecido como Amba Vilas, "
-"localiza-se no coração da cidade de Mysore. O palácio foi inicialmente "
-"construído pelos reis Wodeyar no século XIV."
+msgstr "O Palácio de Mysore ou o Palácio do Marajá Mysore é um dos maiores e mais espetaculares monumentos do país. Também conhecido como Amba Vilas, localiza-se no coração da cidade de Mysore. O palácio foi inicialmente construído pelos reis Wodeyar no século XIV."
 
 #: activities/explore_monuments/resource/board/board2.qml:95
 #: activities/explore_monuments/resource/board/board2.qml:98
@@ -9113,7 +9060,7 @@ msgstr ""
 #: activities/explore_monuments/resource/board/board2.qml:109
 msgctxt "board2|"
 msgid "Victoria Memorial"
-msgstr "Memorial de Victória"
+msgstr "Memorial de Vitória"
 
 #: activities/explore_monuments/resource/board/board2.qml:107
 msgctxt "board2|"
@@ -9122,12 +9069,7 @@ msgid ""
 "Empire in India. It represents the architectural climax of Kolkata city, and "
 "blends the best of the British and Mughal architecture. The Victoria "
 "Memorial hall was built with white Makrana marbles."
-msgstr ""
-"O Memorial de Victória foi construído para comemorar o pico do Império "
-"Britânico na Índia. O Memorial de Victória, concebido pelo Lorde Curzon, "
-"representa o clímax arquitetónico da cidade de Kolkata (Calcutá), e mistura"
-" o melhor da arquitetura Britânica e a Mughal. O pavilhão do Memorial de "
-"Victória foi construído com mármore branco de Makrana."
+msgstr "O Memorial de Vitória foi construído para comemorar o pico do Império Britânico na Índia. O Memorial de Vitória, concebido pelo Lorde Curzon, representa o clímax arquitetónico da cidade de Kolkata (Calcutá), e mistura o melhor da arquitetura Britânica e a Mughal. O pavilhão do Memorial de Vitória foi construído com mármore branco de Makrana."
 
 #: activities/explore_monuments/resource/board/board2.qml:117
 #: activities/explore_monuments/resource/board/board2.qml:120
@@ -9162,13 +9104,7 @@ msgid ""
 "ancient and medieval monuments surrounding it, they form the Qutb Complex, "
 "which is a UNESCO World Heritage Site. The tower, located in the Mehrauli "
 "area of Delhi, is made of red sandstone and marble."
-msgstr ""
-"O Qutub Minar, elevado a 74 metros, é o mais alto minarete de tijolos do "
-"mundo, sendo o segundo mais alto na Índia a seguir ao Fateh Burj em Mohali. "
-"O Qutub Minar, em conjunto com os monumentos antigos e medievais que o "
-"rodeiam, formam o Complexo de Qutb, que é considerado Património Mundial da "
-"Humanidade pela UNESCO. A torre localiza-se na área de Mehrauli em Deli, "
-"Índia. É feito de granito vermelho e mármore."
+msgstr "O Qutub Minar, elevado a 74 metros, é o mais alto minarete de tijolos do mundo, sendo o segundo mais alto na Índia a seguir ao Fateh Burj em Mohali. O Qutub Minar, em conjunto com os monumentos antigos e medievais que o rodeiam, formam o Complexo de Qutb, que é considerado Património Mundial da Humanidade pela UNESCO. A torre localiza-se na área de Mehrauli em Deli, Índia. É feito de arenito vermelho e mármore."
 
 #: activities/explore_monuments/resource/board/board2.qml:141
 msgctxt "board2|"
@@ -9184,7 +9120,7 @@ msgstr "Carrega no local onde se localiza o monumento indicado."
 #: activities/explore_monuments/resource/board/board3.qml:21
 msgctxt "board3|"
 msgid "Mont-Saint-Michel"
-msgstr "Monte São-Michel"
+msgstr "Monte Saint-Michel"
 
 #: activities/explore_monuments/resource/board/board3.qml:19
 msgctxt "board3|"
@@ -9195,13 +9131,7 @@ msgid ""
 "sea level. There are currently less than 50 people living on the island. The "
 "unique feature of Mont Saint-Michel is that it is completely surrounded by "
 "water and can only be accessed at low tide."
-msgstr ""
-"O Monte São-Michel é uma ilha rochosa na Normandia, na foz do Rio Couesnon, "
-"perto da cidade de Avranches. O ponto mais alto da ilha é a espira no topo "
-"da torre sineira da Abadia, estando a 170 metros acima do nível do mar. "
-"Existem de momento menos de 50 pessoas a viver na ilha. A característica "
-"única do Monte São-Michel é que é completamente rodeada por água e só pode "
-"ser acedida com a maré baixa."
+msgstr "O Monte Saint-Michel é uma ilha rochosa na Normandia, perto da foz do rio Couesnon. É conhecido pela sua abadia e pelas grandes marés da baía. Existe uma ponte de acesso pedonal durante todo o ano; nas marés mais altas, a entrada pode ficar temporariamente coberta pela água."
 
 #: activities/explore_monuments/resource/board/board3.qml:29
 #: activities/explore_monuments/resource/board/board3.qml:32
@@ -9240,20 +9170,13 @@ msgid ""
 "site of the Kings of France, it has been listed as a UNESCO World Heritage "
 "Site since 1991. The Mecca for tourists in the Champagne region welcomes "
 "1500000 visitors every year."
-msgstr ""
-"Pelo tamanho, a Catedral de Reims é uma construção bastante extraordinária: "
-"desenhada para acomodar multidões enormes, as suas dimensões gigantes "
-"incluem uma área de superfície de 6 650 m2 e um comprimento de 122m. Uma "
-"obra-prima da arte Gótica e o local de coroação dos Reis de França, foi "
-"indiciada como Património Mundial da Humanidade pela UNESCO em 1991. A Meca "
-"dos turistas na região de Champagne dá as boas-vindas a 1 500 000 de "
-"visitantes por ano."
+msgstr "Pelo tamanho, a Catedral de Reims é uma construção bastante extraordinária: desenhada para acomodar multidões enormes, as suas dimensões gigantes incluem uma área de superfície de 6 650 m2 e um comprimento de 122m. Uma obra-prima da arte Gótica e o local de coroação dos Reis de França, foi inscrita como Património Mundial da Humanidade pela UNESCO em 1991. A Meca dos turistas na região de Champagne dá as boas-vindas a 1 500 000 de visitantes por ano."
 
 #: activities/explore_monuments/resource/board/board3.qml:51
 #: activities/explore_monuments/resource/board/board3.qml:54
 msgctxt "board3|"
 msgid "Pont du Gard"
-msgstr "Ponte do Guarda"
+msgstr "Pont du Gard"
 
 #: activities/explore_monuments/resource/board/board3.qml:52
 msgctxt "board3|"
@@ -9263,12 +9186,7 @@ msgid ""
 "The Roman architects and hydraulic engineers who designed this bridge, which "
 "stands almost 50 m high and is on three levels – the longest measuring 275 m "
 "– created a technical as well as an artistic masterpiece."
-msgstr ""
-"A Pont do Guarda foi criada ligeiramente antes da era Cristão para permitir"
-" ao aqueduto de Nîmes (que tem quase 50 km de comprimento) atravessar o rio"
-" Gardon. Os arquitetos e engenheiros hidráulicos Romanos que desenharam "
-"esta ponte, que se eleva a quase 50 m de altura e tem três níveis – medindo"
-" o maior 275 m – criou uma obra-prima tanto técnica como artística."
+msgstr "O Pont du Gard foi construído no século I d. C. para permitir que o aqueduto de Nîmes, com quase 50 km de comprimento, atravessasse o rio Gardon. Os arquitetos e engenheiros hidráulicos romanos conceberam uma ponte com três níveis e quase 50 m de altura, cujo nível mais longo mede 275 m. Criaram uma obra-prima técnica e artística."
 
 #: activities/explore_monuments/resource/board/board3.qml:62
 #: activities/explore_monuments/resource/board/board3.qml:65
@@ -9283,11 +9201,7 @@ msgid ""
 "originally the setting for gladiator battles and chariot races during "
 "Antiquity. Modified many times, it was finally renovated during the 19th "
 "century."
-msgstr ""
-"Este anfiteatro Romano remonta ao primeiro século antes de Cristo e foi "
-"originalmente o local de batalhas de gladiadores e de corridas de quadrigas "
-"na Antiguidade. Sendo modificado várias vezes, foi finalmente renovado "
-"durante o século XIX."
+msgstr "O anfiteatro romano de Arles foi construído por volta do ano 90 d. C. e podia acolher cerca de 21 000 espectadores. As galerias circulares, as passagens e as escadas permitiam a circulação do público num edifício de grandes dimensões. É um dos monumentos mais conhecidos da cidade."
 
 #: activities/explore_monuments/resource/board/board3.qml:73
 #: activities/explore_monuments/resource/board/board3.qml:76
@@ -9303,13 +9217,7 @@ msgid ""
 "Valley is indeed full of surprises for those who are lucky enough to explore "
 "its domain. This remarkable piece of architecture is certainly more than "
 "just a castle: it is the dream of a king, transformed into reality."
-msgstr ""
-"Prestigiante, majestoso, colossal, extravagante - são estes adjectivos "
-"suficientes para descrever por completo o esplendor de Chambord? O maior "
-"castelo do Vale do Loire é de facto cheio de surpresas para os que forem "
-"suficientemente sortudos para explorar o seu domínio. Esta peça "
-"espectacular de arquitetura é certamente mais que um castelo: é o sonho de "
-"um Rei transformado em realidade."
+msgstr "Prestigiante, majestoso, colossal, extravagante - são estes adjetivos suficientes para descrever por completo o esplendor de Chambord? O maior castelo do Vale do Loire é de facto cheio de surpresas para os que forem suficientemente sortudos para explorar o seu domínio. Esta peça espetacular de arquitetura é certamente mais que um castelo: é o sonho de um Rei transformado em realidade."
 
 #: activities/explore_monuments/resource/board/board3.qml:84
 #: activities/explore_monuments/resource/board/board3.qml:87
@@ -9366,13 +9274,7 @@ msgid ""
 "the Ladies Castle by some historians due to feminine figures having greatly "
 "influenced the construction and development of this French Château over the "
 "centuries."
-msgstr ""
-"O Castelo de Chenonceau é um dos muitos dos Castelos do Vale do Loire que "
-"explodem um grande significado de espectáculo arquitetónico e histórico, "
-"trazendo milhares de turistas de todo o mundo. O Castelo de Chenonceau é "
-"normalmente chamado de Castelo das Mulheres por alguns historiadores, "
-"devido às figuras femininas que influenciaram em grande medida a construção"
-" e desenvolvimento deste Castelo Francês ao longo dos séculos."
+msgstr "O Castelo de Chenonceau é um dos castelos do vale do Loire com grande importância arquitetónica e histórica, atraindo milhares de turistas de todo o mundo. É conhecido como o Castelo das Damas devido às mulheres que influenciaram a sua construção e desenvolvimento ao longo dos séculos."
 
 #: activities/explore_monuments/resource/board/board3.qml:117
 #: activities/explore_monuments/resource/board/board3.qml:120
@@ -9386,10 +9288,7 @@ msgid ""
 "The world-famous metallic tower was built for the Paris International "
 "Exhibition in 1889 for the centenary of the French Revolution. At the time "
 "of its inauguration, it was the world’s tallest monument."
-msgstr ""
-"A mundialmente famosa torre metálica foi construída para a Exibição "
-"Internacional de Paris em 1889, pelo centenário da Revolução Francesa. Na "
-"altura da sua inauguração, era o monumento mais alto do mundo."
+msgstr "A mundialmente famosa torre metálica foi construída para a Exposição Internacional de Paris em 1889, pelo centenário da Revolução Francesa. Na altura da sua inauguração, era o monumento mais alto do mundo."
 
 #: activities/explore_monuments/resource/board/board3.qml:130
 msgctxt "board3|"
@@ -9417,15 +9316,7 @@ msgid ""
 "completed in 1886 and found dead a few days later. Neuschwanstein is the "
 "most photographed building in the country and one of the most popular "
 "tourist attractions in Germany."
-msgstr ""
-"O pináculo dos castelos de contos de fadas, o Neuschwanstein situa-se uma "
-"colina rugosa perto de Füssen, no Sudoeste da Baviera. Foi a inspiração "
-"para os castelos da Bela Adormecida nos parques da Disneylândia. O castelo "
-"foi encomendado pelo Rei Ludwig II da Baviera, o qual foi declarado como "
-"louco quando o castelo estava perto da sua conclusão em 1886, sendo "
-"encontrado morto alguns dias depois. Neuschwanstein é o edifício mais "
-"fotografado do país e é uma das mais conhecidas atrações turísticas na "
-"Alemanha."
+msgstr "O pináculo dos castelos de contos de fadas, o Neuschwanstein situa-se numa colina escarpada perto de Füssen, no Sudoeste da Baviera. Foi a inspiração para os castelos da Bela Adormecida nos parques da Disneylândia. O castelo foi encomendado pelo Rei Ludwig II da Baviera, o qual foi declarado como louco quando o castelo estava perto da sua conclusão em 1886, sendo encontrado morto alguns dias depois. Neuschwanstein é o edifício mais fotografado do país e é uma das mais conhecidas atrações turísticas na Alemanha."
 
 #: activities/explore_monuments/resource/board/board4.qml:29
 #: activities/explore_monuments/resource/board/board4.qml:32
@@ -9449,7 +9340,7 @@ msgstr ""
 #: activities/explore_monuments/resource/board/board4.qml:43
 msgctxt "board4|"
 msgid "Brandenburg Gate"
-msgstr "Porta de Bradenburgo"
+msgstr "Porta de Brandeburgo"
 
 #: activities/explore_monuments/resource/board/board4.qml:41
 msgctxt "board4|"
@@ -9460,13 +9351,7 @@ msgid ""
 "prominent boulevard of linden trees which once led directly to the palace of "
 "the Prussian monarchs. It is regarded as one of the most famous landmarks in "
 "Europe."
-msgstr ""
-"A Porta de Brandenburgo é o único portão sobrevivente da cidade de Berlim e"
-" representa a reunificação da Berlim Ocidental e Oriental. Construída no "
-"século XVIII, a porta de Brandenburgo é a entrada da Unter den Linden, a "
-"avenida proeminente com árvores de tílias que conduziam em tempos "
-"diretamente ao palácio dos monarcas Prussianos. É apontada como sendo um "
-"dos marcos locais mais famosos da Europa."
+msgstr "A Porta de Brandeburgo é o único portão sobrevivente da cidade de Berlim e representa a reunificação da Berlim Ocidental e Oriental. Construída no século XVIII, a porta de Brandeburgo é a entrada da Unter den Linden, a avenida proeminente com árvores de tílias que conduziam em tempos diretamente ao palácio dos monarcas Prussianos. É apontada como sendo um dos marcos locais mais famosos da Europa."
 
 #: activities/explore_monuments/resource/board/board4.qml:51
 #: activities/explore_monuments/resource/board/board4.qml:54
@@ -9499,10 +9384,7 @@ msgid ""
 "This romantic fairytale fortress, with all its many towers, domes and wings, "
 "is reflected in the waters of Lake Schwerin. It was completed in 1857 and "
 "symbolized the powerful dynasty of its founder, Friedrich Franz II."
-msgstr ""
-"Esta fortaleza romântica dos contos de fadas, com todas as suas torres, alas "
-"e miradouros, reflecte-se nas águas do Lago Schwerin. Foi terminada em 1857 "
-"e simboliza a dinastia poderosa do seu fundador, Friedrich Franz II."
+msgstr "Esta fortaleza romântica dos contos de fadas, com todas as suas torres, alas e miradouros, reflete-se nas águas do Lago Schwerin. Foi terminada em 1857 e simboliza a dinastia poderosa do seu fundador, Friedrich Franz II."
 
 #: activities/explore_monuments/resource/board/board4.qml:73
 #: activities/explore_monuments/resource/board/board4.qml:76
@@ -9517,11 +9399,7 @@ msgid ""
 "emperor until the destruction of the city by Germanic tribes. The invaders "
 "built a settlement inside the roofless ruin. In the 12th century, the apse "
 "was converted into a tower to accommodate the Archbishop of Trier."
-msgstr ""
-"A estrutura de tijolos comprida e de tectos altos foi a capital do trono do "
-"imperador Romano, até à destruição da cidade por tribos Germânicas. Os "
-"invasores construíram uma base dentro das ruínas sem telhado. No século XII, "
-"o espaço foi convertido numa torre para acomodar o Arcebispo de Trier."
+msgstr "A estrutura de tijolo, comprida e de teto alto, foi a sala do trono do imperador romano, até à destruição da cidade por tribos germânicas. Os invasores construíram uma fortaleza nas ruínas sem telhado. No século XII, o espaço foi convertido numa torre para alojar o arcebispo de Trier."
 
 #: activities/explore_monuments/resource/board/board4.qml:84
 #: activities/explore_monuments/resource/board/board4.qml:87
@@ -9536,11 +9414,7 @@ msgid ""
 "Romanesque cathedral in the German city of Worms. A sandstone structure with "
 "distinctive conical towers, Worms Cathedral was constructed in phases "
 "throughout the twelfth century and mostly completed by 1181."
-msgstr ""
-"A Catedral de Worms (Wormser Dom), também conhecida como Catedral de São "
-"Pedro, é uma catedral Românica na cidade alemã de Worms. Uma estrutura em "
-"granito com distintas torres cónicas, a Catedral de Worms foi construída por "
-"fases, ao longo do século XII, e foi terminada na sua maioria em 1181."
+msgstr "A Catedral de Worms (Wormser Dom), também conhecida como Catedral de São Pedro, é uma catedral Românica na cidade alemã de Worms. Uma estrutura em arenito com distintas torres cónicas, a Catedral de Worms foi construída por fases, ao longo do século XII, e foi terminada na sua maioria em 1181."
 
 #: activities/explore_monuments/resource/board/board4.qml:97
 msgctxt "board4|"
@@ -9567,13 +9441,7 @@ msgid ""
 "Spanish flag in his conquests of the New World. He arrived at San Diego Bay "
 "in September 1542, three months after departing from Barra de Navidad on the "
 "west coast of Mexico."
-msgstr ""
-"Situado em Point Loma em San Diego, Califórnia, o Monumento Nacional de "
-"Cabrillo comemora o primeiro Europeu a chegar à Costa Ocidental dos Estados "
-"Unidos, Juan Rodriguez Cabrillo. Nascido Português, Cabrillo carregou a "
-"bandeira Espanhola nas suas conquistas do Novo Mundo. Ele chegou à Baía de "
-"San Diego a Setembro de 1542, três meses depois de partir da Barra de "
-"Navidad, na costa ocidental do México."
+msgstr "O Monumento Nacional de Cabrillo, em Point Loma, San Diego, comemora a viagem de Juan Rodríguez Cabrillo à costa ocidental dos atuais Estados Unidos. O seu local e data de nascimento não são conhecidos com certeza. Ao serviço da Coroa espanhola, chegou à baía de San Diego em setembro de 1542, depois de partir do porto de Navidad, no México."
 
 #: activities/explore_monuments/resource/board/board5.qml:29
 #: activities/explore_monuments/resource/board/board5.qml:32
@@ -9591,15 +9459,7 @@ msgid ""
 "and Canyon de Chelly also offers an array of Southwestern geological "
 "formations, including Spider Rock, an 800-foot-tall sandstone spire that "
 "rises eerily from the bottom of the canyon floor."
-msgstr ""
-"As estóicas ruínas vermelhas das Escarpas de Chelly, a Nordeste do Arizona, "
-"fazem parte por um lado do Serviço de Parques Nacionais e por outro da Nação "
-"Navajo, sendo estabelecidos como monumentos nacionais em 1931. Um conjunto "
-"de locais importantes dos antigos Nativos Americanos são preservados nos "
-"cerca de 34 000 hectares do arque, sendo que as Escarpas de Chleey também "
-"oferecerem um conjunto de formações geológicas da zona Sudoeste, incluindo a "
-"Spider Rock (Rochedo da Aranha), uma espira de granito com cerca de 200 "
-"metros de altura que se eleva de forma estranha a partir do fundo da escarpa."
+msgstr "O Canyon de Chelly, no nordeste do Arizona, foi declarado monumento nacional em 1931. Situa-se no território da Nação Navajo e conserva locais importantes dos antigos povos indígenas americanos. Os seus cerca de 34 000 hectares incluem formações de arenito como a Spider Rock (Rochedo da Aranha), uma agulha de rocha com cerca de 244 metros de altura."
 
 #: activities/explore_monuments/resource/board/board5.qml:40
 #: activities/explore_monuments/resource/board/board5.qml:43
@@ -9614,12 +9474,7 @@ msgid ""
 "Marcos was completed as the city's defensive fort in 1695, when Florida was "
 "still a Spanish territory. Constructed out of the rare coquina limestone, "
 "the star-shaped Castillo also is the oldest masonry fort in the country."
-msgstr ""
-"Estendendo-se em mais de 8 hectares de St. Augustine, na Flórida, o Castelo "
-"de São Marcos foi terminado como sendo o forte defensivo da cidade em 1695, "
-"quando a Flórida ainda era um território Espanhol. Construído a partir da "
-"pedra rara que é a coquina, o castelo em forma de estrela também é o mais "
-"antigo forte senhorial do país."
+msgstr "Estendendo-se em mais de 8 hectares de St. Augustine, na Flórida, o Castelo de São Marcos foi terminado como sendo o forte defensivo da cidade em 1695, quando a Flórida ainda era um território Espanhol. Construído a partir da pedra rara que é a coquina, o castelo em forma de estrela também é o mais antigo forte de alvenaria do país."
 
 #: activities/explore_monuments/resource/board/board5.qml:51
 #: activities/explore_monuments/resource/board/board5.qml:54
@@ -9635,13 +9490,7 @@ msgid ""
 "checkpoint. Castle Clinton (nps.gov/cacl) was originally built as a fort to "
 "protect New York from a British invasion during the War of 1812, and was "
 "dedicated as a national monument in 1946."
-msgstr ""
-"Este forte redondo de granito, situado no fundo da Ilha de Manhattan "
-"antecede a Ilha de Ellis em cerca de 50 anos como sendo o primeiro ponto de "
-"verificação de imigração dos EUA. O Castelo Clinton (nps.gov/cacl) foi "
-"construído originalmente como um forte para proteger Nova Iorque de uma "
-"invasão Britânica durante a guerra de 1812, sendo convertido num monumento "
-"nacional em 1946."
+msgstr "Este forte circular de arenito, situado no extremo sul da ilha de Manhattan antecede a Ilha de Ellis em cerca de 50 anos como sendo o primeiro ponto de verificação de imigração dos EUA. O Castelo Clinton (nps.gov/cacl) foi construído originalmente como um forte para proteger Nova Iorque de uma invasão Britânica durante a guerra de 1812, sendo convertido num monumento nacional em 1946."
 
 #: activities/explore_monuments/resource/board/board5.qml:62
 #: activities/explore_monuments/resource/board/board5.qml:65
@@ -9657,12 +9506,7 @@ msgid ""
 "George Washington's great-grandfather, George Washington was born here on "
 "February 22, 1732. He lived here until age three, returning later as a "
 "teenager."
-msgstr ""
-"O Monumento Nacional de Nascimento de George Washington existe no Condado de "
-"Westmoreland, em Virgínia, nos Estados Unidos. Originalmente iniciado por "
-"John Washington, o bisavô de George Washington, George Washington nasceu "
-"aqui em 22 de Fevereiro de 1732. Ele viveu lá até aos três anos, regressando "
-"mais tarde como adolescente."
+msgstr "O Monumento Nacional do Local de Nascimento de George Washington situa-se no condado de Westmoreland, na Virgínia, nos Estados Unidos. O seu bisavô, John Washington, estabeleceu-se nesta região no século XVII. George Washington nasceu aqui em 22 de fevereiro de 1732. Viveu neste local até aos três anos e regressou mais tarde, na adolescência."
 
 #: activities/explore_monuments/resource/board/board5.qml:73
 #: activities/explore_monuments/resource/board/board5.qml:76
@@ -9680,15 +9524,7 @@ msgid ""
 "Abraham Lincoln sitting in contemplation, which is flanked on both side "
 "chambers with inscriptions of Lincoln’s Second Inaugural Address and "
 "arguably his most famous speech, the Gettysburg Address."
-msgstr ""
-"Construída em pedra branca com 36 colunas imponentes, o Memorial de Lincoln"
-" é uma das estruturas mais reconhecidas nos Estados Unidos. O memorial fica"
-" no extremo ocidental do Grémio Nacional, no Parque de Potomac Ocidental, "
-"sendo um exemplo da arquitetura Neoclássica. Oferece uma estátua solitária "
-"de 6 metros de altura de Abraham Lincoln sentado em contemplação, a qual "
-"está rodeada por câmaras laterais de ambos os lados com as inscrições do "
-"Segundo Discurso Inaugural de Lincoln e, sem dúvida o seu mais famoso "
-"discurso, o Discurso de Gettysburg."
+msgstr "Construído em pedra branca com 36 colunas imponentes, o Memorial de Lincoln é uma das estruturas mais reconhecidas nos Estados Unidos. O memorial fica no extremo ocidental do National Mall, no Parque de Potomac Ocidental, sendo um exemplo da arquitetura Neoclássica. Oferece uma estátua solitária de 6 metros de altura de Abraham Lincoln sentado em contemplação, a qual está rodeada por câmaras laterais de ambos os lados com as inscrições do Segundo Discurso Inaugural de Lincoln e, sem dúvida o seu mais famoso discurso, o Discurso de Gettysburg."
 
 #: activities/explore_monuments/resource/board/board5.qml:84
 #: activities/explore_monuments/resource/board/board5.qml:87
@@ -9705,13 +9541,7 @@ msgid ""
 "leaders. The epic sculpture of Mount Rushmore depicts the faces of four "
 "exalted American presidents that symbolize this nation's rich history, "
 "rugged determination and lasting achievements."
-msgstr ""
-"O Monte Rushmore existe como altar da democracia, sendo um monumento e "
-"memorial a George Washington pelo nascimento, crescimento e ideais deste "
-"país. O Monte Rushmore simboliza a grandeza desta nação através da grandeza "
-"dos seus líderes. A escultura épica do Monte Rushmore contém as faces de "
-"quatro presidentes americanos importantes que simbolizam a história rica "
-"desta animação, uma enorme determinação e de feitos duradouros."
+msgstr "O Monte Rushmore existe como altar da democracia, sendo um monumento e memorial a George Washington pelo nascimento, crescimento e ideais deste país. O Monte Rushmore simboliza a grandeza desta nação através da grandeza dos seus líderes. A escultura épica do Monte Rushmore contém as faces de quatro presidentes americanos importantes que simbolizam a rica história desta nação, uma enorme determinação e de feitos duradouros."
 
 #: activities/explore_monuments/resource/board/board5.qml:95
 #: activities/explore_monuments/resource/board/board5.qml:98
@@ -9732,18 +9562,7 @@ msgid ""
 "trails, two small campgrounds, and a picnic area. Rangers guide visitors on "
 "free tours of the Keet Seel and Betatakin cliff dwellings. The Inscription "
 "House site, further west, is currently closed to public access."
-msgstr ""
-"O Monumento Nacional Navajo é um Monumento Nacional localizado dentro da "
-"parte Noroeste do território da Nação Navajo, a Norte do Arizona, que foi "
-"estabelecido para preservar três baixos-relevos em penhasco do Povo "
-"Ancestral Puebloan: Keet Seel (Kitsʼiil), Betatakin (Bitátʼahkin), e a Casa "
-"da Inscrição(Tsʼah Biiʼ Kin). O monumento eleva-se no planalto de Shonto, "
-"tendo uma visão geral sobre o sistema montanhoso de Tsegi, a oeste de "
-"Kayenta, Arizona. Oferece um centro aos visitantes com um museu, dois "
-"trajectos curtos às mesetas, dois parques de campismo e uma área de "
-"piqueniques. Alguns guardas guiam os visitantes em viagens gratuitas aos "
-"relevos de Keet Seel e Betatakin. O local da Casa da Inscrição, mais a "
-"oeste, está neste momento encerrado ao público."
+msgstr "O Monumento Nacional Navajo situa-se no norte do Arizona, no território da Nação Navajo. Preserva três conjuntos de habitações construídas em abrigos nas falésias pelos povos ancestrais pueblo: Keet Seel (Kitsʼiil), Betatakin (Bitátʼahkin) e Inscription House (Tsʼah Biiʼ Kin). Fica no planalto de Shonto, com vista para o sistema de desfiladeiros de Tsegi, a oeste de Kayenta. Tem um centro de visitantes com museu, trilhos, parques de campismo e uma área de piqueniques."
 
 #: activities/explore_monuments/resource/board/board5.qml:106
 #: activities/explore_monuments/resource/board/board5.qml:109
@@ -9758,11 +9577,7 @@ msgid ""
 "Statue of Liberty, which sits on its own tiny island in New York City. The "
 "statue was a gift from the people of France and was dedicated in October "
 "1886."
-msgstr ""
-"Talvez o monumento mais conhecido e um símbolo dos Estados Unidos seja a "
-"Estátua da Liberdade, que se situa na sua pequena ilha na Cidade de Nova "
-"Iorque. A estátua foi uma prenda do povo de França e foi inaugurada em "
-"Outubro de 1886."
+msgstr "Talvez o monumento mais conhecido e um símbolo dos Estados Unidos seja a Estátua da Liberdade, que se situa na sua pequena ilha na Cidade de Nova Iorque. A estátua foi uma prenda do povo de França e foi inaugurada em outubro de 1886."
 
 #: activities/explore_monuments/resource/board/board5.qml:117
 #: activities/explore_monuments/resource/board/board5.qml:120
@@ -9778,12 +9593,7 @@ msgid ""
 "the first shots of the Civil War were fired. Inside Fort Sumter, a number of "
 "exhibits offer perspectives on U.S. history, particularly the divisions "
 "between North and South that eventually resulted in the war."
-msgstr ""
-"Originalmente construído como uma estrutura defensiva a seguir à guerra de "
-"1812, foi nesta fortificação virada para o oceano no Porto de Charleston "
-"Harbor, na Carolina do Sul, um conjunto de exposições que oferecem "
-"diferentes perspectivas sobre a história dos E.U.A., em particular as "
-"divisões entre o Norte e o Sul que eventualmente deram origem à guerra."
+msgstr "O Forte Sumter foi originalmente construído como uma estrutura defensiva depois da guerra de 1812. Situa-se à entrada do porto de Charleston, na Carolina do Sul. As suas exposições apresentam diferentes perspetivas sobre a história dos Estados Unidos, em particular as divisões entre o Norte e o Sul que acabaram por dar origem à Guerra Civil."
 
 #: activities/explore_monuments/resource/board/board5.qml:130
 msgctxt "board5|"
@@ -9813,16 +9623,7 @@ msgid ""
 "almost 20 years to build the pyramid and approximately 2 million blocks of "
 "stone have been used in the construction. The height of the pyramid is "
 "approximately 139 meters making it the highest pyramid of Egypt."
-msgstr ""
-"A Grande Pirâmide de Gizé também é conhecida como a Pirâmide de Khufu ou a "
-"Pirâmide de Quéops. É considerada a mais antiga de todas as Sete Maravilhas "
-"do Mundo Antigo. Também é a a maior de todas as três pirâmides em Gizé. "
-"Situa-se na Necrópole de Gizé no Egipto. A construção inicial começou com o "
-"Faraó Egípcio Khufu, sendo continuada pelo seu filho Khafre e finalmente "
-"terminada por Menkaure. Levou quase 20 anos a construir a pirâmide e "
-"aproximadamente 2 milhões de blocos de pedra na construção. A altura da "
-"pirâmide é de aproximadamente 139 metros, tornando-a a pirâmide mais alta do "
-"Egipto."
+msgstr "A Grande Pirâmide de Gizé, também chamada Pirâmide de Quéops ou Khufu, é o túmulo do faraó Khufu, no Egito. É a única das Sete Maravilhas do Mundo Antigo que chegou até nós. A sua altura original era de cerca de 146,5 metros e a construção terá demorado entre 10 e 20 anos. Foi construída principalmente com pedra calcária."
 
 #: activities/explore_monuments/resource/board/board6.qml:28
 #: activities/explore_monuments/resource/board/board6.qml:31
@@ -9841,16 +9642,7 @@ msgid ""
 "large, forcing the builders to adopt a shallower angle. Today, the Bent "
 "Pyramid is the only pyramid in Egypt of which the outer casing of polished "
 "limestone is still largely intact."
-msgstr ""
-"A Pirâmide Dobrada, localizada em Dahshur, foi a segunda pirâmide "
-"construída pelo faraó Sneferu. Misteriosamente, esta pirâmide real eleva-se"
-" a partir do deserto com um ângulo de 55 graus e de repente muda para um "
-"ângulo mais gradual de 43 graus. Uma teoria é de que, devido à inclinação "
-"do ângulo original, o peso a ser adicionado acima das câmaras interiores e "
-"passagens tornou-se demasiado elevado, obrigando os construtores a adotar "
-"um ângulo mais suave. Hoje em dia, a Pirâmide Curvada é a única pirâmide no"
-" Egipto em que a cobertura exterior em pedra-lima polida ainda está intacta"
-" na sua maioria."
+msgstr "A Pirâmide Dobrada, localizada em Dahshur, foi a segunda pirâmide construída pelo faraó Sneferu. Misteriosamente, esta pirâmide real eleva-se a partir do deserto com um ângulo de 55 graus e de repente muda para um ângulo mais gradual de 43 graus. Uma teoria é de que, devido à inclinação do ângulo original, o peso a ser adicionado acima das câmaras interiores e passagens tornou-se demasiado elevado, obrigando os construtores a adotar um ângulo mais suave. Hoje em dia, a Pirâmide Curvada é a única pirâmide no Egito em que a cobertura exterior em pedra calcária polida ainda está intacta na sua maioria."
 
 #: activities/explore_monuments/resource/board/board6.qml:39
 #: activities/explore_monuments/resource/board/board6.qml:42
@@ -9869,15 +9661,7 @@ msgid ""
 "construction the steps of the pyramid were filled with limestone encasing "
 "marking the first attempt by the ancient Egyptians at the construction of a "
 "true pyramid."
-msgstr ""
-"Cinco milhas a Sul de Saqqara no Egipto, eleva-se a misteriosa pirâmide em "
-"torre de Meidum, que nos dias de hoje pouco se parece com uma pirâmide de "
-"todo. A pirâmide foi provavelmente construída durante o reinado do faraó da "
-"4a Dinastia Sneferu, ainda que se acredita que parte da pirâmide tenha sido "
-"iniciada pelo antecessor de Sneferu, Huni. A determinada altura da sua "
-"construção, os degraus da pirâmide foram preenchidos com uma cobertura em "
-"pedra calcária, marcando a primeira tentativa dos antigos Egípcios na "
-"construção de uma verdadeira pirâmide."
+msgstr "A pirâmide de Meidum situa-se na região de Beni Suef, no Egito. O faraó Sneferu, primeiro rei da IV dinastia, escolheu Meidum para construir o seu túmulo real. A construção começou como uma pirâmide de degraus e foi depois transformada numa pirâmide de faces lisas, revestida de calcário. Hoje, o núcleo restante ergue-se sobre um monte de entulho. A atribuição anterior a Huni, antecessor de Sneferu, já não corresponde ao consenso atual dos especialistas."
 
 #: activities/explore_monuments/resource/board/board6.qml:50
 #: activities/explore_monuments/resource/board/board6.qml:53
@@ -9894,13 +9678,7 @@ msgid ""
 "the world’s 4th largest pyramid in Egypt. The pyramid has been built with "
 "red limestone stones, hence the name. The local people of Egypt called it as "
 "el-heram el-watwaat meaning the Bat Pyramid."
-msgstr ""
-"A Pirâmide Vermelha foi uma das mas melhores e bem-sucedidas tentativas do "
-"faraó Sneferu na construção da primeira pirâmide de faces suaves do mundo no "
-"período do Antigo Egipto. A altura da pirâmide é de 104 metros, tornando-se "
-"a 4a pirâmide mais alta do mundo no Egipto. A pirâmide foi construída com "
-"rochas de pedra-lima vermelha, daí o seu nome. As pessoas locais do Egipto "
-"chamavam-lhe 'el-heram el-watwaat', que significa Pirâmide-Morcego."
+msgstr "A Pirâmide Vermelha foi uma das melhores e bem-sucedidas tentativas do faraó Sneferu na construção da primeira pirâmide de faces suaves do mundo no período do Antigo Egito. A altura da pirâmide é de 104 metros, tornando-se a 4a pirâmide mais alta do mundo no Egito. A pirâmide foi construída com rochas de pedra calcária vermelha, daí o seu nome. As pessoas locais do Egito chamavam-lhe 'el-heram el-watwaat', que significa Pirâmide-Morcego."
 
 #: activities/explore_monuments/resource/board/board6.qml:63
 msgctxt "board6|"
@@ -9916,7 +9694,7 @@ msgstr "Carrega no local onde que se encontra a pirâmide indicada."
 #: activities/explore_monuments/resource/board/board7.qml:20
 msgctxt "board7|"
 msgid "Forbidden City"
-msgstr "Cidade proibida"
+msgstr "Cidade Proibida"
 
 #: activities/explore_monuments/resource/board/board7.qml:18
 msgctxt "board7|"
@@ -9930,22 +9708,13 @@ msgid ""
 "traditional Chinese palatial design. Surrounded by a moat and a massive "
 "wall, the Forbidden City was once inaccessible to the general public, "
 "symbolizing imperial power and exclusivity."
-msgstr ""
-"A Cidade Proibida, localizada no coração de Beijing (Pequim), na China, é um "
-"magnífico complexo do Palácio imperial que serviu de casa aos imperadores "
-"chineses e de centro político da nação por quase 500 anos, da Dinastia Ming "
-"(1368-1644) até ao fim da dinastia Qing (1644-1912). Construído entre 1406 e "
-"1420, esta obra-prima arquitetónica abrange 180 hectares e apresenta mais de "
-"980 edifícios preservados com 8.700 divisões, representativas do design "
-"palaciano chinês tradicional. Rodeado por um fosso e muralhas altas, a "
-"Cidade Proibida já foi inacessível ao público em geral, simbolizando a "
-"exclusividade do poder imperial."
+msgstr "A Cidade Proibida, localizada no coração de Beijing (Pequim), na China, é um magnífico complexo do Palácio imperial que serviu de casa aos imperadores chineses e de centro político da nação por quase 500 anos, da Dinastia Ming (1368-1644) até ao fim da dinastia Qing (1644-1912). Construída entre 1406 e 1420, esta obra-prima arquitetónica abrange 180 acres (cerca de 73 hectares) e apresenta mais de 980 edifícios preservados com 8 700 divisões, representativas do design palaciano chinês tradicional. Rodeada por um fosso e muralhas altas, a Cidade Proibida já foi inacessível ao público em geral, simbolizando a exclusividade do poder imperial."
 
 #: activities/explore_monuments/resource/board/board7.qml:28
 #: activities/explore_monuments/resource/board/board7.qml:31
 msgctxt "board7|"
 msgid "Leshan Giant Buddha"
-msgstr "Buda gigante de Lashan"
+msgstr "Buda gigante de Leshan"
 
 #: activities/explore_monuments/resource/board/board7.qml:29
 msgctxt "board7|"
@@ -9959,17 +9728,7 @@ msgid ""
 "traffic. Ingeniously designed, the statue includes a hidden drainage system "
 "to prevent erosion. Its serene expression and intricate craftsmanship make "
 "it a symbol of spiritual and artistic achievement."
-msgstr ""
-"O Buda Gigante de Leshan, localizado na província de Sichuan, na China, é "
-"uma estátua colossal esculpida num penhasco na confluência dos rios Min, "
-"Dadu e Qingyi. Com 71 metros (233 pés) de altura, é a estátua mais alta da "
-"antiguidade e é considerado Património Mundial da Humanidade pela UNESCO. "
-"Construído durante a Dinastia Tang (713-803 DC), a estátua representa "
-"Maitreya, o Buda do futuro, e foi erigido para acalmar as águas turbulentas"
-" que constituem uma ameça ao tráfego local de embracações. Engenhosamente "
-"projetada, a estátua inclui um sistema de drenagem oculto para evitar a "
-"erosão. A sua expressão serena e a mestria da sua execução fazem dela um "
-"símbolo de realização espiritual e artística."
+msgstr "O Buda Gigante de Leshan, localizado na província de Sichuan, na China, é uma estátua colossal esculpida num penhasco na confluência dos rios Min, Dadu e Qingyi. Com 71 metros (233 pés) de altura, é a estátua mais alta da antiguidade e é considerado Património Mundial da Humanidade pela UNESCO. Construído durante a Dinastia Tang (713-803 DC), a estátua representa Maitreya, o Buda do futuro, e foi erigido para acalmar as águas turbulentas que constituem uma ameaça ao tráfego local de embarcações. Engenhosamente projetada, a estátua inclui um sistema de drenagem oculto para evitar a erosão. A sua expressão serena e a mestria da sua execução fazem dela um símbolo de realização espiritual e artística."
 
 #: activities/explore_monuments/resource/board/board7.qml:39
 #: activities/explore_monuments/resource/board/board7.qml:42
@@ -10005,7 +9764,7 @@ msgstr ""
 #: activities/explore_monuments/resource/board/board7.qml:53
 msgctxt "board7|"
 msgid "Terracotta Army"
-msgstr "Exército de Terracotta"
+msgstr "Exército de Terracota"
 
 #: activities/explore_monuments/resource/board/board7.qml:51
 msgctxt "board7|"
@@ -10016,14 +9775,7 @@ msgid ""
 "figures date back to approximately 210 BCE and are celebrated for their "
 "incredible detail, with each warrior uniquely crafted to represent the "
 "diverse ranks and roles of an ancient Chinese army."
-msgstr ""
-"O exército de terracota é uma coleção de milhares de soldados, cavalos e "
-"carruagens de argila em tamanho natural enterrados com o primeiro imperador "
-"da China, Qin Shi Huang, para o acompanharem na vida após a morte. "
-"Descoberto em 1974 perto de Xi'an, as figuras datam aproximadamente de 210 "
-"AC e são admiradas pelo seus incríveis detalhes, com cada guerreiro criado "
-"propositadamente para dar testemunho das diversas patentes e papéis num "
-"antigo exército chinês."
+msgstr "O exército de terracota é uma coleção de milhares de soldados, cavalos e carruagens de argila em tamanho natural enterrados com o primeiro imperador da China, Qin Shi Huang, para o acompanharem na vida após a morte. Descoberto em 1974 perto de Xi'an, as figuras datam aproximadamente de 210 AC e são admiradas pelos seus incríveis detalhes, com cada guerreiro criado propositadamente para dar testemunho das diversas patentes e papéis num antigo exército chinês."
 
 #: activities/explore_monuments/resource/board/board7.qml:61
 #: activities/explore_monuments/resource/board/board7.qml:64
@@ -10043,16 +9795,7 @@ msgid ""
 "harmony of yin and yang and are connected by an underwater glass tunnel. "
 "Illuminated at night, they are popular attractions showcasing traditional "
 "Chinese architecture and modern ingenuity."
-msgstr ""
-"Os Pagodes do Sol e da Lua, localizados em Guilin, na China, são icónicas "
-"Torres Gémeas que simbolizam o património cultural e espiritual da cidade. "
-"Erigidos originalmente durante a Dinastia Tang, foram reconstruídos no "
-"século XX como marcos notórios no Lago Shanhu. O Pagode do Sol, com 41 "
-"metros de altura, é uma estrutura de bronze—a mais alta deste tipo no "
-"mundo—enquanto que o Pagode da Lua, com a 35 metros, é construído de "
-"azulejos. Esses pagodes representam a harmonia do Yin e do Yang e estão "
-"ligados por um túnel de vidro subaquático. Iluminados à noite, são atrações"
-" populares que dão mostra da arquitetura chinesa e da engenharia moderna."
+msgstr "Os Pagodes do Sol e da Lua, localizados em Guilin, na China, são icónicas Torres Gémeas que simbolizam o património cultural e espiritual da cidade. Erigidos originalmente durante a Dinastia Tang, foram reconstruídos no século XX como marcos notórios no Lago Shanhu. O Pagode do Sol, com 41 metros de altura, é uma estrutura de bronze—a mais alta deste tipo no mundo—enquanto que o Pagode da Lua, com 35 metros, é construído de azulejos. Esses pagodes representam a harmonia do Yin e do Yang e estão ligados por um túnel de vidro subaquático. Iluminados à noite, são atrações populares que dão mostra da arquitetura chinesa e da engenharia moderna."
 
 #: activities/explore_monuments/resource/board/board7.qml:72
 #: activities/explore_monuments/resource/board/board7.qml:75
@@ -10072,17 +9815,7 @@ msgid ""
 "period of cultural and economic transition in rural China. Designated a "
 "UNESCO World Heritage Site in 2007, around 1,800 of the original 3,000 "
 "towers remain, offering insight into this unique architectural heritage."
-msgstr ""
-"As torres Diaolou, que se encontram em Kaiping, Província de Guangdong, na "
-"China, são estruturas fortificadas de vários andares construídas no final "
-"do séc. XIX e inícios do séc. XX como proteção contra bandidos e "
-"inundações. Misturando estilos arquitetónicos Ocidentais como o românico e "
-"o barroco com elementos tradicionais chineses, reflectem a riqueza e o "
-"poder dos emigrantes ultramarinos chineses. Construídas em betão armado "
-"reforçado, estas torres simbolizam um período de transição cultural e "
-"económica na China rural. Designadas como Património Mundial da Humanidade "
-"pela UNESCO em 2007, permanecem entre 1.800 e 3.000 originais destas "
-"torres, oferecendo uma visão única desta herança arquitetónica."
+msgstr "As torres Diaolou, que se encontram em Kaiping, Província de Guangdong, na China, são estruturas fortificadas de vários andares construídas no final do séc. XIX e inícios do séc. XX como proteção contra bandidos e inundações. Misturando estilos arquitetónicos Ocidentais como o românico e o barroco com elementos tradicionais chineses, refletem a riqueza e o poder dos emigrantes ultramarinos chineses. Construídas em betão armado reforçado, estas torres simbolizam um período de transição cultural e económica na China rural. Designadas como Património Mundial da Humanidade pela UNESCO em 2007, permanecem entre 1.800 e 3.000 originais destas torres, oferecendo uma visão única desta herança arquitetónica."
 
 #: activities/explore_monuments/resource/board/board7.qml:85
 msgctxt "board7|"
@@ -10098,7 +9831,7 @@ msgstr "Clica na localização do monumento indicado."
 #: activities/explore_monuments/resource/board/board8.qml:20
 msgctxt "board8|"
 msgid "The Pantheon"
-msgstr "O Panteão."
+msgstr "Panteão"
 
 #: activities/explore_monuments/resource/board/board8.qml:18
 msgctxt "board8|"
@@ -10114,19 +9847,7 @@ msgid ""
 "showcases remarkable engineering and symmetry, inspiring architects for "
 "centuries. The Pantheon’s harmonious proportions and historical significance "
 "make it a timeless masterpiece of classical architecture."
-msgstr ""
-"O Panteão em Roma, Itália, é um templo icónico da antiguidade construído "
-"por volta de 126 DC durante o reinado do Imperador Adriano, no local de "
-"estruturas anteriores encomendadas por Marcus Agripa. Reconhecido pelo seu "
-"brilhantismo arquitetónico,possui um enorme tecto abobadado com um óculo "
-"central, simbolizando oscéus, permitindo que a luz natural ilumine o "
-"interior. Originalmentededicado a todos os deuses romanos, foi "
-"posteriormente convertido numa igreja cristã,conhecida como a Basílica de "
-"Santa Maria e dos Mártires (Santa Maria ad Martyres),em 609 DC. A sua "
-"cúpula, a maior cúpula de betão armado não reforçada do mundo,apresenta uma"
-" engenharia e simetria notáveis que duranteséculos inspiraram arquitetos. "
-"As proporções harmoniosas e o significado histórico do Panteão fazem dela "
-"uma obra-prima intemporal da arquitetura clássica."
+msgstr "O Panteão em Roma, Itália, é um templo icónico da antiguidade construído por volta de 126 DC durante o reinado do Imperador Adriano, no local de estruturas anteriores encomendadas por Marcus Agripa. Reconhecido pelo seu brilhantismo arquitetónico, possui um enorme teto abobadado com um óculo central, simbolizando os céus, permitindo que a luz natural ilumine o interior. Originalmente dedicado a todos os deuses romanos, foi posteriormente convertido numa igreja cristã, conhecida como a Basílica de Santa Maria e dos Mártires (Santa Maria ad Martyres), em 609 DC. A sua cúpula, a maior cúpula de betão não armado do mundo, apresenta uma engenharia e simetria notáveis que durante séculos inspiraram arquitetos. As proporções harmoniosas e o significado histórico do Panteão fazem dela uma obra-prima intemporal da arquitetura clássica."
 
 #: activities/explore_monuments/resource/board/board8.qml:28
 #: activities/explore_monuments/resource/board/board8.qml:31
@@ -10146,17 +9867,7 @@ msgid ""
 "beautiful stained glass windows and intricate marble details, or ascend to "
 "the rooftop for breathtaking views of the city and the Alps. The Duomo "
 "stands as a testament to Italy's rich history and architectural brilliance."
-msgstr ""
-"O Duomo di Milano, também conhecida como Catedral de Milão, é uma obra-prima "
-"gótica icónica localizada no coração de Milão, Itália. Construída ao longo "
-"de quaseseis séculos, é uma das maiores catedrais do mundo e um símbolodo "
-"património artístico e cultural de Milão. Sua intrincada fachada está "
-"adornada com inúmeras estátuas, pináculos e gárgulas, reflectindo a "
-"grandiosidade da gótica. Os visitantes podem explorar os seus "
-"impressionantes interiores, com belos vitrais e intrincados detalhes em "
-"mármore, ou subir até ao telhado e desfrutar de vistas deslumbrantes da "
-"cidade e dos Alpes. O Duomo permanece como um testemunho da rica história e "
-"do brilhantismo arquitetónico da Itália."
+msgstr "O Duomo di Milano, também conhecida como Catedral de Milão, é uma obra-prima gótica icónica localizada no coração de Milão, Itália. Construída ao longo de quase seis séculos, é uma das maiores catedrais do mundo e um símbolo do património artístico e cultural de Milão. Sua intrincada fachada está adornada com inúmeras estátuas, pináculos e gárgulas, refletindo a grandiosidade da arte gótica. Os visitantes podem explorar os seus impressionantes interiores, com belos vitrais e intrincados detalhes em mármore, ou subir até ao telhado e desfrutar de vistas deslumbrantes da cidade e dos Alpes. O Duomo permanece como um testemunho da rica história e do brilhantismo arquitetónico da Itália."
 
 #: activities/explore_monuments/resource/board/board8.qml:39
 #: activities/explore_monuments/resource/board/board8.qml:42
@@ -10177,24 +9888,13 @@ msgid ""
 "Baptistery of St. John, it forms part of a UNESCO World Heritage Site, "
 "drawing millions of visitors annually for its historical, cultural, and "
 "architectural significance."
-msgstr ""
-"A Catedral de Florença, oficialmente conhecida como Cattedrale di Santa "
-"Mariadel Fiore, é uma obra-prima de renome da arquitetura gótica e "
-"renascentistalocalizado em Florença, Itália. Concluída em 1436, é famosa "
-"pela sua enormecúpula de azulejos vermelhos projetada por Filippo "
-"Brunelleschi, permancendo umamaravilha da engenharia e um símbolo da "
-"cidade. A intricada fachada em mármore da catedral, acrescentada no século "
-"XIX, complementa os tesouros artísticos do seu interior ricamente decorado."
-" Juntamente com o Campanário de Giotto e o Batistério de São João, faz "
-"parte do Património Mundial da Humanidade da UNESCO, e as suas "
-"características históricas, culturais e a sua importância arquitetónica "
-"atraem anualmente milhões de visitantes."
+msgstr "A Catedral de Florença, oficialmente conhecida como Cattedrale di Santa Maria del Fiore, é uma obra-prima de renome da arquitetura gótica e renascentista localizada em Florença, Itália. Concluída em 1436, é famosa pela sua enorme cúpula revestida de telhas de terracota vermelha projetada por Filippo Brunelleschi, permanecendo uma maravilha da engenharia e um símbolo da cidade. A intricada fachada em mármore da catedral, acrescentada no século XIX, complementa os tesouros artísticos do seu interior ricamente decorado. Juntamente com o Campanário de Giotto e o Batistério de São João, faz parte do Património Mundial da Humanidade da UNESCO, e as suas características históricas, culturais e a sua importância arquitetónica atraem anualmente milhões de visitantes."
 
 #: activities/explore_monuments/resource/board/board8.qml:50
 #: activities/explore_monuments/resource/board/board8.qml:53
 msgctxt "board8|"
 msgid "Leaning Tower of Pisa"
-msgstr "A Torre inclinada de Pisa"
+msgstr "Torre inclinada de Pisa"
 
 #: activities/explore_monuments/resource/board/board8.qml:51
 msgctxt "board8|"
@@ -10208,17 +9908,7 @@ msgid ""
 "Romanesque design features eight stories, including a bell chamber, adorned "
 "with intricately carved columns and arches. Recognized as a UNESCO World "
 "Heritage Site, it remains a symbol of resilience and ingenuity."
-msgstr ""
-"A Torre Inclinada de Pisa, localizada na cidade italiana de Pisa, é "
-"umamaravilha arquitetónica de renome mundial. Construída para ser torre "
-"sineira independente para a Catedral da cidade, é famosa pela sua inclinação "
-"não intencional, causada pela fundação em solo instável. Iniciada em 1173, a "
-"construção da torre estendeu-se por quase 200 anos, durante os quais foram "
-"envidados esforços para estabilizar a sua inclinação. Erguendo-se até cerca "
-"de 56 metros (183 pés), o estilo românico da torre apresenta oito andares, "
-"incluindo um câmara sineira, adornados com colunas e arcos intrincadamente "
-"esculpidos. Reconhecida como Património Mundial da Humanidade pela UNESCO, "
-"permanece um símbolo de resiliência e de ingenuidade."
+msgstr "A Torre Inclinada de Pisa, localizada na cidade italiana de Pisa, é uma maravilha arquitetónica de renome mundial. Construída para ser torre sineira independente para a Catedral da cidade, é famosa pela sua inclinação não intencional, causada pela fundação em solo instável. Iniciada em 1173, a construção da torre estendeu-se por quase 200 anos, durante os quais foram envidados esforços para estabilizar a sua inclinação. Erguendo-se até cerca de 56 metros (183 pés), o estilo românico da torre apresenta oito andares, incluindo uma câmara sineira, adornados com colunas e arcos intrincadamente esculpidos. Reconhecida como Património Mundial da Humanidade pela UNESCO, permanece um símbolo de resiliência e de engenho."
 
 #: activities/explore_monuments/resource/board/board8.qml:61
 #: activities/explore_monuments/resource/board/board8.qml:64
@@ -10271,18 +9961,7 @@ msgid ""
 "homes, public baths, and temples. The site is now a UNESCO World Heritage "
 "Site and remains one of the most important archaeological discoveries in "
 "history."
-msgstr ""
-"Pompeia foi uma antiga cidade Romana localizada perto da Nápoles dos dias de "
-"hoje, em Itália, notoriamente preservada após ter sido soterrada pela "
-"erupção do Monte Vesúvio em 79 d. C. A erupção desencadeou uma combinação "
-"mortal de cinzas, pedra-pomes e fluxos piroclásticos, que engoliram a cidade "
-"e os seus habitantes, preservando edifícios, artefatos e até mesmo restos "
-"humanos de forma incrivelmente detalhada. As escavações de Pompeia "
-"forneceram informações valiosas sobre a vida, a arquitetura e a sociedade "
-"romanas, revelando uma cidade de ruas bem planeadas, casas, banhos públicos "
-"e templos. O local é agora considerado Património Mundial da Humanidade pela "
-"UNESCO e continua a ser uma das mais importantes descobertas arqueológicas "
-"da história."
+msgstr "Pompeia foi uma antiga cidade Romana localizada perto da Nápoles dos dias de hoje, em Itália, notoriamente preservada após ter sido soterrada pela erupção do Monte Vesúvio em 79 d. C. A erupção desencadeou uma combinação mortal de cinzas, pedra-pomes e fluxos piroclásticos, que engoliram a cidade e os seus habitantes, preservando edifícios, artefactos e até mesmo restos humanos de forma incrivelmente detalhada. As escavações de Pompeia forneceram informações valiosas sobre a vida, a arquitetura e a sociedade romanas, revelando uma cidade de ruas bem planeadas, casas, banhos públicos e templos. O local é agora considerado Património Mundial da Humanidade pela UNESCO e continua a ser uma das mais importantes descobertas arqueológicas da história."
 
 #: activities/explore_monuments/resource/board/board8.qml:85
 msgctxt "board8|"
@@ -10310,15 +9989,7 @@ msgid ""
 "function with aesthetic appeal, both in its elegant appearance unified by "
 "the white plastered earthen walls and in the subtlety of the relationships "
 "between the building masses and the multiple roof layers."
-msgstr ""
-"Himeji-jo é o exemplo mais admirável da arquitetura defensiva japonesa so "
-"séc. XVII que chegou até nós, compreendendo 83 edifícios com sistemas de "
-"defesa altamente desenvolvidos e engenhosos dispositivos protetivos que "
-"datam do início do Período Shogun. É uma obra-prima de construção em "
-"madeira, combinando a função com estética apelativa, tanto na sua aparência"
-" elegante unificada pelo gesso branco do reboco das paredes como na "
-"subtileza das relações entre as massas do edifício e as múltiplas camadas "
-"do telhado."
+msgstr "Himeji-jo é o exemplo mais admirável da arquitetura defensiva japonesa do séc. XVII que chegou até nós, compreendendo 83 edifícios com sistemas de defesa altamente desenvolvidos e engenhosos dispositivos protetivos que datam do início do Período Shogun. É uma obra-prima de construção em madeira, combinando a função com estética apelativa, tanto na sua aparência elegante unificada pelo gesso branco do reboco das paredes como na subtileza das relações entre as massas do edifício e as múltiplas camadas do telhado."
 
 #: activities/explore_monuments/resource/board/board9.qml:28
 #: activities/explore_monuments/resource/board/board9.qml:31
@@ -10339,17 +10010,7 @@ msgid ""
 "peace, nonviolence, and the importance of nuclear disarmament. It serves as "
 "a solemn space for reflection, honoring the lives lost and advocating for "
 "global peace."
-msgstr ""
-"O Parque Memorial da Paz de Hiroshima é um símbolo de paz e um lembrete "
-"dasconsequências devastadoras da guerra. Localizado em Hiroshima, no Japão, "
-"o parque homenageia as vítimas do bombardeamento com bomba atómica a 6 de "
-"Agosto de 1945. O parque apresenta vários monumentos, incluindo a icónica "
-"Abóboda da Bomba Atómica, que foi outrora um edifício governamental e agora "
-"é considerado Património Mundial da Humanidade pela UNESCO. O parque também "
-"abriga o Museu Memorial da Paz de Hiroshima, que educa osvisitantes sobre os "
-"acontecimentos em torno do bombardeamento e promove uma mensagem de paz, de "
-"não-violência e da importância do desarmamento nuclear. Serve como um espaço "
-"solene de reflexão, homenageando as vidas perdidas e advogando a paz mundial."
+msgstr "O Parque Memorial da Paz de Hiroshima é um símbolo de paz e um lembrete das consequências devastadoras da guerra. Localizado em Hiroshima, no Japão, o parque homenageia as vítimas do bombardeamento com bomba atómica a 6 de agosto de 1945. O parque apresenta vários monumentos, incluindo a icónica Abóboda da Bomba Atómica, que foi outrora um edifício governamental e agora é considerado Património Mundial da Humanidade pela UNESCO. O parque também abriga o Museu Memorial da Paz de Hiroshima, que educa os visitantes sobre os acontecimentos em torno do bombardeamento e promove uma mensagem de paz, de não-violência e da importância do desarmamento nuclear. Serve como um espaço solene de reflexão, homenageando as vidas perdidas e advogando a paz mundial."
 
 #: activities/explore_monuments/resource/board/board9.qml:39
 #: activities/explore_monuments/resource/board/board9.qml:42
@@ -10370,24 +10031,13 @@ msgid ""
 "evil, to pray for family happiness, and safe childbirth. In the spring, the "
 "cherry blossom trees bloom and crowds gather to enjoy the stunning view of "
 "Mt. Fuji."
-msgstr ""
-"O santuário foi fundado em 705 para consagrar a divindade do local. Seguindo "
-"a grande erupção do Monte Fuji em 807, o imperador designou um enviado "
-"imperial a este santuário para realizar um ritual para deter a erupção. "
-"Conta-se que durante o Período dos Reinos Combatentes, quando Takeda "
-"Nobutora, pai de um famoso senhor da guerra Takeda Shingen, lutou contra a "
-"família Hojo, montou acampamento aqui, orou pela vitória e venceu a batalha. "
-"Ele então dedicou a sua espada a este santuário. Hoje, moradores locais e "
-"vindos de longe visitam o santuário para afastarem omal, para orarem pela "
-"felicidade da família e pedirem um parto seguro. Na primavera, grandes "
-"multidões reunem-se junto às cerrejeiras em flor para apreciarem a vista "
-"deslumbrante doMonte Fuji."
+msgstr "O santuário foi fundado em 705 para consagrar a divindade do local. Seguindo a grande erupção do Monte Fuji em 807, o imperador designou um enviado imperial a este santuário para realizar um ritual para deter a erupção. Conta-se que durante o Período dos Reinos Combatentes, quando Takeda Nobutora, pai de um famoso senhor da guerra Takeda Shingen, lutou contra a família Hojo, montou acampamento aqui, orou pela vitória e venceu a batalha. Ele então dedicou a sua espada a este santuário. Hoje, moradores locais e vindos de longe visitam o santuário para afastarem o mal, para orarem pela felicidade da família e pedirem um parto seguro. Na primavera, grandes multidões reúnem-se junto às cerejeiras em flor para apreciarem a vista deslumbrante do Monte Fuji."
 
 #: activities/explore_monuments/resource/board/board9.qml:50
 #: activities/explore_monuments/resource/board/board9.qml:53
 msgctxt "board9|"
 msgid "Okinawa Shuri Castle"
-msgstr "O Castelo Shuri em Okinawa"
+msgstr "Castelo de Shuri, Okinawa"
 
 #: activities/explore_monuments/resource/board/board9.qml:51
 msgctxt "board9|"
@@ -10402,19 +10052,7 @@ msgid ""
 "meticulously reconstructed and became a key tourist attraction. Tragically, "
 "much of the castle was lost in a fire in 2019, but efforts to restore it are "
 "ongoing, reflecting its enduring importance to Okinawa's heritage."
-msgstr ""
-"O Castelo Shuri, localizado em Naha, Okinawa, Japão, é considerado "
-"Património Mundial da Humanidade pela UNESCO e um símbolo da rica história "
-"cultural do Reino Ryukyu. Originalmente construído no século XIV, o castelo"
-" serviu como centro político, económico e cultural do reino durante "
-"séculos. Famoso pela sua peculiar fusão de estilos arquitetónicos chineses "
-"e japoneses, o castelo Shuri apresenta estruturas laqueadas a vermelho, "
-"decorações ornamentadas e assume uma posição dominante no topo da colina. "
-"Apesar de ter sido destruído durante a Segunda Guerra Mundial, foi "
-"meticulosamente reconstruído e tornou-se numa importante atração turística."
-" Tragicamente,grande parte do castelo foi perdida num incêndio em 2019, mas"
-" estão em curso esforços para restaurá-lo, o que reflecte a sua importância"
-" duradoura para o património de Okinawa."
+msgstr "O Castelo Shuri, localizado em Naha, Okinawa, Japão, é considerado Património Mundial da Humanidade pela UNESCO e um símbolo da rica história cultural do Reino Ryukyu. Originalmente construído no século XIV, o castelo serviu como centro político, económico e cultural do reino durante séculos. Famoso pela sua peculiar fusão de estilos arquitetónicos chineses e japoneses, o castelo Shuri apresenta estruturas laqueadas a vermelho, decorações ornamentadas e assume uma posição dominante no topo da colina. Apesar de ter sido destruído durante a Segunda Guerra Mundial, foi meticulosamente reconstruído e tornou-se numa importante atração turística. Tragicamente, grande parte do castelo foi perdida num incêndio em 2019, mas estão em curso esforços para restaurá-lo, o que reflete a sua importância duradoura para o património de Okinawa."
 
 #: activities/explore_monuments/resource/board/board9.qml:63
 msgctxt "board9|"
@@ -10447,9 +10085,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Learn about various wild animals from around the world and remember where "
 "they live."
-msgstr ""
-"Aprende sobre os diversos animais selvagens em todo o mundo e recordar onde "
-"vivem."
+msgstr "Aprende sobre os diversos animais selvagens do mundo e recorda onde vivem."
 
 #. Help manual
 #: activities/explore_world_animals/ActivityInfo.qml:27
@@ -10464,11 +10100,7 @@ msgid ""
 "the question mark, and learn about the animal, what its name is, and what it "
 "looks like. Study well this information, because you will be tested in level "
 "2."
-msgstr ""
-"No primeiro nível, os jogadores começam a explorar cada animal no ecrã. "
-"Carrega no ponto de interrogação e aprende sobre o animal, qual o seu nome, "
-"o som que faz e como é que se parece. Estuda bem esta informação, porque "
-"será testada no nível 2."
+msgstr "Na primeira etapa de cada mapa, carrega num ponto de interrogação para aprenderes o nome e o aspeto do animal e descobrires onde vive. Estuda esta informação para responderes às perguntas da segunda etapa."
 
 #: activities/explore_world_animals/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
@@ -10507,10 +10139,7 @@ msgid ""
 "Hedgehogs eat small animals, like frogs and insects, so many people keep "
 "them as useful pets. When in danger, they will curl up into a ball and stick "
 "up their coat of sharp spines."
-msgstr ""
-"Os ouriços comem pequenos animais, como os sapos e os insectos, pelo que "
-"muitas pessoas os usam como animais de estimação úteis. Em caso de perigo, "
-"enrolam-se como uma bola e espetam os seus espinhos afiados."
+msgstr "Os ouriços comem pequenos animais, como os sapos e os insetos, pelo que muitas pessoas os usam como animais de estimação úteis. Em caso de perigo, enrolam-se como uma bola e espetam os seus espinhos afiados."
 
 #: activities/explore_world_animals/resource/board/board1.qml:41
 #: activities/explore_world_animals/resource/board/board1.qml:44
@@ -10523,10 +10152,7 @@ msgctxt "board1|"
 msgid ""
 "The giraffe lives in Africa and is the tallest mammal in the world. Just "
 "their legs, which are usually 1.8 meters long, are taller than most humans!"
-msgstr ""
-"A girafa vive em África e é o mamífero mais alto do mundo. Só as suas "
-"pernas, que têm normalmente mais de 1,80 metros de comprimento, são maiores "
-"que a maioria dos humanos!"
+msgstr "A girafa vive em África e é o mamífero mais alto do mundo. Só as suas pernas, que têm normalmente 1,80 metros de comprimento, são maiores que a maioria dos humanos!"
 
 #: activities/explore_world_animals/resource/board/board1.qml:52
 #: activities/explore_world_animals/resource/board/board1.qml:55
@@ -10554,9 +10180,7 @@ msgctxt "board1|"
 msgid ""
 "Narwhals are whales that live in the Arctic Ocean and have long tusks. These "
 "tusks remind many people of the mythical unicorn's horn."
-msgstr ""
-"Os narvais são baleias que vivem no Oceano Árctico e têm chifres compridos. "
-"Esses chifres fazem lembrar a muita gente o chifre do mítico unicórnio."
+msgstr "Os narvais são baleias que vivem no oceano Ártico e têm uma longa presa. Esta presa faz lembrar o corno do mítico unicórnio."
 
 #: activities/explore_world_animals/resource/board/board1.qml:76
 msgctxt "board1|"
@@ -10640,10 +10264,7 @@ msgid ""
 "Being the largest of all the deers, the moose eats as much as 25 kg per day. "
 "However, it's not easy, so sometimes the moose has to stand on its hind legs "
 "to reach branches up to 4 meters!"
-msgstr ""
-"Sendo o maior de todos os veados, o alce come cerca de 25 kg por dia. "
-"Contudo, não é fácil, por isso às vezes o alce tem de se sustentar nas suas "
-"pernas finas para atingir os ramos até 4 metros de altura!"
+msgstr "O alce é o maior dos veados e come até 25 kg por dia. Por vezes, ergue-se sobre as patas traseiras para alcançar ramos a uma altura de até 4 metros!"
 
 #: activities/explore_world_animals/resource/board/board2.qml:76
 msgctxt "board2|"
@@ -10666,24 +10287,20 @@ msgctxt "board3|"
 msgid ""
 "The crocodile is a large amphibious reptile. It lives mostly in large "
 "tropical rivers, where it is an ambush predator."
-msgstr ""
-"Um crocodilo é um enorme réptil anfíbio. Vive principalmente nos grandes "
-"rios tropicais, onde actua como predador por emboscada."
+msgstr "Um crocodilo é um enorme réptil anfíbio. Vive principalmente nos grandes rios tropicais, onde atua como predador por emboscada."
 
 #: activities/explore_world_animals/resource/board/board3.qml:30
 #: activities/explore_world_animals/resource/board/board3.qml:33
 msgctxt "board3|"
 msgid "Komodo dragon"
-msgstr "Dragão de Comodo"
+msgstr "Dragão-de-komodo"
 
 #: activities/explore_world_animals/resource/board/board3.qml:31
 msgctxt "board3|"
 msgid ""
 "The Komodo dragon is the largest living lizard (up to 3 meters). It lives in "
 "the Indonesian islands."
-msgstr ""
-"O dragão de Comodo é o maior lagarto vivo (até 3 metros). Habita nas ilhas "
-"da Indonésia."
+msgstr "O dragão-de-komodo é o maior lagarto vivo (até 3 metros). Habita nas ilhas da Indonésia."
 
 #: activities/explore_world_animals/resource/board/board3.qml:41
 #: activities/explore_world_animals/resource/board/board3.qml:44
@@ -10704,16 +10321,14 @@ msgstr ""
 #: activities/explore_world_animals/resource/board/board3.qml:55
 msgctxt "board3|"
 msgid "Ring-tailed lemur"
-msgstr "Lemur de cauda-em-anéis"
+msgstr "Lémure-de-cauda-anelada"
 
 #: activities/explore_world_animals/resource/board/board3.qml:53
 msgctxt "board3|"
 msgid ""
 "The ring-tailed lemur is a primate that lives in the dry regions of "
 "southwest Madagascar. Its striped tail makes it easy to recognize."
-msgstr ""
-"O Lemur é um primata que vive nas regiões secas do Sudoeste de Madagáscar. A "
-"cauda às riscas torna-o fácil de ser reconhecido."
+msgstr "O lémure-de-cauda-anelada é um primata que vive nas regiões secas do Sudoeste de Madagáscar. A cauda às riscas torna-o fácil de ser reconhecido."
 
 #: activities/explore_world_animals/resource/board/board3.qml:63
 #: activities/explore_world_animals/resource/board/board3.qml:66
@@ -10726,9 +10341,7 @@ msgctxt "board3|"
 msgid ""
 "The panda is a bear with black and white fur that lives in a few mountain "
 "ranges in central China. Pandas mostly eat bamboo."
-msgstr ""
-"O Panda é um urso com pêlo preto-e-branco que vive em algumas regiões "
-"montanhosas da China central. Os pandas comem principalmente bambu."
+msgstr "O Panda é um urso com pelo preto e branco que vive em algumas regiões montanhosas da China central. Os pandas comem principalmente bambu."
 
 #: activities/explore_world_animals/resource/board/board3.qml:76
 msgctxt "board3|"
@@ -10814,10 +10427,7 @@ msgid ""
 "Aboriginals were the first people to live in Australia. They sing and play "
 "instruments, like the didgeridoo. It is made from a log and can be up to "
 "five meters long!"
-msgstr ""
-"Os aborígenes foram as primeiras pessoas a viver na Austrália. Eles cantam e "
-"tocam instrumentos como a tuba e a vuvuzela. É feita a partir de um tronco e "
-"pode ter até cinco metros de comprimento!"
+msgstr "Os aborígenes foram os primeiros habitantes da Austrália. Cantam e tocam instrumentos como o didgeridoo, feito a partir de um tronco e que pode atingir cinco metros de comprimento."
 
 #: activities/explore_world_music/resource/board/board1.qml:32
 #: activities/explore_world_music/resource/board/board1.qml:36
@@ -10830,16 +10440,13 @@ msgctxt "board1|"
 msgid ""
 "Music is a part of everyday life in Africa. African music features a great "
 "variety of drums, and they believe it is a sacred and magical instrument."
-msgstr ""
-"A música faz parte do dia-a-dia de todos os povos em África. A música "
-"africana oferece uma grande variedade de tambores, sendo que acreditam que é "
-"um instrumento sagrado e mágico."
+msgstr "A música faz parte do dia a dia de todos os povos em África. A música africana oferece uma grande variedade de tambores, sendo que acreditam que é um instrumento sagrado e mágico."
 
 #: activities/explore_world_music/resource/board/board1.qml:44
 #: activities/explore_world_music/resource/board/board1.qml:48
 msgctxt "board1|"
 msgid "Middle East"
-msgstr "Médio-Oriente"
+msgstr "Médio Oriente"
 
 #: activities/explore_world_music/resource/board/board1.qml:45
 msgctxt "board1|"
@@ -10847,11 +10454,7 @@ msgid ""
 "Music is a very important part of middle eastern culture. Specific songs are "
 "played to call worshipers to prayer. The lute is an instrument invented "
 "thousands of years ago and still in use today."
-msgstr ""
-"A música é uma parte muito importante na cultura do Médio-Oriente. Algumas "
-"músicas são tocadas para chamar os fiéis às orações. O alaúde é um "
-"instrumento inventado há milhares de anos e que continua ainda a ser usado "
-"hoje em dia."
+msgstr "A música é uma parte muito importante na cultura do Médio Oriente. Algumas músicas são tocadas para chamar os fiéis às orações. O alaúde é um instrumento inventado há milhares de anos e que continua ainda a ser usado hoje em dia."
 
 #: activities/explore_world_music/resource/board/board1.qml:56
 #: activities/explore_world_music/resource/board/board1.qml:60
@@ -10865,11 +10468,7 @@ msgid ""
 "Taiko drumming comes from Japan. This type of drumming was originally used "
 "to scare enemies in battle. It is very loud, and performances are very "
 "exciting with crowds cheering and performers yelling!"
-msgstr ""
-"A percussão com o Taikô vem do Japão. Esse tipo de percussão era usado "
-"originalmente para assustar os inimigos nas batalhas. O seu som é bastante "
-"alto e os espectáculos são muito excitantes com a multidão a bater palmas e "
-"os artistas aos gritos!"
+msgstr "A percussão com o Taikô vem do Japão. Esse tipo de percussão era usado originalmente para assustar os inimigos nas batalhas. O seu som é bastante alto e os espetáculos são muito excitantes com a multidão a bater palmas e os artistas aos gritos!"
 
 #: activities/explore_world_music/resource/board/board1.qml:68
 #: activities/explore_world_music/resource/board/board1.qml:72
@@ -10900,17 +10499,13 @@ msgid ""
 "Italy is famous for its Opera. Opera is a musical theater where actors tell "
 "a story by acting and singing. Opera singers, both male and female, learn "
 "special techniques to sing operas."
-msgstr ""
-"A Itália é conhecida pela sua ópera. A ópera é um teatro musical onde os "
-"actores contam uma história, interpretam papéis e cantam. Os cantores de "
-"ópera, homens ou mulheres, aprendem técnicas especiais para cantarem em "
-"óperas."
+msgstr "A Itália é conhecida pela sua ópera. A ópera é um teatro musical onde os atores contam uma história, interpretam papéis e cantam. Os cantores de ópera, homens ou mulheres, aprendem técnicas especiais para cantarem em óperas."
 
 #: activities/explore_world_music/resource/board/board1.qml:92
 #: activities/explore_world_music/resource/board/board1.qml:96
 msgctxt "board1|"
 msgid "European Classical Music"
-msgstr "Música Clássica Europeia"
+msgstr "Música clássica europeia"
 
 #: activities/explore_world_music/resource/board/board1.qml:93
 msgctxt "board1|"

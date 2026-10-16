@@ -1,0 +1,116 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/build/functional-exploration/runtime-snapshot/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-72e55b2962cc4476a282cdff5accc8df/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-72e55b2962cc4476a282cdff5accc8df/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-72e55b2962cc4476a282cdff5accc8df/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-72e55b2962cc4476a282cdff5accc8df/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-72e55b2962cc4476a282cdff5accc8df/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-72e55b2962cc4476a282cdff5accc8df/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-72e55b2962cc4476a282cdff5accc8df/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-72e55b2962cc4476a282cdff5accc8df/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-72e55b2962cc4476a282cdff5accc8df/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity explore_farm_animals/ExploreFarmAnimals.qml at level -1
+qml: explore_farm_animals/ExploreFarmAnimals.qml explore_farm_animals/ExploreFarmAnimals.qml
+No audio device detected
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+notifyAudioVoices:  true
+notifyAudioEffects:  true
+No audio device detected
+No audio device detected
+No audio device detected
+No audio device detected
+No audio device detected
+[vorbis @ 0x7ee2dc0b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+No audio device detected
+No audio device detected
+[vorbis @ 0x7ee2dc0b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x7ee2dc0b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x7ee2dc0b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x7ee2dc0b5e40] Could not update timestamps for discarded samples.
+qml: NATIVE_RESULT {"failures":1,"passes":1,"pages":[{"map":1,"title":"Cavalo","description":"O cavalo relincha. Os cavalos estão treinados para correr, permitindo-lhe fugir rapidamente aos predadores, tendo um sentido de equilíbrio excelente. Têm cascos únicos por cada pata.","image":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/horse.webp","mapImage":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/farm-animals.svg","x":0.258125,"y":0.446875,"audio":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/horse.ogg"},{"map":1,"title":"Galinha","description":"A galinha faz 'có-có-ró'. As galinhas domésticas têm asas, mas não conseguem voar a longas distâncias. Têm uma crista na cabeça.","image":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/chicken.webp","mapImage":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/farm-animals.svg","x":0.651875,"y":0.726875,"audio":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/chickens.ogg"},{"map":1,"title":"Vaca","description":"A vaca faz 'mú'. As vacas têm um campo de visão amplo de 330°. Têm um sentido de paladar bem desenvolvido, com cerca de 20 000 amostras de sabor. Eles consegue detectar odores a 8km de distância.","image":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/cow.webp","mapImage":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/farm-animals.svg","x":0.446875,"y":0.469375,"audio":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/cow.ogg"},{"map":1,"title":"Gato","description":"O gato faz 'miau'. Os gatos são reconhecidos pelos humanos pela capacidade de fazerem companhia e de conseguirem perseguir ratos e outros roedores. Eles ronronam para comunicar várias emoções.","image":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/cat.webp","mapImage":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/farm-animals.svg","x":0.226875,"y":0.636875,"audio":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/cat.ogg"},{"map":1,"title":"Porco","description":"O porco faz 'óinc'. Os porcos esfregam-se na lama, principalmente para controlar a sua temperatura corporal.","image":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/pig.webp","mapImage":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/farm-animals.svg","x":0.409375,"y":0.613125,"audio":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/pig.ogg"},{"map":1,"title":"Pato","description":"O pato faz 'quá-quá'. Os patos são principalmente pássaros aquáticos. Têm penas à prova de água e patas com membranas que lhes permitem nadar na água.","image":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/duck.webp","mapImage":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/farm-animals.svg","x":0.37125,"y":0.749375,"audio":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/duck.ogg"},{"map":1,"title":"Coruja","description":"A coruja faz 'hu, hu'. As corujas são animais nocturnos, pelo que têm uma visão e audição excelentes à noite.","image":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/owl.webp","mapImage":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/farm-animals.svg","x":0.7875,"y":0.40125,"audio":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/owl.ogg"},{"map":1,"title":"Cão","description":"O cão faz 'ão'. Os cães são provavelmente a espécie domesticada mais antiga. Eles são descendentes dos lobos.","image":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/dog.webp","mapImage":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/farm-animals.svg","x":0.7725,"y":0.590625,"audio":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/dog.ogg"},{"map":1,"title":"Ovelha","description":"A ovelha faz 'méé'. A maioria das raças possui uma camada de lã. A lã poderá ser tosquiada e usada para produzir fibras têxteis.","image":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/sheep.webp","mapImage":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/farm-animals.svg","x":0.605625,"y":0.568125,"audio":"qrc:/gcompris/src/activities/explore_farm_animals/resource/animals/sheep.ogg"}],"evidence":{"initial":{"map":1,"stage":1,"totalStages":3,"totalMaps":1},"spots":9}}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs

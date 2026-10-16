@@ -1,0 +1,12 @@
+*
+!.gitignore
+!README.md
+!source-facts.md
+!portable-verification.json
+!verification.json
+!archive/
+!archive/**
+!supplement-archive/
+!supplement-archive/**
+!supplement2-archive/
+!supplement2-archive/**

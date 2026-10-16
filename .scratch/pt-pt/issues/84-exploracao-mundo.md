@@ -1,7 +1,7 @@
 # Concluir atividades de exploração do mundo
 
 Status: ready-for-agent
-Progress: open
+Progress: claimed
 Type: task
 Blocked by: 02, 25
 
@@ -34,5 +34,18 @@ saída existente antes de qualquer escrita e provar que preserva todos os bytes.
 Descodificação de áudio não significa audição humana. A aprovação das32vozes
 só abrange os ficheiros e textos do manifesto aprovado; não aprova automaticamente
 música, gravações antigas, pronúncia, hardware ou todas as vozes. Os dois pares
-legados da tarefa44 continuam pendentes e não devem ser aplicados neste lote.
-Windows10/11, equipamento, audição, revisão docente e aceitação global pendentes.
+legados da tarefa 44 continuam pendentes e não devem ser aplicados neste lote.
+Windows 10/11, equipamento, audição, revisão docente e aceitação global pendentes.
+
+## Comments
+
+Implementação preparada para revisão em `work/pt-world-exploration`.
+As quatro campanhas Linux cobrem 14 mapas, 98 apresentações, 116 perguntas,
+16 grupos de erro/reparação e 30 avanços naturais. Três cápsulas imutáveis
+preservam 24 execuções selecionadas e 9 pares idênticos antes/depois.
+O catálogo tem 86 mensagens revistas; regras e modelos de respostas não mudam.
+Provas, limites e comandos: [functional-exploration/README.md](../functional-exploration/README.md).
+A aprovação 32 não abrange nenhum dos 30 sons observados. Audição humana,
+Windows 10/11, equipamento escolar e revisão docente continuam pendentes.
+A tarefa 44 e o mapa/CSV de cobertura não foram alterados.
+Progress permanece claimed até à revisão independente e integração.

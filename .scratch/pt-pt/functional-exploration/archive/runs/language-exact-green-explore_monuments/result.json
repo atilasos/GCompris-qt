@@ -1,0 +1,1301 @@
+{
+  "resource_snapshot": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/build/functional-exploration/runtime-snapshot",
+  "resource_manifest_sha256": "9fed3058731e4c550227039e5f82bca160f03e0b198ac7b0e2b4f23637468a1a",
+  "resource_files_sha256": {
+    "bin/gcompris-qt": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+    "lib/qml/Box2D.2.0/libqmlbox2d.so": "783cccd77278ff33d8889c739816df82d5978359f02f7a4d760e9299a4183a8a",
+    "lib/qml/Box2D.2.0/qmldir": "66e2de0d9bf5d1ee4632411b6715a695a49174c8c1dfd5ed96cbc6e12c01e4da",
+    "share/gcompris-qt/rcc/activities.rcc": "3774bd95fab7e9503b2b43356dad85f756ed088c304382164de0f59fb8ba0a80",
+    "share/gcompris-qt/rcc/activities_light.rcc": "c1a2aa341e301fecfa4838d8bb8a374d091bd4bb54f84b3c27497bf7ec6c60f8",
+    "share/gcompris-qt/rcc/adjacent_numbers.rcc": "9046b3d986bbfe31d1d6667c0b2b67a7c026a747b8ffb055576feff5e0edb4c9",
+    "share/gcompris-qt/rcc/advanced_colors.rcc": "a94b2cfb7b559ae8b4b208e5dcf33146150217c9b680dc5fefff15299085dee3",
+    "share/gcompris-qt/rcc/algebra_by.rcc": "1d900c6b0898d8b92bfe298ad999c8d000a599ef5762309ede15aa15f52be61a",
+    "share/gcompris-qt/rcc/algebra_div.rcc": "9429c5cf1c40db51a4dd38d2cbf718039638f1b931e6f3cc80f253b66cb0e207",
+    "share/gcompris-qt/rcc/algebra_minus.rcc": "676f80b0cae6585a6967f148cdc1f97358e104e3bde8a202ccfa5393f20783b1",
+    "share/gcompris-qt/rcc/algebra_plus.rcc": "0eb556271965b1020fc7a681e49146159b635f7c47ac180a26dedd5f0c0d428b",
+    "share/gcompris-qt/rcc/algorithm.rcc": "34bd3ca760460d8e924ebd7109a60d38f4e1fab3f29b7ee9b372dbdbb7bbe170",
+    "share/gcompris-qt/rcc/align4.rcc": "cc2cb3fe4ed51b0c05fb9fd6aff948496b01d6153bb031a66d15ed1c0c093da7",
+    "share/gcompris-qt/rcc/align4_2players.rcc": "a083710ed06ea6da6d10aac7ae0553d56e95ee55b700d0ea6770e5d4da8deccc",
+    "share/gcompris-qt/rcc/alphabet-sequence.rcc": "6428ba5a3d220f92941556596f9eaeb4352b53dab59a01c40621b828c6324442",
+    "share/gcompris-qt/rcc/analog_electricity.rcc": "1f0c894a9c312cedca10a8bd3fe8ac3414d79fe0d31614983b59545d19d0be3c",
+    "share/gcompris-qt/rcc/baby_keyboard.rcc": "66b25f82c4552b2c6191a311df7f85da3f56a23e755aeb1427dde3b0cf50a6bc",
+    "share/gcompris-qt/rcc/baby_mouse.rcc": "7ed9d7d6ddab114748b21c650405a885bd7302fa997d2de5c7fb5e7e2ecb3341",
+    "share/gcompris-qt/rcc/baby_tangram.rcc": "ac16edcdcfe49f25763befcc85c9881d2ed7743466391ec451e391918514a778",
+    "share/gcompris-qt/rcc/baby_wordprocessor.rcc": "175f18dbcdb21743c348a74784cff79cb9110d1a05245ad7dcced7c6d8343858",
+    "share/gcompris-qt/rcc/babymatch.rcc": "dc4e6580490c6e59c1d2b88f3dbf74b14a10ad2161820f70f4ef5996db7bf014",
+    "share/gcompris-qt/rcc/babyshapes.rcc": "ae0ff04c596cf8fc36c9e8e82382c05e3e6a7e7c3a9afae77556a860ddd2476c",
+    "share/gcompris-qt/rcc/balancebox.rcc": "0464518849018f0b44aea6ffbace1217223e97477621e3467357e57248005bc6",
+    "share/gcompris-qt/rcc/ballcatch.rcc": "de9713e44fb1958859156bb0a91a89ab770c88eabf91e1fb457f2e27654c07f0",
+    "share/gcompris-qt/rcc/bargame.rcc": "6a175517247b9c70a2208b40f3e8c922cc2c83ee761073bbee7232236bb77116",
+    "share/gcompris-qt/rcc/bargame_2players.rcc": "350050ccd3bde3c582493a1195832583e59d4c801d476eb125f88e81a4a3f620",
+    "share/gcompris-qt/rcc/binary_bulb.rcc": "9d947ec68d51c075e711d9f6c769b76499483287f13eae45596580758ff2ae4e",
+    "share/gcompris-qt/rcc/braille_alphabets.rcc": "e5e9f5ba89ebeb33d6848e3e73716b9615c53480b612f471fd56ba6af38995d8",
+    "share/gcompris-qt/rcc/braille_fun.rcc": "9cacb05a12445b736b6ad649cc2b9fd009ab7722055ffc4281026e1925252600",
+    "share/gcompris-qt/rcc/calcudoku.rcc": "2584df29260795285c1afe4ec10fdb8155f68916bc42228240cf0d2f332868ce",
+    "share/gcompris-qt/rcc/calendar.rcc": "89078fc5208272e59f9615462bfa44945a244e59f815d4893289cfe000045ecf",
+    "share/gcompris-qt/rcc/canal_lock.rcc": "a874e989a1cc0f1dde646084a759c33a43319b1efda58327412744a43345cce4",
+    "share/gcompris-qt/rcc/categorization.rcc": "7c5773426732705615202ae412a2f7606a00954c229149113c19583fd646f04e",
+    "share/gcompris-qt/rcc/checkers.rcc": "235e16cc00112798ed3c9eea29d331759f91bf84416d55da61427b2734b70750",
+    "share/gcompris-qt/rcc/checkers_2players.rcc": "c6a8c44ca10eeef3172d6ff503659ffd27ff5afd94c3c10ce200b42de52cb8a4",
+    "share/gcompris-qt/rcc/chess.rcc": "eaef09810e17973771b0fbb21df9391d761852a9ce9ded4147e8c695829e5a8c",
+    "share/gcompris-qt/rcc/chess_2players.rcc": "6cf3bbed408c8aa672a7134ab768a2a4d2deb8f9f642384c03296e594fbe7b2b",
+    "share/gcompris-qt/rcc/chess_partyend.rcc": "39c71a1c53f48bd2313494869679c2f84871fab1683aebd9081cee9921dd11ef",
+    "share/gcompris-qt/rcc/chronos.rcc": "7602b4fc27be782d41f0fda11c68165fc64060e8e129195de20a20eb24ceb734",
+    "share/gcompris-qt/rcc/click_on_letter.rcc": "13c004e6f6e96ef017b5ca1fc3a50069d982c054bebcf0ee6edd5263f346d8ff",
+    "share/gcompris-qt/rcc/click_on_letter_up.rcc": "138b06e850eb392af30c79abad111088b32bafe4ad4b386941f2b57530bfb5ad",
+    "share/gcompris-qt/rcc/clickanddraw.rcc": "6ce925fbc0cea4106a33742ff242c67f987d4a53329a3338548e7ec7e3c7a28b",
+    "share/gcompris-qt/rcc/clickgame.rcc": "8d5930fbf163b86b9a2b3fb1e4a457b2a3b6254321aef1048bc9686f511dc442",
+    "share/gcompris-qt/rcc/clockgame.rcc": "85d2ff0a5a960be8fee21e702fa55f20add4c0e44e379df805337c8393442a92",
+    "share/gcompris-qt/rcc/color_mix.rcc": "82240abec0988de5590cce21fb5ed1fb0b940a9c172b313aa32dd5ddca59617c",
+    "share/gcompris-qt/rcc/color_mix_light.rcc": "78bfb718556f431119f6aa7ff79b32a0591573cf15ab25371160aaca2487e06d",
+    "share/gcompris-qt/rcc/colors.rcc": "919afdefdfce636e74c06e37b3fead9f7bf02a9f2c5e56a2d6d757cb1fe768bc",
+    "share/gcompris-qt/rcc/comparator.rcc": "bd38f97cc57bd85e634d3f146dc324408b59bdf0e3668bde9eda66e2e40482ae",
+    "share/gcompris-qt/rcc/compass.rcc": "d6d418f4e63318f3a3142f050cd3e0e83d8c0a2beaa6ccff5e6be76b02c0fb7b",
+    "share/gcompris-qt/rcc/core.rcc": "4c40f1dd1ef1169d78084c2f62655627dab02d4051e6dec9efd494a51191bacb",
+    "share/gcompris-qt/rcc/crane.rcc": "7d53719c095ba74d3b3a4ae0add6564401e8561051727d5a2896347e14c91bf2",
+    "share/gcompris-qt/rcc/data3/Contents": "48dceb5c4f548cb79aa34125e5ac34e709b76f8613f5bcc166bb2dd97de7c399",
+    "share/gcompris-qt/rcc/data3/backgroundMusic/Contents": "71c12726969fb9cdfbf0b0216fe3d7fad70f184fbd9111799a493afac3e4907a",
+    "share/gcompris-qt/rcc/data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc": "66187620c25dffefec8b243b66714af85235b77efaf98b6a7a4ce15c7b3bc852",
+    "share/gcompris-qt/rcc/data3/full-ogg-2026-09-23-18-56-49.rcc": "1897ce40d9114cc467db8389a75acfe1d095b36fdbd7be98e537284dc0134568",
+    "share/gcompris-qt/rcc/data3/voices-ogg/Contents": "ed0e6b6d5a5d36227124a8e4fbde4b442981c8678bbb396d853a167136155484",
+    "share/gcompris-qt/rcc/data3/voices-ogg/additions-manifest.json": "7b877e58376bbbbe4c900446f9345e091aa68ab903d56ce4859f24919905170e",
+    "share/gcompris-qt/rcc/data3/voices-ogg/completion.json": "ef6d56a92677220cb92940fde80b9f737d8efe6673553524d79d493cb24da87e",
+    "share/gcompris-qt/rcc/data3/voices-ogg/pt-pt-additions-NOTICE.md": "b7fbecbcc371546924329334a58f160750a795509b8eef15c5c4df21c1a4cc4b",
+    "share/gcompris-qt/rcc/data3/voices-ogg/voices-pt-2026-09-23-18-56-49.rcc": "522d05bcf421e3cee2fdebf7ba9469ff294a69b61d629464283855297e006b8f",
+    "share/gcompris-qt/rcc/data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc": "4887e4a8c7112e6b744829c82a3476a9f322a593173d17c3b7e369fad21528ee",
+    "share/gcompris-qt/rcc/data3/words/Contents": "dbec314d2c1abc25132135e794c5e1ff06afae89ddda6dc86395435008294574",
+    "share/gcompris-qt/rcc/data3/words/words-webp-2022-04-10-21-14-15.rcc": "1e032186d2d900da803958648c8882fffe02a29295b55af10f8dd7b8061febb3",
+    "share/gcompris-qt/rcc/details.rcc": "ba9ce969980f00f501eeed12ef6201f64753b032be7c3a7e8a8f5c637e1805d8",
+    "share/gcompris-qt/rcc/digital_electricity.rcc": "504416dac3f63b328aa4e4deb381fd89633c9ac5c43eca87718b27585abaf341",
+    "share/gcompris-qt/rcc/drawing_wheels.rcc": "a0aefd7d7c115fd26ad59457fd2f75734a54d51ecfbb1750f22f262b293c5b34",
+    "share/gcompris-qt/rcc/drawletters.rcc": "152e9109312fb2670d0c27c3c544abd37991c6cb4c0cad737343a6c16c17df15",
+    "share/gcompris-qt/rcc/drawnumbers.rcc": "172077c27869aa202e2f37cdf9f99831ec7d16d0812355f4f19cf54b599e96cc",
+    "share/gcompris-qt/rcc/enumerate.rcc": "2488a716987b18b7a79b84a986867257c19355aa531bff82df9ae512702a1789",
+    "share/gcompris-qt/rcc/erase.rcc": "b97fe819f1a1a5dad557e8269d1d5d8cce0ae555d4da7cde7a596e9e0325d2fe",
+    "share/gcompris-qt/rcc/erase_2clic.rcc": "5782fc8368be309ea6952468baf5894040f02fb30921f8bf812262b080cbd916",
+    "share/gcompris-qt/rcc/erase_clic.rcc": "ad561779f3242a3a3d612e2faf5ea81de959a0a6236dd2d1def07b609381de05",
+    "share/gcompris-qt/rcc/explore_farm_animals.rcc": "a0b52297fc616c915c5d501febfc570a0bd9c06c1ff1f9c681439e6c1d426284",
+    "share/gcompris-qt/rcc/explore_monuments.rcc": "4c83dc5476a90ca368855af7ad4d9f3be8e2b04626f6da60795b45a3b195cf7b",
+    "share/gcompris-qt/rcc/explore_world_animals.rcc": "4416432f9fbc8a6fd6272744a4e51ebc00443e995bfe0f4186a24bd3a097e79a",
+    "share/gcompris-qt/rcc/explore_world_music.rcc": "f834af15ecc229b38d2b0bb6f730a7da815cf8ac87adffdc31e1ebffa4eb018f",
+    "share/gcompris-qt/rcc/family.rcc": "fcce306eb020082a425fa4c6ec860b6c30a8f478a91761896ae947a659d21e2b",
+    "share/gcompris-qt/rcc/family_find_relative.rcc": "17b23e6c298ab0642320729eccc1f2c332c03431c5915fff93b2a91dfabaf7a4",
+    "share/gcompris-qt/rcc/fifteen.rcc": "6e7c3f7f73facc8b03e0ed6d134ce0fac8ad7034c21fc554143a99869d6a9a8f",
+    "share/gcompris-qt/rcc/find_the_day.rcc": "7b86aea90e4d89dfccdd8961dcaa85cc92c7ec3db660ce3b3e42fef1339884a8",
+    "share/gcompris-qt/rcc/followline.rcc": "05a0ef90b1c2a9d7bfabbeea0013bed23f9570d9a63cf2898ee96e5d0b70d06d",
+    "share/gcompris-qt/rcc/football.rcc": "d5ae26cdaa62ec78701213b9a24dde69b4290d98abb0eb1b4d9ae41313658ff0",
+    "share/gcompris-qt/rcc/fractions_create.rcc": "873099f6957d458677aa57c506b07bc7abe37303772381cb37822d59a0d7d3ac",
+    "share/gcompris-qt/rcc/fractions_find.rcc": "f662f71624d373f0b373dd88da445b46d7e61c71c86fcfac7a0f7e1917c9ae30",
+    "share/gcompris-qt/rcc/frieze.rcc": "5be58978963b198701207e587e813eb4698497338a26235c229bd8600a9e7639",
+    "share/gcompris-qt/rcc/geo-country.rcc": "8d32669b84431070dfaa3263b0a63fecb8c6d42d1330e51ab1f68214ea7da714",
+    "share/gcompris-qt/rcc/geography.rcc": "185153b90514128d9ab75d893a44465ee941eef49ffc036daf679ab2a8cddd71",
+    "share/gcompris-qt/rcc/gletters.rcc": "6b49fb32ce5c57e9b07cf69d6d0b0de8c1b8657b82c25a792685b99001c5da1b",
+    "share/gcompris-qt/rcc/gnumch-equality.rcc": "1b5e31dc168a9ff951b4a751c7dabaed38480c808eac4bef59f2dbfb64f7128e",
+    "share/gcompris-qt/rcc/gnumch-factors.rcc": "89c399c07c56651d78544d298826a301ad8a027f6a11d0a9bf29b68745e9385a",
+    "share/gcompris-qt/rcc/gnumch-inequality.rcc": "e1e14201340333e21785a5017ecdbd2ef1cb36f7f5d3738995a469629345fc86",
+    "share/gcompris-qt/rcc/gnumch-multiples.rcc": "e63a71e2ab584e03090f44d47acc1541d6e1b3d48e917c377cb9b2b3e101339d",
+    "share/gcompris-qt/rcc/gnumch-primes.rcc": "cc805a2f235ebac8b1ec91e4d2e57d45e7ed600bd0028b742352f927d5e7c76b",
+    "share/gcompris-qt/rcc/graduated_line_read.rcc": "6d285337400f10daf25181c7cb73fd852095a4cf0ef4c89dc109d76a525758c6",
+    "share/gcompris-qt/rcc/graduated_line_use.rcc": "723b985ee9a1b0a1a0606e9d707d40b521d5b23eb0b832bfcea44e847ad6dbb3",
+    "share/gcompris-qt/rcc/grammar_analysis.rcc": "22321a2f354cec5149e9c64228d31b444a54a92f782745d9f2b468bb7141b092",
+    "share/gcompris-qt/rcc/grammar_classes.rcc": "389bb44c8978c66cefc49ebf2d82f5df07a5ba334a458a6a522775dd74c7d6cd",
+    "share/gcompris-qt/rcc/graph-coloring.rcc": "dab9115b8b6da53bbe3bda262a0b35e06685b39f5b00aafa1934ee55cde50f89",
+    "share/gcompris-qt/rcc/gravity.rcc": "c08c0ba69669fe1808065db91efd726e2c0379dbfc65d789499d377f8b83c528",
+    "share/gcompris-qt/rcc/guess24.rcc": "e0df3e34a7a1a2711e1d6ad0a9fb67453a6adbca9a8f659eeea3762618a0bb66",
+    "share/gcompris-qt/rcc/guesscount.rcc": "6acbe79c57816e17605c8be2583821635ea4af990c15beb7364d14a3c30a783e",
+    "share/gcompris-qt/rcc/guessnumber.rcc": "25519d60945525c937b3a0a48f7d0f1a2ee26a4ccf9b0825f011ff9fbda3bf3b",
+    "share/gcompris-qt/rcc/hangman.rcc": "3f07620980764f281f38a56dab9e0feffd91fbe9a2aed8b1f73865703c0054fc",
+    "share/gcompris-qt/rcc/hanoi.rcc": "13e255839579562dc4fd444acb7c0de98be65a45bda52938d2768a551178af22",
+    "share/gcompris-qt/rcc/hanoi_real.rcc": "cf027d0f08fcf0fe84d7118db47d08f75baa85ac5a0a30409256685fb3a9a3f2",
+    "share/gcompris-qt/rcc/hexagon.rcc": "ac53b86ed6d903ba340b5f72ea1c73b6ecca91dc07454c69821a1dabd60a9fb1",
+    "share/gcompris-qt/rcc/imagename.rcc": "a209738e0b9c643115a6bb6b5ebde5fa2b78b42d2b8f1e0f403dd69da4494d24",
+    "share/gcompris-qt/rcc/instruments.rcc": "78ec370fefe98f46a49d2eacd0cd71dd6a40ea48cdd86435d596aaf3d1f4d784",
+    "share/gcompris-qt/rcc/keyboard_training.rcc": "59bbc7178f28c7fd220f8539bebc3edab819c082f8dd4fbb34cb5f2856312e72",
+    "share/gcompris-qt/rcc/land_safe.rcc": "8fab1223d0688989ec60ba90b81d80424507b94ed2cea19322dc3e86d400aedd",
+    "share/gcompris-qt/rcc/lang.rcc": "9ac687a63f9488c5f282d6d8af45d9e7941f77f3e9452c6e83831ff2101c689e",
+    "share/gcompris-qt/rcc/learn_additions.rcc": "38043931e3a252dd10bb5408776778542ace960b491c1e68905e268a4eaaf049",
+    "share/gcompris-qt/rcc/learn_decimals.rcc": "a31728729861bd1016677234efa29487114b27841b18f1a9f20f5fc7345d94a6",
+    "share/gcompris-qt/rcc/learn_decimals_additions.rcc": "01a569ae636f7c43c6a5d830234438fd141fd0973cec670176c9d02fe938742d",
+    "share/gcompris-qt/rcc/learn_decimals_subtractions.rcc": "5eb924577e9f5936346f088b68eeebd204e8e916171b90a4870bb7eafc66078f",
+    "share/gcompris-qt/rcc/learn_digits.rcc": "6de2ef524f260e8d2cf639ef46b8716473fac778335f4985b4bed10968852615",
+    "share/gcompris-qt/rcc/learn_quantities.rcc": "72eb733f70e32eda53bf53b4d5b2884780803fd2138640c4896fcc895bf44898",
+    "share/gcompris-qt/rcc/learn_subtractions.rcc": "07c970922e26edcb68982a8465d4c82116bb61e36d97e1ad63571b26b172b686",
+    "share/gcompris-qt/rcc/left_right_click.rcc": "0da9c8f17f7289a408862e0d2723cb2ca3404d1aadb767336c40e2b96cdd7b31",
+    "share/gcompris-qt/rcc/leftright.rcc": "fc0b4b4f996883fb52dd926ba881386a178d13cc061f2b088fb06504e54117c3",
+    "share/gcompris-qt/rcc/letter-in-word.rcc": "8473e2acf6b8ab65cb546a5fd179d1865a3ba2f77d5a47ff7e2dc98ebfef87e1",
+    "share/gcompris-qt/rcc/lightsoff.rcc": "4122680ac2f12450080b06cfbf6f1265e7ce6065777c6bef07f819eceda06864",
+    "share/gcompris-qt/rcc/louis-braille.rcc": "8359e1b1a38a20a7de24c58f0871dbe8678e055951158d8fa7cd07099247b921",
+    "share/gcompris-qt/rcc/magic-hat-minus.rcc": "ce2a2be38462fbf0879b88266da86415c702ed642cbd024128cdb748bc3b8412",
+    "share/gcompris-qt/rcc/magic-hat-plus.rcc": "022ab561c01366270631c3d8173d38fb793d3924855a07ca8aa911b9ac428e70",
+    "share/gcompris-qt/rcc/maze.rcc": "5c37aed9ad2cd66704c9be197b4cdb38e8aca07d53f5b48afe24bab2127180a3",
+    "share/gcompris-qt/rcc/mazeinvisible.rcc": "ced9bdda3a5f688f0ea9544c4c2272685a64b5ed0f67a88365df9cac6eb757f0",
+    "share/gcompris-qt/rcc/mazerelative.rcc": "c75383a22fff5420fc98c0a776db4d4ab12138b465e486aa882a99d284dad36e",
+    "share/gcompris-qt/rcc/melody.rcc": "45c8ee01cc2e43ef87dddd0f272d83a4c48e686d761edf2ecb36352d9e3aef35",
+    "share/gcompris-qt/rcc/memory-case-association-tux.rcc": "e63d73eaf1ae2edc73fd3d0406f52d5ec7254965edd677e2a44c59ba827849f1",
+    "share/gcompris-qt/rcc/memory-case-association.rcc": "8b83fbd0cdde11674b0c14789bda39d19b01c0ebd1876818a89956a15f1b8b42",
+    "share/gcompris-qt/rcc/memory-enumerate.rcc": "553b58ba814b55c6fe9f73e1e75ba7bcc76976a675b3ce9aafa36ad9ff821e15",
+    "share/gcompris-qt/rcc/memory-math-add-minus-mult-div-tux.rcc": "5a41412982260149a171c3af0b08d95a1c93b5e7703a6385b435ad811e14c9a8",
+    "share/gcompris-qt/rcc/memory-math-add-minus-mult-div.rcc": "57b868b355d51a98616b603df41d5703cebb163c918927deeec3706c289edcd6",
+    "share/gcompris-qt/rcc/memory-math-add-minus-tux.rcc": "6b09aa5d8182476766d4f174ac711207814234a933583e236d68cb1c11d5647f",
+    "share/gcompris-qt/rcc/memory-math-add-minus.rcc": "cc914dfb0c06b1cd0b956360209a1798b76f67f05ddbb8dcfa107e145b0992ad",
+    "share/gcompris-qt/rcc/memory-math-add-tux.rcc": "e7884f4b4eb03454c940cc84611f174c8c2cb6232cf5ba6521632a6fc81723d5",
+    "share/gcompris-qt/rcc/memory-math-add.rcc": "1d82c6083cffbb359a270dc08036acc8c38dbab7de6768f9a2df09b3c55c12b2",
+    "share/gcompris-qt/rcc/memory-math-div-tux.rcc": "ed028db38544a3d64cc9cd4d110a61f69c56cfac5d215f2502a8695d10ad94d2",
+    "share/gcompris-qt/rcc/memory-math-div.rcc": "eec3c16d8c612f6eedd190424a2cdb56582a33c0b5fa38eefde4688fdee74c9b",
+    "share/gcompris-qt/rcc/memory-math-minus-tux.rcc": "acc73508d91dc884958820c93f93316169023543f8e4004571cfdfc3d1cc5a32",
+    "share/gcompris-qt/rcc/memory-math-minus.rcc": "000b1f3390fc879d0a5ef5761f1d0c6d028fb4db1ef925a97b23447c5a232135",
+    "share/gcompris-qt/rcc/memory-math-mult-div-tux.rcc": "7cce1caed1ce08e87bc92385a8597e41e570f99f321269cb43680e69585a7bd2",
+    "share/gcompris-qt/rcc/memory-math-mult-div.rcc": "0d9436588b1c13d25a94078f85cc4dd7c5427813e242edfd8d51dbe45d0b8003",
+    "share/gcompris-qt/rcc/memory-math-mult-tux.rcc": "5bdc996ecc31a8aba7bab7807cec2426ba7b123e14704536def522de81c31fd9",
+    "share/gcompris-qt/rcc/memory-math-mult.rcc": "50f08a4dd5d2258a0e1a97b922b779107c441f3a767ae82d430d5ea2fabfa59f",
+    "share/gcompris-qt/rcc/memory-sound-tux.rcc": "f6b72d5380a205ac8f51d9a055aaaa7ea68c9f1770b4fa6d280e6beec78d17ac",
+    "share/gcompris-qt/rcc/memory-sound.rcc": "ae8bdc68bc12475ad4523000c66867c405a1a4d7b653e488abd3eda9913dd637",
+    "share/gcompris-qt/rcc/memory-tux.rcc": "8642fdae2645b7d254c67ccb9ef99978a8ba4f70e6948acb90a78d265cd704f8",
+    "share/gcompris-qt/rcc/memory-wordnumber.rcc": "085550c8417e68db517f6bde33d19275ed48c7bdf85b951d90d171834b4acdf7",
+    "share/gcompris-qt/rcc/memory.rcc": "ef45600bb60b07b82ac6bca2b28c5a209991de49de656c2c0e03c11097eb94e7",
+    "share/gcompris-qt/rcc/menu.rcc": "e4a6eba32107fe1edaf48d21dfa3c5acf3f876aaa62d991bc016c15f59f56c43",
+    "share/gcompris-qt/rcc/mining.rcc": "510a6906e26fbfa26d87bc062bba826172a7bdf438c5e64373fe08af8838ff50",
+    "share/gcompris-qt/rcc/missing-letter.rcc": "d27c3af03ce65765555321c8e5a02994ddabddf0abbdce32f49419fa239fe5a7",
+    "share/gcompris-qt/rcc/money.rcc": "879a18c50e51fae765859acb4b51e6ba3f5a0bd8faadbcfc6ed562bce5e4fba4",
+    "share/gcompris-qt/rcc/money_back.rcc": "e35f852d6afff873996eaf1d52e29efdc3b44c6d34c6b794a8fb1c52b2a79948",
+    "share/gcompris-qt/rcc/money_back_cents.rcc": "2cb2b12172af63052bfe987294c93809bbac08b383c704e4e0d673a0dbfb64a9",
+    "share/gcompris-qt/rcc/money_cents.rcc": "f2cda1e78da7b999286bf6a1fa8ca192ded53828b2be5e599774db9a2faf6e7a",
+    "share/gcompris-qt/rcc/morse_code.rcc": "35d8508c28c4c53a82f4c253187ae22d4cfefa981e5092b6ef738e4cf3f3254c",
+    "share/gcompris-qt/rcc/mosaic.rcc": "e9b8a413999be1ac9bdf2ddcb790a1dbaebda6cea20bb54c3701cb8c186f870a",
+    "share/gcompris-qt/rcc/multiple_choice_questions.rcc": "6c9ea10f22bea30f83a7c8e917878dbd5d840469e71359f90ed84ed7c7530fd2",
+    "share/gcompris-qt/rcc/nine_men_morris.rcc": "dcbd15178c967d7659196c77845d192efc89d9eb37471d6ca788dd26071dfa7e",
+    "share/gcompris-qt/rcc/nine_men_morris_2players.rcc": "097c8799c349a897649ae6af23d2ca2612a627ca56de7c8b1cf4e0caa13a0a8e",
+    "share/gcompris-qt/rcc/note_names.rcc": "16e6eaed917e605c1b227cffca022c2c2250e2024fb874350c6f95b87b8de531",
+    "share/gcompris-qt/rcc/number_sequence.rcc": "71fb18703f3cb4fd59c7b499df811ff63c7532fccf330dfad9e3b8de764a5ed1",
+    "share/gcompris-qt/rcc/numbers-odd-even.rcc": "a5648811dc4d7dc7c577313ff557eda53014bfc1426cb542635ffdd5ac462a15",
+    "share/gcompris-qt/rcc/ordering_alphabets.rcc": "95a159146c27c1936cb3b9ec6673eec768f6c6713263b9a56b32ec6f68be5634",
+    "share/gcompris-qt/rcc/ordering_chronology.rcc": "0adaffaa6db7d53ff158e4e0ea964b7f8577fd0623689d1d797d0a83ab4a84e1",
+    "share/gcompris-qt/rcc/ordering_numbers.rcc": "051860bf096d55926b5e10e747a6344bb465e71e21e82416ad6127db239f9860",
+    "share/gcompris-qt/rcc/ordering_sentences.rcc": "cb1e7b54c29432c96c2adb04822f402e3aec5034958a6c28d5d8184227bc9502",
+    "share/gcompris-qt/rcc/oware.rcc": "11237fe5d00797c6d335642b9cd4a64a6e8781c25a7a3bbc8848ffee3fad83cf",
+    "share/gcompris-qt/rcc/oware_2players.rcc": "c3d5e113046c601c2faba3d5fe613464bb2470fb7f57f171e834da66707212b6",
+    "share/gcompris-qt/rcc/paintings.rcc": "46fea1da4df30ff8eec2306f13f94ad0a3e3457ac83bc98129d58d9126a7e3a2",
+    "share/gcompris-qt/rcc/path_decoding.rcc": "92fd51eafb5bb5d4b25885e160dd244474d5ec849225fabbbff1bc928412f9a9",
+    "share/gcompris-qt/rcc/path_decoding_relative.rcc": "60de8109c8ad812cfbce07d41bda58f7396c3cbe10e7909cf24a9dfd0fc43a69",
+    "share/gcompris-qt/rcc/path_encoding.rcc": "71c16b0fdd490b92e1519b0b7d9f50a24689155ad43183eb6df0b8f6b432a16a",
+    "share/gcompris-qt/rcc/path_encoding_relative.rcc": "cbec129806ff3eb57d1c2dd9dfe482d67d8adb40be9b579ba068412d1110de8a",
+    "share/gcompris-qt/rcc/peg_solitaire.rcc": "e7896d28f1951c0b044ffcbf8c4c56f0b6c6fda279cfb5ce4d1ba80abda592e9",
+    "share/gcompris-qt/rcc/penalty.rcc": "fb1d06e83481ffb8b8447a1112868d08b3a797e1d60587d14e141a0d7c58f053",
+    "share/gcompris-qt/rcc/photo_hunter.rcc": "3859cffc61f478983e0f087e319b0e56a645ecb83e47ac9a0fad49948ea61d4d",
+    "share/gcompris-qt/rcc/piano_composition.rcc": "193b2047d7d694f4db2645deffbd9d4e6dd090a4723c8cb366350f0887ae39ca",
+    "share/gcompris-qt/rcc/planegame.rcc": "9af81ba26a1e0cfff2f92bc10a26c75a27d9b1ea886b8fc82642a8cd361c4e33",
+    "share/gcompris-qt/rcc/play_piano.rcc": "05f81a70eefe1ed683f53e4187d3db73fce6be40c1cee1551a34f062fd52080f",
+    "share/gcompris-qt/rcc/play_rhythm.rcc": "d06f767357e033d348823463b9ba8797f2bcbfebf576caa83164d49a74bd63ca",
+    "share/gcompris-qt/rcc/polygons.rcc": "4d3055b40e60707d29c1d0776b5f727a8d669b095739b2e4ca5cfaf84d429510",
+    "share/gcompris-qt/rcc/positions.rcc": "3f4f54aa445e79f4f4fae0bf5a44ae1b32fdc0f0ff802dc4e839ef11c5abc00e",
+    "share/gcompris-qt/rcc/programmingMaze.rcc": "f411b551f87fa3e6747bed3d9011738e143dc02c3e01f98b53a6f5cb8f1c5232",
+    "share/gcompris-qt/rcc/railroad.rcc": "3e13108127cedf6d7ad570724a0e46e90949d21e00d19a2deae732b33ed6ccfd",
+    "share/gcompris-qt/rcc/readingh.rcc": "866b55d6b92ad8dc846aaade10697b506b15c8701e4524d0b5e8f40d2c2dd888",
+    "share/gcompris-qt/rcc/readingv.rcc": "500ea95a8676963282dc8d2204cbb8a450090c36f3e56da9d38a6eabf4a19fa9",
+    "share/gcompris-qt/rcc/redraw.rcc": "9625c59fb300df08954fd793ec7bd346142ed0c5abced598fec2d1c55374eba0",
+    "share/gcompris-qt/rcc/redraw_symmetrical.rcc": "ca6189c2eca1f44cc4753170f00ff349810a85085a298de5cdde7c218cbc2ee6",
+    "share/gcompris-qt/rcc/renewable_energy.rcc": "a3e2065abedc28488628dba1c52e39d04e662c3a5f46c73662f888fda6780326",
+    "share/gcompris-qt/rcc/reversecount.rcc": "2d1f926b351ebdba892d49d2a2a2aaf7dfcc4d9b805475e622b868f9cd1247de",
+    "share/gcompris-qt/rcc/roman_numerals.rcc": "2f4aeb17e0b48fb4e8165de8ae584d2ddc794f027f5eee9c62809b41ac545a84",
+    "share/gcompris-qt/rcc/scalesboard.rcc": "741d97480d2f58f3b9ffe7ef987f873f0caedcca369fe3e1f7ff2ea3b3060b6c",
+    "share/gcompris-qt/rcc/scalesboard_weight.rcc": "dabdfcc80515eaf845fcfd5c1d81d068004957683c07f1215d6cea49255799d0",
+    "share/gcompris-qt/rcc/scalesboard_weight_avoirdupois.rcc": "fb72cf95734877de8480b25225923d8c5d03958fbacb9c2f0c0e4a0a8af18149",
+    "share/gcompris-qt/rcc/share.rcc": "25aec02b76656ef385448875d0f384d3553017878429473d369a7e483cb0edf5",
+    "share/gcompris-qt/rcc/simplepaint.rcc": "09e3bbba79452c824d320cd4f5a622cbf069df7c7b58bde364c5a7f9553ee2fc",
+    "share/gcompris-qt/rcc/sixteen.rcc": "303ffcb10d764e970ae87179b52a6727ce9325339b0df839bc86344ba118fc7f",
+    "share/gcompris-qt/rcc/sketch.rcc": "6b222b41efd9a13d48ba538761e9ad8c7f40077ea5ee04b8308660412f5ce205",
+    "share/gcompris-qt/rcc/smallnumbers.rcc": "6d76991b3172a10b33e70929f7c88a954c936b9b459540d3c96faa99ca580449",
+    "share/gcompris-qt/rcc/smallnumbers2.rcc": "1cb455100e1fad582f8aa5c853805bacd55f8e4ec688a73624fefd8195a48941",
+    "share/gcompris-qt/rcc/solar_system.rcc": "2f0a6eeee6962c3e87290b86962a02cf96be015af01f3ff9ec97ba2bbf762f8b",
+    "share/gcompris-qt/rcc/submarine.rcc": "118d1e8279a19bb4c07d377f996da22c38f70d863b60782b46559fb2dd5923f3",
+    "share/gcompris-qt/rcc/sudoku.rcc": "1a128ee40526b67b10f4c951e6351a06dcf1961418be0da624d9392a2b4201be",
+    "share/gcompris-qt/rcc/superbrain.rcc": "27f977d914e490872ff0f8d777dc9ebcfe7c391392fbbe3def5b2f278cb4aa62",
+    "share/gcompris-qt/rcc/tangram.rcc": "fb4162252a78e7b25f8c6136002e6989702c6e85d5c1a2094ddfd57a80437bfa",
+    "share/gcompris-qt/rcc/target.rcc": "ba389381ceda146c631c7a3d27b1cdbd03d2d06bdad67e2e2d18cae73531b320",
+    "share/gcompris-qt/rcc/tens_complement_calculate.rcc": "119617b1cc6fd9bdba18e56d92847bc020365d97d023cdee4d057b094106d2cb",
+    "share/gcompris-qt/rcc/tens_complement_find.rcc": "adee4f42b068cea42e536c01b4b2749f75ddf04fb364169cc6c987cda853b805",
+    "share/gcompris-qt/rcc/tens_complement_swap.rcc": "254c306380738838f80e9cc0b43015eeb73a11dd9e19b23229844940065f3515",
+    "share/gcompris-qt/rcc/tens_complement_use.rcc": "89814a7e02df8c4b2e61b3d81c7ad032c25b026135b559ac59b11e8cdf1244a8",
+    "share/gcompris-qt/rcc/tic_tac_toe.rcc": "8042bfac980225bae98ce7227a3a2ca44f90ceb8789e44f0e80721d010f8741d",
+    "share/gcompris-qt/rcc/tic_tac_toe_2players.rcc": "2ed3ca692d514aff8dbfdb46a642e91b0b21986ec167b7cc79cb1c4b0a0ae625",
+    "share/gcompris-qt/rcc/traffic.rcc": "7d9415a78329a54f8e2eecdf745dfffd2775d67774e52c661ed6ee303069f060",
+    "share/gcompris-qt/rcc/vertical_addition.rcc": "87bdafbfcdf113d28c683a28666b00f8c65b43f54a822fa7843de2a129813571",
+    "share/gcompris-qt/rcc/vertical_subtraction.rcc": "c28a967750fe23538fec533ed64d1babb50bcdb1ac0bee5fdfae52a4a28ebae4",
+    "share/gcompris-qt/rcc/vertical_subtraction_compensation.rcc": "3d9f0f5f6ee380bfa1e86722f2ba45b9bb4e432020e7ed3c8ef8cdbac0ee2a7b",
+    "share/gcompris-qt/rcc/watercycle.rcc": "4db7b71774c850fb8fd536930288633b7249f744744077f01124d5de65acdff7",
+    "share/gcompris-qt/rcc/wordsgame.rcc": "b9d2a1d2634c2d5510788443c66460d0ed36c8eef1686514b92e1654b3d2a70c",
+    "share/gcompris-qt/translations/gcompris_qt_ar.qm": "6675fa0ad58f9e7de0164420d109022988b4be2c53c00946f66b0998eb9d51b4",
+    "share/gcompris-qt/translations/gcompris_qt_az.qm": "ce70fc9c94f22e189411743d8c3b6395bc70cf2286b308daf1a3e00cfdc72e28",
+    "share/gcompris-qt/translations/gcompris_qt_be.qm": "bbadb149fba29ff1e0a8c4b0125abd2d7c0bf3ff70ec276d859a1698f26b99ae",
+    "share/gcompris-qt/translations/gcompris_qt_bg.qm": "9abf86230ad5407a3875fef6ed309a46cbe8973d52e53109315646658d058a14",
+    "share/gcompris-qt/translations/gcompris_qt_br.qm": "c7a671f446ec55accd75970c1936099a36a7b00f548f1778ed78f8483d56a34c",
+    "share/gcompris-qt/translations/gcompris_qt_ca.qm": "90050546110ecea80ffc98b572d1c5305eb604726f6bdea642d7082d0b32166a",
+    "share/gcompris-qt/translations/gcompris_qt_ca@valencia.qm": "a71d986a4aa26ade9108a58e3e9910e9887e4d42cafca8a357756948954c5994",
+    "share/gcompris-qt/translations/gcompris_qt_cs.qm": "679de989429381db32d520fa373f552c0e70da6e04d744296328f8f4ca0a5372",
+    "share/gcompris-qt/translations/gcompris_qt_de.qm": "d7251ee7add8bd42845c571de0507520250c7f91dcc5a99c5527d0321c0d9ab6",
+    "share/gcompris-qt/translations/gcompris_qt_el.qm": "2dab40ecbf0445c028bc734c383470356680c2894b8e0883f3919a58155d53b8",
+    "share/gcompris-qt/translations/gcompris_qt_en.qm": "6bf021df361ba220b1aa1e4e371d1f0beb02d969f027e5ddb26830d8b8dbcfe7",
+    "share/gcompris-qt/translations/gcompris_qt_en_GB.qm": "3566cfe01c6b37e1e3880c8bed0061977e5a308e836d8cf1a256468fd7d6d4ee",
+    "share/gcompris-qt/translations/gcompris_qt_eo.qm": "26cfc2eef96b60825370b5ca3fa99afc9a2bcb074b33f47b9762a875cbb192c3",
+    "share/gcompris-qt/translations/gcompris_qt_es.qm": "784c6adddd31192427e7ec2bbe7fd5bdc3716de2ac6362a7c5937b6ac348254a",
+    "share/gcompris-qt/translations/gcompris_qt_et.qm": "e385a9fb122525c6916e100ff9b1a347fea004f87ce6abd93e001edc2602cc65",
+    "share/gcompris-qt/translations/gcompris_qt_eu.qm": "1da635029e0fd6bc5de3a9787d4e97260b0138033cdd2221202b3c48d162c879",
+    "share/gcompris-qt/translations/gcompris_qt_fi.qm": "3aa28b24e8209c1adbff87171e97aedf141e25c279adb3741c8aa115586d0a7e",
+    "share/gcompris-qt/translations/gcompris_qt_fr.qm": "3510b58f9c2195880f7196bb1ae7fbe47bc1877896ee31e3f04d372f5dc06074",
+    "share/gcompris-qt/translations/gcompris_qt_gl.qm": "d095e506ae8ff3697b6a328ce89f08e4367d5b4b1883fcf01099128f5dc78c34",
+    "share/gcompris-qt/translations/gcompris_qt_he.qm": "85c1043b33fc63a2659b8944f7a7ea1548d5ec684dc70c46ce4c67209f9108bf",
+    "share/gcompris-qt/translations/gcompris_qt_hr.qm": "f4266eb4090bf618c1afb3ee1164a26dc0990119b7c2a61871d7e112c41905a5",
+    "share/gcompris-qt/translations/gcompris_qt_hu.qm": "77d7b28ff301dd687411c1e639bc2bcad3dc6b849599f57db4813274031007ad",
+    "share/gcompris-qt/translations/gcompris_qt_id.qm": "ef01d05f7eac26a2f4ecac3dad17460726762f33503205bffd6cf06ff98e6e44",
+    "share/gcompris-qt/translations/gcompris_qt_it.qm": "ebfda00e88b4155d7b725344811b99458ec2763d8d90111678cb43b63fe678b7",
+    "share/gcompris-qt/translations/gcompris_qt_ka.qm": "8cc74761a5c6c0a68055dafc6a3953e62644366b454b7ca034a30d850b7b6682",
+    "share/gcompris-qt/translations/gcompris_qt_kn.qm": "46ae07a58f215a14361810e274f619f14ce8e69f452fbf5c60a75d8adef0b093",
+    "share/gcompris-qt/translations/gcompris_qt_lt.qm": "a2168276dc32808fb986e5f149e89abc0fc6b8c156aa9b8cd3397aa557aec9c4",
+    "share/gcompris-qt/translations/gcompris_qt_lv.qm": "a8c09b53a83c04603c9df28436fc52a2e4050ae66d9100c67bbb264b18d75953",
+    "share/gcompris-qt/translations/gcompris_qt_mk.qm": "d4d6b18aa519166ede6c0d47acbc4c16fbd9d931cad30d6282acd5ce6cc84ac4",
+    "share/gcompris-qt/translations/gcompris_qt_ml.qm": "d205d616cdb7cc6ee0c6d8524d4e8c1d83aef820e85b8ad5cec0120952ad13ce",
+    "share/gcompris-qt/translations/gcompris_qt_nl.qm": "97ab053b27d8eb5d2cc49c38c6f556247196782c48709623accb174221e220a6",
+    "share/gcompris-qt/translations/gcompris_qt_nn.qm": "5891897db06f9d7a9fa54216394282cbc5855051aca3cd9333f9d8e9c010d307",
+    "share/gcompris-qt/translations/gcompris_qt_pl.qm": "49597d713b35dc0371f97ff21a2841fab4505dcdedd748846661c96295689529",
+    "share/gcompris-qt/translations/gcompris_qt_pt.qm": "eb4148dcf1bf4ef84e46910554eb7734c76951254583abeb020b050e42ad3e4e",
+    "share/gcompris-qt/translations/gcompris_qt_pt_BR.qm": "82b74eeaf4558950e55337a4877cc6ed07b1507850c65b5a68659b2033532569",
+    "share/gcompris-qt/translations/gcompris_qt_ro.qm": "7cecae928e03249b7d8de7582d8936a4201693ceb5a7ad31c98395689a1a58b8",
+    "share/gcompris-qt/translations/gcompris_qt_ru.qm": "38215d1d556e6e4020a5aa994f281d992ce2c8f96f4bf03cd36c5a08c45eab1a",
+    "share/gcompris-qt/translations/gcompris_qt_sa.qm": "00ee8b4d3483cd49aaa31de44975411db7e09fb601f41c14a32a6fb7f9992a51",
+    "share/gcompris-qt/translations/gcompris_qt_sk.qm": "ec6c38e880a34bcb1fa4a9c2163e57fd55646ba767d790009ee4ce26d0e2e546",
+    "share/gcompris-qt/translations/gcompris_qt_sl.qm": "5a80203ffc3e6448e6dd481744a9e9b49617116dbb8d20eaf164e459b692dbd3",
+    "share/gcompris-qt/translations/gcompris_qt_sq.qm": "eea3ac0f1dab120d9fca75d137aab3555fcbca43cec43015f094ab49b6560a78",
+    "share/gcompris-qt/translations/gcompris_qt_sv.qm": "571081f4fa845ba5687daa09e7fcef3ed77680a68fb88a45e116276713a66e4a",
+    "share/gcompris-qt/translations/gcompris_qt_sw.qm": "5238335e11341dab3562f5119d91522d2e962cbb14b925100e018f5be864d940",
+    "share/gcompris-qt/translations/gcompris_qt_ta.qm": "cf17592fde42f6bc498b70f5de3ae233bfdbaf95392030386e36ba522558913b",
+    "share/gcompris-qt/translations/gcompris_qt_tr.qm": "cf4baacfd1ad031a3f0f7d67206b1abf4043c7e687e323a803777ae55e090626",
+    "share/gcompris-qt/translations/gcompris_qt_uk.qm": "c75c07eee62aa5dd0602f46f63e0a006e85131a43080ed8d3532753bcbe168c7",
+    "share/gcompris-qt/translations/gcompris_qt_zh_TW.qm": "0c47c42ad981f07aeb04a2a514f685f3e791c2a4d6fd2fae9235f5f1a9ef0abd"
+  },
+  "runtime_uid": 1000,
+  "runtime_gid": 1000,
+  "offline_image_id": "sha256:28bd5fe8b56d1bd048e5babf5b10710ebe0bae67db86916198a6eec434943f8b",
+  "activity": "explore_monuments",
+  "locale": "pt_PT",
+  "qml_file": "explore_farm_animals/ExploreLevels.qml",
+  "source_sha256": "dfb1712c70263a9955195fa495995234ea5faef3f459728750e380cf16b4a30a",
+  "portuguese_catalogue_sha256": "bc427b5f4d9f1693db11a254eabc430732c4b5d3049e7f60cf667557c6df3d88",
+  "private_qm_sha256": "eb4148dcf1bf4ef84e46910554eb7734c76951254583abeb020b050e42ad3e4e",
+  "case_sha256": "a3ee4297053171120c45b7fc5a16968882c7ac5f2e68f6f92dd136c57d6a294e",
+  "private_rcc_sha256": "a0b52297fc616c915c5d501febfc570a0bd9c06c1ff1f9c681439e6c1d426284",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "612889370d52dc3c643f894c58dd22fdd6073c245525d5e8502791527fd6ec42",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-a5b27aceae4e446eb09ab2d6bf67e1ca",
+  "version_code": 260200,
+  "network": "docker-none",
+  "timestamp_utc": "2026-10-16T04:35:09.366214+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [
+    {
+      "file": "presentation-m1-0.png",
+      "sha256": "b44cbdd96b5d701c98472fca33f91ddd175998e0d97c82dca9f2475434247841",
+      "bytes": 216953
+    },
+    {
+      "file": "presentation-m1-1.png",
+      "sha256": "665f4c1042906dd884b29023956899a6096ca1a159777306c13523c1a9376d6b",
+      "bytes": 282765
+    },
+    {
+      "file": "presentation-m1-2.png",
+      "sha256": "b7e5c3e7978affcb2f94bc07ee3e17395d1b997cce197b18cfcd001323546219",
+      "bytes": 239966
+    },
+    {
+      "file": "presentation-m1-3.png",
+      "sha256": "d98c7dc799483eec043265f7505822e54bc01ebe93e3c782998c0d73505a1563",
+      "bytes": 300830
+    },
+    {
+      "file": "presentation-m1-4.png",
+      "sha256": "c0ca7de9201b9b33c539977c59a489a341fe7801f1280f22ae22136e2dddd3d1",
+      "bytes": 264640
+    },
+    {
+      "file": "presentation-m1-5.png",
+      "sha256": "fe6d6d21df41e56df39d166089374acda9c717162a91d1bd9184c591e59aec41",
+      "bytes": 300408
+    },
+    {
+      "file": "presentation-m1-6.png",
+      "sha256": "5076d12ceeae6940bd3f2a74eb3b4fda7d55c59a4c9ec23e3a3501407ead6681",
+      "bytes": 221456
+    },
+    {
+      "file": "presentation-m2-0.png",
+      "sha256": "0fdb99a966e9bec0e570b9661c7c22d9f0c02954625ca151be17deb129d557bd",
+      "bytes": 211602
+    },
+    {
+      "file": "presentation-m2-1.png",
+      "sha256": "9f6f344c4230bc8f4955ab8a81fe06e8d23ff35b42cc6b09bb78d4ced5ef3efc",
+      "bytes": 305208
+    },
+    {
+      "file": "presentation-m2-10.png",
+      "sha256": "0670276f8af26be79fa572605bc957b2de33ad0d51826957473e7496cd68379c",
+      "bytes": 422167
+    },
+    {
+      "file": "presentation-m2-2.png",
+      "sha256": "39e58195fdcd43cb4e65aeda5974adf31633fbc88bbb0e11659c3e46e106665b",
+      "bytes": 296279
+    },
+    {
+      "file": "presentation-m2-3.png",
+      "sha256": "546b9509098be4212779afd1e4e45b92ac70b4d05cce07c7a6ae4ad844199d7d",
+      "bytes": 264876
+    },
+    {
+      "file": "presentation-m2-4.png",
+      "sha256": "2a6876a8034d34e00ef50d351f485875d416a9ab303d8ffe564c5545cc38e969",
+      "bytes": 359096
+    },
+    {
+      "file": "presentation-m2-5.png",
+      "sha256": "cb8e890361cb66af87a4d68a405e62a75932502663b3d76e0dda5d5e93da5637",
+      "bytes": 290804
+    },
+    {
+      "file": "presentation-m2-6.png",
+      "sha256": "c51a958244a1610f11b41385e87daac2b3bd60f3ca537a2e77742940cfbc0b91",
+      "bytes": 211071
+    },
+    {
+      "file": "presentation-m2-7.png",
+      "sha256": "65f810b37bf2dd03f54088e7a5190a241fdcfb4eb7ef7182a74cbbc9ef31a13d",
+      "bytes": 344110
+    },
+    {
+      "file": "presentation-m2-8.png",
+      "sha256": "a3fd0c97f090c0f2a1e50185473af08b3b87f736501f87abd17e71c7721f1865",
+      "bytes": 181756
+    },
+    {
+      "file": "presentation-m2-9.png",
+      "sha256": "2ac1c875e643a66214ce0fb1caf718a5c43b68b71cdb4f9ec7c9e6f70a16413d",
+      "bytes": 234885
+    },
+    {
+      "file": "presentation-m3-0.png",
+      "sha256": "133825a3059b72dfa29b66d0a900b85b5bb3245f678a835012707a835e6438f9",
+      "bytes": 194595
+    },
+    {
+      "file": "presentation-m3-1.png",
+      "sha256": "6cba860a94fd0f1e62f01e26d5989f44828e5eb779a51f77cdfdd923a69dfe45",
+      "bytes": 361784
+    },
+    {
+      "file": "presentation-m3-2.png",
+      "sha256": "389883fe045037405eea9350e128223114f623aa16116e4e1f2a0ccfb35a176a",
+      "bytes": 252456
+    },
+    {
+      "file": "presentation-m3-3.png",
+      "sha256": "69c0052e135d3aa4909ad24926fefe07b08b2fbf638eddda4bb026f078cf8710",
+      "bytes": 298833
+    },
+    {
+      "file": "presentation-m3-4.png",
+      "sha256": "b06236990dc12f3152540c6ebd087a4ac197acd3ca9ee6291475dcf3a505b22e",
+      "bytes": 239999
+    },
+    {
+      "file": "presentation-m3-5.png",
+      "sha256": "6a829c287eea87632643d933c96c8c3c6efbc9f71d3e0526c03dd5b2d6d2a9ae",
+      "bytes": 317707
+    },
+    {
+      "file": "presentation-m3-6.png",
+      "sha256": "ee4194d6feca54f0f03cadeca3201e11347f5d340ffcc1b73f7d79139dd0c91b",
+      "bytes": 280382
+    },
+    {
+      "file": "presentation-m3-7.png",
+      "sha256": "fb83596d05cff5737b99902eb4fdc53ffb791711f2e8d93f8ba794170c382225",
+      "bytes": 239402
+    },
+    {
+      "file": "presentation-m3-8.png",
+      "sha256": "cf0133a5c85184ee19a1786f74db6434ce1faaad9c64947e065929b4cd8e107e",
+      "bytes": 296657
+    },
+    {
+      "file": "presentation-m3-9.png",
+      "sha256": "1bebca91afc39b2152fcda0e9364583f3ede301effe217c806466b649bd66cc0",
+      "bytes": 167944
+    },
+    {
+      "file": "presentation-m4-0.png",
+      "sha256": "5949cb18b5e2bdd41872f00cdb9d81a901114f4d3412113c6530950bc8e7de09",
+      "bytes": 309530
+    },
+    {
+      "file": "presentation-m4-1.png",
+      "sha256": "09f0e33abdda1a2c80d5a0e55e4fb126eb38cbd9795ae7bbfb164a91b6970576",
+      "bytes": 233992
+    },
+    {
+      "file": "presentation-m4-2.png",
+      "sha256": "f9b1846f4c8a090d88f2c6c9283af8961b6e5a1968c98ee53a86b84851903931",
+      "bytes": 256861
+    },
+    {
+      "file": "presentation-m4-3.png",
+      "sha256": "be5106e2389d531f96b21fbfa5ab5f733ddaec562b70b7a4dbd0c136eabdf7c2",
+      "bytes": 262031
+    },
+    {
+      "file": "presentation-m4-4.png",
+      "sha256": "007aa26905228e0d9b827b762d877050f2239a8a92b0069d9cd3d4f8d28d7516",
+      "bytes": 248830
+    },
+    {
+      "file": "presentation-m4-5.png",
+      "sha256": "ecea48a4ae54f7ae1018478381544e228d29ae04ab79ff776b031302f077ffda",
+      "bytes": 253049
+    },
+    {
+      "file": "presentation-m4-6.png",
+      "sha256": "a0227f5dce9bc92ff41a7aacf5081994e2e797ed47790ac50c34fb3c3dcf2e1b",
+      "bytes": 393267
+    },
+    {
+      "file": "presentation-m5-0.png",
+      "sha256": "e6425f25469bd5bbb61641786d065c4a60368693468e1844dfd4acf4ff3fb5fb",
+      "bytes": 219293
+    },
+    {
+      "file": "presentation-m5-1.png",
+      "sha256": "516784158e23d2a04fb99c341b3cde48f863cf4ed82f3bbf79f0f8dbd540fbb1",
+      "bytes": 332273
+    },
+    {
+      "file": "presentation-m5-2.png",
+      "sha256": "be4cd0c60a873e183ee08639009f881986fe45c69392abd920c2cd21ce3684c8",
+      "bytes": 288899
+    },
+    {
+      "file": "presentation-m5-3.png",
+      "sha256": "32eaa16347b9079a8b5e4494aae9ae2d5e0fa545e2b38bbdbd50db1f53b27674",
+      "bytes": 241695
+    },
+    {
+      "file": "presentation-m5-4.png",
+      "sha256": "7dac5849d536dae2fc9861145abe7ff86ea6191479f4d67bb4593eb138d6bd3d",
+      "bytes": 309835
+    },
+    {
+      "file": "presentation-m5-5.png",
+      "sha256": "b1d9da51ca83bc6450dac0c987a2869e470d54c8b99ddb739b805f6f0e6dd44b",
+      "bytes": 243935
+    },
+    {
+      "file": "presentation-m5-6.png",
+      "sha256": "bc0a3823b73654175700156fabfb14b0f8d894e83b143a88f9d154644ee10c7f",
+      "bytes": 282896
+    },
+    {
+      "file": "presentation-m5-7.png",
+      "sha256": "c0889a80c3039f783dd225da2fc065f24297d035ec8a44289660ad37f9e64a0d",
+      "bytes": 367929
+    },
+    {
+      "file": "presentation-m5-8.png",
+      "sha256": "9a56b891d9b9394f2393873cf409efde2aeed4f8c8a76a57a375f380b9028b1c",
+      "bytes": 268148
+    },
+    {
+      "file": "presentation-m5-9.png",
+      "sha256": "c7bcdbcaa3a9975a00974f95f67317ab9a64ec8384cfb3d5426d130e667bd1ff",
+      "bytes": 279971
+    },
+    {
+      "file": "presentation-m6-0.png",
+      "sha256": "62326219f2d76e21333c4913bcff38934391b377e87f013bbc988cecc5218c82",
+      "bytes": 275029
+    },
+    {
+      "file": "presentation-m6-1.png",
+      "sha256": "1ead0cf5881ff80308a40ff13d3dd478db0bbe088d5174a649d969b791baa4ee",
+      "bytes": 249174
+    },
+    {
+      "file": "presentation-m6-2.png",
+      "sha256": "0af7ecb5b29987ff60f81693d2aa651d47a02d367812d48b4557abecaf1c41a6",
+      "bytes": 244253
+    },
+    {
+      "file": "presentation-m6-3.png",
+      "sha256": "043c5b0efacc65d1daf0b0bb81db0fe814d274e667d409ccb404d36406580dc3",
+      "bytes": 208469
+    },
+    {
+      "file": "presentation-m7-0.png",
+      "sha256": "1889017884c71b088ac379392a1b22011a8824747ce03c8ccac43477d11c12c8",
+      "bytes": 297761
+    },
+    {
+      "file": "presentation-m7-1.png",
+      "sha256": "779326c292ca6e37ab9c527cbdc63bc3e91657a12e7563355f6238f9bff23578",
+      "bytes": 382200
+    },
+    {
+      "file": "presentation-m7-2.png",
+      "sha256": "165fee463b8719e855dc25278f09a49678473ccca742749784f9e404eca8a042",
+      "bytes": 319449
+    },
+    {
+      "file": "presentation-m7-3.png",
+      "sha256": "9b73602f683ab3e3e39505527ee33bb22af7bb7e3981d0076aa46076752b9114",
+      "bytes": 285365
+    },
+    {
+      "file": "presentation-m7-4.png",
+      "sha256": "407e9bc01fe3e27b64cdbc0b9df345db730f506ecae809c1b21c54b071a650b3",
+      "bytes": 288016
+    },
+    {
+      "file": "presentation-m7-5.png",
+      "sha256": "19b847456939f0b4fe8a3c82fe0f03dea1d3d8e7d27e8a7360a4f6bda7ba54e4",
+      "bytes": 305875
+    },
+    {
+      "file": "presentation-m8-0.png",
+      "sha256": "1d7787d69795fd53dcf0057f925833fe580af420d033789caaa42e9533a7dd4c",
+      "bytes": 342634
+    },
+    {
+      "file": "presentation-m8-1.png",
+      "sha256": "48e5ca6358aadc35b96b49cd91e8aa795af19c48ea050837d830aac8b7a4a287",
+      "bytes": 324667
+    },
+    {
+      "file": "presentation-m8-2.png",
+      "sha256": "d65bfb36a29d515ac3afc0c53fdf2a7f9820654a15e74cb5711b6267414f3bb7",
+      "bytes": 344940
+    },
+    {
+      "file": "presentation-m8-3.png",
+      "sha256": "80148376391cf25081f3fc8df707ba875b04514ec8bb2ce152e83a9e393e3e13",
+      "bytes": 364641
+    },
+    {
+      "file": "presentation-m8-4.png",
+      "sha256": "64b7120224649fdc36a0b5868b347f7dee05aa1b12f7e41f0d27d20d87a128cc",
+      "bytes": 296545
+    },
+    {
+      "file": "presentation-m8-5.png",
+      "sha256": "c49564cf3d29432ac82f8149d51084893c924c67778d836096174577018a8f17",
+      "bytes": 346921
+    },
+    {
+      "file": "presentation-m9-0.png",
+      "sha256": "a02e97074634eb1f2231c63e9d9579cb65c95b36ba0c81ee6bc8a38566191849",
+      "bytes": 288546
+    },
+    {
+      "file": "presentation-m9-1.png",
+      "sha256": "08a1168e53daf4ddac5d739a3112d692f2cc888d8910e76306f5b37b8140da4c",
+      "bytes": 321468
+    },
+    {
+      "file": "presentation-m9-2.png",
+      "sha256": "79c802f4d0353de98cb776b4a383b60599671fdc4da672051ddfdfdd366eb14b",
+      "bytes": 301210
+    },
+    {
+      "file": "presentation-m9-3.png",
+      "sha256": "cd32eb5829113a752e80bef6d12542cc739c9e1636d8919375f260621dfc25b2",
+      "bytes": 313946
+    },
+    {
+      "file": "visited.png",
+      "sha256": "13d841ffef94be9f4dd4127fda2001332072ba663412c79cb72eb33b2e39c19b",
+      "bytes": 61308
+    }
+  ],
+  "passed": true,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 0,
+    "passes": 2,
+    "pages": [
+      {
+        "map": 1,
+        "title": "Chichén Itzá",
+        "description": "Chichen Itza, que significa “na boca do poço de Itza”, é uma Cidade Maia na Península do Yucatán no México, entre Valladolid e Mérida. Foi edificada antes do período de Cristóvão Colombo e provavelmente serviu durante algum tempo como o centro religioso do Yucatán.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/wonders/chichenItza.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/wonders/world-map.svg",
+        "x": 0.2925,
+        "y": 0.49625,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/intro/explore_monuments.ogg"
+      },
+      {
+        "map": 1,
+        "title": "Coliseu",
+        "description": "O Coliseu é um dos edifícios mais reconhecidos da Roma clássica. Mesmo 2 000 anos após a sua construção, e apesar dos séculos em que foi abandonado e pilhado para obter materiais de construção, continua a ser imediatamente reconhecível. É um modelo clássico dos estádios atuais. Foi o primeiro anfiteatro permanente de Roma e a arena mais impressionante que o mundo clássico conhecera até então.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/wonders/colosseum.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/wonders/world-map.svg",
+        "x": 0.505,
+        "y": 0.44375,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/intro/explore_monuments.ogg"
+      },
+      {
+        "map": 1,
+        "title": "Cristo Redentor",
+        "description": "O Cristo Redentor é uma estátua Art-Deco de Jesus Cristo no Rio de Janeiro, Brasil. Sendo um símbolo da Cristandade em todo o mundo, a estátua também se tornou um ícone cultural tanto no Rio de Janeiro como em todo o Brasil.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/wonders/christTheRedeemer.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/wonders/world-map.svg",
+        "x": 0.385,
+        "y": 0.59875,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/intro/explore_monuments.ogg"
+      },
+      {
+        "map": 1,
+        "title": "A Grande Muralha da China",
+        "description": "A Grande Muralha foi inscrita como Património Mundial da Humanidade pela UNESCO em 1987. Tal como um dragão gigante, ela sobe e desce por vários desertos, prados, montanhas e planícies, estendendo-se por cerca de 13 170 milhas (21 196 quilómetros) de Este para Oeste na China.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/wonders/greatWallofChina.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/wonders/world-map.svg",
+        "x": 0.7225,
+        "y": 0.445,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/intro/explore_monuments.ogg"
+      },
+      {
+        "map": 1,
+        "title": "Machu Picchu",
+        "description": "Machu Picchu eleva-se a 2 430 m acima do nível do mar, no meio de uma floresta montanhosa tropical, com um cenário extraordinariamente bonito. Foi provavelmente a mais impressionante criação urbana do Império Inca na sua altura; as suas paredes, terraços e rampas gigantes parecem ter sido cortadas naturalmente nas escarpas de rocha contínuas. O cenário natural, nas escarpas orientais dos Andes, compõe a nascente superior do Amazonas com a sua rica diversidade de flora e fauna.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/wonders/machuPicchu.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/wonders/world-map.svg",
+        "x": 0.3275,
+        "y": 0.57625,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/intro/explore_monuments.ogg"
+      },
+      {
+        "map": 1,
+        "title": "Petra",
+        "description": "Petra é uma cidade histórica e arqueológica no estado de Ma'an, ao Sul da Jordânia, que é famosa pela sua arquitetura em talhe da pedra e pelo seu sistema de condutas de água. Com uma data de criação possivelmente tão antiga quanto 312 AC, como cidade capital dos Nabateus Árabes, é um símbolo da Jordânia, assim como a atração turística mais visitada da Jordânia.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/wonders/petra.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/wonders/world-map.svg",
+        "x": 0.5525,
+        "y": 0.47375,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/intro/explore_monuments.ogg"
+      },
+      {
+        "map": 1,
+        "title": "Taj Mahal, Índia",
+        "description": "O Taj Mahal é um mausoléu de mármore branco, localizado na margem Sul do Rio Yamuna, na cidade indiana de Agra. Foi encomendado em 1632 pelo imperador Mughal Shah Jahan, com o objetivo de alojar o túmulo da mais favorita das suas três mulheres, Mumtaz Mahal.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/wonders/tajMahal.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/wonders/world-map.svg",
+        "x": 0.64375,
+        "y": 0.47875,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/intro/explore_monuments.ogg"
+      },
+      {
+        "map": 2,
+        "title": "Templo Dourado",
+        "description": "Sri Harimandir Sahib, conhecido como o Templo Dourado em Amritsar, é um dos locais de reverência espiritual do Sikhismo. A construção pretendia criar um local de culto para homens e mulheres de todas as formas de vida e religiões poderem adorar Deus por igual.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/india/goldenTemple.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/india/india.svg",
+        "x": 0.315,
+        "y": 0.235,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 2,
+        "title": "Hawa Mahal",
+        "description": "O Hawa Mahal é um palácio em Jaipur, na Índia, cujo nome se refere a uma fachada alta que permitia às mulheres da família real observar os festivais na rua sem serem vistas do exterior. Construído em arenito vermelho e rosa, situa-se junto ao Palácio da Cidade e estende-se até à zenana, os aposentos das mulheres.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/india/hawaMahal.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/india/india.svg",
+        "x": 0.32625,
+        "y": 0.37125,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 2,
+        "title": "Portão da Índia",
+        "description": "O Portão da Índia é um dos marcos mais únicos da Índia, situado na cidade de Mumbai. A estrutura colossal foi construída em 1924. Localizada na ponta do Apollo Bunder, o portão tem uma vista sobre o porto de Mumbai, rodeado pelo Mar Árabe no distrito de Colaba. O Portão da Índia é um monumento que marca os portos principais da Índia e é uma atração turística importante para os visitantes que chegam à Índia pela primeira vez.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/india/gatewayofIndia.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/india/india.svg",
+        "x": 0.26125,
+        "y": 0.58375,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 2,
+        "title": "A Grande Estupa",
+        "description": "A Grande Estupa, em Sanchi, é a estrutura de pedra mais antiga na Índia e foi encomendada originalmente pelo imperador Ashoka o Grande, no século III antes de Cristo. O seu núcleo era uma estrutura simples hemisférica em tijolos, criada sobre as relíquias do Buda. Foi coroada pelo 'chatra', uma estrutura em 'chapéu-de-sol' que simbolizava um estatuto elevado e que pretendia honrar e proteger as relíquias.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/india/greatStupa.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/india/india.svg",
+        "x": 0.36375,
+        "y": 0.45875,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 2,
+        "title": "Grutas de Ajanta",
+        "description": "As Grutas de Ajanta são cerca de 29 monumentos em cavernas rochosas cuja data ascende ao 2º século AC até ao ano 480 DC, no distrito de Aurangabad, na província Indiana de Maharashtra. As grutas incluem pinturas e esculturas na rocha que são descritas como os melhores exemplos vivos da antiga arte Indiana, sendo pinturas particularmente expressivas que apresentam a emoção através dos gestos, poses e formas. A partir de 1983, as grutas passaram a ser consideradas Património Mundial da Humanidade pela UNESCO.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/india/ajantaCave.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/india/india.svg",
+        "x": 0.31125,
+        "y": 0.5375,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 2,
+        "title": "Templo do Sol de Konark",
+        "description": "O Templo do Sol de Konark (também dito como Konarak) é um templo Hindu do século XIII dedicado ao deus do Sol. Com o formato de uma carroça gigante, o templo é conhecido pelas esculturas em pedra formidáveis que cobrem toda a estrutura.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/india/konarkSunTemple.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/india/india.svg",
+        "x": 0.56875,
+        "y": 0.565,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 2,
+        "title": "Palácio de Mysore",
+        "description": "O Palácio de Mysore ou o Palácio do Marajá Mysore é um dos maiores e mais espetaculares monumentos do país. Também conhecido como Amba Vilas, localiza-se no coração da cidade de Mysore. O palácio foi inicialmente construído pelos reis Wodeyar no século XIV.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/india/mysorePalace.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/india/india.svg",
+        "x": 0.34875,
+        "y": 0.76125,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 2,
+        "title": "Charminar",
+        "description": "O Charminar em Hyderabad foi construído em 1591 por Mohammed Quli Qutab Shah. Ele construiu o Charminar para marcar o fim da praga na cidade de Hyderabad. Desde a construção do Charminar, a cidade de Hyderabad tornou-se praticamente um sinónimo do monumento. O Charminar é uma estrutura massiva e impressionante com quatro minaretes.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/india/charminar.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/india/india.svg",
+        "x": 0.39,
+        "y": 0.62875,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 2,
+        "title": "Memorial de Vitória",
+        "description": "O Memorial de Vitória foi construído para comemorar o pico do Império Britânico na Índia. O Memorial de Vitória, concebido pelo Lorde Curzon, representa o clímax arquitetónico da cidade de Kolkata (Calcutá), e mistura o melhor da arquitetura Britânica e a Mughal. O pavilhão do Memorial de Vitória foi construído com mármore branco de Makrana.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/india/victoriaMemorial.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/india/india.svg",
+        "x": 0.6325,
+        "y": 0.5,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 2,
+        "title": "Rang Ghar",
+        "description": "O Rang Ghar é um edifício de dois andares que serviu em tempos como o pavilhão real dos desportos, onde os reis e nobres de Ahom eram espectadores de jogos como lutas de búfalos e outros desportos em Rupahi Pathar - em particular durante o festival Rongali Bihu na capital de Ahom, Rangpur.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/india/rangGhar.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/india/india.svg",
+        "x": 0.78,
+        "y": 0.35625,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 2,
+        "title": "Qutub Minar",
+        "description": "O Qutub Minar, elevado a 74 metros, é o mais alto minarete de tijolos do mundo, sendo o segundo mais alto na Índia a seguir ao Fateh Burj em Mohali. O Qutub Minar, em conjunto com os monumentos antigos e medievais que o rodeiam, formam o Complexo de Qutb, que é considerado Património Mundial da Humanidade pela UNESCO. A torre localiza-se na área de Mehrauli em Deli, Índia. É feito de granito vermelho e mármore.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/india/qutubMinar.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/india/india.svg",
+        "x": 0.35625,
+        "y": 0.33,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 3,
+        "title": "Monte Saint-Michel",
+        "description": "O Monte Saint-Michel é uma ilha rochosa na Normandia, perto da foz do rio Couesnon. É conhecido pela sua abadia e pelas grandes marés da baía. Existe uma ponte de acesso pedonal durante todo o ano; nas marés mais altas, a entrada pode ficar temporariamente coberta pela água.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/france/montStMichel.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/france/france.svg",
+        "x": 0.3225,
+        "y": 0.3375,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"
+      },
+      {
+        "map": 3,
+        "title": "Cidade de Carcassonne",
+        "description": "Com mais de 4 milhões de visitantes em cada ano, Carcassonne é um dos destinos turísticos com mais prestígio de França, a par com o Monte Saint Michel e a Notre-Dame de Paris. Um local considerado Património Mundial da Humanidade pela UNESCO desde 1997, Carcassonne é uma representação dramática da arquitetura medieval escavada num bloco rochoso que se eleva acima do Rio Aude, a Sudeste da nova cidade.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/france/citedeCarcassonne.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/france/france.svg",
+        "x": 0.53375,
+        "y": 0.7875,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"
+      },
+      {
+        "map": 3,
+        "title": "Catedral de Reims",
+        "description": "Pelo tamanho, a Catedral de Reims é uma construção bastante extraordinária: desenhada para acomodar multidões enormes, as suas dimensões gigantes incluem uma área de superfície de 6 650 m2 e um comprimento de 122m. Uma obra-prima da arte Gótica e o local de coroação dos Reis de França, foi inscrita como Património Mundial da Humanidade pela UNESCO em 1991. A Meca dos turistas na região de Champagne dá as boas-vindas a 1 500 000 de visitantes por ano.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/france/reimsCathedral.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/france/france.svg",
+        "x": 0.62875,
+        "y": 0.29125,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"
+      },
+      {
+        "map": 3,
+        "title": "Pont du Gard",
+        "description": "O Pont du Gard foi construído no século I d. C. para permitir que o aqueduto de Nîmes, com quase 50 km de comprimento, atravessasse o rio Gardon. Os arquitetos e engenheiros hidráulicos romanos conceberam uma ponte com três níveis e quase 50 m de altura, cujo nível mais longo mede 275 m. Criaram uma obra-prima técnica e artística.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/france/pontduGard.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/france/france.svg",
+        "x": 0.645,
+        "y": 0.695,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"
+      },
+      {
+        "map": 3,
+        "title": "Anfiteatro de Arles",
+        "description": "O anfiteatro romano de Arles foi construído por volta do ano 90 d. C. e podia acolher cerca de 21 000 espectadores. As galerias circulares, as passagens e as escadas permitiam a circulação do público num edifício de grandes dimensões. É um dos monumentos mais conhecidos da cidade.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/france/arlesAmphitheater.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/france/france.svg",
+        "x": 0.67375,
+        "y": 0.75125,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"
+      },
+      {
+        "map": 3,
+        "title": "Castelo de Chambord",
+        "description": "Prestigiante, majestoso, colossal, extravagante - são estes adjetivos suficientes para descrever por completo o esplendor de Chambord? O maior castelo do Vale do Loire é de facto cheio de surpresas para os que forem suficientemente sortudos para explorar o seu domínio. Esta peça espetacular de arquitetura é certamente mais que um castelo: é o sonho de um Rei transformado em realidade.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/france/chateaudeChambord.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/france/france.svg",
+        "x": 0.46625,
+        "y": 0.415,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"
+      },
+      {
+        "map": 3,
+        "title": "Rocamadour",
+        "description": "Ao vir de Cahors por estrada, Rocamadour aparece de repente, preso de forma precária ao penhasco do monte de Alzou. Uma das mais famosas aldeias da Europa, Rocamadour parece desafiar as leis da gravidade. A vertiginosa Cidadela da Fé é melhor descrita com uma antiga frase típica local, que diz: “casas no rio, igrejas nas casas, pedras, nas igrejas, castelo no rochedo”.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/france/rocamadour.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/france/france.svg",
+        "x": 0.52875,
+        "y": 0.62,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"
+      },
+      {
+        "map": 3,
+        "title": "Palácio dos Papas",
+        "description": "A atração principal de Avignon é o Palácio dos Papas, um castelo vasto de importância histórica, religiosa e arquitetural significativa. É uma das maiores e mais importantes construções Góticas medievais na Europa.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/france/palaisdesPapes.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/france/france.svg",
+        "x": 0.705,
+        "y": 0.7025,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"
+      },
+      {
+        "map": 3,
+        "title": "Castelo de Chenonceau",
+        "description": "O Castelo de Chenonceau é um dos castelos do vale do Loire com grande importância arquitetónica e histórica, atraindo milhares de turistas de todo o mundo. É conhecido como o Castelo das Damas devido às mulheres que influenciaram a sua construção e desenvolvimento ao longo dos séculos.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/france/chateaudeChenonceau.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/france/france.svg",
+        "x": 0.46125,
+        "y": 0.4725,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"
+      },
+      {
+        "map": 3,
+        "title": "Torre Eiffel",
+        "description": "A mundialmente famosa torre metálica foi construída para a Exposição Internacional de Paris em 1889, pelo centenário da Revolução Francesa. Na altura da sua inauguração, era o monumento mais alto do mundo.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/france/eiffelTower.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/france/france.svg",
+        "x": 0.52875,
+        "y": 0.35125,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"
+      },
+      {
+        "map": 4,
+        "title": "Castelo de Neuschwanstein",
+        "description": "O pináculo dos castelos de contos de fadas, o Neuschwanstein situa-se uma colina rugosa perto de Füssen, no Sudoeste da Baviera. Foi a inspiração para os castelos da Bela Adormecida nos parques da Disneylândia. O castelo foi encomendado pelo Rei Ludwig II da Baviera, o qual foi declarado como louco quando o castelo estava perto da sua conclusão em 1886, sendo encontrado morto alguns dias depois. Neuschwanstein é o edifício mais fotografado do país e é uma das mais conhecidas atrações turísticas na Alemanha.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/germany/neuschwansteinCastle.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/germany/germany.svg",
+        "x": 0.51875,
+        "y": 0.83125,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/fantastic.ogg"
+      },
+      {
+        "map": 4,
+        "title": "Banhos Imperiais de Trier",
+        "description": "Os Banhos Imperiais de Trier são um grande complexo de banhos Romanos em Trier, na Alemanha. Designam-se como fazendo parte dos Monumentos Romanos, da Catedral de S. Pedro e da Igreja da Nossa Senhora em Trier e são considerados Património Mundial da Humanidade pela UNESCO.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/germany/trierImperialBaths.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/germany/germany.svg",
+        "x": 0.27625,
+        "y": 0.6675,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/fantastic.ogg"
+      },
+      {
+        "map": 4,
+        "title": "Porta de Brandeburgo",
+        "description": "A Porta de Brandeburgo é o único portão sobrevivente da cidade de Berlim e representa a reunificação da Berlim Ocidental e Oriental. Construída no século XVIII, a porta de Brandeburgo é a entrada da Unter den Linden, a avenida proeminente com árvores de tílias que conduziam em tempos diretamente ao palácio dos monarcas Prussianos. É apontada como sendo um dos marcos locais mais famosos da Europa.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/germany/brandenburgGate.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/germany/germany.svg",
+        "x": 0.69125,
+        "y": 0.3725,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/fantastic.ogg"
+      },
+      {
+        "map": 4,
+        "title": "Catedral de Berlim",
+        "description": "A Catedral de Berlim é a maior igreja da cidade e serve como centro vital para a igreja Protestante da Alemanha. Estendendo-se bastante para além das fronteiras da freguesia e de Berlim, a catedral atrai milhares de visitantes, ano após ano, da Alemanha e do estrangeiro.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/germany/berlinCathedral.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/germany/germany.svg",
+        "x": 0.67875,
+        "y": 0.315,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/fantastic.ogg"
+      },
+      {
+        "map": 4,
+        "title": "Palácio de Schwerin",
+        "description": "Esta fortaleza romântica dos contos de fadas, com todas as suas torres, alas e miradouros, reflete-se nas águas do Lago Schwerin. Foi terminada em 1857 e simboliza a dinastia poderosa do seu fundador, Friedrich Franz II.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/germany/schwerinPalace.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/germany/germany.svg",
+        "x": 0.565,
+        "y": 0.2775,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/fantastic.ogg"
+      },
+      {
+        "map": 4,
+        "title": "Aula Palatina",
+        "description": "A estrutura de tijolo, comprida e de teto alto, foi a sala do trono do imperador romano, até à destruição da cidade por tribos germânicas. Os invasores construíram uma fortaleza nas ruínas sem telhado. No século XII, o espaço foi convertido numa torre para alojar o arcebispo de Trier.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/germany/aulaPalatina.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/germany/germany.svg",
+        "x": 0.30625,
+        "y": 0.6175,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/fantastic.ogg"
+      },
+      {
+        "map": 4,
+        "title": "Catedral de Worms",
+        "description": "A Catedral de Worms (Wormser Dom), também conhecida como Catedral de São Pedro, é uma catedral Românica na cidade alemã de Worms. Uma estrutura em granito com distintas torres cónicas, a Catedral de Worms foi construída por fases, ao longo do século XII, e foi terminada na sua maioria em 1181.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/germany/wormsCathedral.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/germany/germany.svg",
+        "x": 0.3725,
+        "y": 0.64875,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/fantastic.ogg"
+      },
+      {
+        "map": 5,
+        "title": "Cabrillo",
+        "description": "O Monumento Nacional de Cabrillo, em Point Loma, San Diego, comemora a viagem de Juan Rodríguez Cabrillo à costa ocidental dos atuais Estados Unidos. O seu local e data de nascimento não são conhecidos com certeza. Ao serviço da Coroa espanhola, chegou à baía de San Diego em setembro de 1542, depois de partir do porto de Navidad, no México.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/cabrillo.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/usa.svg",
+        "x": 0.25875,
+        "y": 0.565,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 5,
+        "title": "Escarpas de Chelly",
+        "description": "As estóicas ruínas vermelhas das Escarpas de Chelly, a Nordeste do Arizona, fazem parte por um lado do Serviço de Parques Nacionais e por outro da Nação Navajo, sendo estabelecidos como monumentos nacionais em 1931. Um conjunto de locais importantes dos antigos Nativos Americanos são preservados nos cerca de 34 000 hectares do parque, sendo que as Escarpas de Chelly também oferecem um conjunto de formações geológicas da zona Sudoeste, incluindo a Spider Rock (Rochedo da Aranha), uma espira de granito com cerca de 200 metros de altura que se eleva de forma estranha a partir do fundo da escarpa.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/canyondeChelly.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/usa.svg",
+        "x": 0.33125,
+        "y": 0.5525,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 5,
+        "title": "Castelo de São Marcos",
+        "description": "Estendendo-se em mais de 8 hectares de St. Augustine, na Flórida, o Castelo de São Marcos foi terminado como sendo o forte defensivo da cidade em 1695, quando a Flórida ainda era um território Espanhol. Construído a partir da pedra rara que é a coquina, o castelo em forma de estrela também é o mais antigo forte senhorial do país.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/castillodeSanMarcos.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/usa.svg",
+        "x": 0.69625,
+        "y": 0.6275,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 5,
+        "title": "Castelo Clinton",
+        "description": "Este forte redondo de granito, situado no fundo da Ilha de Manhattan antecede a Ilha de Ellis em cerca de 50 anos como sendo o primeiro ponto de verificação de imigração dos EUA. O Castelo Clinton (nps.gov/cacl) foi construído originalmente como um forte para proteger Nova Iorque de uma invasão Britânica durante a guerra de 1812, sendo convertido num monumento nacional em 1946.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/castleClinton.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/usa.svg",
+        "x": 0.75875,
+        "y": 0.41625,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 5,
+        "title": "Local de Nascimento de George Washington",
+        "description": "O Monumento Nacional de Nascimento de George Washington existe no Condado de Westmoreland, em Virgínia, nos Estados Unidos. Originalmente iniciado por John Washington, o bisavô de George Washington, George Washington nasceu aqui em 22 de fevereiro de 1732. Ele viveu lá até aos três anos, regressando mais tarde como adolescente.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/georgeWashingtonBirthplace.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/usa.svg",
+        "x": 0.755,
+        "y": 0.52375,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 5,
+        "title": "Memorial de Lincoln",
+        "description": "Construída em pedra branca com 36 colunas imponentes, o Memorial de Lincoln é uma das estruturas mais reconhecidas nos Estados Unidos. O memorial fica no extremo ocidental do National Mall, no Parque de Potomac Ocidental, sendo um exemplo da arquitetura Neoclássica. Oferece uma estátua solitária de 6 metros de altura de Abraham Lincoln sentado em contemplação, a qual está rodeada por câmaras laterais de ambos os lados com as inscrições do Segundo Discurso Inaugural de Lincoln e, sem dúvida o seu mais famoso discurso, o Discurso de Gettysburg.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/lincolnMemorial.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/usa.svg",
+        "x": 0.72,
+        "y": 0.46625,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 5,
+        "title": "Monte Rushmore",
+        "description": "O Monte Rushmore existe como altar da democracia, sendo um monumento e memorial a George Washington pelo nascimento, crescimento e ideais deste país. O Monte Rushmore simboliza a grandeza desta nação através da grandeza dos seus líderes. A escultura épica do Monte Rushmore contém as faces de quatro presidentes americanos importantes que simbolizam a rica história desta nação, uma enorme determinação e de feitos duradouros.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/mountRushmore.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/usa.svg",
+        "x": 0.49375,
+        "y": 0.42375,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 5,
+        "title": "Navajo",
+        "description": "O Monumento Nacional Navajo é um Monumento Nacional localizado dentro da parte Noroeste do território da Nação Navajo, a Norte do Arizona, que foi estabelecido para preservar três baixos-relevos em penhasco do Povo Ancestral Puebloan: Keet Seel (Kitsʼiil), Betatakin (Bitátʼahkin), e a Casa da Inscrição(Tsʼah Biiʼ Kin). O monumento eleva-se no planalto de Shonto, tendo uma visão geral sobre o sistema montanhoso de Tsegi, a oeste de Kayenta, Arizona. Oferece um centro aos visitantes com um museu, dois trajetos curtos às mesetas, dois parques de campismo e uma área de piqueniques. Alguns guardas guiam os visitantes em viagens gratuitas aos relevos de Keet Seel e Betatakin. O local da Casa da Inscrição, mais a oeste, está neste momento encerrado ao público.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/navajo.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/usa.svg",
+        "x": 0.34875,
+        "y": 0.49875,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 5,
+        "title": "Estátua da Liberdade",
+        "description": "Talvez o monumento mais conhecido e um símbolo dos Estados Unidos seja a Estátua da Liberdade, que se situa na sua pequena ilha na Cidade de Nova Iorque. A estátua foi uma prenda do povo de França e foi inaugurada em outubro de 1886.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/statueofLiberty.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/usa.svg",
+        "x": 0.7725,
+        "y": 0.355,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 5,
+        "title": "Forte Sumter",
+        "description": "O Forte Sumter foi originalmente construído como uma estrutura defensiva depois da guerra de 1812. Situa-se à entrada do porto de Charleston, na Carolina do Sul. As suas exposições apresentam diferentes perspetivas sobre a história dos Estados Unidos, em particular as divisões entre o Norte e o Sul que acabaram por dar origem à Guerra Civil.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/fortSumter.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/usa.svg",
+        "x": 0.70375,
+        "y": 0.5675,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 6,
+        "title": "Grande Pirâmide de Gizé",
+        "description": "A Grande Pirâmide de Gizé, também chamada Pirâmide de Quéops ou Khufu, é o túmulo do faraó Khufu, no Egito. É a única das Sete Maravilhas do Mundo Antigo que chegou até nós. A sua altura original era de cerca de 146,5 metros e a construção terá demorado entre 10 e 20 anos. Foi construída principalmente com pedra calcária.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/egypt/greatPyramidOfGiza.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/egypt/egypt.svg",
+        "x": 0.59625,
+        "y": 0.2275,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/awesome.ogg"
+      },
+      {
+        "map": 6,
+        "title": "Pirâmide Curvada",
+        "description": "A Pirâmide Dobrada, localizada em Dahshur, foi a segunda pirâmide construída pelo faraó Sneferu. Misteriosamente, esta pirâmide real eleva-se a partir do deserto com um ângulo de 55 graus e de repente muda para um ângulo mais gradual de 43 graus. Uma teoria é de que, devido à inclinação do ângulo original, o peso a ser adicionado acima das câmaras interiores e passagens tornou-se demasiado elevado, obrigando os construtores a adotar um ângulo mais suave. Hoje em dia, a Pirâmide Curvada é a única pirâmide no Egito em que a cobertura exterior em pedra calcária polida ainda está intacta na sua maioria.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/egypt/bentPyramid.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/egypt/egypt.svg",
+        "x": 0.5725,
+        "y": 0.2725,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/awesome.ogg"
+      },
+      {
+        "map": 6,
+        "title": "Pirâmide de Meidum",
+        "description": "Cinco milhas a Sul de Saqqara no Egito, eleva-se a misteriosa pirâmide em torre de Meidum, que nos dias de hoje pouco se parece com uma pirâmide de todo. A pirâmide foi provavelmente construída durante o reinado do faraó da 4a Dinastia Sneferu, ainda que se acredita que parte da pirâmide tenha sido iniciada pelo antecessor de Sneferu, Huni. A determinada altura da sua construção, os degraus da pirâmide foram preenchidos com uma cobertura em pedra calcária, marcando a primeira tentativa dos antigos Egípcios na construção de uma verdadeira pirâmide.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/egypt/meidumPyramid.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/egypt/egypt.svg",
+        "x": 0.5825,
+        "y": 0.31875,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/awesome.ogg"
+      },
+      {
+        "map": 6,
+        "title": "Pirâmide Vermelha",
+        "description": "A Pirâmide Vermelha foi uma das melhores e bem-sucedidas tentativas do faraó Sneferu na construção da primeira pirâmide de faces suaves do mundo no período do Antigo Egito. A altura da pirâmide é de 104 metros, tornando-se a 4a pirâmide mais alta do mundo no Egito. A pirâmide foi construída com rochas de pedra calcária vermelha, daí o seu nome. As pessoas locais do Egito chamavam-lhe 'el-heram el-watwaat', que significa Pirâmide-Morcego.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/egypt/redPyramid.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/egypt/egypt.svg",
+        "x": 0.52625,
+        "y": 0.3025,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/awesome.ogg"
+      },
+      {
+        "map": 7,
+        "title": "Cidade Proibida",
+        "description": "A Cidade Proibida, localizada no coração de Beijing (Pequim), na China, é um magnífico complexo do Palácio imperial que serviu de casa aos imperadores chineses e de centro político da nação por quase 500 anos, da Dinastia Ming (1368-1644) até ao fim da dinastia Qing (1644-1912). Construído entre 1406 e 1420, esta obra-prima arquitetónica abrange 180 hectares e apresenta mais de 980 edifícios preservados com 8.700 divisões, representativas do design palaciano chinês tradicional. Rodeado por um fosso e muralhas altas, a Cidade Proibida já foi inacessível ao público em geral, simbolizando a exclusividade do poder imperial.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/china/forbiddenCity.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/china/china.svg",
+        "x": 0.64375,
+        "y": 0.4625,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 7,
+        "title": "Buda gigante de Leshan",
+        "description": "O Buda Gigante de Leshan, localizado na província de Sichuan, na China, é uma estátua colossal esculpida num penhasco na confluência dos rios Min, Dadu e Qingyi. Com 71 metros (233 pés) de altura, é a estátua mais alta da antiguidade e é considerado Património Mundial da Humanidade pela UNESCO. Construído durante a Dinastia Tang (713-803 DC), a estátua representa Maitreya, o Buda do futuro, e foi erigido para acalmar as águas turbulentas que constituem uma ameaça ao tráfego local de embarcações. Engenhosamente projetada, a estátua inclui um sistema de drenagem oculto para evitar a erosão. A sua expressão serena e a mestria da sua execução fazem dela um símbolo de realização espiritual e artística.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/china/leshanGiantBuddha.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/china/china.svg",
+        "x": 0.5,
+        "y": 0.57625,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 7,
+        "title": "Palácio de Potala",
+        "description": "O Palácio de Potala, alcandorado na Colina Vermelha em Lhasa, no Tibete, é um símbolo icónico da cultura tibetana e considerado Património Mundial da Humanidade pela UNESCO. Originalmente construído no século VII e expandido no século XVII, serviu como residência de inverno dos Dalai Lamas e como centro de governação tibetano. Erguendo-se à altura de 13 andares, com mais de 1.000 divisões, o Palácio combina elementos intricados da arquitetura tibetana, murais vibrantes e relíquias sagradas. Divide-se entre o Palácio Branco, albergando as áreas administrativas e de habitação, e o Palácio Vermelho, dedicado aos estudos religiosos e à oração. O Palácio de Potala permanece um testemunho do legado histórico e espiritual do Tibete.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/china/potalaPalace.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/china/china.svg",
+        "x": 0.34875,
+        "y": 0.57625,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 7,
+        "title": "Exército de Terracota",
+        "description": "O exército de terracota é uma coleção de milhares de soldados, cavalos e carruagens de argila em tamanho natural enterrados com o primeiro imperador da China, Qin Shi Huang, para o acompanharem na vida após a morte. Descoberto em 1974 perto de Xi'an, as figuras datam aproximadamente de 210 AC e são admiradas pelos seus incríveis detalhes, com cada guerreiro criado propositadamente para dar testemunho das diversas patentes e papéis num antigo exército chinês.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/china/terracottaArmy.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/china/china.svg",
+        "x": 0.5825,
+        "y": 0.5075,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 7,
+        "title": "Pagodes do Sol e da Lua",
+        "description": "Os Pagodes do Sol e da Lua, localizados em Guilin, na China, são icónicas Torres Gémeas que simbolizam o património cultural e espiritual da cidade. Erigidos originalmente durante a Dinastia Tang, foram reconstruídos no século XX como marcos notórios no Lago Shanhu. O Pagode do Sol, com 41 metros de altura, é uma estrutura de bronze—a mais alta deste tipo no mundo—enquanto que o Pagode da Lua, com 35 metros, é construído de azulejos. Esses pagodes representam a harmonia do Yin e do Yang e estão ligados por um túnel de vidro subaquático. Iluminados à noite, são atrações populares que dão mostra da arquitetura chinesa e da engenharia moderna.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/china/sunAndMoonPagodas.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/china/china.svg",
+        "x": 0.59125,
+        "y": 0.60625,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 7,
+        "title": "Torres Diaolou",
+        "description": "As torres Diaolou, que se encontram em Kaiping, Província de Guangdong, na China, são estruturas fortificadas de vários andares construídas no final do séc. XIX e inícios do séc. XX como proteção contra bandidos e inundações. Misturando estilos arquitetónicos Ocidentais como o românico e o barroco com elementos tradicionais chineses, refletem a riqueza e o poder dos emigrantes ultramarinos chineses. Construídas em betão armado reforçado, estas torres simbolizam um período de transição cultural e económica na China rural. Designadas como Património Mundial da Humanidade pela UNESCO em 2007, permanecem entre 1.800 e 3.000 originais destas torres, oferecendo uma visão única desta herança arquitetónica.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/china/diaolouTowers.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/china/china.svg",
+        "x": 0.61125,
+        "y": 0.65875,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"
+      },
+      {
+        "map": 8,
+        "title": "Panteão",
+        "description": "O Panteão em Roma, Itália, é um templo icónico da antiguidade construído por volta de 126 DC durante o reinado do Imperador Adriano, no local de estruturas anteriores encomendadas por Marcus Agripa. Reconhecido pelo seu brilhantismo arquitetónico, possui um enorme teto abobadado com um óculo central, simbolizando os céus, permitindo que a luz natural ilumine o interior. Originalmente dedicado a todos os deuses romanos, foi posteriormente convertido numa igreja cristã, conhecida como a Basílica de Santa Maria e dos Mártires (Santa Maria ad Martyres), em 609 DC. A sua cúpula, a maior cúpula de betão não armado do mundo, apresenta uma engenharia e simetria notáveis que durante séculos inspiraram arquitetos. As proporções harmoniosas e o significado histórico do Panteão fazem dela uma obra-prima intemporal da arquitetura clássica.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/italy/pantheon.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/italy/italy.svg",
+        "x": 0.5,
+        "y": 0.5,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg"
+      },
+      {
+        "map": 8,
+        "title": "Catedral de Milão",
+        "description": "O Duomo di Milano, também conhecida como Catedral de Milão, é uma obra-prima gótica icónica localizada no coração de Milão, Itália. Construída ao longo de quase seis séculos, é uma das maiores catedrais do mundo e um símbolo do património artístico e cultural de Milão. Sua intrincada fachada está adornada com inúmeras estátuas, pináculos e gárgulas, refletindo a grandiosidade da arte gótica. Os visitantes podem explorar os seus impressionantes interiores, com belos vitrais e intrincados detalhes em mármore, ou subir até ao telhado e desfrutar de vistas deslumbrantes da cidade e dos Alpes. O Duomo permanece como um testemunho da rica história e do brilhantismo arquitetónico da Itália.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/italy/duomoDiMilano.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/italy/italy.svg",
+        "x": 0.2875,
+        "y": 0.2725,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg"
+      },
+      {
+        "map": 8,
+        "title": "Catedral de Florença",
+        "description": "A Catedral de Florença, oficialmente conhecida como Cattedrale di Santa Maria del Fiore, é uma obra-prima de renome da arquitetura gótica e renascentista localizada em Florença, Itália. Concluída em 1436, é famosa pela sua enorme cúpula de azulejos vermelhos projetada por Filippo Brunelleschi, permanecendo uma maravilha da engenharia e um símbolo da cidade. A intricada fachada em mármore da catedral, acrescentada no século XIX, complementa os tesouros artísticos do seu interior ricamente decorado. Juntamente com o Campanário de Giotto e o Batistério de São João, faz parte do Património Mundial da Humanidade da UNESCO, e as suas características históricas, culturais e a sua importância arquitetónica atraem anualmente milhões de visitantes.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/italy/florenceCathedral.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/italy/italy.svg",
+        "x": 0.42375,
+        "y": 0.39375,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg"
+      },
+      {
+        "map": 8,
+        "title": "Torre inclinada de Pisa",
+        "description": "A Torre Inclinada de Pisa, localizada na cidade italiana de Pisa, é uma maravilha arquitetónica de renome mundial. Construída para ser torre sineira independente para a Catedral da cidade, é famosa pela sua inclinação não intencional, causada pela fundação em solo instável. Iniciada em 1173, a construção da torre estendeu-se por quase 200 anos, durante os quais foram envidados esforços para estabilizar a sua inclinação. Erguendo-se até cerca de 56 metros (183 pés), o estilo românico da torre apresenta oito andares, incluindo uma câmara sineira, adornados com colunas e arcos intrincadamente esculpidos. Reconhecida como Património Mundial da Humanidade pela UNESCO, permanece um símbolo de resiliência e de engenho.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/italy/leaningTowerOfPisa.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/italy/italy.svg",
+        "x": 0.36375,
+        "y": 0.39375,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg"
+      },
+      {
+        "map": 8,
+        "title": "Basílica de São Marcos",
+        "description": "A Basílica de São Marcos, localizada em Veneza, Itália, é uma obra-prima icónica de Arquitetura bizantina e um dos marcos mais famosos da cidade. Construída em 828 originalmente para abrigar as relíquias de São Marcos Evangelista, foi reconstruída no século 11 tendo adquirido a sua forma atual. Conhecida pelo seu design opulento, a Basílica apresenta uma mistura de influências orientais e ocidentais, evidente nas suas cinco cúpulas, nos seus intrincados mosaicos e na ornamentação da fachada adornada com estátuas e esculturas. O interior é profusamente decorado com mosaicos de ouro e pisos de mármore, exibindo a riqueza e o poder da República de Veneza. Adjacente à Praça de São Marcos, a basílica continua a ser um símbolo da herança do património cultural, histórico e religioso de Veneza.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/italy/stMarkBasilica.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/italy/italy.svg",
+        "x": 0.485,
+        "y": 0.2725,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg"
+      },
+      {
+        "map": 8,
+        "title": "Pompeia",
+        "description": "Pompeia foi uma antiga cidade Romana localizada perto da Nápoles dos dias de hoje, em Itália, notoriamente preservada após ter sido soterrada pela erupção do Monte Vesúvio em 79 d. C. A erupção desencadeou uma combinação mortal de cinzas, pedra-pomes e fluxos piroclásticos, que engoliram a cidade e os seus habitantes, preservando edifícios, artefactos e até mesmo restos humanos de forma incrivelmente detalhada. As escavações de Pompeia forneceram informações valiosas sobre a vida, a arquitetura e a sociedade romanas, revelando uma cidade de ruas bem planeadas, casas, banhos públicos e templos. O local é agora considerado Património Mundial da Humanidade pela UNESCO e continua a ser uma das mais importantes descobertas arqueológicas da história.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/italy/pompeii.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/italy/italy.svg",
+        "x": 0.61,
+        "y": 0.57625,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg"
+      },
+      {
+        "map": 9,
+        "title": "Castelo Himeji",
+        "description": "Himeji-jo é o exemplo mais admirável da arquitetura defensiva japonesa do séc. XVII que chegou até nós, compreendendo 83 edifícios com sistemas de defesa altamente desenvolvidos e engenhosos dispositivos protetivos que datam do início do Período Shogun. É uma obra-prima de construção em madeira, combinando a função com estética apelativa, tanto na sua aparência elegante unificada pelo gesso branco do reboco das paredes como na subtileza das relações entre as massas do edifício e as múltiplas camadas do telhado.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/japan/himejiCastle.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/japan/japan.svg",
+        "x": 0.4975,
+        "y": 0.4925,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/good.ogg"
+      },
+      {
+        "map": 9,
+        "title": "Parque Memorial da Paz em Hiroshima",
+        "description": "O Parque Memorial da Paz de Hiroshima é um símbolo de paz e um lembrete das consequências devastadoras da guerra. Localizado em Hiroshima, no Japão, o parque homenageia as vítimas do bombardeamento com bomba atómica a 6 de agosto de 1945. O parque apresenta vários monumentos, incluindo a icónica Abóboda da Bomba Atómica, que foi outrora um edifício governamental e agora é considerado Património Mundial da Humanidade pela UNESCO. O parque também abriga o Museu Memorial da Paz de Hiroshima, que educa os visitantes sobre os acontecimentos em torno do bombardeamento e promove uma mensagem de paz, de não-violência e da importância do desarmamento nuclear. Serve como um espaço solene de reflexão, homenageando as vidas perdidas e advogando a paz mundial.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/japan/hiroshimaPeaceMemorialPark.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/japan/japan.svg",
+        "x": 0.42375,
+        "y": 0.51125,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/good.ogg"
+      },
+      {
+        "map": 9,
+        "title": "Santuário Arakura Fuji Sengen",
+        "description": "O santuário foi fundado em 705 para consagrar a divindade do local. Seguindo a grande erupção do Monte Fuji em 807, o imperador designou um enviado imperial a este santuário para realizar um ritual para deter a erupção. Conta-se que durante o Período dos Reinos Combatentes, quando Takeda Nobutora, pai de um famoso senhor da guerra Takeda Shingen, lutou contra a família Hojo, montou acampamento aqui, orou pela vitória e venceu a batalha. Ele então dedicou a sua espada a este santuário. Hoje, moradores locais e vindos de longe visitam o santuário para afastarem o mal, para orarem pela felicidade da família e pedirem um parto seguro. Na primavera, grandes multidões reúnem-se junto às cerejeiras em flor para apreciarem a vista deslumbrante do Monte Fuji.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/japan/arakuraShrine.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/japan/japan.svg",
+        "x": 0.63625,
+        "y": 0.4775,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/good.ogg"
+      },
+      {
+        "map": 9,
+        "title": "Castelo de Shuri, Okinawa",
+        "description": "O Castelo Shuri, localizado em Naha, Okinawa, Japão, é considerado Património Mundial da Humanidade pela UNESCO e um símbolo da rica história cultural do Reino Ryukyu. Originalmente construído no século XIV, o castelo serviu como centro político, económico e cultural do reino durante séculos. Famoso pela sua peculiar fusão de estilos arquitetónicos chineses e japoneses, o castelo Shuri apresenta estruturas laqueadas a vermelho, decorações ornamentadas e assume uma posição dominante no topo da colina. Apesar de ter sido destruído durante a Segunda Guerra Mundial, foi meticulosamente reconstruído e tornou-se numa importante atração turística. Tragicamente, grande parte do castelo foi perdida num incêndio em 2019, mas estão em curso esforços para restaurá-lo, o que reflete a sua importância duradoura para o património de Okinawa.",
+        "image": "qrc:/gcompris/src/activities/explore_monuments/resource/japan/okinawaShuriCastle.webp",
+        "mapImage": "qrc:/gcompris/src/activities/explore_monuments/resource/japan/japan.svg",
+        "x": 0.2675,
+        "y": 0.78375,
+        "audio": "qrc:/gcompris/data/voices-ogg/pt/misc/good.ogg"
+      }
+    ],
+    "evidence": {
+      "initial": {
+        "map": 1,
+        "stage": 1,
+        "totalStages": 2,
+        "totalMaps": 9
+      },
+      "spots": 7,
+      "after": {
+        "map": 9,
+        "stage": 1,
+        "okVisible": true
+      }
+    }
+  },
+  "deployment_retained": true,
+  "private_file_ownership_verified": true
+}
