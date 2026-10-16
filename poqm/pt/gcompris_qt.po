@@ -8801,7 +8801,7 @@ msgid ""
 "recognizable as a classical template for the stadia of today. It was the "
 "first permanent amphitheatre to be raised in Rome, and the most impressive "
 "arena the Classical world had yet seen."
-msgstr "O Coliseu é um dos edifícios mais reconhecidos da Roma clássica. Mesmo 2 000 anos após a sua construção, e apesar dos séculos em que foi abandonado e pilhado para obter materiais de construção, continua a ser imediatamente reconhecível. É um modelo clássico dos estádios atuais. Foi o primeiro anfiteatro permanente de Roma e a arena mais impressionante que o mundo clássico conhecera até então."
+msgstr "O Coliseu é um dos edifícios mais reconhecidos da Roma clássica. Mesmo 2 000 anos após a sua construção, e apesar dos séculos em que foi abandonado e pilhado para obter materiais de construção, continua a ser imediatamente reconhecível. É um modelo clássico dos estádios atuais. É um dos grandes anfiteatros da Roma antiga."
 
 #: activities/explore_monuments/resource/board/board1.qml:41
 #: activities/explore_monuments/resource/board/board1.qml:44

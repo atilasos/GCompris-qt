@@ -38,16 +38,17 @@ monumentos, tradução de arenito/habitações nas falésias, unidades de área 
 concordâncias. Os [factos verificados](source-facts.md) distinguem correções da
 tradução e exceções factuais em relação à fonte inglesa.
 
-As provas têm três gerações independentes e imutáveis:
+As provas têm quatro gerações independentes e imutáveis:
 
 | Raiz | Observações | SHA256 do sealed.json, ancorado fora da prova |
 | --- | --- | --- |
 | archive | 20 execuções: 7 pares vermelho/verde e campanhas/controlos finais | b0e234b0267060428c1b1bbc62b3cac0045456e0b7f95fc5ceff7c9c96a0d720 |
 | supplement-archive | Par idêntico com 6 painéis: geografia, arenito e habitações | 765b2a4250614ed298ef58bb2a147df108febf39a950703200a4a1b0a1a7ed5c |
 | supplement2-archive | Par idêntico com 8 painéis: unidades, materiais, concordâncias e Meidum | 75e6dd5028d64dcdf3e6e18a3fb948aa2f3820af6d5dbf44f3e0707212f48437 |
+| supplement3-archive | Par idêntico com 1 painel: remoção da primazia falsa do Coliseu | 0b6b17c3aaa3d7c09ba110869af1848d7b82f6f97dbb4833619c9eb7bf47d477 |
 
 Cada vermelho tem uma falha de asserção esperada e retorno externo 1; cada verde
-tem retorno externo 0. O processo Qt termina 0 em todas as 24 execuções selecionadas.
+tem retorno externo 0. O processo Qt termina 0 em todas as 26 execuções selecionadas.
 Os recibos preservam separadamente os retornos observados do lançador,
 supervisor e ferramenta. Os suplementos mudam apenas descrições já visitadas;
 títulos, perguntas, posições e regras permanecem iguais. Não acrescentam jogos
@@ -71,9 +72,10 @@ tar, manifestos, recibos, hashes e selo de forma coerente. A âncora externa
 literal recusa essa cópia. Outro caso esvazia as campanhas e demonstra que a
 validação de cobertura recusa mesmo um selo confiável. O executor recusa uma
 saída existente antes de escrever e o teste compara todos os bytes anteriores.
-As 11 verificações passam no Python normal e com `-O`, incluindo numa cópia Docker
+As 14 verificações passam no Python normal e com `-O`, incluindo numa cópia Docker
 sem rede, Git, Qt ou árvore original; os retornos reais estão em
-[portable-verification.json](portable-verification.json).
+[portable-verification.json](portable-verification.json) e no suplemento
+[portable-verification-colosseum.json](portable-verification-colosseum.json).
 
 Windows 10/11, equipamento escolar, audição humana, pronúncia e aceitação docente
 estão pendentes. Os dois pares legados da tarefa 44 não foram aplicados.

@@ -20,7 +20,7 @@ def apply(write=False):
    if old!=new:
     if old in changes and changes[old]!=new:raise ValueError('Conflicting reviewed text')
     changes[old]=new
- for name in ['question-review.json','help-review.json','supplement-review.json','supplement2-review.json']:
+ for name in ['question-review.json','help-review.json','supplement-review.json','supplement2-review.json','supplement3-review.json']:
   for row in json.loads(Path(__file__).with_name(name).read_text()):
    old,new=row['old'],row['new']
    for previous,target in list(changes.items()):

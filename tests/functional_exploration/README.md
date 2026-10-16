@@ -11,8 +11,8 @@ python3 tests/functional_exploration/apply_language.py
 msgfmt --check poqm/pt/gcompris_qt.po -o /tmp/task84-checked.mo
 ```
 
-O auditor composto verifica as três raízes; os resultados esperados são 98 páginas,
-116 perguntas, 16 erros reparados, 30 Bonus, 4 casos de controlos e suplementos de 6 e 8 páginas.
+O auditor composto verifica as quatro raízes; os resultados esperados são 98 páginas,
+116 perguntas, 16 erros reparados, 30 Bonus, 4 casos de controlos e suplementos de 6, 8 e 1 páginas.
 A [documentação da prova](../../.scratch/pt-pt/functional-exploration/README.md)
 descreve a cobertura e os limites.
 
@@ -21,10 +21,10 @@ Copie também `audit.py`, `audit_supplement.py` e `curriculum.py` para a mesma p
 do auditor. Não são necessários Git, Qt ou os caminhos originais dos recibos.
 
 Para repetir a verificação isolada, confirme que a imagem local
-`python:3.12-slim` existe e execute `python3 tests/functional_exploration/portable.py`.
-O comando recusa substituir `portable-verification.json`; preserve o recibo
-anterior noutro caminho antes de gerar um recibo novo. O Docker usa uma cópia
-física das três provas e executa os testes normal e `-O` sem rede, Git ou Qt.
+`python:3.12-slim` existe e execute `python3 tests/functional_exploration/portable.py --output /tmp/task84-nova-verificacao.json`.
+Escolha um caminho novo: o comando recusa relatórios existentes antes de lançar
+qualquer processo. O Docker usa uma cópia
+física das quatro provas e executa os testes normal e `-O` sem rede, Git ou Qt.
 
 Para uma nova observação nativa, crie uma fase inédita com `phase.freeze(nome)`
 antes de lançar trabalhadores. Use `capture.py --activity NOME --phase FASE

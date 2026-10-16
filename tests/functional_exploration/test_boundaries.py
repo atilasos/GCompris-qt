@@ -4,6 +4,7 @@ import hashlib,json,subprocess,tempfile,unittest
 from pathlib import Path
 from unittest.mock import patch
 import run as runner
+import portable
 from phase import verify
 
 def bytes_under(root):return {str(p.relative_to(root)):p.read_bytes() for p in root.rglob('*') if p.is_file()}
@@ -27,8 +28,15 @@ class ExecutionBoundaries(unittest.TestCase):
    with self.assertRaises(ValueError):verify(root)
  def test_cases_do_not_inspect_hidden_answer_models(self):
   folder=Path(__file__).parent
-  for name in ['gameplay.qml','controls.qml','language-exact.qml','supplement.qml','supplement2.qml']:
+  for name in ['gameplay.qml','controls.qml','language-exact.qml','supplement.qml','supplement2.qml','supplement3.qml']:
    text=(folder/name).read_text()
    for hidden in ['questionOrder','questionId','currentQuestion','dataModel','dataset.item','Activity.items','items.buttonsBlocked']:
     self.assertNotIn(hidden,text,name)
+ def test_existing_portable_report_refuses_before_subprocess(self):
+  with tempfile.TemporaryDirectory() as temporary:
+   report=Path(temporary)/'accepted.json';report.write_bytes(b'accepted historical report');before=bytes_under(Path(temporary))
+   with patch('sys.argv',['portable.py','--output',str(report)]),patch.object(portable.subprocess,'run') as launch:
+    with self.assertRaises(FileExistsError):portable.main()
+    launch.assert_not_called()
+   self.assertEqual(bytes_under(Path(temporary)),before)
 if __name__=='__main__':unittest.main()
