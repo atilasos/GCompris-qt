@@ -1,0 +1,10 @@
+{
+  "format": 1,
+  "kind": "observed-exec-tool-return",
+  "exit_code": 1,
+  "session_id": 92218,
+  "chunk_id": "d4d8f7",
+  "provenance": "Actual write_stdin response manually transcribed after completion",
+  "native_receipt_sha256": "e06e53c441f99d1fe330fec5380136b43b90e679c2f1b6520810ee4f0408cc5d",
+  "launcher_status_sha256": "d5e12f6742fd0399d8c7b1f0d79173fd94c474d1b91ce176bef90ef5486cbf10"
+}

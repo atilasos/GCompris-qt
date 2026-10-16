@@ -1,7 +1,7 @@
 # Coordenação com a bola
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -28,3 +28,22 @@ otimizado ou recusar explicitamente essa modalidade.
 
 Windows 10, dispositivos físicos, toque real, audição, revisão docente e
 aceitação global continuam pendentes.
+
+## Answer
+
+Implementação entregue para revisão independente: 27 rotas concluídas,
+18 níveis únicos, 27 erros reparados e controlos públicos. Cinco pares idênticos
+vermelho/verde corrigem totais públicos, duas ajudas e barras que sobreviviam
+à navegação. Auditor puro de 15 recibos, cinco fases físicas, RCC/QM/sons/casos e
+retornos efetivamente observados; testes de cópia, adulteração/reseal/vazio/-O.
+
+O original penalty-complete **não é verde**: Qt139/supervisor1/ferramenta1,
+mesmo com asserções 0 e nove níveis. A repetição exata passou normalmente e duas
+repetições gdb não reproduziram. Journal/símbolo local delimitam uma ocorrência
+em GC QtQml, sem provar causa. O coordenador indicou tarefa própria para o
+encerramento antes de aceitar estabilidade global. Resolved regista a entrega
+desta implementação, não resolve essa pendência nem a aceitação global.
+
+Ver [provas/limites](../functional-ball/README.md),
+[ballcatch](../validation/ballcatch.md) e [penalty](../validation/penalty.md).
+Windows, dispositivos, toque, audição e revisão docente pendentes.

@@ -1,0 +1,57 @@
+
+/lib/x86_64-linux-gnu/libQt6Qml.so.6.10.2:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+00000000002ab240 <QV4::MemoryManager::collectFromJSStack(QV4::MarkStack*) const@@Qt_6_PRIVATE_API>:
+  2ab240:	f3 0f 1e fa          	endbr64
+  2ab244:	55                   	push   %rbp
+  2ab245:	48 89 e5             	mov    %rsp,%rbp
+  2ab248:	41 54                	push   %r12
+  2ab24a:	53                   	push   %rbx
+  2ab24b:	48 83 ec 40          	sub    $0x40,%rsp
+  2ab24f:	48 8b 07             	mov    (%rdi),%rax
+  2ab252:	64 4c 8b 24 25 28 00 	mov    %fs:0x28,%r12
+  2ab259:	00 00 
+  2ab25b:	4c 89 65 e8          	mov    %r12,-0x18(%rbp)
+  2ab25f:	49 89 f4             	mov    %rsi,%r12
+  2ab262:	48 8b 58 40          	mov    0x40(%rax),%rbx
+  2ab266:	48 8b 50 08          	mov    0x8(%rax),%rdx
+  2ab26a:	48 39 d3             	cmp    %rdx,%rbx
+  2ab26d:	0f 83 f0 00 00 00    	jae    2ab363 <QV4::MemoryManager::collectFromJSStack(QV4::MarkStack*) const@@Qt_6_PRIVATE_API+0x123>
+  2ab273:	49 b8 00 00 00 00 00 	movabs $0x7ff1000000000000,%r8
+  2ab27a:	00 f1 7f 
+  2ab27d:	49 89 f9             	mov    %rdi,%r9
+  2ab280:	eb 2b                	jmp    2ab2ad <QV4::MemoryManager::collectFromJSStack(QV4::MarkStack*) const@@Qt_6_PRIVATE_API+0x6d>
+  2ab282:	0f 1f 84 00 00 00 00 	nopl   0x0(%rax,%rax,1)
+  2ab289:	00 
+  2ab28a:	66 66 2e 0f 1f 84 00 	data16 cs nopw 0x0(%rax,%rax,1)
+  2ab291:	00 00 00 00 
+  2ab295:	66 66 2e 0f 1f 84 00 	data16 cs nopw 0x0(%rax,%rax,1)
+  2ab29c:	00 00 00 00 
+  2ab2a0:	48 83 c3 08          	add    $0x8,%rbx
+  2ab2a4:	48 39 d3             	cmp    %rdx,%rbx
+  2ab2a7:	0f 83 b3 00 00 00    	jae    2ab360 <QV4::MemoryManager::collectFromJSStack(QV4::MarkStack*) const@@Qt_6_PRIVATE_API+0x120>
+  2ab2ad:	48 8b 03             	mov    (%rbx),%rax
+  2ab2b0:	4c 85 c0             	test   %r8,%rax
+  2ab2b3:	75 eb                	jne    2ab2a0 <QV4::MemoryManager::collectFromJSStack(QV4::MarkStack*) const@@Qt_6_PRIVATE_API+0x60>
+  2ab2b5:	48 85 c0             	test   %rax,%rax
+  2ab2b8:	74 e6                	je     2ab2a0 <QV4::MemoryManager::collectFromJSStack(QV4::MarkStack*) const@@Qt_6_PRIVATE_API+0x60>
+  2ab2ba:	0f b7 f0             	movzwl %ax,%esi
+  2ab2bd:	48 89 c7             	mov    %rax,%rdi
+  2ab2c0:	48 89 f1             	mov    %rsi,%rcx
+  2ab2c3:	66 31 ff             	xor    %di,%di
+  2ab2c6:	48 c1 ee 0b          	shr    $0xb,%rsi
+  2ab2ca:	48 c1 f9 05          	sar    $0x5,%rcx
+  2ab2ce:	48 8d 3c f7          	lea    (%rdi,%rsi,8),%rdi
+  2ab2d2:	be 01 00 00 00       	mov    $0x1,%esi
+  2ab2d7:	48 d3 e6             	shl    %cl,%rsi
+  2ab2da:	48 89 f1             	mov    %rsi,%rcx
+  2ab2dd:	48 8b 37             	mov    (%rdi),%rsi
+  2ab2e0:	48 85 f1             	test   %rsi,%rcx
+  2ab2e3:	75 bb                	jne    2ab2a0 <QV4::MemoryManager::collectFromJSStack(QV4::MarkStack*) const@@Qt_6_PRIVATE_API+0x60>
+  2ab2e5:	48 09 f1             	or     %rsi,%rcx
+  2ab2e8:	48 89 0f             	mov    %rcx,(%rdi)
+  2ab2eb:	49 8b 0c 24          	mov    (%r12),%rcx
+  2ab2ef:	49                   	rex.WB

@@ -1,0 +1,10 @@
+{
+  "format": 1,
+  "kind": "observed-exec-tool-return",
+  "exit_code": 0,
+  "session_id": 16212,
+  "chunk_id": "6df688",
+  "provenance": "Actual write_stdin completion observed by data_04 after wait; not inferred from Qt receipt",
+  "native_receipt_sha256": "8553acb9b24a7e213e389fa426e04907578a7580ef996a07fd1f74359ac9b7dd",
+  "launcher_status_sha256": "4b5c594d873c01be8c2f7c970edde06a77bb7058552cf0c0a7e1ecda753b19d1"
+}
