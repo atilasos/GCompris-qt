@@ -1,0 +1,14 @@
+....F.
+======================================================================
+FAIL: test_proposal_cannot_relabel_a_square_as_generic_polygon (test_prepare.VisiblePolygonCases.test_proposal_cannot_relabel_a_square_as_generic_polygon)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-polygon-cases/tests/pattern_polygon_cases/test_prepare.py", line 21, in test_proposal_cannot_relabel_a_square_as_generic_polygon
+    with self.assertRaises(ValueError):render(proposals,inventory)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.037s
+
+FAILED (failures=1)
