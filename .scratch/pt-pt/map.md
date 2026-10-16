@@ -159,7 +159,7 @@ e os restantes critérios de aceitação mantêm os seus estados próprios.
 
 A memória matemática concluiu 14 variantes e 207 combinações nível/modo;
 decimais/quantidades concluíram 316 puzzles em 16 campanhas offline e quatro casos de controlos.
-As 118 atividades com evidência funcional ligada na matriz não representam
+As 121 atividades com evidência funcional ligada na matriz não representam
 a aceitação global dos 203 jogos.
 
 - [40 — Contrato dos níveis do Solitário](issues/40-niveis-solitario.md)
@@ -325,3 +325,8 @@ sem achados; [relatórios](review/integration78/). A ligação mantém critério
 Windows, hardware, áudio ou revisão docente.
 
 - [79 — Desafios aritméticos](issues/79-desafios-aritmeticos.md)
+
+A tarefa 76 tem prova Linux integrada de 80 tarefas/13 níveis e 13 erros
+reparados em orientação/rato. Está `ready-for-review`, aguardando Standards
+e Spec independentes. Três ligações foram acrescentadas sem alterar critérios
+globais, Windows, hardware, áudio ou revisão docente.

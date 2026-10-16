@@ -1,7 +1,7 @@
 # Orientação espacial e botões do rato
 
 Status: ready-for-agent
-Progress: resolved
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -53,3 +53,9 @@ passaram, incluindo cópia isolada e adulterações resealadas. [Verificação](
 
 Nenhum processo pendente; pronto para merger e revisões independentes.
 Windows 10, dispositivos, audição, docente e aceitação global permanecem pendentes.
+
+## Integração
+
+Provas integradas para Standards e Spec independentes. `ready-for-review`
+não representa resolução final ou aceitação global. Extrações Qt históricas
+foram preservadas byte a byte, incluindo espaços finais.
