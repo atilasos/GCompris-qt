@@ -309,3 +309,5 @@ alterar critérios globais, Windows, hardware, áudio ou revisão docente.
 - [76 — Orientação espacial e botões do rato](issues/76-orientacao-e-rato.md)
 
 - [77 — Puzzles deslizantes](issues/77-puzzles-deslizantes.md)
+
+- [78 — Apagar as luzes](issues/78-apagar-luzes.md)
