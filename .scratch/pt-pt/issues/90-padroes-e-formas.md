@@ -20,6 +20,8 @@ ocultos, modelos de solução ou funções internas de validação para gerar
 respostas. Recursos de autoria podem servir ao inventário posterior e à
 comparação da cobertura, nunca ao oráculo de respostas.
 
+Distinguir o tutorial de Polígonos do seu modo livre, sem impor níveis artificiais ou exaustão de todos os polígonos possíveis. Inventariar e provar os comportamentos e classes finitas apresentados no modo livre, sem inventar Bonus onde não existir.
+
 Observar uma tentativa errada e reparação por tabuleiro ou nível gerado,
 feedback, conclusão e continuação naturais, ajuda PT, Escape e retoma de foco,
 reinício parcial, configurações/conjuntos e menu durante atividade e após

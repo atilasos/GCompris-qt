@@ -107,8 +107,8 @@ preservado e os ensaios finais usam /tmp executável.
 
 Comando: `python3 tests/visual_puzzles_audit/audit.py --evidence .scratch/pt-pt/functional-visual-puzzles/capsule`.
 [API e limites do auditor](../../../tests/visual_puzzles_audit/README.md);
-recibos de cópia e retornos em `audit-verification/`. A revisão independente
-ainda está pendente.
+recibos de cópia e retornos em `audit-verification/`. As [revisões independentes](../review/integration88/) terminaram sem novos
+achados após a correção da guarda do executor.
 Windows 10, Windows 11 manual, dispositivos, audição, revisão docente,
 a investigação 83 e todos os critérios globais continuam pendentes.
 

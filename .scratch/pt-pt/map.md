@@ -432,4 +432,6 @@ mantêm os critérios globais, Windows, hardware, áudio e revisão docente pend
 
 - [89 — Desenho e criação](issues/89-desenho-e-criacao.md)
 
-- [90 — Padrões, mosaicos e polígonos](issues/90-padroes-e-formas.md) — aguarda a conclusão da metodologia física do lote 88.
+- [90 — Padrões, mosaicos e polígonos](issues/90-padroes-e-formas.md) — metodologia física do lote 88 concluída; próximo grupo pronto.
+
+O lote 88 concluiu 53 tabuleiros, 367 peças e 35 diferenças, com revisões independentes e auditor portátil. Corrigiu seis legendas PT e a guarda de saídas do executor. O CSV tem 203 linhas e 145 ligações de evidência; todos os critérios globais continuam pending.
