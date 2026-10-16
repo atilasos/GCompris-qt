@@ -1,0 +1,1 @@
+{"passed": true, "scope": "Historical Linux Qt inputs and QRC resources only; Windows, physical devices, listening and teacher review pending", "source_revision": "64d35aaef27df1b2eaa11d18d4441bebdbe5e9c7", "archive_revision": "747cf4dad6a70a473bb5e781666e8ea181f289cb", "levels": 12, "questions": 70, "wrong": 12, "primary_cases": 6, "regression_pairs": 4}

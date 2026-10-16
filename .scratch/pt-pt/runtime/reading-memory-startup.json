@@ -1,0 +1,293 @@
+{
+  "scope": "25 arranques Linux afetados por leitura/vocabulário/motor memória. PT-PT, perfis novos, Docker sem rede, seis segundos e mute. Não prova conclusão ou audição.",
+  "integration_sources": "44d7f6516854059da18612193e2d510dba70106c",
+  "run": {
+    "binary": "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/gcompris-qt",
+    "source_root": "/home/proteu/Projetos/GCompris-qt",
+    "source_sha256": "96553a9d8c0aacdd22848d0a4e517810de9169dfd784a9307363d81677d4c1a2",
+    "build_sha256": "f21af6572e4eb113e6896902be5d736794fe9fe92bdd5a2318dbd3effc635eb7",
+    "runner_sha256": "a0698d879888322fbbcff4e1c09e2fa459b770a5e876110bc63c1774261d3796",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "offline_image": "sha256:28bd5fe8b56d1bd048e5babf5b10710ebe0bae67db86916198a6eec434943f8b"
+  },
+  "passed": 25,
+  "failed": 0,
+  "results": [
+    {
+      "activity": "memory",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-0/memory.log"
+    },
+    {
+      "activity": "memory-case-association",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-1/memory-case-association.log"
+    },
+    {
+      "activity": "memory-case-association-tux",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-2/memory-case-association-tux.log"
+    },
+    {
+      "activity": "memory-enumerate",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-3/memory-enumerate.log"
+    },
+    {
+      "activity": "memory-math-add",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-0/memory-math-add.log"
+    },
+    {
+      "activity": "memory-math-add-minus",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-1/memory-math-add-minus.log"
+    },
+    {
+      "activity": "memory-math-add-minus-mult-div",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-2/memory-math-add-minus-mult-div.log"
+    },
+    {
+      "activity": "memory-math-add-minus-mult-div-tux",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-3/memory-math-add-minus-mult-div-tux.log"
+    },
+    {
+      "activity": "memory-math-add-minus-tux",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-0/memory-math-add-minus-tux.log"
+    },
+    {
+      "activity": "memory-math-add-tux",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-1/memory-math-add-tux.log"
+    },
+    {
+      "activity": "memory-math-div",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-2/memory-math-div.log"
+    },
+    {
+      "activity": "memory-math-div-tux",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-3/memory-math-div-tux.log"
+    },
+    {
+      "activity": "memory-math-minus",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-0/memory-math-minus.log"
+    },
+    {
+      "activity": "memory-math-minus-tux",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-1/memory-math-minus-tux.log"
+    },
+    {
+      "activity": "memory-math-mult",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-2/memory-math-mult.log"
+    },
+    {
+      "activity": "memory-math-mult-div",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-3/memory-math-mult-div.log"
+    },
+    {
+      "activity": "memory-math-mult-div-tux",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-0/memory-math-mult-div-tux.log"
+    },
+    {
+      "activity": "memory-math-mult-tux",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-1/memory-math-mult-tux.log"
+    },
+    {
+      "activity": "memory-sound",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-2/memory-sound.log"
+    },
+    {
+      "activity": "memory-sound-tux",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-3/memory-sound-tux.log"
+    },
+    {
+      "activity": "memory-tux",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-0/memory-tux.log"
+    },
+    {
+      "activity": "memory-wordnumber",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-1/memory-wordnumber.log"
+    },
+    {
+      "activity": "readingh",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-2/readingh.log"
+    },
+    {
+      "activity": "readingv",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-3/readingv.log"
+    },
+    {
+      "activity": "wordsgame",
+      "locale": "pt_PT",
+      "seconds": 6.0,
+      "network_isolation": "docker-network-none",
+      "early_exit": null,
+      "launch_requested": true,
+      "qml_errors": [],
+      "startup_check": "passed",
+      "log": "build/pt-pt/reading-memory-startup/part-0/wordsgame.log"
+    }
+  ]
+}

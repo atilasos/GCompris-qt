@@ -1,0 +1,151 @@
+{
+  "format": 1,
+  "audio": "ogg",
+  "locale": "pt",
+  "files": [
+    {
+      "path": "Contents",
+      "url": "https://cdn.kde.org/gcompris/data3/Contents",
+      "sha256": "48dceb5c4f548cb79aa34125e5ac34e709b76f8613f5bcc166bb2dd97de7c399",
+      "bytes": 201
+    },
+    {
+      "path": "backgroundMusic/Contents",
+      "url": "https://cdn.kde.org/gcompris/data3/backgroundMusic/Contents",
+      "sha256": "71c12726969fb9cdfbf0b0216fe3d7fad70f184fbd9111799a493afac3e4907a",
+      "bytes": 234
+    },
+    {
+      "path": "backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc",
+      "url": "https://cdn.kde.org/gcompris/data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc",
+      "sha256": "66187620c25dffefec8b243b66714af85235b77efaf98b6a7a4ce15c7b3bc852",
+      "bytes": 16582790
+    },
+    {
+      "path": "full-ogg-2026-09-23-18-56-49.rcc",
+      "url": "https://cdn.kde.org/gcompris/data3/full-ogg-2026-09-23-18-56-49.rcc",
+      "sha256": "1897ce40d9114cc467db8389a75acfe1d095b36fdbd7be98e537284dc0134568",
+      "bytes": 756342583
+    },
+    {
+      "path": "voices-ogg/Contents",
+      "url": "https://cdn.kde.org/gcompris/data3/voices-ogg/Contents",
+      "sha256": "167da7498e96e3ae148cd48ed17e48cc6c24c9e9acede22289530ebadced8bc7",
+      "bytes": 3484
+    },
+    {
+      "path": "voices-ogg/voices-pt-2026-09-23-18-56-49.rcc",
+      "url": "https://cdn.kde.org/gcompris/data3/voices-ogg/voices-pt-2026-09-23-18-56-49.rcc",
+      "sha256": "522d05bcf421e3cee2fdebf7ba9469ff294a69b61d629464283855297e006b8f",
+      "bytes": 36864646
+    },
+    {
+      "path": "words/Contents",
+      "url": "https://cdn.kde.org/gcompris/data3/words/Contents",
+      "sha256": "dbec314d2c1abc25132135e794c5e1ff06afae89ddda6dc86395435008294574",
+      "bytes": 69
+    },
+    {
+      "path": "words/words-webp-2022-04-10-21-14-15.rcc",
+      "url": "https://cdn.kde.org/gcompris/data3/words/words-webp-2022-04-10-21-14-15.rcc",
+      "sha256": "1e032186d2d900da803958648c8882fffe02a29295b55af10f8dd7b8061febb3",
+      "bytes": 43138043
+    }
+  ],
+  "pt_voice_completion": {
+    "format": 2,
+    "source_rcc": "voices-pt-2026-09-23-18-56-49.rcc",
+    "source_rcc_sha256": "522d05bcf421e3cee2fdebf7ba9469ff294a69b61d629464283855297e006b8f",
+    "original_files": 1578,
+    "added_files": 32,
+    "total_files": 1610,
+    "original_bytes_preserved": false,
+    "source_rcc_bytes_preserved": true,
+    "preserved_original_files": 1576,
+    "replaced_files": 2,
+    "substitutions": [
+      {
+        "file": "words/fawn.ogg",
+        "text": "cervato",
+        "original_sha256": "1e8bc6b3d4cc6d6052f0ce6c9b4ff0084ceb9d227fd2e49d32cde570e8d954b3",
+        "sha256": "4b501ba589d7ef3d564adc7df51b033bf124264442bd4ef5af98414b97ab7f6e",
+        "wav": "fawn-proposta.wav",
+        "wav_sha256": "914085d774ef2b235b8cd9655681af98bab1842efff73014bbde80a741882134"
+      },
+      {
+        "file": "words/tick.ogg",
+        "text": "carraça",
+        "original_sha256": "c23c4f3b00f736f4158e073de583a089eac46750ddb6a748f62a2fb4c0cce19b",
+        "sha256": "a90060398f8048ed9bdbd7cf8382711981c1769ff8d9736466507e381147d749",
+        "wav": "tick-proposta.wav",
+        "wav_sha256": "8beea8067c7dc6a6aa52baf2b015da882deb68a05f5960fa0f7f0e08c6f7587e"
+      }
+    ],
+    "replacement_source_wav_review": "approved",
+    "replacement_ogg_human_review": "not-performed",
+    "pronunciation": "bounded-32-additions-and-two-source-wav-approvals",
+    "new_recordings_review": "approved",
+    "files": [
+      {
+        "path": "voices-pt-2026-10-16-00-00-00.rcc",
+        "bytes": 37210875,
+        "sha256": "766a4650c93cf0d012c768daca8f54a931e061e77e7e7b7ef35585bf05c2869b"
+      },
+      {
+        "path": "Contents",
+        "bytes": 3484,
+        "sha256": "0a52da4564eb3d9c3d6492d93f211686f614519cf3551365d92972438d737ddc"
+      }
+    ],
+    "human_approval_sha256": "7aaa494997f32a01661e5b6607d305dce353990bb7f4862166c60dc78ff4ad9c",
+    "provenance_files": [
+      {
+        "path": "additions-manifest.json",
+        "bytes": 19360,
+        "sha256": "7b877e58376bbbbe4c900446f9345e091aa68ab903d56ce4859f24919905170e"
+      },
+      {
+        "path": "replacements-manifest.json",
+        "bytes": 3816,
+        "sha256": "0011530fbe6d086a32a90ac6fc4bab66296492010f046d862c2e597983789a7b"
+      },
+      {
+        "path": "pt-pt-additions-NOTICE.md",
+        "bytes": 3432,
+        "sha256": "885f026245eae433ceb7e04f55fa957916943e42e95e2da0a1d8105d86cc6a4a"
+      }
+    ]
+  },
+  "pt_voice_container_variants": [
+    {
+      "name": "qt-6.10.2-linux-observed",
+      "files": [
+        {
+          "path": "voices-pt-2026-10-16-00-00-00.rcc",
+          "bytes": 37210875,
+          "sha256": "766a4650c93cf0d012c768daca8f54a931e061e77e7e7b7ef35585bf05c2869b"
+        },
+        {
+          "path": "Contents",
+          "bytes": 3484,
+          "sha256": "0a52da4564eb3d9c3d6492d93f211686f614519cf3551365d92972438d737ddc"
+        }
+      ]
+    },
+    {
+      "name": "qt-6.10.2-windows-ci-38885128522-observed",
+      "files": [
+        {
+          "path": "voices-pt-2026-10-16-00-00-00.rcc",
+          "bytes": 37210875,
+          "sha256": "471e582267642fbe0019eadb887ffb9e8ff537afe2a89feb4b40cfc52a75d2dd"
+        },
+        {
+          "path": "Contents",
+          "bytes": 3484,
+          "sha256": "d0a780069923bc88aeee9ef9b900fed77f4e1a1de560d497728d697440f56bf7"
+        }
+      ]
+    }
+  ]
+}

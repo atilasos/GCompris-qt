@@ -1,0 +1,41 @@
+test_mirror_flips_only_columns_with_regular_margins_and_permuted_lists (test_solver.VisibleGridPlanning.test_mirror_flips_only_columns_with_regular_margins_and_permuted_lists) ... ok
+test_paint_requires_one_unambiguous_calibrated_palette_match (test_solver.VisibleGridPlanning.test_paint_requires_one_unambiguous_calibrated_palette_match) ... 
+  test_paint_requires_one_unambiguous_calibrated_palette_match (test_solver.VisibleGridPlanning.test_paint_requires_one_unambiguous_calibrated_palette_match) (palette=[{'id': 1, 'signature': 'a'}]) ... ERROR
+  test_paint_requires_one_unambiguous_calibrated_palette_match (test_solver.VisibleGridPlanning.test_paint_requires_one_unambiguous_calibrated_palette_match) (palette=[{'id': 1, 'signature': 'a'}, {'id': 2, 'signature': 'a'}, {'id': 3, 'signature': 'b'}]) ... FAIL
+  test_paint_requires_one_unambiguous_calibrated_palette_match (test_solver.VisibleGridPlanning.test_paint_requires_one_unambiguous_calibrated_palette_match) (palette=[{'id': 1, 'signature': 'a'}, {'id': 1, 'signature': 'b'}]) ... FAIL
+test_translated_scaled_grid_matches_opaque_painted_palette (test_solver.VisibleGridPlanning.test_translated_scaled_grid_matches_opaque_painted_palette) ... ok
+
+======================================================================
+ERROR: test_paint_requires_one_unambiguous_calibrated_palette_match (test_solver.VisibleGridPlanning.test_paint_requires_one_unambiguous_calibrated_palette_match) (palette=[{'id': 1, 'signature': 'a'}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 63, in test_paint_requires_one_unambiguous_calibrated_palette_match
+    plan(question, answer, palette)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/solver.py", line 22, in plan
+    palette = next(sample for sample in palette_samples
+                   if sample['signature'] == observed['signature'])
+StopIteration
+
+======================================================================
+FAIL: test_paint_requires_one_unambiguous_calibrated_palette_match (test_solver.VisibleGridPlanning.test_paint_requires_one_unambiguous_calibrated_palette_match) (palette=[{'id': 1, 'signature': 'a'}, {'id': 2, 'signature': 'a'}, {'id': 3, 'signature': 'b'}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 62, in test_paint_requires_one_unambiguous_calibrated_palette_match
+    with self.assertRaisesRegex(ValueError, 'palette'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_paint_requires_one_unambiguous_calibrated_palette_match (test_solver.VisibleGridPlanning.test_paint_requires_one_unambiguous_calibrated_palette_match) (palette=[{'id': 1, 'signature': 'a'}, {'id': 1, 'signature': 'b'}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 62, in test_paint_requires_one_unambiguous_calibrated_palette_match
+    with self.assertRaisesRegex(ValueError, 'palette'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=2, errors=1)

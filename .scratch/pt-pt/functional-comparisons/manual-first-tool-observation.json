@@ -1,0 +1,10 @@
+{
+  "kind": "retrospective-tool-observation",
+  "source": "write_stdin response for unified-exec session66438, chunk2572e3, read after launcher-status.json existed",
+  "shell_tool_exit_code": 143,
+  "supervised_launcher_exit_code": 0,
+  "native_qt_exit_code": 0,
+  "native_receipt_sha256": "94eddd190cb40fe6e5f8f88f9d59aaf2a36d39b3dc49393e7945c1e88a05c969",
+  "status_sha256": "cb205cba0790d75b47cbb555f60b25f78ee05ebd4cdf8b73fa69cc00da0b35c4",
+  "interpretation": "The process layers disagree. No cause established. Preserve this complete125-question receipt as historical; final manual route will be repeated unchanged and counted once."
+}

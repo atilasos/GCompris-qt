@@ -39,6 +39,10 @@ ActivityBase {
         QtObject {
             id: items
             property Item main: activity.main
+            property int currentLevel: activity.currentLevel
+            onCurrentLevelChanged: activity.currentLevel = currentLevel
+            property int numberOfLevel: 0
+            onNumberOfLevelChanged: activity.numberOfLevel = numberOfLevel
             // UI elements
             property alias activityBackground: activityBackground
             property alias instruction: instructionPanel.textItem

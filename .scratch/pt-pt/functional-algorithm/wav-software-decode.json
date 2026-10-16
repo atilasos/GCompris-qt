@@ -1,0 +1,23 @@
+{
+  "scope": "Software decode to fakesink only, no physical audio or listening",
+  "results": [
+    {
+      "resource": "src/core/resource/sounds/bleep.wav",
+      "sha256": "759b2225a42e407ac8d76e01c2b98d31af670de0a61c7f78ae5c34ca36bdc59e",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "resource": "src/core/resource/sounds/brick.wav",
+      "sha256": "a5bcc4db6b84c0c47e90eaa0c889314c1f703993bfb32e6e33fc161d89a88cee",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "resource": "src/core/resource/sounds/completetask.wav",
+      "sha256": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c",
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ]
+}

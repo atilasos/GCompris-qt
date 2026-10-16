@@ -1,0 +1,26 @@
+{
+  "source_sha256": "b7746cabc008789b8075e47905f1c7c56b67ad34e09dca559b15bf5e8845fed9",
+  "output_sha256": "9c87c64ae485e4750f87edd65419a54083fa59ace96b9ec4125752e845357820",
+  "renderer": "librsvg",
+  "version": [
+    2,
+    61,
+    3
+  ],
+  "cairo": "1.18.4",
+  "canvas": [
+    800,
+    800
+  ],
+  "source_viewbox": [
+    1059.8,
+    748
+  ],
+  "preserve_aspect_crop_viewport": [
+    -166.7379679144385,
+    0.0,
+    1133.475935828877,
+    800.0
+  ],
+  "scope": "Independent render; not presumed equivalent to Qt, pixel comparison required"
+}

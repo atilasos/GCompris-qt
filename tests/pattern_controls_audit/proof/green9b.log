@@ -1,0 +1,19 @@
+test_advertised_arrows_without_actual_cursor_movement_are_rejected (test_audit.ControlsContract.test_advertised_arrows_without_actual_cursor_movement_are_rejected) ... ok
+test_all_seven_offered_digits_require_observed_paint_changes (test_audit.ControlsContract.test_all_seven_offered_digits_require_observed_paint_changes) ... ok
+test_coherent_drag_records_without_any_painted_change_are_rejected (test_audit.ControlsContract.test_coherent_drag_records_without_any_painted_change_are_rejected) ... ok
+test_coherent_unchanged_partial_menu_state_is_rejected (test_audit.ControlsContract.test_coherent_unchanged_partial_menu_state_is_rejected) ... ok
+test_cursor_margin_is_one_pixel_and_does_not_relax_cell_geometry (test_audit.ControlsContract.test_cursor_margin_is_one_pixel_and_does_not_relax_cell_geometry) ... ok
+test_english_help_and_an_escape_without_dialog_close_are_rejected (test_audit.ControlsContract.test_english_help_and_an_escape_without_dialog_close_are_rejected) ... ok
+test_failed_prefix_cannot_be_accepted_as_controls (test_audit.ControlsContract.test_failed_prefix_cannot_be_accepted_as_controls) ... ok
+test_keyboard_event_names_cannot_replace_actual_painted_effects (test_audit.ControlsContract.test_keyboard_event_names_cannot_replace_actual_painted_effects) ... ok
+test_literal_complete_controls_configure_datasets_without_claiming_games (test_audit.ControlsContract.test_literal_complete_controls_configure_datasets_without_claiming_games) ... ok
+test_literal_mosaic_controls_accept_half_pixel_cursor_rounding (test_audit.ControlsContract.test_literal_mosaic_controls_accept_half_pixel_cursor_rounding) ... ok
+test_mosaic_palette_ids_can_permute_slots_after_restart (test_audit.ControlsContract.test_mosaic_palette_ids_can_permute_slots_after_restart) ... ok
+test_mosaic_requires_real_selected_image_effects_and_tab_events (test_audit.ControlsContract.test_mosaic_requires_real_selected_image_effects_and_tab_events) ... ok
+test_restart_requires_a_real_partial_edit_then_actual_blank_state (test_audit.ControlsContract.test_restart_requires_a_real_partial_edit_then_actual_blank_state) ... ok
+test_three_coherent_copies_of_one_dataset_do_not_cover_all_datasets (test_audit.ControlsContract.test_three_coherent_copies_of_one_dataset_do_not_cover_all_datasets) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.018s
+
+OK

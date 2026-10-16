@@ -1,0 +1,21 @@
+{
+  "scope": "Independent real RCC inventories and Git-base byte comparisons; no audition or Windows execution",
+  "source_rcc_sha256": "522d05bcf421e3cee2fdebf7ba9469ff294a69b61d629464283855297e006b8f",
+  "completed_rcc_sha256": "766a4650c93cf0d012c768daca8f54a931e061e77e7e7b7ef35585bf05c2869b",
+  "original_count": 1578,
+  "completed_count": 1610,
+  "unchanged_original_count": 1576,
+  "changed": {
+    ":/gcompris/data/voices-ogg/pt/words/fawn.ogg": {
+      "old": "1e8bc6b3d4cc6d6052f0ce6c9b4ff0084ceb9d227fd2e49d32cde570e8d954b3",
+      "new": "4b501ba589d7ef3d564adc7df51b033bf124264442bd4ef5af98414b97ab7f6e"
+    },
+    ":/gcompris/data/voices-ogg/pt/words/tick.ogg": {
+      "old": "c23c4f3b00f736f4158e073de583a089eac46750ddb6a748f62a2fb4c0cce19b",
+      "new": "a90060398f8048ed9bdbd7cf8382711981c1769ff8d9736466507e381147d749"
+    }
+  },
+  "added_count": 32,
+  "all_32_ogg_and_manifest_unchanged_from": "b9c2a2ad9",
+  "upstream_lock_files_unchanged": true
+}

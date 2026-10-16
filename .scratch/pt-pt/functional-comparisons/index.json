@@ -1,0 +1,15 @@
+{
+  "scope": "Linux Qt offline; Windows, physical input/audio and teacher pending",
+  "source_commit": "e38441ab1e30fe543db96b35a913857f70153dc9",
+  "capture_commit": "c29601eba08028b5ca941c893d0a70d7feea881f",
+  "positive_cases": 8,
+  "expected_red_cases": 1,
+  "completed_levels": 76,
+  "comparator_questions": 130,
+  "comparisons": 650,
+  "adjacent_questions": 250,
+  "wrong_answers": 380,
+  "natural_bonus": 76,
+  "level_images": 76,
+  "copied_resources": 39
+}

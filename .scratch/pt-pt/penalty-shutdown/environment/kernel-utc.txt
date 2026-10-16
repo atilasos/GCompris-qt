@@ -1,0 +1,9 @@
+Oct 16 03:49:57 ubuntusala kernel: gcompris-qt[4137796]: segfault at 0 ip 00007ac75b4ab2ad sp 00007ffceb22c810 error 4 in libQt6Qml.so.6.10.2[2ab2ad,7ac75b2e0000+3f1000] likely on CPU 8 (core 16, socket 0)
+Oct 16 03:49:17 ubuntusala kernel: Out of memory: Killed process 2125346 (qemu-system-x86) total-vm:52625328kB, anon-rss:33493420kB, file-rss:128kB, shmem-rss:4kB, UID:64055 pgtables:67620kB oom_score_adj:0
+Oct 16 03:49:17 ubuntusala kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=user.slice,mems_allowed=0,global_oom,task_memcg=/machine.slice/machine-qemu\x2d11\x2dwindows\x2dgaming.scope/libvirt,task=qemu-system-x86,pid=2125346,uid=64055
+Oct 16 03:49:17 ubuntusala kernel: [    610]   986   610     4202       69       67        2         0    81920      197          -900 systemd-oomd
+Oct 16 03:49:17 ubuntusala kernel: [  pid  ]   uid  tgid total_vm      rss rss_anon rss_file rss_shmem pgtables_bytes swapents oom_score_adj name
+Oct 16 03:49:17 ubuntusala kernel: Mem-Info:
+Oct 16 03:49:17 ubuntusala kernel:  __alloc_pages_may_oom+0x10a/0x1d0
+Oct 16 03:49:17 ubuntusala kernel:  oom_kill_process.cold+0x8/0xac
+Oct 16 03:49:17 ubuntusala kernel: uvicorn invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=200

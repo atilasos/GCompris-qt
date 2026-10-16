@@ -1,0 +1,37 @@
+test_concurrent_freeze_never_reads_an_unfinished_write (test_phase.FrozenSourceTests.test_concurrent_freeze_never_reads_an_unfinished_write) ... FAIL
+test_corrupt_published_source_is_rejected_without_resealing (test_phase.FrozenSourceTests.test_corrupt_published_source_is_rejected_without_resealing) ... ok
+test_interrupted_preparation_is_not_published_and_can_retry (test_phase.FrozenSourceTests.test_interrupted_preparation_is_not_published_and_can_retry) ... FAIL
+
+======================================================================
+FAIL: test_concurrent_freeze_never_reads_an_unfinished_write (test_phase.FrozenSourceTests.test_concurrent_freeze_never_reads_an_unfinished_write)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-source-preparation/tests/functional_graduated/test_phase.py", line 55, in test_concurrent_freeze_never_reads_an_unfinished_write
+    second_path = second.result(timeout=10)
+  File "/usr/lib/python3.14/concurrent/futures/_base.py", line 450, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/concurrent/futures/_base.py", line 395, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.14/concurrent/futures/thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "/usr/lib/python3.14/concurrent/futures/thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-source-preparation/tests/functional_graduated/phase.py", line 16, in freeze
+    assert all(hashlib.sha256(subprocess.check_output(['git','show',revision+':'+p],cwd=ROOT)).hexdigest()==digest for p,digest in manifest['files'].items())
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+======================================================================
+FAIL: test_interrupted_preparation_is_not_published_and_can_retry (test_phase.FrozenSourceTests.test_interrupted_preparation_is_not_published_and_can_retry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-source-preparation/tests/functional_graduated/test_phase.py", line 77, in test_interrupted_preparation_is_not_published_and_can_retry
+    self.assertFalse(output.exists())
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.048s
+
+FAILED (failures=2)

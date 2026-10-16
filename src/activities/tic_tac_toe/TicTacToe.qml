@@ -20,6 +20,7 @@ ActivityBase {
     id: activity
 
     property bool twoPlayer: false
+    numberOfLevel: twoPlayer ? 0 : 5
     onStart: focus = true
     onStop: {}
 
@@ -63,8 +64,7 @@ ActivityBase {
             property int playSecond
             property int currentLevel: activity.currentLevel
             onCurrentLevelChanged: activity.currentLevel = currentLevel
-            property int numberOfLevel: 5
-            onNumberOfLevelChanged: activity.numberOfLevel = numberOfLevel
+            readonly property int numberOfLevel: activity.numberOfLevel
             property alias bonus: bonus
         }
 

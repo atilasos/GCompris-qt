@@ -1,0 +1,58 @@
+[
+  {
+    "argv": [
+      "journalctl",
+      "-k",
+      "--since",
+      "2026-10-16 04:45:00",
+      "--until",
+      "2026-10-16 04:52:00",
+      "--grep=segfault|gcompris|general protection|trap",
+      "--no-pager",
+      "-n",
+      "15"
+    ],
+    "exit_code": 0,
+    "output": "kernel.txt",
+    "sha256": "fe74877955948ea1e1ac773138d05c2b77f8516e031123b43f8c2413bbaccdab"
+  },
+  {
+    "argv": [
+      "cat",
+      "/var/log/apport.log"
+    ],
+    "exit_code": 0,
+    "output": "apport.txt",
+    "sha256": "d4522807d3995e834a4624749aa3279c0cbbe83f9f24b75ffecf22cae6e5400b"
+  },
+  {
+    "argv": [
+      "addr2line",
+      "-f",
+      "-C",
+      "-e",
+      "/lib/x86_64-linux-gnu/libQt6Qml.so.6.10.2",
+      "0x2ab2ad"
+    ],
+    "exit_code": 0,
+    "output": "symbol.txt",
+    "sha256": "b6ea8b4887f007d1f05d882e79ec643f48ddd70280c1727d1c6f11058c9f6ab6"
+  },
+  {
+    "argv": [
+      "objdump",
+      "-d",
+      "-C",
+      "--start-address=0x2ab240",
+      "--stop-address=0x2ab2f0",
+      "/lib/x86_64-linux-gnu/libQt6Qml.so.6.10.2"
+    ],
+    "exit_code": 0,
+    "output": "disassembly.txt",
+    "sha256": "c62b1e182cfebc01ba62f016347b073a06b033dbf443008a7926007658279125"
+  },
+  {
+    "library": "/lib/x86_64-linux-gnu/libQt6Qml.so.6.10.2",
+    "sha256": "8e84dc9a287b6bcde6e2c69790cc9d464f750d44339bf8a0a207bc3b3fd6dc49"
+  }
+]

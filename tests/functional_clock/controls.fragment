@@ -1,0 +1,21 @@
+    property var evidence: ({})
+    function save(){dialogActivityConfig.forceActiveFocus();keyClick(Qt.Key_Return);tryCompare(dialogActivityConfig,"visible",false,2500);wait(1100);}
+    function open(){icon(bar,"bar_activity_config.svg");tryCompare(dialogActivityConfig,"visible",true,2500);wait(900);}
+    function options(){open();var tab=find(dialogActivityConfig,function(o){return o.visible&&o.theme==="settingsButton"&&o.text===qsTranslate("DialogChooseLevel","Dataset");});ensure(tab!==null);click(tab);wait(200);var boxes=[];function walk(o){if(o.visible&&o.checked!==undefined&&o.indicatorImageHeight!==undefined)boxes.push(o);if(o.children)for(var child of o.children)walk(child);}walk(dialogActivityConfig);return boxes;}
+    function test_controls(){
+        wait(1400);checked(activity.activityInfo.title,"Aprende o relógio");checked(activity.numberOfLevel,10);
+        icon(bar,"bar_hint.svg");ensure(helper.visible&&helper.opacity>0.9);var text=String(helper.text);ensure(/^\d{2}:00:00$/.test(text));ensure(distance(topAngle(h),parseInt(text.slice(0,2),10)%12*30)<0.2);icon(bar,"bar_hint.svg");checked(helper.visible,false);
+        move(h,norm(topAngle(h)+30));var old=String(instructionPanel.textItem.text);open();save();checked(activity.currentLevel,0);checked(score.currentSubLevel,0);checked(okButton.enabled,true);
+        twentyFour=true;configure();ensure(parse(instructionPanel.textItem.text)[0]>=12);configure();checked(String(ApplicationSettings.loadActivityConfiguration(activity.activityInfo.shortName()).mode),"2");twentyFour=false;configure();ensure(parse(instructionPanel.textItem.text)[0]<12);
+        var boxes=options();checked(boxes.length,6);ensure(boxes[0].checked);var objective=String(boxes[0].text);ensure(objective.length>5);click(boxes[0]);save();checked(activity.numberOfLevel,9);
+        boxes=options();checked(boxes[0].checked,false);checked(String(boxes[0].text),objective);click(boxes[0]);save();checked(activity.numberOfLevel,10);
+        icon(bar,"bar_previous.svg");checked(activity.currentLevel,9);checked(score.currentSubLevel,0);ensure(!find(bar,function(o){return o.visible&&o.source!==undefined&&String(o.source).endsWith("bar_hint.svg");}));icon(bar,"bar_next.svg");checked(activity.currentLevel,0);
+        var depth=pageView.depth;icon(bar,"bar_help.svg");tryCompare(pageView,"depth",depth+1,2500);wait(800);var help=pageView.currentItem;checked(help.title,"Aprende o relógio");ensure(help.content.indexOf(activity.activityInfo.manual)>=0);ensure(help.content.indexOf("Drag the")<0);grabImage(pageView).save("__QA_OUTPUT__/help.png");
+        keyClick(Qt.Key_Escape);tryCompare(pageView,"depth",depth,2500);wait(700);
+        // No focus forcing after help. The advertised interaction is dragging.
+        var answer=parse(instructionPanel.textItem.text);setTime(answer);click(okButton);tryCompare(score,"currentSubLevel",1,1500);
+        ActivityInfoTree.startingActivity="";keyClick(Qt.Key_W,Qt.ControlModifier);tryCompare(pageView,"depth",1,2500);ensure(pageView.currentItem.isMenu);
+        evidence={title:"Aprende o relógio",levels:10,reduced:9,objective:objective,hintVisibleAndHidden:true,twelveAndTwentyFourSaved:true,partialRestart:true,previousNextWrap:true,helpPortuguese:true,dragAfterHelp:true,ctrlW:true,menu:true};
+    }
+    function cleanupTestCase(){console.log("NATIVE_RESULT",JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,evidence:evidence}));}
+}

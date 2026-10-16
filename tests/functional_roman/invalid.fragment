@@ -1,0 +1,12 @@
+    property var evidence: ({})
+    function test_noncanonical_input(){
+        ApplicationSettings.isVirtualKeyboard=true;tryCompare(keyboard,"visible",true,2500);wait(1700);checked(activity.currentLevel,3);
+        var expected=parse(questionPanel.textItem.text);checked(expected.answer,"II");type(expected.answer,false);keyClick(Qt.Key_Return);tryCompare(score,"currentSubLevel",1,1500);tryCompare(textInput,"enabled",true,6000);wait(150);
+        expected=parse(questionPanel.textItem.text);checked(expected.answer,"III");var rejected=[];
+        for(var invalid of ["MMMM","IIII","VX","IL","IIV"]){
+            type(invalid,false);checked(String(feedback.text),"Valor árabe: ","Invalid form has no numeric value");keyClick(Qt.Key_Return);checked(score.currentSubLevel,1);tryVerify(function(){return errorRectangle.opacity>0.5;},1200);tryCompare(textInput,"enabled",true,3500);rejected.push(invalid);
+        }
+        type(expected.answer,true);click(okButton);tryCompare(score,"currentSubLevel",2,1500);evidence={level:4,rejected:rejected,repair:expected.answer};
+    }
+    function cleanupTestCase(){console.log("NATIVE_RESULT",JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,evidence:evidence}));}
+}

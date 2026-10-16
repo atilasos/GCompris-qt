@@ -1,0 +1,17 @@
+{
+  "format": 1,
+  "bytes": 44267275,
+  "sha256": "e44a60043d53db36589a11e0b4f04a9646a0c677e40ebdb41ceafdf034350ce6",
+  "chunks": [
+    {
+      "file": "objects.zip.part000",
+      "bytes": 41943040,
+      "sha256": "df73d56ea79273abd355a5623a9a93f103ba3f21803c76c0e9998b1c65531009"
+    },
+    {
+      "file": "objects.zip.part001",
+      "bytes": 2324235,
+      "sha256": "55d9d8b886035913bfa523fc462701448954e807b0f86587e8ce3b7d1c539bc3"
+    }
+  ]
+}

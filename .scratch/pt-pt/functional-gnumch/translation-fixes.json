@@ -1,0 +1,17 @@
+[
+  {
+    "red": "title-red",
+    "green": "title-green",
+    "case_sha256": "fd8cae4b6e163df8ddec7c976c98a1afe641a20a8872701d50f5c2bfb8b56f1e"
+  },
+  {
+    "red": "return-red",
+    "green": "return-green",
+    "case_sha256": "e630d9d10d704b7b788afc9c72ab3fcd33c38db813396716f0fa8a5ac38119c5"
+  },
+  {
+    "red": "monster-red",
+    "green": "monster-green",
+    "case_sha256": "67f111226876ca76e5684d0b030bf0069225314b1f497fc1f7c3599d527681f6"
+  }
+]

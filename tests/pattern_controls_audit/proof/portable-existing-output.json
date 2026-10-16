@@ -1,0 +1,31 @@
+[
+  {
+    "argv": [
+      "/usr/bin/python3",
+      "tests/pattern_controls_audit/proof/portable_runner.py",
+      "--records-root",
+      "/missing/observations",
+      "--output",
+      "tests/pattern_controls_audit/proof/portable-final.json"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-controls-audit/tests/pattern_controls_audit/proof/portable_runner.py\", line 62, in <module>\n    if __name__=='__main__':main()\n                            ~~~~^^\n  File \"/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-controls-audit/tests/pattern_controls_audit/proof/portable_runner.py\", line 20, in main\n    if args.output.exists() or args.output.is_symlink():raise FileExistsError('Use a fresh portable report')\n                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileExistsError: Use a fresh portable report\n",
+    "report_sha256_before_after": "968bc45083d18d66b0a048c6ab2d479d4f27496abf72bf82f84669ad0774c1ed"
+  },
+  {
+    "argv": [
+      "/usr/bin/python3",
+      "-O",
+      "tests/pattern_controls_audit/proof/portable_runner.py",
+      "--records-root",
+      "/missing/observations",
+      "--output",
+      "tests/pattern_controls_audit/proof/portable-final.json"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-controls-audit/tests/pattern_controls_audit/proof/portable_runner.py\", line 62, in <module>\n    if __name__=='__main__':main()\n                            ~~~~^^\n  File \"/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-controls-audit/tests/pattern_controls_audit/proof/portable_runner.py\", line 20, in main\n    if args.output.exists() or args.output.is_symlink():raise FileExistsError('Use a fresh portable report')\n                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileExistsError: Use a fresh portable report\n",
+    "report_sha256_before_after": "968bc45083d18d66b0a048c6ab2d479d4f27496abf72bf82f84669ad0774c1ed"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "activity": "algebra_plus",
+    "locale": "pt_PT.UTF-8",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/input-fixes-startup/algebra_plus.log"
+  },
+  {
+    "activity": "algebra_minus",
+    "locale": "pt_PT.UTF-8",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/input-fixes-startup/algebra_minus.log"
+  },
+  {
+    "activity": "algebra_by",
+    "locale": "pt_PT.UTF-8",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/input-fixes-startup/algebra_by.log"
+  },
+  {
+    "activity": "algebra_div",
+    "locale": "pt_PT.UTF-8",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/input-fixes-startup/algebra_div.log"
+  },
+  {
+    "activity": "guessnumber",
+    "locale": "pt_PT.UTF-8",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/input-fixes-startup/guessnumber.log"
+  },
+  {
+    "activity": "scalesboard",
+    "locale": "pt_PT.UTF-8",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/input-fixes-startup/scalesboard.log"
+  },
+  {
+    "activity": "scalesboard_weight",
+    "locale": "pt_PT.UTF-8",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/input-fixes-startup/scalesboard_weight.log"
+  },
+  {
+    "activity": "scalesboard_weight_avoirdupois",
+    "locale": "pt_PT.UTF-8",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/input-fixes-startup/scalesboard_weight_avoirdupois.log"
+  },
+  {
+    "activity": "tens_complement_swap",
+    "locale": "pt_PT.UTF-8",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/input-fixes-startup/tens_complement_swap.log"
+  },
+  {
+    "activity": "tens_complement_calculate",
+    "locale": "pt_PT.UTF-8",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/input-fixes-startup/tens_complement_calculate.log"
+  },
+  {
+    "activity": "learn_decimals",
+    "locale": "pt_PT.UTF-8",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/input-fixes-startup/learn_decimals.log"
+  },
+  {
+    "activity": "learn_decimals_additions",
+    "locale": "pt_PT.UTF-8",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/input-fixes-startup/learn_decimals_additions.log"
+  },
+  {
+    "activity": "learn_decimals_subtractions",
+    "locale": "pt_PT.UTF-8",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/input-fixes-startup/learn_decimals_subtractions.log"
+  },
+  {
+    "activity": "learn_quantities",
+    "locale": "pt_PT.UTF-8",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/input-fixes-startup/learn_quantities.log"
+  }
+]

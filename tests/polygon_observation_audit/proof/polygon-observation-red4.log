@@ -1,0 +1,13 @@
+E...
+======================================================================
+ERROR: test_finite_free_geometry_editing_and_keyboard_creation (test_observation.Controls.test_finite_free_geometry_editing_and_keyboard_creation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-polygon-observation/tests/polygon_observation_audit/test_observation.py", line 137, in test_finite_free_geometry_editing_and_keyboard_creation
+    from polygon_observation_audit import validate_controls
+ImportError: cannot import name 'validate_controls' from 'polygon_observation_audit' (/home/proteu/Projetos/GCompris-qt-worktrees/pt-polygon-observation/tests/polygon_observation_audit/__init__.py)
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.006s
+
+FAILED (errors=1)

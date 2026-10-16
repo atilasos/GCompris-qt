@@ -1,0 +1,833 @@
+{
+  "sources": {
+    "reviewed": {
+      "CMakeLists.txt": "a89ae19e0e4ec7af1a080b1ecf01d359c0ba60248f9ecdf6cb53a416c7c5be9a",
+      "tools/native_qml_supervision.py": "3e83fe73b1c025cb07f9b49c6d8ae448a91b17bf2e2427ed8141e3212cfec62f",
+      "tools/native_qml_resources.py": "d5bd6f499663f417d5b68a3d5f99f21cf612386acd6c40db9a3f3110c827c0d2",
+      "tools/run-native-qml-case.py": "612889370d52dc3c643f894c58dd22fdd6073c245525d5e8502791527fd6ec42",
+      "tools/run-native-qml-supervised.py": "d3036d68f65c91905732c953d9438a642d3a1a99ccee8e05c66bf0c76cd68347",
+      "poqm/pt/gcompris_qt.po": "727a4e3f10cbd805ce337d6efc465a3dd93fc831c302465fcd8ec8f4717f9f35",
+      "src/activities/explore_farm_animals/AnimalDescriptionLevels.qml": "bf3b92e7918136b23a13acf392942a69fd583f8db2aaf79777a518b21c33f561",
+      "src/activities/explore_farm_animals/explore_farm_animals.svg": "fc1355dfb8f4092f38a8efbc06d2db79a4cbdfe7b48e5baa8083caf0eb68aed5",
+      "src/activities/explore_farm_animals/CMakeLists.txt": "750357263874b4f22e42d1823e7c11d138ad564511c6d4f5c85ea57498f3131d",
+      "src/activities/explore_farm_animals/ExploreFarmAnimals.qml": "b08ea6ce1b763e318408f84463622e675c7f9df1fbd2dbccc8c3aae67966dc7e",
+      "src/activities/explore_farm_animals/explore-level.js": "b380250ed908773c1e102db6e111692c94c5012ece7ec5b428d6cf8f8c27b7aa",
+      "src/activities/explore_farm_animals/ActivityInfo.qml": "00e71064be38fbd696034d69171219d0da3b8831a2501ed8397bf612cb834bb3",
+      "src/activities/explore_farm_animals/ExploreLevels.qml": "dfb1712c70263a9955195fa495995234ea5faef3f459728750e380cf16b4a30a",
+      "src/activities/explore_farm_animals/AnimalLevels.qml": "0405c8c1404663dfe40b593fee684f78a85ea1ea97bd07c74e519ec531c953d3",
+      "src/activities/explore_world_music/CMakeLists.txt": "a9b927791ed5d0a56d1cc1f506f794f686dc3bf39a06dc42af1c98f5f45e6b1c",
+      "src/activities/explore_world_music/ExploreWorldMusic.qml": "1764d0e28e0adcd42892742db76111325b7900efbbca97854234249bb574f889",
+      "src/activities/explore_world_music/ActivityInfo.qml": "c2fdb4f0c8b0c4ae3584c3ec8249d9342082a450e123d08178f038483d61a734",
+      "src/activities/explore_world_music/explore_world_music.svg": "48638ef94fd7643bc2befa866e7d7f293d74e445a482a487a277a4918563e10a",
+      "src/activities/explore_world_animals/ExploreWorldAnimals.qml": "6faca701f66f89e18afed96c7a7282f3db94aad9bbe5fddd96137c8e474c66b1",
+      "src/activities/explore_world_animals/CMakeLists.txt": "69dbced8ecd49fccb8ad58f66285e47cfe01bd2122103ba2a6d33e23840a96b7",
+      "src/activities/explore_world_animals/ActivityInfo.qml": "099c84069ece49babc2c0656ddc4f4d00e2228671f37d84e46baec4f0db37c72",
+      "src/activities/explore_world_animals/explore_world_animals.svg": "67d04c293506f97551e17bfb39b9d691838e28b2565e38ac9f712cf7d4f23787",
+      "src/activities/explore_monuments/CMakeLists.txt": "29210c0901eb228ff4538b8dbd7a3f61985fe3459b24edc4cbf8aa040fda8c39",
+      "src/activities/explore_monuments/explore_monuments.svg": "601d26ebfad9d11a851cfdaff60e8823dd2a7b18e0a861f809c8eb10b468b2f6",
+      "src/activities/explore_monuments/ActivityInfo.qml": "03a9cf49db554aef0c17c77e9080e98dfdaaf7bfba48a6c9d2a73b01b5672494",
+      "src/activities/explore_monuments/Explore_monuments.qml": "01b66d8121329897e8667f5742c875f96c9184f489cabf90d06d3772d792376d",
+      "src/activities/explore_monuments/resource/key.svg": "8decaa4ae3d7382e44c2f5ee672e97d6a31cb8b384ffdfc48f2202bdf972e97a",
+      "src/activities/explore_monuments/resource/wonders/petra.webp": "cc782ccdd5b508299ad17402df2d0d375c26e1f9b18e4d2e6c3fd474fcaeb458",
+      "src/activities/explore_monuments/resource/wonders/christTheRedeemer.webp": "3133f2872b3d791595296fd4bf4812654326e01f5c7cd2d870765bfd6772fa2b",
+      "src/activities/explore_monuments/resource/wonders/world-map.svg": "37be69f46dc24273e6afebd6e9a59dc0d7b0134f5d4a540365aca686ed4df608",
+      "src/activities/explore_monuments/resource/wonders/colosseum.webp": "0d38a0c2d4910f895c003825999345a86da080ff76d709bba923153cbd654945",
+      "src/activities/explore_monuments/resource/wonders/greatWallofChina.webp": "546e2483d17c2b732ce375d946afba6fc612166abcd6d976217747a982b60777",
+      "src/activities/explore_monuments/resource/wonders/tajMahal.webp": "fc0d45ec5a258568858c70d2d78eb23a5eb769255d74b384f70c20422d2eb351",
+      "src/activities/explore_monuments/resource/wonders/chichenItza.webp": "9882593801be435822f1d948afb36b171ed7fc7a301dfa74b11df5ea9afaf681",
+      "src/activities/explore_monuments/resource/wonders/machuPicchu.webp": "e04e163ccef6e59411dff15c3459768b2f442fe2ff5042369d9a480f1f272068",
+      "src/activities/explore_monuments/resource/japan/himejiCastle.webp": "8e0262c4501380c367163a22788002212c0ed146995db9af01b1d0c3079ed7b8",
+      "src/activities/explore_monuments/resource/japan/hiroshimaPeaceMemorialPark.webp": "b808bffb916d324e4fc9121b4cddaf8ed9d83a7d3267e2c6e4747a565f874c76",
+      "src/activities/explore_monuments/resource/japan/arakuraShrine.webp": "2074b0212bfda72e14ae1fdd924031466f26c5d29ab37bf2c8f3d72013959262",
+      "src/activities/explore_monuments/resource/japan/japan.svg": "10eb02e108b9071c4b43b70f458ab15d7db81a2c371a580efe338988855275fc",
+      "src/activities/explore_monuments/resource/japan/okinawaShuriCastle.webp": "64310beb032039f52fdb889e26b65098b3406a01014f4af51e0f0ee4daa6fa9b",
+      "src/activities/explore_monuments/resource/italy/florenceCathedral.webp": "bfd3f7753888ff4022921d1d157d490b5f8ca82529a1e21d0ba2d980056f172f",
+      "src/activities/explore_monuments/resource/italy/duomoDiMilano.webp": "679d27dd05bcdeb509982811b18df1f27dd0557e1180617f2b5aa731cff2771b",
+      "src/activities/explore_monuments/resource/italy/italy.svg": "01327f94c6d7ecf2177dd842e536fd1738176c8c2abcc628bbccb01b38bcab81",
+      "src/activities/explore_monuments/resource/italy/pompeii.webp": "3d14c984db0e63b9e3e38a23732ba6dd68739cd713dde6e3f6b7285afb31851e",
+      "src/activities/explore_monuments/resource/italy/stMarkBasilica.webp": "8dbbf4b454692dc37d3b287c43143a63a7b9454ebafb66c35468cfdbc6ecd70f",
+      "src/activities/explore_monuments/resource/italy/leaningTowerOfPisa.webp": "a8d2793942d765d36c485fcec067ee7a097a5e7042d6d387656c5d18d5e9e6e2",
+      "src/activities/explore_monuments/resource/italy/pantheon.webp": "1576043a06d356c6986bbfa81d9e4f9676eac51fd29b868aeca4a32353ba4d20",
+      "src/activities/explore_monuments/resource/china/diaolouTowers.webp": "432906ecb8df73bf941a9130c0262311e334d37d60258f5779ba17cde0a9cf58",
+      "src/activities/explore_monuments/resource/china/leshanGiantBuddha.webp": "1d50c50149519add97788339f1a510f7ca9c5d1a87d524f916ad44bfea6582ae",
+      "src/activities/explore_monuments/resource/china/forbiddenCity.webp": "381058d962baf507d086ae511281cd48c6af7e5a3eb570aed425e52f0484dd94",
+      "src/activities/explore_monuments/resource/china/china.svg": "9c360628e96400512fe32ac4c2e33a0612fba1ca04a7ac624f4bb1340288f4cf",
+      "src/activities/explore_monuments/resource/china/sunAndMoonPagodas.webp": "739ac68d01659ff75d75611ae34bb17dadc7c02d0d8b8d5518395838620aabe4",
+      "src/activities/explore_monuments/resource/china/potalaPalace.webp": "6ba374e57b4d3560841db6845c0232d550399584f588207f49b25a95ac8480e7",
+      "src/activities/explore_monuments/resource/china/terracottaArmy.webp": "404d421abcae49b74b2b23aa92e2f123f59b8bb28e97712543a8ad89662d2757",
+      "src/activities/explore_monuments/resource/germany/brandenburgGate.webp": "2cb312c79a20e0cd8ed865c5b15a95af86d8d95a0ab96da8814c073857abf4bb",
+      "src/activities/explore_monuments/resource/germany/aulaPalatina.webp": "5b39680425fca3ff5f56b3bd79d11683a46a009d66ef23445e165ea72524b3cb",
+      "src/activities/explore_monuments/resource/germany/germany.svg": "f22f856bf2ffe89a6a7ee38ff84e2c0aa8316a8b5f42d08057944dec2463be8c",
+      "src/activities/explore_monuments/resource/germany/neuschwansteinCastle.webp": "15ec5fcb8758d54efa65581b9682e5cc766d700f3f329d700a06d0550d2c8e03",
+      "src/activities/explore_monuments/resource/germany/berlinCathedral.webp": "b552994f64727ceaa04218d6a5e7a86b08cb8b550c1eeae0b010f857286d308e",
+      "src/activities/explore_monuments/resource/germany/schwerinPalace.webp": "91be8dd19821221b2b3c30a78cb43a17d8017751a1d36acd751b1e9417acbbae",
+      "src/activities/explore_monuments/resource/germany/trierImperialBaths.webp": "dd1818360d153c095e227157d128e498fe9b29437594e8e5c663184cad4120fb",
+      "src/activities/explore_monuments/resource/germany/wormsCathedral.webp": "c90cdcbf981bcd5f118b553b059448db6fb0bfe801b40240e02ccd2975b92a59",
+      "src/activities/explore_monuments/resource/board/board1.qml": "e517e26bb5b41b5147a4634c9a4742f18602ca96dc852792f349eb23a912be23",
+      "src/activities/explore_monuments/resource/board/board6.qml": "aa3d49763253f76f221793bf4eebb77255e703efdd7feb81b1ecee2b08b89f06",
+      "src/activities/explore_monuments/resource/board/board3.qml": "22e6dac7bfb4c8f70d23848829a0dd91eecbba4d5ca884d6ab8613af896884d9",
+      "src/activities/explore_monuments/resource/board/board7.qml": "be8f8e22750a8e021cac00f4de2d29d170ea6c699d82d7acc7889d0f1d44cb99",
+      "src/activities/explore_monuments/resource/board/board5.qml": "f5a1bbf19e9356998e6bc728218964910520082a249a067f7c1af66c9c8b8ada",
+      "src/activities/explore_monuments/resource/board/board4.qml": "3cd3c007ed4b60bfeeadd7305ef513d49316e1c720c7de5e5ba60a7e2482102b",
+      "src/activities/explore_monuments/resource/board/board8.qml": "d887ba491af998a6a4022cf420819aedd88555652de8ae79628ecfe01f1371b1",
+      "src/activities/explore_monuments/resource/board/board2.qml": "2d087ffb25b98865e9340df055ad31838d7959c20fc90c8c44731dc7a1711813",
+      "src/activities/explore_monuments/resource/board/board9.qml": "e2f575bbabf2a933d37b8ff8884d68616caec37784dd575953589c3771945811",
+      "src/activities/explore_monuments/resource/egypt/meidumPyramid.webp": "694a4eaebc52849aacf802383bc5c755c0fff97b8342a4ef733c7a36c6e6aa53",
+      "src/activities/explore_monuments/resource/egypt/egypt.svg": "e2a8918d61bd5d6337ee3bf329a23a2e15362bd55a71b8c6c6af7b9046cbe394",
+      "src/activities/explore_monuments/resource/egypt/bentPyramid.webp": "ca717a088d790a901ffa1b03162c5cc438f99924d457f988263f158a7cc2cb38",
+      "src/activities/explore_monuments/resource/egypt/greatPyramidOfGiza.webp": "f8427c09579493e7918d00134423ed40140c2f3fa09fb13341d3c1a0640fc1e9",
+      "src/activities/explore_monuments/resource/egypt/redPyramid.webp": "7df87dfe904e18fee2062e8dba2cbfc5c7b807e27c688b271a7380000865c2cf",
+      "src/activities/explore_monuments/resource/india/rangGhar.webp": "41791947f8772c9bf483ddb13a4fa4dfbbd1eef44f29937a99eebc5361d981a2",
+      "src/activities/explore_monuments/resource/india/mysorePalace.webp": "a84a26be8d9447341e5235dd319acc71a49f2d91c8dd55a17a89867c64a580c0",
+      "src/activities/explore_monuments/resource/india/hawaMahal.webp": "4edb7eed9db596bd7f3ad98eb34a82c04c32ff1d57aeec80a815c1248feb8e04",
+      "src/activities/explore_monuments/resource/india/india.svg": "d5d429794691c77a1ca9995c5111319d679d959234bfd33a8f321a762d8c10a9",
+      "src/activities/explore_monuments/resource/india/greatStupa.webp": "3b6741152471d00646271d3a413c08af0533766f09dc87af19abb9ff71801886",
+      "src/activities/explore_monuments/resource/india/konarkSunTemple.webp": "c94ddb83bb2d878fecaf0677e8e6c1e73ede7dd39bd69f5e84d2f68e84515156",
+      "src/activities/explore_monuments/resource/india/charminar.webp": "a657a2139787bded963966d92b4ff9825327572e5e73d4badc1ac52cc063db0f",
+      "src/activities/explore_monuments/resource/india/qutubMinar.webp": "dea912cbd3950dacbba8cd810e39713525c27d54e58ce6ba7502a0f83cf24c95",
+      "src/activities/explore_monuments/resource/india/victoriaMemorial.webp": "be7b3264cd3391e5b50714e0cec31f2e23e658498b5aba584a4b9aaf526dc51e",
+      "src/activities/explore_monuments/resource/india/gatewayofIndia.webp": "8d1053776a85a9703f819ae6a82f981cbfa9a8961712404afee235afd87a0e48",
+      "src/activities/explore_monuments/resource/india/goldenTemple.webp": "ec52355726f8c36c78f0db526dc0fd8c823f5572a5ced04e8914a82a7b496a8c",
+      "src/activities/explore_monuments/resource/india/ajantaCave.webp": "7dbf980b3711f7557ed4d5748e494c48f72ac34ff601cf1a46f272ff9ab20543",
+      "src/activities/explore_monuments/resource/usa/mountRushmore.webp": "d9fec7d6ac491a64c5dab74fed447054e9d188dc9732715bef12bd63909e87c8",
+      "src/activities/explore_monuments/resource/usa/statueofLiberty.webp": "8eeda3c92c734520b4b7865eb04a900402a329890064058bcb4448d21669a3a8",
+      "src/activities/explore_monuments/resource/usa/castillodeSanMarcos.webp": "b1d3584272eb66d8211a9cb71a3647e88597986f8020eca9691c488282ea9a88",
+      "src/activities/explore_monuments/resource/usa/georgeWashingtonBirthplace.webp": "134f44b0e1c333202da337c73b6752db36fcbb5cb73e05cfcb4e5f4ff2fb4f43",
+      "src/activities/explore_monuments/resource/usa/castleClinton.webp": "c36913b06cea891736c82132a9124d178c11a0b1e1f0d511e9f8158a8271ac62",
+      "src/activities/explore_monuments/resource/usa/fortSumter.webp": "42c8376f99f770fa9daa92afb8cde44dc58dd3282b10c5ba8fabec02ea4b9643",
+      "src/activities/explore_monuments/resource/usa/navajo.webp": "fa8d36162b1380ac7998ab32d82f7b86b390cdce830acd807ef314291cc03ee5",
+      "src/activities/explore_monuments/resource/usa/lincolnMemorial.webp": "52eab4d110bd168e644c9152a60a911cdd8ba5e3d4b661e966f256a074f66fb8",
+      "src/activities/explore_monuments/resource/usa/canyondeChelly.webp": "2148fe45a54186a6e8bc4a395bbbffa0e3530e65232ceda5b841397a0d031bfb",
+      "src/activities/explore_monuments/resource/usa/cabrillo.webp": "e109eb44fd12f853a4adfa0c30ca5a6bcc03205a58c9e6802b88886751d42277",
+      "src/activities/explore_monuments/resource/usa/usa.svg": "55f3a8080f558b78253f1731e9a457dc23ccf89f607c18f2870a8c29d07f1966",
+      "src/activities/explore_monuments/resource/france/chateaudeChenonceau.webp": "4e414fc35ae9b4e18e3219d6278287fb720e89facd332fef9a1c4fe9c3c3adc3",
+      "src/activities/explore_monuments/resource/france/rocamadour.webp": "e9642c03c23004248bcdf0a364d9828625ba5ef75f82e4a10bfdf2b16bd0a18c",
+      "src/activities/explore_monuments/resource/france/chateaudeChambord.webp": "a96693bfff66c9a747a066b8d798aaf876427de969603c4125bf881f8af0ac2d",
+      "src/activities/explore_monuments/resource/france/palaisdesPapes.webp": "fded6367850d2fafaf5ecad961ba51efbdc0c3d3171f7cc058d2ccfd2e6897e6",
+      "src/activities/explore_monuments/resource/france/pontduGard.webp": "b9e560a9ae2fd919baec7f5ceb08877d57194e614481b25058693a88c232897f",
+      "src/activities/explore_monuments/resource/france/eiffelTower.webp": "cf115ede228937f0dfea0ffd7efa5fa24a948f388091ce1a123e7636b25c080b",
+      "src/activities/explore_monuments/resource/france/arlesAmphitheater.webp": "62d80a80ca5e5040bdb87c6f2fb57fa333d9b190c9a41066e4017cd4268656d9",
+      "src/activities/explore_monuments/resource/france/france.svg": "25f9092d76b303790d36b115d90da8f6a035da65237e3b31c0ded845d021bfe3",
+      "src/activities/explore_monuments/resource/france/citedeCarcassonne.webp": "b9de4b334e76df53df948de034f4bcc744be682a904ad7c61a9f9f7ac8de326b",
+      "src/activities/explore_monuments/resource/france/reimsCathedral.webp": "720ddce0a3124d68e306008c152fb19ec2a2917b3609ba8a31607cffaf52c2d2",
+      "src/activities/explore_monuments/resource/france/montStMichel.webp": "1c097b958c4bc0e52384e572c3e3ed70abbb54e9b4936cd0852320e1ce12561e",
+      "src/activities/explore_world_animals/resource/animals/jaguar.webp": "22704727b6643480c62487ffb2d9fd618a3f499dde84b1eb789d4b0b11477e85",
+      "src/activities/explore_world_animals/resource/animals/narwhal.webp": "2a94d2fc7482ca806ce60210031f167782f7407ed47cd721371355e2ab575afc",
+      "src/activities/explore_world_animals/resource/animals/giraffe.webp": "42ac2e4e766dad4cf28548c11e108a594f140ef09710c0b5b52a4c1ccc894772",
+      "src/activities/explore_world_animals/resource/animals/moose.webp": "2252a671c2e0ade9ce6ff6d41957348a81ebccfd952ba59bfddceff0b059ea48",
+      "src/activities/explore_world_animals/resource/animals/chameleon.webp": "f3ececf0133c1301227fdea62d74bce7bcc0d138b048714b116aa4a0744260d5",
+      "src/activities/explore_world_animals/resource/animals/dragon.webp": "fc36683cc2069ac83ae84f2da61c2774149d1a1dcb99820380b724ca50d3532e",
+      "src/activities/explore_world_animals/resource/animals/crocodile.webp": "840cf54b69bf4fb9a14a99fe502e237ad36e7230c146ca884b7b0e444ec12534",
+      "src/activities/explore_world_animals/resource/animals/scarlet_macaw.webp": "8b088ed71a87e7e929cf08b49a1e1c977c47544307d348e52a0f4a85128662a0",
+      "src/activities/explore_world_animals/resource/animals/kangaroo.webp": "683964b6f57fdced539b3da8983ef4f4c9d78a0be3e251363fc5a17d4fb4fe7e",
+      "src/activities/explore_world_animals/resource/animals/hedgehog.webp": "780aceaa624415db1f6ff304ed13e804572686316e69d21ee0e13856ef173f7e",
+      "src/activities/explore_world_animals/resource/animals/lemur.webp": "4fccf91dd5e6a749d9eb621f982e6a0d7072830db91ba0daabcd86b1de7a9747",
+      "src/activities/explore_world_animals/resource/animals/bison.webp": "11f3b2c5b876ee083924ff3ffab233c3e1d161993605b67d4d2ab5a9f1d9cf25",
+      "src/activities/explore_world_animals/resource/animals/question.svg": "59f270e675a5bbad73945a294359969e09a3bead1d4cd8584351d3b3882ff902",
+      "src/activities/explore_world_animals/resource/animals/koala.webp": "77b243c27d79f3f5706497af5c1e8e9134f87d634def2b81e2074b572b575d18",
+      "src/activities/explore_world_animals/resource/animals/panda.webp": "70ccf9a9db5008100eb6955ae25fabd4f7769427be784d627cf6315f6dfce692",
+      "src/activities/explore_world_animals/resource/animals/polar_bear.webp": "0544cef0a7d6940d3c143a04eecb7065bf9b90d7d367ad8bacbef6631b506070",
+      "src/activities/explore_world_animals/resource/board/board1.qml": "033c55371fc558ae8abc2aadb76958bf4cbd04e2b1d9817bfbb8905f36849318",
+      "src/activities/explore_world_animals/resource/board/board3.qml": "cd9b21a2ee02e3889318e453ee952c181b6e00d8f7f45359b7aca1d5e2cfee4f",
+      "src/activities/explore_world_animals/resource/board/board2.qml": "073cfcd31c2420c3ba165e6a7bcf417487e05c37a075e1633cddd8a2a8f97704",
+      "src/activities/explore_world_music/resource/music/japan.ogg": "fa9ceb0edb743b2706cf1402706ab9f05a31d5860b63c77dd77bef6859653450",
+      "src/activities/explore_world_music/resource/music/america.webp": "72af64588442d1e251ed33568629d35bf88b3fa348def66265320571bdda0927",
+      "src/activities/explore_world_music/resource/music/orchestra.webp": "b4a6d85a40cefbd33cc6801ffcbb3ad7026d8d79be134c753b4f12b0b862cedf",
+      "src/activities/explore_world_music/resource/music/australia.webp": "b7e0bc6da6f9fd8b2ae453f9a4a7021e5439bbd8944d4566b938134c0fa24951",
+      "src/activities/explore_world_music/resource/music/japan.webp": "0f0aa2d3116e01acdc693b626b1b60699124145670e624121289a7ced5020679",
+      "src/activities/explore_world_music/resource/music/italy.ogg": "a4d033adc004e6fc6d1696cf251df85fa5053fc5db12bc77c5f05a0b91ce6c23",
+      "src/activities/explore_world_music/resource/music/africa.webp": "c4b27aebe08498a882efa57ebc1ac2798ae2173228656f107cd8bff6098b5acf",
+      "src/activities/explore_world_music/resource/music/middleeast.ogg": "0991ddd91830afbe555d3e877e8219fc22496310da3bbb992a336d69a53b64b7",
+      "src/activities/explore_world_music/resource/music/ireland.ogg": "3249828302afa7769b8acbb699347814d5ba0a7f468e7e51081b4f298a074fda",
+      "src/activities/explore_world_music/resource/music/beethoven.ogg": "1fa2fe1681d9dc87035a11c0dabad0d63109cf570d5752a58caf8ec02dc4c23c",
+      "src/activities/explore_world_music/resource/music/middleeast.webp": "bc847e52730f5920b6743b59c881cc16430a1d2438ceba9008a2880530f7aaf2",
+      "src/activities/explore_world_music/resource/music/australia.ogg": "4751f76323e8e50e172c30f52249fe8326a12eeeee424409315c924c52e484cc",
+      "src/activities/explore_world_music/resource/music/ireland.webp": "20ef5a10a55b03632dc5fec2434c3a7814c15abbbe7489dedb4aa97ee6b111af",
+      "src/activities/explore_world_music/resource/music/mexico.ogg": "2dd823db6ded1dfff4e3612659c0c78b96582c65c782800801784f7fe7f4f6a3",
+      "src/activities/explore_world_music/resource/music/suitcase.svg": "6e0fa30d5f5647b32a6c31b9da382bc80362d3894aadb31dbaa7204244a51172",
+      "src/activities/explore_world_music/resource/music/italy.webp": "b30a023e5d36bb053a4ee8e57bd0b4fa2042e3d0a5ab8e663a341ba6e35672ad",
+      "src/activities/explore_world_music/resource/music/africa.ogg": "ab96dafbf7e6bd43072d514730331007f4fb591668f1e8af30404ecb8a1f0e14",
+      "src/activities/explore_world_music/resource/music/america.ogg": "3c4395ea491d9793e62171be095b4438eefdef82efcc2c322b73dfe636fcc536",
+      "src/activities/explore_world_music/resource/music/mexico.webp": "cd1286e5d7649bc446a47297f0127a38295e5a5f39a641b528e0c5063675c9d1",
+      "src/activities/explore_world_music/resource/board/board1.qml": "4543babbecfe17b44b60f8815143d372515641207a8604219f660a74ff4417c5",
+      "src/activities/explore_farm_animals/resource/animals/sheep.svg": "9090198b2736ad160ae2cd63c30e0daeafd5ae7b3c43f26ede7508cf358b7998",
+      "src/activities/explore_farm_animals/resource/animals/dog.svg": "cd21ff91cf3f367cf23cd06713f86e621bc1470b16532ad9ac1f26b5af31adfa",
+      "src/activities/explore_farm_animals/resource/animals/horse.ogg": "68144922eefeb659107c87ff15b4a8ff78f90b9cb66ce2a4ac13bd0fa1eb3fbf",
+      "src/activities/explore_farm_animals/resource/animals/owl.webp": "e8b7d705a955799f02eb3e8ded6487991d2c5c8274fee828ac75c0b917b3e237",
+      "src/activities/explore_farm_animals/resource/animals/chicken.webp": "30a07d3c7dfc191ff4d160826ad14babb4cfb9cb47b15ec8a098857f135bfcd4",
+      "src/activities/explore_farm_animals/resource/animals/owl.svg": "4a718d364a7672efac0b32d36cb9e68412345ee989eb1cfc5d7131e777bb7215",
+      "src/activities/explore_farm_animals/resource/animals/farm-animals.svg": "20f52c532cdcdde81a05a7abb01cc80e45d59519b66784454db8804dbbcaef91",
+      "src/activities/explore_farm_animals/resource/animals/horse.svg": "eb6d2578a1a1b552b702b21036b6230a7bada45b73d3da9705f6613213aa2e09",
+      "src/activities/explore_farm_animals/resource/animals/horse.webp": "87879a9644b71713f52aadf22562f30cc3e6e25a36e07d602a90e0cf6ec888aa",
+      "src/activities/explore_farm_animals/resource/animals/cat.svg": "580801792a0b432eb73fd9c0d83bfce67b9b9dbc2786530b27e375d519c582aa",
+      "src/activities/explore_farm_animals/resource/animals/cow.svg": "14941a9f7f8b8dd08119d3a047721a85fd65393163f10ca149b73926b1932293",
+      "src/activities/explore_farm_animals/resource/animals/duck.webp": "fa4572f2022a3aded4b627b9234fb8abf1658d125b267dc8d28cb1a8213c3b60",
+      "src/activities/explore_farm_animals/resource/animals/pig.ogg": "35098b2f7d91701bb3bcb6970f4ee8f01d0c41bb17336ab07d041b9758548260",
+      "src/activities/explore_farm_animals/resource/animals/sheep.ogg": "89246f9f02a72734705705d0cee65812704a245d57adeea292afdfe413d72764",
+      "src/activities/explore_farm_animals/resource/animals/duck.ogg": "8a7c3aa02de595f13abc0aecf28bae7e69c6755ed28600b983cfcaaac8432f21",
+      "src/activities/explore_farm_animals/resource/animals/cat.ogg": "ead15fc15913f6cdba9de15608712f993afaa484c936cdbcd6d778ef0a844a52",
+      "src/activities/explore_farm_animals/resource/animals/dog.ogg": "9f973cbeb4ee92471d534eed0ce50ed8ec78c3fe2a37abc4c0ad388e2de5bb52",
+      "src/activities/explore_farm_animals/resource/animals/cow.ogg": "1b9dac02c4caba54198cb3bb112afe908c04f78a1b6906a428ed3d1501673213",
+      "src/activities/explore_farm_animals/resource/animals/sheep.webp": "3bac61d5dabb709cdea2511f63bab6bfcde9736536a39f1f7510f5258a75b088",
+      "src/activities/explore_farm_animals/resource/animals/chicken.svg": "956ffea44471c1dc8e230f5981f105f8f3018c8536195bfb10b44ab152d3ea1b",
+      "src/activities/explore_farm_animals/resource/animals/chickens.ogg": "de08ab2ac8d78bbe982ef6b567fd8ed80b8503fea0b6808b2cd870dde5eca1be",
+      "src/activities/explore_farm_animals/resource/animals/cow.webp": "db359136be5ef7c435a2521e7f782a7f13ab48634f8a955864b1557ca21926db",
+      "src/activities/explore_farm_animals/resource/animals/dog.webp": "5e9d9544495740101e4cfff817d986b683731112b2cf17fde2e4c2a26c3c5314",
+      "src/activities/explore_farm_animals/resource/animals/pig.webp": "4f3d27d1fd3d0b3c0482d72a7b62101c133329f95427dcb3fb1319e69d53b7c8",
+      "src/activities/explore_farm_animals/resource/animals/pig.svg": "06b7d5108f4a6758eea8917708189ec0f6458e1a4cb32390646fefa8ede60d0a",
+      "src/activities/explore_farm_animals/resource/animals/cat.webp": "ab7c3e1b04e80bc567b00dba49946918b5a38be1f37618f0d2b4887ef5792770",
+      "src/activities/explore_farm_animals/resource/animals/duck.svg": "14c492bd19aac567525b009bdcda70f08d246d0fdc088e5ef9012a0e731930f3",
+      "src/activities/explore_farm_animals/resource/animals/owl.ogg": "0a63003102224989e84b8c7a3719fb21ede8cc81bb6ac7264e35f30e02cb3db8",
+      "src/activities/explore_farm_animals/resource/board/board1.qml": "2e43442fc1c6610eb3f8c1d68601f1f520b5d7a60974de0812777c0ff0e72041"
+    },
+    "supplement": {
+      "CMakeLists.txt": "a89ae19e0e4ec7af1a080b1ecf01d359c0ba60248f9ecdf6cb53a416c7c5be9a",
+      "tools/native_qml_supervision.py": "3e83fe73b1c025cb07f9b49c6d8ae448a91b17bf2e2427ed8141e3212cfec62f",
+      "tools/native_qml_resources.py": "d5bd6f499663f417d5b68a3d5f99f21cf612386acd6c40db9a3f3110c827c0d2",
+      "tools/run-native-qml-case.py": "612889370d52dc3c643f894c58dd22fdd6073c245525d5e8502791527fd6ec42",
+      "tools/run-native-qml-supervised.py": "d3036d68f65c91905732c953d9438a642d3a1a99ccee8e05c66bf0c76cd68347",
+      "poqm/pt/gcompris_qt.po": "aba2e4d1ab1db76acc6f20154b46bda564aff6fe0ac016af3f23e614c2db05b6",
+      "src/activities/explore_farm_animals/AnimalDescriptionLevels.qml": "bf3b92e7918136b23a13acf392942a69fd583f8db2aaf79777a518b21c33f561",
+      "src/activities/explore_farm_animals/explore_farm_animals.svg": "fc1355dfb8f4092f38a8efbc06d2db79a4cbdfe7b48e5baa8083caf0eb68aed5",
+      "src/activities/explore_farm_animals/CMakeLists.txt": "750357263874b4f22e42d1823e7c11d138ad564511c6d4f5c85ea57498f3131d",
+      "src/activities/explore_farm_animals/ExploreFarmAnimals.qml": "b08ea6ce1b763e318408f84463622e675c7f9df1fbd2dbccc8c3aae67966dc7e",
+      "src/activities/explore_farm_animals/explore-level.js": "b380250ed908773c1e102db6e111692c94c5012ece7ec5b428d6cf8f8c27b7aa",
+      "src/activities/explore_farm_animals/ActivityInfo.qml": "00e71064be38fbd696034d69171219d0da3b8831a2501ed8397bf612cb834bb3",
+      "src/activities/explore_farm_animals/ExploreLevels.qml": "dfb1712c70263a9955195fa495995234ea5faef3f459728750e380cf16b4a30a",
+      "src/activities/explore_farm_animals/AnimalLevels.qml": "0405c8c1404663dfe40b593fee684f78a85ea1ea97bd07c74e519ec531c953d3",
+      "src/activities/explore_world_music/CMakeLists.txt": "a9b927791ed5d0a56d1cc1f506f794f686dc3bf39a06dc42af1c98f5f45e6b1c",
+      "src/activities/explore_world_music/ExploreWorldMusic.qml": "1764d0e28e0adcd42892742db76111325b7900efbbca97854234249bb574f889",
+      "src/activities/explore_world_music/ActivityInfo.qml": "c2fdb4f0c8b0c4ae3584c3ec8249d9342082a450e123d08178f038483d61a734",
+      "src/activities/explore_world_music/explore_world_music.svg": "48638ef94fd7643bc2befa866e7d7f293d74e445a482a487a277a4918563e10a",
+      "src/activities/explore_world_animals/ExploreWorldAnimals.qml": "6faca701f66f89e18afed96c7a7282f3db94aad9bbe5fddd96137c8e474c66b1",
+      "src/activities/explore_world_animals/CMakeLists.txt": "69dbced8ecd49fccb8ad58f66285e47cfe01bd2122103ba2a6d33e23840a96b7",
+      "src/activities/explore_world_animals/ActivityInfo.qml": "099c84069ece49babc2c0656ddc4f4d00e2228671f37d84e46baec4f0db37c72",
+      "src/activities/explore_world_animals/explore_world_animals.svg": "67d04c293506f97551e17bfb39b9d691838e28b2565e38ac9f712cf7d4f23787",
+      "src/activities/explore_monuments/CMakeLists.txt": "29210c0901eb228ff4538b8dbd7a3f61985fe3459b24edc4cbf8aa040fda8c39",
+      "src/activities/explore_monuments/explore_monuments.svg": "601d26ebfad9d11a851cfdaff60e8823dd2a7b18e0a861f809c8eb10b468b2f6",
+      "src/activities/explore_monuments/ActivityInfo.qml": "03a9cf49db554aef0c17c77e9080e98dfdaaf7bfba48a6c9d2a73b01b5672494",
+      "src/activities/explore_monuments/Explore_monuments.qml": "01b66d8121329897e8667f5742c875f96c9184f489cabf90d06d3772d792376d",
+      "src/activities/explore_monuments/resource/key.svg": "8decaa4ae3d7382e44c2f5ee672e97d6a31cb8b384ffdfc48f2202bdf972e97a",
+      "src/activities/explore_monuments/resource/wonders/petra.webp": "cc782ccdd5b508299ad17402df2d0d375c26e1f9b18e4d2e6c3fd474fcaeb458",
+      "src/activities/explore_monuments/resource/wonders/christTheRedeemer.webp": "3133f2872b3d791595296fd4bf4812654326e01f5c7cd2d870765bfd6772fa2b",
+      "src/activities/explore_monuments/resource/wonders/world-map.svg": "37be69f46dc24273e6afebd6e9a59dc0d7b0134f5d4a540365aca686ed4df608",
+      "src/activities/explore_monuments/resource/wonders/colosseum.webp": "0d38a0c2d4910f895c003825999345a86da080ff76d709bba923153cbd654945",
+      "src/activities/explore_monuments/resource/wonders/greatWallofChina.webp": "546e2483d17c2b732ce375d946afba6fc612166abcd6d976217747a982b60777",
+      "src/activities/explore_monuments/resource/wonders/tajMahal.webp": "fc0d45ec5a258568858c70d2d78eb23a5eb769255d74b384f70c20422d2eb351",
+      "src/activities/explore_monuments/resource/wonders/chichenItza.webp": "9882593801be435822f1d948afb36b171ed7fc7a301dfa74b11df5ea9afaf681",
+      "src/activities/explore_monuments/resource/wonders/machuPicchu.webp": "e04e163ccef6e59411dff15c3459768b2f442fe2ff5042369d9a480f1f272068",
+      "src/activities/explore_monuments/resource/japan/himejiCastle.webp": "8e0262c4501380c367163a22788002212c0ed146995db9af01b1d0c3079ed7b8",
+      "src/activities/explore_monuments/resource/japan/hiroshimaPeaceMemorialPark.webp": "b808bffb916d324e4fc9121b4cddaf8ed9d83a7d3267e2c6e4747a565f874c76",
+      "src/activities/explore_monuments/resource/japan/arakuraShrine.webp": "2074b0212bfda72e14ae1fdd924031466f26c5d29ab37bf2c8f3d72013959262",
+      "src/activities/explore_monuments/resource/japan/japan.svg": "10eb02e108b9071c4b43b70f458ab15d7db81a2c371a580efe338988855275fc",
+      "src/activities/explore_monuments/resource/japan/okinawaShuriCastle.webp": "64310beb032039f52fdb889e26b65098b3406a01014f4af51e0f0ee4daa6fa9b",
+      "src/activities/explore_monuments/resource/italy/florenceCathedral.webp": "bfd3f7753888ff4022921d1d157d490b5f8ca82529a1e21d0ba2d980056f172f",
+      "src/activities/explore_monuments/resource/italy/duomoDiMilano.webp": "679d27dd05bcdeb509982811b18df1f27dd0557e1180617f2b5aa731cff2771b",
+      "src/activities/explore_monuments/resource/italy/italy.svg": "01327f94c6d7ecf2177dd842e536fd1738176c8c2abcc628bbccb01b38bcab81",
+      "src/activities/explore_monuments/resource/italy/pompeii.webp": "3d14c984db0e63b9e3e38a23732ba6dd68739cd713dde6e3f6b7285afb31851e",
+      "src/activities/explore_monuments/resource/italy/stMarkBasilica.webp": "8dbbf4b454692dc37d3b287c43143a63a7b9454ebafb66c35468cfdbc6ecd70f",
+      "src/activities/explore_monuments/resource/italy/leaningTowerOfPisa.webp": "a8d2793942d765d36c485fcec067ee7a097a5e7042d6d387656c5d18d5e9e6e2",
+      "src/activities/explore_monuments/resource/italy/pantheon.webp": "1576043a06d356c6986bbfa81d9e4f9676eac51fd29b868aeca4a32353ba4d20",
+      "src/activities/explore_monuments/resource/china/diaolouTowers.webp": "432906ecb8df73bf941a9130c0262311e334d37d60258f5779ba17cde0a9cf58",
+      "src/activities/explore_monuments/resource/china/leshanGiantBuddha.webp": "1d50c50149519add97788339f1a510f7ca9c5d1a87d524f916ad44bfea6582ae",
+      "src/activities/explore_monuments/resource/china/forbiddenCity.webp": "381058d962baf507d086ae511281cd48c6af7e5a3eb570aed425e52f0484dd94",
+      "src/activities/explore_monuments/resource/china/china.svg": "9c360628e96400512fe32ac4c2e33a0612fba1ca04a7ac624f4bb1340288f4cf",
+      "src/activities/explore_monuments/resource/china/sunAndMoonPagodas.webp": "739ac68d01659ff75d75611ae34bb17dadc7c02d0d8b8d5518395838620aabe4",
+      "src/activities/explore_monuments/resource/china/potalaPalace.webp": "6ba374e57b4d3560841db6845c0232d550399584f588207f49b25a95ac8480e7",
+      "src/activities/explore_monuments/resource/china/terracottaArmy.webp": "404d421abcae49b74b2b23aa92e2f123f59b8bb28e97712543a8ad89662d2757",
+      "src/activities/explore_monuments/resource/germany/brandenburgGate.webp": "2cb312c79a20e0cd8ed865c5b15a95af86d8d95a0ab96da8814c073857abf4bb",
+      "src/activities/explore_monuments/resource/germany/aulaPalatina.webp": "5b39680425fca3ff5f56b3bd79d11683a46a009d66ef23445e165ea72524b3cb",
+      "src/activities/explore_monuments/resource/germany/germany.svg": "f22f856bf2ffe89a6a7ee38ff84e2c0aa8316a8b5f42d08057944dec2463be8c",
+      "src/activities/explore_monuments/resource/germany/neuschwansteinCastle.webp": "15ec5fcb8758d54efa65581b9682e5cc766d700f3f329d700a06d0550d2c8e03",
+      "src/activities/explore_monuments/resource/germany/berlinCathedral.webp": "b552994f64727ceaa04218d6a5e7a86b08cb8b550c1eeae0b010f857286d308e",
+      "src/activities/explore_monuments/resource/germany/schwerinPalace.webp": "91be8dd19821221b2b3c30a78cb43a17d8017751a1d36acd751b1e9417acbbae",
+      "src/activities/explore_monuments/resource/germany/trierImperialBaths.webp": "dd1818360d153c095e227157d128e498fe9b29437594e8e5c663184cad4120fb",
+      "src/activities/explore_monuments/resource/germany/wormsCathedral.webp": "c90cdcbf981bcd5f118b553b059448db6fb0bfe801b40240e02ccd2975b92a59",
+      "src/activities/explore_monuments/resource/board/board1.qml": "e517e26bb5b41b5147a4634c9a4742f18602ca96dc852792f349eb23a912be23",
+      "src/activities/explore_monuments/resource/board/board6.qml": "aa3d49763253f76f221793bf4eebb77255e703efdd7feb81b1ecee2b08b89f06",
+      "src/activities/explore_monuments/resource/board/board3.qml": "22e6dac7bfb4c8f70d23848829a0dd91eecbba4d5ca884d6ab8613af896884d9",
+      "src/activities/explore_monuments/resource/board/board7.qml": "be8f8e22750a8e021cac00f4de2d29d170ea6c699d82d7acc7889d0f1d44cb99",
+      "src/activities/explore_monuments/resource/board/board5.qml": "f5a1bbf19e9356998e6bc728218964910520082a249a067f7c1af66c9c8b8ada",
+      "src/activities/explore_monuments/resource/board/board4.qml": "3cd3c007ed4b60bfeeadd7305ef513d49316e1c720c7de5e5ba60a7e2482102b",
+      "src/activities/explore_monuments/resource/board/board8.qml": "d887ba491af998a6a4022cf420819aedd88555652de8ae79628ecfe01f1371b1",
+      "src/activities/explore_monuments/resource/board/board2.qml": "2d087ffb25b98865e9340df055ad31838d7959c20fc90c8c44731dc7a1711813",
+      "src/activities/explore_monuments/resource/board/board9.qml": "e2f575bbabf2a933d37b8ff8884d68616caec37784dd575953589c3771945811",
+      "src/activities/explore_monuments/resource/egypt/meidumPyramid.webp": "694a4eaebc52849aacf802383bc5c755c0fff97b8342a4ef733c7a36c6e6aa53",
+      "src/activities/explore_monuments/resource/egypt/egypt.svg": "e2a8918d61bd5d6337ee3bf329a23a2e15362bd55a71b8c6c6af7b9046cbe394",
+      "src/activities/explore_monuments/resource/egypt/bentPyramid.webp": "ca717a088d790a901ffa1b03162c5cc438f99924d457f988263f158a7cc2cb38",
+      "src/activities/explore_monuments/resource/egypt/greatPyramidOfGiza.webp": "f8427c09579493e7918d00134423ed40140c2f3fa09fb13341d3c1a0640fc1e9",
+      "src/activities/explore_monuments/resource/egypt/redPyramid.webp": "7df87dfe904e18fee2062e8dba2cbfc5c7b807e27c688b271a7380000865c2cf",
+      "src/activities/explore_monuments/resource/india/rangGhar.webp": "41791947f8772c9bf483ddb13a4fa4dfbbd1eef44f29937a99eebc5361d981a2",
+      "src/activities/explore_monuments/resource/india/mysorePalace.webp": "a84a26be8d9447341e5235dd319acc71a49f2d91c8dd55a17a89867c64a580c0",
+      "src/activities/explore_monuments/resource/india/hawaMahal.webp": "4edb7eed9db596bd7f3ad98eb34a82c04c32ff1d57aeec80a815c1248feb8e04",
+      "src/activities/explore_monuments/resource/india/india.svg": "d5d429794691c77a1ca9995c5111319d679d959234bfd33a8f321a762d8c10a9",
+      "src/activities/explore_monuments/resource/india/greatStupa.webp": "3b6741152471d00646271d3a413c08af0533766f09dc87af19abb9ff71801886",
+      "src/activities/explore_monuments/resource/india/konarkSunTemple.webp": "c94ddb83bb2d878fecaf0677e8e6c1e73ede7dd39bd69f5e84d2f68e84515156",
+      "src/activities/explore_monuments/resource/india/charminar.webp": "a657a2139787bded963966d92b4ff9825327572e5e73d4badc1ac52cc063db0f",
+      "src/activities/explore_monuments/resource/india/qutubMinar.webp": "dea912cbd3950dacbba8cd810e39713525c27d54e58ce6ba7502a0f83cf24c95",
+      "src/activities/explore_monuments/resource/india/victoriaMemorial.webp": "be7b3264cd3391e5b50714e0cec31f2e23e658498b5aba584a4b9aaf526dc51e",
+      "src/activities/explore_monuments/resource/india/gatewayofIndia.webp": "8d1053776a85a9703f819ae6a82f981cbfa9a8961712404afee235afd87a0e48",
+      "src/activities/explore_monuments/resource/india/goldenTemple.webp": "ec52355726f8c36c78f0db526dc0fd8c823f5572a5ced04e8914a82a7b496a8c",
+      "src/activities/explore_monuments/resource/india/ajantaCave.webp": "7dbf980b3711f7557ed4d5748e494c48f72ac34ff601cf1a46f272ff9ab20543",
+      "src/activities/explore_monuments/resource/usa/mountRushmore.webp": "d9fec7d6ac491a64c5dab74fed447054e9d188dc9732715bef12bd63909e87c8",
+      "src/activities/explore_monuments/resource/usa/statueofLiberty.webp": "8eeda3c92c734520b4b7865eb04a900402a329890064058bcb4448d21669a3a8",
+      "src/activities/explore_monuments/resource/usa/castillodeSanMarcos.webp": "b1d3584272eb66d8211a9cb71a3647e88597986f8020eca9691c488282ea9a88",
+      "src/activities/explore_monuments/resource/usa/georgeWashingtonBirthplace.webp": "134f44b0e1c333202da337c73b6752db36fcbb5cb73e05cfcb4e5f4ff2fb4f43",
+      "src/activities/explore_monuments/resource/usa/castleClinton.webp": "c36913b06cea891736c82132a9124d178c11a0b1e1f0d511e9f8158a8271ac62",
+      "src/activities/explore_monuments/resource/usa/fortSumter.webp": "42c8376f99f770fa9daa92afb8cde44dc58dd3282b10c5ba8fabec02ea4b9643",
+      "src/activities/explore_monuments/resource/usa/navajo.webp": "fa8d36162b1380ac7998ab32d82f7b86b390cdce830acd807ef314291cc03ee5",
+      "src/activities/explore_monuments/resource/usa/lincolnMemorial.webp": "52eab4d110bd168e644c9152a60a911cdd8ba5e3d4b661e966f256a074f66fb8",
+      "src/activities/explore_monuments/resource/usa/canyondeChelly.webp": "2148fe45a54186a6e8bc4a395bbbffa0e3530e65232ceda5b841397a0d031bfb",
+      "src/activities/explore_monuments/resource/usa/cabrillo.webp": "e109eb44fd12f853a4adfa0c30ca5a6bcc03205a58c9e6802b88886751d42277",
+      "src/activities/explore_monuments/resource/usa/usa.svg": "55f3a8080f558b78253f1731e9a457dc23ccf89f607c18f2870a8c29d07f1966",
+      "src/activities/explore_monuments/resource/france/chateaudeChenonceau.webp": "4e414fc35ae9b4e18e3219d6278287fb720e89facd332fef9a1c4fe9c3c3adc3",
+      "src/activities/explore_monuments/resource/france/rocamadour.webp": "e9642c03c23004248bcdf0a364d9828625ba5ef75f82e4a10bfdf2b16bd0a18c",
+      "src/activities/explore_monuments/resource/france/chateaudeChambord.webp": "a96693bfff66c9a747a066b8d798aaf876427de969603c4125bf881f8af0ac2d",
+      "src/activities/explore_monuments/resource/france/palaisdesPapes.webp": "fded6367850d2fafaf5ecad961ba51efbdc0c3d3171f7cc058d2ccfd2e6897e6",
+      "src/activities/explore_monuments/resource/france/pontduGard.webp": "b9e560a9ae2fd919baec7f5ceb08877d57194e614481b25058693a88c232897f",
+      "src/activities/explore_monuments/resource/france/eiffelTower.webp": "cf115ede228937f0dfea0ffd7efa5fa24a948f388091ce1a123e7636b25c080b",
+      "src/activities/explore_monuments/resource/france/arlesAmphitheater.webp": "62d80a80ca5e5040bdb87c6f2fb57fa333d9b190c9a41066e4017cd4268656d9",
+      "src/activities/explore_monuments/resource/france/france.svg": "25f9092d76b303790d36b115d90da8f6a035da65237e3b31c0ded845d021bfe3",
+      "src/activities/explore_monuments/resource/france/citedeCarcassonne.webp": "b9de4b334e76df53df948de034f4bcc744be682a904ad7c61a9f9f7ac8de326b",
+      "src/activities/explore_monuments/resource/france/reimsCathedral.webp": "720ddce0a3124d68e306008c152fb19ec2a2917b3609ba8a31607cffaf52c2d2",
+      "src/activities/explore_monuments/resource/france/montStMichel.webp": "1c097b958c4bc0e52384e572c3e3ed70abbb54e9b4936cd0852320e1ce12561e",
+      "src/activities/explore_world_animals/resource/animals/jaguar.webp": "22704727b6643480c62487ffb2d9fd618a3f499dde84b1eb789d4b0b11477e85",
+      "src/activities/explore_world_animals/resource/animals/narwhal.webp": "2a94d2fc7482ca806ce60210031f167782f7407ed47cd721371355e2ab575afc",
+      "src/activities/explore_world_animals/resource/animals/giraffe.webp": "42ac2e4e766dad4cf28548c11e108a594f140ef09710c0b5b52a4c1ccc894772",
+      "src/activities/explore_world_animals/resource/animals/moose.webp": "2252a671c2e0ade9ce6ff6d41957348a81ebccfd952ba59bfddceff0b059ea48",
+      "src/activities/explore_world_animals/resource/animals/chameleon.webp": "f3ececf0133c1301227fdea62d74bce7bcc0d138b048714b116aa4a0744260d5",
+      "src/activities/explore_world_animals/resource/animals/dragon.webp": "fc36683cc2069ac83ae84f2da61c2774149d1a1dcb99820380b724ca50d3532e",
+      "src/activities/explore_world_animals/resource/animals/crocodile.webp": "840cf54b69bf4fb9a14a99fe502e237ad36e7230c146ca884b7b0e444ec12534",
+      "src/activities/explore_world_animals/resource/animals/scarlet_macaw.webp": "8b088ed71a87e7e929cf08b49a1e1c977c47544307d348e52a0f4a85128662a0",
+      "src/activities/explore_world_animals/resource/animals/kangaroo.webp": "683964b6f57fdced539b3da8983ef4f4c9d78a0be3e251363fc5a17d4fb4fe7e",
+      "src/activities/explore_world_animals/resource/animals/hedgehog.webp": "780aceaa624415db1f6ff304ed13e804572686316e69d21ee0e13856ef173f7e",
+      "src/activities/explore_world_animals/resource/animals/lemur.webp": "4fccf91dd5e6a749d9eb621f982e6a0d7072830db91ba0daabcd86b1de7a9747",
+      "src/activities/explore_world_animals/resource/animals/bison.webp": "11f3b2c5b876ee083924ff3ffab233c3e1d161993605b67d4d2ab5a9f1d9cf25",
+      "src/activities/explore_world_animals/resource/animals/question.svg": "59f270e675a5bbad73945a294359969e09a3bead1d4cd8584351d3b3882ff902",
+      "src/activities/explore_world_animals/resource/animals/koala.webp": "77b243c27d79f3f5706497af5c1e8e9134f87d634def2b81e2074b572b575d18",
+      "src/activities/explore_world_animals/resource/animals/panda.webp": "70ccf9a9db5008100eb6955ae25fabd4f7769427be784d627cf6315f6dfce692",
+      "src/activities/explore_world_animals/resource/animals/polar_bear.webp": "0544cef0a7d6940d3c143a04eecb7065bf9b90d7d367ad8bacbef6631b506070",
+      "src/activities/explore_world_animals/resource/board/board1.qml": "033c55371fc558ae8abc2aadb76958bf4cbd04e2b1d9817bfbb8905f36849318",
+      "src/activities/explore_world_animals/resource/board/board3.qml": "cd9b21a2ee02e3889318e453ee952c181b6e00d8f7f45359b7aca1d5e2cfee4f",
+      "src/activities/explore_world_animals/resource/board/board2.qml": "073cfcd31c2420c3ba165e6a7bcf417487e05c37a075e1633cddd8a2a8f97704",
+      "src/activities/explore_world_music/resource/music/japan.ogg": "fa9ceb0edb743b2706cf1402706ab9f05a31d5860b63c77dd77bef6859653450",
+      "src/activities/explore_world_music/resource/music/america.webp": "72af64588442d1e251ed33568629d35bf88b3fa348def66265320571bdda0927",
+      "src/activities/explore_world_music/resource/music/orchestra.webp": "b4a6d85a40cefbd33cc6801ffcbb3ad7026d8d79be134c753b4f12b0b862cedf",
+      "src/activities/explore_world_music/resource/music/australia.webp": "b7e0bc6da6f9fd8b2ae453f9a4a7021e5439bbd8944d4566b938134c0fa24951",
+      "src/activities/explore_world_music/resource/music/japan.webp": "0f0aa2d3116e01acdc693b626b1b60699124145670e624121289a7ced5020679",
+      "src/activities/explore_world_music/resource/music/italy.ogg": "a4d033adc004e6fc6d1696cf251df85fa5053fc5db12bc77c5f05a0b91ce6c23",
+      "src/activities/explore_world_music/resource/music/africa.webp": "c4b27aebe08498a882efa57ebc1ac2798ae2173228656f107cd8bff6098b5acf",
+      "src/activities/explore_world_music/resource/music/middleeast.ogg": "0991ddd91830afbe555d3e877e8219fc22496310da3bbb992a336d69a53b64b7",
+      "src/activities/explore_world_music/resource/music/ireland.ogg": "3249828302afa7769b8acbb699347814d5ba0a7f468e7e51081b4f298a074fda",
+      "src/activities/explore_world_music/resource/music/beethoven.ogg": "1fa2fe1681d9dc87035a11c0dabad0d63109cf570d5752a58caf8ec02dc4c23c",
+      "src/activities/explore_world_music/resource/music/middleeast.webp": "bc847e52730f5920b6743b59c881cc16430a1d2438ceba9008a2880530f7aaf2",
+      "src/activities/explore_world_music/resource/music/australia.ogg": "4751f76323e8e50e172c30f52249fe8326a12eeeee424409315c924c52e484cc",
+      "src/activities/explore_world_music/resource/music/ireland.webp": "20ef5a10a55b03632dc5fec2434c3a7814c15abbbe7489dedb4aa97ee6b111af",
+      "src/activities/explore_world_music/resource/music/mexico.ogg": "2dd823db6ded1dfff4e3612659c0c78b96582c65c782800801784f7fe7f4f6a3",
+      "src/activities/explore_world_music/resource/music/suitcase.svg": "6e0fa30d5f5647b32a6c31b9da382bc80362d3894aadb31dbaa7204244a51172",
+      "src/activities/explore_world_music/resource/music/italy.webp": "b30a023e5d36bb053a4ee8e57bd0b4fa2042e3d0a5ab8e663a341ba6e35672ad",
+      "src/activities/explore_world_music/resource/music/africa.ogg": "ab96dafbf7e6bd43072d514730331007f4fb591668f1e8af30404ecb8a1f0e14",
+      "src/activities/explore_world_music/resource/music/america.ogg": "3c4395ea491d9793e62171be095b4438eefdef82efcc2c322b73dfe636fcc536",
+      "src/activities/explore_world_music/resource/music/mexico.webp": "cd1286e5d7649bc446a47297f0127a38295e5a5f39a641b528e0c5063675c9d1",
+      "src/activities/explore_world_music/resource/board/board1.qml": "4543babbecfe17b44b60f8815143d372515641207a8604219f660a74ff4417c5",
+      "src/activities/explore_farm_animals/resource/animals/sheep.svg": "9090198b2736ad160ae2cd63c30e0daeafd5ae7b3c43f26ede7508cf358b7998",
+      "src/activities/explore_farm_animals/resource/animals/dog.svg": "cd21ff91cf3f367cf23cd06713f86e621bc1470b16532ad9ac1f26b5af31adfa",
+      "src/activities/explore_farm_animals/resource/animals/horse.ogg": "68144922eefeb659107c87ff15b4a8ff78f90b9cb66ce2a4ac13bd0fa1eb3fbf",
+      "src/activities/explore_farm_animals/resource/animals/owl.webp": "e8b7d705a955799f02eb3e8ded6487991d2c5c8274fee828ac75c0b917b3e237",
+      "src/activities/explore_farm_animals/resource/animals/chicken.webp": "30a07d3c7dfc191ff4d160826ad14babb4cfb9cb47b15ec8a098857f135bfcd4",
+      "src/activities/explore_farm_animals/resource/animals/owl.svg": "4a718d364a7672efac0b32d36cb9e68412345ee989eb1cfc5d7131e777bb7215",
+      "src/activities/explore_farm_animals/resource/animals/farm-animals.svg": "20f52c532cdcdde81a05a7abb01cc80e45d59519b66784454db8804dbbcaef91",
+      "src/activities/explore_farm_animals/resource/animals/horse.svg": "eb6d2578a1a1b552b702b21036b6230a7bada45b73d3da9705f6613213aa2e09",
+      "src/activities/explore_farm_animals/resource/animals/horse.webp": "87879a9644b71713f52aadf22562f30cc3e6e25a36e07d602a90e0cf6ec888aa",
+      "src/activities/explore_farm_animals/resource/animals/cat.svg": "580801792a0b432eb73fd9c0d83bfce67b9b9dbc2786530b27e375d519c582aa",
+      "src/activities/explore_farm_animals/resource/animals/cow.svg": "14941a9f7f8b8dd08119d3a047721a85fd65393163f10ca149b73926b1932293",
+      "src/activities/explore_farm_animals/resource/animals/duck.webp": "fa4572f2022a3aded4b627b9234fb8abf1658d125b267dc8d28cb1a8213c3b60",
+      "src/activities/explore_farm_animals/resource/animals/pig.ogg": "35098b2f7d91701bb3bcb6970f4ee8f01d0c41bb17336ab07d041b9758548260",
+      "src/activities/explore_farm_animals/resource/animals/sheep.ogg": "89246f9f02a72734705705d0cee65812704a245d57adeea292afdfe413d72764",
+      "src/activities/explore_farm_animals/resource/animals/duck.ogg": "8a7c3aa02de595f13abc0aecf28bae7e69c6755ed28600b983cfcaaac8432f21",
+      "src/activities/explore_farm_animals/resource/animals/cat.ogg": "ead15fc15913f6cdba9de15608712f993afaa484c936cdbcd6d778ef0a844a52",
+      "src/activities/explore_farm_animals/resource/animals/dog.ogg": "9f973cbeb4ee92471d534eed0ce50ed8ec78c3fe2a37abc4c0ad388e2de5bb52",
+      "src/activities/explore_farm_animals/resource/animals/cow.ogg": "1b9dac02c4caba54198cb3bb112afe908c04f78a1b6906a428ed3d1501673213",
+      "src/activities/explore_farm_animals/resource/animals/sheep.webp": "3bac61d5dabb709cdea2511f63bab6bfcde9736536a39f1f7510f5258a75b088",
+      "src/activities/explore_farm_animals/resource/animals/chicken.svg": "956ffea44471c1dc8e230f5981f105f8f3018c8536195bfb10b44ab152d3ea1b",
+      "src/activities/explore_farm_animals/resource/animals/chickens.ogg": "de08ab2ac8d78bbe982ef6b567fd8ed80b8503fea0b6808b2cd870dde5eca1be",
+      "src/activities/explore_farm_animals/resource/animals/cow.webp": "db359136be5ef7c435a2521e7f782a7f13ab48634f8a955864b1557ca21926db",
+      "src/activities/explore_farm_animals/resource/animals/dog.webp": "5e9d9544495740101e4cfff817d986b683731112b2cf17fde2e4c2a26c3c5314",
+      "src/activities/explore_farm_animals/resource/animals/pig.webp": "4f3d27d1fd3d0b3c0482d72a7b62101c133329f95427dcb3fb1319e69d53b7c8",
+      "src/activities/explore_farm_animals/resource/animals/pig.svg": "06b7d5108f4a6758eea8917708189ec0f6458e1a4cb32390646fefa8ede60d0a",
+      "src/activities/explore_farm_animals/resource/animals/cat.webp": "ab7c3e1b04e80bc567b00dba49946918b5a38be1f37618f0d2b4887ef5792770",
+      "src/activities/explore_farm_animals/resource/animals/duck.svg": "14c492bd19aac567525b009bdcda70f08d246d0fdc088e5ef9012a0e731930f3",
+      "src/activities/explore_farm_animals/resource/animals/owl.ogg": "0a63003102224989e84b8c7a3719fb21ede8cc81bb6ac7264e35f30e02cb3db8",
+      "src/activities/explore_farm_animals/resource/board/board1.qml": "2e43442fc1c6610eb3f8c1d68601f1f520b5d7a60974de0812777c0ff0e72041"
+    }
+  },
+  "runs": {
+    "supplement-red": {
+      "phase": "reviewed",
+      "expected_exit": 1,
+      "rcc": "d854e6766bb5ecd7b5c0a8416256403093ab65edae25ec7653805e756fbce62e",
+      "qm": "bc241e1a444a97b99e118d08a206a77435cf5e9ae78efb5a95ad2fc3eb994e5b",
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/supplement-red",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/build/functional-exploration/sources/reviewed",
+      "resources": [
+        {
+          "bytes": 1551,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/ActivityInfo.qml",
+          "sha256": "00e71064be38fbd696034d69171219d0da3b8831a2501ed8397bf612cb834bb3"
+        },
+        {
+          "bytes": 33946,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/explore_farm_animals.svg",
+          "sha256": "fc1355dfb8f4092f38a8efbc06d2db79a4cbdfe7b48e5baa8083caf0eb68aed5"
+        },
+        {
+          "bytes": 21175,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/ExploreLevels.qml",
+          "sha256": "dc1d700bf4ec2989c3dcae1488c2e5176a103c30f1c858e0f071f185a97864b3"
+        },
+        {
+          "bytes": 4321,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/explore-level.js",
+          "sha256": "b380250ed908773c1e102db6e111692c94c5012ece7ec5b428d6cf8f8c27b7aa"
+        },
+        {
+          "bytes": 479,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/ExploreFarmAnimals.qml",
+          "sha256": "b08ea6ce1b763e318408f84463622e675c7f9df1fbd2dbccc8c3aae67966dc7e"
+        },
+        {
+          "bytes": 8428,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/AnimalDescriptionLevels.qml",
+          "sha256": "bf3b92e7918136b23a13acf392942a69fd583f8db2aaf79777a518b21c33f561"
+        },
+        {
+          "bytes": 7439,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/board/board1.qml",
+          "sha256": "2e43442fc1c6610eb3f8c1d68601f1f520b5d7a60974de0812777c0ff0e72041"
+        },
+        {
+          "bytes": 30059,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/chicken.svg",
+          "sha256": "956ffea44471c1dc8e230f5981f105f8f3018c8536195bfb10b44ab152d3ea1b"
+        },
+        {
+          "bytes": 97874,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/dog.webp",
+          "sha256": "5e9d9544495740101e4cfff817d986b683731112b2cf17fde2e4c2a26c3c5314"
+        },
+        {
+          "bytes": 110654,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/cow.webp",
+          "sha256": "db359136be5ef7c435a2521e7f782a7f13ab48634f8a955864b1557ca21926db"
+        },
+        {
+          "bytes": 12903,
+          "ogg": true,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/owl.ogg",
+          "sha256": "0a63003102224989e84b8c7a3719fb21ede8cc81bb6ac7264e35f30e02cb3db8"
+        },
+        {
+          "bytes": 13029,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/owl.svg",
+          "sha256": "4a718d364a7672efac0b32d36cb9e68412345ee989eb1cfc5d7131e777bb7215"
+        },
+        {
+          "bytes": 30999,
+          "ogg": true,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/pig.ogg",
+          "sha256": "35098b2f7d91701bb3bcb6970f4ee8f01d0c41bb17336ab07d041b9758548260"
+        },
+        {
+          "bytes": 12632,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/pig.svg",
+          "sha256": "06b7d5108f4a6758eea8917708189ec0f6458e1a4cb32390646fefa8ede60d0a"
+        },
+        {
+          "bytes": 30586,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/farm-animals.svg",
+          "sha256": "20f52c532cdcdde81a05a7abb01cc80e45d59519b66784454db8804dbbcaef91"
+        },
+        {
+          "bytes": 23150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/cat.webp",
+          "sha256": "ab7c3e1b04e80bc567b00dba49946918b5a38be1f37618f0d2b4887ef5792770"
+        },
+        {
+          "bytes": 72568,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/chicken.webp",
+          "sha256": "30a07d3c7dfc191ff4d160826ad14babb4cfb9cb47b15ec8a098857f135bfcd4"
+        },
+        {
+          "bytes": 55806,
+          "ogg": true,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/chickens.ogg",
+          "sha256": "de08ab2ac8d78bbe982ef6b567fd8ed80b8503fea0b6808b2cd870dde5eca1be"
+        },
+        {
+          "bytes": 15966,
+          "ogg": true,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/cat.ogg",
+          "sha256": "ead15fc15913f6cdba9de15608712f993afaa484c936cdbcd6d778ef0a844a52"
+        },
+        {
+          "bytes": 11398,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/cat.svg",
+          "sha256": "580801792a0b432eb73fd9c0d83bfce67b9b9dbc2786530b27e375d519c582aa"
+        },
+        {
+          "bytes": 50304,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/horse.webp",
+          "sha256": "87879a9644b71713f52aadf22562f30cc3e6e25a36e07d602a90e0cf6ec888aa"
+        },
+        {
+          "bytes": 13593,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/horse.svg",
+          "sha256": "eb6d2578a1a1b552b702b21036b6230a7bada45b73d3da9705f6613213aa2e09"
+        },
+        {
+          "bytes": 19197,
+          "ogg": true,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/horse.ogg",
+          "sha256": "68144922eefeb659107c87ff15b4a8ff78f90b9cb66ce2a4ac13bd0fa1eb3fbf"
+        },
+        {
+          "bytes": 19432,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/duck.webp",
+          "sha256": "fa4572f2022a3aded4b627b9234fb8abf1658d125b267dc8d28cb1a8213c3b60"
+        },
+        {
+          "bytes": 20634,
+          "ogg": true,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/cow.ogg",
+          "sha256": "1b9dac02c4caba54198cb3bb112afe908c04f78a1b6906a428ed3d1501673213"
+        },
+        {
+          "bytes": 20906,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/cow.svg",
+          "sha256": "14941a9f7f8b8dd08119d3a047721a85fd65393163f10ca149b73926b1932293"
+        },
+        {
+          "bytes": 6921,
+          "ogg": true,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/dog.ogg",
+          "sha256": "9f973cbeb4ee92471d534eed0ce50ed8ec78c3fe2a37abc4c0ad388e2de5bb52"
+        },
+        {
+          "bytes": 12497,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/dog.svg",
+          "sha256": "cd21ff91cf3f367cf23cd06713f86e621bc1470b16532ad9ac1f26b5af31adfa"
+        },
+        {
+          "bytes": 31468,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/duck.svg",
+          "sha256": "14c492bd19aac567525b009bdcda70f08d246d0fdc088e5ef9012a0e731930f3"
+        },
+        {
+          "bytes": 29677,
+          "ogg": true,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/duck.ogg",
+          "sha256": "8a7c3aa02de595f13abc0aecf28bae7e69c6755ed28600b983cfcaaac8432f21"
+        },
+        {
+          "bytes": 15072,
+          "ogg": true,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/sheep.ogg",
+          "sha256": "89246f9f02a72734705705d0cee65812704a245d57adeea292afdfe413d72764"
+        },
+        {
+          "bytes": 17873,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/sheep.svg",
+          "sha256": "9090198b2736ad160ae2cd63c30e0daeafd5ae7b3c43f26ede7508cf358b7998"
+        },
+        {
+          "bytes": 87302,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/sheep.webp",
+          "sha256": "3bac61d5dabb709cdea2511f63bab6bfcde9736536a39f1f7510f5258a75b088"
+        },
+        {
+          "bytes": 19458,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/owl.webp",
+          "sha256": "e8b7d705a955799f02eb3e8ded6487991d2c5c8274fee828ac75c0b917b3e237"
+        },
+        {
+          "bytes": 119810,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/pig.webp",
+          "sha256": "4f3d27d1fd3d0b3c0482d72a7b62101c133329f95427dcb3fb1319e69d53b7c8"
+        },
+        {
+          "bytes": 487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/CMakeLists.txt",
+          "sha256": "750357263874b4f22e42d1823e7c11d138ad564511c6d4f5c85ea57498f3131d"
+        },
+        {
+          "bytes": 3398,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/AnimalLevels.qml",
+          "sha256": "0405c8c1404663dfe40b593fee684f78a85ea1ea97bd07c74e519ec531c953d3"
+        }
+      ],
+      "export_exit": 0
+    },
+    "supplement-green": {
+      "phase": "supplement",
+      "expected_exit": 0,
+      "rcc": "34677146bbbbf414e7f3e14db4a4b2bcd69aec7c7e197bc376b41e9718c411e1",
+      "qm": "b3e8758ab4ef2a2e52ed5b17e94906451d8532561f71867c54444f0e9766a9c2",
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/supplement-green",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/build/functional-exploration/sources/supplement",
+      "resources": [
+        {
+          "bytes": 1551,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/ActivityInfo.qml",
+          "sha256": "00e71064be38fbd696034d69171219d0da3b8831a2501ed8397bf612cb834bb3"
+        },
+        {
+          "bytes": 33946,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/explore_farm_animals.svg",
+          "sha256": "fc1355dfb8f4092f38a8efbc06d2db79a4cbdfe7b48e5baa8083caf0eb68aed5"
+        },
+        {
+          "bytes": 21177,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/ExploreLevels.qml",
+          "sha256": "945762cfaf6488a885086fedc23e034467f092e539d75e1d675336e046d37326"
+        },
+        {
+          "bytes": 4321,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/explore-level.js",
+          "sha256": "b380250ed908773c1e102db6e111692c94c5012ece7ec5b428d6cf8f8c27b7aa"
+        },
+        {
+          "bytes": 479,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/ExploreFarmAnimals.qml",
+          "sha256": "b08ea6ce1b763e318408f84463622e675c7f9df1fbd2dbccc8c3aae67966dc7e"
+        },
+        {
+          "bytes": 8428,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/AnimalDescriptionLevels.qml",
+          "sha256": "bf3b92e7918136b23a13acf392942a69fd583f8db2aaf79777a518b21c33f561"
+        },
+        {
+          "bytes": 7439,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/board/board1.qml",
+          "sha256": "2e43442fc1c6610eb3f8c1d68601f1f520b5d7a60974de0812777c0ff0e72041"
+        },
+        {
+          "bytes": 30059,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/chicken.svg",
+          "sha256": "956ffea44471c1dc8e230f5981f105f8f3018c8536195bfb10b44ab152d3ea1b"
+        },
+        {
+          "bytes": 97874,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/dog.webp",
+          "sha256": "5e9d9544495740101e4cfff817d986b683731112b2cf17fde2e4c2a26c3c5314"
+        },
+        {
+          "bytes": 110654,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/cow.webp",
+          "sha256": "db359136be5ef7c435a2521e7f782a7f13ab48634f8a955864b1557ca21926db"
+        },
+        {
+          "bytes": 12903,
+          "ogg": true,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/owl.ogg",
+          "sha256": "0a63003102224989e84b8c7a3719fb21ede8cc81bb6ac7264e35f30e02cb3db8"
+        },
+        {
+          "bytes": 13029,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/owl.svg",
+          "sha256": "4a718d364a7672efac0b32d36cb9e68412345ee989eb1cfc5d7131e777bb7215"
+        },
+        {
+          "bytes": 30999,
+          "ogg": true,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/pig.ogg",
+          "sha256": "35098b2f7d91701bb3bcb6970f4ee8f01d0c41bb17336ab07d041b9758548260"
+        },
+        {
+          "bytes": 12632,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/pig.svg",
+          "sha256": "06b7d5108f4a6758eea8917708189ec0f6458e1a4cb32390646fefa8ede60d0a"
+        },
+        {
+          "bytes": 30586,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/farm-animals.svg",
+          "sha256": "20f52c532cdcdde81a05a7abb01cc80e45d59519b66784454db8804dbbcaef91"
+        },
+        {
+          "bytes": 23150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/cat.webp",
+          "sha256": "ab7c3e1b04e80bc567b00dba49946918b5a38be1f37618f0d2b4887ef5792770"
+        },
+        {
+          "bytes": 72568,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/chicken.webp",
+          "sha256": "30a07d3c7dfc191ff4d160826ad14babb4cfb9cb47b15ec8a098857f135bfcd4"
+        },
+        {
+          "bytes": 55806,
+          "ogg": true,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/chickens.ogg",
+          "sha256": "de08ab2ac8d78bbe982ef6b567fd8ed80b8503fea0b6808b2cd870dde5eca1be"
+        },
+        {
+          "bytes": 15966,
+          "ogg": true,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/cat.ogg",
+          "sha256": "ead15fc15913f6cdba9de15608712f993afaa484c936cdbcd6d778ef0a844a52"
+        },
+        {
+          "bytes": 11398,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/cat.svg",
+          "sha256": "580801792a0b432eb73fd9c0d83bfce67b9b9dbc2786530b27e375d519c582aa"
+        },
+        {
+          "bytes": 50304,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/horse.webp",
+          "sha256": "87879a9644b71713f52aadf22562f30cc3e6e25a36e07d602a90e0cf6ec888aa"
+        },
+        {
+          "bytes": 13593,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/horse.svg",
+          "sha256": "eb6d2578a1a1b552b702b21036b6230a7bada45b73d3da9705f6613213aa2e09"
+        },
+        {
+          "bytes": 19197,
+          "ogg": true,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/horse.ogg",
+          "sha256": "68144922eefeb659107c87ff15b4a8ff78f90b9cb66ce2a4ac13bd0fa1eb3fbf"
+        },
+        {
+          "bytes": 19432,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/duck.webp",
+          "sha256": "fa4572f2022a3aded4b627b9234fb8abf1658d125b267dc8d28cb1a8213c3b60"
+        },
+        {
+          "bytes": 20634,
+          "ogg": true,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/cow.ogg",
+          "sha256": "1b9dac02c4caba54198cb3bb112afe908c04f78a1b6906a428ed3d1501673213"
+        },
+        {
+          "bytes": 20906,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/cow.svg",
+          "sha256": "14941a9f7f8b8dd08119d3a047721a85fd65393163f10ca149b73926b1932293"
+        },
+        {
+          "bytes": 6921,
+          "ogg": true,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/dog.ogg",
+          "sha256": "9f973cbeb4ee92471d534eed0ce50ed8ec78c3fe2a37abc4c0ad388e2de5bb52"
+        },
+        {
+          "bytes": 12497,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/dog.svg",
+          "sha256": "cd21ff91cf3f367cf23cd06713f86e621bc1470b16532ad9ac1f26b5af31adfa"
+        },
+        {
+          "bytes": 31468,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/duck.svg",
+          "sha256": "14c492bd19aac567525b009bdcda70f08d246d0fdc088e5ef9012a0e731930f3"
+        },
+        {
+          "bytes": 29677,
+          "ogg": true,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/duck.ogg",
+          "sha256": "8a7c3aa02de595f13abc0aecf28bae7e69c6755ed28600b983cfcaaac8432f21"
+        },
+        {
+          "bytes": 15072,
+          "ogg": true,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/sheep.ogg",
+          "sha256": "89246f9f02a72734705705d0cee65812704a245d57adeea292afdfe413d72764"
+        },
+        {
+          "bytes": 17873,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/sheep.svg",
+          "sha256": "9090198b2736ad160ae2cd63c30e0daeafd5ae7b3c43f26ede7508cf358b7998"
+        },
+        {
+          "bytes": 87302,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/sheep.webp",
+          "sha256": "3bac61d5dabb709cdea2511f63bab6bfcde9736536a39f1f7510f5258a75b088"
+        },
+        {
+          "bytes": 19458,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/owl.webp",
+          "sha256": "e8b7d705a955799f02eb3e8ded6487991d2c5c8274fee828ac75c0b917b3e237"
+        },
+        {
+          "bytes": 119810,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/resource/animals/pig.webp",
+          "sha256": "4f3d27d1fd3d0b3c0482d72a7b62101c133329f95427dcb3fb1319e69d53b7c8"
+        },
+        {
+          "bytes": 487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/CMakeLists.txt",
+          "sha256": "750357263874b4f22e42d1823e7c11d138ad564511c6d4f5c85ea57498f3131d"
+        },
+        {
+          "bytes": 3398,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/explore_farm_animals/AnimalLevels.qml",
+          "sha256": "0405c8c1404663dfe40b593fee684f78a85ea1ea97bd07c74e519ec531c953d3"
+        }
+      ],
+      "export_exit": 0
+    }
+  },
+  "principal_index_sha256": "b0e234b0267060428c1b1bbc62b3cac0045456e0b7f95fc5ceff7c9c96a0d720"
+}

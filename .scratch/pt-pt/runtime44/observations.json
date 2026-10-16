@@ -1,0 +1,79 @@
+{
+  "source_commit": "a8b47e642652ba75b4616ca9f6f663dcb3c8bc39",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "files": {
+    "approved-pairs-main-build.log": {
+      "bytes": 1380,
+      "sha256": "833a9c1991c078a32c55d8c79c4673a71fc8c27182234f655eb2677e404f7e86"
+    },
+    "approved-pairs-main-verification.json": {
+      "bytes": 520,
+      "sha256": "c251247496c96014ab69ed0bd4ff833280832ad61f7ebeb45e02b09a64f62a7f"
+    },
+    "approved-pairs-main-voices.json": {
+      "bytes": 1990,
+      "sha256": "8a2b477a0322932c000c5f0b89a64b4ecea7982050a1bf06f2396f810a0b0120"
+    },
+    "startup/lang.log": {
+      "bytes": 7501,
+      "sha256": "b014460c97c15290c6563bf204064499626b39347ca527646c78583c180d1941"
+    },
+    "startup/mosaic.log": {
+      "bytes": 6869,
+      "sha256": "1fc048f3a85cd03672e71606f512b7da0dde447b77e222f735104157a8bea14a"
+    },
+    "startup/polygons.log": {
+      "bytes": 6694,
+      "sha256": "66478ae0148cdbe13f88c6d0c12f4a43c1fba1334bd82052cd7cb7c29c8e6f1f"
+    },
+    "startup/polygons2.log": {
+      "bytes": 6581,
+      "sha256": "e3dfc136aaae5d003b94da0d1945c9d2e33df421a3b6ca51dbe3eb66c84496d2"
+    },
+    "startup/redraw.log": {
+      "bytes": 6980,
+      "sha256": "30db0898b1f96444d94881da712f5c9f3fe96afa9694ad56b5eeadbee3d66f9d"
+    },
+    "startup/redraw_symmetrical.log": {
+      "bytes": 7049,
+      "sha256": "7c91adaad8f836e33bab8079e9f7ba13038748488754041d844f7268e3618100"
+    },
+    "startup/results.json": {
+      "bytes": 2123,
+      "sha256": "3168c438445659bb4b2f1ad3c6a2a784270d9e57de66353c8a61d5f3b3bf3852"
+    },
+    "startup/run.json": {
+      "bytes": 527,
+      "sha256": "19ae223c4af18acd50a5ae066676f9746841dd0712504e0c1f629f7e1f5db08d"
+    },
+    "startup/simplepaint.log": {
+      "bytes": 6788,
+      "sha256": "31ec2068657fbf5c3093c88788a802a496affa2c808043ce19370aa8371470d2"
+    }
+  },
+  "observations": [
+    {
+      "operation": "main resource and QM build",
+      "session_id": 13874,
+      "output_chunk": "b9ffaf",
+      "exit_code": 0
+    },
+    {
+      "operation": "voice completion",
+      "output_chunk": "14cbcf",
+      "exit_code": 0
+    },
+    {
+      "operation": "physical verification",
+      "exit_code": 0,
+      "result": "approved-pairs-main-verification.json"
+    },
+    {
+      "operation": "bounded offline startup",
+      "session_id": 5186,
+      "output_chunk": "2c7b53",
+      "exit_code": 1
+    }
+  ],
+  "provenance": "Root supplied observed tool completions. These declarations are not platform signatures. Raw outputs remain unchanged."
+}

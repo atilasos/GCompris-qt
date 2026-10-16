@@ -1,0 +1,105 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/build/association-snapshot/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/.scratch/pt-pt/functional-association/final/.native-qml-2133db1b9c894f219791eb1e5ba3c9aa/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/.scratch/pt-pt/functional-association/final/.native-qml-2133db1b9c894f219791eb1e5ba3c9aa/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/.scratch/pt-pt/functional-association/final/.native-qml-2133db1b9c894f219791eb1e5ba3c9aa/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/.scratch/pt-pt/functional-association/final/.native-qml-2133db1b9c894f219791eb1e5ba3c9aa/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/.scratch/pt-pt/functional-association/final/.native-qml-2133db1b9c894f219791eb1e5ba3c9aa/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/.scratch/pt-pt/functional-association/final/.native-qml-2133db1b9c894f219791eb1e5ba3c9aa/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/.scratch/pt-pt/functional-association/final/.native-qml-2133db1b9c894f219791eb1e5ba3c9aa/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/.scratch/pt-pt/functional-association/final/.native-qml-2133db1b9c894f219791eb1e5ba3c9aa/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/.scratch/pt-pt/functional-association/final/.native-qml-2133db1b9c894f219791eb1e5ba3c9aa/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity babymatch/Babymatch.qml at level -1
+qml: babymatch/Babymatch.qml babymatch/Babymatch.qml
+No audio device detected
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: ASSOCIATION_HEARTBEAT {"level":1,"sublevel":0,"boards":1}
+qml: ASSOCIATION_HEARTBEAT {"level":2,"sublevel":0,"boards":2}
+qml: ASSOCIATION_HEARTBEAT {"level":3,"sublevel":0,"boards":3}
+qml: ASSOCIATION_HEARTBEAT {"level":4,"sublevel":0,"boards":4}
+qml: ASSOCIATION_HEARTBEAT {"level":5,"sublevel":0,"boards":5}
+qml: ASSOCIATION_HEARTBEAT {"level":6,"sublevel":0,"boards":6}
+qml: ASSOCIATION_HEARTBEAT {"level":7,"sublevel":0,"boards":7}
+qml: NATIVE_ASSOCIATION_RESULT {"failures":0,"passes":2,"activity":"babymatch","boards":[{"level":1,"sublevel":0,"pieces":[{"piece":"images/lamp.svg","target":{"x":232,"y":562.5600000000001},"reason":"O candeeiro utiliza uma lâmpada para iluminar.","evidence":{"background":"images/light.svg"}},{"piece":"images/sailingboat.svg","target":{"x":658,"y":562.5600000000001},"reason":"Ambos são embarcações que navegam na água.","evidence":{"background":"images/fishingboat.svg"}},{"piece":"images/postpoint.svg","target":{"x":445,"y":562.5600000000001},"reason":"O postal pode ser enviado através da caixa do correio.","evidence":{"background":"images/postcard.svg"}}],"observed":{"circles":[{"x":232,"y":562.5600000000001,"color":"#e77936"},{"x":445,"y":562.5600000000001,"color":"#e77936"},{"x":658,"y":562.5600000000001,"color":"#e77936"}],"backgrounds":[{"image":"images/light.svg","x":232,"y":281.28000000000003,"width":177.5,"height":175.8},{"image":"images/postcard.svg","x":445,"y":281.28000000000003,"width":177.5,"height":175.8},{"image":"images/fishingboat.svg","x":658,"y":281.28000000000003,"width":177.5,"height":175.8}],"labels":[],"frame":{"x":445,"y":351.6,"width":710,"height":703.2,"image":""}},"wrongPlacements":[{"piece":"images/lamp.svg","target":{"x":658,"y":562.5600000000001}},{"piece":"images/sailingboat.svg","target":{"x":232,"y":562.5600000000001}}],"errors":[{"x":657.75,"y":562.3100000000001,"width":19.5,"height":19.5},{"x":231.75,"y":562.3100000000001,"width":19.5,"height":19.5}],"instruction":"Arrasta e larga os itens para os corresponder.","beforeScore":0},{"level":2,"sublevel":0,"pieces":[{"piece":"images/eggpot.svg","target":{"x":445,"y":492.24},"reason":"O oveiro suporta o ovo servido à mesa.","evidence":{"background":"images/egg.svg"}},{"piece":"images/glass.svg","target":{"x":232,"y":492.24},"reason":"Pode deitar-se uma bebida da garrafa para o copo.","evidence":{"background":"images/bottle.svg"}},{"piece":"images/flowerpot.svg","target":{"x":658,"y":492.24},"reason":"O vaso pode conter a flor.","evidence":{"background":"images/flower.svg"}}],"observed":{"circles":[{"x":232,"y":492.24,"color":"#e77936"},{"x":445,"y":492.24,"color":"#e77936"},{"x":658,"y":492.24,"color":"#e77936"}],"backgrounds":[{"image":"images/bottle.svg","x":232,"y":210.96,"width":177.5,"height":175.8},{"image":"images/egg.svg","x":445,"y":210.96,"width":177.5,"height":175.8},{"image":"images/flower.svg","x":658,"y":210.96,"width":177.5,"height":175.8}],"labels":[],"frame":{"x":445,"y":351.6,"width":710,"height":703.2,"image":""}},"wrongPlacements":[{"piece":"images/eggpot.svg","target":{"x":232,"y":492.24}},{"piece":"images/glass.svg","target":{"x":445,"y":492.24}}],"errors":[{"x":231.75,"y":491.99,"width":19.5,"height":19.5},{"x":444.75,"y":491.99,"width":19.5,"height":19.5}],"instruction":"","beforeScore":0},{"level":3,"sublevel":0,"pieces":[{"piece":"images/sailingboat.svg","target":{"x":658,"y":492.24},"reason":"O farol orienta as embarcações.","evidence":{"background":"images/lighthouse.svg"}},{"piece":"images/star.svg","target":{"x":232,"y":492.24},"reason":"O foguete viaja no espaço, onde vemos estrelas.","evidence":{"background":"images/fusee.svg"}},{"piece":"images/house.svg","target":{"x":445,"y":492.24},"reason":"O sofá é mobiliário de uma casa.","evidence":{"background":"images/sofa.svg"}}],"observed":{"circles":[{"x":232,"y":492.24,"color":"#e77936"},{"x":445,"y":492.24,"color":"#e77936"},{"x":658,"y":492.24,"color":"#e77936"}],"backgrounds":[{"image":"images/fusee.svg","x":232,"y":210.96,"width":177.5,"height":175.8},{"image":"images/sofa.svg","x":445,"y":210.96,"width":177.5,"height":175.8},{"image":"images/lighthouse.svg","x":658,"y":210.96,"width":177.5,"height":175.8}],"labels":[],"frame":{"x":445,"y":351.6,"width":710,"height":703.2,"image":""}},"wrongPlacements":[{"piece":"images/sailingboat.svg","target":{"x":232,"y":492.24}},{"piece":"images/star.svg","target":{"x":658,"y":492.24}}],"errors":[{"x":231.75,"y":491.99,"width":19.5,"height":19.5},{"x":657.75,"y":491.99,"width":19.5,"height":19.5}],"instruction":"","beforeScore":0},{"level":4,"sublevel":0,"pieces":[{"piece":"images/car.svg","target":{"x":445,"y":492.24},"reason":"Ambos são meios de transporte terrestres com rodas.","evidence":{"background":"images/bicycle.svg"}},{"piece":"images/rape.svg","target":{"x":658,"y":492.24},"reason":"O ralador pode ralar a cenoura.","evidence":{"background":"images/carrot.svg"}},{"piece":"images/tree.svg","target":{"x":232,"y":492.24},"reason":"A maçã cresce numa árvore.","evidence":{"background":"images/apple.svg"}}],"observed":{"circles":[{"x":232,"y":492.24,"color":"#e77936"},{"x":445,"y":492.24,"color":"#e77936"},{"x":658,"y":492.24,"color":"#e77936"}],"backgrounds":[{"image":"images/apple.svg","x":232,"y":210.96,"width":177.5,"height":175.8},{"image":"images/bicycle.svg","x":445,"y":210.96,"width":177.5,"height":175.8},{"image":"images/carrot.svg","x":658,"y":210.96,"width":177.5,"height":175.8}],"labels":[],"frame":{"x":445,"y":351.6,"width":710,"height":703.2,"image":""}},"wrongPlacements":[{"piece":"images/car.svg","target":{"x":658,"y":492.24}},{"piece":"images/rape.svg","target":{"x":445,"y":492.24}}],"errors":[{"x":657.75,"y":491.99,"width":19.5,"height":19.5},{"x":444.75,"y":491.99,"width":19.5,"height":19.5}],"instruction":"","beforeScore":0},{"level":5,"sublevel":0,"pieces":[{"piece":"images/postcard.svg","target":{"x":232,"y":492.24},"reason":"O lápis pode escrever uma mensagem no postal.","evidence":{"background":"images/pencil.svg"}},{"piece":"images/minivan.svg","target":{"x":658,"y":492.24},"reason":"Ambos transportam carga por estrada.","evidence":{"background":"images/truck.svg"}},{"piece":"images/tuxplane.svg","target":{"x":445,"y":492.24},"reason":"Ambos são aeronaves.","evidence":{"background":"images/tuxhelico.svg"}}],"observed":{"circles":[{"x":232,"y":492.24,"color":"#e77936"},{"x":445,"y":492.24,"color":"#e77936"},{"x":658,"y":492.24,"color":"#e77936"}],"backgrounds":[{"image":"images/pencil.svg","x":232,"y":210.96,"width":177.5,"height":175.8},{"image":"images/tuxhelico.svg","x":445,"y":210.96,"width":177.5,"height":175.8},{"image":"images/truck.svg","x":658,"y":210.96,"width":177.5,"height":175.8}],"labels":[],"frame":{"x":445,"y":351.6,"width":710,"height":703.2,"image":""}},"wrongPlacements":[{"piece":"images/postcard.svg","target":{"x":658,"y":492.24}},{"piece":"images/minivan.svg","target":{"x":232,"y":492.24}}],"errors":[{"x":657.75,"y":491.99,"width":19.5,"height":19.5},{"x":231.75,"y":491.99,"width":19.5,"height":19.5}],"instruction":"","beforeScore":0},{"level":6,"sublevel":0,"pieces":[{"piece":"images/football.svg","target":{"x":658,"y":492.24},"reason":"Bola e raquete são objetos de desporto, sem afirmar que esta bola é de ténis.","evidence":{"background":"images/raquette.svg"}},{"piece":"images/windflag5.svg","target":{"x":445,"y":492.24},"reason":"O vento move a bandeira e impulsiona a vela.","evidence":{"background":"images/sailingboat.svg"}},{"piece":"images/crown.svg","target":{"x":232,"y":492.24},"reason":"A coroa e o castelo associam-se à realeza.","evidence":{"background":"images/castle.svg"}}],"observed":{"circles":[{"x":232,"y":492.24,"color":"#e77936"},{"x":445,"y":492.24,"color":"#e77936"},{"x":658,"y":492.24,"color":"#e77936"}],"backgrounds":[{"image":"images/castle.svg","x":232,"y":210.96,"width":177.5,"height":175.8},{"image":"images/sailingboat.svg","x":445,"y":210.96,"width":177.5,"height":175.8},{"image":"images/raquette.svg","x":658,"y":210.96,"width":177.5,"height":175.8}],"labels":[],"frame":{"x":445,"y":351.6,"width":710,"height":703.2,"image":""}},"wrongPlacements":[{"piece":"images/football.svg","target":{"x":445,"y":492.24}},{"piece":"images/windflag5.svg","target":{"x":658,"y":492.24}}],"errors":[{"x":444.75,"y":491.99,"width":19.5,"height":19.5},{"x":657.75,"y":491.99,"width":19.5,"height":19.5}],"instruction":"","beforeScore":0},{"level":7,"sublevel":0,"pieces":[{"piece":"images/lamp.svg","target":{"x":232,"y":492.24},"reason":"Ambos iluminam.","evidence":{"background":"images/sun.svg"}},{"piece":"images/bell.svg","target":{"x":445,"y":492.24},"reason":"Sino e altifalante produzem som.","evidence":{"background":"images/sound.svg"}},{"piece":"images/lifebuoy.svg","target":{"x":658,"y":492.24},"reason":"A boia salva-vidas é equipamento de segurança a bordo.","evidence":{"background":"images/sailingboat.svg"}}],"observed":{"circles":[{"x":232,"y":492.24,"color":"#e77936"},{"x":445,"y":492.24,"color":"#e77936"},{"x":658,"y":492.24,"color":"#e77936"}],"backgrounds":[{"image":"images/sun.svg","x":232,"y":210.96,"width":177.5,"height":175.8},{"image":"images/sound.svg","x":445,"y":210.96,"width":177.5,"height":175.8},{"image":"images/sailingboat.svg","x":658,"y":210.96,"width":177.5,"height":175.8}],"labels":[],"frame":{"x":445,"y":351.6,"width":710,"height":703.2,"image":""}},"wrongPlacements":[{"piece":"images/lamp.svg","target":{"x":445,"y":492.24}},{"piece":"images/bell.svg","target":{"x":232,"y":492.24}}],"errors":[{"x":444.75,"y":491.99,"width":19.5,"height":19.5},{"x":231.75,"y":491.99,"width":19.5,"height":19.5}],"instruction":"","beforeScore":0}],"wins":7,"wrong":7,"moves":35}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs

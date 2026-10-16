@@ -13,15 +13,13 @@
 .import QtQuick as Quick
 .import "qrc:/gcompris/src/core/core.js" as Core
 
-var numberOfLevel = 4
 var levelProperties = null
 var items
 
 function start(items_) {
     items = items_;
-    numberOfLevel = items.tutorialDataset.tutorialLevels.length;
-    // Make sure numberOfLevel is initialized before calling Core.getInitialLevel
-    items.currentLevel = Core.getInitialLevel(numberOfLevel)
+    // The activity publishes its tutorial count before starting.
+    items.currentLevel = Core.getInitialLevel(items.numberOfLevel)
     initLevel();
 }
 
@@ -63,12 +61,12 @@ function initLevel() {
 }
 
 function nextLevel() {
-    items.currentLevel = Core.getNextLevel(items.currentLevel, numberOfLevel);
+    items.currentLevel = Core.getNextLevel(items.currentLevel, items.numberOfLevel);
     initLevel();
 }
 
 function previousLevel() {
-    items.currentLevel = Core.getPreviousLevel(items.currentLevel, numberOfLevel);
+    items.currentLevel = Core.getPreviousLevel(items.currentLevel, items.numberOfLevel);
     initLevel();
 }
 

@@ -1,0 +1,12 @@
+{
+  "CMakeCache.txt": "3f7cba384f6275f177715a6061e20381d89d8a73176ec8511ae52de89fa45fa5",
+  "README.md": "b38dfb423188a8a4dc7e5efd992b8dad3b1c63b5b695fc2ec26d18c6732960bb",
+  "artifact-members.json": "48c54c0b3fd9b33db11e34037f5f30d3a07b6b237df3e7133a459f44e4663950",
+  "artifacts/SHA256SUMS.txt": "d6e47987f96262095b9cf6d313ec9d99df18554d8b8b5d2786e20526184808a3",
+  "artifacts/installed/activities.txt": "e522643dc0e8f4f1a37b366cd151700271e501594e8941c097ebbeb70e8bc084",
+  "artifacts/installed/startup-check.json": "68f9299828d596a6da0ca722796476ad61f976b84de276bbde6be42c0093bba6",
+  "artifacts/installer-check.json": "2a4ef44cbc2ebf06fb52046ce8dd5da368224aadcc87176b92a3cda7c2f4a966",
+  "artifacts/package-check.json": "2a4ef44cbc2ebf06fb52046ce8dd5da368224aadcc87176b92a3cda7c2f4a966",
+  "artifacts/staged/activities.txt": "e522643dc0e8f4f1a37b366cd151700271e501594e8941c097ebbeb70e8bc084",
+  "artifacts/staged/startup-check.json": "6ddfe5228c2a0b0262d47c226f3088d59eb4d7ce70a39532a1594bd94cfa9432"
+}

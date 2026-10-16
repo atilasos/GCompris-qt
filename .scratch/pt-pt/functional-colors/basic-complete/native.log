@@ -1,0 +1,177 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/build/colors-fixed/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/.scratch/pt-pt/functional-colors/.native-qml-fba5590cda544dff843b6e6ad8ba1c2f/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/.scratch/pt-pt/functional-colors/.native-qml-fba5590cda544dff843b6e6ad8ba1c2f/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/.scratch/pt-pt/functional-colors/.native-qml-fba5590cda544dff843b6e6ad8ba1c2f/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/.scratch/pt-pt/functional-colors/.native-qml-fba5590cda544dff843b6e6ad8ba1c2f/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/.scratch/pt-pt/functional-colors/.native-qml-fba5590cda544dff843b6e6ad8ba1c2f/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/.scratch/pt-pt/functional-colors/.native-qml-fba5590cda544dff843b6e6ad8ba1c2f/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/.scratch/pt-pt/functional-colors/.native-qml-fba5590cda544dff843b6e6ad8ba1c2f/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/.scratch/pt-pt/functional-colors/.native-qml-fba5590cda544dff843b6e6ad8ba1c2f/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/.scratch/pt-pt/functional-colors/.native-qml-fba5590cda544dff843b6e6ad8ba1c2f/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity colors/Colors.qml at level -1
+qml: colors/Colors.qml colors/Colors.qml
+No audio device detected
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+notifyAudioVoices:  true
+notifyAudioEffects:  true
+No audio device detected
+[vorbis @ 0x60501c546540] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x798e48001f40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x798e480023c0] Could not update timestamps for discarded samples.
+No audio device detected
+qml: COLORS_NAME Colors 1 1
+No audio device detected
+qml: COLORS_NAME Colors 1 2
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+qml: COLORS_NAME Colors 1 3
+No audio device detected
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+No audio device detected
+qml: COLORS_NAME Colors 1 4
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+No audio device detected
+qml: COLORS_NAME Colors 1 5
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+qml: COLORS_NAME Colors 1 6
+No audio device detected
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+qml: COLORS_NAME Colors 2 1
+No audio device detected
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+No audio device detected
+qml: COLORS_NAME Colors 2 2
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+qml: COLORS_NAME Colors 2 3
+No audio device detected
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+qml: COLORS_NAME Colors 2 4
+No audio device detected
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+qml: COLORS_NAME Colors 2 5
+No audio device detected
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+No audio device detected
+qml: COLORS_NAME Colors 2 6
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+No audio device detected
+qml: COLORS_NAME Colors 2 7
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+qml: COLORS_NAME Colors 2 8
+No audio device detected
+No audio device detected
+No audio device detected
+qml: COLORS_NAME Colors 3 1
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+No audio device detected
+qml: COLORS_NAME Colors 3 2
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+No audio device detected
+qml: COLORS_NAME Colors 3 3
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+No audio device detected
+qml: COLORS_NAME Colors 3 4
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+No audio device detected
+qml: COLORS_NAME Colors 3 5
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+qml: COLORS_NAME Colors 3 6
+No audio device detected
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+qml: COLORS_NAME Colors 3 7
+No audio device detected
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x798e480b3200] Could not update timestamps for discarded samples.
+qml: COLORS_NAME Colors 3 8
+qml: NATIVE_COLORS_RESULT {"failures":0,"passes":2,"wins":3,"observations":[{"level":1,"question":1,"text":"Descobrir o pato branco","source":"qrc:/gcompris/src/activities/colors/resource/white_duck.svg","route":"click"},{"level":1,"question":2,"text":"Descobrir o pato azul","source":"qrc:/gcompris/src/activities/colors/resource/blue_duck.svg","route":"keyboard"},{"level":1,"question":3,"text":"Descobrir o pato vermelho","source":"qrc:/gcompris/src/activities/colors/resource/red_duck.svg","route":"click"},{"level":1,"question":4,"text":"Descobrir o pato amarelo","source":"qrc:/gcompris/src/activities/colors/resource/yellow_duck.svg","route":"keyboard"},{"level":1,"question":5,"text":"Descobrir o pato preto","source":"qrc:/gcompris/src/activities/colors/resource/black_duck.svg","route":"click"},{"level":1,"question":6,"text":"Descobrir o pato verde","source":"qrc:/gcompris/src/activities/colors/resource/green_duck.svg","route":"keyboard"},{"level":2,"question":1,"text":"Descobrir o pato amarelo","source":"qrc:/gcompris/src/activities/colors/resource/yellow_duck.svg","route":"click"},{"level":2,"question":2,"text":"Descobrir o pato verde","source":"qrc:/gcompris/src/activities/colors/resource/green_duck.svg","route":"keyboard"},{"level":2,"question":3,"text":"Descobrir o pato castanho","source":"qrc:/gcompris/src/activities/colors/resource/brown_duck.svg","route":"click"},{"level":2,"question":4,"text":"Descobrir o pato cinzento","source":"qrc:/gcompris/src/activities/colors/resource/grey_duck.svg","route":"keyboard"},{"level":2,"question":5,"text":"Descobrir o pato púrpura","source":"qrc:/gcompris/src/activities/colors/resource/purple_duck.svg","route":"click"},{"level":2,"question":6,"text":"Descobrir o pato branco","source":"qrc:/gcompris/src/activities/colors/resource/white_duck.svg","route":"keyboard"},{"level":2,"question":7,"text":"Descobrir o pato preto","source":"qrc:/gcompris/src/activities/colors/resource/black_duck.svg","route":"click"},{"level":2,"question":8,"text":"Descobrir o pato laranja","source":"qrc:/gcompris/src/activities/colors/resource/orange_duck.svg","route":"keyboard"},{"level":3,"question":1,"text":"Descobrir o pato azul","source":"qrc:/gcompris/src/activities/colors/resource/blue_duck.svg","route":"click"},{"level":3,"question":2,"text":"Descobrir o pato castanho","source":"qrc:/gcompris/src/activities/colors/resource/brown_duck.svg","route":"keyboard"},{"level":3,"question":3,"text":"Descobrir o pato verde","source":"qrc:/gcompris/src/activities/colors/resource/green_duck.svg","route":"click"},{"level":3,"question":4,"text":"Descobrir o pato cinzento","source":"qrc:/gcompris/src/activities/colors/resource/grey_duck.svg","route":"keyboard"},{"level":3,"question":5,"text":"Descobrir o pato amarelo","source":"qrc:/gcompris/src/activities/colors/resource/yellow_duck.svg","route":"click"},{"level":3,"question":6,"text":"Descobrir o pato púrpura","source":"qrc:/gcompris/src/activities/colors/resource/purple_duck.svg","route":"keyboard"},{"level":3,"question":7,"text":"Descobrir o pato laranja","source":"qrc:/gcompris/src/activities/colors/resource/orange_duck.svg","route":"click"},{"level":3,"question":8,"text":"Descobrir o pato rosa","source":"qrc:/gcompris/src/activities/colors/resource/pink_duck.svg","route":"keyboard"}],"requested":[{"serial":1,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/purple.ogg"},{"serial":2,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/white.ogg"},{"serial":3,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/white.ogg"},{"serial":4,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/blue.ogg"},{"serial":5,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/red.ogg"},{"serial":6,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/yellow.ogg"},{"serial":7,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/black.ogg"},{"serial":8,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/green.ogg"},{"serial":9,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg"},{"serial":10,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/yellow.ogg"},{"serial":11,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/yellow.ogg"},{"serial":12,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/green.ogg"},{"serial":13,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/brown.ogg"},{"serial":14,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/grey.ogg"},{"serial":15,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/purple.ogg"},{"serial":16,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/white.ogg"},{"serial":17,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/black.ogg"},{"serial":18,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/orange.ogg"},{"serial":19,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"},{"serial":20,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/blue.ogg"},{"serial":21,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/blue.ogg"},{"serial":22,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/brown.ogg"},{"serial":23,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/green.ogg"},{"serial":24,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/grey.ogg"},{"serial":25,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/yellow.ogg"},{"serial":26,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/purple.ogg"},{"serial":27,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/orange.ogg"},{"serial":28,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/pink.ogg"},{"serial":29,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/great.ogg"}],"playing":[{"serial":1,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/purple.ogg"},{"serial":2,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/white.ogg"},{"serial":3,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/white.ogg"},{"serial":4,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/blue.ogg"},{"serial":5,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/red.ogg"},{"serial":6,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/yellow.ogg"},{"serial":7,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/black.ogg"},{"serial":8,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/green.ogg"},{"serial":9,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg"},{"serial":10,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/yellow.ogg"},{"serial":11,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/yellow.ogg"},{"serial":12,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/green.ogg"},{"serial":13,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/brown.ogg"},{"serial":14,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/grey.ogg"},{"serial":15,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/purple.ogg"},{"serial":16,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/white.ogg"},{"serial":17,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/black.ogg"},{"serial":18,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/orange.ogg"},{"serial":19,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"},{"serial":20,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/blue.ogg"},{"serial":21,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/blue.ogg"},{"serial":22,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/brown.ogg"},{"serial":23,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/green.ogg"},{"serial":24,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/grey.ogg"},{"serial":25,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/yellow.ogg"},{"serial":26,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/purple.ogg"},{"serial":27,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/orange.ogg"},{"serial":28,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/pink.ogg"},{"serial":29,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/great.ogg"}],"progressed":[{"serial":1,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/purple.ogg","position":39,"duration":708,"playbackState":1},{"serial":2,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/white.ogg","position":37,"duration":673,"playbackState":1},{"serial":3,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/white.ogg","position":46,"duration":673,"playbackState":1},{"serial":4,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/blue.ogg","position":36,"duration":638,"playbackState":1},{"serial":5,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/red.ogg","position":39,"duration":812,"playbackState":1},{"serial":6,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/yellow.ogg","position":36,"duration":766,"playbackState":1},{"serial":7,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/black.ogg","position":36,"duration":661,"playbackState":1},{"serial":8,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/green.ogg","position":36,"duration":743,"playbackState":1},{"serial":9,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg","position":36,"duration":905,"playbackState":1},{"serial":10,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/yellow.ogg","position":36,"duration":766,"playbackState":1},{"serial":11,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/yellow.ogg","position":36,"duration":766,"playbackState":1},{"serial":12,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/green.ogg","position":36,"duration":743,"playbackState":1},{"serial":13,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/brown.ogg","position":36,"duration":801,"playbackState":1},{"serial":14,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/grey.ogg","position":39,"duration":940,"playbackState":1},{"serial":15,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/purple.ogg","position":39,"duration":708,"playbackState":1},{"serial":16,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/white.ogg","position":46,"duration":673,"playbackState":1},{"serial":17,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/black.ogg","position":36,"duration":661,"playbackState":1},{"serial":18,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/orange.ogg","position":44,"duration":870,"playbackState":1},{"serial":19,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg","position":44,"duration":928,"playbackState":1},{"serial":20,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/blue.ogg","position":36,"duration":638,"playbackState":1},{"serial":21,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/blue.ogg","position":36,"duration":638,"playbackState":1},{"serial":22,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/brown.ogg","position":36,"duration":801,"playbackState":1},{"serial":23,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/green.ogg","position":36,"duration":743,"playbackState":1},{"serial":24,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/grey.ogg","position":39,"duration":940,"playbackState":1},{"serial":25,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/yellow.ogg","position":36,"duration":766,"playbackState":1},{"serial":26,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/purple.ogg","position":39,"duration":708,"playbackState":1},{"serial":27,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/orange.ogg","position":44,"duration":870,"playbackState":1},{"serial":28,"route":"qrc:/gcompris/data/voices-ogg/pt/colors/pink.ogg","position":50,"duration":870,"playbackState":1},{"serial":29,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/great.ogg","position":27,"duration":754,"playbackState":1}],"audioErrors":[],"copiedRoutes":{"qrc:/gcompris/data/voices-ogg/pt/colors/purple.ogg":"purple.ogg","qrc:/gcompris/data/voices-ogg/pt/colors/white.ogg":"white.ogg","qrc:/gcompris/data/voices-ogg/pt/colors/blue.ogg":"blue.ogg","qrc:/gcompris/data/voices-ogg/pt/colors/red.ogg":"red.ogg","qrc:/gcompris/data/voices-ogg/pt/colors/yellow.ogg":"yellow.ogg","qrc:/gcompris/data/voices-ogg/pt/colors/black.ogg":"black.ogg","qrc:/gcompris/data/voices-ogg/pt/colors/green.ogg":"green.ogg","qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg":"congratulation.ogg","qrc:/gcompris/data/voices-ogg/pt/colors/brown.ogg":"brown.ogg","qrc:/gcompris/data/voices-ogg/pt/colors/grey.ogg":"grey.ogg","qrc:/gcompris/data/voices-ogg/pt/colors/orange.ogg":"orange.ogg","qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg":"waytogo.ogg","qrc:/gcompris/data/voices-ogg/pt/colors/pink.ogg":"pink.ogg","qrc:/gcompris/data/voices-ogg/pt/misc/great.ogg":"great.ogg"}}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs

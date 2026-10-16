@@ -1,0 +1,98 @@
+[
+  {
+    "campaign": "learn_decimals-landscape-physical",
+    "completed": 15,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "campaign": "learn_decimals-landscape-virtual",
+    "completed": 15,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "campaign": "learn_decimals-portrait-physical",
+    "completed": 15,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "campaign": "learn_decimals-portrait-virtual",
+    "completed": 15,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "campaign": "learn_decimals_additions-landscape-physical",
+    "completed": 12,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "campaign": "learn_decimals_additions-landscape-virtual",
+    "completed": 12,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "campaign": "learn_decimals_additions-portrait-physical",
+    "completed": 12,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "campaign": "learn_decimals_additions-portrait-virtual",
+    "completed": 12,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "campaign": "learn_decimals_subtractions-landscape-physical",
+    "completed": 12,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "campaign": "learn_decimals_subtractions-landscape-virtual",
+    "completed": 12,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "campaign": "learn_decimals_subtractions-portrait-physical",
+    "completed": 12,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "campaign": "learn_decimals_subtractions-portrait-virtual",
+    "completed": 12,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "campaign": "learn_quantities-landscape-physical",
+    "completed": 40,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "campaign": "learn_quantities-landscape-virtual",
+    "completed": 40,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "campaign": "learn_quantities-portrait-physical",
+    "completed": 40,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "campaign": "learn_quantities-portrait-virtual",
+    "completed": 40,
+    "failures": [],
+    "passed": true
+  }
+]

@@ -1,0 +1,21 @@
+test_failed_external_exit_cannot_be_hidden_by_green_native_json (test_audit.HistoricalGraduations.test_failed_external_exit_cannot_be_hidden_by_green_native_json) ... ok
+test_independent_copy_is_complete (test_audit.HistoricalGraduations.test_independent_copy_is_complete) ... ok
+test_resealed_case_and_answer_corruption_is_rejected (test_audit.HistoricalGraduations.test_resealed_case_and_answer_corruption_is_rejected) ... ok
+test_resealed_qrc_resource_bytes_and_source_map_are_rejected (test_audit.HistoricalGraduations.test_resealed_qrc_resource_bytes_and_source_map_are_rejected) ... ok
+test_resealed_receipt_catalogue_and_manifest_are_not_new_truth (test_audit.HistoricalGraduations.test_resealed_receipt_catalogue_and_manifest_are_not_new_truth) ... ok
+test_existing_case_and_receipt_bytes_are_preserved (test_cli.RunnerBoundaries.test_existing_case_and_receipt_bytes_are_preserved) ... ok
+test_invalid_nonempty_selections_are_rejected_before_source_preparation (test_cli.RunnerBoundaries.test_invalid_nonempty_selections_are_rejected_before_source_preparation) ... ok
+test_decimal_comma_uses_exact_rational_steps (test_oracle.VisibleGraduations.test_decimal_comma_uses_exact_rational_steps) ... ok
+test_extremes_and_signed_values (test_oracle.VisibleGraduations.test_extremes_and_signed_values) ... ok
+test_nonexistent_or_out_of_bounds_tick_is_rejected (test_oracle.VisibleGraduations.test_nonexistent_or_out_of_bounds_tick_is_rejected) ... ok
+test_offset_and_grouped_million_bounds (test_oracle.VisibleGraduations.test_offset_and_grouped_million_bounds) ... ok
+test_campaign_workers_receive_complete_source_and_pinned_revision (test_phase.FrozenSourceTests.test_campaign_workers_receive_complete_source_and_pinned_revision) ... ok
+test_concurrent_freeze_never_reads_an_unfinished_write (test_phase.FrozenSourceTests.test_concurrent_freeze_never_reads_an_unfinished_write) ... ok
+test_corrupt_published_source_is_rejected_without_resealing (test_phase.FrozenSourceTests.test_corrupt_published_source_is_rejected_without_resealing) ... ok
+test_interrupted_preparation_is_not_published_and_can_retry (test_phase.FrozenSourceTests.test_interrupted_preparation_is_not_published_and_can_retry) ... ok
+test_copied_proof_passes_without_historical_worktree (test_portable.PortableGitProof.test_copied_proof_passes_without_historical_worktree) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.580s
+
+OK

@@ -1,0 +1,46 @@
+[
+  {
+    "activity": "multiple_choice_questions",
+    "locale": "pt_PT",
+    "seconds": 4.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/after-offline-final/multiple_choice_questions.log"
+  },
+  {
+    "activity": "ordering_chronology",
+    "locale": "pt_PT",
+    "seconds": 4.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/after-offline-final/ordering_chronology.log"
+  },
+  {
+    "activity": "keyboard_training",
+    "locale": "pt_PT",
+    "seconds": 4.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/after-offline-final/keyboard_training.log"
+  },
+  {
+    "activity": "sketch",
+    "locale": "pt_PT",
+    "seconds": 4.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime/after-offline-final/sketch.log"
+  }
+]

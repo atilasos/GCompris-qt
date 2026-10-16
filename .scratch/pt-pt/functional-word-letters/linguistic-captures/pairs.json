@@ -1,0 +1,14 @@
+[
+  {
+    "key": "fawn.ogg",
+    "translatedText": "corso",
+    "imageResource": "qrc:/gcompris/data/words-webp/fawn.webp",
+    "voiceResource": "qrc:/gcompris/data/voices-ogg/pt/words/fawn.ogg"
+  },
+  {
+    "key": "tick.ogg",
+    "translatedText": "piolho",
+    "imageResource": "qrc:/gcompris/data/words-webp/tick.webp",
+    "voiceResource": "qrc:/gcompris/data/voices-ogg/pt/words/tick.ogg"
+  }
+]

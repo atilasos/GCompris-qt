@@ -184,8 +184,9 @@ var isMoving = false;
 
 function start(items_, mode_) {
     items = items_;
+    items.numberOfLevel = maxLevel;
     mode = mode_;
-    items.currentLevel = Core.getInitialLevel(maxLevel);
+    items.currentLevel = Core.getInitialLevel(items.numberOfLevel);
     items.score.currentSubLevel = 0;
     initLevel();
 }
@@ -377,14 +378,14 @@ function initLevel() {
 
 function nextLevel() {
     items.score.stopWinAnimation();
-    items.currentLevel = Core.getNextLevel(items.currentLevel, maxLevel);
+    items.currentLevel = Core.getNextLevel(items.currentLevel, items.numberOfLevel);
     items.score.currentSubLevel = 0;
     initLevel();
 }
 
 function previousLevel() {
     items.score.stopWinAnimation();
-    items.currentLevel = Core.getPreviousLevel(items.currentLevel, maxLevel);
+    items.currentLevel = Core.getPreviousLevel(items.currentLevel, items.numberOfLevel);
     items.score.currentSubLevel = 0;
     initLevel();
 }

@@ -1,0 +1,30 @@
+✖ all PT reading levels produce complete 15-word lists for present and absent targets (3.642959ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 37.879728
+
+✖ failing tests:
+
+test at tests/functional_reading/data.test.mjs:27:1
+✖ all PT reading levels produce complete 15-word lists for present and absent targets (3.642959ms)
+  AssertionError [ERR_ASSERTION]: All three levels must be exposed to the activity-sequence scheduler
+  
+  undefined !== 3
+  
+      at TestContext.<anonymous> (file:///home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-reading/tests/functional_reading/data.test.mjs:32:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.start (node:internal/test_runner/test:1191:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 3,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

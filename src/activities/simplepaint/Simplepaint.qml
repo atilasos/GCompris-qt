@@ -40,6 +40,10 @@ ActivityBase {
         property bool spaceIsPressed: false
 
         Keys.onPressed: (event) => {
+            if ([Qt.Key_Left, Qt.Key_Right, Qt.Key_Up, Qt.Key_Down, Qt.Key_Space, Qt.Key_Return,
+                 Qt.Key_Enter, Qt.Key_Tab].indexOf(event.key) === -1)
+                return;
+            event.accepted = true;
             items.keyboardControls = true;
 
             if(event.key === Qt.Key_Up) {
@@ -136,7 +140,7 @@ ActivityBase {
             moveColorSelectorAnim.running = false;
             moveColorSelectorAnim.from = colorSelector.contentY;
             if(items.current_color != (items.colors.length-1)) {
-                colorSelector.positionViewAtIndex(items.current_color >= 1 ? items.current_color-2 : items.current_color, GridView.Contain);
+                colorSelector.positionViewAtIndex(items.current_color, GridView.Contain);
             }else {
                 colorSelector.positionViewAtEnd();
             }

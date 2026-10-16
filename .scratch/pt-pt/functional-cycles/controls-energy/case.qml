@@ -1,0 +1,15 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+TestCase {
+ name:'EnergyPublicControls'
+ when:activity.visible
+ property var evidence:({})
+ function all(root){var rows=[root];if(root.children)for(var c of root.children)rows=rows.concat(all(c));return rows;}
+ function point(item){var p=item.mapToItem(activityBackground,item.width/2,item.height/2);return {x:p.x,y:p.y,width:item.width,height:item.height,opacity:item.opacity,visible:item.visible,source:item.source!==undefined?String(item.source):null};}
+ function click(item){verify(item!==undefined&&item!==null&&item.visible);var p=item.mapToItem(pageView,item.width/2,item.height/2);verify(p.x>=0&&p.y>=0&&p.x<pageView.width&&p.y<pageView.height);mouseClick(pageView,p.x,p.y,Qt.LeftButton,Qt.NoModifier,0);wait(100);}
+ function icon(suffix){var item=all(bar).find(c=>c.source!==undefined&&String(c.source).endsWith(suffix));verify(item!==undefined,suffix);click(item);wait(350);}
+ function helpPT(word){var depth=pageView.depth;icon('bar_help.svg');tryCompare(pageView,'depth',depth+1,2000);wait(300);var help=pageView.currentItem;verify(help.content.indexOf(word)>=0);evidence.help={title:String(help.title),content:String(help.content)};grabImage(pageView).save('__QA_OUTPUT__/help.png');keyClick(Qt.Key_Escape);tryCompare(pageView,'depth',depth,2000);wait(300);evidence.escape=true;}
+ function menu(){evidence.offered=all(bar).filter(c=>c.source!==undefined&&String(c.source).indexOf('bar_')>=0).map(c=>String(c.source));ActivityInfoTree.startingActivity='';keyClick(Qt.Key_W,Qt.ControlModifier);tryCompare(pageView,'depth',1,2000);verify(pageView.currentItem.isMenu);wait(500);evidence.menu=true;grabImage(pageView).save('__QA_OUTPUT__/menu.png');}
+ function cleanupTestCase(){if(qtest_results.failCount)grabImage(pageView).save('__QA_OUTPUT__/failure.png');console.log('NATIVE_RESULT',JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,evidence:evidence}));}
+
+ function test_controls(){wait(1300);compare(activity.numberOfLevel,3);keyClick(Qt.Key_Return);tryCompare(message,'visible',false,2000);helpPT('energia');icon('bar_previous.svg');compare(activity.currentLevel,2);tryVerify(()=>wind.item!==null&&solar.item!==null,3000);icon('bar_next.svg');compare(activity.currentLevel,2);icon('bar_previous.svg');compare(activity.currentLevel,1);icon('bar_previous.svg');compare(activity.currentLevel,0);evidence.navigation=true;click(stepDown);tryVerify(()=>stepDownOn.visible,1000);evidence.inputAfterHelp=true;click(sun);var vapor=all(hydro.item).find(c=>c.source!==undefined&&String(c.source).endsWith('watercycle/resource/vapor.svg'));verify(vapor!==undefined);tryVerify(()=>vapor.opacity>0.9,2500);evidence.partial={transformer:point(stepDownOn),vapor:point(vapor)};icon('bar_reload.svg');tryVerify(()=>!stepDownOn.visible&&vapor.opacity===0,3000);evidence.partialRestart=true;evidence.restarted={transformer:point(stepDownOn),vapor:point(vapor)};click(sun);tryVerify(()=>vapor.opacity>0.9,2500);evidence.menuDuringMotion=point(vapor);menu();}
+}

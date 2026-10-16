@@ -1,0 +1,3 @@
+snapshot/
+.native-qml-*/
+__pycache__/

@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "maze-1-normal",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "maze-14-normal",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "maze-25-normal",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "maze-1-fast",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "maze-14-fast",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "maze-25-fast",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "mazeinvisible-1-normal",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "mazeinvisible-14-normal",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "mazeinvisible-25-normal",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "mazeinvisible-1-fast",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "mazeinvisible-14-fast",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "mazeinvisible-25-fast",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "mazerelative-1-normal",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "mazerelative-14-normal",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "mazerelative-25-normal",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "mazerelative-1-fast",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "mazerelative-14-fast",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "mazerelative-25-fast",
+      "passed": true,
+      "exit_code": 0
+    }
+  ]
+}

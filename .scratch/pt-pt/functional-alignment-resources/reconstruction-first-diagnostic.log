@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/reconstruct_resources.py", line 58, in <module>
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output',type=Path,required=True);args=parser.parse_args();reconstruct(args.output.resolve())
+                                                                                                                                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/reconstruct_resources.py", line 43, in reconstruct
+    assert matched is not None,'Historical complete RCC SHA not recovered: '+name
+           ^^^^^^^^^^^^^^^^^^^
+AssertionError: Historical complete RCC SHA not recovered: align-ai-old-draw-diagnostic

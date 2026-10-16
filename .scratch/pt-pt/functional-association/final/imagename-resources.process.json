@@ -1,0 +1,9 @@
+{
+  "kind": "observed-supervisor-subprocess-exit",
+  "case": "imagename-resources",
+  "exit_code": 0,
+  "elapsed": 4.629118204116821,
+  "receipt_sha256": "57b369a300516c0728a4308e4251bbf067df3f0f82b0eaf96898e7550b736530",
+  "launcher_status_sha256": "88484cd1b4e169a59b02327bf28d7689cb291612fe0096c8a18916029e6ccac7",
+  "supervisor_sha256": "d3036d68f65c91905732c953d9438a642d3a1a99ccee8e05c66bf0c76cd68347"
+}

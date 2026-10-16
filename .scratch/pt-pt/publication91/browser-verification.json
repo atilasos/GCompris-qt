@@ -1,0 +1,24 @@
+{
+  "head": {
+    "bytes": "825758994",
+    "disposition": "attachment; filename=\"GCompris-PT-PT-Windows-x64.exe\"",
+    "status": 200
+  },
+  "ranges": [
+    {
+      "bytes": 1048576,
+      "end": 1048575,
+      "sha256": "4c7cd25e4d953088b6723267c228f79a187fd851003886ee0a327bfdc07fe6ed",
+      "start": 0,
+      "status": 206
+    },
+    {
+      "bytes": 1048576,
+      "end": 825758993,
+      "sha256": "2cfe44d4089adbe0607f8b8eb9c2ce93e0b7c1fe8c1cd698b483e782c2f8454e",
+      "start": 824710418,
+      "status": 206
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36"
+}

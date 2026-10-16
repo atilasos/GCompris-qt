@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-money/tests/functional_money/inventory.py", line 55, in <module>
+    print(json.dumps(inventory(), ensure_ascii=False, indent=2))
+                     ~~~~~~~~~^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-money/tests/functional_money/inventory.py", line 42, in inventory
+    assert bits & required == required, (activity, path.parent.name, len(levels)+1, ceiling)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('money_cents', '3', 20, 10000)

@@ -17,7 +17,7 @@ Item {
     readonly property int lineHeight: (height - 6 * GCStyle.halfMargins) * 0.1
     readonly property int doubleLineHeight: lineHeight * 2
     readonly property int buttonSize: Math.min(doubleLineHeight, columnWidth * 0.25)
-    override property list<color> palette: []
+    property list<color> paletteColors: []
     property list<color> defaultPalette: []
 
     property alias selectedColor: selectedColorRectangle.color
@@ -35,23 +35,23 @@ Item {
     function editColor(colorIndex, editedColor) {
         selectedColor = editedColor;
         colorButtonsGrid.itemAtIndex(colorIndex).buttonColor = selectedColor;
-        palette[colorIndex] = selectedColor;
+        paletteColors[colorIndex] = selectedColor;
         colorEdited(colorIndex, selectedColor);
     }
 
     function resetColor() {
-        palette[colorButtonsGrid.currentIndex].r = defaultPalette[colorButtonsGrid.currentIndex].r;
-        palette[colorButtonsGrid.currentIndex].g = defaultPalette[colorButtonsGrid.currentIndex].g;
-        palette[colorButtonsGrid.currentIndex].b = defaultPalette[colorButtonsGrid.currentIndex].b;
+        paletteColors[colorButtonsGrid.currentIndex].r = defaultPalette[colorButtonsGrid.currentIndex].r;
+        paletteColors[colorButtonsGrid.currentIndex].g = defaultPalette[colorButtonsGrid.currentIndex].g;
+        paletteColors[colorButtonsGrid.currentIndex].b = defaultPalette[colorButtonsGrid.currentIndex].b;
         reloadPaletteToButtons();
-        colorEdited(colorButtonsGrid.currentIndex, palette[colorButtonsGrid.currentIndex]);
+        colorEdited(colorButtonsGrid.currentIndex, paletteColors[colorButtonsGrid.currentIndex]);
     }
 
     function resetPalette() {
-        for(var i = 0; i < palette.length; i++) {
-            palette[i].r = defaultPalette[i].r;
-            palette[i].g = defaultPalette[i].g;
-            palette[i].b = defaultPalette[i].b;
+        for(var i = 0; i < paletteColors.length; i++) {
+            paletteColors[i].r = defaultPalette[i].r;
+            paletteColors[i].g = defaultPalette[i].g;
+            paletteColors[i].b = defaultPalette[i].b;
         }
         reloadPaletteToButtons();
         resetSelectedPalette();
@@ -59,8 +59,8 @@ Item {
 
     function reloadPaletteToButtons() {
         // We need to manually assign again the colors as the color assignments when editing color break the bindings
-        for(var i = 0; i < palette.length; i++) {
-            colorButtonsGrid.itemAtIndex(i).buttonColor = palette[i];
+        for(var i = 0; i < paletteColors.length; i++) {
+            colorButtonsGrid.itemAtIndex(i).buttonColor = paletteColors[i];
         }
         selectColor(colorButtonsGrid.currentItem.buttonColor);
     }
@@ -100,7 +100,7 @@ Item {
                     height: width
                     radius: GCStyle.halfMargins
                     anchors.centerIn: parent
-                    color: colorSelector.palette[index]
+                    color: colorSelector.paletteColors[index]
                     border.color: GCStyle.contentColor
                 }
                 MouseArea {
@@ -229,7 +229,7 @@ Item {
                 border.color: GCStyle.contentColor
                 border.width: GCStyle.thinBorder
                 anchors.horizontalCenter: parent.horizontalCenter
-                color: colorSelector.palette[0]
+                color: colorSelector.paletteColors[0]
             }
 
             SliderColor {

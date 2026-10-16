@@ -1,0 +1,9 @@
+s......s.Updating '/tmp/gcompris-translation-b9mj3dhr/build/translations/gcompris_qt_pt.qm'...
+Removing translations equal to source text in '/tmp/gcompris-translation-b9mj3dhr/build/translations/gcompris_qt_pt.qm'...
+    Generated 1 translation(s) (1 finished and 0 unfinished)
+.
+----------------------------------------------------------------------
+Ran 10 tests in 2.204s
+
+OK (skipped=2)
+voices-ogg/voices-pt.rcc 0454bcbce377972675dbb7fe4bbe6ccd80913ace3a223ee643fa6abd70074cd9

@@ -72,6 +72,9 @@ ActivityBase {
 
         Keys.enabled: !items.blockClicks
         Keys.onPressed: (event) => {
+            if ([Qt.Key_Left, Qt.Key_Right, Qt.Key_Space, Qt.Key_Enter, Qt.Key_Return].indexOf(event.key) === -1)
+                return;
+            event.accepted = true;
             keyNavigationVisible = true
             if(event.key === Qt.Key_Left)
                 choiceGridView.moveCurrentIndexLeft()

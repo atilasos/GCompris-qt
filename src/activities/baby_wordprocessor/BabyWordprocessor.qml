@@ -239,7 +239,8 @@ ActivityBase {
                     previousText = newText;
                 }
                 function insertText(text: string) {
-                    edit.insert(cursorPosition, text)
+                    var escaped = text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+                    edit.insert(cursorPosition, '<span style="white-space: pre-wrap;">' + escaped + '</span>')
                 }
                 function backspace() {
                     if(cursorPosition > 0) {

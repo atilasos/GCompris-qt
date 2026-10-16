@@ -1,0 +1,21 @@
+{
+  "kind": "root-recorded-tools-exec-or-write-stdin-completion",
+  "scope": "Three controls fixture failures, all native Qt0. Redraw circular cursor admitted to rectangular grid; Mosaic cursor alignment remains a fixture hypothesis until actual rounding observations",
+  "runs": {
+    "controls-redraw": {
+      "session_id": 79267,
+      "output_chunk": "945a4b",
+      "exit_code": 1
+    },
+    "controls-redraw_symmetrical": {
+      "session_id": 69890,
+      "output_chunk": "07fdb2",
+      "exit_code": 1
+    },
+    "controls-mosaic": {
+      "session_id": 23545,
+      "output_chunk": "cbba14",
+      "exit_code": 1
+    }
+  }
+}

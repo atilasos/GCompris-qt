@@ -1,0 +1,8 @@
+# Indicar os parentes
+
+18 pedidos concluídos por todos os 28 pares não ordenados derivados do grafo desenhado, com 28 Bonus bons naturais e 18 erros/reparações. Cada nível verifica desmarcar por segundo clique na mesma pessoa; controlos incluem reinício da seleção parcial por navegação, extremos 1 ↔ 18, ajuda PT/Escape, ordem inversa de seleção após ajuda e menu. Pedido Afilhado corrigido para Genro com mesmo caso vermelho/verde; Nora também é verificada nas opções do consumidor Family. Não existem datasets/configuração, Score ou Recarregar expostos.
+
+[Provas físicas, auditor e limites](../functional-family/README.md). O grafo é independente e não lê pesos/respostas/modelos. As imagens não têm legendas explícitas de sexo/género; a classificação iconográfica usada nos termos específicos é uma limitação documentada, pendente de revisão humana. Linux/Qt software, com Windows 10/11, hardware, audição, pronúncia, acessibilidade, docente, estabilidade da tarefa 83 e global pendentes. Revisões independentes sem achados; resolução limitada ao percurso Linux finito, sem aceitação global.
+
+[Standards e Spec arquivados](../review/integration86/). Os limites humanos
+e de plataforma acima continuam pendentes.

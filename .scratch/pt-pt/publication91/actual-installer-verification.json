@@ -1,0 +1,42 @@
+{
+  "run": "38894977302",
+  "source": "3c98f5c6b4543e15dda66e2b0e275f5d9e6b49df",
+  "installer_sha256": "1955a4fbde1c91721921fe0ea40843c40f86fa42b0f86ba91a8fb54f19a65543",
+  "passed": true,
+  "selected_container_files": [
+    {
+      "path": "voices-pt-2026-10-16-00-00-00.rcc",
+      "bytes": 37210875,
+      "sha256": "471e582267642fbe0019eadb887ffb9e8ff537afe2a89feb4b40cfc52a75d2dd"
+    },
+    {
+      "path": "Contents",
+      "bytes": 3484,
+      "sha256": "d0a780069923bc88aeee9ef9b900fed77f4e1a1de560d497728d697440f56bf7"
+    }
+  ],
+  "original_resources": 1578,
+  "total_resources": 1610,
+  "intact_originals": 1576,
+  "intact_additions": 32,
+  "grammar_resources": {
+    "grammar_classes": {
+      "levels": 8,
+      "matches_portuguese_source": true
+    },
+    "grammar_analysis": {
+      "levels": 7,
+      "matches_portuguese_source": true
+    }
+  },
+  "changed_originals": [
+    ":/gcompris/data/voices-ogg/pt/words/fawn.ogg",
+    ":/gcompris/data/voices-ogg/pt/words/tick.ogg"
+  ],
+  "labels": {
+    "fawn.ogg": "cervato",
+    "tick.ogg": "carraça"
+  },
+  "inventory_sha256": "1ae72a5d3dd341649fdd8e95e19d6068973ae7aa43c3f59d9107e81bd98edfcd",
+  "scope": "Actual NSIS installer extracted and Qt resource bytes read on Linux; not installer execution or human hearing"
+}

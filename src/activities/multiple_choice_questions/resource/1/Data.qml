@@ -5,9 +5,9 @@
  */
 import core 1.0
 
-// This is only a test dataset, not used in the application to show how it works.
+// Offline questions; teachers can also supply their own datasets.
 Data {
-    objective: "Find the correct answer."
+    objective: qsTr("Find the correct answers.")
     difficulty: 1
     data: [
         {
@@ -15,20 +15,20 @@ Data {
             "subLevels": [
             {
                 "shuffleAnswers": true,
-                "question": "What is the first number?",
-                "answers": ["1", "2", "cat"],
-                "correctAnswers": ["1"],
-                "correctAnswerText": "Yes, 1 is the first number",
-                "wrongAnswerText": "The first number is the one that starts",
+                "question": qsTr("Which number comes immediately after 2?"),
+                "answers": ["1", "2", "3"],
+                "correctAnswers": ["3"],
+                "correctAnswerText": qsTr("3 comes immediately after 2."),
+                "wrongAnswerText": qsTr("Count: 1, 2, 3."),
                 "mode": "oneAnswer"
             },
             {
                 "shuffleAnswers": false,
-                "question": "What is a color?",
-                "answers": ["yellow", "12", "cat"],
-                "correctAnswers": ["yellow"],
-                "correctAnswerText": "Yellow is a color.",
-                "wrongAnswerText": "There is a color, an animal and a number in the answers, select the correct one",
+                "question": qsTr("Which answer is a color?"),
+                "answers": [qsTr("yellow"), "12", qsTr("cat")],
+                "correctAnswers": [qsTr("yellow")],
+                "correctAnswerText": qsTr("Yellow is a color."),
+                "wrongAnswerText": qsTr("Choose the color, not the animal or the number."),
                 "mode": "oneAnswer"
             }
             ]
@@ -38,20 +38,20 @@ Data {
             "subLevels": [
             {
                 "shuffleAnswers": true,
-                "question": "What are the first two numbers?",
-                "answers": ["1", "2", "cat"],
+                "question": qsTr("Which numbers are smaller than 3?"),
+                "answers": ["1", "2", "3"],
                 "correctAnswers": ["1", "2"],
-                "correctAnswerText": "Yes, there are two correct answers!",
-                "wrongAnswerText": "Cat is not an answer",
+                "correctAnswerText": qsTr("1 and 2 are smaller than 3."),
+                "wrongAnswerText": qsTr("Select both 1 and 2, without selecting 3."),
                 "mode": "multipleAnswers"
             },
             {
                 "shuffleAnswers": true,
-                "question": "What are animals?",
-                "answers": ["1", "2", "cat"],
-                "correctAnswers": ["cat"],
-                "correctAnswerText": "Yes, cat is an animal!",
-                "wrongAnswerText": "Numbers are not animals",
+                "question": qsTr("Which answers are animals?"),
+                "answers": [qsTr("cat"), qsTr("dog"), "3"],
+                "correctAnswers": [qsTr("cat"), qsTr("dog")],
+                "correctAnswerText": qsTr("Cats and dogs are animals."),
+                "wrongAnswerText": qsTr("Select the cat and the dog, not the number."),
                 "mode": "multipleAnswers"
             }
             ]
@@ -61,9 +61,9 @@ Data {
             "subLevels": [
             {
                 "shuffleAnswers": false,
-                "question": "Answers always in order, select the first one",
-                "answers": ["1", "2", "cat"],
-                "correctAnswers": ["1"],
+                "question": qsTr("How many sides does a triangle have?"),
+                "answers": ["1", "2", "3"],
+                "correctAnswers": ["3"],
                 "mode": "oneAnswer"
             }
             ]

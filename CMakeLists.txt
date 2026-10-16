@@ -365,6 +365,10 @@ add_custom_target(getAssets
   DEPENDS assetsFolders predownloadAssets
   )
 
+# Complete PT-PT assets only with a host-native inspection utility.
+include(cmake/CompletePtVoices.cmake)
+gcompris_complete_pt_voices(getAssets)
+
 add_custom_command(
     OUTPUT doBundleConvertedOggs
     COMMAND 7z a converted_ogg_to_${COMPRESSED_AUDIO}-${GCOMPRIS_VERSION}.7z '-ir!src/*${COMPRESSED_AUDIO}'

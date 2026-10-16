@@ -1,0 +1,13 @@
+test_changed_receipt_fields_are_rejected_across_all_three_phases (test_audit.IdentityAudit.test_changed_receipt_fields_are_rejected_across_all_three_phases) ... ok
+test_copy_passes_without_worktree_and_corrupt_archives_are_rejected (test_audit.PortableAudit.test_copy_passes_without_worktree_and_corrupt_archives_are_rejected) ... ok
+test_existing_archive_is_preserved (test_cli.CampaignCLI.test_existing_archive_is_preserved) ... ok
+test_invalid_and_empty_selections_do_not_prepare_outputs (test_cli.CampaignCLI.test_invalid_and_empty_selections_do_not_prepare_outputs) ... ok
+test_launcher_and_native_result_must_both_succeed (test_cli.CampaignCLI.test_launcher_and_native_result_must_both_succeed) ... ok
+test_addition_with_several_carries (test_oracle.VerticalArithmetic.test_addition_with_several_carries) ... ok
+test_borrow_across_zero_columns (test_oracle.VerticalArithmetic.test_borrow_across_zero_columns) ... ok
+test_compensation_moves_debt_to_bottom_operand (test_oracle.VerticalArithmetic.test_compensation_moves_debt_to_bottom_operand) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 8.039s
+
+OK

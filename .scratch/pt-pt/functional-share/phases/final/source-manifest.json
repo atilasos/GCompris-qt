@@ -1,0 +1,33 @@
+{
+  "revision": "4382e3ecd23d99294e04fe5eeccfa374c6d2b5a7",
+  "files": {
+    "CMakeLists.txt": "a89ae19e0e4ec7af1a080b1ecf01d359c0ba60248f9ecdf6cb53a416c7c5be9a",
+    "poqm/pt/gcompris_qt.po": "36772cef94af1a7e918b9dd5674bff831ec3c2484526f0e751487b6c79e8ed4f",
+    "src/activities/share/ActivityConfig.qml": "b1538bc3e8a555a1b1d9f6b335e386ae354b6dda01e586e763d5bfad29465a90",
+    "src/activities/share/ActivityInfo.qml": "0e70f9ebd1d96fedd75fd3c4227c15f811cb12301f0613ceb9c21fe3d03e67ec",
+    "src/activities/share/BasketWidget.qml": "28cd44d105ee3ef87a16c0ccd3dc83b7078e93e01499a10f8cf761b9416e6408",
+    "src/activities/share/CMakeLists.txt": "6d5e022aa951fe92e0d774d1abe2166a8585d8e022b02c01f0fa87e70d12690c",
+    "src/activities/share/CandyWidget.qml": "12108634f4d86bbc8ee993707ea95528d243e6bc75bfd4a6d55457d65211a1a2",
+    "src/activities/share/ChildWidget.qml": "e7ca91da5fca2c76cd4265e036f69372b56748b9ae03605cbb7dd2782aaab984",
+    "src/activities/share/DropChild.qml": "de45fad042493f5d2982d5f37830959f66c439533cf8ebbdcaf86aaa277e3ac4",
+    "src/activities/share/Share.qml": "13ae897256374ddcfaa8eb418c7afaf10485faeab367dcad30bce47ab1eab9e8",
+    "src/activities/share/WidgetOption.qml": "43274e94c8edbb436f25746a0c0bedc09990744f185c5ac493a10f7853f2c608",
+    "src/activities/share/resource/1/Data.qml": "dc496e156dc69173eeeb1350e2abc43e562c00bae989060468208e84d77fb373",
+    "src/activities/share/resource/2/Data.qml": "7c8e2228264ced8ea194a74f4896edd0c3b32466f76623c1bb9ac469395fe165",
+    "src/activities/share/resource/3/Data.qml": "611bd70708c55e6b900dcd324e84392d07a17bcd0eb7abc909cc7caf98212d54",
+    "src/activities/share/resource/images/basket.svg": "5308712440a250b6f9b98a44b4dab4acd904807a2251ce5cb49c05c311b37c99",
+    "src/activities/share/resource/images/boy.svg": "0dd9722fc1e4aa6295188cbb461fde3a546295e5b3c543bcef8655f6f279ad92",
+    "src/activities/share/resource/images/candy.svg": "c6a53bc677303aac8e4a3536f32c9a769d21001f7880e1b317f04a841be8a41a",
+    "src/activities/share/resource/images/girl.svg": "59007ea8b05993d0b9afa24b591ecdc19aaf076dcf8a0f2008b686894da28ef4",
+    "src/activities/share/share.js": "6672e45f0a1e8c05ac320d5725c168337e324f228492fd7be82e3c6b09b42434",
+    "src/activities/share/share.svg": "62124c69b744e81a68488cd9cb7b712a3b2d61cb7b195516dcdf60614569c989",
+    "src/core/resource/sounds/audioclick.wav": "8849623e205f541f98953797cec2482e2c4a60915073600aa6db686ab4248b7a",
+    "src/core/resource/sounds/completetask.wav": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c",
+    "src/core/resource/sounds/crash.wav": "86f844cb3f4cd87485de76b26a868e695d278ea971f308e092305827e7943c11",
+    "src/core/resource/sounds/smudge.wav": "e2037cfb555e638fae4af7a497ec2fefb7becf8fac3dd9da4d28adcf3c4b245f",
+    "tools/native_qml_resources.py": "d5bd6f499663f417d5b68a3d5f99f21cf612386acd6c40db9a3f3110c827c0d2",
+    "tools/native_qml_supervision.py": "3e83fe73b1c025cb07f9b49c6d8ae448a91b17bf2e2427ed8141e3212cfec62f",
+    "tools/run-native-qml-case.py": "612889370d52dc3c643f894c58dd22fdd6073c245525d5e8502791527fd6ec42",
+    "tools/run-native-qml-supervised.py": "d3036d68f65c91905732c953d9438a642d3a1a99ccee8e05c66bf0c76cd68347"
+  }
+}

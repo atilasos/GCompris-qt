@@ -1,0 +1,22 @@
+{
+  "kind": "agent-recorded-tools-exec-completion",
+  "scope": "Prepared QML only; no Qt or native completion claimed",
+  "pure_planner_red": {
+    "exit_code": 1,
+    "output_chunk": "816934"
+  },
+  "pure_planner_green": {
+    "exit_code": 0,
+    "output_chunk": "77e5b0"
+  },
+  "js_parse_and_generated_equality": {
+    "exit_code": 0,
+    "output_chunk": "98f48f"
+  },
+  "public_inventory_probe": {
+    "exit_code": 0,
+    "output_chunk": "802b41",
+    "boards": 81,
+    "cells": 2486
+  }
+}

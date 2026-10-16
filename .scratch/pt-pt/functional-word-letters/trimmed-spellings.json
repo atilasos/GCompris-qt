@@ -1,0 +1,47 @@
+[
+  {
+    "key": "breast.ogg",
+    "before": "seio ",
+    "after": "seio"
+  },
+  {
+    "key": "color.ogg",
+    "before": "cores ",
+    "after": "cores"
+  },
+  {
+    "key": "dragonfly.ogg",
+    "before": "libelinha ",
+    "after": "libelinha"
+  },
+  {
+    "key": "fawn.ogg",
+    "before": "corso ",
+    "after": "corso"
+  },
+  {
+    "key": "magic.ogg",
+    "before": "ilusionista ",
+    "after": "ilusionista"
+  },
+  {
+    "key": "owl.ogg",
+    "before": " coruja",
+    "after": "coruja"
+  },
+  {
+    "key": "raft.ogg",
+    "before": "jangada ",
+    "after": "jangada"
+  },
+  {
+    "key": "robe.ogg",
+    "before": "manto ",
+    "after": "manto"
+  },
+  {
+    "key": "throw.ogg",
+    "before": " atirar",
+    "after": "atirar"
+  }
+]

@@ -1,0 +1,77 @@
+test_capture_occupied_output (test_output_boundary.OutputBoundary.test_capture_occupied_output) ... 
+  test_capture_occupied_output (test_output_boundary.OutputBoundary.test_capture_occupied_output) (occupied='dangling-output') ... FAIL
+test_runner_occupied_output (test_output_boundary.OutputBoundary.test_runner_occupied_output) ... 
+  test_runner_occupied_output (test_output_boundary.OutputBoundary.test_runner_occupied_output) (occupied='dangling-output') ... FAIL
+  test_runner_occupied_output (test_output_boundary.OutputBoundary.test_runner_occupied_output) (occupied='dangling-log') ... FAIL
+
+======================================================================
+FAIL: test_capture_occupied_output (test_output_boundary.OutputBoundary.test_capture_occupied_output) (occupied='dangling-output')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/tests/functional_visual_puzzles/test_output_boundary.py", line 37, in test_capture_occupied_output
+    with self.subTest(occupied=occupied):self.check_occupied('capture',occupied)
+                                         ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/tests/functional_visual_puzzles/test_output_boundary.py", line 25, in check_occupied
+    with self.assertRaises(SystemExit) as error:target.main()
+                                                ~~~~~~~~~~~^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/tests/functional_visual_puzzles/capture.py", line 12, in main
+    digest=sha(args.case);command=[sys.executable,str(ROOT/'tools/run-native-qml-supervised.py'),*sys.argv[1:]];process=subprocess.run(command)
+                                                                                                                        ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/usr/lib/python3.14/unittest/mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/unittest/mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/unittest/mock.py", line 1241, in _execute_mock_call
+    raise effect
+AssertionError: Native launch must not be attempted
+
+======================================================================
+FAIL: test_runner_occupied_output (test_output_boundary.OutputBoundary.test_runner_occupied_output) (occupied='dangling-output')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/tests/functional_visual_puzzles/test_output_boundary.py", line 34, in test_runner_occupied_output
+    with self.subTest(occupied=occupied):self.check_occupied('run',occupied)
+                                         ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/tests/functional_visual_puzzles/test_output_boundary.py", line 25, in check_occupied
+    with self.assertRaises(SystemExit) as error:target.main()
+                                                ~~~~~~~~~~~^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/tests/functional_visual_puzzles/run.py", line 16, in main
+    source=freeze(args.revision);output.parent.mkdir(parents=True,exist_ok=True)
+  File "/usr/lib/python3.14/unittest/mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/unittest/mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/unittest/mock.py", line 1241, in _execute_mock_call
+    raise effect
+AssertionError: Source preparation must not be attempted
+
+======================================================================
+FAIL: test_runner_occupied_output (test_output_boundary.OutputBoundary.test_runner_occupied_output) (occupied='dangling-log')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/tests/functional_visual_puzzles/test_output_boundary.py", line 34, in test_runner_occupied_output
+    with self.subTest(occupied=occupied):self.check_occupied('run',occupied)
+                                         ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/tests/functional_visual_puzzles/test_output_boundary.py", line 25, in check_occupied
+    with self.assertRaises(SystemExit) as error:target.main()
+                                                ~~~~~~~~~~~^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/tests/functional_visual_puzzles/run.py", line 16, in main
+    source=freeze(args.revision);output.parent.mkdir(parents=True,exist_ok=True)
+  File "/usr/lib/python3.14/unittest/mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/unittest/mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/unittest/mock.py", line 1241, in _execute_mock_call
+    raise effect
+AssertionError: Source preparation must not be attempted
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.009s
+
+FAILED (failures=3)

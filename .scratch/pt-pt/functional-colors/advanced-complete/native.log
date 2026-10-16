@@ -1,0 +1,300 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/build/colors-fixed/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/.scratch/pt-pt/functional-colors/.native-qml-37dacf119c044d59a767ea83ddeff3cd/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/.scratch/pt-pt/functional-colors/.native-qml-37dacf119c044d59a767ea83ddeff3cd/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/.scratch/pt-pt/functional-colors/.native-qml-37dacf119c044d59a767ea83ddeff3cd/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/.scratch/pt-pt/functional-colors/.native-qml-37dacf119c044d59a767ea83ddeff3cd/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/.scratch/pt-pt/functional-colors/.native-qml-37dacf119c044d59a767ea83ddeff3cd/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/.scratch/pt-pt/functional-colors/.native-qml-37dacf119c044d59a767ea83ddeff3cd/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/.scratch/pt-pt/functional-colors/.native-qml-37dacf119c044d59a767ea83ddeff3cd/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/.scratch/pt-pt/functional-colors/.native-qml-37dacf119c044d59a767ea83ddeff3cd/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/.scratch/pt-pt/functional-colors/.native-qml-37dacf119c044d59a767ea83ddeff3cd/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity advanced_colors/AdvancedColors.qml at level -1
+qml: advanced_colors/AdvancedColors.qml advanced_colors/AdvancedColors.qml
+No audio device detected
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+notifyAudioVoices:  true
+notifyAudioEffects:  true
+qml: COLORS_NAME AdvancedColors 1 1
+qml: COLORS_NAME AdvancedColors 1 2
+qml: COLORS_NAME AdvancedColors 1 3
+qml: COLORS_NAME AdvancedColors 1 4
+qml: COLORS_NAME AdvancedColors 1 5
+qml: COLORS_NAME AdvancedColors 1 6
+qml: COLORS_NAME AdvancedColors 1 7
+No audio device detected
+[vorbis @ 0x5e6c1abb7140] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 1 8
+qml: COLORS_NAME AdvancedColors 2 1
+qml: COLORS_NAME AdvancedColors 2 2
+qml: COLORS_NAME AdvancedColors 2 3
+qml: COLORS_NAME AdvancedColors 2 4
+qml: COLORS_NAME AdvancedColors 2 5
+qml: COLORS_NAME AdvancedColors 2 6
+qml: COLORS_NAME AdvancedColors 2 7
+No audio device detected
+[vorbis @ 0x7b8f84001f40] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 2 8
+qml: COLORS_NAME AdvancedColors 3 1
+qml: COLORS_NAME AdvancedColors 3 2
+qml: COLORS_NAME AdvancedColors 3 3
+qml: COLORS_NAME AdvancedColors 3 4
+qml: COLORS_NAME AdvancedColors 3 5
+qml: COLORS_NAME AdvancedColors 3 6
+qml: COLORS_NAME AdvancedColors 3 7
+No audio device detected
+[vorbis @ 0x7b8f840023c0] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 3 8
+qml: COLORS_NAME AdvancedColors 4 1
+qml: COLORS_NAME AdvancedColors 4 2
+qml: COLORS_NAME AdvancedColors 4 3
+qml: COLORS_NAME AdvancedColors 4 4
+qml: COLORS_NAME AdvancedColors 4 5
+qml: COLORS_NAME AdvancedColors 4 6
+qml: COLORS_NAME AdvancedColors 4 7
+No audio device detected
+[vorbis @ 0x7b8f840a0580] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 4 8
+qml: COLORS_NAME AdvancedColors 5 1
+qml: COLORS_NAME AdvancedColors 5 2
+qml: COLORS_NAME AdvancedColors 5 3
+qml: COLORS_NAME AdvancedColors 5 4
+qml: COLORS_NAME AdvancedColors 5 5
+qml: COLORS_NAME AdvancedColors 5 6
+qml: COLORS_NAME AdvancedColors 5 7
+No audio device detected
+[vorbis @ 0x7b8f840a0ac0] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 5 8
+qml: COLORS_NAME AdvancedColors 6 1
+qml: COLORS_NAME AdvancedColors 6 2
+qml: COLORS_NAME AdvancedColors 6 3
+qml: COLORS_NAME AdvancedColors 6 4
+qml: COLORS_NAME AdvancedColors 6 5
+qml: COLORS_NAME AdvancedColors 6 6
+qml: COLORS_NAME AdvancedColors 6 7
+No audio device detected
+[vorbis @ 0x7b8f840a0ac0] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 6 8
+qml: COLORS_NAME AdvancedColors 7 1
+qml: COLORS_NAME AdvancedColors 7 2
+qml: COLORS_NAME AdvancedColors 7 3
+qml: COLORS_NAME AdvancedColors 7 4
+qml: COLORS_NAME AdvancedColors 7 5
+qml: COLORS_NAME AdvancedColors 7 6
+qml: COLORS_NAME AdvancedColors 7 7
+No audio device detected
+[vorbis @ 0x7b8f840a0ac0] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 7 8
+qml: COLORS_NAME AdvancedColors 8 1
+qml: COLORS_NAME AdvancedColors 8 2
+qml: COLORS_NAME AdvancedColors 8 3
+qml: COLORS_NAME AdvancedColors 8 4
+qml: COLORS_NAME AdvancedColors 8 5
+qml: COLORS_NAME AdvancedColors 8 6
+qml: COLORS_NAME AdvancedColors 8 7
+No audio device detected
+[vorbis @ 0x7b8f840a0ac0] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 8 8
+qml: COLORS_NAME AdvancedColors 9 1
+qml: COLORS_NAME AdvancedColors 9 2
+qml: COLORS_NAME AdvancedColors 9 3
+qml: COLORS_NAME AdvancedColors 9 4
+qml: COLORS_NAME AdvancedColors 9 5
+qml: COLORS_NAME AdvancedColors 9 6
+qml: COLORS_NAME AdvancedColors 9 7
+No audio device detected
+[vorbis @ 0x7b8f840a0ac0] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 9 8
+qml: COLORS_NAME AdvancedColors 10 1
+qml: COLORS_NAME AdvancedColors 10 2
+qml: COLORS_NAME AdvancedColors 10 3
+qml: COLORS_NAME AdvancedColors 10 4
+qml: COLORS_NAME AdvancedColors 10 5
+qml: COLORS_NAME AdvancedColors 10 6
+qml: COLORS_NAME AdvancedColors 10 7
+No audio device detected
+[vorbis @ 0x7b8f84004300] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 10 8
+qml: COLORS_NAME AdvancedColors 11 1
+qml: COLORS_NAME AdvancedColors 11 2
+qml: COLORS_NAME AdvancedColors 11 3
+qml: COLORS_NAME AdvancedColors 11 4
+qml: COLORS_NAME AdvancedColors 11 5
+qml: COLORS_NAME AdvancedColors 11 6
+qml: COLORS_NAME AdvancedColors 11 7
+No audio device detected
+[vorbis @ 0x7b8f84004300] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 11 8
+qml: COLORS_NAME AdvancedColors 12 1
+qml: COLORS_NAME AdvancedColors 12 2
+qml: COLORS_NAME AdvancedColors 12 3
+qml: COLORS_NAME AdvancedColors 12 4
+qml: COLORS_NAME AdvancedColors 12 5
+qml: COLORS_NAME AdvancedColors 12 6
+qml: COLORS_NAME AdvancedColors 12 7
+No audio device detected
+[vorbis @ 0x7b8f84004300] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 12 8
+qml: COLORS_NAME AdvancedColors 13 1
+qml: COLORS_NAME AdvancedColors 13 2
+qml: COLORS_NAME AdvancedColors 13 3
+qml: COLORS_NAME AdvancedColors 13 4
+qml: COLORS_NAME AdvancedColors 13 5
+qml: COLORS_NAME AdvancedColors 13 6
+qml: COLORS_NAME AdvancedColors 13 7
+No audio device detected
+[vorbis @ 0x7b8f84004300] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 13 8
+qml: COLORS_NAME AdvancedColors 14 1
+qml: COLORS_NAME AdvancedColors 14 2
+qml: COLORS_NAME AdvancedColors 14 3
+qml: COLORS_NAME AdvancedColors 14 4
+qml: COLORS_NAME AdvancedColors 14 5
+qml: COLORS_NAME AdvancedColors 14 6
+qml: COLORS_NAME AdvancedColors 14 7
+No audio device detected
+[vorbis @ 0x7b8f84004300] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 14 8
+qml: COLORS_NAME AdvancedColors 15 1
+qml: COLORS_NAME AdvancedColors 15 2
+qml: COLORS_NAME AdvancedColors 15 3
+qml: COLORS_NAME AdvancedColors 15 4
+qml: COLORS_NAME AdvancedColors 15 5
+qml: COLORS_NAME AdvancedColors 15 6
+qml: COLORS_NAME AdvancedColors 15 7
+No audio device detected
+[vorbis @ 0x7b8f84004300] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 15 8
+qml: COLORS_NAME AdvancedColors 16 1
+qml: COLORS_NAME AdvancedColors 16 2
+qml: COLORS_NAME AdvancedColors 16 3
+qml: COLORS_NAME AdvancedColors 16 4
+qml: COLORS_NAME AdvancedColors 16 5
+qml: COLORS_NAME AdvancedColors 16 6
+qml: COLORS_NAME AdvancedColors 16 7
+No audio device detected
+[vorbis @ 0x7b8f84004300] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 16 8
+qml: COLORS_NAME AdvancedColors 17 1
+qml: COLORS_NAME AdvancedColors 17 2
+qml: COLORS_NAME AdvancedColors 17 3
+qml: COLORS_NAME AdvancedColors 17 4
+qml: COLORS_NAME AdvancedColors 17 5
+qml: COLORS_NAME AdvancedColors 17 6
+qml: COLORS_NAME AdvancedColors 17 7
+No audio device detected
+[vorbis @ 0x7b8f84004300] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 17 8
+qml: COLORS_NAME AdvancedColors 18 1
+qml: COLORS_NAME AdvancedColors 18 2
+qml: COLORS_NAME AdvancedColors 18 3
+qml: COLORS_NAME AdvancedColors 18 4
+qml: COLORS_NAME AdvancedColors 18 5
+qml: COLORS_NAME AdvancedColors 18 6
+qml: COLORS_NAME AdvancedColors 18 7
+No audio device detected
+[vorbis @ 0x7b8f84004300] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 18 8
+qml: COLORS_NAME AdvancedColors 19 1
+qml: COLORS_NAME AdvancedColors 19 2
+qml: COLORS_NAME AdvancedColors 19 3
+qml: COLORS_NAME AdvancedColors 19 4
+qml: COLORS_NAME AdvancedColors 19 5
+qml: COLORS_NAME AdvancedColors 19 6
+qml: COLORS_NAME AdvancedColors 19 7
+No audio device detected
+[vorbis @ 0x7b8f84004300] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 19 8
+qml: COLORS_NAME AdvancedColors 20 1
+qml: COLORS_NAME AdvancedColors 20 2
+qml: COLORS_NAME AdvancedColors 20 3
+qml: COLORS_NAME AdvancedColors 20 4
+qml: COLORS_NAME AdvancedColors 20 5
+qml: COLORS_NAME AdvancedColors 20 6
+qml: COLORS_NAME AdvancedColors 20 7
+No audio device detected
+[vorbis @ 0x7b8f84004300] Could not update timestamps for discarded samples.
+qml: COLORS_NAME AdvancedColors 20 8
+qml: NATIVE_COLORS_RESULT {"failures":0,"passes":2,"wins":20,"observations":[{"level":1,"question":1,"text":"Descobrir a borboleta cor-de-castanha","source":"qrc:/gcompris/src/activities/advanced_colors/resource/chestnut_butterfly.svg","route":"click"},{"level":1,"question":2,"text":"Descobrir a borboleta azul-marinha","source":"qrc:/gcompris/src/activities/advanced_colors/resource/navy_butterfly.svg","route":"keyboard"},{"level":1,"question":3,"text":"Descobrir a borboleta cor de amêndoa","source":"qrc:/gcompris/src/activities/advanced_colors/resource/almond_butterfly.svg","route":"click"},{"level":1,"question":4,"text":"Descobrir a borboleta cobalto","source":"qrc:/gcompris/src/activities/advanced_colors/resource/cobalt_butterfly.svg","route":"keyboard"},{"level":1,"question":5,"text":"Descobrir a borboleta cíana","source":"qrc:/gcompris/src/activities/advanced_colors/resource/cyan_butterfly.svg","route":"click"},{"level":1,"question":6,"text":"Descobrir a borboleta cor de milho","source":"qrc:/gcompris/src/activities/advanced_colors/resource/corn_butterfly.svg","route":"keyboard"},{"level":1,"question":7,"text":"Descobrir a borboleta cor de coral","source":"qrc:/gcompris/src/activities/advanced_colors/resource/coral_butterfly.svg","route":"click"},{"level":1,"question":8,"text":"Descobrir a borboleta cor de clarete","source":"qrc:/gcompris/src/activities/advanced_colors/resource/claret_butterfly.svg","route":"keyboard"},{"level":2,"question":1,"text":"Descobrir a borboleta cor-de-castanha","source":"qrc:/gcompris/src/activities/advanced_colors/resource/chestnut_butterfly.svg","route":"click"},{"level":2,"question":2,"text":"Descobrir a borboleta cíana","source":"qrc:/gcompris/src/activities/advanced_colors/resource/cyan_butterfly.svg","route":"keyboard"},{"level":2,"question":3,"text":"Descobrir a borboleta cor de amêndoa","source":"qrc:/gcompris/src/activities/advanced_colors/resource/almond_butterfly.svg","route":"click"},{"level":2,"question":4,"text":"Descobrir a borboleta cor de milho","source":"qrc:/gcompris/src/activities/advanced_colors/resource/corn_butterfly.svg","route":"keyboard"},{"level":2,"question":5,"text":"Descobrir a borboleta cor de clarete","source":"qrc:/gcompris/src/activities/advanced_colors/resource/claret_butterfly.svg","route":"click"},{"level":2,"question":6,"text":"Descobrir a borboleta cobalto","source":"qrc:/gcompris/src/activities/advanced_colors/resource/cobalt_butterfly.svg","route":"keyboard"},{"level":2,"question":7,"text":"Descobrir a borboleta rubi","source":"qrc:/gcompris/src/activities/advanced_colors/resource/ruby_butterfly.svg","route":"click"},{"level":2,"question":8,"text":"Descobrir a borboleta safira","source":"qrc:/gcompris/src/activities/advanced_colors/resource/sapphire_butterfly.svg","route":"keyboard"},{"level":3,"question":1,"text":"Descobrir a borboleta cor de terra","source":"qrc:/gcompris/src/activities/advanced_colors/resource/sienna_butterfly.svg","route":"click"},{"level":3,"question":2,"text":"Descobrir a borboleta sépia","source":"qrc:/gcompris/src/activities/advanced_colors/resource/sepia_butterfly.svg","route":"keyboard"},{"level":3,"question":3,"text":"Descobrir a borboleta cor de salmão","source":"qrc:/gcompris/src/activities/advanced_colors/resource/salmon_butterfly.svg","route":"click"},{"level":3,"question":4,"text":"Descobrir a borboleta cor de salva","source":"qrc:/gcompris/src/activities/advanced_colors/resource/sage_butterfly.svg","route":"keyboard"},{"level":3,"question":5,"text":"Descobrir a borboleta cor de enxofre","source":"qrc:/gcompris/src/activities/advanced_colors/resource/sulphur_butterfly.svg","route":"click"},{"level":3,"question":6,"text":"Descobrir a borboleta verde-lima","source":"qrc:/gcompris/src/activities/advanced_colors/resource/lime_butterfly.svg","route":"keyboard"},{"level":3,"question":7,"text":"Descobrir a borboleta azul-turquesa","source":"qrc:/gcompris/src/activities/advanced_colors/resource/turquoise_butterfly.svg","route":"click"},{"level":3,"question":8,"text":"Descobrir a borboleta cor-de-chá","source":"qrc:/gcompris/src/activities/advanced_colors/resource/tea_butterfly.svg","route":"keyboard"},{"level":4,"question":1,"text":"Descobrir a borboleta cor de absinto","source":"qrc:/gcompris/src/activities/advanced_colors/resource/absinthe_butterfly.svg","route":"click"},{"level":4,"question":2,"text":"Descobrir a borboleta aquamarinha","source":"qrc:/gcompris/src/activities/advanced_colors/resource/aquamarine_butterfly.svg","route":"keyboard"},{"level":4,"question":3,"text":"Descobrir a borboleta sanguínea","source":"qrc:/gcompris/src/activities/advanced_colors/resource/vermilion_butterfly.svg","route":"click"},{"level":4,"question":4,"text":"Descobrir a borboleta cor de ametista","source":"qrc:/gcompris/src/activities/advanced_colors/resource/amethyst_butterfly.svg","route":"keyboard"},{"level":4,"question":5,"text":"Descobrir a borboleta cor de mogno","source":"qrc:/gcompris/src/activities/advanced_colors/resource/mahogany_butterfly.svg","route":"click"},{"level":4,"question":6,"text":"Descobrir a borboleta cor-de-anis","source":"qrc:/gcompris/src/activities/advanced_colors/resource/anise_butterfly.svg","route":"keyboard"},{"level":4,"question":7,"text":"Descobrir a borboleta âmbar","source":"qrc:/gcompris/src/activities/advanced_colors/resource/amber_butterfly.svg","route":"click"},{"level":4,"question":8,"text":"Descobrir a borboleta cor de alabastro","source":"qrc:/gcompris/src/activities/advanced_colors/resource/alabaster_butterfly.svg","route":"keyboard"},{"level":5,"question":1,"text":"Descobrir a borboleta cor de beringela","source":"qrc:/gcompris/src/activities/advanced_colors/resource/aubergine_butterfly.svg","route":"click"},{"level":5,"question":2,"text":"Descobrir a borboleta amarela-esverdeada","source":"qrc:/gcompris/src/activities/advanced_colors/resource/chartreuse_butterfly.svg","route":"keyboard"},{"level":5,"question":3,"text":"Descobrir a borboleta cor de fauno","source":"qrc:/gcompris/src/activities/advanced_colors/resource/fawn_butterfly.svg","route":"click"},{"level":5,"question":4,"text":"Descobrir a borboleta cor azul-cinza","source":"qrc:/gcompris/src/activities/advanced_colors/resource/glaucous_butterfly.svg","route":"keyboard"},{"level":5,"question":5,"text":"Descobrir a borboleta cor de pó-de-arroz","source":"qrc:/gcompris/src/activities/advanced_colors/resource/ceruse_butterfly.svg","route":"click"},{"level":5,"question":6,"text":"Descobrir a borboleta fúcsia","source":"qrc:/gcompris/src/activities/advanced_colors/resource/fuchsia_butterfly.svg","route":"keyboard"},{"level":5,"question":7,"text":"Descobrir a borboleta rubi","source":"qrc:/gcompris/src/activities/advanced_colors/resource/ruby_butterfly.svg","route":"click"},{"level":5,"question":8,"text":"Descobrir a borboleta esmeralda","source":"qrc:/gcompris/src/activities/advanced_colors/resource/emerald_butterfly.svg","route":"keyboard"},{"level":6,"question":1,"text":"Descobrir a borboleta castanha-escura","source":"qrc:/gcompris/src/activities/advanced_colors/resource/bistre_butterfly.svg","route":"click"},{"level":6,"question":2,"text":"Descobrir a borboleta acastanhada","source":"qrc:/gcompris/src/activities/advanced_colors/resource/greyish-brown_butterfly.svg","route":"keyboard"},{"level":6,"question":3,"text":"Descobrir a borboleta carmim","source":"qrc:/gcompris/src/activities/advanced_colors/resource/crimson_butterfly.svg","route":"click"},{"level":6,"question":4,"text":"Descobrir a borboleta cerúlea","source":"qrc:/gcompris/src/activities/advanced_colors/resource/cerulean_butterfly.svg","route":"keyboard"},{"level":6,"question":5,"text":"Descobrir a borboleta cor de beringela","source":"qrc:/gcompris/src/activities/advanced_colors/resource/aubergine_butterfly.svg","route":"click"},{"level":6,"question":6,"text":"Descobrir a borboleta ruiva","source":"qrc:/gcompris/src/activities/advanced_colors/resource/auburn_butterfly.svg","route":"keyboard"},{"level":6,"question":7,"text":"Descobrir a borboleta azulão","source":"qrc:/gcompris/src/activities/advanced_colors/resource/azure_butterfly.svg","route":"click"},{"level":6,"question":8,"text":"Descobrir a borboleta cor de porcelana","source":"qrc:/gcompris/src/activities/advanced_colors/resource/celadon_butterfly.svg","route":"keyboard"},{"level":7,"question":1,"text":"Descobrir a borboleta grená","source":"qrc:/gcompris/src/activities/advanced_colors/resource/garnet_butterfly.svg","route":"click"},{"level":7,"question":2,"text":"Descobrir a borboleta cor de vinho","source":"qrc:/gcompris/src/activities/advanced_colors/resource/wine_butterfly.svg","route":"keyboard"},{"level":7,"question":3,"text":"Descobrir a borboleta alfazema","source":"qrc:/gcompris/src/activities/advanced_colors/resource/lavender_butterfly.svg","route":"click"},{"level":7,"question":4,"text":"Descobrir a borboleta cor-de-líquen","source":"qrc:/gcompris/src/activities/advanced_colors/resource/lichen_butterfly.svg","route":"keyboard"},{"level":7,"question":5,"text":"Descobrir a borboleta jade","source":"qrc:/gcompris/src/activities/advanced_colors/resource/jade_butterfly.svg","route":"click"},{"level":7,"question":6,"text":"Descobrir a borboleta marfim","source":"qrc:/gcompris/src/activities/advanced_colors/resource/ivory_butterfly.svg","route":"keyboard"},{"level":7,"question":7,"text":"Descobrir a borboleta índigo","source":"qrc:/gcompris/src/activities/advanced_colors/resource/indigo_butterfly.svg","route":"click"},{"level":7,"question":8,"text":"Descobrir a borboleta cor-de-pomba","source":"qrc:/gcompris/src/activities/advanced_colors/resource/dove_butterfly.svg","route":"keyboard"},{"level":8,"question":1,"text":"Descobrir a borboleta cor de mimosas","source":"qrc:/gcompris/src/activities/advanced_colors/resource/mimosa_butterfly.svg","route":"click"},{"level":8,"question":2,"text":"Descobrir a borboleta malaquite","source":"qrc:/gcompris/src/activities/advanced_colors/resource/malachite_butterfly.svg","route":"keyboard"},{"level":8,"question":3,"text":"Descobrir a borboleta azul-marinha","source":"qrc:/gcompris/src/activities/advanced_colors/resource/navy_butterfly.svg","route":"click"},{"level":8,"question":4,"text":"Descobrir a borboleta lilás","source":"qrc:/gcompris/src/activities/advanced_colors/resource/lilac_butterfly.svg","route":"keyboard"},{"level":8,"question":5,"text":"Descobrir a borboleta verde-azeitona","source":"qrc:/gcompris/src/activities/advanced_colors/resource/olive_butterfly.svg","route":"click"},{"level":8,"question":6,"text":"Descobrir a borboleta cor de pinho","source":"qrc:/gcompris/src/activities/advanced_colors/resource/larch_butterfly.svg","route":"keyboard"},{"level":8,"question":7,"text":"Descobrir a borboleta ocre","source":"qrc:/gcompris/src/activities/advanced_colors/resource/ochre_butterfly.svg","route":"click"},{"level":8,"question":8,"text":"Descobrir a borboleta magenta","source":"qrc:/gcompris/src/activities/advanced_colors/resource/magenta_butterfly.svg","route":"keyboard"},{"level":9,"question":1,"text":"Descobrir a borboleta ultramarina","source":"qrc:/gcompris/src/activities/advanced_colors/resource/ultramarine_butterfly.svg","route":"click"},{"level":9,"question":2,"text":"Descobrir a borboleta azul-parda","source":"qrc:/gcompris/src/activities/advanced_colors/resource/greyish_blue_butterfly.svg","route":"keyboard"},{"level":9,"question":3,"text":"Descobrir a borboleta cor de pistacho","source":"qrc:/gcompris/src/activities/advanced_colors/resource/pistachio_butterfly.svg","route":"click"},{"level":9,"question":4,"text":"Descobrir a borboleta cor de malva","source":"qrc:/gcompris/src/activities/advanced_colors/resource/mauve_butterfly.svg","route":"keyboard"},{"level":9,"question":5,"text":"Descobrir a borboleta opala","source":"qrc:/gcompris/src/activities/advanced_colors/resource/opaline_butterfly.svg","route":"click"},{"level":9,"question":6,"text":"Descobrir a borboleta sanguínea","source":"qrc:/gcompris/src/activities/advanced_colors/resource/vermilion_butterfly.svg","route":"keyboard"},{"level":9,"question":7,"text":"Descobrir a borboleta púrpura","source":"qrc:/gcompris/src/activities/advanced_colors/resource/purple_butterfly.svg","route":"click"},{"level":9,"question":8,"text":"Descobrir a borboleta platinada","source":"qrc:/gcompris/src/activities/advanced_colors/resource/platinum_butterfly.svg","route":"keyboard"},{"level":10,"question":1,"text":"Descobrir a borboleta púrpura-escura","source":"qrc:/gcompris/src/activities/advanced_colors/resource/dark_purple_butterfly.svg","route":"click"},{"level":10,"question":2,"text":"Descobrir a borboleta azul-da-prússia","source":"qrc:/gcompris/src/activities/advanced_colors/resource/prussian_blue_butterfly.svg","route":"keyboard"},{"level":10,"question":3,"text":"Descobrir a borboleta de ameixa","source":"qrc:/gcompris/src/activities/advanced_colors/resource/plum_butterfly.svg","route":"click"},{"level":10,"question":4,"text":"Descobrir a borboleta cor de ferrugem","source":"qrc:/gcompris/src/activities/advanced_colors/resource/rust_butterfly.svg","route":"keyboard"},{"level":10,"question":5,"text":"Descobrir a borboleta cor de baunilha","source":"qrc:/gcompris/src/activities/advanced_colors/resource/vanilla_butterfly.svg","route":"click"},{"level":10,"question":6,"text":"Descobrir a borboleta cor de verdete","source":"qrc:/gcompris/src/activities/advanced_colors/resource/verdigris_butterfly.svg","route":"keyboard"},{"level":10,"question":7,"text":"Descobrir a borboleta cor de açafrão","source":"qrc:/gcompris/src/activities/advanced_colors/resource/saffron_butterfly.svg","route":"click"},{"level":10,"question":8,"text":"Descobrir a borboleta veronesa","source":"qrc:/gcompris/src/activities/advanced_colors/resource/veronese_butterfly.svg","route":"keyboard"},{"level":11,"question":1,"text":"Descobrir a borboleta azulão","source":"qrc:/gcompris/src/activities/advanced_colors/resource/azure_butterfly.svg","route":"click"},{"level":11,"question":2,"text":"Descobrir a borboleta sépia","source":"qrc:/gcompris/src/activities/advanced_colors/resource/sepia_butterfly.svg","route":"keyboard"},{"level":11,"question":3,"text":"Descobrir a borboleta cor de malva","source":"qrc:/gcompris/src/activities/advanced_colors/resource/mauve_butterfly.svg","route":"click"},{"level":11,"question":4,"text":"Descobrir a borboleta ruiva","source":"qrc:/gcompris/src/activities/advanced_colors/resource/auburn_butterfly.svg","route":"keyboard"},{"level":11,"question":5,"text":"Descobrir a borboleta púrpura-escura","source":"qrc:/gcompris/src/activities/advanced_colors/resource/dark_purple_butterfly.svg","route":"click"},{"level":11,"question":6,"text":"Descobrir a borboleta verde-azeitona","source":"qrc:/gcompris/src/activities/advanced_colors/resource/olive_butterfly.svg","route":"keyboard"},{"level":11,"question":7,"text":"Descobrir a borboleta cor de beringela","source":"qrc:/gcompris/src/activities/advanced_colors/resource/aubergine_butterfly.svg","route":"click"},{"level":11,"question":8,"text":"Descobrir a borboleta de ameixa","source":"qrc:/gcompris/src/activities/advanced_colors/resource/plum_butterfly.svg","route":"keyboard"},{"level":12,"question":1,"text":"Descobrir a borboleta cor de salmão","source":"qrc:/gcompris/src/activities/advanced_colors/resource/salmon_butterfly.svg","route":"click"},{"level":12,"question":2,"text":"Descobrir a borboleta cor de ferrugem","source":"qrc:/gcompris/src/activities/advanced_colors/resource/rust_butterfly.svg","route":"keyboard"},{"level":12,"question":3,"text":"Descobrir a borboleta cíana","source":"qrc:/gcompris/src/activities/advanced_colors/resource/cyan_butterfly.svg","route":"click"},{"level":12,"question":4,"text":"Descobrir a borboleta cor de beringela","source":"qrc:/gcompris/src/activities/advanced_colors/resource/aubergine_butterfly.svg","route":"keyboard"},{"level":12,"question":5,"text":"Descobrir a borboleta cor de fauno","source":"qrc:/gcompris/src/activities/advanced_colors/resource/fawn_butterfly.svg","route":"click"},{"level":12,"question":6,"text":"Descobrir a borboleta ocre","source":"qrc:/gcompris/src/activities/advanced_colors/resource/ochre_butterfly.svg","route":"keyboard"},{"level":12,"question":7,"text":"Descobrir a borboleta azul-da-prússia","source":"qrc:/gcompris/src/activities/advanced_colors/resource/prussian_blue_butterfly.svg","route":"click"},{"level":12,"question":8,"text":"Descobrir a borboleta cor de mimosas","source":"qrc:/gcompris/src/activities/advanced_colors/resource/mimosa_butterfly.svg","route":"keyboard"},{"level":13,"question":1,"text":"Descobrir a borboleta cor de malva","source":"qrc:/gcompris/src/activities/advanced_colors/resource/mauve_butterfly.svg","route":"click"},{"level":13,"question":2,"text":"Descobrir a borboleta cor de ferrugem","source":"qrc:/gcompris/src/activities/advanced_colors/resource/rust_butterfly.svg","route":"keyboard"},{"level":13,"question":3,"text":"Descobrir a borboleta cor de coral","source":"qrc:/gcompris/src/activities/advanced_colors/resource/coral_butterfly.svg","route":"click"},{"level":13,"question":4,"text":"Descobrir a borboleta cor-de-castanha","source":"qrc:/gcompris/src/activities/advanced_colors/resource/chestnut_butterfly.svg","route":"keyboard"},{"level":13,"question":5,"text":"Descobrir a borboleta sanguínea","source":"qrc:/gcompris/src/activities/advanced_colors/resource/vermilion_butterfly.svg","route":"click"},{"level":13,"question":6,"text":"Descobrir a borboleta marfim","source":"qrc:/gcompris/src/activities/advanced_colors/resource/ivory_butterfly.svg","route":"keyboard"},{"level":13,"question":7,"text":"Descobrir a borboleta de ameixa","source":"qrc:/gcompris/src/activities/advanced_colors/resource/plum_butterfly.svg","route":"click"},{"level":13,"question":8,"text":"Descobrir a borboleta cor de alabastro","source":"qrc:/gcompris/src/activities/advanced_colors/resource/alabaster_butterfly.svg","route":"keyboard"},{"level":14,"question":1,"text":"Descobrir a borboleta cor-de-castanha","source":"qrc:/gcompris/src/activities/advanced_colors/resource/chestnut_butterfly.svg","route":"click"},{"level":14,"question":2,"text":"Descobrir a borboleta malaquite","source":"qrc:/gcompris/src/activities/advanced_colors/resource/malachite_butterfly.svg","route":"keyboard"},{"level":14,"question":3,"text":"Descobrir a borboleta cor de clarete","source":"qrc:/gcompris/src/activities/advanced_colors/resource/claret_butterfly.svg","route":"click"},{"level":14,"question":4,"text":"Descobrir a borboleta cerúlea","source":"qrc:/gcompris/src/activities/advanced_colors/resource/cerulean_butterfly.svg","route":"keyboard"},{"level":14,"question":5,"text":"Descobrir a borboleta cor de pistacho","source":"qrc:/gcompris/src/activities/advanced_colors/resource/pistachio_butterfly.svg","route":"click"},{"level":14,"question":6,"text":"Descobrir a borboleta azul-marinha","source":"qrc:/gcompris/src/activities/advanced_colors/resource/navy_butterfly.svg","route":"keyboard"},{"level":14,"question":7,"text":"Descobrir a borboleta opala","source":"qrc:/gcompris/src/activities/advanced_colors/resource/opaline_butterfly.svg","route":"click"},{"level":14,"question":8,"text":"Descobrir a borboleta cor de vinho","source":"qrc:/gcompris/src/activities/advanced_colors/resource/wine_butterfly.svg","route":"keyboard"},{"level":15,"question":1,"text":"Descobrir a borboleta cor-de-anis","source":"qrc:/gcompris/src/activities/advanced_colors/resource/anise_butterfly.svg","route":"click"},{"level":15,"question":2,"text":"Descobrir a borboleta cor-de-castanha","source":"qrc:/gcompris/src/activities/advanced_colors/resource/chestnut_butterfly.svg","route":"keyboard"},{"level":15,"question":3,"text":"Descobrir a borboleta cor de fauno","source":"qrc:/gcompris/src/activities/advanced_colors/resource/fawn_butterfly.svg","route":"click"},{"level":15,"question":4,"text":"Descobrir a borboleta opala","source":"qrc:/gcompris/src/activities/advanced_colors/resource/opaline_butterfly.svg","route":"keyboard"},{"level":15,"question":5,"text":"Descobrir a borboleta cor de vinho","source":"qrc:/gcompris/src/activities/advanced_colors/resource/wine_butterfly.svg","route":"click"},{"level":15,"question":6,"text":"Descobrir a borboleta cor de beringela","source":"qrc:/gcompris/src/activities/advanced_colors/resource/aubergine_butterfly.svg","route":"keyboard"},{"level":15,"question":7,"text":"Descobrir a borboleta magenta","source":"qrc:/gcompris/src/activities/advanced_colors/resource/magenta_butterfly.svg","route":"click"},{"level":15,"question":8,"text":"Descobrir a borboleta púrpura-escura","source":"qrc:/gcompris/src/activities/advanced_colors/resource/dark_purple_butterfly.svg","route":"keyboard"},{"level":16,"question":1,"text":"Descobrir a borboleta veronesa","source":"qrc:/gcompris/src/activities/advanced_colors/resource/veronese_butterfly.svg","route":"click"},{"level":16,"question":2,"text":"Descobrir a borboleta cor de clarete","source":"qrc:/gcompris/src/activities/advanced_colors/resource/claret_butterfly.svg","route":"keyboard"},{"level":16,"question":3,"text":"Descobrir a borboleta platinada","source":"qrc:/gcompris/src/activities/advanced_colors/resource/platinum_butterfly.svg","route":"click"},{"level":16,"question":4,"text":"Descobrir a borboleta carmim","source":"qrc:/gcompris/src/activities/advanced_colors/resource/crimson_butterfly.svg","route":"keyboard"},{"level":16,"question":5,"text":"Descobrir a borboleta cor-de-pomba","source":"qrc:/gcompris/src/activities/advanced_colors/resource/dove_butterfly.svg","route":"click"},{"level":16,"question":6,"text":"Descobrir a borboleta cor de fauno","source":"qrc:/gcompris/src/activities/advanced_colors/resource/fawn_butterfly.svg","route":"keyboard"},{"level":16,"question":7,"text":"Descobrir a borboleta índigo","source":"qrc:/gcompris/src/activities/advanced_colors/resource/indigo_butterfly.svg","route":"click"},{"level":16,"question":8,"text":"Descobrir a borboleta acastanhada","source":"qrc:/gcompris/src/activities/advanced_colors/resource/greyish-brown_butterfly.svg","route":"keyboard"},{"level":17,"question":1,"text":"Descobrir a borboleta cor-de-castanha","source":"qrc:/gcompris/src/activities/advanced_colors/resource/chestnut_butterfly.svg","route":"click"},{"level":17,"question":2,"text":"Descobrir a borboleta âmbar","source":"qrc:/gcompris/src/activities/advanced_colors/resource/amber_butterfly.svg","route":"keyboard"},{"level":17,"question":3,"text":"Descobrir a borboleta púrpura","source":"qrc:/gcompris/src/activities/advanced_colors/resource/purple_butterfly.svg","route":"click"},{"level":17,"question":4,"text":"Descobrir a borboleta cor de salmão","source":"qrc:/gcompris/src/activities/advanced_colors/resource/salmon_butterfly.svg","route":"keyboard"},{"level":17,"question":5,"text":"Descobrir a borboleta cor de clarete","source":"qrc:/gcompris/src/activities/advanced_colors/resource/claret_butterfly.svg","route":"click"},{"level":17,"question":6,"text":"Descobrir a borboleta cor de beringela","source":"qrc:/gcompris/src/activities/advanced_colors/resource/aubergine_butterfly.svg","route":"keyboard"},{"level":17,"question":7,"text":"Descobrir a borboleta azul-parda","source":"qrc:/gcompris/src/activities/advanced_colors/resource/greyish_blue_butterfly.svg","route":"click"},{"level":17,"question":8,"text":"Descobrir a borboleta amarela-esverdeada","source":"qrc:/gcompris/src/activities/advanced_colors/resource/chartreuse_butterfly.svg","route":"keyboard"},{"level":18,"question":1,"text":"Descobrir a borboleta magenta","source":"qrc:/gcompris/src/activities/advanced_colors/resource/magenta_butterfly.svg","route":"click"},{"level":18,"question":2,"text":"Descobrir a borboleta ultramarina","source":"qrc:/gcompris/src/activities/advanced_colors/resource/ultramarine_butterfly.svg","route":"keyboard"},{"level":18,"question":3,"text":"Descobrir a borboleta lilás","source":"qrc:/gcompris/src/activities/advanced_colors/resource/lilac_butterfly.svg","route":"click"},{"level":18,"question":4,"text":"Descobrir a borboleta de ameixa","source":"qrc:/gcompris/src/activities/advanced_colors/resource/plum_butterfly.svg","route":"keyboard"},{"level":18,"question":5,"text":"Descobrir a borboleta azul-parda","source":"qrc:/gcompris/src/activities/advanced_colors/resource/greyish_blue_butterfly.svg","route":"click"},{"level":18,"question":6,"text":"Descobrir a borboleta cor de clarete","source":"qrc:/gcompris/src/activities/advanced_colors/resource/claret_butterfly.svg","route":"keyboard"},{"level":18,"question":7,"text":"Descobrir a borboleta púrpura-escura","source":"qrc:/gcompris/src/activities/advanced_colors/resource/dark_purple_butterfly.svg","route":"click"},{"level":18,"question":8,"text":"Descobrir a borboleta aquamarinha","source":"qrc:/gcompris/src/activities/advanced_colors/resource/aquamarine_butterfly.svg","route":"keyboard"},{"level":19,"question":1,"text":"Descobrir a borboleta de ameixa","source":"qrc:/gcompris/src/activities/advanced_colors/resource/plum_butterfly.svg","route":"click"},{"level":19,"question":2,"text":"Descobrir a borboleta fúcsia","source":"qrc:/gcompris/src/activities/advanced_colors/resource/fuchsia_butterfly.svg","route":"keyboard"},{"level":19,"question":3,"text":"Descobrir a borboleta cerúlea","source":"qrc:/gcompris/src/activities/advanced_colors/resource/cerulean_butterfly.svg","route":"click"},{"level":19,"question":4,"text":"Descobrir a borboleta sépia","source":"qrc:/gcompris/src/activities/advanced_colors/resource/sepia_butterfly.svg","route":"keyboard"},{"level":19,"question":5,"text":"Descobrir a borboleta marfim","source":"qrc:/gcompris/src/activities/advanced_colors/resource/ivory_butterfly.svg","route":"click"},{"level":19,"question":6,"text":"Descobrir a borboleta púrpura","source":"qrc:/gcompris/src/activities/advanced_colors/resource/purple_butterfly.svg","route":"keyboard"},{"level":19,"question":7,"text":"Descobrir a borboleta cor-de-anis","source":"qrc:/gcompris/src/activities/advanced_colors/resource/anise_butterfly.svg","route":"click"},{"level":19,"question":8,"text":"Descobrir a borboleta cor de verdete","source":"qrc:/gcompris/src/activities/advanced_colors/resource/verdigris_butterfly.svg","route":"keyboard"},{"level":20,"question":1,"text":"Descobrir a borboleta cor de pistacho","source":"qrc:/gcompris/src/activities/advanced_colors/resource/pistachio_butterfly.svg","route":"click"},{"level":20,"question":2,"text":"Descobrir a borboleta púrpura-escura","source":"qrc:/gcompris/src/activities/advanced_colors/resource/dark_purple_butterfly.svg","route":"keyboard"},{"level":20,"question":3,"text":"Descobrir a borboleta cor de ferrugem","source":"qrc:/gcompris/src/activities/advanced_colors/resource/rust_butterfly.svg","route":"click"},{"level":20,"question":4,"text":"Descobrir a borboleta safira","source":"qrc:/gcompris/src/activities/advanced_colors/resource/sapphire_butterfly.svg","route":"keyboard"},{"level":20,"question":5,"text":"Descobrir a borboleta cor de beringela","source":"qrc:/gcompris/src/activities/advanced_colors/resource/aubergine_butterfly.svg","route":"click"},{"level":20,"question":6,"text":"Descobrir a borboleta cor de clarete","source":"qrc:/gcompris/src/activities/advanced_colors/resource/claret_butterfly.svg","route":"keyboard"},{"level":20,"question":7,"text":"Descobrir a borboleta cor-de-chá","source":"qrc:/gcompris/src/activities/advanced_colors/resource/tea_butterfly.svg","route":"click"},{"level":20,"question":8,"text":"Descobrir a borboleta cor de terra","source":"qrc:/gcompris/src/activities/advanced_colors/resource/sienna_butterfly.svg","route":"keyboard"}],"requested":[{"serial":1,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg"},{"serial":2,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"},{"serial":3,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"},{"serial":4,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/good.ogg"},{"serial":5,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"},{"serial":6,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/good.ogg"},{"serial":7,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"},{"serial":8,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg"},{"serial":9,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"},{"serial":10,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"},{"serial":11,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg"},{"serial":12,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/fantastic.ogg"},{"serial":13,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"},{"serial":14,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/great.ogg"},{"serial":15,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/great.ogg"},{"serial":16,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"},{"serial":17,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"},{"serial":18,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"},{"serial":19,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/good.ogg"},{"serial":20,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg"}],"playing":[{"serial":1,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg"},{"serial":2,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"},{"serial":3,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"},{"serial":4,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/good.ogg"},{"serial":5,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"},{"serial":6,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/good.ogg"},{"serial":7,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"},{"serial":8,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg"},{"serial":9,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"},{"serial":10,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"},{"serial":11,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg"},{"serial":12,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/fantastic.ogg"},{"serial":13,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"},{"serial":14,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/great.ogg"},{"serial":15,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/great.ogg"},{"serial":16,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"},{"serial":17,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg"},{"serial":18,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg"},{"serial":19,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/good.ogg"},{"serial":20,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg"}],"progressed":[{"serial":1,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg","position":36,"duration":952,"playbackState":1},{"serial":2,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg","position":44,"duration":928,"playbackState":1},{"serial":3,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg","position":44,"duration":928,"playbackState":1},{"serial":4,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/good.ogg","position":40,"duration":696,"playbackState":1},{"serial":5,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg","position":44,"duration":928,"playbackState":1},{"serial":6,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/good.ogg","position":49,"duration":696,"playbackState":1},{"serial":7,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg","position":36,"duration":893,"playbackState":1},{"serial":8,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg","position":36,"duration":905,"playbackState":1},{"serial":9,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg","position":44,"duration":928,"playbackState":1},{"serial":10,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg","position":36,"duration":893,"playbackState":1},{"serial":11,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg","position":36,"duration":952,"playbackState":1},{"serial":12,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/fantastic.ogg","position":42,"duration":975,"playbackState":1},{"serial":13,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg","position":44,"duration":928,"playbackState":1},{"serial":14,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/great.ogg","position":27,"duration":754,"playbackState":1},{"serial":15,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/great.ogg","position":27,"duration":754,"playbackState":1},{"serial":16,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg","position":36,"duration":893,"playbackState":1},{"serial":17,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg","position":44,"duration":928,"playbackState":1},{"serial":18,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg","position":36,"duration":893,"playbackState":1},{"serial":19,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/good.ogg","position":49,"duration":696,"playbackState":1},{"serial":20,"route":"qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg","position":36,"duration":905,"playbackState":1}],"audioErrors":[],"copiedRoutes":{"qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg":"perfect.ogg","qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg":"waytogo.ogg","qrc:/gcompris/data/voices-ogg/pt/misc/good.ogg":"good.ogg","qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg":"super.ogg","qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg":"congratulation.ogg","qrc:/gcompris/data/voices-ogg/pt/misc/fantastic.ogg":"fantastic.ogg","qrc:/gcompris/data/voices-ogg/pt/misc/great.ogg":"great.ogg"}}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs

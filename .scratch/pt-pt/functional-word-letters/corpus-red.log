@@ -1,0 +1,17 @@
+test_every_translated_word_is_usable_in_complete_and_sample_lessons (test_corpus.PortugueseCorpusTest.test_every_translated_word_is_usable_in_complete_and_sample_lessons) ... FAIL
+
+======================================================================
+FAIL: test_every_translated_word_is_usable_in_complete_and_sample_lessons (test_corpus.PortugueseCorpusTest.test_every_translated_word_is_usable_in_complete_and_sample_lessons)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tests/functional_word_letters/test_corpus.py", line 8, in test_every_translated_word_is_usable_in_complete_and_sample_lessons
+    data=corpus()
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tests/functional_word_letters/corpus.py", line 28, in corpus
+    assert text.strip()==text and text, (key,text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('magic.ogg', 'ilusionista ')
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)

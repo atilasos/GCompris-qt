@@ -1,0 +1,2618 @@
+[
+  {
+    "name": "artifacts/installed/activities.txt",
+    "size": 3095,
+    "compressed_size": 1153,
+    "crc": 4103924987
+  },
+  {
+    "name": "artifacts/GCompris-PT-PT-Windows-x64-candidate.exe",
+    "size": 825758994,
+    "compressed_size": 825991928,
+    "crc": 2959228154
+  },
+  {
+    "name": "artifacts/installed/adjacent_numbers.stderr.log",
+    "size": 7064,
+    "compressed_size": 1610,
+    "crc": 118993989
+  },
+  {
+    "name": "artifacts/GCompris-PT-PT-Windows-x64-portable.zip",
+    "size": 963230298,
+    "compressed_size": 962510131,
+    "crc": 3979641494
+  },
+  {
+    "name": "artifacts/installed/adjacent_numbers.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/advanced_colors.stderr.log",
+    "size": 7091,
+    "compressed_size": 1649,
+    "crc": 353085416
+  },
+  {
+    "name": "artifacts/installed/advanced_colors.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/algebra_by.stderr.log",
+    "size": 7019,
+    "compressed_size": 1608,
+    "crc": 2141299398
+  },
+  {
+    "name": "artifacts/installed/algebra_by.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/algebra_div.stderr.log",
+    "size": 7026,
+    "compressed_size": 1611,
+    "crc": 4239328509
+  },
+  {
+    "name": "artifacts/installed/algebra_div.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/algebra_minus.stderr.log",
+    "size": 7040,
+    "compressed_size": 1612,
+    "crc": 4194435832
+  },
+  {
+    "name": "artifacts/installed/algebra_plus.stderr.log",
+    "size": 7033,
+    "compressed_size": 1612,
+    "crc": 1252518040
+  },
+  {
+    "name": "artifacts/installed/algebra_minus.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/algebra_plus.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/algorithm.stderr.log",
+    "size": 7091,
+    "compressed_size": 1588,
+    "crc": 1135250129
+  },
+  {
+    "name": "artifacts/installed/algorithm.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/align4.stderr.log",
+    "size": 6847,
+    "compressed_size": 1579,
+    "crc": 2987703210
+  },
+  {
+    "name": "artifacts/installed/align4.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/align4_2players.stderr.log",
+    "size": 6898,
+    "compressed_size": 1590,
+    "crc": 3145012008
+  },
+  {
+    "name": "artifacts/installed/align4_2players.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/alphabet-sequence.stderr.log",
+    "size": 6910,
+    "compressed_size": 1589,
+    "crc": 725685020
+  },
+  {
+    "name": "artifacts/installed/alphabet-sequence.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/analog_electricity.stderr.log",
+    "size": 6904,
+    "compressed_size": 1601,
+    "crc": 1214688808
+  },
+  {
+    "name": "artifacts/installed/analog_electricity.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/babymatch.stderr.log",
+    "size": 6978,
+    "compressed_size": 1590,
+    "crc": 1368675558
+  },
+  {
+    "name": "artifacts/installed/babymatch.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/babyshapes.stderr.log",
+    "size": 6984,
+    "compressed_size": 1591,
+    "crc": 151414750
+  },
+  {
+    "name": "artifacts/installed/babyshapes.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/baby_keyboard.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/baby_keyboard.stderr.log",
+    "size": 7093,
+    "compressed_size": 1596,
+    "crc": 1653227258
+  },
+  {
+    "name": "artifacts/installed/baby_mouse.stderr.log",
+    "size": 7323,
+    "compressed_size": 1596,
+    "crc": 2301371408
+  },
+  {
+    "name": "artifacts/installed/baby_mouse.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/baby_tangram.stderr.log",
+    "size": 6767,
+    "compressed_size": 1549,
+    "crc": 3565029311
+  },
+  {
+    "name": "artifacts/installed/baby_tangram.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/baby_wordprocessor.stderr.log",
+    "size": 7031,
+    "compressed_size": 1578,
+    "crc": 2967799681
+  },
+  {
+    "name": "artifacts/installed/baby_wordprocessor.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/balancebox.stderr.log",
+    "size": 7230,
+    "compressed_size": 1670,
+    "crc": 2849264061
+  },
+  {
+    "name": "artifacts/installed/balancebox.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/ballcatch.stderr.log",
+    "size": 7091,
+    "compressed_size": 1589,
+    "crc": 576969655
+  },
+  {
+    "name": "artifacts/installed/ballcatch.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/bargame.stderr.log",
+    "size": 6775,
+    "compressed_size": 1560,
+    "crc": 3276418610
+  },
+  {
+    "name": "artifacts/installed/bargame.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/bargame_2players.stderr.log",
+    "size": 6835,
+    "compressed_size": 1569,
+    "crc": 3860461098
+  },
+  {
+    "name": "artifacts/installed/bargame_2players.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/binary_bulb.stderr.log",
+    "size": 6987,
+    "compressed_size": 1595,
+    "crc": 3773660064
+  },
+  {
+    "name": "artifacts/installed/binary_bulb.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/braille_alphabets.stderr.log",
+    "size": 7023,
+    "compressed_size": 1597,
+    "crc": 491142830
+  },
+  {
+    "name": "artifacts/installed/braille_alphabets.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/braille_fun.stderr.log",
+    "size": 7067,
+    "compressed_size": 1645,
+    "crc": 4241801068
+  },
+  {
+    "name": "artifacts/installed/braille_fun.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/calcudoku.stderr.log",
+    "size": 7317,
+    "compressed_size": 1594,
+    "crc": 3651993817
+  },
+  {
+    "name": "artifacts/installed/calcudoku.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/calendar.stderr.log",
+    "size": 6972,
+    "compressed_size": 1586,
+    "crc": 35434962
+  },
+  {
+    "name": "artifacts/installed/calendar.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/canal_lock.stderr.log",
+    "size": 7320,
+    "compressed_size": 1597,
+    "crc": 321115083
+  },
+  {
+    "name": "artifacts/installed/categorization.stderr.log",
+    "size": 6824,
+    "compressed_size": 1567,
+    "crc": 1489792455
+  },
+  {
+    "name": "artifacts/installed/canal_lock.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/categorization.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/checkers.stderr.log",
+    "size": 7165,
+    "compressed_size": 1640,
+    "crc": 3062114769
+  },
+  {
+    "name": "artifacts/installed/checkers_2players.stderr.log",
+    "size": 7216,
+    "compressed_size": 1651,
+    "crc": 1204277823
+  },
+  {
+    "name": "artifacts/installed/checkers.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/checkers_2players.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/chess.stderr.log",
+    "size": 7147,
+    "compressed_size": 1637,
+    "crc": 2472447317
+  },
+  {
+    "name": "artifacts/installed/chess.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/chess_2players.stderr.log",
+    "size": 7198,
+    "compressed_size": 1650,
+    "crc": 759044642
+  },
+  {
+    "name": "artifacts/installed/chess_2players.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/chess_partyend.stderr.log",
+    "size": 7118,
+    "compressed_size": 1597,
+    "crc": 1537783208
+  },
+  {
+    "name": "artifacts/installed/chess_partyend.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/chronos.stderr.log",
+    "size": 6966,
+    "compressed_size": 1586,
+    "crc": 3743013628
+  },
+  {
+    "name": "artifacts/installed/chronos.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/clickanddraw.stderr.log",
+    "size": 6923,
+    "compressed_size": 1605,
+    "crc": 107523835
+  },
+  {
+    "name": "artifacts/installed/clickanddraw.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/clickgame.stderr.log",
+    "size": 7058,
+    "compressed_size": 1643,
+    "crc": 4028931545
+  },
+  {
+    "name": "artifacts/installed/clickgame.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/click_on_letter.stderr.log",
+    "size": 8053,
+    "compressed_size": 1642,
+    "crc": 1784809155
+  },
+  {
+    "name": "artifacts/installed/click_on_letter.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/click_on_letter_up.stderr.log",
+    "size": 8071,
+    "compressed_size": 1646,
+    "crc": 488477349
+  },
+  {
+    "name": "artifacts/installed/click_on_letter_up.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/clockgame.stderr.log",
+    "size": 7015,
+    "compressed_size": 1607,
+    "crc": 3911886645
+  },
+  {
+    "name": "artifacts/installed/clockgame.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/colors.stderr.log",
+    "size": 7066,
+    "compressed_size": 1639,
+    "crc": 1334936930
+  },
+  {
+    "name": "artifacts/installed/colors.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/color_mix.stderr.log",
+    "size": 6862,
+    "compressed_size": 1586,
+    "crc": 2249324918
+  },
+  {
+    "name": "artifacts/installed/color_mix.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/color_mix_light.stderr.log",
+    "size": 6895,
+    "compressed_size": 1592,
+    "crc": 1570185617
+  },
+  {
+    "name": "artifacts/installed/comparator.stderr.log",
+    "size": 6984,
+    "compressed_size": 1589,
+    "crc": 2735238475
+  },
+  {
+    "name": "artifacts/installed/comparator.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/compass.stderr.log",
+    "size": 7059,
+    "compressed_size": 1656,
+    "crc": 1236146913
+  },
+  {
+    "name": "artifacts/installed/color_mix_light.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/compass.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/crane.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/crane.stderr.log",
+    "size": 6841,
+    "compressed_size": 1577,
+    "crc": 3593451694
+  },
+  {
+    "name": "artifacts/installed/details.stderr.log",
+    "size": 7046,
+    "compressed_size": 1639,
+    "crc": 372058172
+  },
+  {
+    "name": "artifacts/installed/details.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/digital_electricity.stderr.log",
+    "size": 6911,
+    "compressed_size": 1602,
+    "crc": 1134143050
+  },
+  {
+    "name": "artifacts/installed/digital_electricity.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/drawing_wheels.stderr.log",
+    "size": 7025,
+    "compressed_size": 1613,
+    "crc": 3566918746
+  },
+  {
+    "name": "artifacts/installed/drawing_wheels.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/drawletters.stderr.log",
+    "size": 6916,
+    "compressed_size": 1602,
+    "crc": 2573196243
+  },
+  {
+    "name": "artifacts/installed/drawletters.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/drawnumbers.stderr.log",
+    "size": 6916,
+    "compressed_size": 1602,
+    "crc": 2154191725
+  },
+  {
+    "name": "artifacts/installed/drawnumbers.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/enumerate.stderr.log",
+    "size": 7219,
+    "compressed_size": 1613,
+    "crc": 1457663395
+  },
+  {
+    "name": "artifacts/installed/enumerate.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/erase.stderr.log",
+    "size": 7100,
+    "compressed_size": 1601,
+    "crc": 3042823820
+  },
+  {
+    "name": "artifacts/installed/erase.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/erase_2clic.stderr.log",
+    "size": 7139,
+    "compressed_size": 1609,
+    "crc": 2443162686
+  },
+  {
+    "name": "artifacts/installed/erase_2clic.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/erase_clic.stderr.log",
+    "size": 7132,
+    "compressed_size": 1610,
+    "crc": 3400255122
+  },
+  {
+    "name": "artifacts/installed/erase_clic.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/explore_farm_animals.stderr.log",
+    "size": 7038,
+    "compressed_size": 1605,
+    "crc": 2680416282
+  },
+  {
+    "name": "artifacts/installed/explore_farm_animals.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/explore_monuments.stderr.log",
+    "size": 7106,
+    "compressed_size": 1648,
+    "crc": 2547836297
+  },
+  {
+    "name": "artifacts/installed/explore_monuments.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/explore_world_animals.stderr.log",
+    "size": 7044,
+    "compressed_size": 1606,
+    "crc": 3259042143
+  },
+  {
+    "name": "artifacts/installed/explore_world_animals.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/explore_world_music.stderr.log",
+    "size": 7032,
+    "compressed_size": 1601,
+    "crc": 1047192979
+  },
+  {
+    "name": "artifacts/installed/explore_world_music.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/family.stderr.log",
+    "size": 6734,
+    "compressed_size": 1542,
+    "crc": 717647848
+  },
+  {
+    "name": "artifacts/installed/family.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/family_find_relative.stderr.log",
+    "size": 6818,
+    "compressed_size": 1552,
+    "crc": 3780763469
+  },
+  {
+    "name": "artifacts/installed/family_find_relative.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/fifteen.stderr.log",
+    "size": 6853,
+    "compressed_size": 1581,
+    "crc": 3185037960
+  },
+  {
+    "name": "artifacts/installed/fifteen.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/find_the_day.stderr.log",
+    "size": 7070,
+    "compressed_size": 1650,
+    "crc": 1341518970
+  },
+  {
+    "name": "artifacts/installed/find_the_day.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/followline.stderr.log",
+    "size": 6984,
+    "compressed_size": 1591,
+    "crc": 3398802300
+  },
+  {
+    "name": "artifacts/installed/followline.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/football.stderr.log",
+    "size": 6859,
+    "compressed_size": 1582,
+    "crc": 2623233159
+  },
+  {
+    "name": "artifacts/installed/fractions_create.stderr.log",
+    "size": 7017,
+    "compressed_size": 1593,
+    "crc": 2421845782
+  },
+  {
+    "name": "artifacts/installed/football.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/fractions_create.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/fractions_find.stderr.log",
+    "size": 7008,
+    "compressed_size": 1594,
+    "crc": 3480257603
+  },
+  {
+    "name": "artifacts/installed/fractions_find.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/frieze.stderr.log",
+    "size": 7040,
+    "compressed_size": 1640,
+    "crc": 2867753398
+  },
+  {
+    "name": "artifacts/installed/frieze.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/geo-country.stderr.log",
+    "size": 6987,
+    "compressed_size": 1592,
+    "crc": 3885399776
+  },
+  {
+    "name": "artifacts/installed/geo-country.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/geography.stderr.log",
+    "size": 6978,
+    "compressed_size": 1589,
+    "crc": 180223405
+  },
+  {
+    "name": "artifacts/installed/gletters.stderr.log",
+    "size": 7951,
+    "compressed_size": 1677,
+    "crc": 2812329271
+  },
+  {
+    "name": "artifacts/installed/geography.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/gletters.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/gnumch-equality.stderr.log",
+    "size": 7011,
+    "compressed_size": 1597,
+    "crc": 1444840686
+  },
+  {
+    "name": "artifacts/installed/gnumch-equality.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/gnumch-factors.stderr.log",
+    "size": 7005,
+    "compressed_size": 1596,
+    "crc": 3637717769
+  },
+  {
+    "name": "artifacts/installed/gnumch-factors.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/gnumch-inequality.stderr.log",
+    "size": 7023,
+    "compressed_size": 1598,
+    "crc": 2984786606
+  },
+  {
+    "name": "artifacts/installed/gnumch-multiples.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/gnumch-inequality.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/gnumch-multiples.stderr.log",
+    "size": 7017,
+    "compressed_size": 1595,
+    "crc": 2066183157
+  },
+  {
+    "name": "artifacts/installed/gnumch-primes.stderr.log",
+    "size": 6999,
+    "compressed_size": 1595,
+    "crc": 2528578298
+  },
+  {
+    "name": "artifacts/installed/gnumch-primes.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/graduated_line_read.stderr.log",
+    "size": 7258,
+    "compressed_size": 1604,
+    "crc": 1437289907
+  },
+  {
+    "name": "artifacts/installed/graduated_line_read.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/graduated_line_use.stderr.log",
+    "size": 7252,
+    "compressed_size": 1603,
+    "crc": 3682012675
+  },
+  {
+    "name": "artifacts/installed/graduated_line_use.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/grammar_analysis.stderr.log",
+    "size": 7061,
+    "compressed_size": 1613,
+    "crc": 329838003
+  },
+  {
+    "name": "artifacts/installed/grammar_analysis.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/grammar_classes.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/grammar_classes.stderr.log",
+    "size": 7054,
+    "compressed_size": 1613,
+    "crc": 1945387453
+  },
+  {
+    "name": "artifacts/installed/graph-coloring.stderr.log",
+    "size": 6934,
+    "compressed_size": 1607,
+    "crc": 1275009920
+  },
+  {
+    "name": "artifacts/installed/graph-coloring.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/gravity.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/gravity.stderr.log",
+    "size": 6853,
+    "compressed_size": 1580,
+    "crc": 2687957049
+  },
+  {
+    "name": "artifacts/installed/guess24.stderr.log",
+    "size": 7192,
+    "compressed_size": 1590,
+    "crc": 1984489068
+  },
+  {
+    "name": "artifacts/installed/guess24.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/guesscount.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/guesscount.stderr.log",
+    "size": 6909,
+    "compressed_size": 1602,
+    "crc": 3700790598
+  },
+  {
+    "name": "artifacts/installed/guessnumber.stderr.log",
+    "size": 6877,
+    "compressed_size": 1585,
+    "crc": 2421082633
+  },
+  {
+    "name": "artifacts/installed/guessnumber.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/hangman.stderr.log",
+    "size": 7725,
+    "compressed_size": 1584,
+    "crc": 3645078027
+  },
+  {
+    "name": "artifacts/installed/hangman.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/hanoi.stderr.log",
+    "size": 6728,
+    "compressed_size": 1541,
+    "crc": 1344802597
+  },
+  {
+    "name": "artifacts/installed/hanoi.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/hanoi_real.stderr.log",
+    "size": 6755,
+    "compressed_size": 1549,
+    "crc": 165344299
+  },
+  {
+    "name": "artifacts/installed/hanoi_real.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/hexagon.stderr.log",
+    "size": 6853,
+    "compressed_size": 1580,
+    "crc": 3706801896
+  },
+  {
+    "name": "artifacts/installed/hexagon.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/imagename.stderr.log",
+    "size": 6978,
+    "compressed_size": 1588,
+    "crc": 3081775636
+  },
+  {
+    "name": "artifacts/installed/imagename.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/instruments.stderr.log",
+    "size": 7072,
+    "compressed_size": 1641,
+    "crc": 276080622
+  },
+  {
+    "name": "artifacts/installed/instruments.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/keyboard_training.stderr.log",
+    "size": 8016,
+    "compressed_size": 1686,
+    "crc": 3552655801
+  },
+  {
+    "name": "artifacts/installed/land_safe.stderr.log",
+    "size": 6773,
+    "compressed_size": 1562,
+    "crc": 497210824
+  },
+  {
+    "name": "artifacts/installed/land_safe.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/keyboard_training.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/lang.stderr.log",
+    "size": 7615,
+    "compressed_size": 1581,
+    "crc": 918978557
+  },
+  {
+    "name": "artifacts/installed/lang.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/learn_additions.stderr.log",
+    "size": 7016,
+    "compressed_size": 1593,
+    "crc": 3350012085
+  },
+  {
+    "name": "artifacts/installed/learn_additions.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/learn_decimals.stderr.log",
+    "size": 7010,
+    "compressed_size": 1595,
+    "crc": 959618174
+  },
+  {
+    "name": "artifacts/installed/learn_decimals.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/learn_decimals_additions.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/learn_decimals_additions.stderr.log",
+    "size": 7070,
+    "compressed_size": 1602,
+    "crc": 2263072601
+  },
+  {
+    "name": "artifacts/installed/learn_decimals_subtractions.stderr.log",
+    "size": 7088,
+    "compressed_size": 1603,
+    "crc": 3330005894
+  },
+  {
+    "name": "artifacts/installed/learn_decimals_subtractions.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/learn_digits.stderr.log",
+    "size": 7038,
+    "compressed_size": 1608,
+    "crc": 3286439940
+  },
+  {
+    "name": "artifacts/installed/learn_digits.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/learn_quantities.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/learn_quantities.stderr.log",
+    "size": 7022,
+    "compressed_size": 1593,
+    "crc": 3970672539
+  },
+  {
+    "name": "artifacts/installed/learn_subtractions.stderr.log",
+    "size": 7034,
+    "compressed_size": 1594,
+    "crc": 1444263974
+  },
+  {
+    "name": "artifacts/installed/learn_subtractions.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/leftright.stderr.log",
+    "size": 6980,
+    "compressed_size": 1590,
+    "crc": 1425822256
+  },
+  {
+    "name": "artifacts/installed/leftright.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/left_right_click.stderr.log",
+    "size": 6909,
+    "compressed_size": 1589,
+    "crc": 208126825
+  },
+  {
+    "name": "artifacts/installed/left_right_click.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/letter-in-word.stderr.log",
+    "size": 7935,
+    "compressed_size": 1638,
+    "crc": 3855784996
+  },
+  {
+    "name": "artifacts/installed/letter-in-word.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/lightsoff.stderr.log",
+    "size": 6947,
+    "compressed_size": 1637,
+    "crc": 180605756
+  },
+  {
+    "name": "artifacts/installed/listing.stderr.log",
+    "size": 549,
+    "compressed_size": 340,
+    "crc": 1910205273
+  },
+  {
+    "name": "artifacts/installed/lightsoff.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/louis-braille.stderr.log",
+    "size": 6855,
+    "compressed_size": 1607,
+    "crc": 1292672394
+  },
+  {
+    "name": "artifacts/installed/louis-braille.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/magic-hat-minus.stderr.log",
+    "size": 6882,
+    "compressed_size": 1589,
+    "crc": 2645747970
+  },
+  {
+    "name": "artifacts/installed/magic-hat-minus.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/magic-hat-plus.stderr.log",
+    "size": 6891,
+    "compressed_size": 1593,
+    "crc": 1455189652
+  },
+  {
+    "name": "artifacts/installed/magic-hat-plus.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/maze.stderr.log",
+    "size": 6837,
+    "compressed_size": 1580,
+    "crc": 1801500639
+  },
+  {
+    "name": "artifacts/installed/maze.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/mazeinvisible.stderr.log",
+    "size": 6891,
+    "compressed_size": 1586,
+    "crc": 4243461307
+  },
+  {
+    "name": "artifacts/installed/mazeinvisible.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/mazerelative.stderr.log",
+    "size": 6885,
+    "compressed_size": 1585,
+    "crc": 3928840255
+  },
+  {
+    "name": "artifacts/installed/mazerelative.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/melody.stderr.log",
+    "size": 7527,
+    "compressed_size": 1595,
+    "crc": 1985918119
+  },
+  {
+    "name": "artifacts/installed/melody.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-case-association-tux.stderr.log",
+    "size": 7079,
+    "compressed_size": 1608,
+    "crc": 1657390706
+  },
+  {
+    "name": "artifacts/installed/memory-case-association-tux.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-case-association.stderr.log",
+    "size": 7109,
+    "compressed_size": 1623,
+    "crc": 1507305162
+  },
+  {
+    "name": "artifacts/installed/memory-case-association.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-enumerate.stderr.log",
+    "size": 7063,
+    "compressed_size": 1611,
+    "crc": 3264928862
+  },
+  {
+    "name": "artifacts/installed/memory-enumerate.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-math-add-minus-mult-div-tux.stderr.log",
+    "size": 7112,
+    "compressed_size": 1627,
+    "crc": 4093043153
+  },
+  {
+    "name": "artifacts/installed/memory-math-add-minus-mult-div.stderr.log",
+    "size": 7149,
+    "compressed_size": 1636,
+    "crc": 3596951062
+  },
+  {
+    "name": "artifacts/installed/memory-math-add-minus-mult-div-tux.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-math-add-minus-mult-div.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-math-add-minus-tux.stderr.log",
+    "size": 7064,
+    "compressed_size": 1613,
+    "crc": 3563969837
+  },
+  {
+    "name": "artifacts/installed/memory-math-add-minus.stderr.log",
+    "size": 7092,
+    "compressed_size": 1624,
+    "crc": 1660224127
+  },
+  {
+    "name": "artifacts/installed/memory-math-add-minus-tux.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-math-add-minus.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-math-add-tux.stderr.log",
+    "size": 7031,
+    "compressed_size": 1605,
+    "crc": 3782021528
+  },
+  {
+    "name": "artifacts/installed/memory-math-add-tux.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-math-add.stderr.log",
+    "size": 7053,
+    "compressed_size": 1617,
+    "crc": 2161850870
+  },
+  {
+    "name": "artifacts/installed/memory-math-add.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-math-div-tux.stderr.log",
+    "size": 7031,
+    "compressed_size": 1605,
+    "crc": 1726930579
+  },
+  {
+    "name": "artifacts/installed/memory-math-div-tux.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-math-div.stderr.log",
+    "size": 7053,
+    "compressed_size": 1618,
+    "crc": 2169051191
+  },
+  {
+    "name": "artifacts/installed/memory-math-div.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-math-minus-tux.stderr.log",
+    "size": 7043,
+    "compressed_size": 1607,
+    "crc": 2460218085
+  },
+  {
+    "name": "artifacts/installed/memory-math-minus-tux.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-math-minus.stderr.log",
+    "size": 7067,
+    "compressed_size": 1619,
+    "crc": 2502854956
+  },
+  {
+    "name": "artifacts/installed/memory-math-minus.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-math-mult-div-tux.stderr.log",
+    "size": 7058,
+    "compressed_size": 1614,
+    "crc": 862535098
+  },
+  {
+    "name": "artifacts/installed/memory-math-mult-div-tux.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-math-mult-div.stderr.log",
+    "size": 7085,
+    "compressed_size": 1624,
+    "crc": 2840513313
+  },
+  {
+    "name": "artifacts/installed/memory-math-mult-tux.stderr.log",
+    "size": 7037,
+    "compressed_size": 1607,
+    "crc": 536311293
+  },
+  {
+    "name": "artifacts/installed/memory-math-mult-tux.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-math-mult-div.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-math-mult.stderr.log",
+    "size": 7060,
+    "compressed_size": 1618,
+    "crc": 4110823428
+  },
+  {
+    "name": "artifacts/installed/memory-math-mult.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-sound-tux.stderr.log",
+    "size": 7016,
+    "compressed_size": 1599,
+    "crc": 1365528827
+  },
+  {
+    "name": "artifacts/installed/memory-sound-tux.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-sound.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-tux.stderr.log",
+    "size": 6983,
+    "compressed_size": 1595,
+    "crc": 2190081989
+  },
+  {
+    "name": "artifacts/installed/memory-tux.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory-sound.stderr.log",
+    "size": 7035,
+    "compressed_size": 1609,
+    "crc": 1590581159
+  },
+  {
+    "name": "artifacts/installed/memory-wordnumber.stderr.log",
+    "size": 7070,
+    "compressed_size": 1615,
+    "crc": 408332474
+  },
+  {
+    "name": "artifacts/installed/memory-wordnumber.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/memory.stderr.log",
+    "size": 6996,
+    "compressed_size": 1603,
+    "crc": 2661793756
+  },
+  {
+    "name": "artifacts/installed/memory.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/mining.stderr.log",
+    "size": 6962,
+    "compressed_size": 1587,
+    "crc": 1625374404
+  },
+  {
+    "name": "artifacts/installed/mining.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/missing-letter.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/money.stderr.log",
+    "size": 7102,
+    "compressed_size": 1602,
+    "crc": 1763027686
+  },
+  {
+    "name": "artifacts/installed/missing-letter.stderr.log",
+    "size": 7682,
+    "compressed_size": 1590,
+    "crc": 936170172
+  },
+  {
+    "name": "artifacts/installed/money.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/money_back.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/money_back.stderr.log",
+    "size": 7134,
+    "compressed_size": 1611,
+    "crc": 2705689706
+  },
+  {
+    "name": "artifacts/installed/money_back_cents.stderr.log",
+    "size": 7173,
+    "compressed_size": 1615,
+    "crc": 1285092890
+  },
+  {
+    "name": "artifacts/installed/money_back_cents.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/money_cents.stderr.log",
+    "size": 7141,
+    "compressed_size": 1610,
+    "crc": 3668784826
+  },
+  {
+    "name": "artifacts/installed/money_cents.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/morse_code.stderr.log",
+    "size": 7074,
+    "compressed_size": 1598,
+    "crc": 3807346883
+  },
+  {
+    "name": "artifacts/installed/morse_code.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/mosaic.stderr.log",
+    "size": 6962,
+    "compressed_size": 1587,
+    "crc": 211527785
+  },
+  {
+    "name": "artifacts/installed/mosaic.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/multiple_choice_questions.stderr.log",
+    "size": 7156,
+    "compressed_size": 1654,
+    "crc": 3854712041
+  },
+  {
+    "name": "artifacts/installed/multiple_choice_questions.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/nine_men_morris.stderr.log",
+    "size": 6784,
+    "compressed_size": 1555,
+    "crc": 2850554847
+  },
+  {
+    "name": "artifacts/installed/nine_men_morris.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/nine_men_morris_2players.stderr.log",
+    "size": 6835,
+    "compressed_size": 1562,
+    "crc": 1208547601
+  },
+  {
+    "name": "artifacts/installed/nine_men_morris_2players.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/note_names.stderr.log",
+    "size": 6795,
+    "compressed_size": 1566,
+    "crc": 3813995959
+  },
+  {
+    "name": "artifacts/installed/note_names.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/numbers-odd-even.stderr.log",
+    "size": 6903,
+    "compressed_size": 1595,
+    "crc": 4087934595
+  },
+  {
+    "name": "artifacts/installed/numbers-odd-even.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/number_sequence.stderr.log",
+    "size": 6943,
+    "compressed_size": 1611,
+    "crc": 4138604288
+  },
+  {
+    "name": "artifacts/installed/number_sequence.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/ordering_alphabets.stderr.log",
+    "size": 6885,
+    "compressed_size": 1611,
+    "crc": 2024727854
+  },
+  {
+    "name": "artifacts/installed/ordering_alphabets.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/ordering_chronology.stderr.log",
+    "size": 6811,
+    "compressed_size": 1557,
+    "crc": 4203426144
+  },
+  {
+    "name": "artifacts/installed/ordering_chronology.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/ordering_numbers.stderr.log",
+    "size": 6873,
+    "compressed_size": 1610,
+    "crc": 3947121106
+  },
+  {
+    "name": "artifacts/installed/ordering_numbers.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/ordering_sentences.stderr.log",
+    "size": 6805,
+    "compressed_size": 1554,
+    "crc": 3415083741
+  },
+  {
+    "name": "artifacts/installed/ordering_sentences.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/oware.stderr.log",
+    "size": 6843,
+    "compressed_size": 1581,
+    "crc": 4039573293
+  },
+  {
+    "name": "artifacts/installed/oware.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/oware_2players.stderr.log",
+    "size": 6897,
+    "compressed_size": 1589,
+    "crc": 1329430557
+  },
+  {
+    "name": "artifacts/installed/oware_2players.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/paintings.stderr.log",
+    "size": 6980,
+    "compressed_size": 1592,
+    "crc": 2499715183
+  },
+  {
+    "name": "artifacts/installed/paintings.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/path_decoding.stderr.log",
+    "size": 7001,
+    "compressed_size": 1596,
+    "crc": 2484593941
+  },
+  {
+    "name": "artifacts/installed/path_decoding.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/path_decoding_relative.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/path_decoding_relative.stderr.log",
+    "size": 7052,
+    "compressed_size": 1606,
+    "crc": 326719110
+  },
+  {
+    "name": "artifacts/installed/path_encoding.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/path_encoding.stderr.log",
+    "size": 7001,
+    "compressed_size": 1594,
+    "crc": 2123458628
+  },
+  {
+    "name": "artifacts/installed/path_encoding_relative.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/path_encoding_relative.stderr.log",
+    "size": 7052,
+    "compressed_size": 1604,
+    "crc": 1745558727
+  },
+  {
+    "name": "artifacts/installed/peg_solitaire.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/peg_solitaire.stderr.log",
+    "size": 6929,
+    "compressed_size": 1609,
+    "crc": 2465615971
+  },
+  {
+    "name": "artifacts/installed/penalty.stderr.log",
+    "size": 6968,
+    "compressed_size": 1588,
+    "crc": 3859979794
+  },
+  {
+    "name": "artifacts/installed/penalty.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/photo_hunter.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/photo_hunter.stderr.log",
+    "size": 6995,
+    "compressed_size": 1595,
+    "crc": 336561909
+  },
+  {
+    "name": "artifacts/installed/piano_composition.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/piano_composition.stderr.log",
+    "size": 6893,
+    "compressed_size": 1553,
+    "crc": 4032940177
+  },
+  {
+    "name": "artifacts/installed/planegame.stderr.log",
+    "size": 6864,
+    "compressed_size": 1586,
+    "crc": 4286927956
+  },
+  {
+    "name": "artifacts/installed/planegame.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/play_piano.stderr.log",
+    "size": 7021,
+    "compressed_size": 1613,
+    "crc": 2073252032
+  },
+  {
+    "name": "artifacts/installed/play_piano.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/play_rhythm.stderr.log",
+    "size": 7182,
+    "compressed_size": 1649,
+    "crc": 52576964
+  },
+  {
+    "name": "artifacts/installed/play_rhythm.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/polygons.stderr.log",
+    "size": 6864,
+    "compressed_size": 1620,
+    "crc": 2397092823
+  },
+  {
+    "name": "artifacts/installed/polygons.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/positions.stderr.log",
+    "size": 7060,
+    "compressed_size": 1643,
+    "crc": 1644973322
+  },
+  {
+    "name": "artifacts/installed/positions.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/programmingMaze.stderr.log",
+    "size": 6903,
+    "compressed_size": 1587,
+    "crc": 3206520953
+  },
+  {
+    "name": "artifacts/installed/programmingMaze.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/railroad.stderr.log",
+    "size": 7200,
+    "compressed_size": 1593,
+    "crc": 3424714564
+  },
+  {
+    "name": "artifacts/installed/railroad.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/readingh.stderr.log",
+    "size": 7116,
+    "compressed_size": 1656,
+    "crc": 1945114959
+  },
+  {
+    "name": "artifacts/installed/readingh.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/readingv.stderr.log",
+    "size": 7116,
+    "compressed_size": 1656,
+    "crc": 115707249
+  },
+  {
+    "name": "artifacts/installed/readingv.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/redraw.stderr.log",
+    "size": 7075,
+    "compressed_size": 1587,
+    "crc": 3174843583
+  },
+  {
+    "name": "artifacts/installed/redraw.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/redraw_symmetrical.stderr.log",
+    "size": 7144,
+    "compressed_size": 1598,
+    "crc": 1579460771
+  },
+  {
+    "name": "artifacts/installed/redraw_symmetrical.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/renewable_energy.stderr.log",
+    "size": 7245,
+    "compressed_size": 1599,
+    "crc": 2243609999
+  },
+  {
+    "name": "artifacts/installed/renewable_energy.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/reversecount.stderr.log",
+    "size": 7264,
+    "compressed_size": 1610,
+    "crc": 2185220273
+  },
+  {
+    "name": "artifacts/installed/reversecount.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/roman_numerals.stderr.log",
+    "size": 7098,
+    "compressed_size": 1600,
+    "crc": 3579843614
+  },
+  {
+    "name": "artifacts/installed/roman_numerals.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/scalesboard.stderr.log",
+    "size": 7105,
+    "compressed_size": 1591,
+    "crc": 4079541420
+  },
+  {
+    "name": "artifacts/installed/scalesboard.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/scalesboard_weight.stderr.log",
+    "size": 7144,
+    "compressed_size": 1599,
+    "crc": 2848341303
+  },
+  {
+    "name": "artifacts/installed/scalesboard_weight.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/scalesboard_weight_avoirdupois.stderr.log",
+    "size": 7260,
+    "compressed_size": 1661,
+    "crc": 429219432
+  },
+  {
+    "name": "artifacts/installed/scalesboard_weight_avoirdupois.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/share.stderr.log",
+    "size": 6989,
+    "compressed_size": 1599,
+    "crc": 913417984
+  },
+  {
+    "name": "artifacts/installed/share.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/simplepaint.stderr.log",
+    "size": 6879,
+    "compressed_size": 1586,
+    "crc": 3815616936
+  },
+  {
+    "name": "artifacts/installed/simplepaint.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/sixteen.stderr.log",
+    "size": 6855,
+    "compressed_size": 1582,
+    "crc": 3171390120
+  },
+  {
+    "name": "artifacts/installed/sixteen.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/sketch.stderr.log",
+    "size": 7087,
+    "compressed_size": 1608,
+    "crc": 2245714607
+  },
+  {
+    "name": "artifacts/installed/sketch.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/smallnumbers.stderr.log",
+    "size": 7875,
+    "compressed_size": 1631,
+    "crc": 2077297628
+  },
+  {
+    "name": "artifacts/installed/smallnumbers.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/smallnumbers2.stderr.log",
+    "size": 7882,
+    "compressed_size": 1632,
+    "crc": 2030710716
+  },
+  {
+    "name": "artifacts/installed/smallnumbers2.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/solar_system.stderr.log",
+    "size": 7035,
+    "compressed_size": 1612,
+    "crc": 83406993
+  },
+  {
+    "name": "artifacts/installed/solar_system.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/startup-check.json",
+    "size": 44974,
+    "compressed_size": 1653,
+    "crc": 2928732032
+  },
+  {
+    "name": "artifacts/installed/submarine.stderr.log",
+    "size": 6754,
+    "compressed_size": 1547,
+    "crc": 3002249388
+  },
+  {
+    "name": "artifacts/installed/submarine.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/sudoku.stderr.log",
+    "size": 7301,
+    "compressed_size": 1593,
+    "crc": 2679037837
+  },
+  {
+    "name": "artifacts/installed/sudoku.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/superbrain.stderr.log",
+    "size": 6911,
+    "compressed_size": 1602,
+    "crc": 918868229
+  },
+  {
+    "name": "artifacts/installed/superbrain.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/tangram.stderr.log",
+    "size": 6742,
+    "compressed_size": 1541,
+    "crc": 1260673936
+  },
+  {
+    "name": "artifacts/installed/target.stderr.log",
+    "size": 7166,
+    "compressed_size": 1593,
+    "crc": 58116707
+  },
+  {
+    "name": "artifacts/installed/tangram.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/target.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/tens_complement_calculate.stderr.log",
+    "size": 7076,
+    "compressed_size": 1600,
+    "crc": 3008328107
+  },
+  {
+    "name": "artifacts/installed/tens_complement_find.stderr.log",
+    "size": 7046,
+    "compressed_size": 1596,
+    "crc": 1212488222
+  },
+  {
+    "name": "artifacts/installed/tens_complement_calculate.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/tens_complement_find.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/tens_complement_swap.stderr.log",
+    "size": 7046,
+    "compressed_size": 1596,
+    "crc": 1023308620
+  },
+  {
+    "name": "artifacts/installed/tens_complement_swap.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/tens_complement_use.stderr.log",
+    "size": 7040,
+    "compressed_size": 1596,
+    "crc": 1773573550
+  },
+  {
+    "name": "artifacts/installed/tic_tac_toe.stderr.log",
+    "size": 6873,
+    "compressed_size": 1590,
+    "crc": 815290407
+  },
+  {
+    "name": "artifacts/installed/tens_complement_use.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/tic_tac_toe.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/tic_tac_toe_2players.stderr.log",
+    "size": 6933,
+    "compressed_size": 1593,
+    "crc": 685999824
+  },
+  {
+    "name": "artifacts/installed/tic_tac_toe_2players.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/traffic.stderr.log",
+    "size": 7003,
+    "compressed_size": 1609,
+    "crc": 2893252267
+  },
+  {
+    "name": "artifacts/installed/vertical_addition.stderr.log",
+    "size": 7025,
+    "compressed_size": 1599,
+    "crc": 3640182415
+  },
+  {
+    "name": "artifacts/installed/traffic.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/vertical_addition.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/vertical_subtraction.stderr.log",
+    "size": 7043,
+    "compressed_size": 1601,
+    "crc": 1352741508
+  },
+  {
+    "name": "artifacts/installed/vertical_subtraction.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/vertical_subtraction_compensation.stderr.log",
+    "size": 7118,
+    "compressed_size": 1611,
+    "crc": 3173893818
+  },
+  {
+    "name": "artifacts/installed/vertical_subtraction_compensation.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/watercycle.stderr.log",
+    "size": 7438,
+    "compressed_size": 1596,
+    "crc": 4207312776
+  },
+  {
+    "name": "artifacts/installed/watercycle.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installed/wordsgame.stderr.log",
+    "size": 7960,
+    "compressed_size": 1678,
+    "crc": 107083514
+  },
+  {
+    "name": "artifacts/installed/wordsgame.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/installer-check.json",
+    "size": 305,
+    "compressed_size": 182,
+    "crc": 1600865392
+  },
+  {
+    "name": "artifacts/package-check.json",
+    "size": 305,
+    "compressed_size": 182,
+    "crc": 1600865392
+  },
+  {
+    "name": "artifacts/SHA256SUMS.txt",
+    "size": 215,
+    "compressed_size": 154,
+    "crc": 3326232870
+  },
+  {
+    "name": "artifacts/staged/activities.txt",
+    "size": 3095,
+    "compressed_size": 1153,
+    "crc": 4103924987
+  },
+  {
+    "name": "artifacts/staged/click_on_letter.stderr.log",
+    "size": 8019,
+    "compressed_size": 1639,
+    "crc": 3481192601
+  },
+  {
+    "name": "artifacts/staged/fractions_create.stderr.log",
+    "size": 6991,
+    "compressed_size": 1590,
+    "crc": 3420697104
+  },
+  {
+    "name": "artifacts/staged/click_on_letter.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/staged/fractions_create.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/staged/gletters.stderr.log",
+    "size": 7917,
+    "compressed_size": 1673,
+    "crc": 1634508517
+  },
+  {
+    "name": "artifacts/staged/gletters.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/staged/grammar_analysis.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/staged/grammar_analysis.stderr.log",
+    "size": 7035,
+    "compressed_size": 1609,
+    "crc": 2913355376
+  },
+  {
+    "name": "artifacts/staged/grammar_classes.stderr.log",
+    "size": 7060,
+    "compressed_size": 1626,
+    "crc": 1818207436
+  },
+  {
+    "name": "artifacts/staged/grammar_classes.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/staged/keyboard_training.stderr.log",
+    "size": 7980,
+    "compressed_size": 1681,
+    "crc": 3901882914
+  },
+  {
+    "name": "artifacts/staged/keyboard_training.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/staged/listing.stderr.log",
+    "size": 540,
+    "compressed_size": 337,
+    "crc": 2162928509
+  },
+  {
+    "name": "artifacts/staged/multiple_choice_questions.stderr.log",
+    "size": 7128,
+    "compressed_size": 1648,
+    "crc": 4237050161
+  },
+  {
+    "name": "artifacts/staged/multiple_choice_questions.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/staged/ordering_chronology.stderr.log",
+    "size": 6783,
+    "compressed_size": 1551,
+    "crc": 3755022480
+  },
+  {
+    "name": "artifacts/staged/ordering_chronology.stdout.log",
+    "size": 0,
+    "compressed_size": 2,
+    "crc": 0
+  },
+  {
+    "name": "artifacts/staged/startup-check.json",
+    "size": 2049,
+    "compressed_size": 355,
+    "crc": 69076211
+  },
+  {
+    "name": "build.log",
+    "size": 893,
+    "compressed_size": 472,
+    "crc": 104941526
+  },
+  {
+    "name": "CMakeCache.txt",
+    "size": 82569,
+    "compressed_size": 12405,
+    "crc": 1327930687
+  },
+  {
+    "name": "windeployqt-help.log",
+    "size": 10291,
+    "compressed_size": 2839,
+    "crc": 2927910460
+  }
+]

@@ -1,0 +1,14 @@
+# Lote 90 em implementação
+
+Base de integração faa44382b; árvore própria work/pt-patterns. Snapshot físico independente build/patterns-origin: 269 ficheiros, executável 3a226ee7…, criação terminou com zero na sessão 98428/saída da0e9c. Nenhuma execução funcional é demonstrada pela criação do snapshot.
+
+Redraw_symmetrical herda Redraw; será instrumentado redraw.rcc. Mosaic e Polygons têm RCC próprios. O modo livre Polygons não será tratado como exaustão de polígonos ou níveis artificiais. Primeira etapa: inventário nativo dos elementos realmente desenhados, sem usar modelos ocultos para resolver.
+Os quatro inventários nativos terminaram com Qt/supervisor/capturador/externo zero: 38 níveis/1520 células Redraw,21/645 simétrico,22/321 imagens Mosaic,9 instruções tutorial Polygons. Não representam partidas concluídas. Dois calibradores iniciais falharam por uma guarda do teste que excluía a barra. Ambos Qt zero; preservados sem alegação de defeito do produto. Os dois calibradores corrigidos terminaram zero, sete cores pintadas cada e nenhum Win.
+
+As sete assinaturas de cor resultam da pintura real; o branco Qt tem notação ARGB #33ffffff. Os 25 SVG de Mosaic foram extraídos dos RCC do snapshot e renderizados por librsvg/cairo para PNG físico160RGBA, com25 assinaturas únicas. As URIs públicas apenas localizam bytes. O registo conserva SHA do recurso,PNG e píxeis; não lê posições/soluções autorais. O auditor puro terá de distinguir rehash de PNG da eventual reexecução do renderer SVG.
+
+Nove exemplos inteiros de polígonos foram calculados por propositor independente e conferidos por geometria racional, apenas com as instruções públicas observadas. Ainda não foram executados no jogo.
+
+Os três percursos primários completaram81tabuleiros/2486células e81erros reparados, com81Win e menu final. O replay independente Python das geometrias e de todas as ações passou para os81. No tutorial Polygons, piloto1 e os nove níveis completos passaram. O primeiro controls-free preserva nove figuras livres e arrasto, mas falha na fixture: chama mouseDoubleClick, inexistente no TestCase.qml instalado, que oferece mouseDoubleClickSequence. Também se encontrou referência partilhada em metadata requested do desenho editado; a nova fixture clona a metadata. Não há defeito de produto inferido.
+
+A campanha terminou23 processos Qt zero,16 supervisores/capturadores externos zero e7 um. controls2Sym é parcial apesar de nativo zero; controls3Sym exige e demonstra edição real. As fontes, RCC/QM/casos/cenas e todas observações foram selados uma só vez, índice4c02249e eZIPe44a6004, sem reancorar. O auditor reconciliou a metadata de output relativo usando o deployment absoluto do recibo e os bytes físicos instrumentados. A cópia Docker isolada passou normal/-O,70.059/69.399s, sessão56551/chunkb6d4c9/0. Os Python executáveis continuam byte-a-byte iguais após a documentação. CSV152 evidências e cinco critérios globais pending em203linhas.

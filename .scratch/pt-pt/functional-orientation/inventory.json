@@ -1,0 +1,129 @@
+{
+  "leftright": [
+    {
+      "images": [
+        "main_droite_dessus_0.webp",
+        "main_droite_paume_0.webp",
+        "main_gauche_dessus_0.webp",
+        "main_gauche_paume_0.webp"
+      ],
+      "rotations": [
+        -90
+      ]
+    },
+    {
+      "images": [
+        "main_droite_dessus_0.webp",
+        "main_droite_paume_0.webp",
+        "main_gauche_dessus_0.webp",
+        "main_gauche_paume_0.webp"
+      ],
+      "rotations": [
+        0,
+        180
+      ]
+    },
+    {
+      "images": [
+        "main_droite_dessus_0.webp",
+        "main_droite_paume_0.webp",
+        "main_gauche_dessus_0.webp",
+        "main_gauche_paume_0.webp"
+      ],
+      "rotations": [
+        90
+      ]
+    },
+    {
+      "images": [
+        "poing_droit_dessus_0.webp",
+        "poing_droit_paume_0.webp",
+        "poing_gauche_dessus_0.webp",
+        "poing_gauche_paume_0.webp"
+      ],
+      "rotations": [
+        -90
+      ]
+    },
+    {
+      "images": [
+        "poing_droit_dessus_0.webp",
+        "poing_droit_paume_0.webp",
+        "poing_gauche_dessus_0.webp",
+        "poing_gauche_paume_0.webp"
+      ],
+      "rotations": [
+        0,
+        180
+      ]
+    },
+    {
+      "images": [
+        "poing_droit_dessus_0.webp",
+        "poing_droit_paume_0.webp",
+        "poing_gauche_dessus_0.webp",
+        "poing_gauche_paume_0.webp"
+      ],
+      "rotations": [
+        90
+      ]
+    }
+  ],
+  "positions": [
+    {
+      "dataset": 1,
+      "mode": "text-to-picture",
+      "relations": [
+        "beside",
+        "behind",
+        "in front of",
+        "inside",
+        "above",
+        "under"
+      ]
+    },
+    {
+      "dataset": 1,
+      "mode": "picture-to-text",
+      "relations": [
+        "beside",
+        "behind",
+        "in front of",
+        "inside",
+        "above",
+        "under"
+      ]
+    },
+    {
+      "dataset": 2,
+      "mode": "text-to-picture",
+      "relations": [
+        "right",
+        "left",
+        "behind",
+        "in front of",
+        "inside",
+        "above",
+        "under"
+      ]
+    },
+    {
+      "dataset": 2,
+      "mode": "picture-to-text",
+      "relations": [
+        "right",
+        "left",
+        "behind",
+        "in front of",
+        "inside",
+        "above",
+        "under"
+      ]
+    }
+  ],
+  "left_right_click": [
+    5,
+    7,
+    10
+  ]
+}

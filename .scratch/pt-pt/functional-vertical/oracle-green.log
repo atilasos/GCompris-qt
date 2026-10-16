@@ -1,0 +1,8 @@
+test_addition_with_several_carries (test_oracle.VerticalArithmetic.test_addition_with_several_carries) ... ok
+test_borrow_across_zero_columns (test_oracle.VerticalArithmetic.test_borrow_across_zero_columns) ... ok
+test_compensation_moves_debt_to_bottom_operand (test_oracle.VerticalArithmetic.test_compensation_moves_debt_to_bottom_operand) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK

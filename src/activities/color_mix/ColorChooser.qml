@@ -100,14 +100,13 @@ Image {
         MouseArea {
             anchors.fill: parent
             enabled: !chooser.buttonsBlocked
-            drag.target: sliderHandle
-            onPositionChanged: {
-                if(sliderHandle.x < 0)
-                    sliderHandle.x = 0;
-                if(sliderHandle.x > sliderArea.maxLimit)
-                    sliderHandle.x = sliderArea.maxLimit;
-                chooser.currentStep = Math.round(sliderHandle.x / sliderArea.maxLimit * chooser.maxSteps);
-                chooser.setSliderX();
+            onPositionChanged: (mouse) => {
+                if (!pressed)
+                    return;
+                // Derive each step from the pointer, so snapping the handle
+                // cannot accumulate rounding errors during a gradual drag.
+                var fraction = (mouse.x - sliderHandle.width * 0.5) / sliderArea.maxLimit;
+                chooser.currentStep = Math.round(Math.max(0, Math.min(1, fraction)) * chooser.maxSteps);
             }
         }
     }

@@ -1,0 +1,2 @@
+env: '/tmp/gcompris-qml-tmp-9huahhbe/.native-qml-d335fdba361a421c982feadecf867440/bin/gcompris-qt': No such file or directory
+env: use -[v]S to pass options in shebang lines

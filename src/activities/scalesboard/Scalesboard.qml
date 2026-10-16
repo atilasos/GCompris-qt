@@ -426,21 +426,26 @@ ActivityBase {
             enableInput: !items.buttonsBlocked
         }
 
+        function handleAnswerKey(event, pressed) {
+            if(!question.visible ||
+               !((event.key >= Qt.Key_0 && event.key <= Qt.Key_9) || event.key === Qt.Key_Backspace))
+                return;
+            event.accepted = true;
+            if(!items.buttonsBlocked)
+                numpad.updateAnswer(event.key, pressed);
+        }
+
         Keys.enabled: !items.buttonsBlocked
         Keys.onPressed: (event) => {
             if(okButton.enabled && (event.key === Qt.Key_Enter || event.key === Qt.Key_Return)) {
-                    Activity.checkAnswer()
-            }
-            else if(question.visible) {
-                    numpad.updateAnswer(event.key, true);
+                event.accepted = true;
+                Activity.checkAnswer();
+            } else {
+                handleAnswerKey(event, true);
             }
         }
 
-        Keys.onReleased: (event) => {
-            if(question.visible) {
-                numpad.updateAnswer(event.key, false);
-            }
-        }
+        Keys.onReleased: (event) => handleAnswerKey(event, false)
 
         Bonus {
             id: bonus

@@ -28,7 +28,7 @@ var words
 function start(items_) {
     items = items_
     items.score.currentSubLevel = 0
-    var locale = items.locale == "system" ? "$LOCALE" : items.locale
+    var locale = GCompris.ApplicationInfo.getVoicesLocale(items.locale)
 
     items.wordlist.loadFromFile(GCompris.ApplicationInfo.getLocaleFilePath(
             dataSetUrl + "default-"+locale+".json"));
@@ -52,6 +52,7 @@ function start(items_) {
         items.wordlist.useDefault = false
     }
     maxLevel = items.wordlist.maxLevel;
+    items.numberOfLevel = maxLevel;
     items.currentLevel = Core.getInitialLevel(maxLevel);
     initLevel();
 }
@@ -85,13 +86,12 @@ function initSubLevel() {
             words.push(items.textToFind)
         }
     } else if(words.indexOf(items.textToFind) > -1) {    // answer should be no
-        var wordIndex = words.indexOf(items.textToFind)  // if word is included, remove it
-        words.splice(wordIndex, 1)
-        for(var i=level.words.length - 1; i == 0; i--) { // try to get a word from the whole list different from textToFind and not yet in words
+        // Wordlists may repeat a word. A "not found" round must remove every occurrence.
+        words = words.filter(function(word) { return word != items.textToFind })
+        for(var i=level.words.length - 1; i >= 0 && words.length < 15; i--) { // try to get a word from the whole list different from textToFind and not yet in words
             if(level.words[i] != items.textToFind && words.indexOf(level.words[i]) == -1) {
                 var wordToAdd = level.words[i]
                 words.push(wordToAdd)
-                break
             }
         }
     }

@@ -108,7 +108,8 @@ ActivityBase {
             readonly property real devicePixelRatio: Screen.devicePixelRatio
         }
 
-        onStart: { Activity.start(items) }
+        onStart: {
+            activity.numberOfLevel = items.numberOfLevel; Activity.start(items) }
         onStop: { Activity.stop() }
 
         File { id: file }
@@ -1282,7 +1283,7 @@ ActivityBase {
                 anchors.bottom: parent.bottom
                 anchors.margins: 0
 
-                palette: paletteSelector.currentPalette.modelData
+                paletteColors: paletteSelector.currentPalette.modelData
                 defaultPalette: paletteSelector.defaultPaletteList[paletteSelector.currentIndex]
 
                 onSelectedColorChanged: {
@@ -1298,8 +1299,8 @@ ActivityBase {
                     paletteSelector.currentPalette.refreshColor(colorIndex, editedColor);
                 }
                 onResetSelectedPalette: {
-                    for(var i = 0; i < palette.length; i++) {
-                        paletteSelector.currentPalette.modelData[i] = palette[i];
+                    for(var i = 0; i < paletteColors.length; i++) {
+                        paletteSelector.currentPalette.modelData[i] = paletteColors[i];
                     }
                     paletteSelector.currentPalette.reloadPaletteColors(paletteSelector.paletteList[paletteSelector.currentIndex]);
                 }

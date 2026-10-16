@@ -1,0 +1,30 @@
+[
+  {
+    "activity": "graduated_line_read",
+    "level": 22,
+    "step": 2000,
+    "output": "graduated_line_read-22-2000",
+    "exit_code": 0
+  },
+  {
+    "activity": "graduated_line_read",
+    "level": 26,
+    "step": 100000,
+    "output": "graduated_line_read-26-100000",
+    "exit_code": 0
+  },
+  {
+    "activity": "graduated_line_use",
+    "level": 20,
+    "step": 200,
+    "output": "graduated_line_use-20-200",
+    "exit_code": 0
+  },
+  {
+    "activity": "graduated_line_use",
+    "level": 23,
+    "step": 1000,
+    "output": "graduated_line_use-23-1000",
+    "exit_code": 0
+  }
+]

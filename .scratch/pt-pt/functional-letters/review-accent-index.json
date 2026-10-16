@@ -1,0 +1,292 @@
+{
+  "format": 1,
+  "scope": "Replacement of gletters gameplay evidence only; other fourteen native cases retain historical evidence. No production changes.",
+  "old_result": "run3/gletters/result.json",
+  "red_result": "review-accent-red/result.json",
+  "green_result": "review-accent-green/result.json",
+  "gletters_correct_inputs": 425,
+  "gletters_wrong_inputs": 252,
+  "completed_level_mode_routes": 26,
+  "accent_rejections": [
+    {
+      "mode": "mixed",
+      "target": "õ",
+      "input": "o",
+      "level": 11,
+      "score": 0
+    },
+    {
+      "mode": "mixed",
+      "target": "â",
+      "input": "a",
+      "level": 11,
+      "score": 1
+    },
+    {
+      "mode": "mixed",
+      "target": "ç",
+      "input": "c",
+      "level": 11,
+      "score": 2
+    },
+    {
+      "mode": "mixed",
+      "target": "ô",
+      "input": "o",
+      "level": 11,
+      "score": 3
+    },
+    {
+      "mode": "mixed",
+      "target": "ê",
+      "input": "e",
+      "level": 11,
+      "score": 4
+    },
+    {
+      "mode": "mixed",
+      "target": "í",
+      "input": "i",
+      "level": 11,
+      "score": 5
+    },
+    {
+      "mode": "mixed",
+      "target": "ú",
+      "input": "u",
+      "level": 11,
+      "score": 6
+    },
+    {
+      "mode": "mixed",
+      "target": "ã",
+      "input": "a",
+      "level": 11,
+      "score": 7
+    },
+    {
+      "mode": "mixed",
+      "target": "é",
+      "input": "e",
+      "level": 11,
+      "score": 8
+    },
+    {
+      "mode": "mixed",
+      "target": "á",
+      "input": "a",
+      "level": 11,
+      "score": 9
+    },
+    {
+      "mode": "mixed",
+      "target": "à",
+      "input": "a",
+      "level": 11,
+      "score": 10
+    },
+    {
+      "mode": "mixed",
+      "target": "ó",
+      "input": "o",
+      "level": 11,
+      "score": 11
+    },
+    {
+      "mode": "uppercase",
+      "target": "À",
+      "input": "a",
+      "level": 11,
+      "score": 0
+    },
+    {
+      "mode": "uppercase",
+      "target": "Ã",
+      "input": "a",
+      "level": 11,
+      "score": 1
+    },
+    {
+      "mode": "uppercase",
+      "target": "Ç",
+      "input": "c",
+      "level": 11,
+      "score": 2
+    },
+    {
+      "mode": "uppercase",
+      "target": "Ó",
+      "input": "o",
+      "level": 11,
+      "score": 3
+    },
+    {
+      "mode": "uppercase",
+      "target": "Á",
+      "input": "a",
+      "level": 11,
+      "score": 4
+    },
+    {
+      "mode": "uppercase",
+      "target": "Ú",
+      "input": "u",
+      "level": 11,
+      "score": 5
+    },
+    {
+      "mode": "uppercase",
+      "target": "Ô",
+      "input": "o",
+      "level": 11,
+      "score": 6
+    },
+    {
+      "mode": "uppercase",
+      "target": "Ê",
+      "input": "e",
+      "level": 11,
+      "score": 7
+    },
+    {
+      "mode": "uppercase",
+      "target": "É",
+      "input": "e",
+      "level": 11,
+      "score": 8
+    },
+    {
+      "mode": "uppercase",
+      "target": "Í",
+      "input": "i",
+      "level": 11,
+      "score": 9
+    },
+    {
+      "mode": "uppercase",
+      "target": "Õ",
+      "input": "o",
+      "level": 11,
+      "score": 10
+    },
+    {
+      "mode": "uppercase",
+      "target": "Â",
+      "input": "a",
+      "level": 11,
+      "score": 11
+    }
+  ],
+  "historical_composite": {
+    "correct_inputs": 1037,
+    "wrong_inputs": 282,
+    "completed_level_mode_routes": 74
+  },
+  "revised_composite": {
+    "correct_inputs": 1037,
+    "wrong_inputs": 306,
+    "completed_level_mode_routes": 74,
+    "note": "Composite of latest gletters and retained historical other activity results, not a new all-fifteen-case run."
+  },
+  "acceptance": {
+    "linux_global": "pending",
+    "windows10": "pending",
+    "teacher_review": "pending",
+    "physical_audio": "pending",
+    "physical_keyboard": "pending"
+  },
+  "artifacts": {
+    "review-accent-red/case-before-probes.qml": {
+      "sha256": "47301514b5d5fa4aa29fbad3793a31b5988b2373402022a9bf344746d5bbc276",
+      "bytes": 5567
+    },
+    "review-accent-red/falling-false-level-1.png": {
+      "sha256": "4d0214503f7c1c010332f384e3f99748548060ad03343babb034d9af358db5e9",
+      "bytes": 43443
+    },
+    "review-accent-red/falling-false-level-11.png": {
+      "sha256": "153a0d6ac5d60c0b4778254b2bce7748a1f440e578ec7e11aa6183a8574dc935",
+      "bytes": 143292
+    },
+    "review-accent-red/falling-false-level-12.png": {
+      "sha256": "00ecf9f1ca3e8a19abb64fdbc282c7f72ef6a06501d34a4cf51f0dce1a938ae8",
+      "bytes": 145367
+    },
+    "review-accent-red/falling-false-level-13.png": {
+      "sha256": "6dda02329686abf2dd378f8a562d28f3c26104ea9e22855f0c9d5d0e11c2f9cd",
+      "bytes": 145541
+    },
+    "review-accent-red/falling-true-level-1.png": {
+      "sha256": "4d0214503f7c1c010332f384e3f99748548060ad03343babb034d9af358db5e9",
+      "bytes": 43443
+    },
+    "review-accent-red/falling-true-level-11.png": {
+      "sha256": "acd38d391ad4d6f0e0403bf127d83446711269235c0397cedaf4243c36966d8a",
+      "bytes": 142643
+    },
+    "review-accent-red/falling-true-level-12.png": {
+      "sha256": "52ce5dbccece2aeb7d705a6dadcfa917c666c42f17690898f0a19ca1a228cae9",
+      "bytes": 145042
+    },
+    "review-accent-red/falling-true-level-13.png": {
+      "sha256": "557f31bc12791d63b2d88657d1bf20d594aafad190b7d7bc79942fc9323195fe",
+      "bytes": 145320
+    },
+    "review-accent-red/native.log": {
+      "sha256": "88600f3f3df458e8e177e13861eec4309fd56d760e0016ccfa200935bc3c9e50",
+      "bytes": 13036
+    },
+    "review-accent-red/result.json": {
+      "sha256": "273269fc397d359218113af0bd37b725389dee30049754caa514a808769fe391",
+      "bytes": 6653
+    },
+    "review-accent-green/adapter.log": {
+      "sha256": "90d0ee30d3539576ac4ff91fbea030cb492438613496ce081d0569e3c69c52f1",
+      "bytes": 543
+    },
+    "review-accent-green/falling-false-level-1.png": {
+      "sha256": "4d0214503f7c1c010332f384e3f99748548060ad03343babb034d9af358db5e9",
+      "bytes": 43443
+    },
+    "review-accent-green/falling-false-level-11.png": {
+      "sha256": "b89c75f2818426bf9c02408717f112c5a509c8392b122d1ba25f9d2bbebe49e8",
+      "bytes": 143454
+    },
+    "review-accent-green/falling-false-level-12.png": {
+      "sha256": "ddefd38f306990afb985f9e4bbe8559b47b22065e01424a073cfc6b90c03e444",
+      "bytes": 144904
+    },
+    "review-accent-green/falling-false-level-13.png": {
+      "sha256": "9ff92d6341f3176810b2058c9d41ec6b57a1a0646e1b2c129c50510b4689ade1",
+      "bytes": 145404
+    },
+    "review-accent-green/falling-minimum-speed.png": {
+      "sha256": "20ee5081ba75feca02b244a729ef99cdc7949d634530bca3b62a9e66914fea6e",
+      "bytes": 144380
+    },
+    "review-accent-green/falling-true-level-1.png": {
+      "sha256": "4d0214503f7c1c010332f384e3f99748548060ad03343babb034d9af358db5e9",
+      "bytes": 43443
+    },
+    "review-accent-green/falling-true-level-11.png": {
+      "sha256": "df6334d4c339c35027d34325f72545ff7d414c27374de1d84b79793c00848c73",
+      "bytes": 143777
+    },
+    "review-accent-green/falling-true-level-12.png": {
+      "sha256": "a2f7e6dbbd927278fabb2c31e5c34e18baee45fe134cbb292ef5e0f6a8757c98",
+      "bytes": 144736
+    },
+    "review-accent-green/falling-true-level-13.png": {
+      "sha256": "cf5cfa73776f8d1456ca9ae53622ff1571b8ae14bd3d865dfe0ea5b9a2113101",
+      "bytes": 146007
+    },
+    "review-accent-green/native.log": {
+      "sha256": "de4483a81e21f331013301d0c6ad3d802fee927118852b0a834008f1a436113b",
+      "bytes": 16196
+    },
+    "review-accent-green/result.json": {
+      "sha256": "b0aade061f36e3315bea66bcdbb4c2cfa7a1b87cc9c7cf3c9240582999cfadb7",
+      "bytes": 7306
+    }
+  }
+}

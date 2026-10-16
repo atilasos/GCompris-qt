@@ -1,0 +1,110 @@
+[
+  {
+    "bytes": 16828,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/lightsoff/Lightsoff.qml",
+    "sha256": "2277014b59fd3f9fd8c7aef13ec71d0e40f8e3feabc2afa5a07ae211507c3a3a"
+  },
+  {
+    "bytes": 8561,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/lightsoff/lightsoff.svg",
+    "sha256": "cbd7cdd7f2ca0987e1c6e7472d4a0ccc49e13485379eaa6734e34f83dd0e9d7c"
+  },
+  {
+    "bytes": 1130,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/lightsoff/ActivityInfo.qml",
+    "sha256": "d49e3ca36861122c1b5a6ac6f8c83c1aa30c922d3e8affe75a4ebb13f30d6833"
+  },
+  {
+    "bytes": 3200,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/lightsoff/lightsoff.js",
+    "sha256": "e149b1f51482aa1de305f4d97be88c710846acd8f4eb3e6501a120c54d01ec5c"
+  },
+  {
+    "bytes": 1787,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/lightsoff/resource/1/Data.qml",
+    "sha256": "ea54f83dd2513b063c442b86fa1632e5f2b9b816eb7cb58f3f398e7a7c486882"
+  },
+  {
+    "bytes": 1782,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/lightsoff/resource/2/Data.qml",
+    "sha256": "cbad98d69d05a16a79fb04a729955f2a421558d4537c5ec2b922f8897cab62fa"
+  },
+  {
+    "bytes": 3270,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/lightsoff/resource/3/Data.qml",
+    "sha256": "be2314cb9f819f17043b95e331f7503d7e93d6fcb26c05460f1f4fe4280b9606"
+  },
+  {
+    "bytes": 4760,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/lightsoff/resource/4/Data.qml",
+    "sha256": "adec25f3d55babc8e4f73281b4d4bd5e1bf289ad6e2d24f567ca30a90882a86d"
+  },
+  {
+    "bytes": 4177,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/lightsoff/resource/5/Data.qml",
+    "sha256": "b79c7814ba21f261a4bf61cf307b9f30cc9d1580b077c490e277288d6f2290fc"
+  },
+  {
+    "bytes": 1081,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/lightsoff/resource/6/Data.qml",
+    "sha256": "ef3cbd1888a7ee21ee94652df9f23811ea39156b3a5e30be3181b494ba593e0e"
+  },
+  {
+    "bytes": 1081,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/lightsoff/resource/7/Data.qml",
+    "sha256": "cc66841592c4e7903f4a9d49db8e530871ad1f5e09c2b328ec8b5c938a781f3e"
+  },
+  {
+    "bytes": 1081,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/lightsoff/resource/8/Data.qml",
+    "sha256": "df6cd02a18e40c45638a079ea13969bebf70d53e7eba5dbbe361efc30837df63"
+  },
+  {
+    "bytes": 1081,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/lightsoff/resource/9/Data.qml",
+    "sha256": "8bdd2965d022a3cfbf657b37a3a9e07c227fe3b2c91a575fde8e980562bc23aa"
+  },
+  {
+    "bytes": 2033,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/lightsoff/resource/off.svg",
+    "sha256": "47c2a3487b0b48e6106c9f7e540f235c18088ae4c62ddabb0db9f2e71b93a099"
+  },
+  {
+    "bytes": 2033,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/lightsoff/resource/on.svg",
+    "sha256": "69bbab6df160dfc7f372a0bdcac1fc67da4799180a1e77484234768dfe6baf50"
+  },
+  {
+    "bytes": 2051,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/lightsoff/resource/back.svg",
+    "sha256": "f223076ce14bd70d857e591ed132da0c1e4ef6d1b4999348a78b444bbcd479fc"
+  },
+  {
+    "bytes": 25506,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/lightsoff/resource/grass.svg",
+    "sha256": "76396cabac146fc6de2ae158ca2af6c542b4b7d04fe644f7e21cfb4e39b9e10e"
+  },
+  {
+    "bytes": 405,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/lightsoff/CMakeLists.txt",
+    "sha256": "f90d3b7413b3b764471758d60cc0f50e4019abdc1fc1680c0997fe25c632ff57"
+  }
+]

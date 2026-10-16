@@ -1,0 +1,148 @@
+{
+  "activity": "readingv",
+  "locale": "pt_PT",
+  "qml_file": "readingh/Readingh.qml",
+  "source_sha256": "2a7d3c74d6139edbd231ab4f5372d2c8bcc6cc668b29bb424df2281517a8a6c9",
+  "portuguese_catalogue_sha256": "0dfebdffcaf75f9eb9d80f0d4a209695ad1ffc029c13b617393cd6087ed14f29",
+  "private_qm_sha256": "d0bbadfe10cb82fa9d536f21aa9e0e299e8c002cf339ebc4857a7463bee763c1",
+  "case_sha256": "fc7f73bcfa26034f79b76adfae3625d440211ea178958ad544ba6b1682891786",
+  "private_rcc_sha256": "404dea6a7d4fa38486338b9b4624afce54dc79a43094d2082ab233aeedd99ac4",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-reading/build/native-qml/fccd5b5f7c544a81a4b0301ff54d5745",
+  "version_code": 260200,
+  "network": "docker-none",
+  "timestamp_utc": "2026-10-15T21:02:12.951116+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [
+    {
+      "file": "level-1-correct.png",
+      "sha256": "77272e1e0876ed68904f8a2708bb0c863df112acede76de1d7fb564d1f299ebc",
+      "bytes": 63511
+    },
+    {
+      "file": "level-1-words-0.png",
+      "sha256": "713eb69dea510aeb882e127a28ac734cae49014a59e213fc6bdc7bb9dc024342",
+      "bytes": 55668
+    },
+    {
+      "file": "level-1-words-1.png",
+      "sha256": "8b9c1dbc153f6fe5ea6582847bb528c59559361c5db4303e0f5e690bce160230",
+      "bytes": 55573
+    },
+    {
+      "file": "level-2-correct.png",
+      "sha256": "054df51f5016bddaf5c8e28bc9b36edf112821f415594ee9f81af443b955c52f",
+      "bytes": 64803
+    },
+    {
+      "file": "level-2-words-1.png",
+      "sha256": "91e2fc97325ca766257b6b009dd2f5210edefa9457ffdcdc2789ef751018859e",
+      "bytes": 57388
+    },
+    {
+      "file": "level-2-words-2.png",
+      "sha256": "18c1aeda877b4039e527eabe96302fe76bf71774b522f5a709609403d906554d",
+      "bytes": 57460
+    },
+    {
+      "file": "level-3-correct.png",
+      "sha256": "5ab579b4cfd440df00514d804ae5bbab5916a3ca1d2a5d1fc2c93260b057824b",
+      "bytes": 65664
+    },
+    {
+      "file": "level-3-words-2.png",
+      "sha256": "e3f759ee76674487d0e6878a7cbae8293a644145dbe8076972ccee5046104ecd",
+      "bytes": 57822
+    },
+    {
+      "file": "level-3-words-3.png",
+      "sha256": "b2d49c19ed64c023bf9564a983ae9b4f87a313b416b52d9ab190efc26edf9f2e",
+      "bytes": 58475
+    },
+    {
+      "file": "restart.png",
+      "sha256": "a3bbcf969575ee57f449a38f4d65a17aed3883d88b961cfae7a8fb866821aa0c",
+      "bytes": 57972
+    }
+  ],
+  "passed": true,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 0,
+    "passes": 2,
+    "mode": "readingv",
+    "solved": 30,
+    "rejected": 3,
+    "completedLevels": [
+      1,
+      2,
+      3
+    ],
+    "presentByLevel": {
+      "0": 3,
+      "1": 5,
+      "2": 2
+    },
+    "absentByLevel": {
+      "0": 7,
+      "1": 5,
+      "2": 8
+    },
+    "speeds": [
+      {
+        "setting": 1,
+        "interval": 5000,
+        "elapsed": 4993
+      },
+      {
+        "setting": 2,
+        "interval": 2500,
+        "elapsed": 2521
+      },
+      {
+        "setting": 3,
+        "interval": 1666,
+        "elapsed": 1663
+      },
+      {
+        "setting": 4,
+        "interval": 1250,
+        "elapsed": 1210
+      },
+      {
+        "setting": 5,
+        "interval": 1000,
+        "elapsed": 1008
+      },
+      {
+        "setting": 6,
+        "interval": 833,
+        "elapsed": 807
+      },
+      {
+        "setting": 7,
+        "interval": 714,
+        "elapsed": 706
+      },
+      {
+        "setting": 8,
+        "interval": 625,
+        "elapsed": 606
+      },
+      {
+        "setting": 9,
+        "interval": 555,
+        "elapsed": 555
+      },
+      {
+        "setting": 10,
+        "interval": 500,
+        "elapsed": 506
+      }
+    ],
+    "phase": "speed-settings"
+  }
+}

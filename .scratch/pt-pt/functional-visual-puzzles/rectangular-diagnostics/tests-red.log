@@ -1,0 +1,15 @@
+E
+======================================================================
+ERROR: test_dark_frame_does_not_win_over_interior_continuity (test_solver.RectangularPixels.test_dark_frame_does_not_win_over_interior_continuity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-rectangular-pixels/tests/painting_rectangular_solver/test_solver.py", line 26, in test_dark_frame_does_not_win_over_interior_continuity
+    result = solve(framed_pair(), [(8, 8), (24, 8)], (32, 16))
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-rectangular-pixels/tests/painting_rectangular_solver/solver.py", line 93, in solve
+    raise AmbiguousPuzzle(f'Tied minimum for {strip}-pixel strips')
+painting_rectangular_solver.solver.AmbiguousPuzzle: Tied minimum for 1-pixel strips
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)

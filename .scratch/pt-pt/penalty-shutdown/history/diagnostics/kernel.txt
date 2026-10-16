@@ -1,0 +1,2 @@
+Oct 16 04:49:57 ubuntusala kernel: gcompris-qt[4137796]: segfault at 0 ip 00007ac75b4ab2ad sp 00007ffceb22c810 error 4 in libQt6Qml.so.6.10.2[2ab2ad,7ac75b2e0000+3f1000] likely on CPU 8 (core 16, socket 0)
+Oct 16 04:49:17 ubuntusala kernel: [4137796]  1000 4137796  1074575    19677    19675        2         0  1490944     1470             0 gcompris-qt

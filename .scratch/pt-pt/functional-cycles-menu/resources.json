@@ -1,0 +1,590 @@
+{
+  "canal": {
+    "files": [
+      {
+        "bytes": 13613,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/canal_lock.svg",
+        "sha256": "e1521d56803bb129222c2b1b52e8860f821050d9a7299cb472b2f96202c50e05"
+      },
+      {
+        "bytes": 1095,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/ActivityInfo.qml",
+        "sha256": "6ed69f52c28b7e9360cfaf8550d0cfdac1a6bb3c5c8b92f15a3c6e9a4d11b5b2"
+      },
+      {
+        "bytes": 941,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/Lock.qml",
+        "sha256": "a214c4066445a312660627505b203f33b79d028806d9ac234f07a1169fe2900b"
+      },
+      {
+        "bytes": 27692,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/CanalLock.qml",
+        "sha256": "aab79bf1697d30562b8f9fe3180de38afc723949d98646509efc7d0d30ed4d8a"
+      },
+      {
+        "bytes": 3102,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/light_green.svg",
+        "sha256": "353d747b855e2f44eaac4f7703d67bb34451a5cce06712011477a608c4d39cb7"
+      },
+      {
+        "bytes": 309498,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/door_open.wav",
+        "sha256": "b69f88b0a4ec2f9d1025aabae014e74b577f46df37ca287d0f77b12e20e0a9ca"
+      },
+      {
+        "bytes": 309804,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/water_fill.wav",
+        "sha256": "8a017f80d5e5d2e064ce4e7fc6ee63f703ff42ddf47f3d8048644758735f9b6b"
+      },
+      {
+        "bytes": 2907,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/canal_right.svg",
+        "sha256": "13e968136e4ae7ea255fe288fec5fd79646cc3d951458b45aa1a7767cdce53a0"
+      },
+      {
+        "bytes": 65287,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/canal_lock.svg",
+        "sha256": "066eb5961f8932fc15db1db8c25247bf7f62803f0eed532698dfa3043c1bfe47"
+      },
+      {
+        "bytes": 105098,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/lock.wav",
+        "sha256": "cea9d3d7fd8aae813f66417b5f5555c0a6896ec2bb262dbf6892e50788d2a622"
+      },
+      {
+        "bytes": 11623,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/boat1.svg",
+        "sha256": "cdfc5a2e736ef68145274bdc97f983abca52e068009a49e81b7b730368d226c3"
+      },
+      {
+        "bytes": 48985,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/boat2.svg",
+        "sha256": "2e68b47d7edaf4cd42b1cdf6ac2c9a2c1243301f6f8a0af9c4f224fce1ff282f"
+      },
+      {
+        "bytes": 2571,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/sky.svg",
+        "sha256": "cf9eb82c21cc321811bd06fc748998168981d44075e4d4720534f2cf0e5d8684"
+      },
+      {
+        "bytes": 290932,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/door_close.wav",
+        "sha256": "3b916df8e86e2ddba977d20c0c546957e7e6a6b652c9fdc8875f8eea28507e4c"
+      },
+      {
+        "bytes": 2758,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/sun.svg",
+        "sha256": "d2e36c655bbd097b1eabac3c48b7cc7b8cf07ea9f370bc4d78bc206efad6e634"
+      },
+      {
+        "bytes": 2916,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/canal_left.svg",
+        "sha256": "31d1652c232eaa87d347359a6f06aee11e3d16647fff95815e6afa1933a84209"
+      },
+      {
+        "bytes": 3898,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/cloud2.svg",
+        "sha256": "ddd3cbc470b6bd38d41bed90d750c49b040d125540235fcb5e5d626e83f77177"
+      },
+      {
+        "bytes": 3797,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/cloud1.svg",
+        "sha256": "81557bff7b7d9243a365489d3a416a9f1d9c0fa73eb51901343d5670efcc169c"
+      },
+      {
+        "bytes": 3298,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/light_red.svg",
+        "sha256": "f44e0ed99e889dbcc9cef26166670f0815e4bbbb593bf230facc8f0ea6c614f5"
+      },
+      {
+        "bytes": 401,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/CMakeLists.txt",
+        "sha256": "6f7cac06c09419fb40d66b8eb70fee99024f0922036f675e38a3f7df9ecaf005"
+      }
+    ],
+    "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-water-energy/.scratch/pt-pt/functional-cycles-menu/canal",
+    "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-water-energy/build/functional-cycles/sources/58e67c399e4de26d84d02d3d43080a488ed6b9cd",
+    "extract_command": [
+      "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-water-energy/.scratch/pt-pt/functional-cycles-menu/.native-qml-8c97d419614945b08b3d36f53e94e7b4/share/gcompris-qt/rcc/canal_lock.rcc",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-water-energy/build/functional-cycles/menu-export/canal"
+    ],
+    "extract_exit_code": 0
+  },
+  "water": {
+    "files": [
+      {
+        "bytes": 454517,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/artworkSource/landscape-source.svg",
+        "sha256": "739cc098f9be82894333b6e84940119d64e9207fbb170d0bc33c5f7195f8646d"
+      },
+      {
+        "bytes": 1083,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/ActivityInfo.qml",
+        "sha256": "468b547339d95fa4eab7a6c06169e7afc47ada5df7013cd2fa6d5f674891e6b3"
+      },
+      {
+        "bytes": 13006,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/watercycle.svg",
+        "sha256": "64879230cbf51b7eb002a82bf8ccfacb48c02e784287e46d578f03456528e62a"
+      },
+      {
+        "bytes": 38618,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/Watercycle.qml",
+        "sha256": "3bc9ab58c54e5a864a0565f6e13c3b1d31096861727408e7ba0ba308e8d41c91"
+      },
+      {
+        "bytes": 71416,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/city.svg",
+        "sha256": "cb75ffcab4bfc4412899153e778e9c1c9270bc2aae24398857a89a76306c77e6"
+      },
+      {
+        "bytes": 2540,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/fillwater.svg",
+        "sha256": "46b5acaa4167acff952855ec53afe0f24a92dd3c783c8b4361bf60dc5157cf86"
+      },
+      {
+        "bytes": 3505,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/boat_parked.svg",
+        "sha256": "7679143ff5061d1030691aa68fedbc630e4ac72d7acbe4e704ecc05472d1c8f1"
+      },
+      {
+        "bytes": 6682,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/tuxHouse.svg",
+        "sha256": "c6c29ff532d2e3c01365cce46012921152a5b8ee77768b25ff9d7f6ca9a95415"
+      },
+      {
+        "bytes": 11607,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/boat.svg",
+        "sha256": "2ad93f3d1c97ab3076a0c390ba4e6f963d3f0d9030063c5624437170766cb971"
+      },
+      {
+        "bytes": 352884,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/harbor2.wav",
+        "sha256": "ab2f6de1f5a937083852ee0e0519436e0db4eb367586d6071fb2bde85e7801ee"
+      },
+      {
+        "bytes": 299052,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/harbor1.wav",
+        "sha256": "35d85a5e23eb215f87121bb54b31e7e5460da732e5fde73e349ab6332c47f727"
+      },
+      {
+        "bytes": 3498,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/cloud.svg",
+        "sha256": "e48c1d1c6ed4ad3981bdb60d5daef2ac3606b6fac0f62c3f03ebe20e1f3822ee"
+      },
+      {
+        "bytes": 7337,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/vapor.svg",
+        "sha256": "dbc606ee9178c1cdc6640ff00aeaef98d5133ffd719d05024ae4d2b76c444523"
+      },
+      {
+        "bytes": 12838,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/rain.svg",
+        "sha256": "51a1696d4912d2a8e15ba4328072b52b742427959244303edaf14cfb1214c561"
+      },
+      {
+        "bytes": 18163,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/tuxbath.svg",
+        "sha256": "cdd1192fbec36aeb95c85c57e4b4c83f4ca6880396acc59d50838de6ce523281"
+      },
+      {
+        "bytes": 48626,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/bubble.wav",
+        "sha256": "0e78a8f44e22b11c2bd31007a3780b5f664fc1f01ad663ef469b5ee6419074d7"
+      },
+      {
+        "bytes": 4461,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/reservoir2.svg",
+        "sha256": "3d9662742142ca81ff396b2d3c2cd7cafbb0614bda457adc0ffeff68f8723bba"
+      },
+      {
+        "bytes": 3252,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/reservoir1.svg",
+        "sha256": "356156029268f38555de8d98bc15f23c066ee8da0123f4937232f7da8edf55d0"
+      },
+      {
+        "bytes": 3342,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/reservoir3.svg",
+        "sha256": "a681f8222b0bbf2cdb296d838cda72e6cc02cda1c5e8d6bf68e776abeb396256"
+      },
+      {
+        "bytes": 3710,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/watertowerfill.svg",
+        "sha256": "ca3a79006c8ebb601cfe141424f516112372807aa08e10de9a05f0a113647a10"
+      },
+      {
+        "bytes": 4046,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/sea.svg",
+        "sha256": "9b891a672e8f4790bc9c5e3827c5a01cbecd234a6265cdfc037fec13862b1938"
+      },
+      {
+        "bytes": 3642,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/sky.svg",
+        "sha256": "f90284d471ba91a83cf1ef14a11ac1c075dd3d4b7b29d044bea9de6722b8f56c"
+      },
+      {
+        "bytes": 13154,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/waste.svg",
+        "sha256": "91c58b004ebc2d309d2cc2b3af94281ee9b1d3df646c9882c1da3bae9ca593a2"
+      },
+      {
+        "bytes": 2186,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/sun.svg",
+        "sha256": "37e45ad5e9ec635ee8b495fcc84e133b8dd3b720e501324c403edf6c1d32952b"
+      },
+      {
+        "bytes": 5904,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/motor.svg",
+        "sha256": "9201d5129606ce5e732c76ca863e4bce83f21d7de137f2100d8bc164bfcb2628"
+      },
+      {
+        "bytes": 3718,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/wastewater.svg",
+        "sha256": "9f3ba9813c1ae86383c1f1205ef81ddbcb3aab1297efa803416ccbf12d5f9f12"
+      },
+      {
+        "bytes": 121764,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/apert.wav",
+        "sha256": "21bbcc6881a6bd3e43e39235ac836441a7fdb1833db8f46fef2f3dfd0f576d07"
+      },
+      {
+        "bytes": 10564,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/watertower.svg",
+        "sha256": "27eb55e92662a57b0ccea4a17565079d8ac42ad87dd9a9846a545f0ecf2d55bb"
+      },
+      {
+        "bytes": 3450,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/river.svg",
+        "sha256": "729364cb8b1af5dc355512403b77fac9019cd923de0833262b28b32a39109634"
+      },
+      {
+        "bytes": 21239,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/landscape.svg",
+        "sha256": "43cfeecb9cf42b808203b18b1c02d74610392523c45271b5b13f53b9010bc689"
+      },
+      {
+        "bytes": 14053,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/shower.svg",
+        "sha256": "fcb144f679bb548539521e13c68c3df93a3b11608a22ee38378ec82e4632d404"
+      },
+      {
+        "bytes": 393,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/CMakeLists.txt",
+        "sha256": "384941d7c4205ba30c6d19c0677097ec828bac26de28cc12e40ecdb68290fbeb"
+      }
+    ],
+    "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-water-energy/.scratch/pt-pt/functional-cycles-menu/water",
+    "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-water-energy/build/functional-cycles/sources/58e67c399e4de26d84d02d3d43080a488ed6b9cd",
+    "extract_command": [
+      "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-water-energy/.scratch/pt-pt/functional-cycles-menu/.native-qml-6e8ec864990147c38af71b300818ecb0/share/gcompris-qt/rcc/watercycle.rcc",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-water-energy/build/functional-cycles/menu-export/water"
+    ],
+    "extract_exit_code": 0
+  },
+  "energy": {
+    "files": [
+      {
+        "bytes": 5087,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/Wind.qml",
+        "sha256": "8025fda96f31b37aa125e5503eda7137046a8d6628d421a16dfe6d59ca46d8c1"
+      },
+      {
+        "bytes": 3907,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/Solar.qml",
+        "sha256": "60419f7cb1be6d81191e0776ccf620a3e0bc78988d25a71977f9f86ec5d2f4f5"
+      },
+      {
+        "bytes": 1211,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/ActivityInfo.qml",
+        "sha256": "8a90c60ca0bc674210d434d5e7e1c40383df78eda028b9eaba8485ff0069e6f7"
+      },
+      {
+        "bytes": 1076,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/WindTurbine.qml",
+        "sha256": "3456ba2e1fb563f4029a95fd52ee0a8d66dd2853adeb417a41b42eb18e65f343"
+      },
+      {
+        "bytes": 32071,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/RenewableEnergy.qml",
+        "sha256": "0754be0263dd927eab5b8df4acbbd15451ebfe6201b6e4159935dbfef85ac8d2"
+      },
+      {
+        "bytes": 16754,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/Hydro.qml",
+        "sha256": "65fd42ba00dd2d50a883dcb8604468e1561ec4d39b65b85f8f81b1f8035864bb"
+      },
+      {
+        "bytes": 1945,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/wind/cloud_quiet.svg",
+        "sha256": "f542786e6d966375e1bf66dded3a2ea2bf013e6e05e2d3098e2356c38260d564"
+      },
+      {
+        "bytes": 2580,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/wind/wind_power_off.svg",
+        "sha256": "f9085773aa480a02092e96ad69da0db53823b6442f1cbde030b2b197cc23c83e"
+      },
+      {
+        "bytes": 1536,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/wind/wind_on.svg",
+        "sha256": "6c40866f97a24569d3614646e2b6a859178312970d84c7de3364b7ecb457cb30"
+      },
+      {
+        "bytes": 5901,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/wind/blade.svg",
+        "sha256": "0477dc0f2d05fa15f404fb7245365f87aa04b7d483e30b4a2986a91fb49bb0e7"
+      },
+      {
+        "bytes": 1592,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/wind/mast.svg",
+        "sha256": "dc169dcc8292388ef36b85b3eab33b05a3f9a17f73cb1495a521d11b60695f1e"
+      },
+      {
+        "bytes": 1536,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/wind/wind_off.svg",
+        "sha256": "719823952d164ecaa7ffc9e0fb354f518fd59a8370308c8a95bbe48dd7f21b60"
+      },
+      {
+        "bytes": 2582,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/wind/wind_power_on.svg",
+        "sha256": "29522cf9dea4233b891601187e84961af32e7deb95b386050b3b9405ecefb2af"
+      },
+      {
+        "bytes": 5359,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/wind/cloud_blowing.svg",
+        "sha256": "b51f856720b1bfe83842db46a76b4132dd1e545c48c7fc05dc22cfbeb8edf0fc"
+      },
+      {
+        "bytes": 12948,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/lightsoff.svg",
+        "sha256": "aba02c349a64b9fc373a0e07199f4717f54b2bbba5fb78d6c35942fc353cf5a6"
+      },
+      {
+        "bytes": 11042,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/solar/solar_panel_off.svg",
+        "sha256": "056953355ce92eb38d33f55eda3d68125a3dee5d17a85a90c9564d6db886ae05"
+      },
+      {
+        "bytes": 1490,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/solar/solar_power_off.svg",
+        "sha256": "c330ed47e35b48c1d4223760d06f0f3ddcc68647620c447cb5ee495c8968bff1"
+      },
+      {
+        "bytes": 2012,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/solar/solar_wire_off.svg",
+        "sha256": "c11bead6dfa281622eea96a78bfe5a03e4c988722293d2d46d64985d05879227"
+      },
+      {
+        "bytes": 1915,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/solar/solar_wire_on.svg",
+        "sha256": "cd55207cc398fc0b6cd9a27c54422e28c18c712ffaa3b0ea6c8ab54a1f23d4a9"
+      },
+      {
+        "bytes": 9471,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/solar/solar_panel_on.svg",
+        "sha256": "79a81724faf3fc1d3c6e5c7c881c7c3c1fed9471c772b883140bcec7f0dfc370"
+      },
+      {
+        "bytes": 1434,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/solar/solar_power_on.svg",
+        "sha256": "39f8dcfbc383cfa4c188a3beab1ed01eda026bdd3a26c2977b79c41519f9ba59"
+      },
+      {
+        "bytes": 2942,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/tux_house_on.svg",
+        "sha256": "fc1c0e227171dc4b15083b748a98249b15b450b4b5c11fbccafe21fb96bf16d6"
+      },
+      {
+        "bytes": 2125,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/transformer_on.svg",
+        "sha256": "734dee8c0ee05d9b856983398e5e9f9a64f16ad0d04311bd425c12815d9feccf"
+      },
+      {
+        "bytes": 43386,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/resident_bigon.svg",
+        "sha256": "d54bda814f1e16bda5020542c7928f57d785bcd8cfe2ce4af62b5a5e6b79968c"
+      },
+      {
+        "bytes": 2339,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/off.svg",
+        "sha256": "6bb99ba07fe33eb26a8ef551f6863089587dc48929518c69d006ebdce3c333cc"
+      },
+      {
+        "bytes": 10745,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/resident_smallon.svg",
+        "sha256": "37d56def777a6244715d5ced4415ce12f3b41ff5d15917755f45ef4eff7aceda"
+      },
+      {
+        "bytes": 4223,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/transformer_off.svg",
+        "sha256": "0328816263022caeb843833407928be624ee247da3e2d294dd04d7ee838f500d"
+      },
+      {
+        "bytes": 2300,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/on.svg",
+        "sha256": "cbb6476a5c613e6db4570b496ea281a25d4eeff741e7a73236001a49fa9752c4"
+      },
+      {
+        "bytes": 13576,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/lightson.svg",
+        "sha256": "9ced81b8d6fa1b9927b9835d60ccc08f5bfdd48e4804ea502b2108870122e51b"
+      },
+      {
+        "bytes": 2097,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/hydroelectric/stepdownwire_on.svg",
+        "sha256": "b96ad6feb99b366537f0b35e2575e81c8b514c0276bdb9569e4bb801adda632b"
+      },
+      {
+        "bytes": 4754,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/hydroelectric/stepupwire_off.svg",
+        "sha256": "b9422220df3487e87a133a7aae82a578125285e1d7a81a441f61070a6d702435"
+      },
+      {
+        "bytes": 2097,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/hydroelectric/stepdownwire_off.svg",
+        "sha256": "e112d4e3a31c29e536c8920228821620eb4271bce07ee95865d80393f00c52a3"
+      },
+      {
+        "bytes": 3539,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/hydroelectric/dam_off.svg",
+        "sha256": "eea46cc8c4036efb2c7f3ed752e53ff2b2119610cc498bb4cdcb218ae5c9c930"
+      },
+      {
+        "bytes": 2051,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/hydroelectric/dam_on.svg",
+        "sha256": "b4f6358edef380a09be15a5c1cb59cc8a5ffa87031a112f4050fa0008a74402c"
+      },
+      {
+        "bytes": 1424,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/hydroelectric/damwire_on.svg",
+        "sha256": "bad153faf73883d1896f1b4da22dae9286161da0a4061baeea3ebb73a16f5dbf"
+      },
+      {
+        "bytes": 1424,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/hydroelectric/damwire_off.svg",
+        "sha256": "0d77e6676d6ad110496b8fb82605b438c9bc7b85401de94bcb97a469a5497c37"
+      },
+      {
+        "bytes": 4754,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/hydroelectric/stepupwire_on.svg",
+        "sha256": "10a2a40cfcad2348e76960f789cdbece2a96122a6477e4b75ca7231af368d956"
+      },
+      {
+        "bytes": 2936,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/resource/consumer_pole.svg",
+        "sha256": "5d39cc3c18bc45135b2cd55942b52090343a6787fc80b89b1a557b0410af636b"
+      },
+      {
+        "bytes": 20210,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/renewable_energy.svg",
+        "sha256": "7328dd13060740762d4589c03431e75b3157caebb50c126d700a8dd58b2d4236"
+      },
+      {
+        "bytes": 408,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/renewable_energy/CMakeLists.txt",
+        "sha256": "538880536576174ba362cd91cbbea775d48eb65e1d2829985a6ba17ee3623f65"
+      }
+    ],
+    "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-water-energy/.scratch/pt-pt/functional-cycles-menu/energy",
+    "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-water-energy/build/functional-cycles/sources/58e67c399e4de26d84d02d3d43080a488ed6b9cd",
+    "extract_command": [
+      "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-water-energy/.scratch/pt-pt/functional-cycles-menu/.native-qml-3ea81acdb0f24897a033fae8a1023d76/share/gcompris-qt/rcc/renewable_energy.rcc",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-water-energy/build/functional-cycles/menu-export/energy"
+    ],
+    "extract_exit_code": 0
+  }
+}

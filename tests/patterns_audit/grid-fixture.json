@@ -1,0 +1,791 @@
+{
+  "receipt_sha256": "746cb7daec7258962895bf4ac4c7873775643c22a0a7aecdcf28fbbfd218d971",
+  "board": {
+    "level": 1,
+    "total": 22,
+    "activity": "mosaic",
+    "completed": true,
+    "question": [
+      {
+        "frame": {
+          "x": 102,
+          "y": 230,
+          "width": 96,
+          "height": 96,
+          "visible": true,
+          "opacity": 1
+        },
+        "signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+        "source": "qrc:/gcompris/src/activities/mosaic/resource/pencil.svg",
+        "status": 1
+      },
+      {
+        "frame": {
+          "x": 203,
+          "y": 230,
+          "width": 96,
+          "height": 96,
+          "visible": true,
+          "opacity": 1
+        },
+        "signature": "rgba160-sha256:e00d3ad112757a385ac125e124a8b0bfd1907dad8386c29de35e1fd612fd6f6c",
+        "source": "qrc:/gcompris/src/activities/mosaic/resource/tux.svg",
+        "status": 1
+      },
+      {
+        "frame": {
+          "x": 304,
+          "y": 230,
+          "width": 96,
+          "height": 96,
+          "visible": true,
+          "opacity": 1
+        },
+        "signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+        "source": "qrc:/gcompris/src/activities/mosaic/resource/oil_paint.svg",
+        "status": 1
+      }
+    ],
+    "answerInitial": [
+      {
+        "frame": {
+          "x": 471.5,
+          "y": 229.5,
+          "width": 121,
+          "height": 121,
+          "visible": true,
+          "opacity": 1
+        },
+        "signature": "rgba160-sha256:0f0e85b7ee4e1c7ab354727fa461b8004e4a2763d501078a8f19cee439e7910d",
+        "source": "qrc:/gcompris/src/activities/mosaic/resource/dice_0.svg",
+        "status": 1
+      },
+      {
+        "frame": {
+          "x": 597.5,
+          "y": 229.5,
+          "width": 121,
+          "height": 121,
+          "visible": true,
+          "opacity": 1
+        },
+        "signature": "rgba160-sha256:0f0e85b7ee4e1c7ab354727fa461b8004e4a2763d501078a8f19cee439e7910d",
+        "source": "qrc:/gcompris/src/activities/mosaic/resource/dice_0.svg",
+        "status": 1
+      },
+      {
+        "frame": {
+          "x": 723.5,
+          "y": 229.5,
+          "width": 121,
+          "height": 121,
+          "visible": true,
+          "opacity": 1
+        },
+        "signature": "rgba160-sha256:0f0e85b7ee4e1c7ab354727fa461b8004e4a2763d501078a8f19cee439e7910d",
+        "source": "qrc:/gcompris/src/activities/mosaic/resource/dice_0.svg",
+        "status": 1
+      }
+    ],
+    "palette": [
+      {
+        "id": "qrc:/gcompris/src/activities/mosaic/resource/oil_paint.svg",
+        "signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+        "frame": {
+          "x": 185.5,
+          "y": 568.6200000000001,
+          "width": 167.20000000000005,
+          "height": 167.20000000000005,
+          "visible": true,
+          "opacity": 1
+        }
+      },
+      {
+        "id": "qrc:/gcompris/src/activities/mosaic/resource/tux.svg",
+        "signature": "rgba160-sha256:e00d3ad112757a385ac125e124a8b0bfd1907dad8386c29de35e1fd612fd6f6c",
+        "frame": {
+          "x": 399.5,
+          "y": 568.6200000000001,
+          "width": 167.20000000000005,
+          "height": 167.20000000000005,
+          "visible": true,
+          "opacity": 1
+        }
+      },
+      {
+        "id": "qrc:/gcompris/src/activities/mosaic/resource/pencil.svg",
+        "signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+        "frame": {
+          "x": 613.5,
+          "y": 568.6200000000001,
+          "width": 167.20000000000005,
+          "height": 167.20000000000005,
+          "visible": true,
+          "opacity": 1
+        }
+      }
+    ],
+    "actions": [
+      {
+        "role": "holdout-correct-before-wrong",
+        "target": {
+          "x": 471.5,
+          "y": 229.5,
+          "width": 121,
+          "height": 121,
+          "visible": true,
+          "opacity": 1
+        },
+        "expected_signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+        "palette": {
+          "id": "qrc:/gcompris/src/activities/mosaic/resource/pencil.svg",
+          "signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+          "frame": {
+            "x": 613.5,
+            "y": 568.6200000000001,
+            "width": 167.20000000000005,
+            "height": 167.20000000000005,
+            "visible": true,
+            "opacity": 1
+          }
+        },
+        "before": {
+          "frame": {
+            "x": 471.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:0f0e85b7ee4e1c7ab354727fa461b8004e4a2763d501078a8f19cee439e7910d",
+          "source": "qrc:/gcompris/src/activities/mosaic/resource/dice_0.svg",
+          "status": 1
+        },
+        "selection": {
+          "x": 613.5,
+          "y": 568.6200000000001
+        },
+        "click": {
+          "x": 471.5,
+          "y": 229.5
+        },
+        "after": {
+          "frame": {
+            "x": 471.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+          "source": "qrc:/gcompris/src/activities/mosaic/resource/pencil.svg",
+          "status": 1
+        }
+      },
+      {
+        "role": "holdout-wrong",
+        "target": {
+          "x": 471.5,
+          "y": 229.5,
+          "width": 121,
+          "height": 121,
+          "visible": true,
+          "opacity": 1
+        },
+        "expected_signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+        "palette": {
+          "id": "qrc:/gcompris/src/activities/mosaic/resource/oil_paint.svg",
+          "signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+          "frame": {
+            "x": 185.5,
+            "y": 568.6200000000001,
+            "width": 167.20000000000005,
+            "height": 167.20000000000005,
+            "visible": true,
+            "opacity": 1
+          }
+        },
+        "before": {
+          "frame": {
+            "x": 471.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+          "source": "qrc:/gcompris/src/activities/mosaic/resource/pencil.svg",
+          "status": 1
+        },
+        "selection": {
+          "x": 185.5,
+          "y": 568.6200000000001
+        },
+        "click": {
+          "x": 471.5,
+          "y": 229.5
+        },
+        "after": {
+          "frame": {
+            "x": 471.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+          "source": "qrc:/gcompris/src/activities/mosaic/resource/oil_paint.svg",
+          "status": 1
+        }
+      },
+      {
+        "role": "complete-other-target",
+        "target": {
+          "x": 597.5,
+          "y": 229.5,
+          "width": 121,
+          "height": 121,
+          "visible": true,
+          "opacity": 1
+        },
+        "expected_signature": "rgba160-sha256:e00d3ad112757a385ac125e124a8b0bfd1907dad8386c29de35e1fd612fd6f6c",
+        "palette": {
+          "id": "qrc:/gcompris/src/activities/mosaic/resource/tux.svg",
+          "signature": "rgba160-sha256:e00d3ad112757a385ac125e124a8b0bfd1907dad8386c29de35e1fd612fd6f6c",
+          "frame": {
+            "x": 399.5,
+            "y": 568.6200000000001,
+            "width": 167.20000000000005,
+            "height": 167.20000000000005,
+            "visible": true,
+            "opacity": 1
+          }
+        },
+        "before": {
+          "frame": {
+            "x": 597.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:0f0e85b7ee4e1c7ab354727fa461b8004e4a2763d501078a8f19cee439e7910d",
+          "source": "qrc:/gcompris/src/activities/mosaic/resource/dice_0.svg",
+          "status": 1
+        },
+        "selection": {
+          "x": 399.5,
+          "y": 568.6200000000001
+        },
+        "click": {
+          "x": 597.5,
+          "y": 229.5
+        },
+        "after": {
+          "frame": {
+            "x": 597.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:e00d3ad112757a385ac125e124a8b0bfd1907dad8386c29de35e1fd612fd6f6c",
+          "source": "qrc:/gcompris/src/activities/mosaic/resource/tux.svg",
+          "status": 1
+        }
+      },
+      {
+        "role": "complete-other-target",
+        "target": {
+          "x": 723.5,
+          "y": 229.5,
+          "width": 121,
+          "height": 121,
+          "visible": true,
+          "opacity": 1
+        },
+        "expected_signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+        "palette": {
+          "id": "qrc:/gcompris/src/activities/mosaic/resource/oil_paint.svg",
+          "signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+          "frame": {
+            "x": 185.5,
+            "y": 568.6200000000001,
+            "width": 227.66214970354386,
+            "height": 227.6621497035439,
+            "visible": true,
+            "opacity": 1
+          }
+        },
+        "before": {
+          "frame": {
+            "x": 723.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:0f0e85b7ee4e1c7ab354727fa461b8004e4a2763d501078a8f19cee439e7910d",
+          "source": "qrc:/gcompris/src/activities/mosaic/resource/dice_0.svg",
+          "status": 1
+        },
+        "selection": {
+          "x": 185.5,
+          "y": 568.6200000000001
+        },
+        "click": {
+          "x": 723.5,
+          "y": 229.5
+        },
+        "after": {
+          "frame": {
+            "x": 723.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+          "source": "qrc:/gcompris/src/activities/mosaic/resource/oil_paint.svg",
+          "status": 1
+        }
+      },
+      {
+        "role": "repair-holdout",
+        "target": {
+          "x": 471.5,
+          "y": 229.5,
+          "width": 121,
+          "height": 121,
+          "visible": true,
+          "opacity": 1
+        },
+        "expected_signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+        "palette": {
+          "id": "qrc:/gcompris/src/activities/mosaic/resource/pencil.svg",
+          "signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+          "frame": {
+            "x": 613.5,
+            "y": 568.6200000000001,
+            "width": 241.65406201019164,
+            "height": 241.65406201019164,
+            "visible": true,
+            "opacity": 1
+          }
+        },
+        "before": {
+          "frame": {
+            "x": 471.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+          "source": "qrc:/gcompris/src/activities/mosaic/resource/oil_paint.svg",
+          "status": 1
+        },
+        "selection": {
+          "x": 613.5,
+          "y": 568.6200000000001
+        },
+        "click": {
+          "x": 471.5,
+          "y": 229.5
+        },
+        "after": {
+          "frame": {
+            "x": 471.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+          "source": "qrc:/gcompris/src/activities/mosaic/resource/pencil.svg",
+          "status": 1
+        }
+      }
+    ],
+    "plan": {
+      "rows": 1,
+      "columns": 3,
+      "placements": [
+        {
+          "question_frame": {
+            "x": 102,
+            "y": 230,
+            "width": 96,
+            "height": 96,
+            "visible": true,
+            "opacity": 1
+          },
+          "target_frame": {
+            "x": 471.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+          "palette_id": "qrc:/gcompris/src/activities/mosaic/resource/pencil.svg"
+        },
+        {
+          "question_frame": {
+            "x": 203,
+            "y": 230,
+            "width": 96,
+            "height": 96,
+            "visible": true,
+            "opacity": 1
+          },
+          "target_frame": {
+            "x": 597.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:e00d3ad112757a385ac125e124a8b0bfd1907dad8386c29de35e1fd612fd6f6c",
+          "palette_id": "qrc:/gcompris/src/activities/mosaic/resource/tux.svg"
+        },
+        {
+          "question_frame": {
+            "x": 304,
+            "y": 230,
+            "width": 96,
+            "height": 96,
+            "visible": true,
+            "opacity": 1
+          },
+          "target_frame": {
+            "x": 723.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+          "palette_id": "qrc:/gcompris/src/activities/mosaic/resource/oil_paint.svg"
+        }
+      ],
+      "diagnostics": {
+        "method": "visible regular grid and calibrated signatures",
+        "mirror": false,
+        "toleranceFraction": 1e-06
+      }
+    },
+    "holdout": {
+      "question_frame": {
+        "x": 102,
+        "y": 230,
+        "width": 96,
+        "height": 96,
+        "visible": true,
+        "opacity": 1
+      },
+      "target_frame": {
+        "x": 471.5,
+        "y": 229.5,
+        "width": 121,
+        "height": 121,
+        "visible": true,
+        "opacity": 1
+      },
+      "signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+      "palette_id": "qrc:/gcompris/src/activities/mosaic/resource/pencil.svg"
+    },
+    "prepaint": {
+      "role": "holdout-correct-before-wrong",
+      "target": {
+        "x": 471.5,
+        "y": 229.5,
+        "width": 121,
+        "height": 121,
+        "visible": true,
+        "opacity": 1
+      },
+      "expected_signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+      "palette": {
+        "id": "qrc:/gcompris/src/activities/mosaic/resource/pencil.svg",
+        "signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+        "frame": {
+          "x": 613.5,
+          "y": 568.6200000000001,
+          "width": 167.20000000000005,
+          "height": 167.20000000000005,
+          "visible": true,
+          "opacity": 1
+        }
+      },
+      "before": {
+        "frame": {
+          "x": 471.5,
+          "y": 229.5,
+          "width": 121,
+          "height": 121,
+          "visible": true,
+          "opacity": 1
+        },
+        "signature": "rgba160-sha256:0f0e85b7ee4e1c7ab354727fa461b8004e4a2763d501078a8f19cee439e7910d",
+        "source": "qrc:/gcompris/src/activities/mosaic/resource/dice_0.svg",
+        "status": 1
+      },
+      "selection": {
+        "x": 613.5,
+        "y": 568.6200000000001
+      },
+      "click": {
+        "x": 471.5,
+        "y": 229.5
+      },
+      "after": {
+        "frame": {
+          "x": 471.5,
+          "y": 229.5,
+          "width": 121,
+          "height": 121,
+          "visible": true,
+          "opacity": 1
+        },
+        "signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+        "source": "qrc:/gcompris/src/activities/mosaic/resource/pencil.svg",
+        "status": 1
+      }
+    },
+    "holdWrong": {
+      "role": "holdout-wrong",
+      "target": {
+        "x": 471.5,
+        "y": 229.5,
+        "width": 121,
+        "height": 121,
+        "visible": true,
+        "opacity": 1
+      },
+      "expected_signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+      "palette": {
+        "id": "qrc:/gcompris/src/activities/mosaic/resource/oil_paint.svg",
+        "signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+        "frame": {
+          "x": 185.5,
+          "y": 568.6200000000001,
+          "width": 167.20000000000005,
+          "height": 167.20000000000005,
+          "visible": true,
+          "opacity": 1
+        }
+      },
+      "before": {
+        "frame": {
+          "x": 471.5,
+          "y": 229.5,
+          "width": 121,
+          "height": 121,
+          "visible": true,
+          "opacity": 1
+        },
+        "signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+        "source": "qrc:/gcompris/src/activities/mosaic/resource/pencil.svg",
+        "status": 1
+      },
+      "selection": {
+        "x": 185.5,
+        "y": 568.6200000000001
+      },
+      "click": {
+        "x": 471.5,
+        "y": 229.5
+      },
+      "after": {
+        "frame": {
+          "x": 471.5,
+          "y": 229.5,
+          "width": 121,
+          "height": 121,
+          "visible": true,
+          "opacity": 1
+        },
+        "signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+        "source": "qrc:/gcompris/src/activities/mosaic/resource/oil_paint.svg",
+        "status": 1
+      }
+    },
+    "wrong": {
+      "target": {
+        "x": 471.5,
+        "y": 229.5,
+        "width": 121,
+        "height": 121,
+        "visible": true,
+        "opacity": 1
+      },
+      "expected_signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+      "observed_signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+      "answer": [
+        {
+          "frame": {
+            "x": 471.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+          "source": "qrc:/gcompris/src/activities/mosaic/resource/oil_paint.svg",
+          "status": 1
+        },
+        {
+          "frame": {
+            "x": 597.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:e00d3ad112757a385ac125e124a8b0bfd1907dad8386c29de35e1fd612fd6f6c",
+          "source": "qrc:/gcompris/src/activities/mosaic/resource/tux.svg",
+          "status": 1
+        },
+        {
+          "frame": {
+            "x": 723.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+          "source": "qrc:/gcompris/src/activities/mosaic/resource/oil_paint.svg",
+          "status": 1
+        }
+      ],
+      "wins_before": 0,
+      "wins_after": 0,
+      "currentLevel": 0,
+      "bonusPlaying": false,
+      "observed_without_success_ms": 500
+    },
+    "repair": {
+      "role": "repair-holdout",
+      "target": {
+        "x": 471.5,
+        "y": 229.5,
+        "width": 121,
+        "height": 121,
+        "visible": true,
+        "opacity": 1
+      },
+      "expected_signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+      "palette": {
+        "id": "qrc:/gcompris/src/activities/mosaic/resource/pencil.svg",
+        "signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+        "frame": {
+          "x": 613.5,
+          "y": 568.6200000000001,
+          "width": 241.65406201019164,
+          "height": 241.65406201019164,
+          "visible": true,
+          "opacity": 1
+        }
+      },
+      "before": {
+        "frame": {
+          "x": 471.5,
+          "y": 229.5,
+          "width": 121,
+          "height": 121,
+          "visible": true,
+          "opacity": 1
+        },
+        "signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+        "source": "qrc:/gcompris/src/activities/mosaic/resource/oil_paint.svg",
+        "status": 1
+      },
+      "selection": {
+        "x": 613.5,
+        "y": 568.6200000000001
+      },
+      "click": {
+        "x": 471.5,
+        "y": 229.5
+      },
+      "after": {
+        "frame": {
+          "x": 471.5,
+          "y": 229.5,
+          "width": 121,
+          "height": 121,
+          "visible": true,
+          "opacity": 1
+        },
+        "signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+        "source": "qrc:/gcompris/src/activities/mosaic/resource/pencil.svg",
+        "status": 1
+      }
+    },
+    "repaired": {
+      "answer": [
+        {
+          "frame": {
+            "x": 471.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+          "source": "qrc:/gcompris/src/activities/mosaic/resource/pencil.svg",
+          "status": 1
+        },
+        {
+          "frame": {
+            "x": 597.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:e00d3ad112757a385ac125e124a8b0bfd1907dad8386c29de35e1fd612fd6f6c",
+          "source": "qrc:/gcompris/src/activities/mosaic/resource/tux.svg",
+          "status": 1
+        },
+        {
+          "frame": {
+            "x": 723.5,
+            "y": 229.5,
+            "width": 121,
+            "height": 121,
+            "visible": true,
+            "opacity": 1
+          },
+          "signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+          "source": "qrc:/gcompris/src/activities/mosaic/resource/oil_paint.svg",
+          "status": 1
+        }
+      ],
+      "currentLevel": 0
+    },
+    "bonus": "qrc:/gcompris/src/core/resource/bonus/flower_good.svg",
+    "nextLevel": 1,
+    "winsAfter": 1
+  }
+}

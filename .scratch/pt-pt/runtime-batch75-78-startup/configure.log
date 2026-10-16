@@ -1,0 +1,91 @@
+-- Could NOT find Wayland_Client (missing: Wayland_Client_LIBRARY Wayland_Client_INCLUDE_DIR) (found version "")
+-- Could NOT find Wayland_Server (missing: Wayland_Server_LIBRARY Wayland_Server_INCLUDE_DIR) (found version "")
+-- Could NOT find Wayland_Cursor (missing: Wayland_Cursor_LIBRARY Wayland_Cursor_INCLUDE_DIR) (found version "")
+-- Could NOT find Wayland_Egl (missing: Wayland_Egl_LIBRARY Wayland_Egl_INCLUDE_DIR Wayland_Client_FOUND) (found version "")
+-- Could NOT find Wayland (missing: Wayland_LIBRARIES) 
+CMake Warning at /usr/share/ECM/find-modules/FindWayland.cmake:132 (message):
+  Could not find wayland.xml in
+Call Stack (most recent call first):
+  /usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)
+  /usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6WaylandClient/Qt6WaylandClientDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6WaylandClient/Qt6WaylandClientConfig.cmake:50 (include)
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Config.cmake:251 (find_package)
+  CMakeLists.txt:147 (find_package)
+
+
+CMake Warning at /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Config.cmake:251 (find_package):
+  Found package configuration file:
+
+    /usr/lib/x86_64-linux-gnu/cmake/Qt6WaylandClient/Qt6WaylandClientConfig.cmake
+
+  but it set Qt6WaylandClient_FOUND to FALSE so package "Qt6WaylandClient" is
+  considered to be NOT FOUND.  Reason given by package:
+
+  Qt6WaylandClient could not be found because dependency Wayland could not be
+  found.
+
+  Configuring with --debug-find-pkg=Wayland might reveal details why the
+  package was not found.
+
+  Configuring with -DQT_DEBUG_FIND_PACKAGE=ON will print the values of some
+  of the path variables that find_package uses to try and find the package.
+
+Call Stack (most recent call first):
+  CMakeLists.txt:147 (find_package)
+
+
+CMake Warning at /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Config.cmake:308 (message):
+  Failed to find optional Qt component "WaylandClient".
+
+  Expected Config file at
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt6WaylandClient/Qt6WaylandClientConfig.cmake"
+  exists
+
+Call Stack (most recent call first):
+  CMakeLists.txt:147 (find_package)
+
+
+Installing in /usr/local. Run /home/proteu/Projetos/GCompris-qt/build/pt-pt/prefix.sh to set the environment for gcompris-qt.
+-- The following OPTIONAL packages have been found:
+
+ * ECM (required version >= 1.4.0)
+ * QT
+ * Qt6QmlTools (required version >= 6.10.2)
+ * Qt6QuickTools (required version >= 6.10.2)
+ * OpenGL
+ * Vulkan
+ * Qt6GuiTools (required version >= 6.10.2)
+ * Qt6CoreTools (required version >= 6.10.2)
+ * Qt6DBusTools (required version >= 6.10.2)
+ * WrapVulkanHeaders
+ * Qt6Quick3DTools (required version >= 6.10.2)
+ * Qt6ShaderToolsTools (required version >= 6.10.2)
+ * Qt6QuickControls2Basic (required version >= 6.5.0)
+ * PkgConfig
+
+-- The following REQUIRED packages have been found:
+
+ * Qt6Qml (required version >= 6.5.0)
+ * Qt6Quick (required version >= 6.5.0)
+ * Qt6Multimedia (required version >= 6.5.0)
+ * Qt6Svg (required version >= 6.5.0)
+ * Qt6LinguistTools (required version >= 6.5.0)
+ * Qt6Sensors (required version >= 6.5.0)
+ * Qt6QuickControls2 (required version >= 6.5.0)
+ * Qt6Graphs (required version >= 6.5.0)
+ * OpenSSL
+ * Qt6
+
+-- The following OPTIONAL packages have not been found:
+
+ * Qt6QmlCompilerPlusPrivateTools (required version >= 6.10.2)
+ * Qt6WaylandClient (required version >= 6.5.0)
+
+-- Supported locales for gcompris_qt: ar, az, be, bg, br, ca, ca@valencia, cs, de, el, en, en_GB, eo, es, et, eu, fi, fr, gl, he, hr, hu, id, it, ka, kn, lt, lv, mk, ml, nl, nn, pl, pt, pt_BR, ro, ru, sa, sk, sl, sq, sv, sw, ta, tr, uk, zh_TW
+-- Unsupported locales for gcompris_qt: bs, da, fa, ga, gd, gu, hi, ia, ja, kab, ko, nb, pa, tg, th, ug, zh_CN (we have a po file but not enough translated)
+-- Did not find the qml-box2d module in system scope, falling back to submodule build ...
+-- Configuring done (0.9s)
+-- Generating done (0.4s)
+-- Build files have been written to: /home/proteu/Projetos/GCompris-qt/build/pt-pt

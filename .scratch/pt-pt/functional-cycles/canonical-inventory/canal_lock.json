@@ -1,0 +1,116 @@
+[
+    {
+        "bytes": 13613,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/canal_lock.svg",
+        "sha256": "e1521d56803bb129222c2b1b52e8860f821050d9a7299cb472b2f96202c50e05"
+    },
+    {
+        "bytes": 1095,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/ActivityInfo.qml",
+        "sha256": "6ed69f52c28b7e9360cfaf8550d0cfdac1a6bb3c5c8b92f15a3c6e9a4d11b5b2"
+    },
+    {
+        "bytes": 941,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/Lock.qml",
+        "sha256": "a214c4066445a312660627505b203f33b79d028806d9ac234f07a1169fe2900b"
+    },
+    {
+        "bytes": 20161,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/CanalLock.qml",
+        "sha256": "e1c66ac87cceaa9f46d32a1e3d12fe9ffdf969efff386c239f6a5982cedaf6d5"
+    },
+    {
+        "bytes": 3102,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/light_green.svg",
+        "sha256": "353d747b855e2f44eaac4f7703d67bb34451a5cce06712011477a608c4d39cb7"
+    },
+    {
+        "bytes": 309498,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/door_open.wav",
+        "sha256": "b69f88b0a4ec2f9d1025aabae014e74b577f46df37ca287d0f77b12e20e0a9ca"
+    },
+    {
+        "bytes": 309804,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/water_fill.wav",
+        "sha256": "8a017f80d5e5d2e064ce4e7fc6ee63f703ff42ddf47f3d8048644758735f9b6b"
+    },
+    {
+        "bytes": 2907,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/canal_right.svg",
+        "sha256": "13e968136e4ae7ea255fe288fec5fd79646cc3d951458b45aa1a7767cdce53a0"
+    },
+    {
+        "bytes": 65287,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/canal_lock.svg",
+        "sha256": "066eb5961f8932fc15db1db8c25247bf7f62803f0eed532698dfa3043c1bfe47"
+    },
+    {
+        "bytes": 105098,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/lock.wav",
+        "sha256": "cea9d3d7fd8aae813f66417b5f5555c0a6896ec2bb262dbf6892e50788d2a622"
+    },
+    {
+        "bytes": 11623,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/boat1.svg",
+        "sha256": "cdfc5a2e736ef68145274bdc97f983abca52e068009a49e81b7b730368d226c3"
+    },
+    {
+        "bytes": 48985,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/boat2.svg",
+        "sha256": "2e68b47d7edaf4cd42b1cdf6ac2c9a2c1243301f6f8a0af9c4f224fce1ff282f"
+    },
+    {
+        "bytes": 2571,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/sky.svg",
+        "sha256": "cf9eb82c21cc321811bd06fc748998168981d44075e4d4720534f2cf0e5d8684"
+    },
+    {
+        "bytes": 290932,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/door_close.wav",
+        "sha256": "3b916df8e86e2ddba977d20c0c546957e7e6a6b652c9fdc8875f8eea28507e4c"
+    },
+    {
+        "bytes": 2758,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/sun.svg",
+        "sha256": "d2e36c655bbd097b1eabac3c48b7cc7b8cf07ea9f370bc4d78bc206efad6e634"
+    },
+    {
+        "bytes": 2916,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/canal_left.svg",
+        "sha256": "31d1652c232eaa87d347359a6f06aee11e3d16647fff95815e6afa1933a84209"
+    },
+    {
+        "bytes": 3898,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/cloud2.svg",
+        "sha256": "ddd3cbc470b6bd38d41bed90d750c49b040d125540235fcb5e5d626e83f77177"
+    },
+    {
+        "bytes": 3797,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/cloud1.svg",
+        "sha256": "81557bff7b7d9243a365489d3a416a9f1d9c0fa73eb51901343d5670efcc169c"
+    },
+    {
+        "bytes": 3298,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/canal_lock/resource/light_red.svg",
+        "sha256": "f44e0ed99e889dbcc9cef26166670f0815e4bbbb593bf230facc8f0ea6c614f5"
+    }
+]

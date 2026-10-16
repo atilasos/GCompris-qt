@@ -1,0 +1,29 @@
+test_advertised_arrows_without_actual_cursor_movement_are_rejected (test_audit.ControlsContract.test_advertised_arrows_without_actual_cursor_movement_are_rejected) ... FAIL
+test_coherent_unchanged_partial_menu_state_is_rejected (test_audit.ControlsContract.test_coherent_unchanged_partial_menu_state_is_rejected) ... ok
+test_cursor_margin_is_one_pixel_and_does_not_relax_cell_geometry (test_audit.ControlsContract.test_cursor_margin_is_one_pixel_and_does_not_relax_cell_geometry) ... FAIL
+test_failed_prefix_cannot_be_accepted_as_controls (test_audit.ControlsContract.test_failed_prefix_cannot_be_accepted_as_controls) ... ok
+test_literal_complete_controls_configure_datasets_without_claiming_games (test_audit.ControlsContract.test_literal_complete_controls_configure_datasets_without_claiming_games) ... ok
+test_three_coherent_copies_of_one_dataset_do_not_cover_all_datasets (test_audit.ControlsContract.test_three_coherent_copies_of_one_dataset_do_not_cover_all_datasets) ... ok
+
+======================================================================
+FAIL: test_advertised_arrows_without_actual_cursor_movement_are_rejected (test_audit.ControlsContract.test_advertised_arrows_without_actual_cursor_movement_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-controls-audit/tests/pattern_controls_audit/test_audit.py", line 40, in test_advertised_arrows_without_actual_cursor_movement_are_rejected
+    with self.assertRaisesRegex(ValueError, 'cursor'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_cursor_margin_is_one_pixel_and_does_not_relax_cell_geometry (test_audit.ControlsContract.test_cursor_margin_is_one_pixel_and_does_not_relax_cell_geometry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-controls-audit/tests/pattern_controls_audit/test_audit.py", line 46, in test_cursor_margin_is_one_pixel_and_does_not_relax_cell_geometry
+    with self.assertRaisesRegex(ValueError, 'cursor'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+FAILED (failures=2)

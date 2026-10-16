@@ -12,6 +12,7 @@
  */
 import QtQuick
 import QtQuick.Effects
+import core 1.0
 
 import "../../core"
 import "fifteen.js" as Activity
@@ -67,7 +68,8 @@ ActivityBase {
             property string mode: activity.mode
             property alias model: fifteenModel
             property string scene: bar.level < 5 ? Activity.url + "Fishing_Boat_Scene.svg" :
-                                                   Activity.url + "Coastal_Path.svg"
+                                                   Activity.url + (ApplicationInfo.getVoicesLocale(ApplicationSettings.locale) === "pt"
+                                                       ? "Coastal_Path-pt.svg" : "Coastal_Path.svg")
             property bool buttonsBlocked: false
 
             property alias topArrowsRepeater: topArrowsRepeater
@@ -92,7 +94,8 @@ ActivityBase {
             }
         }
 
-        onStart: { Activity.start(items) }
+        onStart: {
+            activity.numberOfLevel = items.numberOfLevel; Activity.start(items) }
         onStop: { Activity.stop() }
         
         property int pieceSize: Math.round(blueFrame.width * 0.222)

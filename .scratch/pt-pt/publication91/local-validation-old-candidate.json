@@ -1,0 +1,28 @@
+{
+  "url": "https://initial-organization-bone-considering.trycloudflare.com/GCompris-PT-PT-Windows-x64.exe",
+  "run": "38862699753",
+  "source": "561e3a2603a7a0d73cc8873793bb5e3c2505b719",
+  "sha256": "500400a9bb482e8b7851934daf19bb47bed6bbf392461159c6e844656d0eb584",
+  "checks": [
+    {
+      "kind": "https-head",
+      "status": 200,
+      "bytes": 825767337
+    },
+    {
+      "kind": "https-range-matches-local",
+      "start": 0,
+      "end": 1048575,
+      "sha256": "ed87212b09f0aab16694f07a4ccd34cac950ef0c6e526b7383abec1003ffd4bb"
+    },
+    {
+      "kind": "https-range-matches-local",
+      "start": 824718761,
+      "end": 825767336,
+      "sha256": "a482154ea0c11ab76cfd23dae6b2a5713ee4dd2acf6df16a67ad29a8a3362ec1"
+    }
+  ],
+  "scope": "HTTP content and first/last1MiB verified over public HTTPS; installer previously fully SHA256/CRC verified; no Windows gameplay claim",
+  "installer": "/home/proteu/Projetos/GCompris-qt/build/pt-pt/windows-candidate-38862699753/GCompris-PT-PT-Windows-x64-candidate.exe",
+  "bytes": 825767337
+}

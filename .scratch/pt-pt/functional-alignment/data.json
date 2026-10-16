@@ -1,0 +1,26 @@
+{
+  "datasets": [],
+  "ai_levels": {
+    "tic_tac_toe": 5,
+    "align4": 6
+  },
+  "two_player_exposed_selectors": {
+    "tic_tac_toe_2players": false,
+    "align4_2players": false
+  },
+  "public_levels_final": {
+    "tic_tac_toe": 5,
+    "tic_tac_toe_2players": 0,
+    "align4": 6,
+    "align4_2players": 1
+  },
+  "primary_games": 42,
+  "two_player_scenarios": [
+    "horizontal",
+    "vertical",
+    "diagonal descending",
+    "diagonal ascending",
+    "draw"
+  ],
+  "input": "Real Qt mouse and key events; drawn SVG geometry, score text and highlighted turn only."
+}

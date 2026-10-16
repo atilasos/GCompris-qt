@@ -1,0 +1,2 @@
+1955a4fbde1c91721921fe0ea40843c40f86fa42b0f86ba91a8fb54f19a65543  GCompris-PT-PT-Windows-x64-candidate.exe
+e6cc322f3daecdcaaaede176b95ed7556581e6aa1beb8e4ff6cc3829d3de5f8c  GCompris-PT-PT-Windows-x64-portable.zip

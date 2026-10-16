@@ -1,0 +1,13 @@
+{
+  "activity": "tens_complement_swap",
+  "puzzles": 12,
+  "equations": 45,
+  "rejected": 12,
+  "independent_python_sums": "passed",
+  "datasets_sha256": {
+    "src/activities/tens_complement_swap/ActivityInfo.qml": "7b21a71237023cba76752eccf571dd5848717ef22f07f6edd67bff14a04fed8d",
+    "src/activities/tens_complement_swap/resource/1/Data.qml": "915ad024acb9dc6d7ce2a549615bdf62c7a278d512bdae93cb87bf8b1a2bd750",
+    "src/activities/tens_complement_swap/resource/2/Data.qml": "8ce8cd3381b9856530082445e7561175fa8d4c275eecfc42618a8bf5aa1efe49",
+    "src/activities/tens_complement_swap/resource/3/Data.qml": "1b2738c8b385a500ab2091994783d7ae5db8e375436ca2183f04999ebc41a472"
+  }
+}

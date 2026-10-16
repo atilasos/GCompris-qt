@@ -1,0 +1,11 @@
+[Unit]
+Description=Verified GCompris Windows installer download
+After=network-online.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/proteu/Projetos/GCompris-qt/build/pt-pt/download-publication-short/server.py /home/proteu/Projetos/GCompris-qt/build/pt-pt/download-publication-short/current-installer.json 8878
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target

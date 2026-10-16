@@ -1,0 +1,14 @@
+{
+  "CMakeLists.txt": "a89ae19e0e4ec7af1a080b1ecf01d359c0ba60248f9ecdf6cb53a416c7c5be9a",
+  "build/functional-input/libfunctionalinput.so": "46df58a797d671f396b3b4c72d9d2dd8649b344d493bc677850a304c02a31779",
+  "build/functional-input/qmldir": "519cd4b1117fdf72c76e079a008238478d599107a9477d7f7b972fef7e48748a",
+  "poqm/pt/gcompris_qt.po": "a4d023ddb8ceb151b1b0035a40cd6ed4c994dbeaa4f305172344beb6c42af36e",
+  "src/activities/hangman/ActivityConfig.qml": "572a9ae92a70efe8b1a8f3325ff134a83be2b4e0d23428424b48f23e14509dcc",
+  "src/activities/hangman/ActivityInfo.qml": "0d7ba526e0fb79c3ce80282c23f75eb60f86d49ec71e1ee1ca78906482f763d9",
+  "src/activities/hangman/CMakeLists.txt": "f1d2fca853b628a3efd4a6c2fcc1b4d28819a683465fc6881833665caa5762e5",
+  "src/activities/hangman/Hangman.qml": "4697b87955a51c5dd3376c79a685e9386a6f3c3f28b2dba9211622cfa1241302",
+  "src/activities/hangman/hangman.js": "bad88c46336bf879a75cecf2d23a249d568b76ca2d8626368d095299f6e57b9e",
+  "src/activities/hangman/hangman.svg": "d8fb24e0ce8401bb276053b800beb947c0ecd5c59f425c34e4f5ae5b0b14b08e",
+  "src/activities/hangman/resource/background.svg": "19c47d901629e574226c0e785965cbcb8faf22bca7b81cfa02a02be852cf7a24",
+  "src/activities/hangman/resource/fog.png": "9b8aea73d82676d0de56f174e492fb61e72c6cd2db7a5e5616750dabc25f59f6"
+}

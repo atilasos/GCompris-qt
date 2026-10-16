@@ -1,0 +1,98 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/build/functional-exploration/runtime-snapshot/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-2c30da7622624016ae4cf46db7b21854/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-2c30da7622624016ae4cf46db7b21854/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-2c30da7622624016ae4cf46db7b21854/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-2c30da7622624016ae4cf46db7b21854/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-2c30da7622624016ae4cf46db7b21854/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-2c30da7622624016ae4cf46db7b21854/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-2c30da7622624016ae4cf46db7b21854/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-2c30da7622624016ae4cf46db7b21854/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-2c30da7622624016ae4cf46db7b21854/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity explore_monuments/Explore_monuments.qml at level -1
+qml: explore_monuments/Explore_monuments.qml explore_monuments/Explore_monuments.qml
+No audio device detected
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: NATIVE_RESULT {"failures":0,"passes":2,"pages":[{"image":"qrc:/gcompris/src/activities/explore_monuments/resource/india/gatewayofIndia.webp","title":"Portão da Índia","description":"O Portão da Índia é um dos marcos mais únicos da Índia, situado na cidade de Mumbai. A estrutura colossal foi construída em 1924. Localizado na ponta do Apollo Bunder, o portão tem uma vista sobre o porto de Mumbai, rodeado pelo Mar Árabe no distrito de Colaba. O Portão da Índia é um monumento que marca os portos principais da Índia e é uma atração turística importante para os visitantes que chegam à Índia pela primeira vez.","map":2},{"image":"qrc:/gcompris/src/activities/explore_monuments/resource/germany/neuschwansteinCastle.webp","title":"Castelo de Neuschwanstein","description":"O pináculo dos castelos de contos de fadas, o Neuschwanstein situa-se numa colina escarpada perto de Füssen, no Sudoeste da Baviera. Foi a inspiração para os castelos da Bela Adormecida nos parques da Disneylândia. O castelo foi encomendado pelo Rei Ludwig II da Baviera, o qual foi declarado como louco quando o castelo estava perto da sua conclusão em 1886, sendo encontrado morto alguns dias depois. Neuschwanstein é o edifício mais fotografado do país e é uma das mais conhecidas atrações turísticas na Alemanha.","map":4},{"image":"qrc:/gcompris/src/activities/explore_monuments/resource/usa/castillodeSanMarcos.webp","title":"Castelo de São Marcos","description":"Estendendo-se em mais de 8 hectares de St. Augustine, na Flórida, o Castelo de São Marcos foi terminado como sendo o forte defensivo da cidade em 1695, quando a Flórida ainda era um território Espanhol. Construído a partir da pedra rara que é a coquina, o castelo em forma de estrela também é o mais antigo forte de alvenaria do país.","map":5},{"image":"qrc:/gcompris/src/activities/explore_monuments/resource/usa/georgeWashingtonBirthplace.webp","title":"Local de Nascimento de George Washington","description":"O Monumento Nacional do Local de Nascimento de George Washington situa-se no condado de Westmoreland, na Virgínia, nos Estados Unidos. O seu bisavô, John Washington, estabeleceu-se nesta região no século XVII. George Washington nasceu aqui em 22 de fevereiro de 1732. Viveu neste local até aos três anos e regressou mais tarde, na adolescência.","map":5},{"image":"qrc:/gcompris/src/activities/explore_monuments/resource/usa/lincolnMemorial.webp","title":"Memorial de Lincoln","description":"Construído em pedra branca com 36 colunas imponentes, o Memorial de Lincoln é uma das estruturas mais reconhecidas nos Estados Unidos. O memorial fica no extremo ocidental do National Mall, no Parque de Potomac Ocidental, sendo um exemplo da arquitetura Neoclássica. Oferece uma estátua solitária de 6 metros de altura de Abraham Lincoln sentado em contemplação, a qual está rodeada por câmaras laterais de ambos os lados com as inscrições do Segundo Discurso Inaugural de Lincoln e, sem dúvida o seu mais famoso discurso, o Discurso de Gettysburg.","map":5},{"image":"qrc:/gcompris/src/activities/explore_monuments/resource/egypt/meidumPyramid.webp","title":"Pirâmide de Meidum","description":"A pirâmide de Meidum situa-se na região de Beni Suef, no Egito. O faraó Sneferu, primeiro rei da IV dinastia, escolheu Meidum para construir o seu túmulo real. A construção começou como uma pirâmide de degraus e foi depois transformada numa pirâmide de faces lisas, revestida de calcário. Hoje, o núcleo restante ergue-se sobre um monte de entulho. A atribuição anterior a Huni, antecessor de Sneferu, já não corresponde ao consenso atual dos especialistas.","map":6},{"image":"qrc:/gcompris/src/activities/explore_monuments/resource/china/forbiddenCity.webp","title":"Cidade Proibida","description":"A Cidade Proibida, localizada no coração de Beijing (Pequim), na China, é um magnífico complexo do Palácio imperial que serviu de casa aos imperadores chineses e de centro político da nação por quase 500 anos, da Dinastia Ming (1368-1644) até ao fim da dinastia Qing (1644-1912). Construída entre 1406 e 1420, esta obra-prima arquitetónica abrange 180 acres (cerca de 73 hectares) e apresenta mais de 980 edifícios preservados com 8 700 divisões, representativas do design palaciano chinês tradicional. Rodeada por um fosso e muralhas altas, a Cidade Proibida já foi inacessível ao público em geral, simbolizando a exclusividade do poder imperial.","map":7},{"image":"qrc:/gcompris/src/activities/explore_monuments/resource/italy/florenceCathedral.webp","title":"Catedral de Florença","description":"A Catedral de Florença, oficialmente conhecida como Cattedrale di Santa Maria del Fiore, é uma obra-prima de renome da arquitetura gótica e renascentista localizada em Florença, Itália. Concluída em 1436, é famosa pela sua enorme cúpula revestida de telhas de terracota vermelha projetada por Filippo Brunelleschi, permanecendo uma maravilha da engenharia e um símbolo da cidade. A intricada fachada em mármore da catedral, acrescentada no século XIX, complementa os tesouros artísticos do seu interior ricamente decorado. Juntamente com o Campanário de Giotto e o Batistério de São João, faz parte do Património Mundial da Humanidade da UNESCO, e as suas características históricas, culturais e a sua importância arquitetónica atraem anualmente milhões de visitantes.","map":8}]}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs

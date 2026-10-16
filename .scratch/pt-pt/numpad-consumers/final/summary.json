@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "activities": [
+    {
+      "activity": "tens_complement_calculate",
+      "passed": true,
+      "scope": "digit, backspace and global shortcuts; decimal separator in decimals case",
+      "result": "tens_complement_calculate/result.json"
+    },
+    {
+      "activity": "scalesboard",
+      "passed": true,
+      "scope": "digit, backspace and global shortcuts; decimal separator in decimals case",
+      "result": "scalesboard/result.json"
+    },
+    {
+      "activity": "scalesboard_weight",
+      "passed": true,
+      "scope": "digit, backspace and global shortcuts; decimal separator in decimals case",
+      "result": "scalesboard_weight/result.json"
+    },
+    {
+      "activity": "scalesboard_weight_avoirdupois",
+      "passed": true,
+      "scope": "digit, backspace and global shortcuts; decimal separator in decimals case",
+      "result": "scalesboard_weight_avoirdupois/result.json"
+    },
+    {
+      "activity": "guessnumber",
+      "passed": true,
+      "scope": "digit, backspace and global shortcuts; decimal separator in decimals case",
+      "result": "guessnumber/result.json"
+    },
+    {
+      "activity": "learn_decimals_additions",
+      "passed": true,
+      "scope": "digit, backspace and global shortcuts; decimal separator in decimals case",
+      "result": "learn_decimals_additions/result.json"
+    },
+    {
+      "activity": "learn_decimals_subtractions",
+      "passed": true,
+      "scope": "digit, backspace and global shortcuts; decimal separator in decimals case",
+      "result": "learn_decimals_subtractions/result.json"
+    },
+    {
+      "activity": "tens_complement_swap",
+      "passed": true,
+      "scope": "inactive numerical phase and global shortcuts",
+      "result": "tens_complement_swap/result.json"
+    },
+    {
+      "activity": "learn_decimals",
+      "passed": true,
+      "scope": "inactive numerical phase and global shortcuts",
+      "result": "learn_decimals/result.json"
+    },
+    {
+      "activity": "learn_quantities",
+      "passed": true,
+      "scope": "inactive numerical phase and global shortcuts",
+      "result": "learn_quantities/result.json"
+    }
+  ],
+  "scope": "Specific numerical input events and prepared phases; not all levels or Windows acceptance"
+}

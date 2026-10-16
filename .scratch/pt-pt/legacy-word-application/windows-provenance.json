@@ -1,0 +1,23 @@
+{
+  "scope": "Read-only extraction of historical installer into private build; new lang/voices resources overlaid only there. No installer or Windows execution.",
+  "installer_ci_run": "38862699753",
+  "installer_source_revision": "561e3a2603a7a0d73cc8873793bb5e3c2505b719",
+  "installer_sha256": "500400a9bb482e8b7851934daf19bb47bed6bbf392461159c6e844656d0eb584",
+  "installer_bytes": 825767337,
+  "extractor": "7-Zip 26.00 NSIS-3 Unicode/LZMA",
+  "extractor_tool_return": 0,
+  "extractor_tool_chunk": "ad63e0",
+  "teacher_review_zip_sha256": "fe3563da247ebe91a149b32b7c7849795534284dba06c91f79677f400c81c179",
+  "teacher_review_zip_copy_sha256": "fe3563da247ebe91a149b32b7c7849795534284dba06c91f79677f400c81c179",
+  "historical_review_files_changed": false,
+  "windows_runtime_executed": false,
+  "staged_resource_changes": [
+    "lang.rcc",
+    "voices-ogg/voices-pt-2026-10-16-00-00-00.rcc",
+    "voices-ogg/Contents",
+    "voices-ogg/completion.json",
+    "voices-ogg/additions-manifest.json",
+    "voices-ogg/replacements-manifest.json",
+    "voices-ogg/pt-pt-additions-NOTICE.md"
+  ]
+}

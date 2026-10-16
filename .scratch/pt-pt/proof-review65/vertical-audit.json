@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "datasets": 36,
+  "puzzles": 360,
+  "per_activity": {
+    "vertical_addition": 120,
+    "vertical_subtraction": 120,
+    "vertical_subtraction_compensation": 120
+  },
+  "wrong_results_repaired": 36,
+  "carry_borrow_annotations": 1034,
+  "controls_cases": 3,
+  "historically_bound_receipts": 57,
+  "scope": "Linux offline; random inputs sampled, Windows/hardware/audio/teacher acceptance pending"
+}

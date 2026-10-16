@@ -1,0 +1,23 @@
+{
+  "source_commit": "a3e9a02c814bba284329e72b52c0cb6b02d9327b",
+  "build_command": [
+    "cmake",
+    "--build",
+    "build/pt-pt",
+    "--target",
+    "BuildTranslationsgcompris_qt",
+    "--parallel",
+    "4"
+  ],
+  "build_exit_code": 0,
+  "observed_session": 29445,
+  "observed_output_chunk": "0734dc",
+  "files": {
+    "build/pt-pt/bin/gcompris-qt": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+    "build/pt-pt/share/gcompris-qt/translations/gcompris_qt_pt.qm": "05e8de8bb28ac424d3ae49b91dd07c85160de27edfbc035bc80017bac7c20503",
+    "build/pt-pt/share/gcompris-qt/rcc/data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc": "4887e4a8c7112e6b744829c82a3476a9f322a593173d17c3b7e369fad21528ee",
+    "build/pt-pt/share/gcompris-qt/rcc/sudoku.rcc": "1a128ee40526b67b10f4c951e6351a06dcf1961418be0da624d9392a2b4201be",
+    "build/pt-pt/share/gcompris-qt/rcc/calcudoku.rcc": "2584df29260795285c1afe4ec10fdb8155f68916bc42228240cf0d2f332868ce",
+    "poqm/pt/gcompris_qt.po": "01d477d55b57b5357bce515c34c446a8c5091c7ccabbfaa3133e60b0621ad994"
+  }
+}

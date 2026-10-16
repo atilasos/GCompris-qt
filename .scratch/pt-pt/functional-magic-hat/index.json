@@ -1,0 +1,70 @@
+{
+  "cases": {
+    "minus-tracer": {
+      "kind": "tracer"
+    },
+    "minus-complete": {
+      "kind": "campaign"
+    },
+    "plus-complete": {
+      "kind": "campaign"
+    },
+    "minus-controls": {
+      "kind": "controls"
+    },
+    "plus-controls": {
+      "kind": "controls"
+    },
+    "help-vocabulary-diagnostic": {
+      "kind": "diagnostic"
+    }
+  },
+  "files": {
+    "README.md": "d22850b2056c464e1ca9905178a64d3f8284bf00caaa5ca84c54dacd9d2babc4",
+    "data.json": "e66a523e154e259c1248de85423b546498c11f7d0af5e2096eed97b3e7a4f536",
+    "help-vocabulary-diagnostic/case.qml": "0b5bc11e904809a689caf4b41f79416e00944075c8ae4b0de6658ae718aa84aa",
+    "help-vocabulary-diagnostic/failure.png": "c7a275edb015f0ec87ff49ea1d3eb78cb77d4cc0bf2f0bed43c438e4eb071c80",
+    "help-vocabulary-diagnostic/launcher-status.json": "a99408fc12a882fe37774a9fc6d04602e53be97f86f13a5f790c1188d2a18542",
+    "help-vocabulary-diagnostic/native.log": "c86ec682b3b4214602a279ac9134bb6fb8150d9f0d4bed80244bb76ced04a8bf",
+    "help-vocabulary-diagnostic/result.json": "600a72f3113becd1e6dcc6a42013b3426bd93bcd40f1e7ed1228cb564378261c",
+    "help-vocabulary-diagnostic/supervisor-exit.json": "c32bb1efb1b080c94c55795f1daf93d6009b73053930fa5452fa4d3e5588b0a7",
+    "identities/origin-snapshot-manifest.json": "2304b8f9486c16ad8cefa60a203effa11ae8a666f10abddd732ad9fcc2f72473",
+    "identities/resources.json": "51c039f9efd0a8eb8f6ccbfc09d59468f37336709b4466d2c400feb672c2e837",
+    "identities/snapshot-manifest.json": "12001097ff717da1e6e31200c212916f912e61d4067efd059f0310004921f31b",
+    "identities/source-manifest.json": "26ea082e098494e74ace69a682aef955186f36fb45c24b55bd930c40625aaee6",
+    "minus-complete/case.qml": "48b705aadfec8589f69bdb98f2420ad53d9d17bfc89093d55d4f24201056a96d",
+    "minus-complete/first.png": "79cd67ee441fe1f378bdb70798cc60dc9148bd385cc2f6f84b3f7cb09aa1745f",
+    "minus-complete/launcher-status.json": "f80eced0914fa2357faff9104f3308eb2c64d2d63bde84a00857d360b8f9c272",
+    "minus-complete/native.log": "870ea692b176a4d5d4903d68d7532523693a37e43e13b71e6882813b65970086",
+    "minus-complete/result.json": "bfcccce38b260fc626ae115edff60b3c6e2c6844b746558f2a0cccf786dc0c8d",
+    "minus-complete/supervisor-exit.json": "e4820a238d5798467dc59c358d797989de91785038d056923424b1e4f2a0b265",
+    "minus-controls/case.qml": "8989cc1f3f392d1e0fc2aca60d1f286a5e19d7eb661d067e1d2fb888f889fc61",
+    "minus-controls/help.png": "5ca0317ab7a87fbcbd197f76f22d7b32b04893e66cb226602fd0564290214ea4",
+    "minus-controls/launcher-status.json": "8d1691e3bf57db9833907fc41b49dbfbc6e6fb0b6f0572e8ffc2a1eb17aa3020",
+    "minus-controls/native.log": "f8e99592c1d641cfc8c849750713114a11f35bddbd85a933e3bfda897cc47072",
+    "minus-controls/result.json": "0c5080753079d9b18f847e0df9d7ae2742cb13ad5d135b862f79c39e36af3e61",
+    "minus-controls/supervisor-exit.json": "f7f006630d46dabe56e870e326bdb521f7577f93c3abdc36463c90e8a08a2585",
+    "minus-tracer/case.qml": "35673676303cf5eafab69611477ee20b1fc90e5ab94549824495511b06f3165e",
+    "minus-tracer/first.png": "9c44b3371a0111cab2158ac1327138490605f81e5dbc677d70579961228495d4",
+    "minus-tracer/launcher-status.json": "c9f5b96cb9282c867d15e7acd1bb19cde1c5e81797ed68b601b5c04867c466d3",
+    "minus-tracer/native.log": "51f17aa3e14de1c73a01466b2e08d3dd54a9186c09b7fb3c1748feafe6a56237",
+    "minus-tracer/result.json": "96bf250adcc51c648f5b662000f405e257e9742641ec35e245f504a04a716959",
+    "optimized-cli-green.log": "f3b3f4450dca5465611b15d45722f8648c97968176365dc62b2fba85cb137a33",
+    "optimized-cli-red.log": "ce5db7f6795d010be418b6850cecd34a60210f439bbcc5835351c7fed80e425c",
+    "oracle-green.log": "56e03afda220e7ba78bbcecf9a2e53a0149cfc3e311fa10bbd01b25e8e5ba671",
+    "oracle-red.log": "ae040ea2725366003d74dda0e9da7822393407a76767605100ced0db87d2b967",
+    "plus-complete/case.qml": "48b705aadfec8589f69bdb98f2420ad53d9d17bfc89093d55d4f24201056a96d",
+    "plus-complete/first.png": "d770ff84ccd5a47beb3093c4f2580f20ab2d49356ed589ba79856114fe3d7bfc",
+    "plus-complete/launcher-status.json": "d2f41240ac31d59ad8e56c84f111535c6efa673a4cc890f9a0b5033fe5752f42",
+    "plus-complete/native.log": "16827000ae380beb2da1d5fec948a85da150b5de69eed67a0bab8ecc5a6643b7",
+    "plus-complete/result.json": "3ac4d2365e4956121ccbc5969cb5179f95a5e2d96cdf8439449efc0e48e46a59",
+    "plus-complete/supervisor-exit.json": "83f876b36c1d4f5f5bde943cba14229ab46704578c0170739962224fc843aa07",
+    "plus-controls/case.qml": "8989cc1f3f392d1e0fc2aca60d1f286a5e19d7eb661d067e1d2fb888f889fc61",
+    "plus-controls/help.png": "fcb284cf0ae7da9d5775eb52d897eb59172b53bb7865caf189143922df9baafe",
+    "plus-controls/launcher-status.json": "33357fa4d44ace1b2a97bfb64dd46f6b0ec44d4fadcd09b5defb8d08ee26e336",
+    "plus-controls/native.log": "55d5420eb251a15f09ca6d3e5505eb99fb5f81cfdfd523c3978d66c9e683e756",
+    "plus-controls/result.json": "1391a84acccee052a714c1fd0d2f39bb0027fa14789d42dd23b65ec56504212d",
+    "plus-controls/supervisor-exit.json": "0a06c3c554adb9dd1105e9583fb6f28dfda9fc12b8ba6d68461c85226142a120",
+    "tool-outer-observations.json": "67999d347cef3cf46fe77cbea7afc51a99aa59a4ef652550098eaa6bbf6d8b6c"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "run": "38846063228",
+  "head_sha": "9b001ee47d63ca70d16ec536892f8bc10c06553a",
+  "saved": [
+    "CMakeCache.txt",
+    "artifacts/SHA256SUMS.txt",
+    "artifacts/installed/activities.txt",
+    "artifacts/installed/startup-check.json",
+    "artifacts/installer-check.json",
+    "artifacts/package-check.json",
+    "artifacts/staged/activities.txt",
+    "artifacts/staged/startup-check.json"
+  ],
+  "installer_downloaded": false
+}

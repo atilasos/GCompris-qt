@@ -1,0 +1,15 @@
+test_corrupted_source_hash_is_rejected (test_identities.HistoricalColorsIdentities.test_corrupted_source_hash_is_rejected) ... FAIL
+
+======================================================================
+FAIL: test_corrupted_source_hash_is_rejected (test_identities.HistoricalColorsIdentities.test_corrupted_source_hash_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors-identity/tests/functional_colors/test_identities.py", line 26, in test_corrupted_source_hash_is_rejected
+    self.assertNotEqual(process.returncode, 0, 'A changed source digest must not approve historical receipts')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 == 0 : A changed source digest must not approve historical receipts
+
+----------------------------------------------------------------------
+Ran 1 test in 0.069s
+
+FAILED (failures=1)

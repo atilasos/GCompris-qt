@@ -1,0 +1,10 @@
+{
+  "format": 1,
+  "kind": "observed-exec-tool-return",
+  "exit_code": 0,
+  "session_id": 89869,
+  "chunk_id": "4450e7",
+  "provenance": "Actual write_stdin completion observed by root and explicitly supplied in task81 handoff to data_04; not inferred from Qt receipt",
+  "native_receipt_sha256": "6d7573475d9783d5ce5823a4eebe6fa7f64cf70bd4e722e9a5520698d87aa87a",
+  "launcher_status_sha256": "8298d929bbffbbd443ff74635781796259b89f11a1c6bc897906969670a3d084"
+}

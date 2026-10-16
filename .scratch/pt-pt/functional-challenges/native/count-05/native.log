@@ -1,0 +1,139 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/snapshot/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-2f6799ded574428a85d396076e049806/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-2f6799ded574428a85d396076e049806/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-2f6799ded574428a85d396076e049806/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-2f6799ded574428a85d396076e049806/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-2f6799ded574428a85d396076e049806/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-2f6799ded574428a85d396076e049806/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-2f6799ded574428a85d396076e049806/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-2f6799ded574428a85d396076e049806/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-2f6799ded574428a85d396076e049806/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity guesscount/Guesscount.qml at level 4
+qml: guesscount/Guesscount.qml guesscount/Guesscount.qml
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+load configuration for: "guesscount"
+qml: CHALLENGE_ATTEMPT 5 1 [4,2,6,1] 5 ["+","-"]
+qml: CHALLENGE_COMPLETED {"level":5,"question":1,"mode":"builtin","values":[4,2,6,1],"target":5,"operators":["+","-"],"steps":[{"b":1,"op":"+","left":4,"right":2,"result":6,"a":0},{"b":3,"op":"-","left":6,"right":1,"result":5}],"wrong":{"steps":[{"b":1,"op":"+","left":4,"right":2,"result":6,"a":0},{"b":2,"op":"+","left":6,"right":6,"result":12}]},"rejected":[{"a":3,"b":2,"op":"-","left":1,"right":6,"reason":"negative","message":"o resultado não é um inteiro positivo"}]}
+qml: CHALLENGE_ATTEMPT 5 2 [6,4,5,7] 5 ["+","-"]
+qml: CHALLENGE_COMPLETED {"level":5,"question":2,"mode":"builtin","values":[6,4,5,7],"target":5,"operators":["+","-"],"steps":[{"b":1,"op":"+","left":6,"right":4,"result":10,"a":0},{"b":2,"op":"-","left":10,"right":5,"result":5}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 5 3 [1,2,4,5] 5 ["+","-"]
+qml: CHALLENGE_COMPLETED {"level":5,"question":3,"mode":"builtin","values":[1,2,4,5],"target":5,"operators":["+","-"],"steps":[{"b":2,"op":"+","left":2,"right":4,"result":6,"a":1},{"b":0,"op":"-","left":6,"right":1,"result":5}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 5 4 [3,4,5,7] 2 ["+","-"]
+qml: CHALLENGE_COMPLETED {"level":5,"question":4,"mode":"builtin","values":[3,4,5,7],"target":2,"operators":["+","-"],"steps":[{"b":1,"op":"+","left":3,"right":4,"result":7,"a":0},{"b":2,"op":"-","left":7,"right":5,"result":2}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 6 1 [6,5,4,1] 30 ["+","*"]
+qml: CHALLENGE_COMPLETED {"level":6,"question":1,"mode":"builtin","values":[6,5,4,1],"target":30,"operators":["+","*"],"steps":[{"b":1,"op":"*","left":6,"right":5,"result":30,"a":0},{"b":3,"op":"*","left":30,"right":1,"result":30}],"wrong":{"steps":[{"b":1,"op":"+","left":6,"right":5,"result":11,"a":0},{"b":2,"op":"+","left":11,"right":4,"result":15}]},"rejected":[]}
+qml: CHALLENGE_ATTEMPT 6 2 [1,2,4,7] 9 ["+","*"]
+qml: CHALLENGE_COMPLETED {"level":6,"question":2,"mode":"builtin","values":[1,2,4,7],"target":9,"operators":["+","*"],"steps":[{"b":1,"op":"*","left":1,"right":2,"result":2,"a":0},{"b":3,"op":"+","left":2,"right":7,"result":9}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 6 3 [3,4,5,8] 35 ["+","*"]
+qml: CHALLENGE_COMPLETED {"level":6,"question":3,"mode":"builtin","values":[3,4,5,8],"target":35,"operators":["+","*"],"steps":[{"b":1,"op":"+","left":3,"right":4,"result":7,"a":0},{"b":2,"op":"*","left":7,"right":5,"result":35}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 6 4 [1,2,4,6] 12 ["+","*"]
+qml: CHALLENGE_COMPLETED {"level":6,"question":4,"mode":"builtin","values":[1,2,4,6],"target":12,"operators":["+","*"],"steps":[{"b":1,"op":"+","left":1,"right":2,"result":3,"a":0},{"b":2,"op":"*","left":3,"right":4,"result":12}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 7 1 [2,1,4,2] 6 ["+","/"]
+qml: CHALLENGE_COMPLETED {"level":7,"question":1,"mode":"builtin","values":[2,1,4,2],"target":6,"operators":["+","/"],"steps":[{"b":2,"op":"+","left":2,"right":4,"result":6,"a":0},{"b":1,"op":"/","left":6,"right":1,"result":6}],"wrong":{"steps":[{"b":1,"op":"+","left":2,"right":1,"result":3,"a":0},{"b":2,"op":"+","left":3,"right":4,"result":7}]},"rejected":[{"a":3,"b":2,"op":"/","left":2,"right":4,"reason":"fraction","message":"o resultado não é um inteiro"}]}
+qml: CHALLENGE_ATTEMPT 7 2 [1,4,2,2] 2 ["+","/"]
+qml: CHALLENGE_COMPLETED {"level":7,"question":2,"mode":"builtin","values":[1,4,2,2],"target":2,"operators":["+","/"],"steps":[{"b":0,"op":"/","left":4,"right":1,"result":4,"a":1},{"b":2,"op":"/","left":4,"right":2,"result":2}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 7 3 [3,6,5,5] 7 ["+","/"]
+qml: CHALLENGE_COMPLETED {"level":7,"question":3,"mode":"builtin","values":[3,6,5,5],"target":7,"operators":["+","/"],"steps":[{"b":0,"op":"/","left":6,"right":3,"result":2,"a":1},{"b":2,"op":"+","left":2,"right":5,"result":7}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 8 1 [5,4,3,1] 8 ["-","*"]
+qml: CHALLENGE_COMPLETED {"level":8,"question":1,"mode":"builtin","values":[5,4,3,1],"target":8,"operators":["-","*"],"steps":[{"b":2,"op":"-","left":5,"right":3,"result":2,"a":0},{"b":1,"op":"*","left":2,"right":4,"result":8}],"wrong":{"steps":[{"b":1,"op":"-","left":5,"right":4,"result":1,"a":0},{"b":3,"op":"-","left":1,"right":1,"result":0}]},"rejected":[{"a":3,"b":2,"op":"-","left":1,"right":3,"reason":"negative","message":"o resultado não é um inteiro positivo"}]}
+qml: CHALLENGE_ATTEMPT 8 2 [8,7,9,3] 9 ["-","*"]
+qml: CHALLENGE_COMPLETED {"level":8,"question":2,"mode":"builtin","values":[8,7,9,3],"target":9,"operators":["-","*"],"steps":[{"b":1,"op":"-","left":8,"right":7,"result":1,"a":0},{"b":2,"op":"*","left":1,"right":9,"result":9}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 8 3 [9,4,6,2] 30 ["-","*"]
+qml: CHALLENGE_COMPLETED {"level":8,"question":3,"mode":"builtin","values":[9,4,6,2],"target":30,"operators":["-","*"],"steps":[{"b":1,"op":"-","left":9,"right":4,"result":5,"a":0},{"b":2,"op":"*","left":5,"right":6,"result":30}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 9 1 [7,2,1,4] 2 ["-","/"]
+qml: CHALLENGE_COMPLETED {"level":9,"question":1,"mode":"builtin","values":[7,2,1,4],"target":2,"operators":["-","/"],"steps":[{"b":2,"op":"-","left":7,"right":1,"result":6,"a":0},{"b":3,"op":"-","left":6,"right":4,"result":2}],"wrong":{"steps":[{"b":1,"op":"-","left":7,"right":2,"result":5,"a":0},{"b":2,"op":"-","left":5,"right":1,"result":4}]},"rejected":[{"a":3,"b":0,"op":"/","left":4,"right":7,"reason":"fraction","message":"o resultado não é um inteiro"}]}
+qml: CHALLENGE_ATTEMPT 9 2 [12,2,5,1] 1 ["-","/"]
+qml: CHALLENGE_COMPLETED {"level":9,"question":2,"mode":"builtin","values":[12,2,5,1],"target":1,"operators":["-","/"],"steps":[{"b":1,"op":"/","left":12,"right":2,"result":6,"a":0},{"b":2,"op":"-","left":6,"right":5,"result":1}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 9 3 [1,3,9,5] 2 ["-","/"]
+qml: CHALLENGE_COMPLETED {"level":9,"question":3,"mode":"builtin","values":[1,3,9,5],"target":2,"operators":["-","/"],"steps":[{"b":1,"op":"/","left":9,"right":3,"result":3,"a":2},{"b":0,"op":"-","left":3,"right":1,"result":2}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 9 4 [1,2,5,2] 3 ["-","/"]
+qml: CHALLENGE_COMPLETED {"level":9,"question":4,"mode":"builtin","values":[1,2,5,2],"target":3,"operators":["-","/"],"steps":[{"b":1,"op":"-","left":5,"right":2,"result":3,"a":2},{"b":0,"op":"/","left":3,"right":1,"result":3}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 10 1 [5,4,6,15] 18 ["*","/"]
+qml: CHALLENGE_COMPLETED {"level":10,"question":1,"mode":"builtin","values":[5,4,6,15],"target":18,"operators":["*","/"],"steps":[{"b":3,"op":"*","left":6,"right":15,"result":90,"a":2},{"b":0,"op":"/","left":90,"right":5,"result":18}],"wrong":{"steps":[{"b":1,"op":"*","left":5,"right":4,"result":20,"a":0},{"b":2,"op":"*","left":20,"right":6,"result":120}]},"rejected":[{"a":3,"b":2,"op":"/","left":15,"right":6,"reason":"fraction","message":"o resultado não é um inteiro"}]}
+qml: CHALLENGE_ATTEMPT 10 2 [3,3,6,2] 6 ["*","/"]
+qml: CHALLENGE_COMPLETED {"level":10,"question":2,"mode":"builtin","values":[3,3,6,2],"target":6,"operators":["*","/"],"steps":[{"b":2,"op":"*","left":3,"right":6,"result":18,"a":0},{"b":1,"op":"/","left":18,"right":3,"result":6}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 10 3 [14,7,3,0] 6 ["*","/"]
+qml: CHALLENGE_COMPLETED {"level":10,"question":3,"mode":"builtin","values":[14,7,3,0],"target":6,"operators":["*","/"],"steps":[{"b":2,"op":"*","left":14,"right":3,"result":42,"a":0},{"b":1,"op":"/","left":42,"right":7,"result":6}],"wrong":null,"rejected":[]}
+qml: NATIVE_CHALLENGES_RESULT {"failures":0,"passes":2,"completed":[{"level":5,"question":1,"mode":"builtin","values":[4,2,6,1],"target":5,"operators":["+","-"],"steps":[{"b":1,"op":"+","left":4,"right":2,"result":6,"a":0},{"b":3,"op":"-","left":6,"right":1,"result":5}],"wrong":{"steps":[{"b":1,"op":"+","left":4,"right":2,"result":6,"a":0},{"b":2,"op":"+","left":6,"right":6,"result":12}]},"rejected":[{"a":3,"b":2,"op":"-","left":1,"right":6,"reason":"negative","message":"o resultado não é um inteiro positivo"}]},{"level":5,"question":2,"mode":"builtin","values":[6,4,5,7],"target":5,"operators":["+","-"],"steps":[{"b":1,"op":"+","left":6,"right":4,"result":10,"a":0},{"b":2,"op":"-","left":10,"right":5,"result":5}],"wrong":null,"rejected":[]},{"level":5,"question":3,"mode":"builtin","values":[1,2,4,5],"target":5,"operators":["+","-"],"steps":[{"b":2,"op":"+","left":2,"right":4,"result":6,"a":1},{"b":0,"op":"-","left":6,"right":1,"result":5}],"wrong":null,"rejected":[]},{"level":5,"question":4,"mode":"builtin","values":[3,4,5,7],"target":2,"operators":["+","-"],"steps":[{"b":1,"op":"+","left":3,"right":4,"result":7,"a":0},{"b":2,"op":"-","left":7,"right":5,"result":2}],"wrong":null,"rejected":[]},{"level":6,"question":1,"mode":"builtin","values":[6,5,4,1],"target":30,"operators":["+","*"],"steps":[{"b":1,"op":"*","left":6,"right":5,"result":30,"a":0},{"b":3,"op":"*","left":30,"right":1,"result":30}],"wrong":{"steps":[{"b":1,"op":"+","left":6,"right":5,"result":11,"a":0},{"b":2,"op":"+","left":11,"right":4,"result":15}]},"rejected":[]},{"level":6,"question":2,"mode":"builtin","values":[1,2,4,7],"target":9,"operators":["+","*"],"steps":[{"b":1,"op":"*","left":1,"right":2,"result":2,"a":0},{"b":3,"op":"+","left":2,"right":7,"result":9}],"wrong":null,"rejected":[]},{"level":6,"question":3,"mode":"builtin","values":[3,4,5,8],"target":35,"operators":["+","*"],"steps":[{"b":1,"op":"+","left":3,"right":4,"result":7,"a":0},{"b":2,"op":"*","left":7,"right":5,"result":35}],"wrong":null,"rejected":[]},{"level":6,"question":4,"mode":"builtin","values":[1,2,4,6],"target":12,"operators":["+","*"],"steps":[{"b":1,"op":"+","left":1,"right":2,"result":3,"a":0},{"b":2,"op":"*","left":3,"right":4,"result":12}],"wrong":null,"rejected":[]},{"level":7,"question":1,"mode":"builtin","values":[2,1,4,2],"target":6,"operators":["+","/"],"steps":[{"b":2,"op":"+","left":2,"right":4,"result":6,"a":0},{"b":1,"op":"/","left":6,"right":1,"result":6}],"wrong":{"steps":[{"b":1,"op":"+","left":2,"right":1,"result":3,"a":0},{"b":2,"op":"+","left":3,"right":4,"result":7}]},"rejected":[{"a":3,"b":2,"op":"/","left":2,"right":4,"reason":"fraction","message":"o resultado não é um inteiro"}]},{"level":7,"question":2,"mode":"builtin","values":[1,4,2,2],"target":2,"operators":["+","/"],"steps":[{"b":0,"op":"/","left":4,"right":1,"result":4,"a":1},{"b":2,"op":"/","left":4,"right":2,"result":2}],"wrong":null,"rejected":[]},{"level":7,"question":3,"mode":"builtin","values":[3,6,5,5],"target":7,"operators":["+","/"],"steps":[{"b":0,"op":"/","left":6,"right":3,"result":2,"a":1},{"b":2,"op":"+","left":2,"right":5,"result":7}],"wrong":null,"rejected":[]},{"level":8,"question":1,"mode":"builtin","values":[5,4,3,1],"target":8,"operators":["-","*"],"steps":[{"b":2,"op":"-","left":5,"right":3,"result":2,"a":0},{"b":1,"op":"*","left":2,"right":4,"result":8}],"wrong":{"steps":[{"b":1,"op":"-","left":5,"right":4,"result":1,"a":0},{"b":3,"op":"-","left":1,"right":1,"result":0}]},"rejected":[{"a":3,"b":2,"op":"-","left":1,"right":3,"reason":"negative","message":"o resultado não é um inteiro positivo"}]},{"level":8,"question":2,"mode":"builtin","values":[8,7,9,3],"target":9,"operators":["-","*"],"steps":[{"b":1,"op":"-","left":8,"right":7,"result":1,"a":0},{"b":2,"op":"*","left":1,"right":9,"result":9}],"wrong":null,"rejected":[]},{"level":8,"question":3,"mode":"builtin","values":[9,4,6,2],"target":30,"operators":["-","*"],"steps":[{"b":1,"op":"-","left":9,"right":4,"result":5,"a":0},{"b":2,"op":"*","left":5,"right":6,"result":30}],"wrong":null,"rejected":[]},{"level":9,"question":1,"mode":"builtin","values":[7,2,1,4],"target":2,"operators":["-","/"],"steps":[{"b":2,"op":"-","left":7,"right":1,"result":6,"a":0},{"b":3,"op":"-","left":6,"right":4,"result":2}],"wrong":{"steps":[{"b":1,"op":"-","left":7,"right":2,"result":5,"a":0},{"b":2,"op":"-","left":5,"right":1,"result":4}]},"rejected":[{"a":3,"b":0,"op":"/","left":4,"right":7,"reason":"fraction","message":"o resultado não é um inteiro"}]},{"level":9,"question":2,"mode":"builtin","values":[12,2,5,1],"target":1,"operators":["-","/"],"steps":[{"b":1,"op":"/","left":12,"right":2,"result":6,"a":0},{"b":2,"op":"-","left":6,"right":5,"result":1}],"wrong":null,"rejected":[]},{"level":9,"question":3,"mode":"builtin","values":[1,3,9,5],"target":2,"operators":["-","/"],"steps":[{"b":1,"op":"/","left":9,"right":3,"result":3,"a":2},{"b":0,"op":"-","left":3,"right":1,"result":2}],"wrong":null,"rejected":[]},{"level":9,"question":4,"mode":"builtin","values":[1,2,5,2],"target":3,"operators":["-","/"],"steps":[{"b":1,"op":"-","left":5,"right":2,"result":3,"a":2},{"b":0,"op":"/","left":3,"right":1,"result":3}],"wrong":null,"rejected":[]},{"level":10,"question":1,"mode":"builtin","values":[5,4,6,15],"target":18,"operators":["*","/"],"steps":[{"b":3,"op":"*","left":6,"right":15,"result":90,"a":2},{"b":0,"op":"/","left":90,"right":5,"result":18}],"wrong":{"steps":[{"b":1,"op":"*","left":5,"right":4,"result":20,"a":0},{"b":2,"op":"*","left":20,"right":6,"result":120}]},"rejected":[{"a":3,"b":2,"op":"/","left":15,"right":6,"reason":"fraction","message":"o resultado não é um inteiro"}]},{"level":10,"question":2,"mode":"builtin","values":[3,3,6,2],"target":6,"operators":["*","/"],"steps":[{"b":2,"op":"*","left":3,"right":6,"result":18,"a":0},{"b":1,"op":"/","left":18,"right":3,"result":6}],"wrong":null,"rejected":[]},{"level":10,"question":3,"mode":"builtin","values":[14,7,3,0],"target":6,"operators":["*","/"],"steps":[{"b":2,"op":"*","left":14,"right":3,"result":42,"a":0},{"b":1,"op":"/","left":42,"right":7,"result":6}],"wrong":null,"rejected":[]}],"wins":6}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs

@@ -59,7 +59,7 @@ Rectangle {
                 MultiPointTouchArea {
                     anchors.fill: parent
                     onReleased: moneyAreaBody.transaction(index)
-                    enabled: !bonus.isPlaying
+                    enabled: !bonus.isPlaying && !items.buttonsBlocked
                 }
 
                 Rectangle {

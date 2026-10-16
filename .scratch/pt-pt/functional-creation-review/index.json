@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "scope": "Review-only supplement: two Spec P2, Standards P3, and future output-root guard. No native run.",
+  "base": "e480214061ae38bb8b99586ca7535cfeef20426e",
+  "historical_capture_sha256": "9b8e6aab0aac15a3c9f8bcd73dcaac8b62a0eb7040181f6c874dd51e27ebeb61",
+  "historical_archive_sha256": "2fe09088b42e0cf41917e430ebf4ac97e19a48f3c5ddf50e04648ef6d6ef9395",
+  "source_sha256": {
+    "tests/functional_creation/review_audit.py": "d180b1ee5c599fc59d7e21844e6d6967171fcfff31bfc78c26e7c48cb93e517d",
+    "tests/functional_creation/rcc_export.py": "3a582ab81cf76d2750a5f639219da8ff2607720c8e6fbb0cb283368a1346a68f",
+    "tests/functional_creation/run.py": "76dfd419f81b451ffc613af6fdf8c41a7bd812a10d8782d55d4bdfb770295d2a",
+    "tests/functional_creation/capture_resources.py": "637227e2751b67fe6f17b056c1e717281ac9354f7e6f962ead1a84193099784b",
+    "tests/functional_creation/seal.py": "e0b85c8b2677ecf13b1f69bc933f4faccc94e75886b391808e76e440da592fd8",
+    "tests/functional_creation/test_review_audit.py": "00fffdebd1356c78dd3f76c71a072c6435d0dd4685c12151c301f31d06209cb2",
+    "tests/functional_creation/test_rcc_export.py": "f5e3b1ae176d809e4b143812038e0cbf7c195b48cd6933bfa68a4be5903475fc",
+    "tests/functional_creation/test_cli.py": "3d45388ac3be7f053b082ad34b0ffa491caf30becd58b07571163fe608d8904f"
+  },
+  "result_sha256": "33db975e63615a66cf9d5b7802dbfff7e54bdddab0ec4fa86137bf1ebaee4004",
+  "verification": [
+    {
+      "command": "python3 tests/functional_creation/review_audit.py",
+      "tool": "tools.write_stdin",
+      "session_id": 36646,
+      "chunk_id": "02ff7e",
+      "exit_code": 0,
+      "log": "images.json"
+    },
+    {
+      "command": "python3 -m unittest discover -s tests/functional_creation",
+      "tool": "tools.write_stdin",
+      "session_id": 8918,
+      "chunk_id": "bc5cab",
+      "exit_code": 0,
+      "tests": 28,
+      "phase": "Before final output-root guard",
+      "log": "all-tests.log"
+    },
+    {
+      "command": "python3 -m unittest discover -s tests/functional_creation -p test_cli.py",
+      "tool": "tools.exec_command",
+      "chunk_id": "7923d2",
+      "exit_code": 0,
+      "tests": 5,
+      "phase": "Final output-root guard, including three new methods",
+      "log": "cli-final.log"
+    },
+    {
+      "command": "python3 -m unittest discover -s tests/functional_creation -p test_rcc_export.py",
+      "tool": "tools.exec_command",
+      "chunk_id": "739778",
+      "exit_code": 0,
+      "tests": 3,
+      "phase": "Final shared exporter boundary mocked, no compiler or Qt",
+      "log": "helper-final-observed.log"
+    }
+  ],
+  "distinct_test_methods": 31,
+  "native_processes_started": 0,
+  "historical_proofs_modified": false
+}

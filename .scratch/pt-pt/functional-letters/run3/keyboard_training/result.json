@@ -1,0 +1,315 @@
+{
+  "activity": "keyboard_training",
+  "locale": "pt_PT",
+  "qml_file": "keyboard_training/Keyboard_training.qml",
+  "source_sha256": "efd3bbda41ae6b15952d796aef596a4d92bca09bf4f166d762c9e77fbbeeedac",
+  "portuguese_catalogue_sha256": "4865d718b6529ee9aa39be44c4b5052a8b0134e8c42d2cc0718c83d1a4b202c4",
+  "private_qm_sha256": "91f5e93165c01fe523d8f005ee3c000e064f7ecf32478756db38b5e5e0c99480",
+  "case_sha256": "c2395f4372e5150808e2f4a676a711f01dfb128ac46462422dfdbddbdfa0ec79",
+  "private_rcc_sha256": "d271752c3e42892cd0c00b4daffea43705768fc994084f35422918097f6b95c1",
+  "binary_sha256": "ab20447c36845d74abeba9974e2d60ca7f20ebf7d59b677ba09f85faf6a90a37",
+  "runner_sha256": "4faa81300d446301ee8eb7e0c3054368344dd27226a2ce3076e60043bdc71366",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-letters/build/native-qml/0b2b6ba4ee6a45cf8ea9ec51a48c2e53",
+  "version_code": 260200,
+  "network": "docker-none",
+  "timestamp_utc": "2026-10-15T20:25:22.301157+00:00",
+  "scope": "Only actions and assertions in the named case; muted native Qt, not Windows or audio approval.",
+  "screenshots": [
+    {
+      "file": "keyboard-lowercase-level-1.png",
+      "sha256": "4d0214503f7c1c010332f384e3f99748548060ad03343babb034d9af358db5e9",
+      "bytes": 43443
+    },
+    {
+      "file": "keyboard-lowercase-level-11.png",
+      "sha256": "d2067564d0fc44d9fbe7826c16171f1555208660f5ee929a996af23dc5e67f7e",
+      "bytes": 113515
+    },
+    {
+      "file": "keyboard-lowercase-level-12.png",
+      "sha256": "ba8c1c08935be4d80f4c8295874c9ae633fbd59b08f6b2c8bffac97b3e5698d2",
+      "bytes": 114348
+    },
+    {
+      "file": "keyboard-lowercase-level-13.png",
+      "sha256": "4d0214503f7c1c010332f384e3f99748548060ad03343babb034d9af358db5e9",
+      "bytes": 43443
+    },
+    {
+      "file": "keyboard-uppercase-level-1.png",
+      "sha256": "4d0214503f7c1c010332f384e3f99748548060ad03343babb034d9af358db5e9",
+      "bytes": 43443
+    },
+    {
+      "file": "keyboard-uppercase-level-11.png",
+      "sha256": "4d0214503f7c1c010332f384e3f99748548060ad03343babb034d9af358db5e9",
+      "bytes": 43443
+    },
+    {
+      "file": "keyboard-uppercase-level-12.png",
+      "sha256": "6c32579a460928592710d884f4f0753303d8e438b8d33ba2d2a6b1c74ac7e6bd",
+      "bytes": 115480
+    },
+    {
+      "file": "keyboard-uppercase-level-13.png",
+      "sha256": "4d0214503f7c1c010332f384e3f99748548060ad03343babb034d9af358db5e9",
+      "bytes": 43443
+    }
+  ],
+  "passed": true,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 0,
+    "passes": 2,
+    "completed": [
+      {
+        "mode": "uppercase",
+        "level": 1,
+        "correct": 5,
+        "score": 5
+      },
+      {
+        "mode": "uppercase",
+        "level": 2,
+        "correct": 12,
+        "score": 12
+      },
+      {
+        "mode": "uppercase",
+        "level": 3,
+        "correct": 12,
+        "score": 12
+      },
+      {
+        "mode": "uppercase",
+        "level": 4,
+        "correct": 26,
+        "score": 26
+      },
+      {
+        "mode": "uppercase",
+        "level": 5,
+        "correct": 10,
+        "score": 10
+      },
+      {
+        "mode": "uppercase",
+        "level": 6,
+        "correct": 5,
+        "score": 5
+      },
+      {
+        "mode": "uppercase",
+        "level": 7,
+        "correct": 9,
+        "score": 9
+      },
+      {
+        "mode": "uppercase",
+        "level": 8,
+        "correct": 12,
+        "score": 12
+      },
+      {
+        "mode": "uppercase",
+        "level": 9,
+        "correct": 21,
+        "score": 21
+      },
+      {
+        "mode": "uppercase",
+        "level": 10,
+        "correct": 52,
+        "score": 52
+      },
+      {
+        "mode": "uppercase",
+        "level": 11,
+        "correct": 12,
+        "score": 12
+      },
+      {
+        "mode": "uppercase",
+        "level": 12,
+        "correct": 12,
+        "score": 12
+      },
+      {
+        "mode": "uppercase",
+        "level": 13,
+        "correct": 24,
+        "score": 24
+      },
+      {
+        "mode": "lowercase",
+        "level": 1,
+        "correct": 5,
+        "score": 5
+      },
+      {
+        "mode": "lowercase",
+        "level": 2,
+        "correct": 12,
+        "score": 12
+      },
+      {
+        "mode": "lowercase",
+        "level": 3,
+        "correct": 12,
+        "score": 12
+      },
+      {
+        "mode": "lowercase",
+        "level": 4,
+        "correct": 26,
+        "score": 26
+      },
+      {
+        "mode": "lowercase",
+        "level": 5,
+        "correct": 10,
+        "score": 10
+      },
+      {
+        "mode": "lowercase",
+        "level": 6,
+        "correct": 5,
+        "score": 5
+      },
+      {
+        "mode": "lowercase",
+        "level": 7,
+        "correct": 9,
+        "score": 9
+      },
+      {
+        "mode": "lowercase",
+        "level": 8,
+        "correct": 12,
+        "score": 12
+      },
+      {
+        "mode": "lowercase",
+        "level": 9,
+        "correct": 21,
+        "score": 21
+      },
+      {
+        "mode": "lowercase",
+        "level": 10,
+        "correct": 52,
+        "score": 52
+      },
+      {
+        "mode": "lowercase",
+        "level": 11,
+        "correct": 12,
+        "score": 12
+      },
+      {
+        "mode": "lowercase",
+        "level": 12,
+        "correct": 12,
+        "score": 12
+      },
+      {
+        "mode": "lowercase",
+        "level": 13,
+        "correct": 24,
+        "score": 24
+      }
+    ],
+    "correctInputs": 424,
+    "wrongInputs": 32,
+    "typedCharacters": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "u",
+      "E",
+      "a",
+      "O",
+      "i",
+      "g",
+      "K",
+      "m",
+      "D",
+      "p",
+      "C",
+      "f",
+      "J",
+      "h",
+      "L",
+      "b",
+      "N",
+      "q",
+      "y",
+      "W",
+      "s",
+      "M",
+      "z",
+      "X",
+      "t",
+      "V",
+      "r",
+      "P",
+      "n",
+      "v",
+      "T",
+      "c",
+      "S",
+      "G",
+      "R",
+      "d",
+      "w",
+      "I",
+      "F",
+      "x",
+      "l",
+      "Y",
+      "o",
+      "Z",
+      "A",
+      "H",
+      "j",
+      "B",
+      "Q",
+      "k",
+      "e",
+      "U",
+      "ê",
+      "Ú",
+      "â",
+      "Õ",
+      "à",
+      "Á",
+      "ó",
+      "É",
+      "í",
+      "Ç",
+      "ã",
+      "Ô",
+      "ô",
+      "Ã",
+      "á",
+      "À",
+      "Ó",
+      "ç",
+      "Â",
+      "é",
+      "Ê",
+      "õ",
+      "Í",
+      "ú"
+    ]
+  }
+}

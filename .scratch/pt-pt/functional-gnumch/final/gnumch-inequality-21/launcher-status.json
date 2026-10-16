@@ -1,0 +1,27 @@
+{
+  "exit_code": 0,
+  "passed": true,
+  "command": [
+    "/usr/bin/python3",
+    "/home/proteu/Projetos/GCompris-qt-worktrees/pt-number-munchers/tools/run-native-qml-case.py",
+    "--source-root",
+    "/home/proteu/Projetos/GCompris-qt-worktrees/pt-number-munchers/build/gnumch-final-source",
+    "--resource-snapshot",
+    "/home/proteu/Projetos/GCompris-qt-worktrees/pt-number-munchers/build/gnumch-fixed",
+    "--activity",
+    "gnumch-inequality",
+    "--qml-file",
+    "/home/proteu/Projetos/GCompris-qt-worktrees/pt-number-munchers/build/gnumch-final-source/src/activities/gnumch-equality/Gnumch.qml",
+    "--case",
+    "/tmp/gnumch-case-7dbcquy6/case.qml",
+    "--output",
+    "/home/proteu/Projetos/GCompris-qt-worktrees/pt-number-munchers/.scratch/pt-pt/functional-gnumch/final/gnumch-inequality-21",
+    "--start-level",
+    "21",
+    "--offline",
+    "--timeout",
+    "2060",
+    "--result-marker",
+    "NATIVE_GNUMCH_RESULT"
+  ]
+}

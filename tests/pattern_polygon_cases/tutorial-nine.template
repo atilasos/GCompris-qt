@@ -1,0 +1,22 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+TestCase {
+ id:qa
+ name:'NineVisiblePolygonInstructionsIndependentCandidatesAndNaturalContinuation'
+ when:activity.visible&&activity.numberOfLevel>0
+__COMMON__
+ function test_tutorial() {
+  wait(1500);compare(activity.numberOfLevel,9);
+  for(var level=1;level<=9;level++) {
+   compare(bar.level,level);var route={level:level,pages:introductions('level-'+level),instruction:instruction()};evidence.routes.push(route);
+   compare(route.instruction,proposals[level-1].instruction);
+   route.wrong=draw([[2,4],[5,4],[8,4]],'level-'+level+'-collinear');
+   route.rejection=submit('level-'+level+'-collinear',false);
+   route.reload=reload('level-'+level+'-cleared');
+   route.repair=draw(proposals[level-1].vertices,'level-'+level+'-independent');
+   route.success=submit('level-'+level+'-independent',true,level%2===0?'key':'mouse');
+   console.log('POLYGON_PROGRESS',level,9);
+  }
+  compare(bar.level,1);introductions('after-nine-successes');helpAndEscape('after-nine');homeAfterWork('menu-after-nine-successes');
+ }
+ function cleanupTestCase() {finish();}
+}

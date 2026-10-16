@@ -1,0 +1,17 @@
+{
+  "scalesboard": {
+    "datasets": 8,
+    "levels": 52,
+    "targets_reachable": 223
+  },
+  "scalesboard_weight": {
+    "datasets": 6,
+    "levels": 45,
+    "targets_reachable": 222
+  },
+  "scalesboard_weight_avoirdupois": {
+    "datasets": 6,
+    "levels": 45,
+    "targets_reachable": 221
+  }
+}

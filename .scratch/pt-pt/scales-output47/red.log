@@ -1,0 +1,78 @@
+test_existing_output_is_rejected_before_preparation_and_preserves_every_byte (test_runner_cli.ScalesOutputCLI.test_existing_output_is_rejected_before_preparation_and_preserves_every_byte) ... 
+  test_existing_output_is_rejected_before_preparation_and_preserves_every_byte (test_runner_cli.ScalesOutputCLI.test_existing_output_is_rejected_before_preparation_and_preserves_every_byte) (kind='archive') ... FAIL
+  test_existing_output_is_rejected_before_preparation_and_preserves_every_byte (test_runner_cli.ScalesOutputCLI.test_existing_output_is_rejected_before_preparation_and_preserves_every_byte) (kind='empty-directory') ... FAIL
+  test_existing_output_is_rejected_before_preparation_and_preserves_every_byte (test_runner_cli.ScalesOutputCLI.test_existing_output_is_rejected_before_preparation_and_preserves_every_byte) (kind='file') ... FAIL
+test_owned_output_preserves_its_private_case_for_success_and_launcher_failure (test_runner_cli.ScalesOutputCLI.test_owned_output_preserves_its_private_case_for_success_and_launcher_failure) ... 
+  test_owned_output_preserves_its_private_case_for_success_and_launcher_failure (test_runner_cli.ScalesOutputCLI.test_owned_output_preserves_its_private_case_for_success_and_launcher_failure) (exit_code=0) ... FAIL
+  test_owned_output_preserves_its_private_case_for_success_and_launcher_failure (test_runner_cli.ScalesOutputCLI.test_owned_output_preserves_its_private_case_for_success_and_launcher_failure) (exit_code=2) ... FAIL
+test_owned_output_preserves_its_private_case_for_success_and_launcher_failure (test_runner_cli.ScalesOutputCLI.test_owned_output_preserves_its_private_case_for_success_and_launcher_failure) ... FAIL
+
+======================================================================
+FAIL: test_existing_output_is_rejected_before_preparation_and_preserves_every_byte (test_runner_cli.ScalesOutputCLI.test_existing_output_is_rejected_before_preparation_and_preserves_every_byte) (kind='archive')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-scales-output/tests/functional_scales/test_runner_cli.py", line 67, in test_existing_output_is_rejected_before_preparation_and_preserves_every_byte
+    self.assertEqual(self.bytes_in_output(),before,'All archived bytes must survive refusal')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'res[42 chars]': b'fixture oracle 0 true', 'nested/screen.bi[738 chars]xff'} != {'res[42 chars]': b'original case\x00', 'nested/screen.bin': [734 chars]xff'}
+Diff is 1302 characters long. Set self.maxDiff to None to see it. : All archived bytes must survive refusal
+
+======================================================================
+FAIL: test_existing_output_is_rejected_before_preparation_and_preserves_every_byte (test_runner_cli.ScalesOutputCLI.test_existing_output_is_rejected_before_preparation_and_preserves_every_byte) (kind='empty-directory')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-scales-output/tests/functional_scales/test_runner_cli.py", line 67, in test_existing_output_is_rejected_before_preparation_and_preserves_every_byte
+    self.assertEqual(self.bytes_in_output(),before,'All archived bytes must survive refusal')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'case.qml': b'fixture oracle 0 true', 'result.json': b'{}'} != {}
+- {'case.qml': b'fixture oracle 0 true', 'result.json': b'{}'}
++ {} : All archived bytes must survive refusal
+
+======================================================================
+FAIL: test_existing_output_is_rejected_before_preparation_and_preserves_every_byte (test_runner_cli.ScalesOutputCLI.test_existing_output_is_rejected_before_preparation_and_preserves_every_byte) (kind='file')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-scales-output/tests/functional_scales/test_runner_cli.py", line 68, in test_existing_output_is_rejected_before_preparation_and_preserves_every_byte
+    self.assertEqual(result.returncode,2,result.stdout+result.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 2 : Traceback (most recent call last):
+  File "/tmp/scales-output-cli-jhobhd2a/tools/run-native-qml-case.py", line 6, in <module>
+    if output.exists() and any(output.iterdir()):sys.exit(2)
+                               ~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 837, in iterdir
+    with os.scandir(root_dir) as scandir_it:
+         ~~~~~~~~~~^^^^^^^^^^
+NotADirectoryError: [Errno 20] Not a directory: '/tmp/scales-output-cli-jhobhd2a/output-file'
+
+
+======================================================================
+FAIL: test_owned_output_preserves_its_private_case_for_success_and_launcher_failure (test_runner_cli.ScalesOutputCLI.test_owned_output_preserves_its_private_case_for_success_and_launcher_failure) (exit_code=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-scales-output/tests/functional_scales/test_runner_cli.py", line 86, in test_owned_output_preserves_its_private_case_for_success_and_launcher_failure
+    self.assertFalse(generated.exists(),'Private generated case must be cleaned')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not false : Private generated case must be cleaned
+
+======================================================================
+FAIL: test_owned_output_preserves_its_private_case_for_success_and_launcher_failure (test_runner_cli.ScalesOutputCLI.test_owned_output_preserves_its_private_case_for_success_and_launcher_failure) (exit_code=2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-scales-output/tests/functional_scales/test_runner_cli.py", line 86, in test_owned_output_preserves_its_private_case_for_success_and_launcher_failure
+    self.assertFalse(generated.exists(),'Private generated case must be cleaned')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not false : Private generated case must be cleaned
+
+======================================================================
+FAIL: test_owned_output_preserves_its_private_case_for_success_and_launcher_failure (test_runner_cli.ScalesOutputCLI.test_owned_output_preserves_its_private_case_for_success_and_launcher_failure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-scales-output/tests/functional_scales/test_runner_cli.py", line 89, in test_owned_output_preserves_its_private_case_for_success_and_launcher_failure
+    self.assertNotEqual(generated_paths[0],generated_paths[1])
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: PosixPath('/tmp/scales-output-cli-3lsnxi4d/build/functional-scales/scalesboard/controls.qml') == PosixPath('/tmp/scales-output-cli-3lsnxi4d/build/functional-scales/scalesboard/controls.qml')
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.315s
+
+FAILED (failures=6)

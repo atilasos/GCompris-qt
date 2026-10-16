@@ -1,0 +1,142 @@
+[
+  {
+    "case": "learn_decimals-landscape-physical",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "2223c98dd7c49584e6b53fd13cfcb033b9fe012cfef59b65632a0c016be78a5b"
+  },
+  {
+    "case": "learn_decimals-landscape-virtual",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "69e4494cfb3e9798899c0936d53149a443a79bbd7b477679e78e75d8e910e5e4"
+  },
+  {
+    "case": "learn_decimals-portrait-physical",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "85b72a4cb7c3f53c43635e658b2b77125a1efc2600bb6dd273843d1f7cf63604"
+  },
+  {
+    "case": "learn_decimals-portrait-virtual",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "900e8b4bb68ae5ed7d2cbc5ba1e79c17c81e009c4740d23923b23d488c907381"
+  },
+  {
+    "case": "learn_decimals_additions-landscape-physical",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "f8f023c8e475ef48aba70de7193f241daccd61a8673a012873955441e9a7bb29"
+  },
+  {
+    "case": "learn_decimals_additions-landscape-virtual",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "29cc589752f4262b10cccda9d3fe1a55a81f356eb8bb3ee0104adba5f368ad78"
+  },
+  {
+    "case": "learn_decimals_additions-portrait-physical",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "e705cf055af259d20d994cb6defe4609ba30993ef4e6815faa9d9855ec21fc3b"
+  },
+  {
+    "case": "learn_decimals_additions-portrait-virtual",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "704a8eb356b2f3daa5061d54aa86e72a40b591d901b57e3dbc44831b52b20e16"
+  },
+  {
+    "case": "learn_decimals_subtractions-landscape-physical",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "3d3bad06dd7a2068c9288dbabe143b70369d8b8525a8b41f088c59f8c8fd79a5"
+  },
+  {
+    "case": "learn_decimals_subtractions-landscape-virtual",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "0b7a77c74e3e0fda41a842416b2baa37ec793181ce37afcdc6e58368205b28bb"
+  },
+  {
+    "case": "learn_decimals_subtractions-portrait-physical",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "f4926cc790850986606bdf65b352e05d0082b4deea9a6a0b086505561e8d5319"
+  },
+  {
+    "case": "learn_decimals_subtractions-portrait-virtual",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "3d647d2f02f9a7620db14d9b0065568914b4a297cc2a7f2fd70994267dd3cf53"
+  },
+  {
+    "case": "learn_quantities-landscape-physical",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "76491f4a7e353a2d479df87164c20c63d52d9e0a8d37a099095f1ac3d1865796"
+  },
+  {
+    "case": "learn_quantities-landscape-virtual",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "d6911154e35c43bb29d4f134cc24551e53d3f35322124c95707bc882a7cf37a5"
+  },
+  {
+    "case": "learn_quantities-portrait-physical",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "88d588ef76743e26714efd39a70fd830d4472e2fc9583c43cf20154f6e6a729a"
+  },
+  {
+    "case": "learn_quantities-portrait-virtual",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "f78a905feb4f0cd8150c3d892c1e14919f99e1810d3b50654dea4d7ae3923a3d"
+  },
+  {
+    "case": "learn_decimals-landscape-physical",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "dcdaba324b2078a24486b1f9f5f41eb8b58444bc170d5420f1e387640ed526bc"
+  },
+  {
+    "case": "learn_decimals_additions-landscape-physical",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "7a01fbc5ef9bc521ee850397991da2a99b3fed8e0b084b573deb00e1e89e1f3a"
+  },
+  {
+    "case": "learn_decimals_subtractions-landscape-physical",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "6278a764620adc18a00e0aa23e1bd3259efa0b318c20d9beea9b248dfe45a7ee"
+  },
+  {
+    "case": "learn_quantities-landscape-physical",
+    "launcher_exit": 0,
+    "qt_exit": 0,
+    "passed": true,
+    "report_sha256": "358a8b0f9a01b6c94c50d404eadd988f8f8147f112b6c2b8ec30d9c434108d3b"
+  }
+]

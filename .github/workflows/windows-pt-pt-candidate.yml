@@ -1,0 +1,92 @@
+name: Windows PT-PT candidate
+
+on:
+  push:
+    branches: [integration/pt-pt]
+    paths:
+      - 'src/**'
+      - 'poqm/pt/**'
+      - 'tools/windows/**'
+      - 'tools/pt-pt-audio/**'
+      - 'resources/pt-pt-voices/**'
+      - 'CMakeLists.txt'
+      - 'cmake/**'
+      - 'external/**'
+      - '.github/workflows/windows-pt-pt-candidate.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: windows-pt-pt-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  candidate:
+    if: github.repository == 'atilasos/GCompris-qt'
+    runs-on: windows-2022
+    timeout-minutes: 90
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          submodules: recursive
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: '3.11'
+      - uses: ilammy/msvc-dev-cmd@a102174a2b586eec2ea151a69e6fd14404a8ce7c # v1.13.0
+        with:
+          arch: x64
+      - name: Restore pinned native SDK
+        id: sdk-cache
+        uses: actions/cache/restore@5a3ec84eff668545956fd18022155c47e93e2684 # v4.2.3
+        with:
+          path: |
+            C:/Qt/6.10.2/msvc2022_64
+            C:/candidate-vcpkg/installed/x64-windows
+          key: windows2022-msvc2022-x64-qt6.10.2-${{ hashFiles('tools/windows/qt-modules.txt') }}-vcpkg-c52f7bd748185ef0e0daf033d9f2ddfc8a3449ea
+      - name: Install pinned Qt and OpenSSL
+        if: steps.sdk-cache.outputs.cache-hit != 'true'
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $true
+          python -m pip install aqtinstall==3.3.0
+          $modules = (Get-Content tools/windows/qt-modules.txt -Raw).Trim() -split '\s+'
+          python -m aqt install-qt windows desktop 6.10.2 win64_msvc2022_64 --outputdir C:/Qt --modules @modules
+          git clone --filter=blob:none https://github.com/microsoft/vcpkg.git C:/candidate-vcpkg
+          git -C C:/candidate-vcpkg checkout c52f7bd748185ef0e0daf033d9f2ddfc8a3449ea
+          & C:/candidate-vcpkg/bootstrap-vcpkg.bat -disableMetrics
+          & C:/candidate-vcpkg/vcpkg.exe install openssl:x64-windows
+      - name: Save pinned SDK before deployment checks
+        if: steps.sdk-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@5a3ec84eff668545956fd18022155c47e93e2684 # v4.2.3
+        with:
+          path: |
+            C:/Qt/6.10.2/msvc2022_64
+            C:/candidate-vcpkg/installed/x64-windows
+          key: ${{ steps.sdk-cache.outputs.cache-primary-key }}
+      - name: Install pinned installer compiler
+        run: |
+          $PSNativeCommandUseErrorActionPreference = $true
+          choco install nsis --version=3.11.0 -y --no-progress
+      - name: Test native NSIS installation boundary
+        run: ./tools/windows/test-installer.ps1
+      - name: Test resource integrity boundary
+        run: python -m unittest discover -s tests -p test_windows_candidate.py
+      - name: Build and package native x64 candidate
+        run: ./tools/windows/build-candidate.ps1 -QtRoot C:/Qt/6.10.2/msvc2022_64 -OpenSSLRoot C:/candidate-vcpkg/installed/x64-windows
+      - name: Upload candidate and evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: GCompris-PT-PT-Windows-x64-candidate-${{ github.sha }}
+          path: |
+            build/windows-candidate/artifacts/**
+            build/windows-candidate/*.log
+            build/windows-candidate/CMakeCache.txt
+          if-no-files-found: warn
+          retention-days: 30

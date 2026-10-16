@@ -1,0 +1,9 @@
+{
+  "bin/gcompris-qt": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "share/gcompris-qt/rcc/babymatch.rcc": "dc4e6580490c6e59c1d2b88f3dbf74b14a10ad2161820f70f4ef5996db7bf014",
+  "share/gcompris-qt/rcc/fifteen.rcc": "80a530dbd9ce5b085413fbc3fa92b214e00eb5e0c6fef6afb08ff7b9f2ff2886",
+  "share/gcompris-qt/rcc/left_right_click.rcc": "c02d3a36a561114f46034914cb2dc61668b7444fa441ddd948d9b5867e2027e0",
+  "share/gcompris-qt/rcc/lightsoff.rcc": "4122680ac2f12450080b06cfbf6f1265e7ce6065777c6bef07f819eceda06864",
+  "share/gcompris-qt/translations/gcompris_qt_pt.qm": "221e500c9765a1a3afaf575ef81537190acb7305716b25aabc89c477c0c98329",
+  "share/gcompris-qt/rcc/data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc": "4887e4a8c7112e6b744829c82a3476a9f322a593173d17c3b7e369fad21528ee"
+}

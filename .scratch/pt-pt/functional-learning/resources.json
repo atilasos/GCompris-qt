@@ -1,0 +1,296 @@
+[
+  {
+    "bytes": 21829,
+    "file": "hillside.svg",
+    "resource": ":/gcompris/src/activities/braille_fun/resource/hillside.svg",
+    "sha256": "0c677a808bd7fdd4d51cf32e9cb98e12754cf3d086cb6bab0a1a530e76353fe5"
+  },
+  {
+    "bytes": 133676,
+    "file": "completetask.wav",
+    "resource": ":/gcompris/src/core/resource/sounds/completetask.wav",
+    "sha256": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 33408,
+      "peak_pcm16": 13244,
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration": 0.7575510204081632
+    }
+  },
+  {
+    "bytes": 27234,
+    "file": "crash.wav",
+    "resource": ":/gcompris/src/core/resource/sounds/crash.wav",
+    "sha256": "86f844cb3f4cd87485de76b26a868e695d278ea971f308e092305827e7943c11",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 13595,
+      "peak_pcm16": 4566,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.3082766439909297
+    }
+  },
+  {
+    "bytes": 2257,
+    "file": "dots-0.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/dots-0.svg",
+    "sha256": "805c386930b819811e7e7a3db3c9866b775cb129d9e35d2396916fc15f1990e3"
+  },
+  {
+    "bytes": 10439,
+    "file": "hands-0.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/hands-0.svg",
+    "sha256": "1aef4331d1afaea4aac29b03103c218840d84cbc7c67f1f756b84aff55c905a3"
+  },
+  {
+    "bytes": 7692,
+    "file": "U0030.ogg",
+    "resource": ":/gcompris/data/voices-ogg/pt/alphabet/U0030.ogg",
+    "sha256": "89485997ad947eabb3bab28e9645f5985570c02d8013197734869488a9bb7d33",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 29696,
+      "peak_pcm16": 31390,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.6733786848072563
+    }
+  },
+  {
+    "bytes": 2525,
+    "file": "dots-1.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/dots-1.svg",
+    "sha256": "55d1254baca973ae640b2f34a8c78a9a7c503aea27b679ba5fa12feafe6563b4"
+  },
+  {
+    "bytes": 9374,
+    "file": "hands-1.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/hands-1.svg",
+    "sha256": "bfc2556b6048827b527db1d4afd110b29597333233b1a3f071a72ba64ef19006"
+  },
+  {
+    "bytes": 6348,
+    "file": "U0031.ogg",
+    "resource": ":/gcompris/data/voices-ogg/pt/alphabet/U0031.ogg",
+    "sha256": "a30c547f9ebf8857b29527e4c7d8c8d432814dcdb2fd80747b335619bc007558",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 20480,
+      "peak_pcm16": 11982,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.46439909297052157
+    }
+  },
+  {
+    "bytes": 2784,
+    "file": "dots-2.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/dots-2.svg",
+    "sha256": "79347f5d0bd6850e11ea39693b456789d8de07dc32c15fc5b54a4b459de65722"
+  },
+  {
+    "bytes": 8828,
+    "file": "hands-2.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/hands-2.svg",
+    "sha256": "de126ef44e07c9fa1b44cb937c21b7ceb921941653db69ff09856a11408f7255"
+  },
+  {
+    "bytes": 7430,
+    "file": "U0032.ogg",
+    "resource": ":/gcompris/data/voices-ogg/pt/alphabet/U0032.ogg",
+    "sha256": "9d393613934a07f824c04e38c500f2b7f08343f4e2015a0e964d319a5348867f",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 28160,
+      "peak_pcm16": 32761,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.6385487528344671
+    }
+  },
+  {
+    "bytes": 3047,
+    "file": "dots-3.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/dots-3.svg",
+    "sha256": "5007c920f02ee7892e77a7b34b6f21e6c673839ec0cdddd676a7adcf567d55f6"
+  },
+  {
+    "bytes": 8287,
+    "file": "hands-3.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/hands-3.svg",
+    "sha256": "973c66a12dca85671f5726586e92ab697a2694dcb2b5627d12b9be2d6b61b158"
+  },
+  {
+    "bytes": 6682,
+    "file": "U0033.ogg",
+    "resource": ":/gcompris/data/voices-ogg/pt/alphabet/U0033.ogg",
+    "sha256": "16dde6a4603edf0b447d660a8b2001ab13126f1e4b51439384b9a1e028c7011a",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 22016,
+      "peak_pcm16": 19388,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.4992290249433107
+    }
+  },
+  {
+    "bytes": 3305,
+    "file": "dots-4.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/dots-4.svg",
+    "sha256": "a1aaf46061386d3ba6e1aaff4b1478158ca8d8315130f249d2533da498d305ac"
+  },
+  {
+    "bytes": 7733,
+    "file": "hands-4.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/hands-4.svg",
+    "sha256": "f725e4e333a418c125fde537b3d90ad8bd3aa1ef2088e1f3502be3a3a4880311"
+  },
+  {
+    "bytes": 7422,
+    "file": "U0034.ogg",
+    "resource": ":/gcompris/data/voices-ogg/pt/alphabet/U0034.ogg",
+    "sha256": "96cf0dc11e2d33ce8b00beadf58abcebfa0dd18b1fe7c0010342c6463a3ab1c5",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 27136,
+      "peak_pcm16": 32761,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.615328798185941
+    }
+  },
+  {
+    "bytes": 3568,
+    "file": "dots-5.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/dots-5.svg",
+    "sha256": "77d75e7cdf1a07ec40c77855fae3bad2c3810f4d62ffa41d447e7d849ad1b010"
+  },
+  {
+    "bytes": 7171,
+    "file": "hands-5.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/hands-5.svg",
+    "sha256": "585f8c05986f8288fafbe4f2fea7937b584db66c00c380a82ad52363d2314ece"
+  },
+  {
+    "bytes": 7748,
+    "file": "U0035.ogg",
+    "resource": ":/gcompris/data/voices-ogg/pt/alphabet/U0035.ogg",
+    "sha256": "2de24b35f69ec531522d1c5eb190b57bf679fbd63cfbeaf5a64a70d82e121b78",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 30720,
+      "peak_pcm16": 15328,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.6965986394557823
+    }
+  },
+  {
+    "bytes": 3830,
+    "file": "dots-6.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/dots-6.svg",
+    "sha256": "985b99d10fda70fcb03c5dfbb7d56a551cfd1eb57b50eb39511c90e16c98a3aa"
+  },
+  {
+    "bytes": 14644,
+    "file": "hands-6.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/hands-6.svg",
+    "sha256": "2f57d4536a4e17a2a2cbb910d13292ee5791136c73d6416d3049be9b23853855"
+  },
+  {
+    "bytes": 8252,
+    "file": "U0036.ogg",
+    "resource": ":/gcompris/data/voices-ogg/pt/alphabet/U0036.ogg",
+    "sha256": "fce5475c1c1af1ec3fbf92898ac8739a36dbf86f864cfbd2f8f6bb07ec996043",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 31232,
+      "peak_pcm16": 32717,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.7082086167800453
+    }
+  },
+  {
+    "bytes": 4089,
+    "file": "dots-7.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/dots-7.svg",
+    "sha256": "2d59064686890056c0a46f06730e7a53b65da8f3116c20346920d36cb2086db7"
+  },
+  {
+    "bytes": 14087,
+    "file": "hands-7.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/hands-7.svg",
+    "sha256": "8fdd3c3dee698465ed568fa5ac19bffe23e23766d8f91df9f598e647bbf2d694"
+  },
+  {
+    "bytes": 7842,
+    "file": "U0037.ogg",
+    "resource": ":/gcompris/data/voices-ogg/pt/alphabet/U0037.ogg",
+    "sha256": "b3e5b8f7c2d71f8edda4870c18f19d426dffc6f6dd35586de655350437189c6f",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 31232,
+      "peak_pcm16": 32552,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.7082086167800453
+    }
+  },
+  {
+    "bytes": 4350,
+    "file": "dots-8.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/dots-8.svg",
+    "sha256": "35bb0207b6e1e401229fbc729e728feddb45e164132416c33b7b25b277603cea"
+  },
+  {
+    "bytes": 13549,
+    "file": "hands-8.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/hands-8.svg",
+    "sha256": "8005c25d90ef5bc4ffeb668dd93449c75a641ddd5e05bca11562b99c14ce41b0"
+  },
+  {
+    "bytes": 7532,
+    "file": "U0038.ogg",
+    "resource": ":/gcompris/data/voices-ogg/pt/alphabet/U0038.ogg",
+    "sha256": "577d4de85ec3e90afc7f2134f410316d16717205688a9dd52fc8e067b6057f8e",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 30208,
+      "peak_pcm16": 24011,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.6849886621315193
+    }
+  },
+  {
+    "bytes": 4613,
+    "file": "dots-9.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/dots-9.svg",
+    "sha256": "601536abe01f241399f56142c55c5b511a45452414ca35e8d3c7f927ecd0a6d9"
+  },
+  {
+    "bytes": 12991,
+    "file": "hands-9.svg",
+    "resource": ":/gcompris/src/activities/learn_digits/resource/hands-9.svg",
+    "sha256": "17e8d974771657dff5a657e0cb83acd494142e8c2f5637659bde8deef641e0ea"
+  },
+  {
+    "bytes": 7390,
+    "file": "U0039.ogg",
+    "resource": ":/gcompris/data/voices-ogg/pt/alphabet/U0039.ogg",
+    "sha256": "458b8176ce7346a320d1ac6133590bd3592e4618d9b176f76c113fc64f094a81",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 29696,
+      "peak_pcm16": 24901,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.6733786848072563
+    }
+  }
+]

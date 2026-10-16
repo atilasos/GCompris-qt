@@ -1,0 +1,237 @@
+{
+  "inventory_tool_sha256": "dce862eb7728c70e51033e40dd080a56479d7e56e43aa1b398538b8154028492",
+  "commands": [
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/.native-qml-8fe9bcc4758d4505b9fd72bf38e693a1/share/gcompris-qt/rcc/ballcatch.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/exported/catch-keyboard"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/.native-qml-d898e674832e407c8baf4899197ca5f1/share/gcompris-qt/rcc/ballcatch.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/exported/catch-hands"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/.native-qml-b534f92dcd214c5bb8b9078f4bfdaae1/share/gcompris-qt/rcc/penalty.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/exported/penalty-replay"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/.native-qml-07a20fdd2e8d4a53ad004019d725b2cc/share/gcompris-qt/rcc/ballcatch.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/exported/catch-controls"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/.native-qml-490d52e60397436b8bc9b386265c475b/share/gcompris-qt/rcc/penalty.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/exported/penalty-controls-red"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/.native-qml-b882edd6bfe64bd9a7d1900d5bfaa65a/share/gcompris-qt/rcc/penalty.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/exported/penalty-controls-green"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/.native-qml-d9c9da5d81f442be913090c819085699/share/gcompris-qt/rcc/ballcatch.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/exported/contract-red"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/.native-qml-6e9f1e4714d1447d83a4023a318340a5/share/gcompris-qt/rcc/ballcatch.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/exported/contract-green"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/.native-qml-348d29079337472db3915ca4049b0c7a/share/gcompris-qt/rcc/ballcatch.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/exported/help-red"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/.native-qml-e4ba8b4bc70746db85d5dce2e9d60e8c/share/gcompris-qt/rcc/ballcatch.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/exported/help-green"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/.native-qml-4c34a1b948cd4fbab51a68a45428e452/share/gcompris-qt/rcc/penalty.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/exported/penalty-contract-red"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/.native-qml-2f58d3fef648487b82ba9cdf62b05da0/share/gcompris-qt/rcc/penalty.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/exported/penalty-contract-green"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/.native-qml-f986ede336304bd9b17370d08b29baa8/share/gcompris-qt/rcc/penalty.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/exported/penalty-help-red"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/.native-qml-4383adef931748409dd2aafec9497b55/share/gcompris-qt/rcc/penalty.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/exported/penalty-help-green"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/.native-qml-7a00add7582e443db03f8e2c31d8c74a/share/gcompris-qt/rcc/penalty.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/exported/penalty-complete"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/snapshot/share/gcompris-qt/rcc/core.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/exported/import-core"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/imports/src/core/resource/sounds/flip.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/imports/src/core/resource/sounds/bonus.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/imports/src/core/resource/sounds/smudge.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/imports/src/core/resource/sounds/brick.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/snapshot/share/gcompris-qt/rcc/ballcatch.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/exported/import-ballcatch"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/imports/src/activities/ballcatch/resource/youcannot.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/imports/src/activities/ballcatch/resource/tuxok.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ]
+}

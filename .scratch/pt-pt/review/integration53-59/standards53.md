@@ -1,0 +1,9 @@
+Standards53, intervalo fixo `52be6feb5...6e9956d25965879f90cbb9207f2b57e26cbc016c`; commits, normas locais, ticket53 e provas consultados.
+
+- **P2, confiança alta, auditor não verifica a identidade de fontes anunciada** — `tests/functional_colors/audit.py:98–100` apenas soma330 entradas de source-identity.json; não confere os hashes dos ficheiros/RCC ou a identidade efetiva dos snapshots. receipt(), linhas30–40, também não liga source_sha256/runner/catalogue aos inputs históricos. Reprodução só em memória: substituí por zeros o SHA de um ficheiro e do RCC color_mix; a auditoria continuou a aprovar19 casos/254 puzzles. Ligar cada etapa histórica aos seus manifestos e revisão/bytes imutáveis, validar conjuntos e hashes das fontes/RCC e os campos correspondentes dos recibos. Acrescentar negativos de fonte, RCC, snapshot e identidade de recibo adulterados. Preservar o catálogo antigo no percurso160 e a composição final com quatro níveis corrigidos.
+
+**Prova atual:** verifiquei independentemente os330 hashes de ficheiros QRC contra o tip fixo e os19 pares recibo/caso contra o índice: correspondem e têm Qt0, sem timeout/erros QML. A auditoria pura passou254 puzzles,35 níveis e11 rotas áudio. Os cinco testes passaram. O achado é uma lacuna do auditor, sem demonstrar que os recursos atuais estejam errados.
+
+Não identifiquei regressão concreta nas duas alterações QML ou traduções. A composição de fulva substitui integralmente5/12/15/16. A divergência supervisor143/recibo Qt0 é declarada, sem conclusão inventada sobre o sinal. Fidelidade perceptiva, terminologia restante, audição, hardware e Windows permanecem separados.
+
+**Violações documentadas adicionais:** nenhuma. **Smells:** nenhum adicional relevante. Sem Qt, escrita em índices/provas, builds ou código; apenas testes baratos e auditorias de leitura.

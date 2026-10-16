@@ -1,0 +1,120 @@
+[
+  {
+    "md5": "e7073821d048be93c4eb380b1e300cf1",
+    "sha256": "1aef4331d1afaea4aac29b03103c218840d84cbc7c67f1f756b84aff55c905a3",
+    "count": 0,
+    "visibleFingers": [],
+    "path": "src/activities/learn_digits/resource/hands-0.svg"
+  },
+  {
+    "md5": "517ce7a6e9793855c81296c24d474e0b",
+    "sha256": "bfc2556b6048827b527db1d4afd110b29597333233b1a3f071a72ba64ef19006",
+    "count": 1,
+    "visibleFingers": [
+      "thumb"
+    ],
+    "path": "src/activities/learn_digits/resource/hands-1.svg"
+  },
+  {
+    "md5": "3fc34fdb661701e0552df620d1edc518",
+    "sha256": "de126ef44e07c9fa1b44cb937c21b7ceb921941653db69ff09856a11408f7255",
+    "count": 2,
+    "visibleFingers": [
+      "thumb",
+      "index"
+    ],
+    "path": "src/activities/learn_digits/resource/hands-2.svg"
+  },
+  {
+    "md5": "2876c9ba1e22d1af421a0c5ed784e8d1",
+    "sha256": "973c66a12dca85671f5726586e92ab697a2694dcb2b5627d12b9be2d6b61b158",
+    "count": 3,
+    "visibleFingers": [
+      "thumb",
+      "index",
+      "middle"
+    ],
+    "path": "src/activities/learn_digits/resource/hands-3.svg"
+  },
+  {
+    "md5": "fa6319252933dfcc46c6c901c3ee55b5",
+    "sha256": "f725e4e333a418c125fde537b3d90ad8bd3aa1ef2088e1f3502be3a3a4880311",
+    "count": 4,
+    "visibleFingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring"
+    ],
+    "path": "src/activities/learn_digits/resource/hands-4.svg"
+  },
+  {
+    "md5": "043b04da0c341df3e17f02da34be9ddb",
+    "sha256": "585f8c05986f8288fafbe4f2fea7937b584db66c00c380a82ad52363d2314ece",
+    "count": 5,
+    "visibleFingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "path": "src/activities/learn_digits/resource/hands-5.svg"
+  },
+  {
+    "md5": "0352728106f2dd1fad211965eb4f95c3",
+    "sha256": "2f57d4536a4e17a2a2cbb910d13292ee5791136c73d6416d3049be9b23853855",
+    "count": 6,
+    "visibleFingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little",
+      "second hand: 1"
+    ],
+    "path": "src/activities/learn_digits/resource/hands-6.svg"
+  },
+  {
+    "md5": "411554e77787a2ffdca707d25637ec34",
+    "sha256": "8fdd3c3dee698465ed568fa5ac19bffe23e23766d8f91df9f598e647bbf2d694",
+    "count": 7,
+    "visibleFingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little",
+      "second hand: 2"
+    ],
+    "path": "src/activities/learn_digits/resource/hands-7.svg"
+  },
+  {
+    "md5": "aa42834eea83c0c88ef2f3909f995278",
+    "sha256": "8005c25d90ef5bc4ffeb668dd93449c75a641ddd5e05bca11562b99c14ce41b0",
+    "count": 8,
+    "visibleFingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little",
+      "second hand: 3"
+    ],
+    "path": "src/activities/learn_digits/resource/hands-8.svg"
+  },
+  {
+    "md5": "d18389d90a72f671fca7d1c62943a2b9",
+    "sha256": "17e8d974771657dff5a657e0cb83acd494142e8c2f5637659bde8deef641e0ea",
+    "count": 9,
+    "visibleFingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little",
+      "second hand: 4"
+    ],
+    "path": "src/activities/learn_digits/resource/hands-9.svg"
+  }
+]

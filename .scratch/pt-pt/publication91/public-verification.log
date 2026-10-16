@@ -1,0 +1,46 @@
+HEAD, Range, checksum, source identity, allowlist passed
+{
+  "url": "https://gcompris.infantinho.xyz",
+  "run": "38894977302",
+  "source": "3c98f5c6b4543e15dda66e2b0e275f5d9e6b49df",
+  "sha256": "1955a4fbde1c91721921fe0ea40843c40f86fa42b0f86ba91a8fb54f19a65543",
+  "bytes": 825758994,
+  "checks": [
+    {
+      "kind": "https-head",
+      "status": 200,
+      "bytes": 825758994
+    },
+    {
+      "kind": "https-range-equals-verified-installer",
+      "start": 0,
+      "end": 1048575,
+      "sha256": "4c7cd25e4d953088b6723267c228f79a187fd851003886ee0a327bfdc07fe6ed"
+    },
+    {
+      "kind": "https-range-equals-verified-installer",
+      "start": 824710418,
+      "end": 825758993,
+      "sha256": "2cfe44d4089adbe0607f8b8eb9c2ce93e0b7c1fe8c1cd698b483e782c2f8454e"
+    },
+    {
+      "kind": "public-checksum",
+      "matches": true
+    },
+    {
+      "kind": "public-source-identity",
+      "matches": true
+    },
+    {
+      "kind": "unlisted-path",
+      "status": 404
+    },
+    {
+      "kind": "complete-public-https-download",
+      "bytes": 825758994,
+      "sha256": "1955a4fbde1c91721921fe0ea40843c40f86fa42b0f86ba91a8fb54f19a65543",
+      "seconds": 58.13
+    }
+  ],
+  "scope": "Verified installer served over HTTPS; no school Windows 10 or hardware acceptance"
+}

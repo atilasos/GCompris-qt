@@ -1,0 +1,20 @@
+    property var evidence: ({})
+    function icon(suffix){wait(1700);click(find(bar,function(o){return o.visible&&o.source!==undefined&&String(o.source).endsWith(suffix);}));}
+    function test_controls(){
+        ApplicationSettings.isVirtualKeyboard=false;wait(1700);checked(keyboard.visible,false);checked(activity.numberOfLevel,14);checked(activity.currentLevel,0);
+        checked(activity.activityInfo.title,"Números romanos");ensure(String(instructionPanel.textItem.text).indexOf("Os números romanos")===0);
+        var expected=parse(questionPanel.textItem.text);type(expected.answer,false);ensure(feedbackArea.visible);checked(String(feedback.text),"Valor romano: I");
+        icon("bar_hint.svg");checked(feedbackArea.visible,false);icon("bar_hint.svg");checked(feedbackArea.visible,true);
+        icon("bar_previous.svg");checked(activity.currentLevel,13);checked(score.currentSubLevel,0);checked(textInput.text,"");
+        icon("bar_next.svg");checked(activity.currentLevel,0);checked(score.currentSubLevel,0);checked(textInput.text,"");
+        ApplicationSettings.isVirtualKeyboard=true;tryCompare(keyboard,"visible",true,2500);wait(1700);type("1",true);virtualKey("←");checked(textInput.text,"");checked(String(feedback.text),"Valor romano: ");
+        var depth=pageView.depth;icon("bar_help.svg");tryCompare(pageView,"depth",depth+1,2500);wait(900);var help=pageView.currentItem;checked(help.title,"Números romanos");ensure(help.content.indexOf(activity.activityInfo.manual)>=0);ensure(help.content.indexOf("Convert the")<0);grabImage(pageView).save("__QA_OUTPUT__/help.png");
+        keyClick(Qt.Key_Escape);tryCompare(pageView,"depth",depth,2500);wait(700);
+        // Do not click or force focus after help: the physical key must reach the input.
+        keyClick("1");checked(textInput.text,"1");keyClick(Qt.Key_Backspace);checked(textInput.text,"");keyClick(Qt.Key_Enter);checked(score.currentSubLevel,0);tryCompare(textInput,"enabled",true,3500);
+        type("1",true);click(okButton);tryCompare(score,"currentSubLevel",1,1500);
+        ActivityInfoTree.startingActivity="";icon("bar_home.svg");tryCompare(pageView,"depth",1,2500);ensure(pageView.currentItem.isMenu);
+        evidence={title:"Números romanos",levels:14,virtualVisibleAndHidden:true,virtualBackspace:true,partialRestartByNavigation:true,previousNextWrap:true,hintVisibleAndHidden:true,helpPortuguese:true,physicalKeyAfterHelp:true,blankRejectedAfterHelp:true,home:true,menu:true};
+    }
+    function cleanupTestCase(){console.log("NATIVE_RESULT",JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,evidence:evidence}));}
+}

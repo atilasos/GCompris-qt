@@ -1,0 +1,221 @@
+{
+  "scope": "Public source URIs locate actual resource bytes; image signatures hash normalized RGBA pixels. Native colors come from painted rectangles, including Qt ARGB white.",
+  "palette_samples": {
+    "redraw": [
+      {
+        "id": "qrc:/gcompris/src/activities/redraw/resource/white.svg",
+        "signature": "#33ffffff"
+      },
+      {
+        "id": "qrc:/gcompris/src/activities/redraw/resource/red.svg",
+        "signature": "#cc0000"
+      },
+      {
+        "id": "qrc:/gcompris/src/activities/redraw/resource/orange.svg",
+        "signature": "#fcae3d"
+      },
+      {
+        "id": "qrc:/gcompris/src/activities/redraw/resource/green.svg",
+        "signature": "#73d216"
+      },
+      {
+        "id": "qrc:/gcompris/src/activities/redraw/resource/blue.svg",
+        "signature": "#3465a4"
+      },
+      {
+        "id": "qrc:/gcompris/src/activities/redraw/resource/yellow.svg",
+        "signature": "#edd400"
+      },
+      {
+        "id": "qrc:/gcompris/src/activities/redraw/resource/black.svg",
+        "signature": "#2e3436"
+      }
+    ],
+    "redraw_symmetrical": [
+      {
+        "id": "qrc:/gcompris/src/activities/redraw/resource/white.svg",
+        "signature": "#33ffffff"
+      },
+      {
+        "id": "qrc:/gcompris/src/activities/redraw/resource/red.svg",
+        "signature": "#cc0000"
+      },
+      {
+        "id": "qrc:/gcompris/src/activities/redraw/resource/orange.svg",
+        "signature": "#fcae3d"
+      },
+      {
+        "id": "qrc:/gcompris/src/activities/redraw/resource/green.svg",
+        "signature": "#73d216"
+      },
+      {
+        "id": "qrc:/gcompris/src/activities/redraw/resource/blue.svg",
+        "signature": "#3465a4"
+      },
+      {
+        "id": "qrc:/gcompris/src/activities/redraw/resource/yellow.svg",
+        "signature": "#edd400"
+      },
+      {
+        "id": "qrc:/gcompris/src/activities/redraw/resource/black.svg",
+        "signature": "#2e3436"
+      }
+    ]
+  },
+  "calibration_receipts": {
+    "redraw": "105c7b848c1bd6d796f82e3db5af7aa2628d0e7dcf45d1bb5671071054d33328",
+    "redraw_symmetrical": "c05549db40e69b128da9dd43210bd6edb36c2ac7c7263658e134f49a5b148fab"
+  },
+  "images": {
+    "qrc:/gcompris/src/activities/mosaic/resource/background.svg": {
+      "signature": "rgba160-sha256:669813d70c0c8d043a6a8359cd98832e93219ccc268bd4d3048d0e8b18ffdb16",
+      "resource_sha256": "f4335e73ad6f9ed045d039100bed425626a0b9700663271cc34461ec72b6dd07",
+      "rendered_sha256": "2511910feeddc8d58442354fbf749cf2bbe6975184c858e7baa091be77f22e1c",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/background.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/banana.svg": {
+      "signature": "rgba160-sha256:19eed3158d1745efba9307756730d819cd4be2d54783e83f3ff1091ebb41225a",
+      "resource_sha256": "c2273a89b1f8c016ab8ac640e989fb13853657c426993b1eff6048852df5002c",
+      "rendered_sha256": "87a1f19123bf68499dc19b8fee76d80202bd3eff9c509e03316c6dec501181a0",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/banana.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/dice_0.svg": {
+      "signature": "rgba160-sha256:0f0e85b7ee4e1c7ab354727fa461b8004e4a2763d501078a8f19cee439e7910d",
+      "resource_sha256": "3543c88f3fc64c6fd44a772543aa9fad16ddfb113ef6060976569da990aa69a3",
+      "rendered_sha256": "5cfb3e61c436931fb0af8c7d8d55e1d3232d32a338c495f9a800eb73830e07ab",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/dice_0.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/dice_1.svg": {
+      "signature": "rgba160-sha256:1321be649555c9980865f1940419db398e3df8be15fb0a1a74be75260a236dc6",
+      "resource_sha256": "6f4307f8e73a15b7e41208dc3d088f9eb5d02e45a252530fe4deed74733ee76a",
+      "rendered_sha256": "5a2e529068bc8c5684b386f0d935ace6588675700192b665c582ef46e26c6350",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/dice_1.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/dice_2.svg": {
+      "signature": "rgba160-sha256:73dbd4aa3d1fdf2d28759a328dfb7455c54f2be09ae4fbd65df5c521994d7acf",
+      "resource_sha256": "2a5636756f361381f156829ede9d09c28240b6cb93c4416eee0afa91358a695d",
+      "rendered_sha256": "1f027691e167a677d4103c43ff8fae9782f8c289ca22f477d8f47fe72342bd8b",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/dice_2.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/dice_3.svg": {
+      "signature": "rgba160-sha256:7ac01ab7e845b49b7bca1b752209e183cba1094da60683907aca18e0ee5d425d",
+      "resource_sha256": "a093ae1a02f4ba1909d36558927bcd31dbc6a376a43914936f96b47b963d2f49",
+      "rendered_sha256": "6daf83c9de0ba5b9f0f26d7a5c037d29e0c43d0f8da93c90c82842d2015e13a1",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/dice_3.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/dice_4.svg": {
+      "signature": "rgba160-sha256:51ddb2e9a24ca0e50dfe3f4734414cc5f4d36e86152f60ac6d8682898cb645da",
+      "resource_sha256": "457e1371599b2be0bff2aeee3d1c3689ec5ffb3a501b1728f6a0249f86e503f7",
+      "rendered_sha256": "c908560715bffd8a2aa3a8154f43ef43ff7d790c35d12fa775e5619822f90597",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/dice_4.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/dice_5.svg": {
+      "signature": "rgba160-sha256:7bdacf5f239b135d6aec5ea6d0affb8a6b2b871fc8d673a2fcb435c1115c15a2",
+      "resource_sha256": "b8cf8b972ebabfde54182a32f14df1451174c8655bbddde1c9d062bd3d8a517d",
+      "rendered_sha256": "5b300b20551666987319eb8e612e66973b03301a308c57ee222d649133a7b6c4",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/dice_5.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/dice_6.svg": {
+      "signature": "rgba160-sha256:6b57b1ef0160fb96ccde49f8d38094b3979927286b8dcf20b94ca12ab4847e17",
+      "resource_sha256": "be73a8dfef635f097d21a0cc7d828d22a63eeff813764ae05b29d1cca15fdaf2",
+      "rendered_sha256": "7845c42bd034bebbb28e8e8221722c052df55bd6340307ed65fb9ca542a4d35a",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/dice_6.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/dice_7.svg": {
+      "signature": "rgba160-sha256:b66d67a432c4a9a5e015700b93b5a7a82a6230e11fbd832edfacd8cd6573a228",
+      "resource_sha256": "b381c0b77999e29a2c9f2ef64f66ef10c41d0af7c7003dd937a27cad0c0ba2dc",
+      "rendered_sha256": "880fd9bd8ec3fedb2abac6a821299712e330618e185a647896cebad0531e1881",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/dice_7.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/digital_dice0.svg": {
+      "signature": "rgba160-sha256:3480cb0ec80b4c0f04e9b1c33e2cd580038d0b357aea758b324223be58e55757",
+      "resource_sha256": "10eefdf9a5cba8c6df0a81ba0f0db0f6b547b1e4b58b67eafa2517151db17341",
+      "rendered_sha256": "7dfb4b5dfc270b5f90c8bd9911483387393949bdfb2d6d6020183144402219b4",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/digital_dice0.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/digital_dice1.svg": {
+      "signature": "rgba160-sha256:acbc84969a545502baceb4ea2943c49fb397a4a4c8307a6293c2ecd951f0ba39",
+      "resource_sha256": "bab4bba9f2d7f23a053c108518e3bf33cb40ef782105bec89a53658099c97976",
+      "rendered_sha256": "d2452cabb7fbc6f543dbaa7c9c8e6d854f6886af75c99aa46524ac10ba33325c",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/digital_dice1.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/digital_dice2.svg": {
+      "signature": "rgba160-sha256:3d3f50d6919fefeac7a9099305105abcfa03242824e690afae3294576936b2e8",
+      "resource_sha256": "4e1a8a384f3abb64e90bbc8295f86846477b6df18595edb4885ea4fa94cdabca",
+      "rendered_sha256": "97367dd5c8848c214c51a6616af2a55694e0ad7d6a76208298d804a4e53307c4",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/digital_dice2.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/digital_dice3.svg": {
+      "signature": "rgba160-sha256:34f9b7649549aac5ef390ff30dfb4efb375f20b3430713c4b68bdd3cf84eac82",
+      "resource_sha256": "0a0bb169eea2eb9e1cca07c9ea0e01070ac8b99566f3b80e7b0667d3bd37aaad",
+      "rendered_sha256": "f7cab6d4a48697cf88ed5a077e9bb703b38b4e06d6ef4929d0800c570123a7ac",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/digital_dice3.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/digital_dice4.svg": {
+      "signature": "rgba160-sha256:1aece42ad0292ea2a3ff182da0770b74a5eca8604cd2a8ee6f445293edb226da",
+      "resource_sha256": "c85bab68d9d3874ae1a83d1c428b9d80b09cd343dfbe90a2482e5261059191ad",
+      "rendered_sha256": "07c1190267bc62a9f14d82fffdede2adb7128de93149c6b3acca59f4c7d74435",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/digital_dice4.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/digital_dice5.svg": {
+      "signature": "rgba160-sha256:5ec40182462c5a78e750a7246b312745f2a7909156c0ffb319a81e8fcfab1e49",
+      "resource_sha256": "4e49306bf5869fe5d06fa92b20390aac1323f45a136c80bbe6466cf16b8fc431",
+      "rendered_sha256": "dfbf6ba9ce9778d05b927dc1cda3250a0b0a4889d12bcfce75abd8dd528068cc",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/digital_dice5.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/digital_dice6.svg": {
+      "signature": "rgba160-sha256:49894e79577a011fc97069c3f8ef1240433605be60f35c4d0d02689e024f6205",
+      "resource_sha256": "5555c2401df7c419e446608a5ef6f8955c91e5c41ce1681f24bf18e97d95f50f",
+      "rendered_sha256": "13d5ce3425d3894ac79836136aec15c989a2d18707313387ec9ac57ddaa2e332",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/digital_dice6.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/digital_dice7.svg": {
+      "signature": "rgba160-sha256:7c64afa7618c2ad6edeb2ca775dcf8b81dce087484bec14c9bf8943f3c18b881",
+      "resource_sha256": "5d87f13a70fc569303fb1f737d543010cbafe98744f1528a78bb8fefaf18e95f",
+      "rendered_sha256": "5598f45c66325df7cf83d9c2acbadc3b740429775777b4dac38318a291384265",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/digital_dice7.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/mushroom.svg": {
+      "signature": "rgba160-sha256:8b73a253c119b07ffca925fcca45fb5207284fa5565eaa3de59c848b334617f7",
+      "resource_sha256": "1a30ae564cd4e5ffd3e91c93e228e3cf3eeb99fe39109bf858c93dbc7788997d",
+      "rendered_sha256": "07120979144b8300e0ef6f53d72f608e244aaaf73ea2496a9d4b44d4a5bfec15",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/mushroom.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/oil_paint.svg": {
+      "signature": "rgba160-sha256:ee1c1e046db627588ddb044c755812e3263016b63fd0f16a5e3fc3c6fbc7655f",
+      "resource_sha256": "abf85dd14a9b3a68ca066707310bb255653bdc3cfefd9cdb51b4c4158fa31264",
+      "rendered_sha256": "94e627421542cfa913abb8d8dff6acc607530a1ba4922c610508e6a33343b7d4",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/oil_paint.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/orange.svg": {
+      "signature": "rgba160-sha256:3b5f9208dff1b242bb856550168b2f944bbabdcb3133576ee251c47892068fa6",
+      "resource_sha256": "755b9f215f146c9bd8712b437826373152bd8ac162313a7bf999ea40b32fdb42",
+      "rendered_sha256": "b93c5849a96f8ec2c93acf24a5b20b052294c65ec643462c168f3b2eb56c18ae",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/orange.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/pencil.svg": {
+      "signature": "rgba160-sha256:188dcc46dd030f217e20b1e3b465984d5b2c91857c928241a30fdfbfeaeae3d2",
+      "resource_sha256": "a697c153b65b6d6574e0fa0fbf8583e1c90ae223cc87c60f328929b1d53c0283",
+      "rendered_sha256": "d9fb6daf7abf827ac04c0fa9a3c3c80853b58185a27125d9ba28c4f4da9623a3",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/pencil.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/pencils.svg": {
+      "signature": "rgba160-sha256:a0ad4d780dbd538684c59fc5ede79c8e4a4b65259337c55b6fb727f5dc184093",
+      "resource_sha256": "4f9138146d34e05015ca215a104b8ee97323eff0bb344f7dc4b2ca2e9cf6cc97",
+      "rendered_sha256": "3db4d9d045e3db645fe982af2083b8abc2185ff2e4cd1e8894edb82cec6b7b1d",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/pencils.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/pencils_paper.svg": {
+      "signature": "rgba160-sha256:5ebc1be9c96f3e74e4eef50ff84edf01445cfaa92dcc69aa684256169f93ca85",
+      "resource_sha256": "54f8a52e1c43687610d1834fa8d85ef66aa583a9034f4e31cb61e89a26374af4",
+      "rendered_sha256": "427d7bff925643000118af9bb220e6aed8c5593c218e0868e491b1e6cb99445c",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/pencils_paper.png"
+    },
+    "qrc:/gcompris/src/activities/mosaic/resource/tux.svg": {
+      "signature": "rgba160-sha256:e00d3ad112757a385ac125e124a8b0bfd1907dad8386c29de35e1fd612fd6f6c",
+      "resource_sha256": "0df826a2bd2305a76dc9a8ac0d00b35381caa20339e67731a2349ba3f2779ae6",
+      "rendered_sha256": "0ef902b97b1a18189af004adef4577c764280dabef4a00b1967b3fd4b23e7bc1",
+      "rendered": ".scratch/pt-pt/functional-patterns/canonical/mosaic/rendered/tux.png"
+    }
+  }
+}

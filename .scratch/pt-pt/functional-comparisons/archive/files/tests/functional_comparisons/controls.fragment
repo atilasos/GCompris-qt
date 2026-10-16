@@ -1,0 +1,31 @@
+    property var evidence: ({})
+    function pressIcon(suffix){
+        var hit=find(bar,function(o){return o.visible&&o.source!==undefined&&String(o.source).endsWith(suffix);});ensure(hit!==null,suffix);
+        var p=hit.mapToItem(pageView,hit.width/2,hit.height/2);mouseClick(pageView,p.x,p.y);wait(60);
+    }
+    function clickItem(item){ensure(item!==null);var p=item.mapToItem(pageView,item.width/2,item.height/2);mouseClick(pageView,p.x,p.y);wait(70);}
+    function openConfig(){pressIcon("bar_activity_config.svg");tryCompare(dialogActivityConfig,"visible",true,2500);wait(900);}
+    function saveConfig(){dialogActivityConfig.forceActiveFocus();keyClick(Qt.Key_Return);tryCompare(dialogActivityConfig,"visible",false,2500);wait(1100);}
+    function datasetOptions(){
+        openConfig();var tab=find(dialogActivityConfig,function(o){return o.visible&&o.theme==="settingsButton"&&o.text===qsTranslate("DialogChooseLevel","Dataset");});
+        if(tab!==null){clickItem(tab);wait(200);}
+        var result=[];function walk(o){if(o.visible&&o.checked!==undefined&&o.indicatorImageHeight!==undefined)result.push(o);if(o.children)for(var child of o.children)walk(child);}walk(dialogActivityConfig);return result;
+    }
+    function test_controls(){
+        wait(1400);checked(activity.numberOfLevel,__TOTAL__);checked(activity.activityInfo.title,__TITLE__);
+__PARTIAL__
+        openConfig();saveConfig();checked(score.currentSubLevel,0);checked(activity.currentLevel,0);
+__RESTART__
+        var options=datasetOptions();checked(options.length,__DATASETS__);ensure(options[0].checked);var objective=String(options[0].text);ensure(objective.length>10);
+        clickItem(options[0]);checked(options[0].checked,false);saveConfig();checked(activity.numberOfLevel,__REDUCED__);checked(activity.currentLevel,0);
+        options=datasetOptions();checked(options[0].checked,false);checked(String(options[0].text),objective);clickItem(options[0]);saveConfig();checked(activity.numberOfLevel,__TOTAL__);
+        pressIcon("bar_previous.svg");checked(activity.currentLevel,__TOTAL__-1);checked(score.currentSubLevel,0);pressIcon("bar_next.svg");checked(activity.currentLevel,0);checked(score.currentSubLevel,0);
+        var depth=pageView.depth;pressIcon("bar_help.svg");tryCompare(pageView,"depth",depth+1,2500);wait(800);var help=pageView.currentItem;
+        checked(help.title,__TITLE__);ensure(help.content.indexOf(activity.activityInfo.manual)>=0);ensure(help.content.indexOf("Click on")<0);ensure(activity.activityInfo.manual.length>30);grabImage(pageView).save("__QA_OUTPUT__/help.png");
+        keyClick(Qt.Key_Escape);tryCompare(pageView,"depth",depth,2500);wait(700);
+__FOCUS__
+        ActivityInfoTree.startingActivity="";pressIcon("bar_home.svg");tryCompare(pageView,"depth",1,2500);ensure(pageView.currentItem.isMenu);
+        evidence={title:__TITLE__,levels:__TOTAL__,datasetObjective:objective,reduced:__REDUCED__,partialRestart:true,selectorsPersist:true,previousNext:true,helpPortuguese:true,focusAfterHelp:true,home:true};
+    }
+    function cleanupTestCase(){console.log("NATIVE_RESULT",JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,evidence:evidence}));}
+}

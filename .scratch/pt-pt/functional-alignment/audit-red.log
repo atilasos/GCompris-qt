@@ -1,0 +1,101 @@
+EEEEEEEE
+======================================================================
+ERROR: test_catalogue_hash_and_reseal_is_rejected (test_audit.PhysicalEvidenceAudit.test_catalogue_hash_and_reseal_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/test_audit.py", line 10, in setUp
+    self.temp=tempfile.TemporaryDirectory(prefix='alignment physical copy ');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name);self.copy=self.root/'only evidence';shutil.copytree(BASE,self.copy,ignore=shutil.ignore_patterns('.native-qml-*'));self.cli=self.root/'audit.py';shutil.copyfile(HERE/'audit.py',self.cli);shutil.copyfile(HERE/'oracle.py',self.root/'oracle.py')
+                                                                                                                                                                                                                                                                                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 313, in copyfile
+    with open(src, 'rb') as fsrc:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/audit.py'
+
+======================================================================
+ERROR: test_copied_case_changed_after_copy_does_not_change_original (test_audit.PhysicalEvidenceAudit.test_copied_case_changed_after_copy_does_not_change_original)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/test_audit.py", line 10, in setUp
+    self.temp=tempfile.TemporaryDirectory(prefix='alignment physical copy ');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name);self.copy=self.root/'only evidence';shutil.copytree(BASE,self.copy,ignore=shutil.ignore_patterns('.native-qml-*'));self.cli=self.root/'audit.py';shutil.copyfile(HERE/'audit.py',self.cli);shutil.copyfile(HERE/'oracle.py',self.root/'oracle.py')
+                                                                                                                                                                                                                                                                                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 313, in copyfile
+    with open(src, 'rb') as fsrc:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/audit.py'
+
+======================================================================
+ERROR: test_empty_solution_route_resealed_is_rejected (test_audit.PhysicalEvidenceAudit.test_empty_solution_route_resealed_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/test_audit.py", line 10, in setUp
+    self.temp=tempfile.TemporaryDirectory(prefix='alignment physical copy ');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name);self.copy=self.root/'only evidence';shutil.copytree(BASE,self.copy,ignore=shutil.ignore_patterns('.native-qml-*'));self.cli=self.root/'audit.py';shutil.copyfile(HERE/'audit.py',self.cli);shutil.copyfile(HERE/'oracle.py',self.root/'oracle.py')
+                                                                                                                                                                                                                                                                                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 313, in copyfile
+    with open(src, 'rb') as fsrc:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/audit.py'
+
+======================================================================
+ERROR: test_failed_outer_and_forged_tool_success_resealed_are_rejected (test_audit.PhysicalEvidenceAudit.test_failed_outer_and_forged_tool_success_resealed_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/test_audit.py", line 10, in setUp
+    self.temp=tempfile.TemporaryDirectory(prefix='alignment physical copy ');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name);self.copy=self.root/'only evidence';shutil.copytree(BASE,self.copy,ignore=shutil.ignore_patterns('.native-qml-*'));self.cli=self.root/'audit.py';shutil.copyfile(HERE/'audit.py',self.cli);shutil.copyfile(HERE/'oracle.py',self.root/'oracle.py')
+                                                                                                                                                                                                                                                                                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 313, in copyfile
+    with open(src, 'rb') as fsrc:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/audit.py'
+
+======================================================================
+ERROR: test_optimized_python_rejects_otherwise_valid_proof (test_audit.PhysicalEvidenceAudit.test_optimized_python_rejects_otherwise_valid_proof)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/test_audit.py", line 10, in setUp
+    self.temp=tempfile.TemporaryDirectory(prefix='alignment physical copy ');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name);self.copy=self.root/'only evidence';shutil.copytree(BASE,self.copy,ignore=shutil.ignore_patterns('.native-qml-*'));self.cli=self.root/'audit.py';shutil.copyfile(HERE/'audit.py',self.cli);shutil.copyfile(HERE/'oracle.py',self.root/'oracle.py')
+                                                                                                                                                                                                                                                                                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 313, in copyfile
+    with open(src, 'rb') as fsrc:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/audit.py'
+
+======================================================================
+ERROR: test_physical_copy_and_copied_auditor_work_without_git_or_original_paths (test_audit.PhysicalEvidenceAudit.test_physical_copy_and_copied_auditor_work_without_git_or_original_paths)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/test_audit.py", line 10, in setUp
+    self.temp=tempfile.TemporaryDirectory(prefix='alignment physical copy ');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name);self.copy=self.root/'only evidence';shutil.copytree(BASE,self.copy,ignore=shutil.ignore_patterns('.native-qml-*'));self.cli=self.root/'audit.py';shutil.copyfile(HERE/'audit.py',self.cli);shutil.copyfile(HERE/'oracle.py',self.root/'oracle.py')
+                                                                                                                                                                                                                                                                                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 313, in copyfile
+    with open(src, 'rb') as fsrc:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/audit.py'
+
+======================================================================
+ERROR: test_resource_map_path_and_hash_resealed_is_rejected (test_audit.PhysicalEvidenceAudit.test_resource_map_path_and_hash_resealed_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/test_audit.py", line 10, in setUp
+    self.temp=tempfile.TemporaryDirectory(prefix='alignment physical copy ');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name);self.copy=self.root/'only evidence';shutil.copytree(BASE,self.copy,ignore=shutil.ignore_patterns('.native-qml-*'));self.cli=self.root/'audit.py';shutil.copyfile(HERE/'audit.py',self.cli);shutil.copyfile(HERE/'oracle.py',self.root/'oracle.py')
+                                                                                                                                                                                                                                                                                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 313, in copyfile
+    with open(src, 'rb') as fsrc:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/audit.py'
+
+======================================================================
+ERROR: test_source_archive_byte_change_and_reseal_is_rejected (test_audit.PhysicalEvidenceAudit.test_source_archive_byte_change_and_reseal_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/test_audit.py", line 10, in setUp
+    self.temp=tempfile.TemporaryDirectory(prefix='alignment physical copy ');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name);self.copy=self.root/'only evidence';shutil.copytree(BASE,self.copy,ignore=shutil.ignore_patterns('.native-qml-*'));self.cli=self.root/'audit.py';shutil.copyfile(HERE/'audit.py',self.cli);shutil.copyfile(HERE/'oracle.py',self.root/'oracle.py')
+                                                                                                                                                                                                                                                                                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 313, in copyfile
+    with open(src, 'rb') as fsrc:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/audit.py'
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.138s
+
+FAILED (errors=8)

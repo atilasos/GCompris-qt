@@ -1,0 +1,11 @@
+[Unit]
+Description=Cloudflare tunnel for GCompris school installer
+After=network-online.target
+
+[Service]
+ExecStart=/usr/local/bin/cloudflared --config /home/proteu/Projetos/GCompris-qt/build/pt-pt/download-publication-short/cloudflared-empty.yml --no-autoupdate tunnel run --token-file /home/proteu/.config/cloudflare-publish/gcompris-download.token
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target

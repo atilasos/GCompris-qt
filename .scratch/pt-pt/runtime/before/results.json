@@ -1,0 +1,26 @@
+[
+  {
+    "activity": "multiple_choice_questions",
+    "locale": "pt_PT",
+    "seconds": 3.0,
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [
+      "qrc:/gcompris/src/activities/multiple_choice_questions/multiple_choice_questions.js:56: TypeError: Cannot read property 'subLevels' of undefined"
+    ],
+    "startup_check": "failed",
+    "log": ".scratch/pt-pt/runtime/before/multiple_choice_questions.log"
+  },
+  {
+    "activity": "ordering_chronology",
+    "locale": "pt_PT",
+    "seconds": 3.0,
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [
+      "qrc:/gcompris/src/activities/ordering_numbers/ordering.js:73: TypeError: Cannot read property 'instruction' of undefined"
+    ],
+    "startup_check": "failed",
+    "log": ".scratch/pt-pt/runtime/before/ordering_chronology.log"
+  }
+]

@@ -1,0 +1,1411 @@
+{
+  "effective": {
+    "catch-keyboard": {
+      "rcc_sha256": "37e4427daa16b64141fd1b1f14f92ed08e7f6398e0baf05aba056106fad80031",
+      "files": [
+        {
+          "bytes": 998,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ActivityInfo.qml",
+          "sha256": "8eae0f5eb160f4ce2f99525ba15559d5a526efa8843cc0d34205ee35bb3081aa"
+        },
+        {
+          "bytes": 3838,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ballcatch.js",
+          "sha256": "bd71c916f342adf60e7508225615db7ca3334e71244abe9fb5a9a8f9456950a0"
+        },
+        {
+          "bytes": 3056,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/Ball.qml",
+          "sha256": "786da5eaf86f8ad982f4e81ad6f297199719f599c1ee3b8c9cc8419ee1977b63"
+        },
+        {
+          "bytes": 12595,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/Ballcatch.qml",
+          "sha256": "861e3dd932b28a335259fc6c9869fececc0142f2d41e9ea5b0ef4d415e4d86ac"
+        },
+        {
+          "bytes": 3685,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ballcatch.svg",
+          "sha256": "8d54f1f1e94c563693329eae639e567fb5164e95793604cdfc84af89d62d1df1"
+        },
+        {
+          "bytes": 2476,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/arrow_key.svg",
+          "sha256": "7a99155560bde2e484ca35ae0752727734ce1e51b76e1f542999ba3110af0fe0"
+        },
+        {
+          "bytes": 182630,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/youcannot.wav",
+          "sha256": "cc0582582625944fba653a2358a36c2238273fac26673f23a88d84b555fe7cad"
+        },
+        {
+          "bytes": 3150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/ball.svg",
+          "sha256": "ff7189fb9167318abcb2a047070707c3ca5ed4cb2c534f1637de0903d6fa7d99"
+        },
+        {
+          "bytes": 5514,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/hand.svg",
+          "sha256": "816758e35056a16adf435593f9b28125541c5322e74aa038ff0603e0611c0896"
+        },
+        {
+          "bytes": 12702,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach2.svg",
+          "sha256": "03d22eca912e2b72d4418cabd533b278d0649bd67d2d70a314ddc24ac06b6685"
+        },
+        {
+          "bytes": 10652,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach4.svg",
+          "sha256": "fe98a9a6ee4fba624ea6b888792cf60d58bec73c86391bff58a25199ac6bbaca"
+        },
+        {
+          "bytes": 10657,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach3.svg",
+          "sha256": "db7b7a9bdfb3e57e0fcc1b931f9fffa64c5b1e57f5a39b1ecab2017757402395"
+        },
+        {
+          "bytes": 14330,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach1.svg",
+          "sha256": "29e752594187686460f22f9c2177884459f34accda52874c758215dd32653cba"
+        },
+        {
+          "bytes": 10487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/tux.svg",
+          "sha256": "2a2c285c8fab618eb4517e7e6050c9c91d3e6f198da11f05a4131a4a925b6986"
+        },
+        {
+          "bytes": 129418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/tuxok.wav",
+          "sha256": "13e5a08f9ef1508fe972fc6c3d39a66410ca3a779993ddde4d2f626b19f9258a"
+        },
+        {
+          "bytes": 390,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/CMakeLists.txt",
+          "sha256": "7f3fb63ccb27d399deb52b929001307f304df94878b3e64cdbd794906e52c195"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/catch-keyboard",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/sources/7bf038204211722b587f473ee250ea1d964e925f"
+    },
+    "catch-hands": {
+      "rcc_sha256": "c38964087cc6221e6de6f221f3275e14c9886d1bfd2c2f0d274081e4e261887c",
+      "files": [
+        {
+          "bytes": 998,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ActivityInfo.qml",
+          "sha256": "8eae0f5eb160f4ce2f99525ba15559d5a526efa8843cc0d34205ee35bb3081aa"
+        },
+        {
+          "bytes": 3838,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ballcatch.js",
+          "sha256": "bd71c916f342adf60e7508225615db7ca3334e71244abe9fb5a9a8f9456950a0"
+        },
+        {
+          "bytes": 3056,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/Ball.qml",
+          "sha256": "786da5eaf86f8ad982f4e81ad6f297199719f599c1ee3b8c9cc8419ee1977b63"
+        },
+        {
+          "bytes": 12588,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/Ballcatch.qml",
+          "sha256": "d189d4dcd2531ccb2f85768d4b7e7e780663033fc8e2f89fbf3eaaad241f1549"
+        },
+        {
+          "bytes": 3685,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ballcatch.svg",
+          "sha256": "8d54f1f1e94c563693329eae639e567fb5164e95793604cdfc84af89d62d1df1"
+        },
+        {
+          "bytes": 2476,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/arrow_key.svg",
+          "sha256": "7a99155560bde2e484ca35ae0752727734ce1e51b76e1f542999ba3110af0fe0"
+        },
+        {
+          "bytes": 182630,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/youcannot.wav",
+          "sha256": "cc0582582625944fba653a2358a36c2238273fac26673f23a88d84b555fe7cad"
+        },
+        {
+          "bytes": 3150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/ball.svg",
+          "sha256": "ff7189fb9167318abcb2a047070707c3ca5ed4cb2c534f1637de0903d6fa7d99"
+        },
+        {
+          "bytes": 5514,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/hand.svg",
+          "sha256": "816758e35056a16adf435593f9b28125541c5322e74aa038ff0603e0611c0896"
+        },
+        {
+          "bytes": 12702,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach2.svg",
+          "sha256": "03d22eca912e2b72d4418cabd533b278d0649bd67d2d70a314ddc24ac06b6685"
+        },
+        {
+          "bytes": 10652,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach4.svg",
+          "sha256": "fe98a9a6ee4fba624ea6b888792cf60d58bec73c86391bff58a25199ac6bbaca"
+        },
+        {
+          "bytes": 10657,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach3.svg",
+          "sha256": "db7b7a9bdfb3e57e0fcc1b931f9fffa64c5b1e57f5a39b1ecab2017757402395"
+        },
+        {
+          "bytes": 14330,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach1.svg",
+          "sha256": "29e752594187686460f22f9c2177884459f34accda52874c758215dd32653cba"
+        },
+        {
+          "bytes": 10487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/tux.svg",
+          "sha256": "2a2c285c8fab618eb4517e7e6050c9c91d3e6f198da11f05a4131a4a925b6986"
+        },
+        {
+          "bytes": 129418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/tuxok.wav",
+          "sha256": "13e5a08f9ef1508fe972fc6c3d39a66410ca3a779993ddde4d2f626b19f9258a"
+        },
+        {
+          "bytes": 390,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/CMakeLists.txt",
+          "sha256": "7f3fb63ccb27d399deb52b929001307f304df94878b3e64cdbd794906e52c195"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/catch-hands",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/sources/7bf038204211722b587f473ee250ea1d964e925f"
+    },
+    "penalty-replay": {
+      "rcc_sha256": "67ce2d936d204b35813f146cafb0f13886f7bd3aef6b0cd60f4317bc6a29d5c2",
+      "files": [
+        {
+          "bytes": 17772,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/Penalty.qml",
+          "sha256": "ba9bc14a27ba5ffa331498b02f0906a10981daa47c9fa4ae2cb7ea7b3d08e8c3"
+        },
+        {
+          "bytes": 33849,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/penalty.svg",
+          "sha256": "d7e07a1370c3e6dbcac5ea0d1348fab3c87099e609bd77985919d3787e0d17f8"
+        },
+        {
+          "bytes": 1064,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/ActivityInfo.qml",
+          "sha256": "f833b5095532c465533e6f1c07de2265df24141bf128b29361db199da214f9af"
+        },
+        {
+          "bytes": 1077,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/Progress.qml",
+          "sha256": "6ef4c43981f7ae9242eddb08909a39164f4331c4e153da74835a55db0637a365"
+        },
+        {
+          "bytes": 3076,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/penalty.js",
+          "sha256": "57e11d27c60fd9189ff7a4f1b59f5123233926817294430c7403cbdefb47baed"
+        },
+        {
+          "bytes": 7915,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/goal.svg",
+          "sha256": "2800700be560d6aaf184f51636d955fc4ed40aa20121429b248d4a7187a2fa23"
+        },
+        {
+          "bytes": 10498,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_player.svg",
+          "sha256": "a3a0b10d3ed5f59479cf30417add067b95643d14e6588c7ea8d1f7b132c995a0"
+        },
+        {
+          "bytes": 5446,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_ball.svg",
+          "sha256": "0581bd8c9c3e246aaec41a1307489d1fc070510d21ea7dbd43d1d3f345bcf46a"
+        },
+        {
+          "bytes": 2302,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_bg.svg",
+          "sha256": "0389c5c2b3928bafdda0ecbfe330d2f689fc010b7839fb35db8aac8e1828535d"
+        },
+        {
+          "bytes": 10858,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/click_icon.svg",
+          "sha256": "e7ec7afd1e5696f836f251c77cc22789ab5b265c8d708f2cf4ec96123efde179"
+        },
+        {
+          "bytes": 381,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/CMakeLists.txt",
+          "sha256": "b312461622295f755d9768262965185ee9fc16de66a8bc6592344ce2e93a3850"
+        },
+        {
+          "bytes": 567,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/GoalZone.qml",
+          "sha256": "20cef29397b1d083df778ec4f8b1b48fd94d38c2e09d9b77aa7dcbf802796897"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/penalty-replay",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/sources/597c05f0b1d41946cb0fffe8b99e1c837b627cb2"
+    },
+    "catch-controls": {
+      "rcc_sha256": "f2e81be8feec84e61e46faed355ca97119ed3211492d27376d1f78661c9c008f",
+      "files": [
+        {
+          "bytes": 998,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ActivityInfo.qml",
+          "sha256": "8eae0f5eb160f4ce2f99525ba15559d5a526efa8843cc0d34205ee35bb3081aa"
+        },
+        {
+          "bytes": 3838,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ballcatch.js",
+          "sha256": "bd71c916f342adf60e7508225615db7ca3334e71244abe9fb5a9a8f9456950a0"
+        },
+        {
+          "bytes": 3056,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/Ball.qml",
+          "sha256": "786da5eaf86f8ad982f4e81ad6f297199719f599c1ee3b8c9cc8419ee1977b63"
+        },
+        {
+          "bytes": 12236,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/Ballcatch.qml",
+          "sha256": "0b936f85cef897dc04416e01c042a3cd6aa477d18477e0b6891e01bd86cb3e46"
+        },
+        {
+          "bytes": 3685,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ballcatch.svg",
+          "sha256": "8d54f1f1e94c563693329eae639e567fb5164e95793604cdfc84af89d62d1df1"
+        },
+        {
+          "bytes": 2476,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/arrow_key.svg",
+          "sha256": "7a99155560bde2e484ca35ae0752727734ce1e51b76e1f542999ba3110af0fe0"
+        },
+        {
+          "bytes": 182630,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/youcannot.wav",
+          "sha256": "cc0582582625944fba653a2358a36c2238273fac26673f23a88d84b555fe7cad"
+        },
+        {
+          "bytes": 3150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/ball.svg",
+          "sha256": "ff7189fb9167318abcb2a047070707c3ca5ed4cb2c534f1637de0903d6fa7d99"
+        },
+        {
+          "bytes": 5514,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/hand.svg",
+          "sha256": "816758e35056a16adf435593f9b28125541c5322e74aa038ff0603e0611c0896"
+        },
+        {
+          "bytes": 12702,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach2.svg",
+          "sha256": "03d22eca912e2b72d4418cabd533b278d0649bd67d2d70a314ddc24ac06b6685"
+        },
+        {
+          "bytes": 10652,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach4.svg",
+          "sha256": "fe98a9a6ee4fba624ea6b888792cf60d58bec73c86391bff58a25199ac6bbaca"
+        },
+        {
+          "bytes": 10657,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach3.svg",
+          "sha256": "db7b7a9bdfb3e57e0fcc1b931f9fffa64c5b1e57f5a39b1ecab2017757402395"
+        },
+        {
+          "bytes": 14330,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach1.svg",
+          "sha256": "29e752594187686460f22f9c2177884459f34accda52874c758215dd32653cba"
+        },
+        {
+          "bytes": 10487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/tux.svg",
+          "sha256": "2a2c285c8fab618eb4517e7e6050c9c91d3e6f198da11f05a4131a4a925b6986"
+        },
+        {
+          "bytes": 129418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/tuxok.wav",
+          "sha256": "13e5a08f9ef1508fe972fc6c3d39a66410ca3a779993ddde4d2f626b19f9258a"
+        },
+        {
+          "bytes": 390,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/CMakeLists.txt",
+          "sha256": "7f3fb63ccb27d399deb52b929001307f304df94878b3e64cdbd794906e52c195"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/catch-controls",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/sources/597c05f0b1d41946cb0fffe8b99e1c837b627cb2"
+    },
+    "penalty-controls-red": {
+      "rcc_sha256": "1c178c325b5aaceb16c2c021e6ab6011ab6ff8320b1bb73d3e4c1f84ef9e9ec4",
+      "files": [
+        {
+          "bytes": 17319,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/Penalty.qml",
+          "sha256": "07a505c685da968216d1fa58fd6c393bcb836b5d5046540ef665d12abe634cc9"
+        },
+        {
+          "bytes": 33849,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/penalty.svg",
+          "sha256": "d7e07a1370c3e6dbcac5ea0d1348fab3c87099e609bd77985919d3787e0d17f8"
+        },
+        {
+          "bytes": 1064,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/ActivityInfo.qml",
+          "sha256": "f833b5095532c465533e6f1c07de2265df24141bf128b29361db199da214f9af"
+        },
+        {
+          "bytes": 1077,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/Progress.qml",
+          "sha256": "6ef4c43981f7ae9242eddb08909a39164f4331c4e153da74835a55db0637a365"
+        },
+        {
+          "bytes": 3076,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/penalty.js",
+          "sha256": "57e11d27c60fd9189ff7a4f1b59f5123233926817294430c7403cbdefb47baed"
+        },
+        {
+          "bytes": 7915,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/goal.svg",
+          "sha256": "2800700be560d6aaf184f51636d955fc4ed40aa20121429b248d4a7187a2fa23"
+        },
+        {
+          "bytes": 10498,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_player.svg",
+          "sha256": "a3a0b10d3ed5f59479cf30417add067b95643d14e6588c7ea8d1f7b132c995a0"
+        },
+        {
+          "bytes": 5446,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_ball.svg",
+          "sha256": "0581bd8c9c3e246aaec41a1307489d1fc070510d21ea7dbd43d1d3f345bcf46a"
+        },
+        {
+          "bytes": 2302,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_bg.svg",
+          "sha256": "0389c5c2b3928bafdda0ecbfe330d2f689fc010b7839fb35db8aac8e1828535d"
+        },
+        {
+          "bytes": 10858,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/click_icon.svg",
+          "sha256": "e7ec7afd1e5696f836f251c77cc22789ab5b265c8d708f2cf4ec96123efde179"
+        },
+        {
+          "bytes": 381,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/CMakeLists.txt",
+          "sha256": "b312461622295f755d9768262965185ee9fc16de66a8bc6592344ce2e93a3850"
+        },
+        {
+          "bytes": 567,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/GoalZone.qml",
+          "sha256": "20cef29397b1d083df778ec4f8b1b48fd94d38c2e09d9b77aa7dcbf802796897"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/penalty-controls-red",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/sources/597c05f0b1d41946cb0fffe8b99e1c837b627cb2"
+    },
+    "penalty-controls-green": {
+      "rcc_sha256": "fb263606a2c1470d4c2967c623471b4bc30ef9768f2dac718e164a3b3489929c",
+      "files": [
+        {
+          "bytes": 17325,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/Penalty.qml",
+          "sha256": "615ef9d930b089dbf41f1e785152b93cbec5367f056e92c34df2ff0ebfb7f0e7"
+        },
+        {
+          "bytes": 33849,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/penalty.svg",
+          "sha256": "d7e07a1370c3e6dbcac5ea0d1348fab3c87099e609bd77985919d3787e0d17f8"
+        },
+        {
+          "bytes": 1064,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/ActivityInfo.qml",
+          "sha256": "f833b5095532c465533e6f1c07de2265df24141bf128b29361db199da214f9af"
+        },
+        {
+          "bytes": 1077,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/Progress.qml",
+          "sha256": "6ef4c43981f7ae9242eddb08909a39164f4331c4e153da74835a55db0637a365"
+        },
+        {
+          "bytes": 3184,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/penalty.js",
+          "sha256": "17e1d808d8fa76d3b1cd640155993f39c23514a2839053f5ca615abccbb1167a"
+        },
+        {
+          "bytes": 7915,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/goal.svg",
+          "sha256": "2800700be560d6aaf184f51636d955fc4ed40aa20121429b248d4a7187a2fa23"
+        },
+        {
+          "bytes": 10498,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_player.svg",
+          "sha256": "a3a0b10d3ed5f59479cf30417add067b95643d14e6588c7ea8d1f7b132c995a0"
+        },
+        {
+          "bytes": 5446,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_ball.svg",
+          "sha256": "0581bd8c9c3e246aaec41a1307489d1fc070510d21ea7dbd43d1d3f345bcf46a"
+        },
+        {
+          "bytes": 2302,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_bg.svg",
+          "sha256": "0389c5c2b3928bafdda0ecbfe330d2f689fc010b7839fb35db8aac8e1828535d"
+        },
+        {
+          "bytes": 10858,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/click_icon.svg",
+          "sha256": "e7ec7afd1e5696f836f251c77cc22789ab5b265c8d708f2cf4ec96123efde179"
+        },
+        {
+          "bytes": 381,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/CMakeLists.txt",
+          "sha256": "b312461622295f755d9768262965185ee9fc16de66a8bc6592344ce2e93a3850"
+        },
+        {
+          "bytes": 567,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/GoalZone.qml",
+          "sha256": "20cef29397b1d083df778ec4f8b1b48fd94d38c2e09d9b77aa7dcbf802796897"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/penalty-controls-green",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/sources/5df4fff50c9edf0ffb0a35460d2e2c50ba1702d4"
+    },
+    "contract-red": {
+      "rcc_sha256": "49e35f8de719351c80d571de72813bd3bd5e75d67747f41a16534f7db497b59e",
+      "files": [
+        {
+          "bytes": 998,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ActivityInfo.qml",
+          "sha256": "8eae0f5eb160f4ce2f99525ba15559d5a526efa8843cc0d34205ee35bb3081aa"
+        },
+        {
+          "bytes": 3789,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ballcatch.js",
+          "sha256": "f72862724ddc918dacab8f2b647737a7b31c570b0feba04557fec80be6c95a82"
+        },
+        {
+          "bytes": 3056,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/Ball.qml",
+          "sha256": "786da5eaf86f8ad982f4e81ad6f297199719f599c1ee3b8c9cc8419ee1977b63"
+        },
+        {
+          "bytes": 9510,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/Ballcatch.qml",
+          "sha256": "417d3baf8f4ccf02a2fd97c6d7ce047fcdf2de7313d6bcc2fd7e95dee522bab1"
+        },
+        {
+          "bytes": 3685,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ballcatch.svg",
+          "sha256": "8d54f1f1e94c563693329eae639e567fb5164e95793604cdfc84af89d62d1df1"
+        },
+        {
+          "bytes": 2476,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/arrow_key.svg",
+          "sha256": "7a99155560bde2e484ca35ae0752727734ce1e51b76e1f542999ba3110af0fe0"
+        },
+        {
+          "bytes": 182630,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/youcannot.wav",
+          "sha256": "cc0582582625944fba653a2358a36c2238273fac26673f23a88d84b555fe7cad"
+        },
+        {
+          "bytes": 3150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/ball.svg",
+          "sha256": "ff7189fb9167318abcb2a047070707c3ca5ed4cb2c534f1637de0903d6fa7d99"
+        },
+        {
+          "bytes": 5514,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/hand.svg",
+          "sha256": "816758e35056a16adf435593f9b28125541c5322e74aa038ff0603e0611c0896"
+        },
+        {
+          "bytes": 12702,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach2.svg",
+          "sha256": "03d22eca912e2b72d4418cabd533b278d0649bd67d2d70a314ddc24ac06b6685"
+        },
+        {
+          "bytes": 10652,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach4.svg",
+          "sha256": "fe98a9a6ee4fba624ea6b888792cf60d58bec73c86391bff58a25199ac6bbaca"
+        },
+        {
+          "bytes": 10657,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach3.svg",
+          "sha256": "db7b7a9bdfb3e57e0fcc1b931f9fffa64c5b1e57f5a39b1ecab2017757402395"
+        },
+        {
+          "bytes": 14330,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach1.svg",
+          "sha256": "29e752594187686460f22f9c2177884459f34accda52874c758215dd32653cba"
+        },
+        {
+          "bytes": 10487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/tux.svg",
+          "sha256": "2a2c285c8fab618eb4517e7e6050c9c91d3e6f198da11f05a4131a4a925b6986"
+        },
+        {
+          "bytes": 129418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/tuxok.wav",
+          "sha256": "13e5a08f9ef1508fe972fc6c3d39a66410ca3a779993ddde4d2f626b19f9258a"
+        },
+        {
+          "bytes": 390,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/CMakeLists.txt",
+          "sha256": "7f3fb63ccb27d399deb52b929001307f304df94878b3e64cdbd794906e52c195"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/contract-red",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/sources/e17dfac0402d085ed87bd47ab03724f2cb60d544"
+    },
+    "contract-green": {
+      "rcc_sha256": "603305f06f88c548fbc1425d68c1f8442b4c085c4c9262c043302219accd6c2e",
+      "files": [
+        {
+          "bytes": 998,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ActivityInfo.qml",
+          "sha256": "8eae0f5eb160f4ce2f99525ba15559d5a526efa8843cc0d34205ee35bb3081aa"
+        },
+        {
+          "bytes": 3838,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ballcatch.js",
+          "sha256": "bd71c916f342adf60e7508225615db7ca3334e71244abe9fb5a9a8f9456950a0"
+        },
+        {
+          "bytes": 3056,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/Ball.qml",
+          "sha256": "786da5eaf86f8ad982f4e81ad6f297199719f599c1ee3b8c9cc8419ee1977b63"
+        },
+        {
+          "bytes": 9512,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/Ballcatch.qml",
+          "sha256": "cee9d40f76511549cdc5fa9258d06c2b8505feade28e1eb4cfeebc776487a4f1"
+        },
+        {
+          "bytes": 3685,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ballcatch.svg",
+          "sha256": "8d54f1f1e94c563693329eae639e567fb5164e95793604cdfc84af89d62d1df1"
+        },
+        {
+          "bytes": 2476,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/arrow_key.svg",
+          "sha256": "7a99155560bde2e484ca35ae0752727734ce1e51b76e1f542999ba3110af0fe0"
+        },
+        {
+          "bytes": 182630,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/youcannot.wav",
+          "sha256": "cc0582582625944fba653a2358a36c2238273fac26673f23a88d84b555fe7cad"
+        },
+        {
+          "bytes": 3150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/ball.svg",
+          "sha256": "ff7189fb9167318abcb2a047070707c3ca5ed4cb2c534f1637de0903d6fa7d99"
+        },
+        {
+          "bytes": 5514,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/hand.svg",
+          "sha256": "816758e35056a16adf435593f9b28125541c5322e74aa038ff0603e0611c0896"
+        },
+        {
+          "bytes": 12702,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach2.svg",
+          "sha256": "03d22eca912e2b72d4418cabd533b278d0649bd67d2d70a314ddc24ac06b6685"
+        },
+        {
+          "bytes": 10652,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach4.svg",
+          "sha256": "fe98a9a6ee4fba624ea6b888792cf60d58bec73c86391bff58a25199ac6bbaca"
+        },
+        {
+          "bytes": 10657,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach3.svg",
+          "sha256": "db7b7a9bdfb3e57e0fcc1b931f9fffa64c5b1e57f5a39b1ecab2017757402395"
+        },
+        {
+          "bytes": 14330,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach1.svg",
+          "sha256": "29e752594187686460f22f9c2177884459f34accda52874c758215dd32653cba"
+        },
+        {
+          "bytes": 10487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/tux.svg",
+          "sha256": "2a2c285c8fab618eb4517e7e6050c9c91d3e6f198da11f05a4131a4a925b6986"
+        },
+        {
+          "bytes": 129418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/tuxok.wav",
+          "sha256": "13e5a08f9ef1508fe972fc6c3d39a66410ca3a779993ddde4d2f626b19f9258a"
+        },
+        {
+          "bytes": 390,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/CMakeLists.txt",
+          "sha256": "7f3fb63ccb27d399deb52b929001307f304df94878b3e64cdbd794906e52c195"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/contract-green",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/sources/f9431f525e44a427d7e7659aadccd1d182cda941"
+    },
+    "help-red": {
+      "rcc_sha256": "214c673953b131bf76443ef92d38b4c23c2ebecbd337fb4a2fa92d9fe5905316",
+      "files": [
+        {
+          "bytes": 998,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ActivityInfo.qml",
+          "sha256": "8eae0f5eb160f4ce2f99525ba15559d5a526efa8843cc0d34205ee35bb3081aa"
+        },
+        {
+          "bytes": 3838,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ballcatch.js",
+          "sha256": "bd71c916f342adf60e7508225615db7ca3334e71244abe9fb5a9a8f9456950a0"
+        },
+        {
+          "bytes": 3056,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/Ball.qml",
+          "sha256": "786da5eaf86f8ad982f4e81ad6f297199719f599c1ee3b8c9cc8419ee1977b63"
+        },
+        {
+          "bytes": 10343,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/Ballcatch.qml",
+          "sha256": "ef9ebeb081956b22373fdacf1132603592989f9f4536eb4881f68fddf0b6c780"
+        },
+        {
+          "bytes": 3685,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ballcatch.svg",
+          "sha256": "8d54f1f1e94c563693329eae639e567fb5164e95793604cdfc84af89d62d1df1"
+        },
+        {
+          "bytes": 2476,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/arrow_key.svg",
+          "sha256": "7a99155560bde2e484ca35ae0752727734ce1e51b76e1f542999ba3110af0fe0"
+        },
+        {
+          "bytes": 182630,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/youcannot.wav",
+          "sha256": "cc0582582625944fba653a2358a36c2238273fac26673f23a88d84b555fe7cad"
+        },
+        {
+          "bytes": 3150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/ball.svg",
+          "sha256": "ff7189fb9167318abcb2a047070707c3ca5ed4cb2c534f1637de0903d6fa7d99"
+        },
+        {
+          "bytes": 5514,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/hand.svg",
+          "sha256": "816758e35056a16adf435593f9b28125541c5322e74aa038ff0603e0611c0896"
+        },
+        {
+          "bytes": 12702,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach2.svg",
+          "sha256": "03d22eca912e2b72d4418cabd533b278d0649bd67d2d70a314ddc24ac06b6685"
+        },
+        {
+          "bytes": 10652,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach4.svg",
+          "sha256": "fe98a9a6ee4fba624ea6b888792cf60d58bec73c86391bff58a25199ac6bbaca"
+        },
+        {
+          "bytes": 10657,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach3.svg",
+          "sha256": "db7b7a9bdfb3e57e0fcc1b931f9fffa64c5b1e57f5a39b1ecab2017757402395"
+        },
+        {
+          "bytes": 14330,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach1.svg",
+          "sha256": "29e752594187686460f22f9c2177884459f34accda52874c758215dd32653cba"
+        },
+        {
+          "bytes": 10487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/tux.svg",
+          "sha256": "2a2c285c8fab618eb4517e7e6050c9c91d3e6f198da11f05a4131a4a925b6986"
+        },
+        {
+          "bytes": 129418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/tuxok.wav",
+          "sha256": "13e5a08f9ef1508fe972fc6c3d39a66410ca3a779993ddde4d2f626b19f9258a"
+        },
+        {
+          "bytes": 390,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/CMakeLists.txt",
+          "sha256": "7f3fb63ccb27d399deb52b929001307f304df94878b3e64cdbd794906e52c195"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/help-red",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/sources/f9431f525e44a427d7e7659aadccd1d182cda941"
+    },
+    "help-green": {
+      "rcc_sha256": "0e3f54a0f6139563984ebedc9a9883e858f60d37636445c635d35b713c431ba6",
+      "files": [
+        {
+          "bytes": 998,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ActivityInfo.qml",
+          "sha256": "8eae0f5eb160f4ce2f99525ba15559d5a526efa8843cc0d34205ee35bb3081aa"
+        },
+        {
+          "bytes": 3838,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ballcatch.js",
+          "sha256": "bd71c916f342adf60e7508225615db7ca3334e71244abe9fb5a9a8f9456950a0"
+        },
+        {
+          "bytes": 3056,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/Ball.qml",
+          "sha256": "786da5eaf86f8ad982f4e81ad6f297199719f599c1ee3b8c9cc8419ee1977b63"
+        },
+        {
+          "bytes": 10345,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/Ballcatch.qml",
+          "sha256": "f5839bcc38bc4b614b0cb8812ab1ff269dc9df103bc0954a33e26a6838f05ba2"
+        },
+        {
+          "bytes": 3685,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/ballcatch.svg",
+          "sha256": "8d54f1f1e94c563693329eae639e567fb5164e95793604cdfc84af89d62d1df1"
+        },
+        {
+          "bytes": 2476,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/arrow_key.svg",
+          "sha256": "7a99155560bde2e484ca35ae0752727734ce1e51b76e1f542999ba3110af0fe0"
+        },
+        {
+          "bytes": 182630,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/youcannot.wav",
+          "sha256": "cc0582582625944fba653a2358a36c2238273fac26673f23a88d84b555fe7cad"
+        },
+        {
+          "bytes": 3150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/ball.svg",
+          "sha256": "ff7189fb9167318abcb2a047070707c3ca5ed4cb2c534f1637de0903d6fa7d99"
+        },
+        {
+          "bytes": 5514,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/hand.svg",
+          "sha256": "816758e35056a16adf435593f9b28125541c5322e74aa038ff0603e0611c0896"
+        },
+        {
+          "bytes": 12702,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach2.svg",
+          "sha256": "03d22eca912e2b72d4418cabd533b278d0649bd67d2d70a314ddc24ac06b6685"
+        },
+        {
+          "bytes": 10652,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach4.svg",
+          "sha256": "fe98a9a6ee4fba624ea6b888792cf60d58bec73c86391bff58a25199ac6bbaca"
+        },
+        {
+          "bytes": 10657,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach3.svg",
+          "sha256": "db7b7a9bdfb3e57e0fcc1b931f9fffa64c5b1e57f5a39b1ecab2017757402395"
+        },
+        {
+          "bytes": 14330,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/beach1.svg",
+          "sha256": "29e752594187686460f22f9c2177884459f34accda52874c758215dd32653cba"
+        },
+        {
+          "bytes": 10487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/tux.svg",
+          "sha256": "2a2c285c8fab618eb4517e7e6050c9c91d3e6f198da11f05a4131a4a925b6986"
+        },
+        {
+          "bytes": 129418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/tuxok.wav",
+          "sha256": "13e5a08f9ef1508fe972fc6c3d39a66410ca3a779993ddde4d2f626b19f9258a"
+        },
+        {
+          "bytes": 390,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/CMakeLists.txt",
+          "sha256": "7f3fb63ccb27d399deb52b929001307f304df94878b3e64cdbd794906e52c195"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/help-green",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/sources/7bf038204211722b587f473ee250ea1d964e925f"
+    },
+    "penalty-contract-red": {
+      "rcc_sha256": "479bbb695ddb2826752255fecb9ae0adbce402f78fef11940bc2288586cdddd7",
+      "files": [
+        {
+          "bytes": 14224,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/Penalty.qml",
+          "sha256": "21edb7e95cc72451042e84c8917439b9987298e77e402a99969a62c6405def6b"
+        },
+        {
+          "bytes": 33849,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/penalty.svg",
+          "sha256": "d7e07a1370c3e6dbcac5ea0d1348fab3c87099e609bd77985919d3787e0d17f8"
+        },
+        {
+          "bytes": 1064,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/ActivityInfo.qml",
+          "sha256": "f833b5095532c465533e6f1c07de2265df24141bf128b29361db199da214f9af"
+        },
+        {
+          "bytes": 1077,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/Progress.qml",
+          "sha256": "6ef4c43981f7ae9242eddb08909a39164f4331c4e153da74835a55db0637a365"
+        },
+        {
+          "bytes": 3076,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/penalty.js",
+          "sha256": "57e11d27c60fd9189ff7a4f1b59f5123233926817294430c7403cbdefb47baed"
+        },
+        {
+          "bytes": 7915,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/goal.svg",
+          "sha256": "2800700be560d6aaf184f51636d955fc4ed40aa20121429b248d4a7187a2fa23"
+        },
+        {
+          "bytes": 10498,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_player.svg",
+          "sha256": "a3a0b10d3ed5f59479cf30417add067b95643d14e6588c7ea8d1f7b132c995a0"
+        },
+        {
+          "bytes": 5446,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_ball.svg",
+          "sha256": "0581bd8c9c3e246aaec41a1307489d1fc070510d21ea7dbd43d1d3f345bcf46a"
+        },
+        {
+          "bytes": 2302,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_bg.svg",
+          "sha256": "0389c5c2b3928bafdda0ecbfe330d2f689fc010b7839fb35db8aac8e1828535d"
+        },
+        {
+          "bytes": 10858,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/click_icon.svg",
+          "sha256": "e7ec7afd1e5696f836f251c77cc22789ab5b265c8d708f2cf4ec96123efde179"
+        },
+        {
+          "bytes": 381,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/CMakeLists.txt",
+          "sha256": "b312461622295f755d9768262965185ee9fc16de66a8bc6592344ce2e93a3850"
+        },
+        {
+          "bytes": 567,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/GoalZone.qml",
+          "sha256": "20cef29397b1d083df778ec4f8b1b48fd94d38c2e09d9b77aa7dcbf802796897"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/penalty-contract-red",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/sources/7bf038204211722b587f473ee250ea1d964e925f"
+    },
+    "penalty-contract-green": {
+      "rcc_sha256": "877aa9ebb93b059b587d33ed1b2224e4366432516c2899d9cfb5af9feb2ed1ac",
+      "files": [
+        {
+          "bytes": 14202,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/Penalty.qml",
+          "sha256": "cc2dab5cfa5864a93ba92e1bacb8df478d2c3096ef820004e235cf656b004339"
+        },
+        {
+          "bytes": 33849,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/penalty.svg",
+          "sha256": "d7e07a1370c3e6dbcac5ea0d1348fab3c87099e609bd77985919d3787e0d17f8"
+        },
+        {
+          "bytes": 1064,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/ActivityInfo.qml",
+          "sha256": "f833b5095532c465533e6f1c07de2265df24141bf128b29361db199da214f9af"
+        },
+        {
+          "bytes": 1077,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/Progress.qml",
+          "sha256": "6ef4c43981f7ae9242eddb08909a39164f4331c4e153da74835a55db0637a365"
+        },
+        {
+          "bytes": 3076,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/penalty.js",
+          "sha256": "57e11d27c60fd9189ff7a4f1b59f5123233926817294430c7403cbdefb47baed"
+        },
+        {
+          "bytes": 7915,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/goal.svg",
+          "sha256": "2800700be560d6aaf184f51636d955fc4ed40aa20121429b248d4a7187a2fa23"
+        },
+        {
+          "bytes": 10498,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_player.svg",
+          "sha256": "a3a0b10d3ed5f59479cf30417add067b95643d14e6588c7ea8d1f7b132c995a0"
+        },
+        {
+          "bytes": 5446,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_ball.svg",
+          "sha256": "0581bd8c9c3e246aaec41a1307489d1fc070510d21ea7dbd43d1d3f345bcf46a"
+        },
+        {
+          "bytes": 2302,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_bg.svg",
+          "sha256": "0389c5c2b3928bafdda0ecbfe330d2f689fc010b7839fb35db8aac8e1828535d"
+        },
+        {
+          "bytes": 10858,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/click_icon.svg",
+          "sha256": "e7ec7afd1e5696f836f251c77cc22789ab5b265c8d708f2cf4ec96123efde179"
+        },
+        {
+          "bytes": 381,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/CMakeLists.txt",
+          "sha256": "b312461622295f755d9768262965185ee9fc16de66a8bc6592344ce2e93a3850"
+        },
+        {
+          "bytes": 567,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/GoalZone.qml",
+          "sha256": "20cef29397b1d083df778ec4f8b1b48fd94d38c2e09d9b77aa7dcbf802796897"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/penalty-contract-green",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/sources/597c05f0b1d41946cb0fffe8b99e1c837b627cb2"
+    },
+    "penalty-help-red": {
+      "rcc_sha256": "2b283b6e74b54adfa3828e850404d42f27d7080d72e9f1cc8e54d2165fd2f1b7",
+      "files": [
+        {
+          "bytes": 14937,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/Penalty.qml",
+          "sha256": "f706f901c51fedebb5f1198b444be8d119dbf0f28b007e5a5076e5019d703bad"
+        },
+        {
+          "bytes": 33849,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/penalty.svg",
+          "sha256": "d7e07a1370c3e6dbcac5ea0d1348fab3c87099e609bd77985919d3787e0d17f8"
+        },
+        {
+          "bytes": 1064,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/ActivityInfo.qml",
+          "sha256": "f833b5095532c465533e6f1c07de2265df24141bf128b29361db199da214f9af"
+        },
+        {
+          "bytes": 1077,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/Progress.qml",
+          "sha256": "6ef4c43981f7ae9242eddb08909a39164f4331c4e153da74835a55db0637a365"
+        },
+        {
+          "bytes": 3076,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/penalty.js",
+          "sha256": "57e11d27c60fd9189ff7a4f1b59f5123233926817294430c7403cbdefb47baed"
+        },
+        {
+          "bytes": 7915,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/goal.svg",
+          "sha256": "2800700be560d6aaf184f51636d955fc4ed40aa20121429b248d4a7187a2fa23"
+        },
+        {
+          "bytes": 10498,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_player.svg",
+          "sha256": "a3a0b10d3ed5f59479cf30417add067b95643d14e6588c7ea8d1f7b132c995a0"
+        },
+        {
+          "bytes": 5446,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_ball.svg",
+          "sha256": "0581bd8c9c3e246aaec41a1307489d1fc070510d21ea7dbd43d1d3f345bcf46a"
+        },
+        {
+          "bytes": 2302,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_bg.svg",
+          "sha256": "0389c5c2b3928bafdda0ecbfe330d2f689fc010b7839fb35db8aac8e1828535d"
+        },
+        {
+          "bytes": 10858,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/click_icon.svg",
+          "sha256": "e7ec7afd1e5696f836f251c77cc22789ab5b265c8d708f2cf4ec96123efde179"
+        },
+        {
+          "bytes": 381,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/CMakeLists.txt",
+          "sha256": "b312461622295f755d9768262965185ee9fc16de66a8bc6592344ce2e93a3850"
+        },
+        {
+          "bytes": 567,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/GoalZone.qml",
+          "sha256": "20cef29397b1d083df778ec4f8b1b48fd94d38c2e09d9b77aa7dcbf802796897"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/penalty-help-red",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/sources/7bf038204211722b587f473ee250ea1d964e925f"
+    },
+    "penalty-help-green": {
+      "rcc_sha256": "3ba2715ab6a0f94e8b67d426205c44455e551689d7ba71eec5de83e23a41b620",
+      "files": [
+        {
+          "bytes": 14915,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/Penalty.qml",
+          "sha256": "43b8b756ac6e49405f5cfcdad1ec6d0b73f035aff839537a29e86a288f334d9e"
+        },
+        {
+          "bytes": 33849,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/penalty.svg",
+          "sha256": "d7e07a1370c3e6dbcac5ea0d1348fab3c87099e609bd77985919d3787e0d17f8"
+        },
+        {
+          "bytes": 1064,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/ActivityInfo.qml",
+          "sha256": "f833b5095532c465533e6f1c07de2265df24141bf128b29361db199da214f9af"
+        },
+        {
+          "bytes": 1077,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/Progress.qml",
+          "sha256": "6ef4c43981f7ae9242eddb08909a39164f4331c4e153da74835a55db0637a365"
+        },
+        {
+          "bytes": 3076,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/penalty.js",
+          "sha256": "57e11d27c60fd9189ff7a4f1b59f5123233926817294430c7403cbdefb47baed"
+        },
+        {
+          "bytes": 7915,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/goal.svg",
+          "sha256": "2800700be560d6aaf184f51636d955fc4ed40aa20121429b248d4a7187a2fa23"
+        },
+        {
+          "bytes": 10498,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_player.svg",
+          "sha256": "a3a0b10d3ed5f59479cf30417add067b95643d14e6588c7ea8d1f7b132c995a0"
+        },
+        {
+          "bytes": 5446,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_ball.svg",
+          "sha256": "0581bd8c9c3e246aaec41a1307489d1fc070510d21ea7dbd43d1d3f345bcf46a"
+        },
+        {
+          "bytes": 2302,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_bg.svg",
+          "sha256": "0389c5c2b3928bafdda0ecbfe330d2f689fc010b7839fb35db8aac8e1828535d"
+        },
+        {
+          "bytes": 10858,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/click_icon.svg",
+          "sha256": "e7ec7afd1e5696f836f251c77cc22789ab5b265c8d708f2cf4ec96123efde179"
+        },
+        {
+          "bytes": 381,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/CMakeLists.txt",
+          "sha256": "b312461622295f755d9768262965185ee9fc16de66a8bc6592344ce2e93a3850"
+        },
+        {
+          "bytes": 567,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/GoalZone.qml",
+          "sha256": "20cef29397b1d083df778ec4f8b1b48fd94d38c2e09d9b77aa7dcbf802796897"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/penalty-help-green",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/sources/597c05f0b1d41946cb0fffe8b99e1c837b627cb2"
+    },
+    "penalty-complete": {
+      "rcc_sha256": "92aabbaa60b897523d7fd79045af6e91d4958e882abb660ace0576aaaa37d1f0",
+      "files": [
+        {
+          "bytes": 17776,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/Penalty.qml",
+          "sha256": "687864f045f2fdd9cc28c9c6238fbe6ba2660debf6ff592cdef96c3a8d9a0c8b"
+        },
+        {
+          "bytes": 33849,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/penalty.svg",
+          "sha256": "d7e07a1370c3e6dbcac5ea0d1348fab3c87099e609bd77985919d3787e0d17f8"
+        },
+        {
+          "bytes": 1064,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/ActivityInfo.qml",
+          "sha256": "f833b5095532c465533e6f1c07de2265df24141bf128b29361db199da214f9af"
+        },
+        {
+          "bytes": 1077,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/Progress.qml",
+          "sha256": "6ef4c43981f7ae9242eddb08909a39164f4331c4e153da74835a55db0637a365"
+        },
+        {
+          "bytes": 3076,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/penalty.js",
+          "sha256": "57e11d27c60fd9189ff7a4f1b59f5123233926817294430c7403cbdefb47baed"
+        },
+        {
+          "bytes": 7915,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/goal.svg",
+          "sha256": "2800700be560d6aaf184f51636d955fc4ed40aa20121429b248d4a7187a2fa23"
+        },
+        {
+          "bytes": 10498,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_player.svg",
+          "sha256": "a3a0b10d3ed5f59479cf30417add067b95643d14e6588c7ea8d1f7b132c995a0"
+        },
+        {
+          "bytes": 5446,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_ball.svg",
+          "sha256": "0581bd8c9c3e246aaec41a1307489d1fc070510d21ea7dbd43d1d3f345bcf46a"
+        },
+        {
+          "bytes": 2302,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/penalty_bg.svg",
+          "sha256": "0389c5c2b3928bafdda0ecbfe330d2f689fc010b7839fb35db8aac8e1828535d"
+        },
+        {
+          "bytes": 10858,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/resource/click_icon.svg",
+          "sha256": "e7ec7afd1e5696f836f251c77cc22789ab5b265c8d708f2cf4ec96123efde179"
+        },
+        {
+          "bytes": 381,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/CMakeLists.txt",
+          "sha256": "b312461622295f755d9768262965185ee9fc16de66a8bc6592344ce2e93a3850"
+        },
+        {
+          "bytes": 567,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/penalty/GoalZone.qml",
+          "sha256": "20cef29397b1d083df778ec4f8b1b48fd94d38c2e09d9b77aa7dcbf802796897"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/.scratch/pt-pt/functional-ball/penalty-complete",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ball-coordination/build/functional-ball/sources/597c05f0b1d41946cb0fffe8b99e1c837b627cb2"
+    }
+  },
+  "imports": {
+    "core": {
+      "rcc_sha256": "4c40f1dd1ef1169d78084c2f62655627dab02d4051e6dec9efd494a51191bacb",
+      "files": [
+        {
+          "bytes": 6298,
+          "ogg": false,
+          "path": ":/gcompris/src/core/Bonus.qml",
+          "sha256": "48d482e880560fe1a3b06bace371def756eaf4af92eaf23b21c21a330842cc28"
+        },
+        {
+          "bytes": 9260,
+          "ogg": false,
+          "path": ":/gcompris/src/core/resource/sounds/flip.wav",
+          "sha256": "f962819ce412d1fbe11f6279e38cb5097a99e83ac795272b01e8fda909cdf70b"
+        },
+        {
+          "bytes": 88244,
+          "ogg": false,
+          "path": ":/gcompris/src/core/resource/sounds/bonus.wav",
+          "sha256": "fbf6fba4772211a0336b37c916e77340ca25c6e8062e9b2f631cf16394edd140"
+        },
+        {
+          "bytes": 21548,
+          "ogg": false,
+          "path": ":/gcompris/src/core/resource/sounds/smudge.wav",
+          "sha256": "e2037cfb555e638fae4af7a497ec2fefb7becf8fac3dd9da4d28adcf3c4b245f"
+        },
+        {
+          "bytes": 15266,
+          "ogg": false,
+          "path": ":/gcompris/src/core/resource/sounds/brick.wav",
+          "sha256": "a5bcc4db6b84c0c47e90eaa0c889314c1f703993bfb32e6e33fc161d89a88cee"
+        }
+      ]
+    },
+    "ballcatch": {
+      "rcc_sha256": "af8386d4c60988ea13cbea9b3fc648258c46b38f5604d26a882f7efd65895e64",
+      "files": [
+        {
+          "bytes": 182630,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/youcannot.wav",
+          "sha256": "cc0582582625944fba653a2358a36c2238273fac26673f23a88d84b555fe7cad"
+        },
+        {
+          "bytes": 129418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/ballcatch/resource/tuxok.wav",
+          "sha256": "13e5a08f9ef1508fe972fc6c3d39a66410ca3a779993ddde4d2f626b19f9258a"
+        }
+      ]
+    }
+  }
+}

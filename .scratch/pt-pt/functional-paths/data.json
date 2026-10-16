@@ -1,0 +1,238 @@
+{
+  "passed": true,
+  "activities": {
+    "path_encoding": [
+      {
+        "rows": 6,
+        "columns": 6,
+        "cells": 9,
+        "moves": 8,
+        "source": "src/activities/path_encoding/resource/1/Data.qml",
+        "source_sha256": "825fac2f787eebf78f1a34fe6f073100826be5c2d5fb6e417936f0a6680de77c"
+      },
+      {
+        "rows": 6,
+        "columns": 6,
+        "cells": 15,
+        "moves": 14,
+        "source": "src/activities/path_encoding/resource/1/Data.qml",
+        "source_sha256": "825fac2f787eebf78f1a34fe6f073100826be5c2d5fb6e417936f0a6680de77c"
+      },
+      {
+        "rows": 8,
+        "columns": 8,
+        "cells": 28,
+        "moves": 27,
+        "source": "src/activities/path_encoding/resource/2/Data.qml",
+        "source_sha256": "a0681e8e23ec1d4b19830f9c7adf2df85cda747e33b027ff73fc7a1cd8f1692b"
+      },
+      {
+        "rows": 8,
+        "columns": 8,
+        "cells": 26,
+        "moves": 25,
+        "source": "src/activities/path_encoding/resource/2/Data.qml",
+        "source_sha256": "a0681e8e23ec1d4b19830f9c7adf2df85cda747e33b027ff73fc7a1cd8f1692b"
+      },
+      {
+        "rows": 10,
+        "columns": 10,
+        "cells": 41,
+        "moves": 40,
+        "source": "src/activities/path_encoding/resource/3/Data.qml",
+        "source_sha256": "670b9dcbe14eeb439156b496b5d494155f29d208313d9acef8053b2d7209b90c"
+      },
+      {
+        "rows": 10,
+        "columns": 10,
+        "cells": 39,
+        "moves": 38,
+        "source": "src/activities/path_encoding/resource/3/Data.qml",
+        "source_sha256": "670b9dcbe14eeb439156b496b5d494155f29d208313d9acef8053b2d7209b90c"
+      },
+      {
+        "rows": 12,
+        "columns": 12,
+        "cells": 55,
+        "moves": 54,
+        "source": "src/activities/path_encoding/resource/4/Data.qml",
+        "source_sha256": "07bcabdf8d808ffca349e190c2bd85245df5ba4921a60b79ecb44883b1a35064"
+      }
+    ],
+    "path_encoding_relative": [
+      {
+        "rows": 6,
+        "columns": 6,
+        "cells": 12,
+        "moves": 11,
+        "source": "src/activities/path_encoding_relative/resource/1/Data.qml",
+        "source_sha256": "ae8087da5530609d44fd2d0b56d22cfab4c3c2a1f3b8dc8d8703505eea7b2fd4"
+      },
+      {
+        "rows": 6,
+        "columns": 6,
+        "cells": 15,
+        "moves": 14,
+        "source": "src/activities/path_encoding_relative/resource/1/Data.qml",
+        "source_sha256": "ae8087da5530609d44fd2d0b56d22cfab4c3c2a1f3b8dc8d8703505eea7b2fd4"
+      },
+      {
+        "rows": 8,
+        "columns": 8,
+        "cells": 21,
+        "moves": 20,
+        "source": "src/activities/path_encoding_relative/resource/2/Data.qml",
+        "source_sha256": "65ef84ea583c6c414384a060e7788bc8da7272901be97b7bd18befaa7243116d"
+      },
+      {
+        "rows": 8,
+        "columns": 8,
+        "cells": 24,
+        "moves": 23,
+        "source": "src/activities/path_encoding_relative/resource/2/Data.qml",
+        "source_sha256": "65ef84ea583c6c414384a060e7788bc8da7272901be97b7bd18befaa7243116d"
+      },
+      {
+        "rows": 10,
+        "columns": 10,
+        "cells": 39,
+        "moves": 38,
+        "source": "src/activities/path_encoding_relative/resource/3/Data.qml",
+        "source_sha256": "eecd77d9ab43a8e75cdb3e0c9f49c69cf40c129888d0a7416bdd1b3eb5bce606"
+      },
+      {
+        "rows": 10,
+        "columns": 10,
+        "cells": 42,
+        "moves": 41,
+        "source": "src/activities/path_encoding_relative/resource/3/Data.qml",
+        "source_sha256": "eecd77d9ab43a8e75cdb3e0c9f49c69cf40c129888d0a7416bdd1b3eb5bce606"
+      },
+      {
+        "rows": 12,
+        "columns": 12,
+        "cells": 47,
+        "moves": 46,
+        "source": "src/activities/path_encoding_relative/resource/4/Data.qml",
+        "source_sha256": "277005146d62aa21548ae34d16a36ec63dea23b3a313bdb7d2b6cd3dcc4845ab"
+      }
+    ],
+    "path_decoding": [
+      {
+        "rows": 6,
+        "columns": 6,
+        "cells": 14,
+        "moves": 13,
+        "source": "src/activities/path_decoding/resource/1/Data.qml",
+        "source_sha256": "9f0485eec59c7d4ebe9794593a662b321e4b88e043af804a9fb0b3f6880470e7"
+      },
+      {
+        "rows": 6,
+        "columns": 6,
+        "cells": 15,
+        "moves": 14,
+        "source": "src/activities/path_decoding/resource/1/Data.qml",
+        "source_sha256": "9f0485eec59c7d4ebe9794593a662b321e4b88e043af804a9fb0b3f6880470e7"
+      },
+      {
+        "rows": 8,
+        "columns": 8,
+        "cells": 25,
+        "moves": 24,
+        "source": "src/activities/path_decoding/resource/2/Data.qml",
+        "source_sha256": "dfde5e7120f3cdfe2be71cba3af8381b64dce6aff32e2e597c79d49b7a998cdc"
+      },
+      {
+        "rows": 8,
+        "columns": 8,
+        "cells": 25,
+        "moves": 24,
+        "source": "src/activities/path_decoding/resource/2/Data.qml",
+        "source_sha256": "dfde5e7120f3cdfe2be71cba3af8381b64dce6aff32e2e597c79d49b7a998cdc"
+      },
+      {
+        "rows": 10,
+        "columns": 10,
+        "cells": 38,
+        "moves": 37,
+        "source": "src/activities/path_decoding/resource/3/Data.qml",
+        "source_sha256": "3764a5254f14a69ea80139c53b48c5bc146d0d4d2bf3e6f0d417d455e163cf2e"
+      },
+      {
+        "rows": 10,
+        "columns": 10,
+        "cells": 39,
+        "moves": 38,
+        "source": "src/activities/path_decoding/resource/3/Data.qml",
+        "source_sha256": "3764a5254f14a69ea80139c53b48c5bc146d0d4d2bf3e6f0d417d455e163cf2e"
+      },
+      {
+        "rows": 12,
+        "columns": 12,
+        "cells": 54,
+        "moves": 53,
+        "source": "src/activities/path_decoding/resource/4/Data.qml",
+        "source_sha256": "c41bc277e2092218a82cd56778f341dea9cedac4f9d347e87eda69dd41858154"
+      }
+    ],
+    "path_decoding_relative": [
+      {
+        "rows": 6,
+        "columns": 6,
+        "cells": 15,
+        "moves": 14,
+        "source": "src/activities/path_decoding_relative/resource/1/Data.qml",
+        "source_sha256": "0dbdf0382ad697254e3cd3f7a0b6075ec5a9023411057712f0a3ddaedb91a4da"
+      },
+      {
+        "rows": 6,
+        "columns": 6,
+        "cells": 19,
+        "moves": 18,
+        "source": "src/activities/path_decoding_relative/resource/1/Data.qml",
+        "source_sha256": "0dbdf0382ad697254e3cd3f7a0b6075ec5a9023411057712f0a3ddaedb91a4da"
+      },
+      {
+        "rows": 8,
+        "columns": 8,
+        "cells": 24,
+        "moves": 23,
+        "source": "src/activities/path_decoding_relative/resource/2/Data.qml",
+        "source_sha256": "6274c30d57e7d7394a34a2471d3abe1daa39cf8f6c67fcf84fbbaa8fd709196d"
+      },
+      {
+        "rows": 8,
+        "columns": 8,
+        "cells": 27,
+        "moves": 26,
+        "source": "src/activities/path_decoding_relative/resource/2/Data.qml",
+        "source_sha256": "6274c30d57e7d7394a34a2471d3abe1daa39cf8f6c67fcf84fbbaa8fd709196d"
+      },
+      {
+        "rows": 10,
+        "columns": 10,
+        "cells": 42,
+        "moves": 41,
+        "source": "src/activities/path_decoding_relative/resource/3/Data.qml",
+        "source_sha256": "a04550bbe4704233068c417dfb3518db2a1d77f2e2b4229d17fb843104c1841e"
+      },
+      {
+        "rows": 10,
+        "columns": 10,
+        "cells": 44,
+        "moves": 43,
+        "source": "src/activities/path_decoding_relative/resource/3/Data.qml",
+        "source_sha256": "a04550bbe4704233068c417dfb3518db2a1d77f2e2b4229d17fb843104c1841e"
+      },
+      {
+        "rows": 12,
+        "columns": 12,
+        "cells": 63,
+        "moves": 62,
+        "source": "src/activities/path_decoding_relative/resource/4/Data.qml",
+        "source_sha256": "7d5c6beae10f0d729288dc03df1713075e2f82c72f76600ece3a57aaa53d6c47"
+      }
+    ]
+  },
+  "levels": 28
+}

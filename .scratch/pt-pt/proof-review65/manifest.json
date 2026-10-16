@@ -1,0 +1,17 @@
+{
+  "README.md": "0e150673c009d2281dacb3bcfe7f4bf66db842e487ad11c5f66cca80bbfc15c4",
+  "calendars-audit.json": "45d4d4106ac1ea7ede6e98d60c57685e769ce3c8b18fb3c90ec522e4ae345725",
+  "calendars-green.log": "224828859ff2dcd1e7b12cdda9a99aa2f8a39d137da32d46f9aa1d69413a7dbb",
+  "calendars-red.log": "cf8090a3e1a3441743e32bba57b40c32e627d24d8a05fba862b55a88ae0b5bef",
+  "money-audit.json": "79d695300e80a383afca86665d9e0deb75cd60831b305e77db501941c553a91a",
+  "money-green.log": "4841d8035f97d4b0b7668a80456476445b65d8c8490ece2b5cd279ec3a6fc368",
+  "money-red.log": "4137ba0eb2d0aa1e3c191c8096440d986a1cc77f6f6a156952ae53175203f05c",
+  "preserved-originals.json": "12ef3816aaea01b440307cdf196c7234e09dbe40637ce78df6c22fa96363f821",
+  "supervisor-green.log": "88763eb273a80de2a13548a0fd96807336e32b759c645bed7556bceb0acdafff",
+  "supervisor-red.log": "ddff1a1d33f93d553ccbd925f1557e7933896c7bd3a90150364a0c9fef006971",
+  "vertical-audit.json": "61ecfb42fb15fc75c15aeb6b09086863115e1bf3d29945f971d566cb7859d218",
+  "vertical-final-green.log": "0fb3b35a37777cc1667b9b8714c9d3c706ff04d392d81b34a53935f60dd5e49b",
+  "vertical-green.log": "b4778a51c0d14a9085b9c048b7a4767e12ec7efa22206989d6b408b144143465",
+  "vertical-red.log": "68ebbe58b0a4c410f6961ab68d8abd5aabe4a0e29aeff5bd7fac2e32a24a0c5d",
+  "vertical-source-list-red.log": "489fc4e73e11cb8eb41043f6f43cd08bc45364b6195ce6ee4c08dcb19324e644"
+}

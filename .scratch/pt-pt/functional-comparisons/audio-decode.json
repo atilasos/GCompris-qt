@@ -1,0 +1,41 @@
+{
+  "scope": "GStreamer software decoding to fakesink only; no hearing, output device or pronunciation acceptance.",
+  "files": [
+    {
+      "file": "comparator-resources/resources/src/core/resource/sounds/completetask.wav",
+      "sha256": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "comparator-resources/resources/src/core/resource/sounds/crash.wav",
+      "sha256": "86f844cb3f4cd87485de76b26a868e695d278ea971f308e092305827e7943c11",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "comparator-resources/resources/src/core/resource/sounds/win.wav",
+      "sha256": "50a7496767cda6c938048f614c2c1d137e5394ad7b9cdc92f19230a63537adfe",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "adjacent_numbers-resources/resources/src/core/resource/sounds/completetask.wav",
+      "sha256": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "adjacent_numbers-resources/resources/src/core/resource/sounds/crash.wav",
+      "sha256": "86f844cb3f4cd87485de76b26a868e695d278ea971f308e092305827e7943c11",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "adjacent_numbers-resources/resources/src/core/resource/sounds/win.wav",
+      "sha256": "50a7496767cda6c938048f614c2c1d137e5394ad7b9cdc92f19230a63537adfe",
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ]
+}

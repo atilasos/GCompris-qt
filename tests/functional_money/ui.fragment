@@ -1,0 +1,31 @@
+    function find(root,predicate) {
+        if(predicate(root))return root;
+        if(root.children)for(var child of root.children){var result=find(child,predicate);if(result)return result;}
+        return null;
+    }
+    function clickIcon(root,suffix) {
+        wait(400);
+        var button=find(root,function(item){return item.source!==undefined && String(item.source).endsWith(suffix);});
+        verify(button!==null,"Icon "+suffix);mouseClick(button);
+    }
+    function clickText(root,text) {
+        var button=find(root,function(item){return item.clicked!==undefined && item.text===text && item.visible;});
+        verify(button!==null,"Button "+text);mouseClick(button);
+    }
+    function openOptions() {
+        clickIcon(bar,"bar_activity_config.svg");tryCompare(dialogActivityConfig,"visible",true);wait(600);
+        clickText(dialogActivityConfig,"Opções");wait(300);
+        return find(dialogActivityConfig,function(item){return item.modeBox!==undefined || item.speedSlider!==undefined;});
+    }
+    function saveOptions() {
+        clickText(dialogActivityConfig,"Gravar");tryCompare(dialogActivityConfig,"visible",false);wait(2400);
+    }
+    function chooseMode(panel,index) {
+        verify(panel!==null);
+        var box=panel.modeBox;
+        var label=find(box,function(item){return item.text!==undefined && item.text===box.currentText && item.visible;});
+        verify(label!==null);mouseClick(label);wait(200);
+        var previous=box.currentIndex;
+        for(var step=0;step<Math.abs(index-previous);step++)keyClick(index>previous?Qt.Key_Right:Qt.Key_Left);
+        keyClick(Qt.Key_Return);wait(250);compare(box.currentIndex,index);
+    }

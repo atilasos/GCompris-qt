@@ -1,0 +1,7 @@
+..{"format": 1, "source_rcc": "voices-pt-original.rcc", "source_rcc_sha256": "9aebed51a6518f58b86ff382cb9f5c0ec6a61c8d17aa20f970f708baf2ee1600", "original_files": 1, "added_files": 1, "total_files": 2, "original_bytes_preserved": true, "pronunciation": "pending-final-teacher-review", "new_recordings_review": "pending", "files": [{"path": "voices-pt-2026-10-15-00-00-00.rcc", "bytes": 357, "sha256": "50d8912ba1c1724efe055fa1484561155ca68a6d58766d58db8332fec109654f"}, {"path": "Contents", "bytes": 102, "sha256": "95cb438e84e81d200094a20d7318067af2173610dac72f19fa30669c71e58862"}]}
+{"format": 1, "source_rcc": "voices-pt-original.rcc", "source_rcc_sha256": "9aebed51a6518f58b86ff382cb9f5c0ec6a61c8d17aa20f970f708baf2ee1600", "original_files": 1, "added_files": 1, "total_files": 2, "original_bytes_preserved": true, "pronunciation": "pending-final-teacher-review", "new_recordings_review": "pending", "files": [{"path": "voices-pt-2026-10-15-00-00-00.rcc", "bytes": 357, "sha256": "50d8912ba1c1724efe055fa1484561155ca68a6d58766d58db8332fec109654f"}, {"path": "Contents", "bytes": 102, "sha256": "95cb438e84e81d200094a20d7318067af2173610dac72f19fa30669c71e58862"}]}
+...
+----------------------------------------------------------------------
+Ran 5 tests in 3.644s
+
+OK

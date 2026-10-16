@@ -1,0 +1,15 @@
+test_green_native_receipt_with_failed_launcher_is_rejected (test_audit.CalendarEvidence.test_green_native_receipt_with_failed_launcher_is_rejected) ... FAIL
+
+======================================================================
+FAIL: test_green_native_receipt_with_failed_launcher_is_rejected (test_audit.CalendarEvidence.test_green_native_receipt_with_failed_launcher_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-review-status-anchors/tests/functional_calendars/test_audit.py", line 41, in test_green_native_receipt_with_failed_launcher_is_rejected
+    with self.assertRaises(AssertionError):MODULE.audit(self.evidence)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.313s
+
+FAILED (failures=1)

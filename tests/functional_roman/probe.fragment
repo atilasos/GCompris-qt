@@ -1,0 +1,21 @@
+    property bool checkBounds: true
+    property bool checkReset: false
+    property var samples: []
+    function icon(suffix){wait(1700);click(find(bar,function(o){return o.visible&&o.source!==undefined&&String(o.source).endsWith(suffix);}));}
+    function test_random_level_contract(){
+        ApplicationSettings.isVirtualKeyboard=true;tryCompare(keyboard,"visible",true,2500);wait(1700);checked(activity.currentLevel,10);checked(score.numberOfSubLevels,10);
+        for(var round=0;round<15;round++){
+            for(var question=0;question<10;question++){
+                tryCompare(textInput,"enabled",true,6000);wait(100);checked(score.currentSubLevel,question);
+                var text=String(questionPanel.textItem.text),expected=parse(text),input=String(textInput.text);
+                samples.push({round:round,question:question,text:text,answer:expected.answer,input:input});
+                if(checkBounds&&expected.number>50){console.log("ROMAN_RANDOM_BOUND",text,"authored maximum50");grabImage(activity).save("__QA_OUTPUT__/failure.png");fail("Requested number is within authored maximum50");}
+                if(checkReset&&input!==""){console.log("ROMAN_RANDOM_RESET",text,"retained input",input);grabImage(activity).save("__QA_OUTPUT__/failure.png");fail("Each new question starts with an empty input");}
+                type(expected.answer,false);keyClick(Qt.Key_Return);tryCompare(score,"currentSubLevel",question+1,2000);
+                if(question<9)tryCompare(textInput,"enabled",true,6000);
+            }
+            tryVerify(function(){return bonus.isPlaying;},5000);tryCompare(activity,"currentLevel",11,8000);icon("bar_previous.svg");checked(activity.currentLevel,10);
+        }
+    }
+    function cleanupTestCase(){console.log("NATIVE_RESULT",JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,samples:samples,checkBounds:checkBounds,checkReset:checkReset}));}
+}

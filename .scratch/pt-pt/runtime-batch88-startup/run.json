@@ -1,0 +1,10 @@
+{
+  "binary": "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/gcompris-qt",
+  "source_root": "/home/proteu/Projetos/GCompris-qt",
+  "source_sha256": "424f1e449de48470932723c312c4633466db3823bb5e24e76a8c2629b9be9634",
+  "build_sha256": "dd35830d0a77fd8f04d87d3b546619c76a233219a98a32b0cf7b5f4a7c029dc5",
+  "runner_sha256": "a0698d879888322fbbcff4e1c09e2fa459b770a5e876110bc63c1774261d3796",
+  "locale": "pt_PT",
+  "seconds": 6.0,
+  "offline_image": "sha256:28bd5fe8b56d1bd048e5babf5b10710ebe0bae67db86916198a6eec434943f8b"
+}

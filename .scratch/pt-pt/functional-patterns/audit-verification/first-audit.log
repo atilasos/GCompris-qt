@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-patterns/tests/patterns_audit/audit.py", line 66, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--evidence',type=Path,required=True);args=p.parse_args();print(json.dumps(audit(args.evidence)))
+                                                                                                                          ~~~~~^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-patterns/tests/patterns_audit/audit.py", line 64, in audit
+    return validate(reader,verify_physical(reader))
+                           ~~~~~~~~~~~~~~~^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-patterns/tests/patterns_audit/audit.py", line 55, in verify_physical
+    path=row['path'][len(':/gcompris/'):];raw=reader.artifact('effective/'+name+'/files/gcompris/'+path);require(sha(raw)==row['sha256'] and len(raw)==row['bytes'],'Physical private extraction');require(raw==(patched if path=='src/activities/'+r['qml_file'] else reader.blob(files[path])),'Exact frozen source/instrumentation in actual RCC')
+                                                                                                                                                                                                   ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-patterns/tests/patterns_audit/store.py", line 7, in require
+    if not ok:raise ValueError(message)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Exact frozen source/instrumentation in actual RCC

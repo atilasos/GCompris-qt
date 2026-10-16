@@ -1,0 +1,538 @@
+{
+  "format": 1,
+  "locale": "pt_PT",
+  "letter_policy": "explicit-accent-names; not phoneme replacement",
+  "generation_approved": true,
+  "final_teacher_review": "approved",
+  "source_rcc": "voices-pt-2026-09-23-18-56-49.rcc",
+  "source_rcc_sha256": "522d05bcf421e3cee2fdebf7ba9469ff294a69b61d629464283855297e006b8f",
+  "source_files": 1578,
+  "model_name": "pt_PT-tugão-medium",
+  "model_sha256": "223a7aaca69a155c61897e8ada7c3b13bc306e16c72dbb9c2fed733e2b0927d4",
+  "config_sha256": "fe0918dfc0f1a89264a6eea4afe8e95d8e9fed3cc6c81b5c2f87fcb2b50c7320",
+  "recordings": [
+    {
+      "file": "alphabet/U00E0.ogg",
+      "text": "a com acento grave",
+      "wav_sha256": "e53dc4ca5e2005e96613b93f0dee901be9fe6ef5764ccd2494436ec238af4b7e",
+      "frames": 21760,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "b8ac1534522ec6f4af076d71b5d17c32faf24e6ae73a5eced9a7c34dae6e60db",
+      "bytes": 10336,
+      "decode": "passed"
+    },
+    {
+      "file": "alphabet/U00E1.ogg",
+      "text": "a com acento agudo",
+      "wav_sha256": "199e9bb8c18afc4a9caeeab1eba0e439bb83856683490e58125a907bcf7377c2",
+      "frames": 23552,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "ea28eb66f8f9c022c03acad9d0f668652be87d036cb7e673e6dbc03b40881352",
+      "bytes": 10888,
+      "decode": "passed"
+    },
+    {
+      "file": "alphabet/U00E2.ogg",
+      "text": "a com acento circunflexo",
+      "wav_sha256": "433d2e376f7364d6ff02c388a010e589683bfab75c4bf60a93d7cfb21b29dfd4",
+      "frames": 28928,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "70729d55046aa6040f00b76e5238839781a15b068214f984a409642a5b575b12",
+      "bytes": 13302,
+      "decode": "passed"
+    },
+    {
+      "file": "alphabet/U00E3.ogg",
+      "text": "a com til",
+      "wav_sha256": "48a49429e769e346cfe7673900b3823d13cde7709313b3b4b6de68c6963df76c",
+      "frames": 14848,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "7c59911fbeb9f2a0ad8b6152157f7e7c16fda36127de27bc9fb013846dc3562d",
+      "bytes": 8159,
+      "decode": "passed"
+    },
+    {
+      "file": "alphabet/U00E7.ogg",
+      "text": "cê cedilhado",
+      "wav_sha256": "70320d29f61a1e6803ede425b8f0a6aff3bd6609d491d64289535a398fdf0e92",
+      "frames": 18432,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "36d84b82c00126e7aa07e4a0620e0b78389ec8966d5ed7b0708f03f8ed02f21c",
+      "bytes": 9246,
+      "decode": "passed"
+    },
+    {
+      "file": "alphabet/U00E9.ogg",
+      "text": "é com acento agudo",
+      "wav_sha256": "6e0734181f9c6884b9ed89f7f54ff93298154ccfa067c420d998aaf855f1e35e",
+      "frames": 20736,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "54fd6e1eb3bac10a66730868ef6947f9279fcfd694677d380ae8c641586de2c7",
+      "bytes": 10307,
+      "decode": "passed"
+    },
+    {
+      "file": "alphabet/U00EA.ogg",
+      "text": "é com acento circunflexo",
+      "wav_sha256": "871a2edd4e7eac4d67d7f272ed28fccfd9a20c88d869c628ee582e3ff64d2e40",
+      "frames": 29952,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "518d83287df08aebd7eb49062eff0cdc4c9e246566c49b8706e11e561f19385a",
+      "bytes": 13026,
+      "decode": "passed"
+    },
+    {
+      "file": "alphabet/U00ED.ogg",
+      "text": "i com acento agudo",
+      "wav_sha256": "cf1e70d46b13347040ea8bb0c76cd4c8a0e452c6c2452f265cfd26c4354c4242",
+      "frames": 23808,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "6f518fd76dd12645d7a5bbdc889c9ec0b0144dbd586b239ce2f4f146e51787dd",
+      "bytes": 11057,
+      "decode": "passed"
+    },
+    {
+      "file": "alphabet/U00F3.ogg",
+      "text": "ó com acento agudo",
+      "wav_sha256": "46d1a5c3ce2b095aced8d3a757d8b1c293c0b3c7ac6941265dcd485a7f1dd6ff",
+      "frames": 20992,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "3361c068967ad2c260551a37bd19b6889ce89ccc6a2a692c8547a3395885d64a",
+      "bytes": 9926,
+      "decode": "passed"
+    },
+    {
+      "file": "alphabet/U00F4.ogg",
+      "text": "ó com acento circunflexo",
+      "wav_sha256": "5a3b88d89e4d928b16abbaad636f3be7e9a8bad9af31b992d8d6f11cccdfb4f9",
+      "frames": 29184,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "fc5d6a5c812463f9e1c3a1970250f2e882f4ae26fa84486abe50b8978ebd38e1",
+      "bytes": 13008,
+      "decode": "passed"
+    },
+    {
+      "file": "alphabet/U00F5.ogg",
+      "text": "ó com til",
+      "wav_sha256": "d5b6cfe18df2287728efddc98482f55873013776556904c0a32bff5fee044a22",
+      "frames": 14592,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "d38e420109b95063e13b300d193b5152d2a67b04b47b4422d5d7be089e578800",
+      "bytes": 8031,
+      "decode": "passed"
+    },
+    {
+      "file": "alphabet/U00FA.ogg",
+      "text": "u com acento agudo",
+      "wav_sha256": "3e0edab870c3a2b7cb7b618ca067565bca53e2cc14bca0d904c8ab4685e4ad18",
+      "frames": 22528,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "965f56b0b0a891ed094555fd2a694aa76185b8db68179a36dd93998f87eac164",
+      "bytes": 10939,
+      "decode": "passed"
+    },
+    {
+      "file": "france/auvergne-rhone-alpes.ogg",
+      "text": "Auvérnia-Ródano-Alpes",
+      "wav_sha256": "2c2d08ac2af274ee51c7cd32f1f83444007266176e38e1b4a75089a207a8acc4",
+      "frames": 26880,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "525b23f4ed811c6223e15ed90873e7bcc6637e2937b34a49913772155f1cd66b",
+      "bytes": 11879,
+      "decode": "passed"
+    },
+    {
+      "file": "france/bourgogne-franche-comte.ogg",
+      "text": "Borgonha-Franco-Condado",
+      "wav_sha256": "f92bfb1712df72b1e3174aec3617ec6313c74e39fe61692b764c47a34fe7a719",
+      "frames": 22784,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "62e3a4c6a3efc2b32e1bdeabbca77ff9ec3562a6e49a20d477b80d6eea076b7e",
+      "bytes": 10366,
+      "decode": "passed"
+    },
+    {
+      "file": "france/bretagne.ogg",
+      "text": "Bretanha",
+      "wav_sha256": "e772fe3f95b208c457310c4528a881003a3a0719e68b90ada6d4ee8ea01dc79d",
+      "frames": 13312,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "5a1d5c5633b72b7c22f7fb38f85d3149c35bdae71b56e10f00c6eb069b846a5f",
+      "bytes": 7772,
+      "decode": "passed"
+    },
+    {
+      "file": "france/centre-val-de-loire.ogg",
+      "text": "Centro-Vale do Loire",
+      "wav_sha256": "caefed32dcbb706e0b6e663efc797032c834cd56ba8db44900fed8f3b12b72b0",
+      "frames": 18688,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "00ffdfb456317a3ec22d8db0b4ee94ee96a97774adbd5b4d3698c140e9a5f808",
+      "bytes": 9170,
+      "decode": "passed"
+    },
+    {
+      "file": "france/corse.ogg",
+      "text": "Córsega",
+      "wav_sha256": "672ea9b896dbe11fba4b0007b1a5192a4d01c074df10199fe916bdd5bae9b9ba",
+      "frames": 12032,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "19f17accdba91d5541dbca139f5f823a0098d261bfdd61e4f006c76a6d407896",
+      "bytes": 7486,
+      "decode": "passed"
+    },
+    {
+      "file": "france/grand-est.ogg",
+      "text": "Grande Leste",
+      "wav_sha256": "de95e8172fe6ffd5f65fb9b24b2b0bec5d2e82725450038dbe6b3bc2961c4d29",
+      "frames": 13568,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "6bc2178e72d422712b84a8f5d1716d4e7c0c3298e1072afaf49a814d8a07e24f",
+      "bytes": 7881,
+      "decode": "passed"
+    },
+    {
+      "file": "france/haut-de-france.ogg",
+      "text": "Altos de França",
+      "wav_sha256": "fa87a14b92dddf1fe89d74b6fc513c5cb479ee4e58c273d42d63e77a46075ba0",
+      "frames": 19456,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "e8854fbe33bd5a3d48e457770acd5a9f1e3a48da003c38729e9382dc4a02123a",
+      "bytes": 9776,
+      "decode": "passed"
+    },
+    {
+      "file": "france/ile-de-france.ogg",
+      "text": "Ilha de França",
+      "wav_sha256": "0846242cf046c675d01612e4e5974d8fe44b5902ea82d3fdda882cd497f3a2ee",
+      "frames": 18688,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "de2492b129e58dec914c3b2bb37a50ce51bdef26a75628c62abc7a40f0a46b4e",
+      "bytes": 9631,
+      "decode": "passed"
+    },
+    {
+      "file": "france/normandie.ogg",
+      "text": "Normandia",
+      "wav_sha256": "f2c3d298b98ed9f5412811d5082d91fc29958c91332bf6de1b8f61650381c313",
+      "frames": 13056,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "41a5fdd2c1984009ff4bcd088482ffe24367e24e66084914b292dbb15a7a3f4c",
+      "bytes": 7834,
+      "decode": "passed"
+    },
+    {
+      "file": "france/nouvelle-aquitaine.ogg",
+      "text": "Nova Aquitânia",
+      "wav_sha256": "3bad3ae4690ad0319708c116e553bfa21b52081f581a0df8a847b99884093c2e",
+      "frames": 20480,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "b0fca1e0d753ab02b7574f37cb9b269abe924482edc6b671b4ef05daa8e84dca",
+      "bytes": 10132,
+      "decode": "passed"
+    },
+    {
+      "file": "france/occitanie.ogg",
+      "text": "Occitânia",
+      "wav_sha256": "c6547f174e4946fae0eb28e02d60078983b2ba214d5673498faf14a1f5d1ca79",
+      "frames": 17152,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "99b51ba7bf9dccc1bab9bc0cc4a2b0aeccb9514d4e150f56ab237c25e15921af",
+      "bytes": 8769,
+      "decode": "passed"
+    },
+    {
+      "file": "france/paca.ogg",
+      "text": "Provença-Alpes-Costa Azul",
+      "wav_sha256": "c59052447f1c451aa6bd10b4d75d045fd42ec1c44d11aad9cc8551a47ce18927",
+      "frames": 29696,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "7d82dc3af5ebd4f9cbb7fee92d12fa898be69a1ab474e9345f52eca92b6c8a78",
+      "bytes": 12616,
+      "decode": "passed"
+    },
+    {
+      "file": "france/pays-de-la-loire.ogg",
+      "text": "País do Loire",
+      "wav_sha256": "96f9452ff44c2a528da894055a596a77355d3dead42739bcfa2214975e245003",
+      "frames": 16384,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "64756a8ca8e46d62ba36cf0d0d2a8b253f7708c056721be602e66b6e249ee6d2",
+      "bytes": 8443,
+      "decode": "passed"
+    },
+    {
+      "file": "geography/bahrain.ogg",
+      "text": "Barém",
+      "wav_sha256": "3bc63df910e21d71f3af9ddae641e33be81b9b45206117a24313acfe4b36260d",
+      "frames": 12288,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "5b9b4372efe051cd74090b8aaf7316bd8a169af1921cbfee643dcca68662f30e",
+      "bytes": 7247,
+      "decode": "passed"
+    },
+    {
+      "file": "geography/nauru.ogg",
+      "text": "Nauru",
+      "wav_sha256": "4c960af8f979244412342bd19d98d523f9465709b12bcbe6713d9875449e90b6",
+      "frames": 9728,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "5a5e3f991f19eb9869968a3ddfecd9ffd9acc5d40b3fd802a201601f8079cd2b",
+      "bytes": 6678,
+      "decode": "passed"
+    },
+    {
+      "file": "geography/palestine.ogg",
+      "text": "Palestina",
+      "wav_sha256": "237b525ddc3ed26431e8e82f0c7b93a1a0341cf39e57e5c97e0db12642ecb7e9",
+      "frames": 17152,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "1affcfdc1a7ebde246085c4d551d84bede26699cf63896648a49c563f7041658",
+      "bytes": 8834,
+      "decode": "passed"
+    },
+    {
+      "file": "geography/singapore.ogg",
+      "text": "Singapura",
+      "wav_sha256": "3455d68231788a51e20cfe1eca3b67d7002d48eae127b8e6202f3a9a47cbee03",
+      "frames": 13824,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "b473c8b77585c4dfd3261befaba4668c01029efdf29a6bb0985d5534767dbdc1",
+      "bytes": 7699,
+      "decode": "passed"
+    },
+    {
+      "file": "geography/wallis_and_futuna.ogg",
+      "text": "Wallis e Futuna",
+      "wav_sha256": "3711b0b59d6451a89ed9e51f47b3d029a217812267fcdea569dcbd0cc72bc79e",
+      "frames": 23296,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "8d2e8e85fecfb2c206c20adc3c64e6cd7dd1eeb30685b51a7bfa9d3f818c3f31",
+      "bytes": 10426,
+      "decode": "passed"
+    },
+    {
+      "file": "intro/polygons.ogg",
+      "text": "Desenha os polígonos pedidos, clicando na grelha.",
+      "wav_sha256": "749dcfc4909ac6eb265f1f9ff236407c8c4d81718165645ade8477b53ee9c9b4",
+      "frames": 56576,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "b68adab50341b2e3c11e90c10f144148121c25354c79abc0e6e739814201a8d2",
+      "bytes": 21156,
+      "decode": "passed"
+    },
+    {
+      "file": "intro/sixteen.ogg",
+      "text": "Clica numa seta para deslocares a respetiva linha ou coluna nessa direção. Coloca todas as peças pela ordem correta. Os números nas peças podem ajudar-te.",
+      "wav_sha256": "24d88ca2b1dd8a076d67494ef801187885f8c7bdb2820bff78a0b671aa141bc9",
+      "frames": 169472,
+      "sample_rate": 22050,
+      "channels": 1,
+      "sample_width": 2,
+      "sha256": "4e36d96641ea40eef7c1449cc16259f9fac36ea73117e55f973ebc8644fc3616",
+      "bytes": 57399,
+      "decode": "passed"
+    }
+  ],
+  "piper_version": "1.8.0",
+  "config_override": false,
+  "encoder": "GStreamer audioconvert/vorbisenc quality=0.5/oggmux",
+  "teacher_review": {
+    "date": "2026-10-15",
+    "statement": "Ouvi as 32 e aprovo.",
+    "scope": "pronunciation-and-texts-of-32-new-recordings",
+    "archive_sha256": "cc48b858560d7f6496e2b2b76300940131ce558878554c53f52103e8b88e119e",
+    "recordings": {
+      "alphabet/U00E0.ogg": {
+        "text": "a com acento grave",
+        "sha256": "b8ac1534522ec6f4af076d71b5d17c32faf24e6ae73a5eced9a7c34dae6e60db"
+      },
+      "alphabet/U00E1.ogg": {
+        "text": "a com acento agudo",
+        "sha256": "ea28eb66f8f9c022c03acad9d0f668652be87d036cb7e673e6dbc03b40881352"
+      },
+      "alphabet/U00E2.ogg": {
+        "text": "a com acento circunflexo",
+        "sha256": "70729d55046aa6040f00b76e5238839781a15b068214f984a409642a5b575b12"
+      },
+      "alphabet/U00E3.ogg": {
+        "text": "a com til",
+        "sha256": "7c59911fbeb9f2a0ad8b6152157f7e7c16fda36127de27bc9fb013846dc3562d"
+      },
+      "alphabet/U00E7.ogg": {
+        "text": "cê cedilhado",
+        "sha256": "36d84b82c00126e7aa07e4a0620e0b78389ec8966d5ed7b0708f03f8ed02f21c"
+      },
+      "alphabet/U00E9.ogg": {
+        "text": "é com acento agudo",
+        "sha256": "54fd6e1eb3bac10a66730868ef6947f9279fcfd694677d380ae8c641586de2c7"
+      },
+      "alphabet/U00EA.ogg": {
+        "text": "é com acento circunflexo",
+        "sha256": "518d83287df08aebd7eb49062eff0cdc4c9e246566c49b8706e11e561f19385a"
+      },
+      "alphabet/U00ED.ogg": {
+        "text": "i com acento agudo",
+        "sha256": "6f518fd76dd12645d7a5bbdc889c9ec0b0144dbd586b239ce2f4f146e51787dd"
+      },
+      "alphabet/U00F3.ogg": {
+        "text": "ó com acento agudo",
+        "sha256": "3361c068967ad2c260551a37bd19b6889ce89ccc6a2a692c8547a3395885d64a"
+      },
+      "alphabet/U00F4.ogg": {
+        "text": "ó com acento circunflexo",
+        "sha256": "fc5d6a5c812463f9e1c3a1970250f2e882f4ae26fa84486abe50b8978ebd38e1"
+      },
+      "alphabet/U00F5.ogg": {
+        "text": "ó com til",
+        "sha256": "d38e420109b95063e13b300d193b5152d2a67b04b47b4422d5d7be089e578800"
+      },
+      "alphabet/U00FA.ogg": {
+        "text": "u com acento agudo",
+        "sha256": "965f56b0b0a891ed094555fd2a694aa76185b8db68179a36dd93998f87eac164"
+      },
+      "france/auvergne-rhone-alpes.ogg": {
+        "text": "Auvérnia-Ródano-Alpes",
+        "sha256": "525b23f4ed811c6223e15ed90873e7bcc6637e2937b34a49913772155f1cd66b"
+      },
+      "france/bourgogne-franche-comte.ogg": {
+        "text": "Borgonha-Franco-Condado",
+        "sha256": "62e3a4c6a3efc2b32e1bdeabbca77ff9ec3562a6e49a20d477b80d6eea076b7e"
+      },
+      "france/bretagne.ogg": {
+        "text": "Bretanha",
+        "sha256": "5a1d5c5633b72b7c22f7fb38f85d3149c35bdae71b56e10f00c6eb069b846a5f"
+      },
+      "france/centre-val-de-loire.ogg": {
+        "text": "Centro-Vale do Loire",
+        "sha256": "00ffdfb456317a3ec22d8db0b4ee94ee96a97774adbd5b4d3698c140e9a5f808"
+      },
+      "france/corse.ogg": {
+        "text": "Córsega",
+        "sha256": "19f17accdba91d5541dbca139f5f823a0098d261bfdd61e4f006c76a6d407896"
+      },
+      "france/grand-est.ogg": {
+        "text": "Grande Leste",
+        "sha256": "6bc2178e72d422712b84a8f5d1716d4e7c0c3298e1072afaf49a814d8a07e24f"
+      },
+      "france/haut-de-france.ogg": {
+        "text": "Altos de França",
+        "sha256": "e8854fbe33bd5a3d48e457770acd5a9f1e3a48da003c38729e9382dc4a02123a"
+      },
+      "france/ile-de-france.ogg": {
+        "text": "Ilha de França",
+        "sha256": "de2492b129e58dec914c3b2bb37a50ce51bdef26a75628c62abc7a40f0a46b4e"
+      },
+      "france/normandie.ogg": {
+        "text": "Normandia",
+        "sha256": "41a5fdd2c1984009ff4bcd088482ffe24367e24e66084914b292dbb15a7a3f4c"
+      },
+      "france/nouvelle-aquitaine.ogg": {
+        "text": "Nova Aquitânia",
+        "sha256": "b0fca1e0d753ab02b7574f37cb9b269abe924482edc6b671b4ef05daa8e84dca"
+      },
+      "france/occitanie.ogg": {
+        "text": "Occitânia",
+        "sha256": "99b51ba7bf9dccc1bab9bc0cc4a2b0aeccb9514d4e150f56ab237c25e15921af"
+      },
+      "france/paca.ogg": {
+        "text": "Provença-Alpes-Costa Azul",
+        "sha256": "7d82dc3af5ebd4f9cbb7fee92d12fa898be69a1ab474e9345f52eca92b6c8a78"
+      },
+      "france/pays-de-la-loire.ogg": {
+        "text": "País do Loire",
+        "sha256": "64756a8ca8e46d62ba36cf0d0d2a8b253f7708c056721be602e66b6e249ee6d2"
+      },
+      "geography/bahrain.ogg": {
+        "text": "Barém",
+        "sha256": "5b9b4372efe051cd74090b8aaf7316bd8a169af1921cbfee643dcca68662f30e"
+      },
+      "geography/nauru.ogg": {
+        "text": "Nauru",
+        "sha256": "5a5e3f991f19eb9869968a3ddfecd9ffd9acc5d40b3fd802a201601f8079cd2b"
+      },
+      "geography/palestine.ogg": {
+        "text": "Palestina",
+        "sha256": "1affcfdc1a7ebde246085c4d551d84bede26699cf63896648a49c563f7041658"
+      },
+      "geography/singapore.ogg": {
+        "text": "Singapura",
+        "sha256": "b473c8b77585c4dfd3261befaba4668c01029efdf29a6bb0985d5534767dbdc1"
+      },
+      "geography/wallis_and_futuna.ogg": {
+        "text": "Wallis e Futuna",
+        "sha256": "8d2e8e85fecfb2c206c20adc3c64e6cd7dd1eeb30685b51a7bfa9d3f818c3f31"
+      },
+      "intro/polygons.ogg": {
+        "text": "Desenha os polígonos pedidos, clicando na grelha.",
+        "sha256": "b68adab50341b2e3c11e90c10f144148121c25354c79abc0e6e739814201a8d2"
+      },
+      "intro/sixteen.ogg": {
+        "text": "Clica numa seta para deslocares a respetiva linha ou coluna nessa direção. Coloca todas as peças pela ordem correta. Os números nas peças podem ajudar-te.",
+        "sha256": "4e36d96641ea40eef7c1449cc16259f9fac36ea73117e55f973ebc8644fc3616"
+      }
+    }
+  }
+}

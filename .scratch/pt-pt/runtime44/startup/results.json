@@ -1,0 +1,79 @@
+[
+  {
+    "activity": "lang",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/approved-pairs-main-startup/lang.log"
+  },
+  {
+    "activity": "simplepaint",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/approved-pairs-main-startup/simplepaint.log"
+  },
+  {
+    "activity": "redraw",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/approved-pairs-main-startup/redraw.log"
+  },
+  {
+    "activity": "redraw_symmetrical",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/approved-pairs-main-startup/redraw_symmetrical.log"
+  },
+  {
+    "activity": "mosaic",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/approved-pairs-main-startup/mosaic.log"
+  },
+  {
+    "activity": "polygons",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": "build/pt-pt/approved-pairs-main-startup/polygons.log"
+  },
+  {
+    "activity": "polygons2",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": false,
+    "qml_errors": [],
+    "startup_check": "failed",
+    "log": "build/pt-pt/approved-pairs-main-startup/polygons2.log"
+  }
+]

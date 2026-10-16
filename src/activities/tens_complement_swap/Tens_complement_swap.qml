@@ -64,19 +64,25 @@ ActivityBase {
         onStart: { Activity.start(items) }
         onStop: { Activity.stop() }
 
+        function handleAnswerKey(event, pressed) {
+            if(activity.mode !== "input" || bonus.isPlaying ||
+               !((event.key >= Qt.Key_0 && event.key <= Qt.Key_9) || event.key === Qt.Key_Backspace))
+                return;
+            event.accepted = true;
+            numPad.updateAnswer(event.key, pressed);
+        }
+
         Keys.enabled: okButton.enabled
         Keys.onPressed: (event) => {
             if(event.key === Qt.Key_Enter || event.key === Qt.Key_Return) {
+                event.accepted = true;
                 okButton.clicked();
-            } else if(activity.mode === "input" && !bonus.isPlaying) {
-                numPad.updateAnswer(event.key, true);
+            } else {
+                handleAnswerKey(event, true);
             }
         }
 
-        Keys.onReleased: (event) => {
-            if(activity.mode === "input" && !bonus.isPlaying)
-                numPad.updateAnswer(event.key, false);
-        }
+        Keys.onReleased: (event) => handleAnswerKey(event, false)
 
         Client {    // Client for gcompris-teachers. Prepare data from activity to server
             id: client

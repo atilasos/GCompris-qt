@@ -1,0 +1,11 @@
+{
+  "kind": "root-recorded-tools-exec-or-write-stdin-completion",
+  "scope": "Pilot only: first tutorial request, one collinear rejection and independent valid polygon; not added to final nine levels",
+  "runs": {
+    "polygons-pilot": {
+      "session_id": 39771,
+      "output_chunk": "09f8d8",
+      "exit_code": 0
+    }
+  }
+}

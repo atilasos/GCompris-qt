@@ -1,0 +1,36 @@
+[  0%] Generating share/gcompris-qt/translations/gcompris_qt_pt.qm
+Updating '/home/proteu/Projetos/GCompris-qt/build/pt-pt/share/gcompris-qt/translations/gcompris_qt_pt.qm'...
+Removing translations equal to source text in '/home/proteu/Projetos/GCompris-qt/build/pt-pt/share/gcompris-qt/translations/gcompris_qt_pt.qm'...
+    Generated 3903 translation(s) (3903 finished and 0 unfinished)
+[100%] Built target BuildTranslationsgcompris_qt
+Generating shareFolders
+Built target createShareFolders
+Generate core RCC
+Built target rcc_core
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/lang.rcc
+Generate lang RCC
+Built target rcc_lang
+Generating shareFolders
+Built target createShareFolders
+Generate align4 RCC
+Built target rcc_align4
+[  0%] Generating shareFolders
+[  0%] Built target createShareFolders
+[  0%] Generating ../../../share/gcompris-qt/rcc/align4_2players.rcc
+[100%] Generate align4_2players RCC
+[100%] Built target rcc_align4_2players
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/simplepaint.rcc
+Generate simplepaint RCC
+Built target rcc_simplepaint
+Generating shareFolders
+Built target createShareFolders
+Generate sketch RCC
+Built target rcc_sketch
+Generating shareFolders
+Built target createShareFolders
+Generate drawing_wheels RCC
+Built target rcc_drawing_wheels

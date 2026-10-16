@@ -1,0 +1,23 @@
+test_green_json_cannot_override_failed_launcher (test_runner.RunnerAcceptanceTest.test_green_json_cannot_override_failed_launcher) ... RUNNER_FIXTURE {"launcher_exit": 1, "qt_passed": true, "runner_exit": 0, "summary_passed": true}
+FAIL
+
+======================================================================
+FAIL: test_green_json_cannot_override_failed_launcher (test_runner.RunnerAcceptanceTest.test_green_json_cannot_override_failed_launcher)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-decimal-runner/tests/functional_decimals/test_runner.py", line 53, in test_green_json_cannot_override_failed_launcher
+    self.assertEqual(self.invoke_runner(1,True),(1,False))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Tuples differ: (0, True) != (1, False)
+
+First differing element 0:
+0
+1
+
+- (0, True)
++ (1, False)
+
+----------------------------------------------------------------------
+Ran 1 test in 0.064s
+
+FAILED (failures=1)

@@ -1,0 +1,17 @@
+E
+======================================================================
+ERROR: test_portable_physical_copy_without_original_tree_git_or_qt (test_audit.FamilyPhysicalAudit.test_portable_physical_copy_without_original_tree_git_or_qt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-family-relations/tests/functional_family/test_audit.py", line 7, in setUp
+    self.temp=tempfile.TemporaryDirectory(prefix='family physical copy ');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name);self.copy=self.root/'only evidence';shutil.copytree(BASE,self.copy)
+                                                                                                                                                                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 652, in copytree
+    with os.scandir(src) as itr:
+         ~~~~~~~~~~^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-family-relations/.scratch/pt-pt/functional-family/capsule'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)

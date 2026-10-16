@@ -1,0 +1,82 @@
+# Preservar recursos locais mais recentes após consultar atualizações
+
+Status: ready-for-agent
+Progress: resolved
+Type: task
+Blocked by: 02
+
+## Defeito reproduzido
+
+Com rede, a aplicação lê primeiro o índice local com as 1610 vozes, depois o
+índice upstream anterior substitui a seleção e volta a registar o RCC de 1578.
+O modo offline não apresenta essa regressão. Não se resolve desligando a rede.
+
+## Aceitação
+
+- Conservar um RCC local mais recente apenas quando existe e o checksum é válido.
+- Manter o checksum selecionado no trabalho de atualização, sem pedir ao servidor
+  um nome local que ele não possui.
+- Aceitar atualizações upstream genuinamente mais recentes e reparar recursos
+  locais ausentes/corrompidos.
+- Conservar a seleção em reinícios offline e a separação entre pt e pt_BR.
+- Verificar o DownloadManager real, com RCC Qt e um servidor HTTP local.
+
+## Implementação e verificação do agente
+
+A seleção interna conserva nome e checksum juntos. Um índice remoto mais antigo
+só substitui a seleção se o recurso local mais recente estiver ausente ou
+corrompido. A fila reutiliza o checksum local, sem pedir ao servidor esse nome.
+No arranque, todos os índices locais são reconciliados; o registo offline
+confirma o checksum para distinguir ficheiros com o mesmo nome.
+
+Testes reais com HTTP local e RCC produzido pelo Qt: versão upstream mais
+antiga, atualização mais recente, reparação de ficheiro ausente/corrompido,
+reinício offline, precedência entre pacote e cache e colisão de nomes com
+checksums diferentes. As regressões de downgrade, reinício e colisão falharam
+antes das respetivas correções. O teste mantém pt e pt_BR separados.
+
+Build privado: `build/resource-updates`; `DownloadManagerTest`: 28 passaram,
+zero falhas. Registos locais: `/tmp/pt-resource-updates-before.log`,
+`/tmp/pt-resource-updates-restart-before.log`,
+`/tmp/pt-resource-updates-collision-before.log` e
+`/tmp/pt-resource-updates-full.log`. Estes RCC de teste contêm sentinelas de
+bytes para provar seleção e registo; a descodificação das vozes reais pertence
+à tarefa 05. Não equivale a aprovação pedagógica nem validação integral dos
+203 jogos. Windows nativo com esta alteração será verificado no próximo
+candidato CI; a audição em hardware Windows permanece para o professor.
+
+## Integração
+
+Implementação integrada para revisão e revalidação. `Progress: claimed` conserva
+um dos três estados do tracker; a entrega Windows e a audição final são tarefas
+separadas. A dependência é a compilação 02, pois os testes usam RCC sintéticos
+e não dependem da aprovação humana das gravações da tarefa 05.
+
+## Isolamento dos testes após integração
+
+O primeiro ensaio privado não incluía o RCC PT real junto do executável de
+teste. Com o pacote real de 1610 vozes presente, quatro casos HTTP falharam:
+o recurso real de outubro era corretamente preferido às fixtures de janeiro
+a março. Não era uma regressão do produto. A reprodução privada liga
+`build/resource-updates/share/gcompris-qt/rcc/data3` ao diretório de recursos
+da compilação principal, somente para leitura. Registo antes da correção:
+`/tmp/pt-resource-isolation-before.log` (quatro falhas).
+
+Os quatro casos HTTP passam agora por processos com executável copiado para
+diretório temporário, diretório de trabalho próprio e perfil Qt de teste
+individual. A seleção de versão em produção não mudou. Mantendo o mesmo
+pacote real ligado à compilação privada, a suite completa passa: 28 testes,
+zero falhas (`/tmp/pt-resource-isolation-after.log`). Não foram alterados
+recursos nem ficheiros da compilação principal.
+
+## Answer
+
+A implementação e a correção do isolamento foram integradas e revistas.
+Na compilação principal com os recursos reais, as oito suites C++ passam,
+incluindo os 28 casos do DownloadManager (`build/pt-pt/resource-isolation-tests.log`).
+O novo rastreio dos 203 arranques Linux sem rede também passou;
+[relatório e hashes](../runtime/resource-updates-offline-startup.json).
+
+A tarefa fica resolvida neste âmbito de seleção e preservação de recursos.
+O candidato Windows, a audição física e a aceitação global conservam os seus
+próprios estados nas tarefas 13, 05, 07 e 08.

@@ -1,0 +1,427 @@
+{
+  "scope": "Independent integer examples, not authored positions or unique solutions",
+  "inventory_sha256": "64de75234b2301cb7b6294447b6743a79987a0398a8d2f06c708e2f49daa608f",
+  "questions": {
+    "Desenha um polígono.": {
+      "vertices": [
+        [
+          1,
+          2
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "property": "polygon",
+      "geometry": {
+        "properties": [
+          "polygon"
+        ],
+        "vertex_count": 5,
+        "signed_area2": 67,
+        "area2": 67,
+        "simple": true,
+        "consecutive_collinear": false,
+        "side_lengths_squared": [
+          26,
+          13,
+          13,
+          17,
+          37
+        ],
+        "adjacent_dot_products": [
+          7,
+          5,
+          11,
+          -2,
+          1
+        ],
+        "opposite_parallel": []
+      }
+    },
+    "Desenha um triângulo.": {
+      "vertices": [
+        [
+          1,
+          1
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "property": "triangle",
+      "geometry": {
+        "properties": [
+          "polygon",
+          "triangle"
+        ],
+        "vertex_count": 3,
+        "signed_area2": 47,
+        "area2": 47,
+        "simple": true,
+        "consecutive_collinear": false,
+        "side_lengths_squared": [
+          50,
+          61,
+          53
+        ],
+        "adjacent_dot_products": [
+          -29,
+          -32,
+          -21
+        ],
+        "opposite_parallel": []
+      }
+    },
+    "Desenha um triângulo retângulo.": {
+      "vertices": [
+        [
+          2,
+          2
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "property": "right_triangle",
+      "geometry": {
+        "properties": [
+          "polygon",
+          "right_triangle",
+          "triangle"
+        ],
+        "vertex_count": 3,
+        "signed_area2": 30,
+        "area2": 30,
+        "simple": true,
+        "consecutive_collinear": false,
+        "side_lengths_squared": [
+          36,
+          61,
+          25
+        ],
+        "adjacent_dot_products": [
+          -36,
+          -25,
+          0
+        ],
+        "opposite_parallel": []
+      }
+    },
+    "Desenha um triângulo isósceles.": {
+      "vertices": [
+        [
+          2,
+          2
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "property": "isosceles_triangle",
+      "geometry": {
+        "properties": [
+          "isosceles_triangle",
+          "polygon",
+          "triangle"
+        ],
+        "vertex_count": 3,
+        "signed_area2": 30,
+        "area2": 30,
+        "simple": true,
+        "consecutive_collinear": false,
+        "side_lengths_squared": [
+          36,
+          34,
+          34
+        ],
+        "adjacent_dot_products": [
+          -18,
+          -16,
+          -18
+        ],
+        "opposite_parallel": []
+      }
+    },
+    "Desenha um quadrilátero.": {
+      "vertices": [
+        [
+          1,
+          2
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "property": "quadrilateral",
+      "geometry": {
+        "properties": [
+          "polygon",
+          "quadrilateral"
+        ],
+        "vertex_count": 4,
+        "signed_area2": 60,
+        "area2": 60,
+        "simple": true,
+        "consecutive_collinear": false,
+        "side_lengths_squared": [
+          49,
+          26,
+          25,
+          26
+        ],
+        "adjacent_dot_products": [
+          -7,
+          5,
+          5,
+          -7
+        ],
+        "opposite_parallel": [
+          true,
+          false
+        ]
+      }
+    },
+    "Desenha um retângulo.": {
+      "vertices": [
+        [
+          2,
+          2
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "property": "rectangle",
+      "geometry": {
+        "properties": [
+          "parallelogram",
+          "polygon",
+          "quadrilateral",
+          "rectangle"
+        ],
+        "vertex_count": 4,
+        "signed_area2": 48,
+        "area2": 48,
+        "simple": true,
+        "consecutive_collinear": false,
+        "side_lengths_squared": [
+          36,
+          16,
+          36,
+          16
+        ],
+        "adjacent_dot_products": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "opposite_parallel": [
+          true,
+          true
+        ]
+      }
+    },
+    "Desenha um quadrado.": {
+      "vertices": [
+        [
+          2,
+          2
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "property": "square",
+      "geometry": {
+        "properties": [
+          "parallelogram",
+          "polygon",
+          "quadrilateral",
+          "rectangle",
+          "rhombus",
+          "square"
+        ],
+        "vertex_count": 4,
+        "signed_area2": 50,
+        "area2": 50,
+        "simple": true,
+        "consecutive_collinear": false,
+        "side_lengths_squared": [
+          25,
+          25,
+          25,
+          25
+        ],
+        "adjacent_dot_products": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "opposite_parallel": [
+          true,
+          true
+        ]
+      }
+    },
+    "Desenha um paralelogramo que não seja um retângulo.": {
+      "vertices": [
+        [
+          1,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "property": "nonrectangular_parallelogram",
+      "geometry": {
+        "properties": [
+          "nonrectangular_parallelogram",
+          "parallelogram",
+          "polygon",
+          "quadrilateral"
+        ],
+        "vertex_count": 4,
+        "signed_area2": 32,
+        "area2": 32,
+        "simple": true,
+        "consecutive_collinear": false,
+        "side_lengths_squared": [
+          16,
+          20,
+          16,
+          20
+        ],
+        "adjacent_dot_products": [
+          8,
+          -8,
+          8,
+          -8
+        ],
+        "opposite_parallel": [
+          true,
+          true
+        ]
+      }
+    },
+    "Desenha um losango que não seja um quadrado.": {
+      "vertices": [
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "property": "nonsquare_rhombus",
+      "geometry": {
+        "properties": [
+          "nonrectangular_parallelogram",
+          "nonsquare_rhombus",
+          "parallelogram",
+          "polygon",
+          "quadrilateral",
+          "rhombus"
+        ],
+        "vertex_count": 4,
+        "signed_area2": 24,
+        "area2": 24,
+        "simple": true,
+        "consecutive_collinear": false,
+        "side_lengths_squared": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "adjacent_dot_products": [
+          -5,
+          5,
+          -5,
+          5
+        ],
+        "opposite_parallel": [
+          true,
+          true
+        ]
+      }
+    }
+  }
+}

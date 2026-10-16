@@ -1,0 +1,10 @@
+{
+  "kind": "root-recorded-tools-exec-or-write-stdin-completion",
+  "runs": {
+    "paintings-complete2": {
+      "session_id": 8844,
+      "output_chunk": "132fb1",
+      "exit_code": 0
+    }
+  }
+}

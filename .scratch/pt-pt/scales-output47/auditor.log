@@ -1,0 +1,10 @@
+test_a_displayed_equilibrium_must_match_the_known_visible_mass_labels (test_scales_math_audit.ScalesAuditTests.test_a_displayed_equilibrium_must_match_the_known_visible_mass_labels) ... ok
+test_a_numerically_equal_target_from_another_unit_system_is_rejected (test_scales_math_audit.ScalesAuditTests.test_a_numerically_equal_target_from_another_unit_system_is_rejected) ... ok
+test_hidden_balance_checks_the_observed_inclination_and_visible_entry_unit (test_scales_math_audit.ScalesAuditTests.test_hidden_balance_checks_the_observed_inclination_and_visible_entry_unit) ... ok
+test_independent_si_and_avoirdupois_conversions (test_scales_math_audit.ScalesAuditTests.test_independent_si_and_avoirdupois_conversions) ... ok
+test_six_visible_masses_are_supported_without_inventing_a_seventh (test_scales_math_audit.ScalesAuditTests.test_six_visible_masses_are_supported_without_inventing_a_seventh) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK

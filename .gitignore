@@ -15,3 +15,6 @@ src/activities/activities_out.txt
 .kdev4/
 *.kdev4
 *autosave
+
+# Python verification tools
+__pycache__/

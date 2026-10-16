@@ -1,0 +1,154 @@
+{
+  "activity": "memory-enumerate",
+  "locale": "pt_PT",
+  "qml_file": "memory/MemoryCommon.qml",
+  "source_sha256": "67b9ae5b29bb33d6a46493c189b97b60a75abd02da5589203e83e02acad39533",
+  "portuguese_catalogue_sha256": "95903c77e759053ce1a836472004f0defd91fe9cce1fce0d8c61850e86c82688",
+  "private_qm_sha256": "41140448e938237c839d40b5f01fe47f62fdb8389b75cac4a9b3eacd9c9722d3",
+  "case_sha256": "25c0fa4452f63dc877aa8851113c0a4fbecc7fd75f31c594a114fd35c5e8658e",
+  "private_rcc_sha256": "2d59d13945da8c0dbeb7d53c8dd0a6c52f1813827078112385f9f7679d37fe95",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "8800bdce566e0593c191976f97e90f596165ae72b98349edc46c3b1ff871a5c2",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-functional-memory/build/native-qml/ed4173800f7c4da7bd9aa1a7882a5882",
+  "version_code": 260200,
+  "network": "docker-none",
+  "timestamp_utc": "2026-10-15T21:16:11.174689+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [
+    {
+      "file": "1players-board.png",
+      "sha256": "4f97d6cfed33b1e83abb4507fb403ce43a70e086a6e4ef7f582c26876365d5e7",
+      "bytes": 141548
+    },
+    {
+      "file": "2players-board.png",
+      "sha256": "426233ee9e9b13b4d77706dde2eb25cdf66905adca471bbcd85ccbbcdc481ef3",
+      "bytes": 145303
+    }
+  ],
+  "passed": true,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 0,
+    "passes": 2,
+    "completed": [
+      {
+        "players": 1,
+        "level": 1,
+        "pairs": 2,
+        "score1": 2,
+        "score2": 0
+      },
+      {
+        "players": 1,
+        "level": 2,
+        "pairs": 3,
+        "score1": 3,
+        "score2": 0
+      },
+      {
+        "players": 1,
+        "level": 3,
+        "pairs": 4,
+        "score1": 4,
+        "score2": 0
+      },
+      {
+        "players": 1,
+        "level": 4,
+        "pairs": 6,
+        "score1": 6,
+        "score2": 0
+      },
+      {
+        "players": 1,
+        "level": 5,
+        "pairs": 6,
+        "score1": 6,
+        "score2": 0
+      },
+      {
+        "players": 1,
+        "level": 6,
+        "pairs": 8,
+        "score1": 8,
+        "score2": 0
+      },
+      {
+        "players": 1,
+        "level": 7,
+        "pairs": 8,
+        "score1": 8,
+        "score2": 0
+      },
+      {
+        "players": 1,
+        "level": 8,
+        "pairs": 10,
+        "score1": 10,
+        "score2": 0
+      },
+      {
+        "players": 2,
+        "level": 1,
+        "pairs": 2,
+        "score1": 0,
+        "score2": 2
+      },
+      {
+        "players": 2,
+        "level": 2,
+        "pairs": 3,
+        "score1": 3,
+        "score2": 0
+      },
+      {
+        "players": 2,
+        "level": 3,
+        "pairs": 4,
+        "score1": 0,
+        "score2": 4
+      },
+      {
+        "players": 2,
+        "level": 4,
+        "pairs": 6,
+        "score1": 6,
+        "score2": 0
+      },
+      {
+        "players": 2,
+        "level": 5,
+        "pairs": 6,
+        "score1": 0,
+        "score2": 6
+      },
+      {
+        "players": 2,
+        "level": 6,
+        "pairs": 8,
+        "score1": 8,
+        "score2": 0
+      },
+      {
+        "players": 2,
+        "level": 7,
+        "pairs": 8,
+        "score1": 0,
+        "score2": 8
+      },
+      {
+        "players": 2,
+        "level": 8,
+        "pairs": 10,
+        "score1": 10,
+        "score2": 0
+      }
+    ],
+    "correctPairs": 94,
+    "wrongPairs": 20,
+    "blockedClicks": 16
+  }
+}

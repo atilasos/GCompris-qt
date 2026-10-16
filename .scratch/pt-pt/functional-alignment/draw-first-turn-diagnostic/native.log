@@ -1,0 +1,144 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/build/alignment-verified/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/.scratch/pt-pt/functional-alignment/.native-qml-a63471a2ea1c4c49a6d761429b090c70/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/.scratch/pt-pt/functional-alignment/.native-qml-a63471a2ea1c4c49a6d761429b090c70/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/.scratch/pt-pt/functional-alignment/.native-qml-a63471a2ea1c4c49a6d761429b090c70/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/.scratch/pt-pt/functional-alignment/.native-qml-a63471a2ea1c4c49a6d761429b090c70/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/.scratch/pt-pt/functional-alignment/.native-qml-a63471a2ea1c4c49a6d761429b090c70/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/.scratch/pt-pt/functional-alignment/.native-qml-a63471a2ea1c4c49a6d761429b090c70/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/.scratch/pt-pt/functional-alignment/.native-qml-a63471a2ea1c4c49a6d761429b090c70/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/.scratch/pt-pt/functional-alignment/.native-qml-a63471a2ea1c4c49a6d761429b090c70/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/.scratch/pt-pt/functional-alignment/.native-qml-a63471a2ea1c4c49a6d761429b090c70/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity align4_2players/Align42players.qml at level -1
+qml: align4_2players/Align42players.qml align4_2players/Align42players.qml
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: ALIGN_MOVE 2 click 1 0
+qml: ALIGN_MOVE 0 click 2 1
+qml: ALIGN_MOVE 0 click 1 2
+qml: ALIGN_MOVE 0 click 2 3
+qml: ALIGN_MOVE 0 click 1 4
+qml: ALIGN_MOVE 0 click 2 5
+qml: ALIGN_MOVE 0 click 1 6
+qml: ALIGN_MOVE 1 click 2 7
+qml: ALIGN_MOVE 1 click 1 8
+qml: ALIGN_MOVE 1 click 2 9
+qml: ALIGN_MOVE 1 click 1 10
+qml: ALIGN_MOVE 1 click 2 11
+qml: ALIGN_MOVE 1 click 1 12
+qml: ALIGN_MOVE 2 click 2 13
+qml: ALIGN_MOVE 2 click 1 14
+qml: ALIGN_MOVE 2 click 2 15
+qml: ALIGN_MOVE 2 click 1 16
+qml: ALIGN_MOVE 2 click 2 17
+qml: ALIGN_MOVE 3 click 1 18
+qml: ALIGN_MOVE 3 click 2 19
+qml: ALIGN_MOVE 3 click 1 20
+qml: ALIGN_MOVE 3 click 2 21
+qml: ALIGN_MOVE 3 click 1 22
+qml: ALIGN_MOVE 3 click 2 23
+qml: ALIGN_MOVE 6 click 1 24
+qml: ALIGN_MOVE 4 click 2 25
+qml: ALIGN_MOVE 4 click 1 26
+qml: ALIGN_MOVE 4 click 2 27
+qml: ALIGN_MOVE 4 click 1 28
+qml: ALIGN_MOVE 4 click 2 29
+qml: ALIGN_MOVE 4 click 1 30
+qml: ALIGN_MOVE 5 click 2 31
+qml: ALIGN_MOVE 5 click 1 32
+qml: ALIGN_MOVE 5 click 2 33
+qml: ALIGN_MOVE 5 click 1 34
+qml: ALIGN_MOVE 5 click 2 35
+qml: ALIGN_MOVE 5 click 1 36
+qml: ALIGN_MOVE 6 click 2 37
+qml: ALIGN_MOVE 6 click 1 38
+qml: ALIGN_MOVE 6 click 2 39
+qml: ALIGN_ASSERT One visibly highlighted turn ensure@qrc:/gcompris/src/activities/align4_2players/Align42players.qml:310
+turn@qrc:/gcompris/src/activities/align4_2players/Align42players.qml:322
+move@qrc:/gcompris/src/activities/align4_2players/Align42players.qml:328
+test_full_board_draw@qrc:/gcompris/src/activities/align4_2players/Align42players.qml:337
+qtest_runInternal@qrc:/qt-project.org/imports/QtTest/TestCase.qml:1932
+qtest_runFunction@qrc:/qt-project.org/imports/QtTest/TestCase.qml:1948
+qtest_run@qrc:/qt-project.org/imports/QtTest/TestCase.qml:2128
+expression for onTriggered@qrc:/qt-project.org/imports/QtTest/TestSchedule.qml:24
+qml: NATIVE_ALIGNMENT_RESULT {"failures":1,"passes":1,"evidence":{"moves":[{"before":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"after":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0],"player":1,"location":2,"input":"click"},{"before":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0],"after":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,0,0,0],"player":2,"location":0,"input":"click"},{"before":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,0,0,0],"after":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,1,0,0,0,0],"player":1,"location":0,"input":"click"},{"before":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,1,0,0,0,0],"after":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,1,0,0,0,0],"player":2,"location":0,"input":"click"},{"before":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,1,0,0,0,0],"after":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,1,0,0,0,0],"player":1,"location":0,"input":"click"},{"before":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,1,0,0,0,0],"after":[0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,1,0,0,0,0],"player":2,"location":0,"input":"click"},{"before":[0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,1,0,0,0,0],"after":[1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,1,0,0,0,0],"player":1,"location":0,"input":"click"},{"before":[1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,1,0,0,0,0],"after":[1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,2,1,0,0,0,0],"player":2,"location":1,"input":"click"},{"before":[1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,2,1,0,0,0,0],"after":[1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,2,2,1,0,0,0,0],"player":1,"location":1,"input":"click"},{"before":[1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,2,2,1,0,0,0,0],"after":[1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,2,0,0,0,0,0,1,1,0,0,0,0,0,2,2,1,0,0,0,0],"player":2,"location":1,"input":"click"},{"before":[1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,2,2,0,0,0,0,0,1,1,0,0,0,0,0,2,2,1,0,0,0,0],"after":[1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,2,2,0,0,0,0,0,1,1,0,0,0,0,0,2,2,1,0,0,0,0],"player":1,"location":1,"input":"click"},{"before":[1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,2,2,0,0,0,0,0,1,1,0,0,0,0,0,2,2,1,0,0,0,0],"after":[1,0,0,0,0,0,0,2,2,0,0,0,0,0,1,1,0,0,0,0,0,2,2,0,0,0,0,0,1,1,0,0,0,0,0,2,2,1,0,0,0,0],"player":2,"location":1,"input":"click"},{"before":[1,0,0,0,0,0,0,2,2,0,0,0,0,0,1,1,0,0,0,0,0,2,2,0,0,0,0,0,1,1,0,0,0,0,0,2,2,1,0,0,0,0],"after":[1,1,0,0,0,0,0,2,2,0,0,0,0,0,1,1,0,0,0,0,0,2,2,0,0,0,0,0,1,1,0,0,0,0,0,2,2,1,0,0,0,0],"player":1,"location":1,"input":"click"},{"before":[1,1,0,0,0,0,0,2,2,0,0,0,0,0,1,1,0,0,0,0,0,2,2,0,0,0,0,0,1,1,0,0,0,0,0,2,2,1,0,0,0,0],"after":[1,1,0,0,0,0,0,2,2,0,0,0,0,0,1,1,0,0,0,0,0,2,2,0,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0],"player":2,"location":2,"input":"click"},{"before":[1,1,0,0,0,0,0,2,2,0,0,0,0,0,1,1,0,0,0,0,0,2,2,0,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0],"after":[1,1,0,0,0,0,0,2,2,0,0,0,0,0,1,1,0,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0],"player":1,"location":2,"input":"click"},{"before":[1,1,0,0,0,0,0,2,2,0,0,0,0,0,1,1,0,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0],"after":[1,1,0,0,0,0,0,2,2,0,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0],"player":2,"location":2,"input":"click"},{"before":[1,1,0,0,0,0,0,2,2,0,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0],"after":[1,1,0,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0],"player":1,"location":2,"input":"click"},{"before":[1,1,0,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0],"after":[1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0],"player":2,"location":2,"input":"click"},{"before":[1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0],"after":[1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,1,0,0,0],"player":1,"location":3,"input":"click"},{"before":[1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,1,0,0,0],"after":[1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0],"player":2,"location":3,"input":"click"},{"before":[1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0],"after":[1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0],"player":1,"location":3,"input":"click"},{"before":[1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,0,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0],"after":[1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0],"player":2,"location":3,"input":"click"},{"before":[1,1,2,0,0,0,0,2,2,1,0,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0],"after":[1,1,2,0,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0],"player":1,"location":3,"input":"click"},{"before":[1,1,2,0,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0],"after":[1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0],"player":2,"location":3,"input":"click"},{"before":[1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0],"after":[1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,1],"player":1,"location":6,"input":"click"},{"before":[1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,1],"after":[1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,2,0,1],"player":2,"location":4,"input":"click"},{"before":[1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,2,0,1],"after":[1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,1],"player":1,"location":4,"input":"click"},{"before":[1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,1],"after":[1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,1],"player":2,"location":4,"input":"click"},{"before":[1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,0,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,1],"after":[1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,1],"player":1,"location":4,"input":"click"},{"before":[1,1,2,2,0,0,0,2,2,1,1,0,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,1],"after":[1,1,2,2,0,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,1],"player":2,"location":4,"input":"click"},{"before":[1,1,2,2,0,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,1],"after":[1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,1],"player":1,"location":4,"input":"click"},{"before":[1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,1],"after":[1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,2,1],"player":2,"location":5,"input":"click"},{"before":[1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,2,1],"after":[1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,1,0,2,2,1,1,2,2,1],"player":1,"location":5,"input":"click"},{"before":[1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,1,0,2,2,1,1,2,2,1],"after":[1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,2,0,1,1,2,2,1,1,0,2,2,1,1,2,2,1],"player":2,"location":5,"input":"click"},{"before":[1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,0,0,2,2,1,1,2,2,0,1,1,2,2,1,1,0,2,2,1,1,2,2,1],"after":[1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,1,0,2,2,1,1,2,2,0,1,1,2,2,1,1,0,2,2,1,1,2,2,1],"player":1,"location":5,"input":"click"},{"before":[1,1,2,2,1,0,0,2,2,1,1,2,0,0,1,1,2,2,1,1,0,2,2,1,1,2,2,0,1,1,2,2,1,1,0,2,2,1,1,2,2,1],"after":[1,1,2,2,1,0,0,2,2,1,1,2,2,0,1,1,2,2,1,1,0,2,2,1,1,2,2,0,1,1,2,2,1,1,0,2,2,1,1,2,2,1],"player":2,"location":5,"input":"click"},{"before":[1,1,2,2,1,0,0,2,2,1,1,2,2,0,1,1,2,2,1,1,0,2,2,1,1,2,2,0,1,1,2,2,1,1,0,2,2,1,1,2,2,1],"after":[1,1,2,2,1,1,0,2,2,1,1,2,2,0,1,1,2,2,1,1,0,2,2,1,1,2,2,0,1,1,2,2,1,1,0,2,2,1,1,2,2,1],"player":1,"location":5,"input":"click"},{"before":[1,1,2,2,1,1,0,2,2,1,1,2,2,0,1,1,2,2,1,1,0,2,2,1,1,2,2,0,1,1,2,2,1,1,0,2,2,1,1,2,2,1],"after":[1,1,2,2,1,1,0,2,2,1,1,2,2,0,1,1,2,2,1,1,0,2,2,1,1,2,2,0,1,1,2,2,1,1,2,2,2,1,1,2,2,1],"player":2,"location":6,"input":"click"},{"before":[1,1,2,2,1,1,0,2,2,1,1,2,2,0,1,1,2,2,1,1,0,2,2,1,1,2,2,0,1,1,2,2,1,1,2,2,2,1,1,2,2,1],"after":[1,1,2,2,1,1,0,2,2,1,1,2,2,0,1,1,2,2,1,1,0,2,2,1,1,2,2,1,1,1,2,2,1,1,2,2,2,1,1,2,2,1],"player":1,"location":6,"input":"click"},{"before":[1,1,2,2,1,1,0,2,2,1,1,2,2,0,1,1,2,2,1,1,0,2,2,1,1,2,2,1,1,1,2,2,1,1,2,2,2,1,1,2,2,1],"after":[1,1,2,2,1,1,0,2,2,1,1,2,2,0,1,1,2,2,1,1,2,2,2,1,1,2,2,1,1,1,2,2,1,1,2,2,2,1,1,2,2,1],"player":2,"location":6,"input":"click"}],"initial":{"initial":{"values":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"tiles":[{"cell":0,"player":0,"source":"","x":0,"y":0,"width":72,"height":72,"spacing":5},{"cell":1,"player":0,"source":"","x":77,"y":0,"width":72,"height":72,"spacing":5},{"cell":2,"player":0,"source":"","x":154,"y":0,"width":72,"height":72,"spacing":5},{"cell":3,"player":0,"source":"","x":231,"y":0,"width":72,"height":72,"spacing":5},{"cell":4,"player":0,"source":"","x":308,"y":0,"width":72,"height":72,"spacing":5},{"cell":5,"player":0,"source":"","x":385,"y":0,"width":72,"height":72,"spacing":5},{"cell":6,"player":0,"source":"","x":462,"y":0,"width":72,"height":72,"spacing":5},{"cell":7,"player":0,"source":"","x":0,"y":77,"width":72,"height":72,"spacing":5},{"cell":8,"player":0,"source":"","x":77,"y":77,"width":72,"height":72,"spacing":5},{"cell":9,"player":0,"source":"","x":154,"y":77,"width":72,"height":72,"spacing":5},{"cell":10,"player":0,"source":"","x":231,"y":77,"width":72,"height":72,"spacing":5},{"cell":11,"player":0,"source":"","x":308,"y":77,"width":72,"height":72,"spacing":5},{"cell":12,"player":0,"source":"","x":385,"y":77,"width":72,"height":72,"spacing":5},{"cell":13,"player":0,"source":"","x":462,"y":77,"width":72,"height":72,"spacing":5},{"cell":14,"player":0,"source":"","x":0,"y":154,"width":72,"height":72,"spacing":5},{"cell":15,"player":0,"source":"","x":77,"y":154,"width":72,"height":72,"spacing":5},{"cell":16,"player":0,"source":"","x":154,"y":154,"width":72,"height":72,"spacing":5},{"cell":17,"player":0,"source":"","x":231,"y":154,"width":72,"height":72,"spacing":5},{"cell":18,"player":0,"source":"","x":308,"y":154,"width":72,"height":72,"spacing":5},{"cell":19,"player":0,"source":"","x":385,"y":154,"width":72,"height":72,"spacing":5},{"cell":20,"player":0,"source":"","x":462,"y":154,"width":72,"height":72,"spacing":5},{"cell":21,"player":0,"source":"","x":0,"y":231,"width":72,"height":72,"spacing":5},{"cell":22,"player":0,"source":"","x":77,"y":231,"width":72,"height":72,"spacing":5},{"cell":23,"player":0,"source":"","x":154,"y":231,"width":72,"height":72,"spacing":5},{"cell":24,"player":0,"source":"","x":231,"y":231,"width":72,"height":72,"spacing":5},{"cell":25,"player":0,"source":"","x":308,"y":231,"width":72,"height":72,"spacing":5},{"cell":26,"player":0,"source":"","x":385,"y":231,"width":72,"height":72,"spacing":5},{"cell":27,"player":0,"source":"","x":462,"y":231,"width":72,"height":72,"spacing":5},{"cell":28,"player":0,"source":"","x":0,"y":308,"width":72,"height":72,"spacing":5},{"cell":29,"player":0,"source":"","x":77,"y":308,"width":72,"height":72,"spacing":5},{"cell":30,"player":0,"source":"","x":154,"y":308,"width":72,"height":72,"spacing":5},{"cell":31,"player":0,"source":"","x":231,"y":308,"width":72,"height":72,"spacing":5},{"cell":32,"player":0,"source":"","x":308,"y":308,"width":72,"height":72,"spacing":5},{"cell":33,"player":0,"source":"","x":385,"y":308,"width":72,"height":72,"spacing":5},{"cell":34,"player":0,"source":"","x":462,"y":308,"width":72,"height":72,"spacing":5},{"cell":35,"player":0,"source":"","x":0,"y":385,"width":72,"height":72,"spacing":5},{"cell":36,"player":0,"source":"","x":77,"y":385,"width":72,"height":72,"spacing":5},{"cell":37,"player":0,"source":"","x":154,"y":385,"width":72,"height":72,"spacing":5},{"cell":38,"player":0,"source":"","x":231,"y":385,"width":72,"height":72,"spacing":5},{"cell":39,"player":0,"source":"","x":308,"y":385,"width":72,"height":72,"spacing":5},{"cell":40,"player":0,"source":"","x":385,"y":385,"width":72,"height":72,"spacing":5},{"cell":41,"player":0,"source":"","x":462,"y":385,"width":72,"height":72,"spacing":5}]},"starter":1,"restarts":[]},"scoresBefore":[0,0],"lastNonterminal":{"pieces":40,"bonusOpacity":0.08080200000000001,"bonusSource":"qrc:/gcompris/src/core/resource/bonus/flower_bad.svg"}}}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs

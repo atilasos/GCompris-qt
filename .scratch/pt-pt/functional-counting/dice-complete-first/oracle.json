@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "activity": "smallnumbers",
+  "questions": 144,
+  "modes": [
+    "dice"
+  ],
+  "result_sha256": "0e1e0a74d4f7a63225b33ee07fcec4dfa1e5128de299c48bd252c5d4d7e2286f",
+  "case_sha256": "cdd3948d0ae54c56d81f12ea8eee019ea68e9b1546668e79b3051c03e973ee5f",
+  "scope": "Observed counts and recorded native actions only; no physical audio or Windows acceptance."
+}

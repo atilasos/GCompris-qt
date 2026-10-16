@@ -1,0 +1,27 @@
+{
+  "source_commit": "3e095ed50b50dab8d4c34e695264768293fef242",
+  "build_command": [
+    "cmake",
+    "--build",
+    "build/pt-pt",
+    "--target",
+    "BuildTranslationsgcompris_qt",
+    "--parallel",
+    "4"
+  ],
+  "build_exit_code": 0,
+  "files": {
+    "build/pt-pt/bin/gcompris-qt": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+    "build/pt-pt/share/gcompris-qt/translations/gcompris_qt_pt.qm": "d03c851158164b6264f0f0b52dd5d96061e3c9e701d55c37aa539669335279b6",
+    "build/pt-pt/share/gcompris-qt/rcc/data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc": "4887e4a8c7112e6b744829c82a3476a9f322a593173d17c3b7e369fad21528ee",
+    "build/pt-pt/share/gcompris-qt/rcc/explore_farm_animals.rcc": "a9f3b199bab02305a727b84939585bff27d39a402b1a0e0fbaca33b03b5db886",
+    "build/pt-pt/share/gcompris-qt/rcc/explore_world_animals.rcc": "4416432f9fbc8a6fd6272744a4e51ebc00443e995bfe0f4186a24bd3a097e79a",
+    "build/pt-pt/share/gcompris-qt/rcc/explore_world_music.rcc": "f834af15ecc229b38d2b0bb6f730a7da815cf8ac87adffdc31e1ebffa4eb018f",
+    "build/pt-pt/share/gcompris-qt/rcc/explore_monuments.rcc": "4c83dc5476a90ca368855af7ad4d9f3be8e2b04626f6da60795b45a3b195cf7b",
+    "build/pt-pt/share/gcompris-qt/rcc/family.rcc": "fcce306eb020082a425fa4c6ec860b6c30a8f478a91761896ae947a659d21e2b",
+    "build/pt-pt/share/gcompris-qt/rcc/family_find_relative.rcc": "17b23e6c298ab0642320729eccc1f2c332c03431c5915fff93b2a91dfabaf7a4",
+    "build/pt-pt/share/gcompris-qt/rcc/canal_lock.rcc": "a874e989a1cc0f1dde646084a759c33a43319b1efda58327412744a43345cce4",
+    "build/pt-pt/share/gcompris-qt/rcc/watercycle.rcc": "4db7b71774c850fb8fd536930288633b7249f744744077f01124d5de65acdff7",
+    "build/pt-pt/share/gcompris-qt/rcc/renewable_energy.rcc": "a3e2065abedc28488628dba1c52e39d04e662c3a5f46c73662f888fda6780326"
+  }
+}

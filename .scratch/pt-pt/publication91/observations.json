@@ -1,0 +1,37 @@
+{
+  "source": "3c98f5c6b4543e15dda66e2b0e275f5d9e6b49df",
+  "run": "38894977302",
+  "observations": [
+    {
+      "operation": "CI monitor and verified artifact download",
+      "session_id": 23945,
+      "output_chunk": "1c0220",
+      "exit_code": 0
+    },
+    {
+      "operation": "actual installer extraction and Qt resource audit",
+      "session_id": 43159,
+      "output_chunk": "6ff4e8",
+      "exit_code": 0
+    },
+    {
+      "operation": "origin activation",
+      "session_id": 56067,
+      "output_chunk": "5a8ab0",
+      "exit_code": 0
+    },
+    {
+      "operation": "dedicated DNS publication",
+      "session_id": 69070,
+      "output_chunk": "ecca98",
+      "exit_code": 0
+    },
+    {
+      "operation": "public complete HTTPS download",
+      "session_id": 93288,
+      "output_chunk": "21dbc9",
+      "exit_code": 0
+    }
+  ],
+  "provenance": "Root-reported real completed tools sessions. These agent declarations are not platform signatures. T3 browser verification is a separate recorded HTTP check."
+}

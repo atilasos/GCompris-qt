@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-reading-crash/build/rcc-race/fc0dce79ce4d434a9fb634ffcb0afacf/debug-runner.py", line 177, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-reading-crash/build/rcc-race/fc0dce79ce4d434a9fb634ffcb0afacf/debug-runner.py", line 171, in main
+    shutil.rmtree(deployment)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 852, in rmtree
+    _rmtree_impl(path, dir_fd, onexc)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 721, in _rmtree_safe_fd
+    _rmtree_safe_fd_step(stack, onexc)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 802, in _rmtree_safe_fd_step
+    onexc(func, path, err)
+    ~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 765, in _rmtree_safe_fd_step
+    topfd = os.open(name, os.O_RDONLY | os.O_NONBLOCK, dir_fd=dirfd)
+PermissionError: [Errno 13] Permission denied: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-reading-crash/build/native-qml/b1d5aff026c24b0783cd8e613aec24fd/profile/config/pulse'

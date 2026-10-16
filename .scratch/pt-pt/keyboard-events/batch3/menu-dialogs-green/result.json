@@ -1,0 +1,26 @@
+{
+  "activity": "menu",
+  "locale": "pt_PT",
+  "qml_file": "menu/Menu.qml",
+  "source_sha256": "8a2d65319858e79888e18eb7cd97eb5c2a56fdfd43b263e2dc57bb87cccbf4e8",
+  "portuguese_catalogue_sha256": "95903c77e759053ce1a836472004f0defd91fe9cce1fce0d8c61850e86c82688",
+  "private_qm_sha256": "41140448e938237c839d40b5f01fe47f62fdb8389b75cac4a9b3eacd9c9722d3",
+  "case_sha256": "74d1d12a76e5ce477ad6b2b71c022725bb2a6d670605bf4cdc38368bff8093a0",
+  "private_rcc_sha256": "2501546eba217a9c978726ae9f4be77f1d10a3a0877e301031c3d4102115f32d",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-duplicate-keys/build/native-qml/f66fc929b9bf49a58d196ef182f60cae",
+  "version_code": 260200,
+  "network": "not-enforced",
+  "timestamp_utc": "2026-10-15T21:29:17.128016+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [],
+  "passed": true,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 0,
+    "passes": 2
+  }
+}

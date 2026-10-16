@@ -58,7 +58,8 @@ ActivityBase {
             property int cardCount: 1
         }
 
-        onStart: { Activity.start(items) }
+        onStart: {
+            activity.numberOfLevel = items.numberOfLevel; Activity.start(items) }
         onStop: { Activity.stop() }
 
         GCSoundEffect {
@@ -130,6 +131,8 @@ ActivityBase {
                 cellWidth: animalCardsArea.animalCardSize
                 model: animalListModel
                 delegate: Animal {
+                    leftArea: leftAreaTarget
+                    rightArea: rightAreaTarget
                     width: animalCardsArea.animalCardSize
                 }
             }

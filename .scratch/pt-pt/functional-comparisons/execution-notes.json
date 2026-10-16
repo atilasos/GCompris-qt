@@ -1,0 +1,73 @@
+{
+  "scope": "Selected final routes and unchanged red/green contract case. Pilots and abandoned invalid alias proposal are separate diagnostics.",
+  "source_final": "e38441ab1",
+  "source_red": "d76b8408a",
+  "comparator_campaign_frozen_before_adjacent_fix": "7e334d5ee",
+  "selected": [
+    {
+      "case": "comparator-complete",
+      "native_exit": 0,
+      "outer_exit": 0,
+      "passed": true
+    },
+    {
+      "case": "adjacent-automatic-complete",
+      "native_exit": 0,
+      "outer_exit": 0,
+      "passed": true
+    },
+    {
+      "case": "adjacent-manual-complete-rerun",
+      "native_exit": 0,
+      "outer_exit": 0,
+      "passed": true
+    },
+    {
+      "case": "comparator-controls",
+      "native_exit": 0,
+      "outer_exit": 0,
+      "passed": true
+    },
+    {
+      "case": "adjacent-controls",
+      "native_exit": 0,
+      "outer_exit": 0,
+      "passed": true
+    },
+    {
+      "case": "comparator-resources",
+      "native_exit": 0,
+      "outer_exit": 0,
+      "passed": true
+    },
+    {
+      "case": "adjacent_numbers-resources",
+      "native_exit": 0,
+      "outer_exit": 0,
+      "passed": true
+    },
+    {
+      "case": "adjacent-contract-red",
+      "native_exit": 0,
+      "outer_exit": 1,
+      "passed": false
+    },
+    {
+      "case": "adjacent-contract-green2",
+      "native_exit": 0,
+      "outer_exit": 0,
+      "passed": true
+    }
+  ],
+  "diagnostic_explanation": {
+    "comparator-pilot": "Fixture used implicit mouse coordinates and resumed too soon after delegate replacement. Explicit interior coordinates and settled rendering passed without changing comparator production.",
+    "adjacent-contract-green": "Discarded alias proposal could not resolve outer activity id across Component boundary, timed out and native exited137/outer1. Replaced by existing comparator property-bindings pattern; not counted as green.",
+    "adjacent-pilot": "Same discarded alias proposal as above, native137/outer1; not counted as gameplay.",
+    "adjacent-manual-pilot": "Fixture used unsupported Home/End combo keys; mode stayed automatic.",
+    "adjacent-manual-pilot2": "Fixture used Down in a two-column combo grid; selection stayed unchanged.",
+    "adjacent-manual-pilot3": "Mode selected and saved, but fixture compared numeric2 to string2.",
+    "comparator-pilot2": "Launcher setup attempt referenced an unavailable Docker image; no native assertion, excluded."
+  },
+  "physical_audio": "Only GStreamer fakesink decoding of three original WAV resources, six copies. No output device or hearing tested.",
+  "manual_tool_status": "First complete125-question campaign had Qt0 and supervised launcher0 but actual shell tool143. Preserved unchanged as historical. Same native case SHA rerun completed all125 with native0, supervisor-observed launcher0 and actual shell tool0; only rerun counts in final250 adjacent questions."
+}

@@ -1,0 +1,27 @@
+{
+  "activity": "binary_bulb",
+  "locale": "pt_PT",
+  "qml_file": "binary_bulb/BinaryBulb.qml",
+  "source_sha256": "5e84234c4016a1e49dedeeeb863118c98ad86a5d7f428a52a2efb1d7f6f08b80",
+  "portuguese_catalogue_sha256": "95903c77e759053ce1a836472004f0defd91fe9cce1fce0d8c61850e86c82688",
+  "private_qm_sha256": "41140448e938237c839d40b5f01fe47f62fdb8389b75cac4a9b3eacd9c9722d3",
+  "case_sha256": "81d249d8c3e8f4a14303134a4787b086bcd1ea916fa2072a8216370aca12d77d",
+  "private_rcc_sha256": "a50df4e4b4f4e6819a9ef51fcb6566707d6b80fa2f15c2c71fd609bcae131918",
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "runner_sha256": "70bddcfc7c83621c671bfd62c0a75221ca9845ccb8f8f8161216efc7d121edd5",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-duplicate-keys/build/native-qml/ed0d0a6eba404f28924517754805c031",
+  "version_code": 260200,
+  "network": "not-enforced",
+  "timestamp_utc": "2026-10-15T21:21:31.248926+00:00",
+  "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
+  "screenshots": [],
+  "passed": true,
+  "timeout": false,
+  "exit_code": 0,
+  "qml_errors": [],
+  "case_result": {
+    "failures": 0,
+    "passes": 2,
+    "menuCalls": 1
+  }
+}

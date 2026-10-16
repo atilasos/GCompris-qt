@@ -1,0 +1,25 @@
+{
+  "cases": 4,
+  "levels": 20,
+  "questions": 100,
+  "wrong": 100,
+  "campaigns": [
+    {
+      "case": "twelve-complete",
+      "levels": 10,
+      "questions": 50,
+      "wrong": 50,
+      "gestures": 122
+    },
+    {
+      "case": "twenty-four-complete",
+      "levels": 10,
+      "questions": 50,
+      "wrong": 50,
+      "gestures": 123
+    }
+  ],
+  "source_files": 225,
+  "runtime_files": 269,
+  "scope": "Linux software only; no physical audio, Windows or teacher acceptance."
+}

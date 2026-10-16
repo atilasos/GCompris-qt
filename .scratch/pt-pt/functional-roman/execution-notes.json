@@ -1,0 +1,22 @@
+{
+  "selected_final": "Ten cases listed in tests/functional_roman/audit.py; seven positive and three expected red.",
+  "phases": {
+    "baseline": "7a93fa86e",
+    "range-reset": "31121a829",
+    "final": "5425ec71e"
+  },
+  "production_fixes": [
+    "Uniform random1..maximum without overflow",
+    "Unconditional input reset on every new question, including repeated value",
+    "Clear conversion on empty input so empty answer cannot win"
+  ],
+  "main_count": "Only complete-final102questions/14levels/102wrong/51physical/51virtual/14Bonus. Earlier complete source311 is historical, not added.",
+  "tracers": "Bounds-green150 and reset-green150 additional samples at source311, not added to final102. Reset-green observed two consecutive repeated questions within a round with empty input. Individual red/green cases have unchanged case SHA.",
+  "diagnostics": {
+    "pilot": "Attempted virtual key while desktop public preference was off; fixture failure, no production change.",
+    "pilot2": "First seven questions passed after enabling public virtual-keyboard preference; not counted in final102.",
+    "complete": "Full102 at source311 before empty-input fix; preserved and superseded by complete-final.",
+    "noncanonical": "Five invalid forms and repair passed at source311; repeated as noncanonical-final after empty-input fix."
+  },
+  "scope": "Native software/offline checks only. Preferences set through public ApplicationSettings for keyboard coverage; global settings dialog persistence not tested here. Read visible instruction/input/feedback, not conversion engine or hidden solution. Saved14level pictures; no per-question pixel recogniser. Two original WAVs decoded to fakesink only. Windows, physical devices/hearing and global teacher acceptance pending."
+}

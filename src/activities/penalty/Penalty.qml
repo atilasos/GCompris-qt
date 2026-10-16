@@ -18,6 +18,7 @@ import "penalty.js" as Activity
 
 ActivityBase {
     id: activity
+    numberOfLevel: 9
 
     onStart: focus = true
     onStop: {}
@@ -48,8 +49,7 @@ ActivityBase {
             property alias activityBackground: activityBackground
             property int currentLevel: activity.currentLevel
             onCurrentLevelChanged: activity.currentLevel = currentLevel
-            property int numberOfLevel: 9
-            onNumberOfLevelChanged: activity.numberOfLevel = numberOfLevel
+            readonly property int numberOfLevel: activity.numberOfLevel
             property alias ball: ball
             property alias progressLeft: progressLeft
             property alias progressRight: progressRight

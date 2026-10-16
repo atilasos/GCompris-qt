@@ -1,0 +1,354 @@
+{
+  "complete_data": {
+    "fishes": [
+      {
+        "imgName": "blueking2.webp",
+        "nbFrame": 2,
+        "width": 118,
+        "height": 76
+      },
+      {
+        "imgName": "butfish.webp",
+        "nbFrame": 2,
+        "width": 98,
+        "height": 82
+      },
+      {
+        "imgName": "cichlid1.webp",
+        "nbFrame": 2,
+        "width": 63,
+        "height": 37
+      },
+      {
+        "imgName": "cichlid4.webp",
+        "nbFrame": 2,
+        "width": 75,
+        "height": 44
+      },
+      {
+        "imgName": "collaris.webp",
+        "nbFrame": 2,
+        "width": 62,
+        "height": 50
+      },
+      {
+        "imgName": "discus2.webp",
+        "nbFrame": 2,
+        "width": 100,
+        "height": 100
+      },
+      {
+        "imgName": "discus3.webp",
+        "nbFrame": 2,
+        "width": 63,
+        "height": 57
+      },
+      {
+        "imgName": "f00.webp",
+        "nbFrame": 2,
+        "width": 66,
+        "height": 59
+      },
+      {
+        "imgName": "f01.webp",
+        "nbFrame": 2,
+        "width": 63,
+        "height": 50
+      },
+      {
+        "imgName": "f02.webp",
+        "nbFrame": 2,
+        "width": 73,
+        "height": 44
+      },
+      {
+        "imgName": "f03.webp",
+        "nbFrame": 2,
+        "width": 85,
+        "height": 52
+      },
+      {
+        "imgName": "f04.webp",
+        "nbFrame": 2,
+        "width": 95,
+        "height": 62
+      },
+      {
+        "imgName": "f05.webp",
+        "nbFrame": 2,
+        "width": 92,
+        "height": 49
+      },
+      {
+        "imgName": "f06.webp",
+        "nbFrame": 2,
+        "width": 95,
+        "height": 44
+      },
+      {
+        "imgName": "f07.webp",
+        "nbFrame": 2,
+        "width": 84,
+        "height": 75
+      },
+      {
+        "imgName": "f08.webp",
+        "nbFrame": 2,
+        "width": 93,
+        "height": 70
+      },
+      {
+        "imgName": "f09.webp",
+        "nbFrame": 2,
+        "width": 110,
+        "height": 86
+      },
+      {
+        "imgName": "f10.webp",
+        "nbFrame": 2,
+        "width": 99,
+        "height": 60
+      },
+      {
+        "imgName": "f11.webp",
+        "nbFrame": 2,
+        "width": 118,
+        "height": 42
+      },
+      {
+        "imgName": "f12.webp",
+        "nbFrame": 2,
+        "width": 102,
+        "height": 35
+      },
+      {
+        "imgName": "f13.webp",
+        "nbFrame": 2,
+        "width": 118,
+        "height": 73
+      },
+      {
+        "imgName": "manta.webp",
+        "nbFrame": 2,
+        "width": 266,
+        "height": 91
+      },
+      {
+        "imgName": "newf1.webp",
+        "nbFrame": 2,
+        "width": 118,
+        "height": 81
+      },
+      {
+        "imgName": "QueenAngel.webp",
+        "nbFrame": 2,
+        "width": 80,
+        "height": 54
+      },
+      {
+        "imgName": "shark1.webp",
+        "nbFrame": 2,
+        "width": 189,
+        "height": 53
+      },
+      {
+        "imgName": "six_barred.webp",
+        "nbFrame": 2,
+        "width": 78,
+        "height": 63
+      },
+      {
+        "imgName": "teeth.webp",
+        "nbFrame": 8,
+        "width": 64,
+        "height": 64
+      }
+    ],
+    "levelProperty": [
+      {
+        "nbFish": 5,
+        "minDuration": 2000
+      },
+      {
+        "nbFish": 7,
+        "minDuration": 1500
+      },
+      {
+        "nbFish": 10,
+        "minDuration": 1000
+      },
+      {
+        "nbFish": 12,
+        "minDuration": 800
+      },
+      {
+        "nbFish": 15,
+        "minDuration": 600
+      },
+      {
+        "nbFish": 18,
+        "minDuration": 400
+      }
+    ]
+  },
+  "assets_sha256": {
+    "src/activities/clickgame/resource/blueking2.webp": "97abe01dcf0c6f41efa271e83bb87182293fdb769f0c186c27161fa1881d70ba",
+    "src/activities/clickgame/resource/butfish.webp": "8b1225737119f62a613c9cee3c3f427706db3d9a5cb4d210e7f0d42b085ff0d0",
+    "src/activities/clickgame/resource/cichlid1.webp": "51a66f6998d6a59ced01d5cba46a74662caacb01ae90cc4bfc4664d7c31baacc",
+    "src/activities/clickgame/resource/cichlid4.webp": "02b1e5bf86e558d3af84c1d9ccd66a40ac50acae7c50b044927c2e9da53203e9",
+    "src/activities/clickgame/resource/collaris.webp": "fc89ac47842a2d4331507825ed1f4aaf91d073ff3514400efdefacd5cdc44f4d",
+    "src/activities/clickgame/resource/discus2.webp": "ba269847a8875866279b1c837e299523a3cccefa9737da17cd125ae8ffd429a7",
+    "src/activities/clickgame/resource/discus3.webp": "a48398c32d74c5b3b08dcb9df0fece3303b40bcf15f0cad2b1753ef003de45bb",
+    "src/activities/clickgame/resource/f00.webp": "37bb4eb8d45f489118175013af0a3bc165693598f78c4258a2ff7f5e49ef2150",
+    "src/activities/clickgame/resource/f01.webp": "b287ea09dd4f6cf7fd4b7d4e778e425fe080a4e6c63dbab00a2472bba01c4ea8",
+    "src/activities/clickgame/resource/f02.webp": "160c63031ca96fdb870ebdd1615a0630d51e2e539ac3bf29df5f00ba5449c0ec",
+    "src/activities/clickgame/resource/f03.webp": "c3616ef3801ed9b66c5efe7eb296a4b82537fd9c8dc8e0830462d0b38257f6f7",
+    "src/activities/clickgame/resource/f04.webp": "6893af3ae6277869ba9b7ebb0711995c37c429177f993f4e079a4a70ff83ba7e",
+    "src/activities/clickgame/resource/f05.webp": "e99ab9406b46f3e5cb8f0d90f9a45032ac00efea03676a36af13b893dfe5da62",
+    "src/activities/clickgame/resource/f06.webp": "9f37d820b477fd122bb7fe9aa82ae66ca36d6f84bcda0972d2a7acb0db0f884d",
+    "src/activities/clickgame/resource/f07.webp": "737d6e4394ca8421e681a3df70241aeda6b81d73df21411ea54f0eeae23134e4",
+    "src/activities/clickgame/resource/f08.webp": "0a63693720b74d7140b270b618e8060d44791917f7fb36a23f7bf7340436c0cb",
+    "src/activities/clickgame/resource/f09.webp": "988ed0278ef4b3481e63cde7f3f8d17c437cecf4fd1ebccdb0bca0138133ee14",
+    "src/activities/clickgame/resource/f10.webp": "1ad68c30234bfccd56f7db76dd3b336cd4cb259cdb5b20a7897edc1a2a125e21",
+    "src/activities/clickgame/resource/f11.webp": "992a0cb5c11c88ce339009a1119b6bf2ae1d258b589508a832d19c073a9e1966",
+    "src/activities/clickgame/resource/f12.webp": "78c6ce5985b5edb142aa133f09ccc0a9b4dd14fd8b60541036a03c8c28f2be03",
+    "src/activities/clickgame/resource/f13.webp": "afeb53515e1eb44b2ff9a735ef96f40a873b02a5405bc90be6377654662e895e",
+    "src/activities/clickgame/resource/manta.webp": "dede285bbfd02d613e99ce1681869a51b51451de3f02e19ce6e251d4504e5438",
+    "src/activities/clickgame/resource/newf1.webp": "7c0e0d39ff01e7b5bf1615f6fc3f969c22ed6ff397218946a81f33423deb6120",
+    "src/activities/clickgame/resource/QueenAngel.webp": "e14b78e78c8beb9b048b66bdfec34c6160b8b24836a1ae36bcc80d51e22337cb",
+    "src/activities/clickgame/resource/shark1.webp": "60da55030a538906b98420d8e01052e9ec97036c1359c5786b682f2ac2cd118a",
+    "src/activities/clickgame/resource/six_barred.webp": "a8354c60248de7179c31337973e365522bd783530d2727588b42b0ae0fd37db3",
+    "src/activities/clickgame/resource/teeth.webp": "167b888afd3c63a4f020b4c32cf1a5b10272e02982aab5c7134530a61720b38f",
+    "src/activities/clickgame/resource/sea1.webp": "b23b11b3206bf6f53071057f15a4e2bc319b54fe5f14997da4bd57fe6503b26c",
+    "src/activities/clickgame/resource/sea2.webp": "8e8a461b71acb140c96b2d0c7b1405f20f97868df79e6517a6039f21302e0de9",
+    "src/activities/clickgame/resource/sea3.webp": "f9b7c834f63249bee9e5cd56503ae9b4478b23920b5c8abd22d69939ab2351a4",
+    "src/activities/clickgame/resource/sea4.webp": "21295e109d35b0f11a9c8dd17524be6212571cb28fad56613be1f8789a261f5e",
+    "src/activities/clickgame/resource/sea5.webp": "08c6d1ae0ea47c5136137148c817472da329ca1e67063b0fb3e60190e5c55b00",
+    "src/activities/clickgame/resource/sea6.webp": "42f7a4152c54f8bf065e8ad182472729a5374a6860c573a4de1ea0987e026cf3",
+    "src/core/resource/sounds/bleep.wav": "759b2225a42e407ac8d76e01c2b98d31af670de0a61c7f78ae5c34ca36bdc59e",
+    "src/core/resource/sounds/smudge.wav": "e2037cfb555e638fae4af7a497ec2fefb7becf8fac3dd9da4d28adcf3c4b245f",
+    "src/core/resource/sounds/flip.wav": "f962819ce412d1fbe11f6279e38cb5097a99e83ac795272b01e8fda909cdf70b",
+    "src/core/resource/sounds/completetask.wav": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c",
+    "src/core/resource/sounds/scroll.wav": "7f2dd85a8e4b4f4eb2f685bd827de592a1c1793ab1d47476243e77a834caa64e",
+    "src/activities/clickgame/resource/bubble.wav": "087b8b36b17372ad702a9d22e5280cf69a5d72a8763e0f18e0fc9646146e1c61",
+    "src/activities/clickgame/resource/drip.wav": "fdf14e87650dae295f92df558ca72183505bc5f3eace6d503b62ae24642426aa"
+  },
+  "native_receipts": {
+    "baby_mouse-controls": {
+      "passed": true,
+      "sha256": "3deaeba01e74842268527ec90fdc1679a372e972e906c3e2d0555ce86f00f06d",
+      "case_sha256": "94691addad09999a626d88e357b286681cb5679b9e9b8bb122181304073ada97"
+    },
+    "baby_mouse-escape": {
+      "passed": true,
+      "sha256": "d27e9516e6227219c57b02580f93b504900659ade96d3e5effe2acc5217ef420",
+      "case_sha256": "c09ec86563fac21eaebafdcfa9962ff53bceb9e55654f01feabde205a999850d"
+    },
+    "baby_mouse-escape-final": {
+      "passed": true,
+      "sha256": "3801cb78b4720a7aab63466b767eb914f4727713a4b2de474c7d039a2a7b53e7",
+      "case_sha256": "6dab6ca4ade6838d403d1e49e461654d0ac5f835039ef5453e78c4d18cb4be94"
+    },
+    "boundaries-complete": {
+      "passed": true,
+      "sha256": "f4353d44237b75834eb0c1c3355a1ba30b929a1122dd6e80943f2ddc2e136993",
+      "case_sha256": "c04e51bd8a3d6ec76f08a03f4eeb95f6e8d9cdf0e5b4cc632069071287b36c9d"
+    },
+    "boundaries-green": {
+      "passed": true,
+      "sha256": "bc8a724b66beb681db70f41a2ec427d49b2f78335cdc336a5ba40e39f1f72125",
+      "case_sha256": "6496306c13d12cb0e281209d25ba651f7a83dd2ac0280fafaf60e40ca55e8950"
+    },
+    "boundaries-red": {
+      "passed": false,
+      "sha256": "db8a802d41b632a595dce2cf185ebaebd62a95357af8e1db3d771039494d22bc",
+      "case_sha256": "6496306c13d12cb0e281209d25ba651f7a83dd2ac0280fafaf60e40ca55e8950"
+    },
+    "clickgame-controls": {
+      "passed": true,
+      "sha256": "d712e677eb7779446f0d25f27bd3c8c5010282737d183f493fcba4f564fb13a0",
+      "case_sha256": "94691addad09999a626d88e357b286681cb5679b9e9b8bb122181304073ada97"
+    },
+    "clickgame-escape": {
+      "passed": true,
+      "sha256": "ca051e5bb2d2151d96bef5a11b8af5ac4c97314e808a3c2d6fd434d4a8b48524",
+      "case_sha256": "c09ec86563fac21eaebafdcfa9962ff53bceb9e55654f01feabde205a999850d"
+    },
+    "duck-free": {
+      "passed": true,
+      "sha256": "412413b0278a307c9bdb48a859687212fb37fc3abeb517acec97aa7638d407fc",
+      "case_sha256": "30ea2b6dc5755b77638da5d77f0550fa43585a668df64bbca0f746bc81380ff1"
+    },
+    "fish-gameplay": {
+      "passed": true,
+      "sha256": "0d06d528010d7255e4ce9c2f2d6ee6c4b75654d99fb661d5790cec890639cb3c",
+      "case_sha256": "ce581408044788052d6d885028cd6112cb5745474fa988a7f3feb5c0ab5ac033"
+    },
+    "help-green": {
+      "passed": true,
+      "sha256": "ed6223f914679f685eaabb680bc242e45af2865abf248aefd8239b2f7bd53997",
+      "case_sha256": "9a4c8d286f69be5dbf6889f2d7df47e0b73e76b566855a79fa3c81a667991bca"
+    },
+    "help-red": {
+      "passed": false,
+      "sha256": "5c7c4fe6df0dbef9b1a3a13ab5ad40f11d8c6d873f02a28663241a811fd62882",
+      "case_sha256": "9a4c8d286f69be5dbf6889f2d7df47e0b73e76b566855a79fa3c81a667991bca"
+    },
+    "levels-green": {
+      "passed": true,
+      "sha256": "eadb0325ee65dd7bb21bbf0ccb019edd4daecac3c2d4617d74d7e9cbeaa11ea0",
+      "case_sha256": "f95a630a3736e0b8c5b578bbf7bbc9dc93e507741d808ac03e1e3386f3e7cba4"
+    },
+    "levels-red": {
+      "passed": false,
+      "sha256": "00df1337eca53dd5a3325b62716f316499e439b7624f4ca6ebf82e8c6a843228",
+      "case_sha256": "f95a630a3736e0b8c5b578bbf7bbc9dc93e507741d808ac03e1e3386f3e7cba4"
+    }
+  },
+  "observed_resources_sha256": {
+    "qrc:/gcompris/src/activities/colors/resource/background.svg": "54becabb6d7d3b6d781b06fb35216e7658db0f4d5eef81a146ad75811c97e4df",
+    "qrc:/gcompris/src/activities/colors/resource/blue_duck.svg": "6e75b9f7dd829af2f5bc5a3ceaa6d92fea15a9aa2b6c6be561a5bf387f20e390",
+    "qrc:/gcompris/src/activities/baby_mouse/resource/arrow.svg": "3a0bc2a03c08d46bbb77bf5567765c5bf369876de58c0aeb50080d01d75db32d",
+    "qrc:/gcompris/src/core/resource/sounds/scroll.wav": "7f2dd85a8e4b4f4eb2f685bd827de592a1c1793ab1d47476243e77a834caa64e",
+    "qrc:/gcompris/src/activities/colors/resource/pink_duck.svg": "1fed33e005e90cf8f09d263cddcf9e99ba78932eba082f334a1b038e0de12445",
+    "qrc:/gcompris/src/core/resource/sounds/bleep.wav": "759b2225a42e407ac8d76e01c2b98d31af670de0a61c7f78ae5c34ca36bdc59e",
+    "qrc:/gcompris/src/activities/colors/resource/green_duck.svg": "3d7c499362152e397b4bec6c3bd850fbbccc658b14181af517b3b1da6ca62d7a",
+    "qrc:/gcompris/src/core/resource/sounds/smudge.wav": "e2037cfb555e638fae4af7a497ec2fefb7becf8fac3dd9da4d28adcf3c4b245f",
+    "qrc:/gcompris/src/activities/colors/resource/yellow_duck.svg": "c7dd94ce7b93d266a62e97ead84ec8e184b702c09fb882f3c8ada301533142da",
+    "qrc:/gcompris/src/core/resource/sounds/flip.wav": "f962819ce412d1fbe11f6279e38cb5097a99e83ac795272b01e8fda909cdf70b",
+    "qrc:/gcompris/src/activities/colors/resource/orange_duck.svg": "2af931a7162868224246e42f03d93db86180691ac9a68c537f71893e2bf19884",
+    "qrc:/gcompris/src/core/resource/sounds/completetask.wav": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c",
+    "qrc:/gcompris/src/activities/clickgame/resource/drip.wav": "fdf14e87650dae295f92df558ca72183505bc5f3eace6d503b62ae24642426aa",
+    "qrc:/gcompris/src/activities/clickgame/resource/bubble.wav": "087b8b36b17372ad702a9d22e5280cf69a5d72a8763e0f18e0fc9646146e1c61",
+    "qrc:/gcompris/src/activities/clickgame/resource/sea1.webp": "b23b11b3206bf6f53071057f15a4e2bc319b54fe5f14997da4bd57fe6503b26c",
+    "qrc:/gcompris/src/activities/clickgame/resource/cichlid4.webp": "02b1e5bf86e558d3af84c1d9ccd66a40ac50acae7c50b044927c2e9da53203e9",
+    "qrc:/gcompris/src/activities/clickgame/resource/collaris.webp": "fc89ac47842a2d4331507825ed1f4aaf91d073ff3514400efdefacd5cdc44f4d",
+    "qrc:/gcompris/src/activities/clickgame/resource/f02.webp": "160c63031ca96fdb870ebdd1615a0630d51e2e539ac3bf29df5f00ba5449c0ec",
+    "qrc:/gcompris/src/activities/clickgame/resource/manta.webp": "dede285bbfd02d613e99ce1681869a51b51451de3f02e19ce6e251d4504e5438",
+    "qrc:/gcompris/src/activities/clickgame/resource/sea2.webp": "8e8a461b71acb140c96b2d0c7b1405f20f97868df79e6517a6039f21302e0de9",
+    "qrc:/gcompris/src/activities/clickgame/resource/f13.webp": "afeb53515e1eb44b2ff9a735ef96f40a873b02a5405bc90be6377654662e895e",
+    "qrc:/gcompris/src/activities/clickgame/resource/f10.webp": "1ad68c30234bfccd56f7db76dd3b336cd4cb259cdb5b20a7897edc1a2a125e21",
+    "qrc:/gcompris/src/activities/clickgame/resource/QueenAngel.webp": "e14b78e78c8beb9b048b66bdfec34c6160b8b24836a1ae36bcc80d51e22337cb",
+    "qrc:/gcompris/src/activities/clickgame/resource/newf1.webp": "7c0e0d39ff01e7b5bf1615f6fc3f969c22ed6ff397218946a81f33423deb6120",
+    "qrc:/gcompris/src/activities/clickgame/resource/sea3.webp": "f9b7c834f63249bee9e5cd56503ae9b4478b23920b5c8abd22d69939ab2351a4",
+    "qrc:/gcompris/src/activities/clickgame/resource/discus3.webp": "a48398c32d74c5b3b08dcb9df0fece3303b40bcf15f0cad2b1753ef003de45bb",
+    "qrc:/gcompris/src/activities/clickgame/resource/f07.webp": "737d6e4394ca8421e681a3df70241aeda6b81d73df21411ea54f0eeae23134e4",
+    "qrc:/gcompris/src/activities/clickgame/resource/teeth.webp": "167b888afd3c63a4f020b4c32cf1a5b10272e02982aab5c7134530a61720b38f",
+    "qrc:/gcompris/src/activities/clickgame/resource/butfish.webp": "8b1225737119f62a613c9cee3c3f427706db3d9a5cb4d210e7f0d42b085ff0d0",
+    "qrc:/gcompris/src/activities/clickgame/resource/discus2.webp": "ba269847a8875866279b1c837e299523a3cccefa9737da17cd125ae8ffd429a7",
+    "qrc:/gcompris/src/activities/clickgame/resource/sea4.webp": "21295e109d35b0f11a9c8dd17524be6212571cb28fad56613be1f8789a261f5e",
+    "qrc:/gcompris/src/activities/clickgame/resource/cichlid1.webp": "51a66f6998d6a59ced01d5cba46a74662caacb01ae90cc4bfc4664d7c31baacc",
+    "qrc:/gcompris/src/activities/clickgame/resource/f05.webp": "e99ab9406b46f3e5cb8f0d90f9a45032ac00efea03676a36af13b893dfe5da62",
+    "qrc:/gcompris/src/activities/clickgame/resource/f06.webp": "9f37d820b477fd122bb7fe9aa82ae66ca36d6f84bcda0972d2a7acb0db0f884d",
+    "qrc:/gcompris/src/activities/clickgame/resource/sea5.webp": "08c6d1ae0ea47c5136137148c817472da329ca1e67063b0fb3e60190e5c55b00",
+    "qrc:/gcompris/src/activities/clickgame/resource/shark1.webp": "60da55030a538906b98420d8e01052e9ec97036c1359c5786b682f2ac2cd118a",
+    "qrc:/gcompris/src/activities/clickgame/resource/f04.webp": "6893af3ae6277869ba9b7ebb0711995c37c429177f993f4e079a4a70ff83ba7e",
+    "qrc:/gcompris/src/activities/clickgame/resource/blueking2.webp": "97abe01dcf0c6f41efa271e83bb87182293fdb769f0c186c27161fa1881d70ba",
+    "qrc:/gcompris/src/activities/clickgame/resource/f08.webp": "0a63693720b74d7140b270b618e8060d44791917f7fb36a23f7bf7340436c0cb",
+    "qrc:/gcompris/src/activities/clickgame/resource/f03.webp": "c3616ef3801ed9b66c5efe7eb296a4b82537fd9c8dc8e0830462d0b38257f6f7",
+    "qrc:/gcompris/src/activities/clickgame/resource/sea6.webp": "42f7a4152c54f8bf065e8ad182472729a5374a6860c573a4de1ea0987e026cf3",
+    "qrc:/gcompris/src/activities/clickgame/resource/six_barred.webp": "a8354c60248de7179c31337973e365522bd783530d2727588b42b0ae0fd37db3"
+  },
+  "fish_caught": 67,
+  "audio_decode": "Seven original WAV files decoded to fakesink; physical output not verified."
+}

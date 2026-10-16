@@ -1,0 +1,116 @@
+..FFFFF
+======================================================================
+FAIL: test_dangling_symlink_is_rejected_before_resolving_output (test_cli.FutureCreationOutputRoots.test_dangling_symlink_is_rejected_before_resolving_output) (tool='run.py')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/test_cli.py", line 32, in test_dangling_symlink_is_rejected_before_resolving_output
+    self.assertEqual(result.returncode,2,result.stderr.decode());self.assertIn(b'new output',result.stderr.lower());self.assertTrue(output.is_symlink());self.assertFalse(target.exists())
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 2 : Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/run.py", line 37, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+                                             ~~~~^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/run.py", line 15, in main
+    verify_source(source);text=args.exact_case.read_text();case=ROOT/'build/creation-cases'/(hashlib.sha256(text.encode()).hexdigest()+'.qml');case.parent.mkdir(parents=True,exist_ok=True)
+    ~~~~~~~~~~~~~^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/phase.py", line 20, in verify_source
+    recorded=json.loads((destination/'source-manifest.json').read_text())
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 788, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 772, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmp37bkgixm/missing-source/source-manifest.json'
+
+
+======================================================================
+FAIL: test_dangling_symlink_is_rejected_before_resolving_output (test_cli.FutureCreationOutputRoots.test_dangling_symlink_is_rejected_before_resolving_output) (tool='capture_resources.py')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/test_cli.py", line 32, in test_dangling_symlink_is_rejected_before_resolving_output
+    self.assertEqual(result.returncode,2,result.stderr.decode());self.assertIn(b'new output',result.stderr.lower());self.assertTrue(output.is_symlink());self.assertFalse(target.exists())
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 2 : Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/capture_resources.py", line 27, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/capture_resources.py", line 17, in main
+    frozen=verify_source(source);manifest=verify_snapshot(snapshot);items=inventory(source);output.mkdir(parents=True);(output/'rcc').mkdir();cpp=source/'tools/pt-pt-audio/rcc_inventory.cpp';binary=output/'inspector';compile_exporter(cpp,binary);providers={};exported={}
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/phase.py", line 20, in verify_source
+    recorded=json.loads((destination/'source-manifest.json').read_text())
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 788, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 772, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmp37bkgixm/missing-source/source-manifest.json'
+
+
+======================================================================
+FAIL: test_dangling_symlink_is_rejected_before_resolving_output (test_cli.FutureCreationOutputRoots.test_dangling_symlink_is_rejected_before_resolving_output) (tool='seal.py')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/test_cli.py", line 32, in test_dangling_symlink_is_rejected_before_resolving_output
+    self.assertEqual(result.returncode,2,result.stderr.decode());self.assertIn(b'new output',result.stderr.lower());self.assertTrue(output.is_symlink());self.assertFalse(target.exists())
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 2 : Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/seal.py", line 67, in <module>
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output',type=Path,required=True);args=parser.parse_args();seal(args.output.resolve())
+                                                                                                                                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/seal.py", line 23, in seal
+    source=ROOT/'build/creation-sources'/revision;manifest=verify_source(source);phases[revision]={'source':manifest,'historical_source':str(source)}
+                                                           ~~~~~~~~~~~~~^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/phase.py", line 20, in verify_source
+    recorded=json.loads((destination/'source-manifest.json').read_text())
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 788, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 772, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/build/creation-sources/7992a59d814e72cdbca811a8f3e0f19425c70264/source-manifest.json'
+
+
+======================================================================
+FAIL: test_each_existing_file_output_is_untouched (test_cli.FutureCreationOutputRoots.test_each_existing_file_output_is_untouched) (tool='seal.py')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/test_cli.py", line 49, in test_each_existing_file_output_is_untouched
+    self.assertEqual(result.returncode,2,result.stderr.decode());self.assertEqual(output.read_bytes(),b'original file')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 2 : Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/seal.py", line 67, in <module>
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output',type=Path,required=True);args=parser.parse_args();seal(args.output.resolve())
+                                                                                                                                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/seal.py", line 12, in seal
+    if output.exists():raise ValueError('New capsule output required')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: New capsule output required
+
+
+======================================================================
+FAIL: test_each_existing_output_directory_and_bytes_are_untouched (test_cli.FutureCreationOutputRoots.test_each_existing_output_directory_and_bytes_are_untouched) (tool='seal.py')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/test_cli.py", line 41, in test_each_existing_output_directory_and_bytes_are_untouched
+    self.assertEqual(result.returncode,2,result.stderr.decode());self.assertEqual(sentinel.read_bytes(),b'original status');self.assertEqual(list(output.iterdir()),[sentinel])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 2 : Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/seal.py", line 67, in <module>
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output',type=Path,required=True);args=parser.parse_args();seal(args.output.resolve())
+                                                                                                                                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/seal.py", line 12, in seal
+    if output.exists():raise ValueError('New capsule output required')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: New capsule output required
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.695s
+
+FAILED (failures=5)

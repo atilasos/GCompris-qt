@@ -1,0 +1,50 @@
+{
+  "scope": "Linux Qt offline; physical input/audio, Windows and teacher pending",
+  "source_commit": "f7d88df532b778b2a54826abbec0f13f79b1f40b",
+  "archive_sha256": "4bf989a00e0c00bf10d3fcd82fd5923cb85ac98ca2e5e66f90a9f4a82fff9ed4",
+  "routes": [
+    {
+      "activity": "learn_digits",
+      "mode": 1,
+      "levels": 9,
+      "questions": 54,
+      "wins": 9
+    },
+    {
+      "activity": "learn_digits",
+      "mode": 2,
+      "levels": 9,
+      "questions": 54,
+      "wins": 9
+    },
+    {
+      "activity": "learn_digits",
+      "mode": 3,
+      "levels": 9,
+      "questions": 54,
+      "wins": 9
+    },
+    {
+      "activity": "learn_additions",
+      "mode": 1,
+      "levels": 3,
+      "questions": 19,
+      "wins": 3
+    },
+    {
+      "activity": "learn_subtractions",
+      "mode": 1,
+      "levels": 5,
+      "questions": 39,
+      "wins": 5
+    }
+  ],
+  "levels": 35,
+  "questions": 220,
+  "wrong": 220,
+  "natural_bonus": 35,
+  "pixel_images": 220,
+  "supervised_cases": 11,
+  "decoded_audio": 12,
+  "snapshot_files": 269
+}

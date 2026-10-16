@@ -1,0 +1,938 @@
+[
+    {
+        "bytes": 1585,
+        "ogg": false,
+        "path": ":/gcompris/src/core/ParticleSystemStar.qml",
+        "sha256": "410f7f07a91b3c270890a205ee9ae0539a616461968fb67a091752cbac7767dd"
+    },
+    {
+        "bytes": 4404,
+        "ogg": false,
+        "path": ":/gcompris/src/core/Domino.qml",
+        "sha256": "e2bbb9e47fc7bb746a72331116f8e70f91677de1ea076f2aa0220f7ed1d3b7b8"
+    },
+    {
+        "bytes": 1937,
+        "ogg": false,
+        "path": ":/gcompris/src/core/ErrorRectangle.qml",
+        "sha256": "7e3b4c1798a2113e8c18e46e5343b2713fafb4370530acf0cc95bea3b21c0dd6"
+    },
+    {
+        "bytes": 12789,
+        "ogg": false,
+        "path": ":/gcompris/src/core/ChangeLog.qml",
+        "sha256": "6ba07bf8d29ca726213372ad658bac43b62605383cc6ae5aedec50d5268792d5"
+    },
+    {
+        "bytes": 3888,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCStyle.qml",
+        "sha256": "ccad1bd275ef10be58e7ff2910a2d783ccde8d47959155e6dd5cb996ccee4a9e"
+    },
+    {
+        "bytes": 14277,
+        "ogg": false,
+        "path": ":/gcompris/src/core/DialogChooseLevel.qml",
+        "sha256": "c74180b126b533f23aa371beef3896c5d415db3789adac4c0d6fdb8b63d784d4"
+    },
+    {
+        "bytes": 1348,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCDialogCheckBox.qml",
+        "sha256": "9e3da867863bcccdbd5fcea1aa702d546d719174e2a47718e5565a2ca870b707"
+    },
+    {
+        "bytes": 2970,
+        "ogg": false,
+        "path": ":/gcompris/src/core/Loading.qml",
+        "sha256": "3800a0c9ff7f73532e87261c6cb4f9051571586c3237520b2b3175315b8eb37e"
+    },
+    {
+        "bytes": 6768,
+        "ogg": false,
+        "path": ":/gcompris/src/core/AnswerButton.qml",
+        "sha256": "164018880f5041873e232b9bc7c86a84dbc68fdd7e9d56dee38482eb2e3d4d24"
+    },
+    {
+        "bytes": 2270,
+        "ogg": false,
+        "path": ":/gcompris/src/core/VirtualKey.qml",
+        "sha256": "b3766473050c049d4baec990ff0af7721cf3d5022618cc71addebfe5952b332c"
+    },
+    {
+        "bytes": 2692,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCTextPanel.qml",
+        "sha256": "7a3dcacd73b27526bb7d4516830e30e5b28848093a93ff362bcf562238b572a8"
+    },
+    {
+        "bytes": 981,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCSoundEffect.qml",
+        "sha256": "b15c845476030ecb734976708b5f2796742498d7ce8724c24dc50fdb7fb6c28e"
+    },
+    {
+        "bytes": 2751,
+        "ogg": false,
+        "path": ":/gcompris/src/core/BarEnumContent.qml",
+        "sha256": "8c2dbe859773d825cea5275536773eb354c8e125ee8181e327831116192629a0"
+    },
+    {
+        "bytes": 4638,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCButton.qml",
+        "sha256": "68b2e4f4856bb3a1db93715a3e8611f4ddf54488580103660bd5bebe68f876bb"
+    },
+    {
+        "bytes": 2379,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCRangeSlider.qml",
+        "sha256": "30f2953af337b734cc097155eac12e235bfc204699cf2afa6e050b0c53a667ea"
+    },
+    {
+        "bytes": 1335,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCProgressBar.qml",
+        "sha256": "3cd3615a54f08e625c69d59d6b18267bbbbff212f3d5bb190783ad7a85bb78ee"
+    },
+    {
+        "bytes": 1044,
+        "ogg": false,
+        "path": ":/gcompris/src/core/SwingAnimation.qml",
+        "sha256": "18cd63b24d2d7ce8e94a67e49c2498d5ed9982e1a8a1a1e3543b8488fa6f87bd"
+    },
+    {
+        "bytes": 1693,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCButtonScroll.qml",
+        "sha256": "08b90f7e46bd628a20c367645b2d1f4123dfa1f078d9972e06efcc4848c41ca4"
+    },
+    {
+        "bytes": 1890,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCSlider.qml",
+        "sha256": "77dd0eef75a6187ce5e85222f08a470f56cc24acf8f2b5a36be247181e941134"
+    },
+    {
+        "bytes": 6789,
+        "ogg": false,
+        "path": ":/gcompris/src/core/Tutorial.qml",
+        "sha256": "0778b2b4e2ed6b998b110c6163355536753464dedf4a1a3a04968b0270c0b336"
+    },
+    {
+        "bytes": 2670,
+        "ogg": false,
+        "path": ":/gcompris/src/core/ReadyButton.qml",
+        "sha256": "7ef448b39a25c030eab3d23980677870ac43ec32b2c4a6e13dff10fa15abda3c"
+    },
+    {
+        "bytes": 19310,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCCreationHandler.qml",
+        "sha256": "1e2245387f4794fcb53988a706242090629454cd72d52e1d24b50e2013e3fddb"
+    },
+    {
+        "bytes": 7934,
+        "ogg": false,
+        "path": ":/gcompris/src/core/DialogActivityConfig.qml",
+        "sha256": "b498f9708afbc4835d3b9ac9adc6b226e2329c2dc1d5a1e477a9da05c30c3b6c"
+    },
+    {
+        "bytes": 5106,
+        "ogg": false,
+        "path": ":/gcompris/src/core/IntroMessage.qml",
+        "sha256": "b1298cded776cf5cf16180c2eb31d0a5578817bc1403fd4a3ec9e61b3d4d8efe"
+    },
+    {
+        "bytes": 6298,
+        "ogg": false,
+        "path": ":/gcompris/src/core/Bonus.qml",
+        "sha256": "48d482e880560fe1a3b06bace371def756eaf4af92eaf23b21c21a330842cc28"
+    },
+    {
+        "bytes": 12480,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCComboBox.qml",
+        "sha256": "dd85a135bb8bc75c1a65cacea4eef2519c12bb615a65e9c72b02f6f90047a1da"
+    },
+    {
+        "bytes": 13543,
+        "ogg": false,
+        "path": ":/gcompris/src/core/NumPad.qml",
+        "sha256": "cf6c53a630235957048eee1c04fd25a4d403233bc0c049f260ae7f6d639b46af"
+    },
+    {
+        "bytes": 5204,
+        "ogg": false,
+        "path": ":/gcompris/src/core/Score.qml",
+        "sha256": "fd3b4b77fc6e7d85762f3f90471d2d1411b6a89a5fe650a45d67283d47d4e92d"
+    },
+    {
+        "bytes": 9087,
+        "ogg": false,
+        "path": ":/gcompris/src/core/DialogAbout.qml",
+        "sha256": "943a1bb0690d871290adedc72a8608375a7ebfe40a01bd428fd68ba16e267ef6"
+    },
+    {
+        "bytes": 4806,
+        "ogg": false,
+        "path": ":/gcompris/src/core/Balloon.qml",
+        "sha256": "517f528afc331378a060835ba046b1289c252c8b977cc73025d82a5446e58333"
+    },
+    {
+        "bytes": 2666,
+        "ogg": false,
+        "path": ":/gcompris/src/core/DialogHelp.qml",
+        "sha256": "7a4c5b04f8e6c8e0512b652558e29830bb6c346c9887562c5b8a7c7189017450"
+    },
+    {
+        "bytes": 137,
+        "ogg": false,
+        "path": ":/gcompris/src/core/qmldir",
+        "sha256": "752f96f115f2c03b58cd4903386961b1b8a9361f3a9923ff27c3f5d9b326ab7d"
+    },
+    {
+        "bytes": 2298,
+        "ogg": false,
+        "path": ":/gcompris/src/core/ActivityCategories.js",
+        "sha256": "36ac64e597b58afe8b023bf1a8134a97cc94234d76d0697a882d68849dc14bc1"
+    },
+    {
+        "bytes": 34348,
+        "ogg": false,
+        "path": ":/gcompris/src/core/main.qml",
+        "sha256": "50db9ecfe62024da0eabfdf62702ccb33ef9390bbd3dfc7d4a1b3db7363b9bf8"
+    },
+    {
+        "bytes": 36101,
+        "ogg": false,
+        "path": ":/gcompris/src/core/COPYING",
+        "sha256": "fee2034cf7c3da9eaf9f4fa2004a2a29668c92174679720375c6c04678b4e02e"
+    },
+    {
+        "bytes": 9854,
+        "ogg": false,
+        "path": ":/gcompris/src/core/DominoNumber.qml",
+        "sha256": "ebc69aa9861e47df187e6dfdf02295b1ad3b08f542074519dd299e9593c08029"
+    },
+    {
+        "bytes": 15445,
+        "ogg": false,
+        "path": ":/gcompris/src/core/Bar.qml",
+        "sha256": "1203d510051d31e9b4e0ba298028d9eaefe0392cff5a452076e9c8e6df37d01d"
+    },
+    {
+        "bytes": 1707,
+        "ogg": false,
+        "path": ":/gcompris/src/core/ControlButton.qml",
+        "sha256": "4f8fddeb4988d5f08b750a05478f961bf4f2364315c3bc0343e587172de4470e"
+    },
+    {
+        "bytes": 10917,
+        "ogg": false,
+        "path": ":/gcompris/src/core/SvgTank.qml",
+        "sha256": "807020b35bd30e53a3d58f707dacb82eb30cdc8415bd4539e279c3a83a27c937"
+    },
+    {
+        "bytes": 1263,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCSingletonFontLoader.qml",
+        "sha256": "6e16ccda740a38615c80f1734afd9513463350dcfed85a33d5e5113c0c59af7b"
+    },
+    {
+        "bytes": 8680,
+        "ogg": false,
+        "path": ":/gcompris/src/core/ActivityBase.qml",
+        "sha256": "a176ff8d46fa7f400c61f1d079450494463f0e5511211e68e33e8840c6ca0ff5"
+    },
+    {
+        "bytes": 7136,
+        "ogg": false,
+        "path": ":/gcompris/src/core/ScoreItem.qml",
+        "sha256": "491c4a82b8fb43e544fb9c964e85da94cf545f44745300c9c9a56e18557b6c0c"
+    },
+    {
+        "bytes": 10951,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCDialog.qml",
+        "sha256": "4687ffd4c7c87475abfdfd6ed334383c27ee152846f67cb1e392be44c67a96aa"
+    },
+    {
+        "bytes": 13989,
+        "ogg": false,
+        "path": ":/gcompris/src/core/core.js",
+        "sha256": "f0bf79a4be7c9188e493839c89aa4016816d640be18315db2e2fbe9081a65a8a"
+    },
+    {
+        "bytes": 1746,
+        "ogg": false,
+        "path": ":/gcompris/src/core/BarButton.qml",
+        "sha256": "3c87a28c70dbdb231f587c113866d627144804d2dc85e33cf3729ddcf2d0b17a"
+    },
+    {
+        "bytes": 8531,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCAudio.qml",
+        "sha256": "d571e9d23433d2720a9b7f88269702f79cfdb81e7fc47bd7a976e2e70c7e1471"
+    },
+    {
+        "bytes": 1910,
+        "ogg": false,
+        "path": ":/gcompris/src/core/SplashScreen.qml",
+        "sha256": "b8be3d034afa4c4b61177a26d7616a20a67e12a2a9975126c21d2149c67efb8e"
+    },
+    {
+        "bytes": 1347,
+        "ogg": false,
+        "path": ":/gcompris/src/core/ParticleSystemStarLoader.qml",
+        "sha256": "c77bbf866c97a273c129c65b5bb45cb7e8ad95e6e1af156643d78ce7c8864e77"
+    },
+    {
+        "bytes": 6248,
+        "ogg": false,
+        "path": ":/gcompris/src/core/Wordlist.qml",
+        "sha256": "87e894b8844bda377e299bda8b81c31195c4f9ca4cf5ac609c4b8afd5dcd569d"
+    },
+    {
+        "bytes": 12069,
+        "ogg": false,
+        "path": ":/gcompris/src/core/DownloadDialog.qml",
+        "sha256": "bc9bb2be74556b29d53b7925f30d060dd44671d90eab0e1ccf5f7f0c242309f3"
+    },
+    {
+        "bytes": 1030,
+        "ogg": false,
+        "path": ":/gcompris/src/core/AdvancedTimer.qml",
+        "sha256": "73fa28fdf530330fc712fd93b63cfc79fdae98eb2d6bc51403b96561a8a8dda2"
+    },
+    {
+        "bytes": 1527,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCLabelButton.qml",
+        "sha256": "c58acb991fca7644963a78b6de2cffe8863f5df72d76b84e0657371583a140c4"
+    },
+    {
+        "bytes": 2628,
+        "ogg": false,
+        "path": ":/gcompris/src/core/virtualkeyboard_worker.js",
+        "sha256": "ba3bad9c7cb38fe46ad20de9f4be1a768c46d8bcf7b03f6f252d1cdac41fff3d"
+    },
+    {
+        "bytes": 1048,
+        "ogg": false,
+        "path": ":/gcompris/src/core/Client.qml",
+        "sha256": "f1d47f4f048d5be41878bc6be952a46b5266322fc7ad0bd184a3e9ae7a66571c"
+    },
+    {
+        "bytes": 1743,
+        "ogg": false,
+        "path": ":/gcompris/src/core/IntroButton.qml",
+        "sha256": "63392cfa1539f18c1253acb659f6460ea144a6ee42df526e482cc93a5c7fd3e4"
+    },
+    {
+        "bytes": 9593,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/smiley_bad.svg",
+        "sha256": "66cce96e4a2eadd417a6a2515a7908373fcb60adb5091fcf3145806df8caefb2"
+    },
+    {
+        "bytes": 3857,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/note_good.svg",
+        "sha256": "3b876238309950f02a46f040f6dca94d03855148ba6afc90ada22a96f32c7cab"
+    },
+    {
+        "bytes": 5189,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/star_good.svg",
+        "sha256": "e1e4535ecef7ebf48169583276d251d016f2e84cf4ae72c1b4fb11a8e3b4b40f"
+    },
+    {
+        "bytes": 26339,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/lion_good.svg",
+        "sha256": "f2210f0f5ad9bb8017b3850a5df06cbfad263a6ebf07a866e1270ae0a9fbd474"
+    },
+    {
+        "bytes": 10400,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/panda_bad.svg",
+        "sha256": "bdecba2148ffbfb82fc5b67257ccf98004defd9471079d8a68d912b3c60ada77"
+    },
+    {
+        "bytes": 4530,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/smiley_good.svg",
+        "sha256": "a3e9bce9df61ba12e32e6ac84ee0e65beb09ef40d6c12e722e7dc9a35c76c089"
+    },
+    {
+        "bytes": 25739,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/lion_bad.svg",
+        "sha256": "26c98b7d2234119e3d409776f485b06ca766e77161d71ef66a9f471a0de973c4"
+    },
+    {
+        "bytes": 9691,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/panda_good.svg",
+        "sha256": "6df8235d41c4581afc9a860cf3d2ca94345a8c673c36ef1d7b9a97955c40bc98"
+    },
+    {
+        "bytes": 8519,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/note_bad.svg",
+        "sha256": "2b973624e9502b3f9a2c0fa0c04d56e84f757d825c519d2f958ed3a349f64690"
+    },
+    {
+        "bytes": 10072,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/star_bad.svg",
+        "sha256": "e9826681daf557789fc4e2850baa566a3b229c7cb0683f51fcc51a79675aa21b"
+    },
+    {
+        "bytes": 10427,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/tux_bad.svg",
+        "sha256": "adf3efef87d5610749de65b107634c2b1f859563286a7eb64ec21905885362b9"
+    },
+    {
+        "bytes": 12932,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/sun_bad.svg",
+        "sha256": "e576bbdc66a1932df1a424e0c4a70ac2dd4902ced912b6c76a28b8656fe7ba5a"
+    },
+    {
+        "bytes": 20657,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/gnu_bad.svg",
+        "sha256": "4b0d65bc87b70e0c2c1d026212cadbce1130d3db7dad0f220b3ae853f4420db2"
+    },
+    {
+        "bytes": 19077,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/gnu_good.svg",
+        "sha256": "0eea010cfc425e02e5a8076e3247b77e27f59536bca45a71c53ebaab9fb4f549"
+    },
+    {
+        "bytes": 26352,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/flower_good.svg",
+        "sha256": "1234d85ba2c1fc5e47e9c8999c83f3a33288e7639479a9e4905a3d7423139f91"
+    },
+    {
+        "bytes": 8112,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/sun_good.svg",
+        "sha256": "c0b83f680415abc9770b4c64e15651bb901f50e87d7fe3112c95acb7f77ae5a8"
+    },
+    {
+        "bytes": 12060,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/tux_good.svg",
+        "sha256": "913b990f9b9bf86acf6475d81245e3b5fe75fd80624545dbb561387d5d704f66"
+    },
+    {
+        "bytes": 30624,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/flower_bad.svg",
+        "sha256": "4e8ca9e4c5c921a8b7fc5a178c120d911621a27f3fce73433e35a818f4645bfb"
+    },
+    {
+        "bytes": 46464,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/fonts/OpenDyslexic-Regular.otf",
+        "sha256": "68cecffdc63cc3dec55c2f8d0ef189b9f728d068c638cc64a6fecc97e5c7c515"
+    },
+    {
+        "bytes": 237868,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/fonts/OpenDyslexic-Regular.ttf",
+        "sha256": "54c5c2129fb7ba2c48fa3cb75379f0ea47cfcc24e20f1956a6c080d1efb480a3"
+    },
+    {
+        "bytes": 30187,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/fonts/FONTLOG-Andika.txt",
+        "sha256": "89f50f7b7321ca1d264161fcb2f98f305cc552940f0098c4f1f77fe06f3c6d6c"
+    },
+    {
+        "bytes": 7153,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/fonts/feat_set_tuned.xml",
+        "sha256": "84a759981b0da0d876a04dc707e8a878a1adb9120bc731c4667b4c4fce8c819d"
+    },
+    {
+        "bytes": 762400,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/fonts/Andika-R.ttf",
+        "sha256": "e0f84db0429c96c26888aa0874f403ac29635f8e7172e4a20fec4633aed6e0e9"
+    },
+    {
+        "bytes": 4882,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/fonts/README-OpenDyslexic.txt",
+        "sha256": "946b0d7072dbb1f7ac686493941c85e7d972a7ecc0cd6d98441f27f97524d45e"
+    },
+    {
+        "bytes": 1838,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/fonts/README-Andika.txt",
+        "sha256": "fb21bd0d8112986b53b69a79e92fdbdffe6231da2aa8101736a29a67100e5bcd"
+    },
+    {
+        "bytes": 2803,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/loading.svg",
+        "sha256": "9a64d861da98277ba47a2be1aebb5e70b9376f7dc596efbf7e20a4246c58b5d1"
+    },
+    {
+        "bytes": 2172,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_next.svg",
+        "sha256": "fbdb3a6c7369dd71a871f5973d1d1ae36997a0bc8c3ae104466f9d3a20309261"
+    },
+    {
+        "bytes": 2534,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_exit.svg",
+        "sha256": "05d8ea3ca6ce53e9f5f99f0960494beccd51915a3f83fa30b16eb0689ee95e71"
+    },
+    {
+        "bytes": 4436,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/difficulty6.svg",
+        "sha256": "8604b10f2d72080174094788e093b3dd0381ef5735874581266b471bec40304e"
+    },
+    {
+        "bytes": 2767,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/difficulty4.svg",
+        "sha256": "81dc3591b7f8ba91fb8bafb82561c9979b9ebae45b527065b349942a8798a535"
+    },
+    {
+        "bytes": 2788,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/difficulty2.svg",
+        "sha256": "fe60f188c30a54a37c0609629e20916f9c463bbf7ccb65d2484052f0a6f1b1ca"
+    },
+    {
+        "bytes": 3608,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/difficulty5.svg",
+        "sha256": "4f9ba7f9a04a3252ad6c55f391a8809709c1fd6904c7642632cc2bb0a2029adc"
+    },
+    {
+        "bytes": 3226,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/difficulty3.svg",
+        "sha256": "f7b8193e77fa17a01f6f22a42cc66f2df4f2d9a2f982f61ba01dfe931eb349b1"
+    },
+    {
+        "bytes": 2301,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/difficulty1.svg",
+        "sha256": "2ba26a23d4c6b9ceebf9863c037c8d5a33aeaa598718a1740c5ced410d43ff79"
+    },
+    {
+        "bytes": 1976,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/cancel_white.svg",
+        "sha256": "30df91fef986a0bdd113c1aa3fe6fa3e90ee092403d44f6fd73580289d45619b"
+    },
+    {
+        "bytes": 2100,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/apply_disabled.svg",
+        "sha256": "0195823614d66dda364ca78ae5e9af6fa95fcf3e45962f08fde05d3144f5feec"
+    },
+    {
+        "bytes": 13964,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/arrows_move.svg",
+        "sha256": "9e05b0be0bfb94b5a3ef34129793b7c825538c007277e3cc7cd4291bee650824"
+    },
+    {
+        "bytes": 2954,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/scroll_down.svg",
+        "sha256": "3c559915c903b85c2c9ea377dee1b0b4ff223c47e8c671f2a3e88ad417583a77"
+    },
+    {
+        "bytes": 320,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/file_icon.svg",
+        "sha256": "42586cdbc2c55e3a98a03e43c1051ac51ece4c79f468e4e41f9325a0bf9a9511"
+    },
+    {
+        "bytes": 3490,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_reload.svg",
+        "sha256": "ca9173bacd84c8e08901f5f1d224059c9a016e09700f11b0f0f86a4ddf795f33"
+    },
+    {
+        "bytes": 1813,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_hint.svg",
+        "sha256": "2d09c8602de9ff7c6c6c19b6d1b0b429a233eb2cd236619b394350389f18dd8d"
+    },
+    {
+        "bytes": 2490,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/arrow_down.svg",
+        "sha256": "efc1b9eb6b9e27a2da29518f36451d8cacdde668cda906da5270fb3668522dc9"
+    },
+    {
+        "bytes": 3392,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_ok.svg",
+        "sha256": "9842e9e8edae9eef10efd54aa867fd23db4da06c314a59c6e024219dd2c110f5"
+    },
+    {
+        "bytes": 2127,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/cross.svg",
+        "sha256": "57f62096b72e18c0ac92333fb16ba7bb18ace360f1a550e842a58a82b2f3cbb3"
+    },
+    {
+        "bytes": 2388,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_up.svg",
+        "sha256": "758e316f227da480215292dac5b920f66311b69570047bc2ac6559529dc7e20a"
+    },
+    {
+        "bytes": 3150,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_activity_config.svg",
+        "sha256": "a883f892afc3a22f74e0ec6b8c110c7e88627271e63304c0e85dfaf85e5e26fe"
+    },
+    {
+        "bytes": 2103,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/apply.svg",
+        "sha256": "4b17453c3e9dddc2a596dc9a755328162bda1a0383c30386ba2bd1bf700fa245"
+    },
+    {
+        "bytes": 18668,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/darken.wav",
+        "sha256": "64ab784b789125f6fdf9176c9ac79821705946728c2bb51ba7a3587599b7562e"
+    },
+    {
+        "bytes": 9260,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/flip.wav",
+        "sha256": "f962819ce412d1fbe11f6279e38cb5097a99e83ac795272b01e8fda909cdf70b"
+    },
+    {
+        "bytes": 88244,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/bonus.wav",
+        "sha256": "fbf6fba4772211a0336b37c916e77340ca25c6e8062e9b2f631cf16394edd140"
+    },
+    {
+        "bytes": 6298,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/scroll.wav",
+        "sha256": "7f2dd85a8e4b4f4eb2f685bd827de592a1c1793ab1d47476243e77a834caa64e"
+    },
+    {
+        "bytes": 133676,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/completetask.wav",
+        "sha256": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c"
+    },
+    {
+        "bytes": 27234,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/crash.wav",
+        "sha256": "86f844cb3f4cd87485de76b26a868e695d278ea971f308e092305827e7943c11"
+    },
+    {
+        "bytes": 8846,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/audioclick.wav",
+        "sha256": "8849623e205f541f98953797cec2482e2c4a60915073600aa6db686ab4248b7a"
+    },
+    {
+        "bytes": 308744,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/water.wav",
+        "sha256": "fac8a839b64a25aa17aff41b18ca31182cf5faeafd75dc0ae07621290962bf1d"
+    },
+    {
+        "bytes": 21548,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/smudge.wav",
+        "sha256": "e2037cfb555e638fae4af7a497ec2fefb7becf8fac3dd9da4d28adcf3c4b245f"
+    },
+    {
+        "bytes": 10444,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/bleep.wav",
+        "sha256": "759b2225a42e407ac8d76e01c2b98d31af670de0a61c7f78ae5c34ca36bdc59e"
+    },
+    {
+        "bytes": 79550,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/win.wav",
+        "sha256": "50a7496767cda6c938048f614c2c1d137e5394ad7b9cdc92f19230a63537adfe"
+    },
+    {
+        "bytes": 15266,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/brick.wav",
+        "sha256": "a5bcc4db6b84c0c47e90eaa0c889314c1f703993bfb32e6e33fc161d89a88cee"
+    },
+    {
+        "bytes": 89,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/empty.svg",
+        "sha256": "c2c6d7ffb84a06054a616148b6a18b99a467af357485016d01e0c879f658d285"
+    },
+    {
+        "bytes": 2576,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_about.svg",
+        "sha256": "a0b5af0d343572a99841a462626bf60d27961b24698ed398294535b1c28510f4"
+    },
+    {
+        "bytes": 5010,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/kde-logo-white.svg",
+        "sha256": "b7979fdca2eb4271989549b9276aa35b03b9387125d8661ec515b8502d127f7a"
+    },
+    {
+        "bytes": 2068,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/separator.svg",
+        "sha256": "212e43c7e923bd6e837bbad9487880823da10adddae50f2525271ec0e1678179"
+    },
+    {
+        "bytes": 10154,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/gcompris-icon.png",
+        "sha256": "fa7766a3d5b385efcd51d850d3e136edafa12bc00708d276542d414e60a525ea"
+    },
+    {
+        "bytes": 2484,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/arrow_left.svg",
+        "sha256": "66cddf5b53dec0c855f7b0440082a4f53f96aefc5760a53be35b5300de3b478a"
+    },
+    {
+        "bytes": 2238,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_help.svg",
+        "sha256": "74039596d22cf2947b3ac62e740c4c6f4f74760e25221ec08673dd10d5a6d8a6"
+    },
+    {
+        "bytes": 573,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/arrow.png",
+        "sha256": "cef9736c279439c505e0bb68aa73961f6f6fac992929000aad4e34649cc9509d"
+    },
+    {
+        "bytes": 2262,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/cancel.svg",
+        "sha256": "d6f9d1865ca8a8efd846c13dadb46bb4259f40efae6cead7efa073d08b97d132"
+    },
+    {
+        "bytes": 2170,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_previous.svg",
+        "sha256": "0aa9cb1f430b38ea58a79ab99313fb44aeec532428cb4e766484c6de85defcbf"
+    },
+    {
+        "bytes": 12029,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/cursor.svg",
+        "sha256": "b501108a0a57fc7d6b1701ab868e26ccdb7afc5903d6f10e8334f51699e9e1c1"
+    },
+    {
+        "bytes": 1652,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/star.png",
+        "sha256": "b00915a4da2ccda3c7fa357340da0f86ce99b90924aa603c4bed4ebdc2df81cd"
+    },
+    {
+        "bytes": 2460,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_repeat.svg",
+        "sha256": "7287502e777fd5d0f1afcf4435568e33af5afc010896fbc6cad49cd379a2a45a"
+    },
+    {
+        "bytes": 8583,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/player_2.svg",
+        "sha256": "7d13dd21ff5e98e3198ba5b00810aa723080e2f5dfa964f7cc416c1dd17ad452"
+    },
+    {
+        "bytes": 17234,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/player_1.svg",
+        "sha256": "29bd08ff1910db8ac7128068b3b63bad0279e12690dad4de6c0e1fbca3ac8bcc"
+    },
+    {
+        "bytes": 3589,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/loader.gif",
+        "sha256": "dfd68dd079b9b5e832cb6edc8f843d836bce4bc07d7ee2135e794c52d7caaa06"
+    },
+    {
+        "bytes": 2250,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_home.svg",
+        "sha256": "d3b127f03109244d35a78ae102e426521d44eedde943abb86779063785771ffd"
+    },
+    {
+        "bytes": 2716,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/button.svg",
+        "sha256": "9ca35bff14afc865fb3653f316c3ba176f3c84f190a5a3dd2ed3bbe9d34da238"
+    },
+    {
+        "bytes": 158374,
+        "ogg": true,
+        "path": ":/gcompris/src/core/resource/intro.ogg",
+        "sha256": "44976933b530e053fcdbb1fdd82559ec80a92a4026f83d29af3d3b7f08257567"
+    },
+    {
+        "bytes": 3336,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_open.svg",
+        "sha256": "e1b4d2089481cd33921d7a3c274652cd54eeea1cde1051e40d3393085ec53d4e"
+    },
+    {
+        "bytes": 2496,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/arrow_up.svg",
+        "sha256": "9376b5163c56ee6e67f1adabdafe4c3dc82be155778210a96fc7573c79af1a63"
+    },
+    {
+        "bytes": 2392,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_down.svg",
+        "sha256": "eaeab54edf55ffdc7fa0dbd4090b4af21d8bf56272bd7d0c7e8c557634342402"
+    },
+    {
+        "bytes": 19227,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/aboutkde.png",
+        "sha256": "2bd8c98cd7ef11c8e3fa075e99aca79bdd5782d557819211c970f7ff0bbdc472"
+    },
+    {
+        "bytes": 2529,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_server.svg",
+        "sha256": "67e5eb36a35ff93cc5dedd1544883e9adee1c3ff5355e8cc474a7e9b97464283"
+    },
+    {
+        "bytes": 2385,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_config.svg",
+        "sha256": "e633f5dc3b910be746f4a3c006b076ff6c378001bbc321a4b01f40efa4a3b04e"
+    },
+    {
+        "bytes": 22163,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/win.svg",
+        "sha256": "22a7da1f999e61db1cb4687a2babfb20d24a92a51220273eef7b394d33542bc8"
+    },
+    {
+        "bytes": 1939,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/isrgrootx1.pem",
+        "sha256": "22b557a27055b33606b6559f37703928d3e4ad79f110b407d04986e1843543d1"
+    },
+    {
+        "bytes": 34703,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/gcompris-splash.svg",
+        "sha256": "5d014414f7736a17c5018da7911b79affd80f1c143a1d3bf82768f24e0a017cf"
+    },
+    {
+        "bytes": 1915,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/apply_white.svg",
+        "sha256": "342102f433ac37611b796c2e7791b9ea4b3c28df0f820dd6edc1f13931deb98a"
+    },
+    {
+        "bytes": 2485,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/arrow_right.svg",
+        "sha256": "2659f493a4d3c244e046fd95b975365570de5cd4c5a221bb9a40d0edc1ca40dd"
+    },
+    {
+        "bytes": 13228,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/gcompris-logo-full.svg",
+        "sha256": "9ed7f13051f0549e93e3db7ed16b703416a71abc699bd76dc9a3c3864a41298b"
+    },
+    {
+        "bytes": 62004,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/tuxballoon.svg",
+        "sha256": "5173057167507551c784c0a9bfa7a619be9864aa649a123462a8e43a64a4950a"
+    },
+    {
+        "bytes": 2256,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/cancel_disabled.svg",
+        "sha256": "a9fbe232ba8ba7d10a1caf10ac66433f8397acd34e29e4d20ba8c1965b14a1b8"
+    },
+    {
+        "bytes": 3191,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCText.qml",
+        "sha256": "443985dc65f2530b7fc30e8d7811966076d7a25bbaed185d694c997ffe8a6877"
+    },
+    {
+        "bytes": 2745,
+        "ogg": false,
+        "path": ":/gcompris/src/core/JsonParser.qml",
+        "sha256": "3fbb1c09721217ac35e248e5ab17a9f843c0ad7c5b692f5b5b4ba4ba8e7b4872"
+    },
+    {
+        "bytes": 5930,
+        "ogg": false,
+        "path": ":/gcompris/src/core/DialogBackground.qml",
+        "sha256": "7030f8a25bdb6688c91cdaf7dadb84e7f9d6b4b8c87de68bc7299b95e543bbc6"
+    },
+    {
+        "bytes": 1415,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCButtonCancel.qml",
+        "sha256": "eaa21011b3e5cebda9290ed492b0d6c97a854694ca0024aa89016228c229fd5d"
+    },
+    {
+        "bytes": 1777,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCCheckButton.qml",
+        "sha256": "1e7a3c2e5b1018a86979e08153debad99697158fa9082ea0563b125a0141bd69"
+    },
+    {
+        "bytes": 4452,
+        "ogg": false,
+        "path": ":/gcompris/src/core/LanguageList.qml",
+        "sha256": "c3dfef1e07e23402559020c9cd5b640af200ee4f1857f50c9a980c47fdcb2485"
+    },
+    {
+        "bytes": 12111,
+        "ogg": false,
+        "path": ":/gcompris/src/core/VirtualKeyboard.qml",
+        "sha256": "486c92f2578e64c2c98f83ee5e2c387e5d59d6046a75348d9a000c5972add729"
+    },
+    {
+        "bytes": 1989,
+        "ogg": false,
+        "path": ":/gcompris/src/core/NumberQuestionCard.qml",
+        "sha256": "e4a0d2cd2c321b1b7037e4e1ff5fc53116402c18fd498c18dc826bb938f8de3a"
+    },
+    {
+        "bytes": 1220,
+        "ogg": false,
+        "path": ":/gcompris/src/core/IconButton.qml",
+        "sha256": "6103c64702d3b0b06a32319598ffb23f86c42d871defe74192b1e5891e4fe0de"
+    }
+]

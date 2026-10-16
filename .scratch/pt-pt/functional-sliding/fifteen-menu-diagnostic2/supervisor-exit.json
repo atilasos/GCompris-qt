@@ -1,0 +1,8 @@
+{
+  "kind": "observed-supervisor-subprocess-exit",
+  "exit_code": 1,
+  "native_receipt_sha256": "37128023b1dbecb2986138e080d73db2c33dfaac12096f30936db8e294970e33",
+  "launcher_status_sha256": "8a908542567fdc8717cfb71027fbce1ac90c7b7e98b0376127b07771cc09353a",
+  "case_sha256": "41dc7ab36494545b0807fbd0cf8cb2df32ce714dc6fa845606b16e6b3eff30b1",
+  "supervisor_sha256": "d3036d68f65c91905732c953d9438a642d3a1a99ccee8e05c66bf0c76cd68347"
+}
