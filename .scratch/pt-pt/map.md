@@ -225,3 +225,5 @@ percursos preservam os critérios globais pendentes.
 - [63 — Operações verticais](issues/63-operacoes-verticais.md)
 
 - [64 — Completar sequências](issues/64-algoritmos.md)
+
+- [66 — Aprender números e operações](issues/66-aprender-numeros-operacoes.md)
