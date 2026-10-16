@@ -1,4 +1,4 @@
-# Palavras e letras — tarefa38
+# Palavras e letras, tarefa38
 
 Checkpoint de dados: o auditor independente lê os dois corpora e as1090
 traduções PT, sem executar a lógica de correspondência dos jogos. Encontrou
@@ -20,9 +20,10 @@ python3 -m unittest discover -s tests/functional_word_letters -p 'test_*.py' -v
 python3 tests/functional_word_letters/corpus.py
 ```
 
-A matriz completa de Hangman continua em curso. Os recursos foram recompilados
-e selados privadamente. Windows, audição física e aprovação docente permanecem
-separados. O índice `checkpoint-letter.json` fixa as provas concluídas abaixo.
+As matrizes dos dois jogos terminaram e passaram a auditoria. Os recursos
+foram recompilados e selados privadamente. `index.json` fixa a conclusão Linux
+offline delimitada; `checkpoint-letter.json` preserva o checkpoint anterior.
+Windows, audição física e aprovação docente permanecem separados.
 
 ## Total de níveis publicado
 
@@ -86,3 +87,56 @@ copia e sela também as fontes e o adaptador de entrada antes de lançar casos.
 O fallback incorporado tem removidos o RCC externo de palavras e o bundle
 completo que também fornecia essas imagens. A ausência é verificada na própria
 aplicação, sem substituir dados ou pontuação.
+
+
+## Conclusão integral de Hangman
+
+O agregado `hangman-aggregate.json` passou116 campanhas e4824 palavras, sem
+campanhas em falta ou repetidas. São23 lições completas/1090 palavras e6
+lições incorporadas/116 ocorrências, em quatro combinações de pistas de
+imagem/áudio. Cada campanha esgota a lição real, verifica a máscara exata e
+vidas, rejeita três erros e um erro repetido, completa as palavras e espera
+Bonus/transição natural até à primeira palavra da próxima lição. Os canais
+alternam por caráter, sem alegar o produto cartesiano de cada palavra com
+cada canal. Foram15136 eventos de entrada física e12200 cliques em teclas
+virtuais. A união de carateres não ASCII observados é áâãçéêíóôõú.
+
+A primeira matriz corrigida parou entre turnos do agente. Foi incorreto afirmar
+que ainda vivia sem confirmar PID. Na retoma não existia executor; os logs
+parciais tinham parado. Não há evidência de falha do jogo nessa interrupção,
+nem registo do sinal exato de terminação. `hangman-resume-lifecycle.json`
+documenta o problema do ciclo de execução e o plano de retoma. O turno seguinte
+ficou ativo até as duas campanhas terminarem efetivamente com saída0;
+`hangman-heartbeats.jsonl` conserva PIDs, progressão e horários dos logs.
+
+Os oito recibos completos anteriores, lições2/21 do corpus completo em quatro
+modos, conservam936 palavras. `hangman-final` preserva esses recibos e os logs
+parciais interrompidos, que não entram no agregado. Foram executadas apenas as
+84 combinações completas restantes e24 incorporadas, nas pastas
+`hangman-remaining-full` e `hangman-remaining-sample`. Os recibos antigos não
+receberam campos de identidade inventados nem foram relançados por mudança do
+executor. O seletor `--dataset` foi acrescentado com CLI vermelho/verde para
+separar esta retoma, incluindo a lição2 incorporada.
+
+O agregador verifica os conjuntos completos e disjuntos, oráculo de cada
+lição, configurações, hashes de relatório/caso, snapshot, manifesto/fontes
+congeladas e launcher nativo. Os controlos `aggregate-negative-missing.json`
+e `aggregate-negative-duplicate.json` conservam a recusa por saída1 de
+conjuntos incompletos e repetidos. São controlos do auditor, não falhas do jogo.
+Os manifestos dos recursos e das fontes usados estão em `sealed-inputs`.
+
+```bash
+python3 tests/functional_word_letters/aggregate.py .scratch/pt-pt/functional-word-letters/hangman-final .scratch/pt-pt/functional-word-letters/hangman-remaining-full .scratch/pt-pt/functional-word-letters/hangman-remaining-sample
+```
+
+A retoma completa usou `--dataset full` com lições1,3–20,22,23 e `--jobs 12`;
+a incorporada usou `--dataset sample --jobs 4`, ambas em saídas novas.
+`hangman-counter-fix` preserva separadamente a regressão real95 palavras→nova
+lição: a pontuação agora reinicia em1 em vez de conservar95. Não há nova
+correção de produção neste agregado.
+
+A auditoria do corpus verifica estrutura, caminhos e formas escritas; não
+constitui aprovação semântica docente de todas as1090 correspondências. Os
+pares fawn/corso e tick/piolho continuam rastreados na tarefa44, com originais
+e propostas separados. Esta conclusão de interação não aprova esses pares,
+pronúncia, audição física ou execução Windows.
