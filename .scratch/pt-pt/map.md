@@ -372,3 +372,8 @@ controlos, em `ready-for-review` para Standards e Spec independentes. Duas
 ligações mantêm critérios globais pendentes. A ocorrência 139 continua na
 investigação 83: replay e dois GDB com saída zero não provam correção.
 Windows, hardware, áudio e revisão docente permanecem pendentes.
+
+A tarefa81 fica resolvida no âmbito funcional Linux finito após Standards e
+Spec sem achados; [relatórios](review/integration81/README.md). As duas ligações
+não aprovam estabilidade, Windows, hardware, áudio ou aceitação global.
+O encerramento139 continua na tarefa83 aberta.
