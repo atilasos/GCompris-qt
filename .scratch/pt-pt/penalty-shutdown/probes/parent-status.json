@@ -1,0 +1,9 @@
+{
+  "format": 1,
+  "kind": "observed-exec-tool-return",
+  "session_id": 71199,
+  "chunk_id": "d8ceb6",
+  "exit_code": 0,
+  "provenance": "Actual write_stdin completion observed by data_04; no Qt result inferred",
+  "observations_sha256": "081b87cd1a796cede85a1b4bc6113267c2a971cfa39d0b4076db0c6a2dfe7835"
+}

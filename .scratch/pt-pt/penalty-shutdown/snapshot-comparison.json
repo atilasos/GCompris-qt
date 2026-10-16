@@ -1,0 +1,138 @@
+{
+  "same_binary": true,
+  "old_files": 269,
+  "new_files": 269,
+  "changes": [
+    {
+      "path": "share/gcompris-qt/rcc/ballcatch.rcc",
+      "historical_sha256": "af8386d4c60988ea13cbea9b3fc648258c46b38f5604d26a882f7efd65895e64",
+      "new_sha256": "de9713e44fb1958859156bb0a91a89ab770c88eabf91e1fb457f2e27654c07f0"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/bargame.rcc",
+      "historical_sha256": "d2e529a46afd26b4d44d2fb87b815a71e171f418e50b78e2d33d36edcafeb02b",
+      "new_sha256": "6a175517247b9c70a2208b40f3e8c922cc2c83ee761073bbee7232236bb77116"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/braille_fun.rcc",
+      "historical_sha256": "8e84b2371cb2f20320f2810ca9ddbb5264a8ba54caa437953a1369b8d2eb9b3c",
+      "new_sha256": "9cacb05a12445b736b6ad649cc2b9fd009ab7722055ffc4281026e1925252600"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/checkers.rcc",
+      "historical_sha256": "aac56b0df6a33d7da77a5b0225eb18c724946eef504ddbaea1874e3ef0d2addb",
+      "new_sha256": "235e16cc00112798ed3c9eea29d331759f91bf84416d55da61427b2734b70750"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/color_mix.rcc",
+      "historical_sha256": "240da9ff3b4b004e421e66f9898837c537900ecfa9da16fe1b7a0eb6fc4f73f9",
+      "new_sha256": "82240abec0988de5590cce21fb5ed1fb0b940a9c172b313aa32dd5ddca59617c"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/drawing_wheels.rcc",
+      "historical_sha256": "cdcc7a383fdc9ff1f658758c8af7909977dbb1e9d37aac9422277ed4353acea2",
+      "new_sha256": "a0aefd7d7c115fd26ad59457fd2f75734a54d51ecfbb1750f22f262b293c5b34"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/fifteen.rcc",
+      "historical_sha256": "80a530dbd9ce5b085413fbc3fa92b214e00eb5e0c6fef6afb08ff7b9f2ff2886",
+      "new_sha256": "6e7c3f7f73facc8b03e0ed6d134ce0fac8ad7034c21fc554143a99869d6a9a8f"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/followline.rcc",
+      "historical_sha256": "60a1d35d667564b05363bf85f0312cfe8fba3c50c9fb482d1c213a467490c621",
+      "new_sha256": "05a0ef90b1c2a9d7bfabbeea0013bed23f9570d9a63cf2898ee96e5d0b70d06d"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/football.rcc",
+      "historical_sha256": "f988b31908fe1d05c82b9ade884c8dc7d968b68d6a3306ed31dd22ac1a606d7c",
+      "new_sha256": "d5ae26cdaa62ec78701213b9a24dde69b4290d98abb0eb1b4d9ae41313658ff0"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/guesscount.rcc",
+      "historical_sha256": "180ea4874cfbc3e1303a613e6e379cc4d1ab8b1cf7dfbdbe7194d74fa6c8fd40",
+      "new_sha256": "6acbe79c57816e17605c8be2583821635ea4af990c15beb7364d14a3c30a783e"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/hexagon.rcc",
+      "historical_sha256": "370349c838172fab1b1a7f9de21b0e12e1e1e8c59691e2f07932cc893a000f31",
+      "new_sha256": "ac53b86ed6d903ba340b5f72ea1c73b6ecca91dc07454c69821a1dabd60a9fb1"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/left_right_click.rcc",
+      "historical_sha256": "c02d3a36a561114f46034914cb2dc61668b7444fa441ddd948d9b5867e2027e0",
+      "new_sha256": "0da9c8f17f7289a408862e0d2723cb2ca3404d1aadb767336c40e2b96cdd7b31"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/leftright.rcc",
+      "historical_sha256": "0623031ab19fc3e9c98cb77ac567c9074a98eb1b7d880555df1781b10482c2d8",
+      "new_sha256": "fc0b4b4f996883fb52dd926ba881386a178d13cc061f2b088fb06504e54117c3"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/melody.rcc",
+      "historical_sha256": "0a5fd8615158b94d546234738092ff57ac5770db387811c8a1129a3f33817e6e",
+      "new_sha256": "45c8ee01cc2e43ef87dddd0f272d83a4c48e686d761edf2ecb36352d9e3aef35"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/mining.rcc",
+      "historical_sha256": "d770776157ba04d405e7612a871bfd2d42231698bad10931fc4adc0901d82080",
+      "new_sha256": "510a6906e26fbfa26d87bc062bba826172a7bdf438c5e64373fe08af8838ff50"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/penalty.rcc",
+      "historical_sha256": "2def2e388e4b81a12b11d876d905ed5bf8dd6771e10cd54083267c6c8a4e1d8c",
+      "new_sha256": "fb1d06e83481ffb8b8447a1112868d08b3a797e1d60587d14e141a0d7c58f053"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/piano_composition.rcc",
+      "historical_sha256": "c01853bfc4e6dade510728bb68c0b04344b2681aff5003d91a9da1b22aaf81eb",
+      "new_sha256": "193b2047d7d694f4db2645deffbd9d4e6dd090a4723c8cb366350f0887ae39ca"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/play_piano.rcc",
+      "historical_sha256": "68aee78cacb2fe64ede3f83847ce18875818767bb70e766a1970e976868b1c7d",
+      "new_sha256": "05f81a70eefe1ed683f53e4187d3db73fce6be40c1cee1551a34f062fd52080f"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/polygons.rcc",
+      "historical_sha256": "8ab4af2956fff4e385fbb85ed35ce077de4c70e759eab9958be8a2b2dbf599e7",
+      "new_sha256": "4d3055b40e60707d29c1d0776b5f727a8d669b095739b2e4ca5cfaf84d429510"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/railroad.rcc",
+      "historical_sha256": "3bd7da78b3ed7b723daf2e9d5bda5e066cf72c35f2d4b74cdb3d4520e4966d3d",
+      "new_sha256": "3e13108127cedf6d7ad570724a0e46e90949d21e00d19a2deae732b33ed6ccfd"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/renewable_energy.rcc",
+      "historical_sha256": "5409df784873b2524b6c496db5affd4590d3ced319cac853f2c85aab342a92a5",
+      "new_sha256": "a3e2065abedc28488628dba1c52e39d04e662c3a5f46c73662f888fda6780326"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/submarine.rcc",
+      "historical_sha256": "926ca59e16bb4268f29b22ad8bab4fa6e90eb4433527accee5f8dcbcd3f44347",
+      "new_sha256": "118d1e8279a19bb4c07d377f996da22c38f70d863b60782b46559fb2dd5923f3"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/superbrain.rcc",
+      "historical_sha256": "1d2d80aece6582b769724f0093a81312ef40533bb279cc3c2c945f4474d2697e",
+      "new_sha256": "27f977d914e490872ff0f8d777dc9ebcfe7c391392fbbe3def5b2f278cb4aa62"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/tic_tac_toe.rcc",
+      "historical_sha256": "e4b8bcd50022364ad3bab08e7b7e4e38ebfe1287fc7fa1db05e89dec96e17631",
+      "new_sha256": "8042bfac980225bae98ce7227a3a2ca44f90ceb8789e44f0e80721d010f8741d"
+    },
+    {
+      "path": "share/gcompris-qt/rcc/traffic.rcc",
+      "historical_sha256": "9986dcb0b3774656d66538f59f4600d53711902c7a3017e4c18fc205aa782a39",
+      "new_sha256": "7d9415a78329a54f8e2eecdf745dfffd2775d67774e52c661ed6ee303069f060"
+    },
+    {
+      "path": "share/gcompris-qt/translations/gcompris_qt_pt.qm",
+      "historical_sha256": "221e500c9765a1a3afaf575ef81537190acb7305716b25aabc89c477c0c98329",
+      "new_sha256": "539ece1e900c13eb9d7a3295fdb5ecf093338f9f950b427d45ab4a2b1c14f567"
+    }
+  ],
+  "scope": "New snapshot is not a byte-identical complete replay environment; active penalty RCC and PT catalogue are overlaid per frozen phase"
+}

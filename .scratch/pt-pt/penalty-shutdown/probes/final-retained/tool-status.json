@@ -1,0 +1,8 @@
+{
+  "kind": "observed-diagnostic-supervisor-return-after-wait",
+  "exit_code": 0,
+  "native_receipt_sha256": "629c6721b92199e5cc0795a5ddf6fbf74aa131941b9b5741dd04010161a1b2dd",
+  "launcher_status_sha256": "8dc9dbe28346e0047503e0ebefc646b629e3b01f6a61e9e767804de7e3871cb1",
+  "case_sha256": "f8975878cf96ca7403627130b8d8a1596f792870266ae003c7e9d292bab6a4dc",
+  "driver_sha256": "1fe4fb8f05c29f57495a8cdcfdf8bd73e55260caf5510662fa6dd32cc660f91b"
+}

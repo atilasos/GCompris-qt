@@ -363,7 +363,8 @@ Três repetições completas0 não demonstram a sua causa nem ausência futura.
 A estabilidade e a aceitação global permanecem pendentes.
 
 A tarefa 80 tem provas Linux dos quatro jogos de alinhamento integradas e
-aguarda Standards e Spec independentes em `ready-for-review`. As quatro
+fica resolvida neste âmbito após suplemento físico e revisões sem achados
+restantes; [relatórios](review/integration80/README.md). As quatro
 ligações funcionais acrescentadas mantêm todos os critérios globais, Windows,
 hardware, áudio e revisão docente pendentes.
 
@@ -381,3 +382,15 @@ O encerramento139 continua na tarefa83 aberta.
 - [84 — Exploração do mundo](issues/84-exploracao-mundo.md)
 
 - [85 — Ciclos e eclusa](issues/85-ciclos-e-eclusa.md)
+
+O diagnóstico 83 foi integrado para revisão independente do handoff
+(`ready-for-review` documental), mantendo a investigação aberta. Os seis
+probes com saída zero não demonstram causa nem resolução da ocorrência139;
+`cause_known` e `issue_resolved` continuam falsos. A ligação ao PID original
+é apenas temporal. Nenhum critério global ou ligação funcional foi alterado.
+
+O artefacto da investigação83 passou Standards/Spec após corrigir a interrupção
+do driver; [relatórios](review/integration83/README.md). Os seis probes ociosos0
+não resolveram a causa: a tarefa permanece aberta e sem nova cobertura de jogos.
+
+- [86 — Relações familiares](issues/86-relacoes-familiares.md)
