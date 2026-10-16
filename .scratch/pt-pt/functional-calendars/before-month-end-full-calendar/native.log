@@ -1,0 +1,98 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars/.scratch/pt-pt/functional-calendars/snapshot/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars/.scratch/pt-pt/functional-calendars/.native-qml-72899274ceb14f63942555bd56941cc6/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars/.scratch/pt-pt/functional-calendars/.native-qml-72899274ceb14f63942555bd56941cc6/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars/.scratch/pt-pt/functional-calendars/.native-qml-72899274ceb14f63942555bd56941cc6/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars/.scratch/pt-pt/functional-calendars/.native-qml-72899274ceb14f63942555bd56941cc6/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars/.scratch/pt-pt/functional-calendars/.native-qml-72899274ceb14f63942555bd56941cc6/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars/.scratch/pt-pt/functional-calendars/.native-qml-72899274ceb14f63942555bd56941cc6/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars/.scratch/pt-pt/functional-calendars/.native-qml-72899274ceb14f63942555bd56941cc6/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars/.scratch/pt-pt/functional-calendars/.native-qml-72899274ceb14f63942555bd56941cc6/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars/.scratch/pt-pt/functional-calendars/.native-qml-72899274ceb14f63942555bd56941cc6/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity calendar/Calendar.qml at level -1
+qml: calendar/Calendar.qml calendar/Calendar.qml
+No audio device detected
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: NATIVE_RESULT {"failures":0,"passes":2,"completed":[{"level":1,"questions":6},{"level":2,"questions":7},{"level":3,"questions":7},{"level":4,"questions":5},{"level":5,"questions":5},{"level":6,"questions":9},{"level":7,"questions":5}],"answered":[{"level":1,"question":"Selecionar o dia 11","expected":{"dates":[[2018,3,11]]}},{"level":1,"question":"Selecionar o dia 28","expected":{"dates":[[2018,3,28]]}},{"level":1,"question":"Selecionar o dia 16","expected":{"dates":[[2018,3,16]]}},{"level":1,"question":"Selecionar o dia 20","expected":{"dates":[[2018,3,20]]}},{"level":1,"question":"Selecionar o dia 23","expected":{"dates":[[2018,3,23]]}},{"level":1,"question":"Selecionar o dia 1","expected":{"dates":[[2018,3,1]]}},{"level":2,"question":"Que dia da semana é o 16º do mês indicado?","expected":{"weekdays":[5]}},{"level":2,"question":"Que dia da semana é o 28º do mês indicado?","expected":{"weekdays":[3]}},{"level":2,"question":"Que dia da semana é o 4º do mês indicado?","expected":{"weekdays":[0]}},{"level":2,"question":"Que dia da semana é o 22º do mês indicado?","expected":{"weekdays":[4]}},{"level":2,"question":"Que dia da semana é o 12º do mês indicado?","expected":{"weekdays":[1]}},{"level":2,"question":"Que dia da semana é o 10º do mês indicado?","expected":{"weekdays":[6]}},{"level":2,"question":"Que dia da semana é o 20º do mês indicado?","expected":{"weekdays":[2]}},{"level":3,"question":"Seleciona uma terça-feira entre os dias 8 e 16 do mês indicado","expected":{"dates":[[2018,3,13]]}},{"level":3,"question":"Seleciona uma quarta-feira entre os dias 15 e 22 do mês indicado","expected":{"dates":[[2018,3,21]]}},{"level":3,"question":"Seleciona um sábado entre os dias 13 e 23 do mês indicado","expected":{"dates":[[2018,3,17]]}},{"level":3,"question":"Seleciona uma sexta-feira entre os dias 20 e 25 do mês indicado","expected":{"dates":[[2018,3,23]]}},{"level":3,"question":"Seleciona um domingo entre os dias 5 e 17 do mês indicado","expected":{"dates":[[2018,3,11]]}},{"level":3,"question":"Seleciona uma segunda-feira entre os dias 1 e 7 do mês indicado","expected":{"dates":[[2018,3,5]]}},{"level":3,"question":"Seleciona uma quinta-feira entre os dias 26 e 31 do mês indicado","expected":{"dates":[[2018,3,29]]}},{"level":4,"question":"Seleciona o terceiro dia a seguir ao dia 27 do mês indicado","expected":{"dates":[[2018,3,30]]}},{"level":4,"question":"Seleciona o segundo dia antes do dia 15 do mês indicado","expected":{"dates":[[2018,3,13]]}},{"level":4,"question":"Seleciona a quinta quinta-feira do mês indicado","expected":{"dates":[[2018,3,29]]}},{"level":4,"question":"Seleciona o dia que fica uma semana a seguir ao dia 13 do mês indicado","expected":{"dates":[[2018,3,20]]}},{"level":4,"question":"Seleciona o quarto domingo do mês indicado","expected":{"dates":[[2018,3,25]]}},{"level":5,"question":"Descobre um mês que tem 30 dias","expected":{"months":[4,6,9,11]}},{"level":5,"question":"Descobre um mês que começa a uma segunda-feira e tem 31 dias","expected":{"months":[1,10]}},{"level":5,"question":"Descobre o mês entre junho e agosto","expected":{"months":[7]}},{"level":5,"question":"Descobre um mês que começa num sábado","expected":{"months":[9,12]}},{"level":5,"question":"Descobre o mês que começa a uma quinta-feira e tem 28 dias","expected":{"months":[2]}},{"level":6,"question":"Descobre a terceira sexta-feira do mês de março do ano 2019","expected":{"dates":[[2019,3,15]]}},{"level":6,"question":"Descobre a primeira segunda-feira do mês de agosto do ano 2018","expected":{"dates":[[2018,8,6]]}},{"level":6,"question":"Descobre a segunda sexta-feira do mês de dezembro do ano 2017","expected":{"dates":[[2017,12,8]]}},{"level":6,"question":"Descobre a primeira segunda-feira do mês de janeiro do ano 2019","expected":{"dates":[[2019,1,7]]}},{"level":6,"question":"Descobre a terceira quinta-feira do mês de setembro do ano 2017","expected":{"dates":[[2017,9,21]]}},{"level":6,"question":"Descobre o quinto domingo do mês de outubro do ano 2017","expected":{"dates":[[2017,10,29]]}},{"level":6,"question":"Descobre o quinto domingo do mês de abril do ano 2018","expected":{"dates":[[2018,4,29]]}},{"level":6,"question":"Descobre a quarta terça-feira do mês de julho do ano 2018","expected":{"dates":[[2018,7,24]]}},{"level":6,"question":"Descobre a segunda quarta-feira do mês de fevereiro do ano 2019","expected":{"dates":[[2019,2,13]]}},{"level":7,"question":"O Dia de Braille celebra-se um dia antes de 5 de janeiro.<br/>Descobre a data do Dia de Braille em 2018","expected":{"dates":[[2018,1,4]]}},{"level":7,"question":"O aniversário do Marco é a 4 de novembro. Em 2017, a sua festa foi exatamente duas semanas depois.<br>Descobre a data da festa em 2017","expected":{"dates":[[2017,11,18]]}},{"level":7,"question":"O Dia dos Direitos Humanos celebra-se cinco dias depois de 5 de dezembro.<br>Descobre a data do Dia dos Direitos Humanos em 2017.","expected":{"dates":[[2017,12,10]]}},{"level":7,"question":"A competição desportiva ocorreu na última sexta-feira de setembro de 2017.<br/>Seleciona a data da competição no calendário.","expected":{"dates":[[2017,9,29]]}},{"level":7,"question":"O Dia Internacional da Mulher celebra-se dois dias antes de 10 de março.<br/>Descobre a data do Dia Internacional da Mulher em 2018.","expected":{"dates":[[2018,3,8]]}}],"wrong":7}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
