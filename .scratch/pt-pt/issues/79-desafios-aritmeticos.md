@@ -1,7 +1,7 @@
 # Desafios de operações e de chegar a 24
 
 Status: ready-for-agent
-Progress: ready
+Progress: claimed
 Type: task
 Blocked by: 02, 25
 
