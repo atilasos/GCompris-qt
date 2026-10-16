@@ -242,3 +242,5 @@ conservam os respetivos estados.
 - [67 — Aviões e sequências](issues/67-avioes-sequencias.md)
 
 - [68 — Retas graduadas](issues/68-retas-graduadas.md)
+
+- [69 — Comparar números e descobrir vizinhos](issues/69-comparar-vizinhos.md)
