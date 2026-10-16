@@ -1,0 +1,178 @@
+{
+  "controls/gnumch-equality": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "controls/gnumch-factors": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "controls/gnumch-inequality": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "controls/gnumch-multiples": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "controls/gnumch-primes": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "final/gnumch-equality-01": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "final/gnumch-equality-11": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "final/gnumch-equality-21": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "final/gnumch-equality-31": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "final/gnumch-factors-01": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "final/gnumch-inequality-01": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "final/gnumch-inequality-11": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "final/gnumch-inequality-21": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "final/gnumch-inequality-31": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "final/gnumch-multiples-01": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "final/gnumch-primes-01": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "full/gnumch-equality-01": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "full/gnumch-equality-11": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "full/gnumch-equality-21": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "full/gnumch-equality-31": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "full/gnumch-factors-01": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "full/gnumch-inequality-01": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "full/gnumch-inequality-11": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "full/gnumch-inequality-21": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "full/gnumch-inequality-31": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "full/gnumch-multiples-01": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "full/gnumch-primes-01": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "monster-green": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "monster-red": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "catalogue-phases/85f1efbba89be74b80c9cd172594644653e37a33f6d08a96a619d1184e077231.po"
+  },
+  "monsters/gnumch-equality": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "monsters/gnumch-factors": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "monsters/gnumch-inequality": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "monsters/gnumch-multiples": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "monsters/gnumch-primes": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "no-monsters-green": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "no-monsters-inequality-green": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "no-monsters-red": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  },
+  "pilot": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "catalogue-phases/ffcbabedb5375df42e5a70659dadcec51e64e85adf60ad79e82127692f819135.po"
+  },
+  "pointer-pilot": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "catalogue-phases/85f1efbba89be74b80c9cd172594644653e37a33f6d08a96a619d1184e077231.po"
+  },
+  "return-green": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "catalogue-phases/85f1efbba89be74b80c9cd172594644653e37a33f6d08a96a619d1184e077231.po"
+  },
+  "return-red": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "catalogue-phases/ffcbabedb5375df42e5a70659dadcec51e64e85adf60ad79e82127692f819135.po"
+  },
+  "title-green": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "catalogue-phases/ffcbabedb5375df42e5a70659dadcec51e64e85adf60ad79e82127692f819135.po"
+  },
+  "title-red": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "catalogue-phases/513599201f4ac3902eb104c341286738ad016ce14d0f0b18055da1ad6a74a3a7.po"
+  },
+  "two-levels": {
+    "source": "src/activities/gnumch-equality/Gnumch.qml",
+    "portuguese_catalogue": "poqm/pt/gcompris_qt.po"
+  }
+}

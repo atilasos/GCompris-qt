@@ -50,5 +50,8 @@
   "src/activities/gnumch-inequality/resource/4/Data.qml": "d98dc77e16cf84afeaea498b1044ed0dce0029976a939adcebae60ebac59acc1",
   "src/activities/gnumch-inequality/resource/2/Data.qml": "4355ef4de28bb1a08045b6842d49723201375ac2da9f2515508df8b9900197e3",
   "src/activities/gnumch-inequality/resource/3/Data.qml": "090fc5b8af8b4be2f6a89146202df93c586765680a5ca4491dc6105c3ef46010",
-  "src/activities/gnumch-inequality/resource/1/Data.qml": "34cea4ee89162c865b98e6d6e25d2a61d4044df4725aa56dd03b568991f74576"
+  "src/activities/gnumch-inequality/resource/1/Data.qml": "34cea4ee89162c865b98e6d6e25d2a61d4044df4725aa56dd03b568991f74576",
+  "catalogue-phases/85f1efbba89be74b80c9cd172594644653e37a33f6d08a96a619d1184e077231.po": "85f1efbba89be74b80c9cd172594644653e37a33f6d08a96a619d1184e077231",
+  "catalogue-phases/ffcbabedb5375df42e5a70659dadcec51e64e85adf60ad79e82127692f819135.po": "ffcbabedb5375df42e5a70659dadcec51e64e85adf60ad79e82127692f819135",
+  "catalogue-phases/513599201f4ac3902eb104c341286738ad016ce14d0f0b18055da1ad6a74a3a7.po": "513599201f4ac3902eb104c341286738ad016ce14d0f0b18055da1ad6a74a3a7"
 }

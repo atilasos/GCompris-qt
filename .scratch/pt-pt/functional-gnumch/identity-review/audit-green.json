@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "levels": {
+    "gnumch-equality": 40,
+    "gnumch-inequality": 40,
+    "gnumch-factors": 8,
+    "gnumch-multiples": 8,
+    "gnumch-primes": 8
+  },
+  "total_levels": 104,
+  "correct_player_captures": {
+    "gnumch-equality": 754,
+    "gnumch-inequality": 693,
+    "gnumch-factors": 135,
+    "gnumch-multiples": 142,
+    "gnumch-primes": 150
+  },
+  "warnings": 28,
+  "natural_or_error_losses_during_gameplay": 0,
+  "controlled_monster_losses": 5,
+  "qt_source_files": 50,
+  "gameplay_cases": [
+    {
+      "folder": "final/gnumch-equality-01",
+      "result_sha256": "37650677b533a711f6bbd6e9eb60664abab75829b7d84c3c36cc5e33d25edf85"
+    },
+    {
+      "folder": "final/gnumch-equality-11",
+      "result_sha256": "33984b43c98f4d5a337e05831e1b94ab8d675434771f89ad806f29c594e310bc"
+    },
+    {
+      "folder": "final/gnumch-equality-21",
+      "result_sha256": "69f257cd7a309ec927439791a6ff21db9ba71ae18a80cede3e6fc8cea5016eda"
+    },
+    {
+      "folder": "final/gnumch-equality-31",
+      "result_sha256": "67a80aff6e62792cef000f7d671953d5701b8c4b73cd73ba97d1abceaa244dd5"
+    },
+    {
+      "folder": "final/gnumch-factors-01",
+      "result_sha256": "9f4b8623855a47c0d159c94757bc2571ee7622e96b10e174ffdec6d01d70f142"
+    },
+    {
+      "folder": "final/gnumch-inequality-01",
+      "result_sha256": "a10abdc21b91fd3840d0ef45b017b78395ef0c594eb8dcdfd3f376584d8d7f22"
+    },
+    {
+      "folder": "final/gnumch-inequality-11",
+      "result_sha256": "e7dcf35072a7c979b39e861374513d10f287c2218bf3e6c08416e645e29de67d"
+    },
+    {
+      "folder": "final/gnumch-inequality-21",
+      "result_sha256": "0bd9cea1eda65b8bd6447b810042070eced201d05197e19e39fbb72293c6beb2"
+    },
+    {
+      "folder": "final/gnumch-inequality-31",
+      "result_sha256": "52d27b38b3280aed21deba6b4c79941a92b53617f22d553149a7ec5d02a041a7"
+    },
+    {
+      "folder": "final/gnumch-multiples-01",
+      "result_sha256": "0f3c04cd648ee3cd2c73e83fb11f3555560a64d20ad2d8d5232868559c8268fa"
+    },
+    {
+      "folder": "final/gnumch-primes-01",
+      "result_sha256": "8e6d6771797a15473d84b8bbb132091fbb47244d348c62ae5a9772a93f57d89f"
+    }
+  ],
+  "scope": "Linux offline only; random boards/enemies observed, not all arrangements or trajectories; Windows/audio/device/teacher approval pending."
+}
