@@ -10,3 +10,7 @@
 !supplement-archive/**
 !supplement2-archive/
 !supplement2-archive/**
+!supplement3-archive/
+!supplement3-archive/**
+!portable-verification-colosseum.json
+!verification-colosseum.json

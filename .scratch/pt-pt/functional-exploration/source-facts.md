@@ -33,3 +33,12 @@ Segundo suplemento: oito painéis observados, sem alterar títulos/perguntas.
 - Cidade Proibida: a fonte inglesa local diz 180 acres; a tradução dizia 180 hectares. Foi preservada a unidade original, com conversão aproximada para 73 hectares (1 acre = 0,40468564224 hectares). O portal atual do Palace Museum apresenta também área com âmbito diferente; não foi usada essa medida para alterar o dado original.
 - Portão da Índia: [Governo de Mumbai](https://mumbaicity.gov.in/en/tourist-place/gateway-of-india/) confirma a frente marítima. Mar Árabe é variante portuguesa atestada e não foi classificada como defeito. Só se corrige a concordância de Localizada para Localizado.
 - Neuschwanstein e Lincoln: correções gramaticais limitadas a numa colina escarpada e Construído, respetivamente, sem mudar o conteúdo histórico da fonte.
+
+Terceiro suplemento, após revisão independente: o painel do Coliseu preservava
+uma primazia falsa da fonte inglesa. A [ficha arqueológica do MARQ/Museo Nacional
+Romano](https://marqalicante.com/gladiadores/portfolio-item/inscripcion-funeraria-del-portero-del-anfiteatro-statilius/)
+identifica o anfiteatro em pedra de Statilius, construído em 29 a. C. O
+[turismo oficial de Roma](https://www.turismoroma.it/it/node/1155) data a construção
+do Coliseu entre 70 e 80 d. C. O texto corrigido remove a primazia e o superlativo
+subjetivo; descreve-o como um dos grandes anfiteatros da Roma antiga.
+O caso dirigido abre o mesmo painel real antes/depois, sem repetir campanhas.

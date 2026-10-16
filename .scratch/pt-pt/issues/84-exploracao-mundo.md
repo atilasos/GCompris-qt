@@ -50,6 +50,14 @@ Windows 10/11, equipamento escolar e revisão docente continuam pendentes.
 A tarefa 44 e o mapa/CSV de cobertura não foram alterados.
 Progress permanece claimed até à revisão independente e integração.
 
+Revisão independente encontrou uma primazia histórica falsa no painel do
+Coliseu, herdada da fonte inglesa. Foi retirada, com confirmação do
+MARQ/Museo Nacional Romano e do turismo oficial de Roma. O suplemento 3 conserva
+um caso dirigido idêntico vermelho/verde e os bytes físicos correspondentes;
+as três raízes anteriores mantêm-se intactas. A composição passa a 26 execuções
+selecionadas e 10 pares, sem acrescentar campanhas completas. A quantidade de
+mensagens revistas mantém-se em 86 porque este painel já fazia parte do lote.
+
 ## Integração
 
 Provas integradas para Standards e Spec independentes; `ready-for-review`,
