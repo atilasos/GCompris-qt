@@ -1,0 +1,1334 @@
+{
+  "datasets": [
+    {
+      "path": "src/activities/fractions_create/resource/1/Data.qml",
+      "levels": [
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "pie",
+              "numerator": 1,
+              "denominator": 2,
+              "instruction": "Seleciona metade da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 1,
+              "denominator": 3,
+              "instruction": "Seleciona um terço da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 2,
+              "denominator": 3,
+              "instruction": "Seleciona dois terços da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 1,
+              "denominator": 4,
+              "instruction": "Seleciona um quarto da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 2,
+              "denominator": 5,
+              "instruction": "Seleciona dois quintos da tarte."
+            }
+          ]
+        },
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "pie",
+              "numerator": 5,
+              "denominator": 4,
+              "instruction": "Seleciona uma tarte e um quarto de tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 7,
+              "denominator": 5,
+              "instruction": "Seleciona uma tarte e dois quintos de tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 4,
+              "denominator": 3,
+              "instruction": "Seleciona uma tarte e um terço de tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 9,
+              "denominator": 6,
+              "instruction": "Seleciona uma tarte e uma metade de tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 14,
+              "denominator": 8,
+              "instruction": "Seleciona uma tarte e três quartos de tarte."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "src/activities/fractions_create/resource/2/Data.qml",
+      "levels": [
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "rectangle",
+              "numerator": 1,
+              "denominator": 2,
+              "instruction": "Seleciona metade do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 1,
+              "denominator": 3,
+              "instruction": "Seleciona um terço do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 2,
+              "denominator": 3,
+              "instruction": "Seleciona dois terços do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 1,
+              "denominator": 4,
+              "instruction": "Seleciona um quarto do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 2,
+              "denominator": 5,
+              "instruction": "Seleciona dois quintos do quadrado."
+            }
+          ]
+        },
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "rectangle",
+              "numerator": 5,
+              "denominator": 4,
+              "instruction": "Seleciona um quadrado e um quarto de quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 7,
+              "denominator": 5,
+              "instruction": "Seleciona um quadrado e dois quintos de quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 4,
+              "denominator": 3,
+              "instruction": "Seleciona um quadrado e um terço de quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 9,
+              "denominator": 6,
+              "instruction": "Seleciona um quadrado e uma metade de quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 14,
+              "denominator": 8,
+              "instruction": "Seleciona um quadrado e três quartos de quadrado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "src/activities/fractions_create/resource/3/Data.qml",
+      "levels": [
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "pie",
+              "numerator": 2,
+              "denominator": 4,
+              "instruction": "Seleciona metade da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 4,
+              "denominator": 8,
+              "instruction": "Seleciona metade da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 5,
+              "denominator": 10,
+              "instruction": "Seleciona metade da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 3,
+              "denominator": 9,
+              "instruction": "Seleciona um terço da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 4,
+              "denominator": 6,
+              "instruction": "Seleciona dois terços da tarte."
+            }
+          ]
+        },
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "pie",
+              "numerator": 2,
+              "denominator": 6,
+              "instruction": "Seleciona um terço da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 6,
+              "denominator": 9,
+              "instruction": "Seleciona dois terços da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 2,
+              "denominator": 8,
+              "instruction": "Seleciona um quarto da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 4,
+              "denominator": 10,
+              "instruction": "Seleciona dois quintos da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 6,
+              "denominator": 10,
+              "instruction": "Seleciona três quintos da tarte."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "src/activities/fractions_create/resource/4/Data.qml",
+      "levels": [
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "rectangle",
+              "numerator": 2,
+              "denominator": 4,
+              "instruction": "Seleciona metade do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 4,
+              "denominator": 8,
+              "instruction": "Seleciona metade do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 5,
+              "denominator": 10,
+              "instruction": "Seleciona metade do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 3,
+              "denominator": 9,
+              "instruction": "Seleciona um terço do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 4,
+              "denominator": 6,
+              "instruction": "Seleciona dois terços do quadrado."
+            }
+          ]
+        },
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "rectangle",
+              "numerator": 2,
+              "denominator": 6,
+              "instruction": "Seleciona um terço do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 6,
+              "denominator": 9,
+              "instruction": "Seleciona dois terços do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 2,
+              "denominator": 8,
+              "instruction": "Seleciona um quarto do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 4,
+              "denominator": 10,
+              "instruction": "Seleciona dois quintos do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 6,
+              "denominator": 10,
+              "instruction": "Seleciona três quintos do quadrado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "src/activities/fractions_create/resource/5/Data.qml",
+      "levels": [
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "pie",
+              "numerator": 1,
+              "denominator": 2,
+              "instruction": "Seleciona 0,5 da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 1,
+              "denominator": 4,
+              "instruction": "Seleciona 0,25 da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 2,
+              "denominator": 5,
+              "instruction": "Seleciona 0,4 da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 3,
+              "denominator": 4,
+              "instruction": "Seleciona 0,75 da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 4,
+              "denominator": 5,
+              "instruction": "Seleciona 0,8 da tarte."
+            }
+          ]
+        },
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "pie",
+              "numerator": 5,
+              "denominator": 4,
+              "instruction": "Seleciona 1,25 da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 7,
+              "denominator": 5,
+              "instruction": "Seleciona 1,4 da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 3,
+              "denominator": 2,
+              "instruction": "Seleciona 1,5 da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 9,
+              "denominator": 6,
+              "instruction": "Seleciona 1,5 da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 14,
+              "denominator": 8,
+              "instruction": "Seleciona 1,75 da tarte."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "src/activities/fractions_create/resource/6/Data.qml",
+      "levels": [
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "rectangle",
+              "numerator": 1,
+              "denominator": 2,
+              "instruction": "Seleciona 0,5 do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 1,
+              "denominator": 4,
+              "instruction": "Seleciona 0,25 do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 2,
+              "denominator": 5,
+              "instruction": "Seleciona 0,4 do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 3,
+              "denominator": 4,
+              "instruction": "Seleciona 0,75 do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 4,
+              "denominator": 5,
+              "instruction": "Seleciona 0,8 do quadrado."
+            }
+          ]
+        },
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "rectangle",
+              "numerator": 5,
+              "denominator": 4,
+              "instruction": "Seleciona 1,25 do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 7,
+              "denominator": 5,
+              "instruction": "Seleciona 1,4 do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 3,
+              "denominator": 2,
+              "instruction": "Seleciona 1,5 do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 9,
+              "denominator": 6,
+              "instruction": "Seleciona 1,5 do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 14,
+              "denominator": 8,
+              "instruction": "Seleciona 1,75 do quadrado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "src/activities/fractions_create/resource/7/Data.qml",
+      "levels": [
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "pie",
+              "numerator": 1,
+              "denominator": 4,
+              "instruction": "Seleciona 25% da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 3,
+              "denominator": 10,
+              "instruction": "Seleciona 30% da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 1,
+              "denominator": 2,
+              "instruction": "Seleciona 50% da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 3,
+              "denominator": 5,
+              "instruction": "Seleciona 60% da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 9,
+              "denominator": 12,
+              "instruction": "Seleciona 75% da tarte."
+            }
+          ]
+        },
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "pie",
+              "numerator": 5,
+              "denominator": 4,
+              "instruction": "Seleciona 125% da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 3,
+              "denominator": 2,
+              "instruction": "Seleciona 150% da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 17,
+              "denominator": 10,
+              "instruction": "Seleciona 170% da tarte."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "src/activities/fractions_create/resource/8/Data.qml",
+      "levels": [
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "rectangle",
+              "numerator": 1,
+              "denominator": 2,
+              "instruction": "Seleciona 50% do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 3,
+              "denominator": 10,
+              "instruction": "Seleciona 30% do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 9,
+              "denominator": 12,
+              "instruction": "Seleciona 75% do quadrado."
+            }
+          ]
+        },
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "rectangle",
+              "numerator": 5,
+              "denominator": 4,
+              "instruction": "Seleciona 125% do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 3,
+              "denominator": 2,
+              "instruction": "Seleciona 150% do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 17,
+              "denominator": 10,
+              "instruction": "Seleciona 170% do quadrado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "src/activities/fractions_create/resource/9/Data.qml",
+      "levels": [
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "pie",
+              "numerator": 2,
+              "denominator": 5,
+              "instruction": "Seleciona o máximo de partes sem levar mais de metade da tarte."
+            },
+            {
+              "chartType": "pie",
+              "numerator": 3,
+              "denominator": 7,
+              "instruction": "Seleciona o máximo de partes sem levar mais de metade da tarte."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "src/activities/fractions_create/resource/10/Data.qml",
+      "levels": [
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "rectangle",
+              "numerator": 2,
+              "denominator": 5,
+              "instruction": "Seleciona o máximo de partes sem levar mais de metade do quadrado."
+            },
+            {
+              "chartType": "rectangle",
+              "numerator": 3,
+              "denominator": 7,
+              "instruction": "Seleciona o máximo de partes sem levar mais de metade do quadrado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "src/activities/fractions_find/resource/1/Data.qml",
+      "levels": [
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 1,
+              "random": true
+            }
+          ]
+        },
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 2,
+              "random": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "src/activities/fractions_find/resource/2/Data.qml",
+      "levels": [
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 1,
+              "random": true
+            }
+          ]
+        },
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": true,
+              "maxFractions": 2,
+              "random": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "src/activities/fractions_find/resource/3/Data.qml",
+      "levels": [
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "pie",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            }
+          ]
+        },
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "pie",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "src/activities/fractions_find/resource/4/Data.qml",
+      "levels": [
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            }
+          ]
+        },
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": true,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "src/activities/fractions_find/resource/5/Data.qml",
+      "levels": [
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            }
+          ]
+        },
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "pie",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "src/activities/fractions_find/resource/6/Data.qml",
+      "levels": [
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 1,
+              "random": true
+            }
+          ]
+        },
+        {
+          "shuffle": true,
+          "subLevels": [
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            },
+            {
+              "chartType": "rectangle",
+              "fixedNumerator": false,
+              "fixedDenominator": false,
+              "maxFractions": 2,
+              "random": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "activity": "fractions_create",
+      "dataset": "1",
+      "entry": 1,
+      "questions": 5,
+      "chart": "pie"
+    },
+    {
+      "activity": "fractions_create",
+      "dataset": "1",
+      "entry": 2,
+      "questions": 5,
+      "chart": "pie"
+    },
+    {
+      "activity": "fractions_create",
+      "dataset": "2",
+      "entry": 1,
+      "questions": 5,
+      "chart": "rectangle"
+    },
+    {
+      "activity": "fractions_create",
+      "dataset": "2",
+      "entry": 2,
+      "questions": 5,
+      "chart": "rectangle"
+    },
+    {
+      "activity": "fractions_create",
+      "dataset": "3",
+      "entry": 1,
+      "questions": 5,
+      "chart": "pie"
+    },
+    {
+      "activity": "fractions_create",
+      "dataset": "3",
+      "entry": 2,
+      "questions": 5,
+      "chart": "pie"
+    },
+    {
+      "activity": "fractions_create",
+      "dataset": "4",
+      "entry": 1,
+      "questions": 5,
+      "chart": "rectangle"
+    },
+    {
+      "activity": "fractions_create",
+      "dataset": "4",
+      "entry": 2,
+      "questions": 5,
+      "chart": "rectangle"
+    },
+    {
+      "activity": "fractions_create",
+      "dataset": "5",
+      "entry": 1,
+      "questions": 5,
+      "chart": "pie"
+    },
+    {
+      "activity": "fractions_create",
+      "dataset": "5",
+      "entry": 2,
+      "questions": 5,
+      "chart": "pie"
+    },
+    {
+      "activity": "fractions_create",
+      "dataset": "6",
+      "entry": 1,
+      "questions": 5,
+      "chart": "rectangle"
+    },
+    {
+      "activity": "fractions_create",
+      "dataset": "6",
+      "entry": 2,
+      "questions": 5,
+      "chart": "rectangle"
+    },
+    {
+      "activity": "fractions_create",
+      "dataset": "7",
+      "entry": 1,
+      "questions": 5,
+      "chart": "pie"
+    },
+    {
+      "activity": "fractions_create",
+      "dataset": "7",
+      "entry": 2,
+      "questions": 3,
+      "chart": "pie"
+    },
+    {
+      "activity": "fractions_create",
+      "dataset": "8",
+      "entry": 1,
+      "questions": 3,
+      "chart": "rectangle"
+    },
+    {
+      "activity": "fractions_create",
+      "dataset": "8",
+      "entry": 2,
+      "questions": 3,
+      "chart": "rectangle"
+    },
+    {
+      "activity": "fractions_create",
+      "dataset": "9",
+      "entry": 1,
+      "questions": 2,
+      "chart": "pie"
+    },
+    {
+      "activity": "fractions_create",
+      "dataset": "10",
+      "entry": 1,
+      "questions": 2,
+      "chart": "rectangle"
+    },
+    {
+      "activity": "fractions_find",
+      "dataset": "1",
+      "entry": 1,
+      "questions": 5,
+      "chart": "pie"
+    },
+    {
+      "activity": "fractions_find",
+      "dataset": "1",
+      "entry": 2,
+      "questions": 5,
+      "chart": "pie"
+    },
+    {
+      "activity": "fractions_find",
+      "dataset": "2",
+      "entry": 1,
+      "questions": 5,
+      "chart": "rectangle"
+    },
+    {
+      "activity": "fractions_find",
+      "dataset": "2",
+      "entry": 2,
+      "questions": 5,
+      "chart": "rectangle"
+    },
+    {
+      "activity": "fractions_find",
+      "dataset": "3",
+      "entry": 1,
+      "questions": 5,
+      "chart": "pie"
+    },
+    {
+      "activity": "fractions_find",
+      "dataset": "3",
+      "entry": 2,
+      "questions": 5,
+      "chart": "pie"
+    },
+    {
+      "activity": "fractions_find",
+      "dataset": "4",
+      "entry": 1,
+      "questions": 5,
+      "chart": "rectangle"
+    },
+    {
+      "activity": "fractions_find",
+      "dataset": "4",
+      "entry": 2,
+      "questions": 5,
+      "chart": "rectangle"
+    },
+    {
+      "activity": "fractions_find",
+      "dataset": "5",
+      "entry": 1,
+      "questions": 5,
+      "chart": "pie"
+    },
+    {
+      "activity": "fractions_find",
+      "dataset": "5",
+      "entry": 2,
+      "questions": 5,
+      "chart": "pie"
+    },
+    {
+      "activity": "fractions_find",
+      "dataset": "6",
+      "entry": 1,
+      "questions": 5,
+      "chart": "rectangle"
+    },
+    {
+      "activity": "fractions_find",
+      "dataset": "6",
+      "entry": 2,
+      "questions": 5,
+      "chart": "rectangle"
+    }
+  ]
+}

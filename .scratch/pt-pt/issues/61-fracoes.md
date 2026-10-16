@@ -20,3 +20,11 @@ Ferramenta de auditoria reproduzível e testes de adulteração material, sem
 caminhos absolutos de worktrees antigas ou dependência do catálogo corrente.
 Provas Linux não aprovam Windows, dispositivos físicos, audição ou pedagogia.
 Todos os critérios globais continuam pendentes.
+
+## Progresso
+
+Inventariados 30 níveis/138 perguntas. Vermelho nativo confirmou hifenização
+indevida nos nomes de frações. Dez traduções passam a espaços; o mesmo caso
+nativo concluiu cinco perguntas e Bonus no verde. O auditor independente
+interpreta palavras, decimais com vírgula, percentagens e limite de metade.
+Campanhas completas e auditoria histórica ainda em preparação, claimed.

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-fractions/tests/functional_fractions/audit_data.py", line 36, in <module>
+    summary=audit(datasets)
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-fractions/tests/functional_fractions/audit_data.py", line 22, in audit
+    assert instruction_fraction(question['instruction'],d)==Fraction(n,d),question
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-fractions/tests/functional_fractions/oracles.py", line 9, in instruction_fraction
+    raise ValueError('Portuguese fraction names must not use these English-style hyphens: '+text)
+ValueError: Portuguese fraction names must not use these English-style hyphens: Seleciona dois-terços da tarte.
