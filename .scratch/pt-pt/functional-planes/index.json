@@ -1,0 +1,146 @@
+{
+  "cases": {
+    "interception-tracer": {
+      "kind": "tracer",
+      "revision": "fb5e4eac9f0e7740673acf79d06eb63fe5449875",
+      "snapshot": "origin"
+    },
+    "parity-tutorial-focus": {
+      "kind": "focus",
+      "revision": "fb5e4eac9f0e7740673acf79d06eb63fe5449875",
+      "snapshot": "canonical"
+    },
+    "number-complete": {
+      "kind": "campaign",
+      "revision": "fb5e4eac9f0e7740673acf79d06eb63fe5449875",
+      "snapshot": "canonical"
+    },
+    "numbers-odd-even-complete": {
+      "kind": "campaign",
+      "revision": "fb5e4eac9f0e7740673acf79d06eb63fe5449875",
+      "snapshot": "canonical"
+    },
+    "alphabet-complete": {
+      "kind": "campaign",
+      "revision": "7e1d611bd246763bdfb4ba63ccbe09dbd36078c3",
+      "snapshot": "canonical"
+    },
+    "alphabet-modern-red": {
+      "kind": "red",
+      "revision": "fb5e4eac9f0e7740673acf79d06eb63fe5449875",
+      "snapshot": "canonical"
+    },
+    "alphabet-order-red": {
+      "kind": "diagnostic",
+      "revision": "fb5e4eac9f0e7740673acf79d06eb63fe5449875",
+      "snapshot": "canonical"
+    },
+    "alphabet-controller-miss": {
+      "kind": "diagnostic",
+      "revision": "7e1d611bd246763bdfb4ba63ccbe09dbd36078c3",
+      "snapshot": "canonical"
+    },
+    "number-controller-miss": {
+      "kind": "diagnostic",
+      "revision": "fb5e4eac9f0e7740673acf79d06eb63fe5449875",
+      "snapshot": "canonical"
+    },
+    "parity-controller-miss": {
+      "kind": "diagnostic",
+      "revision": "fb5e4eac9f0e7740673acf79d06eb63fe5449875",
+      "snapshot": "canonical"
+    },
+    "number-controls": {
+      "kind": "controls",
+      "revision": "fb5e4eac9f0e7740673acf79d06eb63fe5449875",
+      "snapshot": "canonical"
+    },
+    "numbers-odd-even-controls": {
+      "kind": "controls",
+      "revision": "fb5e4eac9f0e7740673acf79d06eb63fe5449875",
+      "snapshot": "canonical"
+    },
+    "alphabet-sequence-controls": {
+      "kind": "controls",
+      "revision": "fb5e4eac9f0e7740673acf79d06eb63fe5449875",
+      "snapshot": "canonical"
+    }
+  },
+  "files": {
+    "README.md": "f279885833a2668c68e7584b7035f99d84168bdc261ca1294fe3d3506623e179",
+    "alphabet-catalogue-green.log": "c346f1228fe88f4ab3cb336ffa610dc3a34ec7c7bb7d05df7a1c222f2d928881",
+    "alphabet-catalogue-red.log": "b2ecd768740d2f374a972844c53d5d16e78d6ff01f01e45de791f311c404eb9e",
+    "alphabet-complete/case.qml": "0647694ff4526bbcae325de8c4224ce5a118a90d482a5e818e89618343222530",
+    "alphabet-complete/launcher-status.json": "4414bdf716a893e52ac13b0f2ad5a76dba4677a21cd9db7c427f8b59d2db9f86",
+    "alphabet-complete/native.log": "8bcc2203b898495a4a50abb1e8cb0699e07447dfbbc34bd9027fc810fd01c4de",
+    "alphabet-complete/result.json": "d6bdff4ce55aa8314827b1ec5510abc18501c1873b10f5d9ccf8d422113be8d3",
+    "alphabet-controller-miss/case.qml": "53e756bae1a6382f4e724b8a1dbce204132dbbd0d22d179c603d3be3f8fd8c1c",
+    "alphabet-controller-miss/failure.png": "eea27718a17593c4935141c16d0fdbe54353bca2d787f324475740ca59135dbe",
+    "alphabet-controller-miss/launcher-status.json": "2ddbcce38cbc0d1dd48baf2166715ff794166268137dae482f22addf8524abf3",
+    "alphabet-controller-miss/native.log": "accc71b8a31268459d805951fa50ba8991449ec43768ae7d2d071f4873c76f23",
+    "alphabet-controller-miss/result.json": "bdc08121d4786964d406181e2ec6421461e3bc6b328c5cf9cf163d9f7e0b977e",
+    "alphabet-fix.md": "1c19f5e33edb82c372b3da53774f4f7a3673a10921c78394a9b7afb2ea128d4f",
+    "alphabet-modern-red/case.qml": "0647694ff4526bbcae325de8c4224ce5a118a90d482a5e818e89618343222530",
+    "alphabet-modern-red/failure.png": "6a9737ee189c9508a5ab7479b82514805020083704ccf643fa2e0601bb7dadea",
+    "alphabet-modern-red/launcher-status.json": "e63141eccef9ee9ab34e1a28ea18e46c6747c23d4a54441a18a7c603635f560f",
+    "alphabet-modern-red/native.log": "d0863abea060cedc5677906835041418d7a5f94d9b688cd09ee9811e0d41a055",
+    "alphabet-modern-red/result.json": "31df5b7d375bbae6afaf509f4e6bd632b95033b5d0a02532ec228a0946df0889",
+    "alphabet-order-red/case.qml": "53e756bae1a6382f4e724b8a1dbce204132dbbd0d22d179c603d3be3f8fd8c1c",
+    "alphabet-order-red/launcher-status.json": "34f0cfbb6daa4c4fd7b64c6bbba0dea57804b768f7e633113974281683a1fe1b",
+    "alphabet-order-red/native.log": "c70b7e5cfa6d1c686b87e84e58c878cc3818cb9bc56c060d252406306fe86972",
+    "alphabet-order-red/result.json": "d5c9b39035fe79375a20f7933b935c4e97bdc660e07df612e4d5ad3d791eb9ed",
+    "alphabet-sequence-controls/case.qml": "8c5f42e60d2862256e1eb4715ba8b18a1c1f06cbad8b862ba1cd3940d2d4d4e9",
+    "alphabet-sequence-controls/help.png": "28938e89ca73f076f7ccd495be47e2e6483cc5f654da22c87350bbf646d4ef9f",
+    "alphabet-sequence-controls/launcher-status.json": "6c8f0df74972310ee88d93d583c293a8705c07d4d373f164aa4fd236ea444aaa",
+    "alphabet-sequence-controls/native.log": "3cb646bf2b7209b0b2bb6bf0e564234918165382441e8c025d4a3119b35582ab",
+    "alphabet-sequence-controls/result.json": "155790be5cb14ca43375857e6f6d63257e030afa56dd79ef118ea07958480d37",
+    "frozen-source-green.log": "6273232de4d3ef7acd4ecafa5c86beeeb974f56586b21089a2990b3f72facbe6",
+    "frozen-source-red.log": "61b69de65c91673f17f2c349fe1f52601464cb9541d7460d5fb868d7e562cab0",
+    "identities/fixed-data.json": "7d73918a257f8d4f6e590ec4b6a9f8d63d29b741d230d1cd8db449a71b5dccd0",
+    "identities/fixed-source-manifest.json": "bdb191102029a2d139a490a180eb560b49da7dc6921f2c146d3bdb5369de3897",
+    "identities/origin-snapshot-manifest.json": "2304b8f9486c16ad8cefa60a203effa11ae8a666f10abddd732ad9fcc2f72473",
+    "identities/original-data.json": "718f570db76816651727c654ba516748e0107fc372acd4724cb9ecdd687907d1",
+    "identities/resource-identities.json": "5a057ddcee5230efdacb745aa6de8854ece492e7e01fe06e7f61877a695e3d66",
+    "identities/snapshot-manifest.json": "748120ac34212c589f25db0dca91a5223433cc8434466373ae61d42c1cfc2d4f",
+    "identities/source-manifest.json": "d3586451ae4deb936dccbd89d877a856ab324549a2bf0d09cc583728366d9bd4",
+    "index-boundary-green.log": "67145d6e1203ff813bcd0d1a1736389a82cb556c379c003f4127770f2db73e2a",
+    "index-boundary-red.log": "d43d0a95e846b97a03f9f8d3d23e871c1e7c75810636db6b8d40bef7717c7dd4",
+    "interception-tracer/case.qml": "c44a4173d9fc6d47067da29444b691ad8102e790440320fa17dc55ca85b3374f",
+    "interception-tracer/launcher-status.json": "f3baad64c80253210d94d9465e51e2fbf6860ed96e05ecce92d67e3f7b4e3cdb",
+    "interception-tracer/native.log": "8e72a857c808af78459a42f8839646baed5c485b29e792e8edbcda3dee436a04",
+    "interception-tracer/result.json": "3d0c86e4ac876ee07399b7ff16fc3ac2a37745a5e6c3b787134a986a2fc72076",
+    "number-complete/case.qml": "f04a623cda34b6ccff7e7dc473cfd08069c158abf621069ebdbc2368d89958a7",
+    "number-complete/launcher-status.json": "7df1d76820e39ceba7ad348f78472a1a1a3f7f70cfe34b37e2d46c68a925752a",
+    "number-complete/native.log": "dbbcf882d7f7519cb7acf12adf3bfd9172225f50a95f227d0b6d4b123ab126e8",
+    "number-complete/result.json": "013bf53f977eb8598647aac77f23263f4a96b9e7a48d32a23784f2d2ca5f42b8",
+    "number-controller-miss/case.qml": "dafd42844e19b73e62d28ca267000bfa3ed64fefd5e14f2c1d34b5b34110f2ea",
+    "number-controller-miss/launcher-status.json": "5d80b6e3b488a3d63d9cf130e0d9e0bdf48fd1a78ff104e9c2e8438d1c9cf684",
+    "number-controller-miss/native.log": "f894b5b036edf76fd0ddead0d19fce3ed44edfc0ec78c1fd4a06133120e37248",
+    "number-controller-miss/result.json": "2b94b071c6ac5c7c72d64989752061ec9a06b9e1df5614f1cf1e5de376791595",
+    "number-controls/case.qml": "91a1921ae5ab1376f4517b2072962f9cb133e79e38d460f432ffb6a4b584aff9",
+    "number-controls/help.png": "3381bae348a077aeb973e3418872db56cfca7b00fdcf7a2697d8ab5bb26e91a0",
+    "number-controls/launcher-status.json": "b5b7dd921ac1136b45cf9d203c829b08902705b5b81b0f09121cd09875883b80",
+    "number-controls/native.log": "973386d766b013d344508dc2f36bd619d1f15e98f557996746904e03e17e0819",
+    "number-controls/result.json": "7f9e338a244f41a78d8a78aa21f12961dcb75f9c05aa59489d6e2a066ef957eb",
+    "numbers-odd-even-complete/case.qml": "b3d366055c65a164e160526558e1879a52bb69aa6cc508969b082225074f216c",
+    "numbers-odd-even-complete/launcher-status.json": "fea7e95aa0b7422892d1313c4c8c9bbda89d1628db4ff2aab474e963588dd728",
+    "numbers-odd-even-complete/native.log": "70de5a0d17e8fa39ba77c34a0379ae159b88b1d0d2a3f63e1ecdab0b33cd14c3",
+    "numbers-odd-even-complete/result.json": "c3a3666e382558687a9741432de049aff0bef9294c7b411fe90a385c0fa9568c",
+    "numbers-odd-even-controls/case.qml": "5b3071c436350ef601077675bb2fb31c06d977e40f588797e62bd3db50975ea3",
+    "numbers-odd-even-controls/help.png": "3dd30c192ff4997bb6057da67f4afc8c28e5866b8628663640a77a20bf4e0b18",
+    "numbers-odd-even-controls/launcher-status.json": "73f345a33a27bb3cb41d4c310e4fb1efd9605d2acec0b9eade1a8f8dc4b4f5b7",
+    "numbers-odd-even-controls/native.log": "eb29b624bec05008d07578a49cb4360e291ea38817c6a89d17822e891fc9d139",
+    "numbers-odd-even-controls/result.json": "4b15aa5e01af3ff87b0a8bade8f193ca6f94ac659250af112fef0a0f32bc4e9a",
+    "oracle-green.log": "33060fd73862c5e1af97335504d5b45211fce6d229657f556d8deceeadc52ce4",
+    "oracle-red.log": "f8a9483e47cb7b67a2c4b1fb782779e7254f4a7de036bba83252280143a93b69",
+    "parity-controller-miss/case.qml": "db989ee8fde4791d11c0aa1b373849def59f71c40d772fbef0a9c2448b979f68",
+    "parity-controller-miss/failure.png": "214b94626c8f62719f0fa4bd1fb588938b7b3a8aa39711d777e18067a6533717",
+    "parity-controller-miss/launcher-status.json": "0f745e8c6d9ffb112323fd1fe6d754658f6c92bcdfd7dc2fb83f8d838173d3b0",
+    "parity-controller-miss/native.log": "c8a0262f83dce1845915fd337728f76c71578856c53f08b7795ec2367922cb51",
+    "parity-controller-miss/result.json": "2adc52569ee9f77429eea2086e2ca1a8e7c168096ceef350c77f8e8f4e79137b",
+    "parity-tutorial-focus/case.qml": "4c57d31505f369f5e57a0465802c08453caa259c4d151782fa0e80d01e4ae876",
+    "parity-tutorial-focus/launcher-status.json": "8a4064bf473d1ab3843594ae776679e624524c60cfb1e3b9aa9079c1bcae686f",
+    "parity-tutorial-focus/native.log": "5eeadcb4d500afc153a5edf7c4e4a1ac6ba19c14c4c8b987ad58841a56b78be3",
+    "parity-tutorial-focus/result.json": "5e71ceeccbb7c153b204a8f11b03646c8ac735ee5f62144343c7ded995b150da"
+  }
+}

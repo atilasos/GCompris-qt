@@ -1,0 +1,200 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/build/planes-canonical/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/.native-qml-76352b0f18f244e8b6c7a82bebb638cf/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/.native-qml-76352b0f18f244e8b6c7a82bebb638cf/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/.native-qml-76352b0f18f244e8b6c7a82bebb638cf/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/.native-qml-76352b0f18f244e8b6c7a82bebb638cf/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/.native-qml-76352b0f18f244e8b6c7a82bebb638cf/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/.native-qml-76352b0f18f244e8b6c7a82bebb638cf/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/.native-qml-76352b0f18f244e8b6c7a82bebb638cf/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/.native-qml-76352b0f18f244e8b6c7a82bebb638cf/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/.native-qml-76352b0f18f244e8b6c7a82bebb638cf/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity alphabet-sequence/AlphabetSequence.qml at level -1
+qml: alphabet-sequence/AlphabetSequence.qml alphabet-sequence/AlphabetSequence.qml
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: PLANE_PROGRESS 1 1 26 a
+qml: PLANE_PROGRESS 1 2 26 b
+qml: PLANE_PROGRESS 1 3 26 c
+qml: PLANE_PROGRESS 1 4 26 d
+qml: PLANE_PROGRESS 1 5 26 e
+qml: PLANE_PROGRESS 1 6 26 f
+qml: PLANE_PROGRESS 1 7 26 g
+qml: PLANE_PROGRESS 1 8 26 h
+qml: PLANE_PROGRESS 1 9 26 i
+qml: PLANE_PROGRESS 1 10 26 j
+qml: PLANE_PROGRESS 1 11 26 k
+qml: PLANE_PROGRESS 1 12 26 l
+qml: PLANE_PROGRESS 1 13 26 m
+qml: PLANE_PROGRESS 1 14 26 n
+qml: PLANE_PROGRESS 1 15 26 o
+qml: PLANE_PROGRESS 1 16 26 p
+qml: PLANE_PROGRESS 1 17 26 q
+qml: PLANE_PROGRESS 1 18 26 r
+qml: PLANE_PROGRESS 1 19 26 s
+qml: PLANE_PROGRESS 1 20 26 t
+qml: PLANE_PROGRESS 1 21 26 u
+qml: PLANE_PROGRESS 1 22 26 v
+qml: PLANE_PROGRESS 1 23 26 w
+qml: PLANE_PROGRESS 1 24 26 x
+qml: PLANE_PROGRESS 1 25 26 y
+qml: PLANE_PROGRESS 1 26 26 z
+qml: PLANE_PROGRESS 2 1 26 A
+qml: PLANE_PROGRESS 2 2 26 B
+qml: PLANE_PROGRESS 2 3 26 C
+qml: PLANE_PROGRESS 2 4 26 D
+qml: PLANE_PROGRESS 2 5 26 E
+qml: PLANE_PROGRESS 2 6 26 F
+qml: PLANE_PROGRESS 2 7 26 G
+qml: PLANE_PROGRESS 2 8 26 H
+qml: PLANE_PROGRESS 2 9 26 I
+qml: PLANE_PROGRESS 2 10 26 J
+qml: PLANE_PROGRESS 2 11 26 K
+qml: PLANE_PROGRESS 2 12 26 L
+qml: PLANE_PROGRESS 2 13 26 M
+qml: PLANE_PROGRESS 2 14 26 N
+qml: PLANE_PROGRESS 2 15 26 O
+qml: PLANE_PROGRESS 2 16 26 P
+qml: PLANE_PROGRESS 2 17 26 Q
+qml: PLANE_PROGRESS 2 18 26 R
+qml: PLANE_PROGRESS 2 19 26 S
+qml: PLANE_PROGRESS 2 20 26 T
+qml: PLANE_PROGRESS 2 21 26 U
+qml: PLANE_PROGRESS 2 22 26 V
+qml: PLANE_PROGRESS 2 23 26 W
+qml: PLANE_PROGRESS 2 24 26 X
+qml: PLANE_PROGRESS 2 25 26 Y
+qml: PLANE_PROGRESS 2 26 26 Z
+qml: PLANE_PROGRESS 3 1 26 a
+qml: PLANE_PROGRESS 3 2 26 b
+qml: PLANE_PROGRESS 3 3 26 c
+qml: PLANE_PROGRESS 3 4 26 d
+qml: PLANE_PROGRESS 3 5 26 e
+qml: PLANE_PROGRESS 3 6 26 f
+qml: PLANE_PROGRESS 3 7 26 g
+qml: PLANE_PROGRESS 3 8 26 h
+qml: PLANE_PROGRESS 3 9 26 i
+qml: PLANE_PROGRESS 3 10 26 j
+qml: PLANE_PROGRESS 3 11 26 k
+qml: PLANE_PROGRESS 3 12 26 l
+qml: PLANE_PROGRESS 3 13 26 m
+qml: PLANE_PROGRESS 3 14 26 n
+qml: PLANE_PROGRESS 3 15 26 o
+qml: PLANE_PROGRESS 3 16 26 p
+qml: PLANE_PROGRESS 3 17 26 q
+qml: PLANE_PROGRESS 3 18 26 r
+qml: PLANE_PROGRESS 3 19 26 s
+qml: PLANE_PROGRESS 3 20 26 t
+qml: PLANE_PROGRESS 3 21 26 u
+qml: PLANE_PROGRESS 3 22 26 v
+qml: PLANE_PROGRESS 3 23 26 w
+qml: PLANE_PROGRESS 3 24 26 x
+qml: PLANE_PROGRESS 3 25 26 y
+qml: PLANE_PROGRESS 3 26 26 z
+qml: PLANE_PROGRESS 4 1 26 A
+qml: PLANE_PROGRESS 4 2 26 B
+qml: PLANE_PROGRESS 4 3 26 C
+qml: PLANE_PROGRESS 4 4 26 D
+qml: PLANE_PROGRESS 4 5 26 E
+qml: PLANE_PROGRESS 4 6 26 F
+qml: PLANE_PROGRESS 4 7 26 G
+qml: PLANE_PROGRESS 4 8 26 H
+qml: PLANE_PROGRESS 4 9 26 I
+qml: PLANE_PROGRESS 4 10 26 J
+qml: PLANE_PROGRESS 4 11 26 K
+qml: PLANE_PROGRESS 4 12 26 L
+qml: PLANE_PROGRESS 4 13 26 M
+qml: PLANE_PROGRESS 4 14 26 N
+qml: PLANE_PROGRESS 4 15 26 O
+qml: PLANE_PROGRESS 4 16 26 P
+qml: PLANE_PROGRESS 4 17 26 Q
+qml: PLANE_PROGRESS 4 18 26 R
+qml: PLANE_PROGRESS 4 19 26 S
+qml: PLANE_PROGRESS 4 20 26 T
+qml: PLANE_PROGRESS 4 21 26 U
+qml: PLANE_PROGRESS 4 22 26 V
+qml: PLANE_PROGRESS 4 23 26 W
+qml: PLANE_PROGRESS 4 24 26 X
+qml: PLANE_PROGRESS 4 25 26 Y
+qml: PLANE_PROGRESS 4 26 26 Z
+qml: NATIVE_PLANE_RESULT {"failures":0,"passes":2,"observations":[{"level":1,"indicationVisible":true,"captures":[{"expected":"a","drawn":"a","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":297}},{"expected":"b","drawn":"b","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":278}},{"expected":"c","drawn":"c","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":586}},{"expected":"d","drawn":"d","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":225}},{"expected":"e","drawn":"e","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":7}},{"expected":"f","drawn":"f","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":183}},{"expected":"g","drawn":"g","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":547}},{"expected":"h","drawn":"h","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":620}},{"expected":"i","drawn":"i","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":441}},{"expected":"j","drawn":"j","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":309}},{"expected":"k","drawn":"k","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":357}},{"expected":"l","drawn":"l","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":460}},{"expected":"m","drawn":"m","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":223}},{"expected":"n","drawn":"n","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":239}},{"expected":"o","drawn":"o","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":384}},{"expected":"p","drawn":"p","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":567}},{"expected":"q","drawn":"q","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":448}},{"expected":"r","drawn":"r","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":89}},{"expected":"s","drawn":"s","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":92}},{"expected":"t","drawn":"t","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":542}},{"expected":"u","drawn":"u","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":535}},{"expected":"v","drawn":"v","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":252}},{"expected":"w","drawn":"w","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":44}},{"expected":"x","drawn":"x","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":504}},{"expected":"y","drawn":"y","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":266}},{"expected":"z","drawn":"z","feedback":"fade","cloudMoved":true,"plane":{"x":418.75,"y":633}}],"bonus":true},{"level":2,"indicationVisible":true,"captures":[{"expected":"A","drawn":"A","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":43.75}},{"expected":"B","drawn":"B","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":595.75}},{"expected":"C","drawn":"C","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":335.75}},{"expected":"D","drawn":"D","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":143.75}},{"expected":"E","drawn":"E","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":309.75}},{"expected":"F","drawn":"F","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":477.75}},{"expected":"G","drawn":"G","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":543.75}},{"expected":"H","drawn":"H","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":340.75}},{"expected":"I","drawn":"I","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":236.75}},{"expected":"J","drawn":"J","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":449.75}},{"expected":"K","drawn":"K","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":382.75}},{"expected":"L","drawn":"L","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":16.75}},{"expected":"M","drawn":"M","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":364.75}},{"expected":"N","drawn":"N","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":640.75}},{"expected":"O","drawn":"O","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":516.75}},{"expected":"P","drawn":"P","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":10.75}},{"expected":"Q","drawn":"Q","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":423.75}},{"expected":"R","drawn":"R","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":141.75}},{"expected":"S","drawn":"S","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":115.75}},{"expected":"T","drawn":"T","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":31.75}},{"expected":"U","drawn":"U","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":368.75}},{"expected":"V","drawn":"V","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":541.75}},{"expected":"W","drawn":"W","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":316.75}},{"expected":"X","drawn":"X","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":405.75}},{"expected":"Y","drawn":"Y","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":173.75}},{"expected":"Z","drawn":"Z","feedback":"fade","cloudMoved":true,"plane":{"x":421.8125,"y":527.75}}],"bonus":true},{"level":3,"indicationVisible":false,"captures":[{"expected":"a","drawn":"a","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":52.5}},{"expected":"b","drawn":"b","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":339.5}},{"expected":"c","drawn":"c","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":558.5}},{"expected":"d","drawn":"d","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":590.5}},{"expected":"e","drawn":"e","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":613.5}},{"expected":"f","drawn":"f","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":204.5}},{"expected":"g","drawn":"g","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":445.5}},{"expected":"h","drawn":"h","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":161.5}},{"expected":"i","drawn":"i","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":83.5}},{"expected":"j","drawn":"j","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":209.5}},{"expected":"k","drawn":"k","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":585.5}},{"expected":"l","drawn":"l","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":338.5}},{"expected":"m","drawn":"m","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":435.5}},{"expected":"n","drawn":"n","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":500.5}},{"expected":"o","drawn":"o","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":177.5}},{"expected":"p","drawn":"p","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":440.5}},{"expected":"q","drawn":"q","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":294.5}},{"expected":"r","drawn":"r","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":403.5}},{"expected":"s","drawn":"s","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":363.5}},{"expected":"t","drawn":"t","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":71.5}},{"expected":"u","drawn":"u","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":113.5}},{"expected":"v","drawn":"v","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":644.5}},{"expected":"w","drawn":"w","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":556.5}},{"expected":"x","drawn":"x","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":328.5}},{"expected":"y","drawn":"y","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":353.5}},{"expected":"z","drawn":"z","feedback":"fade","cloudMoved":true,"plane":{"x":424.875,"y":379.5}}],"bonus":true},{"level":4,"indicationVisible":false,"captures":[{"expected":"A","drawn":"A","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":429.25}},{"expected":"B","drawn":"B","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":452.25}},{"expected":"C","drawn":"C","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":55.25}},{"expected":"D","drawn":"D","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":517.25}},{"expected":"E","drawn":"E","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":436.25}},{"expected":"F","drawn":"F","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":120.25}},{"expected":"G","drawn":"G","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":70.25}},{"expected":"H","drawn":"H","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":341.25}},{"expected":"I","drawn":"I","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":522.25}},{"expected":"J","drawn":"J","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":220.25}},{"expected":"K","drawn":"K","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":136.25}},{"expected":"L","drawn":"L","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":593.25}},{"expected":"M","drawn":"M","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":268.25}},{"expected":"N","drawn":"N","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":258.25}},{"expected":"O","drawn":"O","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":530.25}},{"expected":"P","drawn":"P","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":340.25}},{"expected":"Q","drawn":"Q","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":540.25}},{"expected":"R","drawn":"R","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":298.25}},{"expected":"S","drawn":"S","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":595.25}},{"expected":"T","drawn":"T","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":591.25}},{"expected":"U","drawn":"U","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":436.25}},{"expected":"V","drawn":"V","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":249.25}},{"expected":"W","drawn":"W","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":34.25}},{"expected":"X","drawn":"X","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":61.25}},{"expected":"Y","drawn":"Y","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":30.25}},{"expected":"Z","drawn":"Z","feedback":"fade","cloudMoved":true,"plane":{"x":427.9375,"y":503.25}}],"bonus":true}],"tutorial":[]}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
