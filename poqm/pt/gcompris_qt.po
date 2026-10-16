@@ -11577,7 +11577,7 @@ msgstr "Seleciona um terço da tarte."
 #: activities/fractions_create/resource/3/Data.qml:61
 msgctxt "Data|"
 msgid "Select two-thirds of the pie."
-msgstr "Seleciona dois-terços da tarte."
+msgstr "Seleciona dois terços da tarte."
 
 #: activities/fractions_create/resource/1/Data.qml:38
 #: activities/fractions_create/resource/3/Data.qml:67
@@ -11589,7 +11589,7 @@ msgstr "Seleciona um quarto da tarte."
 #: activities/fractions_create/resource/3/Data.qml:73
 msgctxt "Data|"
 msgid "Select two-fifths of the pie."
-msgstr "Seleciona dois-quintos da tarte."
+msgstr "Seleciona dois quintos da tarte."
 
 #: activities/fractions_create/resource/1/Data.qml:55
 msgctxt "Data|"
@@ -11599,7 +11599,7 @@ msgstr "Seleciona uma tarte e um quarto de tarte."
 #: activities/fractions_create/resource/1/Data.qml:61
 msgctxt "Data|"
 msgid "Select one pie and two-fifths of a pie."
-msgstr "Seleciona uma tarte e dois-quintos de tarte."
+msgstr "Seleciona uma tarte e dois quintos de tarte."
 
 #: activities/fractions_create/resource/1/Data.qml:67
 msgctxt "Data|"
@@ -11614,7 +11614,7 @@ msgstr "Seleciona uma tarte e uma metade de tarte."
 #: activities/fractions_create/resource/1/Data.qml:79
 msgctxt "Data|"
 msgid "Select one pie and three-quarters of a pie."
-msgstr "Seleciona uma tarte e três-quartos de tarte."
+msgstr "Seleciona uma tarte e três quartos de tarte."
 
 #: activities/fractions_create/resource/10/Data.qml:9
 msgctxt "Data|"
@@ -11653,7 +11653,7 @@ msgstr "Seleciona um terço do quadrado."
 #: activities/fractions_create/resource/4/Data.qml:61
 msgctxt "Data|"
 msgid "Select two-thirds of the square."
-msgstr "Seleciona dois-terços do quadrado."
+msgstr "Seleciona dois terços do quadrado."
 
 #: activities/fractions_create/resource/2/Data.qml:38
 #: activities/fractions_create/resource/4/Data.qml:67
@@ -11665,7 +11665,7 @@ msgstr "Seleciona um quarto do quadrado."
 #: activities/fractions_create/resource/4/Data.qml:73
 msgctxt "Data|"
 msgid "Select two-fifths of the square."
-msgstr "Seleciona dois-quintos do quadrado."
+msgstr "Seleciona dois quintos do quadrado."
 
 #: activities/fractions_create/resource/2/Data.qml:55
 msgctxt "Data|"
@@ -11675,7 +11675,7 @@ msgstr "Seleciona um quadrado e um quarto de quadrado."
 #: activities/fractions_create/resource/2/Data.qml:61
 msgctxt "Data|"
 msgid "Select one square and two-fifths of a square."
-msgstr "Seleciona um quadrado e dois-quintos de quadrado."
+msgstr "Seleciona um quadrado e dois quintos de quadrado."
 
 #: activities/fractions_create/resource/2/Data.qml:67
 msgctxt "Data|"
@@ -11690,7 +11690,7 @@ msgstr "Seleciona um quadrado e uma metade de quadrado."
 #: activities/fractions_create/resource/2/Data.qml:79
 msgctxt "Data|"
 msgid "Select one square and three-quarters of a square."
-msgstr "Seleciona um quadrado e três-quartos de quadrado."
+msgstr "Seleciona um quadrado e três quartos de quadrado."
 
 #: activities/fractions_create/resource/3/Data.qml:9
 msgctxt "Data|"
@@ -11700,7 +11700,7 @@ msgstr "Frações não simplificadas com uma tarte."
 #: activities/fractions_create/resource/3/Data.qml:79
 msgctxt "Data|"
 msgid "Select three-fifths of the pie."
-msgstr "Seleciona três-quintos da tarte."
+msgstr "Seleciona três quintos da tarte."
 
 #: activities/fractions_create/resource/4/Data.qml:9
 msgctxt "Data|"
@@ -11710,7 +11710,7 @@ msgstr "Frações não simplificadas com um quadrado."
 #: activities/fractions_create/resource/4/Data.qml:79
 msgctxt "Data|"
 msgid "Select three-fifths of the square."
-msgstr "Seleciona três-quintos do quadrado."
+msgstr "Seleciona três quintos do quadrado."
 
 #: activities/fractions_create/resource/5/Data.qml:9
 msgctxt "Data|"
