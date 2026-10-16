@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "pairs": [
+    [
+      "pilot",
+      "pilot-green",
+      "pilot.qml"
+    ],
+    [
+      "direct-18-baseline",
+      "direct-18-green",
+      "direct-18.qml"
+    ],
+    [
+      "map-pause-baseline",
+      "map-pause-green",
+      "map-pause.qml"
+    ]
+  ],
+  "artifact_sha256": {
+    "pilot/native.log": "5db9f2c3277e79be3c0abfb4191b0967127659259c7d87992ad326ed47feda36",
+    "pilot/result.json": "f3d7154c1e03fa904a24686612c8cbb8f96388ec572861f22344f64e8922021d",
+    "pilot-green/maze-1.png": "6401bc67b23192c4f3ac98fbd858ba6ce1af1806d463f705622898cff863c28d",
+    "pilot-green/native.log": "c50b7d50d7f85334c2f1dc566d332bfe43f002282c5a2a6837001df57188c2e0",
+    "pilot-green/result.json": "18359d29c709dedb6a86832e67043caf8e25ae4e217c54ac936a50ef449bd1bf",
+    "pilot.qml": "1dc7f95d23ada037a8b9b85f5ed391783d088b256100e1073004a064996f5bca",
+    "direct-18-baseline/native.log": "6ab2791c9ff83858330edcaf682bf0dac6736ac5b5e98ba15d1056d7a5945698",
+    "direct-18-baseline/result.json": "0af4bd9c4a7554c5f41832b9c4cdd89e755b4869c9c9393139fea95d1c021685",
+    "direct-18-green/native.log": "86381489f07095b989b8684e94f427b1c13d785f1458a146d9a3a35ccb4f6da9",
+    "direct-18-green/result.json": "93589062e1804b53f1bb4e3d12add7a67419d680c421b65724c749cc5fb246cc",
+    "direct-18.qml": "85bb6b84d24884d784b6194cb65917b3753fdeeb280eac1b5fc733c58bdd4eb0",
+    "map-pause-baseline/native.log": "1bac14b453a051fe2b5e14d50c0e1adc76023427d25caa3692be617949c185ce",
+    "map-pause-baseline/result.json": "009d8c7de316ae7b9329134f13935078a5f250bed2d8290a9e92d773f08d9186",
+    "map-pause-green/native.log": "472fc47e0dfe2352d61859a7327f8a105e54a2f2cd08ec10a263da3953b01aaa",
+    "map-pause-green/result.json": "6cf3ef3d079ff4c7a91c0e00de3e9408c7a8a941066dbfc6223ab05701d2ed22",
+    "map-pause.qml": "ebacedcd6a36bb83737f3744dd4e7da77cd6041402d1a24f5ccb493b60a39895"
+  }
+}

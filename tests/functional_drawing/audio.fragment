@@ -1,0 +1,47 @@
+    property var requested: []
+    property var playing: []
+    property var progressed: []
+    property var audioErrors: []
+    property var copiedRoutes: ({})
+    property int audioSerial: 0
+    property int lastProgress: -1
+    property var realPlayer: null
+    File {id: copiedResource}
+    function findPlayer(root) {
+        if(root.position!==undefined&&root.playbackState!==undefined&&root.duration!==undefined)return root;
+        if(root.data)for(var i=0;i<root.data.length;i++){var p=findPlayer(root.data[i]);if(p)return p;}
+        return null;
+    }
+    function enableObservedAudio() {
+        ApplicationSettings.isAudioVoicesEnabled=true;ApplicationSettings.isAudioEffectsEnabled=true;
+        activity.audioVoices.muted=false;
+        realPlayer=findPlayer(activity.audioVoices);verify(realPlayer!==null,"Observe original Qt MediaPlayer");
+    }
+    Connections {
+        target: activity.audioVoices
+        function onSourceChanged(){
+            var route=String(activity.audioVoices.source);
+            if(!route)return;
+            nativeDrawing.audioSerial++;
+            nativeDrawing.requested.push({serial:nativeDrawing.audioSerial,route:route});
+            if(route.indexOf("/voices-")>=0)nativeDrawing.verify(route.indexOf("/voices-ogg/pt/")>=0,"Portuguese voice route, including card or Bonus feedback");
+            if(nativeDrawing.copiedRoutes[route]===undefined) {
+                var name=route.split('/').pop();
+                nativeDrawing.verify(copiedResource.copy(route,"__QA_OUTPUT__/"+name),"Copy actual Qt-registered resource bytes");
+                nativeDrawing.copiedRoutes[route]=name;
+            }
+        }
+    }
+    Connections {
+        target: nativeDrawing.realPlayer
+        function onPlaybackStateChanged(){
+            if(nativeDrawing.realPlayer.playbackState===1)nativeDrawing.playing.push({serial:nativeDrawing.audioSerial,route:String(activity.audioVoices.source)});
+        }
+        function onPositionChanged(){
+            if(nativeDrawing.realPlayer.position>0&&nativeDrawing.realPlayer.hasAudio&&nativeDrawing.lastProgress!==nativeDrawing.audioSerial){
+                nativeDrawing.lastProgress=nativeDrawing.audioSerial;
+                nativeDrawing.progressed.push({serial:nativeDrawing.audioSerial,route:String(activity.audioVoices.source),position:nativeDrawing.realPlayer.position,duration:nativeDrawing.realPlayer.duration,playbackState:nativeDrawing.realPlayer.playbackState});
+            }
+        }
+        function onErrorOccurred(error,errorString){nativeDrawing.audioErrors.push({error:error,message:errorString,route:String(activity.audioVoices.source)});}
+    }

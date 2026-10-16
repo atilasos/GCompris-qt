@@ -159,7 +159,7 @@ e os restantes critérios de aceitação mantêm os seus estados próprios.
 
 A memória matemática concluiu 14 variantes e 207 combinações nível/modo;
 decimais/quantidades concluíram 316 puzzles em 16 campanhas offline e quatro casos de controlos.
-As 55 atividades com evidência funcional ligada na matriz não representam
+As 64 atividades com evidência funcional ligada na matriz não representam
 a aceitação global dos 203 jogos.
 
 - [40 — Contrato dos níveis do Solitário](issues/40-niveis-solitario.md)
@@ -180,3 +180,11 @@ a aceitação global dos 203 jogos.
 - [48 — Ligar pontos e desenhar](issues/48-ligar-pontos-desenhar.md)
 
 - [49 — Torres de Hanói](issues/49-torres-hanoi.md)
+
+- [50 — Labirintos](issues/50-labirintos.md)
+
+- [51 — Bloqueio dos discos inferiores](issues/51-hanoi-discos-cobertos.md)
+
+- [52 — Ordenação](issues/52-ordenacao.md)
+
+- [53 — Cores](issues/53-cores.md)

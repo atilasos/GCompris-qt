@@ -35,7 +35,7 @@ chess_partyend,pending,pending,pending,pending,pending,
 chronos,pending,pending,pending,pending,pending,
 click_on_letter,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/click_on_letter.md
 click_on_letter_up,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/click_on_letter_up.md
-clickanddraw,pending,pending,pending,pending,pending,
+clickanddraw,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/clickanddraw.md
 clickgame,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/clickgame.md
 clockgame,pending,pending,pending,pending,pending,
 color_mix,pending,pending,pending,pending,pending,
@@ -47,9 +47,9 @@ crane,pending,pending,pending,pending,pending,
 details,pending,pending,pending,pending,pending,
 digital_electricity,pending,pending,pending,pending,pending,
 drawing_wheels,pending,pending,pending,pending,pending,
-drawletters,pending,pending,pending,pending,pending,
-drawnumbers,pending,pending,pending,pending,pending,
-enumerate,pending,pending,pending,pending,pending,
+drawletters,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/drawletters.md
+drawnumbers,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/drawnumbers.md
+enumerate,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/enumerate.md
 erase,pending,pending,pending,pending,pending,
 erase_2clic,pending,pending,pending,pending,pending,
 erase_clic,pending,pending,pending,pending,pending,
@@ -84,8 +84,8 @@ guess24,pending,pending,pending,pending,pending,
 guesscount,pending,pending,pending,pending,pending,
 guessnumber,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/guessnumber.md
 hangman,pending,pending,pending,pending,pending,
-hanoi,pending,pending,pending,pending,pending,
-hanoi_real,pending,pending,pending,pending,pending,
+hanoi,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/hanoi.md
+hanoi_real,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/hanoi_real.md
 hexagon,pending,pending,pending,pending,pending,
 imagename,pending,pending,pending,pending,pending,
 instruments,pending,pending,pending,pending,pending,
@@ -144,7 +144,7 @@ multiple_choice_questions,pending,pending,pending,pending,pending,.scratch/pt-pt
 nine_men_morris,pending,pending,pending,pending,pending,
 nine_men_morris_2players,pending,pending,pending,pending,pending,
 note_names,pending,pending,pending,pending,pending,
-number_sequence,pending,pending,pending,pending,pending,
+number_sequence,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/number_sequence.md
 numbers-odd-even,pending,pending,pending,pending,pending,
 ordering_alphabets,pending,pending,pending,pending,pending,
 ordering_chronology,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/ordering_chronology.md
@@ -182,8 +182,8 @@ share,pending,pending,pending,pending,pending,
 simplepaint,pending,pending,pending,pending,pending,
 sixteen,pending,pending,pending,pending,pending,
 sketch,pending,pending,pending,pending,pending,
-smallnumbers,pending,pending,pending,pending,pending,
-smallnumbers2,pending,pending,pending,pending,pending,
+smallnumbers,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/smallnumbers.md
+smallnumbers2,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/smallnumbers2.md
 solar_system,pending,pending,pending,pending,pending,
 submarine,pending,pending,pending,pending,pending,
 sudoku,pending,pending,pending,pending,pending,

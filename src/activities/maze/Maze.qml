@@ -75,6 +75,7 @@ ActivityBase {
         }
 
         onStart: {
+            activity.numberOfLevel = items.numberOfLevel
             Activity.start(items, activity.relativeMode, activity.invisibleMode)
         }
         onStop: {
