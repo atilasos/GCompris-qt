@@ -13,15 +13,15 @@ TestCase {
   var images=[];
   function walk(item){
    if(item.visible&&item.opacity>0.9&&item.source!==undefined&&/lightsoff\/resource\/(?:on|off)\.svg$/.test(String(item.source))){
-    tryCompare(item,'status',1,2000);var point=item.mapToItem(grid,0,0);
-    ensure(point.x>=-0.1&&point.y>=-0.1&&point.x+item.width<=grid.width+0.1&&point.y+item.height<=grid.height+0.1,'Window inside board');
+    tryCompare(item,'status',1,2000);var point=item.mapToItem(grid,item.width/2,item.height/2);
+    ensure(point.x>=0&&point.y>=0&&point.x<=grid.width&&point.y<=grid.height,'Window centre inside board');
     images.push({item:item,x:point.x,y:point.y,width:item.width,height:item.height,source:String(item.source)});
    }
    if(item.children)for(var child of item.children)walk(child);
   }
   walk(grid);images.sort(function(a,b){return Math.abs(a.y-b.y)>1?a.y-b.y:a.x-b.x;});
   var size=Math.sqrt(images.length);ensure(Number.isInteger(size)&&size>=5&&size<=9,'Square visible board');
-  for(var i=0;i<images.length;i++){var tile=images[i];ensure(Math.abs(tile.x-(i%size)*grid.cellWidth)<1&&Math.abs(tile.y-Math.floor(i/size)*grid.cellHeight)<1,'Row-major drawn geometry');}
+  for(var i=0;i<images.length;i++){var tile=images[i];ensure(Math.abs(tile.x-(i%size+0.5)*grid.cellWidth)<1&&Math.abs(tile.y-(Math.floor(i/size)+0.5)*grid.cellHeight)<1,'Row-major drawn geometry');}
   return images;
  }
  function state(){return windows().map(function(o){return o.source.endsWith('/on.svg')?1:0;});}
