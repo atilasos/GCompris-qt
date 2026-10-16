@@ -1,0 +1,17 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+TestCase {
+ function ensure(v,m){if(!v)console.log('CONTROLS_ASSERT',m,new Error().stack);verify(v,m);}
+
+ when:activity.visible
+ property var evidence:({})
+ function all(root){var found=[root];if(root.children)for(var c of root.children)found=found.concat(all(c));return found;}
+ function click(item,button){ensure(item!==undefined&&item!==null);var point=item.mapToItem(pageView,item.width/2,item.height/2);ensure(point.x>=0&&point.y>=0&&point.x<pageView.width&&point.y<pageView.height);mouseClick(pageView,point.x,point.y,button===undefined?Qt.LeftButton:button,Qt.NoModifier,0);wait(30);}
+ function icon(suffix){wait(400);var image=all(bar).find(c=>c.source!==undefined&&String(c.source).endsWith(suffix));ensure(image!==undefined,suffix);click(image);wait(350);}
+ function point(item){var p=item.mapToItem(activityBackground,item.width/2,item.height/2);return {x:p.x,y:p.y,width:item.width,height:item.height,source:item.source!==undefined?String(item.source):null};}
+ function helpPT(word){var depth=pageView.depth;icon('bar_help.svg');tryCompare(pageView,'depth',depth+1,2000);wait(300);var help=pageView.currentItem;ensure(help.content.indexOf(word)>=0);evidence.help={title:String(help.title),content:String(help.content)};grabImage(pageView).save('__QA_OUTPUT__/help.png');keyClick(Qt.Key_Escape);tryCompare(pageView,'depth',depth,2000);wait(500);evidence.escape=true;}
+ function finishMenu(){evidence.reloadOffered=all(bar).some(c=>c.source!==undefined&&String(c.source).endsWith('bar_reload.svg'));evidence.configurationOffered=all(bar).some(c=>c.source!==undefined&&String(c.source).endsWith('bar_activity_config.svg'));ActivityInfoTree.startingActivity='';keyClick(Qt.Key_W,Qt.ControlModifier);tryCompare(pageView,'depth',1,2000);ensure(pageView.currentItem.isMenu);evidence.menu=true;grabImage(pageView).save('__QA_OUTPUT__/menu.png');}
+ function fill(progress){var child=progress.children[0];return {width:child.width,total:progress.width,color:String(child.color),visible:progress.visible};}
+ function test_controls(){wait(1300);compare(activity.numberOfLevel,9);helpPT('baliza');var before=point(ball),instruction=String(instructionPanel.textItem.text);keyClick(Qt.Key_Left);keyClick(Qt.Key_Right);keyClick(Qt.Key_Return);compare(point(ball).x,before.x);compare(point(ball).y,before.y);compare(String(instructionPanel.textItem.text),instruction);evidence.unsupportedKeyboard=true;
+ click(rectLeft);tryVerify(()=>fill(progressLeft).visible&&fill(progressLeft).width>1&&fill(progressLeft).color==='#00ff00',1500);evidence.focusAfterHelp=true;icon('bar_next.svg');compare(activity.currentLevel,1);wait(700);evidence.afterNavigation={ball:point(ball),bars:[progressLeft,progressTop,progressRight].map(fill),instruction:String(instructionPanel.textItem.text)};console.log('AFTER_LEVEL_CHANGE',JSON.stringify(evidence.afterNavigation));ensure(Math.abs(point(ball).x-before.x)<1&&Math.abs(point(ball).y-before.y)<1);ensure([progressLeft,progressTop,progressRight].every(p=>!p.visible||fill(p).width<1));evidence.partialRestart=true;icon('bar_previous.svg');compare(activity.currentLevel,0);icon('bar_previous.svg');compare(activity.currentLevel,8);icon('bar_next.svg');compare(activity.currentLevel,0);evidence.wrap=true;finishMenu();}
+ function cleanupTestCase(){if(qtest_results.failCount)grabImage(pageView).save('__QA_OUTPUT__/failure.png');console.log('NATIVE_RESULT',JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,evidence:evidence}));}
+}
