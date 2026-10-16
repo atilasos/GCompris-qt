@@ -49,6 +49,11 @@ class CopiedEvidence(unittest.TestCase):
         result=self.audit();self.assertEqual(result.returncode,0,result.stderr)
         report=json.loads(result.stdout);self.assertEqual((report['positive_cases'],report['comparisons'],report['adjacent_questions']),(8,650,250))
 
+    def test_optimised_interpreter_cannot_disable_checks(self):
+        result=subprocess.run([sys.executable,'-B','-O',str(self.root/'auditor/audit.py'),'--evidence',str(self.root)],cwd=self.workspace.name,capture_output=True,text=True)
+        self.assertNotEqual(result.returncode,0)
+        self.assertIn('without optimisation',result.stderr)
+
     def test_resealed_portuguese_catalogue_rejected(self):
         relative='poqm/pt/gcompris_qt.po';path=self.root/'archive/files'/relative;path.write_bytes(path.read_bytes()+b'\n# changed catalogue\n');self.reseal_source(relative)
         self.assertNotEqual(self.audit().returncode,0)

@@ -7,6 +7,9 @@ import json
 from pathlib import Path
 import subprocess
 
+if not __debug__:
+    raise RuntimeError('Evidence checks require Python assertions; run without optimisation')
+
 ROOT=Path(__file__).resolve().parents[2]
 SOURCE='e38441ab1'
 RED='d76b8408a'

@@ -13,6 +13,9 @@ sys.dont_write_bytecode=True
 from PIL import Image
 from archive import verify as verify_archive,SELECTED
 
+if not __debug__:
+    raise RuntimeError('Evidence checks require Python assertions; run without optimisation')
+
 SOURCE='e38441ab1e30fe543db96b35a913857f70153dc9'
 ARCHIVE='fcb173f1fe9ebcb9902f2b52577b53e83659ef389e92f71ebee5a2a4e88645a4'
 CAPTURE='PENDING'
