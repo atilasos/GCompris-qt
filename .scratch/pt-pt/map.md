@@ -190,3 +190,5 @@ a aceitação global dos 203 jogos.
 - [53 — Cores](issues/53-cores.md)
 
 - [54 — Provas portáteis de Hangman](issues/54-hangman-provas-portateis.md)
+
+- [55 — Auditoria histórica de Hanói](issues/55-hanoi-auditoria-historica.md)
