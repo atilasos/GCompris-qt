@@ -49,7 +49,7 @@ def verify(output):
     return manifest
 
 
-SELECTED=['comparator-complete','adjacent-automatic-complete','adjacent-manual-complete',
+SELECTED=['comparator-complete','adjacent-automatic-complete','adjacent-manual-complete-rerun',
           'comparator-controls','adjacent-controls','comparator-resources','adjacent_numbers-resources',
           'adjacent-contract-red','adjacent-contract-green2']
 
@@ -65,7 +65,7 @@ def capture(commit,output):
         assert (output.parent/relative).read_bytes()==data,relative
         files[relative]={'sha256':hashlib.sha256(data).hexdigest(),'bytes':len(data)}
     assert 'audio-decode.json' in files
-    assert all(name+'/result.json' in files and name+'/launcher-status.json' in files for name in SELECTED)
+    assert all(name+'/result.json' in files and name+'/launcher-status.json' in files and name+'/tool-status.json' in files for name in SELECTED)
     output.write_text(json.dumps({'version':1,'capture_commit':commit,'files':files},indent=2)+'\n')
     return {'capture_commit':commit,'files':len(files),'sha256':sha(output)}
 

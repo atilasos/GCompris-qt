@@ -10,7 +10,7 @@ captura. Pilotos e diagnósticos ficam separados e não contam como conclusão.
 | --- | --- |
 | comparator-complete | 26 níveis, 130 perguntas, 650 comparações |
 | adjacent-automatic-complete | 25 níveis, 125 perguntas, validação automática |
-| adjacent-manual-complete | 25 níveis, 125 perguntas, OK ou Enter |
+| adjacent-manual-complete-rerun | 25 níveis, 125 perguntas, OK ou Enter |
 | comparator-controls, adjacent-controls | Reinício, escolhas persistidas, navegação, ajuda, foco e menu |
 | comparator-resources, adjacent_numbers-resources | Cópia dos QML/JS/SVG/WAV e carregamento dos SVG |
 | adjacent-contract-red, adjacent-contract-green2 | Mesmo caso Qt antes/depois da publicação dos níveis |
@@ -79,3 +79,17 @@ Windows 10, dispositivos físicos, áudio e revisão pedagógica do professor
 continuam pendentes. Pilotos com falhas de configuração do caso ou tentativas
 inválidas de alias não contam como defeitos corrigidos ou jogos concluídos;
 os seus diagnósticos históricos são preservados separadamente.
+
+## Fronteiras de execução
+
+O primeiro `adjacent-manual-complete` concluiu 125 perguntas e 25 níveis,
+com recibo Qt 0 e launcher 0 observado pelo supervisor. A ferramenta externa
+retornou 143. Não se infere aqui a causa. Essa execução é histórica, não entra
+nas contagens selecionadas e não é descrita como sucesso em todas as fronteiras.
+O percurso selecionado é `adjacent-manual-complete-rerun`, com o mesmo SHA do
+caso QML original e uma nova execução integral, ainda a aguardar captura.
+
+Cada caso selecionado terá `tool-status.json`, criado após observar o retorno
+da ferramenta, ligado aos hashes do recibo nativo e do status do launcher.
+A auditoria exige saída Qt, launcher pós-espera e ferramenta externa coerentes:
+0 nos oito positivos; no vermelho esperado, Qt 0 e launcher/ferramenta 1.

@@ -9,10 +9,9 @@ import importlib.util
 import json
 from pathlib import Path
 import sys
+sys.dont_write_bytecode=True
 from PIL import Image
 from archive import verify as verify_archive,SELECTED
-
-sys.dont_write_bytecode=True
 
 SOURCE='e38441ab1e30fe543db96b35a913857f70153dc9'
 ARCHIVE='fcb173f1fe9ebcb9902f2b52577b53e83659ef389e92f71ebee5a2a4e88645a4'
@@ -21,7 +20,7 @@ BASE='.scratch/pt-pt/functional-comparisons'
 DEFAULT=Path(__file__).resolve().parents[2]/BASE
 ACTIVITIES={'comparator':'Comparator.qml','adjacent_numbers':'Adjacent_numbers.qml'}
 CASE_ACTIVITY={'comparator-complete':'comparator','comparator-controls':'comparator','comparator-resources':'comparator',
-               'adjacent-automatic-complete':'adjacent_numbers','adjacent-manual-complete':'adjacent_numbers',
+               'adjacent-automatic-complete':'adjacent_numbers','adjacent-manual-complete-rerun':'adjacent_numbers',
                'adjacent-controls':'adjacent_numbers','adjacent_numbers-resources':'adjacent_numbers',
                'adjacent-contract-red':'adjacent_numbers','adjacent-contract-green2':'adjacent_numbers'}
 
@@ -48,14 +47,17 @@ def captured(root):
     manifest=json.loads((root/'capture.json').read_text());assert manifest['version']==1 and len(manifest['capture_commit'])==40
     for relative,identity in manifest['files'].items():
         path=root/relative;assert not path.is_symlink() and sha(path)==identity['sha256'] and path.stat().st_size==identity['bytes'],relative
-    assert all(name+'/result.json' in manifest['files'] and name+'/launcher-status.json' in manifest['files'] for name in SELECTED)
+    assert all(name+'/result.json' in manifest['files'] and name+'/launcher-status.json' in manifest['files'] and name+'/tool-status.json' in manifest['files'] for name in SELECTED)
     return manifest
 
 
 def native(root,name,manifest,source):
     activity=CASE_ACTIVITY[name];directory=root/name;result=json.loads((directory/'result.json').read_text())
     status=json.loads((directory/'launcher-status.json').read_text());red=name=='adjacent-contract-red'
-    case='adjacent-level-contract.qml' if name.startswith('adjacent-contract-') else name+'.qml'
+    case='adjacent-level-contract.qml' if name.startswith('adjacent-contract-') else 'adjacent-manual-complete.qml' if name=='adjacent-manual-complete-rerun' else name+'.qml'
+    tool=json.loads((directory/'tool-status.json').read_text())
+    assert tool['format']==1 and tool['kind']=='observed-exec-tool-return' and tool['exit_code']==(1 if red else 0)
+    assert tool['native_receipt_sha256']==sha(directory/'result.json') and tool['launcher_status_sha256']==sha(directory/'launcher-status.json')
     assert result['activity']==activity and result['locale']=='pt_PT' and result['network']=='docker-none'
     assert result['portuguese_catalogue_sha256']==sha(source/'poqm/pt/gcompris_qt.po')
     assert result['case_sha256']==status['case_sha256']==sha(source/BASE/case)
@@ -83,7 +85,7 @@ def verify(root):
     assert len(data['comparator']['levels'])==26 and data['comparator']['puzzles']==130
     assert len(data['adjacent_numbers']['levels'])==25 and data['adjacent_numbers']['puzzles']==125
     compared=0;adjacent_questions=0;completed_levels=0;wrong=0;signs=set();decimal_seen=False;negative_adjacent=False
-    for name,activity,manual in [('comparator-complete','comparator',None),('adjacent-automatic-complete','adjacent_numbers',False),('adjacent-manual-complete','adjacent_numbers',True)]:
+    for name,activity,manual in [('comparator-complete','comparator',None),('adjacent-automatic-complete','adjacent_numbers',False),('adjacent-manual-complete-rerun','adjacent_numbers',True)]:
         case,result=results[name];levels=data[activity]['levels'];puzzles=case['puzzles']
         assert case['wrong']==len(puzzles)==data[activity]['puzzles']
         assert case['completed']==[{'level':level['level'],'puzzles':level['puzzles']} for level in levels]
@@ -119,7 +121,7 @@ def verify(root):
         completed_levels+=len(levels);wrong+=case['wrong']
     assert signs=={'<','=','>'} and decimal_seen and negative_adjacent
     assert results['comparator-complete'][0]['marks']==650
-    for name in ('adjacent-automatic-complete','adjacent-manual-complete'):
+    for name in ('adjacent-automatic-complete','adjacent-manual-complete-rerun'):
         case=results[name][0];assert case['moves']==sum(len(puzzle['missing'])+1 for puzzle in case['puzzles'])
     assert compared==650 and adjacent_questions==250 and completed_levels==76 and wrong==380
     for name,title,total,reduced in [('comparator-controls','Comparar os números',26,23),('adjacent-controls','Descobrir os números sequenciais.',25,21)]:
@@ -135,7 +137,7 @@ def verify(root):
         assert record['exit_code']==0 and record['sha256']==sha(root/record['file']) and not record['stderr']
     red=results['adjacent-contract-red'][0];green=results['adjacent-contract-green2'][0]
     assert red['levels']==0 and red['current']==0 and red['displayed']==2
-    assert green['levels']==25 and green['current']==green['displayed']-1
+    assert green['levels']==25 and green['displayed']==red['displayed']==2 and green['current']==1
     assert results['adjacent-contract-red'][1]['case_sha256']==results['adjacent-contract-green2'][1]['case_sha256']
     return {'scope':'Linux Qt offline; Windows, physical input/audio and teacher pending','source_commit':SOURCE,'capture_commit':capture['capture_commit'],'positive_cases':8,'expected_red_cases':1,'completed_levels':76,'comparator_questions':130,'comparisons':650,'adjacent_questions':250,'wrong_answers':380,'natural_bonus':76,'level_images':76,'copied_resources':copied}
 

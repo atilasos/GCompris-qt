@@ -11,7 +11,7 @@ import unittest
 
 ROOT=Path(__file__).resolve().parents[2]
 EVIDENCE=ROOT/'.scratch/pt-pt/functional-comparisons'
-NAMES=['comparator-complete','adjacent-automatic-complete','adjacent-manual-complete',
+NAMES=['comparator-complete','adjacent-automatic-complete','adjacent-manual-complete-rerun',
        'comparator-controls','adjacent-controls','comparator-resources','adjacent_numbers-resources',
        'adjacent-contract-red','adjacent-contract-green2']
 
@@ -39,7 +39,8 @@ class CopiedEvidence(unittest.TestCase):
 
     def receipt(self,name,record):
         relative=name+'/result.json';path=self.root/relative;path.write_text(json.dumps(record))
-        status_relative=name+'/launcher-status.json';status=self.root/status_relative;value=json.loads(status.read_text());value['native_receipt_sha256']=sha(path);status.write_text(json.dumps(value));self.reseal_capture(relative,status_relative)
+        status_relative=name+'/launcher-status.json';status=self.root/status_relative;value=json.loads(status.read_text());value['native_receipt_sha256']=sha(path);status.write_text(json.dumps(value))
+        tool_relative=name+'/tool-status.json';tool=self.root/tool_relative;value=json.loads(tool.read_text());value['native_receipt_sha256']=sha(path);value['launcher_status_sha256']=sha(status);tool.write_text(json.dumps(value));self.reseal_capture(relative,status_relative,tool_relative)
 
     def audit(self):
         return subprocess.run([sys.executable,'-B',str(self.root/'auditor/audit.py'),'--evidence',str(self.root)],cwd=self.workspace.name,capture_output=True,text=True)
@@ -60,6 +61,10 @@ class CopiedEvidence(unittest.TestCase):
         relative='comparator-complete/launcher-status.json';path=self.root/relative;record=json.loads(path.read_text());record['exit_code']=1;path.write_text(json.dumps(record));self.reseal_capture(relative)
         self.assertNotEqual(self.audit().returncode,0)
 
+    def test_resealed_external_tool_failure_rejected(self):
+        relative='comparator-complete/tool-status.json';path=self.root/relative;record=json.loads(path.read_text());record['exit_code']=143;path.write_text(json.dumps(record));self.reseal_capture(relative)
+        self.assertNotEqual(self.audit().returncode,0)
+
     def test_resealed_case_rejected(self):
         relative='.scratch/pt-pt/functional-comparisons/comparator-complete.qml';path=self.root/'archive/files'/relative;path.write_bytes(path.read_bytes()+b'\n// changed test\n');self.reseal_source(relative)
         self.assertNotEqual(self.audit().returncode,0)
@@ -69,7 +74,7 @@ class CopiedEvidence(unittest.TestCase):
         self.assertNotEqual(self.audit().returncode,0)
 
     def test_resealed_empty_route_rejected(self):
-        name='adjacent-manual-complete';record=json.loads((self.root/name/'result.json').read_text());record['case_result'].update(puzzles=[],completed=[],wrong=0);self.receipt(name,record)
+        name='adjacent-manual-complete-rerun';record=json.loads((self.root/name/'result.json').read_text());record['case_result'].update(puzzles=[],completed=[],wrong=0);self.receipt(name,record)
         self.assertNotEqual(self.audit().returncode,0)
 
     def test_resealed_level_image_pixel_rejected(self):
