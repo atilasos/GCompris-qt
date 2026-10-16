@@ -66,6 +66,7 @@ var items
 
 function start(items_) {
     items = items_
+    items.numberOfLevel = levelProperties.length
     items.currentLevel = Core.getInitialLevel(levelProperties.length)
 
     initLevel()
