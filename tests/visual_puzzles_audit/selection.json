@@ -1,0 +1,124 @@
+{
+  "runs": {
+    "inventory-details": {
+      "activity": "details",
+      "kind": "inventory",
+      "expected_exit": 0
+    },
+    "inventory-paintings": {
+      "activity": "paintings",
+      "kind": "inventory",
+      "expected_exit": 0
+    },
+    "inventory-photo_hunter": {
+      "activity": "photo_hunter",
+      "kind": "inventory",
+      "expected_exit": 0
+    },
+    "calibrate-paintings": {
+      "activity": "paintings",
+      "kind": "calibration",
+      "expected_exit": 0
+    },
+    "details-complete1": {
+      "activity": "details",
+      "kind": "negative",
+      "expected_exit": 1,
+      "reason": "Historical fixture checked OK during an animation"
+    },
+    "details-diagnostic1": {
+      "activity": "details",
+      "kind": "negative",
+      "expected_exit": 1,
+      "reason": "Historical diagnostic of validation readiness"
+    },
+    "details-complete2": {
+      "activity": "details",
+      "kind": "complete",
+      "expected_exit": 0
+    },
+    "photo-complete1": {
+      "activity": "photo_hunter",
+      "kind": "complete",
+      "expected_exit": 0
+    },
+    "paintings-pilot1": {
+      "activity": "paintings",
+      "kind": "pilot",
+      "expected_exit": 0,
+      "levels": [
+        1,
+        2,
+        3
+      ]
+    },
+    "paintings-complete1": {
+      "activity": "paintings",
+      "kind": "negative",
+      "expected_exit": 1,
+      "completed_prefix": 19,
+      "reason": "Historical pixel oracle failed on level20;19 natural wins, no claim of full completion"
+    },
+    "controls-details1": {
+      "activity": "details",
+      "kind": "controls",
+      "expected_exit": 0
+    },
+    "controls-paintings1": {
+      "activity": "paintings",
+      "kind": "controls",
+      "expected_exit": 0
+    },
+    "controls-photo1": {
+      "activity": "photo_hunter",
+      "kind": "negative",
+      "expected_exit": 1,
+      "reason": "Historical fixture checked hint geometry before animation settled"
+    },
+    "controls-photo2": {
+      "activity": "photo_hunter",
+      "kind": "controls",
+      "expected_exit": 0
+    },
+    "captions-details-red": {
+      "activity": "details",
+      "kind": "captions",
+      "expected_exit": 1,
+      "pair": "captions-details"
+    },
+    "captions-details-green": {
+      "activity": "details",
+      "kind": "captions",
+      "expected_exit": 0,
+      "pair": "captions-details"
+    },
+    "captions-paintings-red": {
+      "activity": "paintings",
+      "kind": "captions",
+      "expected_exit": 1,
+      "pair": "captions-paintings"
+    },
+    "captions-paintings-green": {
+      "activity": "paintings",
+      "kind": "captions",
+      "expected_exit": 0,
+      "pair": "captions-paintings"
+    },
+    "paintings-complete2": {
+      "activity": "paintings",
+      "kind": "complete",
+      "expected_exit": 0
+    }
+  },
+  "auxiliary": [
+    "painting-model-all1.json",
+    "painting-model-refined22.json",
+    "oracle-draft1.json",
+    "oracle-draft2.json",
+    "media-check1",
+    "media-check2",
+    "caption-facts.md",
+    "painting-model-final22.json",
+    "rectangular-diagnostics"
+  ]
+}
