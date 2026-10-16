@@ -188,3 +188,5 @@ a aceitação global dos 203 jogos.
 - [52 — Ordenação](issues/52-ordenacao.md)
 
 - [53 — Cores](issues/53-cores.md)
+
+- [54 — Provas portáteis de Hangman](issues/54-hangman-provas-portateis.md)
