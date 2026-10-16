@@ -1,7 +1,7 @@
 # Acertar o relógio em PT-PT
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -28,3 +28,8 @@ pendentes.
 
 Provas integradas; aguardam Standards e Spec independentes. Estado
 `ready-for-review` limitado à prova Linux, sem resolução final ou global.
+
+## Fecho de revisão
+
+Standards e Spec sem achados acionáveis; [relatórios](../review/integration70/).
+Resolução limitada à prova Linux publicada, sem aceitação global.

@@ -260,8 +260,8 @@ critérios globais; hardware, áudio, Windows e professor permanecem pendentes.
 
 A tarefa 70 tem prova Linux integrada de dez níveis nos dois formatos,
 100 respostas certas, 100 erradas e 20 Bonus, com quatro processos concluídos.
-Está `ready-for-review`, aguardando Standards e Spec independentes. A ligação
-do relógio foi acrescentada sem alterar critérios globais ou aprovação Windows,
+Fica resolvida no âmbito Linux após Standards e Spec sem achados;
+[relatórios](review/integration70/). A ligação do relógio foi acrescentada sem alterar critérios globais ou aprovação Windows,
 hardware, áudio e docente.
 
 - [71 — Chapéu mágico de adição e subtração](issues/71-chapeu-magico.md)
