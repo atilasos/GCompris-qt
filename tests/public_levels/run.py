@@ -17,18 +17,25 @@ def freeze(name):
  (target/'manifest.json').write_text(json.dumps(files,indent=2)+'\n')
  return target
 def run(phase,activity,qml,total,label=None):
+ out=BASE/'runs'/((label or activity)+'-'+phase)
+ log_path=out.parent/(out.name+'.log')
+ # Refuse before verifying sources, creating cases or opening any prior log.
+ if out.exists() or out.is_symlink():raise FileExistsError('Output already exists: '+str(out))
+ if log_path.exists() or log_path.is_symlink():raise FileExistsError('Parent log already exists: '+str(log_path))
  source=BASE/'sources'/phase
  for f,h in json.loads((source/'manifest.json').read_text()).items():
   if sha(source/f)!=h:raise ValueError('Frozen source corrupted: '+f)
  case=BASE/'cases'/((label or activity)+'.qml');case.parent.mkdir(exist_ok=True)
  data=(ROOT/'tests/public_levels/contract.qml').read_text().replace('__TOTAL__',str(total))
  if not case.exists():case.write_text(data)
- out=BASE/'runs'/((label or activity)+'-'+phase);out.parent.mkdir(exist_ok=True)
+ out.parent.mkdir(exist_ok=True)
  cmd=[sys.executable,str(source/'tools/run-native-qml-supervised.py'),'--source-root',str(source),'--activity',activity,'--qml-file',str(source/'src/activities'/qml),'--case',str(case),'--output',str(out),'--resource-snapshot',str(BASE/'runtime-snapshot'),'--offline','--keep-deployment','--timeout','60']
- with (BASE/'runs'/((label or activity)+'-'+phase+'.log')).open('w') as log:p=subprocess.run(cmd,stdout=log,stderr=subprocess.STDOUT)
+ with log_path.open('x') as log:p=subprocess.run(cmd,stdout=log,stderr=subprocess.STDOUT)
+ if p.returncode==2:return p.returncode
  if not out.exists():raise RuntimeError('Launcher did not make receipt; inspect parent log')
  receipt=out/'result.json'
- (out/'tool-status.json').write_text(json.dumps({'kind':'observed-subprocess-exit','exit_code':p.returncode,'native_receipt_sha256':sha(receipt),'supervisor_sha256':sha(source/'tools/run-native-qml-supervised.py')},indent=2)+'\n')
+ with (out/'tool-status.json').open('x') as status:
+  status.write(json.dumps({'kind':'observed-subprocess-exit','exit_code':p.returncode,'native_receipt_sha256':sha(receipt),'supervisor_sha256':sha(source/'tools/run-native-qml-supervised.py')},indent=2)+'\n')
  print(activity,phase,p.returncode,json.loads(receipt.read_text()).get('case_result'),flush=True)
  return p.returncode
 if __name__=='__main__':

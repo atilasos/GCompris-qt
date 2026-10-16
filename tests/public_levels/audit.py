@@ -3,6 +3,10 @@
 """Read physical task-82 evidence using only Python, without Qt or Git."""
 import argparse,hashlib,json,re,tarfile
 from pathlib import Path
+
+# External trust root for the original, already reviewed task-82 archive.
+# Keep historical capsules and receipts unchanged when fixing this verifier.
+HISTORICAL_INDEX_SHA256 = '39e855e2bd740c70bc6e02f3953cae9babd078ebcd5d5c417764e73353c82f5d'
 def digest(data):return hashlib.sha256(data).hexdigest()
 def require(ok,message):
  if not ok:raise ValueError(message)
@@ -13,7 +17,9 @@ def unpack(path):
   require(len({e.name for e in entries})==len(entries),'Duplicate physical entries')
   return {e.name:archive.extractfile(e).read() for e in entries}
 def audit(base):
- seal=data(base/'sealed.json')
+ index=base/'sealed.json'
+ require(not index.is_symlink() and digest(index.read_bytes())==HISTORICAL_INDEX_SHA256,'Historical archive index differs from external anchor')
+ seal=data(index)
  require(seal and all((base/p).is_file() and not (base/p).is_symlink() and digest((base/p).read_bytes())==h for p,h in seal.items()),'Physical archive seal')
  evidence=data(base/'evidence.json');snapshot=data(base/'snapshot-manifest.json');sources={phase:unpack(base/(phase+'-sources.tar.xz')) for phase in ['red','green']}
  for phase,files in sources.items():require({p:digest(raw) for p,raw in files.items()}==evidence['sources'][phase],'Physical historical source set')
