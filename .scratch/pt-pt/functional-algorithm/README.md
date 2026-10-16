@@ -45,7 +45,7 @@ O auditor final passou com três casos positivos, sete níveis, 21 perguntas e
 15 padrões diferentes observados, sem os confundir com os 28 exemplos
 publicados. Oito testes puros passaram, incluindo correspondência conhecida,
 prefixo ambíguo rejeitado, cópia independente e adulteração de fonte/catálogo
-reeselada, retorno externo, caso e imagem. Os recibos e sidecars originais
+com hashes recalculados, retorno externo, caso e imagem. Os recibos e sidecars originais
 são também conferidos byte a byte contra o commit imutável de captura.
 
 ```sh
