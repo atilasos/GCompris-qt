@@ -38,7 +38,7 @@ TestCase {
         if(s.visible)move(s,answer[2]*6);
         if(m.visible)move(m,answer[1]*6+answer[2]/10);
         move(h,(answer[0]%12)*30+answer[1]/2);
-        var wanted=angles(answer),observed=[topAngle(h),topAngle(m),topAngle(s)];
+        var wanted=angles(answer),observed=[topAngle(h),m.visible?topAngle(m):null,s.visible?topAngle(s):null];
         for(var i=0;i<3;i++)if(i===0||(i===1&&m.visible)||(i===2&&s.visible))ensure(distance(observed[i],wanted[i])<0.2,"Visible hand angle "+i+": "+observed[i]+" vs "+wanted[i]);
         return observed;
     }
@@ -56,14 +56,14 @@ TestCase {
         checked(String(ApplicationSettings.loadActivityConfiguration(activity.activityInfo.shortName()).mode),twentyFour?"2":"1");
     }
     function test_complete(){
-        wait(1300);if(twentyFour)configure();checked(activity.numberOfLevel,10);checked(activity.currentLevel,firstLevel-1);
+        wait(1300);if(twentyFour){configure();for(var navigation=0;activity.currentLevel!==firstLevel-1&&navigation<10;navigation++)icon(bar,"bar_next.svg");}checked(activity.numberOfLevel,10);checked(activity.currentLevel,firstLevel-1);
         for(var offset=0;offset<targetLevels;offset++){
             var level=firstLevel+offset;checked(activity.currentLevel,level-1);checked(score.numberOfSubLevels,5);
             for(var question=0;question<5;question++){
                 wait(250);checked(score.currentSubLevel,question);
                 var text=String(instructionPanel.textItem.text),answer=parse(text);
                 ensure(twentyFour?answer[0]>=12:answer[0]<12,"Selected clock format in visible instruction");
-                var before=[topAngle(h),topAngle(m),topAngle(s)],expected=angles(answer);
+                var before=[topAngle(h),m.visible?topAngle(m):null,s.visible?topAngle(s):null],expected=angles(answer);
                 ensure(distance(before[0],expected[0])>1||m.visible&&distance(before[1],expected[1])>1||s.visible&&distance(before[2],expected[2])>1,"Initial drawn clock differs from requested time");
                 click(okButton);checked(score.currentSubLevel,question);tryVerify(function(){return errorRectangle.opacity>0.5;},1200);wrong++;tryCompare(okButton,"enabled",true,3500);
                 var observed=setTime(answer);click(okButton);tryCompare(score,"currentSubLevel",question+1,1500);
