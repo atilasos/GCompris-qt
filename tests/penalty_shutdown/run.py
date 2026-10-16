@@ -8,6 +8,12 @@ HISTORY=ROOT/'.scratch/pt-pt/penalty-shutdown/history'
 PHASES={'baseline':'597c05f0b1d41946cb0fffe8b99e1c837b627cb2','final':'1729d456c'}
 MODES=['bare','retained','logged']
 def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
+def probe_passed(row):
+ native=row['inferior'];namespace=native.get('gdb_pid_namespace')
+ return (row['supervisor_return']==0 and native.get('native_exit_code')==0
+         and native.get('signals')==[] and native.get('identity_observed') is True
+         and native.get('cmdline_matches_binary') is True
+         and bool(namespace) and namespace==native.get('qt_pid_namespace'))
 def adapter(source):
  text=source.read_text();needle='    container = None\n'
  if text.count(needle)!=1 or text.count("'--network', 'none', '--read-only'")!=1:raise ValueError('Diagnostic boundary no longer matches the pinned launcher')
@@ -45,9 +51,9 @@ def main():
     shutil.copyfile(case_path,output/'case.qml');record={'kind':'observed-diagnostic-supervisor-return-after-wait','exit_code':process.returncode,'native_receipt_sha256':sha(receipt),'launcher_status_sha256':sha(status),'case_sha256':sha(case_path),'driver_sha256':sha(Path(__file__))};(output/'tool-status.json').write_text(json.dumps(record,indent=2)+'\n')
    else:record={'kind':'failed-before-receipt','exit_code':process.returncode}
    native=json.loads(inferior.read_text()) if inferior.exists() else {};row={'name':name,'phase':source.name,'mode':mode,'supervisor_return':process.returncode,'inferior':native,'source_launcher_sha256':sha(original),'diagnostic_launcher_sha256':sha(launcher),'case_sha256':sha(case_path)};observations.append(row);print(name,process.returncode,native.get('native_exit_code'),native.get('signals'),flush=True)
-   # A real SIGSEGV stops this finite matrix so its stack is preserved for diagnosis.
-   if 'SIGSEGV' in native.get('signals',[]) or process.returncode!=0 or not native.get('identity_observed'):break
-  if observations and (observations[-1]['supervisor_return']!=0 or not observations[-1]['inferior'].get('identity_observed')):break
+   # Stop the whole matrix on any failed or unverified inferior, even if its wrapper returned 0.
+   if not probe_passed(row):break
+  if observations and not probe_passed(observations[-1]):break
  (a.output/'observations.json').write_text(json.dumps({'planned':6,'actual':len(observations),'runs':observations,'scope':'Idle diagnostic variants; historical payload is not newly played gameplay; gdb wrapper exit is distinct from inferior status'},indent=2)+'\n')
- return 0 if len(observations)==6 and all(row['supervisor_return']==0 and row['inferior'].get('native_exit_code')==0 and row['inferior'].get('identity_observed') and row['inferior'].get('cmdline_matches_binary') and row['inferior'].get('gdb_pid_namespace')==row['inferior'].get('qt_pid_namespace') for row in observations) else 1
+ return 0 if len(observations)==6 and all(probe_passed(row) for row in observations) else 1
 if __name__=='__main__':raise SystemExit(main())
