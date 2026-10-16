@@ -1,7 +1,7 @@
 # Contagens públicas dos níveis
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -57,3 +57,10 @@ Windows, equipamento, áudio, pronúncia e revisão docente continuam pendentes.
 Provas integradas para Standards e Spec independentes. São contratos públicos
 de níveis, não conclusão funcional dos jogos. `ready-for-review` não aprova
 critérios globais ou resolução final; nenhuma ligação funcional foi acrescentada.
+
+## Revisão independente
+
+Dois P2 nas ferramentas corrigidos e revalidados sem alterar provas históricas.
+Standards final e Spec sem achados restantes;
+[relatórios](../review/integration82/README.md). Resolvida apenas para contratos
+públicos e navegação, sem atribuir conclusões funcionais aos jogos.

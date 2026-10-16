@@ -350,8 +350,9 @@ Fica resolvida no âmbito Linux após Standards e Spec sem achados;
 [relatórios](review/integration79/README.md). Duas ligações mantêm os critérios
 globais, Windows, hardware, áudio e docente pendentes.
 
-A tarefa 82 tem 24 contratos públicos e 50 execuções documentadas. Está
-`ready-for-review`, aguardando Standards e Spec independentes. Não representa
+A tarefa 82 tem 24 contratos públicos e 50 execuções documentadas. Fica
+resolvida neste âmbito após correção de dois P2, recheck Standards e Spec
+sem achados restantes; [relatórios](review/integration82/README.md). Não representa
 conclusão dos jogos, não acrescenta ligações funcionais à matriz nem altera
 critérios globais, Windows, hardware, áudio ou revisão docente.
 
