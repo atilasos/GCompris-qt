@@ -413,3 +413,5 @@ A tarefa 85 recebeu suplemento para o P2 de regresso ao menu, com três
 percursos completos repetidos e Ctrl+W até ao menu estável. Aguarda recheck
 independente; não aumenta a cobertura única nem altera a matriz. Os
 [relatórios iniciais](review/integration85/) ficam preservados como histórico.
+
+- [88 — Pormenores e pinturas](issues/88-pormenores-e-pinturas.md)
