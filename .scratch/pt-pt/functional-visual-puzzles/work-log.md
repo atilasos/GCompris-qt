@@ -33,3 +33,15 @@ oráculo ignora esses PNG, preservados para diagnóstico. Recorta a captura
 completa `level-N-question.png` usando os dois quadros desenhados e a sua
 geometria exportada. A imagem 3 mostra as duas diferenças corretamente nessa
 captura completa. Nenhum parâmetro de resposta do motor alimenta a procura.
+
+## Percursos e correções observados
+
+Photo-complete1 concluiu10níveis/35diferenças/10erros reparados e menu após sucesso, Qt/supervisor/capturador/retorno externo0. Details-complete2 concluiu21tabuleiros/106peças/21erros reparados e menu. Os dois negativos details anteriores mediram validação antes de a animação de OK terminar; o caso final aguarda okEnabled público, sem alteração ao produto.
+
+Paintings-pilot1 concluiu3quadros. Paintings-complete1 concluiu19 dos22, mas o oráculo propôs ordem visualmente errada para as6peças de Bazille20; Qt0, retorno externo1, sem Bonus20. A causa investigada é o custo de continuidade estreito dominado pelas molduras pretas. Este candidato não é um defeito do jogo nem prova de cobertura22.
+
+Controls-details1 e controls-paintings1 passaram, incluindo ajuda/Escape/teclado/reinício parcial/menu. Os três conjuntos details expõem8/6/7níveis. Controls-photo1 falhou por medir sobreposição antes da animação1000ms; controls-photo2 aguarda geometria e passou com barra arrastada realmente até0.9645, imagem2 opacidade0.0355, regresso da ajuda e menu parcial.
+
+Captions-details-red e captions-paintings-red registaram43legendas e6divergências. As mesmas fontes de caso/expectativas passaram nos dois verdes após6msgstr PT alterados em eefe6e5ff. As fichas de museus e incertezas estão em caption-facts.md. Gameplay details continua ligado ao PO anterior; a confirmação suplementar da legenda não repete o percurso de peças nem afirma ter usado o mesmo QM.
+
+Media-check1 falhou por rsvg-convert ausente, sem resultado de produto. Media-check2 renderizou/descodificou562imagens físicas e4efeitosWAV integralmente com GStreamer/fakesink, sem audição ou dispositivo real. Nenhuma aprovação das32gravações foi transferida.
