@@ -1,7 +1,7 @@
 # Numeração romana em PT-PT
 
 Status: ready-for-agent
-Progress: claimed
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -22,3 +22,8 @@ Qualquer defeito exige caso idêntico vermelho/verde.
 
 Windows 10, dispositivos físicos, audição e aceitação docente/global permanecem
 pendentes.
+
+## Integração
+
+Provas integradas para Standards e Spec independentes. `ready-for-review`
+não representa resolução final ou aceitação global.
