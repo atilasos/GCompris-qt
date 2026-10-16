@@ -1,0 +1,14 @@
+..F
+======================================================================
+FAIL: test_windows_default_newlines_still_publish_lf_contents_and_metadata (test_legacy_voice_publication.PublicationTest.test_windows_default_newlines_still_publish_lf_contents_and_metadata)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-legacy-voices-review/tests/test_legacy_voice_publication.py", line 97, in test_windows_default_newlines_still_publish_lf_contents_and_metadata
+    self.assertNotIn(b'\r', contents)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+AssertionError: b'\r' unexpectedly found in b'frhash  voices-fr.rcc\r\n66f96ffccc38373e31fe0ed6de1c8e66  voices-pt-2026-10-16-00-00-00.rcc\r\n'
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.973s
+
+FAILED (failures=1)

@@ -1,1 +1,7 @@
 *.svg binary
+
+# These exact UTF-8 bytes are pinned by the approved PT audio/package policy.
+/resources/pt-pt-voices/manifest.json text eol=lf
+/resources/pt-pt-voices/replacements.json text eol=lf
+/resources/pt-pt-voices/NOTICE.md text eol=lf
+/.scratch/pt-pt/legacy-word-review/human-approval.json text eol=lf
