@@ -1,7 +1,7 @@
 # Concluir as simulações de água, energia e eclusa
 
 Status: ready-for-agent
-Progress: open
+Progress: claimed
 Type: task
 Blocked by: 02, 25
 
