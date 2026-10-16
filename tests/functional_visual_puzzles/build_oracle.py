@@ -37,7 +37,11 @@ def build():
      boxes.append(box);crops.append(scene.crop(box))
     candidates=difference_points(*crops);candidates.sort(key=lambda row:(-row['pixels'],row['pixel'][1],row['pixel'][0]))
     if not candidates:raise ValueError('No independently visible differences')
-    output[activity][level]={'crop_boxes':boxes,'scene_sha256':sha(BASE/'inventory-photo_hunter'/('level-'+level+'-question.png')),'candidates':candidates,'image_size':list(crops[0].size)}
+    wrong=None
+    for x,y in [(10,10),(crops[0].width-10,10),(10,crops[0].height-10),(crops[0].width-10,crops[0].height-10)]:
+     if all(max(row['box'][0]-x,0,x-row['box'][2])**2+max(row['box'][1]-y,0,y-row['box'][3])**2>45**2 for row in candidates):wrong=[x,y];break
+    if wrong is None:raise ValueError('No visibly unchanged corner sufficiently far from all differences')
+    output[activity][level]={'crop_boxes':boxes,'scene_sha256':sha(BASE/'inventory-photo_hunter'/('level-'+level+'-question.png')),'candidates':candidates,'image_size':list(crops[0].size),'wrong_pixel':wrong}
  return output
 
 def main():
