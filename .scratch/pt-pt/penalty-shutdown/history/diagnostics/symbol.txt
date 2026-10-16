@@ -1,0 +1,2 @@
+QV4::MemoryManager::collectFromJSStack(QV4::MarkStack*) const
+??:?

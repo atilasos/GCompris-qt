@@ -1,0 +1,34 @@
+{
+  "kind": "gdb-inferior-observation",
+  "gdb_pid": 37840,
+  "qt_pid": 37862,
+  "identity_observed": true,
+  "native_exit_code": 0,
+  "signals": [],
+  "binary": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-3a776dec01724aa1ad809904babb06f3/bin/gcompris-qt",
+  "argv": [
+    "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-3a776dec01724aa1ad809904babb06f3/bin/gcompris-qt",
+    "--window",
+    "--locale",
+    "pt_PT",
+    "--renderer",
+    "software",
+    "--mute",
+    "--launch",
+    "penalty"
+  ],
+  "cmdline_matches_binary": true,
+  "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "gdb_pid_namespace": "pid:[4026531836]",
+  "qt_pid_namespace": "pid:[4026531836]",
+  "observed_utc": "2026-10-16T04:21:49.404105+00:00",
+  "proc_status": [
+    "Name:\tgcompris-qt",
+    "Pid:\t37862",
+    "PPid:\t37840",
+    "Uid:\t1000\t1000\t1000\t1000",
+    "NSpid:\t37862",
+    "VmSize:\t  125488 kB",
+    "VmRSS:\t   33676 kB"
+  ]
+}

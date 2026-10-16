@@ -1,7 +1,7 @@
 # Diagnosticar o encerramento intermitente após penáltis
 
 Status: ready-for-agent
-Progress: claimed
+Progress: open
 Type: task
 Blocked by: 02, 25
 
@@ -35,3 +35,23 @@ prova de ausência da falha.
 Se a causa continuar desconhecida, documentar a incerteza e manter a tarefa
 aberta. As conclusões funcionais finitas da 81 devem ser distinguidas desta
 pendência de estabilidade. Não aprovar Windows ou aceitação global.
+
+## Investigação finita entregue, causa desconhecida
+
+Cronologia física de 139 e três replays anteriores preservada do commit 81
+imutável. O vínculo do PID do journal continua temporal; snapshot/deployments
+históricos removidos não foram tratados como inodes verificados. OOM global
+40 segundos antes matou outro processo, sem causalidade demonstrada. Não se
+presume equivalência à reescrita de RCC da 23.
+
+Seis ensaios curtos autorizados (baseline/final × bare/retained/logged) terminaram
+0, com PID/cmdline/hash/namespace observados e retornos separados do inferior,
+wrapper, supervisor e executor. Nenhuma partida nova, relógio alterado, pressão
+de memória induzida ou correção de produção. O snapshot atual tem 26 diferenças
+para o histórico, explicitadas. A ferramenta finita e o auditor físico/cópia/
+adulteração/-O estão em [provas e limites](../penalty-shutdown/README.md).
+
+A tarefa permanece open, conforme o critério de aceitação. Os seis 0 não eliminam
+a hipótese, não provam estabilidade, não aprovam Windows e não bloqueiam outras
+validações funcionais. Uma futura reprodução precisa de stack/core e vínculo
+de processo demonstrado antes de justificar correção.

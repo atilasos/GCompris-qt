@@ -1,0 +1,20 @@
+{
+  "archive_valid": true,
+  "finite_probes": 6,
+  "inferior_exits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "historical_exit": 139,
+  "reproduced": false,
+  "cause_known": false,
+  "issue_resolved": false,
+  "historical_pid_link": "temporal only",
+  "historical_runtime_files_available": 0,
+  "snapshot_changed_files": 26,
+  "scope": "No gameplay replay, no memory-pressure induction, no production fix, no Windows/global acceptance"
+}
