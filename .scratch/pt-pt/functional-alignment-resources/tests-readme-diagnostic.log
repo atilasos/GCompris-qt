@@ -1,0 +1,15 @@
+...................F.....
+======================================================================
+FAIL: test_copied_physical_overrides_and_extractions_verify_all_historical_receipts (test_resources.EffectivePhysicalResources.test_copied_physical_overrides_and_extractions_verify_all_historical_receipts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-alignment-games/tests/functional_alignment/test_resources.py", line 13, in test_copied_physical_overrides_and_extractions_verify_all_historical_receipts
+    result=self.invoke();self.assertEqual(result.returncode,0,result.stdout+result.stderr);summary=json.loads(result.stdout);self.assertEqual(summary['receipts_with_exact_overrides'],39);self.assertEqual(summary['primary_games_preserved'],42)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0 : Alignment physical resources rejected: Physical supplementary artifact changed README.md
+
+
+----------------------------------------------------------------------
+Ran 25 tests in 7.546s
+
+FAILED (failures=1)

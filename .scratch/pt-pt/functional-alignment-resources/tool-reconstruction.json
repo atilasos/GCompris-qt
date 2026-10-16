@@ -1,0 +1,10 @@
+{
+  "kind": "observed-exec-tool-return",
+  "session_id": 68122,
+  "exit_code": 0,
+  "chunk_id": "d5bbec",
+  "stdout": "",
+  "log_sha256": "657f0919b35e5e8cb34a41f0498a69a51a14bab3e80e2b0351917ae93ef4f685",
+  "resources_json_sha256": "fa82f4f36f820639e780ee9f21c3654046e1bb9a018182df4019dcfb8477843a",
+  "provenance": "Actual tools.write_stdin final response after wait; resource compiler/extractor only, no native application run."
+}

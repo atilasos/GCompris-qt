@@ -1,0 +1,15 @@
+{
+  "format": 1,
+  "files": {
+    "README.md": "dac287e8a0dd37acce8d416cafe42c22c326493e5433ccd11eae267b3baca29b",
+    "reconstruction-first-diagnostic.log": "cbb2a9eb58acac56692b549b29db5c3bd6ff677d2fd64d3bd8e12ba8f540976d",
+    "reconstruction-green.log": "657f0919b35e5e8cb34a41f0498a69a51a14bab3e80e2b0351917ae93ef4f685",
+    "reconstruction-second-diagnostic.log": "da9e0d11671ff524b678a261e59773d47ff2f7cd7a808972734616328d74c15a",
+    "resources.json": "fa82f4f36f820639e780ee9f21c3654046e1bb9a018182df4019dcfb8477843a",
+    "resources.zip": "cfe5cca665a2e713ef1a04ff1fcfe94c729d88a64113ad5a6acd9e491cef776d",
+    "test-red.log": "5e8110ab50641e5692f71269ae33f39711a8f42d15773719974d8b27097e7166",
+    "tests-green.log": "80a0f1d961eb716a347feb69bbbe73e871e384e01437a28895f24bde2e69ac8e",
+    "tests-readme-diagnostic.log": "d97b52cd16a68e9d0417051bad89f52dd9b70eb9c5972638cef328a48be92d45",
+    "tool-reconstruction.json": "a9b36bebf1c3403d6175dffe16aca71bcf94c27cdcadcd856c4de37689f3c029"
+  }
+}
