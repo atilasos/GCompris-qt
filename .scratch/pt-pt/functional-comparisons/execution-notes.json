@@ -17,7 +17,7 @@
       "passed": true
     },
     {
-      "case": "adjacent-manual-complete",
+      "case": "adjacent-manual-complete-rerun",
       "native_exit": 0,
       "outer_exit": 0,
       "passed": true
@@ -68,5 +68,6 @@
     "adjacent-manual-pilot3": "Mode selected and saved, but fixture compared numeric2 to string2.",
     "comparator-pilot2": "Launcher setup attempt referenced an unavailable Docker image; no native assertion, excluded."
   },
-  "physical_audio": "Only GStreamer fakesink decoding of three original WAV resources, six copies. No output device or hearing tested."
+  "physical_audio": "Only GStreamer fakesink decoding of three original WAV resources, six copies. No output device or hearing tested.",
+  "manual_tool_status": "First complete125-question campaign had Qt0 and supervised launcher0 but actual shell tool143. Preserved unchanged as historical. Same native case SHA rerun completed all125 with native0, supervisor-observed launcher0 and actual shell tool0; only rerun counts in final250 adjacent questions."
 }
