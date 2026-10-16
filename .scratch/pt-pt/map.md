@@ -432,7 +432,7 @@ mantêm os critérios globais, Windows, hardware, áudio e revisão docente pend
 
 - [89 — Desenho e criação](issues/89-desenho-e-criacao.md)
 
-- [90 — Padrões, mosaicos e polígonos](issues/90-padroes-e-formas.md) — metodologia física do lote 88 concluída; próximo grupo pronto.
+- [90 — Padrões, mosaicos e polígonos](issues/90-padroes-e-formas.md) — resolvida no âmbito Linux finito após revisões independentes.
 
 O lote 88 concluiu 53 tabuleiros, 367 peças e 35 diferenças, com revisões independentes e auditor portátil. Corrigiu seis legendas PT e a guarda de saídas do executor. O CSV tem 203 linhas e 145 ligações de evidência; todos os critérios globais continuam pending.
 
@@ -448,3 +448,14 @@ O CSV mantém 203 linhas e passa de 145 para 148 ligações de evidência.
 Todas as colunas globais Linux, Windows10, escola, offline e revisão linguística
 continuam `pending`; Windows, dispositivos, audição, docente e estabilidade 83
 não recebem aceitação por este fecho. A tarefa 90 conserva o seu trabalho separado.
+
+
+A tarefa 90 fica resolvida no âmbito Linux finito: 38 padrões, 21 padrões
+simétricos, 22 perguntas Mosaic geradas e nove níveis do tutorial Polygons,
+com 90 erros reparados. O modo livre conserva nove classes de exemplos,
+sem níveis adicionais. [Spec e Standards](review/integration90/README.md)
+fecharam sem achados; dois auditores físicos independentes terminaram com zero.
+A cápsula literal, os 23 recibos e os negativos ficam intactos.
+O CSV mantém 203 atividades e 152 ligações de evidência, com todas as cinco
+colunas globais `pending`. Windows, dispositivos, audição, docente e
+estabilidade 83 continuam pendentes. A tarefa 44 posterior é independente.

@@ -1,0 +1,27 @@
+{
+  "format": 1,
+  "kind": "agent-recorded-real-tools-completion",
+  "review_base": "34ebad9be17ffa1b9e73024b28b40b7b801fb348",
+  "review_head": "2643942b9f587ab45db0659627a6efbe62b52878",
+  "command": "python3 tests/patterns_audit/audit.py --evidence .scratch/pt-pt/functional-patterns/portable-capsule",
+  "checks": [
+    {
+      "observer": "merger",
+      "tested_source": "4f50623c48b48c36197c510435b9a89d7ef1e825",
+      "session_id": 72889,
+      "output_chunk": "25143f",
+      "exit_code": 0,
+      "completion_tool": "tools.write_stdin"
+    },
+    {
+      "observer": "Spec reviewer",
+      "tested_source": "2643942b9f587ab45db0659627a6efbe62b52878",
+      "session_id": 49869,
+      "output_chunk": "674ded",
+      "exit_code": 0,
+      "provenance": "Exact session/chunk recorded in spec.md by the independent reviewer"
+    }
+  ],
+  "capture_sha256": "4c02249ea9e0473f6956c72cdc98803e09689d1e184d55ead4292640ce37a1bf",
+  "scope": "Pure physical audit only. These agent declarations are not platform signatures. No new Qt, build, Windows execution or human hearing."
+}
