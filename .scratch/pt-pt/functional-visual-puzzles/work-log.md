@@ -45,3 +45,9 @@ Controls-details1 e controls-paintings1 passaram, incluindo ajuda/Escape/teclado
 Captions-details-red e captions-paintings-red registaram 43 legendas e 6 divergências. As mesmas fontes de caso/expectativas passaram nos dois verdes após 6 msgstr PT alterados em eefe6e5ff. As fichas de museus e incertezas estão em caption-facts.md. Gameplay details continua ligado ao PO anterior; a confirmação suplementar da legenda não repete o percurso de peças nem afirma ter usado o mesmo QM.
 
 Media-check1 falhou por rsvg-convert ausente, sem resultado de produto. Media-check2 renderizou/descodificou 562 imagens físicas e 4 efeitos WAV integralmente com GStreamer/fakesink, sem audição ou dispositivo real. Nenhuma aprovação das 32 gravações foi transferida.
+
+## Repetição integral das pinturas
+
+Paintings-complete2, fonte 5747488c2, terminou com zero externo na sessão 8844, saída 132fb1. Qt, supervisor e capturador também terminaram com zero. Concluiu 22 quadros, 261 peças, 305 arrastos, 22 tentativas erradas reparadas e menu estável após o último sucesso. O quadro 20 ficou confirmado com o comparador de faixas RGB. Os outros 21 mapeamentos não mudaram.
+
+O lote final soma 53 tabuleiros, 367 peças e 35 diferenças, com 53 tentativas erradas reparadas. Não inclui repetições dos inventários, piloto ou prefixo de 19 quadros. São 19 execuções nativas preservadas, 13 positivas e seis negativas; todas têm retorno Qt zero. As extrações efetivas dos 19 RCC somam 1014 entradas, além das 836 entradas canónicas. A auditoria portátil e as revisões permanecem por concluir neste registo.
