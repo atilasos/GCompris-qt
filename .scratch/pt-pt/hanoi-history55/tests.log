@@ -1,0 +1,8 @@
+test_altered_resource_is_rejected (test_audit.HistoricalAudit.test_altered_resource_is_rejected) ... ok
+test_original_34_artifacts_survive_unrelated_catalogue_change (test_audit.HistoricalAudit.test_original_34_artifacts_survive_unrelated_catalogue_change) ... ok
+test_receipt_with_changed_case_identity_is_rejected (test_audit.HistoricalAudit.test_receipt_with_changed_case_identity_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.145s
+
+OK
