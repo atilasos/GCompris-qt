@@ -26015,7 +26015,7 @@ msgstr "Tentar dividir os pedaços de doces por um dado conjunto de crianças."
 #: activities/share/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn to share, practice division."
-msgstr "Aprende a compartilhar, pratica a divisão."
+msgstr "Aprende a partilhar, pratica a divisão."
 
 #. Help prerequisite
 #: activities/share/ActivityInfo.qml:22
@@ -26334,7 +26334,7 @@ msgid ""
 msgstr ""
 "O Henrique quer dividir por igual 8 pedaços de doces por 3 dos seus amigos: "
 "um menino e duas meninas. O menino já tem um pedaço. Será que o Henrique "
-"consegue dividir por igual os pedaços de doces pelo seus amigos de forma a "
+"consegue dividir por igual os pedaços de doces pelos seus amigos de forma a "
 "ficarem todos com a mesma quantidade?"
 
 #: activities/share/resource/2/Data.qml:97
