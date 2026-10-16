@@ -1,0 +1,272 @@
+{
+  "simplepaint_levels": 31,
+  "palette_choices": 61,
+  "sketch_tools": 23,
+  "wheel_levels": 2,
+  "fixed_images": 159,
+  "curve_max_errors": [
+    2.9523508441924395,
+    0.9213221610861299
+  ],
+  "observed_statuses": {
+    "fixed-resources": {
+      "qt": 0,
+      "launcher": 0,
+      "supervisor": 0,
+      "capturer": 0
+    },
+    "simplepaint-levels": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "simplepaint-levels-v2": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "simplepaint-levels-v3": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "simplepaint-levels-v4": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "simplepaint-levels-v5": {
+      "qt": 0,
+      "launcher": 0,
+      "supervisor": 0,
+      "capturer": 0
+    },
+    "simplepaint-palettes": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "simplepaint-palettes-green": {
+      "qt": 0,
+      "launcher": 0,
+      "supervisor": 0,
+      "capturer": 0
+    },
+    "sketch-background": {
+      "qt": 0,
+      "launcher": 0,
+      "supervisor": 0,
+      "capturer": 0
+    },
+    "sketch-background-v2": {
+      "qt": 0,
+      "launcher": 0,
+      "supervisor": 0,
+      "capturer": 0
+    },
+    "sketch-controls": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "sketch-controls-v2": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "sketch-controls-v3": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "sketch-controls-v4": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "sketch-controls-v5": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "sketch-focus-diagnostic": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "sketch-gl-inventory": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "sketch-gl-inventory-v2": {
+      "qt": 0,
+      "launcher": 0,
+      "supervisor": 0,
+      "capturer": 0
+    },
+    "sketch-labels-green": {
+      "qt": 0,
+      "launcher": 0,
+      "supervisor": 0,
+      "capturer": 0
+    },
+    "sketch-labels-red": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "sketch-shortcut-green": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "sketch-shortcut-red": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "sketch-tools": {
+      "qt": 137,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "sketch-tools-v2": {
+      "qt": 0,
+      "launcher": 0,
+      "supervisor": 0,
+      "capturer": 0
+    },
+    "sketch-tools-v3": {
+      "qt": 0,
+      "launcher": 0,
+      "supervisor": 0,
+      "capturer": 0
+    },
+    "sketch-tracer": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "sketch-tracer-v2": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "sketch-tracer-v3": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "sketch-tracer-v4": {
+      "qt": 250,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "sketch-tracer-v5": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "sketch-tracer-v6": {
+      "qt": 0,
+      "launcher": 0,
+      "supervisor": 0,
+      "capturer": 0
+    },
+    "sketch-window-focus": {
+      "qt": 0,
+      "launcher": 0,
+      "supervisor": 0,
+      "capturer": 0
+    },
+    "wheels-controls": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "wheels-controls-v2": {
+      "qt": 0,
+      "launcher": 0,
+      "supervisor": 0,
+      "capturer": 1
+    },
+    "wheels-labels-green": {
+      "qt": 0,
+      "launcher": 0,
+      "supervisor": 0,
+      "capturer": 0
+    },
+    "wheels-labels-red": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "wheels-levels": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "wheels-levels-v2": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "wheels-levels-v3": {
+      "qt": 0,
+      "launcher": 0,
+      "supervisor": 0,
+      "capturer": 0
+    },
+    "wheels-levels-v4": {
+      "qt": 0,
+      "launcher": 0,
+      "supervisor": 0,
+      "capturer": 0
+    },
+    "wheels-shortcut-green": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "wheels-shortcut-red": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    },
+    "wheels-shortcut-red-v2": {
+      "qt": 0,
+      "launcher": 1,
+      "supervisor": 1,
+      "capturer": 1
+    }
+  },
+  "scope": "Composite native routes; free combinations, Windows, hardware, hearing, teacher and task83 stability pending"
+}

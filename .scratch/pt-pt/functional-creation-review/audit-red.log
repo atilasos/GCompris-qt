@@ -1,0 +1,20 @@
+E
+======================================================================
+ERROR: test_review_audit (unittest.loader._FailedTest.test_review_audit)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_review_audit
+Traceback (most recent call last):
+  File "/usr/lib/python3.14/unittest/loader.py", line 426, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/lib/python3.14/unittest/loader.py", line 367, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/test_review_audit.py", line 4, in <module>
+    from review_audit import audit
+ModuleNotFoundError: No module named 'review_audit'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

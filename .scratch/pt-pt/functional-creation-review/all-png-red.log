@@ -1,0 +1,14 @@
+E
+======================================================================
+ERROR: test_saved_png_reopen_undo_redo_and_cancel (test_review_audit.HistoricalCreationImages.test_saved_png_reopen_undo_redo_and_cancel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review/tests/functional_creation/test_review_audit.py", line 10, in test_saved_png_reopen_undo_redo_and_cancel
+    self.assertEqual(len(result['saved_png_files']),10)
+                         ~~~~~~^^^^^^^^^^^^^^^^^^^
+KeyError: 'saved_png_files'
+
+----------------------------------------------------------------------
+Ran 1 test in 7.314s
+
+FAILED (errors=1)
