@@ -89,10 +89,10 @@ if __name__ == '__main__':
     activities = [line.strip() for line in args.activities.read_text().splitlines()
                   if line.strip() and not line.lstrip().startswith('#')]
     listed = None if args.listed is None else args.listed.read_text(encoding='utf-8-sig').split()
-    lock = json.loads(Path(__file__).with_name('assets-lock.json').read_text())
+    lock = json.loads(Path(__file__).with_name('assets-lock.json').read_text(encoding='utf-8'))
     entries = lock['files']
     manifest = args.stage / 'share/GCompris/rcc/data3/voices-ogg/completion.json'
-    completion = json.loads(manifest.read_text()) if manifest.exists() else None
+    completion = json.loads(manifest.read_text(encoding='utf-8')) if manifest.exists() else None
     result = check(args.stage, activities, entries, listed, completion, lock.get('pt_voice_completion'),
                    lock.get('pt_voice_container_variants'))
     args.output.write_text(json.dumps(result, indent=2) + '\n')

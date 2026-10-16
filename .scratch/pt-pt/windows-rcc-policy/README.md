@@ -62,3 +62,19 @@ verificar fisicamente este par no stage e na instalação; um novo hash continua
 a falhar até investigação e aprovação explícitas. Não há aceitação global de
 Windows 10 da escola, hardware, reprodução sonora ou publicação. O coordenador
 trata a CI e o endereço HTTPS; não houve push, main build ou publicação aqui.
+
+## Complemento da fronteira UTF-8
+
+O CLI lê agora lock e completion explicitamente como UTF-8. Um teste executa
+esse CLI com o default de leitura cp1252 simulado e dois JSON semanticamente
+iguais: um usa `carraça` literal UTF-8, o outro usa escapes Unicode ASCII.
+Repete também a orientação inversa. Ambos falhavam antes das duas leituras
+explícitas e agora passam com retorno 0, layout completo de fixture e sem
+corrupções. Ver `utf8-cli-red.log` e `utf8-cli-green.log`.
+Os 15 testes de pares/aprovação passam com `-O`, em `utf8-cli-optimized.log`,
+com retorno externo 0 observado em `9c6c78`.
+
+Esta regressão comprova o contrato de codificação JSON. Não se afirma que
+explica a falha anterior de dois ficheiros atuais igualmente escritos em UTF-8,
+pois uma leitura cp1252 poderia transformar ambos da mesma maneira.
+As fixtures de layout são ficheiros de teste, sem executar binários Windows.
