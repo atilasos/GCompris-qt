@@ -90,9 +90,24 @@ O isolamento sem rede usa a imagem Docker
 `sha256:28bd5fe8b56d1bd048e5babf5b10710ebe0bae67db86916198a6eec434943f8b`.
 O wrapper faz chroot no host e não sela todas as bibliotecas Qt, plugins,
 libc ou QtTest do host. O digest Docker não identifica a distribuição Qt inteira.
-A futura cópia portátil da cápsula destina-se ao auditor puro, não a reproduzir
+A cópia portátil da cápsula destina-se ao auditor puro, não a reproduzir
 sozinha toda a execução nativa.
 
-A auditoria portátil e a revisão independente ainda estão em preparação.
+A auditoria pura passou em cópia física Docker sem rede, Qt, Git ou checkout,
+em Python normal e -O. Oito testes passam em cada modo; adulteração coerente,
+âncora falsa, vazio e saídas existentes são rejeitados. A cápsula tem 1567
+objetos, 13536 caminhos lógicos, 19 execuções e 14 fases de fontes. O índice
+conserva a âncora literal
+`cdf300b3f90eae851ba51dfcf2fa5e20b6a42c8edeea9e65402ae02700ff0dc2`.
+O ZIP original de 138396585 bytes, SHA-256
+`34e094f6d83c4e6e1c346235c0498dd1139b5fec45ae0a909447e043336d6198`,
+está dividido em quatro blocos concatenáveis de até 40 MiB. A primeira
+tentativa portátil falhou pela montagem noexec de /tmp; o diagnóstico fica
+preservado e os ensaios finais usam /tmp executável.
+
+Comando: `python3 tests/visual_puzzles_audit/audit.py --evidence .scratch/pt-pt/functional-visual-puzzles/capsule`.
+[API e limites do auditor](../../../tests/visual_puzzles_audit/README.md);
+recibos de cópia e retornos em `audit-verification/`. A revisão independente
+ainda está pendente.
 Windows 10, Windows 11 manual, dispositivos, audição, revisão docente,
 a investigação 83 e todos os critérios globais continuam pendentes.
