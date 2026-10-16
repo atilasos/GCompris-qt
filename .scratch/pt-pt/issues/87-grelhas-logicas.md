@@ -49,3 +49,9 @@ Implementação concluída; Progress permanece claimed até revisão e integraç
 Provas integradas para Standards e Spec independentes. `ready-for-review`
 não representa resolução final ou aceitação global. Os 100 Calcudoku gerados
 não representam todas as possibilidades aleatórias.
+
+## Suplemento de revisão — menu após sucesso
+
+A condição «após sucesso» foi pedida no mandato complementar de revisão; o ticket original dizia apenas menu. Não se demonstrou defeito no produto. Dois novos casos completaram naturalmente cinco grelhas Sudoku 3×3 e 20 Calcudoku 3×3, aguardaram Bonus/continuação e regressaram ao menu estável por controlo real. São 25 conclusões repetidas, sem ampliar a cobertura única. Todos os quatro retornos observados são 0 em ambos.
+
+[Suplemento físico independente](../functional-grids-success/README.md), SHA literal cf4a74a7c18017e3522a5e5c28172442e342ddb79c2618b541dc976333d5c4be. Auditor `python3 tests/functional_grids_success/audit.py`, seis testes de cópia/adulteração/-O. Cápsula original e 19 recibos intactos. Sem alterações de produto ou novos âmbitos. Ready-for-review para recheck independente.
