@@ -1,0 +1,27 @@
+{
+  "format": 1,
+  "bytes": 138396585,
+  "sha256": "34e094f6d83c4e6e1c346235c0498dd1139b5fec45ae0a909447e043336d6198",
+  "chunks": [
+    {
+      "file": "objects.zip.part000",
+      "bytes": 41943040,
+      "sha256": "60f8bdde9be830a2063a8aa93cd4fe2b7ebd3579de5785e0cfdc02f35baa8b52"
+    },
+    {
+      "file": "objects.zip.part001",
+      "bytes": 41943040,
+      "sha256": "9516305643d7090918fe0b18cfbce3b1443191588ee52d32fb86a81b3ef6fd59"
+    },
+    {
+      "file": "objects.zip.part002",
+      "bytes": 41943040,
+      "sha256": "7d354a04f6119bb07b61f703cc4e9814073cc06ac38f3e03204f61c21f308929"
+    },
+    {
+      "file": "objects.zip.part003",
+      "bytes": 12567465,
+      "sha256": "999213cf4bcced78544d6ba861423df1c53402db90fcb713c5d4f072c49f4979"
+    }
+  ]
+}

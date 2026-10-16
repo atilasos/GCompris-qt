@@ -1,0 +1,7 @@
+{
+  "kind": "missing-local-executable",
+  "command": "rsvg-convert",
+  "external_exit_code": 1,
+  "observed_chunk": "27ff48",
+  "scope": "Prerequisite diagnostic, no product defect and no images decoded by this attempt"
+}

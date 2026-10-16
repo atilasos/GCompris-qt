@@ -44,7 +44,7 @@ colors,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/colors.
 comparator,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/comparator.md
 compass,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/compass.md
 crane,pending,pending,pending,pending,pending,
-details,pending,pending,pending,pending,pending,
+details,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/details.md
 digital_electricity,pending,pending,pending,pending,pending,
 drawing_wheels,pending,pending,pending,pending,pending,
 drawletters,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/drawletters.md
@@ -152,14 +152,14 @@ ordering_numbers,pending,pending,pending,pending,pending,.scratch/pt-pt/validati
 ordering_sentences,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/ordering_sentences.md
 oware,pending,pending,pending,pending,pending,
 oware_2players,pending,pending,pending,pending,pending,
-paintings,pending,pending,pending,pending,pending,
+paintings,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/paintings.md
 path_decoding,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/path_decoding.md
 path_decoding_relative,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/path_decoding_relative.md
 path_encoding,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/path_encoding.md
 path_encoding_relative,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/path_encoding_relative.md
 peg_solitaire,pending,pending,pending,pending,pending,
 penalty,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/penalty.md
-photo_hunter,pending,pending,pending,pending,pending,
+photo_hunter,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/photo_hunter.md
 piano_composition,pending,pending,pending,pending,pending,
 planegame,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/planegame.md
 play_piano,pending,pending,pending,pending,pending,

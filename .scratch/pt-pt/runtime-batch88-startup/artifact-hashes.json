@@ -1,0 +1,25 @@
+{
+  "source_commit": "dd0425d71fea42d32b8d5d7e52545b0d82975e01",
+  "build_command": [
+    "cmake",
+    "--build",
+    "build/pt-pt",
+    "--target",
+    "BuildTranslationsgcompris_qt",
+    "--parallel",
+    "4"
+  ],
+  "observed_session": 26078,
+  "observed_output_chunk": "21a410",
+  "external_exit_code": 0,
+  "files": {
+    "build/pt-pt/bin/gcompris-qt": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+    "build/pt-pt/share/gcompris-qt/translations/gcompris_qt_pt.qm": "5ea2ba160f55d7f4c5302d3e5c102fb0ff0781e57719a6aa3032bce9a3bba636",
+    "build/pt-pt/share/gcompris-qt/rcc/data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc": "4887e4a8c7112e6b744829c82a3476a9f322a593173d17c3b7e369fad21528ee",
+    "build/pt-pt/share/gcompris-qt/rcc/details.rcc": "ba9ce969980f00f501eeed12ef6201f64753b032be7c3a7e8a8f5c637e1805d8",
+    "build/pt-pt/share/gcompris-qt/rcc/paintings.rcc": "46fea1da4df30ff8eec2306f13f94ad0a3e3457ac83bc98129d58d9126a7e3a2",
+    "build/pt-pt/share/gcompris-qt/rcc/photo_hunter.rcc": "3859cffc61f478983e0f087e319b0e56a645ecb83e47ac9a0fad49948ea61d4d",
+    "build/pt-pt/share/gcompris-qt/rcc/babymatch.rcc": "dc4e6580490c6e59c1d2b88f3dbf74b14a10ad2161820f70f4ef5996db7bf014",
+    "poqm/pt/gcompris_qt.po": "4e2ff3e97b1073885382e51b0c044496d16df496551abc19d5a7641a39a221f0"
+  }
+}

@@ -1,0 +1,308 @@
+[
+    {
+        "bytes": 868,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/ActivityInfo.qml",
+        "sha256": "8a44786f0ecd70bad4c7ddb0136c315e0373020a07fd0592c3552b478f0ad1e1"
+    },
+    {
+        "bytes": 13080,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/PhotoHunter.qml",
+        "sha256": "8ad944b19b69297880b76f747ff9651028af201edb776e49ebbd278208b0de70"
+    },
+    {
+        "bytes": 5569,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/photo_hunter.js",
+        "sha256": "d3afebedbe534dda499aa0c34cab1ca242dc3f888a71a7465f244f7087dd9986"
+    },
+    {
+        "bytes": 4937,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/Observe.qml",
+        "sha256": "2dce1f2f72d1463fe5d6f60c494b748c84621d8b8c054a4dbc02dce949a54be1"
+    },
+    {
+        "bytes": 62189,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/photo_hunter.svg",
+        "sha256": "67fcfcdfb0b51750ff92dc10a6c24b554e756551705df08566fff625d7764d99"
+    },
+    {
+        "bytes": 1442,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo9_2.svg",
+        "sha256": "3db0cc933938bf8c375a77f5001c84d6094145c956bfd2b4ae2bb503678b7e9e"
+    },
+    {
+        "bytes": 1383,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo9_3.svg",
+        "sha256": "33c743c6634e6449a53122070410761043b40e25f6db388ad6378d3dc4fbba9b"
+    },
+    {
+        "bytes": 1395,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo9_1.svg",
+        "sha256": "e5b871e014eb1c16988da43a567f548a250e5e7b81d4618e814af778b70787a9"
+    },
+    {
+        "bytes": 43307,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo10.svg",
+        "sha256": "e3897fd61613ccc0ca860493bd04233d9382abd593c271f9fa131c97402760a9"
+    },
+    {
+        "bytes": 6051,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo7_2.svg",
+        "sha256": "2d633e7f6143e32ce54a687d2f9a0ebd8e4788096ce76822987d1efcdce7220a"
+    },
+    {
+        "bytes": 1852,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo7_3.svg",
+        "sha256": "594c4920117111f57644fb54cf172c0e2909e677eb76249db7ef548307a4e649"
+    },
+    {
+        "bytes": 5193,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo7_1.svg",
+        "sha256": "7cf31675cd2dd5b46732d67fe7f7ec509b23026b30006dfaf56c151f37415c5d"
+    },
+    {
+        "bytes": 1933,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_6.svg",
+        "sha256": "9e555afb970f2bd37e378ccb526024dd1ffdb686057b86de59ffb0666bd25398"
+    },
+    {
+        "bytes": 4009,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_4.svg",
+        "sha256": "091f23ddd47a454c16c2aa7828847ce850896821f7a43e951313048d76ffda22"
+    },
+    {
+        "bytes": 1924,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_5.svg",
+        "sha256": "a36fced090a6217121bbfc9df7a87df249bbbee627d98e23fde4890a48834780"
+    },
+    {
+        "bytes": 2214,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_2.svg",
+        "sha256": "b2bd28c7534d0b7eaaa6e63cf0a9fe1e9b69bdb74932f08c6df3fa4fcb4feb29"
+    },
+    {
+        "bytes": 5573,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_3.svg",
+        "sha256": "dc72aa8dc7b52c31b398dd46ce555e15ebb8d2fbf3ae5e9f48e696aa00660869"
+    },
+    {
+        "bytes": 1895,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_1.svg",
+        "sha256": "ee4386ba4db95fda6bcf01f51ebb7ed900d20b856fd525a28505a83016a3e335"
+    },
+    {
+        "bytes": 2043,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_4.svg",
+        "sha256": "327367ecf2433db5c336eeb92d974f48dd02bf99d2d91c40f99c7eee27786b10"
+    },
+    {
+        "bytes": 1424,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_2.svg",
+        "sha256": "3eade0d77bc9c3801a382fdb2a97c2dc5a94c04b6c885aa5ab66de8569a94a1c"
+    },
+    {
+        "bytes": 5558,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_3.svg",
+        "sha256": "b4abb7af695de1fc406eba2bed286f995490040613028af483ac771dec3f8d8d"
+    },
+    {
+        "bytes": 1544,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_1.svg",
+        "sha256": "a475192c1b2908d81891912bb418be6c2529f8586b97e9b88f8908a4ba034f40"
+    },
+    {
+        "bytes": 3127,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo6_2.svg",
+        "sha256": "ad0fc42c5fcf391f1fd329ff5f0c8847fe6bf6a47d88b56685afada0f8df3349"
+    },
+    {
+        "bytes": 2925,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo6_3.svg",
+        "sha256": "2a72938347c0aac6569428ee65d75ad2af7b32386a570c8c70e0afa9b2c09073"
+    },
+    {
+        "bytes": 1345,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo6_1.svg",
+        "sha256": "6f1ab84fdd9496253874989a2a02ca669fc2ce8793330d7b5acb2b61bc236163"
+    },
+    {
+        "bytes": 3072,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo3_2.svg",
+        "sha256": "7c9450ab17e504eb3c2eee15c38d382d0ab904e06ad0760631a1f4373f8438a4"
+    },
+    {
+        "bytes": 1982,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo3_1.svg",
+        "sha256": "34905fa7d23b0633b424ff13c4d9342af80da10714dad6b89a7efafd6a905e13"
+    },
+    {
+        "bytes": 4721,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_4.svg",
+        "sha256": "8121244b8edc021f35c643199c13a367e14eec83a9633f153ea3a7e72529940f"
+    },
+    {
+        "bytes": 3064,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_2.svg",
+        "sha256": "ab789fc61ff7bd8f76547bb06839ccc00b09dd17ad43ebe8dfe4b6ea28f1cc9c"
+    },
+    {
+        "bytes": 1705,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_3.svg",
+        "sha256": "4b122403fd2b4a0171ab91532542e6bed5e5a2a1db8b8659914e3aac251c0666"
+    },
+    {
+        "bytes": 1530,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_1.svg",
+        "sha256": "df952cee62c1b5c2ea3fc13cb20432854ec5800d93f7fd54a1d6de817e9559bf"
+    },
+    {
+        "bytes": 1719,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo1_2.svg",
+        "sha256": "e5f48ca43890292fcb90c1abba0b84d435a23062717653d5d1d9567b05645ccf"
+    },
+    {
+        "bytes": 2938,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo1_3.svg",
+        "sha256": "c2063caf5ce2f5f8ca14de884ce8936a7221bd106c7709a598e34964a511c10c"
+    },
+    {
+        "bytes": 4654,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo1_1.svg",
+        "sha256": "3d8905cafd0990b56b451acfc092bdd9919cfe8eb1bf21f578633c34b586ec40"
+    },
+    {
+        "bytes": 2504,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo2_2.svg",
+        "sha256": "a1caf3fb6e2cee97e682968e267135dae0a2a5b09040a7b07b74743ff308bb4d"
+    },
+    {
+        "bytes": 13357,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo2_3.svg",
+        "sha256": "2bcc1a685d2918bd770b28cd106fc2ca1c8eaf8a70806632715e12be98185f86"
+    },
+    {
+        "bytes": 4887,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo2_1.svg",
+        "sha256": "437d282969537a324f5525108fe61c2891c2bf9b351a3f0fa18de4010c3b0275"
+    },
+    {
+        "bytes": 95289,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo8.svg",
+        "sha256": "acc74e8b3e9ddf035e8e6ebc5418565fb84ab37be7d340ebf5e67b0e6d4565ce"
+    },
+    {
+        "bytes": 17800,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo9.svg",
+        "sha256": "98acfb489048a806f60d33d659c178f6ca512153e1bc3d15f8f4c3d32b915521"
+    },
+    {
+        "bytes": 7058,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo6.svg",
+        "sha256": "bad9a856660340c8e2fc66f706b08a613574e0742dc6881e22f2c33cf2f4f048"
+    },
+    {
+        "bytes": 28527,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo7.svg",
+        "sha256": "6a2c4d3ade15801819c409624fe47f6f501a9a17473b99e3d0a9cade2b04bf8d"
+    },
+    {
+        "bytes": 53121,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo4.svg",
+        "sha256": "dc6b42ebe937bdc62eeb50bb7258e870dd029af2ca06d96d55350d702713382c"
+    },
+    {
+        "bytes": 40896,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo5.svg",
+        "sha256": "2235cbf466571c0fb44872a38c81008bf6905c95e264fe771e31cd85881bb7fe"
+    },
+    {
+        "bytes": 91777,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo2.svg",
+        "sha256": "cc170260743f70695bb7793349716a07b6b5899fbb0abab64acc39a350fb7fe1"
+    },
+    {
+        "bytes": 35838,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo3.svg",
+        "sha256": "1ef1238b91b06652afddd172c920b676ccf556212fea5c30b099747980d488aa"
+    },
+    {
+        "bytes": 53691,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo1.svg",
+        "sha256": "8b53fb4d532d286ef24a86b8090fbd701d36ca387be3fccf213072b55a970227"
+    },
+    {
+        "bytes": 1313,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_2.svg",
+        "sha256": "f277cf39c763667408cc868ec1ccebc7f60c5c8d5b653da5e4dfe541bafbec46"
+    },
+    {
+        "bytes": 1732,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_4.svg",
+        "sha256": "f808e0baa100bdb10af1c132642ceb826c0b29484f5df3d6548b6cf4f63c840d"
+    },
+    {
+        "bytes": 3071,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_3.svg",
+        "sha256": "c51033c65f99a13fffa70dcb110c23cb03bfb0465f76644b9ce97cac00cac00b"
+    },
+    {
+        "bytes": 3025,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_1.svg",
+        "sha256": "708712005389345d620763fa94c0b70cd73fe1255e53117c7c618dd7266dab5e"
+    },
+    {
+        "bytes": 383,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/CMakeLists.txt",
+        "sha256": "53d9bc5a13c017631cd470f3232b774da80f30ea1c6ff36874d8066d2c8a557b"
+    }
+]

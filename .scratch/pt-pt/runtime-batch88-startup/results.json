@@ -1,0 +1,35 @@
+[
+  {
+    "activity": "details",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime-batch88-startup/details.log"
+  },
+  {
+    "activity": "paintings",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime-batch88-startup/paintings.log"
+  },
+  {
+    "activity": "photo_hunter",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime-batch88-startup/photo_hunter.log"
+  }
+]
