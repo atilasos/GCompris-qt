@@ -327,14 +327,15 @@ Windows, hardware, áudio ou revisão docente.
 - [79 — Desafios aritméticos](issues/79-desafios-aritmeticos.md)
 
 A tarefa 76 tem prova Linux integrada de 80 tarefas/13 níveis e 13 erros
-reparados em orientação/rato. Está `ready-for-review`, aguardando Standards
-e Spec independentes. Três ligações foram acrescentadas sem alterar critérios
+reparados em orientação/rato. Fica resolvida no âmbito Linux após Standards
+e Spec sem achados; [relatórios](review/integration76/). Três ligações mantêm critérios
 globais, Windows, hardware, áudio ou revisão docente.
 
 - [80 — Jogos de alinhamento](issues/80-jogos-alinhamento.md)
 
 A tarefa 77 tem provas integradas de 28 níveis dos puzzles deslizantes, com
 baseline funcional e provas dirigidas da ajuda/arte PT final, sem declarar
-nova execução final dos 28 níveis. Está `ready-for-review`, aguardando
-Standards e Spec independentes. Duas ligações mantêm os critérios globais,
+nova execução final dos 28 níveis. Fica resolvida no âmbito Linux após
+Standards e Spec sem achados; [relatórios](review/integration77/).
+Duas ligações mantêm os critérios globais,
 Windows, hardware, áudio e revisão docente pendentes.
