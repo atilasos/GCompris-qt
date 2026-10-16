@@ -108,7 +108,13 @@ def verify(root):
                 assert puzzle['expected']==expected and puzzle['missing']==[i for i,value in enumerate(visible) if value is None]
                 assert len(visible)==config['numberShown'] and puzzle['missing']==config['indicesToGuess']
                 assert config['lowerBound']<=expected[0]<=config['upperBound']
-                assert puzzle['instruction'] and 'número' in puzzle['instruction'] and 'Find' not in puzzle['instruction']
+                missing=puzzle['missing'];count=len(missing);last=len(visible)-1
+                if missing==list(range(count)):ending='anterior' if count==1 else 'anteriores'
+                elif missing==list(range(last-count+1,last+1)):ending='seguinte' if count==1 else 'seguintes'
+                elif 0 not in missing and last not in missing:ending='intermédio' if count==1 else 'intermédios'
+                else:ending='em falta'
+                instruction=('Encontra '+str(count)+' número ' if count==1 else 'Encontra os '+str(count)+' números ')+ending+'.'
+                assert puzzle['instruction']==instruction
                 adjacent_questions+=1
         completed_levels+=len(levels);wrong+=case['wrong']
     assert signs=={'<','=','>'} and decimal_seen and negative_adjacent
