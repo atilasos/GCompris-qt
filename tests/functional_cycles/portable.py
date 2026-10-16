@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: GPL-3.0-or-later
 """Copy physical evidence and verify it in Python without the checkout or Qt."""
-import json,shutil,subprocess,tempfile
+import argparse,json,shutil,subprocess,tempfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
 BASE=ROOT/'.scratch/pt-pt/functional-cycles'
@@ -15,9 +15,15 @@ for mode in [[],['-O']]:
  run=subprocess.run(command,text=True,capture_output=True)
  if run.returncode:raise SystemExit(run.stderr)
  reports.append(json.loads(run.stdout))
+if pathlib.Path('/proof/menu/index.json').exists():
+ for mode in [[],['-O']]:
+  run=subprocess.run([sys.executable,*mode,'/proof/code/audit_menu.py','--evidence','/proof/menu','--primary','/proof/evidence'],text=True,capture_output=True)
+  if run.returncode:raise SystemExit(run.stdout+run.stderr)
+  reports.append(json.loads(run.stdout))
 print(json.dumps({'passed':True,'modes':['normal','-O'],'reports':reports,'checkout_available':False,'git_available':False,'qt_available':False}))
 '''
 def main():
+ parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--menu',action='store_true');args=parser.parse_args()
  index=json.loads((BASE/'index.json').read_text())
  with tempfile.TemporaryDirectory(prefix='cycles-portable-') as tmp:
   root=Path(tmp)
@@ -25,6 +31,11 @@ def main():
    target=root/'evidence'/relative;target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(BASE/relative,target)
   (root/'code').mkdir()
   for name in ['audit.py','config.py','lock_plan.py']:shutil.copyfile(ROOT/'tests/functional_cycles'/name,root/'code'/name)
+  if args.menu:
+   supplement=ROOT/'.scratch/pt-pt/functional-cycles-menu';manifest=json.loads((supplement/'index.json').read_text())
+   for relative in ['index.json',*manifest['files']]:
+    target=root/'menu'/relative;target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(supplement/relative,target)
+   shutil.copyfile(ROOT/'tests/functional_cycles/audit_menu.py',root/'code/audit_menu.py')
   command=['docker','run','--rm','--pull=never','--network','none','--read-only','--tmpfs','/tmp','-e','PYTHONDONTWRITEBYTECODE=1','-v',str(root)+':/proof:ro',IMAGE,'python3','-c',HARNESS]
   run=subprocess.run(command,capture_output=True,text=True)
   if run.returncode:raise SystemExit(run.stderr)
