@@ -218,3 +218,5 @@ percursos preservam os critérios globais pendentes.
 - [60 — Dinheiro e troco](issues/60-dinheiro-troco.md)
 
 - [61 — Frações](issues/61-fracoes.md)
+
+- [62 — Calendários](issues/62-calendarios.md)
