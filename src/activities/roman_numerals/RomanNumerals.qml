@@ -354,7 +354,9 @@ ActivityBase {
                             romanConverter.arabic = parseInt(text)
                             else
                                 romanConverter.roman = text
-                    }
+                    } else {
+                    romanConverter.arabic = 0;
+                }
 
                 function appendText(car: string) {
                     if(car === keyboard.backspace) {
