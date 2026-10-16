@@ -1,0 +1,1236 @@
+{
+  "magic-hat-plus": {
+    "datasets": [
+      {
+        "id": "1",
+        "count": 2
+      },
+      {
+        "id": "2",
+        "count": 2
+      },
+      {
+        "id": "3",
+        "count": 3
+      },
+      {
+        "id": "4",
+        "count": 7
+      },
+      {
+        "id": "5",
+        "count": 6
+      },
+      {
+        "id": "6",
+        "count": 5
+      },
+      {
+        "id": "7",
+        "count": 5
+      },
+      {
+        "id": "8",
+        "count": 5
+      },
+      {
+        "id": "9",
+        "count": 6
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "dataset": "1",
+        "maxResultPerRow": 3,
+        "minStars": [
+          1,
+          0,
+          0
+        ],
+        "maxStars": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 2,
+        "dataset": "1",
+        "maxResultPerRow": 3,
+        "minStars": [
+          1,
+          0,
+          0
+        ],
+        "maxStars": [
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 3,
+        "dataset": "2",
+        "maxResultPerRow": 4,
+        "minStars": [
+          1,
+          0,
+          0
+        ],
+        "maxStars": [
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 4,
+        "dataset": "2",
+        "maxResultPerRow": 4,
+        "minStars": [
+          1,
+          0,
+          0
+        ],
+        "maxStars": [
+          3,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 5,
+        "dataset": "3",
+        "maxResultPerRow": 5,
+        "minStars": [
+          1,
+          0,
+          0
+        ],
+        "maxStars": [
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 6,
+        "dataset": "3",
+        "maxResultPerRow": 5,
+        "minStars": [
+          1,
+          0,
+          0
+        ],
+        "maxStars": [
+          3,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 7,
+        "dataset": "3",
+        "maxResultPerRow": 5,
+        "minStars": [
+          2,
+          0,
+          0
+        ],
+        "maxStars": [
+          4,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 8,
+        "dataset": "4",
+        "maxResultPerRow": 10,
+        "minStars": [
+          1,
+          0,
+          0
+        ],
+        "maxStars": [
+          3,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 9,
+        "dataset": "4",
+        "maxResultPerRow": 10,
+        "minStars": [
+          1,
+          0,
+          0
+        ],
+        "maxStars": [
+          4,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 10,
+        "dataset": "4",
+        "maxResultPerRow": 10,
+        "minStars": [
+          1,
+          0,
+          0
+        ],
+        "maxStars": [
+          5,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 11,
+        "dataset": "4",
+        "maxResultPerRow": 10,
+        "minStars": [
+          1,
+          0,
+          0
+        ],
+        "maxStars": [
+          6,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 12,
+        "dataset": "4",
+        "maxResultPerRow": 10,
+        "minStars": [
+          1,
+          0,
+          0
+        ],
+        "maxStars": [
+          7,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 13,
+        "dataset": "4",
+        "maxResultPerRow": 10,
+        "minStars": [
+          1,
+          0,
+          0
+        ],
+        "maxStars": [
+          8,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 14,
+        "dataset": "4",
+        "maxResultPerRow": 10,
+        "minStars": [
+          1,
+          0,
+          0
+        ],
+        "maxStars": [
+          9,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 15,
+        "dataset": "5",
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          1,
+          0
+        ],
+        "maxStars": [
+          9,
+          5,
+          0
+        ]
+      },
+      {
+        "level": 16,
+        "dataset": "5",
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          1,
+          0
+        ],
+        "maxStars": [
+          9,
+          9,
+          0
+        ]
+      },
+      {
+        "level": 17,
+        "dataset": "5",
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          1,
+          1
+        ],
+        "maxStars": [
+          8,
+          8,
+          8
+        ]
+      },
+      {
+        "level": 18,
+        "dataset": "5",
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          1,
+          1
+        ],
+        "maxStars": [
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "level": 19,
+        "dataset": "5",
+        "maxResultPerRow": 10,
+        "minStars": [
+          3,
+          4,
+          5
+        ],
+        "maxStars": [
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "level": 20,
+        "dataset": "5",
+        "maxResultPerRow": 10,
+        "minStars": [
+          6,
+          7,
+          8
+        ],
+        "maxStars": [
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "level": 21,
+        "dataset": "6",
+        "useCoefficients": true,
+        "multiplier": 1,
+        "rowCoefficients": [
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "level": 22,
+        "dataset": "6",
+        "useCoefficients": true,
+        "multiplier": 1,
+        "rowCoefficients": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "level": 23,
+        "dataset": "6",
+        "useCoefficients": true,
+        "multiplier": 1,
+        "rowCoefficients": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "level": 24,
+        "dataset": "6",
+        "useCoefficients": true,
+        "multiplier": 1,
+        "rowCoefficients": [
+          3,
+          3,
+          2
+        ]
+      },
+      {
+        "level": 25,
+        "dataset": "6",
+        "useCoefficients": true,
+        "multiplier": 1,
+        "rowCoefficients": [
+          4,
+          4,
+          2
+        ]
+      },
+      {
+        "level": 26,
+        "dataset": "7",
+        "useCoefficients": true,
+        "multiplier": 10,
+        "rowCoefficients": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 27,
+        "dataset": "7",
+        "useCoefficients": true,
+        "multiplier": 10,
+        "rowCoefficients": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "level": 28,
+        "dataset": "7",
+        "useCoefficients": true,
+        "multiplier": 10,
+        "rowCoefficients": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "level": 29,
+        "dataset": "7",
+        "useCoefficients": true,
+        "multiplier": 10,
+        "rowCoefficients": [
+          3,
+          3,
+          1
+        ]
+      },
+      {
+        "level": 30,
+        "dataset": "7",
+        "useCoefficients": true,
+        "multiplier": 10,
+        "rowCoefficients": [
+          4,
+          4,
+          2
+        ]
+      },
+      {
+        "level": 31,
+        "dataset": "8",
+        "useCoefficients": true,
+        "multiplier": 100,
+        "rowCoefficients": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 32,
+        "dataset": "8",
+        "useCoefficients": true,
+        "multiplier": 100,
+        "rowCoefficients": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "level": 33,
+        "dataset": "8",
+        "useCoefficients": true,
+        "multiplier": 100,
+        "rowCoefficients": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "level": 34,
+        "dataset": "8",
+        "useCoefficients": true,
+        "multiplier": 100,
+        "rowCoefficients": [
+          3,
+          3,
+          1
+        ]
+      },
+      {
+        "level": 35,
+        "dataset": "8",
+        "useCoefficients": true,
+        "multiplier": 100,
+        "rowCoefficients": [
+          4,
+          4,
+          2
+        ]
+      },
+      {
+        "level": 36,
+        "dataset": "9",
+        "useDifferentStars": true,
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          1,
+          0
+        ],
+        "maxStars": [
+          9,
+          5,
+          0
+        ]
+      },
+      {
+        "level": 37,
+        "dataset": "9",
+        "useDifferentStars": true,
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          1,
+          0
+        ],
+        "maxStars": [
+          9,
+          9,
+          0
+        ]
+      },
+      {
+        "level": 38,
+        "dataset": "9",
+        "useDifferentStars": true,
+        "maxResultPerRow": 10,
+        "minStars": [
+          5,
+          5,
+          0
+        ],
+        "maxStars": [
+          9,
+          9,
+          0
+        ]
+      },
+      {
+        "level": 39,
+        "dataset": "9",
+        "useDifferentStars": true,
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          1,
+          1
+        ],
+        "maxStars": [
+          9,
+          9,
+          5
+        ]
+      },
+      {
+        "level": 40,
+        "dataset": "9",
+        "useDifferentStars": true,
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          1,
+          1
+        ],
+        "maxStars": [
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "level": 41,
+        "dataset": "9",
+        "useDifferentStars": true,
+        "maxResultPerRow": 10,
+        "minStars": [
+          5,
+          5,
+          5
+        ],
+        "maxStars": [
+          9,
+          9,
+          9
+        ]
+      }
+    ],
+    "representability": {
+      "slots_per_row": 10,
+      "answer_base_weights": [
+        1,
+        5,
+        10
+      ],
+      "reachable_integer_interval": [
+        0,
+        160
+      ],
+      "max_weighted_target_base": 100,
+      "colored_result_max_per_row": 10
+    }
+  },
+  "magic-hat-minus": {
+    "datasets": [
+      {
+        "id": "1",
+        "count": 2
+      },
+      {
+        "id": "2",
+        "count": 2
+      },
+      {
+        "id": "3",
+        "count": 3
+      },
+      {
+        "id": "4",
+        "count": 7
+      },
+      {
+        "id": "5",
+        "count": 6
+      },
+      {
+        "id": "6",
+        "count": 5
+      },
+      {
+        "id": "7",
+        "count": 5
+      },
+      {
+        "id": "8",
+        "count": 5
+      },
+      {
+        "id": "9",
+        "count": 6
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "dataset": "1",
+        "maxResultPerRow": 3,
+        "minStars": [
+          2,
+          0,
+          0
+        ],
+        "maxStars": [
+          4,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 2,
+        "dataset": "1",
+        "maxResultPerRow": 3,
+        "minStars": [
+          2,
+          0,
+          0
+        ],
+        "maxStars": [
+          3,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 3,
+        "dataset": "2",
+        "maxResultPerRow": 4,
+        "minStars": [
+          2,
+          0,
+          0
+        ],
+        "maxStars": [
+          4,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 4,
+        "dataset": "2",
+        "maxResultPerRow": 4,
+        "minStars": [
+          2,
+          0,
+          0
+        ],
+        "maxStars": [
+          5,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 5,
+        "dataset": "3",
+        "maxResultPerRow": 5,
+        "minStars": [
+          2,
+          0,
+          0
+        ],
+        "maxStars": [
+          3,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 6,
+        "dataset": "3",
+        "maxResultPerRow": 5,
+        "minStars": [
+          2,
+          0,
+          0
+        ],
+        "maxStars": [
+          4,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 7,
+        "dataset": "3",
+        "maxResultPerRow": 5,
+        "minStars": [
+          2,
+          0,
+          0
+        ],
+        "maxStars": [
+          5,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 8,
+        "dataset": "4",
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          0,
+          0
+        ],
+        "maxStars": [
+          3,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 9,
+        "dataset": "4",
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          0,
+          0
+        ],
+        "maxStars": [
+          5,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 10,
+        "dataset": "4",
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          0,
+          0
+        ],
+        "maxStars": [
+          6,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 11,
+        "dataset": "4",
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          0,
+          0
+        ],
+        "maxStars": [
+          7,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 12,
+        "dataset": "4",
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          0,
+          0
+        ],
+        "maxStars": [
+          8,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 13,
+        "dataset": "4",
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          0,
+          0
+        ],
+        "maxStars": [
+          9,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 14,
+        "dataset": "4",
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          0,
+          0
+        ],
+        "maxStars": [
+          10,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 15,
+        "dataset": "5",
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          1,
+          0
+        ],
+        "maxStars": [
+          10,
+          5,
+          0
+        ]
+      },
+      {
+        "level": 16,
+        "dataset": "5",
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          1,
+          0
+        ],
+        "maxStars": [
+          10,
+          10,
+          0
+        ]
+      },
+      {
+        "level": 17,
+        "dataset": "5",
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          1,
+          1
+        ],
+        "maxStars": [
+          8,
+          8,
+          8
+        ]
+      },
+      {
+        "level": 18,
+        "dataset": "5",
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          1,
+          1
+        ],
+        "maxStars": [
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "level": 19,
+        "dataset": "5",
+        "maxResultPerRow": 10,
+        "minStars": [
+          3,
+          4,
+          5
+        ],
+        "maxStars": [
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "level": 20,
+        "dataset": "5",
+        "maxResultPerRow": 10,
+        "minStars": [
+          6,
+          7,
+          8
+        ],
+        "maxStars": [
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "level": 21,
+        "dataset": "6",
+        "useCoefficients": true,
+        "multiplier": 1,
+        "rowCoefficients": [
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "level": 22,
+        "dataset": "6",
+        "useCoefficients": true,
+        "multiplier": 1,
+        "rowCoefficients": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "level": 23,
+        "dataset": "6",
+        "useCoefficients": true,
+        "multiplier": 1,
+        "rowCoefficients": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "level": 24,
+        "dataset": "6",
+        "useCoefficients": true,
+        "multiplier": 1,
+        "rowCoefficients": [
+          3,
+          3,
+          2
+        ]
+      },
+      {
+        "level": 25,
+        "dataset": "6",
+        "useCoefficients": true,
+        "multiplier": 1,
+        "rowCoefficients": [
+          4,
+          4,
+          2
+        ]
+      },
+      {
+        "level": 26,
+        "dataset": "7",
+        "useCoefficients": true,
+        "multiplier": 10,
+        "rowCoefficients": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 27,
+        "dataset": "7",
+        "useCoefficients": true,
+        "multiplier": 10,
+        "rowCoefficients": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "level": 28,
+        "dataset": "7",
+        "useCoefficients": true,
+        "multiplier": 10,
+        "rowCoefficients": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "level": 29,
+        "dataset": "7",
+        "useCoefficients": true,
+        "multiplier": 10,
+        "rowCoefficients": [
+          3,
+          3,
+          1
+        ]
+      },
+      {
+        "level": 30,
+        "dataset": "7",
+        "useCoefficients": true,
+        "multiplier": 10,
+        "rowCoefficients": [
+          4,
+          4,
+          2
+        ]
+      },
+      {
+        "level": 31,
+        "dataset": "8",
+        "useCoefficients": true,
+        "multiplier": 100,
+        "rowCoefficients": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "level": 32,
+        "dataset": "8",
+        "useCoefficients": true,
+        "multiplier": 100,
+        "rowCoefficients": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "level": 33,
+        "dataset": "8",
+        "useCoefficients": true,
+        "multiplier": 100,
+        "rowCoefficients": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "level": 34,
+        "dataset": "8",
+        "useCoefficients": true,
+        "multiplier": 100,
+        "rowCoefficients": [
+          3,
+          3,
+          1
+        ]
+      },
+      {
+        "level": 35,
+        "dataset": "8",
+        "useCoefficients": true,
+        "multiplier": 100,
+        "rowCoefficients": [
+          4,
+          4,
+          2
+        ]
+      },
+      {
+        "level": 36,
+        "dataset": "9",
+        "useDifferentStars": true,
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          1,
+          0
+        ],
+        "maxStars": [
+          10,
+          5,
+          0
+        ]
+      },
+      {
+        "level": 37,
+        "dataset": "9",
+        "useDifferentStars": true,
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          1,
+          0
+        ],
+        "maxStars": [
+          10,
+          10,
+          0
+        ]
+      },
+      {
+        "level": 38,
+        "dataset": "9",
+        "useDifferentStars": true,
+        "maxResultPerRow": 10,
+        "minStars": [
+          5,
+          5,
+          0
+        ],
+        "maxStars": [
+          10,
+          10,
+          0
+        ]
+      },
+      {
+        "level": 39,
+        "dataset": "9",
+        "useDifferentStars": true,
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          1,
+          1
+        ],
+        "maxStars": [
+          10,
+          10,
+          5
+        ]
+      },
+      {
+        "level": 40,
+        "dataset": "9",
+        "useDifferentStars": true,
+        "maxResultPerRow": 10,
+        "minStars": [
+          2,
+          1,
+          1
+        ],
+        "maxStars": [
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "level": 41,
+        "dataset": "9",
+        "useDifferentStars": true,
+        "maxResultPerRow": 10,
+        "minStars": [
+          5,
+          5,
+          5
+        ],
+        "maxStars": [
+          10,
+          10,
+          10
+        ]
+      }
+    ],
+    "representability": {
+      "slots_per_row": 10,
+      "answer_base_weights": [
+        1,
+        5,
+        10
+      ],
+      "reachable_integer_interval": [
+        0,
+        160
+      ],
+      "max_weighted_target_base": 100,
+      "colored_result_max_per_row": 10
+    }
+  }
+}
