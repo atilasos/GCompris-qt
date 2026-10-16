@@ -1,7 +1,7 @@
 # Concluir os jogos de relações familiares
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -64,3 +64,9 @@ aceitação global permanecem pendentes; nenhuma aprovação áudio é transferi
 Provas integradas para Standards e Spec independentes. `ready-for-review`
 não representa resolução final ou aceitação global. Os limites iconográficos
 publicados não demonstram género pela aparência.
+
+## Fecho de revisão
+
+Standards e Spec sem achados acionáveis; [relatórios](../review/integration86/).
+Resolução limitada aos percursos Linux finitos publicados. Recusa explícita
+de Python -O aceite; limites iconográficos e critérios globais preservados.
