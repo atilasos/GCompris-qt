@@ -53,10 +53,10 @@ enumerate,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/enum
 erase,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/erase.md
 erase_2clic,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/erase_2clic.md
 erase_clic,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/erase_clic.md
-explore_farm_animals,pending,pending,pending,pending,pending,
-explore_monuments,pending,pending,pending,pending,pending,
-explore_world_animals,pending,pending,pending,pending,pending,
-explore_world_music,pending,pending,pending,pending,pending,
+explore_farm_animals,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/explore_farm_animals.md
+explore_monuments,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/explore_monuments.md
+explore_world_animals,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/explore_world_animals.md
+explore_world_music,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/explore_world_music.md
 family,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/family.md
 family_find_relative,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/family_find_relative.md
 fifteen,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/fifteen.md

@@ -1,7 +1,7 @@
 # Concluir atividades de exploração do mundo
 
 Status: ready-for-agent
-Progress: claimed
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -49,3 +49,8 @@ A aprovação 32 não abrange nenhum dos 30 sons observados. Audição humana,
 Windows 10/11, equipamento escolar e revisão docente continuam pendentes.
 A tarefa 44 e o mapa/CSV de cobertura não foram alterados.
 Progress permanece claimed até à revisão independente e integração.
+
+## Integração
+
+Provas integradas para Standards e Spec independentes; `ready-for-review`,
+sem resolução final ou aceitação global.
