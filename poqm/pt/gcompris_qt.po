@@ -16444,7 +16444,7 @@ msgstr "Retroceder: apaga o último algarismo na tua resposta"
 #: activities/graduated_line_read/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Delete: reset your answer"
-msgstr "Algarismos: escreve a tua resposta"
+msgstr "Delete: limpar a resposta"
 
 #: activities/graduated_line_read/ActivityInfo.qml:28
 #: activities/graduated_line_use/ActivityInfo.qml:26
@@ -16460,7 +16460,7 @@ msgstr "(limites variáveis)"
 #: activities/graduated_line_read/GraduatedLineRead.qml:17
 msgctxt "GraduatedLineRead|"
 msgid "Find the requested number."
-msgstr "Descobrir a borboleta cor de ferrugem"
+msgstr "Encontra o número indicado."
 
 #: activities/graduated_line_read/resource/1/Data.qml:21
 msgctxt "Data|"
@@ -16486,7 +16486,7 @@ msgstr "Encontrar um número entre 1 e 10."
 #: activities/graduated_line_read/resource/4/Data.qml:9
 msgctxt "Data|"
 msgid "Number to find between 0 and 20."
-msgstr "Encontrar um número entre 0e 20."
+msgstr "Encontrar um número entre 0 e 20."
 
 #: activities/graduated_line_read/resource/5/Data.qml:9
 msgctxt "Data|"
@@ -16544,7 +16544,7 @@ msgstr ""
 #: activities/graduated_line_use/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Left and Right arrows: move the cursor"
-msgstr "Setas Esquerda e Direita: mover a nave"
+msgstr "Setas Esquerda e Direita: mover o cursor"
 
 #: activities/graduated_line_use/GraduatedLineUse.qml:10
 msgctxt "GraduatedLineUse|"
