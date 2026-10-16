@@ -198,3 +198,5 @@ a aceitação global dos 203 jogos.
 - [57 — Papador de Números](issues/57-papador-numeros.md)
 
 - [58 — Revelar imagens](issues/58-apagar-imagem.md)
+
+- [59 — Identidades das provas de cores](issues/59-cores-identidades-prova.md)
