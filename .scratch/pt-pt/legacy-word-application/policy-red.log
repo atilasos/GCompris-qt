@@ -1,0 +1,41 @@
+....EEE
+======================================================================
+ERROR: test_missing_or_corrupt_physical_provenance_and_rcc_are_rejected (test_approved_legacy_voices.PinnedCompletionPolicy.test_missing_or_corrupt_physical_provenance_and_rcc_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-legacy-voices-approved/tests/test_approved_legacy_voices.py", line 105, in test_missing_or_corrupt_physical_provenance_and_rcc_are_rejected
+    self.assertIn('share/GCompris/rcc/data3/voices-ogg/replacements-manifest.json', self.check(self.policy)['corrupt'])
+                                                                                    ~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-legacy-voices-approved/tests/test_approved_legacy_voices.py", line 88, in check
+    return package.check(self.stage, [], self.entries, completion=result, voice_policy=self.policy)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: check() got an unexpected keyword argument 'voice_policy'
+
+======================================================================
+ERROR: test_original_pinned_policy_accepts_physical_bytes (test_approved_legacy_voices.PinnedCompletionPolicy.test_original_pinned_policy_accepts_physical_bytes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-legacy-voices-approved/tests/test_approved_legacy_voices.py", line 91, in test_original_pinned_policy_accepts_physical_bytes
+    self.assertEqual(self.check(copy.deepcopy(self.policy))['corrupt'], [])
+                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-legacy-voices-approved/tests/test_approved_legacy_voices.py", line 88, in check
+    return package.check(self.stage, [], self.entries, completion=result, voice_policy=self.policy)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: check() got an unexpected keyword argument 'voice_policy'
+
+======================================================================
+ERROR: test_third_substitution_and_resealed_hash_and_absent_completion_are_rejected (test_approved_legacy_voices.PinnedCompletionPolicy.test_third_substitution_and_resealed_hash_and_absent_completion_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-legacy-voices-approved/tests/test_approved_legacy_voices.py", line 96, in test_third_substitution_and_resealed_hash_and_absent_completion_are_rejected
+    self.assertIn('voice-completion-manifest', self.check(altered)['corrupt'])
+                                               ~~~~~~~~~~^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-legacy-voices-approved/tests/test_approved_legacy_voices.py", line 88, in check
+    return package.check(self.stage, [], self.entries, completion=result, voice_policy=self.policy)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: check() got an unexpected keyword argument 'voice_policy'
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.006s
+
+FAILED (errors=3)

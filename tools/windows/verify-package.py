@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 
 
-def check(stage, activities, entries, listed=None, completion=None):
+def check(stage, activities, entries, listed=None, completion=None, voice_policy=None):
     required = ['bin/GCompris.exe', 'bin/Qt6Core.dll', 'bin/Qt6Gui.dll',
                 'bin/Qt6Qml.dll', 'bin/vcruntime140.dll', 'bin/msvcp140.dll', 'bin/Qt6Quick.dll', 'bin/Qt6Multimedia.dll',
                 'bin/platforms/qwindows.dll', 'bin/platforms/qoffscreen.dll',
@@ -25,7 +25,12 @@ def check(stage, activities, entries, listed=None, completion=None):
             missing.append(pattern)
     corrupt = []
     replacements = []
-    if completion is not None:
+    if voice_policy is not None:
+        if completion is None or any(completion.get(key) != value for key, value in voice_policy.items()):
+            corrupt.append('voice-completion-manifest')
+        else:
+            replacements = voice_policy['files'] + voice_policy['provenance_files']
+    elif completion is not None:
         source = next((entry for entry in entries if entry['path'] == 'voices-ogg/' + completion.get('source_rcc', '')), None)
         valid = (completion.get('format') == 1 and source is not None and
                  completion.get('source_rcc_sha256') == source['sha256'] and
@@ -70,10 +75,11 @@ if __name__ == '__main__':
     activities = [line.strip() for line in args.activities.read_text().splitlines()
                   if line.strip() and not line.lstrip().startswith('#')]
     listed = None if args.listed is None else args.listed.read_text(encoding='utf-8-sig').split()
-    entries = json.loads(Path(__file__).with_name('assets-lock.json').read_text())['files']
+    lock = json.loads(Path(__file__).with_name('assets-lock.json').read_text())
+    entries = lock['files']
     manifest = args.stage / 'share/GCompris/rcc/data3/voices-ogg/completion.json'
     completion = json.loads(manifest.read_text()) if manifest.exists() else None
-    result = check(args.stage, activities, entries, listed, completion)
+    result = check(args.stage, activities, entries, listed, completion, lock.get('pt_voice_completion'))
     args.output.write_text(json.dumps(result, indent=2) + '\n')
     print(json.dumps(result, indent=2))
     raise SystemExit(0 if result['passed'] else 1)

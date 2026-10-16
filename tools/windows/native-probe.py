@@ -54,7 +54,7 @@ if __name__ == '__main__':
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--activities-file', type=Path, help='Authoritative full activity manifest for installed startup checks')
     parser.add_argument('--seconds', type=float, default=6)
-    parser.add_argument('--expected-voice', default='voices-pt-2026-10-15-00-00-00.rcc')
+    parser.add_argument('--expected-voice', default='voices-pt-2026-10-16-00-00-00.rcc')
     args = parser.parse_args()
     try:
         activities = read_activities(args.activities_file) if args.activities_file else ACTIVITIES

@@ -31,9 +31,14 @@ os dados eSpeak `pt`, identificados no motor como Portuguese (Portugal), com
 fonemas `pt-pt`. A síntese pode gerar bytes diferentes noutra execução; os OGG
 versionados são os recursos a distribuir e a verificar pelos hashes.
 
-As gravações originais mantêm os bytes e as licenças de origem. O manifesto de
-conclusão do pacote identifica o SHA-256 do RCC original e confirma a preservação
-de todos os recursos antes de publicar o novo RCC e o seu índice Contents.
+O RCC original mantém os seus bytes e licenças. Na versão de 16 de outubro,
+1576 gravações originais e as 32 adições mantêm os bytes; apenas fawn.ogg
+(cervato) e tick.ogg (carraça) são substituídos deliberadamente. O professor
+aprovou os dois WAV exatos em 16 de outubro («podemos usar o que foi criado»).
+Os OGG derivados estão ligados a esses WAV e à configuração de codificação
+em replacements.json; não se afirma que o professor ouviu estes bytes OGG.
+A aprovação exata está em .scratch/pt-pt/legacy-word-review/human-approval.json.
+Os relatórios anteriores descrevem o pacote anterior e permanecem históricos.
 
 ## Topónimos
 
