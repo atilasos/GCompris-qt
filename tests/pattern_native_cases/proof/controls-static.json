@@ -1,0 +1,81 @@
+{
+  "scope": "Static preparation only; no Qt process or native result",
+  "primary_commit": "7ce7f4ddd",
+  "primary_files_unchanged_sha256": {
+    "tests/pattern_native_cases/README.md": "53df47ae5a9201d6cd198a568bfde41b50a409c47d4c4a92dd5d72caedd955c8",
+    "tests/pattern_native_cases/build.py": "362cb53ce851976f3cb6cb490b1ba9e0b9c562b64a587fdda802ebe32f85a2a7",
+    "tests/pattern_native_cases/common.js": "ec4f28a36c6035e71dad20ec8e82b9785758491ac26c3b09839308eb34e68270",
+    "tests/pattern_native_cases/complete-mosaic.qml": "6e1947a77ab5ef0969e7146d896dbfcffe0f4aee1a401d287dee29dd99aaf2a8",
+    "tests/pattern_native_cases/complete-redraw.qml": "76d78c1170bd45563f24949f05e64c53f7fefd8da9722e491cf0b6c1b7e6a514",
+    "tests/pattern_native_cases/mosaic.js": "fc032d59ad90098c75f49ad0d7ec3b09b730df378bbdfc526d2833204ba73fae",
+    "tests/pattern_native_cases/planner.js": "fe5f8093bff4b1316b0db2ed51edd7d03d8c60c9940e101403ccd06cf2a17896",
+    "tests/pattern_native_cases/probe_inventories.py": "7d99d6e77a24dffbc4df3d75bdb800ffcf20fa5faf41e7b43d48e696de529144",
+    "tests/pattern_native_cases/proof/inventory-probe.json": "e24d031ff74f3ef9d3da4495094a5a40f9113156dcdc993b980771e75b319084",
+    "tests/pattern_native_cases/proof/observations.json": "80f9903a726c2c363763d6d517f1a548bb6844a24bc7d0e3ebcabef9632b2014",
+    "tests/pattern_native_cases/proof/planner-green.log": "565d6b3ab854db4316e1071e76cc5a05ee9818b8fcdbcff450aa9e89b553e456",
+    "tests/pattern_native_cases/proof/planner-red.log": "f6ef3682107780af77c4a6902a6556768f9d54b917d583e4b0abfd28a6840dff",
+    "tests/pattern_native_cases/redraw.js": "68df54f3b998ea03c2b172089d4c1066018c97deee67a778943318c61f38448a",
+    "tests/pattern_native_cases/test-planner.js": "c57392524802a26437adf0da6152c8c49134e9187e627df014a0bf19ea6287c0"
+  },
+  "checks": [
+    {
+      "argv": [
+        "python3",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_native_cases/build.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_native_cases/build_controls.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-O",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_native_cases/build_controls.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "node",
+        "--check",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_native_cases/controls.js"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-O",
+        "/tmp/pattern controls generation 8ryeu4nh/case/build_controls.py",
+        "--check"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Generated controls case differs: /tmp/pattern controls generation 8ryeu4nh/case/controls-mosaic.qml\n",
+      "purpose": "Alter only a physical copy of generated QML; original preserved"
+    }
+  ],
+  "controls_sha256": {
+    "controls.js": "18db366b9718e4ccacddfb863e4cc4c5d9011efceaf853c50962aba55eb2bc92",
+    "build_controls.py": "2ff370e22190c96c8ed0bae86a896ff012cb2db0f8fc7965411ffc3cf130fa83",
+    "controls-redraw.qml": "81bbcad35197e95f755eb09b88c4b0824a9472fc643c3207171fe936f4af0e3e",
+    "controls-mosaic.qml": "04e7f6790dcc63a780eaf991784834e4eff0f69d4e2f5721987dbacbbb4298e4"
+  }
+}

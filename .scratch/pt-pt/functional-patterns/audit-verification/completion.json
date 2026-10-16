@@ -1,0 +1,14 @@
+{
+  "scope": "Executable Python sources unchanged since both offline Docker checks; subsequent README/gitignore additions are documentation only",
+  "python_byte_mismatches": [],
+  "external_completion": {
+    "session_id": 56551,
+    "output_chunk": "b6d4c9",
+    "exit_code": 0
+  },
+  "adversarial_host_completion": {
+    "session_id": 10279,
+    "output_chunk": "a3593b",
+    "exit_code": 0
+  }
+}

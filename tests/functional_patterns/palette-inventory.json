@@ -1,0 +1,26 @@
+{
+  "redraw": {
+    "inventory_sha256": "d819f885f7e342ee747cb2dbdc543a27b113c795e25528be228a64193038e88b",
+    "sources": [
+      "qrc:/gcompris/src/activities/redraw/resource/black.svg",
+      "qrc:/gcompris/src/activities/redraw/resource/blue.svg",
+      "qrc:/gcompris/src/activities/redraw/resource/green.svg",
+      "qrc:/gcompris/src/activities/redraw/resource/orange.svg",
+      "qrc:/gcompris/src/activities/redraw/resource/red.svg",
+      "qrc:/gcompris/src/activities/redraw/resource/white.svg",
+      "qrc:/gcompris/src/activities/redraw/resource/yellow.svg"
+    ]
+  },
+  "redraw_symmetrical": {
+    "inventory_sha256": "209107d780e52f6579b39860388b6edaaea073c1db447dbeedae0ba5b5d99b0c",
+    "sources": [
+      "qrc:/gcompris/src/activities/redraw/resource/black.svg",
+      "qrc:/gcompris/src/activities/redraw/resource/blue.svg",
+      "qrc:/gcompris/src/activities/redraw/resource/green.svg",
+      "qrc:/gcompris/src/activities/redraw/resource/orange.svg",
+      "qrc:/gcompris/src/activities/redraw/resource/red.svg",
+      "qrc:/gcompris/src/activities/redraw/resource/white.svg",
+      "qrc:/gcompris/src/activities/redraw/resource/yellow.svg"
+    ]
+  }
+}

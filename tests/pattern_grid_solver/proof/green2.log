@@ -1,0 +1,7 @@
+test_mirror_flips_only_columns_with_regular_margins_and_permuted_lists (test_solver.VisibleGridPlanning.test_mirror_flips_only_columns_with_regular_margins_and_permuted_lists) ... ok
+test_translated_scaled_grid_matches_opaque_painted_palette (test_solver.VisibleGridPlanning.test_translated_scaled_grid_matches_opaque_painted_palette) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK

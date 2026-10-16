@@ -1,0 +1,18 @@
+....F
+======================================================================
+FAIL: test_unrelated_pixels_are_refused (test_mosaic_pixels.ActualScenePictures.test_unrelated_pixels_are_refused)
+----------------------------------------------------------------------
+ValueError: Picture classification must be unique with at least one RGB level of margin
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-patterns/tests/patterns_audit/test_mosaic_pixels.py", line 24, in test_unrelated_pixels_are_refused
+    with self.assertRaisesRegex(ValueError,'render discrepancy'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "render discrepancy" does not match "Picture classification must be unique with at least one RGB level of margin"
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+FAILED (failures=1)

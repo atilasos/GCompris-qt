@@ -1,0 +1,8 @@
+{
+  "scope": "Read-only final preservation check, not another gameplay run",
+  "snapshot_files": 269,
+  "frozen_phases": 10,
+  "frozen_files": 3475,
+  "finished_native_receipts": 23,
+  "matching_live_native_pids": []
+}

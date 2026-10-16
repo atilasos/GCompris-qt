@@ -1,0 +1,94 @@
+test_boundary_requires_nested_frames_finite_json_and_explicit_mirror (test_solver.VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror) ... 
+  test_boundary_requires_nested_frames_finite_json_and_explicit_mirror (test_solver.VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror) (operation=<function VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror.<locals>.<lambda> at 0x738b093ae770>) ... FAIL
+  test_boundary_requires_nested_frames_finite_json_and_explicit_mirror (test_solver.VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror) (operation=<function VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror.<locals>.<lambda> at 0x738b090e5e80>) ... FAIL
+  test_boundary_requires_nested_frames_finite_json_and_explicit_mirror (test_solver.VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror) (operation=<function VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror.<locals>.<lambda> at 0x738b090e5c70>) ... ERROR
+  test_boundary_requires_nested_frames_finite_json_and_explicit_mirror (test_solver.VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror) (operation=<function VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror.<locals>.<lambda> at 0x738b090e6140>) ... ERROR
+  test_boundary_requires_nested_frames_finite_json_and_explicit_mirror (test_solver.VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror) (operation=<function VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror.<locals>.<lambda> at 0x738b08e8c670>) ... ERROR
+  test_boundary_requires_nested_frames_finite_json_and_explicit_mirror (test_solver.VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror) (operation=<function VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror.<locals>.<lambda> at 0x738b08e8c7d0>) ... FAIL
+test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) ... ok
+test_json_signature_types_and_nested_values_are_preserved_without_mutation (test_solver.VisibleGridPlanning.test_json_signature_types_and_nested_values_are_preserved_without_mutation) ... ok
+test_mirror_flips_only_columns_with_regular_margins_and_permuted_lists (test_solver.VisibleGridPlanning.test_mirror_flips_only_columns_with_regular_margins_and_permuted_lists) ... ok
+test_paint_requires_one_unambiguous_calibrated_palette_match (test_solver.VisibleGridPlanning.test_paint_requires_one_unambiguous_calibrated_palette_match) ... ok
+test_translated_scaled_grid_matches_opaque_painted_palette (test_solver.VisibleGridPlanning.test_translated_scaled_grid_matches_opaque_painted_palette) ... ok
+test_wrong_alternatives_list_all_distinct_visible_paints_without_guessing (test_solver.VisibleGridPlanning.test_wrong_alternatives_list_all_distinct_visible_paints_without_guessing) ... ok
+
+======================================================================
+ERROR: test_boundary_requires_nested_frames_finite_json_and_explicit_mirror (test_solver.VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror) (operation=<function VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror.<locals>.<lambda> at 0x738b090e5c70>)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 123, in test_boundary_requires_nested_frames_finite_json_and_explicit_mirror
+    operation()
+    ~~~~~~~~~^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 112, in <lambda>
+    lambda: plan(question, answer, None),
+            ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/solver.py", line 88, in plan
+    palette = _palette(palette_samples)
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/solver.py", line 19, in _palette
+    for sample in samples:
+                  ^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+======================================================================
+ERROR: test_boundary_requires_nested_frames_finite_json_and_explicit_mirror (test_solver.VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror) (operation=<function VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror.<locals>.<lambda> at 0x738b090e6140>)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 123, in test_boundary_requires_nested_frames_finite_json_and_explicit_mirror
+    operation()
+    ~~~~~~~~~^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 113, in <lambda>
+    lambda: plan(question, answer, [{'id': 1}]),
+            ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/solver.py", line 88, in plan
+    palette = _palette(palette_samples)
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/solver.py", line 20, in _palette
+    signature = _key(sample['signature'])
+                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'signature'
+
+======================================================================
+ERROR: test_boundary_requires_nested_frames_finite_json_and_explicit_mirror (test_solver.VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror) (operation=<function VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror.<locals>.<lambda> at 0x738b08e8c670>)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 123, in test_boundary_requires_nested_frames_finite_json_and_explicit_mirror
+    operation()
+    ~~~~~~~~~^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 114, in <lambda>
+    lambda: plan([{'frame': question[0]['frame']}], answer, palette),
+            ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/solver.py", line 97, in plan
+    signature = _key(observed['signature'])
+                     ~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'signature'
+
+======================================================================
+FAIL: test_boundary_requires_nested_frames_finite_json_and_explicit_mirror (test_solver.VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror) (operation=<function VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror.<locals>.<lambda> at 0x738b093ae770>)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 122, in test_boundary_requires_nested_frames_finite_json_and_explicit_mirror
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_boundary_requires_nested_frames_finite_json_and_explicit_mirror (test_solver.VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror) (operation=<function VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror.<locals>.<lambda> at 0x738b090e5e80>)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 122, in test_boundary_requires_nested_frames_finite_json_and_explicit_mirror
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_boundary_requires_nested_frames_finite_json_and_explicit_mirror (test_solver.VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror) (operation=<function VisibleGridPlanning.test_boundary_requires_nested_frames_finite_json_and_explicit_mirror.<locals>.<lambda> at 0x738b08e8c7d0>)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 122, in test_boundary_requires_nested_frames_finite_json_and_explicit_mirror
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.002s
+
+FAILED (failures=3, errors=3)

@@ -1,0 +1,20 @@
+{
+  "format": 1,
+  "native_execution": false,
+  "base": "cef9f0cf14c9842d12b6d8e41033efc233971195",
+  "inputs_sha256": {
+    "proposals.json": "5c851180670d5428861c605729932b44ba2cd3fb7f1637b7c80242053b090771",
+    "observed-instructions.json": "b225bed9adf44c2a923f7a36203cafcb9454fcf0b1518b0f8f26a2a14ba2b5e4"
+  },
+  "cases_sha256": {
+    "controls-free.qml": "8c22a9ec36d9a7f14e43106af98731d08c721f22453b6b638b89edc05cd9ae33",
+    "pilot.qml": "90dea7fd91aec78e508ff92607a8ff4ee0969e4492ba777bff42f7b1f5e78241",
+    "tutorial-nine.qml": "1021b67dd6cbaf3b00b4eaa4018b8cd49155898e38fd73d5cc937de03e745cdf"
+  },
+  "tests": {
+    "kind": "Python generation only",
+    "count": 6,
+    "passed": true
+  },
+  "next_action": "Root runs pilot with new output, frozen sources and kept deployment; no product acceptance inferred"
+}

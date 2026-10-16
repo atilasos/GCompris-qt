@@ -1,0 +1,26 @@
+{
+  "scope": "Visible inventory only; no authored dataset read",
+  "inventory_sha256": "64de75234b2301cb7b6294447b6743a79987a0398a8d2f06c708e2f49daa608f",
+  "instructions": [
+    "Desenha um polígono.",
+    "Desenha um triângulo.",
+    "Desenha um triângulo retângulo.",
+    "Desenha um triângulo isósceles.",
+    "Desenha um quadrilátero.",
+    "Desenha um retângulo.",
+    "Desenha um quadrado.",
+    "Desenha um paralelogramo que não seja um retângulo.",
+    "Desenha um losango que não seja um quadrado."
+  ],
+  "intro_page_counts": [
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ]
+}

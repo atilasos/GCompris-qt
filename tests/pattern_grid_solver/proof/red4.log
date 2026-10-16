@@ -1,0 +1,115 @@
+test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) ... 
+  test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[{'frame': {'x': 5, 'y': 5, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 15, 'y': 5, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 5, 'y': 15, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 15, 'y': 15, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 5, 'y': 5, 'width': 10, 'height': 10}, 'signature': 'a'}], edit=[{'frame': {'x': 10, 'y': 10, 'width': 20, 'height': 20}}, {'frame': {'x': 30, 'y': 10, 'width': 20, 'height': 20}}, {'frame': {'x': 10, 'y': 30, 'width': 20, 'height': 20}}, {'frame': {'x': 30, 'y': 30, 'width': 20, 'height': 20}}]) ... FAIL
+  test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[{'frame': {'x': 5, 'y': 5, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 15, 'y': 5, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 5, 'y': 15, 'width': 10, 'height': 10}, 'signature': 'a'}], edit=[{'frame': {'x': 10, 'y': 10, 'width': 20, 'height': 20}}, {'frame': {'x': 30, 'y': 10, 'width': 20, 'height': 20}}, {'frame': {'x': 10, 'y': 30, 'width': 20, 'height': 20}}, {'frame': {'x': 30, 'y': 30, 'width': 20, 'height': 20}}]) ... ERROR
+  test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[{'frame': {'x': 0, 'y': 0, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 10, 'y': 0, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 25, 'y': 0, 'width': 10, 'height': 10}, 'signature': 'a'}], edit=[{'frame': {'x': 0, 'y': 0, 'width': 20, 'height': 20}}, {'frame': {'x': 20, 'y': 0, 'width': 20, 'height': 20}}, {'frame': {'x': 40, 'y': 0, 'width': 20, 'height': 20}}]) ... FAIL
+  test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[{'frame': {'x': 5, 'y': 5, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 15, 'y': 5, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 5, 'y': 15, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 15, 'y': 15, 'width': 10, 'height': 10}, 'signature': 'a'}], edit=[{'frame': {'x': 0, 'y': 0, 'width': 20, 'height': 20}}, {'frame': {'x': 20, 'y': 0, 'width': 20, 'height': 20}}, {'frame': {'x': 40, 'y': 0, 'width': 20, 'height': 20}}, {'frame': {'x': 60, 'y': 0, 'width': 20, 'height': 20}}]) ... ERROR
+  test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[{'frame': {'x': 0, 'y': 0, 'width': 0, 'height': 10}, 'signature': 'a'}], edit=[{'frame': {'x': 0, 'y': 0, 'width': 20, 'height': 20}}]) ... FAIL
+  test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[{'frame': {'x': nan, 'y': 0, 'width': 10, 'height': 10}, 'signature': 'a'}], edit=[{'frame': {'x': 0, 'y': 0, 'width': 20, 'height': 20}}]) ... FAIL
+  test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[{'frame': {'x': 0, 'y': inf, 'width': 10, 'height': 10}, 'signature': 'a'}], edit=[{'frame': {'x': 0, 'y': 0, 'width': 20, 'height': 20}}]) ... FAIL
+  test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[{'frame': {'x': 0, 'y': 0, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 5, 'y': 0, 'width': 10, 'height': 10}, 'signature': 'a'}], edit=[{'frame': {'x': 0, 'y': 0, 'width': 20, 'height': 20}}, {'frame': {'x': 20, 'y': 0, 'width': 20, 'height': 20}}]) ... FAIL
+  test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[{'frame': {'x': 0, 'y': 0, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 10, 'y': 0, 'width': 9, 'height': 10}, 'signature': 'a'}], edit=[{'frame': {'x': 0, 'y': 0, 'width': 20, 'height': 20}}, {'frame': {'x': 20, 'y': 0, 'width': 20, 'height': 20}}]) ... FAIL
+  test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[], edit=[]) ... FAIL
+test_mirror_flips_only_columns_with_regular_margins_and_permuted_lists (test_solver.VisibleGridPlanning.test_mirror_flips_only_columns_with_regular_margins_and_permuted_lists) ... ok
+test_paint_requires_one_unambiguous_calibrated_palette_match (test_solver.VisibleGridPlanning.test_paint_requires_one_unambiguous_calibrated_palette_match) ... ok
+test_translated_scaled_grid_matches_opaque_painted_palette (test_solver.VisibleGridPlanning.test_translated_scaled_grid_matches_opaque_painted_palette) ... ok
+
+======================================================================
+ERROR: test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[{'frame': {'x': 5, 'y': 5, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 15, 'y': 5, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 5, 'y': 15, 'width': 10, 'height': 10}, 'signature': 'a'}], edit=[{'frame': {'x': 10, 'y': 10, 'width': 20, 'height': 20}}, {'frame': {'x': 30, 'y': 10, 'width': 20, 'height': 20}}, {'frame': {'x': 10, 'y': 30, 'width': 20, 'height': 20}}, {'frame': {'x': 30, 'y': 30, 'width': 20, 'height': 20}}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 89, in test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused
+    plan(question, edit, palette)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/solver.py", line 45, in plan
+    observed = question[row, column]
+               ~~~~~~~~^^^^^^^^^^^^^
+KeyError: (1, 1)
+
+======================================================================
+ERROR: test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[{'frame': {'x': 5, 'y': 5, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 15, 'y': 5, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 5, 'y': 15, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 15, 'y': 15, 'width': 10, 'height': 10}, 'signature': 'a'}], edit=[{'frame': {'x': 0, 'y': 0, 'width': 20, 'height': 20}}, {'frame': {'x': 20, 'y': 0, 'width': 20, 'height': 20}}, {'frame': {'x': 40, 'y': 0, 'width': 20, 'height': 20}}, {'frame': {'x': 60, 'y': 0, 'width': 20, 'height': 20}}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 89, in test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused
+    plan(question, edit, palette)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/solver.py", line 52, in plan
+    'target_frame': deepcopy(answer[row, len(qx) - 1 - column if mirror else column]['frame']),
+                             ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: (1, 0)
+
+======================================================================
+FAIL: test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[{'frame': {'x': 5, 'y': 5, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 15, 'y': 5, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 5, 'y': 15, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 15, 'y': 15, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 5, 'y': 5, 'width': 10, 'height': 10}, 'signature': 'a'}], edit=[{'frame': {'x': 10, 'y': 10, 'width': 20, 'height': 20}}, {'frame': {'x': 30, 'y': 10, 'width': 20, 'height': 20}}, {'frame': {'x': 10, 'y': 30, 'width': 20, 'height': 20}}, {'frame': {'x': 30, 'y': 30, 'width': 20, 'height': 20}}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 88, in test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[{'frame': {'x': 0, 'y': 0, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 10, 'y': 0, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 25, 'y': 0, 'width': 10, 'height': 10}, 'signature': 'a'}], edit=[{'frame': {'x': 0, 'y': 0, 'width': 20, 'height': 20}}, {'frame': {'x': 20, 'y': 0, 'width': 20, 'height': 20}}, {'frame': {'x': 40, 'y': 0, 'width': 20, 'height': 20}}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 88, in test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[{'frame': {'x': 0, 'y': 0, 'width': 0, 'height': 10}, 'signature': 'a'}], edit=[{'frame': {'x': 0, 'y': 0, 'width': 20, 'height': 20}}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 88, in test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[{'frame': {'x': nan, 'y': 0, 'width': 10, 'height': 10}, 'signature': 'a'}], edit=[{'frame': {'x': 0, 'y': 0, 'width': 20, 'height': 20}}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 88, in test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[{'frame': {'x': 0, 'y': inf, 'width': 10, 'height': 10}, 'signature': 'a'}], edit=[{'frame': {'x': 0, 'y': 0, 'width': 20, 'height': 20}}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 88, in test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[{'frame': {'x': 0, 'y': 0, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 5, 'y': 0, 'width': 10, 'height': 10}, 'signature': 'a'}], edit=[{'frame': {'x': 0, 'y': 0, 'width': 20, 'height': 20}}, {'frame': {'x': 20, 'y': 0, 'width': 20, 'height': 20}}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 88, in test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[{'frame': {'x': 0, 'y': 0, 'width': 10, 'height': 10}, 'signature': 'a'}, {'frame': {'x': 10, 'y': 0, 'width': 9, 'height': 10}, 'signature': 'a'}], edit=[{'frame': {'x': 0, 'y': 0, 'width': 20, 'height': 20}}, {'frame': {'x': 20, 'y': 0, 'width': 20, 'height': 20}}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 88, in test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) (question=[], edit=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 88, in test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+FAILED (failures=8, errors=2)

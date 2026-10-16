@@ -1,0 +1,15 @@
+{
+  "kind": "observed-final-exec-return",
+  "session_id": 35149,
+  "chunk_id": "7bb970",
+  "exit_code": 0,
+  "scope": "Pure physical-pixel probe command, not native Qt",
+  "physical_probe_sha256": "ea2b774a9f8fff05fc16b97689274cfe3d866254ad5915b5406edf442ecb5c3f",
+  "optimized_comparison": {
+    "session_id": 24243,
+    "chunk_id": "74841f",
+    "exit_code": 0,
+    "verification": "The driver compared parsed normal/-O JSON and raised on mismatch before printing counts.",
+    "stdout_last_line": "scenes 336 missing []"
+  }
+}

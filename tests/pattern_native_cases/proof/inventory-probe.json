@@ -1,0 +1,669 @@
+{
+  "scope": "Pure plans from historical public observations only; no Qt or game completion",
+  "registry_sha256": "8a4a81585bd8d84ee030cee60a50ac20ae39ee9de60505779f09498f3ef5831b",
+  "inventory_receipts_sha256": {
+    "redraw": "d819f885f7e342ee747cb2dbdc543a27b113c795e25528be228a64193038e88b",
+    "redraw_symmetrical": "209107d780e52f6579b39860388b6edaaea073c1db447dbeedae0ba5b5d99b0c",
+    "mosaic": "ad5d849e75c4b27d591bef0a744242a3c4d45bf79fd1a6ff004cceaf0b0d3836"
+  },
+  "planner_js_sha256": "fe5f8093bff4b1316b0db2ed51edd7d03d8c60c9940e101403ccd06cf2a17896",
+  "node_argv": [
+    "node",
+    "-e",
+    "const fs=require('node:fs'),vm=require('node:vm');\nconst context=vm.createContext({});vm.runInContext(fs.readFileSync(process.argv[1],'utf8'),context);\nconst payloads=JSON.parse(fs.readFileSync(0,'utf8'));\nconsole.log(JSON.stringify(payloads.map(p=>context.visiblePlan(p.question,p.answer,p.palette,p.mirror))));",
+    "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_native_cases/planner.js"
+  ],
+  "node_exit_code": 0,
+  "boards": [
+    {
+      "activity": "redraw",
+      "level": 1,
+      "rows": 5,
+      "columns": 4,
+      "cells": 20,
+      "placements_sha256": "0178276a6690c8e18c1e21ae34b5441c6ccd7d186cdccda647d9fffd90297efa"
+    },
+    {
+      "activity": "redraw",
+      "level": 2,
+      "rows": 5,
+      "columns": 4,
+      "cells": 20,
+      "placements_sha256": "4f3863c5317d328367d6d5de81491b8fb34f5079e9c29948b6b682c554184b46"
+    },
+    {
+      "activity": "redraw",
+      "level": 3,
+      "rows": 5,
+      "columns": 4,
+      "cells": 20,
+      "placements_sha256": "bf6d97e7db0bcf55cacfb7fd19fa16b705cc9bc19a6be0addb5b15a72b96daa5"
+    },
+    {
+      "activity": "redraw",
+      "level": 4,
+      "rows": 5,
+      "columns": 4,
+      "cells": 20,
+      "placements_sha256": "c956b70a96d0c73ff767a2a55f2f5262e18a2aa70520b771649d6b2568c8cfc4"
+    },
+    {
+      "activity": "redraw",
+      "level": 5,
+      "rows": 5,
+      "columns": 4,
+      "cells": 20,
+      "placements_sha256": "f931b0e0a987926c7a21e34e5064e4df353af8b0e7048f6ca04d1fbb9ea744fa"
+    },
+    {
+      "activity": "redraw",
+      "level": 6,
+      "rows": 5,
+      "columns": 4,
+      "cells": 20,
+      "placements_sha256": "a134ea0e8153272a8d5bf1f1106f7e225c5da1fc1bdd5d608f3c75b5d99a38e6"
+    },
+    {
+      "activity": "redraw",
+      "level": 7,
+      "rows": 6,
+      "columns": 6,
+      "cells": 36,
+      "placements_sha256": "1d5b0bd9642dafd46e0607644a9183eb2ca149b85aa02fcd433d0427568ba39b"
+    },
+    {
+      "activity": "redraw",
+      "level": 8,
+      "rows": 6,
+      "columns": 6,
+      "cells": 36,
+      "placements_sha256": "d737c9e767477543b0f4d4c213b71954cbc03a398a5d0e3c4e24a49c8838f9e5"
+    },
+    {
+      "activity": "redraw",
+      "level": 9,
+      "rows": 6,
+      "columns": 6,
+      "cells": 36,
+      "placements_sha256": "04401c991dacf3daf0f95f988f36d5339968bbd8c6062a36ffce87d0940a19c8"
+    },
+    {
+      "activity": "redraw",
+      "level": 10,
+      "rows": 7,
+      "columns": 7,
+      "cells": 49,
+      "placements_sha256": "8b6a3fc0ba3e1a59122b068a28fb2b7432a3f5ea44604a77959520b3d32a0b15"
+    },
+    {
+      "activity": "redraw",
+      "level": 11,
+      "rows": 7,
+      "columns": 7,
+      "cells": 49,
+      "placements_sha256": "2926414c73b8103301a80aa2d958ba037d4149ab066b9fa123c2f7e9857cbf53"
+    },
+    {
+      "activity": "redraw",
+      "level": 12,
+      "rows": 7,
+      "columns": 7,
+      "cells": 49,
+      "placements_sha256": "2eaacc988f27145d86e60209e38cdc20eab778558e2af6d005e8eaef72f1aab2"
+    },
+    {
+      "activity": "redraw",
+      "level": 13,
+      "rows": 5,
+      "columns": 6,
+      "cells": 30,
+      "placements_sha256": "4fce616b779eba4beb43782d134e0cc186f828b32f3a76e6f9287e77d5ec164f"
+    },
+    {
+      "activity": "redraw",
+      "level": 14,
+      "rows": 5,
+      "columns": 7,
+      "cells": 35,
+      "placements_sha256": "ab811f546f9dfea565493a922ab667423208b1146cc13dbf0396cdaa3631a542"
+    },
+    {
+      "activity": "redraw",
+      "level": 15,
+      "rows": 5,
+      "columns": 6,
+      "cells": 30,
+      "placements_sha256": "860a4e72dd9fc2ac714242aa5beab3108cd343a0be5add99948d630618a30b3d"
+    },
+    {
+      "activity": "redraw",
+      "level": 16,
+      "rows": 5,
+      "columns": 6,
+      "cells": 30,
+      "placements_sha256": "15f11f11adb6cf7dfff294bca0dd69edafcbf850ed5ddca6610ffefdc890b66c"
+    },
+    {
+      "activity": "redraw",
+      "level": 17,
+      "rows": 5,
+      "columns": 6,
+      "cells": 30,
+      "placements_sha256": "69df282bc82c31abc985ea4d68c70caf34d14a8e81b31019f0bbb692328da335"
+    },
+    {
+      "activity": "redraw",
+      "level": 18,
+      "rows": 6,
+      "columns": 6,
+      "cells": 36,
+      "placements_sha256": "edd772f031025c9dd9efe00d19b3c9228864012977fae0391dfb4b51b49d9666"
+    },
+    {
+      "activity": "redraw",
+      "level": 19,
+      "rows": 5,
+      "columns": 7,
+      "cells": 35,
+      "placements_sha256": "8a156015dcf7283397aeb6a0bf1c33b81225354024a7917eb342123c9e1b3f2f"
+    },
+    {
+      "activity": "redraw",
+      "level": 20,
+      "rows": 5,
+      "columns": 6,
+      "cells": 30,
+      "placements_sha256": "ab501d8a4c0189215658980641ec5520058f942fa13a725ff0e1f6c1418fcb23"
+    },
+    {
+      "activity": "redraw",
+      "level": 21,
+      "rows": 5,
+      "columns": 7,
+      "cells": 35,
+      "placements_sha256": "537aea2e132d4198dd7b0199630e86bd7a03dca868c61dbb679c1f6c0777e82e"
+    },
+    {
+      "activity": "redraw",
+      "level": 22,
+      "rows": 5,
+      "columns": 7,
+      "cells": 35,
+      "placements_sha256": "ed4d9e396dd266f36cc2cc0ef0cede074b079e423f18866296fbd69f911f1f4f"
+    },
+    {
+      "activity": "redraw",
+      "level": 23,
+      "rows": 5,
+      "columns": 7,
+      "cells": 35,
+      "placements_sha256": "08dcc39ad621706ed6222e673f6223fb9642d7230d6f23973133b649d005711b"
+    },
+    {
+      "activity": "redraw",
+      "level": 24,
+      "rows": 5,
+      "columns": 7,
+      "cells": 35,
+      "placements_sha256": "d527d2f3e6add9c80c4afdaed4b6058e65897e2ee88e555aeadd14d7ca2455a4"
+    },
+    {
+      "activity": "redraw",
+      "level": 25,
+      "rows": 6,
+      "columns": 7,
+      "cells": 42,
+      "placements_sha256": "9b257e41fbbb3a52f931e9cac59708e77f0ffbbf7458f467fe7854931afbf05d"
+    },
+    {
+      "activity": "redraw",
+      "level": 26,
+      "rows": 6,
+      "columns": 7,
+      "cells": 42,
+      "placements_sha256": "bef774d91fd76dc61000d1206ee3d408467a0da61e7714fd4f1036942cd51443"
+    },
+    {
+      "activity": "redraw",
+      "level": 27,
+      "rows": 7,
+      "columns": 7,
+      "cells": 49,
+      "placements_sha256": "e26a5eae334000af096d468dc790e404df339c28d153e2a99bde89cb0d2036c8"
+    },
+    {
+      "activity": "redraw",
+      "level": 28,
+      "rows": 7,
+      "columns": 8,
+      "cells": 56,
+      "placements_sha256": "3b71f3eed19520d623e08ee3a15bcb773989ebc1437bab5b8377916ce79fc290"
+    },
+    {
+      "activity": "redraw",
+      "level": 29,
+      "rows": 7,
+      "columns": 8,
+      "cells": 56,
+      "placements_sha256": "6ed00b97068c8cd290b9479764fa0951a8f9ac4c82a34841a9693b01b0c45b7b"
+    },
+    {
+      "activity": "redraw",
+      "level": 30,
+      "rows": 7,
+      "columns": 8,
+      "cells": 56,
+      "placements_sha256": "89c92dc16f9ac5599a157be903684381dc0f4ff9386b01974296806601d7b5d9"
+    },
+    {
+      "activity": "redraw",
+      "level": 31,
+      "rows": 7,
+      "columns": 8,
+      "cells": 56,
+      "placements_sha256": "d9af3fd4eb148955ea10bf735e555e8df30a6639347b38adb50a0877ff9a9a1b"
+    },
+    {
+      "activity": "redraw",
+      "level": 32,
+      "rows": 7,
+      "columns": 8,
+      "cells": 56,
+      "placements_sha256": "dd627c59e3593f88c15615d3a3537798291a66890f043b01935f80827cbdf154"
+    },
+    {
+      "activity": "redraw",
+      "level": 33,
+      "rows": 7,
+      "columns": 8,
+      "cells": 56,
+      "placements_sha256": "26e53cea082994ef7c798e43db79229f49d2716d41aa80f3d73841d87e8f8b70"
+    },
+    {
+      "activity": "redraw",
+      "level": 34,
+      "rows": 7,
+      "columns": 8,
+      "cells": 56,
+      "placements_sha256": "c071fc78f14d13db36c019d3dd1949034305cd9c9e5c9bd9e333dea28962d5f9"
+    },
+    {
+      "activity": "redraw",
+      "level": 35,
+      "rows": 7,
+      "columns": 8,
+      "cells": 56,
+      "placements_sha256": "15b9bfaa549efaae1b7ffa586c11403f7afd2223eedd9db39b9d14bff5716a1b"
+    },
+    {
+      "activity": "redraw",
+      "level": 36,
+      "rows": 7,
+      "columns": 8,
+      "cells": 56,
+      "placements_sha256": "ca86787351904f6da846204391bf7d0046f2411a48fc0493d013ec8d1cf73e95"
+    },
+    {
+      "activity": "redraw",
+      "level": 37,
+      "rows": 7,
+      "columns": 8,
+      "cells": 56,
+      "placements_sha256": "830cfa45317f491203d6ebdd07d653da85d98192d6813688dbf3e95c9ac930ac"
+    },
+    {
+      "activity": "redraw",
+      "level": 38,
+      "rows": 7,
+      "columns": 8,
+      "cells": 56,
+      "placements_sha256": "56020f62b098953edaddde8850ca94cd93f48881e6fdbc4dfece821534e1b581"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 1,
+      "rows": 3,
+      "columns": 3,
+      "cells": 9,
+      "placements_sha256": "01a46a0fe23f23e2199c025e0fdded63453ca6a875756d4958baf3a2739a20c0"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 2,
+      "rows": 3,
+      "columns": 3,
+      "cells": 9,
+      "placements_sha256": "5891c88b9242759d0bfdf12cc758dc371e551c3a5ceea241a970d677eea500de"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 3,
+      "rows": 3,
+      "columns": 3,
+      "cells": 9,
+      "placements_sha256": "dcd6568f7e4d5a64872483166f6108ab5b0edeecd6f68b3529aeb2037c24dad7"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 4,
+      "rows": 3,
+      "columns": 3,
+      "cells": 9,
+      "placements_sha256": "8d73b1856214c14d7914b87d36b5bf158419894c2c0d57868bb997e79c4aecfe"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 5,
+      "rows": 3,
+      "columns": 3,
+      "cells": 9,
+      "placements_sha256": "9542ab44864f447ecc4836dff7fe471c89ef310b06e0825ca1c1f4d71ce3ac61"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 6,
+      "rows": 3,
+      "columns": 3,
+      "cells": 9,
+      "placements_sha256": "b559e96ef8229206898e5d0a7b95a7565991a3716471003ecdf7cc43ddf418d3"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 7,
+      "rows": 5,
+      "columns": 5,
+      "cells": 25,
+      "placements_sha256": "183b388c75f73585a07fc0aee895f38b78a0f2c5fb200e8c3fffa1b6fe8fa272"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 8,
+      "rows": 5,
+      "columns": 5,
+      "cells": 25,
+      "placements_sha256": "dffead0d97faf3d4e70aa1782cc31d8740f276503f5e294fd46600c4ab03d2eb"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 9,
+      "rows": 5,
+      "columns": 5,
+      "cells": 25,
+      "placements_sha256": "3da588038ab5a3932b27a05b4abcaf12c8d91a1c01e0b59e0768c30cce84f58a"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 10,
+      "rows": 5,
+      "columns": 5,
+      "cells": 25,
+      "placements_sha256": "5195be4ecdbb87c91f1189740475f80b6347080e24bfa0bc620c0e266e1bf2d2"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 11,
+      "rows": 5,
+      "columns": 5,
+      "cells": 25,
+      "placements_sha256": "71c95f5e9576ba44a040f436a1f4995d8a443bde16b792332ef743a5341e433d"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 12,
+      "rows": 5,
+      "columns": 5,
+      "cells": 25,
+      "placements_sha256": "31016144dcaed8d858c6203732206b11d04932690b3ab47bdba824be71ba08f6"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 13,
+      "rows": 7,
+      "columns": 7,
+      "cells": 49,
+      "placements_sha256": "ae34a79f7be94215260abcac937aa9170567110a9883d489a8ed376683dc9051"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 14,
+      "rows": 7,
+      "columns": 7,
+      "cells": 49,
+      "placements_sha256": "02e16fa90d9b135b20b384f749575f85522bf2f34eaa872bc5dcd49638b4dd7d"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 15,
+      "rows": 7,
+      "columns": 7,
+      "cells": 49,
+      "placements_sha256": "1a22af09cad673b5406719fca945c98df61a380e892bb7109d7dde7c7b7688f8"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 16,
+      "rows": 7,
+      "columns": 7,
+      "cells": 49,
+      "placements_sha256": "79b00f63828645700e2fa005bb9d9c0df259326f24c0d85ea8d119a338d3d77c"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 17,
+      "rows": 7,
+      "columns": 7,
+      "cells": 49,
+      "placements_sha256": "bd5feecbad9e14d22f54755c3526e860b28d105668512baee486661486f48cbb"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 18,
+      "rows": 7,
+      "columns": 7,
+      "cells": 49,
+      "placements_sha256": "263d001648cc2c54335dce6baddf53a633dad1f9ac134956374937dff3212c15"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 19,
+      "rows": 7,
+      "columns": 7,
+      "cells": 49,
+      "placements_sha256": "423871edabd51f4d83e21720fcb6459d3f66d484d73d9ec6242148ab9c9028ef"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 20,
+      "rows": 7,
+      "columns": 7,
+      "cells": 49,
+      "placements_sha256": "a21caeef3e90632d9a57f69013343584d7194e6491d58bdffeee9e43c0b1e2cf"
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "level": 21,
+      "rows": 7,
+      "columns": 7,
+      "cells": 49,
+      "placements_sha256": "929a1c86d304bdd2340b3730acd788d7c76ae64f1bbf47bddb2cb066207104db"
+    },
+    {
+      "activity": "mosaic",
+      "level": 1,
+      "rows": 1,
+      "columns": 3,
+      "cells": 3,
+      "placements_sha256": "24e9ab7744d488a42c68d50e978dd1b0533665ac3c6a82af65d36adb0ba95515"
+    },
+    {
+      "activity": "mosaic",
+      "level": 2,
+      "rows": 1,
+      "columns": 4,
+      "cells": 4,
+      "placements_sha256": "ed13d9f4d18abd76fe0969453bfa4f04c1536e3652d1984a577cbf04b98a2cd2"
+    },
+    {
+      "activity": "mosaic",
+      "level": 3,
+      "rows": 1,
+      "columns": 5,
+      "cells": 5,
+      "placements_sha256": "5c034ce287a637d73b4d17694ea0a0eaa2f18e655b091861c52b535e2b190191"
+    },
+    {
+      "activity": "mosaic",
+      "level": 4,
+      "rows": 1,
+      "columns": 6,
+      "cells": 6,
+      "placements_sha256": "99a55fe0b066c1cf9bf771d936a994bc0039b2c908be6392c46c5de5439f9656"
+    },
+    {
+      "activity": "mosaic",
+      "level": 5,
+      "rows": 1,
+      "columns": 7,
+      "cells": 7,
+      "placements_sha256": "1a89a09d3fa953cc150623622645249677ff35e57af6f074cfa5e4b24e68308e"
+    },
+    {
+      "activity": "mosaic",
+      "level": 6,
+      "rows": 1,
+      "columns": 8,
+      "cells": 8,
+      "placements_sha256": "2c44f5c48a46750a95bc8d30ea5f3d1fe734720292cca710a9bc72068be6698f"
+    },
+    {
+      "activity": "mosaic",
+      "level": 7,
+      "rows": 2,
+      "columns": 4,
+      "cells": 8,
+      "placements_sha256": "97554b13df0ffebf30a1166cf787c542a3dd3254b56763364d169a5edad5da6d"
+    },
+    {
+      "activity": "mosaic",
+      "level": 8,
+      "rows": 2,
+      "columns": 4,
+      "cells": 8,
+      "placements_sha256": "5e5b0cb79a056f0f7bdedfed9392c61c6fc798926318b3dcc49ed17d17639f13"
+    },
+    {
+      "activity": "mosaic",
+      "level": 9,
+      "rows": 2,
+      "columns": 4,
+      "cells": 8,
+      "placements_sha256": "f603242b6c428b612136065cc56f48c9b2464da9d43c4bed2d3d978968526381"
+    },
+    {
+      "activity": "mosaic",
+      "level": 10,
+      "rows": 2,
+      "columns": 4,
+      "cells": 8,
+      "placements_sha256": "931aeae923ae1b22fcd2e6693bb33c3fbf0307491dd7c29fd295c3c2c8a49a28"
+    },
+    {
+      "activity": "mosaic",
+      "level": 11,
+      "rows": 2,
+      "columns": 8,
+      "cells": 16,
+      "placements_sha256": "22eb014c73b1ced9ffe45148953bed4b5f2f13930261213b76190a5c9cf0eafd"
+    },
+    {
+      "activity": "mosaic",
+      "level": 12,
+      "rows": 2,
+      "columns": 8,
+      "cells": 16,
+      "placements_sha256": "d9ebe16cf1a2f2695ce701065b2016a2e868c07225f7de6b447f256bdab08f61"
+    },
+    {
+      "activity": "mosaic",
+      "level": 13,
+      "rows": 2,
+      "columns": 8,
+      "cells": 16,
+      "placements_sha256": "706be86d64b1bfbfb3ba8fa06bad9dc777ccd35047a614618cf9061e5f1f1f5b"
+    },
+    {
+      "activity": "mosaic",
+      "level": 14,
+      "rows": 2,
+      "columns": 8,
+      "cells": 16,
+      "placements_sha256": "4603d639cec3189a7cd927109911e741b759e83c6ea7bfa930214527efcbdbd4"
+    },
+    {
+      "activity": "mosaic",
+      "level": 15,
+      "rows": 3,
+      "columns": 8,
+      "cells": 24,
+      "placements_sha256": "32cae2e75e3c5c2d90783f8b8c43a89a070ddf96797313daa0d1b7fb2ec4ad62"
+    },
+    {
+      "activity": "mosaic",
+      "level": 16,
+      "rows": 3,
+      "columns": 8,
+      "cells": 24,
+      "placements_sha256": "83764b27bfe6ae3a016c5972a89a5eae10bd94ff27563c1f425298dfa455e07d"
+    },
+    {
+      "activity": "mosaic",
+      "level": 17,
+      "rows": 3,
+      "columns": 8,
+      "cells": 24,
+      "placements_sha256": "414d14b93927295ce4aa9d85d43238e24958b329c97f13f8abf02273a212d705"
+    },
+    {
+      "activity": "mosaic",
+      "level": 18,
+      "rows": 3,
+      "columns": 8,
+      "cells": 24,
+      "placements_sha256": "565b2394c5a2f71544f50856a646d2d21be9839c33f07cc00dff255215a444ac"
+    },
+    {
+      "activity": "mosaic",
+      "level": 19,
+      "rows": 3,
+      "columns": 8,
+      "cells": 24,
+      "placements_sha256": "e0ccdc2878cef8a3bd0484c7addec3e5ae42e2c2dbf22cc57b3cc0fd1f46e44a"
+    },
+    {
+      "activity": "mosaic",
+      "level": 20,
+      "rows": 3,
+      "columns": 8,
+      "cells": 24,
+      "placements_sha256": "d7a01cbffa7df09a2baa9d2e7591b4eec81f7f6aa052a05f50987b748fe7bc77"
+    },
+    {
+      "activity": "mosaic",
+      "level": 21,
+      "rows": 3,
+      "columns": 8,
+      "cells": 24,
+      "placements_sha256": "deb2bc447cc864abc89af9cfdfabf9c91670af351185d30f7bbeb1d42f26e616"
+    },
+    {
+      "activity": "mosaic",
+      "level": 22,
+      "rows": 3,
+      "columns": 8,
+      "cells": 24,
+      "placements_sha256": "18b299dc8f2f7611311228904a5d2eb29c39bc42d973252d757b155fa2156d72"
+    }
+  ],
+  "total_boards": 81,
+  "total_cells": 2486
+}

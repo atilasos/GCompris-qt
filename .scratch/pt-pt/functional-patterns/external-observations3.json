@@ -1,0 +1,16 @@
+{
+  "kind": "root-recorded-tools-exec-or-write-stdin-completion",
+  "scope": "Two completed palette calibration cases; seven painted signatures each, no gameplay wins claimed",
+  "runs": {
+    "calibrate2-redraw": {
+      "session_id": 93462,
+      "output_chunk": "61b690",
+      "exit_code": 0
+    },
+    "calibrate2-redraw_symmetrical": {
+      "session_id": 8099,
+      "output_chunk": "4e3045",
+      "exit_code": 0
+    }
+  }
+}

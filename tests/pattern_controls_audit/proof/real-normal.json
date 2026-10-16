@@ -1,0 +1,97 @@
+{
+  "scope": "Semantic copied/raw JSON records only; physical source/resources/PNGs/returns audited separately",
+  "positive_records": 3,
+  "negative_records": 5,
+  "records": [
+    {
+      "run": "controls2-redraw",
+      "raw_receipt_sha256": "3999f7b956b43a933f78920c6815e736de42a9740a0f3c05bd5ea9296e720782",
+      "accepted": true,
+      "summary": {
+        "activity": "redraw",
+        "validated_controls": true,
+        "keyboard_phases": 2,
+        "observed_digit_effects": 14,
+        "observed_enter_space_paints": 6,
+        "observed_keyboard_deletions": 6,
+        "drag_targets": 2,
+        "actual_menu_edits": 1,
+        "scope": "Semantic recorded observations only; source, PNG, resource and return provenance require the outer physical audit",
+        "configured_datasets": 3,
+        "dataset_gameplay_completions_claimed": 0,
+        "natural_wins": 0,
+        "actual_cursor_moves": 8
+      }
+    },
+    {
+      "run": "controls3-redraw_symmetrical",
+      "raw_receipt_sha256": "3b470c70635072c2a63c6742b3599812f10d98963b5e8aaf339081299bbe7201",
+      "accepted": true,
+      "summary": {
+        "activity": "redraw_symmetrical",
+        "validated_controls": true,
+        "keyboard_phases": 2,
+        "observed_digit_effects": 14,
+        "observed_enter_space_paints": 6,
+        "observed_keyboard_deletions": 6,
+        "drag_targets": 2,
+        "actual_menu_edits": 1,
+        "scope": "Semantic recorded observations only; source, PNG, resource and return provenance require the outer physical audit",
+        "configured_datasets": 3,
+        "dataset_gameplay_completions_claimed": 0,
+        "natural_wins": 0,
+        "actual_cursor_moves": 8
+      }
+    },
+    {
+      "run": "controls3-mosaic",
+      "raw_receipt_sha256": "e3583822e907801a4981a4498b7d6a286ba0aa5e82a8faeca6bc32fe3a04aa6b",
+      "accepted": true,
+      "summary": {
+        "activity": "mosaic",
+        "validated_controls": true,
+        "keyboard_phases": 2,
+        "observed_digit_effects": 0,
+        "observed_enter_space_paints": 6,
+        "observed_keyboard_deletions": 0,
+        "drag_targets": 0,
+        "actual_menu_edits": 1,
+        "scope": "Semantic recorded observations only; source, PNG, resource and return provenance require the outer physical audit",
+        "configured_datasets": 4,
+        "dataset_gameplay_completions_claimed": 0,
+        "natural_wins": 0,
+        "actual_cursor_moves": 8
+      }
+    },
+    {
+      "run": "controls-redraw",
+      "raw_receipt_sha256": "224855ca52ea0d319b2a53eeaf295787e0c48843a4cc04ac04b5fcab970db335",
+      "accepted": false,
+      "rejection": "A failed controls prefix is not complete evidence"
+    },
+    {
+      "run": "controls-redraw_symmetrical",
+      "raw_receipt_sha256": "4a8d0232de9a1347cd88884b226474def0f0e4a9bc96667f2c22a459ecc66330",
+      "accepted": false,
+      "rejection": "A failed controls prefix is not complete evidence"
+    },
+    {
+      "run": "controls-mosaic",
+      "raw_receipt_sha256": "a6e334becf983f9dbc257c52e425f31fe63b35c72e907a5b82c7875919f5ef6d",
+      "accepted": false,
+      "rejection": "A failed controls prefix is not complete evidence"
+    },
+    {
+      "run": "controls2-mosaic",
+      "raw_receipt_sha256": "fd1a47c904c3c1fa8f3c76f3e29e6fdbd26879d1ec0dbb8bc3c38ef27068063f",
+      "accepted": false,
+      "rejection": "A failed controls prefix is not complete evidence"
+    },
+    {
+      "run": "controls2-redraw_symmetrical",
+      "raw_receipt_sha256": "04b41158d8d52b0dbea677e62b8e128651f73c1168474318212338d9b00a8e23",
+      "accepted": false,
+      "rejection": "Partial menu edit must visibly change the cell"
+    }
+  ]
+}

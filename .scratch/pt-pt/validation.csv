@@ -139,7 +139,7 @@ money_back,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/mon
 money_back_cents,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/money_back_cents.md
 money_cents,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/money_cents.md
 morse_code,pending,pending,pending,pending,pending,
-mosaic,pending,pending,pending,pending,pending,
+mosaic,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/mosaic.md
 multiple_choice_questions,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/multiple_choice_questions.md
 nine_men_morris,pending,pending,pending,pending,pending,
 nine_men_morris_2players,pending,pending,pending,pending,pending,
@@ -164,14 +164,14 @@ piano_composition,pending,pending,pending,pending,pending,
 planegame,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/planegame.md
 play_piano,pending,pending,pending,pending,pending,
 play_rhythm,pending,pending,pending,pending,pending,
-polygons,pending,pending,pending,pending,pending,
+polygons,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/polygons.md
 positions,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/positions.md
 programmingMaze,pending,pending,pending,pending,pending,
 railroad,pending,pending,pending,pending,pending,
 readingh,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/readingh.md
 readingv,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/readingv.md
-redraw,pending,pending,pending,pending,pending,
-redraw_symmetrical,pending,pending,pending,pending,pending,
+redraw,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/redraw.md
+redraw_symmetrical,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/redraw_symmetrical.md
 renewable_energy,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/renewable_energy.md
 reversecount,pending,pending,pending,pending,pending,
 roman_numerals,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/roman_numerals.md

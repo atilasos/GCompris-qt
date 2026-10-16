@@ -1,0 +1,18 @@
+test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused (test_solver.VisibleGridPlanning.test_duplicate_missing_irregular_or_invalid_visible_geometry_is_refused) ... ok
+test_mirror_flips_only_columns_with_regular_margins_and_permuted_lists (test_solver.VisibleGridPlanning.test_mirror_flips_only_columns_with_regular_margins_and_permuted_lists) ... ok
+test_paint_requires_one_unambiguous_calibrated_palette_match (test_solver.VisibleGridPlanning.test_paint_requires_one_unambiguous_calibrated_palette_match) ... ok
+test_translated_scaled_grid_matches_opaque_painted_palette (test_solver.VisibleGridPlanning.test_translated_scaled_grid_matches_opaque_painted_palette) ... ok
+test_wrong_alternatives_list_all_distinct_visible_paints_without_guessing (test_solver.VisibleGridPlanning.test_wrong_alternatives_list_all_distinct_visible_paints_without_guessing) ... ERROR
+
+======================================================================
+ERROR: test_wrong_alternatives_list_all_distinct_visible_paints_without_guessing (test_solver.VisibleGridPlanning.test_wrong_alternatives_list_all_distinct_visible_paints_without_guessing)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/test_solver.py", line 93, in test_wrong_alternatives_list_all_distinct_visible_paints_without_guessing
+    from pattern_grid_solver import wrong_alternatives
+ImportError: cannot import name 'wrong_alternatives' from 'pattern_grid_solver' (/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid/tests/pattern_grid_solver/__init__.py)
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=1)

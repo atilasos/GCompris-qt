@@ -1,0 +1,140 @@
+{
+  "runs": {
+    "calibrate-redraw": {
+      "activity": "redraw",
+      "kind": "negative",
+      "expected_exit": 1
+    },
+    "calibrate-redraw_symmetrical": {
+      "activity": "redraw_symmetrical",
+      "kind": "negative",
+      "expected_exit": 1
+    },
+    "calibrate2-redraw": {
+      "activity": "redraw",
+      "kind": "calibration",
+      "expected_exit": 0
+    },
+    "calibrate2-redraw_symmetrical": {
+      "activity": "redraw_symmetrical",
+      "kind": "calibration",
+      "expected_exit": 0
+    },
+    "complete-mosaic": {
+      "activity": "mosaic",
+      "kind": "complete",
+      "expected_exit": 0
+    },
+    "complete-redraw": {
+      "activity": "redraw",
+      "kind": "complete",
+      "expected_exit": 0
+    },
+    "complete-redraw_symmetrical": {
+      "activity": "redraw_symmetrical",
+      "kind": "complete",
+      "expected_exit": 0
+    },
+    "controls-mosaic": {
+      "activity": "mosaic",
+      "kind": "negative",
+      "expected_exit": 1
+    },
+    "controls-redraw": {
+      "activity": "redraw",
+      "kind": "negative",
+      "expected_exit": 1
+    },
+    "controls-redraw_symmetrical": {
+      "activity": "redraw_symmetrical",
+      "kind": "negative",
+      "expected_exit": 1
+    },
+    "controls2-mosaic": {
+      "activity": "mosaic",
+      "kind": "negative",
+      "expected_exit": 1
+    },
+    "controls2-redraw": {
+      "activity": "redraw",
+      "kind": "controls",
+      "expected_exit": 0
+    },
+    "controls2-redraw_symmetrical": {
+      "activity": "redraw_symmetrical",
+      "kind": "partial",
+      "expected_exit": 0
+    },
+    "controls3-mosaic": {
+      "activity": "mosaic",
+      "kind": "controls",
+      "expected_exit": 0
+    },
+    "controls3-redraw_symmetrical": {
+      "activity": "redraw_symmetrical",
+      "kind": "controls",
+      "expected_exit": 0
+    },
+    "inventory-mosaic": {
+      "activity": "mosaic",
+      "kind": "inventory",
+      "expected_exit": 0
+    },
+    "inventory-polygons": {
+      "activity": "polygons",
+      "kind": "inventory",
+      "expected_exit": 0
+    },
+    "inventory-redraw": {
+      "activity": "redraw",
+      "kind": "inventory",
+      "expected_exit": 0
+    },
+    "inventory-redraw_symmetrical": {
+      "activity": "redraw_symmetrical",
+      "kind": "inventory",
+      "expected_exit": 0
+    },
+    "polygons-controls-free": {
+      "activity": "polygons",
+      "kind": "negative",
+      "expected_exit": 1
+    },
+    "polygons-controls2": {
+      "activity": "polygons",
+      "kind": "controls",
+      "expected_exit": 0
+    },
+    "polygons-pilot": {
+      "activity": "polygons",
+      "kind": "pilot",
+      "expected_exit": 0
+    },
+    "polygons-tutorial-nine": {
+      "activity": "polygons",
+      "kind": "complete",
+      "expected_exit": 0
+    }
+  },
+  "auxiliary": [
+    "background",
+    "media-check",
+    "canonical/mosaic/rendered",
+    "canonical/render-environment.json",
+    "canonical/source-comparison.json",
+    "mosaic-scene-pixel-check.json"
+  ],
+  "verification_sources": {
+    "tests/pattern_scene_pixels/__init__.py": "1a3edf7c8bc4dee31b56cf0652f1b97ba4dd91ac1cd531f3cad376c960efc99d",
+    "tests/pattern_scene_pixels/pixels.py": "4e43c1db7b3fc6a71a6384da594787a0b15e3805730e1792487d4726067c54d2",
+    "tests/pattern_scene_pixels/probe.py": "69a4ef91aa26522de0d533e531686df6bf0ed9728a1509852b1e41c80d98639b",
+    "tests/pattern_scene_pixels/test_pixels.py": "2352ee74298d97c3d40271f18c50100e8cd05c5267605c3f56836b60427d5b5c",
+    "tests/polygon_observation_audit/__init__.py": "3b24c5446b7d24fe5ab05b496581709982b5f32432f52211116ed3043b07d1ce",
+    "tests/polygon_observation_audit/test_observation.py": "a6074376021e351da5b3e0d7d765a0e9ee5cb4d4605389fed932eb0e03fd750d",
+    "tests/pattern_controls_audit/__init__.py": "01607537b59bf83239e6d77fd41ba041309c1178ea3d235d7e5b5c66e6abd7b2",
+    "tests/pattern_controls_audit/audit.py": "963baefc3e4547dae6e33af190253bea7144935c65090db0ddbecc8dfe2ee612",
+    "tests/pattern_controls_audit/fixtures.py": "06836d0f7a9c5d2180aebd02971ff68195cf62995e5728021fd698382c48593a",
+    "tests/pattern_controls_audit/test_audit.py": "acaad6e824a21d75c49e9f6d197408e9d17b35e934ba380cb6bea4a3bedc3ee6",
+    "tests/pattern_controls_audit/verify_records.py": "b47f1bc24ffbe9678ee58e3b2ec036767a5d306155ce62f62a5ec06ec122c236"
+  }
+}

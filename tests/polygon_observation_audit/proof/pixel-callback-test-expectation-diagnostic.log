@@ -1,0 +1,14 @@
+F........
+======================================================================
+FAIL: test_optional_pixel_checker_is_called_and_can_reject (test_observation.Boundaries.test_optional_pixel_checker_is_called_and_can_reject)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-polygon-observation/tests/polygon_observation_audit/test_observation.py", line 210, in test_optional_pixel_checker_is_called_and_can_reject
+    self.assertGreater(len(seen),90)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 88 not greater than 90
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.018s
+
+FAILED (failures=1)

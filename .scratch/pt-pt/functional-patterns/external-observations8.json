@@ -1,0 +1,16 @@
+{
+  "kind": "root-recorded-tools-exec-or-write-stdin-completion",
+  "scope": "Nine tutorial levels completed; free-controls fixture failed after nine free shapes and dragging, no product defect inferred",
+  "runs": {
+    "polygons-tutorial-nine": {
+      "session_id": 58740,
+      "output_chunk": "1e3ea3",
+      "exit_code": 0
+    },
+    "polygons-controls-free": {
+      "session_id": 90497,
+      "output_chunk": "7b4303",
+      "exit_code": 1
+    }
+  }
+}

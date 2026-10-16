@@ -1,0 +1,20 @@
+E
+======================================================================
+ERROR: test_mosaic_pixels (unittest.loader._FailedTest.test_mosaic_pixels)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_mosaic_pixels
+Traceback (most recent call last):
+  File "/usr/lib/python3.14/unittest/loader.py", line 426, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/lib/python3.14/unittest/loader.py", line 367, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-patterns/tests/patterns_audit/test_mosaic_pixels.py", line 4, in <module>
+    from mosaic_pixels import classify_crop
+ModuleNotFoundError: No module named 'mosaic_pixels'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

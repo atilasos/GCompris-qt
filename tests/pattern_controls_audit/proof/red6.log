@@ -1,0 +1,31 @@
+test_advertised_arrows_without_actual_cursor_movement_are_rejected (test_audit.ControlsContract.test_advertised_arrows_without_actual_cursor_movement_are_rejected) ... ok
+test_all_seven_offered_digits_require_observed_paint_changes (test_audit.ControlsContract.test_all_seven_offered_digits_require_observed_paint_changes) ... FAIL
+test_coherent_unchanged_partial_menu_state_is_rejected (test_audit.ControlsContract.test_coherent_unchanged_partial_menu_state_is_rejected) ... ok
+test_cursor_margin_is_one_pixel_and_does_not_relax_cell_geometry (test_audit.ControlsContract.test_cursor_margin_is_one_pixel_and_does_not_relax_cell_geometry) ... ok
+test_failed_prefix_cannot_be_accepted_as_controls (test_audit.ControlsContract.test_failed_prefix_cannot_be_accepted_as_controls) ... ok
+test_keyboard_event_names_cannot_replace_actual_painted_effects (test_audit.ControlsContract.test_keyboard_event_names_cannot_replace_actual_painted_effects) ... FAIL
+test_literal_complete_controls_configure_datasets_without_claiming_games (test_audit.ControlsContract.test_literal_complete_controls_configure_datasets_without_claiming_games) ... ok
+test_three_coherent_copies_of_one_dataset_do_not_cover_all_datasets (test_audit.ControlsContract.test_three_coherent_copies_of_one_dataset_do_not_cover_all_datasets) ... ok
+
+======================================================================
+FAIL: test_all_seven_offered_digits_require_observed_paint_changes (test_audit.ControlsContract.test_all_seven_offered_digits_require_observed_paint_changes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-controls-audit/tests/pattern_controls_audit/test_audit.py", line 54, in test_all_seven_offered_digits_require_observed_paint_changes
+    with self.assertRaisesRegex(ValueError, 'digit'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_keyboard_event_names_cannot_replace_actual_painted_effects (test_audit.ControlsContract.test_keyboard_event_names_cannot_replace_actual_painted_effects)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-controls-audit/tests/pattern_controls_audit/test_audit.py", line 62, in test_keyboard_event_names_cannot_replace_actual_painted_effects
+    with self.assertRaisesRegex(ValueError, 'keyboard'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.007s
+
+FAILED (failures=2)

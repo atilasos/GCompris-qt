@@ -1,0 +1,14 @@
+..F....
+======================================================================
+FAIL: test_keyboard_trace_requires_each_creation_target (test_observation.Classes.test_keyboard_trace_requires_each_creation_target)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-polygon-observation/tests/polygon_observation_audit/test_observation.py", line 164, in test_keyboard_trace_requires_each_creation_target
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.017s
+
+FAILED (failures=1)
