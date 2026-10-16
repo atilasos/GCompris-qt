@@ -1,0 +1,105 @@
+{
+  "baseline_commit": "52be6feb5",
+  "recorded_catalogue_sha256": "513599201f4ac3902eb104c341286738ad016ce14d0f0b18055da1ad6a74a3a7",
+  "current_catalogue_sha256": "2696950092055e2c6455e8b2eb7e4f971cb0b603fc779dcdfc96b63fd559d7bc",
+  "relevant_prefixes": [
+    "core/",
+    "activities/erase/",
+    "activities/erase_clic/",
+    "activities/erase_2clic/"
+  ],
+  "unchanged_relevant_messages": 203,
+  "unrelated_changed_messages": [
+    {
+      "key": [
+        "ActivityInfo",
+        "Gnumch equality",
+        null,
+        null
+      ],
+      "before": {
+        "text": "Desigualdade do Gnumch",
+        "forms": [],
+        "type": null
+      },
+      "after": {
+        "text": "Igualdade do Gnumch",
+        "forms": [],
+        "type": null
+      }
+    },
+    {
+      "key": [
+        "Warning",
+        "Press \"Return\" or click on me to continue.",
+        null,
+        null
+      ],
+      "before": {
+        "text": "Carrega em \"Retroceder\" ou sobre mim para prosseguires.",
+        "forms": [],
+        "type": null
+      },
+      "after": {
+        "text": "Carrega em \"Enter\" ou clica aqui para continuares.",
+        "forms": [],
+        "type": null
+      }
+    },
+    {
+      "key": [
+        "Warning",
+        "You were eaten by a Troggle.",
+        null,
+        null
+      ],
+      "before": {
+        "text": "Fos-te comido por um Ogre.",
+        "forms": [],
+        "type": null
+      },
+      "after": {
+        "text": "Foste comido por um Ogre.",
+        "forms": [],
+        "type": null
+      }
+    },
+    {
+      "key": [
+        "advanced_colors",
+        "Find the fawn butterfly",
+        null,
+        null
+      ],
+      "before": {
+        "text": "Descobrir a borboleta cor de fauno",
+        "forms": [],
+        "type": null
+      },
+      "after": {
+        "text": "Descobrir a borboleta fulva",
+        "forms": [],
+        "type": null
+      }
+    },
+    {
+      "key": [
+        "advanced_colors",
+        "Find the garnet butterfly",
+        null,
+        null
+      ],
+      "before": {
+        "text": "Descobrir a borboleta rubi",
+        "forms": [],
+        "type": null
+      },
+      "after": {
+        "text": "Descobrir a borboleta grená",
+        "forms": [],
+        "type": null
+      }
+    }
+  ],
+  "scope": "Actual lconvert PT_PT projections for all core and three erase source references; original native receipt hashes retained."
+}
