@@ -303,3 +303,5 @@ A tarefa 73 tem prova Linux integrada de 14 níveis e 102 perguntas romanas,
 com erros reparados e entradas física/virtual. Está `ready-for-review`,
 aguardando Standards e Spec independentes. A ligação foi acrescentada sem
 alterar critérios globais, Windows, hardware, áudio ou revisão docente.
+
+- [76 — Orientação espacial e botões do rato](issues/76-orientacao-e-rato.md)
