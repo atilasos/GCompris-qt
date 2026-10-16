@@ -36,3 +36,10 @@ também passaram. Os 201 artefactos e o índice originais conservam os bytes;
 Provas em `../colors-identity59/README.md`, incluindo red/green, preservação e
 nova saída de auditoria. Nenhuma alteração de produção/mapa/CSV/push; limites
 Windows, hardware, áudio/perceção e professor da 53 mantêm-se.
+
+## Revisão integrada
+
+Standards e Spec conferidos; o P2 de identidade da tarefa 53 foi fechado pela
+tarefa 59 e reverificado independentemente. Relatórios preservados em
+`../review/integration53-59/`. Resolução limitada à prova Linux publicada;
+Windows, hardware, audição e revisão docente conservam os critérios pendentes.

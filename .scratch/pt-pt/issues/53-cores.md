@@ -43,3 +43,10 @@ Provas, comandos e limites em `../functional-colors/README.md` e `index.json`;
 runner em `tests/functional_colors/`. Paleta perceptiva, terminologia rara
 restante, pronúncia/audição, dispositivos físicos, Windows e professor continuam
 pendentes. Sem escrita no build principal, mapa ou CSV.
+
+## Revisão integrada
+
+Standards e Spec conferidos; o P2 de identidade da tarefa 53 foi fechado pela
+tarefa 59 e reverificado independentemente. Relatórios preservados em
+`../review/integration53-59/`. Resolução limitada à prova Linux publicada;
+Windows, hardware, audição e revisão docente conservam os critérios pendentes.

@@ -159,7 +159,7 @@ e os restantes critérios de aceitação mantêm os seus estados próprios.
 
 A memória matemática concluiu 14 variantes e 207 combinações nível/modo;
 decimais/quantidades concluíram 316 puzzles em 16 campanhas offline e quatro casos de controlos.
-As 71 atividades com evidência funcional ligada na matriz não representam
+As 78 atividades com evidência funcional ligada na matriz não representam
 a aceitação global dos 203 jogos.
 
 - [40 — Contrato dos níveis do Solitário](issues/40-niveis-solitario.md)
@@ -200,3 +200,13 @@ a aceitação global dos 203 jogos.
 - [58 — Revelar imagens](issues/58-apagar-imagem.md)
 
 - [59 — Identidades das provas de cores](issues/59-cores-identidades-prova.md)
+
+As cores (53/59) e os três jogos de revelar imagens (58) têm provas Linux
+revistas por Standards e Spec. O P2 de identidade foi corrigido e reverificado;
+[relatórios arquivados](review/integration53-59/). Estes lotes mantêm os limites
+de Windows, hardware, audição e revisão docente; a matriz conserva todos os
+critérios globais pendentes.
+
+A revisão Spec final de 57 foi arquivada, mas o fecho da revisão Standards
+continua pendente: o auditor precisa de rejeitar identidades de fonte/catálogo
+adulteradas. As cinco novas ligações Gnumch ainda não foram acrescentadas.

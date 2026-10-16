@@ -42,3 +42,10 @@ Provas e comandos em `../functional-erase/README.md`, índice e auditores em
 `tests/functional_erase/`. Windows, outros DPI/resoluções, hardware, toque,
 áudio e revisão docente continuam pendentes. SoundEffect não ficou
 Ready/playing; descodificar WAV não prova reprodução ou audição.
+
+## Revisão integrada
+
+Standards e Spec conferidos; o P2 de identidade da tarefa 53 foi fechado pela
+tarefa 59 e reverificado independentemente. Relatórios preservados em
+`../review/integration53-59/`. Resolução limitada à prova Linux publicada;
+Windows, hardware, audição e revisão docente conservam os critérios pendentes.
