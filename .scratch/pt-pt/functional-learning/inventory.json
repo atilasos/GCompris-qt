@@ -1,0 +1,222 @@
+{
+  "learn_digits": [
+    {
+      "questionsArray": [
+        "1",
+        "2"
+      ],
+      "circlesModel": 3,
+      "randomOrder": true
+    },
+    {
+      "questionsArray": [
+        "1",
+        "2",
+        "3"
+      ],
+      "circlesModel": 3,
+      "randomOrder": true
+    },
+    {
+      "questionsArray": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "circlesModel": 5,
+      "randomOrder": true
+    },
+    {
+      "questionsArray": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "circlesModel": 5,
+      "randomOrder": true
+    },
+    {
+      "questionsArray": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "circlesModel": 9,
+      "randomOrder": true
+    },
+    {
+      "questionsArray": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "circlesModel": 9,
+      "randomOrder": true
+    },
+    {
+      "questionsArray": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "circlesModel": 9,
+      "randomOrder": true
+    },
+    {
+      "questionsArray": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "circlesModel": 9,
+      "randomOrder": true
+    },
+    {
+      "questionsArray": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "circlesModel": 9,
+      "randomOrder": true
+    }
+  ],
+  "learn_additions": [
+    {
+      "questionsArray": [
+        "1 + 1",
+        "1 + 2",
+        "2 + 2"
+      ],
+      "circlesModel": 4,
+      "randomOrder": true
+    },
+    {
+      "questionsArray": [
+        "1 + 1",
+        "1 + 2",
+        "1 + 3",
+        "2 + 2",
+        "2 + 3",
+        "3 + 3"
+      ],
+      "circlesModel": 6,
+      "randomOrder": true
+    },
+    {
+      "questionsArray": [
+        "1 + 1",
+        "1 + 2",
+        "1 + 3",
+        "1 + 4",
+        "2 + 2",
+        "2 + 3",
+        "2 + 4",
+        "3 + 3",
+        "3 + 4",
+        "4 + 4"
+      ],
+      "circlesModel": 9,
+      "randomOrder": true
+    }
+  ],
+  "learn_subtractions": [
+    {
+      "questionsArray": [
+        "2 - 1",
+        "3 - 1",
+        "3 - 2"
+      ],
+      "circlesModel": 3,
+      "randomOrder": true
+    },
+    {
+      "questionsArray": [
+        "2 - 1",
+        "3 - 1",
+        "3 - 2",
+        "4 - 1",
+        "4 - 2",
+        "4 - 3"
+      ],
+      "circlesModel": 4,
+      "randomOrder": true
+    },
+    {
+      "questionsArray": [
+        "2 - 1",
+        "3 - 1",
+        "3 - 2",
+        "4 - 1",
+        "4 - 2",
+        "4 - 3",
+        "5 - 1",
+        "5 - 2",
+        "5 - 3",
+        "5 - 4"
+      ],
+      "circlesModel": 5,
+      "randomOrder": true
+    },
+    {
+      "questionsArray": [
+        "7 - 4",
+        "7 - 7",
+        "4 - 2",
+        "7 - 1",
+        "7 - 3",
+        "6 - 4",
+        "5 - 1",
+        "7 - 2",
+        "5 - 3",
+        "6 - 1"
+      ],
+      "circlesModel": 7,
+      "randomOrder": true
+    },
+    {
+      "questionsArray": [
+        "9 - 2",
+        "6 - 3",
+        "8 - 5",
+        "9 - 6",
+        "9 - 5",
+        "8 - 3",
+        "6 - 5",
+        "4 - 1",
+        "8 - 2",
+        "9 - 7"
+      ],
+      "circlesModel": 9,
+      "randomOrder": true
+    }
+  ]
+}
