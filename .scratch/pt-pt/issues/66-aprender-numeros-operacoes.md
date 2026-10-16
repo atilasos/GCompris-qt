@@ -1,7 +1,7 @@
 # Aprender números, adições e subtrações em PT-PT
 
 Status: ready-for-agent
-Progress: resolved
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -46,3 +46,8 @@ audição, dispositivos físicos, outras geometrias, Windows ou aprovação doce
 O interruptor de vozes tem prova de persistência; não uma segunda campanha
 completa de cada representação com esse interruptor inativo. Critérios globais
 continuam pendentes.
+
+## Integração
+
+Provas integradas; aguardam revisões independentes Standards e Spec.
+`ready-for-review` não constitui resolução final nem aceitação global.

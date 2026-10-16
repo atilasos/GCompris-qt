@@ -159,7 +159,7 @@ e os restantes critérios de aceitação mantêm os seus estados próprios.
 
 A memória matemática concluiu 14 variantes e 207 combinações nível/modo;
 decimais/quantidades concluíram 316 puzzles em 16 campanhas offline e quatro casos de controlos.
-As 99 atividades com evidência funcional ligada na matriz não representam
+As 102 atividades com evidência funcional ligada na matriz não representam
 a aceitação global dos 203 jogos.
 
 - [40 — Contrato dos níveis do Solitário](issues/40-niveis-solitario.md)
@@ -244,3 +244,9 @@ conservam os respetivos estados.
 - [68 — Retas graduadas](issues/68-retas-graduadas.md)
 
 - [69 — Comparar números e descobrir vizinhos](issues/69-comparar-vizinhos.md)
+
+A tarefa 66 tem provas integradas de 17 níveis originais, 35 percursos de
+representação/nível e 220 respostas certas/erradas. Está `ready-for-review`,
+aguardando Standards e Spec independentes; não foi declarada resolução final.
+Três ligações de evidência foram acrescentadas sem alterar critérios globais,
+Windows, dispositivos físicos, audição ou revisão docente.
