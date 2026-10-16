@@ -53,7 +53,7 @@ var dataset = [
 
 // no of Question at each level ( total sublevels)
 
-var levelSchema = [4,4,4,4,3,3,4,5]
+var levelSchema = [4,4,4,4,3,3,4,4]
 
 // default operators at each level ( in case Built-in mode is activated )
 
