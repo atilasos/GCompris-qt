@@ -1,0 +1,17 @@
+F
+======================================================================
+FAIL: test_approved_names_replace_only_the_two_legacy_labels (test_approved_legacy_voices.ApprovedLegacyWords.test_approved_names_replace_only_the_two_legacy_labels)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-legacy-voices-approved/tests/test_approved_legacy_voices.py", line 9, in test_approved_names_replace_only_the_two_legacy_labels
+    self.assertEqual(words['fawn.ogg'],'cervato');self.assertEqual(words['tick.ogg'],'carraça')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'corso' != 'cervato'
+- corso
++ cervato
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)

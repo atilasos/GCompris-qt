@@ -40,7 +40,7 @@ class CompleteVoicesTest(unittest.TestCase):
                        '--voices-dir', str(folder), '--additions', str(additions),
                        '--inventory-tool', str(utility), '--rcc-tool', RCC]
             subprocess.run(command, check=True)
-            completed = folder / 'voices-pt-2026-10-15-00-00-00.rcc'
+            completed = folder / 'voices-pt-2026-10-16-00-00-00.rcc'
             actual = {row['path']: row for row in json.loads(subprocess.check_output([str(utility), str(completed)]))}
             self.assertEqual(len(actual), 2)
             self.assertEqual(actual[':/gcompris/data/voices-ogg/pt/alphabet/U0061.ogg']['sha256'],

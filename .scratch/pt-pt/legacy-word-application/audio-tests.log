@@ -1,0 +1,6 @@
+{"pt_voice_files": 2, "missing_counts": {"introductions": 202, "alphabet": 25, "digits_and_numbers": 21, "portuguese_keyboard": 12, "literal_references": 1316, "active_wordset": 1090}, "decode": {"status": "not-run"}}
+.
+----------------------------------------------------------------------
+Ran 1 test in 1.009s
+
+OK

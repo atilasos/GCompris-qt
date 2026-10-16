@@ -1,0 +1,18 @@
+{
+  "scope": "Private real RCC export; labels only, not game or Windows execution",
+  "changed_labels": {
+    "fawn.ogg": [
+      "corso",
+      "cervato"
+    ],
+    "tick.ogg": [
+      "piolho",
+      "carraça"
+    ]
+  },
+  "rcc_sha256": "bc9af8fcb7a77ade085b2019810387b9857f9b0106de9924b8835a3646d9f2e4",
+  "rcc_bytes": 4683697,
+  "exported_content_sha256": "7cdd58b9f791193f9e0458654b20730b4af399076a73e0fd0eb6773a507a1341",
+  "source_content_sha256": "7cdd58b9f791193f9e0458654b20730b4af399076a73e0fd0eb6773a507a1341",
+  "export_equals_source": true
+}

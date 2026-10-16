@@ -31,3 +31,7 @@ ainda; recursos do jogo e aprovação dos32 mantidos. A tarefa continua claimed.
 ## Aprovação e aplicação autorizada
 
 O professor respondeu «podemos usar o que foi criado» à pergunta dos dois pares. Aprova os nomes e as duas amostras novas apresentadas no ZIP, sem escolher conservar os áudios antigos. Ver ../legacy-word-review/human-approval.json para a identidade do pacote e dos WAV. Esta autorização permite agora aplicar as duas substituições deliberadas de texto/áudio; a restrição anterior de não instalar antes da decisão já foi satisfeita. As32 gravações aprovadas permanecem intactas. O instalador publicado 38862699753 antecede esta alteração e não se apresenta como atualizado.
+
+## Aplicação preparada para revisão
+
+Os nomes e os dois WAV aprovados foram aplicados em build privado: 2 OGG derivados, RCC de 1610 recursos, 1576 originais e as 32 adições intactos. Novo manifesto e política de pacote distinguem as duas substituições; o RCC upstream e o pacote ouvido permanecem intactos. Provas, testes negativos e limites em ../legacy-word-application/README.md. Layout Windows extraído verificado sem execução do instalador; reprodução Windows continua pendente. Tarefa permanece claimed, sem fecho pelo implementador.
