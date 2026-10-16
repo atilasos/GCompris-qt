@@ -65,6 +65,8 @@ function initLevel() {
         }
     }
 
+    // Position freshly created cells before choosing the keyboard column.
+    items.grid.forceLayout();
     nextColumn = 3;
     if(items.currentLevel < 2)
         depthMax = 2;
