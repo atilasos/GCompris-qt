@@ -17033,7 +17033,7 @@ msgstr "Não Selecionado"
 #: activities/guesscount/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Guesscount"
-msgstr "Conde das Adivinhas"
+msgstr "Adivinha a conta"
 
 #. Help title
 #: activities/guesscount/ActivityInfo.qml:21
