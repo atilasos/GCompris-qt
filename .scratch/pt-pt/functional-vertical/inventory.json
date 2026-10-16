@@ -1,0 +1,443 @@
+{
+  "vertical_addition": [
+    {
+      "dataset": 1,
+      "source": "src/activities/vertical_addition/resource/1/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 2,
+        "nbLines": 2,
+        "alreadyLaid": true,
+        "withCarry": false
+      },
+      "objective": "Solve addition, 2 digits, 2 lines, without carry."
+    },
+    {
+      "dataset": 2,
+      "source": "src/activities/vertical_addition/resource/2/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 2,
+        "nbLines": 2,
+        "alreadyLaid": false,
+        "withCarry": false
+      },
+      "objective": "Write and solve addition, 2 digits, 2 lines, without carry."
+    },
+    {
+      "dataset": 3,
+      "source": "src/activities/vertical_addition/resource/3/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 2,
+        "nbLines": 2,
+        "alreadyLaid": true,
+        "withCarry": true
+      },
+      "objective": "Solve addition, 2 digits, 2 lines."
+    },
+    {
+      "dataset": 4,
+      "source": "src/activities/vertical_addition/resource/4/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 2,
+        "nbLines": 2,
+        "alreadyLaid": false,
+        "withCarry": true
+      },
+      "objective": "Write and solve addition, 2 digits, 2 lines."
+    },
+    {
+      "dataset": 5,
+      "source": "src/activities/vertical_addition/resource/5/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 2,
+        "nbLines": 3,
+        "alreadyLaid": false,
+        "withCarry": true
+      },
+      "objective": "Write and solve addition, 2 digits, 3 lines."
+    },
+    {
+      "dataset": 6,
+      "source": "src/activities/vertical_addition/resource/6/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 3,
+        "nbLines": 2,
+        "alreadyLaid": true,
+        "withCarry": true
+      },
+      "objective": "Solve addition, 3 digits, 2 lines."
+    },
+    {
+      "dataset": 7,
+      "source": "src/activities/vertical_addition/resource/7/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 3,
+        "nbLines": 2,
+        "alreadyLaid": false,
+        "withCarry": true
+      },
+      "objective": "Write and solve addition, 3 digits, 2 lines."
+    },
+    {
+      "dataset": 8,
+      "source": "src/activities/vertical_addition/resource/8/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 3,
+        "nbLines": 3,
+        "alreadyLaid": true,
+        "withCarry": true
+      },
+      "objective": "Solve addition, 3 digits, 3 lines."
+    },
+    {
+      "dataset": 9,
+      "source": "src/activities/vertical_addition/resource/9/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 4,
+        "nbLines": 2,
+        "alreadyLaid": true,
+        "withCarry": true
+      },
+      "objective": "Solve addition, 4 digits, 2 lines."
+    },
+    {
+      "dataset": 10,
+      "source": "src/activities/vertical_addition/resource/10/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 4,
+        "nbLines": 3,
+        "alreadyLaid": true,
+        "withCarry": true
+      },
+      "objective": "Solve addition, 4 digits, 3 lines."
+    },
+    {
+      "dataset": 11,
+      "source": "src/activities/vertical_addition/resource/11/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 4,
+        "nbLines": 4,
+        "alreadyLaid": true,
+        "withCarry": true
+      },
+      "objective": "Solve addition, 4 digits, 4 lines."
+    },
+    {
+      "dataset": 12,
+      "source": "src/activities/vertical_addition/resource/12/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 4,
+        "nbLines": 4,
+        "alreadyLaid": false,
+        "withCarry": true,
+        "doItYourself": true
+      },
+      "objective": "Write your own addition and solve it."
+    }
+  ],
+  "vertical_subtraction": [
+    {
+      "dataset": 1,
+      "source": "src/activities/vertical_subtraction/resource/1/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 2,
+        "nbLines": 2,
+        "alreadyLaid": true,
+        "withCarry": false
+      },
+      "objective": "Solve subtraction, 2 digits, 2 lines, without carry."
+    },
+    {
+      "dataset": 2,
+      "source": "src/activities/vertical_subtraction/resource/2/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 2,
+        "nbLines": 2,
+        "alreadyLaid": false,
+        "withCarry": false
+      },
+      "objective": "Write and solve subtraction, 2 digits, 2 lines, without carry."
+    },
+    {
+      "dataset": 3,
+      "source": "src/activities/vertical_subtraction/resource/3/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 2,
+        "nbLines": 2,
+        "alreadyLaid": true,
+        "withCarry": true
+      },
+      "objective": "Solve subtraction, 2 or 3 digits, 2 lines."
+    },
+    {
+      "dataset": 4,
+      "source": "src/activities/vertical_subtraction/resource/4/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 2,
+        "nbLines": 2,
+        "alreadyLaid": false,
+        "withCarry": true
+      },
+      "objective": "Write and solve subtraction, 2 or 3 digits, 2 lines."
+    },
+    {
+      "dataset": 5,
+      "source": "src/activities/vertical_subtraction/resource/5/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 2,
+        "nbLines": 3,
+        "alreadyLaid": false,
+        "withCarry": true
+      },
+      "objective": "Write and solve subtraction, 2 or 3 digits, 3 lines."
+    },
+    {
+      "dataset": 6,
+      "source": "src/activities/vertical_subtraction/resource/6/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 3,
+        "nbLines": 2,
+        "alreadyLaid": true,
+        "withCarry": true
+      },
+      "objective": "Solve subtraction, 3 or 4 digits, 2 lines."
+    },
+    {
+      "dataset": 7,
+      "source": "src/activities/vertical_subtraction/resource/7/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 3,
+        "nbLines": 2,
+        "alreadyLaid": false,
+        "withCarry": true
+      },
+      "objective": "Write and solve subtraction, 3 or 4 digits, 2 lines."
+    },
+    {
+      "dataset": 8,
+      "source": "src/activities/vertical_subtraction/resource/8/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 3,
+        "nbLines": 3,
+        "alreadyLaid": true,
+        "withCarry": true
+      },
+      "objective": "Solve subtraction, 3 or 4 digits, 3 lines."
+    },
+    {
+      "dataset": 9,
+      "source": "src/activities/vertical_subtraction/resource/9/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 4,
+        "nbLines": 2,
+        "alreadyLaid": true,
+        "withCarry": true
+      },
+      "objective": "Solve subtraction, 4 or 5 digits, 2 lines."
+    },
+    {
+      "dataset": 10,
+      "source": "src/activities/vertical_subtraction/resource/10/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 4,
+        "nbLines": 3,
+        "alreadyLaid": true,
+        "withCarry": true
+      },
+      "objective": "Solve subtraction, 4 or 5 digits, 3 lines."
+    },
+    {
+      "dataset": 11,
+      "source": "src/activities/vertical_subtraction/resource/11/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 4,
+        "nbLines": 4,
+        "alreadyLaid": true,
+        "withCarry": true
+      },
+      "objective": "Solve subtraction, 4 or 5 digits, 4 lines."
+    },
+    {
+      "dataset": 12,
+      "source": "src/activities/vertical_subtraction/resource/12/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 4,
+        "nbLines": 4,
+        "alreadyLaid": false,
+        "withCarry": true,
+        "doItYourself": true
+      },
+      "objective": "Write your own subtraction and solve it."
+    }
+  ],
+  "vertical_subtraction_compensation": [
+    {
+      "dataset": 1,
+      "source": "src/activities/vertical_subtraction_compensation/resource/1/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 2,
+        "nbLines": 2,
+        "alreadyLaid": true,
+        "withCarry": false
+      },
+      "objective": "Solve subtraction, 2 digits, 2 lines, without carry."
+    },
+    {
+      "dataset": 2,
+      "source": "src/activities/vertical_subtraction_compensation/resource/2/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 2,
+        "nbLines": 2,
+        "alreadyLaid": false,
+        "withCarry": false
+      },
+      "objective": "Write and solve subtraction, 2 digits, 2 lines, without carry."
+    },
+    {
+      "dataset": 3,
+      "source": "src/activities/vertical_subtraction_compensation/resource/3/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 2,
+        "nbLines": 2,
+        "alreadyLaid": true,
+        "withCarry": true
+      },
+      "objective": "Solve subtraction, 2 or 3 digits, 2 lines."
+    },
+    {
+      "dataset": 4,
+      "source": "src/activities/vertical_subtraction_compensation/resource/4/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 2,
+        "nbLines": 2,
+        "alreadyLaid": false,
+        "withCarry": true
+      },
+      "objective": "Write and solve subtraction, 2 or 3 digits, 2 lines."
+    },
+    {
+      "dataset": 5,
+      "source": "src/activities/vertical_subtraction_compensation/resource/5/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 2,
+        "nbLines": 3,
+        "alreadyLaid": false,
+        "withCarry": true
+      },
+      "objective": "Write and solve subtraction, 2 or 3 digits, 3 lines."
+    },
+    {
+      "dataset": 6,
+      "source": "src/activities/vertical_subtraction_compensation/resource/6/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 3,
+        "nbLines": 2,
+        "alreadyLaid": true,
+        "withCarry": true
+      },
+      "objective": "Solve subtraction, 3 or 4 digits, 2 lines."
+    },
+    {
+      "dataset": 7,
+      "source": "src/activities/vertical_subtraction_compensation/resource/7/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 3,
+        "nbLines": 2,
+        "alreadyLaid": false,
+        "withCarry": true
+      },
+      "objective": "Write and solve subtraction, 3 or 4 digits, 2 lines."
+    },
+    {
+      "dataset": 8,
+      "source": "src/activities/vertical_subtraction_compensation/resource/8/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 3,
+        "nbLines": 3,
+        "alreadyLaid": true,
+        "withCarry": true
+      },
+      "objective": "Solve subtraction, 3 or 4 digits, 3 lines."
+    },
+    {
+      "dataset": 9,
+      "source": "src/activities/vertical_subtraction_compensation/resource/9/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 4,
+        "nbLines": 2,
+        "alreadyLaid": true,
+        "withCarry": true
+      },
+      "objective": "Solve subtraction, 4 or 5 digits, 2 lines."
+    },
+    {
+      "dataset": 10,
+      "source": "src/activities/vertical_subtraction_compensation/resource/10/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 4,
+        "nbLines": 3,
+        "alreadyLaid": true,
+        "withCarry": true
+      },
+      "objective": "Solve subtraction, 4 or 5 digits, 3 lines."
+    },
+    {
+      "dataset": 11,
+      "source": "src/activities/vertical_subtraction_compensation/resource/11/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 4,
+        "nbLines": 4,
+        "alreadyLaid": true,
+        "withCarry": true
+      },
+      "objective": "Solve subtraction, 4 or 5 digits, 4 lines."
+    },
+    {
+      "dataset": 12,
+      "source": "src/activities/vertical_subtraction_compensation/resource/12/Data.qml",
+      "data": {
+        "nbSubLevel": 10,
+        "nbDigits": 4,
+        "nbLines": 4,
+        "alreadyLaid": false,
+        "withCarry": true,
+        "doItYourself": true
+      },
+      "objective": "Write your own subtraction and solve it."
+    }
+  ]
+}

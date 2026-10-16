@@ -1,0 +1,287 @@
+{
+  "config-progress-complete": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "config-progress-green": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "config-progress-red": {
+    "source": "frozen-source/baseline",
+    "source_manifest_sha256": "40d18f8e7011748588f4df7596a5887ccce1da03afdc5ef8053e407c63799579",
+    "snapshot": "resource-snapshot.json"
+  },
+  "controls/vertical_addition": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "controls/vertical_subtraction": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "controls/vertical_subtraction_compensation": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "copied-zero-complete": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "copied-zero-green": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "copied-zero-red": {
+    "source": "frozen-source/baseline",
+    "source_manifest_sha256": "40d18f8e7011748588f4df7596a5887ccce1da03afdc5ef8053e407c63799579",
+    "snapshot": "resource-snapshot.json"
+  },
+  "final/vertical_addition-01": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "final/vertical_addition-04": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "final/vertical_addition-07": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "final/vertical_addition-10": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "final/vertical_subtraction-01": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "final/vertical_subtraction-04": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "final/vertical_subtraction-07": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "final/vertical_subtraction-10": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "final/vertical_subtraction_compensation-01": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "final/vertical_subtraction_compensation-04": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "final/vertical_subtraction_compensation-07": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "final/vertical_subtraction_compensation-10": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "free-input-green-vertical_addition": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "free-input-green-vertical_subtraction": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "free-input-green-vertical_subtraction_compensation": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "full/vertical_addition-01": {
+    "source": "frozen-source/baseline",
+    "source_manifest_sha256": "40d18f8e7011748588f4df7596a5887ccce1da03afdc5ef8053e407c63799579",
+    "snapshot": "resource-snapshot.json"
+  },
+  "full/vertical_addition-04": {
+    "source": "frozen-source/baseline",
+    "source_manifest_sha256": "40d18f8e7011748588f4df7596a5887ccce1da03afdc5ef8053e407c63799579",
+    "snapshot": "resource-snapshot.json"
+  },
+  "full/vertical_addition-07": {
+    "source": "frozen-source/baseline",
+    "source_manifest_sha256": "40d18f8e7011748588f4df7596a5887ccce1da03afdc5ef8053e407c63799579",
+    "snapshot": "resource-snapshot.json"
+  },
+  "full/vertical_addition-10": {
+    "source": "frozen-source/baseline",
+    "source_manifest_sha256": "40d18f8e7011748588f4df7596a5887ccce1da03afdc5ef8053e407c63799579",
+    "snapshot": "resource-snapshot.json"
+  },
+  "full/vertical_subtraction-01": {
+    "source": "frozen-source/baseline",
+    "source_manifest_sha256": "40d18f8e7011748588f4df7596a5887ccce1da03afdc5ef8053e407c63799579",
+    "snapshot": "resource-snapshot.json"
+  },
+  "full/vertical_subtraction-04": {
+    "source": "frozen-source/baseline",
+    "source_manifest_sha256": "40d18f8e7011748588f4df7596a5887ccce1da03afdc5ef8053e407c63799579",
+    "snapshot": "resource-snapshot.json"
+  },
+  "full/vertical_subtraction-07": {
+    "source": "frozen-source/baseline",
+    "source_manifest_sha256": "40d18f8e7011748588f4df7596a5887ccce1da03afdc5ef8053e407c63799579",
+    "snapshot": "resource-snapshot.json"
+  },
+  "full/vertical_subtraction-10": {
+    "source": "frozen-source/baseline",
+    "source_manifest_sha256": "40d18f8e7011748588f4df7596a5887ccce1da03afdc5ef8053e407c63799579",
+    "snapshot": "resource-snapshot.json"
+  },
+  "full/vertical_subtraction_compensation-01": {
+    "source": "frozen-source/baseline",
+    "source_manifest_sha256": "40d18f8e7011748588f4df7596a5887ccce1da03afdc5ef8053e407c63799579",
+    "snapshot": "resource-snapshot.json"
+  },
+  "full/vertical_subtraction_compensation-04": {
+    "source": "frozen-source/baseline",
+    "source_manifest_sha256": "40d18f8e7011748588f4df7596a5887ccce1da03afdc5ef8053e407c63799579",
+    "snapshot": "resource-snapshot.json"
+  },
+  "full/vertical_subtraction_compensation-07": {
+    "source": "frozen-source/baseline",
+    "source_manifest_sha256": "40d18f8e7011748588f4df7596a5887ccce1da03afdc5ef8053e407c63799579",
+    "snapshot": "resource-snapshot.json"
+  },
+  "full/vertical_subtraction_compensation-10": {
+    "source": "frozen-source/baseline",
+    "source_manifest_sha256": "40d18f8e7011748588f4df7596a5887ccce1da03afdc5ef8053e407c63799579",
+    "snapshot": "resource-snapshot.json"
+  },
+  "intermediate-controls/vertical_addition": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "intermediate-controls/vertical_subtraction": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "intermediate-controls/vertical_subtraction_compensation": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "intermediate/vertical_addition-01": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "intermediate/vertical_addition-04": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "intermediate/vertical_addition-07": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "intermediate/vertical_addition-10": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "intermediate/vertical_subtraction-01": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "intermediate/vertical_subtraction-04": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "intermediate/vertical_subtraction-07": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "intermediate/vertical_subtraction-10": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "intermediate/vertical_subtraction_compensation-01": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "intermediate/vertical_subtraction_compensation-04": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "intermediate/vertical_subtraction_compensation-07": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "intermediate/vertical_subtraction_compensation-10": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "negative-own-green-vertical_subtraction": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "negative-own-green-vertical_subtraction_compensation": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "negative-own-red": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "previous-complete": {
+    "source": "frozen-source/complete",
+    "source_manifest_sha256": "689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a",
+    "snapshot": "complete-resource-snapshot.json"
+  },
+  "previous-green": {
+    "source": "frozen-source/green",
+    "source_manifest_sha256": "2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0",
+    "snapshot": "green-resource-snapshot.json"
+  },
+  "previous-red": {
+    "source": "frozen-source/baseline",
+    "source_manifest_sha256": "40d18f8e7011748588f4df7596a5887ccce1da03afdc5ef8053e407c63799579",
+    "snapshot": "resource-snapshot.json"
+  }
+}

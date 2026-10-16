@@ -51,7 +51,7 @@ Item {
         var ok = true
         for (var i = 0; i < digitRepeater.count; i++) {
             var item = digitRepeater.itemAt(i)
-            ok = ok && ((item.expected > 0) ? (item.expected === item.value) : true)
+            ok = ok && ((item.expected >= 0) ? (item.expected === item.value) : true)
         }
 
         return ok
