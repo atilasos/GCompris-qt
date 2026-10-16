@@ -1,0 +1,4 @@
+python3 -m unittest discover -s tests/functional_grids
+Ran 19 tests in 10.306s
+OK
+Observed tool session 25953, final chunk 1a8498, exit_code 0.
