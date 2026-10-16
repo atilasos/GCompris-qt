@@ -1,7 +1,7 @@
 # Preparar as fontes das campanhas sem corridas
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 68
 
@@ -26,3 +26,14 @@ Não repetir Qt nem alterar os 22 recibos, catálogos históricos, casos ou
 recursos já fixados. Conferir a igualdade dos blobs antes/depois e repetir o
 auditor puro e os testes relevantes. Sincronizar integração antes de entregar;
 merger e recheck independentes. Nenhuma aprovação global ou Windows muda.
+
+## Answer
+
+Publicação atómica de árvores privadas completas, validação do vencedor e
+preparação antes do pool com commit resolvido. Quatro regressões novas e os
+12 testes existentes passam; auditor puro mantém os 22 recibos. Os 307
+ficheiros históricos conferidos são iguais aos blobs Git de partida.
+
+Provas e comandos: [source-preparation/README.md](../source-preparation/README.md).
+Sem execução Qt ou alteração do arquivo histórico. Pronto para merger e
+recheck independentes; nenhuma aceitação global muda.

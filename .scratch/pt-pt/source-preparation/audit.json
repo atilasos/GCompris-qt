@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "questions": 574,
+  "levels": 58,
+  "datasets": 20,
+  "wrong_repaired": 58,
+  "configured_level_step_pairs": 96,
+  "step_samples": 4,
+  "controls": 2,
+  "decimal_level_questions": 20,
+  "fractional_requests": 19,
+  "inputs": {
+    "keyboard": 294,
+    "pointer": 280
+  },
+  "native_receipts": 22,
+  "scope": "Linux software only; same-process selection reopening; Windows/hardware/audio/teacher approval pending"
+}
