@@ -1,7 +1,7 @@
 # Chapéu mágico de adição e subtração em PT-PT
 
 Status: ready-for-agent
-Progress: resolved
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -62,3 +62,8 @@ Python `-O`. [Procedimento, provas e limites](../functional-magic-hat/README.md)
 
 Windows 10/11, audição, equipamento físico, acessibilidade e revisão docente
 continuam pendentes; os critérios globais não são aprovados por este lote.
+
+## Integração
+
+Provas integradas para Standards e Spec independentes. `ready-for-review`
+não representa resolução final ou aceitação global.
