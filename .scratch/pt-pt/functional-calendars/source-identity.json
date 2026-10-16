@@ -1,0 +1,25 @@
+{
+  "revision": "02c4675f67bf273448cffb643d80008fae308a77",
+  "files": {
+    "src/activities/calendar/ActivityInfo.qml": "1f2109891f0d6f0a88184d79288e8ae6d046c3bc2f660cd61a71c92bbe436d68",
+    "src/activities/calendar/CMakeLists.txt": "d7f381041b16c738ffaed3f5bf53660140557e62e7ac81b1cf07b3d40821a8a9",
+    "src/activities/calendar/Calendar.qml": "1c1d6c4c40a7f44b26fa2cc9593a7acf0de4306ca62d3e3522234fa8cf9d3d92",
+    "src/activities/calendar/ChoiceTable.qml": "d4c58c14cde1de709d7123063e93f3da75b892b76eee722e059b2bb75e365814",
+    "src/activities/calendar/MonthGridDelegate.qml": "47fa13b9f1686f03a7821f03693ac6f756ce09d9bf03d62c0a86dc979bc808f5",
+    "src/activities/calendar/calendar.js": "347bdb3cba1093655ab4c03ced876b531a1146c14dc6a80e56bcfc7a849a19cc",
+    "src/activities/calendar/calendar.svg": "910566d69e9f3ba7a82adee81eb1f5a538b1c25ed7816f898696dc6852c66834",
+    "src/activities/calendar/calendar_dataset.js": "f49ddcace80c4a5ae4f1f1f4b037e49f3337ebaf1c64027d1964fde413064f10",
+    "src/activities/find_the_day/ActivityInfo.qml": "d2d47585bb85f50cb6111a504e4a7ab43a20b24a5cc5c81eb04abacdba3b36cd",
+    "src/activities/find_the_day/CMakeLists.txt": "e1a1a5874eb8b45dddbabfca37ebceb1cae626175ec3fe059e669e3c63e08b58",
+    "src/activities/find_the_day/FindTheDay.qml": "2a607dca79f85b8cbdac0d715088e5c524a659ed5a7924bdd2ccfac57339d3c2",
+    "src/activities/find_the_day/find_the_day.svg": "83ed45873f3977f04661295b0dfed40e3db040c10894a4b15b36c5ed95bc5776",
+    "src/activities/find_the_day/find_the_day_dataset.js": "29b854c193f9942305a0844115a7bd6344bc63e836dcfead99efd34f1c85d22f",
+    "tools/run-native-qml-case.py": "612889370d52dc3c643f894c58dd22fdd6073c245525d5e8502791527fd6ec42",
+    "poqm/pt/gcompris_qt.po": "30584f0bd2e712201132a789be4ac59c84498fe3cbd736d6cbb72e74c8169286",
+    "src/activities/fifteen/resource/background.svg": "32352fdc4969f213bb0cbfb67051bb3e9bdc1f363ecab499dc89bd1a138b6807",
+    "src/core/resource/sounds/completetask.wav": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c",
+    "src/core/resource/sounds/crash.wav": "86f844cb3f4cd87485de76b26a868e695d278ea971f308e092305827e7943c11",
+    "src/core/resource/scroll_down.svg": "3c559915c903b85c2c9ea377dee1b0b4ff223c47e8c671f2a3e88ad417583a77",
+    "src/core/resource/bar_ok.svg": "9842e9e8edae9eef10efd54aa867fd23db4da06c314a59c6e024219dd2c110f5"
+  }
+}
