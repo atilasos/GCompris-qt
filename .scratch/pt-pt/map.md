@@ -263,3 +263,5 @@ A tarefa 70 tem prova Linux integrada de dez níveis nos dois formatos,
 Está `ready-for-review`, aguardando Standards e Spec independentes. A ligação
 do relógio foi acrescentada sem alterar critérios globais ou aprovação Windows,
 hardware, áudio e docente.
+
+- [71 — Chapéu mágico de adição e subtração](issues/71-chapeu-magico.md)
