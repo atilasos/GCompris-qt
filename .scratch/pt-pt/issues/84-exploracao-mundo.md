@@ -1,7 +1,7 @@
 # Concluir atividades de exploração do mundo
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -62,3 +62,9 @@ mensagens revistas mantém-se em 86 porque este painel já fazia parte do lote.
 
 Provas integradas para Standards e Spec independentes; `ready-for-review`,
 sem resolução final ou aceitação global.
+
+## Fecho de revisão
+
+P2 factual corrigido e fechado por Spec recheck e Standards do suplemento,
+sem achados acionáveis; [relatórios](../review/integration84/). Resolução
+limitada ao âmbito Linux finito publicado, sem aumentar cobertura ou globais.

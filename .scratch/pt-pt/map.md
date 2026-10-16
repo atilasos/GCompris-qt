@@ -418,6 +418,7 @@ independente fechou o P2; não aumenta cobertura única nem altera a matriz. Os
 - [88 — Pormenores e pinturas](issues/88-pormenores-e-pinturas.md)
 
 A tarefa 84 tem provas Linux integradas de 14 mapas, 98 apresentações e
-116 perguntas das quatro atividades de exploração. Está `ready-for-review`,
-aguardando Standards e Spec independentes. Quatro ligações mantêm os critérios
+116 perguntas das quatro atividades de exploração. Fica resolvida no âmbito
+Linux finito após rechecks sem achados; [relatórios](review/integration84/).
+Quatro ligações mantêm os critérios
 globais, Windows, hardware, áudio e revisão docente pendentes.
