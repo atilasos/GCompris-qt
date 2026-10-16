@@ -11187,13 +11187,13 @@ msgstr "Cunhado"
 #: activities/family/FamilyDataset.qml:527
 msgctxt "FamilyDataset|"
 msgid "Daughter-in-law"
-msgstr "Afilhada"
+msgstr "Nora"
 
 #: activities/family/FamilyDataset.qml:526
 #: activities/family/FamilyDataset.qml:527
 msgctxt "FamilyDataset|"
 msgid "Son-in-law"
-msgstr "Afilhado"
+msgstr "Genro"
 
 #. Activity title
 #: activities/family_find_relative/ActivityInfo.qml:15
