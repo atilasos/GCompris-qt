@@ -1,0 +1,74 @@
+{
+  "kind": "agent-recorded-tools-exec-completion",
+  "scope": "Pure-module TDD and contract tests; no Qt/native game conclusions",
+  "red": [
+    {
+      "cycle": 1,
+      "exit_code": 1,
+      "output_chunk": "53b0d9"
+    },
+    {
+      "cycle": 2,
+      "exit_code": 1,
+      "output_chunk": "fb628a"
+    },
+    {
+      "cycle": 3,
+      "exit_code": 1,
+      "output_chunk": "71dfaa"
+    },
+    {
+      "cycle": 4,
+      "exit_code": 1,
+      "output_chunk": "52d29b"
+    },
+    {
+      "cycle": 5,
+      "exit_code": 1,
+      "output_chunk": "2e1553"
+    },
+    {
+      "cycle": 6,
+      "exit_code": 1,
+      "output_chunk": "5dcac2"
+    }
+  ],
+  "green": [
+    {
+      "cycle": 1,
+      "exit_code": 0,
+      "output_chunk": "69e749"
+    },
+    {
+      "cycle": 2,
+      "exit_code": 0,
+      "output_chunk": "2fec95"
+    },
+    {
+      "cycle": 3,
+      "exit_code": 0,
+      "output_chunk": "0f1cc1"
+    },
+    {
+      "cycle": 4,
+      "exit_code": 0,
+      "output_chunk": "47a8c6"
+    },
+    {
+      "cycle": 5,
+      "exit_code": 0,
+      "output_chunk": "08dd64"
+    },
+    {
+      "cycle": 6,
+      "exit_code": 0,
+      "output_chunk": "8d8d94"
+    }
+  ],
+  "optimized": {
+    "tests": 7,
+    "exit_code": 0,
+    "output_chunk": "8d8d94",
+    "note": "Final invocation ran both normal and optimized suite; both raw logs retained."
+  }
+}
