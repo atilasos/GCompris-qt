@@ -399,3 +399,5 @@ A tarefa 85 tem percursos Linux integrados da eclusa, ciclo da água e três
 níveis de energia. Está `ready-for-review`, aguardando Standards e Spec
 independentes. Três ligações mantêm os critérios globais, Windows, hardware,
 áudio e docente pendentes; os limites dos recibos históricos estão publicados.
+
+- [87 — Grelhas lógicas](issues/87-grelhas-logicas.md)
