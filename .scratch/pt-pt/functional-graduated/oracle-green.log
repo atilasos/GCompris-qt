@@ -1,0 +1,9 @@
+test_decimal_comma_uses_exact_rational_steps (test_oracle.VisibleGraduations.test_decimal_comma_uses_exact_rational_steps) ... ok
+test_extremes_and_signed_values (test_oracle.VisibleGraduations.test_extremes_and_signed_values) ... ok
+test_nonexistent_or_out_of_bounds_tick_is_rejected (test_oracle.VisibleGraduations.test_nonexistent_or_out_of_bounds_tick_is_rejected) ... ok
+test_offset_and_grouped_million_bounds (test_oracle.VisibleGraduations.test_offset_and_grouped_million_bounds) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK
