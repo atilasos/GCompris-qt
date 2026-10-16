@@ -1,7 +1,7 @@
 # Concluir os jogos de relações familiares
 
 Status: ready-for-agent
-Progress: claimed
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -58,3 +58,9 @@ de sexo/género. Essa ambiguidade está documentada com folha SVG visível; os t
 não certificam a inferência do aluno nem certeza sobre género. Windows,
 hardware, audição/pronúncia, acessibilidade, revisão docente, estabilidade da tarefa 83 e
 aceitação global permanecem pendentes; nenhuma aprovação áudio é transferida.
+
+## Integração
+
+Provas integradas para Standards e Spec independentes. `ready-for-review`
+não representa resolução final ou aceitação global. Os limites iconográficos
+publicados não demonstram género pela aparência.
