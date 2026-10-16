@@ -1,0 +1,71 @@
+....FF
+======================================================================
+FAIL: test_equivalent_literal_and_escaped_json_work_under_cp1252_default (test_voice_container_policy.PackageCliEncodingTest.test_equivalent_literal_and_escaped_json_work_under_cp1252_default) (escaped_lock=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-windows-rcc-policy/tests/test_voice_container_policy.py", line 162, in test_equivalent_literal_and_escaped_json_work_under_cp1252_default
+    self.assertEqual(result.exception.code, 0, output.read_text(encoding='utf-8'))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0 : {
+  "passed": false,
+  "scope": "Packaged runtime files, locked assets, and optional native activity list; no gameplay/teacher acceptance",
+  "expected_activities": 0,
+  "native_list_checked": false,
+  "missing": [],
+  "corrupt": [
+    "voice-completion-manifest"
+  ],
+  "unlisted_activities": [],
+  "unexpected_activities": []
+}
+
+
+======================================================================
+FAIL: test_equivalent_literal_and_escaped_json_work_under_cp1252_default (test_voice_container_policy.PackageCliEncodingTest.test_equivalent_literal_and_escaped_json_work_under_cp1252_default) (escaped_lock=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-windows-rcc-policy/tests/test_voice_container_policy.py", line 162, in test_equivalent_literal_and_escaped_json_work_under_cp1252_default
+    self.assertEqual(result.exception.code, 0, output.read_text(encoding='utf-8'))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0 : {
+  "passed": false,
+  "scope": "Packaged runtime files, locked assets, and optional native activity list; no gameplay/teacher acceptance",
+  "expected_activities": 0,
+  "native_list_checked": false,
+  "missing": [],
+  "corrupt": [
+    "voice-completion-manifest"
+  ],
+  "unlisted_activities": [],
+  "unexpected_activities": []
+}
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.884s
+
+FAILED (failures=2)
+{
+  "passed": false,
+  "scope": "Packaged runtime files, locked assets, and optional native activity list; no gameplay/teacher acceptance",
+  "expected_activities": 0,
+  "native_list_checked": false,
+  "missing": [],
+  "corrupt": [
+    "voice-completion-manifest"
+  ],
+  "unlisted_activities": [],
+  "unexpected_activities": []
+}
+{
+  "passed": false,
+  "scope": "Packaged runtime files, locked assets, and optional native activity list; no gameplay/teacher acceptance",
+  "expected_activities": 0,
+  "native_list_checked": false,
+  "missing": [],
+  "corrupt": [
+    "voice-completion-manifest"
+  ],
+  "unlisted_activities": [],
+  "unexpected_activities": []
+}

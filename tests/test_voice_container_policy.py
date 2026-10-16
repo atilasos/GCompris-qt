@@ -108,5 +108,56 @@ class ContainerPolicyTest(unittest.TestCase):
         self.assertIn('voice-completion-manifest', self.check(completion)['corrupt'])
 
 
+class PackageCliEncodingTest(unittest.TestCase):
+    def test_equivalent_literal_and_escaped_json_work_under_cp1252_default(self):
+        import runpy
+        import sys
+        from unittest import mock
+        with tempfile.TemporaryDirectory() as temporary:
+            folder = Path(temporary)
+            script = folder / 'verify-package.py'
+            shutil.copyfile(ROOT / 'tools/windows/verify-package.py', script)
+            stage = folder / 'stage'
+            required = ['bin/GCompris.exe', 'bin/Qt6Core.dll', 'bin/Qt6Gui.dll', 'bin/Qt6Qml.dll',
+                'bin/vcruntime140.dll', 'bin/msvcp140.dll', 'bin/Qt6Quick.dll', 'bin/Qt6Multimedia.dll',
+                'bin/platforms/qwindows.dll', 'bin/platforms/qoffscreen.dll',
+                'bin/multimedia/ffmpegmediaplugin.dll', 'bin/imageformats/qwebp.dll', 'bin/tls/qopensslbackend.dll',
+                'bin/qml/QtQuick/qmldir', 'bin/qml/QtGraphs/qmldir',
+                'lib/qml/Box2D.2.0/qmlbox2d.dll', 'lib/qml/Box2D.2.0/qmldir',
+                'share/GCompris/translations/gcompris_qt_pt.qm', 'share/GCompris/rcc/core.rcc',
+                'bin/avcodec-fixture.dll', 'bin/avformat-fixture.dll', 'bin/avutil-fixture.dll',
+                'bin/libcrypto-3-fixture.dll', 'bin/libssl-3-fixture.dll']
+            for name in required:
+                path = stage / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(b'layout fixture')
+            voice_dir = stage / 'share/GCompris/rcc/data3/voices-ogg'
+            voice_dir.mkdir(parents=True)
+            for name in ('completed.rcc', 'Contents'):
+                (voice_dir / name).write_bytes(b'fixed resource')
+            completion = {'format': 2, 'text': 'carraça',
+                          'files': [identity(voice_dir / name) for name in ('completed.rcc', 'Contents')],
+                          'provenance_files': []}
+            lock = {'files': [], 'pt_voice_completion': completion}
+            activities = folder / 'activities.txt'
+            activities.write_bytes(b'')
+            output = folder / 'result.json'
+            original_open = Path.open
+            def cp1252_open(path, mode='r', buffering=-1, encoding=None, errors=None, newline=None):
+                if mode == 'r' and encoding in (None, 'locale'):
+                    encoding = 'cp1252'
+                return original_open(path, mode, buffering, encoding, errors, newline)
+            for escaped_lock in (True, False):
+                with self.subTest(escaped_lock=escaped_lock):
+                    (folder / 'assets-lock.json').write_bytes(json.dumps(lock, ensure_ascii=escaped_lock).encode('utf-8'))
+                    (voice_dir / 'completion.json').write_bytes(json.dumps(completion, ensure_ascii=not escaped_lock).encode('utf-8'))
+                    argv = [str(script), str(stage), '--activities', str(activities), '--output', str(output)]
+                    with mock.patch.object(Path, 'open', cp1252_open), mock.patch.object(sys, 'argv', argv):
+                        with self.assertRaises(SystemExit) as result:
+                            runpy.run_path(str(script), run_name='__main__')
+                    self.assertEqual(result.exception.code, 0, output.read_text(encoding='utf-8'))
+                    self.assertTrue(json.loads(output.read_text(encoding='utf-8'))['passed'])
+
+
 if __name__ == '__main__':
     unittest.main()
