@@ -17,3 +17,11 @@ originais descodificadas/extraídas, ajuda PT, navegação e menu. Quando houver
 opções expostas, operar e verificar persistência. Corrigir defeitos apenas
 após vermelho/verde nativo. Provas, comandos e hashes com limites explícitos
 de Windows, hardware, toque, áudio e revisão docente.
+
+## Progresso
+
+Vermelho nativo confirmou total público zero, privado seis e 25 blocos.
+A contagem passa a ser declarada no ActivityBase e partilhada pela leitura
+interna; a mesma prova ficou verde com seis níveis e imagem Ready. Três pilotos
+completaram um nível de seis imagens cada, mas as campanhas finais de todos
+os níveis e modos ainda estão ativas. O progresso mantém-se claimed.
