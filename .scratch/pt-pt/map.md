@@ -192,3 +192,7 @@ a aceitação global dos 203 jogos.
 - [54 — Provas portáteis de Hangman](issues/54-hangman-provas-portateis.md)
 
 - [55 — Auditoria histórica de Hanói](issues/55-hanoi-auditoria-historica.md)
+
+- [56 — Codificação e descodificação de percursos](issues/56-percursos.md)
+
+- [57 — Papador de Números](issues/57-papador-numeros.md)
