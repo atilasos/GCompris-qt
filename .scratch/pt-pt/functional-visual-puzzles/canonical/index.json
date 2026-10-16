@@ -1,0 +1,4495 @@
+{
+  "core": {
+    "sha256": "4c40f1dd1ef1169d78084c2f62655627dab02d4051e6dec9efd494a51191bacb",
+    "argv": [
+      "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/visual-origin/share/gcompris-qt/rcc/core.rcc",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/canonical/core/files"
+    ],
+    "exit_code": 0,
+    "files": [
+      {
+        "bytes": 1585,
+        "ogg": false,
+        "path": ":/gcompris/src/core/ParticleSystemStar.qml",
+        "sha256": "410f7f07a91b3c270890a205ee9ae0539a616461968fb67a091752cbac7767dd"
+      },
+      {
+        "bytes": 4404,
+        "ogg": false,
+        "path": ":/gcompris/src/core/Domino.qml",
+        "sha256": "e2bbb9e47fc7bb746a72331116f8e70f91677de1ea076f2aa0220f7ed1d3b7b8"
+      },
+      {
+        "bytes": 1937,
+        "ogg": false,
+        "path": ":/gcompris/src/core/ErrorRectangle.qml",
+        "sha256": "7e3b4c1798a2113e8c18e46e5343b2713fafb4370530acf0cc95bea3b21c0dd6"
+      },
+      {
+        "bytes": 12789,
+        "ogg": false,
+        "path": ":/gcompris/src/core/ChangeLog.qml",
+        "sha256": "6ba07bf8d29ca726213372ad658bac43b62605383cc6ae5aedec50d5268792d5"
+      },
+      {
+        "bytes": 3888,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCStyle.qml",
+        "sha256": "ccad1bd275ef10be58e7ff2910a2d783ccde8d47959155e6dd5cb996ccee4a9e"
+      },
+      {
+        "bytes": 14277,
+        "ogg": false,
+        "path": ":/gcompris/src/core/DialogChooseLevel.qml",
+        "sha256": "c74180b126b533f23aa371beef3896c5d415db3789adac4c0d6fdb8b63d784d4"
+      },
+      {
+        "bytes": 1348,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCDialogCheckBox.qml",
+        "sha256": "9e3da867863bcccdbd5fcea1aa702d546d719174e2a47718e5565a2ca870b707"
+      },
+      {
+        "bytes": 2970,
+        "ogg": false,
+        "path": ":/gcompris/src/core/Loading.qml",
+        "sha256": "3800a0c9ff7f73532e87261c6cb4f9051571586c3237520b2b3175315b8eb37e"
+      },
+      {
+        "bytes": 6768,
+        "ogg": false,
+        "path": ":/gcompris/src/core/AnswerButton.qml",
+        "sha256": "164018880f5041873e232b9bc7c86a84dbc68fdd7e9d56dee38482eb2e3d4d24"
+      },
+      {
+        "bytes": 2270,
+        "ogg": false,
+        "path": ":/gcompris/src/core/VirtualKey.qml",
+        "sha256": "b3766473050c049d4baec990ff0af7721cf3d5022618cc71addebfe5952b332c"
+      },
+      {
+        "bytes": 2692,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCTextPanel.qml",
+        "sha256": "7a3dcacd73b27526bb7d4516830e30e5b28848093a93ff362bcf562238b572a8"
+      },
+      {
+        "bytes": 981,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCSoundEffect.qml",
+        "sha256": "b15c845476030ecb734976708b5f2796742498d7ce8724c24dc50fdb7fb6c28e"
+      },
+      {
+        "bytes": 2751,
+        "ogg": false,
+        "path": ":/gcompris/src/core/BarEnumContent.qml",
+        "sha256": "8c2dbe859773d825cea5275536773eb354c8e125ee8181e327831116192629a0"
+      },
+      {
+        "bytes": 4638,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCButton.qml",
+        "sha256": "68b2e4f4856bb3a1db93715a3e8611f4ddf54488580103660bd5bebe68f876bb"
+      },
+      {
+        "bytes": 2379,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCRangeSlider.qml",
+        "sha256": "30f2953af337b734cc097155eac12e235bfc204699cf2afa6e050b0c53a667ea"
+      },
+      {
+        "bytes": 1335,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCProgressBar.qml",
+        "sha256": "3cd3615a54f08e625c69d59d6b18267bbbbff212f3d5bb190783ad7a85bb78ee"
+      },
+      {
+        "bytes": 1044,
+        "ogg": false,
+        "path": ":/gcompris/src/core/SwingAnimation.qml",
+        "sha256": "18cd63b24d2d7ce8e94a67e49c2498d5ed9982e1a8a1a1e3543b8488fa6f87bd"
+      },
+      {
+        "bytes": 1693,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCButtonScroll.qml",
+        "sha256": "08b90f7e46bd628a20c367645b2d1f4123dfa1f078d9972e06efcc4848c41ca4"
+      },
+      {
+        "bytes": 1890,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCSlider.qml",
+        "sha256": "77dd0eef75a6187ce5e85222f08a470f56cc24acf8f2b5a36be247181e941134"
+      },
+      {
+        "bytes": 6789,
+        "ogg": false,
+        "path": ":/gcompris/src/core/Tutorial.qml",
+        "sha256": "0778b2b4e2ed6b998b110c6163355536753464dedf4a1a3a04968b0270c0b336"
+      },
+      {
+        "bytes": 2670,
+        "ogg": false,
+        "path": ":/gcompris/src/core/ReadyButton.qml",
+        "sha256": "7ef448b39a25c030eab3d23980677870ac43ec32b2c4a6e13dff10fa15abda3c"
+      },
+      {
+        "bytes": 19310,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCCreationHandler.qml",
+        "sha256": "1e2245387f4794fcb53988a706242090629454cd72d52e1d24b50e2013e3fddb"
+      },
+      {
+        "bytes": 7934,
+        "ogg": false,
+        "path": ":/gcompris/src/core/DialogActivityConfig.qml",
+        "sha256": "b498f9708afbc4835d3b9ac9adc6b226e2329c2dc1d5a1e477a9da05c30c3b6c"
+      },
+      {
+        "bytes": 5106,
+        "ogg": false,
+        "path": ":/gcompris/src/core/IntroMessage.qml",
+        "sha256": "b1298cded776cf5cf16180c2eb31d0a5578817bc1403fd4a3ec9e61b3d4d8efe"
+      },
+      {
+        "bytes": 6298,
+        "ogg": false,
+        "path": ":/gcompris/src/core/Bonus.qml",
+        "sha256": "48d482e880560fe1a3b06bace371def756eaf4af92eaf23b21c21a330842cc28"
+      },
+      {
+        "bytes": 12480,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCComboBox.qml",
+        "sha256": "dd85a135bb8bc75c1a65cacea4eef2519c12bb615a65e9c72b02f6f90047a1da"
+      },
+      {
+        "bytes": 13543,
+        "ogg": false,
+        "path": ":/gcompris/src/core/NumPad.qml",
+        "sha256": "cf6c53a630235957048eee1c04fd25a4d403233bc0c049f260ae7f6d639b46af"
+      },
+      {
+        "bytes": 5204,
+        "ogg": false,
+        "path": ":/gcompris/src/core/Score.qml",
+        "sha256": "fd3b4b77fc6e7d85762f3f90471d2d1411b6a89a5fe650a45d67283d47d4e92d"
+      },
+      {
+        "bytes": 9087,
+        "ogg": false,
+        "path": ":/gcompris/src/core/DialogAbout.qml",
+        "sha256": "943a1bb0690d871290adedc72a8608375a7ebfe40a01bd428fd68ba16e267ef6"
+      },
+      {
+        "bytes": 4806,
+        "ogg": false,
+        "path": ":/gcompris/src/core/Balloon.qml",
+        "sha256": "517f528afc331378a060835ba046b1289c252c8b977cc73025d82a5446e58333"
+      },
+      {
+        "bytes": 2666,
+        "ogg": false,
+        "path": ":/gcompris/src/core/DialogHelp.qml",
+        "sha256": "7a4c5b04f8e6c8e0512b652558e29830bb6c346c9887562c5b8a7c7189017450"
+      },
+      {
+        "bytes": 137,
+        "ogg": false,
+        "path": ":/gcompris/src/core/qmldir",
+        "sha256": "752f96f115f2c03b58cd4903386961b1b8a9361f3a9923ff27c3f5d9b326ab7d"
+      },
+      {
+        "bytes": 2298,
+        "ogg": false,
+        "path": ":/gcompris/src/core/ActivityCategories.js",
+        "sha256": "36ac64e597b58afe8b023bf1a8134a97cc94234d76d0697a882d68849dc14bc1"
+      },
+      {
+        "bytes": 34348,
+        "ogg": false,
+        "path": ":/gcompris/src/core/main.qml",
+        "sha256": "50db9ecfe62024da0eabfdf62702ccb33ef9390bbd3dfc7d4a1b3db7363b9bf8"
+      },
+      {
+        "bytes": 36101,
+        "ogg": false,
+        "path": ":/gcompris/src/core/COPYING",
+        "sha256": "fee2034cf7c3da9eaf9f4fa2004a2a29668c92174679720375c6c04678b4e02e"
+      },
+      {
+        "bytes": 9854,
+        "ogg": false,
+        "path": ":/gcompris/src/core/DominoNumber.qml",
+        "sha256": "ebc69aa9861e47df187e6dfdf02295b1ad3b08f542074519dd299e9593c08029"
+      },
+      {
+        "bytes": 15445,
+        "ogg": false,
+        "path": ":/gcompris/src/core/Bar.qml",
+        "sha256": "1203d510051d31e9b4e0ba298028d9eaefe0392cff5a452076e9c8e6df37d01d"
+      },
+      {
+        "bytes": 1707,
+        "ogg": false,
+        "path": ":/gcompris/src/core/ControlButton.qml",
+        "sha256": "4f8fddeb4988d5f08b750a05478f961bf4f2364315c3bc0343e587172de4470e"
+      },
+      {
+        "bytes": 10917,
+        "ogg": false,
+        "path": ":/gcompris/src/core/SvgTank.qml",
+        "sha256": "807020b35bd30e53a3d58f707dacb82eb30cdc8415bd4539e279c3a83a27c937"
+      },
+      {
+        "bytes": 1263,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCSingletonFontLoader.qml",
+        "sha256": "6e16ccda740a38615c80f1734afd9513463350dcfed85a33d5e5113c0c59af7b"
+      },
+      {
+        "bytes": 8680,
+        "ogg": false,
+        "path": ":/gcompris/src/core/ActivityBase.qml",
+        "sha256": "a176ff8d46fa7f400c61f1d079450494463f0e5511211e68e33e8840c6ca0ff5"
+      },
+      {
+        "bytes": 7136,
+        "ogg": false,
+        "path": ":/gcompris/src/core/ScoreItem.qml",
+        "sha256": "491c4a82b8fb43e544fb9c964e85da94cf545f44745300c9c9a56e18557b6c0c"
+      },
+      {
+        "bytes": 10951,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCDialog.qml",
+        "sha256": "4687ffd4c7c87475abfdfd6ed334383c27ee152846f67cb1e392be44c67a96aa"
+      },
+      {
+        "bytes": 13989,
+        "ogg": false,
+        "path": ":/gcompris/src/core/core.js",
+        "sha256": "f0bf79a4be7c9188e493839c89aa4016816d640be18315db2e2fbe9081a65a8a"
+      },
+      {
+        "bytes": 1746,
+        "ogg": false,
+        "path": ":/gcompris/src/core/BarButton.qml",
+        "sha256": "3c87a28c70dbdb231f587c113866d627144804d2dc85e33cf3729ddcf2d0b17a"
+      },
+      {
+        "bytes": 8531,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCAudio.qml",
+        "sha256": "d571e9d23433d2720a9b7f88269702f79cfdb81e7fc47bd7a976e2e70c7e1471"
+      },
+      {
+        "bytes": 1910,
+        "ogg": false,
+        "path": ":/gcompris/src/core/SplashScreen.qml",
+        "sha256": "b8be3d034afa4c4b61177a26d7616a20a67e12a2a9975126c21d2149c67efb8e"
+      },
+      {
+        "bytes": 1347,
+        "ogg": false,
+        "path": ":/gcompris/src/core/ParticleSystemStarLoader.qml",
+        "sha256": "c77bbf866c97a273c129c65b5bb45cb7e8ad95e6e1af156643d78ce7c8864e77"
+      },
+      {
+        "bytes": 6248,
+        "ogg": false,
+        "path": ":/gcompris/src/core/Wordlist.qml",
+        "sha256": "87e894b8844bda377e299bda8b81c31195c4f9ca4cf5ac609c4b8afd5dcd569d"
+      },
+      {
+        "bytes": 12069,
+        "ogg": false,
+        "path": ":/gcompris/src/core/DownloadDialog.qml",
+        "sha256": "bc9bb2be74556b29d53b7925f30d060dd44671d90eab0e1ccf5f7f0c242309f3"
+      },
+      {
+        "bytes": 1030,
+        "ogg": false,
+        "path": ":/gcompris/src/core/AdvancedTimer.qml",
+        "sha256": "73fa28fdf530330fc712fd93b63cfc79fdae98eb2d6bc51403b96561a8a8dda2"
+      },
+      {
+        "bytes": 1527,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCLabelButton.qml",
+        "sha256": "c58acb991fca7644963a78b6de2cffe8863f5df72d76b84e0657371583a140c4"
+      },
+      {
+        "bytes": 2628,
+        "ogg": false,
+        "path": ":/gcompris/src/core/virtualkeyboard_worker.js",
+        "sha256": "ba3bad9c7cb38fe46ad20de9f4be1a768c46d8bcf7b03f6f252d1cdac41fff3d"
+      },
+      {
+        "bytes": 1048,
+        "ogg": false,
+        "path": ":/gcompris/src/core/Client.qml",
+        "sha256": "f1d47f4f048d5be41878bc6be952a46b5266322fc7ad0bd184a3e9ae7a66571c"
+      },
+      {
+        "bytes": 1743,
+        "ogg": false,
+        "path": ":/gcompris/src/core/IntroButton.qml",
+        "sha256": "63392cfa1539f18c1253acb659f6460ea144a6ee42df526e482cc93a5c7fd3e4"
+      },
+      {
+        "bytes": 9593,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/smiley_bad.svg",
+        "sha256": "66cce96e4a2eadd417a6a2515a7908373fcb60adb5091fcf3145806df8caefb2"
+      },
+      {
+        "bytes": 3857,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/note_good.svg",
+        "sha256": "3b876238309950f02a46f040f6dca94d03855148ba6afc90ada22a96f32c7cab"
+      },
+      {
+        "bytes": 5189,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/star_good.svg",
+        "sha256": "e1e4535ecef7ebf48169583276d251d016f2e84cf4ae72c1b4fb11a8e3b4b40f"
+      },
+      {
+        "bytes": 26339,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/lion_good.svg",
+        "sha256": "f2210f0f5ad9bb8017b3850a5df06cbfad263a6ebf07a866e1270ae0a9fbd474"
+      },
+      {
+        "bytes": 10400,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/panda_bad.svg",
+        "sha256": "bdecba2148ffbfb82fc5b67257ccf98004defd9471079d8a68d912b3c60ada77"
+      },
+      {
+        "bytes": 4530,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/smiley_good.svg",
+        "sha256": "a3e9bce9df61ba12e32e6ac84ee0e65beb09ef40d6c12e722e7dc9a35c76c089"
+      },
+      {
+        "bytes": 25739,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/lion_bad.svg",
+        "sha256": "26c98b7d2234119e3d409776f485b06ca766e77161d71ef66a9f471a0de973c4"
+      },
+      {
+        "bytes": 9691,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/panda_good.svg",
+        "sha256": "6df8235d41c4581afc9a860cf3d2ca94345a8c673c36ef1d7b9a97955c40bc98"
+      },
+      {
+        "bytes": 8519,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/note_bad.svg",
+        "sha256": "2b973624e9502b3f9a2c0fa0c04d56e84f757d825c519d2f958ed3a349f64690"
+      },
+      {
+        "bytes": 10072,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/star_bad.svg",
+        "sha256": "e9826681daf557789fc4e2850baa566a3b229c7cb0683f51fcc51a79675aa21b"
+      },
+      {
+        "bytes": 10427,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/tux_bad.svg",
+        "sha256": "adf3efef87d5610749de65b107634c2b1f859563286a7eb64ec21905885362b9"
+      },
+      {
+        "bytes": 12932,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/sun_bad.svg",
+        "sha256": "e576bbdc66a1932df1a424e0c4a70ac2dd4902ced912b6c76a28b8656fe7ba5a"
+      },
+      {
+        "bytes": 20657,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/gnu_bad.svg",
+        "sha256": "4b0d65bc87b70e0c2c1d026212cadbce1130d3db7dad0f220b3ae853f4420db2"
+      },
+      {
+        "bytes": 19077,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/gnu_good.svg",
+        "sha256": "0eea010cfc425e02e5a8076e3247b77e27f59536bca45a71c53ebaab9fb4f549"
+      },
+      {
+        "bytes": 26352,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/flower_good.svg",
+        "sha256": "1234d85ba2c1fc5e47e9c8999c83f3a33288e7639479a9e4905a3d7423139f91"
+      },
+      {
+        "bytes": 8112,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/sun_good.svg",
+        "sha256": "c0b83f680415abc9770b4c64e15651bb901f50e87d7fe3112c95acb7f77ae5a8"
+      },
+      {
+        "bytes": 12060,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/tux_good.svg",
+        "sha256": "913b990f9b9bf86acf6475d81245e3b5fe75fd80624545dbb561387d5d704f66"
+      },
+      {
+        "bytes": 30624,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bonus/flower_bad.svg",
+        "sha256": "4e8ca9e4c5c921a8b7fc5a178c120d911621a27f3fce73433e35a818f4645bfb"
+      },
+      {
+        "bytes": 46464,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/fonts/OpenDyslexic-Regular.otf",
+        "sha256": "68cecffdc63cc3dec55c2f8d0ef189b9f728d068c638cc64a6fecc97e5c7c515"
+      },
+      {
+        "bytes": 237868,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/fonts/OpenDyslexic-Regular.ttf",
+        "sha256": "54c5c2129fb7ba2c48fa3cb75379f0ea47cfcc24e20f1956a6c080d1efb480a3"
+      },
+      {
+        "bytes": 30187,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/fonts/FONTLOG-Andika.txt",
+        "sha256": "89f50f7b7321ca1d264161fcb2f98f305cc552940f0098c4f1f77fe06f3c6d6c"
+      },
+      {
+        "bytes": 7153,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/fonts/feat_set_tuned.xml",
+        "sha256": "84a759981b0da0d876a04dc707e8a878a1adb9120bc731c4667b4c4fce8c819d"
+      },
+      {
+        "bytes": 762400,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/fonts/Andika-R.ttf",
+        "sha256": "e0f84db0429c96c26888aa0874f403ac29635f8e7172e4a20fec4633aed6e0e9"
+      },
+      {
+        "bytes": 4882,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/fonts/README-OpenDyslexic.txt",
+        "sha256": "946b0d7072dbb1f7ac686493941c85e7d972a7ecc0cd6d98441f27f97524d45e"
+      },
+      {
+        "bytes": 1838,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/fonts/README-Andika.txt",
+        "sha256": "fb21bd0d8112986b53b69a79e92fdbdffe6231da2aa8101736a29a67100e5bcd"
+      },
+      {
+        "bytes": 2803,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/loading.svg",
+        "sha256": "9a64d861da98277ba47a2be1aebb5e70b9376f7dc596efbf7e20a4246c58b5d1"
+      },
+      {
+        "bytes": 2172,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_next.svg",
+        "sha256": "fbdb3a6c7369dd71a871f5973d1d1ae36997a0bc8c3ae104466f9d3a20309261"
+      },
+      {
+        "bytes": 2534,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_exit.svg",
+        "sha256": "05d8ea3ca6ce53e9f5f99f0960494beccd51915a3f83fa30b16eb0689ee95e71"
+      },
+      {
+        "bytes": 4436,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/difficulty6.svg",
+        "sha256": "8604b10f2d72080174094788e093b3dd0381ef5735874581266b471bec40304e"
+      },
+      {
+        "bytes": 2767,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/difficulty4.svg",
+        "sha256": "81dc3591b7f8ba91fb8bafb82561c9979b9ebae45b527065b349942a8798a535"
+      },
+      {
+        "bytes": 2788,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/difficulty2.svg",
+        "sha256": "fe60f188c30a54a37c0609629e20916f9c463bbf7ccb65d2484052f0a6f1b1ca"
+      },
+      {
+        "bytes": 3608,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/difficulty5.svg",
+        "sha256": "4f9ba7f9a04a3252ad6c55f391a8809709c1fd6904c7642632cc2bb0a2029adc"
+      },
+      {
+        "bytes": 3226,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/difficulty3.svg",
+        "sha256": "f7b8193e77fa17a01f6f22a42cc66f2df4f2d9a2f982f61ba01dfe931eb349b1"
+      },
+      {
+        "bytes": 2301,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/difficulty1.svg",
+        "sha256": "2ba26a23d4c6b9ceebf9863c037c8d5a33aeaa598718a1740c5ced410d43ff79"
+      },
+      {
+        "bytes": 1976,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/cancel_white.svg",
+        "sha256": "30df91fef986a0bdd113c1aa3fe6fa3e90ee092403d44f6fd73580289d45619b"
+      },
+      {
+        "bytes": 2100,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/apply_disabled.svg",
+        "sha256": "0195823614d66dda364ca78ae5e9af6fa95fcf3e45962f08fde05d3144f5feec"
+      },
+      {
+        "bytes": 13964,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/arrows_move.svg",
+        "sha256": "9e05b0be0bfb94b5a3ef34129793b7c825538c007277e3cc7cd4291bee650824"
+      },
+      {
+        "bytes": 2954,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/scroll_down.svg",
+        "sha256": "3c559915c903b85c2c9ea377dee1b0b4ff223c47e8c671f2a3e88ad417583a77"
+      },
+      {
+        "bytes": 320,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/file_icon.svg",
+        "sha256": "42586cdbc2c55e3a98a03e43c1051ac51ece4c79f468e4e41f9325a0bf9a9511"
+      },
+      {
+        "bytes": 3490,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_reload.svg",
+        "sha256": "ca9173bacd84c8e08901f5f1d224059c9a016e09700f11b0f0f86a4ddf795f33"
+      },
+      {
+        "bytes": 1813,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_hint.svg",
+        "sha256": "2d09c8602de9ff7c6c6c19b6d1b0b429a233eb2cd236619b394350389f18dd8d"
+      },
+      {
+        "bytes": 2490,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/arrow_down.svg",
+        "sha256": "efc1b9eb6b9e27a2da29518f36451d8cacdde668cda906da5270fb3668522dc9"
+      },
+      {
+        "bytes": 3392,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_ok.svg",
+        "sha256": "9842e9e8edae9eef10efd54aa867fd23db4da06c314a59c6e024219dd2c110f5"
+      },
+      {
+        "bytes": 2127,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/cross.svg",
+        "sha256": "57f62096b72e18c0ac92333fb16ba7bb18ace360f1a550e842a58a82b2f3cbb3"
+      },
+      {
+        "bytes": 2388,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_up.svg",
+        "sha256": "758e316f227da480215292dac5b920f66311b69570047bc2ac6559529dc7e20a"
+      },
+      {
+        "bytes": 3150,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_activity_config.svg",
+        "sha256": "a883f892afc3a22f74e0ec6b8c110c7e88627271e63304c0e85dfaf85e5e26fe"
+      },
+      {
+        "bytes": 2103,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/apply.svg",
+        "sha256": "4b17453c3e9dddc2a596dc9a755328162bda1a0383c30386ba2bd1bf700fa245"
+      },
+      {
+        "bytes": 18668,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/darken.wav",
+        "sha256": "64ab784b789125f6fdf9176c9ac79821705946728c2bb51ba7a3587599b7562e"
+      },
+      {
+        "bytes": 9260,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/flip.wav",
+        "sha256": "f962819ce412d1fbe11f6279e38cb5097a99e83ac795272b01e8fda909cdf70b"
+      },
+      {
+        "bytes": 88244,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/bonus.wav",
+        "sha256": "fbf6fba4772211a0336b37c916e77340ca25c6e8062e9b2f631cf16394edd140"
+      },
+      {
+        "bytes": 6298,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/scroll.wav",
+        "sha256": "7f2dd85a8e4b4f4eb2f685bd827de592a1c1793ab1d47476243e77a834caa64e"
+      },
+      {
+        "bytes": 133676,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/completetask.wav",
+        "sha256": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c"
+      },
+      {
+        "bytes": 27234,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/crash.wav",
+        "sha256": "86f844cb3f4cd87485de76b26a868e695d278ea971f308e092305827e7943c11"
+      },
+      {
+        "bytes": 8846,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/audioclick.wav",
+        "sha256": "8849623e205f541f98953797cec2482e2c4a60915073600aa6db686ab4248b7a"
+      },
+      {
+        "bytes": 308744,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/water.wav",
+        "sha256": "fac8a839b64a25aa17aff41b18ca31182cf5faeafd75dc0ae07621290962bf1d"
+      },
+      {
+        "bytes": 21548,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/smudge.wav",
+        "sha256": "e2037cfb555e638fae4af7a497ec2fefb7becf8fac3dd9da4d28adcf3c4b245f"
+      },
+      {
+        "bytes": 10444,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/bleep.wav",
+        "sha256": "759b2225a42e407ac8d76e01c2b98d31af670de0a61c7f78ae5c34ca36bdc59e"
+      },
+      {
+        "bytes": 79550,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/win.wav",
+        "sha256": "50a7496767cda6c938048f614c2c1d137e5394ad7b9cdc92f19230a63537adfe"
+      },
+      {
+        "bytes": 15266,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/brick.wav",
+        "sha256": "a5bcc4db6b84c0c47e90eaa0c889314c1f703993bfb32e6e33fc161d89a88cee"
+      },
+      {
+        "bytes": 89,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/empty.svg",
+        "sha256": "c2c6d7ffb84a06054a616148b6a18b99a467af357485016d01e0c879f658d285"
+      },
+      {
+        "bytes": 2576,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_about.svg",
+        "sha256": "a0b5af0d343572a99841a462626bf60d27961b24698ed398294535b1c28510f4"
+      },
+      {
+        "bytes": 5010,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/kde-logo-white.svg",
+        "sha256": "b7979fdca2eb4271989549b9276aa35b03b9387125d8661ec515b8502d127f7a"
+      },
+      {
+        "bytes": 2068,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/separator.svg",
+        "sha256": "212e43c7e923bd6e837bbad9487880823da10adddae50f2525271ec0e1678179"
+      },
+      {
+        "bytes": 10154,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/gcompris-icon.png",
+        "sha256": "fa7766a3d5b385efcd51d850d3e136edafa12bc00708d276542d414e60a525ea"
+      },
+      {
+        "bytes": 2484,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/arrow_left.svg",
+        "sha256": "66cddf5b53dec0c855f7b0440082a4f53f96aefc5760a53be35b5300de3b478a"
+      },
+      {
+        "bytes": 2238,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_help.svg",
+        "sha256": "74039596d22cf2947b3ac62e740c4c6f4f74760e25221ec08673dd10d5a6d8a6"
+      },
+      {
+        "bytes": 573,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/arrow.png",
+        "sha256": "cef9736c279439c505e0bb68aa73961f6f6fac992929000aad4e34649cc9509d"
+      },
+      {
+        "bytes": 2262,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/cancel.svg",
+        "sha256": "d6f9d1865ca8a8efd846c13dadb46bb4259f40efae6cead7efa073d08b97d132"
+      },
+      {
+        "bytes": 2170,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_previous.svg",
+        "sha256": "0aa9cb1f430b38ea58a79ab99313fb44aeec532428cb4e766484c6de85defcbf"
+      },
+      {
+        "bytes": 12029,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/cursor.svg",
+        "sha256": "b501108a0a57fc7d6b1701ab868e26ccdb7afc5903d6f10e8334f51699e9e1c1"
+      },
+      {
+        "bytes": 1652,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/star.png",
+        "sha256": "b00915a4da2ccda3c7fa357340da0f86ce99b90924aa603c4bed4ebdc2df81cd"
+      },
+      {
+        "bytes": 2460,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_repeat.svg",
+        "sha256": "7287502e777fd5d0f1afcf4435568e33af5afc010896fbc6cad49cd379a2a45a"
+      },
+      {
+        "bytes": 8583,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/player_2.svg",
+        "sha256": "7d13dd21ff5e98e3198ba5b00810aa723080e2f5dfa964f7cc416c1dd17ad452"
+      },
+      {
+        "bytes": 17234,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/player_1.svg",
+        "sha256": "29bd08ff1910db8ac7128068b3b63bad0279e12690dad4de6c0e1fbca3ac8bcc"
+      },
+      {
+        "bytes": 3589,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/loader.gif",
+        "sha256": "dfd68dd079b9b5e832cb6edc8f843d836bce4bc07d7ee2135e794c52d7caaa06"
+      },
+      {
+        "bytes": 2250,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_home.svg",
+        "sha256": "d3b127f03109244d35a78ae102e426521d44eedde943abb86779063785771ffd"
+      },
+      {
+        "bytes": 2716,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/button.svg",
+        "sha256": "9ca35bff14afc865fb3653f316c3ba176f3c84f190a5a3dd2ed3bbe9d34da238"
+      },
+      {
+        "bytes": 158374,
+        "ogg": true,
+        "path": ":/gcompris/src/core/resource/intro.ogg",
+        "sha256": "44976933b530e053fcdbb1fdd82559ec80a92a4026f83d29af3d3b7f08257567"
+      },
+      {
+        "bytes": 3336,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_open.svg",
+        "sha256": "e1b4d2089481cd33921d7a3c274652cd54eeea1cde1051e40d3393085ec53d4e"
+      },
+      {
+        "bytes": 2496,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/arrow_up.svg",
+        "sha256": "9376b5163c56ee6e67f1adabdafe4c3dc82be155778210a96fc7573c79af1a63"
+      },
+      {
+        "bytes": 2392,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_down.svg",
+        "sha256": "eaeab54edf55ffdc7fa0dbd4090b4af21d8bf56272bd7d0c7e8c557634342402"
+      },
+      {
+        "bytes": 19227,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/aboutkde.png",
+        "sha256": "2bd8c98cd7ef11c8e3fa075e99aca79bdd5782d557819211c970f7ff0bbdc472"
+      },
+      {
+        "bytes": 2529,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_server.svg",
+        "sha256": "67e5eb36a35ff93cc5dedd1544883e9adee1c3ff5355e8cc474a7e9b97464283"
+      },
+      {
+        "bytes": 2385,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/bar_config.svg",
+        "sha256": "e633f5dc3b910be746f4a3c006b076ff6c378001bbc321a4b01f40efa4a3b04e"
+      },
+      {
+        "bytes": 22163,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/win.svg",
+        "sha256": "22a7da1f999e61db1cb4687a2babfb20d24a92a51220273eef7b394d33542bc8"
+      },
+      {
+        "bytes": 1939,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/isrgrootx1.pem",
+        "sha256": "22b557a27055b33606b6559f37703928d3e4ad79f110b407d04986e1843543d1"
+      },
+      {
+        "bytes": 34703,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/gcompris-splash.svg",
+        "sha256": "5d014414f7736a17c5018da7911b79affd80f1c143a1d3bf82768f24e0a017cf"
+      },
+      {
+        "bytes": 1915,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/apply_white.svg",
+        "sha256": "342102f433ac37611b796c2e7791b9ea4b3c28df0f820dd6edc1f13931deb98a"
+      },
+      {
+        "bytes": 2485,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/arrow_right.svg",
+        "sha256": "2659f493a4d3c244e046fd95b975365570de5cd4c5a221bb9a40d0edc1ca40dd"
+      },
+      {
+        "bytes": 13228,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/gcompris-logo-full.svg",
+        "sha256": "9ed7f13051f0549e93e3db7ed16b703416a71abc699bd76dc9a3c3864a41298b"
+      },
+      {
+        "bytes": 62004,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/tuxballoon.svg",
+        "sha256": "5173057167507551c784c0a9bfa7a619be9864aa649a123462a8e43a64a4950a"
+      },
+      {
+        "bytes": 2256,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/cancel_disabled.svg",
+        "sha256": "a9fbe232ba8ba7d10a1caf10ac66433f8397acd34e29e4d20ba8c1965b14a1b8"
+      },
+      {
+        "bytes": 3191,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCText.qml",
+        "sha256": "443985dc65f2530b7fc30e8d7811966076d7a25bbaed185d694c997ffe8a6877"
+      },
+      {
+        "bytes": 2745,
+        "ogg": false,
+        "path": ":/gcompris/src/core/JsonParser.qml",
+        "sha256": "3fbb1c09721217ac35e248e5ab17a9f843c0ad7c5b692f5b5b4ba4ba8e7b4872"
+      },
+      {
+        "bytes": 5930,
+        "ogg": false,
+        "path": ":/gcompris/src/core/DialogBackground.qml",
+        "sha256": "7030f8a25bdb6688c91cdaf7dadb84e7f9d6b4b8c87de68bc7299b95e543bbc6"
+      },
+      {
+        "bytes": 1415,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCButtonCancel.qml",
+        "sha256": "eaa21011b3e5cebda9290ed492b0d6c97a854694ca0024aa89016228c229fd5d"
+      },
+      {
+        "bytes": 1777,
+        "ogg": false,
+        "path": ":/gcompris/src/core/GCCheckButton.qml",
+        "sha256": "1e7a3c2e5b1018a86979e08153debad99697158fa9082ea0563b125a0141bd69"
+      },
+      {
+        "bytes": 4452,
+        "ogg": false,
+        "path": ":/gcompris/src/core/LanguageList.qml",
+        "sha256": "c3dfef1e07e23402559020c9cd5b640af200ee4f1857f50c9a980c47fdcb2485"
+      },
+      {
+        "bytes": 12111,
+        "ogg": false,
+        "path": ":/gcompris/src/core/VirtualKeyboard.qml",
+        "sha256": "486c92f2578e64c2c98f83ee5e2c387e5d59d6046a75348d9a000c5972add729"
+      },
+      {
+        "bytes": 1989,
+        "ogg": false,
+        "path": ":/gcompris/src/core/NumberQuestionCard.qml",
+        "sha256": "e4a0d2cd2c321b1b7037e4e1ff5fc53116402c18fd498c18dc826bb938f8de3a"
+      },
+      {
+        "bytes": 1220,
+        "ogg": false,
+        "path": ":/gcompris/src/core/IconButton.qml",
+        "sha256": "6103c64702d3b0b06a32319598ffb23f86c42d871defe74192b1e5891e4fe0de"
+      }
+    ]
+  },
+  "babymatch": {
+    "sha256": "dc4e6580490c6e59c1d2b88f3dbf74b14a10ad2161820f70f4ef5996db7bf014",
+    "argv": [
+      "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/visual-origin/share/gcompris-qt/rcc/babymatch.rcc",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/canonical/babymatch/files"
+    ],
+    "exit_code": 0,
+    "files": [
+      {
+        "bytes": 1494,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/TextItem.qml",
+        "sha256": "a7ca5817941bd84fcd9c8aadbbb0dc946038c838540662f3e84a2b4479269fee"
+      },
+      {
+        "bytes": 13221,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/DragListItem.qml",
+        "sha256": "42730253a5feedb5ea596bb4e5a1a9f1724cacdb6b2c27abee828514869f1f58"
+      },
+      {
+        "bytes": 2893,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/DropAnswerItem.qml",
+        "sha256": "40bbb13c46de204a6b35454906e618fc3677c8121b44948cb7d1044d40aa5029"
+      },
+      {
+        "bytes": 1726,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/ActivityInfo.qml",
+        "sha256": "7c3f2156b759d5b2f2de9363e7798333356766aeabc8bbe40e50211284c4605e"
+      },
+      {
+        "bytes": 11464,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/babymatch.js",
+        "sha256": "ee6ce5c08876578cf5c9d922fc35e781ae5d5a6fc3d12b01667f47f6a0a44101"
+      },
+      {
+        "bytes": 15271,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/Babymatch.qml",
+        "sha256": "e6d57b9c94325ab8ee08d98872e6d425e5eb2c69b6960c22a0bb86eb85bf8599"
+      },
+      {
+        "bytes": 3809,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/babymatch.svg",
+        "sha256": "97c7db3030a061825ba54fa403261a2b4b11040d1b7ea3c1daf920b7a281ff52"
+      },
+      {
+        "bytes": 12423,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/ListWidget.qml",
+        "sha256": "495de9e21f117ace6f21c3b7fceecf362c3f90a07c030598c039963479d18434"
+      },
+      {
+        "bytes": 1467,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/board/board7_0.qml",
+        "sha256": "ae47693b7b94d1c6d87701b344ba901ca880371a9f6919323b7cdc6320cbd187"
+      },
+      {
+        "bytes": 1471,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/board/board3_0.qml",
+        "sha256": "fbddf81031a233733d8e3d6fbc31cfc31a04df4e3c4e72e7b2572c7764d4ee2c"
+      },
+      {
+        "bytes": 1475,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/board/board5_0.qml",
+        "sha256": "3106ce5d7e437b42bf3fd19eb274b85117c8431c68059bb76cebf25675d05c58"
+      },
+      {
+        "bytes": 1461,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/board/board4_0.qml",
+        "sha256": "ae592a4d8090029e03d1a8af4fbf654478e2150d496affc2cb973930fbb9404c"
+      },
+      {
+        "bytes": 1479,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/board/board6_0.qml",
+        "sha256": "7907c5bae3994ac1d46e483d5a2020d69695ba99e25aab5a1cdf7b3105290e6a"
+      },
+      {
+        "bytes": 1560,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/board/board1_0.qml",
+        "sha256": "e6535ffd44ca8ca77ea22c9e5e9ea2dbe332c6f4f7aa9ff3b6be03f477b61143"
+      },
+      {
+        "bytes": 1467,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/board/board2_0.qml",
+        "sha256": "cca7bdd8da09475c22b08c063db6680be1d295283d4d48c483a3c12d8af69091"
+      },
+      {
+        "bytes": 6763,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/postpoint.svg",
+        "sha256": "53aa5adada7542230493e858598c21a0a24ce5b77e4dc3d2482da87ba44c54a2"
+      },
+      {
+        "bytes": 7884,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/lighthouse.svg",
+        "sha256": "98dd0321857472822680879d679c2fabe15c6a7efb3670e83898d5d0e959dd47"
+      },
+      {
+        "bytes": 8838,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/raquette.svg",
+        "sha256": "81c04f55a5dd6d1272cc2299e74fed78475ff3d1abb2493ec73f05c023c0c3ad"
+      },
+      {
+        "bytes": 9170,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/sofa.svg",
+        "sha256": "59ae648047800588fe38303b3fa52ace376e6634db20ab18be91e7fd588fdaa5"
+      },
+      {
+        "bytes": 4973,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/sailingboat.svg",
+        "sha256": "618562a8dbfd160d96060364a388e1d801a4e32e283faadaa24c84cd9ab64969"
+      },
+      {
+        "bytes": 5725,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/lifebuoy.svg",
+        "sha256": "8fff6eaccbdfcc3e9cdec420ef5b112a0cb7921b19eeed97c3ba98613f369caa"
+      },
+      {
+        "bytes": 10544,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/fishingboat.svg",
+        "sha256": "eaf3c5504f2810632b6d32f8cb951e3646351e689600396c743684f42bc25db0"
+      },
+      {
+        "bytes": 25886,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/postcard.svg",
+        "sha256": "96ca24e995543e283f7f1e2629185102af0db56c4e5fbefefb81e0a7d2b3a7b2"
+      },
+      {
+        "bytes": 15462,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/crown.svg",
+        "sha256": "570da15bae9ee6c3b58bb23fa044efe4b10fba220726bea1f0fb0521f85b7986"
+      },
+      {
+        "bytes": 3543,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/apple.svg",
+        "sha256": "fc811e855f88a40cd4169140d7bc3e5e2b9ca6a152a3c373e746e42ba8e6051f"
+      },
+      {
+        "bytes": 1344,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/eggpot.svg",
+        "sha256": "b28936c06281e2aca7a8ee58895028ea8b115676dddac0e5836e27458de1a362"
+      },
+      {
+        "bytes": 10426,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/tuxhelico.svg",
+        "sha256": "379899731882cc4c8e7cb707ca3405068fde7343374e467e1ee3582e01c9ec08"
+      },
+      {
+        "bytes": 2995,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/lamp.svg",
+        "sha256": "3fa4422bfca657368496273fb2cd0af83cdd47a824dccf284c662423bbd86523"
+      },
+      {
+        "bytes": 4267,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/rape.svg",
+        "sha256": "660150ba6e1c918da3a974f8607fe08b63166dc891e9ff5c9cae80501eb3d514"
+      },
+      {
+        "bytes": 3324,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/glass.svg",
+        "sha256": "80d618cd77bd101827d857f95baec7e5afd5084407f7a44c47ed104c321bbbfd"
+      },
+      {
+        "bytes": 5672,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/tree.svg",
+        "sha256": "16551b669a0adc083805f200894f802cf2627be3cb4b39b5ee59ae6b0b702320"
+      },
+      {
+        "bytes": 4235,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/carrot.svg",
+        "sha256": "dfba5b5699a486b4e228971ef80378a12950a239226093b1d2ef7a96b25c3699"
+      },
+      {
+        "bytes": 9428,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/car.svg",
+        "sha256": "021d4de18d942f8e5e0b8299ed27c23fecd17e8aae33d4b21c36f9b06d08a120"
+      },
+      {
+        "bytes": 12247,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/fusee.svg",
+        "sha256": "ede081cd0c7bc7fb731a98ac55527a77fc184d7776ecafeea862e51b0d35e770"
+      },
+      {
+        "bytes": 3291,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/pencil.svg",
+        "sha256": "6b29ee4b260dc0d6a35f752031ba714a41ca74fede435793601a9db43b6d6d87"
+      },
+      {
+        "bytes": 1835,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/star.svg",
+        "sha256": "f45fdf1819127a6be2f9dec19472362fd3125c3414f76b6a5e21df8590ec18ec"
+      },
+      {
+        "bytes": 4779,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/sun.svg",
+        "sha256": "df66c5c2fc584e7af7477a1eee4c3774fd8fe8018c56a8582334f883893d94c7"
+      },
+      {
+        "bytes": 12275,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/bicycle.svg",
+        "sha256": "747c0f0c08701e2c9a7dab69341cae6b72580ec2babed58bee3c7c5ef1aaf652"
+      },
+      {
+        "bytes": 7741,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/castle.svg",
+        "sha256": "2ff5642d05e04577540f1b5c637000c6773c253bcc1d66372965aca6f7c46c32"
+      },
+      {
+        "bytes": 3371,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/bottle.svg",
+        "sha256": "e666d4474e3e0a7311c895e9f1f26e67b2547a4f949f3f331daaa51b2aff2775"
+      },
+      {
+        "bytes": 41034,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/tuxplane.svg",
+        "sha256": "8855c312856adc60e36d09b3d2af6f44e3921f5f96a617737abbb8ba8e660e6a"
+      },
+      {
+        "bytes": 12554,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/truck.svg",
+        "sha256": "b7559e931195f6d4f3cef108d64e06503bf01e6efca9d3b065564672fd56c72e"
+      },
+      {
+        "bytes": 2142,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/windflag5.svg",
+        "sha256": "cb38d0ab0cc0a13ded12c77c6026c456b3a5db14368b95860a6e29629c16b725"
+      },
+      {
+        "bytes": 1136,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/egg.svg",
+        "sha256": "be528e56c47971668f6d17a34b70546ca8aab9a6dd0e029086d396618dd2451c"
+      },
+      {
+        "bytes": 3824,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/bell.svg",
+        "sha256": "f8c15434453a0be46b444b5cceab32926470c3dee93ee8256fcbe39a6f3ae0b2"
+      },
+      {
+        "bytes": 6678,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/sound.svg",
+        "sha256": "afe1012f990a5ff363f6043446f38f0566e4789bd8d8cfcaaa078a496b45cca3"
+      },
+      {
+        "bytes": 5665,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/house.svg",
+        "sha256": "7725c49d8fc55df721a8ffd3839f74b664eb358c6220d4340142fe0013eb81b1"
+      },
+      {
+        "bytes": 8507,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/minivan.svg",
+        "sha256": "ea92a9d0a655de7e875b63ad984e845d7f27fcf0cc82cb42c31de9946e230f99"
+      },
+      {
+        "bytes": 2243,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/flowerpot.svg",
+        "sha256": "2cee1bdcdd1beeb2896e3feda12f132b6447987d080fd02747f35b374854b712"
+      },
+      {
+        "bytes": 4904,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/football.svg",
+        "sha256": "7f46068fd6920afd1e231abc12d0107ccf98cc453d9124291ef2b947b789a0af"
+      },
+      {
+        "bytes": 8837,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/flower.svg",
+        "sha256": "31c835da606d89830c6bfe2fed6a52cba1002dcd888ab7ad8bb861c16803b927"
+      },
+      {
+        "bytes": 3466,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/images/light.svg",
+        "sha256": "f613f35d7d30effde6b9b66efdbc73c20a5531ef2552970fc8fb7fd98ede9eca"
+      },
+      {
+        "bytes": 2570,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/babymatch/resource/error.svg",
+        "sha256": "2d4922d68965df10f4492f212225469e3f732b9819a16b9cf39de9f79ac2ea0d"
+      }
+    ]
+  },
+  "details": {
+    "sha256": "ba9ce969980f00f501eeed12ef6201f64753b032be7c3a7e8a8f5c637e1805d8",
+    "argv": [
+      "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/visual-origin/share/gcompris-qt/rcc/details.rcc",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/canonical/details/files"
+    ],
+    "exit_code": 0,
+    "files": [
+      {
+        "bytes": 598,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/Details.qml",
+        "sha256": "f22f93a38480533211ba479be01d952d461f79a2929ca083684b96c2b06dd38b"
+      },
+      {
+        "bytes": 12714,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/details.svg",
+        "sha256": "9488e84078ae4d26e93a2c3e2205c5aa581006cba56ef6527d1fda95235cb518"
+      },
+      {
+        "bytes": 3611,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/ActivityInfo.qml",
+        "sha256": "179644b2719dd1b66be00d9f07dbdaad0c8ad1344c889ab554601d803bbaf72b"
+      },
+      {
+        "bytes": 1129,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/1/Data.qml",
+        "sha256": "b1efd4723a9d0b293164033916a6821294625675b1c8d951f6ffab43c6258f83"
+      },
+      {
+        "bytes": 943,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/2/Data.qml",
+        "sha256": "d565670a07d640db9f00b379667d172d005fa6e000bb871a53fdc7c5a99b9870"
+      },
+      {
+        "bytes": 1046,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/3/Data.qml",
+        "sha256": "e9438e74d567912872289ba5b0438a8c96947a0d135c179d9ab846fecb3907ff"
+      },
+      {
+        "bytes": 1824,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board7_0.qml",
+        "sha256": "735559b1dc0a1325affc6eca8d2bd650800060cec0fdd4cbd4d3e09503b55896"
+      },
+      {
+        "bytes": 1244,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board18_0.qml",
+        "sha256": "9e342520bfb895c77956786cbce22bf2c6e59ad21d6549592daefc510949d91c"
+      },
+      {
+        "bytes": 981,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board9_0.qml",
+        "sha256": "f8e2b8c0a790db330ebebd43b919bd634d10be2f687ecec73c01aa5708b05d65"
+      },
+      {
+        "bytes": 1961,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board8_0.qml",
+        "sha256": "e2c6809a57cedb75755c06bdeef8530f3daf3bc9fb0cd098dd94a4bd83ee1631"
+      },
+      {
+        "bytes": 1043,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board3_0.qml",
+        "sha256": "f5577dec3b58037001076d67b0bdcd213c540aaeaa646c2f91fa1cc67ea93d01"
+      },
+      {
+        "bytes": 1119,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board11_0.qml",
+        "sha256": "6f72bba21a16ab40c55b9add71e28f5c7fcc6686ace48ab1c52f6c731210181b"
+      },
+      {
+        "bytes": 1772,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board21_0.qml",
+        "sha256": "df5390c4440492e019d8519553ea21e0a85b547eb20f38f0c25e6fa375fa52c4"
+      },
+      {
+        "bytes": 1926,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board5_0.qml",
+        "sha256": "0b96544a051b158504be96662c8f50adfbdf0dd5e566cdbb9cb6a8f6e22d0d37"
+      },
+      {
+        "bytes": 1118,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board12_0.qml",
+        "sha256": "e5aae4014de11298080cc1a460ce832f11d53c82cb8c0719251e6d427bb83e5a"
+      },
+      {
+        "bytes": 1326,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board4_0.qml",
+        "sha256": "8ba221507e523c483c00a91b3c5329595bd36d870bfd75ca3ba4ed32716f9195"
+      },
+      {
+        "bytes": 830,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board10_0.qml",
+        "sha256": "a4845db98b9fd00cb6dd755f345de8839846741cb430027bc04786d158b983f2"
+      },
+      {
+        "bytes": 2056,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board20_0.qml",
+        "sha256": "96d0cb387b0664a88455ce621643387ef17a8e0741ea9f4c7d24ad04e37e5487"
+      },
+      {
+        "bytes": 1810,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board6_0.qml",
+        "sha256": "077d897f0c0d71bbd45c7afb0057a6973cfa504ce781fbb2cb8893228c5f125d"
+      },
+      {
+        "bytes": 1023,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board15_0.qml",
+        "sha256": "bf7b9da11be846beb1fa1f99e8fb8d20df44261194f66700cca9f8cb50e352df"
+      },
+      {
+        "bytes": 878,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board1_0.qml",
+        "sha256": "4f78ca4ef3fb7daccf8c5b4ba824eae5b33ece267073405f58bbd0bcf26aec96"
+      },
+      {
+        "bytes": 998,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board16_0.qml",
+        "sha256": "0f03f1990dc0d337e9f894744a750aa44799b5295837fc166f8d7cca78315b4a"
+      },
+      {
+        "bytes": 1295,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board13_0.qml",
+        "sha256": "73fb95db7d3d284e01e8d16a36a9f5256d43fb36fc4b3c5747ecdf173ff5fb05"
+      },
+      {
+        "bytes": 848,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board14_0.qml",
+        "sha256": "5c3c8c761d9f57b84edc1162cbeff5b2d1dae08e9f40a122fd7446018d815013"
+      },
+      {
+        "bytes": 902,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board2_0.qml",
+        "sha256": "29f4137e9ebf03a9c1b62f8456bb88b11ca06f91778cbd6319a95e0b38298cea"
+      },
+      {
+        "bytes": 1381,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board19_0.qml",
+        "sha256": "2571f77fdfd1fc717fc9dd0dd40aca248162083793d21e0444be67777651da68"
+      },
+      {
+        "bytes": 1137,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/board/board17_0.qml",
+        "sha256": "750290caedf307f589f25c6caa148e9208233ba6c48fd5d707f5d7b7f3e9a408"
+      },
+      {
+        "bytes": 3132,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Louvre_2007_02_24_c_2.webp",
+        "sha256": "5632092c74d53aa935e854faf2da01b8745c7da5180fd5b45a0b1aaa6379d67d"
+      },
+      {
+        "bytes": 3204,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Louvre_2007_02_24_c_0.webp",
+        "sha256": "99880f47f95aae8c402e53f44f3237097fc5b6a4409c5b83be8798a528f4d6a7"
+      },
+      {
+        "bytes": 2772,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Louvre_2007_02_24_c_1.webp",
+        "sha256": "b0b495eb59400c10e2221aa24d2e43e053a2e83c427814095e840691ab438efe"
+      },
+      {
+        "bytes": 2276,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Van_Gogh_The_Night_Cafe_0.webp",
+        "sha256": "b25e5724b94674908e3147f5d141c2b5597badfba811c79cf1df4d3b0223cde5"
+      },
+      {
+        "bytes": 2372,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Van_Gogh_The_Night_Cafe_2.webp",
+        "sha256": "8469dd878dced44cd3f3fd3cf28e255703b30b7e8dce3ac2b61f71d96c0f95be"
+      },
+      {
+        "bytes": 2458,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Van_Gogh_The_Night_Cafe_1.webp",
+        "sha256": "24e4a9ccc3b0ebf9d86ba11bff795b67bc5873e88585a155114735f7c9c2cf2e"
+      },
+      {
+        "bytes": 92194,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_background.webp",
+        "sha256": "5dc91d4230a20c5e488149b3b624a1acd023309b11acb08e89af19745965e96c"
+      },
+      {
+        "bytes": 2500,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Van_Gogh_The_Night_Cafe_4.webp",
+        "sha256": "131dc926b70a50df1c96f7734c705068784a0514ea6865419ab34b5d7cf2eaa6"
+      },
+      {
+        "bytes": 2330,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Van_Gogh_The_Night_Cafe_3.webp",
+        "sha256": "c518fa8af450a4fe757e7e6767f306a21e170321b2588baea8e6f6110ad76bd1"
+      },
+      {
+        "bytes": 45432,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Louvre_2007_02_24_c_background.webp",
+        "sha256": "cb88769524ed233f9926c75c97a8f1660c95e8284028ba142db55ea7c0fe66c2"
+      },
+      {
+        "bytes": 1574,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Van_Gogh_The_Night_Cafe_6.webp",
+        "sha256": "f3234d53e224c710e72632675d77af755fd54149f8d28df5fb7a3546a38edfa7"
+      },
+      {
+        "bytes": 2248,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Van_Gogh_The_Night_Cafe_5.webp",
+        "sha256": "5b68066fd761bba6172dd6e0843cf47cf418bfd2e5f9c11cf1df524036aff053"
+      },
+      {
+        "bytes": 2404,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Van_Gogh_The_Night_Cafe_7.webp",
+        "sha256": "e2eb17e4f13fdcff7f940c9bbeec2049056668fb66bd48aa286d2b277f91ae60"
+      },
+      {
+        "bytes": 2814,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_0.webp",
+        "sha256": "fca52e1439f0f704b234a3470beb0440a1d5009e4707940956e2e38e347521bd"
+      },
+      {
+        "bytes": 5274,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/NDP_0.webp",
+        "sha256": "27b25ad80aca60b77086f230b56d21293e5fe6c10b09f7b1e09b4431a42e4a13"
+      },
+      {
+        "bytes": 3336,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_2.webp",
+        "sha256": "f36cdab593d2f5c59ee729da64c4278027393580aac88e029761a4fd79daf787"
+      },
+      {
+        "bytes": 3286,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/NDP_1.webp",
+        "sha256": "51ea4385edb304ed720a7e5becc3102e8ba1accbec61e2d078c0f441ddb8f6d9"
+      },
+      {
+        "bytes": 2932,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_1.webp",
+        "sha256": "adf6289aab5459534c3818818d5514b371badc3f3f6ff8b957abae2930e72841"
+      },
+      {
+        "bytes": 4146,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/NDP_2.webp",
+        "sha256": "503a3cbded43c43441102fcb11cda764ca786555088877fa23920ba2f9a9c90c"
+      },
+      {
+        "bytes": 2482,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_4.webp",
+        "sha256": "a13c1e9ccdade3b962ed0e9b9e8edf9c8836e266bc07ba15f44a2b69e2a0c373"
+      },
+      {
+        "bytes": 3124,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_3.webp",
+        "sha256": "3055af20ce82597a8608bc4685035a0ccbb63a60df767c271d9a6db9e07749b2"
+      },
+      {
+        "bytes": 2710,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_6.webp",
+        "sha256": "e3b83ee84866f1b0764f770e6375748dde7c4b895e629e1b53e6d7d0f7dcf2f6"
+      },
+      {
+        "bytes": 2908,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_5.webp",
+        "sha256": "a59277fd066182a83ac025949fd11cf677f4885d72c6220b3e33c245054856cb"
+      },
+      {
+        "bytes": 3154,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_8.webp",
+        "sha256": "e739e72cf285b39e3647b2b83afa2b9faecc409d3e37768725dc290aaaa5ba66"
+      },
+      {
+        "bytes": 3164,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_7.webp",
+        "sha256": "7d098a8c266a824b3fb4992b2b7d366d1e6fe7ea750623fc8a811e75ebe5a5d5"
+      },
+      {
+        "bytes": 40074,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/FanoeWindmill_background.webp",
+        "sha256": "3cea5251d1e93a9a2e03d3d6001a26098c9614e4b7922725924307a305148068"
+      },
+      {
+        "bytes": 100850,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/EgeskovSlotSpejling_background.webp",
+        "sha256": "6ba38f91b6f6f53c4c105c57f647bd43d11b737293f23b1cef1806a81b872106"
+      },
+      {
+        "bytes": 2666,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/OperaSidney_2.webp",
+        "sha256": "75c266d38d20dbb9edc47c5ef3288e7dec6f6b9a8625b3ae04bea609459e6de8"
+      },
+      {
+        "bytes": 2700,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/EgeskovSlotSpejling_6.webp",
+        "sha256": "97965f15048ed834950df5ba4dd5c0f0dadfd52a4a69cbb023e8e37888e74980"
+      },
+      {
+        "bytes": 2716,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/OperaSidney_3.webp",
+        "sha256": "2e14af331bc82fc27dec6490c72a324c5688949b41592839d25b73ee4deaaed5"
+      },
+      {
+        "bytes": 3614,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/EgeskovSlotSpejling_7.webp",
+        "sha256": "256309dc64b1c64d59ce8e734c4467187d469bb6179ba72026b0c1d6a85cc0b8"
+      },
+      {
+        "bytes": 2988,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/OperaSidney_0.webp",
+        "sha256": "a69cbe64dbf14e79cd5b6aabe192392ac659e122b9c89e69f3de613b05ed02f7"
+      },
+      {
+        "bytes": 3570,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/OperaSidney_1.webp",
+        "sha256": "006ff308ea672dee9eea328c6be12d4b21b938d8b6ac995afeec06f997892a94"
+      },
+      {
+        "bytes": 2412,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/EgeskovSlotSpejling_0.webp",
+        "sha256": "378dfd4111da9afe78a78ee65c34fe4929a1beb0ff0b7cddb582c2a6ef8341c9"
+      },
+      {
+        "bytes": 1290,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/TourEiffel_0.webp",
+        "sha256": "c74c153504b2222198ac8e3c0cbcb801e3b3d377403f707c9cec0680b359999f"
+      },
+      {
+        "bytes": 101822,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Van_Gogh_The_Night_Cafe_background.webp",
+        "sha256": "ce4d535bc04fb59a177873a1b3ed7a2edeb81af82ede5e28d85fad82533ba33b"
+      },
+      {
+        "bytes": 2240,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/EgeskovSlotSpejling_1.webp",
+        "sha256": "698a29670ca6b01c103c2eeaf223f5283fa5a3fae434eebdffe7f4cdf7886502"
+      },
+      {
+        "bytes": 3482,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/TourEiffel_1.webp",
+        "sha256": "f38b30b50bae07f0367e0b9e66aa13bdfc79bd93c21418ca4d5a52f7d20deb07"
+      },
+      {
+        "bytes": 1364,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/EgeskovSlotSpejling_4.webp",
+        "sha256": "b0aaf9254e5d9a947da792615e8366b7853f3ebf2d8c2925fafc4b1f8c0479b9"
+      },
+      {
+        "bytes": 2058,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/EgeskovSlotSpejling_5.webp",
+        "sha256": "d415355a8ef865b4c08cca61bf825078ca45ec3b12ed6c7ffaf1960c26fc46e7"
+      },
+      {
+        "bytes": 2744,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/EgeskovSlotSpejling_2.webp",
+        "sha256": "e1c24db6de9a3cd5a7c105c84c8dffc31a33350175f317eca1ead0f3dd60be91"
+      },
+      {
+        "bytes": 3400,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/EgeskovSlotSpejling_3.webp",
+        "sha256": "4043c05cc83838cf3a98b0325f81774b311bd87460fe334e920bc4a33523c175"
+      },
+      {
+        "bytes": 2534,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGoghBridge_0.webp",
+        "sha256": "4b1ac0f4e7713bde7937bd04c5357caf96b6f5506419f1d6f8e42fb12bd0ea80"
+      },
+      {
+        "bytes": 2372,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGoghBridge_1.webp",
+        "sha256": "ed8284fdcc19dd91da120784a53f14e1924d351fe6785e54e40957babf79e499"
+      },
+      {
+        "bytes": 2246,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0019_0.webp",
+        "sha256": "e3d20ad1b62a28d8e509d8077e1e06a77587a45a3c6c6a2a6958ae0327ee5ab3"
+      },
+      {
+        "bytes": 2608,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0013_0.webp",
+        "sha256": "3ab16f1cc90344f20a4269b0edf32c2fd7366397ee79ec94c3c228cc32bbd280"
+      },
+      {
+        "bytes": 2452,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0012_0.webp",
+        "sha256": "99db5b29bdcf30507af8ec0c7b3a64da2e06ac6209fee3e914169e1d83716b8c"
+      },
+      {
+        "bytes": 2390,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0019_1.webp",
+        "sha256": "2051fc189637e395c36568419fe750b034afdba310e7c9533978527fc76c02ad"
+      },
+      {
+        "bytes": 2388,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0013_1.webp",
+        "sha256": "7ea17532d1984981e1e3f285d26e0d454833af9951b08732a179c42472a85187"
+      },
+      {
+        "bytes": 3200,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0012_1.webp",
+        "sha256": "c11a14d196d2b04b2df85f49c79aeeddd7de7ed360fafa0626151aac44c34dcf"
+      },
+      {
+        "bytes": 73832,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/GizahPyramids_background.webp",
+        "sha256": "71946fdfe1a1dab7b081b97a53fe4d2beed6eaf8bf02e0df7ecf4a1974bbe7db"
+      },
+      {
+        "bytes": 2826,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0019_4.webp",
+        "sha256": "fc8c073973fa837a0a0f68d86f81804ee407d830719b88e50f9c0735ee574556"
+      },
+      {
+        "bytes": 1934,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0013_4.webp",
+        "sha256": "4bb752292b8cb47a1860fa6f334572e9a322d030a1d83c0afc1f5cc0e62f591a"
+      },
+      {
+        "bytes": 2338,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0019_5.webp",
+        "sha256": "939189b3fb88b0c6283f439d39143c987c4292328daf1baff87073023f283af2"
+      },
+      {
+        "bytes": 90106,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/EilanDonanCastle_background.webp",
+        "sha256": "cd94fbfc2ef05477d23688eb24401fb8b8dd550f6eb0aa2b8cbcb6f646c7a62f"
+      },
+      {
+        "bytes": 2746,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0019_2.webp",
+        "sha256": "e73694073ea14f31627ec523fc3a41e1faafa08c8ade8d8f85fe644a28d49c96"
+      },
+      {
+        "bytes": 2016,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0013_2.webp",
+        "sha256": "bf91e64aa32c5bbb7905ed4a88fbc246dec701459a085c097ca49cbfc52bd122"
+      },
+      {
+        "bytes": 2634,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0019_3.webp",
+        "sha256": "e04c3f1f4c912dec0a0af45e0ebe164ae9fb52573579d169e57b81057496a7cf"
+      },
+      {
+        "bytes": 2152,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0013_3.webp",
+        "sha256": "3d5be2723acd6211c5f93a78455285b4637fcc7dee2a92d49c904164e4381906"
+      },
+      {
+        "bytes": 2334,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0019_8.webp",
+        "sha256": "423d8470bb5bddfb2da395577ed074b8cacc1021287edfaf03fa424e597e921b"
+      },
+      {
+        "bytes": 2146,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0019_6.webp",
+        "sha256": "c7473d5b3dc61b01a2e551f007cdf48d66b35c38d882238e4436e8ed4d43fbdf"
+      },
+      {
+        "bytes": 2998,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0019_7.webp",
+        "sha256": "71cfa8b40c507cca5056927ae02888f99bfa433dc70928c7883d6b031b84b177"
+      },
+      {
+        "bytes": 2468,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/GizahPyramids_0.webp",
+        "sha256": "770827633160bb4fb892267b1df36dcae730817d5a7d6c381ff727dc9e374a2b"
+      },
+      {
+        "bytes": 3900,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/GizahPyramids_2.webp",
+        "sha256": "aca83e5e4ffeb977e311e9be193a3ce7d04a7e9f4897fdc92d131aad99a9f90f"
+      },
+      {
+        "bytes": 2416,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/GizahPyramids_1.webp",
+        "sha256": "b6f757bfcf55863fc0a35cb13cd6378044d34938d9ab9fb90cfefdeb4337cf37"
+      },
+      {
+        "bytes": 3534,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/GizahPyramids_3.webp",
+        "sha256": "ae0d719737ce21d6dbb063efba9ab985ef0f2381287a7c50d9895174afbd26f4"
+      },
+      {
+        "bytes": 49508,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/TowerBridgeLondon_background.webp",
+        "sha256": "a811a6b2294807122fdde6295e2decb59e80ef6e248eddb4b228a6785a354e8c"
+      },
+      {
+        "bytes": 74726,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Chenonceau_background.webp",
+        "sha256": "d8f4c352456d71487af05171b498ce4bd3f96d830a6c6e865e12f4608c5fd5a6"
+      },
+      {
+        "bytes": 3420,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/EilanDonanCastle_0.webp",
+        "sha256": "bafd07f181171546a0516d2ec4e0a95ed81b41cf4dd6d50f67479af37f03c063"
+      },
+      {
+        "bytes": 1712,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/EilanDonanCastle_1.webp",
+        "sha256": "bc3a7a78e52fcb87188abdd76548023f25740ae56ca41d0635ab33be50f38b05"
+      },
+      {
+        "bytes": 3242,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/FanoeWindmill_0.webp",
+        "sha256": "f54b77b88bf6b8f8ca0147182bc34702f836d82ce8005276ed8fbe6cf1cb2ed1"
+      },
+      {
+        "bytes": 54288,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/NDP_background.webp",
+        "sha256": "0bbfd0f6edd1145aeee774587635d7738c73274271b4be83eec9b476a3c421ee"
+      },
+      {
+        "bytes": 1764,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/FanoeWindmill_1.webp",
+        "sha256": "344bb195b5f40a2e4c5aac9cf6865b68934644a7c9a4e4462b1f956d0ff26668"
+      },
+      {
+        "bytes": 2506,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/FanoeWindmill_2.webp",
+        "sha256": "5e3d3ab0cd9f83ebb06885b8a2e40bfd88cf52fa6204ed48c00305b50f876332"
+      },
+      {
+        "bytes": 3400,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Nagoya_4.webp",
+        "sha256": "b386e6d3de3b2aa6a592e89b2d38be6174c2eb86ce325945551abffdc41ec68f"
+      },
+      {
+        "bytes": 2596,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/FanoeWindmill_3.webp",
+        "sha256": "9f9b67204579bf806029ca68e9c424a3023ec1b585438057ebce758742451711"
+      },
+      {
+        "bytes": 3174,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Nagoya_2.webp",
+        "sha256": "821669bdbd261a3cf9dcb46f28e03fd898e49f02b79493c1c35f67648f53efd3"
+      },
+      {
+        "bytes": 86956,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Eglise_dAuvers-sur-Oise_background.webp",
+        "sha256": "6605f1dd5519ecd1e66220343dd27c3873f72a52b4c91f041e80c698554b9093"
+      },
+      {
+        "bytes": 3284,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Nagoya_0.webp",
+        "sha256": "8030d7795e17102a96bf9da7c41530883ff9a325226ab1cea03254683fd6f49f"
+      },
+      {
+        "bytes": 1936,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Nagoya_3.webp",
+        "sha256": "ee4741fd8c937b790aac53235698a6bd32b9eb121ba80e8c5bcea0de81de8700"
+      },
+      {
+        "bytes": 3346,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Nagoya_1.webp",
+        "sha256": "3592dd7e0e871f6ddb093442e96460d296a4daca06f397e0ea26eeb5acde2d66"
+      },
+      {
+        "bytes": 3418,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Neuschwanstein_0.webp",
+        "sha256": "b35d09d13322909fdfe52300150c681ecd3879bba9cc9b95ade1ad3e140b1836"
+      },
+      {
+        "bytes": 3178,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Neuschwanstein_1.webp",
+        "sha256": "5bc03b98d5a61bd2781e21cf22a3365e42878809615bc4f13ac5d715ac3d0582"
+      },
+      {
+        "bytes": 3884,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Neuschwanstein_4.webp",
+        "sha256": "6ace9df05a4ba0c9bb6840328d486ba00fca7147f1898b23eea2e87b74e28681"
+      },
+      {
+        "bytes": 2870,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Gogh4_6.webp",
+        "sha256": "ee4cc2e2efa85bae2c03038f36aaef610f308d03c3fd511623903559ec86d7b8"
+      },
+      {
+        "bytes": 2108,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Neuschwanstein_2.webp",
+        "sha256": "fe5588dae19862abc6b213c6a7f515ca19edd01e8084f857aa1735019ccddf46"
+      },
+      {
+        "bytes": 2772,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Gogh4_7.webp",
+        "sha256": "1de58fbf9ea5496cde6fa9f194172c69fad9a804d809e2140cb59baff8b2fa30"
+      },
+      {
+        "bytes": 3752,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Neuschwanstein_5.webp",
+        "sha256": "f913a369d6b3d2341c0cfbd7f7d3b7d45afbcbe859c66cb222480f5a8853edbf"
+      },
+      {
+        "bytes": 3512,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Gogh4_8.webp",
+        "sha256": "96b3bf992db83510ab72cad9a17d43e54dfce88f945241d72825e1939898a898"
+      },
+      {
+        "bytes": 3182,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Neuschwanstein_8.webp",
+        "sha256": "ed7f26cc36f7f89a831dafd331668e5c5cdae6347b4106df17f4e5026fb335bb"
+      },
+      {
+        "bytes": 3044,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Eglise_dAuvers-sur-Oise_0.webp",
+        "sha256": "fa8691ea3c11340c152f9de70448de78b2a45e4d80424275a51dbda905019b7d"
+      },
+      {
+        "bytes": 2778,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Neuschwanstein_3.webp",
+        "sha256": "9d9f13e4e27bdcaf6ecd19f5226d18442039be80d44b48d6eab00ba108d6665b"
+      },
+      {
+        "bytes": 3320,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Gogh4_2.webp",
+        "sha256": "8fdf3a47c03f89899ca41c7f13904f87316fe95f605167ae2d7d5341d6f5f6f8"
+      },
+      {
+        "bytes": 2132,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Neuschwanstein_6.webp",
+        "sha256": "70037a5198f46cca8805a4eda50e7353e4ad26363ec56d1d44e608e8b51cd9ad"
+      },
+      {
+        "bytes": 3790,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Gogh4_3.webp",
+        "sha256": "6adf3760d08e708b673934e7715c0895f7fe6a645c56203e78eb417746967d1e"
+      },
+      {
+        "bytes": 2664,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Neuschwanstein_9.webp",
+        "sha256": "ff7e35069e3eb7203f0a2d85cc04a2cb72a53f8848409aa2ba7a80454b0f47f3"
+      },
+      {
+        "bytes": 2960,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Gogh4_4.webp",
+        "sha256": "cf3f8c549d42322f0e455cd8e58e12ca6471c9dfc5c7634be252ebe16ff5bdf6"
+      },
+      {
+        "bytes": 3248,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Eglise_dAuvers-sur-Oise_1.webp",
+        "sha256": "22b08ed59df5ee0b5671a92f876a2dec8562eb4a65ae95e2da586cdcaf33bc50"
+      },
+      {
+        "bytes": 86400,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Nagoya_background.webp",
+        "sha256": "84b09f2cc12c464b1404e4fdb3c45ac7f7f51e9b4b3dfe450bf7cdf669946cd7"
+      },
+      {
+        "bytes": 3126,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Gogh4_5.webp",
+        "sha256": "bd074822a1c1c9af0d2c22e1c8b537dba959e473b098ba988a8a5b2c8b128cf0"
+      },
+      {
+        "bytes": 1762,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Neuschwanstein_7.webp",
+        "sha256": "5c2b4112f43e10e3fec891165f554b1afc2c363f2c55e95d31ac0fedbb6751b5"
+      },
+      {
+        "bytes": 2850,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Eglise_dAuvers-sur-Oise_2.webp",
+        "sha256": "d48ee0968aadea44ef912f5585d7c32cd9fd53e32da837b6a3da0ac51848c05c"
+      },
+      {
+        "bytes": 3352,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Gogh4_0.webp",
+        "sha256": "f5470c0cb7802408cc63260b96521401ed153f3c7c285e63b702f63e20b51b97"
+      },
+      {
+        "bytes": 3290,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Gogh4_1.webp",
+        "sha256": "e4d951f70303689138237ba90a45c073bc1f119ba0cfed6c64dd468c1c26466a"
+      },
+      {
+        "bytes": 2482,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/TajMahal_4.webp",
+        "sha256": "743d8af02ca5687909bd7c9800b9f1035be0940cd4454cb3f35aad47014908b1"
+      },
+      {
+        "bytes": 2878,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/TajMahal_5.webp",
+        "sha256": "0578bdb57d84ea991f9efa3a8eda6a4c6e8216f7881a6e9b5c6182953726afad"
+      },
+      {
+        "bytes": 2578,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/TajMahal_2.webp",
+        "sha256": "f7f9bb73c903abacb76d131c3558548983ce695bb397f1d8f0172716c5a1b65f"
+      },
+      {
+        "bytes": 2360,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/TajMahal_3.webp",
+        "sha256": "6560fdcc22d9ea816ffcacc34264c86b51c50e49c7ab0df79d5d8d3cdb7de02e"
+      },
+      {
+        "bytes": 1982,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/TajMahal_0.webp",
+        "sha256": "74affa83230223133d3bdb5cd502b91cde38399d24ba53450d8d657c98b69489"
+      },
+      {
+        "bytes": 2024,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/TajMahal_1.webp",
+        "sha256": "156ff37bc53d888d198c58d908f570d296d9dc88267711432049da8fb8aaf3ff"
+      },
+      {
+        "bytes": 93794,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/TajMahal_background.webp",
+        "sha256": "9c2796c2a415cfd3b2ba20f52d7da5935298d00f208028b6c6d25d5d680b0cfb"
+      },
+      {
+        "bytes": 27426,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/TourEiffel_background.webp",
+        "sha256": "5e763c937dbae956fb6190c09f781c2c8051902701bf217f7db40207893b8dd4"
+      },
+      {
+        "bytes": 103290,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Neuschwanstein_background.webp",
+        "sha256": "b973a69611d3ff8ed554879d08d31d8876faaf4c20ee76e0c8ff36922cd15b34"
+      },
+      {
+        "bytes": 87048,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGoghBridge_background.webp",
+        "sha256": "865df5627716d3175d8350d6a98f63de866827de12e03c2def785aaa4098a65a"
+      },
+      {
+        "bytes": 68072,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0012_background.webp",
+        "sha256": "45f038919ae8216a927d35cd6766c6a99cbb622873185c5fb0af615f1525caf6"
+      },
+      {
+        "bytes": 77544,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0013_background.webp",
+        "sha256": "ddc28715a60a357f9f887df332d49dbdc5815b1fd1fbe8343035861a84938cdd"
+      },
+      {
+        "bytes": 108216,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Gogh4_background.webp",
+        "sha256": "cd41f9e0ad142148fc4dbb86bd98641cd56c7be95b650131066aaaa3e1d52957"
+      },
+      {
+        "bytes": 107426,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/VincentVanGogh0019_background.webp",
+        "sha256": "53f7fae4fb52354272b6596acbff439f1b851029a16f0bbdf94d8cd727de49f4"
+      },
+      {
+        "bytes": 2964,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/TowerBridgeLondon_2.webp",
+        "sha256": "250f94dcb6e40ea6bb11d789f3dc4f8eb1200bca8cc27cc197d47848419c4e09"
+      },
+      {
+        "bytes": 2624,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/TowerBridgeLondon_3.webp",
+        "sha256": "94f45fe95c67705f7edbaa0beddf82732006d6a35f61572fe224d050c224f1a0"
+      },
+      {
+        "bytes": 3234,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/TowerBridgeLondon_4.webp",
+        "sha256": "41aad86f979529a7e4751194690e29b9e800abccd0ff576deeccc7ffea5962c8"
+      },
+      {
+        "bytes": 63044,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/OperaSidney_background.webp",
+        "sha256": "702de281dd3a2fa4c4c3bea385e2e12d5030fc8b46268e96dcfda5a3d0d3bb90"
+      },
+      {
+        "bytes": 2624,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/TowerBridgeLondon_0.webp",
+        "sha256": "b5dc8eb2af75495113b3a4d5a290ad33c89c8d2d10a518469968aa4aa90ab5fe"
+      },
+      {
+        "bytes": 2426,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Chenonceau_0.webp",
+        "sha256": "5dc801af720d6626d089ade3e75abec6dcf58d20ddb131801f6c1ff3cd9bb813"
+      },
+      {
+        "bytes": 1724,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/TowerBridgeLondon_1.webp",
+        "sha256": "d619bd9790caf3b223ad728167b3a12191456beccc85fe800db5344d10e510be"
+      },
+      {
+        "bytes": 3126,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Chenonceau_1.webp",
+        "sha256": "bf2a8f20d317b0e5f0e57b065737b6a2f5dc0145378c359bd0b910a1626d8e91"
+      },
+      {
+        "bytes": 2378,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/details/resource/image/Chenonceau_2.webp",
+        "sha256": "d9577ddbe38916431e16ec36edd62ec486a3109ab03a9515dffee06aca110957"
+      }
+    ]
+  },
+  "paintings": {
+    "sha256": "46fea1da4df30ff8eec2306f13f94ad0a3e3457ac83bc98129d58d9126a7e3a2",
+    "argv": [
+      "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/visual-origin/share/gcompris-qt/rcc/paintings.rcc",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/canonical/paintings/files"
+    ],
+    "exit_code": 0,
+    "files": [
+      {
+        "bytes": 1643,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/ActivityInfo.qml",
+        "sha256": "91784d849dec3473e808d6af0079ed901cf7145e878722cdc439fb18174e19e8"
+      },
+      {
+        "bytes": 499,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/Paintings.qml",
+        "sha256": "81a53dce2e90ad596aa6ba5b1edf626e4c4a8e056ff48e1dfe45f372b4b5801d"
+      },
+      {
+        "bytes": 15065,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/paintings.svg",
+        "sha256": "81f3fdecd7a9e014c0027e2ea6e374a4a4239f1b343672f124a8146af0ae8f69"
+      },
+      {
+        "bytes": 1961,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board7_0.qml",
+        "sha256": "b71561bcd633d22373f7029fd8e258082145f75091a162d05d10f3cf566d8a65"
+      },
+      {
+        "bytes": 1562,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board18_0.qml",
+        "sha256": "9af2304c9d6b09e278d3fe8ace7d80e2522d5f81e7c5f6e2770f99850a1739c0"
+      },
+      {
+        "bytes": 2580,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board9_0.qml",
+        "sha256": "9d870979979bad0b58d55ed29c20a5d1a6786896a0b428dcd392e2b19956f9f1"
+      },
+      {
+        "bytes": 2658,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board8_0.qml",
+        "sha256": "116cf238b3b87fd5c6da66302b1048780f8ae622780f01294c287200b5f0e307"
+      },
+      {
+        "bytes": 1698,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board3_0.qml",
+        "sha256": "8ad7db0c075e637aefa8591f9fa2d4b6a826b3582dbbde8d5c395c1ddcece091"
+      },
+      {
+        "bytes": 3555,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board11_0.qml",
+        "sha256": "130b4aff47f7ca07c95b8a14c9daefc4f39a398276ba54df9cd04cb623a5cf77"
+      },
+      {
+        "bytes": 1287,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board21_0.qml",
+        "sha256": "91819d5678c5ddf5eacb96e67f0e2ee638a5d524b24050b722cfe2f6a838ce57"
+      },
+      {
+        "bytes": 1713,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board5_0.qml",
+        "sha256": "ad061a9b1e0fe955541fc0ea234343720bddc9ebd272f12491afbe90c19a0880"
+      },
+      {
+        "bytes": 3563,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board12_0.qml",
+        "sha256": "ea160a992fcc144526842692dc29289ee0269ddbf22606281b325d243bfbc93e"
+      },
+      {
+        "bytes": 1269,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board22_0.qml",
+        "sha256": "b2619fe554bb0991872246ae3b697ffd5dd647b0c9c26218078c607c90df7976"
+      },
+      {
+        "bytes": 1304,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board4_0.qml",
+        "sha256": "3422f69cbf9e48bc550e166884ab8a2304664f6db45ab62467abcf4d10365cd2"
+      },
+      {
+        "bytes": 2994,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board10_0.qml",
+        "sha256": "16ebd1d0fbc0222be344aa262be31b4f99cdd1db05a7099de0fbb4614e108703"
+      },
+      {
+        "bytes": 1289,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board20_0.qml",
+        "sha256": "2d68b40353e1a79c307bdc7e22ce4064826ff9773074c747926e3007b9d85cfa"
+      },
+      {
+        "bytes": 1983,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board6_0.qml",
+        "sha256": "e60d4126e81353123e881e60ce6d2de5a313c04a090e8ad5de8e11bd10772337"
+      },
+      {
+        "bytes": 1631,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board15_0.qml",
+        "sha256": "3dc1ebbeb2106b7ba803820e28cc8bd024341be42834768e6f1dd7d28a077c6a"
+      },
+      {
+        "bytes": 1372,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board1_0.qml",
+        "sha256": "5190d88ce4693741f4b7c6fe8865c87f2b6fc0e054ede6adb0791b4828bc9d79"
+      },
+      {
+        "bytes": 2448,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board16_0.qml",
+        "sha256": "d42f087012a07aa69838402b242ddefeaa61cab83b48f70366ffb95898f616a2"
+      },
+      {
+        "bytes": 2038,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board13_0.qml",
+        "sha256": "40d78cb863b3cba7ea8aab4d727738258ab913025765446c3f0134e28b309202"
+      },
+      {
+        "bytes": 1927,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board14_0.qml",
+        "sha256": "09a7764391b4bb74f7c0e271a65f90189322ccbdcbb070debc56d1d530b71a1d"
+      },
+      {
+        "bytes": 1294,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board2_0.qml",
+        "sha256": "f7e2a16cf71ba9ffe80647496010f63de21335d135d14d50bb9182b2f45a515e"
+      },
+      {
+        "bytes": 1468,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board19_0.qml",
+        "sha256": "ef6f69ec47bb8f2b9c5b8b3c5ff0aa3f837491e6384126ffb9fdaa5e650c4f96"
+      },
+      {
+        "bytes": 2460,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/board/board17_0.qml",
+        "sha256": "e0817ef23f3793d97877216cc82c90b079bae94d2e6623772680e1de728af3ff"
+      },
+      {
+        "bytes": 12474,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_c3.webp",
+        "sha256": "e579ac110925e639579272e13d6d55289568e6db58c82c85b5379815caa7620e"
+      },
+      {
+        "bytes": 2112,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_b1.webp",
+        "sha256": "7b2195ec825490bd8166024166ce759566e94b8d2b81bf42e6c6e7ee8825d4c7"
+      },
+      {
+        "bytes": 10966,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PieterBruegel_b2.webp",
+        "sha256": "104521b70d1a43ba1868f454400407703ba5775be4891a053916ffdb96b6b4b7"
+      },
+      {
+        "bytes": 9982,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PieterBruegel_b3.webp",
+        "sha256": "91f21334c83318b33a33412881f52c80810379d6fda4807890c9571b1ade57ca"
+      },
+      {
+        "bytes": 6714,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_b1.webp",
+        "sha256": "78a178688f18f793215c5e52f38f4e9405ba0bf81a4e54dcbf5cbba180ef0e2c"
+      },
+      {
+        "bytes": 10188,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PieterBruegel_b4.webp",
+        "sha256": "ce0c070a7032f0fa79036c5beda564e7d982e06dc38c507c0b89f1c0099efe18"
+      },
+      {
+        "bytes": 6788,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_b4.webp",
+        "sha256": "3cf0972da5053035b1324764caaf39619a9583862eab0d44b64e03afccb74347"
+      },
+      {
+        "bytes": 4896,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_a2.webp",
+        "sha256": "5babf15b69e6de78cfe550909ca1b2f3c84da3179c42bb1d47feea6d48d3ea02"
+      },
+      {
+        "bytes": 4546,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_a1.webp",
+        "sha256": "8f16256d00a6aa72fac43eb9314d6d3939c86da9c5725d5324918984f49c8e03"
+      },
+      {
+        "bytes": 10250,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_b2.webp",
+        "sha256": "cb9b7230efae1566d0de2067b14b6ebd294890f43a95267ef6814e893e3f6424"
+      },
+      {
+        "bytes": 5124,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_a3.webp",
+        "sha256": "c8d854f65cd46de7ed4d388bb90400fe7f0d3d4648474f06dc746caf7f056a0f"
+      },
+      {
+        "bytes": 9358,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PieterBruegel_b1.webp",
+        "sha256": "14ac6d29d242ce598ba3273916a20ba411c9982f55efbe333dd21ff86b04c32c"
+      },
+      {
+        "bytes": 9482,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_b3.webp",
+        "sha256": "d285b08d007b79e795a9a2179429ab96dc99788483a08d988c2421b037ccf29e"
+      },
+      {
+        "bytes": 8836,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PieterBruegel_a2.webp",
+        "sha256": "7975a7e9c41b73c0791ae85dd8d665d16987d90dd2714aaf86f6f232da31748e"
+      },
+      {
+        "bytes": 9284,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PieterBruegel_a3.webp",
+        "sha256": "bcdde78e1860e100a7aa38b08ef6b3d7375180248f6a2e7b248c51f145504eb8"
+      },
+      {
+        "bytes": 4506,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_a1.webp",
+        "sha256": "8463228c567235064268b1b81d4652183e87e18836d7300c736a2d2a040c5c11"
+      },
+      {
+        "bytes": 9838,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PieterBruegel_a4.webp",
+        "sha256": "a35a632ea95632b31257a98355f24227197d22af441bb0505f7b13b2a99ebf45"
+      },
+      {
+        "bytes": 8294,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_a4.webp",
+        "sha256": "fe06c9f2f645ad77106cd558da61cf70f97589970381ff8e0606a4f3e2a0759e"
+      },
+      {
+        "bytes": 6330,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_b2.webp",
+        "sha256": "86b561e2bd2c307b8763cc8779482ba8a7bb26b81dd697134d2b3676e33dc5fd"
+      },
+      {
+        "bytes": 5526,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_b1.webp",
+        "sha256": "3677e336ee84b61d76bb17e7b58c37207df0d2d3db8eccda002a1c32bb2129e2"
+      },
+      {
+        "bytes": 8310,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_a2.webp",
+        "sha256": "805c567a58c7339fc845383bec18b74b6d8e6d8eae0d29bdf87caa6b7bfb52d2"
+      },
+      {
+        "bytes": 5316,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_b3.webp",
+        "sha256": "93f1b57af348d15fa777c31d698fb95c31f665689333e6e1aea73d69cbd00aec"
+      },
+      {
+        "bytes": 12720,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/bazille_rampart_4.webp",
+        "sha256": "3508ea1d28bcbc3e34ef11013e73c587c81608e74649b5efd4b2f3d20da1dc0e"
+      },
+      {
+        "bytes": 3904,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PieterBruegel_a1.webp",
+        "sha256": "c0098f692b978ec09a0a47974be0edd219abe72aedf100c498ee755457d96100"
+      },
+      {
+        "bytes": 10338,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_a3.webp",
+        "sha256": "701f3f2437126a34188532470648362f862fce22c9a467ba4eaa221898fd1fee"
+      },
+      {
+        "bytes": 6170,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/bazille_rampart_2.webp",
+        "sha256": "365fd7e758887e5aa6390c067e57773e0e5aaff6038436dcb86c1d40c08e25bb"
+      },
+      {
+        "bytes": 9556,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/bazille_rampart_5.webp",
+        "sha256": "80bf7e3bd9552d8f1df5b66e5f2936856a9bc9d8f96d0d530f7b4e2dc2869577"
+      },
+      {
+        "bytes": 6510,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/bazille_rampart_3.webp",
+        "sha256": "1c0393db1da6c10eabac5b1935068e64836a6d9724b010daa51cbdbde02b32b2"
+      },
+      {
+        "bytes": 5532,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/bazille_rampart_1.webp",
+        "sha256": "6a16546cd624d715e7c9f29133f0667bb4e07a035ebaafb5c392f6811c30cd52"
+      },
+      {
+        "bytes": 2006,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_e2.webp",
+        "sha256": "26d60496b23a78c7691dcbeb070796f1f8a6ad15feae293e31c4ea9db1d13bca"
+      },
+      {
+        "bytes": 14126,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PieterBruegel_d2.webp",
+        "sha256": "2f5d8201fc9263b8c9897a0458db729ef8a03cc7fef7e9088c55b8835c87ec82"
+      },
+      {
+        "bytes": 5858,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_e4.webp",
+        "sha256": "35c2888093c5b214a59f37eceae9e1444bd05c8825e8eac0ae28ea87b75fadb4"
+      },
+      {
+        "bytes": 11654,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PieterBruegel_d3.webp",
+        "sha256": "98c1bcea85f6bb3196e8e351d137260bfc25e1cdd6c10e567a16beecec297645"
+      },
+      {
+        "bytes": 6852,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_d1.webp",
+        "sha256": "908978cf201fad42ecf164e9e812bc553911c23a30fca9f09bf58b167b77cb2c"
+      },
+      {
+        "bytes": 7244,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_e3.webp",
+        "sha256": "4042c89b677f26b6e796dffbef90d70f63bf9189a46f3c6d255f9f853d88e601"
+      },
+      {
+        "bytes": 10850,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PieterBruegel_d4.webp",
+        "sha256": "f24b546bf28b20e989c0f97a85c2773f9a9c4f038e4e8236597a5e6f3510a413"
+      },
+      {
+        "bytes": 6744,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_d4.webp",
+        "sha256": "1f4b97256d480585eee37b3c4346354839154435a46ada507d89b0fcb7d3d976"
+      },
+      {
+        "bytes": 4802,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_c2.webp",
+        "sha256": "a96e265f96a59c800ce1cbc09694931bbd85c0089a332168bb6cbddcddc3ca76"
+      },
+      {
+        "bytes": 4454,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_c1.webp",
+        "sha256": "d8038e0e9788114b71898bf74be85c8c942188f9b94fbf78c711d62889eedbac"
+      },
+      {
+        "bytes": 6606,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_d2.webp",
+        "sha256": "b7180f8d1289c9ccff17e7cce71257e0ec265b9caead15972600c2a0b3e27e15"
+      },
+      {
+        "bytes": 8776,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/bazille_rampart_6.webp",
+        "sha256": "7f0d19fc2fa3260ed976ee209bd5a1a5d3fe373e936e5d2451d864682a9d5f4a"
+      },
+      {
+        "bytes": 4488,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_c3.webp",
+        "sha256": "ad960a4bc066f536d153913bcec7cafc7bbef13af3796e81642d43a3810b1900"
+      },
+      {
+        "bytes": 13716,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PieterBruegel_d1.webp",
+        "sha256": "f43fc7f9c0aad0faafc411742a8664e251265a263e8498bb6d360281a2066e50"
+      },
+      {
+        "bytes": 8758,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_d3.webp",
+        "sha256": "517fefdb197fcc056ced16bc5edaa7efa14188360413e71e55a332eec8d0e870"
+      },
+      {
+        "bytes": 1998,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_e1.webp",
+        "sha256": "02c8ec3848e046ce02f255152d4e319ad044ebbaafef7f5add8dd564718e4f8a"
+      },
+      {
+        "bytes": 11150,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PieterBruegel_c2.webp",
+        "sha256": "9f03cd588e44ac0ba72c92b6f29b4061be4f6ba1d2c91e5891c5f080d21a6849"
+      },
+      {
+        "bytes": 10508,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PieterBruegel_c3.webp",
+        "sha256": "a1799ca12d66a0ede888df6429a8a248129f3f989aa5e566e52ecd6a063b984b"
+      },
+      {
+        "bytes": 6794,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_c1.webp",
+        "sha256": "570c68c96a9d8229a78aae2914f51a39544ca08e36327f2e18cbb642b5b35752"
+      },
+      {
+        "bytes": 12082,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PieterBruegel_c4.webp",
+        "sha256": "aa71b92f261c9ed45219f07298a1b5390e20bc8d8944f4ef30911f002bf90012"
+      },
+      {
+        "bytes": 7864,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_c4.webp",
+        "sha256": "ccf745a5473cf37d457facaf0118caeefdde9fddfffa87fba7faa612a9110388"
+      },
+      {
+        "bytes": 9996,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_c2.webp",
+        "sha256": "755a1e95674b8170d5fc8a3494401e2d503588980098b6df08cd75a0e0a08630"
+      },
+      {
+        "bytes": 7138,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_c2.webp",
+        "sha256": "98b253d1dc639bee8ce459cde3b91ef4fc8d92c7a3790ccf27b3a8d313846f90"
+      },
+      {
+        "bytes": 13012,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PieterBruegel_c1.webp",
+        "sha256": "db8e05766bd584e6b5704c90909d0ec0c0d3ada4d23830eb0023bd447c5cf552"
+      },
+      {
+        "bytes": 11188,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_c3.webp",
+        "sha256": "0cc29f0af5c0d22f78a82431483716b45ef31f4a1e527db60bdd89a0475d9657"
+      },
+      {
+        "bytes": 5574,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_c4.webp",
+        "sha256": "a2d54ee1764972d9d8d45ca7a56e4802321fe8cc42c96a34642194657a721288"
+      },
+      {
+        "bytes": 7584,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_c3.webp",
+        "sha256": "94262739463e5e1f41b7d34ddde18088aad4406e8137049909cf84d8afe96cb8"
+      },
+      {
+        "bytes": 6354,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_c1.webp",
+        "sha256": "2eda236b512c8cbe51c50d1176f8975130065640f470aa3e37a7fa6ff131c3b2"
+      },
+      {
+        "bytes": 4220,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_e1.webp",
+        "sha256": "c4e8a35bac187c29b4696d26c3d5d1c3f1f4a6aba5be14e29c7af789ad3eeeba"
+      },
+      {
+        "bytes": 2798,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_a1.webp",
+        "sha256": "729156dfa1854f3aa02d02f7fd75310ece0c512898bf9f291524a08927dfcaea"
+      },
+      {
+        "bytes": 4726,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_c1.webp",
+        "sha256": "74271cc15417e3c63eec40ace6deb929b27ab27e4c0b4925a0b9afb7b3e2998e"
+      },
+      {
+        "bytes": 9106,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_b1.webp",
+        "sha256": "7038e54836a10269cdb3d19d328bced8c63e1d1aa1495ef7f5f0e5c7b166eff8"
+      },
+      {
+        "bytes": 10618,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_b4.webp",
+        "sha256": "bc6ab53107a64f33f630a5f5dcee2c1d886b4f258a099958c41a1d533c81336a"
+      },
+      {
+        "bytes": 9064,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/GreatWave_c1.webp",
+        "sha256": "67422ca616ef0395aac3b3fa5acba56d4aa6a0e0e1efee40f33a75177966b723"
+      },
+      {
+        "bytes": 5354,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_e4.webp",
+        "sha256": "35840c5f1dfe722ef3e70cc4bbe1ca8529e52e91451538a6667c99d2a7e9eaf5"
+      },
+      {
+        "bytes": 6316,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_a4.webp",
+        "sha256": "4a10a7ea07e2cd510be6788e6edc832c1df58c4581a0c2e6a9c6cd30f748ac8f"
+      },
+      {
+        "bytes": 8222,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/GreatWave_c2.webp",
+        "sha256": "6679166308a66aa4ab4c0d3633838074a0e322ae40486b2a16e5cfa347922eff"
+      },
+      {
+        "bytes": 5326,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_e5.webp",
+        "sha256": "492461ac3274c661f1c120b210483e112ca0691c9fa32b1e6004a3429b6a1a23"
+      },
+      {
+        "bytes": 5682,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_c2.webp",
+        "sha256": "fbdb67f4e6c6363afed5662b370c35d88f75806676a0f1ee15c48e5837aa7167"
+      },
+      {
+        "bytes": 9790,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_b2.webp",
+        "sha256": "30461725e628e1adc4fa72ea384f2465f6fe53d64401ab4146b83e93eca07d59"
+      },
+      {
+        "bytes": 4456,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_a5.webp",
+        "sha256": "d829b7d94593a9a031299d54f8bca1f7bec2f94d373981dbde2d1af7131ba07b"
+      },
+      {
+        "bytes": 13046,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/GreatWave_c3.webp",
+        "sha256": "af0f79b1302665cd5e6c0a83de694409c26a6d132a09bee57b4e91f7b3ac34b6"
+      },
+      {
+        "bytes": 4538,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_e2.webp",
+        "sha256": "005d8a14b7974a4b84d7a8a67b5d9a7be2858cfe37a37e22bbd40486948f1363"
+      },
+      {
+        "bytes": 2820,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_a2.webp",
+        "sha256": "d0ea523d71c3d7c8a36dfa830c843dfb6954a890b125d4ef26a93ded5abe08fb"
+      },
+      {
+        "bytes": 4910,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_e3.webp",
+        "sha256": "be19874c7b5fef8fbcebd424216706e7a73355d1a3f5ff71d04caaf78b4b1ec2"
+      },
+      {
+        "bytes": 3132,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_a3.webp",
+        "sha256": "ad52e2bce20de6a3e91b9164312779a6d38a9f640f5f33f9e9158c6c08d207a6"
+      },
+      {
+        "bytes": 5972,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_c3.webp",
+        "sha256": "6920d6eed15a4a8af0096584e3da0f73fea027b0202d5e9beb7970bdb1dc2fc1"
+      },
+      {
+        "bytes": 10516,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_b3.webp",
+        "sha256": "f118cc75e951a076b11920edab9f8976bd8f5e2496c179bbfd7cb5dffe608898"
+      },
+      {
+        "bytes": 21228,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/renoir-moulin_de_la_galette-1.webp",
+        "sha256": "78880d194c3be92da64d89bca581e09c699303f7848c84f653f6cca0a14e2422"
+      },
+      {
+        "bytes": 17114,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/renoir-moulin_de_la_galette-4.webp",
+        "sha256": "182d1f65643f33d6583b9a3b3a6831af42dc0f0e11c65414e5656e13e619dbf7"
+      },
+      {
+        "bytes": 21294,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/renoir-moulin_de_la_galette-2.webp",
+        "sha256": "297bdebac908b464b7b76a3555cbfa2192816bc660859dadc6041caae5f55617"
+      },
+      {
+        "bytes": 19568,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/renoir-moulin_de_la_galette-5.webp",
+        "sha256": "593aaecdb2bc1cfbd6524348538abdd82242f4d70aaeb20a3b932d494e2d9c1f"
+      },
+      {
+        "bytes": 20034,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/renoir-moulin_de_la_galette-3.webp",
+        "sha256": "185c721373176d28f518a5625894def2389bd29b0be65ddef802a48e34898c57"
+      },
+      {
+        "bytes": 16088,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/renoir-moulin_de_la_galette-6.webp",
+        "sha256": "e9358ce944f2f77fc618d6c3d357e3e3aec4dc7626bff40be1b994ad2bf640a0"
+      },
+      {
+        "bytes": 2162,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_b1.webp",
+        "sha256": "e6a8640ff9a97c10bd40ec8e1c37de28c697b102894fa5ca5baa5916489eaaa6"
+      },
+      {
+        "bytes": 7470,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_a1.webp",
+        "sha256": "a292cce2c1682166222864b7ee8ec4bb31e1074ae679505b325276ea06870698"
+      },
+      {
+        "bytes": 10472,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_a4.webp",
+        "sha256": "261e5a9fe93613bfbe16d58a5eb8d417c69514afbab3210c6f0813eb666c84a3"
+      },
+      {
+        "bytes": 5596,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/GreatWave_d1.webp",
+        "sha256": "8ce5241159d5e659e14f223caefa369ce625696cc0e35a66bc0052f124cd0fcb"
+      },
+      {
+        "bytes": 6762,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_b4.webp",
+        "sha256": "aaa2b77d254854bb0d800b0f796611a435a5c0ea70ab404af089a314625a76bc"
+      },
+      {
+        "bytes": 9450,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/GreatWave_d2.webp",
+        "sha256": "5d457790ea88e216813ec4405086ebf8883c657c7061148edfe565458a04b1c4"
+      },
+      {
+        "bytes": 10634,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_a2.webp",
+        "sha256": "e007e72459059688ee2921dfee7a21a874ad96fb20ab6daf58532ac2b7b4291a"
+      },
+      {
+        "bytes": 5136,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_b5.webp",
+        "sha256": "92f1f2d46a66c3b8c44925776b5c3fa4ccb998dbafb772a3cf2b1d8776c331d7"
+      },
+      {
+        "bytes": 12180,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/GreatWave_d3.webp",
+        "sha256": "2491c11e9208b6b2161acd95cb9eb646f88184f48ae6bae88119221406141a82"
+      },
+      {
+        "bytes": 2478,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_b2.webp",
+        "sha256": "54fbd6f4d994ec7de586ddc471db24731d7db81a8534188179a28c12b35f1538"
+      },
+      {
+        "bytes": 9518,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/degas_class-dance_6.webp",
+        "sha256": "abfdbfc0d92adaf5efad713aa1ed48c84bd3c057296cccd0db60b4c221650543"
+      },
+      {
+        "bytes": 6692,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_a2.webp",
+        "sha256": "387740a87d2874c24d9124cd996c9cf96cdf727c76c4d59dc153c246a5510764"
+      },
+      {
+        "bytes": 3632,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_b3.webp",
+        "sha256": "d8f618c9a46e0af7bf9dbe526e1f948a148c0153cedb45e7020cb8167d6f3416"
+      },
+      {
+        "bytes": 15174,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/cassat_summertime_2.webp",
+        "sha256": "d17de55174fa12b04db04b0bfed25d9176ce912e643b1fe1dce31532eec7eb7f"
+      },
+      {
+        "bytes": 9962,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_a3.webp",
+        "sha256": "60963024b7cd0a0ae9bcaed5dad657d1e17ea0014cfd157e1a933a077110827d"
+      },
+      {
+        "bytes": 14654,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/cassat_summertime_3.webp",
+        "sha256": "13f4baa81dc32bec7494b524d551736acbaa99e7f6d9ab233ba6f90dc71814f6"
+      },
+      {
+        "bytes": 6410,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_a4.webp",
+        "sha256": "a0b380752c44ff9e16730882e33a2c976ac4bbb7ef6c18c3e8e33884b609b6a1"
+      },
+      {
+        "bytes": 15338,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/cassat_summertime_4.webp",
+        "sha256": "48ada16b2b17e20e74875cb429374c2af58d0c43c0b881d9f941c91e15e96478"
+      },
+      {
+        "bytes": 8052,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_a3.webp",
+        "sha256": "f514549b84a29dcd5f2848709d5777a460e252fed7cca3b40cae54bc9cc67d7d"
+      },
+      {
+        "bytes": 15662,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/cassat_summertime_5.webp",
+        "sha256": "3d3cc54575c97fc4fc451ea5e65aa40ecb7c762ed2b0632fd4d44dc42ad9f62f"
+      },
+      {
+        "bytes": 12658,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/cassat_summertime_1.webp",
+        "sha256": "12250ef3b55af74fc45b2c3597d9bf4d02675650abdbc8bf0885635704065e16"
+      },
+      {
+        "bytes": 854,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/bg.svg",
+        "sha256": "80134be8d93c0d30dd8c45f3a1851a89d78734d9441d46d29b06c534653249c5"
+      },
+      {
+        "bytes": 5292,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_a1.webp",
+        "sha256": "ce2723024814aca9fcbfcb7bb88d85c19484165ebf697ee05cf12d6b036c7168"
+      },
+      {
+        "bytes": 3746,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_c1.webp",
+        "sha256": "8929cfbc82afa13c0587c655e23ef98ce9ba00cc09af3ade01bb70db8d522d0a"
+      },
+      {
+        "bytes": 12668,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Arcimboldo_Spring_b2.webp",
+        "sha256": "752dd5271e3d6600064a507f555764a5b432794e2426be7bac39e366a198c250"
+      },
+      {
+        "bytes": 4946,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_a1.webp",
+        "sha256": "a04cc510c0168864cbed71a5af3c27ccae560f221b39a08dfa6fc32697e70b7c"
+      },
+      {
+        "bytes": 10840,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_d1.webp",
+        "sha256": "d32da7662a6eb9993fa1c30fcc90e6e6b87110fd919baee499fc7ffb2de8e303"
+      },
+      {
+        "bytes": 8862,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Arcimboldo_Spring_b3.webp",
+        "sha256": "d36caa189e3e7223ac8de440b6c47a5a703d17072499b0da29a4104db21224bd"
+      },
+      {
+        "bytes": 10628,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_d4.webp",
+        "sha256": "bf2e288c9f788b0d1d030219555935e569d8d9ee046528c6a0ee8c1dd3d5d75e"
+      },
+      {
+        "bytes": 10876,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/degas_class-dance_2.webp",
+        "sha256": "fd52e5c075915afe2d666bc3b25ea0eff57e643de8be217d44847162e42a0120"
+      },
+      {
+        "bytes": 9710,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/GreatWave_a1.webp",
+        "sha256": "0e83968ebf461cba0bc90021e78ac3934ed41181a1c2f3d587350c41f5bdc7e1"
+      },
+      {
+        "bytes": 15170,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/cassat_summertime_6.webp",
+        "sha256": "a9eb351191253246cd20c5c619e9f699747a547f881bf17f3341dca4cacb8d76"
+      },
+      {
+        "bytes": 12804,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/degas_class-dance_1.webp",
+        "sha256": "7d7000a19ab237480b3f509c082e8e9b935876c3941c0d4eeaa10faaec39bc91"
+      },
+      {
+        "bytes": 7548,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_c4.webp",
+        "sha256": "5027a99e7365e030e75ced0eabcfc486bf0bc07b22fd9c64b0ea172a7599f009"
+      },
+      {
+        "bytes": 16408,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/GreatWave_a2.webp",
+        "sha256": "35110e1c3ed5ea6aef169dacf16001972dea04300484bb503785a61b71e41bf9"
+      },
+      {
+        "bytes": 12290,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Arcimboldo_Spring_b1.webp",
+        "sha256": "a80854a1d38839837ee56b594725c3ebc6a3d2ac8e0259aefdcd29d4ce45644c"
+      },
+      {
+        "bytes": 6748,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_a2.webp",
+        "sha256": "7e7e7384e1da5e155c24c5f2c6b9cee698ea2efedbea73c9472b9273b48811b5"
+      },
+      {
+        "bytes": 9910,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_d2.webp",
+        "sha256": "5b6642166d8ad05fe74811c3638184816df77a1e871e201fc98dd76f67e12ff9"
+      },
+      {
+        "bytes": 17712,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/degas_class-dance_4.webp",
+        "sha256": "ae69d1a4d172602a9d35e08c0b0b225bed6eda86916e856cd0e4a56793e13ffd"
+      },
+      {
+        "bytes": 4446,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_c5.webp",
+        "sha256": "b2a6d7711eb0b045ecc48b12cf170f3d61be02658172fe6ba391cdeb78cc534f"
+      },
+      {
+        "bytes": 13522,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/GreatWave_a3.webp",
+        "sha256": "897aeb56b0e2c527b02c40d5eeda7c101eebeb3e432770bf89861d9aa0e6414d"
+      },
+      {
+        "bytes": 15126,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/degas_class-dance_3.webp",
+        "sha256": "0e1f99e69b7d5466f888e5af7bd6085f9f1f4b4bb74ead3603673b13d10382fb"
+      },
+      {
+        "bytes": 3908,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_c2.webp",
+        "sha256": "5a7136603b37dc92ba67ddb12e67bb4195534662f77c33a97ee79b3b0fe6513a"
+      },
+      {
+        "bytes": 7510,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_b2.webp",
+        "sha256": "de6acb5e9dca5705a3d6d7a23b5442f170a7a1c237cf275177ed7115495cc2e8"
+      },
+      {
+        "bytes": 4600,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_c3.webp",
+        "sha256": "997a8bf365d3e214200e4d2939f6e5545c12afb1e975ffc259559d893be713c1"
+      },
+      {
+        "bytes": 6102,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_a3.webp",
+        "sha256": "2c23573129e588d66adbdab29f10ea22c9dcf3d5df327797d745e328536f0cc1"
+      },
+      {
+        "bytes": 10234,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_d3.webp",
+        "sha256": "8d69022ed5b733c2ed34d4aaec851e8b6b3000ba6e73593df2d6d669745f90cc"
+      },
+      {
+        "bytes": 12008,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/degas_class-dance_5.webp",
+        "sha256": "a17d834785a812e55abdbbc63c25f70d03d0630813eb8c1c40321304c387ac64"
+      },
+      {
+        "bytes": 6282,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_b4.webp",
+        "sha256": "34f715a0cf192d2401ffd685c1f5f97fbd6bfb699c5ffac94c7b4af640aa0754"
+      },
+      {
+        "bytes": 7542,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_b3.webp",
+        "sha256": "085be9e34c4c827aa2252629231c510b5901e5f3a64aab4d31abd5f7c35a8819"
+      },
+      {
+        "bytes": 5348,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_b1.webp",
+        "sha256": "3dc80e59239e3dad90e3239e104cb8e0d55bae14101521b95f7f63d97320d3cb"
+      },
+      {
+        "bytes": 3270,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_d1.webp",
+        "sha256": "549481f44aab521512771d7f8014297c88e04f352ffefe51808bfb4571c57ea3"
+      },
+      {
+        "bytes": 8776,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Arcimboldo_Spring_a2.webp",
+        "sha256": "59474f5f0d8ad946a307f9520b8ea4c31823e9f88f1937cf410fbb667a78f5a2"
+      },
+      {
+        "bytes": 6400,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_b1.webp",
+        "sha256": "b75413b0d1912bb17a39eaf11f6922e1654c0ce762e24b1968d3d364f9c78ed7"
+      },
+      {
+        "bytes": 11106,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_c1.webp",
+        "sha256": "1d2aebe5c52769a2810372f0248b76770c1306ac88f53044e294eff9d9181248"
+      },
+      {
+        "bytes": 10192,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Arcimboldo_Spring_a3.webp",
+        "sha256": "c3f20dc47e9b20108bf892c5173f01668538f21ed846874c635f2496b3b1e956"
+      },
+      {
+        "bytes": 11300,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_c4.webp",
+        "sha256": "da868de1f7a7555d6c6d84f920c91862e0ef2297b3a5ad411247019c39b93348"
+      },
+      {
+        "bytes": 12770,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/GreatWave_b1.webp",
+        "sha256": "28b72a3a9eb6e798eecfda187705e1e56955a5e19b18006a0b33aed8ca48aff3"
+      },
+      {
+        "bytes": 6840,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_d4.webp",
+        "sha256": "2194cdcfce80e79f180d1c5bf93a7fc2decb918c1e99c9bb8139047b58981e91"
+      },
+      {
+        "bytes": 12980,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/GreatWave_b2.webp",
+        "sha256": "342fea36ea63073282803f7e36fe770b5d8e2f1906c512e19c24af9e68426915"
+      },
+      {
+        "bytes": 9272,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/Arcimboldo_Spring_a1.webp",
+        "sha256": "37816ac81d9d517d04fb88fc728b44d2b100bb5f8406d044ac812708ea29ce53"
+      },
+      {
+        "bytes": 5918,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_b2.webp",
+        "sha256": "9e286bdf6521fe2763bda79c7474fd467598777565b667bdf82021400cbb5fd5"
+      },
+      {
+        "bytes": 10914,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_c2.webp",
+        "sha256": "070a33a9a22da13d7a16158606c355d31886f0dd5d54f33790b0133f2d36b72b"
+      },
+      {
+        "bytes": 4598,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_d5.webp",
+        "sha256": "b68d8e2223e0cff32fa26b4191e799870be6befa054ab5d5b3ebbe7529be6188"
+      },
+      {
+        "bytes": 14518,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/GreatWave_b3.webp",
+        "sha256": "6b6837959b9ab7e89a689be1ebdcea8b53edb52e5b4f974953b5b7dc50b13b2e"
+      },
+      {
+        "bytes": 3906,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_d2.webp",
+        "sha256": "dfb42e5ea7d4f373dc7a8cc1ece9ca178cdec9037c613bac260fd9046a5c3875"
+      },
+      {
+        "bytes": 6186,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_d3.webp",
+        "sha256": "1a46b08c01d1d7284596a111b714c1d56497e8e9513da9757b167d77e5d3751c"
+      },
+      {
+        "bytes": 7524,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_b3.webp",
+        "sha256": "e6a9b15a57fcd475f0032044e2fdccc932482bd626796d249509699d14bb8bb9"
+      },
+      {
+        "bytes": 10708,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_c3.webp",
+        "sha256": "ecc045d92cee52bdbf308dc5fa498a6c5948d80b56c43297cb2f99ee5dd280b8"
+      },
+      {
+        "bytes": 4692,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/MonaLisa_a2.webp",
+        "sha256": "c985203d84469032032586bb9dffed326bc45122afd3e5ad258f7e92263c3d6c"
+      },
+      {
+        "bytes": 19000,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/gogh_auvert_1.webp",
+        "sha256": "81f84ce20f31486197f459635ddeef042344c694af6fa130418a36b1d45a6904"
+      },
+      {
+        "bytes": 2598,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/MonaLisa_a3.webp",
+        "sha256": "c982051cf60b1fd92d762bf0453ea6d86153496ffd33f8c9c97f1b45eb512934"
+      },
+      {
+        "bytes": 19056,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/gogh_auvert_2.webp",
+        "sha256": "c4518c2389a6c572ad1ea623479e7a5030f3aa59dedc9c4cac73d55cda96c86c"
+      },
+      {
+        "bytes": 23148,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/gogh_auvert_3.webp",
+        "sha256": "1aefb708e7c36a0e4c7c718e8cd2fd37d8321d7a4018d916f149314e4d4bfb98"
+      },
+      {
+        "bytes": 5516,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/MonaLisa_a1.webp",
+        "sha256": "0d69e4bef885e1d6583160414b3e0bdb9b46e203f6dc1ffe7066075cc3bfec6d"
+      },
+      {
+        "bytes": 21596,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/gogh_auvert_4.webp",
+        "sha256": "8cdc157e260d5d1864198c72951275c405b6f74568c836f285781caba0895f3c"
+      },
+      {
+        "bytes": 21928,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/gogh_auvert_5.webp",
+        "sha256": "4bcb1e64c44022b79a56aba86643fdca26bad5d2a908c56400240fe9f08f1142"
+      },
+      {
+        "bytes": 21662,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/gogh_auvert_6.webp",
+        "sha256": "b8ab1e32b422995ced0bce842a126da84a9db9d3eaba003934eee3c7ed915204"
+      },
+      {
+        "bytes": 5004,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_a1.webp",
+        "sha256": "4429080ec009e12177fe8bbc70188ca7fce66342d139519b1d711e787488d776"
+      },
+      {
+        "bytes": 2242,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_e1.webp",
+        "sha256": "70f16be009e4d60dcbda6fdc69962c8a8207ecad6af76a70154e860f76ac2e0b"
+      },
+      {
+        "bytes": 5816,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_a4.webp",
+        "sha256": "25b9e000e63b2aea42dc55702569c23daf8127be2e6b799196354df4f02df5e9"
+      },
+      {
+        "bytes": 5888,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_e4.webp",
+        "sha256": "001cef5bb080882b0e2b0a87c40ca5bb3d491795519da4b38804edf74f0b5a48"
+      },
+      {
+        "bytes": 5134,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_a5.webp",
+        "sha256": "cbb34e88c7d9a1ffd6ca9d060f19be83747b7f83ee2ac8b4865f75350b9dc85f"
+      },
+      {
+        "bytes": 4208,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_e5.webp",
+        "sha256": "7104aba7395158a6f1e0c8866092c910f3d544e918667352a01c617e1aa64498"
+      },
+      {
+        "bytes": 6248,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_a2.webp",
+        "sha256": "838bd3a3645b7ad6805188834e934f83b540c99df4a1cee4075e037607b520f4"
+      },
+      {
+        "bytes": 2154,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_e2.webp",
+        "sha256": "095c66fe5f60dd3d7aa5a329e203102558e3829a4310b0635cc91518dfff21f8"
+      },
+      {
+        "bytes": 5924,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_a3.webp",
+        "sha256": "7d1f6fd3263b0145b4bdf1b39993cbe10c8cd0aa55ca408f6b8c30a57da4b24d"
+      },
+      {
+        "bytes": 5498,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_e3.webp",
+        "sha256": "d8a530146d05222872efe2ad4d84d202436933507fac7972f5a23801a9b36df9"
+      },
+      {
+        "bytes": 5414,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/MonaLisa_b2.webp",
+        "sha256": "331eca239b3eeb1b1514a234630dee63baeb722fd7419cdf2c42ac70e75e8115"
+      },
+      {
+        "bytes": 3714,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/MonaLisa_b3.webp",
+        "sha256": "b655a1707b8c25f53173bfe0cd6318217e2877d2fb7a90a630362b85dffc8295"
+      },
+      {
+        "bytes": 6082,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/MonaLisa_b1.webp",
+        "sha256": "9d3b46a53a2abce842660564e4826f2af3b3335df07572cdc81aee6f282b7046"
+      },
+      {
+        "bytes": 5514,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_b1.webp",
+        "sha256": "460c026dced7c7917f0df7ce9abb77a7829c97b82e3655acf84a8b63a80c6edb"
+      },
+      {
+        "bytes": 5606,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_b4.webp",
+        "sha256": "f9431bf57205090c99eb85c533aa2f036213f14538ee5a1884d843da1265ce9d"
+      },
+      {
+        "bytes": 6472,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_b5.webp",
+        "sha256": "d43420d2c2394d2b7c9ec3584f22997bad4e16d8407e44264659fbf852629ceb"
+      },
+      {
+        "bytes": 6732,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_b2.webp",
+        "sha256": "be15848d5619e5301ba85a48ea2e187eee890ba02b8663fda3c947d2aec1987f"
+      },
+      {
+        "bytes": 5356,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_b3.webp",
+        "sha256": "db86e75e1f1fd249bac93c88da90080c233ffd49474746213c38c3ca69cac118"
+      },
+      {
+        "bytes": 5258,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/MonaLisa_c2.webp",
+        "sha256": "3e09d643604d2da186c5b484861dcd7c88d12a114b3b45d57aad80d7db746713"
+      },
+      {
+        "bytes": 2708,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/MonaLisa_c3.webp",
+        "sha256": "ff1a07ecc7e560b4ecb78881754f3aa7520914ebeb9293b88566d77282173f84"
+      },
+      {
+        "bytes": 4700,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/MonaLisa_c1.webp",
+        "sha256": "83f4abc55c4c06b00223eb2fc616731e09e134e5621cac1fad5922513c587be9"
+      },
+      {
+        "bytes": 6200,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_c1.webp",
+        "sha256": "9ff12143f4e5fcee6f9c9edc9253b413de05d8cbdcab417a5cac8865b8b083c6"
+      },
+      {
+        "bytes": 6556,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_c4.webp",
+        "sha256": "94fb8ef6dc493af08e00de11d82808472b384df3761fe6cde68a9b20675b2b8f"
+      },
+      {
+        "bytes": 6704,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_c5.webp",
+        "sha256": "b7aa660c193c286a02481a0f9cfaca509d81a9ef10871c7a911ce960895dac5b"
+      },
+      {
+        "bytes": 7108,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_c2.webp",
+        "sha256": "60d00670f6ca740cdced726f9a10f659ae829277583ae615548e187b14ac6f14"
+      },
+      {
+        "bytes": 4676,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_c3.webp",
+        "sha256": "f1873868fba6e3232bab5193ee6594ce168817240a156086ac0236375282e2d3"
+      },
+      {
+        "bytes": 10876,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/kandinky_4.webp",
+        "sha256": "92e3ebbaa42df5af6129dcb749a0f6cfa9749a469410077b6d8d00ac2b886db9"
+      },
+      {
+        "bytes": 5120,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/MonaLisa_d2.webp",
+        "sha256": "6d0add0b76699742def0979aa00910709fed2254daf308a18095b241029fe744"
+      },
+      {
+        "bytes": 5564,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/kandinky_5.webp",
+        "sha256": "9fab6cfbfb69cb6f4089ba1bf81cf40e32b4b61125ca1ef9ae50c1461362377f"
+      },
+      {
+        "bytes": 11270,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/kandinky_2.webp",
+        "sha256": "0315468377f7f36584bb0e46e1e201a525aa7c1bc9d1685af7990248c68a7255"
+      },
+      {
+        "bytes": 13098,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/kandinky_3.webp",
+        "sha256": "f9518aa6512a0e454a22e850f77d43ed7509e8a098fb5dad5ad22c10fd32e51b"
+      },
+      {
+        "bytes": 2386,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/MonaLisa_d3.webp",
+        "sha256": "97456266057a96e3775e902ee5625a979b19f75998f612bfb596fcc466222f4d"
+      },
+      {
+        "bytes": 10138,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/kandinky_1.webp",
+        "sha256": "67bcd29206ed353a21f6ea5526d1b4f77f4647f6d7e1d8f3f4bef6c2298b65c5"
+      },
+      {
+        "bytes": 5798,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/MonaLisa_d1.webp",
+        "sha256": "0d5961d6fd19bd72cd65f67033ad13b6d18cb90768d46d42641ee3194e811cb7"
+      },
+      {
+        "bytes": 4070,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_d1.webp",
+        "sha256": "3562fee279e1287e1004371f4c612a8ff99717419ce6bed94202dd8ee450ff71"
+      },
+      {
+        "bytes": 6226,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_d4.webp",
+        "sha256": "86e1a6fe6cd4a60c00a207e3a1693227d0442f2c7bbd340e48636489379b00ce"
+      },
+      {
+        "bytes": 7494,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/kandinky_8.webp",
+        "sha256": "0c7b9d5d01972843c9a4049007bb8b22c8ab352f656782d5fd7dd4dfb9cea297"
+      },
+      {
+        "bytes": 6772,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_d5.webp",
+        "sha256": "adfc8189b45167b0b0761ff1034f4fd62db9bdb3cc172add3190da0bf1bdd425"
+      },
+      {
+        "bytes": 3978,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_d2.webp",
+        "sha256": "4a2a05c61c47ad793664bfea734a9623456560d35d297638c228f9dcbd89161c"
+      },
+      {
+        "bytes": 10248,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/kandinky_6.webp",
+        "sha256": "4d96b7997185047abc6ca0c77d9c742c9b9aea6514e14e5cb7865d4b723aff54"
+      },
+      {
+        "bytes": 5898,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_d3.webp",
+        "sha256": "2d45583c32ed518441d2e57a656b74688f7f73e238036e3b1edd6a460e398423"
+      },
+      {
+        "bytes": 10788,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/kandinky_7.webp",
+        "sha256": "b7567aacb05ec786f11d4a0da407b95d4a1b38675b2462646cd515e865cce500"
+      },
+      {
+        "bytes": 11408,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/EjiriSuruga_b2.webp",
+        "sha256": "9eb22f44d6270400d4e995ba82e10acfee7ec504a406bc5f8453578f4b49bd6f"
+      },
+      {
+        "bytes": 5242,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_a1.webp",
+        "sha256": "d3e4fed4b834b8da745d5e60f29e498e7db50729d3032da79d575fa75fd36c12"
+      },
+      {
+        "bytes": 10832,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/EjiriSuruga_b3.webp",
+        "sha256": "4be5a6f974b6e88212bb523a48b768d8710bd716749c92a00f85a079382bd83c"
+      },
+      {
+        "bytes": 8900,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_a2.webp",
+        "sha256": "c0db7637115ae575485d59a27e691e285d256dd7b5c0267173d2e47e3d90af12"
+      },
+      {
+        "bytes": 5150,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_a3.webp",
+        "sha256": "f13541b652185026bd82b582630e75939cfafcdc2d97546262f315e66879971e"
+      },
+      {
+        "bytes": 11168,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/EjiriSuruga_b1.webp",
+        "sha256": "313c87d521494ef6d80464bb8f783c6b4eab7eec3ddf7b42662011c2ee6ca17c"
+      },
+      {
+        "bytes": 5650,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_a4.webp",
+        "sha256": "720bf2681396202048a21b12f113d69cceb884f879e515db16d60da2151ded3a"
+      },
+      {
+        "bytes": 2888,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_c2.webp",
+        "sha256": "0e73560a33649ca0639197aa4d94aa37071fc88a506e4ab153bdcd1828d883bc"
+      },
+      {
+        "bytes": 10072,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiOiranKamuro_b2.webp",
+        "sha256": "07ad84266dc3a21181143728046bff6e09207a2cd46220342e11a1388e924e2d"
+      },
+      {
+        "bytes": 12408,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_b1.webp",
+        "sha256": "94820978adbc91e955bce9a64e8ccdccde27f97fb0524aa51b27b0ff85ea66d5"
+      },
+      {
+        "bytes": 6786,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_c4.webp",
+        "sha256": "f3a0ef87a1c611a5516fcd7571795b6c90ddc8c94ef4b112a968ee2ff847b33d"
+      },
+      {
+        "bytes": 7910,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_c3.webp",
+        "sha256": "f622cf4b3b074d366f141cf545dd98050ab38813311d1b19ab93a7fe63c8c19b"
+      },
+      {
+        "bytes": 8052,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiOiranKamuro_b3.webp",
+        "sha256": "c05d52c7194a997f8c77e5273f61432ae549ca6bf113c358b7a7c9cb7fbc2079"
+      },
+      {
+        "bytes": 14032,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_b2.webp",
+        "sha256": "3fab215ad03c9e8237bb10053f3dd1102a26bf21fa3bc2ec43fbd2736f021181"
+      },
+      {
+        "bytes": 12290,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_b3.webp",
+        "sha256": "66471a5d68b3cae0f1c5863acecf27f84c2137fa3f87a24d35a6e091005c993b"
+      },
+      {
+        "bytes": 10138,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/renoir-filles_piano-4.webp",
+        "sha256": "6195454b07aa04d33892f0a38c5a7e95e4a1fc1c1bdd75c262ce9571614fe84b"
+      },
+      {
+        "bytes": 2252,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_c1.webp",
+        "sha256": "0a3ff017c67357e4288a66a942808a0e7d62abe8380c35879094c19117e0bae0"
+      },
+      {
+        "bytes": 5900,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiOiranKamuro_b1.webp",
+        "sha256": "846f1d8a287cfa00f323d5732a4b4110ce70b925721804668641231dbb73e9f6"
+      },
+      {
+        "bytes": 11716,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/EjiriSuruga_a2.webp",
+        "sha256": "6962d5c9069baf4ea5ab2d9c4d525c9ae3ed62c78bbc1d76427d884590fbeff7"
+      },
+      {
+        "bytes": 7704,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/renoir-filles_piano-5.webp",
+        "sha256": "49cfd48c5d921e71dd7887037d9ea6d5d21fffb2ebee4cdfbbb1ea7a3df03494"
+      },
+      {
+        "bytes": 8098,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/renoir-filles_piano-2.webp",
+        "sha256": "e2d15bc234b96b61640ab1d18d5af6102944b37e90744c89f36fb68662886fff"
+      },
+      {
+        "bytes": 9512,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/renoir-filles_piano-3.webp",
+        "sha256": "89699b9b53339139046d571d0bcd14be7336b1997783bdef3f86f9efed0b9670"
+      },
+      {
+        "bytes": 7196,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_b1.webp",
+        "sha256": "1d5f568ec9a1d9d3715194bbd10ea5d30a5cb0a24e87a4812e68f5063d2a9cf2"
+      },
+      {
+        "bytes": 10232,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/EjiriSuruga_a3.webp",
+        "sha256": "a7f838dac1d7193c2cce3b481554f110140141da966b0c66c3199f917254ec78"
+      },
+      {
+        "bytes": 6202,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_b2.webp",
+        "sha256": "f46dc06baf61f3380249f1bf0d421d4d1f04df0d733e1841e6e54b848b3f6fa0"
+      },
+      {
+        "bytes": 7404,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/renoir-filles_piano-1.webp",
+        "sha256": "3358cdcca2e558938f44b11ba391fd499ed2350b635d943894ca5c2f76b0ce2f"
+      },
+      {
+        "bytes": 7714,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_b3.webp",
+        "sha256": "68cd13342da1a172af4bf05aa8556e3100ba169ef66d74ee2b1d84def602a5f9"
+      },
+      {
+        "bytes": 4912,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/EjiriSuruga_a1.webp",
+        "sha256": "6724ed375ba4023e3b35f6a3bd072242dd97199e2363b1b6779c357378e7e0f5"
+      },
+      {
+        "bytes": 12300,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_b4.webp",
+        "sha256": "3d6836e50e0ba1d67a83a9a1df9cfb6e1dd613d2170fc6311386ef8fa85f1258"
+      },
+      {
+        "bytes": 3078,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_d2.webp",
+        "sha256": "f7d4f54dd113b020f4704ac8db9a287739184dc7ab91cd16cb17bb9545c54bf0"
+      },
+      {
+        "bytes": 9692,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiOiranKamuro_a2.webp",
+        "sha256": "f599ebd4f80f62d98424b2574f97d909f60f94ab7272652c95951712fa86980c"
+      },
+      {
+        "bytes": 11522,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_a1.webp",
+        "sha256": "b74c706b3f043958c50a69edc7b86679b2c63c4714ded93e1dd314820ecc9f71"
+      },
+      {
+        "bytes": 8238,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_d4.webp",
+        "sha256": "1687414c0a224ec7a5451d8fb453853c578c93849cf2c0e3669f3ce1b02422ce"
+      },
+      {
+        "bytes": 8534,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_d3.webp",
+        "sha256": "6909eb7879b0784e0d7afc6e293d850e39dcebe9315981a1ca9979d3eed9e148"
+      },
+      {
+        "bytes": 11612,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiOiranKamuro_a3.webp",
+        "sha256": "3e939f83be171528129ad518f74c3e19e128b1ad4178de418e72f61d914a9081"
+      },
+      {
+        "bytes": 7490,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/renoir-filles_piano-8.webp",
+        "sha256": "9ef059e5136ab05a362b76d7edb710f62701ea7785cd26c7ee4e28607568e50a"
+      },
+      {
+        "bytes": 13680,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_a2.webp",
+        "sha256": "09722459f509290510d1e34a81dd07792c81ace1507d8b815f8d67d85cf2670c"
+      },
+      {
+        "bytes": 7160,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/renoir-filles_piano-6.webp",
+        "sha256": "f73b64247ad214bf340c80bb7788688eb526d81cd35707441542b78a0944a102"
+      },
+      {
+        "bytes": 13022,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_a3.webp",
+        "sha256": "b09b5cf104142f528a134a6eb928a867ec9cfd4f9a2751de9dc10b0e0ef4793d"
+      },
+      {
+        "bytes": 9114,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/renoir-filles_piano-7.webp",
+        "sha256": "c6b602966ab5a52b68237f57947e78c9bae65dcb112aabd1604eddfcb6847850"
+      },
+      {
+        "bytes": 2340,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_d1.webp",
+        "sha256": "977cd3b8efe03e5321d935d2b055b947ce4b614cef99f64fc0db2e35a45a60dd"
+      },
+      {
+        "bytes": 8520,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiOiranKamuro_a1.webp",
+        "sha256": "d029151c03f2dca9d79fc8c041a6fae488569ae73c3086ca01a7039766687494"
+      },
+      {
+        "bytes": 7032,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/EjiriSuruga_d2.webp",
+        "sha256": "373334f1546d99b9218e663afb8a6b00d30319a696894596f3be5865c9672ef2"
+      },
+      {
+        "bytes": 3174,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_c1.webp",
+        "sha256": "879fbd0001d1a7bc8c8a059c6eaeb151fcda1bfcb2f71c33b5535d6ee5dae171"
+      },
+      {
+        "bytes": 8798,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/EjiriSuruga_d3.webp",
+        "sha256": "935764a4b0acd0a00c35f15dea04f9ee324dcdd87f71f5c0e08619f1adf57694"
+      },
+      {
+        "bytes": 5326,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_c2.webp",
+        "sha256": "443c7f3d4a3eda6c4fc62f96ab668b1f8f55d6a5bedf24c2452391b133c6906a"
+      },
+      {
+        "bytes": 11230,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_c3.webp",
+        "sha256": "22f7e5e08c501edf3ccb30c234243cb876b8a7a40e1da070828b2d46bd9f567e"
+      },
+      {
+        "bytes": 3340,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/EjiriSuruga_d1.webp",
+        "sha256": "4263ff3c20a012301319106bd54c9de3b76cd25caa82a134c4bd9fabea7f25ab"
+      },
+      {
+        "bytes": 8322,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_c4.webp",
+        "sha256": "7ede434ec087710a641f07c32159c0a3e6da642e2001cedb1c55b80fe6f24e86"
+      },
+      {
+        "bytes": 3828,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_a2.webp",
+        "sha256": "d9cb7b5a9bd7681234b8c57d9bbaf9abff88075c36b222ba00b4e1e1cfe65e97"
+      },
+      {
+        "bytes": 8986,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_a4.webp",
+        "sha256": "a3cb33e52382a75dc914c7386dbb304187b4929d920627c52cc1d4e8ffe975d3"
+      },
+      {
+        "bytes": 7654,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_a3.webp",
+        "sha256": "1eb2ac8ccc2ef4ce41a7b6b81ae730d7f62ba4cbf600f70fa425c8724b29db46"
+      },
+      {
+        "bytes": 4456,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_a1.webp",
+        "sha256": "ff553c4faaca60b322c970de9048931fcd2be71e144d58351c8d5303150d4931"
+      },
+      {
+        "bytes": 10314,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/EjiriSuruga_c2.webp",
+        "sha256": "42ae57a5766d4aff7a1c2ae7a61690a5cd9307edddd96d1fb724ff398871be43"
+      },
+      {
+        "bytes": 5464,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_d1.webp",
+        "sha256": "32d63c7b0240014a8b967c091f982c89540d1ab6988ebce2894fbcaa138ab867"
+      },
+      {
+        "bytes": 12700,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/EjiriSuruga_c3.webp",
+        "sha256": "b7f075c282f76a62398e491ca44c9e28121823641217dd6137b7417e7365dd69"
+      },
+      {
+        "bytes": 4216,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_d2.webp",
+        "sha256": "17c05791c8084c4a41813dcb2f8a9b3b2cf266dd4fedeee5436597fbdf0e6886"
+      },
+      {
+        "bytes": 6318,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_d3.webp",
+        "sha256": "93dbeaab7ac3a9d6bf166b61ff96646b9e36c1e36817309e0a96714fa1ec73d8"
+      },
+      {
+        "bytes": 4584,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/EjiriSuruga_c1.webp",
+        "sha256": "a2a52da406ccc97a6efc36a411e48711709decf11814c78f2b36cf8fd623f68e"
+      },
+      {
+        "bytes": 8638,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_d4.webp",
+        "sha256": "7a50fec6cb7e7a7b7ad31d9c9c0960f186b44518b962924e224bd16d3bc30a7b"
+      },
+      {
+        "bytes": 3402,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_b2.webp",
+        "sha256": "6b645ec543e0d44a6908d65cb50460f9095dce6acde8f8d76f010723de3e9395"
+      },
+      {
+        "bytes": 11600,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_c1.webp",
+        "sha256": "8faa267e411c7663daa82266f7645694305125d2d7891ff1641adb3c35d0c8cf"
+      },
+      {
+        "bytes": 8246,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_b4.webp",
+        "sha256": "78ff680b3a26989a73c793b63c3a3e80705908815b577a993d4e2ca898e5725c"
+      },
+      {
+        "bytes": 7736,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/HokusaiBridge_b3.webp",
+        "sha256": "7dda1c169096173477fae465a8ebe7ef2e11fd2374e359400f802626d8a07265"
+      },
+      {
+        "bytes": 12678,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_c2.webp",
+        "sha256": "0fac89d68f27ee000e4f8315a6c3da10c88b20358730d8db4fe0c1d6d8ebb3db"
+      }
+    ]
+  },
+  "photo_hunter": {
+    "sha256": "3859cffc61f478983e0f087e319b0e56a645ecb83e47ac9a0fad49948ea61d4d",
+    "argv": [
+      "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/visual-origin/share/gcompris-qt/rcc/photo_hunter.rcc",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/canonical/photo_hunter/files"
+    ],
+    "exit_code": 0,
+    "files": [
+      {
+        "bytes": 868,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/ActivityInfo.qml",
+        "sha256": "8a44786f0ecd70bad4c7ddb0136c315e0373020a07fd0592c3552b478f0ad1e1"
+      },
+      {
+        "bytes": 7656,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/PhotoHunter.qml",
+        "sha256": "22e9b629c8f901d9a2a3ca5d0c7bcf959b1370d783e9e753d2c55faae3ee695c"
+      },
+      {
+        "bytes": 5569,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/photo_hunter.js",
+        "sha256": "d3afebedbe534dda499aa0c34cab1ca242dc3f888a71a7465f244f7087dd9986"
+      },
+      {
+        "bytes": 4937,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/Observe.qml",
+        "sha256": "2dce1f2f72d1463fe5d6f60c494b748c84621d8b8c054a4dbc02dce949a54be1"
+      },
+      {
+        "bytes": 62189,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/photo_hunter.svg",
+        "sha256": "67fcfcdfb0b51750ff92dc10a6c24b554e756551705df08566fff625d7764d99"
+      },
+      {
+        "bytes": 1442,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo9_2.svg",
+        "sha256": "3db0cc933938bf8c375a77f5001c84d6094145c956bfd2b4ae2bb503678b7e9e"
+      },
+      {
+        "bytes": 1383,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo9_3.svg",
+        "sha256": "33c743c6634e6449a53122070410761043b40e25f6db388ad6378d3dc4fbba9b"
+      },
+      {
+        "bytes": 1395,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo9_1.svg",
+        "sha256": "e5b871e014eb1c16988da43a567f548a250e5e7b81d4618e814af778b70787a9"
+      },
+      {
+        "bytes": 43307,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo10.svg",
+        "sha256": "e3897fd61613ccc0ca860493bd04233d9382abd593c271f9fa131c97402760a9"
+      },
+      {
+        "bytes": 6051,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo7_2.svg",
+        "sha256": "2d633e7f6143e32ce54a687d2f9a0ebd8e4788096ce76822987d1efcdce7220a"
+      },
+      {
+        "bytes": 1852,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo7_3.svg",
+        "sha256": "594c4920117111f57644fb54cf172c0e2909e677eb76249db7ef548307a4e649"
+      },
+      {
+        "bytes": 5193,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo7_1.svg",
+        "sha256": "7cf31675cd2dd5b46732d67fe7f7ec509b23026b30006dfaf56c151f37415c5d"
+      },
+      {
+        "bytes": 1933,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_6.svg",
+        "sha256": "9e555afb970f2bd37e378ccb526024dd1ffdb686057b86de59ffb0666bd25398"
+      },
+      {
+        "bytes": 4009,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_4.svg",
+        "sha256": "091f23ddd47a454c16c2aa7828847ce850896821f7a43e951313048d76ffda22"
+      },
+      {
+        "bytes": 1924,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_5.svg",
+        "sha256": "a36fced090a6217121bbfc9df7a87df249bbbee627d98e23fde4890a48834780"
+      },
+      {
+        "bytes": 2214,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_2.svg",
+        "sha256": "b2bd28c7534d0b7eaaa6e63cf0a9fe1e9b69bdb74932f08c6df3fa4fcb4feb29"
+      },
+      {
+        "bytes": 5573,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_3.svg",
+        "sha256": "dc72aa8dc7b52c31b398dd46ce555e15ebb8d2fbf3ae5e9f48e696aa00660869"
+      },
+      {
+        "bytes": 1895,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_1.svg",
+        "sha256": "ee4386ba4db95fda6bcf01f51ebb7ed900d20b856fd525a28505a83016a3e335"
+      },
+      {
+        "bytes": 2043,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_4.svg",
+        "sha256": "327367ecf2433db5c336eeb92d974f48dd02bf99d2d91c40f99c7eee27786b10"
+      },
+      {
+        "bytes": 1424,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_2.svg",
+        "sha256": "3eade0d77bc9c3801a382fdb2a97c2dc5a94c04b6c885aa5ab66de8569a94a1c"
+      },
+      {
+        "bytes": 5558,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_3.svg",
+        "sha256": "b4abb7af695de1fc406eba2bed286f995490040613028af483ac771dec3f8d8d"
+      },
+      {
+        "bytes": 1544,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_1.svg",
+        "sha256": "a475192c1b2908d81891912bb418be6c2529f8586b97e9b88f8908a4ba034f40"
+      },
+      {
+        "bytes": 3127,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo6_2.svg",
+        "sha256": "ad0fc42c5fcf391f1fd329ff5f0c8847fe6bf6a47d88b56685afada0f8df3349"
+      },
+      {
+        "bytes": 2925,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo6_3.svg",
+        "sha256": "2a72938347c0aac6569428ee65d75ad2af7b32386a570c8c70e0afa9b2c09073"
+      },
+      {
+        "bytes": 1345,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo6_1.svg",
+        "sha256": "6f1ab84fdd9496253874989a2a02ca669fc2ce8793330d7b5acb2b61bc236163"
+      },
+      {
+        "bytes": 3072,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo3_2.svg",
+        "sha256": "7c9450ab17e504eb3c2eee15c38d382d0ab904e06ad0760631a1f4373f8438a4"
+      },
+      {
+        "bytes": 1982,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo3_1.svg",
+        "sha256": "34905fa7d23b0633b424ff13c4d9342af80da10714dad6b89a7efafd6a905e13"
+      },
+      {
+        "bytes": 4721,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_4.svg",
+        "sha256": "8121244b8edc021f35c643199c13a367e14eec83a9633f153ea3a7e72529940f"
+      },
+      {
+        "bytes": 3064,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_2.svg",
+        "sha256": "ab789fc61ff7bd8f76547bb06839ccc00b09dd17ad43ebe8dfe4b6ea28f1cc9c"
+      },
+      {
+        "bytes": 1705,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_3.svg",
+        "sha256": "4b122403fd2b4a0171ab91532542e6bed5e5a2a1db8b8659914e3aac251c0666"
+      },
+      {
+        "bytes": 1530,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_1.svg",
+        "sha256": "df952cee62c1b5c2ea3fc13cb20432854ec5800d93f7fd54a1d6de817e9559bf"
+      },
+      {
+        "bytes": 1719,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo1_2.svg",
+        "sha256": "e5f48ca43890292fcb90c1abba0b84d435a23062717653d5d1d9567b05645ccf"
+      },
+      {
+        "bytes": 2938,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo1_3.svg",
+        "sha256": "c2063caf5ce2f5f8ca14de884ce8936a7221bd106c7709a598e34964a511c10c"
+      },
+      {
+        "bytes": 4654,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo1_1.svg",
+        "sha256": "3d8905cafd0990b56b451acfc092bdd9919cfe8eb1bf21f578633c34b586ec40"
+      },
+      {
+        "bytes": 2504,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo2_2.svg",
+        "sha256": "a1caf3fb6e2cee97e682968e267135dae0a2a5b09040a7b07b74743ff308bb4d"
+      },
+      {
+        "bytes": 13357,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo2_3.svg",
+        "sha256": "2bcc1a685d2918bd770b28cd106fc2ca1c8eaf8a70806632715e12be98185f86"
+      },
+      {
+        "bytes": 4887,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo2_1.svg",
+        "sha256": "437d282969537a324f5525108fe61c2891c2bf9b351a3f0fa18de4010c3b0275"
+      },
+      {
+        "bytes": 95289,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo8.svg",
+        "sha256": "acc74e8b3e9ddf035e8e6ebc5418565fb84ab37be7d340ebf5e67b0e6d4565ce"
+      },
+      {
+        "bytes": 17800,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo9.svg",
+        "sha256": "98acfb489048a806f60d33d659c178f6ca512153e1bc3d15f8f4c3d32b915521"
+      },
+      {
+        "bytes": 7058,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo6.svg",
+        "sha256": "bad9a856660340c8e2fc66f706b08a613574e0742dc6881e22f2c33cf2f4f048"
+      },
+      {
+        "bytes": 28527,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo7.svg",
+        "sha256": "6a2c4d3ade15801819c409624fe47f6f501a9a17473b99e3d0a9cade2b04bf8d"
+      },
+      {
+        "bytes": 53121,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo4.svg",
+        "sha256": "dc6b42ebe937bdc62eeb50bb7258e870dd029af2ca06d96d55350d702713382c"
+      },
+      {
+        "bytes": 40896,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo5.svg",
+        "sha256": "2235cbf466571c0fb44872a38c81008bf6905c95e264fe771e31cd85881bb7fe"
+      },
+      {
+        "bytes": 91777,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo2.svg",
+        "sha256": "cc170260743f70695bb7793349716a07b6b5899fbb0abab64acc39a350fb7fe1"
+      },
+      {
+        "bytes": 35838,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo3.svg",
+        "sha256": "1ef1238b91b06652afddd172c920b676ccf556212fea5c30b099747980d488aa"
+      },
+      {
+        "bytes": 53691,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo1.svg",
+        "sha256": "8b53fb4d532d286ef24a86b8090fbd701d36ca387be3fccf213072b55a970227"
+      },
+      {
+        "bytes": 1313,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_2.svg",
+        "sha256": "f277cf39c763667408cc868ec1ccebc7f60c5c8d5b653da5e4dfe541bafbec46"
+      },
+      {
+        "bytes": 1732,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_4.svg",
+        "sha256": "f808e0baa100bdb10af1c132642ceb826c0b29484f5df3d6548b6cf4f63c840d"
+      },
+      {
+        "bytes": 3071,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_3.svg",
+        "sha256": "c51033c65f99a13fffa70dcb110c23cb03bfb0465f76644b9ce97cac00cac00b"
+      },
+      {
+        "bytes": 3025,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_1.svg",
+        "sha256": "708712005389345d620763fa94c0b70cd73fe1255e53117c7c618dd7266dab5e"
+      }
+    ]
+  },
+  "guesscount": {
+    "sha256": "6acbe79c57816e17605c8be2583821635ea4af990c15beb7364d14a3c30a783e",
+    "argv": [
+      "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/visual-origin/share/gcompris-qt/rcc/guesscount.rcc",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/canonical/guesscount/files"
+    ],
+    "exit_code": 0,
+    "files": [
+      {
+        "bytes": 2609,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/Tile.qml",
+        "sha256": "e8181d3f3773646a2711c29536509b76eec2c298f00b8837043ed1a78a2f71fe"
+      },
+      {
+        "bytes": 1369,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/OperatorRow.qml",
+        "sha256": "4d9613489b1d5a85985b60b591d3b5d1895476f86fb4804b6d7f35a5e9931652"
+      },
+      {
+        "bytes": 3487,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/Admin.qml",
+        "sha256": "2bb8703a495fdfeb3abd7704c7c82d990450e67e57fec763a1d5476bd09e0ae7"
+      },
+      {
+        "bytes": 1360,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/OperandRow.qml",
+        "sha256": "aff8132c007cebc107c35690576b527b86648f1e3ec7b127806a843895292708"
+      },
+      {
+        "bytes": 1117,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/ActivityInfo.qml",
+        "sha256": "e3a11120ee2bd37314790f5d900acba9031ed2d25c2eafa97640a96ba0318990"
+      },
+      {
+        "bytes": 5743,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/OperationRow.qml",
+        "sha256": "d16846cc3b4efd3907a33c6f526389a059d5399e8f5353a4e0283f26508e0779"
+      },
+      {
+        "bytes": 2836,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/dataset.js",
+        "sha256": "1eebca52ba9802f3794df0eadb56b8782331faba6a0adc94502811a904a6f482"
+      },
+      {
+        "bytes": 1067,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/DropTile.qml",
+        "sha256": "66876df50cf44eb79c5f9a713f24973a634fdab539b3f371e896df4dc3dc17b6"
+      },
+      {
+        "bytes": 955,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/DragTile.qml",
+        "sha256": "16c69a12994b1f188e0bd21752db2e6405f8963e6943d6545ffb82bc7a4b2ecb"
+      },
+      {
+        "bytes": 6841,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/guesscount.js",
+        "sha256": "03cc028b7346223bf45d25f7fc40cf611b422b891dede38a418d78447a8e11d8"
+      },
+      {
+        "bytes": 4031,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/ActivityConfig.qml",
+        "sha256": "47df9ac3f7a915150378218ac9edd378a653cfdbae3b6c48cbecf3d2bbf5d236"
+      },
+      {
+        "bytes": 1384,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/resource/1/Data.qml",
+        "sha256": "48d04603bc4fa4f639cfdd001ea20500ad00fae0daef8a97a60feb7fbf1ff060"
+      },
+      {
+        "bytes": 1351,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/resource/2/Data.qml",
+        "sha256": "615be232bf606d43400efdc3a54e530fbbf679114623f759c00606dfd7de1b11"
+      },
+      {
+        "bytes": 974,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/resource/3/Data.qml",
+        "sha256": "6d2d323c504a85afa3fc64df4ed9d9a7a9e5d7b5c60d5e02daea4afd060eb926"
+      },
+      {
+        "bytes": 923,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/resource/4/Data.qml",
+        "sha256": "e9b245d90411aa1e3a8c924512eec872747feadc4c828da5eee1cca178f78149"
+      },
+      {
+        "bytes": 28520,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/resource/backgroundW02.svg",
+        "sha256": "019473de6b74fcd9d1c0efc5efea71dc72988d1986e1a0494c4feec5c2ea3d70"
+      },
+      {
+        "bytes": 28203,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/resource/backgroundW01.svg",
+        "sha256": "c44652c1a1e602ab34ca848d9124eeee551f3722aa5f62e2fa825c4bc969df69"
+      },
+      {
+        "bytes": 10680,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/Guesscount.qml",
+        "sha256": "b84845b56694cb434ed8453c667233ce90573ac30e2af0a86267157a24d28ccd"
+      },
+      {
+        "bytes": 22150,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/guesscount/guesscount.svg",
+        "sha256": "3a57e397231bce2194c2b811a8d0e7b09db22f3c80fb8d533c99fbbf32039411"
+      }
+    ]
+  },
+  "tic_tac_toe": {
+    "sha256": "8042bfac980225bae98ce7227a3a2ca44f90ceb8789e44f0e80721d010f8741d",
+    "argv": [
+      "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/visual-origin/share/gcompris-qt/rcc/tic_tac_toe.rcc",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/canonical/tic_tac_toe/files"
+    ],
+    "exit_code": 0,
+    "files": [
+      {
+        "bytes": 1016,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/tic_tac_toe/ActivityInfo.qml",
+        "sha256": "39211bc3f50188b21f95ae76c27b8037722e65d8d817f31eeb188f2c73df3222"
+      },
+      {
+        "bytes": 12882,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/tic_tac_toe/tic_tac_toe.svg",
+        "sha256": "611300062f177b030f53398864c1fe12cd4bd35cf88eb866fef0ee77a0c23c2c"
+      },
+      {
+        "bytes": 17421,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/tic_tac_toe/tic_tac_toe.js",
+        "sha256": "bc458902e00edb3b3a13a2ccaba8e013a019673239e1c3a380216acd54c40f2f"
+      },
+      {
+        "bytes": 956,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/tic_tac_toe/Piece.qml",
+        "sha256": "846ac4f36f8b37da952821da4b1e442aabe4d34147572f77158b74e5d16d8407"
+      },
+      {
+        "bytes": 2055,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/tic_tac_toe/resource/cross.svg",
+        "sha256": "e8615ebb95d45c4bf378f64eca3b85da22a2247efe81dac03af9045eb7fde793"
+      },
+      {
+        "bytes": 62874,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/tic_tac_toe/resource/background.svg",
+        "sha256": "2b239f03ee642bb4b720c15ad65621cc03eff20a256e8efeca06b7ef817bef63"
+      },
+      {
+        "bytes": 3892,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/tic_tac_toe/resource/board.svg",
+        "sha256": "254fbec7011f4e70c8813afee5c8039d3d01422b53f3c9b8a7eef536b472c2f6"
+      },
+      {
+        "bytes": 1778,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/tic_tac_toe/resource/circle.svg",
+        "sha256": "cbb6e30cc30e6f581e5f4b586a819bb60dd5dc17024c7674366520455a8db94a"
+      },
+      {
+        "bytes": 2135,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/tic_tac_toe/resource/score_1.svg",
+        "sha256": "5b91666ba86500edfd9c35a398e62fa2da6da4f2ad05f1ebfb9bdccf86034a1c"
+      },
+      {
+        "bytes": 2136,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/tic_tac_toe/resource/score_2.svg",
+        "sha256": "9d227f8c103e656329a5b028e0c5f7890ed10dfe2811775447d3da0b42e7eb45"
+      },
+      {
+        "bytes": 9316,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/tic_tac_toe/TicTacToe.qml",
+        "sha256": "8896755a709e557f2d408b2447ef450caae1e7be14a6ec966bc836baea81e103"
+      }
+    ]
+  }
+}

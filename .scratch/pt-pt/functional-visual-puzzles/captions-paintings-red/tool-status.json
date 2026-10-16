@@ -1,0 +1,9 @@
+{
+  "format": 1,
+  "kind": "observed-supervisor-return-after-wait",
+  "exit_code": 1,
+  "case_sha256": "8613c33e9c56d61b52e754e690ca0f0caebddc0ecfab1f113ead3b738ad2851b",
+  "native_receipt_sha256": "348157d865fdf81d4c50f98dc4dda73f4dcf90fb5aa63b00a07e290859ae75e4",
+  "launcher_status_sha256": "81dee85b098598424022bc1a0f9db3de6660fbd088ac2e13fc5ecc8c193e8149",
+  "capture_sha256": "cab130d83efb8a678a117b7a8eaa5b396a50c5eaa30003d58a0c14dc74d12ad4"
+}

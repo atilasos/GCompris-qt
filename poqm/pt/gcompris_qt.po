@@ -7205,7 +7205,7 @@ msgstr "Moinho em Sønderho, Fanø, Dinamarca"
 #: activities/details/resource/board/board18_0.qml:14
 msgctxt "board18_0|"
 msgid "Nagoya Castle, Aichi Prefecture, Japan."
-msgstr "Castelo Nagoya, Câmara Municipal de Aichi, Japão."
+msgstr "Castelo de Nagoya, prefeitura de Aichi, Japão."
 
 #: activities/details/resource/board/board19_0.qml:14
 msgctxt "board19_0|"
@@ -22509,12 +22509,12 @@ msgstr ""
 #: activities/paintings/resource/board/board11_0.qml:14
 msgctxt "board11_0|"
 msgid "Katsushika Hokusa, Poppies - 1833-1834"
-msgstr "Katsushika Hokusa, Papoilas - 1833-1834"
+msgstr "Katsushika Hokusai, Papoilas - 1833-1834"
 
 #: activities/paintings/resource/board/board12_0.qml:14
 msgctxt "board12_0|"
 msgid "Katsushika Hokusai, Kazusa sea Route - 1830."
-msgstr "Katsushika Hokusai, Marginal de Kazusa - 1830."
+msgstr "Katsushika Hokusai, No mar ao largo de Kazusa - c. 1830-1832"
 
 #: activities/paintings/resource/board/board13_0.qml:14
 msgctxt "board13_0|"
@@ -22539,7 +22539,7 @@ msgstr "Albrecht Dürer, Leão - 1494"
 #: activities/paintings/resource/board/board17_0.qml:14
 msgctxt "board17_0|"
 msgid "Pieter Brugel, The Harvesters - 1565"
-msgstr "Pieter Brugel, Os Agricultores - 1565"
+msgstr "Pieter Bruegel, o Velho, Os Ceifeiros - 1565"
 
 #: activities/paintings/resource/board/board18_0.qml:14
 msgctxt "board18_0|"
@@ -22599,13 +22599,12 @@ msgstr "Katsushika Hokusai, Ejiri na Província de Suruga - 1830-1833"
 #: activities/paintings/resource/board/board7_0.qml:14
 msgctxt "board7_0|"
 msgid "Katsushika Hokusai, The Great Wave off Kanagawa - 1823-1829"
-msgstr "Katsushika Hokusai, A Grande Onda de Kanagawa - 1823-1829"
+msgstr "Katsushika Hokusai, A Grande Onda de Kanagawa - c. 1830-1832"
 
 #: activities/paintings/resource/board/board8_0.qml:14
 msgctxt "board8_0|"
 msgid "Utagawa Hiroshige, The Benzaiten Shrine at Inokashira in Snow - 1760-70"
-msgstr ""
-"Utagawa Hiroshige, O Templo de Benzaiten em Inokashira sob a Neve - 1760-70"
+msgstr "Utagawa Hiroshige, O Templo de Benzaiten em Inokashira sob a Neve"
 
 #: activities/paintings/resource/board/board9_0.qml:14
 msgctxt "board9_0|"

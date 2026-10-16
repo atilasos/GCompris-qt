@@ -1,0 +1,71 @@
+{
+  "kind": "root-recorded-tools-exec-or-write-stdin-completion",
+  "scope": "Observed external return of run.py; not copied from inner status; historical session/chunk references recorded after actual completion",
+  "runs": {
+    "inventory-details": {
+      "session_id": 88623,
+      "output_chunk": "771004",
+      "exit_code": 0
+    },
+    "inventory-paintings": {
+      "session_id": 57834,
+      "output_chunk": "64391e",
+      "exit_code": 0
+    },
+    "inventory-photo_hunter": {
+      "session_id": 85315,
+      "output_chunk": "f69bab",
+      "exit_code": 0
+    },
+    "calibrate-paintings": {
+      "session_id": 68597,
+      "output_chunk": "e6fdd6",
+      "exit_code": 0
+    },
+    "photo-complete1": {
+      "session_id": 36097,
+      "output_chunk": "a26da6",
+      "exit_code": 0
+    },
+    "details-complete1": {
+      "session_id": 63841,
+      "output_chunk": "c81bcf",
+      "exit_code": 1
+    },
+    "details-diagnostic1": {
+      "session_id": 89606,
+      "output_chunk": "0fc23d",
+      "exit_code": 1
+    },
+    "details-complete2": {
+      "session_id": 78641,
+      "output_chunk": "869305",
+      "exit_code": 0
+    },
+    "paintings-pilot1": {
+      "session_id": 25001,
+      "output_chunk": "cfe5f9",
+      "exit_code": 0
+    },
+    "controls-details1": {
+      "session_id": 93454,
+      "output_chunk": "38814e",
+      "exit_code": 0
+    },
+    "controls-photo1": {
+      "session_id": 70825,
+      "output_chunk": "8bbdc0",
+      "exit_code": 1
+    },
+    "controls-paintings1": {
+      "session_id": 93739,
+      "output_chunk": "e7bb65",
+      "exit_code": 0
+    },
+    "controls-photo2": {
+      "session_id": 17518,
+      "output_chunk": "a90567",
+      "exit_code": 0
+    }
+  }
+}

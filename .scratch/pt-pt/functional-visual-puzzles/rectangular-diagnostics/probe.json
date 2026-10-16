@@ -1,0 +1,83 @@
+{
+  "scope": "Recomputed pixels; no Qt execution or native completion claimed",
+  "manifest_sha256": "3982bdad81ae83e732746ed58159774c451f1d212ab323a38b19221766598414",
+  "source_sha256": {
+    "solver.py": "276b0ba294927f19e5ece7a9260dfd3e708bf0d8b06b3860866134a6b56edbe6",
+    "probe.py": "f01de315fe3fbd867833f12542a4861874ddc58047432e1f9ad5a3a259f192ed",
+    "__init__.py": "03f2b3b54ca298ddbe43dc2326cf1d7974a3dea29a903be320a0f37ed41cb38a"
+  },
+  "parameters": {
+    "max_permutations": 40320
+  },
+  "result": {
+    "mapping": {
+      "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_1.webp": 0,
+      "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_2.webp": 1,
+      "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_3.webp": 2,
+      "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_4.webp": 3,
+      "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_5.webp": 4,
+      "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_6.webp": 5
+    },
+    "diagnostics": {
+      "method": "unanimous RGB edge-strip minima",
+      "strips": [
+        {
+          "width": 2,
+          "cost": 8665.798495879144,
+          "runner_up_cost": 13027.879665559829
+        },
+        {
+          "width": 4,
+          "cost": 8199.19495787804,
+          "runner_up_cost": 16137.87107102701
+        },
+        {
+          "width": 8,
+          "cost": 11724.369910983913,
+          "runner_up_cost": 14482.334319951524
+        }
+      ],
+      "permutations_per_strip": 720,
+      "max_permutations": 40320,
+      "adjacencies": 7,
+      "grid": [
+        3,
+        2
+      ]
+    },
+    "geometry": {
+      "scale": 1.0113960113960114,
+      "canvas_size": [
+        702.0,
+        515.0
+      ],
+      "visible_slots_in_canvas_pixels": [
+        [
+          148.82399999999998,
+          145.74499999999998
+        ],
+        [
+          351.70199999999994,
+          145.74499999999998
+        ],
+        [
+          555.282,
+          145.74499999999998
+        ],
+        [
+          148.82399999999998,
+          326.51
+        ],
+        [
+          351.70199999999994,
+          326.51
+        ],
+        [
+          555.282,
+          326.51
+        ]
+      ],
+      "position_semantics": "public centres; calibration destination unused"
+    }
+  }
+}

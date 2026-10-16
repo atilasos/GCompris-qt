@@ -39,3 +39,11 @@ negativas físicas/coerentemente recalculadas/vazio, normal e -O ou recusa
 explícita e proteção contra saída existente. Não transferir aprovação das 32
 vozes aos sons deste lote. Windows, dispositivos, audição, revisão docente,
 estabilidade da tarefa 83 e aceitação global permanecem pendentes.
+
+## Entrega para revisão
+
+Review: ready-for-review
+
+Os três percursos finais concluem 53 tabuleiros, 367 peças e 35 diferenças, com 53 tentativas erradas reparadas e menu após sucesso. Controlos e conjuntos, seis legendas vermelho/verde, recursos, fontes congeladas e 19 execuções originais estão preservados. A única alteração de produto são seis msgstr PT.
+
+[Provas físicas e limites](../functional-visual-puzzles/README.md). Auditor puro portátil normal/-O e oito testes por modo passaram. Cápsula com âncora literal cdf300b3f90eae851ba51dfcf2fa5e20b6a42c8edeea9e65402ae02700ff0dc2. Todo processo nativo e supervisor foi aguardado. Progress permanece claimed até integração e revisões independentes. Windows, docente, audição, dispositivos, investigação 83 e critérios globais continuam pendentes.

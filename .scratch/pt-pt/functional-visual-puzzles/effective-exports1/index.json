@@ -1,0 +1,4042 @@
+{
+  "runs": {
+    "inventory-details": {
+      "source_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/functional-visual-puzzles/sources/e5ff2308fd0564b5f4b84045cc2cdbb7722d25b5",
+      "rcc": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/inventory-details/resource.rcc",
+      "qm": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/inventory-details/gcompris_qt_pt.qm",
+      "rcc_sha256": "39f613bbb71c18ce65fd1f74f6ee0879b65ff99ad03a431e3c33f8b3d00ea31e",
+      "qm_sha256": "3a5e991a20a0d1e97c7db9051c675857756249dfe347618afe3ba6166236bd1d",
+      "files_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/inventory-details/files",
+      "argv": [
+        "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/inventory-details/resource.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/inventory-details/files"
+      ],
+      "exit_code": 0,
+      "inspector_sha256": "5d55cc133d58968668d1dfc6a5b31afac7503dc3a18499009130ed1820fc7b11",
+      "files": [
+        {
+          "bytes": 1494,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/TextItem.qml",
+          "sha256": "a7ca5817941bd84fcd9c8aadbbb0dc946038c838540662f3e84a2b4479269fee"
+        },
+        {
+          "bytes": 13221,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/DragListItem.qml",
+          "sha256": "42730253a5feedb5ea596bb4e5a1a9f1724cacdb6b2c27abee828514869f1f58"
+        },
+        {
+          "bytes": 2893,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/DropAnswerItem.qml",
+          "sha256": "40bbb13c46de204a6b35454906e618fc3677c8121b44948cb7d1044d40aa5029"
+        },
+        {
+          "bytes": 1726,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/ActivityInfo.qml",
+          "sha256": "7c3f2156b759d5b2f2de9363e7798333356766aeabc8bbe40e50211284c4605e"
+        },
+        {
+          "bytes": 11464,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/babymatch.js",
+          "sha256": "ee6ce5c08876578cf5c9d922fc35e781ae5d5a6fc3d12b01667f47f6a0a44101"
+        },
+        {
+          "bytes": 18086,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/Babymatch.qml",
+          "sha256": "efaf9a39510e8ce9276c52fa0b7beda0f54c6c91ccabbb08070fb628ece37f41"
+        },
+        {
+          "bytes": 3809,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/babymatch.svg",
+          "sha256": "97c7db3030a061825ba54fa403261a2b4b11040d1b7ea3c1daf920b7a281ff52"
+        },
+        {
+          "bytes": 12423,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/ListWidget.qml",
+          "sha256": "495de9e21f117ace6f21c3b7fceecf362c3f90a07c030598c039963479d18434"
+        },
+        {
+          "bytes": 1467,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board7_0.qml",
+          "sha256": "ae47693b7b94d1c6d87701b344ba901ca880371a9f6919323b7cdc6320cbd187"
+        },
+        {
+          "bytes": 1471,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board3_0.qml",
+          "sha256": "fbddf81031a233733d8e3d6fbc31cfc31a04df4e3c4e72e7b2572c7764d4ee2c"
+        },
+        {
+          "bytes": 1475,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board5_0.qml",
+          "sha256": "3106ce5d7e437b42bf3fd19eb274b85117c8431c68059bb76cebf25675d05c58"
+        },
+        {
+          "bytes": 1461,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board4_0.qml",
+          "sha256": "ae592a4d8090029e03d1a8af4fbf654478e2150d496affc2cb973930fbb9404c"
+        },
+        {
+          "bytes": 1479,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board6_0.qml",
+          "sha256": "7907c5bae3994ac1d46e483d5a2020d69695ba99e25aab5a1cdf7b3105290e6a"
+        },
+        {
+          "bytes": 1560,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board1_0.qml",
+          "sha256": "e6535ffd44ca8ca77ea22c9e5e9ea2dbe332c6f4f7aa9ff3b6be03f477b61143"
+        },
+        {
+          "bytes": 1467,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board2_0.qml",
+          "sha256": "cca7bdd8da09475c22b08c063db6680be1d295283d4d48c483a3c12d8af69091"
+        },
+        {
+          "bytes": 6763,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/postpoint.svg",
+          "sha256": "53aa5adada7542230493e858598c21a0a24ce5b77e4dc3d2482da87ba44c54a2"
+        },
+        {
+          "bytes": 7884,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lighthouse.svg",
+          "sha256": "98dd0321857472822680879d679c2fabe15c6a7efb3670e83898d5d0e959dd47"
+        },
+        {
+          "bytes": 8838,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/raquette.svg",
+          "sha256": "81c04f55a5dd6d1272cc2299e74fed78475ff3d1abb2493ec73f05c023c0c3ad"
+        },
+        {
+          "bytes": 9170,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sofa.svg",
+          "sha256": "59ae648047800588fe38303b3fa52ace376e6634db20ab18be91e7fd588fdaa5"
+        },
+        {
+          "bytes": 4973,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sailingboat.svg",
+          "sha256": "618562a8dbfd160d96060364a388e1d801a4e32e283faadaa24c84cd9ab64969"
+        },
+        {
+          "bytes": 5725,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lifebuoy.svg",
+          "sha256": "8fff6eaccbdfcc3e9cdec420ef5b112a0cb7921b19eeed97c3ba98613f369caa"
+        },
+        {
+          "bytes": 10544,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/fishingboat.svg",
+          "sha256": "eaf3c5504f2810632b6d32f8cb951e3646351e689600396c743684f42bc25db0"
+        },
+        {
+          "bytes": 25886,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/postcard.svg",
+          "sha256": "96ca24e995543e283f7f1e2629185102af0db56c4e5fbefefb81e0a7d2b3a7b2"
+        },
+        {
+          "bytes": 15462,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/crown.svg",
+          "sha256": "570da15bae9ee6c3b58bb23fa044efe4b10fba220726bea1f0fb0521f85b7986"
+        },
+        {
+          "bytes": 3543,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/apple.svg",
+          "sha256": "fc811e855f88a40cd4169140d7bc3e5e2b9ca6a152a3c373e746e42ba8e6051f"
+        },
+        {
+          "bytes": 1344,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/eggpot.svg",
+          "sha256": "b28936c06281e2aca7a8ee58895028ea8b115676dddac0e5836e27458de1a362"
+        },
+        {
+          "bytes": 10426,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tuxhelico.svg",
+          "sha256": "379899731882cc4c8e7cb707ca3405068fde7343374e467e1ee3582e01c9ec08"
+        },
+        {
+          "bytes": 2995,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lamp.svg",
+          "sha256": "3fa4422bfca657368496273fb2cd0af83cdd47a824dccf284c662423bbd86523"
+        },
+        {
+          "bytes": 4267,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/rape.svg",
+          "sha256": "660150ba6e1c918da3a974f8607fe08b63166dc891e9ff5c9cae80501eb3d514"
+        },
+        {
+          "bytes": 3324,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/glass.svg",
+          "sha256": "80d618cd77bd101827d857f95baec7e5afd5084407f7a44c47ed104c321bbbfd"
+        },
+        {
+          "bytes": 5672,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tree.svg",
+          "sha256": "16551b669a0adc083805f200894f802cf2627be3cb4b39b5ee59ae6b0b702320"
+        },
+        {
+          "bytes": 4235,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/carrot.svg",
+          "sha256": "dfba5b5699a486b4e228971ef80378a12950a239226093b1d2ef7a96b25c3699"
+        },
+        {
+          "bytes": 9428,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/car.svg",
+          "sha256": "021d4de18d942f8e5e0b8299ed27c23fecd17e8aae33d4b21c36f9b06d08a120"
+        },
+        {
+          "bytes": 12247,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/fusee.svg",
+          "sha256": "ede081cd0c7bc7fb731a98ac55527a77fc184d7776ecafeea862e51b0d35e770"
+        },
+        {
+          "bytes": 3291,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/pencil.svg",
+          "sha256": "6b29ee4b260dc0d6a35f752031ba714a41ca74fede435793601a9db43b6d6d87"
+        },
+        {
+          "bytes": 1835,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/star.svg",
+          "sha256": "f45fdf1819127a6be2f9dec19472362fd3125c3414f76b6a5e21df8590ec18ec"
+        },
+        {
+          "bytes": 4779,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sun.svg",
+          "sha256": "df66c5c2fc584e7af7477a1eee4c3774fd8fe8018c56a8582334f883893d94c7"
+        },
+        {
+          "bytes": 12275,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bicycle.svg",
+          "sha256": "747c0f0c08701e2c9a7dab69341cae6b72580ec2babed58bee3c7c5ef1aaf652"
+        },
+        {
+          "bytes": 7741,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/castle.svg",
+          "sha256": "2ff5642d05e04577540f1b5c637000c6773c253bcc1d66372965aca6f7c46c32"
+        },
+        {
+          "bytes": 3371,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bottle.svg",
+          "sha256": "e666d4474e3e0a7311c895e9f1f26e67b2547a4f949f3f331daaa51b2aff2775"
+        },
+        {
+          "bytes": 41034,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tuxplane.svg",
+          "sha256": "8855c312856adc60e36d09b3d2af6f44e3921f5f96a617737abbb8ba8e660e6a"
+        },
+        {
+          "bytes": 12554,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/truck.svg",
+          "sha256": "b7559e931195f6d4f3cef108d64e06503bf01e6efca9d3b065564672fd56c72e"
+        },
+        {
+          "bytes": 2142,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/windflag5.svg",
+          "sha256": "cb38d0ab0cc0a13ded12c77c6026c456b3a5db14368b95860a6e29629c16b725"
+        },
+        {
+          "bytes": 1136,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/egg.svg",
+          "sha256": "be528e56c47971668f6d17a34b70546ca8aab9a6dd0e029086d396618dd2451c"
+        },
+        {
+          "bytes": 3824,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bell.svg",
+          "sha256": "f8c15434453a0be46b444b5cceab32926470c3dee93ee8256fcbe39a6f3ae0b2"
+        },
+        {
+          "bytes": 6678,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sound.svg",
+          "sha256": "afe1012f990a5ff363f6043446f38f0566e4789bd8d8cfcaaa078a496b45cca3"
+        },
+        {
+          "bytes": 5665,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/house.svg",
+          "sha256": "7725c49d8fc55df721a8ffd3839f74b664eb358c6220d4340142fe0013eb81b1"
+        },
+        {
+          "bytes": 8507,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/minivan.svg",
+          "sha256": "ea92a9d0a655de7e875b63ad984e845d7f27fcf0cc82cb42c31de9946e230f99"
+        },
+        {
+          "bytes": 2243,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/flowerpot.svg",
+          "sha256": "2cee1bdcdd1beeb2896e3feda12f132b6447987d080fd02747f35b374854b712"
+        },
+        {
+          "bytes": 4904,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/football.svg",
+          "sha256": "7f46068fd6920afd1e231abc12d0107ccf98cc453d9124291ef2b947b789a0af"
+        },
+        {
+          "bytes": 8837,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/flower.svg",
+          "sha256": "31c835da606d89830c6bfe2fed6a52cba1002dcd888ab7ad8bb861c16803b927"
+        },
+        {
+          "bytes": 3466,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/light.svg",
+          "sha256": "f613f35d7d30effde6b9b66efdbc73c20a5531ef2552970fc8fb7fd98ede9eca"
+        },
+        {
+          "bytes": 2570,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/error.svg",
+          "sha256": "2d4922d68965df10f4492f212225469e3f732b9819a16b9cf39de9f79ac2ea0d"
+        },
+        {
+          "bytes": 426,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/CMakeLists.txt",
+          "sha256": "adbd0f01ca9c6b2a5ab421ef0b4d395045fee362cf8890bca7ce9f8657d71951"
+        }
+      ]
+    },
+    "inventory-paintings": {
+      "source_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/functional-visual-puzzles/sources/e5ff2308fd0564b5f4b84045cc2cdbb7722d25b5",
+      "rcc": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/inventory-paintings/resource.rcc",
+      "qm": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/inventory-paintings/gcompris_qt_pt.qm",
+      "rcc_sha256": "8e9618af7355561a0a86dc071cc64f6fb9c2ad141ecf8da84418688bcfb15ee3",
+      "qm_sha256": "3a5e991a20a0d1e97c7db9051c675857756249dfe347618afe3ba6166236bd1d",
+      "files_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/inventory-paintings/files",
+      "argv": [
+        "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/inventory-paintings/resource.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/inventory-paintings/files"
+      ],
+      "exit_code": 0,
+      "inspector_sha256": "5d55cc133d58968668d1dfc6a5b31afac7503dc3a18499009130ed1820fc7b11",
+      "files": [
+        {
+          "bytes": 1494,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/TextItem.qml",
+          "sha256": "a7ca5817941bd84fcd9c8aadbbb0dc946038c838540662f3e84a2b4479269fee"
+        },
+        {
+          "bytes": 13221,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/DragListItem.qml",
+          "sha256": "42730253a5feedb5ea596bb4e5a1a9f1724cacdb6b2c27abee828514869f1f58"
+        },
+        {
+          "bytes": 2893,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/DropAnswerItem.qml",
+          "sha256": "40bbb13c46de204a6b35454906e618fc3677c8121b44948cb7d1044d40aa5029"
+        },
+        {
+          "bytes": 1726,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/ActivityInfo.qml",
+          "sha256": "7c3f2156b759d5b2f2de9363e7798333356766aeabc8bbe40e50211284c4605e"
+        },
+        {
+          "bytes": 11464,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/babymatch.js",
+          "sha256": "ee6ce5c08876578cf5c9d922fc35e781ae5d5a6fc3d12b01667f47f6a0a44101"
+        },
+        {
+          "bytes": 18088,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/Babymatch.qml",
+          "sha256": "84b470f2d91e83238c2481ff2b6859b0e02cae113d2024b5b6be4bcb7d1897df"
+        },
+        {
+          "bytes": 3809,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/babymatch.svg",
+          "sha256": "97c7db3030a061825ba54fa403261a2b4b11040d1b7ea3c1daf920b7a281ff52"
+        },
+        {
+          "bytes": 12423,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/ListWidget.qml",
+          "sha256": "495de9e21f117ace6f21c3b7fceecf362c3f90a07c030598c039963479d18434"
+        },
+        {
+          "bytes": 1467,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board7_0.qml",
+          "sha256": "ae47693b7b94d1c6d87701b344ba901ca880371a9f6919323b7cdc6320cbd187"
+        },
+        {
+          "bytes": 1471,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board3_0.qml",
+          "sha256": "fbddf81031a233733d8e3d6fbc31cfc31a04df4e3c4e72e7b2572c7764d4ee2c"
+        },
+        {
+          "bytes": 1475,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board5_0.qml",
+          "sha256": "3106ce5d7e437b42bf3fd19eb274b85117c8431c68059bb76cebf25675d05c58"
+        },
+        {
+          "bytes": 1461,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board4_0.qml",
+          "sha256": "ae592a4d8090029e03d1a8af4fbf654478e2150d496affc2cb973930fbb9404c"
+        },
+        {
+          "bytes": 1479,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board6_0.qml",
+          "sha256": "7907c5bae3994ac1d46e483d5a2020d69695ba99e25aab5a1cdf7b3105290e6a"
+        },
+        {
+          "bytes": 1560,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board1_0.qml",
+          "sha256": "e6535ffd44ca8ca77ea22c9e5e9ea2dbe332c6f4f7aa9ff3b6be03f477b61143"
+        },
+        {
+          "bytes": 1467,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board2_0.qml",
+          "sha256": "cca7bdd8da09475c22b08c063db6680be1d295283d4d48c483a3c12d8af69091"
+        },
+        {
+          "bytes": 6763,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/postpoint.svg",
+          "sha256": "53aa5adada7542230493e858598c21a0a24ce5b77e4dc3d2482da87ba44c54a2"
+        },
+        {
+          "bytes": 7884,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lighthouse.svg",
+          "sha256": "98dd0321857472822680879d679c2fabe15c6a7efb3670e83898d5d0e959dd47"
+        },
+        {
+          "bytes": 8838,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/raquette.svg",
+          "sha256": "81c04f55a5dd6d1272cc2299e74fed78475ff3d1abb2493ec73f05c023c0c3ad"
+        },
+        {
+          "bytes": 9170,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sofa.svg",
+          "sha256": "59ae648047800588fe38303b3fa52ace376e6634db20ab18be91e7fd588fdaa5"
+        },
+        {
+          "bytes": 4973,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sailingboat.svg",
+          "sha256": "618562a8dbfd160d96060364a388e1d801a4e32e283faadaa24c84cd9ab64969"
+        },
+        {
+          "bytes": 5725,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lifebuoy.svg",
+          "sha256": "8fff6eaccbdfcc3e9cdec420ef5b112a0cb7921b19eeed97c3ba98613f369caa"
+        },
+        {
+          "bytes": 10544,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/fishingboat.svg",
+          "sha256": "eaf3c5504f2810632b6d32f8cb951e3646351e689600396c743684f42bc25db0"
+        },
+        {
+          "bytes": 25886,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/postcard.svg",
+          "sha256": "96ca24e995543e283f7f1e2629185102af0db56c4e5fbefefb81e0a7d2b3a7b2"
+        },
+        {
+          "bytes": 15462,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/crown.svg",
+          "sha256": "570da15bae9ee6c3b58bb23fa044efe4b10fba220726bea1f0fb0521f85b7986"
+        },
+        {
+          "bytes": 3543,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/apple.svg",
+          "sha256": "fc811e855f88a40cd4169140d7bc3e5e2b9ca6a152a3c373e746e42ba8e6051f"
+        },
+        {
+          "bytes": 1344,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/eggpot.svg",
+          "sha256": "b28936c06281e2aca7a8ee58895028ea8b115676dddac0e5836e27458de1a362"
+        },
+        {
+          "bytes": 10426,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tuxhelico.svg",
+          "sha256": "379899731882cc4c8e7cb707ca3405068fde7343374e467e1ee3582e01c9ec08"
+        },
+        {
+          "bytes": 2995,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lamp.svg",
+          "sha256": "3fa4422bfca657368496273fb2cd0af83cdd47a824dccf284c662423bbd86523"
+        },
+        {
+          "bytes": 4267,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/rape.svg",
+          "sha256": "660150ba6e1c918da3a974f8607fe08b63166dc891e9ff5c9cae80501eb3d514"
+        },
+        {
+          "bytes": 3324,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/glass.svg",
+          "sha256": "80d618cd77bd101827d857f95baec7e5afd5084407f7a44c47ed104c321bbbfd"
+        },
+        {
+          "bytes": 5672,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tree.svg",
+          "sha256": "16551b669a0adc083805f200894f802cf2627be3cb4b39b5ee59ae6b0b702320"
+        },
+        {
+          "bytes": 4235,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/carrot.svg",
+          "sha256": "dfba5b5699a486b4e228971ef80378a12950a239226093b1d2ef7a96b25c3699"
+        },
+        {
+          "bytes": 9428,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/car.svg",
+          "sha256": "021d4de18d942f8e5e0b8299ed27c23fecd17e8aae33d4b21c36f9b06d08a120"
+        },
+        {
+          "bytes": 12247,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/fusee.svg",
+          "sha256": "ede081cd0c7bc7fb731a98ac55527a77fc184d7776ecafeea862e51b0d35e770"
+        },
+        {
+          "bytes": 3291,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/pencil.svg",
+          "sha256": "6b29ee4b260dc0d6a35f752031ba714a41ca74fede435793601a9db43b6d6d87"
+        },
+        {
+          "bytes": 1835,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/star.svg",
+          "sha256": "f45fdf1819127a6be2f9dec19472362fd3125c3414f76b6a5e21df8590ec18ec"
+        },
+        {
+          "bytes": 4779,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sun.svg",
+          "sha256": "df66c5c2fc584e7af7477a1eee4c3774fd8fe8018c56a8582334f883893d94c7"
+        },
+        {
+          "bytes": 12275,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bicycle.svg",
+          "sha256": "747c0f0c08701e2c9a7dab69341cae6b72580ec2babed58bee3c7c5ef1aaf652"
+        },
+        {
+          "bytes": 7741,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/castle.svg",
+          "sha256": "2ff5642d05e04577540f1b5c637000c6773c253bcc1d66372965aca6f7c46c32"
+        },
+        {
+          "bytes": 3371,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bottle.svg",
+          "sha256": "e666d4474e3e0a7311c895e9f1f26e67b2547a4f949f3f331daaa51b2aff2775"
+        },
+        {
+          "bytes": 41034,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tuxplane.svg",
+          "sha256": "8855c312856adc60e36d09b3d2af6f44e3921f5f96a617737abbb8ba8e660e6a"
+        },
+        {
+          "bytes": 12554,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/truck.svg",
+          "sha256": "b7559e931195f6d4f3cef108d64e06503bf01e6efca9d3b065564672fd56c72e"
+        },
+        {
+          "bytes": 2142,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/windflag5.svg",
+          "sha256": "cb38d0ab0cc0a13ded12c77c6026c456b3a5db14368b95860a6e29629c16b725"
+        },
+        {
+          "bytes": 1136,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/egg.svg",
+          "sha256": "be528e56c47971668f6d17a34b70546ca8aab9a6dd0e029086d396618dd2451c"
+        },
+        {
+          "bytes": 3824,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bell.svg",
+          "sha256": "f8c15434453a0be46b444b5cceab32926470c3dee93ee8256fcbe39a6f3ae0b2"
+        },
+        {
+          "bytes": 6678,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sound.svg",
+          "sha256": "afe1012f990a5ff363f6043446f38f0566e4789bd8d8cfcaaa078a496b45cca3"
+        },
+        {
+          "bytes": 5665,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/house.svg",
+          "sha256": "7725c49d8fc55df721a8ffd3839f74b664eb358c6220d4340142fe0013eb81b1"
+        },
+        {
+          "bytes": 8507,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/minivan.svg",
+          "sha256": "ea92a9d0a655de7e875b63ad984e845d7f27fcf0cc82cb42c31de9946e230f99"
+        },
+        {
+          "bytes": 2243,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/flowerpot.svg",
+          "sha256": "2cee1bdcdd1beeb2896e3feda12f132b6447987d080fd02747f35b374854b712"
+        },
+        {
+          "bytes": 4904,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/football.svg",
+          "sha256": "7f46068fd6920afd1e231abc12d0107ccf98cc453d9124291ef2b947b789a0af"
+        },
+        {
+          "bytes": 8837,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/flower.svg",
+          "sha256": "31c835da606d89830c6bfe2fed6a52cba1002dcd888ab7ad8bb861c16803b927"
+        },
+        {
+          "bytes": 3466,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/light.svg",
+          "sha256": "f613f35d7d30effde6b9b66efdbc73c20a5531ef2552970fc8fb7fd98ede9eca"
+        },
+        {
+          "bytes": 2570,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/error.svg",
+          "sha256": "2d4922d68965df10f4492f212225469e3f732b9819a16b9cf39de9f79ac2ea0d"
+        },
+        {
+          "bytes": 426,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/CMakeLists.txt",
+          "sha256": "adbd0f01ca9c6b2a5ab421ef0b4d395045fee362cf8890bca7ce9f8657d71951"
+        }
+      ]
+    },
+    "inventory-photo_hunter": {
+      "source_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/functional-visual-puzzles/sources/e5ff2308fd0564b5f4b84045cc2cdbb7722d25b5",
+      "rcc": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/inventory-photo_hunter/resource.rcc",
+      "qm": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/inventory-photo_hunter/gcompris_qt_pt.qm",
+      "rcc_sha256": "ea080410ccdc913626a2a10616bf69836a4510bccca298f675ea22378cb3b0f8",
+      "qm_sha256": "3a5e991a20a0d1e97c7db9051c675857756249dfe347618afe3ba6166236bd1d",
+      "files_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/inventory-photo_hunter/files",
+      "argv": [
+        "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/inventory-photo_hunter/resource.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/inventory-photo_hunter/files"
+      ],
+      "exit_code": 0,
+      "inspector_sha256": "5d55cc133d58968668d1dfc6a5b31afac7503dc3a18499009130ed1820fc7b11",
+      "files": [
+        {
+          "bytes": 868,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/ActivityInfo.qml",
+          "sha256": "8a44786f0ecd70bad4c7ddb0136c315e0373020a07fd0592c3552b478f0ad1e1"
+        },
+        {
+          "bytes": 9537,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/PhotoHunter.qml",
+          "sha256": "64d053341b7201a42ac94780bcf9cf42b35661559a5e7a40cd2cd802b8678cf3"
+        },
+        {
+          "bytes": 5569,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/photo_hunter.js",
+          "sha256": "d3afebedbe534dda499aa0c34cab1ca242dc3f888a71a7465f244f7087dd9986"
+        },
+        {
+          "bytes": 4937,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/Observe.qml",
+          "sha256": "2dce1f2f72d1463fe5d6f60c494b748c84621d8b8c054a4dbc02dce949a54be1"
+        },
+        {
+          "bytes": 62189,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/photo_hunter.svg",
+          "sha256": "67fcfcdfb0b51750ff92dc10a6c24b554e756551705df08566fff625d7764d99"
+        },
+        {
+          "bytes": 1442,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo9_2.svg",
+          "sha256": "3db0cc933938bf8c375a77f5001c84d6094145c956bfd2b4ae2bb503678b7e9e"
+        },
+        {
+          "bytes": 1383,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo9_3.svg",
+          "sha256": "33c743c6634e6449a53122070410761043b40e25f6db388ad6378d3dc4fbba9b"
+        },
+        {
+          "bytes": 1395,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo9_1.svg",
+          "sha256": "e5b871e014eb1c16988da43a567f548a250e5e7b81d4618e814af778b70787a9"
+        },
+        {
+          "bytes": 43307,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo10.svg",
+          "sha256": "e3897fd61613ccc0ca860493bd04233d9382abd593c271f9fa131c97402760a9"
+        },
+        {
+          "bytes": 6051,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo7_2.svg",
+          "sha256": "2d633e7f6143e32ce54a687d2f9a0ebd8e4788096ce76822987d1efcdce7220a"
+        },
+        {
+          "bytes": 1852,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo7_3.svg",
+          "sha256": "594c4920117111f57644fb54cf172c0e2909e677eb76249db7ef548307a4e649"
+        },
+        {
+          "bytes": 5193,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo7_1.svg",
+          "sha256": "7cf31675cd2dd5b46732d67fe7f7ec509b23026b30006dfaf56c151f37415c5d"
+        },
+        {
+          "bytes": 1933,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_6.svg",
+          "sha256": "9e555afb970f2bd37e378ccb526024dd1ffdb686057b86de59ffb0666bd25398"
+        },
+        {
+          "bytes": 4009,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_4.svg",
+          "sha256": "091f23ddd47a454c16c2aa7828847ce850896821f7a43e951313048d76ffda22"
+        },
+        {
+          "bytes": 1924,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_5.svg",
+          "sha256": "a36fced090a6217121bbfc9df7a87df249bbbee627d98e23fde4890a48834780"
+        },
+        {
+          "bytes": 2214,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_2.svg",
+          "sha256": "b2bd28c7534d0b7eaaa6e63cf0a9fe1e9b69bdb74932f08c6df3fa4fcb4feb29"
+        },
+        {
+          "bytes": 5573,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_3.svg",
+          "sha256": "dc72aa8dc7b52c31b398dd46ce555e15ebb8d2fbf3ae5e9f48e696aa00660869"
+        },
+        {
+          "bytes": 1895,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_1.svg",
+          "sha256": "ee4386ba4db95fda6bcf01f51ebb7ed900d20b856fd525a28505a83016a3e335"
+        },
+        {
+          "bytes": 2043,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_4.svg",
+          "sha256": "327367ecf2433db5c336eeb92d974f48dd02bf99d2d91c40f99c7eee27786b10"
+        },
+        {
+          "bytes": 1424,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_2.svg",
+          "sha256": "3eade0d77bc9c3801a382fdb2a97c2dc5a94c04b6c885aa5ab66de8569a94a1c"
+        },
+        {
+          "bytes": 5558,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_3.svg",
+          "sha256": "b4abb7af695de1fc406eba2bed286f995490040613028af483ac771dec3f8d8d"
+        },
+        {
+          "bytes": 1544,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_1.svg",
+          "sha256": "a475192c1b2908d81891912bb418be6c2529f8586b97e9b88f8908a4ba034f40"
+        },
+        {
+          "bytes": 3127,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo6_2.svg",
+          "sha256": "ad0fc42c5fcf391f1fd329ff5f0c8847fe6bf6a47d88b56685afada0f8df3349"
+        },
+        {
+          "bytes": 2925,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo6_3.svg",
+          "sha256": "2a72938347c0aac6569428ee65d75ad2af7b32386a570c8c70e0afa9b2c09073"
+        },
+        {
+          "bytes": 1345,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo6_1.svg",
+          "sha256": "6f1ab84fdd9496253874989a2a02ca669fc2ce8793330d7b5acb2b61bc236163"
+        },
+        {
+          "bytes": 3072,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo3_2.svg",
+          "sha256": "7c9450ab17e504eb3c2eee15c38d382d0ab904e06ad0760631a1f4373f8438a4"
+        },
+        {
+          "bytes": 1982,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo3_1.svg",
+          "sha256": "34905fa7d23b0633b424ff13c4d9342af80da10714dad6b89a7efafd6a905e13"
+        },
+        {
+          "bytes": 4721,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_4.svg",
+          "sha256": "8121244b8edc021f35c643199c13a367e14eec83a9633f153ea3a7e72529940f"
+        },
+        {
+          "bytes": 3064,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_2.svg",
+          "sha256": "ab789fc61ff7bd8f76547bb06839ccc00b09dd17ad43ebe8dfe4b6ea28f1cc9c"
+        },
+        {
+          "bytes": 1705,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_3.svg",
+          "sha256": "4b122403fd2b4a0171ab91532542e6bed5e5a2a1db8b8659914e3aac251c0666"
+        },
+        {
+          "bytes": 1530,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_1.svg",
+          "sha256": "df952cee62c1b5c2ea3fc13cb20432854ec5800d93f7fd54a1d6de817e9559bf"
+        },
+        {
+          "bytes": 1719,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo1_2.svg",
+          "sha256": "e5f48ca43890292fcb90c1abba0b84d435a23062717653d5d1d9567b05645ccf"
+        },
+        {
+          "bytes": 2938,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo1_3.svg",
+          "sha256": "c2063caf5ce2f5f8ca14de884ce8936a7221bd106c7709a598e34964a511c10c"
+        },
+        {
+          "bytes": 4654,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo1_1.svg",
+          "sha256": "3d8905cafd0990b56b451acfc092bdd9919cfe8eb1bf21f578633c34b586ec40"
+        },
+        {
+          "bytes": 2504,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo2_2.svg",
+          "sha256": "a1caf3fb6e2cee97e682968e267135dae0a2a5b09040a7b07b74743ff308bb4d"
+        },
+        {
+          "bytes": 13357,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo2_3.svg",
+          "sha256": "2bcc1a685d2918bd770b28cd106fc2ca1c8eaf8a70806632715e12be98185f86"
+        },
+        {
+          "bytes": 4887,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo2_1.svg",
+          "sha256": "437d282969537a324f5525108fe61c2891c2bf9b351a3f0fa18de4010c3b0275"
+        },
+        {
+          "bytes": 95289,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8.svg",
+          "sha256": "acc74e8b3e9ddf035e8e6ebc5418565fb84ab37be7d340ebf5e67b0e6d4565ce"
+        },
+        {
+          "bytes": 17800,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo9.svg",
+          "sha256": "98acfb489048a806f60d33d659c178f6ca512153e1bc3d15f8f4c3d32b915521"
+        },
+        {
+          "bytes": 7058,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo6.svg",
+          "sha256": "bad9a856660340c8e2fc66f706b08a613574e0742dc6881e22f2c33cf2f4f048"
+        },
+        {
+          "bytes": 28527,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo7.svg",
+          "sha256": "6a2c4d3ade15801819c409624fe47f6f501a9a17473b99e3d0a9cade2b04bf8d"
+        },
+        {
+          "bytes": 53121,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo4.svg",
+          "sha256": "dc6b42ebe937bdc62eeb50bb7258e870dd029af2ca06d96d55350d702713382c"
+        },
+        {
+          "bytes": 40896,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo5.svg",
+          "sha256": "2235cbf466571c0fb44872a38c81008bf6905c95e264fe771e31cd85881bb7fe"
+        },
+        {
+          "bytes": 91777,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo2.svg",
+          "sha256": "cc170260743f70695bb7793349716a07b6b5899fbb0abab64acc39a350fb7fe1"
+        },
+        {
+          "bytes": 35838,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo3.svg",
+          "sha256": "1ef1238b91b06652afddd172c920b676ccf556212fea5c30b099747980d488aa"
+        },
+        {
+          "bytes": 53691,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo1.svg",
+          "sha256": "8b53fb4d532d286ef24a86b8090fbd701d36ca387be3fccf213072b55a970227"
+        },
+        {
+          "bytes": 1313,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_2.svg",
+          "sha256": "f277cf39c763667408cc868ec1ccebc7f60c5c8d5b653da5e4dfe541bafbec46"
+        },
+        {
+          "bytes": 1732,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_4.svg",
+          "sha256": "f808e0baa100bdb10af1c132642ceb826c0b29484f5df3d6548b6cf4f63c840d"
+        },
+        {
+          "bytes": 3071,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_3.svg",
+          "sha256": "c51033c65f99a13fffa70dcb110c23cb03bfb0465f76644b9ce97cac00cac00b"
+        },
+        {
+          "bytes": 3025,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_1.svg",
+          "sha256": "708712005389345d620763fa94c0b70cd73fe1255e53117c7c618dd7266dab5e"
+        },
+        {
+          "bytes": 383,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/CMakeLists.txt",
+          "sha256": "53d9bc5a13c017631cd470f3232b774da80f30ea1c6ff36874d8066d2c8a557b"
+        }
+      ]
+    },
+    "calibrate-paintings": {
+      "source_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/functional-visual-puzzles/sources/75aac508f37d9164f63c94bdb9061f342281883a",
+      "rcc": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/calibrate-paintings/resource.rcc",
+      "qm": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/calibrate-paintings/gcompris_qt_pt.qm",
+      "rcc_sha256": "dfee6db9fd1201b7d35967e463635bf88f71be9588543ed29cd9d417cd68170d",
+      "qm_sha256": "3a5e991a20a0d1e97c7db9051c675857756249dfe347618afe3ba6166236bd1d",
+      "files_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/calibrate-paintings/files",
+      "argv": [
+        "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/calibrate-paintings/resource.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/calibrate-paintings/files"
+      ],
+      "exit_code": 0,
+      "inspector_sha256": "5d55cc133d58968668d1dfc6a5b31afac7503dc3a18499009130ed1820fc7b11",
+      "files": [
+        {
+          "bytes": 1494,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/TextItem.qml",
+          "sha256": "a7ca5817941bd84fcd9c8aadbbb0dc946038c838540662f3e84a2b4479269fee"
+        },
+        {
+          "bytes": 13221,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/DragListItem.qml",
+          "sha256": "42730253a5feedb5ea596bb4e5a1a9f1724cacdb6b2c27abee828514869f1f58"
+        },
+        {
+          "bytes": 2893,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/DropAnswerItem.qml",
+          "sha256": "40bbb13c46de204a6b35454906e618fc3677c8121b44948cb7d1044d40aa5029"
+        },
+        {
+          "bytes": 1726,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/ActivityInfo.qml",
+          "sha256": "7c3f2156b759d5b2f2de9363e7798333356766aeabc8bbe40e50211284c4605e"
+        },
+        {
+          "bytes": 11464,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/babymatch.js",
+          "sha256": "ee6ce5c08876578cf5c9d922fc35e781ae5d5a6fc3d12b01667f47f6a0a44101"
+        },
+        {
+          "bytes": 17924,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/Babymatch.qml",
+          "sha256": "fd2ade439c8b3b6ecee3fde78f47b22fcf1b8d38dc06d2353e54030715aab97a"
+        },
+        {
+          "bytes": 3809,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/babymatch.svg",
+          "sha256": "97c7db3030a061825ba54fa403261a2b4b11040d1b7ea3c1daf920b7a281ff52"
+        },
+        {
+          "bytes": 12423,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/ListWidget.qml",
+          "sha256": "495de9e21f117ace6f21c3b7fceecf362c3f90a07c030598c039963479d18434"
+        },
+        {
+          "bytes": 1467,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board7_0.qml",
+          "sha256": "ae47693b7b94d1c6d87701b344ba901ca880371a9f6919323b7cdc6320cbd187"
+        },
+        {
+          "bytes": 1471,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board3_0.qml",
+          "sha256": "fbddf81031a233733d8e3d6fbc31cfc31a04df4e3c4e72e7b2572c7764d4ee2c"
+        },
+        {
+          "bytes": 1475,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board5_0.qml",
+          "sha256": "3106ce5d7e437b42bf3fd19eb274b85117c8431c68059bb76cebf25675d05c58"
+        },
+        {
+          "bytes": 1461,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board4_0.qml",
+          "sha256": "ae592a4d8090029e03d1a8af4fbf654478e2150d496affc2cb973930fbb9404c"
+        },
+        {
+          "bytes": 1479,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board6_0.qml",
+          "sha256": "7907c5bae3994ac1d46e483d5a2020d69695ba99e25aab5a1cdf7b3105290e6a"
+        },
+        {
+          "bytes": 1560,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board1_0.qml",
+          "sha256": "e6535ffd44ca8ca77ea22c9e5e9ea2dbe332c6f4f7aa9ff3b6be03f477b61143"
+        },
+        {
+          "bytes": 1467,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board2_0.qml",
+          "sha256": "cca7bdd8da09475c22b08c063db6680be1d295283d4d48c483a3c12d8af69091"
+        },
+        {
+          "bytes": 6763,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/postpoint.svg",
+          "sha256": "53aa5adada7542230493e858598c21a0a24ce5b77e4dc3d2482da87ba44c54a2"
+        },
+        {
+          "bytes": 7884,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lighthouse.svg",
+          "sha256": "98dd0321857472822680879d679c2fabe15c6a7efb3670e83898d5d0e959dd47"
+        },
+        {
+          "bytes": 8838,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/raquette.svg",
+          "sha256": "81c04f55a5dd6d1272cc2299e74fed78475ff3d1abb2493ec73f05c023c0c3ad"
+        },
+        {
+          "bytes": 9170,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sofa.svg",
+          "sha256": "59ae648047800588fe38303b3fa52ace376e6634db20ab18be91e7fd588fdaa5"
+        },
+        {
+          "bytes": 4973,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sailingboat.svg",
+          "sha256": "618562a8dbfd160d96060364a388e1d801a4e32e283faadaa24c84cd9ab64969"
+        },
+        {
+          "bytes": 5725,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lifebuoy.svg",
+          "sha256": "8fff6eaccbdfcc3e9cdec420ef5b112a0cb7921b19eeed97c3ba98613f369caa"
+        },
+        {
+          "bytes": 10544,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/fishingboat.svg",
+          "sha256": "eaf3c5504f2810632b6d32f8cb951e3646351e689600396c743684f42bc25db0"
+        },
+        {
+          "bytes": 25886,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/postcard.svg",
+          "sha256": "96ca24e995543e283f7f1e2629185102af0db56c4e5fbefefb81e0a7d2b3a7b2"
+        },
+        {
+          "bytes": 15462,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/crown.svg",
+          "sha256": "570da15bae9ee6c3b58bb23fa044efe4b10fba220726bea1f0fb0521f85b7986"
+        },
+        {
+          "bytes": 3543,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/apple.svg",
+          "sha256": "fc811e855f88a40cd4169140d7bc3e5e2b9ca6a152a3c373e746e42ba8e6051f"
+        },
+        {
+          "bytes": 1344,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/eggpot.svg",
+          "sha256": "b28936c06281e2aca7a8ee58895028ea8b115676dddac0e5836e27458de1a362"
+        },
+        {
+          "bytes": 10426,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tuxhelico.svg",
+          "sha256": "379899731882cc4c8e7cb707ca3405068fde7343374e467e1ee3582e01c9ec08"
+        },
+        {
+          "bytes": 2995,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lamp.svg",
+          "sha256": "3fa4422bfca657368496273fb2cd0af83cdd47a824dccf284c662423bbd86523"
+        },
+        {
+          "bytes": 4267,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/rape.svg",
+          "sha256": "660150ba6e1c918da3a974f8607fe08b63166dc891e9ff5c9cae80501eb3d514"
+        },
+        {
+          "bytes": 3324,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/glass.svg",
+          "sha256": "80d618cd77bd101827d857f95baec7e5afd5084407f7a44c47ed104c321bbbfd"
+        },
+        {
+          "bytes": 5672,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tree.svg",
+          "sha256": "16551b669a0adc083805f200894f802cf2627be3cb4b39b5ee59ae6b0b702320"
+        },
+        {
+          "bytes": 4235,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/carrot.svg",
+          "sha256": "dfba5b5699a486b4e228971ef80378a12950a239226093b1d2ef7a96b25c3699"
+        },
+        {
+          "bytes": 9428,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/car.svg",
+          "sha256": "021d4de18d942f8e5e0b8299ed27c23fecd17e8aae33d4b21c36f9b06d08a120"
+        },
+        {
+          "bytes": 12247,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/fusee.svg",
+          "sha256": "ede081cd0c7bc7fb731a98ac55527a77fc184d7776ecafeea862e51b0d35e770"
+        },
+        {
+          "bytes": 3291,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/pencil.svg",
+          "sha256": "6b29ee4b260dc0d6a35f752031ba714a41ca74fede435793601a9db43b6d6d87"
+        },
+        {
+          "bytes": 1835,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/star.svg",
+          "sha256": "f45fdf1819127a6be2f9dec19472362fd3125c3414f76b6a5e21df8590ec18ec"
+        },
+        {
+          "bytes": 4779,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sun.svg",
+          "sha256": "df66c5c2fc584e7af7477a1eee4c3774fd8fe8018c56a8582334f883893d94c7"
+        },
+        {
+          "bytes": 12275,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bicycle.svg",
+          "sha256": "747c0f0c08701e2c9a7dab69341cae6b72580ec2babed58bee3c7c5ef1aaf652"
+        },
+        {
+          "bytes": 7741,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/castle.svg",
+          "sha256": "2ff5642d05e04577540f1b5c637000c6773c253bcc1d66372965aca6f7c46c32"
+        },
+        {
+          "bytes": 3371,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bottle.svg",
+          "sha256": "e666d4474e3e0a7311c895e9f1f26e67b2547a4f949f3f331daaa51b2aff2775"
+        },
+        {
+          "bytes": 41034,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tuxplane.svg",
+          "sha256": "8855c312856adc60e36d09b3d2af6f44e3921f5f96a617737abbb8ba8e660e6a"
+        },
+        {
+          "bytes": 12554,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/truck.svg",
+          "sha256": "b7559e931195f6d4f3cef108d64e06503bf01e6efca9d3b065564672fd56c72e"
+        },
+        {
+          "bytes": 2142,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/windflag5.svg",
+          "sha256": "cb38d0ab0cc0a13ded12c77c6026c456b3a5db14368b95860a6e29629c16b725"
+        },
+        {
+          "bytes": 1136,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/egg.svg",
+          "sha256": "be528e56c47971668f6d17a34b70546ca8aab9a6dd0e029086d396618dd2451c"
+        },
+        {
+          "bytes": 3824,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bell.svg",
+          "sha256": "f8c15434453a0be46b444b5cceab32926470c3dee93ee8256fcbe39a6f3ae0b2"
+        },
+        {
+          "bytes": 6678,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sound.svg",
+          "sha256": "afe1012f990a5ff363f6043446f38f0566e4789bd8d8cfcaaa078a496b45cca3"
+        },
+        {
+          "bytes": 5665,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/house.svg",
+          "sha256": "7725c49d8fc55df721a8ffd3839f74b664eb358c6220d4340142fe0013eb81b1"
+        },
+        {
+          "bytes": 8507,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/minivan.svg",
+          "sha256": "ea92a9d0a655de7e875b63ad984e845d7f27fcf0cc82cb42c31de9946e230f99"
+        },
+        {
+          "bytes": 2243,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/flowerpot.svg",
+          "sha256": "2cee1bdcdd1beeb2896e3feda12f132b6447987d080fd02747f35b374854b712"
+        },
+        {
+          "bytes": 4904,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/football.svg",
+          "sha256": "7f46068fd6920afd1e231abc12d0107ccf98cc453d9124291ef2b947b789a0af"
+        },
+        {
+          "bytes": 8837,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/flower.svg",
+          "sha256": "31c835da606d89830c6bfe2fed6a52cba1002dcd888ab7ad8bb861c16803b927"
+        },
+        {
+          "bytes": 3466,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/light.svg",
+          "sha256": "f613f35d7d30effde6b9b66efdbc73c20a5531ef2552970fc8fb7fd98ede9eca"
+        },
+        {
+          "bytes": 2570,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/error.svg",
+          "sha256": "2d4922d68965df10f4492f212225469e3f732b9819a16b9cf39de9f79ac2ea0d"
+        },
+        {
+          "bytes": 426,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/CMakeLists.txt",
+          "sha256": "adbd0f01ca9c6b2a5ab421ef0b4d395045fee362cf8890bca7ce9f8657d71951"
+        }
+      ]
+    },
+    "photo-complete1": {
+      "source_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/functional-visual-puzzles/sources/3a4eddcf32c659d5a5cdb1eaf3d6841d28ed1f5f",
+      "rcc": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/photo-complete1/resource.rcc",
+      "qm": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/photo-complete1/gcompris_qt_pt.qm",
+      "rcc_sha256": "644bed6bc772a1cb6c26ab9a27569051fe84eab47404a7fe857235b7c3240395",
+      "qm_sha256": "3a5e991a20a0d1e97c7db9051c675857756249dfe347618afe3ba6166236bd1d",
+      "files_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/photo-complete1/files",
+      "argv": [
+        "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/photo-complete1/resource.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/photo-complete1/files"
+      ],
+      "exit_code": 0,
+      "inspector_sha256": "5d55cc133d58968668d1dfc6a5b31afac7503dc3a18499009130ed1820fc7b11",
+      "files": [
+        {
+          "bytes": 868,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/ActivityInfo.qml",
+          "sha256": "8a44786f0ecd70bad4c7ddb0136c315e0373020a07fd0592c3552b478f0ad1e1"
+        },
+        {
+          "bytes": 12652,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/PhotoHunter.qml",
+          "sha256": "c6fe46be15da72bc19c1918165181c3ee5fd50f50176db28a66da2846dc0253e"
+        },
+        {
+          "bytes": 5569,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/photo_hunter.js",
+          "sha256": "d3afebedbe534dda499aa0c34cab1ca242dc3f888a71a7465f244f7087dd9986"
+        },
+        {
+          "bytes": 4937,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/Observe.qml",
+          "sha256": "2dce1f2f72d1463fe5d6f60c494b748c84621d8b8c054a4dbc02dce949a54be1"
+        },
+        {
+          "bytes": 62189,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/photo_hunter.svg",
+          "sha256": "67fcfcdfb0b51750ff92dc10a6c24b554e756551705df08566fff625d7764d99"
+        },
+        {
+          "bytes": 1442,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo9_2.svg",
+          "sha256": "3db0cc933938bf8c375a77f5001c84d6094145c956bfd2b4ae2bb503678b7e9e"
+        },
+        {
+          "bytes": 1383,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo9_3.svg",
+          "sha256": "33c743c6634e6449a53122070410761043b40e25f6db388ad6378d3dc4fbba9b"
+        },
+        {
+          "bytes": 1395,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo9_1.svg",
+          "sha256": "e5b871e014eb1c16988da43a567f548a250e5e7b81d4618e814af778b70787a9"
+        },
+        {
+          "bytes": 43307,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo10.svg",
+          "sha256": "e3897fd61613ccc0ca860493bd04233d9382abd593c271f9fa131c97402760a9"
+        },
+        {
+          "bytes": 6051,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo7_2.svg",
+          "sha256": "2d633e7f6143e32ce54a687d2f9a0ebd8e4788096ce76822987d1efcdce7220a"
+        },
+        {
+          "bytes": 1852,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo7_3.svg",
+          "sha256": "594c4920117111f57644fb54cf172c0e2909e677eb76249db7ef548307a4e649"
+        },
+        {
+          "bytes": 5193,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo7_1.svg",
+          "sha256": "7cf31675cd2dd5b46732d67fe7f7ec509b23026b30006dfaf56c151f37415c5d"
+        },
+        {
+          "bytes": 1933,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_6.svg",
+          "sha256": "9e555afb970f2bd37e378ccb526024dd1ffdb686057b86de59ffb0666bd25398"
+        },
+        {
+          "bytes": 4009,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_4.svg",
+          "sha256": "091f23ddd47a454c16c2aa7828847ce850896821f7a43e951313048d76ffda22"
+        },
+        {
+          "bytes": 1924,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_5.svg",
+          "sha256": "a36fced090a6217121bbfc9df7a87df249bbbee627d98e23fde4890a48834780"
+        },
+        {
+          "bytes": 2214,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_2.svg",
+          "sha256": "b2bd28c7534d0b7eaaa6e63cf0a9fe1e9b69bdb74932f08c6df3fa4fcb4feb29"
+        },
+        {
+          "bytes": 5573,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_3.svg",
+          "sha256": "dc72aa8dc7b52c31b398dd46ce555e15ebb8d2fbf3ae5e9f48e696aa00660869"
+        },
+        {
+          "bytes": 1895,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_1.svg",
+          "sha256": "ee4386ba4db95fda6bcf01f51ebb7ed900d20b856fd525a28505a83016a3e335"
+        },
+        {
+          "bytes": 2043,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_4.svg",
+          "sha256": "327367ecf2433db5c336eeb92d974f48dd02bf99d2d91c40f99c7eee27786b10"
+        },
+        {
+          "bytes": 1424,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_2.svg",
+          "sha256": "3eade0d77bc9c3801a382fdb2a97c2dc5a94c04b6c885aa5ab66de8569a94a1c"
+        },
+        {
+          "bytes": 5558,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_3.svg",
+          "sha256": "b4abb7af695de1fc406eba2bed286f995490040613028af483ac771dec3f8d8d"
+        },
+        {
+          "bytes": 1544,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_1.svg",
+          "sha256": "a475192c1b2908d81891912bb418be6c2529f8586b97e9b88f8908a4ba034f40"
+        },
+        {
+          "bytes": 3127,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo6_2.svg",
+          "sha256": "ad0fc42c5fcf391f1fd329ff5f0c8847fe6bf6a47d88b56685afada0f8df3349"
+        },
+        {
+          "bytes": 2925,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo6_3.svg",
+          "sha256": "2a72938347c0aac6569428ee65d75ad2af7b32386a570c8c70e0afa9b2c09073"
+        },
+        {
+          "bytes": 1345,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo6_1.svg",
+          "sha256": "6f1ab84fdd9496253874989a2a02ca669fc2ce8793330d7b5acb2b61bc236163"
+        },
+        {
+          "bytes": 3072,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo3_2.svg",
+          "sha256": "7c9450ab17e504eb3c2eee15c38d382d0ab904e06ad0760631a1f4373f8438a4"
+        },
+        {
+          "bytes": 1982,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo3_1.svg",
+          "sha256": "34905fa7d23b0633b424ff13c4d9342af80da10714dad6b89a7efafd6a905e13"
+        },
+        {
+          "bytes": 4721,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_4.svg",
+          "sha256": "8121244b8edc021f35c643199c13a367e14eec83a9633f153ea3a7e72529940f"
+        },
+        {
+          "bytes": 3064,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_2.svg",
+          "sha256": "ab789fc61ff7bd8f76547bb06839ccc00b09dd17ad43ebe8dfe4b6ea28f1cc9c"
+        },
+        {
+          "bytes": 1705,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_3.svg",
+          "sha256": "4b122403fd2b4a0171ab91532542e6bed5e5a2a1db8b8659914e3aac251c0666"
+        },
+        {
+          "bytes": 1530,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_1.svg",
+          "sha256": "df952cee62c1b5c2ea3fc13cb20432854ec5800d93f7fd54a1d6de817e9559bf"
+        },
+        {
+          "bytes": 1719,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo1_2.svg",
+          "sha256": "e5f48ca43890292fcb90c1abba0b84d435a23062717653d5d1d9567b05645ccf"
+        },
+        {
+          "bytes": 2938,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo1_3.svg",
+          "sha256": "c2063caf5ce2f5f8ca14de884ce8936a7221bd106c7709a598e34964a511c10c"
+        },
+        {
+          "bytes": 4654,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo1_1.svg",
+          "sha256": "3d8905cafd0990b56b451acfc092bdd9919cfe8eb1bf21f578633c34b586ec40"
+        },
+        {
+          "bytes": 2504,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo2_2.svg",
+          "sha256": "a1caf3fb6e2cee97e682968e267135dae0a2a5b09040a7b07b74743ff308bb4d"
+        },
+        {
+          "bytes": 13357,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo2_3.svg",
+          "sha256": "2bcc1a685d2918bd770b28cd106fc2ca1c8eaf8a70806632715e12be98185f86"
+        },
+        {
+          "bytes": 4887,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo2_1.svg",
+          "sha256": "437d282969537a324f5525108fe61c2891c2bf9b351a3f0fa18de4010c3b0275"
+        },
+        {
+          "bytes": 95289,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8.svg",
+          "sha256": "acc74e8b3e9ddf035e8e6ebc5418565fb84ab37be7d340ebf5e67b0e6d4565ce"
+        },
+        {
+          "bytes": 17800,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo9.svg",
+          "sha256": "98acfb489048a806f60d33d659c178f6ca512153e1bc3d15f8f4c3d32b915521"
+        },
+        {
+          "bytes": 7058,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo6.svg",
+          "sha256": "bad9a856660340c8e2fc66f706b08a613574e0742dc6881e22f2c33cf2f4f048"
+        },
+        {
+          "bytes": 28527,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo7.svg",
+          "sha256": "6a2c4d3ade15801819c409624fe47f6f501a9a17473b99e3d0a9cade2b04bf8d"
+        },
+        {
+          "bytes": 53121,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo4.svg",
+          "sha256": "dc6b42ebe937bdc62eeb50bb7258e870dd029af2ca06d96d55350d702713382c"
+        },
+        {
+          "bytes": 40896,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo5.svg",
+          "sha256": "2235cbf466571c0fb44872a38c81008bf6905c95e264fe771e31cd85881bb7fe"
+        },
+        {
+          "bytes": 91777,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo2.svg",
+          "sha256": "cc170260743f70695bb7793349716a07b6b5899fbb0abab64acc39a350fb7fe1"
+        },
+        {
+          "bytes": 35838,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo3.svg",
+          "sha256": "1ef1238b91b06652afddd172c920b676ccf556212fea5c30b099747980d488aa"
+        },
+        {
+          "bytes": 53691,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo1.svg",
+          "sha256": "8b53fb4d532d286ef24a86b8090fbd701d36ca387be3fccf213072b55a970227"
+        },
+        {
+          "bytes": 1313,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_2.svg",
+          "sha256": "f277cf39c763667408cc868ec1ccebc7f60c5c8d5b653da5e4dfe541bafbec46"
+        },
+        {
+          "bytes": 1732,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_4.svg",
+          "sha256": "f808e0baa100bdb10af1c132642ceb826c0b29484f5df3d6548b6cf4f63c840d"
+        },
+        {
+          "bytes": 3071,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_3.svg",
+          "sha256": "c51033c65f99a13fffa70dcb110c23cb03bfb0465f76644b9ce97cac00cac00b"
+        },
+        {
+          "bytes": 3025,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_1.svg",
+          "sha256": "708712005389345d620763fa94c0b70cd73fe1255e53117c7c618dd7266dab5e"
+        },
+        {
+          "bytes": 383,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/CMakeLists.txt",
+          "sha256": "53d9bc5a13c017631cd470f3232b774da80f30ea1c6ff36874d8066d2c8a557b"
+        }
+      ]
+    },
+    "details-complete1": {
+      "source_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/functional-visual-puzzles/sources/5d18db8d0ff2f1d91bc8268dffbb44e94731d743",
+      "rcc": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/details-complete1/resource.rcc",
+      "qm": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/details-complete1/gcompris_qt_pt.qm",
+      "rcc_sha256": "ad4288da988d93ce3c28a9d770f9a5a99b9e5c7939d4b59ba8fb0ea53aa0b1ed",
+      "qm_sha256": "3a5e991a20a0d1e97c7db9051c675857756249dfe347618afe3ba6166236bd1d",
+      "files_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/details-complete1/files",
+      "argv": [
+        "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/details-complete1/resource.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/details-complete1/files"
+      ],
+      "exit_code": 0,
+      "inspector_sha256": "5d55cc133d58968668d1dfc6a5b31afac7503dc3a18499009130ed1820fc7b11",
+      "files": [
+        {
+          "bytes": 1494,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/TextItem.qml",
+          "sha256": "a7ca5817941bd84fcd9c8aadbbb0dc946038c838540662f3e84a2b4479269fee"
+        },
+        {
+          "bytes": 13221,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/DragListItem.qml",
+          "sha256": "42730253a5feedb5ea596bb4e5a1a9f1724cacdb6b2c27abee828514869f1f58"
+        },
+        {
+          "bytes": 2893,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/DropAnswerItem.qml",
+          "sha256": "40bbb13c46de204a6b35454906e618fc3677c8121b44948cb7d1044d40aa5029"
+        },
+        {
+          "bytes": 1726,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/ActivityInfo.qml",
+          "sha256": "7c3f2156b759d5b2f2de9363e7798333356766aeabc8bbe40e50211284c4605e"
+        },
+        {
+          "bytes": 11464,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/babymatch.js",
+          "sha256": "ee6ce5c08876578cf5c9d922fc35e781ae5d5a6fc3d12b01667f47f6a0a44101"
+        },
+        {
+          "bytes": 21330,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/Babymatch.qml",
+          "sha256": "0cfba8062cf04475f7daf5a0ca117debbebb21383647ce39663d1864abaec7f5"
+        },
+        {
+          "bytes": 3809,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/babymatch.svg",
+          "sha256": "97c7db3030a061825ba54fa403261a2b4b11040d1b7ea3c1daf920b7a281ff52"
+        },
+        {
+          "bytes": 12423,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/ListWidget.qml",
+          "sha256": "495de9e21f117ace6f21c3b7fceecf362c3f90a07c030598c039963479d18434"
+        },
+        {
+          "bytes": 1467,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board7_0.qml",
+          "sha256": "ae47693b7b94d1c6d87701b344ba901ca880371a9f6919323b7cdc6320cbd187"
+        },
+        {
+          "bytes": 1471,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board3_0.qml",
+          "sha256": "fbddf81031a233733d8e3d6fbc31cfc31a04df4e3c4e72e7b2572c7764d4ee2c"
+        },
+        {
+          "bytes": 1475,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board5_0.qml",
+          "sha256": "3106ce5d7e437b42bf3fd19eb274b85117c8431c68059bb76cebf25675d05c58"
+        },
+        {
+          "bytes": 1461,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board4_0.qml",
+          "sha256": "ae592a4d8090029e03d1a8af4fbf654478e2150d496affc2cb973930fbb9404c"
+        },
+        {
+          "bytes": 1479,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board6_0.qml",
+          "sha256": "7907c5bae3994ac1d46e483d5a2020d69695ba99e25aab5a1cdf7b3105290e6a"
+        },
+        {
+          "bytes": 1560,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board1_0.qml",
+          "sha256": "e6535ffd44ca8ca77ea22c9e5e9ea2dbe332c6f4f7aa9ff3b6be03f477b61143"
+        },
+        {
+          "bytes": 1467,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board2_0.qml",
+          "sha256": "cca7bdd8da09475c22b08c063db6680be1d295283d4d48c483a3c12d8af69091"
+        },
+        {
+          "bytes": 6763,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/postpoint.svg",
+          "sha256": "53aa5adada7542230493e858598c21a0a24ce5b77e4dc3d2482da87ba44c54a2"
+        },
+        {
+          "bytes": 7884,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lighthouse.svg",
+          "sha256": "98dd0321857472822680879d679c2fabe15c6a7efb3670e83898d5d0e959dd47"
+        },
+        {
+          "bytes": 8838,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/raquette.svg",
+          "sha256": "81c04f55a5dd6d1272cc2299e74fed78475ff3d1abb2493ec73f05c023c0c3ad"
+        },
+        {
+          "bytes": 9170,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sofa.svg",
+          "sha256": "59ae648047800588fe38303b3fa52ace376e6634db20ab18be91e7fd588fdaa5"
+        },
+        {
+          "bytes": 4973,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sailingboat.svg",
+          "sha256": "618562a8dbfd160d96060364a388e1d801a4e32e283faadaa24c84cd9ab64969"
+        },
+        {
+          "bytes": 5725,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lifebuoy.svg",
+          "sha256": "8fff6eaccbdfcc3e9cdec420ef5b112a0cb7921b19eeed97c3ba98613f369caa"
+        },
+        {
+          "bytes": 10544,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/fishingboat.svg",
+          "sha256": "eaf3c5504f2810632b6d32f8cb951e3646351e689600396c743684f42bc25db0"
+        },
+        {
+          "bytes": 25886,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/postcard.svg",
+          "sha256": "96ca24e995543e283f7f1e2629185102af0db56c4e5fbefefb81e0a7d2b3a7b2"
+        },
+        {
+          "bytes": 15462,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/crown.svg",
+          "sha256": "570da15bae9ee6c3b58bb23fa044efe4b10fba220726bea1f0fb0521f85b7986"
+        },
+        {
+          "bytes": 3543,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/apple.svg",
+          "sha256": "fc811e855f88a40cd4169140d7bc3e5e2b9ca6a152a3c373e746e42ba8e6051f"
+        },
+        {
+          "bytes": 1344,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/eggpot.svg",
+          "sha256": "b28936c06281e2aca7a8ee58895028ea8b115676dddac0e5836e27458de1a362"
+        },
+        {
+          "bytes": 10426,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tuxhelico.svg",
+          "sha256": "379899731882cc4c8e7cb707ca3405068fde7343374e467e1ee3582e01c9ec08"
+        },
+        {
+          "bytes": 2995,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lamp.svg",
+          "sha256": "3fa4422bfca657368496273fb2cd0af83cdd47a824dccf284c662423bbd86523"
+        },
+        {
+          "bytes": 4267,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/rape.svg",
+          "sha256": "660150ba6e1c918da3a974f8607fe08b63166dc891e9ff5c9cae80501eb3d514"
+        },
+        {
+          "bytes": 3324,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/glass.svg",
+          "sha256": "80d618cd77bd101827d857f95baec7e5afd5084407f7a44c47ed104c321bbbfd"
+        },
+        {
+          "bytes": 5672,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tree.svg",
+          "sha256": "16551b669a0adc083805f200894f802cf2627be3cb4b39b5ee59ae6b0b702320"
+        },
+        {
+          "bytes": 4235,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/carrot.svg",
+          "sha256": "dfba5b5699a486b4e228971ef80378a12950a239226093b1d2ef7a96b25c3699"
+        },
+        {
+          "bytes": 9428,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/car.svg",
+          "sha256": "021d4de18d942f8e5e0b8299ed27c23fecd17e8aae33d4b21c36f9b06d08a120"
+        },
+        {
+          "bytes": 12247,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/fusee.svg",
+          "sha256": "ede081cd0c7bc7fb731a98ac55527a77fc184d7776ecafeea862e51b0d35e770"
+        },
+        {
+          "bytes": 3291,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/pencil.svg",
+          "sha256": "6b29ee4b260dc0d6a35f752031ba714a41ca74fede435793601a9db43b6d6d87"
+        },
+        {
+          "bytes": 1835,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/star.svg",
+          "sha256": "f45fdf1819127a6be2f9dec19472362fd3125c3414f76b6a5e21df8590ec18ec"
+        },
+        {
+          "bytes": 4779,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sun.svg",
+          "sha256": "df66c5c2fc584e7af7477a1eee4c3774fd8fe8018c56a8582334f883893d94c7"
+        },
+        {
+          "bytes": 12275,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bicycle.svg",
+          "sha256": "747c0f0c08701e2c9a7dab69341cae6b72580ec2babed58bee3c7c5ef1aaf652"
+        },
+        {
+          "bytes": 7741,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/castle.svg",
+          "sha256": "2ff5642d05e04577540f1b5c637000c6773c253bcc1d66372965aca6f7c46c32"
+        },
+        {
+          "bytes": 3371,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bottle.svg",
+          "sha256": "e666d4474e3e0a7311c895e9f1f26e67b2547a4f949f3f331daaa51b2aff2775"
+        },
+        {
+          "bytes": 41034,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tuxplane.svg",
+          "sha256": "8855c312856adc60e36d09b3d2af6f44e3921f5f96a617737abbb8ba8e660e6a"
+        },
+        {
+          "bytes": 12554,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/truck.svg",
+          "sha256": "b7559e931195f6d4f3cef108d64e06503bf01e6efca9d3b065564672fd56c72e"
+        },
+        {
+          "bytes": 2142,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/windflag5.svg",
+          "sha256": "cb38d0ab0cc0a13ded12c77c6026c456b3a5db14368b95860a6e29629c16b725"
+        },
+        {
+          "bytes": 1136,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/egg.svg",
+          "sha256": "be528e56c47971668f6d17a34b70546ca8aab9a6dd0e029086d396618dd2451c"
+        },
+        {
+          "bytes": 3824,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bell.svg",
+          "sha256": "f8c15434453a0be46b444b5cceab32926470c3dee93ee8256fcbe39a6f3ae0b2"
+        },
+        {
+          "bytes": 6678,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sound.svg",
+          "sha256": "afe1012f990a5ff363f6043446f38f0566e4789bd8d8cfcaaa078a496b45cca3"
+        },
+        {
+          "bytes": 5665,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/house.svg",
+          "sha256": "7725c49d8fc55df721a8ffd3839f74b664eb358c6220d4340142fe0013eb81b1"
+        },
+        {
+          "bytes": 8507,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/minivan.svg",
+          "sha256": "ea92a9d0a655de7e875b63ad984e845d7f27fcf0cc82cb42c31de9946e230f99"
+        },
+        {
+          "bytes": 2243,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/flowerpot.svg",
+          "sha256": "2cee1bdcdd1beeb2896e3feda12f132b6447987d080fd02747f35b374854b712"
+        },
+        {
+          "bytes": 4904,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/football.svg",
+          "sha256": "7f46068fd6920afd1e231abc12d0107ccf98cc453d9124291ef2b947b789a0af"
+        },
+        {
+          "bytes": 8837,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/flower.svg",
+          "sha256": "31c835da606d89830c6bfe2fed6a52cba1002dcd888ab7ad8bb861c16803b927"
+        },
+        {
+          "bytes": 3466,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/light.svg",
+          "sha256": "f613f35d7d30effde6b9b66efdbc73c20a5531ef2552970fc8fb7fd98ede9eca"
+        },
+        {
+          "bytes": 2570,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/error.svg",
+          "sha256": "2d4922d68965df10f4492f212225469e3f732b9819a16b9cf39de9f79ac2ea0d"
+        },
+        {
+          "bytes": 426,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/CMakeLists.txt",
+          "sha256": "adbd0f01ca9c6b2a5ab421ef0b4d395045fee362cf8890bca7ce9f8657d71951"
+        }
+      ]
+    },
+    "details-diagnostic1": {
+      "source_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/functional-visual-puzzles/sources/5e2d7ede55f3c661ce199cb01b1a93bb8d5471de",
+      "rcc": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/details-diagnostic1/resource.rcc",
+      "qm": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/details-diagnostic1/gcompris_qt_pt.qm",
+      "rcc_sha256": "0444813a227684a6bf1446a05388d5c383a08add31b57a2d3766acaa9bf1002e",
+      "qm_sha256": "3a5e991a20a0d1e97c7db9051c675857756249dfe347618afe3ba6166236bd1d",
+      "files_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/details-diagnostic1/files",
+      "argv": [
+        "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/details-diagnostic1/resource.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/details-diagnostic1/files"
+      ],
+      "exit_code": 0,
+      "inspector_sha256": "5d55cc133d58968668d1dfc6a5b31afac7503dc3a18499009130ed1820fc7b11",
+      "files": [
+        {
+          "bytes": 1494,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/TextItem.qml",
+          "sha256": "a7ca5817941bd84fcd9c8aadbbb0dc946038c838540662f3e84a2b4479269fee"
+        },
+        {
+          "bytes": 13221,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/DragListItem.qml",
+          "sha256": "42730253a5feedb5ea596bb4e5a1a9f1724cacdb6b2c27abee828514869f1f58"
+        },
+        {
+          "bytes": 2893,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/DropAnswerItem.qml",
+          "sha256": "40bbb13c46de204a6b35454906e618fc3677c8121b44948cb7d1044d40aa5029"
+        },
+        {
+          "bytes": 1726,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/ActivityInfo.qml",
+          "sha256": "7c3f2156b759d5b2f2de9363e7798333356766aeabc8bbe40e50211284c4605e"
+        },
+        {
+          "bytes": 11464,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/babymatch.js",
+          "sha256": "ee6ce5c08876578cf5c9d922fc35e781ae5d5a6fc3d12b01667f47f6a0a44101"
+        },
+        {
+          "bytes": 21835,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/Babymatch.qml",
+          "sha256": "557c91033923523cf3ae1a1b2e49ce0158dc38a1f22b5b390b989103192ab071"
+        },
+        {
+          "bytes": 3809,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/babymatch.svg",
+          "sha256": "97c7db3030a061825ba54fa403261a2b4b11040d1b7ea3c1daf920b7a281ff52"
+        },
+        {
+          "bytes": 12423,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/ListWidget.qml",
+          "sha256": "495de9e21f117ace6f21c3b7fceecf362c3f90a07c030598c039963479d18434"
+        },
+        {
+          "bytes": 1467,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board7_0.qml",
+          "sha256": "ae47693b7b94d1c6d87701b344ba901ca880371a9f6919323b7cdc6320cbd187"
+        },
+        {
+          "bytes": 1471,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board3_0.qml",
+          "sha256": "fbddf81031a233733d8e3d6fbc31cfc31a04df4e3c4e72e7b2572c7764d4ee2c"
+        },
+        {
+          "bytes": 1475,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board5_0.qml",
+          "sha256": "3106ce5d7e437b42bf3fd19eb274b85117c8431c68059bb76cebf25675d05c58"
+        },
+        {
+          "bytes": 1461,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board4_0.qml",
+          "sha256": "ae592a4d8090029e03d1a8af4fbf654478e2150d496affc2cb973930fbb9404c"
+        },
+        {
+          "bytes": 1479,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board6_0.qml",
+          "sha256": "7907c5bae3994ac1d46e483d5a2020d69695ba99e25aab5a1cdf7b3105290e6a"
+        },
+        {
+          "bytes": 1560,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board1_0.qml",
+          "sha256": "e6535ffd44ca8ca77ea22c9e5e9ea2dbe332c6f4f7aa9ff3b6be03f477b61143"
+        },
+        {
+          "bytes": 1467,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board2_0.qml",
+          "sha256": "cca7bdd8da09475c22b08c063db6680be1d295283d4d48c483a3c12d8af69091"
+        },
+        {
+          "bytes": 6763,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/postpoint.svg",
+          "sha256": "53aa5adada7542230493e858598c21a0a24ce5b77e4dc3d2482da87ba44c54a2"
+        },
+        {
+          "bytes": 7884,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lighthouse.svg",
+          "sha256": "98dd0321857472822680879d679c2fabe15c6a7efb3670e83898d5d0e959dd47"
+        },
+        {
+          "bytes": 8838,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/raquette.svg",
+          "sha256": "81c04f55a5dd6d1272cc2299e74fed78475ff3d1abb2493ec73f05c023c0c3ad"
+        },
+        {
+          "bytes": 9170,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sofa.svg",
+          "sha256": "59ae648047800588fe38303b3fa52ace376e6634db20ab18be91e7fd588fdaa5"
+        },
+        {
+          "bytes": 4973,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sailingboat.svg",
+          "sha256": "618562a8dbfd160d96060364a388e1d801a4e32e283faadaa24c84cd9ab64969"
+        },
+        {
+          "bytes": 5725,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lifebuoy.svg",
+          "sha256": "8fff6eaccbdfcc3e9cdec420ef5b112a0cb7921b19eeed97c3ba98613f369caa"
+        },
+        {
+          "bytes": 10544,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/fishingboat.svg",
+          "sha256": "eaf3c5504f2810632b6d32f8cb951e3646351e689600396c743684f42bc25db0"
+        },
+        {
+          "bytes": 25886,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/postcard.svg",
+          "sha256": "96ca24e995543e283f7f1e2629185102af0db56c4e5fbefefb81e0a7d2b3a7b2"
+        },
+        {
+          "bytes": 15462,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/crown.svg",
+          "sha256": "570da15bae9ee6c3b58bb23fa044efe4b10fba220726bea1f0fb0521f85b7986"
+        },
+        {
+          "bytes": 3543,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/apple.svg",
+          "sha256": "fc811e855f88a40cd4169140d7bc3e5e2b9ca6a152a3c373e746e42ba8e6051f"
+        },
+        {
+          "bytes": 1344,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/eggpot.svg",
+          "sha256": "b28936c06281e2aca7a8ee58895028ea8b115676dddac0e5836e27458de1a362"
+        },
+        {
+          "bytes": 10426,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tuxhelico.svg",
+          "sha256": "379899731882cc4c8e7cb707ca3405068fde7343374e467e1ee3582e01c9ec08"
+        },
+        {
+          "bytes": 2995,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lamp.svg",
+          "sha256": "3fa4422bfca657368496273fb2cd0af83cdd47a824dccf284c662423bbd86523"
+        },
+        {
+          "bytes": 4267,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/rape.svg",
+          "sha256": "660150ba6e1c918da3a974f8607fe08b63166dc891e9ff5c9cae80501eb3d514"
+        },
+        {
+          "bytes": 3324,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/glass.svg",
+          "sha256": "80d618cd77bd101827d857f95baec7e5afd5084407f7a44c47ed104c321bbbfd"
+        },
+        {
+          "bytes": 5672,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tree.svg",
+          "sha256": "16551b669a0adc083805f200894f802cf2627be3cb4b39b5ee59ae6b0b702320"
+        },
+        {
+          "bytes": 4235,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/carrot.svg",
+          "sha256": "dfba5b5699a486b4e228971ef80378a12950a239226093b1d2ef7a96b25c3699"
+        },
+        {
+          "bytes": 9428,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/car.svg",
+          "sha256": "021d4de18d942f8e5e0b8299ed27c23fecd17e8aae33d4b21c36f9b06d08a120"
+        },
+        {
+          "bytes": 12247,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/fusee.svg",
+          "sha256": "ede081cd0c7bc7fb731a98ac55527a77fc184d7776ecafeea862e51b0d35e770"
+        },
+        {
+          "bytes": 3291,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/pencil.svg",
+          "sha256": "6b29ee4b260dc0d6a35f752031ba714a41ca74fede435793601a9db43b6d6d87"
+        },
+        {
+          "bytes": 1835,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/star.svg",
+          "sha256": "f45fdf1819127a6be2f9dec19472362fd3125c3414f76b6a5e21df8590ec18ec"
+        },
+        {
+          "bytes": 4779,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sun.svg",
+          "sha256": "df66c5c2fc584e7af7477a1eee4c3774fd8fe8018c56a8582334f883893d94c7"
+        },
+        {
+          "bytes": 12275,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bicycle.svg",
+          "sha256": "747c0f0c08701e2c9a7dab69341cae6b72580ec2babed58bee3c7c5ef1aaf652"
+        },
+        {
+          "bytes": 7741,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/castle.svg",
+          "sha256": "2ff5642d05e04577540f1b5c637000c6773c253bcc1d66372965aca6f7c46c32"
+        },
+        {
+          "bytes": 3371,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bottle.svg",
+          "sha256": "e666d4474e3e0a7311c895e9f1f26e67b2547a4f949f3f331daaa51b2aff2775"
+        },
+        {
+          "bytes": 41034,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tuxplane.svg",
+          "sha256": "8855c312856adc60e36d09b3d2af6f44e3921f5f96a617737abbb8ba8e660e6a"
+        },
+        {
+          "bytes": 12554,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/truck.svg",
+          "sha256": "b7559e931195f6d4f3cef108d64e06503bf01e6efca9d3b065564672fd56c72e"
+        },
+        {
+          "bytes": 2142,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/windflag5.svg",
+          "sha256": "cb38d0ab0cc0a13ded12c77c6026c456b3a5db14368b95860a6e29629c16b725"
+        },
+        {
+          "bytes": 1136,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/egg.svg",
+          "sha256": "be528e56c47971668f6d17a34b70546ca8aab9a6dd0e029086d396618dd2451c"
+        },
+        {
+          "bytes": 3824,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bell.svg",
+          "sha256": "f8c15434453a0be46b444b5cceab32926470c3dee93ee8256fcbe39a6f3ae0b2"
+        },
+        {
+          "bytes": 6678,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sound.svg",
+          "sha256": "afe1012f990a5ff363f6043446f38f0566e4789bd8d8cfcaaa078a496b45cca3"
+        },
+        {
+          "bytes": 5665,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/house.svg",
+          "sha256": "7725c49d8fc55df721a8ffd3839f74b664eb358c6220d4340142fe0013eb81b1"
+        },
+        {
+          "bytes": 8507,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/minivan.svg",
+          "sha256": "ea92a9d0a655de7e875b63ad984e845d7f27fcf0cc82cb42c31de9946e230f99"
+        },
+        {
+          "bytes": 2243,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/flowerpot.svg",
+          "sha256": "2cee1bdcdd1beeb2896e3feda12f132b6447987d080fd02747f35b374854b712"
+        },
+        {
+          "bytes": 4904,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/football.svg",
+          "sha256": "7f46068fd6920afd1e231abc12d0107ccf98cc453d9124291ef2b947b789a0af"
+        },
+        {
+          "bytes": 8837,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/flower.svg",
+          "sha256": "31c835da606d89830c6bfe2fed6a52cba1002dcd888ab7ad8bb861c16803b927"
+        },
+        {
+          "bytes": 3466,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/light.svg",
+          "sha256": "f613f35d7d30effde6b9b66efdbc73c20a5531ef2552970fc8fb7fd98ede9eca"
+        },
+        {
+          "bytes": 2570,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/error.svg",
+          "sha256": "2d4922d68965df10f4492f212225469e3f732b9819a16b9cf39de9f79ac2ea0d"
+        },
+        {
+          "bytes": 426,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/CMakeLists.txt",
+          "sha256": "adbd0f01ca9c6b2a5ab421ef0b4d395045fee362cf8890bca7ce9f8657d71951"
+        }
+      ]
+    },
+    "details-complete2": {
+      "source_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/functional-visual-puzzles/sources/fdc6a6fc6a3547fe84cd9ef7566b64089e6e0d1e",
+      "rcc": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/details-complete2/resource.rcc",
+      "qm": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/details-complete2/gcompris_qt_pt.qm",
+      "rcc_sha256": "abfb90674fdf76bfc12563f47d704a92fefe3fb683e2ca0ddf03beff4ec7b5f7",
+      "qm_sha256": "3a5e991a20a0d1e97c7db9051c675857756249dfe347618afe3ba6166236bd1d",
+      "files_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/details-complete2/files",
+      "argv": [
+        "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/details-complete2/resource.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/details-complete2/files"
+      ],
+      "exit_code": 0,
+      "inspector_sha256": "5d55cc133d58968668d1dfc6a5b31afac7503dc3a18499009130ed1820fc7b11",
+      "files": [
+        {
+          "bytes": 1494,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/TextItem.qml",
+          "sha256": "a7ca5817941bd84fcd9c8aadbbb0dc946038c838540662f3e84a2b4479269fee"
+        },
+        {
+          "bytes": 13221,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/DragListItem.qml",
+          "sha256": "42730253a5feedb5ea596bb4e5a1a9f1724cacdb6b2c27abee828514869f1f58"
+        },
+        {
+          "bytes": 2893,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/DropAnswerItem.qml",
+          "sha256": "40bbb13c46de204a6b35454906e618fc3677c8121b44948cb7d1044d40aa5029"
+        },
+        {
+          "bytes": 1726,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/ActivityInfo.qml",
+          "sha256": "7c3f2156b759d5b2f2de9363e7798333356766aeabc8bbe40e50211284c4605e"
+        },
+        {
+          "bytes": 11464,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/babymatch.js",
+          "sha256": "ee6ce5c08876578cf5c9d922fc35e781ae5d5a6fc3d12b01667f47f6a0a44101"
+        },
+        {
+          "bytes": 22143,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/Babymatch.qml",
+          "sha256": "dc46f6ad3c888e6cb29f5a204b086bc05732cb9fb449cb9822b49034a4b45dc0"
+        },
+        {
+          "bytes": 3809,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/babymatch.svg",
+          "sha256": "97c7db3030a061825ba54fa403261a2b4b11040d1b7ea3c1daf920b7a281ff52"
+        },
+        {
+          "bytes": 12423,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/ListWidget.qml",
+          "sha256": "495de9e21f117ace6f21c3b7fceecf362c3f90a07c030598c039963479d18434"
+        },
+        {
+          "bytes": 1467,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board7_0.qml",
+          "sha256": "ae47693b7b94d1c6d87701b344ba901ca880371a9f6919323b7cdc6320cbd187"
+        },
+        {
+          "bytes": 1471,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board3_0.qml",
+          "sha256": "fbddf81031a233733d8e3d6fbc31cfc31a04df4e3c4e72e7b2572c7764d4ee2c"
+        },
+        {
+          "bytes": 1475,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board5_0.qml",
+          "sha256": "3106ce5d7e437b42bf3fd19eb274b85117c8431c68059bb76cebf25675d05c58"
+        },
+        {
+          "bytes": 1461,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board4_0.qml",
+          "sha256": "ae592a4d8090029e03d1a8af4fbf654478e2150d496affc2cb973930fbb9404c"
+        },
+        {
+          "bytes": 1479,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board6_0.qml",
+          "sha256": "7907c5bae3994ac1d46e483d5a2020d69695ba99e25aab5a1cdf7b3105290e6a"
+        },
+        {
+          "bytes": 1560,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board1_0.qml",
+          "sha256": "e6535ffd44ca8ca77ea22c9e5e9ea2dbe332c6f4f7aa9ff3b6be03f477b61143"
+        },
+        {
+          "bytes": 1467,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board2_0.qml",
+          "sha256": "cca7bdd8da09475c22b08c063db6680be1d295283d4d48c483a3c12d8af69091"
+        },
+        {
+          "bytes": 6763,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/postpoint.svg",
+          "sha256": "53aa5adada7542230493e858598c21a0a24ce5b77e4dc3d2482da87ba44c54a2"
+        },
+        {
+          "bytes": 7884,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lighthouse.svg",
+          "sha256": "98dd0321857472822680879d679c2fabe15c6a7efb3670e83898d5d0e959dd47"
+        },
+        {
+          "bytes": 8838,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/raquette.svg",
+          "sha256": "81c04f55a5dd6d1272cc2299e74fed78475ff3d1abb2493ec73f05c023c0c3ad"
+        },
+        {
+          "bytes": 9170,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sofa.svg",
+          "sha256": "59ae648047800588fe38303b3fa52ace376e6634db20ab18be91e7fd588fdaa5"
+        },
+        {
+          "bytes": 4973,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sailingboat.svg",
+          "sha256": "618562a8dbfd160d96060364a388e1d801a4e32e283faadaa24c84cd9ab64969"
+        },
+        {
+          "bytes": 5725,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lifebuoy.svg",
+          "sha256": "8fff6eaccbdfcc3e9cdec420ef5b112a0cb7921b19eeed97c3ba98613f369caa"
+        },
+        {
+          "bytes": 10544,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/fishingboat.svg",
+          "sha256": "eaf3c5504f2810632b6d32f8cb951e3646351e689600396c743684f42bc25db0"
+        },
+        {
+          "bytes": 25886,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/postcard.svg",
+          "sha256": "96ca24e995543e283f7f1e2629185102af0db56c4e5fbefefb81e0a7d2b3a7b2"
+        },
+        {
+          "bytes": 15462,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/crown.svg",
+          "sha256": "570da15bae9ee6c3b58bb23fa044efe4b10fba220726bea1f0fb0521f85b7986"
+        },
+        {
+          "bytes": 3543,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/apple.svg",
+          "sha256": "fc811e855f88a40cd4169140d7bc3e5e2b9ca6a152a3c373e746e42ba8e6051f"
+        },
+        {
+          "bytes": 1344,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/eggpot.svg",
+          "sha256": "b28936c06281e2aca7a8ee58895028ea8b115676dddac0e5836e27458de1a362"
+        },
+        {
+          "bytes": 10426,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tuxhelico.svg",
+          "sha256": "379899731882cc4c8e7cb707ca3405068fde7343374e467e1ee3582e01c9ec08"
+        },
+        {
+          "bytes": 2995,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lamp.svg",
+          "sha256": "3fa4422bfca657368496273fb2cd0af83cdd47a824dccf284c662423bbd86523"
+        },
+        {
+          "bytes": 4267,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/rape.svg",
+          "sha256": "660150ba6e1c918da3a974f8607fe08b63166dc891e9ff5c9cae80501eb3d514"
+        },
+        {
+          "bytes": 3324,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/glass.svg",
+          "sha256": "80d618cd77bd101827d857f95baec7e5afd5084407f7a44c47ed104c321bbbfd"
+        },
+        {
+          "bytes": 5672,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tree.svg",
+          "sha256": "16551b669a0adc083805f200894f802cf2627be3cb4b39b5ee59ae6b0b702320"
+        },
+        {
+          "bytes": 4235,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/carrot.svg",
+          "sha256": "dfba5b5699a486b4e228971ef80378a12950a239226093b1d2ef7a96b25c3699"
+        },
+        {
+          "bytes": 9428,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/car.svg",
+          "sha256": "021d4de18d942f8e5e0b8299ed27c23fecd17e8aae33d4b21c36f9b06d08a120"
+        },
+        {
+          "bytes": 12247,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/fusee.svg",
+          "sha256": "ede081cd0c7bc7fb731a98ac55527a77fc184d7776ecafeea862e51b0d35e770"
+        },
+        {
+          "bytes": 3291,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/pencil.svg",
+          "sha256": "6b29ee4b260dc0d6a35f752031ba714a41ca74fede435793601a9db43b6d6d87"
+        },
+        {
+          "bytes": 1835,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/star.svg",
+          "sha256": "f45fdf1819127a6be2f9dec19472362fd3125c3414f76b6a5e21df8590ec18ec"
+        },
+        {
+          "bytes": 4779,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sun.svg",
+          "sha256": "df66c5c2fc584e7af7477a1eee4c3774fd8fe8018c56a8582334f883893d94c7"
+        },
+        {
+          "bytes": 12275,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bicycle.svg",
+          "sha256": "747c0f0c08701e2c9a7dab69341cae6b72580ec2babed58bee3c7c5ef1aaf652"
+        },
+        {
+          "bytes": 7741,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/castle.svg",
+          "sha256": "2ff5642d05e04577540f1b5c637000c6773c253bcc1d66372965aca6f7c46c32"
+        },
+        {
+          "bytes": 3371,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bottle.svg",
+          "sha256": "e666d4474e3e0a7311c895e9f1f26e67b2547a4f949f3f331daaa51b2aff2775"
+        },
+        {
+          "bytes": 41034,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tuxplane.svg",
+          "sha256": "8855c312856adc60e36d09b3d2af6f44e3921f5f96a617737abbb8ba8e660e6a"
+        },
+        {
+          "bytes": 12554,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/truck.svg",
+          "sha256": "b7559e931195f6d4f3cef108d64e06503bf01e6efca9d3b065564672fd56c72e"
+        },
+        {
+          "bytes": 2142,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/windflag5.svg",
+          "sha256": "cb38d0ab0cc0a13ded12c77c6026c456b3a5db14368b95860a6e29629c16b725"
+        },
+        {
+          "bytes": 1136,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/egg.svg",
+          "sha256": "be528e56c47971668f6d17a34b70546ca8aab9a6dd0e029086d396618dd2451c"
+        },
+        {
+          "bytes": 3824,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bell.svg",
+          "sha256": "f8c15434453a0be46b444b5cceab32926470c3dee93ee8256fcbe39a6f3ae0b2"
+        },
+        {
+          "bytes": 6678,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sound.svg",
+          "sha256": "afe1012f990a5ff363f6043446f38f0566e4789bd8d8cfcaaa078a496b45cca3"
+        },
+        {
+          "bytes": 5665,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/house.svg",
+          "sha256": "7725c49d8fc55df721a8ffd3839f74b664eb358c6220d4340142fe0013eb81b1"
+        },
+        {
+          "bytes": 8507,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/minivan.svg",
+          "sha256": "ea92a9d0a655de7e875b63ad984e845d7f27fcf0cc82cb42c31de9946e230f99"
+        },
+        {
+          "bytes": 2243,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/flowerpot.svg",
+          "sha256": "2cee1bdcdd1beeb2896e3feda12f132b6447987d080fd02747f35b374854b712"
+        },
+        {
+          "bytes": 4904,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/football.svg",
+          "sha256": "7f46068fd6920afd1e231abc12d0107ccf98cc453d9124291ef2b947b789a0af"
+        },
+        {
+          "bytes": 8837,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/flower.svg",
+          "sha256": "31c835da606d89830c6bfe2fed6a52cba1002dcd888ab7ad8bb861c16803b927"
+        },
+        {
+          "bytes": 3466,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/light.svg",
+          "sha256": "f613f35d7d30effde6b9b66efdbc73c20a5531ef2552970fc8fb7fd98ede9eca"
+        },
+        {
+          "bytes": 2570,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/error.svg",
+          "sha256": "2d4922d68965df10f4492f212225469e3f732b9819a16b9cf39de9f79ac2ea0d"
+        },
+        {
+          "bytes": 426,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/CMakeLists.txt",
+          "sha256": "adbd0f01ca9c6b2a5ab421ef0b4d395045fee362cf8890bca7ce9f8657d71951"
+        }
+      ]
+    },
+    "paintings-pilot1": {
+      "source_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/functional-visual-puzzles/sources/848cbb694db34ff4e163582049103f2c61eebcb5",
+      "rcc": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/paintings-pilot1/resource.rcc",
+      "qm": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/paintings-pilot1/gcompris_qt_pt.qm",
+      "rcc_sha256": "c9c172bb07e53ae6741eec22a0b7ff8b835a8649eb683025982f961da0b293d1",
+      "qm_sha256": "05e8de8bb28ac424d3ae49b91dd07c85160de27edfbc035bc80017bac7c20503",
+      "files_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/paintings-pilot1/files",
+      "argv": [
+        "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/paintings-pilot1/resource.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/paintings-pilot1/files"
+      ],
+      "exit_code": 0,
+      "inspector_sha256": "5d55cc133d58968668d1dfc6a5b31afac7503dc3a18499009130ed1820fc7b11",
+      "files": [
+        {
+          "bytes": 1494,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/TextItem.qml",
+          "sha256": "a7ca5817941bd84fcd9c8aadbbb0dc946038c838540662f3e84a2b4479269fee"
+        },
+        {
+          "bytes": 13221,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/DragListItem.qml",
+          "sha256": "42730253a5feedb5ea596bb4e5a1a9f1724cacdb6b2c27abee828514869f1f58"
+        },
+        {
+          "bytes": 2893,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/DropAnswerItem.qml",
+          "sha256": "40bbb13c46de204a6b35454906e618fc3677c8121b44948cb7d1044d40aa5029"
+        },
+        {
+          "bytes": 1726,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/ActivityInfo.qml",
+          "sha256": "7c3f2156b759d5b2f2de9363e7798333356766aeabc8bbe40e50211284c4605e"
+        },
+        {
+          "bytes": 11464,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/babymatch.js",
+          "sha256": "ee6ce5c08876578cf5c9d922fc35e781ae5d5a6fc3d12b01667f47f6a0a44101"
+        },
+        {
+          "bytes": 22153,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/Babymatch.qml",
+          "sha256": "20c7c9e0d0f39661bda30e6658f3dea6afa25856dc86ef2df6e0fac45575dcdf"
+        },
+        {
+          "bytes": 3809,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/babymatch.svg",
+          "sha256": "97c7db3030a061825ba54fa403261a2b4b11040d1b7ea3c1daf920b7a281ff52"
+        },
+        {
+          "bytes": 12423,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/ListWidget.qml",
+          "sha256": "495de9e21f117ace6f21c3b7fceecf362c3f90a07c030598c039963479d18434"
+        },
+        {
+          "bytes": 1467,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board7_0.qml",
+          "sha256": "ae47693b7b94d1c6d87701b344ba901ca880371a9f6919323b7cdc6320cbd187"
+        },
+        {
+          "bytes": 1471,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board3_0.qml",
+          "sha256": "fbddf81031a233733d8e3d6fbc31cfc31a04df4e3c4e72e7b2572c7764d4ee2c"
+        },
+        {
+          "bytes": 1475,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board5_0.qml",
+          "sha256": "3106ce5d7e437b42bf3fd19eb274b85117c8431c68059bb76cebf25675d05c58"
+        },
+        {
+          "bytes": 1461,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board4_0.qml",
+          "sha256": "ae592a4d8090029e03d1a8af4fbf654478e2150d496affc2cb973930fbb9404c"
+        },
+        {
+          "bytes": 1479,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board6_0.qml",
+          "sha256": "7907c5bae3994ac1d46e483d5a2020d69695ba99e25aab5a1cdf7b3105290e6a"
+        },
+        {
+          "bytes": 1560,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board1_0.qml",
+          "sha256": "e6535ffd44ca8ca77ea22c9e5e9ea2dbe332c6f4f7aa9ff3b6be03f477b61143"
+        },
+        {
+          "bytes": 1467,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board2_0.qml",
+          "sha256": "cca7bdd8da09475c22b08c063db6680be1d295283d4d48c483a3c12d8af69091"
+        },
+        {
+          "bytes": 6763,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/postpoint.svg",
+          "sha256": "53aa5adada7542230493e858598c21a0a24ce5b77e4dc3d2482da87ba44c54a2"
+        },
+        {
+          "bytes": 7884,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lighthouse.svg",
+          "sha256": "98dd0321857472822680879d679c2fabe15c6a7efb3670e83898d5d0e959dd47"
+        },
+        {
+          "bytes": 8838,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/raquette.svg",
+          "sha256": "81c04f55a5dd6d1272cc2299e74fed78475ff3d1abb2493ec73f05c023c0c3ad"
+        },
+        {
+          "bytes": 9170,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sofa.svg",
+          "sha256": "59ae648047800588fe38303b3fa52ace376e6634db20ab18be91e7fd588fdaa5"
+        },
+        {
+          "bytes": 4973,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sailingboat.svg",
+          "sha256": "618562a8dbfd160d96060364a388e1d801a4e32e283faadaa24c84cd9ab64969"
+        },
+        {
+          "bytes": 5725,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lifebuoy.svg",
+          "sha256": "8fff6eaccbdfcc3e9cdec420ef5b112a0cb7921b19eeed97c3ba98613f369caa"
+        },
+        {
+          "bytes": 10544,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/fishingboat.svg",
+          "sha256": "eaf3c5504f2810632b6d32f8cb951e3646351e689600396c743684f42bc25db0"
+        },
+        {
+          "bytes": 25886,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/postcard.svg",
+          "sha256": "96ca24e995543e283f7f1e2629185102af0db56c4e5fbefefb81e0a7d2b3a7b2"
+        },
+        {
+          "bytes": 15462,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/crown.svg",
+          "sha256": "570da15bae9ee6c3b58bb23fa044efe4b10fba220726bea1f0fb0521f85b7986"
+        },
+        {
+          "bytes": 3543,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/apple.svg",
+          "sha256": "fc811e855f88a40cd4169140d7bc3e5e2b9ca6a152a3c373e746e42ba8e6051f"
+        },
+        {
+          "bytes": 1344,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/eggpot.svg",
+          "sha256": "b28936c06281e2aca7a8ee58895028ea8b115676dddac0e5836e27458de1a362"
+        },
+        {
+          "bytes": 10426,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tuxhelico.svg",
+          "sha256": "379899731882cc4c8e7cb707ca3405068fde7343374e467e1ee3582e01c9ec08"
+        },
+        {
+          "bytes": 2995,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lamp.svg",
+          "sha256": "3fa4422bfca657368496273fb2cd0af83cdd47a824dccf284c662423bbd86523"
+        },
+        {
+          "bytes": 4267,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/rape.svg",
+          "sha256": "660150ba6e1c918da3a974f8607fe08b63166dc891e9ff5c9cae80501eb3d514"
+        },
+        {
+          "bytes": 3324,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/glass.svg",
+          "sha256": "80d618cd77bd101827d857f95baec7e5afd5084407f7a44c47ed104c321bbbfd"
+        },
+        {
+          "bytes": 5672,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tree.svg",
+          "sha256": "16551b669a0adc083805f200894f802cf2627be3cb4b39b5ee59ae6b0b702320"
+        },
+        {
+          "bytes": 4235,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/carrot.svg",
+          "sha256": "dfba5b5699a486b4e228971ef80378a12950a239226093b1d2ef7a96b25c3699"
+        },
+        {
+          "bytes": 9428,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/car.svg",
+          "sha256": "021d4de18d942f8e5e0b8299ed27c23fecd17e8aae33d4b21c36f9b06d08a120"
+        },
+        {
+          "bytes": 12247,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/fusee.svg",
+          "sha256": "ede081cd0c7bc7fb731a98ac55527a77fc184d7776ecafeea862e51b0d35e770"
+        },
+        {
+          "bytes": 3291,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/pencil.svg",
+          "sha256": "6b29ee4b260dc0d6a35f752031ba714a41ca74fede435793601a9db43b6d6d87"
+        },
+        {
+          "bytes": 1835,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/star.svg",
+          "sha256": "f45fdf1819127a6be2f9dec19472362fd3125c3414f76b6a5e21df8590ec18ec"
+        },
+        {
+          "bytes": 4779,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sun.svg",
+          "sha256": "df66c5c2fc584e7af7477a1eee4c3774fd8fe8018c56a8582334f883893d94c7"
+        },
+        {
+          "bytes": 12275,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bicycle.svg",
+          "sha256": "747c0f0c08701e2c9a7dab69341cae6b72580ec2babed58bee3c7c5ef1aaf652"
+        },
+        {
+          "bytes": 7741,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/castle.svg",
+          "sha256": "2ff5642d05e04577540f1b5c637000c6773c253bcc1d66372965aca6f7c46c32"
+        },
+        {
+          "bytes": 3371,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bottle.svg",
+          "sha256": "e666d4474e3e0a7311c895e9f1f26e67b2547a4f949f3f331daaa51b2aff2775"
+        },
+        {
+          "bytes": 41034,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tuxplane.svg",
+          "sha256": "8855c312856adc60e36d09b3d2af6f44e3921f5f96a617737abbb8ba8e660e6a"
+        },
+        {
+          "bytes": 12554,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/truck.svg",
+          "sha256": "b7559e931195f6d4f3cef108d64e06503bf01e6efca9d3b065564672fd56c72e"
+        },
+        {
+          "bytes": 2142,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/windflag5.svg",
+          "sha256": "cb38d0ab0cc0a13ded12c77c6026c456b3a5db14368b95860a6e29629c16b725"
+        },
+        {
+          "bytes": 1136,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/egg.svg",
+          "sha256": "be528e56c47971668f6d17a34b70546ca8aab9a6dd0e029086d396618dd2451c"
+        },
+        {
+          "bytes": 3824,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bell.svg",
+          "sha256": "f8c15434453a0be46b444b5cceab32926470c3dee93ee8256fcbe39a6f3ae0b2"
+        },
+        {
+          "bytes": 6678,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sound.svg",
+          "sha256": "afe1012f990a5ff363f6043446f38f0566e4789bd8d8cfcaaa078a496b45cca3"
+        },
+        {
+          "bytes": 5665,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/house.svg",
+          "sha256": "7725c49d8fc55df721a8ffd3839f74b664eb358c6220d4340142fe0013eb81b1"
+        },
+        {
+          "bytes": 8507,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/minivan.svg",
+          "sha256": "ea92a9d0a655de7e875b63ad984e845d7f27fcf0cc82cb42c31de9946e230f99"
+        },
+        {
+          "bytes": 2243,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/flowerpot.svg",
+          "sha256": "2cee1bdcdd1beeb2896e3feda12f132b6447987d080fd02747f35b374854b712"
+        },
+        {
+          "bytes": 4904,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/football.svg",
+          "sha256": "7f46068fd6920afd1e231abc12d0107ccf98cc453d9124291ef2b947b789a0af"
+        },
+        {
+          "bytes": 8837,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/flower.svg",
+          "sha256": "31c835da606d89830c6bfe2fed6a52cba1002dcd888ab7ad8bb861c16803b927"
+        },
+        {
+          "bytes": 3466,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/light.svg",
+          "sha256": "f613f35d7d30effde6b9b66efdbc73c20a5531ef2552970fc8fb7fd98ede9eca"
+        },
+        {
+          "bytes": 2570,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/error.svg",
+          "sha256": "2d4922d68965df10f4492f212225469e3f732b9819a16b9cf39de9f79ac2ea0d"
+        },
+        {
+          "bytes": 426,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/CMakeLists.txt",
+          "sha256": "adbd0f01ca9c6b2a5ab421ef0b4d395045fee362cf8890bca7ce9f8657d71951"
+        }
+      ]
+    },
+    "controls-details1": {
+      "source_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/functional-visual-puzzles/sources/3967a4e78f4f9c764cc2df6ae7a163674409f4e6",
+      "rcc": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/controls-details1/resource.rcc",
+      "qm": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/controls-details1/gcompris_qt_pt.qm",
+      "rcc_sha256": "1db75df28ea3c06a382b6cc1bb6220cbace9824cb7b4e99e6665af25b91aacf8",
+      "qm_sha256": "05e8de8bb28ac424d3ae49b91dd07c85160de27edfbc035bc80017bac7c20503",
+      "files_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/controls-details1/files",
+      "argv": [
+        "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/controls-details1/resource.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/controls-details1/files"
+      ],
+      "exit_code": 0,
+      "inspector_sha256": "5d55cc133d58968668d1dfc6a5b31afac7503dc3a18499009130ed1820fc7b11",
+      "files": [
+        {
+          "bytes": 1494,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/TextItem.qml",
+          "sha256": "a7ca5817941bd84fcd9c8aadbbb0dc946038c838540662f3e84a2b4479269fee"
+        },
+        {
+          "bytes": 13221,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/DragListItem.qml",
+          "sha256": "42730253a5feedb5ea596bb4e5a1a9f1724cacdb6b2c27abee828514869f1f58"
+        },
+        {
+          "bytes": 2893,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/DropAnswerItem.qml",
+          "sha256": "40bbb13c46de204a6b35454906e618fc3677c8121b44948cb7d1044d40aa5029"
+        },
+        {
+          "bytes": 1726,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/ActivityInfo.qml",
+          "sha256": "7c3f2156b759d5b2f2de9363e7798333356766aeabc8bbe40e50211284c4605e"
+        },
+        {
+          "bytes": 11464,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/babymatch.js",
+          "sha256": "ee6ce5c08876578cf5c9d922fc35e781ae5d5a6fc3d12b01667f47f6a0a44101"
+        },
+        {
+          "bytes": 24198,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/Babymatch.qml",
+          "sha256": "0df915f33b0060abd72dc024fbcaca1c58ea93bec1e6956c8798e9084d35f6ab"
+        },
+        {
+          "bytes": 3809,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/babymatch.svg",
+          "sha256": "97c7db3030a061825ba54fa403261a2b4b11040d1b7ea3c1daf920b7a281ff52"
+        },
+        {
+          "bytes": 12423,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/ListWidget.qml",
+          "sha256": "495de9e21f117ace6f21c3b7fceecf362c3f90a07c030598c039963479d18434"
+        },
+        {
+          "bytes": 1467,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board7_0.qml",
+          "sha256": "ae47693b7b94d1c6d87701b344ba901ca880371a9f6919323b7cdc6320cbd187"
+        },
+        {
+          "bytes": 1471,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board3_0.qml",
+          "sha256": "fbddf81031a233733d8e3d6fbc31cfc31a04df4e3c4e72e7b2572c7764d4ee2c"
+        },
+        {
+          "bytes": 1475,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board5_0.qml",
+          "sha256": "3106ce5d7e437b42bf3fd19eb274b85117c8431c68059bb76cebf25675d05c58"
+        },
+        {
+          "bytes": 1461,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board4_0.qml",
+          "sha256": "ae592a4d8090029e03d1a8af4fbf654478e2150d496affc2cb973930fbb9404c"
+        },
+        {
+          "bytes": 1479,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board6_0.qml",
+          "sha256": "7907c5bae3994ac1d46e483d5a2020d69695ba99e25aab5a1cdf7b3105290e6a"
+        },
+        {
+          "bytes": 1560,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board1_0.qml",
+          "sha256": "e6535ffd44ca8ca77ea22c9e5e9ea2dbe332c6f4f7aa9ff3b6be03f477b61143"
+        },
+        {
+          "bytes": 1467,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board2_0.qml",
+          "sha256": "cca7bdd8da09475c22b08c063db6680be1d295283d4d48c483a3c12d8af69091"
+        },
+        {
+          "bytes": 6763,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/postpoint.svg",
+          "sha256": "53aa5adada7542230493e858598c21a0a24ce5b77e4dc3d2482da87ba44c54a2"
+        },
+        {
+          "bytes": 7884,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lighthouse.svg",
+          "sha256": "98dd0321857472822680879d679c2fabe15c6a7efb3670e83898d5d0e959dd47"
+        },
+        {
+          "bytes": 8838,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/raquette.svg",
+          "sha256": "81c04f55a5dd6d1272cc2299e74fed78475ff3d1abb2493ec73f05c023c0c3ad"
+        },
+        {
+          "bytes": 9170,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sofa.svg",
+          "sha256": "59ae648047800588fe38303b3fa52ace376e6634db20ab18be91e7fd588fdaa5"
+        },
+        {
+          "bytes": 4973,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sailingboat.svg",
+          "sha256": "618562a8dbfd160d96060364a388e1d801a4e32e283faadaa24c84cd9ab64969"
+        },
+        {
+          "bytes": 5725,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lifebuoy.svg",
+          "sha256": "8fff6eaccbdfcc3e9cdec420ef5b112a0cb7921b19eeed97c3ba98613f369caa"
+        },
+        {
+          "bytes": 10544,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/fishingboat.svg",
+          "sha256": "eaf3c5504f2810632b6d32f8cb951e3646351e689600396c743684f42bc25db0"
+        },
+        {
+          "bytes": 25886,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/postcard.svg",
+          "sha256": "96ca24e995543e283f7f1e2629185102af0db56c4e5fbefefb81e0a7d2b3a7b2"
+        },
+        {
+          "bytes": 15462,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/crown.svg",
+          "sha256": "570da15bae9ee6c3b58bb23fa044efe4b10fba220726bea1f0fb0521f85b7986"
+        },
+        {
+          "bytes": 3543,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/apple.svg",
+          "sha256": "fc811e855f88a40cd4169140d7bc3e5e2b9ca6a152a3c373e746e42ba8e6051f"
+        },
+        {
+          "bytes": 1344,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/eggpot.svg",
+          "sha256": "b28936c06281e2aca7a8ee58895028ea8b115676dddac0e5836e27458de1a362"
+        },
+        {
+          "bytes": 10426,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tuxhelico.svg",
+          "sha256": "379899731882cc4c8e7cb707ca3405068fde7343374e467e1ee3582e01c9ec08"
+        },
+        {
+          "bytes": 2995,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lamp.svg",
+          "sha256": "3fa4422bfca657368496273fb2cd0af83cdd47a824dccf284c662423bbd86523"
+        },
+        {
+          "bytes": 4267,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/rape.svg",
+          "sha256": "660150ba6e1c918da3a974f8607fe08b63166dc891e9ff5c9cae80501eb3d514"
+        },
+        {
+          "bytes": 3324,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/glass.svg",
+          "sha256": "80d618cd77bd101827d857f95baec7e5afd5084407f7a44c47ed104c321bbbfd"
+        },
+        {
+          "bytes": 5672,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tree.svg",
+          "sha256": "16551b669a0adc083805f200894f802cf2627be3cb4b39b5ee59ae6b0b702320"
+        },
+        {
+          "bytes": 4235,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/carrot.svg",
+          "sha256": "dfba5b5699a486b4e228971ef80378a12950a239226093b1d2ef7a96b25c3699"
+        },
+        {
+          "bytes": 9428,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/car.svg",
+          "sha256": "021d4de18d942f8e5e0b8299ed27c23fecd17e8aae33d4b21c36f9b06d08a120"
+        },
+        {
+          "bytes": 12247,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/fusee.svg",
+          "sha256": "ede081cd0c7bc7fb731a98ac55527a77fc184d7776ecafeea862e51b0d35e770"
+        },
+        {
+          "bytes": 3291,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/pencil.svg",
+          "sha256": "6b29ee4b260dc0d6a35f752031ba714a41ca74fede435793601a9db43b6d6d87"
+        },
+        {
+          "bytes": 1835,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/star.svg",
+          "sha256": "f45fdf1819127a6be2f9dec19472362fd3125c3414f76b6a5e21df8590ec18ec"
+        },
+        {
+          "bytes": 4779,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sun.svg",
+          "sha256": "df66c5c2fc584e7af7477a1eee4c3774fd8fe8018c56a8582334f883893d94c7"
+        },
+        {
+          "bytes": 12275,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bicycle.svg",
+          "sha256": "747c0f0c08701e2c9a7dab69341cae6b72580ec2babed58bee3c7c5ef1aaf652"
+        },
+        {
+          "bytes": 7741,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/castle.svg",
+          "sha256": "2ff5642d05e04577540f1b5c637000c6773c253bcc1d66372965aca6f7c46c32"
+        },
+        {
+          "bytes": 3371,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bottle.svg",
+          "sha256": "e666d4474e3e0a7311c895e9f1f26e67b2547a4f949f3f331daaa51b2aff2775"
+        },
+        {
+          "bytes": 41034,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tuxplane.svg",
+          "sha256": "8855c312856adc60e36d09b3d2af6f44e3921f5f96a617737abbb8ba8e660e6a"
+        },
+        {
+          "bytes": 12554,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/truck.svg",
+          "sha256": "b7559e931195f6d4f3cef108d64e06503bf01e6efca9d3b065564672fd56c72e"
+        },
+        {
+          "bytes": 2142,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/windflag5.svg",
+          "sha256": "cb38d0ab0cc0a13ded12c77c6026c456b3a5db14368b95860a6e29629c16b725"
+        },
+        {
+          "bytes": 1136,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/egg.svg",
+          "sha256": "be528e56c47971668f6d17a34b70546ca8aab9a6dd0e029086d396618dd2451c"
+        },
+        {
+          "bytes": 3824,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bell.svg",
+          "sha256": "f8c15434453a0be46b444b5cceab32926470c3dee93ee8256fcbe39a6f3ae0b2"
+        },
+        {
+          "bytes": 6678,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sound.svg",
+          "sha256": "afe1012f990a5ff363f6043446f38f0566e4789bd8d8cfcaaa078a496b45cca3"
+        },
+        {
+          "bytes": 5665,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/house.svg",
+          "sha256": "7725c49d8fc55df721a8ffd3839f74b664eb358c6220d4340142fe0013eb81b1"
+        },
+        {
+          "bytes": 8507,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/minivan.svg",
+          "sha256": "ea92a9d0a655de7e875b63ad984e845d7f27fcf0cc82cb42c31de9946e230f99"
+        },
+        {
+          "bytes": 2243,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/flowerpot.svg",
+          "sha256": "2cee1bdcdd1beeb2896e3feda12f132b6447987d080fd02747f35b374854b712"
+        },
+        {
+          "bytes": 4904,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/football.svg",
+          "sha256": "7f46068fd6920afd1e231abc12d0107ccf98cc453d9124291ef2b947b789a0af"
+        },
+        {
+          "bytes": 8837,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/flower.svg",
+          "sha256": "31c835da606d89830c6bfe2fed6a52cba1002dcd888ab7ad8bb861c16803b927"
+        },
+        {
+          "bytes": 3466,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/light.svg",
+          "sha256": "f613f35d7d30effde6b9b66efdbc73c20a5531ef2552970fc8fb7fd98ede9eca"
+        },
+        {
+          "bytes": 2570,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/error.svg",
+          "sha256": "2d4922d68965df10f4492f212225469e3f732b9819a16b9cf39de9f79ac2ea0d"
+        },
+        {
+          "bytes": 426,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/CMakeLists.txt",
+          "sha256": "adbd0f01ca9c6b2a5ab421ef0b4d395045fee362cf8890bca7ce9f8657d71951"
+        }
+      ]
+    },
+    "controls-paintings1": {
+      "source_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/functional-visual-puzzles/sources/3967a4e78f4f9c764cc2df6ae7a163674409f4e6",
+      "rcc": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/controls-paintings1/resource.rcc",
+      "qm": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/controls-paintings1/gcompris_qt_pt.qm",
+      "rcc_sha256": "40a63b86094705af9f7e377a174f762ded27bbfca52c896bb2fe9c8c73fc8fcf",
+      "qm_sha256": "05e8de8bb28ac424d3ae49b91dd07c85160de27edfbc035bc80017bac7c20503",
+      "files_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/controls-paintings1/files",
+      "argv": [
+        "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/controls-paintings1/resource.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/controls-paintings1/files"
+      ],
+      "exit_code": 0,
+      "inspector_sha256": "5d55cc133d58968668d1dfc6a5b31afac7503dc3a18499009130ed1820fc7b11",
+      "files": [
+        {
+          "bytes": 1494,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/TextItem.qml",
+          "sha256": "a7ca5817941bd84fcd9c8aadbbb0dc946038c838540662f3e84a2b4479269fee"
+        },
+        {
+          "bytes": 13221,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/DragListItem.qml",
+          "sha256": "42730253a5feedb5ea596bb4e5a1a9f1724cacdb6b2c27abee828514869f1f58"
+        },
+        {
+          "bytes": 2893,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/DropAnswerItem.qml",
+          "sha256": "40bbb13c46de204a6b35454906e618fc3677c8121b44948cb7d1044d40aa5029"
+        },
+        {
+          "bytes": 1726,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/ActivityInfo.qml",
+          "sha256": "7c3f2156b759d5b2f2de9363e7798333356766aeabc8bbe40e50211284c4605e"
+        },
+        {
+          "bytes": 11464,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/babymatch.js",
+          "sha256": "ee6ce5c08876578cf5c9d922fc35e781ae5d5a6fc3d12b01667f47f6a0a44101"
+        },
+        {
+          "bytes": 24208,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/Babymatch.qml",
+          "sha256": "054a5f731082a76867880de52a2178cf7acabacb1133767af44b827582f2b4ee"
+        },
+        {
+          "bytes": 3809,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/babymatch.svg",
+          "sha256": "97c7db3030a061825ba54fa403261a2b4b11040d1b7ea3c1daf920b7a281ff52"
+        },
+        {
+          "bytes": 12423,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/ListWidget.qml",
+          "sha256": "495de9e21f117ace6f21c3b7fceecf362c3f90a07c030598c039963479d18434"
+        },
+        {
+          "bytes": 1467,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board7_0.qml",
+          "sha256": "ae47693b7b94d1c6d87701b344ba901ca880371a9f6919323b7cdc6320cbd187"
+        },
+        {
+          "bytes": 1471,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board3_0.qml",
+          "sha256": "fbddf81031a233733d8e3d6fbc31cfc31a04df4e3c4e72e7b2572c7764d4ee2c"
+        },
+        {
+          "bytes": 1475,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board5_0.qml",
+          "sha256": "3106ce5d7e437b42bf3fd19eb274b85117c8431c68059bb76cebf25675d05c58"
+        },
+        {
+          "bytes": 1461,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board4_0.qml",
+          "sha256": "ae592a4d8090029e03d1a8af4fbf654478e2150d496affc2cb973930fbb9404c"
+        },
+        {
+          "bytes": 1479,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board6_0.qml",
+          "sha256": "7907c5bae3994ac1d46e483d5a2020d69695ba99e25aab5a1cdf7b3105290e6a"
+        },
+        {
+          "bytes": 1560,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board1_0.qml",
+          "sha256": "e6535ffd44ca8ca77ea22c9e5e9ea2dbe332c6f4f7aa9ff3b6be03f477b61143"
+        },
+        {
+          "bytes": 1467,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/board/board2_0.qml",
+          "sha256": "cca7bdd8da09475c22b08c063db6680be1d295283d4d48c483a3c12d8af69091"
+        },
+        {
+          "bytes": 6763,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/postpoint.svg",
+          "sha256": "53aa5adada7542230493e858598c21a0a24ce5b77e4dc3d2482da87ba44c54a2"
+        },
+        {
+          "bytes": 7884,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lighthouse.svg",
+          "sha256": "98dd0321857472822680879d679c2fabe15c6a7efb3670e83898d5d0e959dd47"
+        },
+        {
+          "bytes": 8838,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/raquette.svg",
+          "sha256": "81c04f55a5dd6d1272cc2299e74fed78475ff3d1abb2493ec73f05c023c0c3ad"
+        },
+        {
+          "bytes": 9170,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sofa.svg",
+          "sha256": "59ae648047800588fe38303b3fa52ace376e6634db20ab18be91e7fd588fdaa5"
+        },
+        {
+          "bytes": 4973,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sailingboat.svg",
+          "sha256": "618562a8dbfd160d96060364a388e1d801a4e32e283faadaa24c84cd9ab64969"
+        },
+        {
+          "bytes": 5725,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lifebuoy.svg",
+          "sha256": "8fff6eaccbdfcc3e9cdec420ef5b112a0cb7921b19eeed97c3ba98613f369caa"
+        },
+        {
+          "bytes": 10544,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/fishingboat.svg",
+          "sha256": "eaf3c5504f2810632b6d32f8cb951e3646351e689600396c743684f42bc25db0"
+        },
+        {
+          "bytes": 25886,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/postcard.svg",
+          "sha256": "96ca24e995543e283f7f1e2629185102af0db56c4e5fbefefb81e0a7d2b3a7b2"
+        },
+        {
+          "bytes": 15462,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/crown.svg",
+          "sha256": "570da15bae9ee6c3b58bb23fa044efe4b10fba220726bea1f0fb0521f85b7986"
+        },
+        {
+          "bytes": 3543,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/apple.svg",
+          "sha256": "fc811e855f88a40cd4169140d7bc3e5e2b9ca6a152a3c373e746e42ba8e6051f"
+        },
+        {
+          "bytes": 1344,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/eggpot.svg",
+          "sha256": "b28936c06281e2aca7a8ee58895028ea8b115676dddac0e5836e27458de1a362"
+        },
+        {
+          "bytes": 10426,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tuxhelico.svg",
+          "sha256": "379899731882cc4c8e7cb707ca3405068fde7343374e467e1ee3582e01c9ec08"
+        },
+        {
+          "bytes": 2995,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/lamp.svg",
+          "sha256": "3fa4422bfca657368496273fb2cd0af83cdd47a824dccf284c662423bbd86523"
+        },
+        {
+          "bytes": 4267,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/rape.svg",
+          "sha256": "660150ba6e1c918da3a974f8607fe08b63166dc891e9ff5c9cae80501eb3d514"
+        },
+        {
+          "bytes": 3324,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/glass.svg",
+          "sha256": "80d618cd77bd101827d857f95baec7e5afd5084407f7a44c47ed104c321bbbfd"
+        },
+        {
+          "bytes": 5672,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tree.svg",
+          "sha256": "16551b669a0adc083805f200894f802cf2627be3cb4b39b5ee59ae6b0b702320"
+        },
+        {
+          "bytes": 4235,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/carrot.svg",
+          "sha256": "dfba5b5699a486b4e228971ef80378a12950a239226093b1d2ef7a96b25c3699"
+        },
+        {
+          "bytes": 9428,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/car.svg",
+          "sha256": "021d4de18d942f8e5e0b8299ed27c23fecd17e8aae33d4b21c36f9b06d08a120"
+        },
+        {
+          "bytes": 12247,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/fusee.svg",
+          "sha256": "ede081cd0c7bc7fb731a98ac55527a77fc184d7776ecafeea862e51b0d35e770"
+        },
+        {
+          "bytes": 3291,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/pencil.svg",
+          "sha256": "6b29ee4b260dc0d6a35f752031ba714a41ca74fede435793601a9db43b6d6d87"
+        },
+        {
+          "bytes": 1835,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/star.svg",
+          "sha256": "f45fdf1819127a6be2f9dec19472362fd3125c3414f76b6a5e21df8590ec18ec"
+        },
+        {
+          "bytes": 4779,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sun.svg",
+          "sha256": "df66c5c2fc584e7af7477a1eee4c3774fd8fe8018c56a8582334f883893d94c7"
+        },
+        {
+          "bytes": 12275,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bicycle.svg",
+          "sha256": "747c0f0c08701e2c9a7dab69341cae6b72580ec2babed58bee3c7c5ef1aaf652"
+        },
+        {
+          "bytes": 7741,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/castle.svg",
+          "sha256": "2ff5642d05e04577540f1b5c637000c6773c253bcc1d66372965aca6f7c46c32"
+        },
+        {
+          "bytes": 3371,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bottle.svg",
+          "sha256": "e666d4474e3e0a7311c895e9f1f26e67b2547a4f949f3f331daaa51b2aff2775"
+        },
+        {
+          "bytes": 41034,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/tuxplane.svg",
+          "sha256": "8855c312856adc60e36d09b3d2af6f44e3921f5f96a617737abbb8ba8e660e6a"
+        },
+        {
+          "bytes": 12554,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/truck.svg",
+          "sha256": "b7559e931195f6d4f3cef108d64e06503bf01e6efca9d3b065564672fd56c72e"
+        },
+        {
+          "bytes": 2142,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/windflag5.svg",
+          "sha256": "cb38d0ab0cc0a13ded12c77c6026c456b3a5db14368b95860a6e29629c16b725"
+        },
+        {
+          "bytes": 1136,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/egg.svg",
+          "sha256": "be528e56c47971668f6d17a34b70546ca8aab9a6dd0e029086d396618dd2451c"
+        },
+        {
+          "bytes": 3824,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/bell.svg",
+          "sha256": "f8c15434453a0be46b444b5cceab32926470c3dee93ee8256fcbe39a6f3ae0b2"
+        },
+        {
+          "bytes": 6678,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/sound.svg",
+          "sha256": "afe1012f990a5ff363f6043446f38f0566e4789bd8d8cfcaaa078a496b45cca3"
+        },
+        {
+          "bytes": 5665,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/house.svg",
+          "sha256": "7725c49d8fc55df721a8ffd3839f74b664eb358c6220d4340142fe0013eb81b1"
+        },
+        {
+          "bytes": 8507,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/minivan.svg",
+          "sha256": "ea92a9d0a655de7e875b63ad984e845d7f27fcf0cc82cb42c31de9946e230f99"
+        },
+        {
+          "bytes": 2243,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/flowerpot.svg",
+          "sha256": "2cee1bdcdd1beeb2896e3feda12f132b6447987d080fd02747f35b374854b712"
+        },
+        {
+          "bytes": 4904,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/football.svg",
+          "sha256": "7f46068fd6920afd1e231abc12d0107ccf98cc453d9124291ef2b947b789a0af"
+        },
+        {
+          "bytes": 8837,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/flower.svg",
+          "sha256": "31c835da606d89830c6bfe2fed6a52cba1002dcd888ab7ad8bb861c16803b927"
+        },
+        {
+          "bytes": 3466,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/images/light.svg",
+          "sha256": "f613f35d7d30effde6b9b66efdbc73c20a5531ef2552970fc8fb7fd98ede9eca"
+        },
+        {
+          "bytes": 2570,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/resource/error.svg",
+          "sha256": "2d4922d68965df10f4492f212225469e3f732b9819a16b9cf39de9f79ac2ea0d"
+        },
+        {
+          "bytes": 426,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/babymatch/CMakeLists.txt",
+          "sha256": "adbd0f01ca9c6b2a5ab421ef0b4d395045fee362cf8890bca7ce9f8657d71951"
+        }
+      ]
+    },
+    "controls-photo1": {
+      "source_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/build/functional-visual-puzzles/sources/f998ba99bb29d1799ceb7c6fbabfa25e48c6b689",
+      "rcc": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/controls-photo1/resource.rcc",
+      "qm": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/controls-photo1/gcompris_qt_pt.qm",
+      "rcc_sha256": "8013f7ea3291b22da8c4d8b7b46f4af1b823c4e08c7181a0b8ca92397b85cc6c",
+      "qm_sha256": "05e8de8bb28ac424d3ae49b91dd07c85160de27edfbc035bc80017bac7c20503",
+      "files_root": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/controls-photo1/files",
+      "argv": [
+        "/home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/pt_audio_rcc_inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/controls-photo1/resource.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-visual-puzzles/.scratch/pt-pt/functional-visual-puzzles/effective-exports1/controls-photo1/files"
+      ],
+      "exit_code": 0,
+      "inspector_sha256": "5d55cc133d58968668d1dfc6a5b31afac7503dc3a18499009130ed1820fc7b11",
+      "files": [
+        {
+          "bytes": 868,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/ActivityInfo.qml",
+          "sha256": "8a44786f0ecd70bad4c7ddb0136c315e0373020a07fd0592c3552b478f0ad1e1"
+        },
+        {
+          "bytes": 13080,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/PhotoHunter.qml",
+          "sha256": "8ad944b19b69297880b76f747ff9651028af201edb776e49ebbd278208b0de70"
+        },
+        {
+          "bytes": 5569,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/photo_hunter.js",
+          "sha256": "d3afebedbe534dda499aa0c34cab1ca242dc3f888a71a7465f244f7087dd9986"
+        },
+        {
+          "bytes": 4937,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/Observe.qml",
+          "sha256": "2dce1f2f72d1463fe5d6f60c494b748c84621d8b8c054a4dbc02dce949a54be1"
+        },
+        {
+          "bytes": 62189,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/photo_hunter.svg",
+          "sha256": "67fcfcdfb0b51750ff92dc10a6c24b554e756551705df08566fff625d7764d99"
+        },
+        {
+          "bytes": 1442,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo9_2.svg",
+          "sha256": "3db0cc933938bf8c375a77f5001c84d6094145c956bfd2b4ae2bb503678b7e9e"
+        },
+        {
+          "bytes": 1383,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo9_3.svg",
+          "sha256": "33c743c6634e6449a53122070410761043b40e25f6db388ad6378d3dc4fbba9b"
+        },
+        {
+          "bytes": 1395,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo9_1.svg",
+          "sha256": "e5b871e014eb1c16988da43a567f548a250e5e7b81d4618e814af778b70787a9"
+        },
+        {
+          "bytes": 43307,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo10.svg",
+          "sha256": "e3897fd61613ccc0ca860493bd04233d9382abd593c271f9fa131c97402760a9"
+        },
+        {
+          "bytes": 6051,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo7_2.svg",
+          "sha256": "2d633e7f6143e32ce54a687d2f9a0ebd8e4788096ce76822987d1efcdce7220a"
+        },
+        {
+          "bytes": 1852,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo7_3.svg",
+          "sha256": "594c4920117111f57644fb54cf172c0e2909e677eb76249db7ef548307a4e649"
+        },
+        {
+          "bytes": 5193,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo7_1.svg",
+          "sha256": "7cf31675cd2dd5b46732d67fe7f7ec509b23026b30006dfaf56c151f37415c5d"
+        },
+        {
+          "bytes": 1933,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_6.svg",
+          "sha256": "9e555afb970f2bd37e378ccb526024dd1ffdb686057b86de59ffb0666bd25398"
+        },
+        {
+          "bytes": 4009,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_4.svg",
+          "sha256": "091f23ddd47a454c16c2aa7828847ce850896821f7a43e951313048d76ffda22"
+        },
+        {
+          "bytes": 1924,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_5.svg",
+          "sha256": "a36fced090a6217121bbfc9df7a87df249bbbee627d98e23fde4890a48834780"
+        },
+        {
+          "bytes": 2214,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_2.svg",
+          "sha256": "b2bd28c7534d0b7eaaa6e63cf0a9fe1e9b69bdb74932f08c6df3fa4fcb4feb29"
+        },
+        {
+          "bytes": 5573,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_3.svg",
+          "sha256": "dc72aa8dc7b52c31b398dd46ce555e15ebb8d2fbf3ae5e9f48e696aa00660869"
+        },
+        {
+          "bytes": 1895,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8_1.svg",
+          "sha256": "ee4386ba4db95fda6bcf01f51ebb7ed900d20b856fd525a28505a83016a3e335"
+        },
+        {
+          "bytes": 2043,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_4.svg",
+          "sha256": "327367ecf2433db5c336eeb92d974f48dd02bf99d2d91c40f99c7eee27786b10"
+        },
+        {
+          "bytes": 1424,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_2.svg",
+          "sha256": "3eade0d77bc9c3801a382fdb2a97c2dc5a94c04b6c885aa5ab66de8569a94a1c"
+        },
+        {
+          "bytes": 5558,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_3.svg",
+          "sha256": "b4abb7af695de1fc406eba2bed286f995490040613028af483ac771dec3f8d8d"
+        },
+        {
+          "bytes": 1544,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo5_1.svg",
+          "sha256": "a475192c1b2908d81891912bb418be6c2529f8586b97e9b88f8908a4ba034f40"
+        },
+        {
+          "bytes": 3127,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo6_2.svg",
+          "sha256": "ad0fc42c5fcf391f1fd329ff5f0c8847fe6bf6a47d88b56685afada0f8df3349"
+        },
+        {
+          "bytes": 2925,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo6_3.svg",
+          "sha256": "2a72938347c0aac6569428ee65d75ad2af7b32386a570c8c70e0afa9b2c09073"
+        },
+        {
+          "bytes": 1345,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo6_1.svg",
+          "sha256": "6f1ab84fdd9496253874989a2a02ca669fc2ce8793330d7b5acb2b61bc236163"
+        },
+        {
+          "bytes": 3072,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo3_2.svg",
+          "sha256": "7c9450ab17e504eb3c2eee15c38d382d0ab904e06ad0760631a1f4373f8438a4"
+        },
+        {
+          "bytes": 1982,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo3_1.svg",
+          "sha256": "34905fa7d23b0633b424ff13c4d9342af80da10714dad6b89a7efafd6a905e13"
+        },
+        {
+          "bytes": 4721,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_4.svg",
+          "sha256": "8121244b8edc021f35c643199c13a367e14eec83a9633f153ea3a7e72529940f"
+        },
+        {
+          "bytes": 3064,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_2.svg",
+          "sha256": "ab789fc61ff7bd8f76547bb06839ccc00b09dd17ad43ebe8dfe4b6ea28f1cc9c"
+        },
+        {
+          "bytes": 1705,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_3.svg",
+          "sha256": "4b122403fd2b4a0171ab91532542e6bed5e5a2a1db8b8659914e3aac251c0666"
+        },
+        {
+          "bytes": 1530,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo4_1.svg",
+          "sha256": "df952cee62c1b5c2ea3fc13cb20432854ec5800d93f7fd54a1d6de817e9559bf"
+        },
+        {
+          "bytes": 1719,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo1_2.svg",
+          "sha256": "e5f48ca43890292fcb90c1abba0b84d435a23062717653d5d1d9567b05645ccf"
+        },
+        {
+          "bytes": 2938,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo1_3.svg",
+          "sha256": "c2063caf5ce2f5f8ca14de884ce8936a7221bd106c7709a598e34964a511c10c"
+        },
+        {
+          "bytes": 4654,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo1_1.svg",
+          "sha256": "3d8905cafd0990b56b451acfc092bdd9919cfe8eb1bf21f578633c34b586ec40"
+        },
+        {
+          "bytes": 2504,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo2_2.svg",
+          "sha256": "a1caf3fb6e2cee97e682968e267135dae0a2a5b09040a7b07b74743ff308bb4d"
+        },
+        {
+          "bytes": 13357,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo2_3.svg",
+          "sha256": "2bcc1a685d2918bd770b28cd106fc2ca1c8eaf8a70806632715e12be98185f86"
+        },
+        {
+          "bytes": 4887,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo2_1.svg",
+          "sha256": "437d282969537a324f5525108fe61c2891c2bf9b351a3f0fa18de4010c3b0275"
+        },
+        {
+          "bytes": 95289,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo8.svg",
+          "sha256": "acc74e8b3e9ddf035e8e6ebc5418565fb84ab37be7d340ebf5e67b0e6d4565ce"
+        },
+        {
+          "bytes": 17800,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo9.svg",
+          "sha256": "98acfb489048a806f60d33d659c178f6ca512153e1bc3d15f8f4c3d32b915521"
+        },
+        {
+          "bytes": 7058,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo6.svg",
+          "sha256": "bad9a856660340c8e2fc66f706b08a613574e0742dc6881e22f2c33cf2f4f048"
+        },
+        {
+          "bytes": 28527,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo7.svg",
+          "sha256": "6a2c4d3ade15801819c409624fe47f6f501a9a17473b99e3d0a9cade2b04bf8d"
+        },
+        {
+          "bytes": 53121,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo4.svg",
+          "sha256": "dc6b42ebe937bdc62eeb50bb7258e870dd029af2ca06d96d55350d702713382c"
+        },
+        {
+          "bytes": 40896,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo5.svg",
+          "sha256": "2235cbf466571c0fb44872a38c81008bf6905c95e264fe771e31cd85881bb7fe"
+        },
+        {
+          "bytes": 91777,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo2.svg",
+          "sha256": "cc170260743f70695bb7793349716a07b6b5899fbb0abab64acc39a350fb7fe1"
+        },
+        {
+          "bytes": 35838,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo3.svg",
+          "sha256": "1ef1238b91b06652afddd172c920b676ccf556212fea5c30b099747980d488aa"
+        },
+        {
+          "bytes": 53691,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo1.svg",
+          "sha256": "8b53fb4d532d286ef24a86b8090fbd701d36ca387be3fccf213072b55a970227"
+        },
+        {
+          "bytes": 1313,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_2.svg",
+          "sha256": "f277cf39c763667408cc868ec1ccebc7f60c5c8d5b653da5e4dfe541bafbec46"
+        },
+        {
+          "bytes": 1732,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_4.svg",
+          "sha256": "f808e0baa100bdb10af1c132642ceb826c0b29484f5df3d6548b6cf4f63c840d"
+        },
+        {
+          "bytes": 3071,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_3.svg",
+          "sha256": "c51033c65f99a13fffa70dcb110c23cb03bfb0465f76644b9ce97cac00cac00b"
+        },
+        {
+          "bytes": 3025,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/resource/photo10_1.svg",
+          "sha256": "708712005389345d620763fa94c0b70cd73fe1255e53117c7c618dd7266dab5e"
+        },
+        {
+          "bytes": 383,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/photo_hunter/CMakeLists.txt",
+          "sha256": "53d9bc5a13c017631cd470f3232b774da80f30ea1c6ff36874d8066d2c8a557b"
+        }
+      ]
+    }
+  }
+}

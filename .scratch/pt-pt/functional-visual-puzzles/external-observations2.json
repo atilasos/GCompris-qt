@@ -1,0 +1,30 @@
+{
+  "kind": "root-recorded-tools-exec-or-write-stdin-completion",
+  "runs": {
+    "paintings-complete1": {
+      "session_id": 28305,
+      "output_chunk": "15a5fd",
+      "exit_code": 1
+    },
+    "captions-details-red": {
+      "session_id": 19742,
+      "output_chunk": "7c3da6",
+      "exit_code": 1
+    },
+    "captions-paintings-red": {
+      "session_id": 7534,
+      "output_chunk": "bd3da3",
+      "exit_code": 1
+    },
+    "captions-details-green": {
+      "session_id": 55770,
+      "output_chunk": "6946ca",
+      "exit_code": 0
+    },
+    "captions-paintings-green": {
+      "session_id": 52780,
+      "output_chunk": "6a6f21",
+      "exit_code": 0
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "root-recorded-tool-completion",
+  "command": [
+    "python3",
+    "tests/visual_puzzles_audit/audit.py",
+    "--evidence",
+    ".scratch/pt-pt/functional-visual-puzzles/capsule"
+  ],
+  "source_commit": "048102ba3437332ff8d7bb0f7532b3b36aadf9c6",
+  "observed_session": 49576,
+  "output_chunk": "b5e9e5",
+  "external_exit_code": 0,
+  "scope": "Actual assembled branch verification after merging auditor; declaration of observed tool result, not a signed platform receipt",
+  "index_anchor": "cdf300b3f90eae851ba51dfcf2fa5e20b6a42c8edeea9e65402ae02700ff0dc2"
+}

@@ -1,0 +1,1935 @@
+{
+  "solver_source_sha256": {
+    "solver.py": "2182a87406c171f3c853d75173e070470994e61c6b7ada5f54c5e211d1d54fe1",
+    "observation.py": "16ebd3cb74170d117705ab1e7354a5dbb263930533fc8c2c84468aa9d8f00257",
+    "probe.py": "cd77316b871788535180e42b93bcbb1a77d17a2b66ae0be907e57b39b23305e8"
+  },
+  "flat_border_constraints": true,
+  "scope": "Pure pixel-model candidates; no native placement or game conclusion claimed",
+  "pillow": "12.1.1",
+  "inventory_sha256": "5c09704dc7c93286d691994ce417759ed2f878044bd1746d2b607739180b4bec",
+  "calibration_sha256": "8994f13ab16a5119138f8ecfb3f53ec1a53fba26b827c8a8441fe8a64c831996",
+  "overlap_fraction": 0.08,
+  "max_nodes": 10000,
+  "observations": [
+    {
+      "level": 1,
+      "pieces": 6,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/renoir-moulin_de_la_galette-3.webp": "185c721373176d28f518a5625894def2389bd29b0be65ddef802a48e34898c57",
+        "qrc:/gcompris/src/activities/paintings/resource/image/renoir-moulin_de_la_galette-1.webp": "78880d194c3be92da64d89bca581e09c699303f7848c84f653f6cca0a14e2422",
+        "qrc:/gcompris/src/activities/paintings/resource/image/renoir-moulin_de_la_galette-5.webp": "593aaecdb2bc1cfbd6524348538abdd82242f4d70aaeb20a3b932d494e2d9c1f",
+        "qrc:/gcompris/src/activities/paintings/resource/image/renoir-moulin_de_la_galette-4.webp": "182d1f65643f33d6583b9a3b3a6831af42dc0f0e11c65414e5656e13e619dbf7",
+        "qrc:/gcompris/src/activities/paintings/resource/image/renoir-moulin_de_la_galette-6.webp": "e9358ce944f2f77fc618d6c3d357e3e3aec4dc7626bff40be1b994ad2bf640a0",
+        "qrc:/gcompris/src/activities/paintings/resource/image/renoir-moulin_de_la_galette-2.webp": "297bdebac908b464b7b76a3555cbfa2192816bc660859dadc6041caae5f55617"
+      },
+      "result": {
+        "mapping": {
+          "qrc:/gcompris/src/activities/paintings/resource/image/renoir-moulin_de_la_galette-3.webp": 2,
+          "qrc:/gcompris/src/activities/paintings/resource/image/renoir-moulin_de_la_galette-1.webp": 0,
+          "qrc:/gcompris/src/activities/paintings/resource/image/renoir-moulin_de_la_galette-4.webp": 3,
+          "qrc:/gcompris/src/activities/paintings/resource/image/renoir-moulin_de_la_galette-5.webp": 4,
+          "qrc:/gcompris/src/activities/paintings/resource/image/renoir-moulin_de_la_galette-6.webp": 5,
+          "qrc:/gcompris/src/activities/paintings/resource/image/renoir-moulin_de_la_galette-2.webp": 1
+        },
+        "diagnostics": {
+          "status": "unique",
+          "nodes": 7,
+          "pair_checks": 22,
+          "method": "alpha constraints and RGB seam continuity",
+          "rgb_cost": 8613.20550631746,
+          "runner_up_cost": null,
+          "flat_border_constraints": true,
+          "overlap_fraction": 0.08,
+          "maximum_observed_pair_overlap": 0.05055512404623749,
+          "alpha_threshold": 128,
+          "contact_sample_limit_per_shift": 128
+        },
+        "geometry": {
+          "scale": 1.0113960113960114,
+          "canvas_size": [
+            702,
+            515
+          ],
+          "visible_slots_in_canvas_pixels": [
+            [
+              179.01000000000002,
+              145.74499999999998
+            ],
+            [
+              374.166,
+              145.74499999999998
+            ],
+            [
+              548.964,
+              168.405
+            ],
+            [
+              158.65200000000002,
+              335.265
+            ],
+            [
+              353.80799999999994,
+              335.265
+            ],
+            [
+              548.262,
+              355.3499999999999
+            ]
+          ],
+          "position_semantics": "recorded widget centers; neutral probe destination unused"
+        }
+      },
+      "seconds": 0.484178
+    },
+    {
+      "level": 2,
+      "pieces": 6,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Spring_a1.webp": "37816ac81d9d517d04fb88fc728b44d2b100bb5f8406d044ac812708ea29ce53",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Spring_b3.webp": "d36caa189e3e7223ac8de440b6c47a5a703d17072499b0da29a4104db21224bd",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Spring_a2.webp": "59474f5f0d8ad946a307f9520b8ea4c31823e9f88f1937cf410fbb667a78f5a2",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Spring_b1.webp": "a80854a1d38839837ee56b594725c3ebc6a3d2ac8e0259aefdcd29d4ce45644c",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Spring_a3.webp": "c3f20dc47e9b20108bf892c5173f01668538f21ed846874c635f2496b3b1e956",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Spring_b2.webp": "752dd5271e3d6600064a507f555764a5b432794e2426be7bac39e366a198c250"
+      },
+      "result": {
+        "mapping": {
+          "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Spring_a1.webp": 0,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Spring_b3.webp": 5,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Spring_a2.webp": 2,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Spring_b1.webp": 1,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Spring_a3.webp": 4,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Spring_b2.webp": 3
+        },
+        "diagnostics": {
+          "status": "unique",
+          "nodes": 7,
+          "pair_checks": 24,
+          "method": "alpha constraints and RGB seam continuity",
+          "rgb_cost": 4080.5728155093543,
+          "runner_up_cost": null,
+          "flat_border_constraints": true,
+          "overlap_fraction": 0.08,
+          "maximum_observed_pair_overlap": 0.014389136202167363,
+          "alpha_threshold": 128,
+          "contact_sample_limit_per_shift": 128
+        },
+        "geometry": {
+          "scale": 1.0113960113960114,
+          "canvas_size": [
+            702,
+            515
+          ],
+          "visible_slots_in_canvas_pixels": [
+            [
+              266.058,
+              133.385
+            ],
+            [
+              414.17999999999995,
+              118.96499999999999
+            ],
+            [
+              266.058,
+              255.95499999999998
+            ],
+            [
+              414.17999999999995,
+              256.46999999999997
+            ],
+            [
+              284.31,
+              378.5249999999999
+            ],
+            [
+              431.72999999999996,
+              392.43
+            ]
+          ],
+          "position_semantics": "recorded widget centers; neutral probe destination unused"
+        }
+      },
+      "seconds": 0.082851
+    },
+    {
+      "level": 3,
+      "pieces": 9,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_c2.webp": "a96e265f96a59c800ce1cbc09694931bbd85c0089a332168bb6cbddcddc3ca76",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_a2.webp": "5babf15b69e6de78cfe550909ca1b2f3c84da3179c42bb1d47feea6d48d3ea02",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_a3.webp": "c8d854f65cd46de7ed4d388bb90400fe7f0d3d4648474f06dc746caf7f056a0f",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_c1.webp": "d8038e0e9788114b71898bf74be85c8c942188f9b94fbf78c711d62889eedbac",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_a1.webp": "8f16256d00a6aa72fac43eb9314d6d3939c86da9c5725d5324918984f49c8e03",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_b2.webp": "86b561e2bd2c307b8763cc8779482ba8a7bb26b81dd697134d2b3676e33dc5fd",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_b1.webp": "3677e336ee84b61d76bb17e7b58c37207df0d2d3db8eccda002a1c32bb2129e2",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_b3.webp": "93f1b57af348d15fa777c31d698fb95c31f665689333e6e1aea73d69cbd00aec",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_c3.webp": "ad960a4bc066f536d153913bcec7cafc7bbef13af3796e81642d43a3810b1900"
+      },
+      "result": {
+        "mapping": {
+          "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_a3.webp": 6,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_c1.webp": 2,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_a1.webp": 0,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_a2.webp": 3,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_b1.webp": 1,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_c3.webp": 8,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_c2.webp": 5,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_b2.webp": 4,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Arcimboldo_Librarian_b3.webp": 7
+        },
+        "diagnostics": {
+          "status": "unique",
+          "nodes": 10,
+          "pair_checks": 81,
+          "method": "alpha constraints and RGB seam continuity",
+          "rgb_cost": 3607.6602226047185,
+          "runner_up_cost": null,
+          "flat_border_constraints": true,
+          "overlap_fraction": 0.08,
+          "maximum_observed_pair_overlap": 0.01772821502609193,
+          "alpha_threshold": 128,
+          "contact_sample_limit_per_shift": 128
+        },
+        "geometry": {
+          "scale": 1.0113960113960114,
+          "canvas_size": [
+            702,
+            515
+          ],
+          "visible_slots_in_canvas_pixels": [
+            [
+              261.846,
+              118.96499999999999
+            ],
+            [
+              349.59599999999995,
+              133.385
+            ],
+            [
+              438.75,
+              118.96499999999999
+            ],
+            [
+              250.61400000000003,
+              256.46999999999997
+            ],
+            [
+              350.298,
+              255.95499999999998
+            ],
+            [
+              447.876,
+              242.04999999999993
+            ],
+            [
+              261.144,
+              392.43
+            ],
+            [
+              349.59599999999995,
+              378.5249999999999
+            ],
+            [
+              438.75,
+              378.5249999999999
+            ]
+          ],
+          "position_semantics": "recorded widget centers; neutral probe destination unused"
+        }
+      },
+      "seconds": 0.141967
+    },
+    {
+      "level": 4,
+      "pieces": 6,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiOiranKamuro_a2.webp": "f599ebd4f80f62d98424b2574f97d909f60f94ab7272652c95951712fa86980c",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiOiranKamuro_a1.webp": "d029151c03f2dca9d79fc8c041a6fae488569ae73c3086ca01a7039766687494",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiOiranKamuro_a3.webp": "3e939f83be171528129ad518f74c3e19e128b1ad4178de418e72f61d914a9081",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiOiranKamuro_b1.webp": "846f1d8a287cfa00f323d5732a4b4110ce70b925721804668641231dbb73e9f6",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiOiranKamuro_b3.webp": "c05d52c7194a997f8c77e5273f61432ae549ca6bf113c358b7a7c9cb7fbc2079",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiOiranKamuro_b2.webp": "07ad84266dc3a21181143728046bff6e09207a2cd46220342e11a1388e924e2d"
+      },
+      "result": {
+        "mapping": {
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiOiranKamuro_a1.webp": 0,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiOiranKamuro_a3.webp": 4,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiOiranKamuro_a2.webp": 2,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiOiranKamuro_b1.webp": 1,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiOiranKamuro_b3.webp": 5,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiOiranKamuro_b2.webp": 3
+        },
+        "diagnostics": {
+          "status": "unique",
+          "nodes": 7,
+          "pair_checks": 27,
+          "method": "alpha constraints and RGB seam continuity",
+          "rgb_cost": 4092.024213877245,
+          "runner_up_cost": null,
+          "flat_border_constraints": true,
+          "overlap_fraction": 0.08,
+          "maximum_observed_pair_overlap": 0.021590690517407193,
+          "alpha_threshold": 128,
+          "contact_sample_limit_per_shift": 128
+        },
+        "geometry": {
+          "scale": 1.0113960113960114,
+          "canvas_size": [
+            702,
+            515
+          ],
+          "visible_slots_in_canvas_pixels": [
+            [
+              292.032,
+              124.63000000000001
+            ],
+            [
+              422.6039999999999,
+              124.63000000000001
+            ],
+            [
+              292.032,
+              255.95499999999998
+            ],
+            [
+              422.6039999999999,
+              255.95499999999998
+            ],
+            [
+              292.032,
+              387.28
+            ],
+            [
+              422.6039999999999,
+              387.28
+            ]
+          ],
+          "position_semantics": "recorded widget centers; neutral probe destination unused"
+        }
+      },
+      "seconds": 0.14718
+    },
+    {
+      "level": 5,
+      "pieces": 9,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_c2.webp": "fbdb67f4e6c6363afed5662b370c35d88f75806676a0f1ee15c48e5837aa7167",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_b3.webp": "e6a9b15a57fcd475f0032044e2fdccc932482bd626796d249509699d14bb8bb9",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_c1.webp": "74271cc15417e3c63eec40ace6deb929b27ab27e4c0b4925a0b9afb7b3e2998e",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_a3.webp": "2c23573129e588d66adbdab29f10ea22c9dcf3d5df327797d745e328536f0cc1",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_b1.webp": "b75413b0d1912bb17a39eaf11f6922e1654c0ce762e24b1968d3d364f9c78ed7",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_b2.webp": "9e286bdf6521fe2763bda79c7474fd467598777565b667bdf82021400cbb5fd5",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_c3.webp": "6920d6eed15a4a8af0096584e3da0f73fea027b0202d5e9beb7970bdb1dc2fc1",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_a1.webp": "a04cc510c0168864cbed71a5af3c27ccae560f221b39a08dfa6fc32697e70b7c",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_a2.webp": "7e7e7384e1da5e155c24c5f2c6b9cee698ea2efedbea73c9472b9273b48811b5"
+      },
+      "result": {
+        "mapping": {
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_c1.webp": 2,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_a3.webp": 6,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_c3.webp": 8,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_c2.webp": 5,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_b3.webp": 7,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_a1.webp": 0,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_b1.webp": 1,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_a2.webp": 3,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiWomanHoldingFan_b2.webp": 4
+        },
+        "diagnostics": {
+          "status": "unique",
+          "nodes": 10,
+          "pair_checks": 84,
+          "method": "alpha constraints and RGB seam continuity",
+          "rgb_cost": 10527.685721963497,
+          "runner_up_cost": null,
+          "flat_border_constraints": true,
+          "overlap_fraction": 0.08,
+          "maximum_observed_pair_overlap": 0.023257390832655274,
+          "alpha_threshold": 128,
+          "contact_sample_limit_per_shift": 128
+        },
+        "geometry": {
+          "scale": 1.0113960113960114,
+          "canvas_size": [
+            702,
+            515
+          ],
+          "visible_slots_in_canvas_pixels": [
+            [
+              249.20999999999995,
+              109.17999999999999
+            ],
+            [
+              350.298,
+              124.63000000000001
+            ],
+            [
+              449.2800000000001,
+              109.17999999999999
+            ],
+            [
+              249.20999999999995,
+              256.46999999999997
+            ],
+            [
+              350.298,
+              255.95499999999998
+            ],
+            [
+              449.2800000000001,
+              241.01999999999998
+            ],
+            [
+              249.20999999999995,
+              402.73
+            ],
+            [
+              339.768,
+              387.28
+            ],
+            [
+              440.15400000000005,
+              387.28
+            ]
+          ],
+          "position_semantics": "recorded widget centers; neutral probe destination unused"
+        }
+      },
+      "seconds": 0.181223
+    },
+    {
+      "level": 6,
+      "pieces": 12,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_d3.webp": "935764a4b0acd0a00c35f15dea04f9ee324dcdd87f71f5c0e08619f1adf57694",
+        "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_c1.webp": "a2a52da406ccc97a6efc36a411e48711709decf11814c78f2b36cf8fd623f68e",
+        "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_d1.webp": "4263ff3c20a012301319106bd54c9de3b76cd25caa82a134c4bd9fabea7f25ab",
+        "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_a1.webp": "6724ed375ba4023e3b35f6a3bd072242dd97199e2363b1b6779c357378e7e0f5",
+        "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_c2.webp": "42ae57a5766d4aff7a1c2ae7a61690a5cd9307edddd96d1fb724ff398871be43",
+        "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_a3.webp": "a7f838dac1d7193c2cce3b481554f110140141da966b0c66c3199f917254ec78",
+        "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_b3.webp": "4be5a6f974b6e88212bb523a48b768d8710bd716749c92a00f85a079382bd83c",
+        "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_c3.webp": "b7f075c282f76a62398e491ca44c9e28121823641217dd6137b7417e7365dd69",
+        "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_b1.webp": "313c87d521494ef6d80464bb8f783c6b4eab7eec3ddf7b42662011c2ee6ca17c",
+        "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_d2.webp": "373334f1546d99b9218e663afb8a6b00d30319a696894596f3be5865c9672ef2",
+        "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_a2.webp": "6962d5c9069baf4ea5ab2d9c4d525c9ae3ed62c78bbc1d76427d884590fbeff7",
+        "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_b2.webp": "9eb22f44d6270400d4e995ba82e10acfee7ec504a406bc5f8453578f4b49bd6f"
+      },
+      "result": {
+        "mapping": {
+          "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_d3.webp": 11,
+          "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_d1.webp": 3,
+          "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_a1.webp": 0,
+          "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_a3.webp": 8,
+          "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_c3.webp": 10,
+          "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_b3.webp": 9,
+          "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_b1.webp": 1,
+          "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_c1.webp": 2,
+          "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_d2.webp": 7,
+          "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_a2.webp": 4,
+          "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_b2.webp": 5,
+          "qrc:/gcompris/src/activities/paintings/resource/image/EjiriSuruga_c2.webp": 6
+        },
+        "diagnostics": {
+          "status": "unique",
+          "nodes": 13,
+          "pair_checks": 205,
+          "method": "alpha constraints and RGB seam continuity",
+          "rgb_cost": 19392.61851830381,
+          "runner_up_cost": null,
+          "flat_border_constraints": true,
+          "overlap_fraction": 0.08,
+          "maximum_observed_pair_overlap": 0.02013508347139034,
+          "alpha_threshold": 128,
+          "contact_sample_limit_per_shift": 128
+        },
+        "geometry": {
+          "scale": 1.0113960113960114,
+          "canvas_size": [
+            702,
+            515
+          ],
+          "visible_slots_in_canvas_pixels": [
+            [
+              122.14799999999998,
+              109.17999999999999
+            ],
+            [
+              284.31,
+              109.17999999999999
+            ],
+            [
+              432.432,
+              109.17999999999999
+            ],
+            [
+              577.7459999999999,
+              124.63000000000001
+            ],
+            [
+              122.14799999999998,
+              256.46999999999997
+            ],
+            [
+              284.31,
+              241.01999999999998
+            ],
+            [
+              432.432,
+              241.01999999999998
+            ],
+            [
+              577.7459999999999,
+              255.95499999999998
+            ],
+            [
+              122.14799999999998,
+              402.73
+            ],
+            [
+              266.76,
+              387.28
+            ],
+            [
+              433.83599999999996,
+              387.28
+            ],
+            [
+              593.8919999999999,
+              387.28
+            ]
+          ],
+          "position_semantics": "recorded widget centers; neutral probe destination unused"
+        }
+      },
+      "seconds": 0.654091
+    },
+    {
+      "level": 7,
+      "pieces": 12,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_b3.webp": "6b6837959b9ab7e89a689be1ebdcea8b53edb52e5b4f974953b5b7dc50b13b2e",
+        "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_b1.webp": "28b72a3a9eb6e798eecfda187705e1e56955a5e19b18006a0b33aed8ca48aff3",
+        "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_c1.webp": "67422ca616ef0395aac3b3fa5acba56d4aa6a0e0e1efee40f33a75177966b723",
+        "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_d2.webp": "5d457790ea88e216813ec4405086ebf8883c657c7061148edfe565458a04b1c4",
+        "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_c3.webp": "af0f79b1302665cd5e6c0a83de694409c26a6d132a09bee57b4e91f7b3ac34b6",
+        "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_d1.webp": "8ce5241159d5e659e14f223caefa369ce625696cc0e35a66bc0052f124cd0fcb",
+        "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_a3.webp": "897aeb56b0e2c527b02c40d5eeda7c101eebeb3e432770bf89861d9aa0e6414d",
+        "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_a2.webp": "35110e1c3ed5ea6aef169dacf16001972dea04300484bb503785a61b71e41bf9",
+        "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_b2.webp": "342fea36ea63073282803f7e36fe770b5d8e2f1906c512e19c24af9e68426915",
+        "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_c2.webp": "6679166308a66aa4ab4c0d3633838074a0e322ae40486b2a16e5cfa347922eff",
+        "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_a1.webp": "0e83968ebf461cba0bc90021e78ac3934ed41181a1c2f3d587350c41f5bdc7e1",
+        "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_d3.webp": "2491c11e9208b6b2161acd95cb9eb646f88184f48ae6bae88119221406141a82"
+      },
+      "result": {
+        "mapping": {
+          "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_d1.webp": 3,
+          "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_b1.webp": 1,
+          "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_c1.webp": 2,
+          "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_a3.webp": 8,
+          "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_a2.webp": 4,
+          "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_a1.webp": 0,
+          "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_d3.webp": 11,
+          "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_d2.webp": 7,
+          "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_b3.webp": 9,
+          "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_c3.webp": 10,
+          "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_b2.webp": 5,
+          "qrc:/gcompris/src/activities/paintings/resource/image/GreatWave_c2.webp": 6
+        },
+        "diagnostics": {
+          "status": "unique",
+          "nodes": 17,
+          "pair_checks": 226,
+          "method": "alpha constraints and RGB seam continuity",
+          "rgb_cost": 20639.555355989887,
+          "runner_up_cost": 81875.5946954869,
+          "flat_border_constraints": true,
+          "overlap_fraction": 0.08,
+          "maximum_observed_pair_overlap": 0.020020230970243615,
+          "alpha_threshold": 128,
+          "contact_sample_limit_per_shift": 128
+        },
+        "geometry": {
+          "scale": 1.0113960113960114,
+          "canvas_size": [
+            702,
+            515
+          ],
+          "visible_slots_in_canvas_pixels": [
+            [
+              103.194,
+              124.63000000000001
+            ],
+            [
+              249.20999999999995,
+              109.17999999999999
+            ],
+            [
+              433.1339999999999,
+              124.63000000000001
+            ],
+            [
+              594.5939999999999,
+              109.17999999999999
+            ],
+            [
+              120.744,
+              271.405
+            ],
+            [
+              283.608,
+              241.01999999999998
+            ],
+            [
+              449.2800000000001,
+              255.95499999999998
+            ],
+            [
+              594.5939999999999,
+              241.01999999999998
+            ],
+            [
+              120.744,
+              402.73
+            ],
+            [
+              283.608,
+              387.28
+            ],
+            [
+              449.2800000000001,
+              387.28
+            ],
+            [
+              594.5939999999999,
+              387.28
+            ]
+          ],
+          "position_semantics": "recorded widget centers; neutral probe destination unused"
+        }
+      },
+      "seconds": 0.718315
+    },
+    {
+      "level": 8,
+      "pieces": 16,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_d3.webp": "517fefdb197fcc056ced16bc5edaa7efa14188360413e71e55a332eec8d0e870",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_c4.webp": "ccf745a5473cf37d457facaf0118caeefdde9fddfffa87fba7faa612a9110388",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_b3.webp": "d285b08d007b79e795a9a2179429ab96dc99788483a08d988c2421b037ccf29e",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_c1.webp": "570c68c96a9d8229a78aae2914f51a39544ca08e36327f2e18cbb642b5b35752",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_d1.webp": "908978cf201fad42ecf164e9e812bc553911c23a30fca9f09bf58b167b77cb2c",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_d2.webp": "b7180f8d1289c9ccff17e7cce71257e0ec265b9caead15972600c2a0b3e27e15",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_b1.webp": "78a178688f18f793215c5e52f38f4e9405ba0bf81a4e54dcbf5cbba180ef0e2c",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_b2.webp": "cb9b7230efae1566d0de2067b14b6ebd294890f43a95267ef6814e893e3f6424",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_a4.webp": "fe06c9f2f645ad77106cd558da61cf70f97589970381ff8e0606a4f3e2a0759e",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_c3.webp": "0cc29f0af5c0d22f78a82431483716b45ef31f4a1e527db60bdd89a0475d9657",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_a1.webp": "8463228c567235064268b1b81d4652183e87e18836d7300c736a2d2a040c5c11",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_d4.webp": "1f4b97256d480585eee37b3c4346354839154435a46ada507d89b0fcb7d3d976",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_b4.webp": "3cf0972da5053035b1324764caaf39619a9583862eab0d44b64e03afccb74347",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_c2.webp": "755a1e95674b8170d5fc8a3494401e2d503588980098b6df08cd75a0e0a08630",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_a3.webp": "701f3f2437126a34188532470648362f862fce22c9a467ba4eaa221898fd1fee",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeInokashiraSnow_a2.webp": "805c567a58c7339fc845383bec18b74b6d8e6d8eae0d29bdf87caa6b7bfb52d2"
+      },
+      "refused": "NoSolution",
+      "reason": "No canvas-fitting nonoverlapping alpha arrangement",
+      "seconds": 0.0337
+    },
+    {
+      "level": 9,
+      "pieces": 16,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_b1.webp": "1d5f568ec9a1d9d3715194bbd10ea5d30a5cb0a24e87a4812e68f5063d2a9cf2",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_d1.webp": "32d63c7b0240014a8b967c091f982c89540d1ab6988ebce2894fbcaa138ab867",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_a2.webp": "c0db7637115ae575485d59a27e691e285d256dd7b5c0267173d2e47e3d90af12",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_c4.webp": "7ede434ec087710a641f07c32159c0a3e6da642e2001cedb1c55b80fe6f24e86",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_d3.webp": "93dbeaab7ac3a9d6bf166b61ff96646b9e36c1e36817309e0a96714fa1ec73d8",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_c1.webp": "879fbd0001d1a7bc8c8a059c6eaeb151fcda1bfcb2f71c33b5535d6ee5dae171",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_b4.webp": "3d6836e50e0ba1d67a83a9a1df9cfb6e1dd613d2170fc6311386ef8fa85f1258",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_d4.webp": "7a50fec6cb7e7a7b7ad31d9c9c0960f186b44518b962924e224bd16d3bc30a7b",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_a1.webp": "d3e4fed4b834b8da745d5e60f29e498e7db50729d3032da79d575fa75fd36c12",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_a3.webp": "f13541b652185026bd82b582630e75939cfafcdc2d97546262f315e66879971e",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_c2.webp": "443c7f3d4a3eda6c4fc62f96ab668b1f8f55d6a5bedf24c2452391b133c6906a",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_b3.webp": "68cd13342da1a172af4bf05aa8556e3100ba169ef66d74ee2b1d84def602a5f9",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_c3.webp": "22f7e5e08c501edf3ccb30c234243cb876b8a7a40e1da070828b2d46bd9f567e",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_a4.webp": "720bf2681396202048a21b12f113d69cceb884f879e515db16d60da2151ded3a",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_b2.webp": "f46dc06baf61f3380249f1bf0d421d4d1f04df0d733e1841e6e54b848b3f6fa0",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HiroshigeHorsePrawns_d2.webp": "17c05791c8084c4a41813dcb2f8a9b3b2cf266dd4fedeee5436597fbdf0e6886"
+      },
+      "refused": "NoSolution",
+      "reason": "No canvas-fitting nonoverlapping alpha arrangement",
+      "seconds": 0.034926
+    },
+    {
+      "level": 10,
+      "pieces": 20,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_d1.webp": "977cd3b8efe03e5321d935d2b055b947ce4b614cef99f64fc0db2e35a45a60dd",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_d3.webp": "6909eb7879b0784e0d7afc6e293d850e39dcebe9315981a1ca9979d3eed9e148",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_a2.webp": "d9cb7b5a9bd7681234b8c57d9bbaf9abff88075c36b222ba00b4e1e1cfe65e97",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_c2.webp": "0e73560a33649ca0639197aa4d94aa37071fc88a506e4ab153bdcd1828d883bc",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_c1.webp": "0a3ff017c67357e4288a66a942808a0e7d62abe8380c35879094c19117e0bae0",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_d2.webp": "f7d4f54dd113b020f4704ac8db9a287739184dc7ab91cd16cb17bb9545c54bf0",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_b1.webp": "7b2195ec825490bd8166024166ce759566e94b8d2b81bf42e6c6e7ee8825d4c7",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_e4.webp": "35c2888093c5b214a59f37eceae9e1444bd05c8825e8eac0ae28ea87b75fadb4",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_a1.webp": "ff553c4faaca60b322c970de9048931fcd2be71e144d58351c8d5303150d4931",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_c3.webp": "f622cf4b3b074d366f141cf545dd98050ab38813311d1b19ab93a7fe63c8c19b",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_b4.webp": "78ff680b3a26989a73c793b63c3a3e80705908815b577a993d4e2ca898e5725c",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_e2.webp": "26d60496b23a78c7691dcbeb070796f1f8a6ad15feae293e31c4ea9db1d13bca",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_e3.webp": "4042c89b677f26b6e796dffbef90d70f63bf9189a46f3c6d255f9f853d88e601",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_e1.webp": "02c8ec3848e046ce02f255152d4e319ad044ebbaafef7f5add8dd564718e4f8a",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_c4.webp": "f3a0ef87a1c611a5516fcd7571795b6c90ddc8c94ef4b112a968ee2ff847b33d",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_d4.webp": "1687414c0a224ec7a5451d8fb453853c578c93849cf2c0e3669f3ce1b02422ce",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_b3.webp": "7dda1c169096173477fae465a8ebe7ef2e11fd2374e359400f802626d8a07265",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_b2.webp": "6b645ec543e0d44a6908d65cb50460f9095dce6acde8f8d76f010723de3e9395",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_a3.webp": "1eb2ac8ccc2ef4ce41a7b6b81ae730d7f62ba4cbf600f70fa425c8724b29db46",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_a4.webp": "a3cb33e52382a75dc914c7386dbb304187b4929d920627c52cc1d4e8ffe975d3"
+      },
+      "result": {
+        "mapping": {
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_e4.webp": 19,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_a1.webp": 0,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_e1.webp": 4,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_e3.webp": 14,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_e2.webp": 9,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_a4.webp": 15,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_a3.webp": 10,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_a2.webp": 5,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_d1.webp": 3,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_c1.webp": 2,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_b1.webp": 1,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_b4.webp": 16,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_d4.webp": 18,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_c3.webp": 12,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_c2.webp": 7,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_d2.webp": 8,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_d3.webp": 13,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_c4.webp": 17,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_b3.webp": 11,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiBridge_b2.webp": 6
+        },
+        "diagnostics": {
+          "status": "unique",
+          "nodes": 31,
+          "pair_checks": 1470,
+          "method": "alpha constraints and RGB seam continuity",
+          "rgb_cost": 17333.056104101364,
+          "runner_up_cost": null,
+          "flat_border_constraints": true,
+          "overlap_fraction": 0.08,
+          "maximum_observed_pair_overlap": 0.025262444971215714,
+          "alpha_threshold": 128,
+          "contact_sample_limit_per_shift": 128
+        },
+        "geometry": {
+          "scale": 1.0113960113960114,
+          "canvas_size": [
+            702,
+            515
+          ],
+          "visible_slots_in_canvas_pixels": [
+            [
+              87.75,
+              101.455
+            ],
+            [
+              218.322,
+              101.455
+            ],
+            [
+              362.93399999999997,
+              89.60999999999999
+            ],
+            [
+              494.9099999999999,
+              101.455
+            ],
+            [
+              610.038,
+              101.455
+            ],
+            [
+              87.75,
+              199.82
+            ],
+            [
+              204.282,
+              199.82
+            ],
+            [
+              336.258,
+              200.85000000000002
+            ],
+            [
+              482.27399999999994,
+              212.17999999999992
+            ],
+            [
+              610.038,
+              199.82
+            ],
+            [
+              101.78999999999999,
+              301.275
+            ],
+            [
+              216.91799999999998,
+              313.63499999999993
+            ],
+            [
+              336.258,
+              324.45
+            ],
+            [
+              482.27399999999994,
+              312.60499999999996
+            ],
+            [
+              610.038,
+              301.275
+            ],
+            [
+              87.75,
+              410.96999999999997
+            ],
+            [
+              218.322,
+              421.785
+            ],
+            [
+              348.894,
+              421.785
+            ],
+            [
+              482.27399999999994,
+              410.96999999999997
+            ],
+            [
+              610.038,
+              410.96999999999997
+            ]
+          ],
+          "position_semantics": "recorded widget centers; neutral probe destination unused"
+        }
+      },
+      "seconds": 2.339124
+    },
+    {
+      "level": 11,
+      "pieces": 25,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_c2.webp": "60d00670f6ca740cdced726f9a10f659ae829277583ae615548e187b14ac6f14",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_c5.webp": "b7aa660c193c286a02481a0f9cfaca509d81a9ef10871c7a911ce960895dac5b",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_c1.webp": "9ff12143f4e5fcee6f9c9edc9253b413de05d8cbdcab417a5cac8865b8b083c6",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_a4.webp": "25b9e000e63b2aea42dc55702569c23daf8127be2e6b799196354df4f02df5e9",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_d4.webp": "86e1a6fe6cd4a60c00a207e3a1693227d0442f2c7bbd340e48636489379b00ce",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_e4.webp": "35840c5f1dfe722ef3e70cc4bbe1ca8529e52e91451538a6667c99d2a7e9eaf5",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_d3.webp": "2d45583c32ed518441d2e57a656b74688f7f73e238036e3b1edd6a460e398423",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_c4.webp": "94fb8ef6dc493af08e00de11d82808472b384df3761fe6cde68a9b20675b2b8f",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_a2.webp": "838bd3a3645b7ad6805188834e934f83b540c99df4a1cee4075e037607b520f4",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_d1.webp": "3562fee279e1287e1004371f4c612a8ff99717419ce6bed94202dd8ee450ff71",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_a3.webp": "7d1f6fd3263b0145b4bdf1b39993cbe10c8cd0aa55ca408f6b8c30a57da4b24d",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_e3.webp": "be19874c7b5fef8fbcebd424216706e7a73355d1a3f5ff71d04caaf78b4b1ec2",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_e1.webp": "c4e8a35bac187c29b4696d26c3d5d1c3f1f4a6aba5be14e29c7af789ad3eeeba",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_d5.webp": "adfc8189b45167b0b0761ff1034f4fd62db9bdb3cc172add3190da0bf1bdd425",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_b5.webp": "d43420d2c2394d2b7c9ec3584f22997bad4e16d8407e44264659fbf852629ceb",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_c3.webp": "f1873868fba6e3232bab5193ee6594ce168817240a156086ac0236375282e2d3",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_d2.webp": "4a2a05c61c47ad793664bfea734a9623456560d35d297638c228f9dcbd89161c",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_e5.webp": "492461ac3274c661f1c120b210483e112ca0691c9fa32b1e6004a3429b6a1a23",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_e2.webp": "005d8a14b7974a4b84d7a8a67b5d9a7be2858cfe37a37e22bbd40486948f1363",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_a1.webp": "4429080ec009e12177fe8bbc70188ca7fce66342d139519b1d711e787488d776",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_b2.webp": "be15848d5619e5301ba85a48ea2e187eee890ba02b8663fda3c947d2aec1987f",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_b1.webp": "460c026dced7c7917f0df7ce9abb77a7829c97b82e3655acf84a8b63a80c6edb",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_b3.webp": "db86e75e1f1fd249bac93c88da90080c233ffd49474746213c38c3ca69cac118",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_a5.webp": "cbb34e88c7d9a1ffd6ca9d060f19be83747b7f83ee2ac8b4865f75350b9dc85f",
+        "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_b4.webp": "f9431bf57205090c99eb85c533aa2f036213f14538ee5a1884d843da1265ce9d"
+      },
+      "result": {
+        "mapping": {
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_e1.webp": 4,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_e5.webp": 24,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_a1.webp": 0,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_a5.webp": 20,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_c1.webp": 2,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_d1.webp": 3,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_b1.webp": 1,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_e3.webp": 14,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_e4.webp": 19,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_e2.webp": 9,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_c5.webp": 22,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_d5.webp": 23,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_b5.webp": 21,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_a4.webp": 15,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_a2.webp": 5,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_a3.webp": 10,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_d3.webp": 13,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_c2.webp": 7,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_c4.webp": 17,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_c3.webp": 12,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_d4.webp": 18,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_b2.webp": 6,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_b3.webp": 11,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_d2.webp": 8,
+          "qrc:/gcompris/src/activities/paintings/resource/image/HokusaiPoppies_b4.webp": 16
+        },
+        "diagnostics": {
+          "status": "unique",
+          "nodes": 83,
+          "pair_checks": 4257,
+          "method": "alpha constraints and RGB seam continuity",
+          "rgb_cost": 25626.60332001197,
+          "runner_up_cost": 203641.0293391301,
+          "flat_border_constraints": true,
+          "overlap_fraction": 0.08,
+          "maximum_observed_pair_overlap": 0.03256758003505859,
+          "alpha_threshold": 128,
+          "contact_sample_limit_per_shift": 128
+        },
+        "geometry": {
+          "scale": 1.0113960113960114,
+          "canvas_size": [
+            702,
+            515
+          ],
+          "visible_slots_in_canvas_pixels": [
+            [
+              89.15400000000001,
+              87.03500000000001
+            ],
+            [
+              218.322,
+              77.24999999999997
+            ],
+            [
+              362.232,
+              77.24999999999997
+            ],
+            [
+              492.8039999999999,
+              87.03500000000001
+            ],
+            [
+              607.2299999999999,
+              87.03500000000001
+            ],
+            [
+              103.194,
+              175.09999999999997
+            ],
+            [
+              230.95800000000003,
+              157.07499999999996
+            ],
+            [
+              362.232,
+              166.34500000000003
+            ],
+            [
+              479.46600000000007,
+              175.09999999999997
+            ],
+            [
+              595.2959999999999,
+              175.09999999999997
+            ],
+            [
+              103.194,
+              255.44
+            ],
+            [
+              217.62,
+              256.46999999999997
+            ],
+            [
+              349.59599999999995,
+              255.44
+            ],
+            [
+              492.8039999999999,
+              265.22499999999997
+            ],
+            [
+              607.2299999999999,
+              265.22499999999997
+            ],
+            [
+              103.194,
+              336.81
+            ],
+            [
+              217.62,
+              354.8349999999999
+            ],
+            [
+              349.59599999999995,
+              346.595
+            ],
+            [
+              492.8039999999999,
+              345.565
+            ],
+            [
+              607.2299999999999,
+              345.565
+            ],
+            [
+              89.15400000000001,
+              424.875
+            ],
+            [
+              218.322,
+              433.62999999999994
+            ],
+            [
+              348.192,
+              433.62999999999994
+            ],
+            [
+              466.8300000000001,
+              424.875
+            ],
+            [
+              595.2959999999999,
+              424.875
+            ]
+          ],
+          "position_semantics": "recorded widget centers; neutral probe destination unused"
+        }
+      },
+      "seconds": 4.346938
+    },
+    {
+      "level": 12,
+      "pieces": 25,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_d4.webp": "2194cdcfce80e79f180d1c5bf93a7fc2decb918c1e99c9bb8139047b58981e91",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_d2.webp": "dfb42e5ea7d4f373dc7a8cc1ece9ca178cdec9037c613bac260fd9046a5c3875",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_c3.webp": "997a8bf365d3e214200e4d2939f6e5545c12afb1e975ffc259559d893be713c1",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_e1.webp": "70f16be009e4d60dcbda6fdc69962c8a8207ecad6af76a70154e860f76ac2e0b",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_e3.webp": "d8a530146d05222872efe2ad4d84d202436933507fac7972f5a23801a9b36df9",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_c4.webp": "5027a99e7365e030e75ced0eabcfc486bf0bc07b22fd9c64b0ea172a7599f009",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_a3.webp": "ad52e2bce20de6a3e91b9164312779a6d38a9f640f5f33f9e9158c6c08d207a6",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_d1.webp": "549481f44aab521512771d7f8014297c88e04f352ffefe51808bfb4571c57ea3",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_d5.webp": "b68d8e2223e0cff32fa26b4191e799870be6befa054ab5d5b3ebbe7529be6188",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_b4.webp": "aaa2b77d254854bb0d800b0f796611a435a5c0ea70ab404af089a314625a76bc",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_a2.webp": "d0ea523d71c3d7c8a36dfa830c843dfb6954a890b125d4ef26a93ded5abe08fb",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_e5.webp": "7104aba7395158a6f1e0c8866092c910f3d544e918667352a01c617e1aa64498",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_c5.webp": "b2a6d7711eb0b045ecc48b12cf170f3d61be02658172fe6ba391cdeb78cc534f",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_c1.webp": "8929cfbc82afa13c0587c655e23ef98ce9ba00cc09af3ade01bb70db8d522d0a",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_b3.webp": "d8f618c9a46e0af7bf9dbe526e1f948a148c0153cedb45e7020cb8167d6f3416",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_b2.webp": "54fbd6f4d994ec7de586ddc471db24731d7db81a8534188179a28c12b35f1538",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_a1.webp": "729156dfa1854f3aa02d02f7fd75310ece0c512898bf9f291524a08927dfcaea",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_b5.webp": "92f1f2d46a66c3b8c44925776b5c3fa4ccb998dbafb772a3cf2b1d8776c331d7",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_a4.webp": "4a10a7ea07e2cd510be6788e6edc832c1df58c4581a0c2e6a9c6cd30f748ac8f",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_a5.webp": "d829b7d94593a9a031299d54f8bca1f7bec2f94d373981dbde2d1af7131ba07b",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_c2.webp": "5a7136603b37dc92ba67ddb12e67bb4195534662f77c33a97ee79b3b0fe6513a",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_e4.webp": "001cef5bb080882b0e2b0a87c40ca5bb3d491795519da4b38804edf74f0b5a48",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_e2.webp": "095c66fe5f60dd3d7aa5a329e203102558e3829a4310b0635cc91518dfff21f8",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_b1.webp": "e6a8640ff9a97c10bd40ec8e1c37de28c697b102894fa5ca5baa5916489eaaa6",
+        "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_d3.webp": "1a46b08c01d1d7284596a111b714c1d56497e8e9513da9757b167d77e5d3751c"
+      },
+      "result": {
+        "mapping": {
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_e1.webp": 4,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_e5.webp": 24,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_e3.webp": 14,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_a1.webp": 0,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_c1.webp": 2,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_d1.webp": 3,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_a5.webp": 20,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_e4.webp": 19,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_e2.webp": 9,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_b1.webp": 1,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_a3.webp": 10,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_a4.webp": 15,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_a2.webp": 5,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_c5.webp": 22,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_d5.webp": 23,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_b5.webp": 21,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_d2.webp": 8,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_c3.webp": 12,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_c4.webp": 17,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_b2.webp": 6,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_c2.webp": 7,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_d3.webp": 13,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_b4.webp": 16,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_d4.webp": 18,
+          "qrc:/gcompris/src/activities/paintings/resource/image/KazusaSeaRoute_b3.webp": 11
+        },
+        "diagnostics": {
+          "status": "unique",
+          "nodes": 72,
+          "pair_checks": 2732,
+          "method": "alpha constraints and RGB seam continuity",
+          "rgb_cost": 20348.467621486274,
+          "runner_up_cost": 43975.4356858077,
+          "flat_border_constraints": true,
+          "overlap_fraction": 0.08,
+          "maximum_observed_pair_overlap": 0.03380230221085328,
+          "alpha_threshold": 128,
+          "contact_sample_limit_per_shift": 128
+        },
+        "geometry": {
+          "scale": 1.0113960113960114,
+          "canvas_size": [
+            702,
+            515
+          ],
+          "visible_slots_in_canvas_pixels": [
+            [
+              92.664,
+              77.24999999999997
+            ],
+            [
+              212.706,
+              77.24999999999997
+            ],
+            [
+              350.298,
+              77.24999999999997
+            ],
+            [
+              500.526,
+              87.03500000000001
+            ],
+            [
+              619.164,
+              87.03500000000001
+            ],
+            [
+              79.32600000000002,
+              157.07499999999996
+            ],
+            [
+              213.40800000000002,
+              166.34500000000003
+            ],
+            [
+              350.298,
+              166.34500000000003
+            ],
+            [
+              487.188,
+              175.09999999999997
+            ],
+            [
+              619.164,
+              165.315
+            ],
+            [
+              92.664,
+              247.19999999999996
+            ],
+            [
+              212.706,
+              255.44
+            ],
+            [
+              350.298,
+              265.22499999999997
+            ],
+            [
+              500.526,
+              265.22499999999997
+            ],
+            [
+              619.164,
+              256.46999999999997
+            ],
+            [
+              92.664,
+              336.81
+            ],
+            [
+              212.706,
+              336.81
+            ],
+            [
+              350.298,
+              354.8349999999999
+            ],
+            [
+              486.48599999999993,
+              345.565
+            ],
+            [
+              605.826,
+              354.8349999999999
+            ],
+            [
+              92.664,
+              424.875
+            ],
+            [
+              226.74600000000004,
+              424.875
+            ],
+            [
+              364.338,
+              433.62999999999994
+            ],
+            [
+              486.48599999999993,
+              424.875
+            ],
+            [
+              605.826,
+              433.62999999999994
+            ]
+          ],
+          "position_semantics": "recorded widget centers; neutral probe destination unused"
+        }
+      },
+      "seconds": 3.046441
+    },
+    {
+      "level": 13,
+      "pieces": 12,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_a2.webp": "387740a87d2874c24d9124cd996c9cf96cdf727c76c4d59dc153c246a5510764",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_b3.webp": "085be9e34c4c827aa2252629231c510b5901e5f3a64aab4d31abd5f7c35a8819",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_b1.webp": "3dc80e59239e3dad90e3239e104cb8e0d55bae14101521b95f7f63d97320d3cb",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_a1.webp": "ce2723024814aca9fcbfcb7bb88d85c19484165ebf697ee05cf12d6b036c7168",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_a3.webp": "f514549b84a29dcd5f2848709d5777a460e252fed7cca3b40cae54bc9cc67d7d",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_c1.webp": "2eda236b512c8cbe51c50d1176f8975130065640f470aa3e37a7fa6ff131c3b2",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_c2.webp": "98b253d1dc639bee8ce459cde3b91ef4fc8d92c7a3790ccf27b3a8d313846f90",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_c3.webp": "94262739463e5e1f41b7d34ddde18088aad4406e8137049909cf84d8afe96cb8",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_a4.webp": "a0b380752c44ff9e16730882e33a2c976ac4bbb7ef6c18c3e8e33884b609b6a1",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_c4.webp": "a2d54ee1764972d9d8d45ca7a56e4802321fe8cc42c96a34642194657a721288",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_b2.webp": "de6acb5e9dca5705a3d6d7a23b5442f170a7a1c237cf275177ed7115495cc2e8",
+        "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_b4.webp": "34f715a0cf192d2401ffd685c1f5f97fbd6bfb699c5ffac94c7b4af640aa0754"
+      },
+      "result": {
+        "mapping": {
+          "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_a1.webp": 0,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_c1.webp": 2,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_b1.webp": 1,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_c3.webp": 8,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_c2.webp": 5,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_a4.webp": 9,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_a2.webp": 3,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_b3.webp": 7,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_a3.webp": 6,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_c4.webp": 11,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_b2.webp": 4,
+          "qrc:/gcompris/src/activities/paintings/resource/image/Michelangelo_Pieta_b4.webp": 10
+        },
+        "diagnostics": {
+          "status": "unique",
+          "nodes": 13,
+          "pair_checks": 165,
+          "method": "alpha constraints and RGB seam continuity",
+          "rgb_cost": 3970.3072776039226,
+          "runner_up_cost": null,
+          "flat_border_constraints": true,
+          "overlap_fraction": 0.08,
+          "maximum_observed_pair_overlap": 0.024862486248624863,
+          "alpha_threshold": 128,
+          "contact_sample_limit_per_shift": 128
+        },
+        "geometry": {
+          "scale": 1.0113960113960114,
+          "canvas_size": [
+            702,
+            515
+          ],
+          "visible_slots_in_canvas_pixels": [
+            [
+              209.19599999999997,
+              71.06999999999998
+            ],
+            [
+              348.894,
+              71.06999999999998
+            ],
+            [
+              488.5919999999999,
+              71.06999999999998
+            ],
+            [
+              193.04999999999998,
+              194.155
+            ],
+            [
+              332.74799999999993,
+              181.27999999999997
+            ],
+            [
+              488.5919999999999,
+              181.27999999999997
+            ],
+            [
+              209.19599999999997,
+              317.755
+            ],
+            [
+              365.742,
+              318.78499999999997
+            ],
+            [
+              504.738,
+              318.78499999999997
+            ],
+            [
+              193.04999999999998,
+              427.96500000000003
+            ],
+            [
+              332.74799999999993,
+              439.80999999999995
+            ],
+            [
+              488.5919999999999,
+              439.80999999999995
+            ]
+          ],
+          "position_semantics": "recorded widget centers; neutral probe destination unused"
+        }
+      },
+      "seconds": 0.24191
+    },
+    {
+      "level": 14,
+      "pieces": 12,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_d2.webp": "6d0add0b76699742def0979aa00910709fed2254daf308a18095b241029fe744",
+        "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_d3.webp": "97456266057a96e3775e902ee5625a979b19f75998f612bfb596fcc466222f4d",
+        "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_b3.webp": "b655a1707b8c25f53173bfe0cd6318217e2877d2fb7a90a630362b85dffc8295",
+        "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_c3.webp": "ff1a07ecc7e560b4ecb78881754f3aa7520914ebeb9293b88566d77282173f84",
+        "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_a3.webp": "c982051cf60b1fd92d762bf0453ea6d86153496ffd33f8c9c97f1b45eb512934",
+        "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_c1.webp": "83f4abc55c4c06b00223eb2fc616731e09e134e5621cac1fad5922513c587be9",
+        "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_a2.webp": "c985203d84469032032586bb9dffed326bc45122afd3e5ad258f7e92263c3d6c",
+        "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_b2.webp": "331eca239b3eeb1b1514a234630dee63baeb722fd7419cdf2c42ac70e75e8115",
+        "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_a1.webp": "0d69e4bef885e1d6583160414b3e0bdb9b46e203f6dc1ffe7066075cc3bfec6d",
+        "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_b1.webp": "9d3b46a53a2abce842660564e4826f2af3b3335df07572cdc81aee6f282b7046",
+        "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_c2.webp": "3e09d643604d2da186c5b484861dcd7c88d12a114b3b45d57aad80d7db746713",
+        "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_d1.webp": "0d5961d6fd19bd72cd65f67033ad13b6d18cb90768d46d42641ee3194e811cb7"
+      },
+      "result": {
+        "mapping": {
+          "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_d3.webp": 11,
+          "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_a3.webp": 8,
+          "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_b3.webp": 9,
+          "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_c3.webp": 10,
+          "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_a1.webp": 0,
+          "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_a2.webp": 4,
+          "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_d1.webp": 3,
+          "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_d2.webp": 7,
+          "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_b1.webp": 1,
+          "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_c1.webp": 2,
+          "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_b2.webp": 5,
+          "qrc:/gcompris/src/activities/paintings/resource/image/MonaLisa_c2.webp": 6
+        },
+        "diagnostics": {
+          "status": "unique",
+          "nodes": 15,
+          "pair_checks": 157,
+          "method": "alpha constraints and RGB seam continuity",
+          "rgb_cost": 3256.494800449541,
+          "runner_up_cost": 59573.71421583819,
+          "flat_border_constraints": true,
+          "overlap_fraction": 0.08,
+          "maximum_observed_pair_overlap": 0.023819268232790375,
+          "alpha_threshold": 128,
+          "contact_sample_limit_per_shift": 128
+        },
+        "geometry": {
+          "scale": 1.0113960113960114,
+          "canvas_size": [
+            702,
+            515
+          ],
+          "visible_slots_in_canvas_pixels": [
+            [
+              230.256,
+              110.20999999999998
+            ],
+            [
+              310.284,
+              92.69999999999999
+            ],
+            [
+              390.312,
+              92.69999999999999
+            ],
+            [
+              460.512,
+              110.20999999999998
+            ],
+            [
+              238.67999999999998,
+              273.465
+            ],
+            [
+              318.006,
+              256.985
+            ],
+            [
+              398.73599999999993,
+              256.985
+            ],
+            [
+              468.23400000000004,
+              255.95499999999998
+            ],
+            [
+              230.256,
+              419.2099999999999
+            ],
+            [
+              310.284,
+              419.2099999999999
+            ],
+            [
+              398.73599999999993,
+              419.2099999999999
+            ],
+            [
+              468.23400000000004,
+              402.73
+            ]
+          ],
+          "position_semantics": "recorded widget centers; neutral probe destination unused"
+        }
+      },
+      "seconds": 0.219472
+    },
+    {
+      "level": 15,
+      "pieces": 9,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_b3.webp": "66471a5d68b3cae0f1c5863acecf27f84c2137fa3f87a24d35a6e091005c993b",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_b1.webp": "94820978adbc91e955bce9a64e8ccdccde27f97fb0524aa51b27b0ff85ea66d5",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_c1.webp": "8faa267e411c7663daa82266f7645694305125d2d7891ff1641adb3c35d0c8cf",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_a1.webp": "b74c706b3f043958c50a69edc7b86679b2c63c4714ded93e1dd314820ecc9f71",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_c3.webp": "e579ac110925e639579272e13d6d55289568e6db58c82c85b5379815caa7620e",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_b2.webp": "3fab215ad03c9e8237bb10053f3dd1102a26bf21fa3bc2ec43fbd2736f021181",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_c2.webp": "0fac89d68f27ee000e4f8315a6c3da10c88b20358730d8db4fe0c1d6d8ebb3db",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_a3.webp": "b09b5cf104142f528a134a6eb928a867ec9cfd4f9a2751de9dc10b0e0ef4793d",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_a2.webp": "09722459f509290510d1e34a81dd07792c81ace1507d8b815f8d67d85cf2670c"
+      },
+      "result": {
+        "mapping": {
+          "qrc:/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_b3.webp": 7,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_c1.webp": 2,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_b1.webp": 1,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_a1.webp": 0,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_c3.webp": 8,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_b2.webp": 4,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_c2.webp": 5,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_a3.webp": 6,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PalaDiPesaro_a2.webp": 3
+        },
+        "diagnostics": {
+          "status": "unique",
+          "nodes": 10,
+          "pair_checks": 55,
+          "method": "alpha constraints and RGB seam continuity",
+          "rgb_cost": 5086.532707927885,
+          "runner_up_cost": null,
+          "flat_border_constraints": true,
+          "overlap_fraction": 0.08,
+          "maximum_observed_pair_overlap": 0.013797950652905708,
+          "alpha_threshold": 128,
+          "contact_sample_limit_per_shift": 128
+        },
+        "geometry": {
+          "scale": 1.0113960113960114,
+          "canvas_size": [
+            702,
+            515
+          ],
+          "visible_slots_in_canvas_pixels": [
+            [
+              127.764,
+              135.96
+            ],
+            [
+              327.132,
+              135.96
+            ],
+            [
+              548.262,
+              135.96
+            ],
+            [
+              150.93,
+              244.10999999999999
+            ],
+            [
+              373.464,
+              256.46999999999997
+            ],
+            [
+              571.4279999999999,
+              244.10999999999999
+            ],
+            [
+              127.764,
+              363.075
+            ],
+            [
+              350.298,
+              374.4049999999999
+            ],
+            [
+              571.4279999999999,
+              363.075
+            ]
+          ],
+          "position_semantics": "recorded widget centers; neutral probe destination unused"
+        }
+      },
+      "seconds": 0.178756
+    },
+    {
+      "level": 16,
+      "pieces": 16,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_b2.webp": "30461725e628e1adc4fa72ea384f2465f6fe53d64401ab4146b83e93eca07d59",
+        "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_d4.webp": "bf2e288c9f788b0d1d030219555935e569d8d9ee046528c6a0ee8c1dd3d5d75e",
+        "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_b1.webp": "7038e54836a10269cdb3d19d328bced8c63e1d1aa1495ef7f5f0e5c7b166eff8",
+        "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_d2.webp": "5b6642166d8ad05fe74811c3638184816df77a1e871e201fc98dd76f67e12ff9",
+        "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_c4.webp": "da868de1f7a7555d6c6d84f920c91862e0ef2297b3a5ad411247019c39b93348",
+        "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_c1.webp": "1d2aebe5c52769a2810372f0248b76770c1306ac88f53044e294eff9d9181248",
+        "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_d3.webp": "8d69022ed5b733c2ed34d4aaec851e8b6b3000ba6e73593df2d6d669745f90cc",
+        "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_a2.webp": "e007e72459059688ee2921dfee7a21a874ad96fb20ab6daf58532ac2b7b4291a",
+        "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_a1.webp": "a292cce2c1682166222864b7ee8ec4bb31e1074ae679505b325276ea06870698",
+        "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_d1.webp": "d32da7662a6eb9993fa1c30fcc90e6e6b87110fd919baee499fc7ffb2de8e303",
+        "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_c2.webp": "070a33a9a22da13d7a16158606c355d31886f0dd5d54f33790b0133f2d36b72b",
+        "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_a3.webp": "60963024b7cd0a0ae9bcaed5dad657d1e17ea0014cfd157e1a933a077110827d",
+        "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_b3.webp": "f118cc75e951a076b11920edab9f8976bd8f5e2496c179bbfd7cb5dffe608898",
+        "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_c3.webp": "ecc045d92cee52bdbf308dc5fa498a6c5948d80b56c43297cb2f99ee5dd280b8",
+        "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_b4.webp": "bc6ab53107a64f33f630a5f5dcee2c1d886b4f258a099958c41a1d533c81336a",
+        "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_a4.webp": "261e5a9fe93613bfbe16d58a5eb8d417c69514afbab3210c6f0813eb666c84a3"
+      },
+      "result": {
+        "mapping": {
+          "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_d4.webp": 15,
+          "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_c4.webp": 14,
+          "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_d3.webp": 11,
+          "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_a2.webp": 4,
+          "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_a1.webp": 0,
+          "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_d1.webp": 3,
+          "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_d2.webp": 7,
+          "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_b4.webp": 13,
+          "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_a4.webp": 12,
+          "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_a3.webp": 8,
+          "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_b1.webp": 1,
+          "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_c1.webp": 2,
+          "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_c2.webp": 6,
+          "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_b2.webp": 5,
+          "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_b3.webp": 9,
+          "qrc:/gcompris/src/activities/paintings/resource/image/AlbrechtDurer_c3.webp": 10
+        },
+        "diagnostics": {
+          "status": "unique",
+          "nodes": 23,
+          "pair_checks": 397,
+          "method": "alpha constraints and RGB seam continuity",
+          "rgb_cost": 8366.869774555706,
+          "runner_up_cost": 35062.98449550025,
+          "flat_border_constraints": true,
+          "overlap_fraction": 0.08,
+          "maximum_observed_pair_overlap": 0.024518126435633676,
+          "alpha_threshold": 128,
+          "contact_sample_limit_per_shift": 128
+        },
+        "geometry": {
+          "scale": 1.0113960113960114,
+          "canvas_size": [
+            702,
+            515
+          ],
+          "visible_slots_in_canvas_pixels": [
+            [
+              109.51199999999999,
+              71.06999999999998
+            ],
+            [
+              280.8,
+              83.94500000000001
+            ],
+            [
+              454.194,
+              83.94500000000001
+            ],
+            [
+              606.5279999999999,
+              83.94500000000001
+            ],
+            [
+              109.51199999999999,
+              194.155
+            ],
+            [
+              262.548,
+              206.0
+            ],
+            [
+              437.3459999999999,
+              193.63999999999996
+            ],
+            [
+              606.5279999999999,
+              206.0
+            ],
+            [
+              91.26,
+              317.755
+            ],
+            [
+              244.99799999999996,
+              331.145
+            ],
+            [
+              419.094,
+              305.90999999999997
+            ],
+            [
+              588.978,
+              317.755
+            ],
+            [
+              91.26,
+              427.96500000000003
+            ],
+            [
+              244.99799999999996,
+              439.80999999999995
+            ],
+            [
+              437.3459999999999,
+              427.96500000000003
+            ],
+            [
+              606.5279999999999,
+              427.96500000000003
+            ]
+          ],
+          "position_semantics": "recorded widget centers; neutral probe destination unused"
+        }
+      },
+      "seconds": 0.942007
+    },
+    {
+      "level": 17,
+      "pieces": 16,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_b4.webp": "ce0c070a7032f0fa79036c5beda564e7d982e06dc38c507c0b89f1c0099efe18",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_b3.webp": "91f21334c83318b33a33412881f52c80810379d6fda4807890c9571b1ade57ca",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_a4.webp": "a35a632ea95632b31257a98355f24227197d22af441bb0505f7b13b2a99ebf45",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_c4.webp": "aa71b92f261c9ed45219f07298a1b5390e20bc8d8944f4ef30911f002bf90012",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_d1.webp": "f43fc7f9c0aad0faafc411742a8664e251265a263e8498bb6d360281a2066e50",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_a2.webp": "7975a7e9c41b73c0791ae85dd8d665d16987d90dd2714aaf86f6f232da31748e",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_d4.webp": "f24b546bf28b20e989c0f97a85c2773f9a9c4f038e4e8236597a5e6f3510a413",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_b1.webp": "14ac6d29d242ce598ba3273916a20ba411c9982f55efbe333dd21ff86b04c32c",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_d2.webp": "2f5d8201fc9263b8c9897a0458db729ef8a03cc7fef7e9088c55b8835c87ec82",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_b2.webp": "104521b70d1a43ba1868f454400407703ba5775be4891a053916ffdb96b6b4b7",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_a1.webp": "c0098f692b978ec09a0a47974be0edd219abe72aedf100c498ee755457d96100",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_c1.webp": "db8e05766bd584e6b5704c90909d0ec0c0d3ada4d23830eb0023bd447c5cf552",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_a3.webp": "bcdde78e1860e100a7aa38b08ef6b3d7375180248f6a2e7b248c51f145504eb8",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_d3.webp": "98c1bcea85f6bb3196e8e351d137260bfc25e1cdd6c10e567a16beecec297645",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_c3.webp": "a1799ca12d66a0ede888df6429a8a248129f3f989aa5e566e52ecd6a063b984b",
+        "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_c2.webp": "9f03cd588e44ac0ba72c92b6f29b4061be4f6ba1d2c91e5891c5f080d21a6849"
+      },
+      "result": {
+        "mapping": {
+          "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_a4.webp": 12,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_c4.webp": 14,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_b4.webp": 13,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_d1.webp": 3,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_d4.webp": 15,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_d2.webp": 7,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_b2.webp": 5,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_a1.webp": 0,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_b1.webp": 1,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_c1.webp": 2,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_a3.webp": 8,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_a2.webp": 4,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_d3.webp": 11,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_b3.webp": 9,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_c3.webp": 10,
+          "qrc:/gcompris/src/activities/paintings/resource/image/PieterBruegel_c2.webp": 6
+        },
+        "diagnostics": {
+          "status": "unique",
+          "nodes": 19,
+          "pair_checks": 451,
+          "method": "alpha constraints and RGB seam continuity",
+          "rgb_cost": 26932.702818508158,
+          "runner_up_cost": 119880.85620408031,
+          "flat_border_constraints": true,
+          "overlap_fraction": 0.08,
+          "maximum_observed_pair_overlap": 0.023705926481620405,
+          "alpha_threshold": 128,
+          "contact_sample_limit_per_shift": 128
+        },
+        "geometry": {
+          "scale": 1.0113960113960114,
+          "canvas_size": [
+            702,
+            515
+          ],
+          "visible_slots_in_canvas_pixels": [
+            [
+              113.724,
+              83.94500000000001
+            ],
+            [
+              282.204,
+              71.06999999999998
+            ],
+            [
+              435.94200000000006,
+              83.94500000000001
+            ],
+            [
+              586.17,
+              71.06999999999998
+            ],
+            [
+              96.174,
+              206.0
+            ],
+            [
+              264.654,
+              194.155
+            ],
+            [
+              435.94200000000006,
+              206.0
+            ],
+            [
+              586.17,
+              194.155
+            ],
+            [
+              113.724,
+              331.145
+            ],
+            [
+              282.204,
+              331.145
+            ],
+            [
+              435.94200000000006,
+              331.145
+            ],
+            [
+              586.17,
+              331.145
+            ],
+            [
+              96.174,
+              439.80999999999995
+            ],
+            [
+              247.80599999999998,
+              439.80999999999995
+            ],
+            [
+              436.644,
+              439.80999999999995
+            ],
+            [
+              603.0179999999999,
+              439.80999999999995
+            ]
+          ],
+          "position_semantics": "recorded widget centers; neutral probe destination unused"
+        }
+      },
+      "seconds": 1.067796
+    },
+    {
+      "level": 18,
+      "pieces": 8,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/renoir-filles_piano-8.webp": "9ef059e5136ab05a362b76d7edb710f62701ea7785cd26c7ee4e28607568e50a",
+        "qrc:/gcompris/src/activities/paintings/resource/image/renoir-filles_piano-7.webp": "c6b602966ab5a52b68237f57947e78c9bae65dcb112aabd1604eddfcb6847850",
+        "qrc:/gcompris/src/activities/paintings/resource/image/renoir-filles_piano-6.webp": "f73b64247ad214bf340c80bb7788688eb526d81cd35707441542b78a0944a102",
+        "qrc:/gcompris/src/activities/paintings/resource/image/renoir-filles_piano-2.webp": "e2d15bc234b96b61640ab1d18d5af6102944b37e90744c89f36fb68662886fff",
+        "qrc:/gcompris/src/activities/paintings/resource/image/renoir-filles_piano-1.webp": "3358cdcca2e558938f44b11ba391fd499ed2350b635d943894ca5c2f76b0ce2f",
+        "qrc:/gcompris/src/activities/paintings/resource/image/renoir-filles_piano-4.webp": "6195454b07aa04d33892f0a38c5a7e95e4a1fc1c1bdd75c262ce9571614fe84b",
+        "qrc:/gcompris/src/activities/paintings/resource/image/renoir-filles_piano-3.webp": "89699b9b53339139046d571d0bcd14be7336b1997783bdef3f86f9efed0b9670",
+        "qrc:/gcompris/src/activities/paintings/resource/image/renoir-filles_piano-5.webp": "49cfd48c5d921e71dd7887037d9ea6d5d21fffb2ebee4cdfbbb1ea7a3df03494"
+      },
+      "refused": "NoSolution",
+      "reason": "No canvas-fitting nonoverlapping alpha arrangement",
+      "seconds": 0.013033
+    },
+    {
+      "level": 19,
+      "pieces": 8,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/kandinky_5.webp": "9fab6cfbfb69cb6f4089ba1bf81cf40e32b4b61125ca1ef9ae50c1461362377f",
+        "qrc:/gcompris/src/activities/paintings/resource/image/kandinky_2.webp": "0315468377f7f36584bb0e46e1e201a525aa7c1bc9d1685af7990248c68a7255",
+        "qrc:/gcompris/src/activities/paintings/resource/image/kandinky_4.webp": "92e3ebbaa42df5af6129dcb749a0f6cfa9749a469410077b6d8d00ac2b886db9",
+        "qrc:/gcompris/src/activities/paintings/resource/image/kandinky_7.webp": "b7567aacb05ec786f11d4a0da407b95d4a1b38675b2462646cd515e865cce500",
+        "qrc:/gcompris/src/activities/paintings/resource/image/kandinky_1.webp": "67bcd29206ed353a21f6ea5526d1b4f77f4647f6d7e1d8f3f4bef6c2298b65c5",
+        "qrc:/gcompris/src/activities/paintings/resource/image/kandinky_8.webp": "0c7b9d5d01972843c9a4049007bb8b22c8ab352f656782d5fd7dd4dfb9cea297",
+        "qrc:/gcompris/src/activities/paintings/resource/image/kandinky_3.webp": "f9518aa6512a0e454a22e850f77d43ed7509e8a098fb5dad5ad22c10fd32e51b",
+        "qrc:/gcompris/src/activities/paintings/resource/image/kandinky_6.webp": "4d96b7997185047abc6ca0c77d9c742c9b9aea6514e14e5cb7865d4b723aff54"
+      },
+      "refused": "NoSolution",
+      "reason": "No canvas-fitting nonoverlapping alpha arrangement",
+      "seconds": 0.021161
+    },
+    {
+      "level": 20,
+      "pieces": 6,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_2.webp": "365fd7e758887e5aa6390c067e57773e0e5aaff6038436dcb86c1d40c08e25bb",
+        "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_3.webp": "1c0393db1da6c10eabac5b1935068e64836a6d9724b010daa51cbdbde02b32b2",
+        "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_4.webp": "3508ea1d28bcbc3e34ef11013e73c587c81608e74649b5efd4b2f3d20da1dc0e",
+        "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_6.webp": "7f0d19fc2fa3260ed976ee209bd5a1a5d3fe373e936e5d2451d864682a9d5f4a",
+        "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_1.webp": "6a16546cd624d715e7c9f29133f0667bb4e07a035ebaafb5c392f6811c30cd52",
+        "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_5.webp": "80bf7e3bd9552d8f1df5b66e5f2936856a9bc9d8f96d0d530f7b4e2dc2869577"
+      },
+      "result": {
+        "mapping": {
+          "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_2.webp": 0,
+          "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_3.webp": 1,
+          "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_4.webp": 2,
+          "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_6.webp": 4,
+          "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_1.webp": 5,
+          "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_5.webp": 3
+        },
+        "diagnostics": {
+          "status": "unique",
+          "nodes": 125,
+          "pair_checks": 509,
+          "method": "alpha constraints and RGB seam continuity",
+          "rgb_cost": 9056.401343297863,
+          "runner_up_cost": 10068.171787631803,
+          "flat_border_constraints": true,
+          "overlap_fraction": 0.08,
+          "maximum_observed_pair_overlap": 0.0055248618784530384,
+          "alpha_threshold": 128,
+          "contact_sample_limit_per_shift": 128
+        },
+        "geometry": {
+          "scale": 1.0113960113960114,
+          "canvas_size": [
+            702,
+            515
+          ],
+          "visible_slots_in_canvas_pixels": [
+            [
+              148.82399999999998,
+              145.74499999999998
+            ],
+            [
+              351.70199999999994,
+              145.74499999999998
+            ],
+            [
+              555.282,
+              145.74499999999998
+            ],
+            [
+              148.82399999999998,
+              326.51
+            ],
+            [
+              351.70199999999994,
+              326.51
+            ],
+            [
+              555.282,
+              326.51
+            ]
+          ],
+          "position_semantics": "recorded widget centers; neutral probe destination unused"
+        }
+      },
+      "seconds": 0.684864
+    },
+    {
+      "level": 21,
+      "pieces": 6,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/cassat_summertime_2.webp": "d17de55174fa12b04db04b0bfed25d9176ce912e643b1fe1dce31532eec7eb7f",
+        "qrc:/gcompris/src/activities/paintings/resource/image/cassat_summertime_3.webp": "13f4baa81dc32bec7494b524d551736acbaa99e7f6d9ab233ba6f90dc71814f6",
+        "qrc:/gcompris/src/activities/paintings/resource/image/cassat_summertime_4.webp": "48ada16b2b17e20e74875cb429374c2af58d0c43c0b881d9f941c91e15e96478",
+        "qrc:/gcompris/src/activities/paintings/resource/image/cassat_summertime_5.webp": "3d3cc54575c97fc4fc451ea5e65aa40ecb7c762ed2b0632fd4d44dc42ad9f62f",
+        "qrc:/gcompris/src/activities/paintings/resource/image/cassat_summertime_6.webp": "a9eb351191253246cd20c5c619e9f699747a547f881bf17f3341dca4cacb8d76",
+        "qrc:/gcompris/src/activities/paintings/resource/image/cassat_summertime_1.webp": "12250ef3b55af74fc45b2c3597d9bf4d02675650abdbc8bf0885635704065e16"
+      },
+      "result": {
+        "mapping": {
+          "qrc:/gcompris/src/activities/paintings/resource/image/cassat_summertime_2.webp": 1,
+          "qrc:/gcompris/src/activities/paintings/resource/image/cassat_summertime_3.webp": 2,
+          "qrc:/gcompris/src/activities/paintings/resource/image/cassat_summertime_4.webp": 3,
+          "qrc:/gcompris/src/activities/paintings/resource/image/cassat_summertime_5.webp": 4,
+          "qrc:/gcompris/src/activities/paintings/resource/image/cassat_summertime_6.webp": 5,
+          "qrc:/gcompris/src/activities/paintings/resource/image/cassat_summertime_1.webp": 0
+        },
+        "diagnostics": {
+          "status": "unique",
+          "nodes": 264,
+          "pair_checks": 528,
+          "method": "alpha constraints and RGB seam continuity",
+          "rgb_cost": 4755.335847418788,
+          "runner_up_cost": 15918.617785001368,
+          "flat_border_constraints": true,
+          "overlap_fraction": 0.08,
+          "maximum_observed_pair_overlap": 0.005025125628140704,
+          "alpha_threshold": 128,
+          "contact_sample_limit_per_shift": 128
+        },
+        "geometry": {
+          "scale": 1.0113960113960114,
+          "canvas_size": [
+            702,
+            515
+          ],
+          "visible_slots_in_canvas_pixels": [
+            [
+              148.12199999999999,
+              125.66
+            ],
+            [
+              348.192,
+              125.66
+            ],
+            [
+              546.8580000000001,
+              125.66
+            ],
+            [
+              148.12199999999999,
+              345.565
+            ],
+            [
+              348.192,
+              346.595
+            ],
+            [
+              546.8580000000001,
+              346.595
+            ]
+          ],
+          "position_semantics": "recorded widget centers; neutral probe destination unused"
+        }
+      },
+      "seconds": 0.772708
+    },
+    {
+      "level": 22,
+      "pieces": 6,
+      "piece_sha256": {
+        "qrc:/gcompris/src/activities/paintings/resource/image/gogh_auvert_5.webp": "4bcb1e64c44022b79a56aba86643fdca26bad5d2a908c56400240fe9f08f1142",
+        "qrc:/gcompris/src/activities/paintings/resource/image/gogh_auvert_4.webp": "8cdc157e260d5d1864198c72951275c405b6f74568c836f285781caba0895f3c",
+        "qrc:/gcompris/src/activities/paintings/resource/image/gogh_auvert_1.webp": "81f84ce20f31486197f459635ddeef042344c694af6fa130418a36b1d45a6904",
+        "qrc:/gcompris/src/activities/paintings/resource/image/gogh_auvert_3.webp": "1aefb708e7c36a0e4c7c718e8cd2fd37d8321d7a4018d916f149314e4d4bfb98",
+        "qrc:/gcompris/src/activities/paintings/resource/image/gogh_auvert_6.webp": "b8ab1e32b422995ced0bce842a126da84a9db9d3eaba003934eee3c7ed915204",
+        "qrc:/gcompris/src/activities/paintings/resource/image/gogh_auvert_2.webp": "c4518c2389a6c572ad1ea623479e7a5030f3aa59dedc9c4cac73d55cda96c86c"
+      },
+      "refused": "NoSolution",
+      "reason": "No canvas-fitting nonoverlapping alpha arrangement",
+      "seconds": 0.10726
+    }
+  ]
+}
