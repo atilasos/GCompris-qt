@@ -22,7 +22,7 @@ TestCase {
     function click(item){ensure(item!==null);var p=point(item);mouseClick(pageView,p.x,p.y);wait(70);}
     function icon(root,suffix){var found=all(root,function(o){return o.source!==undefined&&String(o.source).endsWith(suffix)&&o.opacity>0&&o.width>5;});ensure(found.length>0,suffix);click(found[0]);}
     function nearest(items,p){var best=null,d=Infinity;for(var item of items){var q=point(item),dist=(q.x-p.x)*(q.x-p.x)+(q.y-p.y)*(q.y-p.y);if(dist<d){best=item;d=dist;}}ensure(best!==null);return best;}
-    function drag(image,target){var a=point(image),b=point(target);mousePress(pageView,a.x,a.y);mouseMove(pageView,a.x+14,a.y,60);for(var i=1;i<=14;i++)mouseMove(pageView,a.x+(b.x-a.x)*i/14,a.y+(b.y-a.y)*i/14,20);mouseRelease(pageView,b.x,b.y);moves++;wait(520);}
+    function drag(image,target){var a=point(image),b=point(target);mousePress(pageView,a.x,a.y);mouseMove(pageView,a.x+14,a.y,60);for(var i=1;i<=14;i++)mouseMove(pageView,a.x+(b.x-a.x)*i/14,a.y+(b.y-a.y)*i/14,20);mouseRelease(pageView,b.x,b.y);moves++;wait(520);var placed=images(spotsContainer).some(function(o){return String(o.source)===String(image.source);});if(!placed){console.log('VISIBLE_DRAG_REJECTED',String(image.source),JSON.stringify(a),JSON.stringify(b));grabImage(pageView).save('__QA_OUTPUT__/rejected-drag.png');}ensure(placed,'Visible board circle accepts the released image');}
     function answerFor(image,targets,backgrounds,labels){
         var name=imageId(image.source),base=name.split('/').pop(),activityName=activity.activityInfo.shortName();
         if(activityName==='imagename'){
