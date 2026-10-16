@@ -223,3 +223,5 @@ percursos preservam os critérios globais pendentes.
 - [62 — Calendários](issues/62-calendarios.md)
 
 - [63 — Operações verticais](issues/63-operacoes-verticais.md)
+
+- [64 — Completar sequências](issues/64-algoritmos.md)
