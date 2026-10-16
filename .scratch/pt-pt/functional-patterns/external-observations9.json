@@ -1,0 +1,11 @@
+{
+  "kind": "root-recorded-tools-exec-or-write-stdin-completion",
+  "scope": "Corrected free-controls fixture completed with actual Qt/supervisor/capturer zero; independent audit separate",
+  "runs": {
+    "polygons-controls2": {
+      "session_id": 59985,
+      "output_chunk": "62c0bc",
+      "exit_code": 0
+    }
+  }
+}
