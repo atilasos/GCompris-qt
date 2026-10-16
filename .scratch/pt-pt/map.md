@@ -431,3 +431,5 @@ nova cobertura única. Duas ligações
 mantêm os critérios globais, Windows, hardware, áudio e revisão docente pendentes.
 
 - [89 — Desenho e criação](issues/89-desenho-e-criacao.md)
+
+- [90 — Padrões, mosaicos e polígonos](issues/90-padroes-e-formas.md) — aguarda a conclusão da metodologia física do lote 88.
