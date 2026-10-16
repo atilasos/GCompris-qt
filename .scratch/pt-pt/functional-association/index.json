@@ -1,0 +1,21 @@
+{
+  "source_commit": "7276bb59230a4947ba32b32715d5da2025d94eb3",
+  "capture_commit": "46cf2ec2d4a479f93a8ba103542ac46c7de9fb20",
+  "levels": 21,
+  "boards": 25,
+  "associations": 119,
+  "wrong_boards": 25,
+  "natural_bonus": 21,
+  "native_positive_cases": 14,
+  "paired_red_cases": 3,
+  "additional_portrait_boards": 5,
+  "portrait_occluded_centres": 1,
+  "resource_copies": 268,
+  "question_pixels": 119,
+  "error_icons": 50,
+  "decoded_wav_copies": 9,
+  "linux": "bounded-functional-proof",
+  "windows": "pending",
+  "hardware": "pending",
+  "teacher": "pending"
+}

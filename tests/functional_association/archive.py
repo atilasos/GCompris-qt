@@ -55,6 +55,7 @@ def freeze(commit,snapshot,directory):
 def capture(commit,directory):
     """Bind already completed proof files to immutable Git blobs, not live paths."""
     commit=subprocess.check_output(['git','rev-parse',commit],cwd=ROOT,text=True).strip()
+    directory=directory.resolve()
     prefix=directory.relative_to(ROOT).as_posix()+'/'
     names=subprocess.check_output(['git','ls-tree','-r','--name-only',commit,'--',prefix],cwd=ROOT,text=True).splitlines()
     assert names
