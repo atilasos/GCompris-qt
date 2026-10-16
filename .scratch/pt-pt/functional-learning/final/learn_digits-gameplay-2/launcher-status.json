@@ -1,0 +1,8 @@
+{
+  "format": 1,
+  "kind": "observed-subprocess-exit",
+  "exit_code": 0,
+  "native_receipt_sha256": "ed3244f033e99d4f87c696a68f94f8a0bcb375d912143ec3bce7fa9822f7dfeb",
+  "case_sha256": "2452fb8770d55a4efef6ffb4f53a47adbeb59deed4b94ee6c277c3ad9f136e11",
+  "launcher_sha256": "612889370d52dc3c643f894c58dd22fdd6073c245525d5e8502791527fd6ec42"
+}

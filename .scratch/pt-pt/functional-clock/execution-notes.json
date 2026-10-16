@@ -1,0 +1,18 @@
+{
+  "production_changes": [],
+  "selected": [
+    "twelve-complete",
+    "twenty-four-complete",
+    "controls3",
+    "resources"
+  ],
+  "diagnostics": {
+    "pilot": "Five hours-only questions passed; not counted in final100.",
+    "seconds24-pilot": "Fixture expected CLI start level6 to survive configuration restart. Actual config restart deliberately returns to first level; no production change.",
+    "seconds24-pilot2": "Five mixed seconds24-hour questions passed after navigating via actual next buttons; not counted in final100.",
+    "controls": "Fixture clicked relocated next button before row animation finished.",
+    "controls2": "350ms delay was shorter than Bar.qml1500ms move/add animation.",
+    "controls3": "Wait1700ms before reading icon coordinates; all controls passed without production changes."
+  },
+  "limits": "Read rendered instruction and visible hand Rotation angles through native Qt tree, not a per-question pixel recogniser.20 final level screenshots. No hidden target/current fields, clocks/progress writes or sound device. Two original WAVs decoded to GStreamer fakesink only."
+}

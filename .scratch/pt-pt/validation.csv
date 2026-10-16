@@ -8,7 +8,7 @@ algebra_plus,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/a
 algorithm,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/algorithm.md
 align4,pending,pending,pending,pending,pending,
 align4_2players,pending,pending,pending,pending,pending,
-alphabet-sequence,pending,pending,pending,pending,pending,
+alphabet-sequence,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/alphabet-sequence.md
 analog_electricity,pending,pending,pending,pending,pending,
 baby_keyboard,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/baby_keyboard.md
 baby_mouse,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/baby_mouse.md
@@ -37,7 +37,7 @@ click_on_letter,pending,pending,pending,pending,pending,.scratch/pt-pt/validatio
 click_on_letter_up,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/click_on_letter_up.md
 clickanddraw,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/clickanddraw.md
 clickgame,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/clickgame.md
-clockgame,pending,pending,pending,pending,pending,
+clockgame,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/clockgame.md
 color_mix,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/color_mix.md
 color_mix_light,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/color_mix_light.md
 colors,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/colors.md
@@ -92,13 +92,13 @@ instruments,pending,pending,pending,pending,pending,
 keyboard_training,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/keyboard_training.md
 land_safe,pending,pending,pending,pending,pending,
 lang,pending,pending,pending,pending,pending,
-learn_additions,pending,pending,pending,pending,pending,
+learn_additions,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/learn_additions.md
 learn_decimals,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/learn_decimals.md
 learn_decimals_additions,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/learn_decimals_additions.md
 learn_decimals_subtractions,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/learn_decimals_subtractions.md
-learn_digits,pending,pending,pending,pending,pending,
+learn_digits,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/learn_digits.md
 learn_quantities,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/learn_quantities.md
-learn_subtractions,pending,pending,pending,pending,pending,
+learn_subtractions,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/learn_subtractions.md
 left_right_click,pending,pending,pending,pending,pending,
 leftright,pending,pending,pending,pending,pending,
 letter-in-word,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/letter-in-word.md
@@ -145,7 +145,7 @@ nine_men_morris,pending,pending,pending,pending,pending,
 nine_men_morris_2players,pending,pending,pending,pending,pending,
 note_names,pending,pending,pending,pending,pending,
 number_sequence,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/number_sequence.md
-numbers-odd-even,pending,pending,pending,pending,pending,
+numbers-odd-even,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/numbers-odd-even.md
 ordering_alphabets,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/ordering_alphabets.md
 ordering_chronology,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/ordering_chronology.md
 ordering_numbers,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/ordering_numbers.md
@@ -161,7 +161,7 @@ peg_solitaire,pending,pending,pending,pending,pending,
 penalty,pending,pending,pending,pending,pending,
 photo_hunter,pending,pending,pending,pending,pending,
 piano_composition,pending,pending,pending,pending,pending,
-planegame,pending,pending,pending,pending,pending,
+planegame,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/planegame.md
 play_piano,pending,pending,pending,pending,pending,
 play_rhythm,pending,pending,pending,pending,pending,
 polygons,pending,pending,pending,pending,pending,

@@ -1,0 +1,37 @@
+FF.
+======================================================================
+FAIL: test_green_receipt_with_failed_outer_launcher_is_rejected_before_indexing (test_index.FinishedRunIndex.test_green_receipt_with_failed_outer_launcher_is_rejected_before_indexing)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/tests/functional_planes/test_index.py", line 32, in test_green_receipt_with_failed_outer_launcher_is_rejected_before_indexing
+    result=self.invoke();self.assertEqual(result.returncode,1);self.assertIn('Unsuccessful launcher',result.stderr);self.assertFalse((self.root/'index.json').exists())
+                                                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'Unsuccessful launcher' not found in 'Traceback (most recent call last):\n  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/tests/functional_planes/index.py", line 41, in <module>\n    if __name__==\'__main__\':main()\n                            ~~~~^^\n  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/tests/functional_planes/index.py", line 27, in main\n    result=BASE/name/\'result.json\';status=json.loads((BASE/name/\'launcher-status.json\').read_text());native=json.loads(result.read_text())\n                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File "/usr/lib/python3.14/pathlib/__init__.py", line 788, in read_text\n    with self.open(mode=\'r\', encoding=encoding, errors=errors, newline=newline) as f:\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3.14/pathlib/__init__.py", line 772, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \'/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/alphabet-complete/launcher-status.json\'\n'
+
+======================================================================
+FAIL: test_matching_finished_statuses_create_an_index (test_index.FinishedRunIndex.test_matching_finished_statuses_create_an_index)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/tests/functional_planes/test_index.py", line 28, in test_matching_finished_statuses_create_an_index
+    result=self.invoke();self.assertEqual(result.returncode,0,result.stderr);self.assertEqual(len(json.loads((self.root/'index.json').read_text())['cases']),12)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0 : Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/tests/functional_planes/index.py", line 41, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/tests/functional_planes/index.py", line 27, in main
+    result=BASE/name/'result.json';status=json.loads((BASE/name/'launcher-status.json').read_text());native=json.loads(result.read_text())
+                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 788, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 772, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/alphabet-complete/launcher-status.json'
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.217s
+
+FAILED (failures=2)

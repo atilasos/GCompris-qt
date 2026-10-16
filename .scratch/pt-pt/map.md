@@ -159,7 +159,7 @@ e os restantes critérios de aceitação mantêm os seus estados próprios.
 
 A memória matemática concluiu 14 variantes e 207 combinações nível/modo;
 decimais/quantidades concluíram 316 puzzles em 16 campanhas offline e quatro casos de controlos.
-As 99 atividades com evidência funcional ligada na matriz não representam
+As 106 atividades com evidência funcional ligada na matriz não representam
 a aceitação global dos 203 jogos.
 
 - [40 — Contrato dos níveis do Solitário](issues/40-niveis-solitario.md)
@@ -233,8 +233,8 @@ calendários, operações verticais e sequências. Standards e Spec foram revist
 a tarefa 65 fechou os três P2 de retornos externos e âncoras históricas, sem
 reescrever os 1795 blobs/97 recibos originais ou repetir jogos.
 [Relatórios e limites](review/integration60-65/). As doze ligações adicionais
-na matriz mantêm todos os critérios globais pendentes. A tarefa 66 continua em
-curso; áudio global, Windows/escola e revisão humana dos pares legados (44)
+na matriz mantêm todos os critérios globais pendentes. Áudio global,
+Windows/escola e revisão humana dos pares legados (44)
 conservam os respetivos estados.
 
 - [65 — Retornos externos e âncoras das provas](issues/65-provas-retornos-ancoras.md)
@@ -244,3 +244,24 @@ conservam os respetivos estados.
 - [68 — Retas graduadas](issues/68-retas-graduadas.md)
 
 - [69 — Comparar números e descobrir vizinhos](issues/69-comparar-vizinhos.md)
+
+A tarefa 66 tem provas integradas de 17 níveis originais, 35 percursos de
+representação/nível e 220 respostas certas/erradas. Fica resolvida no âmbito Linux descrito, após Standards e Spec independentes
+sem achados acionáveis; [revisões arquivadas](review/integration66/).
+Três ligações de evidência foram acrescentadas sem alterar critérios globais,
+Windows, dispositivos físicos, audição ou revisão docente.
+
+- [70 — Acertar o relógio](issues/70-relogio.md)
+
+A tarefa 67 tem 190 capturas e 12 níveis documentados dos três jogos com avião,
+com controlos e tutorial. Fica resolvida no âmbito Linux, após Standards e Spec independentes sem
+achados; [relatórios](review/integration67/). Três ligações foram acrescentadas sem alterar os
+critérios globais; hardware, áudio, Windows e professor permanecem pendentes.
+
+A tarefa 70 tem prova Linux integrada de dez níveis nos dois formatos,
+100 respostas certas, 100 erradas e 20 Bonus, com quatro processos concluídos.
+Está `ready-for-review`, aguardando Standards e Spec independentes. A ligação
+do relógio foi acrescentada sem alterar critérios globais ou aprovação Windows,
+hardware, áudio e docente.
+
+- [71 — Chapéu mágico de adição e subtração](issues/71-chapeu-magico.md)
