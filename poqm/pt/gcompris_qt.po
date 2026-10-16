@@ -2213,7 +2213,7 @@ msgstr "Cursores: mover o helicóptero"
 #: activities/alphabet-sequence/AlphabetSequence.qml:18
 msgctxt "AlphabetSequence|"
 msgid "a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z"
-msgstr "a/b/c/d/e/f/g/h/i/j/l/m/n/o/p/q/r/s/t/u/v/x/z"
+msgstr "a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z"
 
 #: activities/analog_electricity/ActivityConfig.qml:23
 #: activities/digital_electricity/ActivityConfig.qml:23
