@@ -1,0 +1,21 @@
+test_audit (unittest.loader._FailedTest.test_audit) ... ERROR
+
+======================================================================
+ERROR: test_audit (unittest.loader._FailedTest.test_audit)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_audit
+Traceback (most recent call last):
+  File "/usr/lib/python3.14/unittest/loader.py", line 426, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/lib/python3.14/unittest/loader.py", line 367, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-controls-audit/tests/pattern_controls_audit/test_audit.py", line 3, in <module>
+    from pattern_controls_audit import validate_controls
+ImportError: cannot import name 'validate_controls' from 'pattern_controls_audit' (unknown location)
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

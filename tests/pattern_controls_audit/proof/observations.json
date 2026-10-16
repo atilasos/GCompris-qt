@@ -1,0 +1,150 @@
+{
+  "kind": "agent-recorded-tools-exec-completion",
+  "scope": "Pure semantic module only; source/PNG/resource/native-return provenance belongs to outer audit",
+  "red": [
+    {
+      "cycle": 1,
+      "exit_code": 1,
+      "output_chunk": "6bdeda"
+    },
+    {
+      "cycle": 2,
+      "exit_code": 1,
+      "output_chunk": "d55fe6"
+    },
+    {
+      "cycle": 3,
+      "exit_code": 1,
+      "output_chunk": "246891"
+    },
+    {
+      "cycle": 4,
+      "exit_code": 1,
+      "output_chunk": "93fe3e"
+    },
+    {
+      "cycle": 5,
+      "exit_code": 1,
+      "output_chunk": "73e21c"
+    },
+    {
+      "cycle": 6,
+      "exit_code": 1,
+      "output_chunk": "91e910"
+    },
+    {
+      "cycle": 7,
+      "exit_code": 1,
+      "output_chunk": "c886da"
+    },
+    {
+      "cycle": 8,
+      "exit_code": 1,
+      "output_chunk": "293650"
+    },
+    {
+      "cycle": 9,
+      "exit_code": 1,
+      "output_chunk": "d4bf01"
+    },
+    {
+      "cycle": 10,
+      "exit_code": 1,
+      "output_chunk": "6c7285"
+    },
+    {
+      "cycle": 11,
+      "exit_code": 1,
+      "output_chunk": "9c73c2"
+    }
+  ],
+  "green": [
+    {
+      "cycle": 1,
+      "exit_code": 0,
+      "output_chunk": "dfe197"
+    },
+    {
+      "cycle": 2,
+      "exit_code": 0,
+      "output_chunk": "5874d7"
+    },
+    {
+      "cycle": 3,
+      "exit_code": 0,
+      "output_chunk": "5cae38"
+    },
+    {
+      "cycle": 4,
+      "exit_code": 1,
+      "output_chunk": "7dce4e"
+    },
+    {
+      "cycle": 5,
+      "exit_code": 0,
+      "output_chunk": "80da09"
+    },
+    {
+      "cycle": 6,
+      "exit_code": 0,
+      "output_chunk": "db0a0b"
+    },
+    {
+      "cycle": 7,
+      "exit_code": 0,
+      "output_chunk": "c887c8"
+    },
+    {
+      "cycle": 8,
+      "exit_code": 0,
+      "output_chunk": "406884"
+    },
+    {
+      "cycle": 9,
+      "exit_code": 0,
+      "output_chunk": "077ab2"
+    },
+    {
+      "cycle": 10,
+      "exit_code": 0,
+      "output_chunk": "bd68ef"
+    },
+    {
+      "cycle": 11,
+      "exit_code": 0,
+      "output_chunk": "67ecdd"
+    }
+  ],
+  "additional": [
+    {
+      "name": "green4b",
+      "exit_code": 0,
+      "output_chunk": "d680e1"
+    },
+    {
+      "name": "green4c",
+      "exit_code": 0,
+      "output_chunk": "35124e"
+    },
+    {
+      "name": "red9b",
+      "exit_code": 1,
+      "output_chunk": "79fff6"
+    },
+    {
+      "name": "green9b",
+      "exit_code": 0,
+      "output_chunk": "75bafc"
+    },
+    {
+      "name": "optimized19tests",
+      "exit_code": 0,
+      "output_chunk": "67ecdd"
+    },
+    {
+      "name": "eight-real-records-normal-and-optimized",
+      "exit_code": 0,
+      "output_chunk": "e5f349"
+    }
+  ]
+}
