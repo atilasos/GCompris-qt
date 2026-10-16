@@ -30,7 +30,16 @@ def audit(base):
   status=json.loads((folder/'launcher-status.json').read_text());assert status['passed'] and status['exit_code']==0
   expected=list(range(row['start'],row['start']+row['levels']))
   assert [level['level'] for level in r['completed']]==expected and r['wins']==len(expected)
+  planned=data['activities'][activity]['levels']
+  for level in r['completed']:
+   if planned:
+    goal=planned[level['level']-1]['goal']
+   else:
+    goals={'factors':[4,6,8,10,12,15,18,20], 'multiples':list(range(2,10)), 'primes':[4,6,8,12,14,18,20,24]}
+    goal=goals[kind][level['level']-1]
+   assert level['prompt'].endswith(' '+str(goal))
   for capture in r['captures']:
+   if planned:assert planned[capture['level']-1]['operator'] in capture['text']
    assert capture['level'] in expected
    assert answer(kind,capture['text'],capture['prompt'])==capture['correct'],capture
    assert capture['route'] in ('click','keyboard')
