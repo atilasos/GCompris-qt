@@ -1,0 +1,26 @@
+{
+  "revision": "ad6f5706f",
+  "supervisor_revision": "dd5a27b9b",
+  "files": {
+    "src/activities/algorithm/ActivityInfo.qml": "0c977cbc90d95deb429e4f53124a85ce0311a9eb8a2e36522b02a2fa1206c9f5",
+    "src/activities/algorithm/Algorithm.qml": "ed2cf480524842be6784e701d9d3a9eaeb89ef400a83dbc425b615bb73ff9fa8",
+    "src/activities/algorithm/CMakeLists.txt": "5aeae052cd51daef4cf951e45fc3d20c236526611d2f149f1478a540f8da9514",
+    "src/activities/algorithm/algorithm.js": "4d91ed479faeb0367e102701e0efd82624c5902ec24c8e8cf2e971262ee18530",
+    "src/activities/algorithm/algorithm.svg": "42ce71d094d6d044a53741878baa2566d4dd27c8e33e20da4254ec4b7f6ed726",
+    "src/activities/algorithm/resource/desert_scene.svg": "03af07eeca1d637242dffb10f43b6675002000480fb3d2e1a6234d0d63e120b7",
+    "src/activities/enumerate/resource/apple.svg": "1764d0f8c4012e8dbd420aa2b7a8b6bec942f431b74aa04a99f8d819f51346d7",
+    "src/activities/enumerate/resource/banana.svg": "c2273a89b1f8c016ab8ac640e989fb13853657c426993b1eff6048852df5002c",
+    "src/activities/enumerate/resource/cherries.svg": "13b3a7598f41929a1a113e58969f4a7482a9e413d16a8a404f0a2be0dea8fdc2",
+    "src/activities/enumerate/resource/lemon.svg": "f0542c52040ba800360a60d833df485d9027a82a186550b72a3d762d97bff021",
+    "src/activities/enumerate/resource/orange.svg": "755b9f215f146c9bd8712b437826373152bd8ac162313a7bf999ea40b32fdb42",
+    "src/activities/enumerate/resource/pear.svg": "b4850905ccf30d950d9971d2098ef08be14116e1885048e169c75987599e391f",
+    "src/activities/enumerate/resource/pineapple.svg": "220b994bc331b8fa184817b5fa5037da6359de5f209586c2525015c4a2c25282",
+    "src/activities/enumerate/resource/plum.svg": "7a4c897c4410b1959d9e7312424852c554e17be45891841766fb1d3b02059d83",
+    "src/activities/enumerate/resource/question_mark.svg": "9752da265e99c6c1f2c21bfd088643cf84bfcda476ac17a1a980faad4c24c449",
+    "src/core/resource/sounds/completetask.wav": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c",
+    "src/core/resource/sounds/brick.wav": "a5bcc4db6b84c0c47e90eaa0c889314c1f703993bfb32e6e33fc161d89a88cee",
+    "src/core/resource/sounds/bleep.wav": "759b2225a42e407ac8d76e01c2b98d31af670de0a61c7f78ae5c34ca36bdc59e",
+    "tools/run-native-qml-case.py": "612889370d52dc3c643f894c58dd22fdd6073c245525d5e8502791527fd6ec42",
+    "poqm/pt/gcompris_qt.po": "5a76dc09562e90d9fe5e1de55599502b702907ffc342d00855ec3c04adc3cfb0"
+  }
+}
