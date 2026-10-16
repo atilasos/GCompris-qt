@@ -246,7 +246,7 @@ conservam os respetivos estados.
 - [69 — Comparar números e descobrir vizinhos](issues/69-comparar-vizinhos.md)
 
 A tarefa 66 tem provas integradas de 17 níveis originais, 35 percursos de
-representação/nível e 220 respostas certas/erradas. Está `ready-for-review`,
-aguardando Standards e Spec independentes; não foi declarada resolução final.
+representação/nível e 220 respostas certas/erradas. Fica resolvida no âmbito Linux descrito, após Standards e Spec independentes
+sem achados acionáveis; [revisões arquivadas](review/integration66/).
 Três ligações de evidência foram acrescentadas sem alterar critérios globais,
 Windows, dispositivos físicos, audição ou revisão docente.

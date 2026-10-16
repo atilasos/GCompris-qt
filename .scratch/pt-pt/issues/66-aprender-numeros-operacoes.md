@@ -1,7 +1,7 @@
 # Aprender números, adições e subtrações em PT-PT
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -51,3 +51,9 @@ continuam pendentes.
 
 Provas integradas; aguardam revisões independentes Standards e Spec.
 `ready-for-review` não constitui resolução final nem aceitação global.
+
+## Fecho de revisão
+
+Standards e Spec independentes sem achados acionáveis; relatórios em
+`../review/integration66/`. Resolução limitada à prova Linux descrita,
+sem alterar aceitação global, Windows, hardware, áudio ou revisão docente.
