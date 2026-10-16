@@ -1,0 +1,6 @@
+{
+  "bin/gcompris-qt": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "share/gcompris-qt/rcc/roman_numerals.rcc": "2f4aeb17e0b48fb4e8165de8ae584d2ddc794f027f5eee9c62809b41ac545a84",
+  "share/gcompris-qt/rcc/share.rcc": "25aec02b76656ef385448875d0f384d3553017878429473d369a7e483cb0edf5",
+  "share/gcompris-qt/translations/gcompris_qt_pt.qm": "61efa3715dab3209bbb9756c71fe32500e3f164f991478461b69361ce54f85a3"
+}

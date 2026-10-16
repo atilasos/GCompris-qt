@@ -14,8 +14,8 @@ baby_keyboard,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/
 baby_mouse,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/baby_mouse.md
 baby_tangram,pending,pending,pending,pending,pending,
 baby_wordprocessor,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/baby_wordprocessor.md
-babymatch,pending,pending,pending,pending,pending,
-babyshapes,pending,pending,pending,pending,pending,
+babymatch,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/babymatch.md
+babyshapes,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/babyshapes.md
 balancebox,pending,pending,pending,pending,pending,
 ballcatch,pending,pending,pending,pending,pending,
 bargame,pending,pending,pending,pending,pending,
@@ -87,7 +87,7 @@ hangman,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/hangma
 hanoi,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/hanoi.md
 hanoi_real,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/hanoi_real.md
 hexagon,pending,pending,pending,pending,pending,
-imagename,pending,pending,pending,pending,pending,
+imagename,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/imagename.md
 instruments,pending,pending,pending,pending,pending,
 keyboard_training,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/keyboard_training.md
 land_safe,pending,pending,pending,pending,pending,
@@ -99,10 +99,10 @@ learn_decimals_subtractions,pending,pending,pending,pending,pending,.scratch/pt-
 learn_digits,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/learn_digits.md
 learn_quantities,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/learn_quantities.md
 learn_subtractions,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/learn_subtractions.md
-left_right_click,pending,pending,pending,pending,pending,
-leftright,pending,pending,pending,pending,pending,
+left_right_click,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/left_right_click.md
+leftright,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/leftright.md
 letter-in-word,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/letter-in-word.md
-lightsoff,pending,pending,pending,pending,pending,
+lightsoff,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/lightsoff.md
 louis-braille,pending,pending,pending,pending,pending,
 magic-hat-minus,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/magic-hat-minus.md
 magic-hat-plus,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/magic-hat-plus.md
@@ -165,7 +165,7 @@ planegame,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/plan
 play_piano,pending,pending,pending,pending,pending,
 play_rhythm,pending,pending,pending,pending,pending,
 polygons,pending,pending,pending,pending,pending,
-positions,pending,pending,pending,pending,pending,
+positions,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/positions.md
 programmingMaze,pending,pending,pending,pending,pending,
 railroad,pending,pending,pending,pending,pending,
 readingh,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/readingh.md

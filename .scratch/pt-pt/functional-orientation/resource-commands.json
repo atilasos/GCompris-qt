@@ -1,0 +1,165 @@
+{
+  "inventory_tool_sha256": "dce862eb7728c70e51033e40dd080a56479d7e56e43aa1b398538b8154028492",
+  "commands": [
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/.native-qml-6567630f852d456a82cc0c9e54b36592/share/gcompris-qt/rcc/leftright.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/exported/hands-complete"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/.native-qml-23c22c1d6c4246688f75f32cd6a6769c/share/gcompris-qt/rcc/positions.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/exported/positions-complete"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/.native-qml-b5441e722c5740d6ad7c8057f8622570/share/gcompris-qt/rcc/left_right_click.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/exported/mouse-red"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/.native-qml-49be82bf3d3849ed8a99a900cdf4200e/share/gcompris-qt/rcc/left_right_click.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/exported/mouse-complete"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/.native-qml-ddcdf72a916841b1bf755139a9e355ea/share/gcompris-qt/rcc/leftright.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/exported/hands-controls-baseline"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/.native-qml-a3a4f9f0f43041a180d9fc603d31d86d/share/gcompris-qt/rcc/leftright.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/exported/hands-controls"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/.native-qml-086fea41faea47f8b75a71bec27db89e/share/gcompris-qt/rcc/leftright.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/exported/hand-help-red"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/.native-qml-aa9284c0afe04560940df5c846ec7e98/share/gcompris-qt/rcc/leftright.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/exported/hand-help-green"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/.native-qml-ebc14e4ecf0d49c1a3b48309a74388dc/share/gcompris-qt/rcc/positions.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/exported/positions-controls"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/.native-qml-54f8cbc1e5d444388c4a021f8950da8e/share/gcompris-qt/rcc/left_right_click.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/exported/mouse-controls-baseline"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/.native-qml-19f63503897a4e2e8b803d45a099ef44/share/gcompris-qt/rcc/left_right_click.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/exported/mouse-controls"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/snapshot/share/gcompris-qt/rcc/family.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/exported/import-family"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/snapshot/share/gcompris-qt/rcc/canal_lock.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/exported/import-canal_lock"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/snapshot/share/gcompris-qt/rcc/core.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/exported/import-core"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/imports/src/core/resource/sounds/bonus.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/imports/src/core/resource/sounds/completetask.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/imports/src/core/resource/sounds/crash.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ]
+}

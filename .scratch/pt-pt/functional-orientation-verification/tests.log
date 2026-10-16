@@ -1,0 +1,20 @@
+test_case_and_selected_geometry_resealed_together_are_rejected (test_audit.ImmutableOrientationProof.test_case_and_selected_geometry_resealed_together_are_rejected) ... ok
+test_copied_valid_proof_passes_normal_and_optimized (test_audit.ImmutableOrientationProof.test_copied_valid_proof_passes_normal_and_optimized) ... ok
+test_empty_case_set_and_empty_native_samples_rejected (test_audit.ImmutableOrientationProof.test_empty_case_set_and_empty_native_samples_rejected) ... ok
+test_green_native_json_does_not_hide_changed_external_return (test_audit.ImmutableOrientationProof.test_green_native_json_does_not_hide_changed_external_return) ... ok
+test_physical_catalogue_capsule_and_receipt_can_not_be_resealed (test_audit.ImmutableOrientationProof.test_physical_catalogue_capsule_and_receipt_can_not_be_resealed) ... ok
+test_resealed_actual_rcc_and_extracted_bytes_rejected (test_audit.ImmutableOrientationProof.test_resealed_actual_rcc_and_extracted_bytes_rejected) ... ok
+test_normal_green_json_with_external_failure_is_recorded_as_failure (test_capture.ObservedToolStatus.test_normal_green_json_with_external_failure_is_recorded_as_failure) ... ok
+test_empty_or_invalid_selection_rejected_before_preparation (test_cli.Boundaries.test_empty_or_invalid_selection_rejected_before_preparation) ... ok
+test_existing_output_preserved_by_runner_capture_and_coordinator (test_cli.Boundaries.test_existing_output_preserved_by_runner_capture_and_coordinator) ... ok
+test_independent_geometry_and_painted_layers (test_oracle.SpatialRelations.test_independent_geometry_and_painted_layers) ... ok
+test_portuguese_instructions_and_labels (test_oracle.SpatialRelations.test_portuguese_instructions_and_labels) ... ok
+test_concurrent_freeze_never_reads_an_unfinished_write (test_phase.FrozenSourceTests.test_concurrent_freeze_never_reads_an_unfinished_write) ... ok
+test_corrupt_published_source_is_rejected_without_resealing (test_phase.FrozenSourceTests.test_corrupt_published_source_is_rejected_without_resealing) ... ok
+test_interrupted_preparation_is_not_published_and_can_retry (test_phase.FrozenSourceTests.test_interrupted_preparation_is_not_published_and_can_retry) ... ok
+test_copy_without_any_original_path_passes_under_optimization (test_portable.PhysicalCopy.test_copy_without_any_original_path_passes_under_optimization) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 3.111s
+
+OK

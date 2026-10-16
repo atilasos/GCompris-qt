@@ -1,0 +1,59 @@
+{
+  "scope": "Full software decode to fakesink only; no physical hearing or playback acceptance",
+  "results": [
+    {
+      "resource": "src/core/resource/sounds/completetask.wav",
+      "sha256": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c",
+      "command": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-lights-off/.scratch/pt-pt/functional-lights/resources/resources/src/core/resource/sounds/completetask.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "resource": "src/core/resource/sounds/crash.wav",
+      "sha256": "86f844cb3f4cd87485de76b26a868e695d278ea971f308e092305827e7943c11",
+      "command": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-lights-off/.scratch/pt-pt/functional-lights/resources/resources/src/core/resource/sounds/crash.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "resource": "src/core/resource/sounds/scroll.wav",
+      "sha256": "7f2dd85a8e4b4f4eb2f685bd827de592a1c1793ab1d47476243e77a834caa64e",
+      "command": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-lights-off/.scratch/pt-pt/functional-lights/resources/resources/src/core/resource/sounds/scroll.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ]
+}

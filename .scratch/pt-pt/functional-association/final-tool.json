@@ -1,0 +1,18 @@
+{
+  "kind": "observed-exec-tool-return",
+  "session_id": 96367,
+  "chunk_id": "f675c7",
+  "exit_code": 0,
+  "process_files": {
+    "babymatch-complete.process.json": "f9f3685d336d7e285d60bb0d1a6dbd6c25e806697185502de7a06b458df9bfdf",
+    "babymatch-controls.process.json": "22c3544723591d858e2509465078f7540aafd4b4a3081734109e23d1f404e40f",
+    "babymatch-resources.process.json": "e6640aafb551e55e3ee8d4efae055c4a01fa728b98a777306dd417cade9cca30",
+    "babyshapes-complete.process.json": "69a959f5035dd85a83adeef99354e26f4811fea637b937c2e606726f7072d4bb",
+    "babyshapes-controls.process.json": "f369f891d063e9c1d98bf112a0b04494dc05a4732d5444b47180fbfa336c53e6",
+    "babyshapes-edge-portrait.process.json": "881cb7244e18057ccfca17db2fde73ca0268e875c357c437717f63ee41ed6831",
+    "babyshapes-resources.process.json": "4ec83fda8de0b7fb77663802acdc22ceba4b339444a028d1e19065112983e165",
+    "imagename-complete.process.json": "58332b416e4a7755540d7fc02c10ffde09a2c2ccba08d138c9fb7533ee7130c3",
+    "imagename-controls.process.json": "7748939e6961d63f0e03bd77b1122979ab78a5076c42c383f8af22b9267fd7e2",
+    "imagename-resources.process.json": "4b172c542ed424713b9f3d3219c6febb1d79ea9f7b5f65071bec07c4a2936b6f"
+  }
+}

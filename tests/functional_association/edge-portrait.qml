@@ -1,0 +1,71 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+TestCase {
+    id: qa
+    name:'ImageAssociationFromVisibleContent'
+    when: activity.visible && activity.numberOfLevel>0
+    property int firstLevel: 7
+    property int targetLevels: 1
+    property var boards: []
+    property int wins: 0
+    property int wrong: 0
+    property int moves: 0
+    property var oracle: ({})
+    Connections { target: bonus; function onWin(){qa.wins++;} }
+    function check(a,b,message){if(a!==b)console.log('ASSOCIATION_ASSERT',a,b,message||'',new Error().stack);compare(a,b,message||'');}
+    function ensure(v,message){if(!v)console.log('ASSOCIATION_ASSERT_FALSE',message||'',new Error().stack);verify(v,message||'');}
+    function all(root,predicate){var out=[];function walk(o){if(!o.visible||o.opacity===0)return;if(predicate(o))out.push(o);if(o.children)for(var c of o.children)walk(c);}walk(root);return out;}
+    function imageId(source){return String(source).split('/resource/').pop();}
+    function point(item){var p=item.mapToItem(pageView,item.width/2,item.height/2);return {x:p.x,y:p.y};}
+    function images(root){return all(root,function(o){return o.source!==undefined&&o.status!==undefined&&o.width>12&&o.height>12&&String(o.source).indexOf(String(activity.imagesUrl))===0;});}
+    function blanks(){return Array.from(spotsContainer.children).filter(function(o){return o.visible&&o.radius!==undefined&&o.width>0&&o.width<30;});}
+    function sidebar(){return images(availablePieces).filter(function(o){var p=point(o);return p.x>=0&&p.y>=0&&p.x<pageView.width&&p.y<bar.y;});}
+    function click(item){ensure(item!==null);var p=point(item);mouseClick(pageView,p.x,p.y);wait(70);}
+    function icon(root,suffix){var found=all(root,function(o){return o.source!==undefined&&String(o.source).endsWith(suffix)&&o.opacity>0&&o.width>5;});ensure(found.length>0,suffix);click(found[0]);}
+    function nearest(items,p){var best=null,d=Infinity;for(var item of items){var q=point(item),dist=(q.x-p.x)*(q.x-p.x)+(q.y-p.y)*(q.y-p.y);if(dist<d){best=item;d=dist;}}ensure(best!==null);return best;}
+    function drag(image,target){var a=point(image),b=point(target);mousePress(pageView,a.x,a.y);mouseMove(pageView,a.x+14,a.y,60);for(var i=1;i<=14;i++)mouseMove(pageView,a.x+(b.x-a.x)*i/14,a.y+(b.y-a.y)*i/14,20);mouseRelease(pageView,b.x,b.y);moves++;wait(520);var placed=images(spotsContainer).some(function(o){return String(o.source)===String(image.source);});if(!placed){console.log('VISIBLE_DRAG_REJECTED',String(image.source),JSON.stringify(a),JSON.stringify(b));grabImage(pageView).save('__QA_OUTPUT__/rejected-drag.png');}ensure(placed,'Visible board circle accepts the released image');}
+    function answerFor(image,targets,backgrounds,labels){
+        var name=imageId(image.source),base=name.split('/').pop(),activityName=activity.activityInfo.shortName();
+        if(activityName==='imagename'){
+            var text=oracle.semantic.names[base];ensure(text!==undefined,'Inspected image dictionary: '+base);
+            var label=labels.filter(function(t){return String(t.text)===text;});ensure(label.length===1,'PT label for '+base+' must be '+text);
+            var lp=point(label[0]);var above=targets.filter(function(t){var p=point(t);return p.y<lp.y;});return {target:nearest(above,lp),reason:'PT '+text,evidence:{name:text}};
+        }
+        if(activityName==='babymatch'){
+            var pairs=oracle.semantic.relations.filter(function(r){return r[0]===base;});
+            var matches=[];for(var pair of pairs)for(var background of backgrounds)if(imageId(background.source).split('/').pop()===pair[1])matches.push({image:background,reason:pair[2]});
+            ensure(matches.length===1,'Inspected semantic relation '+base);return {target:nearest(targets,point(matches[0].image)),reason:matches[0].reason,evidence:{background:imageId(matches[0].image.source)}};
+        }
+        if(oracle.silhouettes[name]!==undefined){var match=oracle.silhouettes[name];var found=backgrounds.filter(function(t){return imageId(t.source)===match.target;});ensure(found.length===1);return {target:nearest(targets,point(found[0])),reason:'Rendered silhouette IoU '+match.iou,evidence:match};}
+        if(oracle.semantic.dog[name]!==undefined){var rule=oracle.semantic.dog[name];var sorted=targets.slice();sorted.sort(function(a,b){var x=point(a),y=point(b);return rule.rule==='topmost'?x.y-y.y:rule.rule==='leftmost'?x.x-y.x:y.x-x.x;});return {target:sorted[0],reason:rule.reason,evidence:{rule:rule.rule}};}
+        var hole=oracle.holes[name];ensure(hole!==undefined,'Independent visible hole '+name);check(imageId(backgroundImage.source),hole.background);var p=backgroundImage.mapToItem(pageView,backgroundImage.width*hole.center[0],backgroundImage.height*hole.center[1]);return {target:nearest(targets,p),reason:'Visible image hole geometry and edge continuity',evidence:hole};
+    }
+    function test_boards(){
+        wait(1500);var windowProbe=Qt.createQmlObject('import QtQuick; import QtQuick.Window; Item { property var appWindow: Window.window }',pageView);ensure(windowProbe.appWindow!==null);windowProbe.appWindow.width=800;windowProbe.appWindow.height=801;tryCompare(activityBackground,'verticalBar',false,2000);wait(500);var reader=Qt.createQmlObject('import core 1.0; File {}',this);oracle=JSON.parse(reader.read('__QA_SOURCE__/tests/functional_association/visual-oracle.json'));
+        check(activity.numberOfLevel,7);for(var nav=1;nav<firstLevel;nav++)icon(bar,'bar_next.svg');
+        for(var l=firstLevel;l<firstLevel+targetLevels;l++){
+            check(activity.currentLevel,l-1);var count=(activity.activityInfo.shortName()==='babyshapes'&&l===7)?5:1;
+            for(var sub=0;sub<count;sub++){
+                wait(250);var targets=blanks();ensure(targets.length>=3);var backgrounds=images(backgroundImage).filter(function(o){return o.parent===backgroundImage&&o!==backgroundImage;});var labels=all(backgroundImage,function(o){return o.text!==undefined&&o.font!==undefined;});
+                var prefix='level-'+l+'-board-'+sub;grabImage(pageView).save('__QA_OUTPUT__/'+prefix+'-question.png');
+                if(activity.activityInfo.shortName()==='imagename'){console.log('VISIBLE_PT_NAMES',JSON.stringify(labels.map(function(t){return String(t.text);})));for(var label of labels)ensure(Object.values(oracle.semantic.names).indexOf(String(label.text))>=0,'Inspected PT dictionary rejects '+String(label.text));}
+                var observed={circles:targets.map(function(t){var p=point(t);return {x:p.x,y:p.y,color:String(t.color)};}),backgrounds:backgrounds.map(function(t){var p=point(t);return {image:imageId(t.source),x:p.x,y:p.y,width:t.width,height:t.height};}),labels:labels.map(function(t){var p=point(t);return {text:String(t.text),x:p.x,y:p.y};}),frame:{x:point(backgroundImage).x,y:point(backgroundImage).y,width:backgroundImage.width,height:backgroundImage.height,image:imageId(backgroundImage.source)}};
+                var initial=sidebar();ensure(initial.length>=2);var a=initial[0],b=initial[1],nameA=imageId(a.source),nameB=imageId(b.source);var choiceA=answerFor(a,targets,backgrounds,labels),choiceB=answerFor(b,targets,backgrounds,labels);ensure(choiceA.target!==choiceB.target);
+                var plan=[],beforeWins=wins,beforeScore=score.currentSubLevel;
+                drag(a,choiceB.target);drag(b,choiceA.target);plan.push({piece:nameA,target:point(choiceA.target),reason:choiceA.reason,evidence:choiceA.evidence});plan.push({piece:nameB,target:point(choiceB.target),reason:choiceB.reason,evidence:choiceB.evidence});
+                for(var loop=0;loop<30;loop++){
+                    var list=sidebar();if(list.length===0)break;
+                    var image=list[0],name=imageId(image.source);var choice=answerFor(image,targets,backgrounds,labels);plan.push({piece:name,target:point(choice.target),reason:choice.reason,evidence:choice.evidence});drag(image,choice.target);
+                }
+                check(plan.length,targets.length);tryCompare(availablePieces,'okEnabled',true,1500);icon(availablePieces,'bar_ok.svg');wait(180);check(score.currentSubLevel,beforeScore);check(wins,beforeWins);ensure(!bonus.isPlaying);
+                var errors=all(spotsContainer,function(o){return o.source!==undefined&&String(o.source).endsWith('/error.svg');});ensure(errors.length>=2,'Wrong associations visibly marked');wrong++;var errorBounds=errors.map(function(t){var p=point(t);return {x:p.x,y:p.y,width:t.width,height:t.height};});grabImage(pageView).save('__QA_OUTPUT__/'+prefix+'-wrong.png');
+                var droppedA=images(spotsContainer).filter(function(o){return imageId(o.source)===nameA;});ensure(droppedA.length===1);drag(droppedA[0],choiceA.target);
+                var returnedB=sidebar().filter(function(o){return imageId(o.source)===nameB;});ensure(returnedB.length===1);drag(returnedB[0],choiceB.target);tryCompare(availablePieces,'okEnabled',true,1500);
+                grabImage(pageView).save('__QA_OUTPUT__/'+prefix+'-answer.png');icon(availablePieces,'bar_ok.svg');
+                boards.push({level:l,sublevel:sub,pieces:plan,observed:observed,wrongPlacements:[{piece:nameA,target:point(choiceB.target)},{piece:nameB,target:point(choiceA.target)}],errors:errorBounds,instruction:String(instructionPanel.textItem.text),beforeScore:beforeScore});
+                if(sub+1<count){tryCompare(score,'currentSubLevel',beforeScore+1,2000);tryVerify(function(){return sidebar().length>=2;},5000);}else{tryCompare(qa,'wins',beforeWins+1,7000);tryCompare(activity,'currentLevel',l%7,2500);}
+                console.log('ASSOCIATION_HEARTBEAT',JSON.stringify({level:l,sublevel:sub,boards:boards.length}));
+            }
+        }
+    }
+    function cleanupTestCase(){console.log('NATIVE_ASSOCIATION_RESULT',JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,activity:activity.activityInfo.shortName(),boards:boards,wins:wins,wrong:wrong,moves:moves}));}
+}

@@ -1,0 +1,1094 @@
+{
+  "effective": {
+    "hands-complete": {
+      "rcc_sha256": "b8bae64612444036580d4968239e482afc0d6b4a44f0fdd04525e68fcbfb12a7",
+      "files": [
+        {
+          "bytes": 3620,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/leftright.js",
+          "sha256": "8f7de2d738345b2993c1b596b99d678bd1c378c89208ec91edf796293559bbef"
+        },
+        {
+          "bytes": 1166,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/ActivityInfo.qml",
+          "sha256": "93ae80885185fed0a2187e0fc2376ebeb08961e6a8f28dfedfc8f5c8a01c3c7e"
+        },
+        {
+          "bytes": 14904,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/Leftright.qml",
+          "sha256": "3b0f1d3f6668b88eaab9471c5013c6986dc0898b136018fd7db80b5b1c44b9f5"
+        },
+        {
+          "bytes": 7260,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/leftright.svg",
+          "sha256": "8abe580196623a11ca869513e95ff673f288f71fdee915fdb44e39f6ef7efc22"
+        },
+        {
+          "bytes": 32418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_gauche_paume_0.webp",
+          "sha256": "e57658199006929a6af8973974197acfa69c7da0cab7c835a1805ecb44e2ab59"
+        },
+        {
+          "bytes": 28566,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_droit_dessus_0.webp",
+          "sha256": "305784dc75919d340ece5703d107e841376b4fb42965e324fe42c761c49a175a"
+        },
+        {
+          "bytes": 28906,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_droit_paume_0.webp",
+          "sha256": "6ae0836358634d700a6d1143c4527b14321c23b332f270a175843b8805f5308f"
+        },
+        {
+          "bytes": 33296,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_gauche_paume_0.webp",
+          "sha256": "7c31b833b995dfa59a0fb69d550dcda48a07a785a76b60d1950c498115f3a0c7"
+        },
+        {
+          "bytes": 27716,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_gauche_dessus_0.webp",
+          "sha256": "a6a9a168d9920ddd1e77ee9611d7403f2a13e6de2a799a978af677d21a75dbac"
+        },
+        {
+          "bytes": 36482,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_gauche_dessus_0.webp",
+          "sha256": "f588e583051557a4f61a071b836a6091e67fae7a6703f912ab3a9bd44b5d4705"
+        },
+        {
+          "bytes": 29560,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_droite_paume_0.webp",
+          "sha256": "7ac0058c04f93fd039a2acb06a7548e0a3990fe4074ae694367923380f29f356"
+        },
+        {
+          "bytes": 3975,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/blackboard.svg",
+          "sha256": "c11789c90809f4d715d78fedfee45d045b3ae10539967fdcc09e4421ad1f4f57"
+        },
+        {
+          "bytes": 1669,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/light.svg",
+          "sha256": "cb3fa8fbb61add90f78995cafadd21f2e1754cdb9d20055b351195a2d0a8b0c2"
+        },
+        {
+          "bytes": 32610,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_droite_dessus_0.webp",
+          "sha256": "05657aeb43336d513b6724533e79082b149bdf6e6af0680031b601c9bc78e77d"
+        },
+        {
+          "bytes": 401,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/CMakeLists.txt",
+          "sha256": "e216d7aab37ff50f661c6b3a8190cdb6ac3c1ae02833147a39bd2332238049fa"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/hands-complete",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/sources/65ec383c84d64ded3e9f33345bf232d3a64e2810"
+    },
+    "positions-complete": {
+      "rcc_sha256": "be249ca10fe9149d47d995e0992c327438a19d6859b41dad12e312cd1f45a059",
+      "files": [
+        {
+          "bytes": 3313,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/positions.js",
+          "sha256": "acf903eef0d7f5fb4801ab6870b71a48eb47147ad6c363004d1df452e5248e1a"
+        },
+        {
+          "bytes": 6239,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/BoxBoyPosition.qml",
+          "sha256": "3d3cd65c705cbbdb4525efcea01d5df51427400ce03f7470aac5b623c9810d69"
+        },
+        {
+          "bytes": 1132,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/ActivityInfo.qml",
+          "sha256": "599d3f2874192e52a6b985dfb666111e0f75d0e441921f6e2668849defda154c"
+        },
+        {
+          "bytes": 19329,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/Positions.qml",
+          "sha256": "f8988a29f85e1e1ed9bb976c0942ad6a2493698efd89a8f01ded4eaf0ee7f79e"
+        },
+        {
+          "bytes": 20471,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/positions.svg",
+          "sha256": "c992a44fb5df90badb6671c760fd25b77578ab2fe262a4a7ff09a6483164950e"
+        },
+        {
+          "bytes": 2043,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/resource/1/Data.qml",
+          "sha256": "93d63605e5f866ef2862a99ac81256881d35a03762f5a1a5d914d9c74a62653e"
+        },
+        {
+          "bytes": 2330,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/resource/2/Data.qml",
+          "sha256": "469bd98957c9dbcf13abcea01c21aa1ed7cf60b8f13c8c10d37f6e18aa065212"
+        },
+        {
+          "bytes": 1533,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/resource/right_side.svg",
+          "sha256": "fc10cbff6dbcefd628390f151c548c36aedb85d8129545402f2a5f674e4a0af6"
+        },
+        {
+          "bytes": 1490,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/resource/top_side.svg",
+          "sha256": "d4debafd38ede370b9dc93dd7fd48f8f6d9822ce0416db77d81513fa8a14400e"
+        },
+        {
+          "bytes": 19473,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/resource/boy.svg",
+          "sha256": "5802beaa81902ac8dc59e8789453fdc290e319c4721ffea89d34b289578a00ba"
+        },
+        {
+          "bytes": 1565,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/resource/left_side.svg",
+          "sha256": "171d07a437c71aff76539be835b0a8257ace39f127a6c84e14c996883a27cff1"
+        },
+        {
+          "bytes": 1731,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/resource/front_side.svg",
+          "sha256": "dee12f481fab7a299b9d544ffa5ae38f9516805b5bf77abf6fca8a92bbe9218b"
+        },
+        {
+          "bytes": 1745,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/resource/back_side.svg",
+          "sha256": "578d499f571be42e206fee49683711e2c1b82ada88809922a95857ccf9d59896"
+        },
+        {
+          "bytes": 398,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/CMakeLists.txt",
+          "sha256": "e78db3fde42c802db3274e8217b7b1bc6616fe039abd9d9e4cc1bf435f383f8a"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/positions-complete",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/sources/65ec383c84d64ded3e9f33345bf232d3a64e2810"
+    },
+    "mouse-red": {
+      "rcc_sha256": "9e26556e35cb6aed5874c84531385aab28669d15c3b70668a5bef99edd245298",
+      "files": [
+        {
+          "bytes": 1202,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/MouseButton.qml",
+          "sha256": "db23e1bd111f888ce7b1046b1c58b284a47c6b279b6b47c80bcd99e0a6ef5996"
+        },
+        {
+          "bytes": 3805,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/Animal.qml",
+          "sha256": "031fe26d23fe0b95fb1c57583b27a39aaca0485f36713ea560e7f4750a475b8a"
+        },
+        {
+          "bytes": 1076,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/ActivityInfo.qml",
+          "sha256": "a7fdf6422ea28c370fefaf0e3107c5e439240174267b12f58c333c39522c1dc1"
+        },
+        {
+          "bytes": 3041,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/left_right_click.js",
+          "sha256": "b2c32c5ce7d413e7ef7bb9db2047844bf2baf0c5ff34c7c8eb21f4e15faf99d1"
+        },
+        {
+          "bytes": 13691,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/Left_right_click.qml",
+          "sha256": "b27e54a811964e34aa250343dcb605ae09c27c83c388b876fb493c4a241443ee"
+        },
+        {
+          "bytes": 8923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/left_right_click.svg",
+          "sha256": "a509212dedc87d3edcf4499d28eaab6ce9b347b6cab672858b4d7e81a2d1a035"
+        },
+        {
+          "bytes": 1471,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/hill.svg",
+          "sha256": "93c61ae7481be64b625e6329c23d732c62ab8953dd88c68de762e690cd1445aa"
+        },
+        {
+          "bytes": 6524,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/fish.svg",
+          "sha256": "5dc2ab68c2aa0170016e28af76535c3f1b6b8c9a60d3ef1b10cd7b183033a173"
+        },
+        {
+          "bytes": 25681,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/monkey.svg",
+          "sha256": "34408f9fb5961e57be6963940c3bb3b5a327508fe4a011d80927cc6e46c4c50c"
+        },
+        {
+          "bytes": 3318,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/pond.svg",
+          "sha256": "d42d5736ea68c2847deacbf142bfb48aa7a6df341177cf1b9f465f258d485073"
+        },
+        {
+          "bytes": 1456,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/mouse_button.svg",
+          "sha256": "771c06d28890e61f90413822881e95e4641617fce5d6e6718a1d275e2160f0f2"
+        },
+        {
+          "bytes": 5820,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/tree.svg",
+          "sha256": "4f14fa1489748ce9d895030d0282ff30b6f6acce99bbc7569a49a6538fe5bb51"
+        },
+        {
+          "bytes": 2465,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/mouse.svg",
+          "sha256": "a5b9f4ab1df6f1e13d9cc4717c5b37c0d15ef403d72230e9e5ca6986bd1dce79"
+        },
+        {
+          "bytes": 384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/CMakeLists.txt",
+          "sha256": "1b0a4a4b62b8b3582acd6f5f8b7159d2cc83d02c0be06728c8465bf14299b4f6"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/mouse-complete",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/sources/65ec383c84d64ded3e9f33345bf232d3a64e2810"
+    },
+    "mouse-complete": {
+      "rcc_sha256": "71361523381df9d875d0c3821ac000c22e10d24f45f7c7f40487e75fd2d98317",
+      "files": [
+        {
+          "bytes": 1202,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/MouseButton.qml",
+          "sha256": "db23e1bd111f888ce7b1046b1c58b284a47c6b279b6b47c80bcd99e0a6ef5996"
+        },
+        {
+          "bytes": 3940,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/Animal.qml",
+          "sha256": "51ec49d04c98b066e2723022ca0ae43ad46308ecb7506284ebd59a24e7a56322"
+        },
+        {
+          "bytes": 1076,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/ActivityInfo.qml",
+          "sha256": "a7fdf6422ea28c370fefaf0e3107c5e439240174267b12f58c333c39522c1dc1"
+        },
+        {
+          "bytes": 2819,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/left_right_click.js",
+          "sha256": "20e8158de8c5be314b1a6258740cc92327b2fd98c62fdd3929564445db2ecb0e"
+        },
+        {
+          "bytes": 13783,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/Left_right_click.qml",
+          "sha256": "1eecb027714a119680460dabb254c04b48b12b82b90f2dfda20a99044c55c90c"
+        },
+        {
+          "bytes": 8923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/left_right_click.svg",
+          "sha256": "a509212dedc87d3edcf4499d28eaab6ce9b347b6cab672858b4d7e81a2d1a035"
+        },
+        {
+          "bytes": 1471,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/hill.svg",
+          "sha256": "93c61ae7481be64b625e6329c23d732c62ab8953dd88c68de762e690cd1445aa"
+        },
+        {
+          "bytes": 6524,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/fish.svg",
+          "sha256": "5dc2ab68c2aa0170016e28af76535c3f1b6b8c9a60d3ef1b10cd7b183033a173"
+        },
+        {
+          "bytes": 25681,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/monkey.svg",
+          "sha256": "34408f9fb5961e57be6963940c3bb3b5a327508fe4a011d80927cc6e46c4c50c"
+        },
+        {
+          "bytes": 3318,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/pond.svg",
+          "sha256": "d42d5736ea68c2847deacbf142bfb48aa7a6df341177cf1b9f465f258d485073"
+        },
+        {
+          "bytes": 1456,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/mouse_button.svg",
+          "sha256": "771c06d28890e61f90413822881e95e4641617fce5d6e6718a1d275e2160f0f2"
+        },
+        {
+          "bytes": 5820,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/tree.svg",
+          "sha256": "4f14fa1489748ce9d895030d0282ff30b6f6acce99bbc7569a49a6538fe5bb51"
+        },
+        {
+          "bytes": 2465,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/mouse.svg",
+          "sha256": "a5b9f4ab1df6f1e13d9cc4717c5b37c0d15ef403d72230e9e5ca6986bd1dce79"
+        },
+        {
+          "bytes": 384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/CMakeLists.txt",
+          "sha256": "1b0a4a4b62b8b3582acd6f5f8b7159d2cc83d02c0be06728c8465bf14299b4f6"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/mouse-complete",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/sources/18714982cd3da866b0a24f2e931c444dddf40a90"
+    },
+    "hands-controls-baseline": {
+      "rcc_sha256": "c386bdc96a9c525ddcf67e0f4e9e10080ab4700113181dcb41502ba35c0dc2ae",
+      "files": [
+        {
+          "bytes": 3620,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/leftright.js",
+          "sha256": "8f7de2d738345b2993c1b596b99d678bd1c378c89208ec91edf796293559bbef"
+        },
+        {
+          "bytes": 1166,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/ActivityInfo.qml",
+          "sha256": "93ae80885185fed0a2187e0fc2376ebeb08961e6a8f28dfedfc8f5c8a01c3c7e"
+        },
+        {
+          "bytes": 14903,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/Leftright.qml",
+          "sha256": "d85585d580d7b9454797b7269d005a0d22e5bf9a0a145d120630ee3d7a81c4e9"
+        },
+        {
+          "bytes": 7260,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/leftright.svg",
+          "sha256": "8abe580196623a11ca869513e95ff673f288f71fdee915fdb44e39f6ef7efc22"
+        },
+        {
+          "bytes": 32418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_gauche_paume_0.webp",
+          "sha256": "e57658199006929a6af8973974197acfa69c7da0cab7c835a1805ecb44e2ab59"
+        },
+        {
+          "bytes": 28566,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_droit_dessus_0.webp",
+          "sha256": "305784dc75919d340ece5703d107e841376b4fb42965e324fe42c761c49a175a"
+        },
+        {
+          "bytes": 28906,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_droit_paume_0.webp",
+          "sha256": "6ae0836358634d700a6d1143c4527b14321c23b332f270a175843b8805f5308f"
+        },
+        {
+          "bytes": 33296,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_gauche_paume_0.webp",
+          "sha256": "7c31b833b995dfa59a0fb69d550dcda48a07a785a76b60d1950c498115f3a0c7"
+        },
+        {
+          "bytes": 27716,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_gauche_dessus_0.webp",
+          "sha256": "a6a9a168d9920ddd1e77ee9611d7403f2a13e6de2a799a978af677d21a75dbac"
+        },
+        {
+          "bytes": 36482,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_gauche_dessus_0.webp",
+          "sha256": "f588e583051557a4f61a071b836a6091e67fae7a6703f912ab3a9bd44b5d4705"
+        },
+        {
+          "bytes": 29560,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_droite_paume_0.webp",
+          "sha256": "7ac0058c04f93fd039a2acb06a7548e0a3990fe4074ae694367923380f29f356"
+        },
+        {
+          "bytes": 3975,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/blackboard.svg",
+          "sha256": "c11789c90809f4d715d78fedfee45d045b3ae10539967fdcc09e4421ad1f4f57"
+        },
+        {
+          "bytes": 1669,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/light.svg",
+          "sha256": "cb3fa8fbb61add90f78995cafadd21f2e1754cdb9d20055b351195a2d0a8b0c2"
+        },
+        {
+          "bytes": 32610,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_droite_dessus_0.webp",
+          "sha256": "05657aeb43336d513b6724533e79082b149bdf6e6af0680031b601c9bc78e77d"
+        },
+        {
+          "bytes": 401,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/CMakeLists.txt",
+          "sha256": "e216d7aab37ff50f661c6b3a8190cdb6ac3c1ae02833147a39bd2332238049fa"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/hands-controls",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/sources/65ec383c84d64ded3e9f33345bf232d3a64e2810"
+    },
+    "hands-controls": {
+      "rcc_sha256": "5a2f151e01b4f902e10170bb281be11f816e7edbe4c09ebc141fe333d99884d3",
+      "files": [
+        {
+          "bytes": 3620,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/leftright.js",
+          "sha256": "8f7de2d738345b2993c1b596b99d678bd1c378c89208ec91edf796293559bbef"
+        },
+        {
+          "bytes": 1166,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/ActivityInfo.qml",
+          "sha256": "93ae80885185fed0a2187e0fc2376ebeb08961e6a8f28dfedfc8f5c8a01c3c7e"
+        },
+        {
+          "bytes": 14903,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/Leftright.qml",
+          "sha256": "d85585d580d7b9454797b7269d005a0d22e5bf9a0a145d120630ee3d7a81c4e9"
+        },
+        {
+          "bytes": 7260,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/leftright.svg",
+          "sha256": "8abe580196623a11ca869513e95ff673f288f71fdee915fdb44e39f6ef7efc22"
+        },
+        {
+          "bytes": 32418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_gauche_paume_0.webp",
+          "sha256": "e57658199006929a6af8973974197acfa69c7da0cab7c835a1805ecb44e2ab59"
+        },
+        {
+          "bytes": 28566,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_droit_dessus_0.webp",
+          "sha256": "305784dc75919d340ece5703d107e841376b4fb42965e324fe42c761c49a175a"
+        },
+        {
+          "bytes": 28906,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_droit_paume_0.webp",
+          "sha256": "6ae0836358634d700a6d1143c4527b14321c23b332f270a175843b8805f5308f"
+        },
+        {
+          "bytes": 33296,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_gauche_paume_0.webp",
+          "sha256": "7c31b833b995dfa59a0fb69d550dcda48a07a785a76b60d1950c498115f3a0c7"
+        },
+        {
+          "bytes": 27716,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_gauche_dessus_0.webp",
+          "sha256": "a6a9a168d9920ddd1e77ee9611d7403f2a13e6de2a799a978af677d21a75dbac"
+        },
+        {
+          "bytes": 36482,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_gauche_dessus_0.webp",
+          "sha256": "f588e583051557a4f61a071b836a6091e67fae7a6703f912ab3a9bd44b5d4705"
+        },
+        {
+          "bytes": 29560,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_droite_paume_0.webp",
+          "sha256": "7ac0058c04f93fd039a2acb06a7548e0a3990fe4074ae694367923380f29f356"
+        },
+        {
+          "bytes": 3975,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/blackboard.svg",
+          "sha256": "c11789c90809f4d715d78fedfee45d045b3ae10539967fdcc09e4421ad1f4f57"
+        },
+        {
+          "bytes": 1669,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/light.svg",
+          "sha256": "cb3fa8fbb61add90f78995cafadd21f2e1754cdb9d20055b351195a2d0a8b0c2"
+        },
+        {
+          "bytes": 32610,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_droite_dessus_0.webp",
+          "sha256": "05657aeb43336d513b6724533e79082b149bdf6e6af0680031b601c9bc78e77d"
+        },
+        {
+          "bytes": 401,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/CMakeLists.txt",
+          "sha256": "e216d7aab37ff50f661c6b3a8190cdb6ac3c1ae02833147a39bd2332238049fa"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/hands-controls",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/sources/25f91ab4b85e0e8a5e79649ba2b9b6a5281b5dcc"
+    },
+    "hand-help-red": {
+      "rcc_sha256": "4056d904b8e981a80722e2ca4833c683b66819db2b8c9af4c0c13c22d2de4d70",
+      "files": [
+        {
+          "bytes": 3620,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/leftright.js",
+          "sha256": "8f7de2d738345b2993c1b596b99d678bd1c378c89208ec91edf796293559bbef"
+        },
+        {
+          "bytes": 1166,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/ActivityInfo.qml",
+          "sha256": "93ae80885185fed0a2187e0fc2376ebeb08961e6a8f28dfedfc8f5c8a01c3c7e"
+        },
+        {
+          "bytes": 14135,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/Leftright.qml",
+          "sha256": "dbfe2f08d63b233d837f1dbc66255be9a2ff32bec9d5428b55606ae77f80df83"
+        },
+        {
+          "bytes": 7260,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/leftright.svg",
+          "sha256": "8abe580196623a11ca869513e95ff673f288f71fdee915fdb44e39f6ef7efc22"
+        },
+        {
+          "bytes": 32418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_gauche_paume_0.webp",
+          "sha256": "e57658199006929a6af8973974197acfa69c7da0cab7c835a1805ecb44e2ab59"
+        },
+        {
+          "bytes": 28566,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_droit_dessus_0.webp",
+          "sha256": "305784dc75919d340ece5703d107e841376b4fb42965e324fe42c761c49a175a"
+        },
+        {
+          "bytes": 28906,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_droit_paume_0.webp",
+          "sha256": "6ae0836358634d700a6d1143c4527b14321c23b332f270a175843b8805f5308f"
+        },
+        {
+          "bytes": 33296,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_gauche_paume_0.webp",
+          "sha256": "7c31b833b995dfa59a0fb69d550dcda48a07a785a76b60d1950c498115f3a0c7"
+        },
+        {
+          "bytes": 27716,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_gauche_dessus_0.webp",
+          "sha256": "a6a9a168d9920ddd1e77ee9611d7403f2a13e6de2a799a978af677d21a75dbac"
+        },
+        {
+          "bytes": 36482,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_gauche_dessus_0.webp",
+          "sha256": "f588e583051557a4f61a071b836a6091e67fae7a6703f912ab3a9bd44b5d4705"
+        },
+        {
+          "bytes": 29560,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_droite_paume_0.webp",
+          "sha256": "7ac0058c04f93fd039a2acb06a7548e0a3990fe4074ae694367923380f29f356"
+        },
+        {
+          "bytes": 3975,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/blackboard.svg",
+          "sha256": "c11789c90809f4d715d78fedfee45d045b3ae10539967fdcc09e4421ad1f4f57"
+        },
+        {
+          "bytes": 1669,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/light.svg",
+          "sha256": "cb3fa8fbb61add90f78995cafadd21f2e1754cdb9d20055b351195a2d0a8b0c2"
+        },
+        {
+          "bytes": 32610,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_droite_dessus_0.webp",
+          "sha256": "05657aeb43336d513b6724533e79082b149bdf6e6af0680031b601c9bc78e77d"
+        },
+        {
+          "bytes": 401,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/CMakeLists.txt",
+          "sha256": "e216d7aab37ff50f661c6b3a8190cdb6ac3c1ae02833147a39bd2332238049fa"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/hand-help-red",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/sources/18714982cd3da866b0a24f2e931c444dddf40a90"
+    },
+    "hand-help-green": {
+      "rcc_sha256": "21f9ff2009d1b7b62a42f436c857ddf01da63c256a2fafc64a489813f406f05f",
+      "files": [
+        {
+          "bytes": 3620,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/leftright.js",
+          "sha256": "8f7de2d738345b2993c1b596b99d678bd1c378c89208ec91edf796293559bbef"
+        },
+        {
+          "bytes": 1166,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/ActivityInfo.qml",
+          "sha256": "93ae80885185fed0a2187e0fc2376ebeb08961e6a8f28dfedfc8f5c8a01c3c7e"
+        },
+        {
+          "bytes": 14137,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/Leftright.qml",
+          "sha256": "c00cd735c48174fc7b4af8aa95ba537b053a59b37819dc8a05693e988bf1af4e"
+        },
+        {
+          "bytes": 7260,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/leftright.svg",
+          "sha256": "8abe580196623a11ca869513e95ff673f288f71fdee915fdb44e39f6ef7efc22"
+        },
+        {
+          "bytes": 32418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_gauche_paume_0.webp",
+          "sha256": "e57658199006929a6af8973974197acfa69c7da0cab7c835a1805ecb44e2ab59"
+        },
+        {
+          "bytes": 28566,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_droit_dessus_0.webp",
+          "sha256": "305784dc75919d340ece5703d107e841376b4fb42965e324fe42c761c49a175a"
+        },
+        {
+          "bytes": 28906,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_droit_paume_0.webp",
+          "sha256": "6ae0836358634d700a6d1143c4527b14321c23b332f270a175843b8805f5308f"
+        },
+        {
+          "bytes": 33296,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_gauche_paume_0.webp",
+          "sha256": "7c31b833b995dfa59a0fb69d550dcda48a07a785a76b60d1950c498115f3a0c7"
+        },
+        {
+          "bytes": 27716,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/poing_gauche_dessus_0.webp",
+          "sha256": "a6a9a168d9920ddd1e77ee9611d7403f2a13e6de2a799a978af677d21a75dbac"
+        },
+        {
+          "bytes": 36482,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_gauche_dessus_0.webp",
+          "sha256": "f588e583051557a4f61a071b836a6091e67fae7a6703f912ab3a9bd44b5d4705"
+        },
+        {
+          "bytes": 29560,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_droite_paume_0.webp",
+          "sha256": "7ac0058c04f93fd039a2acb06a7548e0a3990fe4074ae694367923380f29f356"
+        },
+        {
+          "bytes": 3975,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/blackboard.svg",
+          "sha256": "c11789c90809f4d715d78fedfee45d045b3ae10539967fdcc09e4421ad1f4f57"
+        },
+        {
+          "bytes": 1669,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/light.svg",
+          "sha256": "cb3fa8fbb61add90f78995cafadd21f2e1754cdb9d20055b351195a2d0a8b0c2"
+        },
+        {
+          "bytes": 32610,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/resource/main_droite_dessus_0.webp",
+          "sha256": "05657aeb43336d513b6724533e79082b149bdf6e6af0680031b601c9bc78e77d"
+        },
+        {
+          "bytes": 401,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/leftright/CMakeLists.txt",
+          "sha256": "e216d7aab37ff50f661c6b3a8190cdb6ac3c1ae02833147a39bd2332238049fa"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/hand-help-green",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/sources/25f91ab4b85e0e8a5e79649ba2b9b6a5281b5dcc"
+    },
+    "positions-controls": {
+      "rcc_sha256": "590d5fc25de3a301ab3f49e0f0d65343dd0583f7c1860d107cda4d66dc7fb323",
+      "files": [
+        {
+          "bytes": 3313,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/positions.js",
+          "sha256": "acf903eef0d7f5fb4801ab6870b71a48eb47147ad6c363004d1df452e5248e1a"
+        },
+        {
+          "bytes": 6239,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/BoxBoyPosition.qml",
+          "sha256": "3d3cd65c705cbbdb4525efcea01d5df51427400ce03f7470aac5b623c9810d69"
+        },
+        {
+          "bytes": 1132,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/ActivityInfo.qml",
+          "sha256": "599d3f2874192e52a6b985dfb666111e0f75d0e441921f6e2668849defda154c"
+        },
+        {
+          "bytes": 19078,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/Positions.qml",
+          "sha256": "0d209d492c8ec86c174481304c06f5237b3ddf2b96951433c3427daef8a174f5"
+        },
+        {
+          "bytes": 20471,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/positions.svg",
+          "sha256": "c992a44fb5df90badb6671c760fd25b77578ab2fe262a4a7ff09a6483164950e"
+        },
+        {
+          "bytes": 2043,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/resource/1/Data.qml",
+          "sha256": "93d63605e5f866ef2862a99ac81256881d35a03762f5a1a5d914d9c74a62653e"
+        },
+        {
+          "bytes": 2330,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/resource/2/Data.qml",
+          "sha256": "469bd98957c9dbcf13abcea01c21aa1ed7cf60b8f13c8c10d37f6e18aa065212"
+        },
+        {
+          "bytes": 1533,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/resource/right_side.svg",
+          "sha256": "fc10cbff6dbcefd628390f151c548c36aedb85d8129545402f2a5f674e4a0af6"
+        },
+        {
+          "bytes": 1490,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/resource/top_side.svg",
+          "sha256": "d4debafd38ede370b9dc93dd7fd48f8f6d9822ce0416db77d81513fa8a14400e"
+        },
+        {
+          "bytes": 19473,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/resource/boy.svg",
+          "sha256": "5802beaa81902ac8dc59e8789453fdc290e319c4721ffea89d34b289578a00ba"
+        },
+        {
+          "bytes": 1565,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/resource/left_side.svg",
+          "sha256": "171d07a437c71aff76539be835b0a8257ace39f127a6c84e14c996883a27cff1"
+        },
+        {
+          "bytes": 1731,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/resource/front_side.svg",
+          "sha256": "dee12f481fab7a299b9d544ffa5ae38f9516805b5bf77abf6fca8a92bbe9218b"
+        },
+        {
+          "bytes": 1745,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/resource/back_side.svg",
+          "sha256": "578d499f571be42e206fee49683711e2c1b82ada88809922a95857ccf9d59896"
+        },
+        {
+          "bytes": 398,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/positions/CMakeLists.txt",
+          "sha256": "e78db3fde42c802db3274e8217b7b1bc6616fe039abd9d9e4cc1bf435f383f8a"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/positions-controls",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/sources/65ec383c84d64ded3e9f33345bf232d3a64e2810"
+    },
+    "mouse-controls-baseline": {
+      "rcc_sha256": "315915c22505cb9ef379595d0c5596ed672b4395362c43d95d7b9cdc53395d5d",
+      "files": [
+        {
+          "bytes": 1202,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/MouseButton.qml",
+          "sha256": "db23e1bd111f888ce7b1046b1c58b284a47c6b279b6b47c80bcd99e0a6ef5996"
+        },
+        {
+          "bytes": 3805,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/Animal.qml",
+          "sha256": "031fe26d23fe0b95fb1c57583b27a39aaca0485f36713ea560e7f4750a475b8a"
+        },
+        {
+          "bytes": 1076,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/ActivityInfo.qml",
+          "sha256": "a7fdf6422ea28c370fefaf0e3107c5e439240174267b12f58c333c39522c1dc1"
+        },
+        {
+          "bytes": 3041,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/left_right_click.js",
+          "sha256": "b2c32c5ce7d413e7ef7bb9db2047844bf2baf0c5ff34c7c8eb21f4e15faf99d1"
+        },
+        {
+          "bytes": 13102,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/Left_right_click.qml",
+          "sha256": "ebdc7c779704c612c635256057f002f23781b674605e7bd0f96c6a8d8608bc73"
+        },
+        {
+          "bytes": 8923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/left_right_click.svg",
+          "sha256": "a509212dedc87d3edcf4499d28eaab6ce9b347b6cab672858b4d7e81a2d1a035"
+        },
+        {
+          "bytes": 1471,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/hill.svg",
+          "sha256": "93c61ae7481be64b625e6329c23d732c62ab8953dd88c68de762e690cd1445aa"
+        },
+        {
+          "bytes": 6524,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/fish.svg",
+          "sha256": "5dc2ab68c2aa0170016e28af76535c3f1b6b8c9a60d3ef1b10cd7b183033a173"
+        },
+        {
+          "bytes": 25681,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/monkey.svg",
+          "sha256": "34408f9fb5961e57be6963940c3bb3b5a327508fe4a011d80927cc6e46c4c50c"
+        },
+        {
+          "bytes": 3318,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/pond.svg",
+          "sha256": "d42d5736ea68c2847deacbf142bfb48aa7a6df341177cf1b9f465f258d485073"
+        },
+        {
+          "bytes": 1456,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/mouse_button.svg",
+          "sha256": "771c06d28890e61f90413822881e95e4641617fce5d6e6718a1d275e2160f0f2"
+        },
+        {
+          "bytes": 5820,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/tree.svg",
+          "sha256": "4f14fa1489748ce9d895030d0282ff30b6f6acce99bbc7569a49a6538fe5bb51"
+        },
+        {
+          "bytes": 2465,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/mouse.svg",
+          "sha256": "a5b9f4ab1df6f1e13d9cc4717c5b37c0d15ef403d72230e9e5ca6986bd1dce79"
+        },
+        {
+          "bytes": 384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/CMakeLists.txt",
+          "sha256": "1b0a4a4b62b8b3582acd6f5f8b7159d2cc83d02c0be06728c8465bf14299b4f6"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/mouse-controls",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/sources/65ec383c84d64ded3e9f33345bf232d3a64e2810"
+    },
+    "mouse-controls": {
+      "rcc_sha256": "ba721512a6e49c98fe5c0c8c59586f9a6886fc8cd2cad9643f7f18cab9b1ceeb",
+      "files": [
+        {
+          "bytes": 1202,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/MouseButton.qml",
+          "sha256": "db23e1bd111f888ce7b1046b1c58b284a47c6b279b6b47c80bcd99e0a6ef5996"
+        },
+        {
+          "bytes": 3940,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/Animal.qml",
+          "sha256": "51ec49d04c98b066e2723022ca0ae43ad46308ecb7506284ebd59a24e7a56322"
+        },
+        {
+          "bytes": 1076,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/ActivityInfo.qml",
+          "sha256": "a7fdf6422ea28c370fefaf0e3107c5e439240174267b12f58c333c39522c1dc1"
+        },
+        {
+          "bytes": 2819,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/left_right_click.js",
+          "sha256": "20e8158de8c5be314b1a6258740cc92327b2fd98c62fdd3929564445db2ecb0e"
+        },
+        {
+          "bytes": 13194,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/Left_right_click.qml",
+          "sha256": "42c33d276dc3307fa58f302226f31ba5235ee21a0a6318d9c7d9d98806f83f35"
+        },
+        {
+          "bytes": 8923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/left_right_click.svg",
+          "sha256": "a509212dedc87d3edcf4499d28eaab6ce9b347b6cab672858b4d7e81a2d1a035"
+        },
+        {
+          "bytes": 1471,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/hill.svg",
+          "sha256": "93c61ae7481be64b625e6329c23d732c62ab8953dd88c68de762e690cd1445aa"
+        },
+        {
+          "bytes": 6524,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/fish.svg",
+          "sha256": "5dc2ab68c2aa0170016e28af76535c3f1b6b8c9a60d3ef1b10cd7b183033a173"
+        },
+        {
+          "bytes": 25681,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/monkey.svg",
+          "sha256": "34408f9fb5961e57be6963940c3bb3b5a327508fe4a011d80927cc6e46c4c50c"
+        },
+        {
+          "bytes": 3318,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/pond.svg",
+          "sha256": "d42d5736ea68c2847deacbf142bfb48aa7a6df341177cf1b9f465f258d485073"
+        },
+        {
+          "bytes": 1456,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/mouse_button.svg",
+          "sha256": "771c06d28890e61f90413822881e95e4641617fce5d6e6718a1d275e2160f0f2"
+        },
+        {
+          "bytes": 5820,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/tree.svg",
+          "sha256": "4f14fa1489748ce9d895030d0282ff30b6f6acce99bbc7569a49a6538fe5bb51"
+        },
+        {
+          "bytes": 2465,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/resource/mouse.svg",
+          "sha256": "a5b9f4ab1df6f1e13d9cc4717c5b37c0d15ef403d72230e9e5ca6986bd1dce79"
+        },
+        {
+          "bytes": 384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/left_right_click/CMakeLists.txt",
+          "sha256": "1b0a4a4b62b8b3582acd6f5f8b7159d2cc83d02c0be06728c8465bf14299b4f6"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/.scratch/pt-pt/functional-orientation/mouse-controls",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-orientation-mouse/build/functional-orientation/sources/18714982cd3da866b0a24f2e931c444dddf40a90"
+    }
+  },
+  "imports": {
+    "family": {
+      "rcc_sha256": "fcce306eb020082a425fa4c6ec860b6c30a8f478a91761896ae947a659d21e2b",
+      "files": [
+        {
+          "bytes": 27266,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/family/resource/background.svg",
+          "sha256": "ae84d2adf3e0388c6e3eeb9ea3d8e9ac8000514d4e4ef0406b8cae1594d9a715"
+        }
+      ]
+    },
+    "canal_lock": {
+      "rcc_sha256": "a874e989a1cc0f1dde646084a759c33a43319b1efda58327412744a43345cce4",
+      "files": [
+        {
+          "bytes": 2571,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/canal_lock/resource/sky.svg",
+          "sha256": "cf9eb82c21cc321811bd06fc748998168981d44075e4d4720534f2cf0e5d8684"
+        }
+      ]
+    },
+    "core": {
+      "rcc_sha256": "4c40f1dd1ef1169d78084c2f62655627dab02d4051e6dec9efd494a51191bacb",
+      "files": [
+        {
+          "bytes": 6768,
+          "ogg": false,
+          "path": ":/gcompris/src/core/AnswerButton.qml",
+          "sha256": "164018880f5041873e232b9bc7c86a84dbc68fdd7e9d56dee38482eb2e3d4d24"
+        },
+        {
+          "bytes": 6298,
+          "ogg": false,
+          "path": ":/gcompris/src/core/Bonus.qml",
+          "sha256": "48d482e880560fe1a3b06bace371def756eaf4af92eaf23b21c21a330842cc28"
+        },
+        {
+          "bytes": 88244,
+          "ogg": false,
+          "path": ":/gcompris/src/core/resource/sounds/bonus.wav",
+          "sha256": "fbf6fba4772211a0336b37c916e77340ca25c6e8062e9b2f631cf16394edd140"
+        },
+        {
+          "bytes": 133676,
+          "ogg": false,
+          "path": ":/gcompris/src/core/resource/sounds/completetask.wav",
+          "sha256": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c"
+        },
+        {
+          "bytes": 27234,
+          "ogg": false,
+          "path": ":/gcompris/src/core/resource/sounds/crash.wav",
+          "sha256": "86f844cb3f4cd87485de76b26a868e695d278ea971f308e092305827e7943c11"
+        }
+      ]
+    }
+  }
+}

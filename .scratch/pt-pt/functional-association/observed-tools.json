@@ -1,0 +1,58 @@
+{
+  "names-red": {
+    "kind": "observed-exec-tool-return",
+    "session_id": 97335,
+    "chunk_id": "08be35",
+    "exit_code": 1,
+    "native_receipt_sha256": "4109ca1187893a486ded64f34973cff0af7248af1124239f23259729c9d06163",
+    "launcher_status_sha256": "31763bcf9d8b4c01a3f422da423ee207c84608760e10ca438f59a25f5c87a003"
+  },
+  "names-green": {
+    "kind": "observed-exec-tool-return",
+    "session_id": 4248,
+    "chunk_id": "c71140",
+    "exit_code": 0,
+    "native_receipt_sha256": "806436874934fece379e9d0c28b1b025697e2dd8975ea7aabea947c42b6a0e48",
+    "launcher_status_sha256": "9bc33269fc2fa7817ce8980bfe1b6748decc7922ac7f5dba8458b793a2d40a96"
+  },
+  "edge-red": {
+    "kind": "observed-exec-tool-return",
+    "session_id": 46457,
+    "chunk_id": "0eddc8",
+    "exit_code": 1,
+    "native_receipt_sha256": "b43854b2d6bb451e5a4ebd813d8da08772f3e553d0c435fbeed01febd3755377",
+    "launcher_status_sha256": "a16a233bb9713713e024a34244ad2788fb126aa04262558a19bb184eae5c1a47"
+  },
+  "edge-green": {
+    "kind": "observed-exec-tool-return",
+    "session_id": 46677,
+    "chunk_id": "b36402",
+    "exit_code": 0,
+    "native_receipt_sha256": "983a64e9ac40b28fa6653c0f2efe7a665c94d8db6586a767c30258677eabe0a7",
+    "launcher_status_sha256": "33792de5888e8df75435f5aab9d87f0576b26e5effe659205d19e36b04dab3c8"
+  },
+  "caption-red": {
+    "kind": "observed-exec-tool-return",
+    "session_id": 66238,
+    "chunk_id": "118d02",
+    "exit_code": 1,
+    "native_receipt_sha256": "ebca1862e6094ee3593aa64dcdac8461c0199bd3a508f66c88e21fb85530aee0",
+    "launcher_status_sha256": "1045d079f4809ccc197aa206fc3bf2827a277329720ee34c632ef4b64599460a"
+  },
+  "caption-green": {
+    "kind": "observed-exec-tool-return",
+    "session_id": 68972,
+    "chunk_id": "b8516e",
+    "exit_code": 0,
+    "native_receipt_sha256": "fdfb5cd1936c1db5dd569145c8ec796f9080d281359f4e8893a7f53370b9362b",
+    "launcher_status_sha256": "4d1f18dc518d140acf5afacb7aa008741c3afda208adfdd7ae71ec0d4114297e"
+  },
+  "audio-observed": {
+    "kind": "observed-exec-tool-return",
+    "session_id": 29199,
+    "chunk_id": "b7f862",
+    "exit_code": 0,
+    "native_receipt_sha256": "a1dce835e800de167099be4d04cdf18c1b7442a359e197afbdff9ce7ea3b15a4",
+    "launcher_status_sha256": "eabe6423fe45cd9b3498bff3697c7a92bd5446f11160dc175e2c5d2c61f63ffd"
+  }
+}

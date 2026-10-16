@@ -1,0 +1,16 @@
+{
+  "levels": 99,
+  "datasets": 9,
+  "fixed": 57,
+  "random": 42,
+  "solver_clicks": 1736,
+  "nonwinning_and_repair_clicks": 198,
+  "restart_samples": 150,
+  "cases": 9,
+  "positive": 7,
+  "expected_red": 2,
+  "source_files": 232,
+  "runtime_files": 269,
+  "qrc_files": 22,
+  "scope": "Linux software verification only; Windows, physical audio and teacher acceptance pending."
+}

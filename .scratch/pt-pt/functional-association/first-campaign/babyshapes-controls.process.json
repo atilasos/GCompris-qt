@@ -1,0 +1,9 @@
+{
+  "kind": "observed-supervisor-subprocess-exit",
+  "case": "babyshapes-controls",
+  "exit_code": 0,
+  "elapsed": 11.440078735351562,
+  "receipt_sha256": "db8b99371f0e060e384f3daab24bd0a8fb6af0e8885275b0598a8bc4735ec17f",
+  "launcher_status_sha256": "aaa981825c0f16a3a07c17e51e3c451e4ccfcf5530c4bffc83b615bf0828c712",
+  "supervisor_sha256": "d3036d68f65c91905732c953d9438a642d3a1a99ccee8e05c66bf0c76cd68347"
+}
