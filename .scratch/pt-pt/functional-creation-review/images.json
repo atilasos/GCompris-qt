@@ -1,0 +1,247 @@
+{
+  "format": 1,
+  "capture_sha256": "9b8e6aab0aac15a3c9f8bcd73dcaac8b62a0eb7040181f6c874dd51e27ebeb61",
+  "archive_sha256": "2fe09088b42e0cf41917e430ebf4ac97e19a48f3c5ddf50e04648ef6d6ef9395",
+  "new_native_runs": 0,
+  "wheels": [
+    {
+      "level": 1,
+      "receipt_sha256": "1a72c136f0b6c632ee5888b47904cea55bf1bfd857a9cf44f3946253cf619908",
+      "physical_png": {
+        "png_dimensions": [
+          623,
+          623
+        ],
+        "svg_paths": 2,
+        "ink_pixels": 26949,
+        "vector_samples": 6211,
+        "vector_envelope_pixels": 3,
+        "dominant_rgb": [
+          51,
+          51,
+          51
+        ]
+      },
+      "physical_png_matches_saved_scene_exactly": true,
+      "reopened": {
+        "saved_ink_pixels": 26949,
+        "opened_ink_pixels": 26870,
+        "missing_beyond_one_pixel": 0,
+        "extra_beyond_one_pixel": 0,
+        "dominant_saved_rgb": [
+          51,
+          51,
+          51
+        ],
+        "dominant_opened_rgb": [
+          52,
+          52,
+          52
+        ],
+        "max_channel_delta": 204
+      },
+      "undo_redo": {
+        "completed_ink_pixels": 26835,
+        "undone_ink_pixels": 6844,
+        "removed_ink_pixels": 19991,
+        "redo_max_channel_delta": 1,
+        "undo_lightening_sum": 10735313
+      }
+    },
+    {
+      "level": 2,
+      "receipt_sha256": "1a72c136f0b6c632ee5888b47904cea55bf1bfd857a9cf44f3946253cf619908",
+      "physical_png": {
+        "png_dimensions": [
+          623,
+          623
+        ],
+        "svg_paths": 2,
+        "ink_pixels": 43121,
+        "vector_samples": 14320,
+        "vector_envelope_pixels": 3,
+        "dominant_rgb": [
+          51,
+          51,
+          51
+        ]
+      },
+      "physical_png_matches_saved_scene_exactly": true,
+      "reopened": {
+        "saved_ink_pixels": 43121,
+        "opened_ink_pixels": 42998,
+        "missing_beyond_one_pixel": 0,
+        "extra_beyond_one_pixel": 0,
+        "dominant_saved_rgb": [
+          51,
+          51,
+          51
+        ],
+        "dominant_opened_rgb": [
+          52,
+          52,
+          52
+        ],
+        "max_channel_delta": 87
+      },
+      "undo_redo": {
+        "completed_ink_pixels": 42871,
+        "undone_ink_pixels": 3457,
+        "removed_ink_pixels": 39414,
+        "redo_max_channel_delta": 2,
+        "undo_lightening_sum": 20822397
+      }
+    }
+  ],
+  "preserved": [
+    {
+      "case": "wheels-controls-v2",
+      "before": "before-partial-exit",
+      "after": "partial-exit-preserved",
+      "receipt_sha256": "00c98ec968bb74cefabc713c57d2e0a129fea325dcb325ff9003082778882849",
+      "dimensions": [
+        623,
+        623
+      ],
+      "changed_rgb_bytes": 0,
+      "marked_pixels": 13985
+    },
+    {
+      "case": "sketch-controls-v5",
+      "before": "pattern-drawing",
+      "after": "partial-home-preserved",
+      "receipt_sha256": "9abd8c5acfd37d5b44500c18ade8485d6cc5112f4d88366a9dadf8e9015d12a4",
+      "dimensions": [
+        936,
+        622
+      ],
+      "changed_rgb_bytes": 0,
+      "marked_pixels": 58510
+    },
+    {
+      "case": "sketch-controls-v5",
+      "before": "partial-home-preserved",
+      "after": "new-cancel-preserved",
+      "receipt_sha256": "9abd8c5acfd37d5b44500c18ade8485d6cc5112f4d88366a9dadf8e9015d12a4",
+      "dimensions": [
+        936,
+        622
+      ],
+      "changed_rgb_bytes": 0,
+      "marked_pixels": 58510
+    }
+  ],
+  "saved_png_files": [
+    {
+      "case": "wheels-levels-v4",
+      "file": "RODAS1.png",
+      "sha256": "9fa08daa5d5136290469596ac693fc625050a9fe45a429934a70c8d0c59433ed",
+      "scene": "level-1-saved",
+      "dimensions": [
+        623,
+        623
+      ],
+      "changed_rgb_bytes": 0
+    },
+    {
+      "case": "wheels-levels-v4",
+      "file": "RODAS2.png",
+      "sha256": "78f0512dfe5c1cafe290d3ae5addf31381dba9c18205c93a73081716d8ef5278",
+      "scene": "level-2-saved",
+      "dimensions": [
+        623,
+        623
+      ],
+      "changed_rgb_bytes": 0
+    },
+    {
+      "case": "wheels-controls-v2",
+      "file": "CONTROLO.png",
+      "sha256": "ffca8a1cb7293f99eaa232d17dc011adc4702db54d495a51e3b6d0270ea7af22",
+      "scene": "saved",
+      "dimensions": [
+        623,
+        623
+      ],
+      "changed_rgb_bytes": 0
+    },
+    {
+      "case": "wheels-controls-v2",
+      "file": "CONTROLO2.png",
+      "sha256": "4d3053a39227b9650b293510bf97d6c2da9a87d6007bd402a8289775181cb5ef",
+      "scene": "partial-exit-preserved",
+      "dimensions": [
+        623,
+        623
+      ],
+      "changed_rgb_bytes": 0
+    },
+    {
+      "case": "wheels-controls-v2",
+      "file": "FUNDO.png",
+      "sha256": "4f87355e9770e9e7cb1ea39fdc96c37531fc1133bcb69c642c3633e4e711cbc0",
+      "scene": "green-background",
+      "dimensions": [
+        623,
+        623
+      ],
+      "changed_rgb_bytes": 0
+    },
+    {
+      "case": "sketch-tracer-v6",
+      "file": "CRIA\u00c7\u00c3O.png",
+      "sha256": "6bf52cf1cf98e9fc469d200dfe14ab3ab95c02fe6f35ae08f17bb0196f458d4f",
+      "scene": "saved",
+      "dimensions": [
+        936,
+        622
+      ],
+      "changed_rgb_bytes": 0
+    },
+    {
+      "case": "sketch-tools-v3",
+      "file": "artes.png",
+      "sha256": "60309517045376f3308a91a7741f83cc1398ef82e0c62577e98c7f67c3d2ae31",
+      "scene": "finished",
+      "dimensions": [
+        936,
+        622
+      ],
+      "changed_rgb_bytes": 0
+    },
+    {
+      "case": "sketch-controls-v5",
+      "file": "CORES.png",
+      "sha256": "eb4d88d2450e87cb00a71a15bcc25311da947f1ed70611f60d0e7c12cb73752a",
+      "scene": "saved-palette-work",
+      "dimensions": [
+        936,
+        622
+      ],
+      "changed_rgb_bytes": 0
+    },
+    {
+      "case": "sketch-background-v2",
+      "file": "FOTO.png",
+      "sha256": "6dd3faee4d31d2b81e43b600bbd5561a2c83520f2c29af1b197c27cf8db32ce9",
+      "scene": "photo-background",
+      "dimensions": [
+        936,
+        622
+      ],
+      "changed_rgb_bytes": 0
+    },
+    {
+      "case": "sketch-background-v2",
+      "file": "FUNDO.png",
+      "sha256": "815305d63a9cd7b1d69f323e45765e15bf2ad87703f1bbb6f129bab9ab07267a",
+      "scene": "orange-background",
+      "dimensions": [
+        936,
+        622
+      ],
+      "changed_rgb_bytes": 0
+    }
+  ],
+  "scope": "Supplement to existing receipts only; original coverage and diagnostic statuses unchanged."
+}
