@@ -286,17 +286,21 @@ ActivityBase {
             }
 
             function showPreviousMonth() {
-                var date = new Date(calendar.currentDate);
-                date.setMonth(date.getMonth()-1);
-                if(minimumDate.getTime() <= date.getTime()) {
-                       calendar.currentDate = date;
-                }
+                changeMonth(-1);
             }
             function showNextMonth() {
+                changeMonth(1);
+            }
+            function changeMonth(offset) {
                 var date = new Date(calendar.currentDate);
-                date.setMonth(date.getMonth()+1);
-                if(date.getTime()<= maximumDate.getTime()) {
-                       calendar.currentDate = date;
+                var day = date.getDate();
+                date.setDate(1);
+                date.setMonth(date.getMonth() + offset);
+                var lastDay = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
+                date.setDate(Math.min(day, lastDay));
+                if(minimumDate.getTime() <= date.getTime() && date.getTime() <= maximumDate.getTime()) {
+                    calendar.currentDate = date;
+                    calendar.selectedDay = date.getDate();
                 }
             }
             function selectPreviousDay() {
