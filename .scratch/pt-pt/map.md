@@ -339,3 +339,5 @@ nova execução final dos 28 níveis. Fica resolvida no âmbito Linux após
 Standards e Spec sem achados; [relatórios](review/integration77/).
 Duas ligações mantêm os critérios globais,
 Windows, hardware, áudio e revisão docente pendentes.
+
+- [81 — Coordenação com a bola](issues/81-coordenacao-com-bola.md)
