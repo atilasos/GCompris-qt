@@ -35,6 +35,7 @@ TestCase {
         checked(textInput.text,"");
     }
     function type(text,virtualInput){
+        if(virtualInput){tryCompare(keyboard,"visible",true,2500);wait(50);}
         clear(virtualInput);if(!virtualInput)click(textInput);
         for(var i=0;i<text.length;i++){if(virtualInput)virtualKey(text[i].toUpperCase());else keyClick(i%2?text[i].toUpperCase():text[i].toLowerCase());}
         checked(textInput.text,text.toUpperCase());

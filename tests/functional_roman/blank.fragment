@@ -1,0 +1,13 @@
+    property var evidence: ({})
+    function test_blank_answer(){
+        ApplicationSettings.isVirtualKeyboard=true;tryCompare(keyboard,"visible",true,2500);wait(1700);checked(activity.currentLevel,0);
+        var question=String(questionPanel.textItem.text),expected=parse(question);type(expected.answer,false);ensure(textInput.text.length>0);clear(false);checked(textInput.text,"");
+        keyClick(Qt.Key_Return);wait(60);
+        if(score.currentSubLevel!==0){console.log("ROMAN_BLANK_ACCEPTED",question,String(feedback.text),score.currentSubLevel);grabImage(activity).save("__QA_OUTPUT__/blank.png");}
+        checked(score.currentSubLevel,0,"A blank answer must not advance the score");
+        tryVerify(function(){return errorRectangle.opacity>0.5;},1200);tryCompare(textInput,"enabled",true,3500);
+        type(expected.answer,false);keyClick(Qt.Key_Return);tryCompare(score,"currentSubLevel",1,1500);
+        evidence={question:question,clearedAnswerRejected:true,correctAnswerAccepted:true};
+    }
+    function cleanupTestCase(){console.log("NATIVE_RESULT",JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,evidence:evidence}));}
+}
