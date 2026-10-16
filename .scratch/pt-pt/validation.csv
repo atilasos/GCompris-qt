@@ -17,7 +17,7 @@ baby_wordprocessor,pending,pending,pending,pending,pending,.scratch/pt-pt/valida
 babymatch,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/babymatch.md
 babyshapes,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/babyshapes.md
 balancebox,pending,pending,pending,pending,pending,
-ballcatch,pending,pending,pending,pending,pending,
+ballcatch,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/ballcatch.md
 bargame,pending,pending,pending,pending,pending,
 bargame_2players,pending,pending,pending,pending,pending,
 binary_bulb,pending,pending,pending,pending,pending,
@@ -158,7 +158,7 @@ path_decoding_relative,pending,pending,pending,pending,pending,.scratch/pt-pt/va
 path_encoding,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/path_encoding.md
 path_encoding_relative,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/path_encoding_relative.md
 peg_solitaire,pending,pending,pending,pending,pending,
-penalty,pending,pending,pending,pending,pending,
+penalty,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/penalty.md
 photo_hunter,pending,pending,pending,pending,pending,
 piano_composition,pending,pending,pending,pending,pending,
 planegame,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/planegame.md

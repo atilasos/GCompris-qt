@@ -1,7 +1,7 @@
 # Coordenação com a bola
 
 Status: ready-for-agent
-Progress: resolved
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -49,3 +49,9 @@ Ver [provas/limites](../functional-ball/README.md),
 Windows, dispositivos, toque, audição e revisão docente pendentes.
 
 Pendência de encerramento: [tarefa 83](../issues/83-encerramento-penalty.md).
+
+## Integração
+
+Provas integradas para Standards e Spec independentes; `ready-for-review`,
+sem resolução final ou aceitação global. A ocorrência 139 permanece sob
+investigação 83; replay e GDB com saída zero não demonstram a sua correção.
