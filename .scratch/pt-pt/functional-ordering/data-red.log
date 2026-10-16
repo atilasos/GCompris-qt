@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ordering/tests/functional_ordering/audit_data.py", line 56, in <module>
+    print(json.dumps(audit(), ensure_ascii=False, indent=2))
+                     ~~~~~^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ordering/tests/functional_ordering/audit_data.py", line 50, in audit
+    assert not errors, '\n'.join(errors)
+           ^^^^^^^^^^
+AssertionError: dataset 1, sentence 10: 7 words outside 3..5: O|futebol|é|um|jogo|em equipa.
+dataset 2, sentence 1: 5 words outside 6..10: O|Sol|brilha|no|céu.
+dataset 2, sentence 3: 4 words outside 6..10: Vais|sair|para|almoçar?
+dataset 2, sentence 6: 12 words outside 6..10: A|nossa|família|vai|de|férias|para|a|praia|todos|os|anos.

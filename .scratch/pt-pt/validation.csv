@@ -49,7 +49,7 @@ digital_electricity,pending,pending,pending,pending,pending,
 drawing_wheels,pending,pending,pending,pending,pending,
 drawletters,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/drawletters.md
 drawnumbers,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/drawnumbers.md
-enumerate,pending,pending,pending,pending,pending,
+enumerate,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/enumerate.md
 erase,pending,pending,pending,pending,pending,
 erase_2clic,pending,pending,pending,pending,pending,
 erase_clic,pending,pending,pending,pending,pending,
@@ -83,7 +83,7 @@ gravity,pending,pending,pending,pending,pending,
 guess24,pending,pending,pending,pending,pending,
 guesscount,pending,pending,pending,pending,pending,
 guessnumber,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/guessnumber.md
-hangman,pending,pending,pending,pending,pending,
+hangman,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/hangman.md
 hanoi,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/hanoi.md
 hanoi_real,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/hanoi_real.md
 hexagon,pending,pending,pending,pending,pending,
@@ -182,8 +182,8 @@ share,pending,pending,pending,pending,pending,
 simplepaint,pending,pending,pending,pending,pending,
 sixteen,pending,pending,pending,pending,pending,
 sketch,pending,pending,pending,pending,pending,
-smallnumbers,pending,pending,pending,pending,pending,
-smallnumbers2,pending,pending,pending,pending,pending,
+smallnumbers,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/smallnumbers.md
+smallnumbers2,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/smallnumbers2.md
 solar_system,pending,pending,pending,pending,pending,
 submarine,pending,pending,pending,pending,pending,
 sudoku,pending,pending,pending,pending,pending,

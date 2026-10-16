@@ -65,12 +65,15 @@ def main():
     parser.add_argument('--output',type=Path,required=True)
     parser.add_argument('--jobs',type=int,default=8)
     parser.add_argument('--resume',action='store_true')
+    parser.add_argument('--dataset',choices=['all','full','sample'],default='all')
     parser.add_argument('--activity',choices=['hangman','letter-in-word'],default='hangman')
     parser.add_argument('--lesson',type=int,action='append',help='Optional1-based tracer lesson filter')
     args=parser.parse_args()
     if args.jobs<1:parser.error('jobs must be positive')
     data=corpus()
-    available_lessons={index+1 for lessons in data['datasets'].values() for index in range(len(lessons))}
+    datasets={name:lessons for name,lessons in data['datasets'].items()
+              if args.dataset=='all' or name==('words.json' if args.dataset=='full' else 'words_sample.json')}
+    available_lessons={index+1 for lessons in datasets.values() for index in range(len(lessons))}
     if not available_lessons or set(args.lesson or [])-available_lessons:
         parser.error('No applicable lessons for the selected lesson numbers')
     if args.output.exists() and not args.resume:parser.error('Use new output or explicit --resume')
@@ -82,7 +85,7 @@ def main():
     frozen_root,frozen_sha=freeze_sources(args.activity)
     frozen_source=frozen_root/source.relative_to(ROOT)
     tasks=[]
-    for dataset,lessons in data['datasets'].items():
+    for dataset,lessons in datasets.items():
         external=dataset=='words.json'
         snapshot=(args.full_snapshot if external else args.sample_snapshot).resolve()
         for index,lesson in enumerate(lessons):

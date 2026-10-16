@@ -1,0 +1,299 @@
+{
+  "sentences": [
+    {
+      "dataset": 1,
+      "sentence": 1,
+      "words": 3,
+      "cards": 3,
+      "text": "O cão ladra."
+    },
+    {
+      "dataset": 1,
+      "sentence": 2,
+      "words": 4,
+      "cards": 4,
+      "text": "A casa é vermelha."
+    },
+    {
+      "dataset": 1,
+      "sentence": 3,
+      "words": 5,
+      "cards": 4,
+      "text": "O menino lê um livro."
+    },
+    {
+      "dataset": 1,
+      "sentence": 4,
+      "words": 5,
+      "cards": 5,
+      "text": "O meu amigo é fixe."
+    },
+    {
+      "dataset": 1,
+      "sentence": 5,
+      "words": 3,
+      "cards": 3,
+      "text": "Que vista maravilhosa!"
+    },
+    {
+      "dataset": 1,
+      "sentence": 6,
+      "words": 5,
+      "cards": 5,
+      "text": "O João mergulha na piscina."
+    },
+    {
+      "dataset": 1,
+      "sentence": 7,
+      "words": 5,
+      "cards": 5,
+      "text": "A Joana quer um livro."
+    },
+    {
+      "dataset": 1,
+      "sentence": 8,
+      "words": 5,
+      "cards": 5,
+      "text": "A mãe fez-me uma sandes."
+    },
+    {
+      "dataset": 1,
+      "sentence": 9,
+      "words": 5,
+      "cards": 5,
+      "text": "Os tigres vivem nas florestas."
+    },
+    {
+      "dataset": 1,
+      "sentence": 10,
+      "words": 5,
+      "cards": 5,
+      "text": "O futebol joga-se em equipa."
+    },
+    {
+      "dataset": 2,
+      "sentence": 1,
+      "words": 6,
+      "cards": 6,
+      "text": "O Sol brilha no céu azul."
+    },
+    {
+      "dataset": 2,
+      "sentence": 2,
+      "words": 8,
+      "cards": 8,
+      "text": "As crianças gostam de se divertir à noite."
+    },
+    {
+      "dataset": 2,
+      "sentence": 3,
+      "words": 6,
+      "cards": 6,
+      "text": "Vais sair de casa para almoçar?"
+    },
+    {
+      "dataset": 2,
+      "sentence": 4,
+      "words": 7,
+      "cards": 7,
+      "text": "A menina calçou os sapatos e saiu."
+    },
+    {
+      "dataset": 2,
+      "sentence": 5,
+      "words": 9,
+      "cards": 9,
+      "text": "O José ficou doente depois de comer chocolates grandes."
+    },
+    {
+      "dataset": 2,
+      "sentence": 6,
+      "words": 10,
+      "cards": 10,
+      "text": "A nossa família passa férias na praia todos os anos."
+    },
+    {
+      "dataset": 2,
+      "sentence": 7,
+      "words": 7,
+      "cards": 7,
+      "text": "O tio Paulo deu-me um camião vermelho."
+    },
+    {
+      "dataset": 2,
+      "sentence": 8,
+      "words": 8,
+      "cards": 8,
+      "text": "Quando terminares o arroz podes comer a sobremesa."
+    },
+    {
+      "dataset": 2,
+      "sentence": 9,
+      "words": 7,
+      "cards": 7,
+      "text": "A mãe pediu-me para brincar no quarto."
+    },
+    {
+      "dataset": 2,
+      "sentence": 10,
+      "words": 7,
+      "cards": 7,
+      "text": "Penso que vamos ter um bom dia."
+    }
+  ],
+  "alphabet_levels": [
+    {
+      "dataset": 1,
+      "alphabet": "abcde",
+      "direction": "ascending"
+    },
+    {
+      "dataset": 1,
+      "alphabet": "cfglm",
+      "direction": "ascending"
+    },
+    {
+      "dataset": 2,
+      "alphabet": "vwxyz",
+      "direction": "descending"
+    },
+    {
+      "dataset": 2,
+      "alphabet": "abdfg",
+      "direction": "descending"
+    },
+    {
+      "dataset": 3,
+      "alphabet": "abcdefghijklmnopqrstuvwxyz",
+      "direction": "ascending"
+    },
+    {
+      "dataset": 4,
+      "alphabet": "abcdefghijklmnopqrstuvwxyz",
+      "direction": "descending"
+    },
+    {
+      "dataset": 5,
+      "alphabet": "abcdefghijklmnopqrstuvwxyz",
+      "direction": "ascending"
+    },
+    {
+      "dataset": 6,
+      "alphabet": "abcdefghijklmnopqrstuvwxyz",
+      "direction": "descending"
+    }
+  ],
+  "number_levels": [
+    {
+      "dataset": 1,
+      "fixed": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction": "ascending"
+    },
+    {
+      "dataset": 2,
+      "fixed": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction": "descending"
+    },
+    {
+      "dataset": 3,
+      "random": {
+        "minNumber": 2,
+        "maxNumber": 10,
+        "numberOfElementsToOrder": 5
+      },
+      "direction": "ascending"
+    },
+    {
+      "dataset": 4,
+      "random": {
+        "minNumber": 2,
+        "maxNumber": 10,
+        "numberOfElementsToOrder": 5
+      },
+      "direction": "descending"
+    },
+    {
+      "dataset": 5,
+      "random": {
+        "minNumber": 8,
+        "maxNumber": 20,
+        "numberOfElementsToOrder": 5
+      },
+      "direction": "ascending"
+    },
+    {
+      "dataset": 6,
+      "random": {
+        "minNumber": 8,
+        "maxNumber": 20,
+        "numberOfElementsToOrder": 5
+      },
+      "direction": "descending"
+    },
+    {
+      "dataset": 7,
+      "random": {
+        "minNumber": 2,
+        "maxNumber": 30,
+        "numberOfElementsToOrder": 8
+      },
+      "direction": "ascending"
+    },
+    {
+      "dataset": 8,
+      "random": {
+        "minNumber": 2,
+        "maxNumber": 30,
+        "numberOfElementsToOrder": 8
+      },
+      "direction": "descending"
+    }
+  ],
+  "source_files_sha256": {
+    "src/activities/ordering_numbers/ActivityInfo.qml": "3b62774398dfe5fd32aca84566bef7d0dd2772c407e9e9320ce313900ef75eec",
+    "src/activities/ordering_numbers/CMakeLists.txt": "9fe718ce00bceb472974a81ff5938bd0ecabe60dff1df060c412265dbf735db1",
+    "src/activities/ordering_numbers/Ordering.qml": "e9281e0012e99768058a7f4cb5b2078ae67a93f763ceaaf7e4b3998589f862b4",
+    "src/activities/ordering_numbers/OrderingElement.qml": "74bb824c844480354329636e660e45fb52fc795e6d5a6d46e763cbe6e04ddaaf",
+    "src/activities/ordering_numbers/OrderingNumbers.qml": "8634b4b605607b8f476c5150a3740c8f1313ac2c7b51f570cd05f2fd0b718e09",
+    "src/activities/ordering_numbers/OrderingPlaceholder.qml": "922dc17edc70d982baeed4279f6b14dda35decf3b74abef8eab9ce95106eb85e",
+    "src/activities/ordering_numbers/ordering.js": "5e653f6602b3135f2b0ef2a8b38e2e4fd18e6ecca8828ccbcb6e8b41eecfe9d4",
+    "src/activities/ordering_numbers/ordering_numbers.svg": "e267a498899f406d7e9376ae11dae31b4ff92f707afc346b5c852b9d54bb8c06",
+    "src/activities/ordering_numbers/resource/1/Data.qml": "06f9ca04340206d09980a24c1dec2779a39298222247c146c0f592c1a27a6f3e",
+    "src/activities/ordering_numbers/resource/2/Data.qml": "68f480c92584b5379b0fba64be4e1950d5316a2d8afaecadb88866b156d8c20a",
+    "src/activities/ordering_numbers/resource/3/Data.qml": "2609308bc68eed789db63df60534468a87006405b7242b2205357f40fa740178",
+    "src/activities/ordering_numbers/resource/4/Data.qml": "34573839eb846c6f61a0605483b47a4a87c72137b9524a99c7e5a86e430c8a86",
+    "src/activities/ordering_numbers/resource/5/Data.qml": "6e2860aae6e193fa0391921f77f64c80da54beebd045bb2fb6a58e6877b1b041",
+    "src/activities/ordering_numbers/resource/6/Data.qml": "4183ae45969c5c34fc3b58c2ad1180653e2ead191095b26b832c817ff9ffe625",
+    "src/activities/ordering_numbers/resource/7/Data.qml": "62a997017c881f1719b710141c367d9026a3c3ef648beb59de96c4aa33561e44",
+    "src/activities/ordering_numbers/resource/8/Data.qml": "a5c0b5d44beab7365bccb81600865b95a792491506d8722606b6396bfef2b5c0",
+    "src/activities/ordering_alphabets/ActivityInfo.qml": "66b273ef5956cfe2349669d0af51548935ec232e76a4dcd67c378c28bbb4cd42",
+    "src/activities/ordering_alphabets/CMakeLists.txt": "d59563f97a843807d7b9636d191f548735c6a597594749f621eae9bb13b2e170",
+    "src/activities/ordering_alphabets/OrderingAlphabets.qml": "047ab320116f5f44f967c07775b387a64259aa395bac471240c3242d95ed815e",
+    "src/activities/ordering_alphabets/ordering_alphabets.svg": "6aa8b1b64ddf9f6b365061f96528fddc6c87b35e105596fd34c1f3971fbae453",
+    "src/activities/ordering_alphabets/resource/1/Data.qml": "16f90e135197e95195ea84aa36233ee928aa426aa9307262b518c7e5b0ee1bf0",
+    "src/activities/ordering_alphabets/resource/2/Data.qml": "7a43e4581c6718a61787dd6f6d61c6b0498ca644b66bf7233fc0ad844f26b678",
+    "src/activities/ordering_alphabets/resource/3/Data.qml": "df002bab2bf0b60b44328840b19417f61520bd19c98dc5f69685f980bf96d3bd",
+    "src/activities/ordering_alphabets/resource/4/Data.qml": "2c4c0793b8ac27bd4982f0e122a8621a821912de897d6c11031a6cb48d901c90",
+    "src/activities/ordering_alphabets/resource/5/Data.qml": "3c7e36ec39d64a9fc7700e223c1730b1e855f28dea1b5307ca309838afdb1f56",
+    "src/activities/ordering_alphabets/resource/6/Data.qml": "e425061eefcaab60846ab9ffdabdb387c57f9a8e649c2572fa72d59a1b4b9653",
+    "src/activities/ordering_sentences/ActivityInfo.qml": "ac8c632df2b9d5945cccebe4e7247c4a2836493b6ffe2f6a1b5307f366d724ef",
+    "src/activities/ordering_sentences/CMakeLists.txt": "99b915319ab6ea05f004efcd0ee775be3b1c6d503f8f089ce1d1afe296fa247e",
+    "src/activities/ordering_sentences/OrderingSentences.qml": "16d68f4c21cd10649e09422571480cab6c50429eb0e30e2277cf1708136ee9f2",
+    "src/activities/ordering_sentences/ordering_sentences.svg": "24584b2095185eeb2c4566ccb745510713f69d61501972ae88094f6fd2b2577d",
+    "src/activities/ordering_sentences/resource/1/Data.qml": "bf21b3aadea9cb98b30181bc85b374318bb553eeab9d3d930105332bc28178b2",
+    "src/activities/ordering_sentences/resource/2/Data.qml": "82283a36938e7603e3fda85a5a9a3e73ee26e241c8a5c0d0fb42d4f9d9dedc99"
+  },
+  "scope": "All translated sentence word-count bands and all three source resource inventories; native gameplay separately."
+}

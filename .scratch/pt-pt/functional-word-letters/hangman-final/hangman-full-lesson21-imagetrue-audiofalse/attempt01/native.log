@@ -1,0 +1,796 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/build/current-lang/full-snapshot/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagetrue-audiofalse/.native-qml-ab1c8b3afd7240ed977be0aed62e3ae7/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagetrue-audiofalse/.native-qml-ab1c8b3afd7240ed977be0aed62e3ae7/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagetrue-audiofalse/.native-qml-ab1c8b3afd7240ed977be0aed62e3ae7/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagetrue-audiofalse/.native-qml-ab1c8b3afd7240ed977be0aed62e3ae7/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagetrue-audiofalse/.native-qml-ab1c8b3afd7240ed977be0aed62e3ae7/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagetrue-audiofalse/.native-qml-ab1c8b3afd7240ed977be0aed62e3ae7/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagetrue-audiofalse/.native-qml-ab1c8b3afd7240ed977be0aed62e3ae7/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagetrue-audiofalse/.native-qml-ab1c8b3afd7240ed977be0aed62e3ae7/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagetrue-audiofalse/.native-qml-ab1c8b3afd7240ed977be0aed62e3ae7/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity hangman/Hangman.qml at level 20
+qml: hangman/Hangman.qml hangman/Hangman.qml
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+load configuration for: "hangman"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagetrue-audiofalse/.native-qml-ab1c8b3afd7240ed977be0aed62e3ae7/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagetrue-audiofalse/.native-qml-ab1c8b3afd7240ed977be0aed62e3ae7/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+virtualkeyboard set to:  true
+notifyAudioVoices:  true
+qml: HANGMAN_COMPLETED {"ordinal":1,"key":"bulb.ogg","word":"lâmpada","remainingLife":3}
+No audio device detected
+[vorbis @ 0x5861f9b97cc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c001f40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":2,"key":"tire.ogg","word":"pneu","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0023c0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":3,"key":"nest.ogg","word":"ninho","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c026e00] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":4,"key":"drum.ogg","word":"tambor","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":5,"key":"domino.ogg","word":"dominó","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":6,"key":"string.ogg","word":"fio","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":7,"key":"canon.ogg","word":"canhão","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":8,"key":"anchor.ogg","word":"âncora","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":9,"key":"magnet.ogg","word":"íman","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":10,"key":"torch.ogg","word":"tocha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":11,"key":"ink.ogg","word":"tinta","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":12,"key":"pen.ogg","word":"caneta","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":13,"key":"mirror.ogg","word":"espelho","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":14,"key":"fluff.ogg","word":"pano turco","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":15,"key":"pillow.ogg","word":"almofada","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":16,"key":"tag.ogg","word":"etiqueta","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":17,"key":"spool.ogg","word":"carrinho-de-linhas","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":18,"key":"towel.ogg","word":"toalha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":19,"key":"cube.ogg","word":"cubo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":20,"key":"cork.ogg","word":"rolha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":21,"key":"cash.ogg","word":"dinheiro","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":22,"key":"picture.ogg","word":"quadro","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":23,"key":"board.ogg","word":"tabuleta","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":24,"key":"dart_board.ogg","word":"jogo de dardos","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":25,"key":"camera.ogg","word":"máquina fotográfica","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":26,"key":"chain.ogg","word":"corrente","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":27,"key":"medal.ogg","word":"medalha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":28,"key":"suitcase.ogg","word":"mala de viagem","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":29,"key":"knot.ogg","word":"nó","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c004fc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":30,"key":"dishcloth.ogg","word":"pano da loiça","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":31,"key":"watch.ogg","word":"relógio de pulso","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":32,"key":"pearl.ogg","word":"pérola","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":33,"key":"candle.ogg","word":"vela","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":34,"key":"ball_soccer.ogg","word":"bola de futebol","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":35,"key":"sign.ogg","word":"letreiro","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":36,"key":"net.ogg","word":"rede","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":37,"key":"cone.ogg","word":"cone","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":38,"key":"block.ogg","word":"bloco","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":39,"key":"rolling_pin.ogg","word":"rolo da massa","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":40,"key":"prize.ogg","word":"prémio","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":41,"key":"rope.ogg","word":"corda-de-saltar","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":42,"key":"wig.ogg","word":"peruca","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":43,"key":"ball_of_yarn.ogg","word":"novelo de lã","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":44,"key":"school_bag.ogg","word":"mochila da escola","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":45,"key":"wheel.ogg","word":"roda","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":46,"key":"crown.ogg","word":"coroa","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":47,"key":"robot.ogg","word":"robot","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":48,"key":"ball.ogg","word":"bola","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":49,"key":"card.ogg","word":"postal","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":50,"key":"spinning_top.ogg","word":"pião","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":51,"key":"slot.ogg","word":"ranhura","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":52,"key":"mixer.ogg","word":"batedeira","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":53,"key":"spark.ogg","word":"faúlha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":54,"key":"fire_extinguisher.ogg","word":"extintor","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":55,"key":"pole.ogg","word":"varão","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":56,"key":"book.ogg","word":"livro","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":57,"key":"coin.ogg","word":"moedas","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":58,"key":"clay.ogg","word":"barro","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":59,"key":"flag.ogg","word":"bandeira","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":60,"key":"soap.ogg","word":"sabão","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":61,"key":"thread.ogg","word":"linha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":62,"key":"bell.ogg","word":"sino","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":63,"key":"necklace.ogg","word":"colar","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":64,"key":"harp.ogg","word":"harpa","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":65,"key":"teddy.ogg","word":"ursinho-de-peluche","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":66,"key":"umbrella.ogg","word":"guarda-chuva","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":67,"key":"microphone.ogg","word":"microfone","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":68,"key":"toy.ogg","word":"brinquedo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":69,"key":"map.ogg","word":"mapa","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":70,"key":"razor.ogg","word":"lâmina-de-barbear","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":71,"key":"squirt.ogg","word":"esguichador","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":72,"key":"pacifier.ogg","word":"chucha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":73,"key":"rag.ogg","word":"trapo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":74,"key":"faucet.ogg","word":"torneira","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":75,"key":"mail.ogg","word":"correio","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":76,"key":"pencil.ogg","word":"lápis","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":77,"key":"notebook.ogg","word":"livro de apontamentos","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":78,"key":"keel.ogg","word":"tombar","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":79,"key":"hair_dryer.ogg","word":"secador de cabelo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":80,"key":"slide.ogg","word":"escorrega","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":81,"key":"grill.ogg","word":"grelhador","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":82,"key":"hose.ogg","word":"mangueira","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":83,"key":"sleigh.ogg","word":"trenó","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":84,"key":"trap.ogg","word":"ratoeira","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":85,"key":"chalk.ogg","word":"giz","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":86,"key":"wreath.ogg","word":"grinalda","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":87,"key":"cross.ogg","word":"cruz","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":88,"key":"air_horn.ogg","word":"buzina","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":89,"key":"radio.ogg","word":"rádio","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":90,"key":"glasses.ogg","word":"óculos","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":91,"key":"cigar.ogg","word":"charuto","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":92,"key":"foam.ogg","word":"espuma","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":93,"key":"tube.ogg","word":"tubo de batom","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":94,"key":"bag.ogg","word":"mochila","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":95,"key":"hook.ogg","word":"gancho","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":96,"key":"eraser.ogg","word":"borracha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":97,"key":"match.ogg","word":"fósforo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":98,"key":"pill.ogg","word":"comprimido","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":99,"key":"mast.ogg","word":"mastro","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":100,"key":"flute.ogg","word":"flauta","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":101,"key":"glue.ogg","word":"cola","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":102,"key":"lasso.ogg","word":"laço","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":103,"key":"keyboard.ogg","word":"teclado","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":104,"key":"gift.ogg","word":"prenda","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":105,"key":"cloth.ogg","word":"tecido","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":106,"key":"pair.ogg","word":"par","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":107,"key":"stamp.ogg","word":"selo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":108,"key":"jewel.ogg","word":"jóia","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":109,"key":"rifle.ogg","word":"espingarda","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":110,"key":"paper.ogg","word":"papel","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":111,"key":"game.ogg","word":"jogo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":112,"key":"bomb.ogg","word":"bomba","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":113,"key":"flacon.ogg","word":"frasco","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":114,"key":"straw.ogg","word":"palhinha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":115,"key":"clothes_hanger.ogg","word":"cabide","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":116,"key":"cane.ogg","word":"bengala","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":117,"key":"phone.ogg","word":"telemóvel","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":118,"key":"badge.ogg","word":"crachá","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":119,"key":"ticket.ogg","word":"bilhete","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":120,"key":"page.ogg","word":"página","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":121,"key":"handlebar.ogg","word":"guiador","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":122,"key":"magnifying_glass.ogg","word":"lupa","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":123,"key":"pipe.ogg","word":"cachimbo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":124,"key":"saddle.ogg","word":"sela","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":125,"key":"comb.ogg","word":"pente","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c0bacc0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":126,"key":"tissue.ogg","word":"lenço de papel","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":127,"key":"newspaper.ogg","word":"jornal","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":128,"key":"wood.ogg","word":"madeira","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":129,"key":"marble.ogg","word":"berlinde","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":130,"key":"stack.ogg","word":"pilha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":131,"key":"piano.ogg","word":"piano","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":132,"key":"bucket.ogg","word":"balde","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":133,"key":"mask.ogg","word":"máscara de mergulho","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":134,"key":"cart.ogg","word":"carrinho de compras","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":135,"key":"kite.ogg","word":"papagaio","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":136,"key":"log.ogg","word":"lenha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":137,"key":"oar.ogg","word":"remo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":138,"key":"doll.ogg","word":"boneca","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":139,"key":"box.ogg","word":"caixa","remainingLife":6}
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x75374c025ec0] Could not update timestamps for discarded samples.
+qml: NATIVE_RESULT {"failures":0,"passes":2,"lesson":20,"externalWords":true,"imageHint":true,"audioHint":false,"physicalInputs":464,"virtualInputs":382,"accented":{"â":true,"ó":true,"ã":true,"í":true,"á":true,"ç":true,"é":true,"ú":true},"completed":[{"ordinal":1,"key":"bulb.ogg","word":"lâmpada","remainingLife":3},{"ordinal":2,"key":"tire.ogg","word":"pneu","remainingLife":6},{"ordinal":3,"key":"nest.ogg","word":"ninho","remainingLife":6},{"ordinal":4,"key":"drum.ogg","word":"tambor","remainingLife":6},{"ordinal":5,"key":"domino.ogg","word":"dominó","remainingLife":6},{"ordinal":6,"key":"string.ogg","word":"fio","remainingLife":6},{"ordinal":7,"key":"canon.ogg","word":"canhão","remainingLife":6},{"ordinal":8,"key":"anchor.ogg","word":"âncora","remainingLife":6},{"ordinal":9,"key":"magnet.ogg","word":"íman","remainingLife":6},{"ordinal":10,"key":"torch.ogg","word":"tocha","remainingLife":6},{"ordinal":11,"key":"ink.ogg","word":"tinta","remainingLife":6},{"ordinal":12,"key":"pen.ogg","word":"caneta","remainingLife":6},{"ordinal":13,"key":"mirror.ogg","word":"espelho","remainingLife":6},{"ordinal":14,"key":"fluff.ogg","word":"pano turco","remainingLife":6},{"ordinal":15,"key":"pillow.ogg","word":"almofada","remainingLife":6},{"ordinal":16,"key":"tag.ogg","word":"etiqueta","remainingLife":6},{"ordinal":17,"key":"spool.ogg","word":"carrinho-de-linhas","remainingLife":6},{"ordinal":18,"key":"towel.ogg","word":"toalha","remainingLife":6},{"ordinal":19,"key":"cube.ogg","word":"cubo","remainingLife":6},{"ordinal":20,"key":"cork.ogg","word":"rolha","remainingLife":6},{"ordinal":21,"key":"cash.ogg","word":"dinheiro","remainingLife":6},{"ordinal":22,"key":"picture.ogg","word":"quadro","remainingLife":6},{"ordinal":23,"key":"board.ogg","word":"tabuleta","remainingLife":6},{"ordinal":24,"key":"dart_board.ogg","word":"jogo de dardos","remainingLife":6},{"ordinal":25,"key":"camera.ogg","word":"máquina fotográfica","remainingLife":6},{"ordinal":26,"key":"chain.ogg","word":"corrente","remainingLife":6},{"ordinal":27,"key":"medal.ogg","word":"medalha","remainingLife":6},{"ordinal":28,"key":"suitcase.ogg","word":"mala de viagem","remainingLife":6},{"ordinal":29,"key":"knot.ogg","word":"nó","remainingLife":6},{"ordinal":30,"key":"dishcloth.ogg","word":"pano da loiça","remainingLife":6},{"ordinal":31,"key":"watch.ogg","word":"relógio de pulso","remainingLife":6},{"ordinal":32,"key":"pearl.ogg","word":"pérola","remainingLife":6},{"ordinal":33,"key":"candle.ogg","word":"vela","remainingLife":6},{"ordinal":34,"key":"ball_soccer.ogg","word":"bola de futebol","remainingLife":6},{"ordinal":35,"key":"sign.ogg","word":"letreiro","remainingLife":6},{"ordinal":36,"key":"net.ogg","word":"rede","remainingLife":6},{"ordinal":37,"key":"cone.ogg","word":"cone","remainingLife":6},{"ordinal":38,"key":"block.ogg","word":"bloco","remainingLife":6},{"ordinal":39,"key":"rolling_pin.ogg","word":"rolo da massa","remainingLife":6},{"ordinal":40,"key":"prize.ogg","word":"prémio","remainingLife":6},{"ordinal":41,"key":"rope.ogg","word":"corda-de-saltar","remainingLife":6},{"ordinal":42,"key":"wig.ogg","word":"peruca","remainingLife":6},{"ordinal":43,"key":"ball_of_yarn.ogg","word":"novelo de lã","remainingLife":6},{"ordinal":44,"key":"school_bag.ogg","word":"mochila da escola","remainingLife":6},{"ordinal":45,"key":"wheel.ogg","word":"roda","remainingLife":6},{"ordinal":46,"key":"crown.ogg","word":"coroa","remainingLife":6},{"ordinal":47,"key":"robot.ogg","word":"robot","remainingLife":6},{"ordinal":48,"key":"ball.ogg","word":"bola","remainingLife":6},{"ordinal":49,"key":"card.ogg","word":"postal","remainingLife":6},{"ordinal":50,"key":"spinning_top.ogg","word":"pião","remainingLife":6},{"ordinal":51,"key":"slot.ogg","word":"ranhura","remainingLife":6},{"ordinal":52,"key":"mixer.ogg","word":"batedeira","remainingLife":6},{"ordinal":53,"key":"spark.ogg","word":"faúlha","remainingLife":6},{"ordinal":54,"key":"fire_extinguisher.ogg","word":"extintor","remainingLife":6},{"ordinal":55,"key":"pole.ogg","word":"varão","remainingLife":6},{"ordinal":56,"key":"book.ogg","word":"livro","remainingLife":6},{"ordinal":57,"key":"coin.ogg","word":"moedas","remainingLife":6},{"ordinal":58,"key":"clay.ogg","word":"barro","remainingLife":6},{"ordinal":59,"key":"flag.ogg","word":"bandeira","remainingLife":6},{"ordinal":60,"key":"soap.ogg","word":"sabão","remainingLife":6},{"ordinal":61,"key":"thread.ogg","word":"linha","remainingLife":6},{"ordinal":62,"key":"bell.ogg","word":"sino","remainingLife":6},{"ordinal":63,"key":"necklace.ogg","word":"colar","remainingLife":6},{"ordinal":64,"key":"harp.ogg","word":"harpa","remainingLife":6},{"ordinal":65,"key":"teddy.ogg","word":"ursinho-de-peluche","remainingLife":6},{"ordinal":66,"key":"umbrella.ogg","word":"guarda-chuva","remainingLife":6},{"ordinal":67,"key":"microphone.ogg","word":"microfone","remainingLife":6},{"ordinal":68,"key":"toy.ogg","word":"brinquedo","remainingLife":6},{"ordinal":69,"key":"map.ogg","word":"mapa","remainingLife":6},{"ordinal":70,"key":"razor.ogg","word":"lâmina-de-barbear","remainingLife":6},{"ordinal":71,"key":"squirt.ogg","word":"esguichador","remainingLife":6},{"ordinal":72,"key":"pacifier.ogg","word":"chucha","remainingLife":6},{"ordinal":73,"key":"rag.ogg","word":"trapo","remainingLife":6},{"ordinal":74,"key":"faucet.ogg","word":"torneira","remainingLife":6},{"ordinal":75,"key":"mail.ogg","word":"correio","remainingLife":6},{"ordinal":76,"key":"pencil.ogg","word":"lápis","remainingLife":6},{"ordinal":77,"key":"notebook.ogg","word":"livro de apontamentos","remainingLife":6},{"ordinal":78,"key":"keel.ogg","word":"tombar","remainingLife":6},{"ordinal":79,"key":"hair_dryer.ogg","word":"secador de cabelo","remainingLife":6},{"ordinal":80,"key":"slide.ogg","word":"escorrega","remainingLife":6},{"ordinal":81,"key":"grill.ogg","word":"grelhador","remainingLife":6},{"ordinal":82,"key":"hose.ogg","word":"mangueira","remainingLife":6},{"ordinal":83,"key":"sleigh.ogg","word":"trenó","remainingLife":6},{"ordinal":84,"key":"trap.ogg","word":"ratoeira","remainingLife":6},{"ordinal":85,"key":"chalk.ogg","word":"giz","remainingLife":6},{"ordinal":86,"key":"wreath.ogg","word":"grinalda","remainingLife":6},{"ordinal":87,"key":"cross.ogg","word":"cruz","remainingLife":6},{"ordinal":88,"key":"air_horn.ogg","word":"buzina","remainingLife":6},{"ordinal":89,"key":"radio.ogg","word":"rádio","remainingLife":6},{"ordinal":90,"key":"glasses.ogg","word":"óculos","remainingLife":6},{"ordinal":91,"key":"cigar.ogg","word":"charuto","remainingLife":6},{"ordinal":92,"key":"foam.ogg","word":"espuma","remainingLife":6},{"ordinal":93,"key":"tube.ogg","word":"tubo de batom","remainingLife":6},{"ordinal":94,"key":"bag.ogg","word":"mochila","remainingLife":6},{"ordinal":95,"key":"hook.ogg","word":"gancho","remainingLife":6},{"ordinal":96,"key":"eraser.ogg","word":"borracha","remainingLife":6},{"ordinal":97,"key":"match.ogg","word":"fósforo","remainingLife":6},{"ordinal":98,"key":"pill.ogg","word":"comprimido","remainingLife":6},{"ordinal":99,"key":"mast.ogg","word":"mastro","remainingLife":6},{"ordinal":100,"key":"flute.ogg","word":"flauta","remainingLife":6},{"ordinal":101,"key":"glue.ogg","word":"cola","remainingLife":6},{"ordinal":102,"key":"lasso.ogg","word":"laço","remainingLife":6},{"ordinal":103,"key":"keyboard.ogg","word":"teclado","remainingLife":6},{"ordinal":104,"key":"gift.ogg","word":"prenda","remainingLife":6},{"ordinal":105,"key":"cloth.ogg","word":"tecido","remainingLife":6},{"ordinal":106,"key":"pair.ogg","word":"par","remainingLife":6},{"ordinal":107,"key":"stamp.ogg","word":"selo","remainingLife":6},{"ordinal":108,"key":"jewel.ogg","word":"jóia","remainingLife":6},{"ordinal":109,"key":"rifle.ogg","word":"espingarda","remainingLife":6},{"ordinal":110,"key":"paper.ogg","word":"papel","remainingLife":6},{"ordinal":111,"key":"game.ogg","word":"jogo","remainingLife":6},{"ordinal":112,"key":"bomb.ogg","word":"bomba","remainingLife":6},{"ordinal":113,"key":"flacon.ogg","word":"frasco","remainingLife":6},{"ordinal":114,"key":"straw.ogg","word":"palhinha","remainingLife":6},{"ordinal":115,"key":"clothes_hanger.ogg","word":"cabide","remainingLife":6},{"ordinal":116,"key":"cane.ogg","word":"bengala","remainingLife":6},{"ordinal":117,"key":"phone.ogg","word":"telemóvel","remainingLife":6},{"ordinal":118,"key":"badge.ogg","word":"crachá","remainingLife":6},{"ordinal":119,"key":"ticket.ogg","word":"bilhete","remainingLife":6},{"ordinal":120,"key":"page.ogg","word":"página","remainingLife":6},{"ordinal":121,"key":"handlebar.ogg","word":"guiador","remainingLife":6},{"ordinal":122,"key":"magnifying_glass.ogg","word":"lupa","remainingLife":6},{"ordinal":123,"key":"pipe.ogg","word":"cachimbo","remainingLife":6},{"ordinal":124,"key":"saddle.ogg","word":"sela","remainingLife":6},{"ordinal":125,"key":"comb.ogg","word":"pente","remainingLife":6},{"ordinal":126,"key":"tissue.ogg","word":"lenço de papel","remainingLife":6},{"ordinal":127,"key":"newspaper.ogg","word":"jornal","remainingLife":6},{"ordinal":128,"key":"wood.ogg","word":"madeira","remainingLife":6},{"ordinal":129,"key":"marble.ogg","word":"berlinde","remainingLife":6},{"ordinal":130,"key":"stack.ogg","word":"pilha","remainingLife":6},{"ordinal":131,"key":"piano.ogg","word":"piano","remainingLife":6},{"ordinal":132,"key":"bucket.ogg","word":"balde","remainingLife":6},{"ordinal":133,"key":"mask.ogg","word":"máscara de mergulho","remainingLife":6},{"ordinal":134,"key":"cart.ogg","word":"carrinho de compras","remainingLife":6},{"ordinal":135,"key":"kite.ogg","word":"papagaio","remainingLife":6},{"ordinal":136,"key":"log.ogg","word":"lenha","remainingLife":6},{"ordinal":137,"key":"oar.ogg","word":"remo","remainingLife":6},{"ordinal":138,"key":"doll.ogg","word":"boneca","remainingLife":6},{"ordinal":139,"key":"box.ogg","word":"caixa","remainingLife":6}]}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs

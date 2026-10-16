@@ -1,0 +1,207 @@
+{
+  "cases": [
+    {
+      "name": "enumerate-auto-settled",
+      "result_sha256": "0a5922f702ee3f671315fa8a5629f03cbf9d03060c223d44cd9a3b095001d89a",
+      "case_sha256": "e3ba02545749d1c8c35fcd017f7cfb0f722ef301c6863f80f88f50b142c94180"
+    },
+    {
+      "name": "enumerate-ok-first",
+      "result_sha256": "05a7137a937a0bc97cd72a0a6d85ba516e71774a7b698344ab29ca354f4c0c68",
+      "case_sha256": "bfeade5cef1f7b189cf381ee496bfc369d4e3f93653dd9313f0182992096b50d"
+    },
+    {
+      "name": "dice-complete-first",
+      "result_sha256": "0e1e0a74d4f7a63225b33ee07fcec4dfa1e5128de299c48bd252c5d4d7e2286f",
+      "case_sha256": "cdd3948d0ae54c56d81f12ea8eee019ea68e9b1546668e79b3051c03e973ee5f"
+    },
+    {
+      "name": "domino-complete-first",
+      "result_sha256": "666ec33b4cd1b1572d2de40c0f1ac3757243c573e4dd9e1a33b447ed143505e7",
+      "case_sha256": "cdd3948d0ae54c56d81f12ea8eee019ea68e9b1546668e79b3051c03e973ee5f"
+    },
+    {
+      "name": "enumerate-auto-physical",
+      "result_sha256": "3e532adf140ff7f4ccbf58ca1b74558cb6db272e3e1bdb778806f9948aa8bdaf",
+      "case_sha256": "160174c6d98c27f9a60f39b9766c76aab36eba7672c37d2ecff4dc5a79d08c49"
+    },
+    {
+      "name": "enumerate-ok-physical",
+      "result_sha256": "8b78c2b4e92a2c0b1058caeb580946af08e7c1cb120b9facbf3f3acc497ecc85",
+      "case_sha256": "c9e6f4bc39757ef63844f11b6aa2f5ea86a85ca3cd223a0dae1d022980a71965"
+    },
+    {
+      "name": "dice-physical",
+      "result_sha256": "ca9340c4ab5a5ad9bd0edf634bb378ae826bb621a5644607c09845414d46987e",
+      "case_sha256": "915db6e27ed2f0be16d7df45ee2468543ec8bd1abac993576f5c56acfb47477e"
+    },
+    {
+      "name": "domino-physical",
+      "result_sha256": "02742c22765f5f3cc600af4ed454d952f0cfe622589e11988c24a0f138d78a1d",
+      "case_sha256": "915db6e27ed2f0be16d7df45ee2468543ec8bd1abac993576f5c56acfb47477e"
+    },
+    {
+      "name": "enumerate-controls-navigation",
+      "result_sha256": "4abafe9971ad22bba189e605d2e9d3c399aaa7720e8a383bcdbb2228f6488b86",
+      "case_sha256": "fadafb8c25c650a72e8a0fc37455c8c8f87627c24887fddf46ad48a0e78292ca"
+    },
+    {
+      "name": "dice-controls-first",
+      "result_sha256": "eb0edd25e62eba83e7d4f1e8e2b75bc290bca6e9843b3f3756fd20bd78b96031",
+      "case_sha256": "50ebb88ceca5898b86d4c8da39c8fd9a95c5b4e3ce587f37da95cf24deab7d58"
+    },
+    {
+      "name": "domino-controls-first",
+      "result_sha256": "c9db7e01a13c4bdeb07855af2cc608f3d513594697950b13b753e08bd1e98dd1",
+      "case_sha256": "ffa07e9c4fe866f044fa62bb86a12f913687f90e6b2b75b9236b0c6d254a9d8c"
+    },
+    {
+      "name": "enumerate-selectors",
+      "result_sha256": "6743f1e79b84e3696e1bfb3ff99dcbaffac02e0e0e2c1d23cd146f1ff2de620d",
+      "case_sha256": "c108b0ff738b38b79809faa28b3e1bc2b501d57337b27cd29578e95e8a0c5597"
+    },
+    {
+      "name": "dice-selectors",
+      "result_sha256": "98048afddc5afcd13de9df538e1219cebf6bf3b6278183f7e64b8c840aaa4455",
+      "case_sha256": "c108b0ff738b38b79809faa28b3e1bc2b501d57337b27cd29578e95e8a0c5597"
+    },
+    {
+      "name": "domino-selectors",
+      "result_sha256": "07ad70bfc29e517ea402bc7c8ac7454a51ccdcf2caf569e27bbec088be7619ed",
+      "case_sha256": "c108b0ff738b38b79809faa28b3e1bc2b501d57337b27cd29578e95e8a0c5597"
+    }
+  ],
+  "main_questions": 848,
+  "physical_tracer_questions": 174,
+  "controls": {
+    "dice-controls-first": [
+      {
+        "speed": 1,
+        "fromY": -20.89046875,
+        "toY": -19.16140625
+      },
+      {
+        "speed": 2,
+        "fromY": -16.8015625,
+        "toY": -13.377812500000001
+      },
+      {
+        "speed": 3,
+        "fromY": -12.666293126655106,
+        "toY": -7.460105300720578
+      },
+      {
+        "speed": 4,
+        "fromY": -8.555,
+        "toY": -1.645624999999999
+      },
+      {
+        "speed": 5,
+        "fromY": -4.495312500000001,
+        "toY": 4.201562500000001
+      },
+      {
+        "speed": 6,
+        "fromY": -0.2911126136278277,
+        "toY": 10.121328224776505
+      },
+      {
+        "speed": 7,
+        "fromY": 3.74249528901354,
+        "toY": 15.97462640781805
+      },
+      {
+        "speed": 8,
+        "fromY": 7.793750000000003,
+        "toY": 21.653750000000002
+      },
+      {
+        "speed": 9,
+        "fromY": 12.281273005266435,
+        "toY": 27.65162240217453
+      },
+      {
+        "speed": 10,
+        "fromY": 16.146875,
+        "toY": 33.3515625
+      },
+      {
+        "missed": true,
+        "lastY": 799.79375,
+        "elapsedMs": 45657
+      },
+      {
+        "recovered": true
+      },
+      {
+        "focusRestored": true,
+        "physicalWithoutVisual": true
+      }
+    ],
+    "domino-controls-first": [
+      {
+        "speed": 1,
+        "fromY": -20.88703125,
+        "toY": -19.154531249999998
+      },
+      {
+        "speed": 2,
+        "fromY": -16.784375,
+        "toY": -13.333124999999999
+      },
+      {
+        "speed": 3,
+        "fromY": -12.640468782280431,
+        "toY": -7.449775562970707
+      },
+      {
+        "speed": 4,
+        "fromY": -8.61,
+        "toY": -1.6799999999999997
+      },
+      {
+        "speed": 5,
+        "fromY": -4.4609375,
+        "toY": 4.158593750000001
+      },
+      {
+        "speed": 6,
+        "fromY": -0.35309142814213956,
+        "toY": 10.100668619938396
+      },
+      {
+        "speed": 7,
+        "fromY": 3.802752092554453,
+        "toY": 15.890266882860779
+      },
+      {
+        "speed": 8,
+        "fromY": 7.876249999999999,
+        "toY": 21.653750000000002
+      },
+      {
+        "speed": 9,
+        "fromY": 12.156690639334052,
+        "toY": 27.900787134039298
+      },
+      {
+        "speed": 10,
+        "fromY": 16.112499999999997,
+        "toY": 33.334375
+      },
+      {
+        "missed": true,
+        "lastY": 799.2265625,
+        "elapsedMs": 45615
+      },
+      {
+        "recovered": true
+      },
+      {
+        "focusRestored": true,
+        "physicalWithoutVisual": true
+      }
+    ]
+  },
+  "rcc_source_files": 335
+}

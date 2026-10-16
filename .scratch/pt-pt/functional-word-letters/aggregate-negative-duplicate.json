@@ -1,0 +1,273 @@
+{
+  "passed": false,
+  "campaigns": 16,
+  "words": 1872,
+  "expected_campaigns": 116,
+  "missing": [
+    "hangman-full-lesson01-imagefalse-audiofalse",
+    "hangman-full-lesson01-imagefalse-audiotrue",
+    "hangman-full-lesson01-imagetrue-audiofalse",
+    "hangman-full-lesson01-imagetrue-audiotrue",
+    "hangman-full-lesson03-imagefalse-audiofalse",
+    "hangman-full-lesson03-imagefalse-audiotrue",
+    "hangman-full-lesson03-imagetrue-audiofalse",
+    "hangman-full-lesson03-imagetrue-audiotrue",
+    "hangman-full-lesson04-imagefalse-audiofalse",
+    "hangman-full-lesson04-imagefalse-audiotrue",
+    "hangman-full-lesson04-imagetrue-audiofalse",
+    "hangman-full-lesson04-imagetrue-audiotrue",
+    "hangman-full-lesson05-imagefalse-audiofalse",
+    "hangman-full-lesson05-imagefalse-audiotrue",
+    "hangman-full-lesson05-imagetrue-audiofalse",
+    "hangman-full-lesson05-imagetrue-audiotrue",
+    "hangman-full-lesson06-imagefalse-audiofalse",
+    "hangman-full-lesson06-imagefalse-audiotrue",
+    "hangman-full-lesson06-imagetrue-audiofalse",
+    "hangman-full-lesson06-imagetrue-audiotrue",
+    "hangman-full-lesson07-imagefalse-audiofalse",
+    "hangman-full-lesson07-imagefalse-audiotrue",
+    "hangman-full-lesson07-imagetrue-audiofalse",
+    "hangman-full-lesson07-imagetrue-audiotrue",
+    "hangman-full-lesson08-imagefalse-audiofalse",
+    "hangman-full-lesson08-imagefalse-audiotrue",
+    "hangman-full-lesson08-imagetrue-audiofalse",
+    "hangman-full-lesson08-imagetrue-audiotrue",
+    "hangman-full-lesson09-imagefalse-audiofalse",
+    "hangman-full-lesson09-imagefalse-audiotrue",
+    "hangman-full-lesson09-imagetrue-audiofalse",
+    "hangman-full-lesson09-imagetrue-audiotrue",
+    "hangman-full-lesson10-imagefalse-audiofalse",
+    "hangman-full-lesson10-imagefalse-audiotrue",
+    "hangman-full-lesson10-imagetrue-audiofalse",
+    "hangman-full-lesson10-imagetrue-audiotrue",
+    "hangman-full-lesson11-imagefalse-audiofalse",
+    "hangman-full-lesson11-imagefalse-audiotrue",
+    "hangman-full-lesson11-imagetrue-audiofalse",
+    "hangman-full-lesson11-imagetrue-audiotrue",
+    "hangman-full-lesson12-imagefalse-audiofalse",
+    "hangman-full-lesson12-imagefalse-audiotrue",
+    "hangman-full-lesson12-imagetrue-audiofalse",
+    "hangman-full-lesson12-imagetrue-audiotrue",
+    "hangman-full-lesson13-imagefalse-audiofalse",
+    "hangman-full-lesson13-imagefalse-audiotrue",
+    "hangman-full-lesson13-imagetrue-audiofalse",
+    "hangman-full-lesson13-imagetrue-audiotrue",
+    "hangman-full-lesson14-imagefalse-audiofalse",
+    "hangman-full-lesson14-imagefalse-audiotrue",
+    "hangman-full-lesson14-imagetrue-audiofalse",
+    "hangman-full-lesson14-imagetrue-audiotrue",
+    "hangman-full-lesson15-imagefalse-audiofalse",
+    "hangman-full-lesson15-imagefalse-audiotrue",
+    "hangman-full-lesson15-imagetrue-audiofalse",
+    "hangman-full-lesson15-imagetrue-audiotrue",
+    "hangman-full-lesson16-imagefalse-audiofalse",
+    "hangman-full-lesson16-imagefalse-audiotrue",
+    "hangman-full-lesson16-imagetrue-audiofalse",
+    "hangman-full-lesson16-imagetrue-audiotrue",
+    "hangman-full-lesson17-imagefalse-audiofalse",
+    "hangman-full-lesson17-imagefalse-audiotrue",
+    "hangman-full-lesson17-imagetrue-audiofalse",
+    "hangman-full-lesson17-imagetrue-audiotrue",
+    "hangman-full-lesson18-imagefalse-audiofalse",
+    "hangman-full-lesson18-imagefalse-audiotrue",
+    "hangman-full-lesson18-imagetrue-audiofalse",
+    "hangman-full-lesson18-imagetrue-audiotrue",
+    "hangman-full-lesson19-imagefalse-audiofalse",
+    "hangman-full-lesson19-imagefalse-audiotrue",
+    "hangman-full-lesson19-imagetrue-audiofalse",
+    "hangman-full-lesson19-imagetrue-audiotrue",
+    "hangman-full-lesson20-imagefalse-audiofalse",
+    "hangman-full-lesson20-imagefalse-audiotrue",
+    "hangman-full-lesson20-imagetrue-audiofalse",
+    "hangman-full-lesson20-imagetrue-audiotrue",
+    "hangman-full-lesson22-imagefalse-audiofalse",
+    "hangman-full-lesson22-imagefalse-audiotrue",
+    "hangman-full-lesson22-imagetrue-audiofalse",
+    "hangman-full-lesson22-imagetrue-audiotrue",
+    "hangman-full-lesson23-imagefalse-audiofalse",
+    "hangman-full-lesson23-imagefalse-audiotrue",
+    "hangman-full-lesson23-imagetrue-audiofalse",
+    "hangman-full-lesson23-imagetrue-audiotrue",
+    "hangman-sample-lesson01-imagefalse-audiofalse",
+    "hangman-sample-lesson01-imagefalse-audiotrue",
+    "hangman-sample-lesson01-imagetrue-audiofalse",
+    "hangman-sample-lesson01-imagetrue-audiotrue",
+    "hangman-sample-lesson02-imagefalse-audiofalse",
+    "hangman-sample-lesson02-imagefalse-audiotrue",
+    "hangman-sample-lesson02-imagetrue-audiofalse",
+    "hangman-sample-lesson02-imagetrue-audiotrue",
+    "hangman-sample-lesson03-imagefalse-audiofalse",
+    "hangman-sample-lesson03-imagefalse-audiotrue",
+    "hangman-sample-lesson03-imagetrue-audiofalse",
+    "hangman-sample-lesson03-imagetrue-audiotrue",
+    "hangman-sample-lesson04-imagefalse-audiofalse",
+    "hangman-sample-lesson04-imagefalse-audiotrue",
+    "hangman-sample-lesson04-imagetrue-audiofalse",
+    "hangman-sample-lesson04-imagetrue-audiotrue",
+    "hangman-sample-lesson05-imagefalse-audiofalse",
+    "hangman-sample-lesson05-imagefalse-audiotrue",
+    "hangman-sample-lesson05-imagetrue-audiofalse",
+    "hangman-sample-lesson05-imagetrue-audiotrue",
+    "hangman-sample-lesson06-imagefalse-audiofalse",
+    "hangman-sample-lesson06-imagefalse-audiotrue",
+    "hangman-sample-lesson06-imagetrue-audiofalse",
+    "hangman-sample-lesson06-imagetrue-audiotrue"
+  ],
+  "errors": [
+    "hangman-full-lesson02-imagefalse-audiofalse: Duplicate campaign receipt",
+    "hangman-full-lesson02-imagefalse-audiotrue: Duplicate campaign receipt",
+    "hangman-full-lesson02-imagetrue-audiofalse: Duplicate campaign receipt",
+    "hangman-full-lesson02-imagetrue-audiotrue: Duplicate campaign receipt",
+    "hangman-full-lesson21-imagefalse-audiofalse: Duplicate campaign receipt",
+    "hangman-full-lesson21-imagefalse-audiotrue: Duplicate campaign receipt",
+    "hangman-full-lesson21-imagetrue-audiofalse: Duplicate campaign receipt",
+    "hangman-full-lesson21-imagetrue-audiotrue: Duplicate campaign receipt",
+    "Missing 108 campaigns"
+  ],
+  "receipts": [
+    {
+      "name": "hangman-full-lesson02-imagefalse-audiofalse",
+      "report": ".scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson02-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "02eac376c7bcdd1cd98c361cdc282099c82eab31d372591447a3d0f5298a24d2",
+      "completed": 95,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson02-imagefalse-audiotrue",
+      "report": ".scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson02-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "39e4efe4ea2402f5a8fa1056e16343375e6c54d881ab307675069d6182511293",
+      "completed": 95,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson02-imagetrue-audiofalse",
+      "report": ".scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson02-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "3278c6354ccae39b050e8d299114c1b252ca27dcd628ef8eb77ab09fdf5f705f",
+      "completed": 95,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson02-imagetrue-audiotrue",
+      "report": ".scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson02-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "b500ca77cc3defa1a9fda70233b58f15fb3d2ef03bd2235302f71d5613b5d397",
+      "completed": 95,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson21-imagefalse-audiofalse",
+      "report": ".scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "33bce6c0c93138150d3b881ba01b5b90a6068e80e73cf5a6aec072b0d74e2f1a",
+      "completed": 139,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson21-imagefalse-audiotrue",
+      "report": ".scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "cd6dd23a0079452b6f4b86bf1323d58ef9d9f6f54276278893cedc8b57acb94b",
+      "completed": 139,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson21-imagetrue-audiofalse",
+      "report": ".scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "32f56defeb4c6d6ef5ec7245f5bcfe9245f7f2a30ca3ba0098f770056518da94",
+      "completed": 139,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson21-imagetrue-audiotrue",
+      "report": ".scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "a4818112d7ca94c60b4ef632126d5002ab18bf75f77d4060caaebb64ffe8515a",
+      "completed": 139,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson02-imagefalse-audiofalse",
+      "report": ".scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson02-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "02eac376c7bcdd1cd98c361cdc282099c82eab31d372591447a3d0f5298a24d2",
+      "completed": 95,
+      "passed": false,
+      "errors": [
+        "Duplicate campaign receipt"
+      ]
+    },
+    {
+      "name": "hangman-full-lesson02-imagefalse-audiotrue",
+      "report": ".scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson02-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "39e4efe4ea2402f5a8fa1056e16343375e6c54d881ab307675069d6182511293",
+      "completed": 95,
+      "passed": false,
+      "errors": [
+        "Duplicate campaign receipt"
+      ]
+    },
+    {
+      "name": "hangman-full-lesson02-imagetrue-audiofalse",
+      "report": ".scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson02-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "3278c6354ccae39b050e8d299114c1b252ca27dcd628ef8eb77ab09fdf5f705f",
+      "completed": 95,
+      "passed": false,
+      "errors": [
+        "Duplicate campaign receipt"
+      ]
+    },
+    {
+      "name": "hangman-full-lesson02-imagetrue-audiotrue",
+      "report": ".scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson02-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "b500ca77cc3defa1a9fda70233b58f15fb3d2ef03bd2235302f71d5613b5d397",
+      "completed": 95,
+      "passed": false,
+      "errors": [
+        "Duplicate campaign receipt"
+      ]
+    },
+    {
+      "name": "hangman-full-lesson21-imagefalse-audiofalse",
+      "report": ".scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "33bce6c0c93138150d3b881ba01b5b90a6068e80e73cf5a6aec072b0d74e2f1a",
+      "completed": 139,
+      "passed": false,
+      "errors": [
+        "Duplicate campaign receipt"
+      ]
+    },
+    {
+      "name": "hangman-full-lesson21-imagefalse-audiotrue",
+      "report": ".scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "cd6dd23a0079452b6f4b86bf1323d58ef9d9f6f54276278893cedc8b57acb94b",
+      "completed": 139,
+      "passed": false,
+      "errors": [
+        "Duplicate campaign receipt"
+      ]
+    },
+    {
+      "name": "hangman-full-lesson21-imagetrue-audiofalse",
+      "report": ".scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "32f56defeb4c6d6ef5ec7245f5bcfe9245f7f2a30ca3ba0098f770056518da94",
+      "completed": 139,
+      "passed": false,
+      "errors": [
+        "Duplicate campaign receipt"
+      ]
+    },
+    {
+      "name": "hangman-full-lesson21-imagetrue-audiotrue",
+      "report": ".scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson21-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "a4818112d7ca94c60b4ef632126d5002ab18bf75f77d4060caaebb64ffe8515a",
+      "completed": 139,
+      "passed": false,
+      "errors": [
+        "Duplicate campaign receipt"
+      ]
+    }
+  ]
+}
