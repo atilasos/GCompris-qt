@@ -1,0 +1,15 @@
+TestCase {
+ name:'AllSketchToolClassesAndFixedModesDrawActualPixels'
+ when:activity.visible&&canvasArea.width>0
+ property var evidence: ({routes:[]})
+__VISIBLE__
+__FILES__
+ function panel(open){if(toolsPanel.isOpen!==open){click(toolsPanel.icon2);wait(400);}compare(toolsPanel.isOpen,open);}
+ function chooseIcon(name){click(find(toolsPanel,function(o){return o.buttonClicked!==undefined&&o.iconSource!==undefined&&String(o.iconSource).endsWith('/'+name+'.svg');}));wait(180);}
+ function fresh(){keyClick(Qt.Key_N,Qt.ControlModifier);wait(300);if(newImageDialog.active)confirmYes();wait(450);}
+ function snapshot(name){mouseMove(activityBackground,1,activityBackground.height-1);wait(180);shot(name);grabImage(canvasArea).save('__QA_OUTPUT__/'+name+'-widget.png');return {cursorVisible:outlineCursor.visible,cursor:box(outlineCursor)};}
+ function selectTool(group,mode){panel(true);chooseIcon(group);if(mode)chooseIcon(mode);panel(false);}
+ function test_tools(){wait(2500);activity.Window.window.requestActivate();wait(500);ensure(!ApplicationInfo.useSoftwareRenderer);evidence.canvas=box(canvasArea);var groups=[['brushTools',['roundBrush','sketchBrush','fillBrush','airBrush','sprayBrush','circlesBrush']],['geometryTools',['rectangleTool','squareTool','ovalTool','circleTool','freeLineTool','hortoLineTool']],['gradientTools',['linearGradient','radialGradient','invertedRadialGradient']],['stampTools',[]],['textTools',[]],['eraserTools',['roundBrush','sketchBrush','fillBrush','airBrush','sprayBrush','circlesBrush']]];var ordinal=0;for(var group of groups){var modes=group[1].length?group[1]:[''];for(var mode of modes){fresh();var record={group:group[0],mode:mode,index:ordinal++};evidence.routes.push(record);if(group[0]==='eraserTools'){selectTool('geometryTools','rectangleTool');drag(canvasArea,350,280,200,180);wait(400);}panel(true);chooseIcon(group[0]);if(mode)chooseIcon(mode);record.visibleChoices=all(toolsPanel,function(o){return drawn(o)&&o.buttonClicked!==undefined&&o.iconSource!==undefined;}).map(function(o){return String(o.iconSource);});record.settings=all(toolsPanel,function(o){return drawn(o)&&o.moved!==undefined&&o.from!==undefined;}).map(function(o){return {from:o.from,to:o.to,step:o.stepSize,value:o.value,geometry:box(o)};});if(group[0]==='textTools'){var input=find(toolsPanel,function(o){return o.cursorPosition!==undefined&&o.wrapMode!==undefined;});click(input);typeText('OLÁ CRIAÇÃO');record.text=String(input.text);compare(record.text,'OLÁ CRIAÇÃO');}shot('route-'+record.index+'-settings');panel(false);record.before=snapshot('route-'+record.index+'-before');if(mode==='fillBrush')polygon(canvasArea);else drag(canvasArea,270,220,180,120);record.after=snapshot('route-'+record.index+'-after');console.log('CREATION_PROGRESS sketch-tool',record.index,group[0],mode);}}
+ evidence.savedFiles=[saveDrawing('artes')];snapshot('finished');helpAndMenu();}
+ function cleanupTestCase(){console.log('NATIVE_CREATION_RESULT',JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,evidence:evidence}));}
+}
