@@ -3,7 +3,7 @@
 import errno,hashlib,json,subprocess,tempfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
-PREFIXES=['CMakeLists.txt','poqm/pt/gcompris_qt.po','tools/run-native-qml-case.py','tools/run-native-qml-supervised.py','tools/native_qml_resources.py','tools/native_qml_supervision.py','tools/pt-pt-audio/rcc_inventory.cpp','src/core','src/activities/redraw','src/activities/redraw_symmetrical','src/activities/mosaic','src/activities/polygons','tests/functional_patterns','tests/pattern_grid_solver','tests/polygon_geometry_oracle']
+PREFIXES=['CMakeLists.txt','poqm/pt/gcompris_qt.po','tools/run-native-qml-case.py','tools/run-native-qml-supervised.py','tools/native_qml_resources.py','tools/native_qml_supervision.py','tools/pt-pt-audio/rcc_inventory.cpp','src/core','src/activities/redraw','src/activities/redraw_symmetrical','src/activities/mosaic','src/activities/polygons','tests/functional_patterns','tests/pattern_grid_solver','tests/polygon_geometry_oracle','tests/pattern_native_cases','tests/pattern_polygon_cases','tools/native_qml_headless.py']
 def freeze(revision):
  revision=subprocess.check_output(['git','rev-parse',revision+'^{commit}'],cwd=ROOT,text=True).strip()
  output=ROOT/'build/functional-patterns/sources'/revision
