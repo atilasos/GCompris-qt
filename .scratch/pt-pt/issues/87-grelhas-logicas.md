@@ -1,7 +1,7 @@
 # Concluir Sudoku e Calcudoku por regras independentes
 
 Status: ready-for-agent
-Progress: claimed
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -43,3 +43,9 @@ Review: ready-for-review
 Implementação concluída; Progress permanece claimed até revisão e integração por merger separado. Inventário real: quatro conjuntos Sudoku (13 níveis, 68 grelhas fixas) e cinco Calcudoku (cinco níveis, 100 amostras geradas). 168 conclusões, 18 conflitos/reparações, navegação/configuração/reinício/ajuda/menu por entradas reais. Corrigido apenas o verbo da ajuda Sudoku, com caso exato red/green; a prova composta separa 168 grelhas baseline dos controlos/ajuda finais.
 
 [Provas físicas e limites](../functional-grids/README.md). Auditor portátil `python3 tests/functional_grids/audit.py`; 19 testes passam, incluindo adulterações coerentes e recusa -O. Cápsula SHA-256 d5332fa4e421521e55a67e1e3da85790e64716fefd5055a5005a67865603a8e7. Todos os processos Qt, launchers e supervisores terminaram e os retornos externos observados foram registados separadamente. Geração não esgotada, Windows/dispositivos/audição/docente/estabilidade83 pendentes.
+
+## Integração
+
+Provas integradas para Standards e Spec independentes. `ready-for-review`
+não representa resolução final ou aceitação global. Os 100 Calcudoku gerados
+não representam todas as possibilidades aleatórias.

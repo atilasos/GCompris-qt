@@ -159,7 +159,7 @@ e os restantes critérios de aceitação mantêm os seus estados próprios.
 
 A memória matemática concluiu 14 variantes e 207 combinações nível/modo;
 decimais/quantidades concluíram 316 puzzles em 16 campanhas offline e quatro casos de controlos.
-As 140 atividades com evidência funcional ligada na matriz não representam
+As 142 atividades com evidência funcional ligada na matriz não representam
 a aceitação global dos 203 jogos.
 
 - [40 — Contrato dos níveis do Solitário](issues/40-niveis-solitario.md)
@@ -422,3 +422,8 @@ A tarefa 84 tem provas Linux integradas de 14 mapas, 98 apresentações e
 Linux finito após rechecks sem achados; [relatórios](review/integration84/).
 Quatro ligações mantêm os critérios
 globais, Windows, hardware, áudio e revisão docente pendentes.
+
+A tarefa 87 tem provas Linux integradas de 68 Sudoku fixos e 100 Calcudoku
+gerados, com 18 níveis/nove conjuntos e 18 erros reparados. Está
+`ready-for-review`, aguardando Standards e Spec independentes. Duas ligações
+mantêm os critérios globais, Windows, hardware, áudio e revisão docente pendentes.

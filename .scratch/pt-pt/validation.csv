@@ -23,7 +23,7 @@ bargame_2players,pending,pending,pending,pending,pending,
 binary_bulb,pending,pending,pending,pending,pending,
 braille_alphabets,pending,pending,pending,pending,pending,
 braille_fun,pending,pending,pending,pending,pending,
-calcudoku,pending,pending,pending,pending,pending,
+calcudoku,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/calcudoku.md
 calendar,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/calendar.md
 canal_lock,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/canal_lock.md
 categorization,pending,pending,pending,pending,pending,
@@ -186,7 +186,7 @@ smallnumbers,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/s
 smallnumbers2,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/smallnumbers2.md
 solar_system,pending,pending,pending,pending,pending,
 submarine,pending,pending,pending,pending,pending,
-sudoku,pending,pending,pending,pending,pending,
+sudoku,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/sudoku.md
 superbrain,pending,pending,pending,pending,pending,
 tangram,pending,pending,pending,pending,pending,
 target,pending,pending,pending,pending,pending,
