@@ -1,0 +1,11 @@
+Standards independente, intervalo fixo `93eee81b3...1d62ccafc`, commits conferidos; autoria `work/pt-graduated-lines`, tip `2c911f0a9`. Normas locais consideradas: AGENTS.md, README/README.md, HACKING, REUSE e docs/agents. Sem CONTRIBUTING/CODING_STANDARDS aplicáveis.
+
+Violações documentadas: nenhuma identificada. Smells Fowler: nenhum concreto que justifique alteração. As quatro correções PO correspondem aos textos preservados nos pares semânticos.
+
+P2, confiança alta — preparação concorrente publica fontes incompletas. `tests/functional_graduated/campaigns.py:17–24` inicia vários runners, todos chamando `phase.freeze()` sobre a mesma pasta da revisão. `tests/functional_graduated/phase.py:13–16` verifica existência e escreve diretamente no destino; o ficheiro torna-se visível antes de terminar a escrita. Outro runner pode ignorá-lo por já existir e calcular SHA de bytes vazios/parciais, abortando uma campanha válida com AssertionError. Reproduzi sem Qt numa pasta temporária: duas chamadas freeze com blobs válidos, bloqueando a primeira após abrir o destino e antes de escrever, produziram primeiro=ok/segundo=AssertionError. É falha da repetição documentada com jobs6 a partir de fontes ainda não preparadas; não invalida as execuções arquivadas. Preparar/verificar a fase uma vez antes do pool e publicar a árvore completa atomicamente, ou fornecer uma árvore privada por executor; acrescentar regressão concorrente com escrita interrompida.
+
+Verificação: os 12 testes passaram, incluindo cópia Docker sem worktree, seleções inválidas/saída existente e adulterações coerentemente reindexadas de PO, fonte, caso/resposta, QRC e retorno externo. O auditor puro confirmou 574 perguntas, 58 níveis, 20 datasets, 58 erros reparados e 96 pares nível/passo, distinguindo quatro amostras adicionais dos percursos completos.
+
+Os 22 recibos originais têm estados pós-espera ligados aos SHA corretos: vinte retornos0 e dois negativos esperados1. Índice e artefactos conferem contra a raiz Git081b75c0a; fontes/catálogo/ferramentas por fase e os 33 recursos QRC passam. Persistência está delimitada ao mesmo processo; sinais não publicados e limites de Windows/dispositivos/áudio/docente não são apresentados como cobertura nativa.
+
+Sem Qt ou alterações em fontes/mapa/CSV/índices.

@@ -1,7 +1,7 @@
 # Comparar números e descobrir os vizinhos em PT-PT
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -30,3 +30,8 @@ continuam pendentes.
 
 Provas integradas para Standards e Spec independentes. Estado
 `ready-for-review` limitado à prova Linux; sem resolução final ou global.
+
+## Fecho de revisão
+
+Standards e Spec sem achados acionáveis; [relatórios](../review/integration69/).
+Resolução limitada à prova Linux publicada, sem alterar critérios globais.
