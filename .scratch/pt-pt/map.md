@@ -392,3 +392,5 @@ probes com saída zero não demonstram causa nem resolução da ocorrência139;
 O artefacto da investigação83 passou Standards/Spec após corrigir a interrupção
 do driver; [relatórios](review/integration83/README.md). Os seis probes ociosos0
 não resolveram a causa: a tarefa permanece aberta e sem nova cobertura de jogos.
+
+- [86 — Relações familiares](issues/86-relacoes-familiares.md)
