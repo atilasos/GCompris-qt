@@ -1,7 +1,7 @@
 # Preparar as fontes das campanhas sem corridas
 
 Status: ready-for-agent
-Progress: resolved
+Progress: ready-for-review
 Type: task
 Blocked by: 68
 
@@ -37,3 +37,8 @@ ficheiros históricos conferidos são iguais aos blobs Git de partida.
 Provas e comandos: [source-preparation/README.md](../source-preparation/README.md).
 Sem execução Qt ou alteração do arquivo histórico. Pronto para merger e
 recheck independentes; nenhuma aceitação global muda.
+
+## Integração
+
+Correção integrada para recheck independente. `ready-for-review` não fecha
+a tarefa 68; provas históricas preservadas, sem repetição Qt.
