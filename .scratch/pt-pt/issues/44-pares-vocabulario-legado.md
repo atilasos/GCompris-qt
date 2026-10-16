@@ -1,7 +1,7 @@
 # Rever dois pares de vocabulário legado
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -39,3 +39,22 @@ Os nomes e os dois WAV aprovados foram aplicados em build privado: 2 OGG derivad
 ## Correções da revisão da aplicação
 
 Preparado suplemento em ../legacy-word-application-review/README.md: LF determinístico em Contents/metadata, quatro textos raw-byte fixados com eol=lf e preparação/verificação de proveniência e NOTICE antes de publicar qualquer ficheiro, Contents por último. Negativos preservam pacote anterior; checkout Git real sob autocrlf/eol CRLF e conclusão física de 1610 recursos mantêm os hashes fixos. Nenhum áudio novo nem alteração das provas antigas. Aguarda integração e recheck separados; não se fecha a tarefa aqui.
+
+
+## Answer
+
+Resolvida a escolha humana e a aplicação delimitada de cervato e carraça.
+A decisão «podemos usar o que foi criado» aprova os nomes e os dois WAV do
+pacote identificado em ../legacy-word-review/human-approval.json.
+Os dois OGG derivados foram aplicados sem nova síntese. As 32 gravações
+anteriores e 1576 originais mantêm os bytes, num RCC de 1610 recursos.
+
+[Spec e Standards](../review/integration44/README.md) fecharam sem achados
+após corrigir LF Windows, checkout CRLF e preparação da proveniência.
+O [build principal e verificação física](../runtime44/README.md) terminaram 0.
+O arranque terminou 1 devido ao ID inexistente polygons2 incluído por engano;
+os seis IDs reais passaram offline. Esse negativo e os logs brutos ficam intactos.
+
+A distribuição Windows publicada antecede estas alterações. Execução,
+instalação e som Windows, dispositivos, escola, aceitação docente global e
+estabilidade 83 permanecem pendentes. Nenhuma coluna global do CSV muda.

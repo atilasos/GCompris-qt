@@ -233,9 +233,9 @@ calendários, operações verticais e sequências. Standards e Spec foram revist
 a tarefa 65 fechou os três P2 de retornos externos e âncoras históricas, sem
 reescrever os 1795 blobs/97 recibos originais ou repetir jogos.
 [Relatórios e limites](review/integration60-65/). As doze ligações adicionais
-na matriz mantêm todos os critérios globais pendentes. Áudio global,
-Windows/escola e revisão humana dos pares legados (44)
-conservam os respetivos estados.
+na matriz mantêm todos os critérios globais pendentes. Áudio global e Windows/escola continuam pendentes. A escolha humana
+dos dois pares legados (44) foi aprovada e aplicada posteriormente,
+com o âmbito delimitado no fecho da tarefa.
 
 - [65 — Retornos externos e âncoras das provas](issues/65-provas-retornos-ancoras.md)
 
@@ -459,3 +459,14 @@ A cápsula literal, os 23 recibos e os negativos ficam intactos.
 O CSV mantém 203 atividades e 152 ligações de evidência, com todas as cinco
 colunas globais `pending`. Windows, dispositivos, audição, docente e
 estabilidade 83 continuam pendentes. A tarefa 44 posterior é independente.
+
+
+A tarefa 44 fica resolvida para os dois pares aprovados, cervato e carraça,
+após [rechecks independentes sem achados](review/integration44/README.md).
+As 32 gravações anteriores e 1576 originais mantêm os bytes.
+O novo RCC de 1610 recursos foi aplicado e verificado no build principal.
+O [arranque offline](runtime44/README.md) tem seis IDs reais aprovados e
+retorno externo 1 pelo ID inexistente polygons2 selecionado por engano.
+Esse negativo permanece bruto. O instalador publicado ainda antecede os pares.
+Windows real, escola, dispositivos, audição global, docente e estabilidade 83
+continuam pendentes. CSV inalterado: 203 atividades, 152 ligações, cinco critérios globais pending.

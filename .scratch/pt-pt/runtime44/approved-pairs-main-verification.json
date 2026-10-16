@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "original_files": 1578,
+  "total_files": 1610,
+  "intact_originals": 1576,
+  "added_files": 32,
+  "changed_originals": [
+    ":/gcompris/data/voices-ogg/pt/words/fawn.ogg",
+    ":/gcompris/data/voices-ogg/pt/words/tick.ogg"
+  ],
+  "rcc_sha256": "766a4650c93cf0d012c768daca8f54a931e061e77e7e7b7ef35585bf05c2869b",
+  "lang_rcc_sha256": "fe8d9b764131cae70acfaea10b1ebc751b34cb14bd51bdc30a28b35b005e231d",
+  "scope": "Physical resources and exact labels; no pronunciation or Windows execution claim"
+}
