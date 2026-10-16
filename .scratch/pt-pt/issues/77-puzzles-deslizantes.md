@@ -1,7 +1,7 @@
 # Puzzles deslizantes de quinze e dezasseis peças
 
 Status: ready-for-agent
-Progress: resolved
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -74,3 +74,9 @@ unitários e o auditor passam. Dois WAV descodificados em software, sem alterar
 Uma mistura aleatória normal por nível, sem esgotar as permutações possíveis.
 Windows 10/11, audição, dispositivos físicos, acessibilidade e revisão docente
 continuam pendentes. Nenhum critério global foi aprovado por este lote.
+
+## Integração
+
+Provas integradas para Standards e Spec independentes. `ready-for-review`
+não representa resolução final ou aceitação global. A composição do baseline
+funcional com provas PT dirigidas não equivale a nova execução final de 28 níveis.
