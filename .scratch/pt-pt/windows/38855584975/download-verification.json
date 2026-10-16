@@ -1,0 +1,11 @@
+{
+  "run_id": "38855584975",
+  "head_sha": "dfb02d4897a3c577dd277f7e7c76994872f5847a",
+  "artifact_id": 12027773903,
+  "installer_path": "/home/proteu/Projetos/GCompris-qt/build/pt-pt/windows-candidate-38855584975/GCompris-PT-PT-Windows-x64-candidate.exe",
+  "bytes": 825757633,
+  "sha256": "9873d7bb80e48f918cb3cc70554511747a7e3c958cfd3ebe79bee96642662ae1",
+  "zip_crc32": 472738353,
+  "expected_sha256": "9873d7bb80e48f918cb3cc70554511747a7e3c958cfd3ebe79bee96642662ae1",
+  "verified": true
+}

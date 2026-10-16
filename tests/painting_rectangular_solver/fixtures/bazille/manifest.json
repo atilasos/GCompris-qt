@@ -1,0 +1,25 @@
+{
+  "scope": "Public widget geometry and physical pixels only; no answer/model fields",
+  "inventory_receipt_sha256": "5c09704dc7c93286d691994ce417759ed2f878044bd1746d2b607739180b4bec",
+  "calibration_receipt_sha256": "8994f13ab16a5119138f8ecfb3f53ec1a53fba26b827c8a8441fe8a64c831996",
+  "images": {
+    "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_2.webp": "piece-0.webp",
+    "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_3.webp": "piece-1.webp",
+    "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_4.webp": "piece-2.webp",
+    "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_6.webp": "piece-3.webp",
+    "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_1.webp": "piece-4.webp",
+    "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_5.webp": "piece-5.webp"
+  },
+  "files": {
+    "piece-0.webp": "365fd7e758887e5aa6390c067e57773e0e5aaff6038436dcb86c1d40c08e25bb",
+    "piece-1.webp": "1c0393db1da6c10eabac5b1935068e64836a6d9724b010daa51cbdbde02b32b2",
+    "piece-2.webp": "3508ea1d28bcbc3e34ef11013e73c587c81608e74649b5efd4b2f3d20da1dc0e",
+    "piece-3.webp": "7f0d19fc2fa3260ed976ee209bd5a1a5d3fe373e936e5d2451d864682a9d5f4a",
+    "piece-4.webp": "6a16546cd624d715e7c9f29133f0667bb4e07a035ebaafb5c392f6811c30cd52",
+    "piece-5.webp": "80bf7e3bd9552d8f1df5b66e5f2936856a9bc9d8f96d0d530f7b4e2dc2869577",
+    "public-geometry.json": "ceddd72900a9c0c7d0f9e99938d69a97de17225ef02e2ec4317b74660a93a461"
+  },
+  "parameters": {
+    "max_permutations": 40320
+  }
+}
