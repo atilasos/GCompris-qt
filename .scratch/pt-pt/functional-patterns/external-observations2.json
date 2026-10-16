@@ -1,0 +1,16 @@
+{
+  "kind": "root-recorded-tools-exec-or-write-stdin-completion",
+  "scope": "Two calibration fixture failures: the shared click guard incorrectly excluded the navigation bar; native Qt returned zero, no product defect claimed",
+  "runs": {
+    "calibrate-redraw": {
+      "session_id": 74465,
+      "output_chunk": "59b08d",
+      "exit_code": 1
+    },
+    "calibrate-redraw_symmetrical": {
+      "session_id": 52411,
+      "output_chunk": "3fcf46",
+      "exit_code": 1
+    }
+  }
+}

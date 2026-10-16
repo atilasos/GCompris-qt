@@ -1,0 +1,26 @@
+{
+  "kind": "root-recorded-tools-exec-or-write-stdin-completion",
+  "scope": "Observed returns after actual session completion; inventories do not prove completed gameplay",
+  "runs": {
+    "inventory-redraw": {
+      "session_id": 75608,
+      "output_chunk": "395ee5",
+      "exit_code": 0
+    },
+    "inventory-redraw_symmetrical": {
+      "session_id": 77086,
+      "output_chunk": "92a89a",
+      "exit_code": 0
+    },
+    "inventory-mosaic": {
+      "session_id": 47254,
+      "output_chunk": "e1aa48",
+      "exit_code": 0
+    },
+    "inventory-polygons": {
+      "session_id": 70809,
+      "output_chunk": "34a2f0",
+      "exit_code": 0
+    }
+  }
+}
