@@ -284,3 +284,5 @@ A tarefa 72 fechou a corrida de preparação de fontes sem alterar os 307 blobs
 históricos; 16 testes e revisões independentes confirmaram a correção.
 [Relatórios 68/72](review/integration68-72/). Sem nova campanha Qt ou alteração
 dos critérios globais, Windows, hardware, áudio e revisão docente.
+
+- [74 — Partilhar doces](issues/74-partilhar-doces.md)
