@@ -43,3 +43,9 @@ normal e -O ou recusa explícita, negativas físicas e coerentemente recalculada
 vazio e proteção de saídas existentes. Não transferir a aprovação das 32 vozes
 a outros sons. Windows, dispositivos, audição, docente, estabilidade 83 e
 critérios globais permanecem pendentes. Trabalho só no fork.
+
+## Implementação para revisão
+
+Review: ready-for-review
+
+Provas em ../functional-patterns/README.md.90 conclusões primárias,90 erros reparados; modo livre separado.23 execuções Qt com zero, sete fixtures externas negativas e um histórico parcial distinguido. Auditor com duas âncoras literais, fontes/recursos físicos, negativas coerentes e cópia Docker normal/-O passou.15 testes externos passaram nos dois modos. CSV152 ligações finitas,203 atividades e todos os critérios globais pending. Sem alterações de produto neste lote. A revisão independente ainda falta; tarefa continua claimed.
