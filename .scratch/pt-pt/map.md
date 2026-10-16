@@ -159,7 +159,7 @@ e os restantes critérios de aceitação mantêm os seus estados próprios.
 
 A memória matemática concluiu 14 variantes e 207 combinações nível/modo;
 decimais/quantidades concluíram 316 puzzles em 16 campanhas offline e quatro casos de controlos.
-As 102 atividades com evidência funcional ligada na matriz não representam
+As 105 atividades com evidência funcional ligada na matriz não representam
 a aceitação global dos 203 jogos.
 
 - [40 — Contrato dos níveis do Solitário](issues/40-niveis-solitario.md)
@@ -252,3 +252,8 @@ Três ligações de evidência foram acrescentadas sem alterar critérios globai
 Windows, dispositivos físicos, audição ou revisão docente.
 
 - [70 — Acertar o relógio](issues/70-relogio.md)
+
+A tarefa 67 tem 190 capturas e 12 níveis documentados dos três jogos com avião,
+com controlos e tutorial. Está `ready-for-review`, aguardando Standards e Spec
+independentes. Três ligações de evidência foram acrescentadas sem alterar os
+critérios globais; hardware, áudio, Windows e professor permanecem pendentes.

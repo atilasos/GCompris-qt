@@ -1,0 +1,180 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/build/planes-canonical/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/.native-qml-a044eb761afd4b2aa241ef403e0ca2ee/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/.native-qml-a044eb761afd4b2aa241ef403e0ca2ee/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/.native-qml-a044eb761afd4b2aa241ef403e0ca2ee/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/.native-qml-a044eb761afd4b2aa241ef403e0ca2ee/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/.native-qml-a044eb761afd4b2aa241ef403e0ca2ee/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/.native-qml-a044eb761afd4b2aa241ef403e0ca2ee/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/.native-qml-a044eb761afd4b2aa241ef403e0ca2ee/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/.native-qml-a044eb761afd4b2aa241ef403e0ca2ee/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-plane-sequences/.scratch/pt-pt/functional-planes/.native-qml-a044eb761afd4b2aa241ef403e0ca2ee/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity numbers-odd-even/NumbersOddEven.qml at level -1
+qml: numbers-odd-even/NumbersOddEven.qml numbers-odd-even/NumbersOddEven.qml
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: PLANE_CAPTURE {"expected":"0","drawn":"0","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":10,"y":365},"end":{"x":496.75,"y":105}}
+qml: PLANE_PROGRESS 1 1 11 0
+qml: PLANE_CAPTURE {"expected":"2","drawn":"2","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":496.75,"y":105},"end":{"x":511.75,"y":382}}
+qml: PLANE_PROGRESS 1 2 11 2
+qml: PLANE_CAPTURE {"expected":"4","drawn":"4","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":511.75,"y":382},"end":{"x":537.75,"y":21}}
+qml: PLANE_PROGRESS 1 3 11 4
+qml: PLANE_CAPTURE {"expected":"6","drawn":"6","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":537.75,"y":21},"end":{"x":597.75,"y":166}}
+qml: PLANE_PROGRESS 1 4 11 6
+qml: PLANE_CAPTURE {"expected":"8","drawn":"8","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":597.75,"y":166},"end":{"x":618.75,"y":98}}
+qml: PLANE_PROGRESS 1 5 11 8
+qml: PLANE_CAPTURE {"expected":"10","drawn":"10","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":618.75,"y":98},"end":{"x":539.75,"y":22}}
+qml: PLANE_PROGRESS 1 6 11 10
+qml: PLANE_CAPTURE {"expected":"12","drawn":"12","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":539.75,"y":22},"end":{"x":378.75,"y":211}}
+qml: PLANE_PROGRESS 1 7 11 12
+qml: PLANE_CAPTURE {"expected":"14","drawn":"14","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":378.75,"y":211},"end":{"x":581.75,"y":366}}
+qml: PLANE_PROGRESS 1 8 11 14
+qml: PLANE_CAPTURE {"expected":"16","drawn":"16","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":581.75,"y":366},"end":{"x":389.75,"y":126}}
+qml: PLANE_PROGRESS 1 9 11 16
+qml: PLANE_CAPTURE {"expected":"18","drawn":"18","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":389.75,"y":126},"end":{"x":509.75,"y":606}}
+qml: PLANE_PROGRESS 1 10 11 18
+qml: PLANE_CAPTURE {"expected":"20","drawn":"20","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":509.75,"y":606},"end":{"x":605.75,"y":530}}
+qml: PLANE_PROGRESS 1 11 11 20
+qml: PLANE_CAPTURE {"expected":"1","drawn":"1","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":10,"y":366.75},"end":{"x":482.8125,"y":158.75}}
+qml: PLANE_PROGRESS 2 1 10 1
+qml: PLANE_CAPTURE {"expected":"3","drawn":"3","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":482.8125,"y":158.75},"end":{"x":597.8125,"y":69.75}}
+qml: PLANE_PROGRESS 2 2 10 3
+qml: PLANE_CAPTURE {"expected":"5","drawn":"5","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":597.8125,"y":69.75},"end":{"x":520.8125,"y":509.75}}
+qml: PLANE_PROGRESS 2 3 10 5
+qml: PLANE_CAPTURE {"expected":"7","drawn":"7","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":520.8125,"y":509.75},"end":{"x":601.8125,"y":390.75}}
+qml: PLANE_PROGRESS 2 4 10 7
+qml: PLANE_CAPTURE {"expected":"9","drawn":"9","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":601.8125,"y":390.75},"end":{"x":577.8125,"y":260.75}}
+qml: PLANE_PROGRESS 2 5 10 9
+qml: PLANE_CAPTURE {"expected":"11","drawn":"11","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":577.8125,"y":260.75},"end":{"x":570.8125,"y":75.75}}
+qml: PLANE_PROGRESS 2 6 10 11
+qml: PLANE_CAPTURE {"expected":"13","drawn":"13","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":570.8125,"y":75.75},"end":{"x":392.8125,"y":481.75}}
+qml: PLANE_PROGRESS 2 7 10 13
+qml: PLANE_CAPTURE {"expected":"15","drawn":"15","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":392.8125,"y":481.75},"end":{"x":569.8125,"y":241.75}}
+qml: PLANE_PROGRESS 2 8 10 15
+qml: PLANE_CAPTURE {"expected":"17","drawn":"17","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":569.8125,"y":241.75},"end":{"x":521.8125,"y":553.75}}
+qml: PLANE_PROGRESS 2 9 10 17
+qml: PLANE_CAPTURE {"expected":"19","drawn":"19","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":521.8125,"y":553.75},"end":{"x":361.8125,"y":155.75}}
+qml: PLANE_PROGRESS 2 10 10 19
+qml: PLANE_CAPTURE {"expected":"0","drawn":"0","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":10,"y":368.5},"end":{"x":463.875,"y":609.5}}
+qml: PLANE_PROGRESS 3 1 11 0
+qml: PLANE_CAPTURE {"expected":"2","drawn":"2","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":463.875,"y":609.5},"end":{"x":583.875,"y":574.5}}
+qml: PLANE_PROGRESS 3 2 11 2
+qml: PLANE_CAPTURE {"expected":"4","drawn":"4","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":583.875,"y":574.5},"end":{"x":547.875,"y":282.5}}
+qml: PLANE_PROGRESS 3 3 11 4
+qml: PLANE_CAPTURE {"expected":"6","drawn":"6","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":547.875,"y":282.5},"end":{"x":555.875,"y":16.5}}
+qml: PLANE_PROGRESS 3 4 11 6
+qml: PLANE_CAPTURE {"expected":"8","drawn":"8","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":555.875,"y":16.5},"end":{"x":440.875,"y":214.5}}
+qml: PLANE_PROGRESS 3 5 11 8
+qml: PLANE_CAPTURE {"expected":"10","drawn":"10","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":440.875,"y":214.5},"end":{"x":510.875,"y":600.5}}
+qml: PLANE_PROGRESS 3 6 11 10
+qml: PLANE_CAPTURE {"expected":"12","drawn":"12","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":510.875,"y":600.5},"end":{"x":469.875,"y":93.5}}
+qml: PLANE_PROGRESS 3 7 11 12
+qml: PLANE_CAPTURE {"expected":"14","drawn":"14","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":469.875,"y":93.5},"end":{"x":581.875,"y":55.5}}
+qml: PLANE_PROGRESS 3 8 11 14
+qml: PLANE_CAPTURE {"expected":"16","drawn":"16","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":581.875,"y":55.5},"end":{"x":644.875,"y":104.5}}
+qml: PLANE_PROGRESS 3 9 11 16
+qml: PLANE_CAPTURE {"expected":"18","drawn":"18","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":644.875,"y":104.5},"end":{"x":500.875,"y":511.5}}
+qml: PLANE_PROGRESS 3 10 11 18
+qml: PLANE_CAPTURE {"expected":"20","drawn":"20","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":500.875,"y":511.5},"end":{"x":564.875,"y":319.5}}
+qml: PLANE_PROGRESS 3 11 11 20
+qml: PLANE_CAPTURE {"expected":"1","drawn":"1","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":10,"y":370.25},"end":{"x":443.9375,"y":139.25}}
+qml: PLANE_PROGRESS 4 1 10 1
+qml: PLANE_CAPTURE {"expected":"3","drawn":"3","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":443.9375,"y":139.25},"end":{"x":522.9375,"y":465.25}}
+qml: PLANE_PROGRESS 4 2 10 3
+qml: PLANE_CAPTURE {"expected":"5","drawn":"5","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":522.9375,"y":465.25},"end":{"x":501.9375,"y":105.25}}
+qml: PLANE_PROGRESS 4 3 10 5
+qml: PLANE_CAPTURE {"expected":"7","drawn":"7","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":501.9375,"y":105.25},"end":{"x":577.9375,"y":272.25}}
+qml: PLANE_PROGRESS 4 4 10 7
+qml: PLANE_CAPTURE {"expected":"9","drawn":"9","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":577.9375,"y":272.25},"end":{"x":555.9375,"y":482.25}}
+qml: PLANE_PROGRESS 4 5 10 9
+qml: PLANE_CAPTURE {"expected":"11","drawn":"11","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":555.9375,"y":482.25},"end":{"x":591.9375,"y":396.25}}
+qml: PLANE_PROGRESS 4 6 10 11
+qml: PLANE_CAPTURE {"expected":"13","drawn":"13","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":591.9375,"y":396.25},"end":{"x":542.9375,"y":633.25}}
+qml: PLANE_PROGRESS 4 7 10 13
+qml: PLANE_CAPTURE {"expected":"15","drawn":"15","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":542.9375,"y":633.25},"end":{"x":449.9375,"y":131.25}}
+qml: PLANE_PROGRESS 4 8 10 15
+qml: PLANE_CAPTURE {"expected":"17","drawn":"17","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":449.9375,"y":131.25},"end":{"x":575.9375,"y":171.25}}
+qml: PLANE_PROGRESS 4 9 10 17
+qml: PLANE_CAPTURE {"expected":"19","drawn":"19","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":575.9375,"y":171.25},"end":{"x":568.9375,"y":320.25}}
+qml: PLANE_PROGRESS 4 10 10 19
+qml: NATIVE_PLANE_RESULT {"failures":0,"passes":2,"observations":[{"level":1,"indicationVisible":true,"captures":[{"expected":"0","drawn":"0","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":10,"y":365},"end":{"x":496.75,"y":105}},{"expected":"2","drawn":"2","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":496.75,"y":105},"end":{"x":511.75,"y":382}},{"expected":"4","drawn":"4","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":511.75,"y":382},"end":{"x":537.75,"y":21}},{"expected":"6","drawn":"6","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":537.75,"y":21},"end":{"x":597.75,"y":166}},{"expected":"8","drawn":"8","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":597.75,"y":166},"end":{"x":618.75,"y":98}},{"expected":"10","drawn":"10","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":618.75,"y":98},"end":{"x":539.75,"y":22}},{"expected":"12","drawn":"12","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":539.75,"y":22},"end":{"x":378.75,"y":211}},{"expected":"14","drawn":"14","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":378.75,"y":211},"end":{"x":581.75,"y":366}},{"expected":"16","drawn":"16","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":581.75,"y":366},"end":{"x":389.75,"y":126}},{"expected":"18","drawn":"18","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":389.75,"y":126},"end":{"x":509.75,"y":606}},{"expected":"20","drawn":"20","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":509.75,"y":606},"end":{"x":605.75,"y":530}}],"bonus":true},{"level":2,"indicationVisible":true,"captures":[{"expected":"1","drawn":"1","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":10,"y":366.75},"end":{"x":482.8125,"y":158.75}},{"expected":"3","drawn":"3","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":482.8125,"y":158.75},"end":{"x":597.8125,"y":69.75}},{"expected":"5","drawn":"5","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":597.8125,"y":69.75},"end":{"x":520.8125,"y":509.75}},{"expected":"7","drawn":"7","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":520.8125,"y":509.75},"end":{"x":601.8125,"y":390.75}},{"expected":"9","drawn":"9","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":601.8125,"y":390.75},"end":{"x":577.8125,"y":260.75}},{"expected":"11","drawn":"11","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":577.8125,"y":260.75},"end":{"x":570.8125,"y":75.75}},{"expected":"13","drawn":"13","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":570.8125,"y":75.75},"end":{"x":392.8125,"y":481.75}},{"expected":"15","drawn":"15","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":392.8125,"y":481.75},"end":{"x":569.8125,"y":241.75}},{"expected":"17","drawn":"17","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":569.8125,"y":241.75},"end":{"x":521.8125,"y":553.75}},{"expected":"19","drawn":"19","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":521.8125,"y":553.75},"end":{"x":361.8125,"y":155.75}}],"bonus":true},{"level":3,"indicationVisible":false,"captures":[{"expected":"0","drawn":"0","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":10,"y":368.5},"end":{"x":463.875,"y":609.5}},{"expected":"2","drawn":"2","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":463.875,"y":609.5},"end":{"x":583.875,"y":574.5}},{"expected":"4","drawn":"4","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":583.875,"y":574.5},"end":{"x":547.875,"y":282.5}},{"expected":"6","drawn":"6","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":547.875,"y":282.5},"end":{"x":555.875,"y":16.5}},{"expected":"8","drawn":"8","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":555.875,"y":16.5},"end":{"x":440.875,"y":214.5}},{"expected":"10","drawn":"10","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":440.875,"y":214.5},"end":{"x":510.875,"y":600.5}},{"expected":"12","drawn":"12","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":510.875,"y":600.5},"end":{"x":469.875,"y":93.5}},{"expected":"14","drawn":"14","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":469.875,"y":93.5},"end":{"x":581.875,"y":55.5}},{"expected":"16","drawn":"16","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":581.875,"y":55.5},"end":{"x":644.875,"y":104.5}},{"expected":"18","drawn":"18","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":644.875,"y":104.5},"end":{"x":500.875,"y":511.5}},{"expected":"20","drawn":"20","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":500.875,"y":511.5},"end":{"x":564.875,"y":319.5}}],"bonus":true},{"level":4,"indicationVisible":false,"captures":[{"expected":"1","drawn":"1","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":10,"y":370.25},"end":{"x":443.9375,"y":139.25}},{"expected":"3","drawn":"3","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":443.9375,"y":139.25},"end":{"x":522.9375,"y":465.25}},{"expected":"5","drawn":"5","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":522.9375,"y":465.25},"end":{"x":501.9375,"y":105.25}},{"expected":"7","drawn":"7","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":501.9375,"y":105.25},"end":{"x":577.9375,"y":272.25}},{"expected":"9","drawn":"9","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":577.9375,"y":272.25},"end":{"x":555.9375,"y":482.25}},{"expected":"11","drawn":"11","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":555.9375,"y":482.25},"end":{"x":591.9375,"y":396.25}},{"expected":"13","drawn":"13","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":591.9375,"y":396.25},"end":{"x":542.9375,"y":633.25}},{"expected":"15","drawn":"15","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":542.9375,"y":633.25},"end":{"x":449.9375,"y":131.25}},{"expected":"17","drawn":"17","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":449.9375,"y":131.25},"end":{"x":575.9375,"y":171.25}},{"expected":"19","drawn":"19","wrong":false,"planeMoved":true,"cloudMoved":true,"feedback":"fade","escapedCandidates":0,"start":{"x":575.9375,"y":171.25},"end":{"x":568.9375,"y":320.25}}],"bonus":true}],"tutorial":[{"page":1,"texts":["Esta atividade ensina os números pares e ímpares.","Seguinte","Seguinte","Ignorar","Ignorar"],"answers":[]},{"page":2,"texts":["Os números pares são os números que deixam um resto 0 quando são divididos por 2.","Anterior","Anterior","Seguinte","Seguinte","Ignorar","Ignorar"],"answers":[]},{"page":3,"texts":["O que significa o resto de um número?","Anterior","Anterior","Seguinte","Seguinte","Ignorar","Ignorar","O resto é o valor \"que fica\" depois de dividir o número indicado pelo outro número.\n Se o 6 for dividido por 2, o resultado é 3 e o resto é 0.\n Se o 7 for dividido por 2, o resultado é 3 e o resto é 1."],"answers":[]},{"page":4,"texts":["Os números pares são os números que deixam um resto 0 quando são divididos por 2.","Anterior","Anterior","Seguinte","Seguinte","Ignorar","Ignorar","Por exemplo: 12, 38, 52, 68, 102, 118, 168, 188, 502, 532, 700, 798, 842, 892, 1000. Todos esses números são pares, já que deixam um resto igual a 0 quando são divididos por 2."],"answers":[]},{"page":5,"texts":["Os números ímpares são os números que deixam um resto diferente de 0 quando são divididos por 2.","Anterior","Anterior","Seguinte","Seguinte","Ignorar","Ignorar","Por exemplo: 15, 19, 51, 65, 103, 119, 169, 185, 505, 533, 701, 799, 845, 897, 1001. Todos esses números são ímpares, já que deixam um resto diferente de 0 quando são divididos por 2."],"answers":[]},{"page":6,"texts":["Exercício para testar a tua compreensão.","Anterior","Anterior","Seguinte","Seguinte","Ignorar","Ignorar","Escolhe o número par:","2","5"],"answers":[{"chosen":"5","remainder":1,"correct":false,"feedback":"Está errado: quando é dividido por 2, o 5 deixa um resto igual a 1. Como tal, é um número ímpar."},{"chosen":"2","remainder":0,"correct":true,"feedback":"Ótimo"}]},{"page":7,"texts":["Exercício para testar a tua compreensão.","Anterior","Anterior","Seguinte","Seguinte","Ignorar","Ignorar","Escolhe o número ímpar:","59","52"],"answers":[{"chosen":"52","remainder":0,"correct":false,"feedback":"Está errado: quando é dividido por 2, o 52 deixa um resto igual a 0. Como tal, é um número par."},{"chosen":"59","remainder":1,"correct":true,"feedback":"Ótimo"}]},{"page":8,"texts":["Exercício para testar a tua compreensão.","Anterior","Anterior","Iniciar","Iniciar","Escolhe o número par:","111","108"],"answers":[{"chosen":"111","remainder":1,"correct":false,"feedback":"Está errado: quando é dividido por 2, o 111 deixa um resto igual a 1. Como tal, é um número ímpar."},{"chosen":"108","remainder":0,"correct":true,"feedback":"Ótimo"}]}]}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
