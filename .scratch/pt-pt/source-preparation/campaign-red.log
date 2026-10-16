@@ -1,0 +1,68 @@
+test_campaign_workers_receive_complete_source_and_pinned_revision (test_phase.FrozenSourceTests.test_campaign_workers_receive_complete_source_and_pinned_revision) ... FAIL
+test_concurrent_freeze_never_reads_an_unfinished_write (test_phase.FrozenSourceTests.test_concurrent_freeze_never_reads_an_unfinished_write) ... ok
+test_corrupt_published_source_is_rejected_without_resealing (test_phase.FrozenSourceTests.test_corrupt_published_source_is_rejected_without_resealing) ... ok
+test_interrupted_preparation_is_not_published_and_can_retry (test_phase.FrozenSourceTests.test_interrupted_preparation_is_not_published_and_can_retry) ... ok
+
+======================================================================
+FAIL: test_campaign_workers_receive_complete_source_and_pinned_revision (test_phase.FrozenSourceTests.test_campaign_workers_receive_complete_source_and_pinned_revision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-source-preparation/tests/functional_graduated/test_phase.py", line 105, in test_campaign_workers_receive_complete_source_and_pinned_revision
+    self.assertEqual(completed.returncode, 0, completed.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0 : Traceback (most recent call last):
+  File "/tmp/tmpvmujevoq/tests/functional_graduated/run.py", line 8, in <module>
+    assert len(revision)==40, 'worker received a moving revision'
+           ^^^^^^^^^^^^^^^^^
+AssertionError: worker received a moving revision
+Traceback (most recent call last):
+  File "/tmp/tmpvmujevoq/tests/functional_graduated/run.py", line 8, in <module>
+    assert len(revision)==40, 'worker received a moving revision'
+           ^^^^^^^^^^^^^^^^^
+Traceback (most recent call last):
+AssertionError: worker received a moving revision
+  File "/tmp/tmpvmujevoq/tests/functional_graduated/run.py", line 8, in <module>
+    assert len(revision)==40, 'worker received a moving revision'
+           ^^^^^^^^^^^^^^^^^
+AssertionError: worker received a moving revision
+Traceback (most recent call last):
+  File "/tmp/tmpvmujevoq/tests/functional_graduated/run.py", line 8, in <module>
+    assert len(revision)==40, 'worker received a moving revision'
+           ^^^^^^^^^^^^^^^^^
+AssertionError: worker received a moving revision
+Traceback (most recent call last):
+  File "/tmp/tmpvmujevoq/tests/functional_graduated/run.py", line 8, in <module>
+    assert len(revision)==40, 'worker received a moving revision'
+           ^^^^^^^^^^^^^^^^^
+AssertionError: worker received a moving revision
+Traceback (most recent call last):
+  File "/tmp/tmpvmujevoq/tests/functional_graduated/run.py", line 8, in <module>
+    assert len(revision)==40, 'worker received a moving revision'
+           ^^^^^^^^^^^^^^^^^
+AssertionError: worker received a moving revision
+Traceback (most recent call last):
+  File "/tmp/tmpvmujevoq/tests/functional_graduated/run.py", line 8, in <module>
+    assert len(revision)==40, 'worker received a moving revision'
+           ^^^^^^^^^^^^^^^^^
+AssertionError: worker received a moving revision
+Traceback (most recent call last):
+  File "/tmp/tmpvmujevoq/tests/functional_graduated/run.py", line 8, in <module>
+    assert len(revision)==40, 'worker received a moving revision'
+           ^^^^^^^^^^^^^^^^^
+AssertionError: worker received a moving revision
+Traceback (most recent call last):
+  File "/tmp/tmpvmujevoq/tests/functional_graduated/run.py", line 8, in <module>
+    assert len(revision)==40, 'worker received a moving revision'
+           ^^^^^^^^^^^^^^^^^
+AssertionError: worker received a moving revision
+Traceback (most recent call last):
+  File "/tmp/tmpvmujevoq/tests/functional_graduated/run.py", line 8, in <module>
+    assert len(revision)==40, 'worker received a moving revision'
+           ^^^^^^^^^^^^^^^^^
+AssertionError: worker received a moving revision
+
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.278s
+
+FAILED (failures=1)
