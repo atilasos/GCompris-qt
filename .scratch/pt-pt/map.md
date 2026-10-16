@@ -377,3 +377,5 @@ A tarefa81 fica resolvida no âmbito funcional Linux finito após Standards e
 Spec sem achados; [relatórios](review/integration81/README.md). As duas ligações
 não aprovam estabilidade, Windows, hardware, áudio ou aceitação global.
 O encerramento139 continua na tarefa83 aberta.
+
+- [84 — Exploração do mundo](issues/84-exploracao-mundo.md)
