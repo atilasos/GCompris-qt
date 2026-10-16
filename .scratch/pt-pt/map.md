@@ -275,3 +275,5 @@ A tarefa 69 tem prova Linux integrada de 650 comparações e 250 sequências,
 380 respostas erradas e 76 Bonus. Está `ready-for-review`, aguardando Standards
 e Spec independentes; duas ligações foram acrescentadas sem alterar os
 critérios globais, Windows, hardware, áudio ou revisão docente.
+
+- [72 — Preparação concorrente das fontes de teste](issues/72-preparacao-concorrente-fontes.md)
