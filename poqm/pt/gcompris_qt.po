@@ -18933,7 +18933,7 @@ msgid ""
 "button, or the right button depending on the displayed hand."
 msgstr ""
 "Consegues ver uma mão: é uma mão esquerda ou uma mão direita? Carrega no "
-"botão esquerdo ou direito do rato, dependendo da mão apresentada."
+"botão «Mão esquerda» ou «Mão direita» no ecrã, conforme a mão apresentada."
 
 #: activities/leftright/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
