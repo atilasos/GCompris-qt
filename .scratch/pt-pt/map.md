@@ -286,3 +286,5 @@ históricos; 16 testes e revisões independentes confirmaram a correção.
 dos critérios globais, Windows, hardware, áudio e revisão docente.
 
 - [74 — Partilhar doces](issues/74-partilhar-doces.md)
+
+- [75 — Associar imagens, formas e nomes](issues/75-associar-imagens.md)
