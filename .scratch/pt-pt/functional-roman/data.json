@@ -1,0 +1,249 @@
+{
+  "source": "src/activities/roman_numerals/RomanNumerals.qml",
+  "sha256": "bc127965ee5efb69373db64d3b368c23c9392cd4de24eec0d8525dfceb42ab8e",
+  "levels": [
+    {
+      "level": 1,
+      "data": {
+        "values": [
+          "I",
+          "V",
+          "X",
+          "L",
+          "C",
+          "D",
+          "M"
+        ],
+        "instruction": "The roman numbers are all built out of these 7 numbers:\nI and V (units, 1 and 5)\nX and L (tens, 10 and 50)\nC and D (hundreds, 100 and 500)\n and M (1000).\n An interesting observation here is that the roman numeric system lacks the number 0.",
+        "question": "Convert the roman number %1 to arabic.",
+        "toArabic": true
+      },
+      "questions": 7,
+      "random": false
+    },
+    {
+      "level": 2,
+      "data": {
+        "values": [
+          1,
+          5,
+          10,
+          50,
+          100,
+          500,
+          1000
+        ],
+        "instruction": "The roman numbers are all built out of these 7 numbers:\nI and V (units, 1 and 5)\nX and L (tens, 10 and 50)\nC and D (hundreds, 100 and 500)\n and M (1000).\n An interesting observation here is that the roman numeric system lacks the number 0.",
+        "question": "Convert the arabic number %1 to roman.",
+        "toArabic": false
+      },
+      "questions": 7,
+      "random": false
+    },
+    {
+      "level": 3,
+      "data": {
+        "values": [
+          "II",
+          "III",
+          "IV",
+          "V",
+          "VI",
+          "VII",
+          "VIII",
+          "IX"
+        ],
+        "instruction": "All the units except 4 and 9 are built using sums of I and V:\nI, II, III, V, VI, VII, VIII.\n The 4 and the 9 units are built using differences:\nIV (5 \u2013 1) and IX (10 \u2013 1).",
+        "question": "Convert the roman number %1 to arabic.",
+        "toArabic": true
+      },
+      "questions": 8,
+      "random": false
+    },
+    {
+      "level": 4,
+      "data": {
+        "values": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "instruction": "All the units except 4 and 9 are built using sums of I and V:\nI, II, III, V, VI, VII, VIII.\n The 4 and the 9 units are built using differences:\nIV (5 \u2013 1) and IX (10 \u2013 1).",
+        "question": "Convert the arabic number %1 to roman.",
+        "toArabic": false
+      },
+      "questions": 8,
+      "random": false
+    },
+    {
+      "level": 5,
+      "data": {
+        "values": [
+          "XX",
+          "XXX",
+          "XL",
+          "LX",
+          "LXX",
+          "LXXX",
+          "XC"
+        ],
+        "instruction": "All the tens except 40 and 90 are built using sums of X and L:\nX, XX, XXX, L, LX, LXX, LXXX.\nThe 40 and the 90 tens are built using differences:\nXL (10 taken from 50) and XC (10 taken from 100).",
+        "question": "Convert the roman number %1 to arabic.",
+        "toArabic": true
+      },
+      "questions": 7,
+      "random": false
+    },
+    {
+      "level": 6,
+      "data": {
+        "values": [
+          20,
+          30,
+          40,
+          60,
+          70,
+          80,
+          90
+        ],
+        "instruction": "All the tens except 40 and 90 are built using sums of X and L:\nX, XX, XXX, L, LX, LXX, LXXX.\nThe 40 and the 90 tens are built using differences:\nXL (10 taken from 50) and XC (10 taken from 100).",
+        "question": "Convert the arabic number %1 to roman.",
+        "toArabic": false
+      },
+      "questions": 7,
+      "random": false
+    },
+    {
+      "level": 7,
+      "data": {
+        "values": [
+          "CC",
+          "CCC",
+          "CD",
+          "DC",
+          "DCC",
+          "DCCC",
+          "CM"
+        ],
+        "instruction": "All the hundreds except 400 and 900 are built using sums of C and D:\nC, CC, CCC, D, DC, DCC, DCCC.\nThe 400 and the 900 hundreds are built using differences:\nCD (100 taken from 500) and CM (100 taken from 1000).",
+        "question": "Convert the roman number %1 to arabic.",
+        "toArabic": true
+      },
+      "questions": 7,
+      "random": false
+    },
+    {
+      "level": 8,
+      "data": {
+        "values": [
+          200,
+          300,
+          400,
+          600,
+          700,
+          800,
+          900
+        ],
+        "instruction": "All the hundreds except 400 and 900 are built using sums of C and D:\nC, CC, CCC, D, DC, DCC, DCCC.\nThe 400 and the 900 hundreds are built using differences:\nCD (100 taken from 500) and CM (100 taken from 1000).",
+        "question": "Convert the arabic number %1 to roman.",
+        "toArabic": false
+      },
+      "questions": 7,
+      "random": false
+    },
+    {
+      "level": 9,
+      "data": {
+        "values": [
+          "MM",
+          "MMM"
+        ],
+        "instruction": "Sums of M are used for building thousands: M, MM, MMM.\nNotice that you cannot join more than three identical symbols. The first implication of this rule is that you cannot use just sums for building all possible units, tens or hundreds, you must use differences too. On the other hand, it limits the maximum roman number to 3999 (MMMCMXCIX).",
+        "question": "Convert the roman number %1 to arabic.",
+        "toArabic": true
+      },
+      "questions": 2,
+      "random": false
+    },
+    {
+      "level": 10,
+      "data": {
+        "values": [
+          2000,
+          3000
+        ],
+        "instruction": "Sums of M are used for building thousands: M, MM, MMM.\nNotice that you cannot join more than three identical symbols. The first implication of this rule is that you cannot use just sums for building all possible units, tens or hundreds, you must use differences too. On the other hand, it limits the maximum roman number to 3999 (MMMCMXCIX).",
+        "question": "Convert the arabic number %1 to roman.",
+        "toArabic": false
+      },
+      "questions": 2,
+      "random": false
+    },
+    {
+      "level": 11,
+      "data": {
+        "values": [
+          "_random_",
+          50,
+          10
+        ],
+        "instruction": "Now you know the rules, you can read and write numbers in roman numerals.",
+        "question": "Convert the arabic number %1 to roman.",
+        "toArabic": false
+      },
+      "questions": 10,
+      "random": true
+    },
+    {
+      "level": 12,
+      "data": {
+        "values": [
+          "_random_",
+          100,
+          10
+        ],
+        "instruction": "",
+        "question": "Convert the arabic number %1 to roman.",
+        "toArabic": false
+      },
+      "questions": 10,
+      "random": true
+    },
+    {
+      "level": 13,
+      "data": {
+        "values": [
+          "_random_",
+          500,
+          10
+        ],
+        "instruction": "",
+        "question": "Convert the arabic number %1 to roman.",
+        "toArabic": false
+      },
+      "questions": 10,
+      "random": true
+    },
+    {
+      "level": 14,
+      "data": {
+        "values": [
+          "_random_",
+          1000,
+          10
+        ],
+        "instruction": "",
+        "question": "Convert the arabic number %1 to roman.",
+        "toArabic": false
+      },
+      "questions": 10,
+      "random": true
+    }
+  ],
+  "questions": 102
+}
