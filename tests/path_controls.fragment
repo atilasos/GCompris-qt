@@ -1,0 +1,54 @@
+    property var controls: ({})
+    function icon(suffix) {
+        wait(1600);var button=find(bar,function(o){return o.source!==undefined && String(o.source).endsWith(suffix);});
+        ensure(button!==null,suffix);mouseClick(button);
+    }
+    function firstCheckbox() {return find(dialogActivityConfig,function(o){return o.indicatorImageHeight!==undefined && o.checked!==undefined;});}
+    function saveConfig() {dialogActivityConfig.forceActiveFocus();keyClick(Qt.Key_Return);tryCompare(activity,"visible",true,3000);wait(1200);settled();}
+    function test_configuration_restart_help_and_menu() {
+        wait(1600);settled();checked(activity.numberOfLevel,7);
+        var titles={path_encoding:"Codificação de caminhos",path_encoding_relative:"Codificação de caminhos relativos",
+                    path_decoding:"Descodificação de caminhos",path_decoding_relative:"Descodificação de caminhos relativos"};
+        var shortName=activity.activityInfo.shortName();checked(activity.activityInfo.title,titles[shortName]);
+        var start=position(),encode=activity.mode==="encode",relative=activity.movement==="relative";
+        if(encode) {
+            var step=visibleRoute(start).route[0],command=relative?(step.direction-facing()+4)%4:step.direction;
+            encodeInput(command,true);checked(position().join(),step.next.join());
+        } else {
+            var command=instruction(),absolute=relative?(facing()+command)%4:command;
+            clickCell([start[0]+vectors[absolute][0],start[1]+vectors[absolute][1]]);
+        }
+        ensure(position().join()!==start.join(),"Partial real move before configuration");
+        icon("bar_activity_config.svg");tryCompare(dialogActivityConfig,"visible",true,3000);wait(1200);
+        var first=firstCheckbox();ensure(first!==null && first.checked);var label=first.text;
+        mouseClick(first);checked(first.checked,false);saveConfig();checked(activity.numberOfLevel,5);checked(activity.currentLevel,0);
+        checked(Number(errorsText.text.match(/\d+/)[0]),0);checked(grid().count,64);
+        if(encode)checked(moveBar.movesGridView.count,0);
+        icon("bar_activity_config.svg");tryCompare(dialogActivityConfig,"visible",true,3000);wait(1200);
+        first=firstCheckbox();checked(first.text,label);checked(first.checked,false);
+        checked(activity.activityInfo.currentLevels.length,3);checked(ApplicationSettings.ignoredLevels(shortName).length,1);
+        mouseClick(first);saveConfig();checked(activity.numberOfLevel,7);checked(grid().count,36);
+        icon("bar_previous.svg");tryCompare(activity,"currentLevel",6);wait(600);settled();
+        icon("bar_next.svg");tryCompare(activity,"currentLevel",0);wait(600);settled();
+        var depth=pageView.depth;icon("bar_help.svg");tryCompare(pageView,"depth",depth+1);wait(600);
+        var help=pageView.currentItem;checked(help.title,titles[shortName]);
+        ensure(help.content.indexOf(activity.activityInfo.manual)>=0);
+        ensure(help.content.indexOf("Use the arrow buttons")<0 && help.content.indexOf("The directions are")<0);
+        grabImage(pageView).save("__QA_OUTPUT__/help.png");
+        keyClick(Qt.Key_Escape);tryCompare(pageView,"depth",depth);wait(600);settled();
+        var before=position();
+        if(encode) {
+            var step=visibleRoute(before).route[0],command=relative?(step.direction-facing()+4)%4:step.direction;
+            encodeInput(command,false);checked(position().join(),step.next.join());
+        } else {
+            var command=instruction(),absolute=relative?(facing()+command)%4:command;
+            clickCell([before[0]+vectors[absolute][0],before[1]+vectors[absolute][1]]);
+        }
+        ensure(position().join()!==before.join(),"Input works after closing help without forcing focus");
+        controls={activity:shortName,title:activity.activityInfo.title,datasets:4,levels:7,reducedLevels:5,
+                  configurationSaved:true,restartClearedPartial:true,helpEscape:true,moveAfterHelp:true,navigation:true};
+        ActivityInfoTree.startingActivity="";icon("bar_home.svg");tryCompare(pageView,"depth",1);ensure(pageView.currentItem.isMenu);
+        grabImage(pageView).save("__QA_OUTPUT__/menu.png");
+    }
+    function cleanupTestCase(){console.log("NATIVE_PATH_RESULT",JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,controls:controls}));}
+}

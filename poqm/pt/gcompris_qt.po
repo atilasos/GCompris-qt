@@ -23174,7 +23174,7 @@ msgstr "Erros: %1"
 #: activities/path_encoding_relative/ActivityInfo.qml:14
 msgctxt "ActivityInfo|"
 msgid "Relative path encoding"
-msgstr "Codificação de caminhos"
+msgstr "Codificação de caminhos relativos"
 
 #: activities/peg_solitaire/ActivityConfig.qml:27
 msgctxt "ActivityConfig|"
