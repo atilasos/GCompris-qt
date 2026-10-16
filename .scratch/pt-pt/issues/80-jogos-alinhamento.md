@@ -1,7 +1,7 @@
 # Jogo do galo e quatro em linha
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -44,3 +44,10 @@ Correções reproduzidas por mesmos casos vermelhos/verdes: três frases PT, pub
 
 Provas integradas para Standards e Spec independentes. Estado
 `ready-for-review`, sem resolução final ou aceitação global.
+
+## Revisão independente
+
+P2 de preservação física corrigido em suplemento, com SHA históricos exatos
+e provas anteriores intactas. Standards suplementar e Spec recheck sem
+achados restantes; [relatórios](../review/integration80/README.md).
+Resolvida no âmbito Linux finito; Windows/hardware/áudio/docente/global pendentes.

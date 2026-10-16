@@ -1,0 +1,11 @@
+# Revisão Spec independente — tarefa 80
+
+Intervalo fixo `133dd5fdbd9536c04d7e3efba8fd5e88bbebe50d...fdb22cb7e592a053e413ee7b88683a09b3fe809d`. Sem Qt/build ou alterações de main/provas.
+
+**P2 — Preservação dos recursos efetivos incompleta; confiança alta.** Ticket80:25–27 exige «Preservar fontes, catálogo, casos, recursos efetivos» numa auditoria física independente; spec35 exige «Cada conclusão é sustentada por evidência». Em `tests/functional_alignment/audit.py:46–51`, o verificador compara inventários dos RCC canónicos com fontes originais e hashes do snapshot. Os `private_rcc_sha256` e `private_qm_sha256` dos recibos são depois encadeados apenas com metadados (`audit.py`, construção de `effective`), sem confronto com binários físicos ou extrações instrumentadas preservadas. O arquivo portátil contém somente `source-tree.zip` como pacote binário; não guarda os RCC/QM efetivamente carregados. Os deployments históricos de `tic-ai-complete`, `align-ai-complete` e `keyboard-ai-green` já não existem. Assim, o auditor passa sem poder conferir fisicamente esses recursos efetivos, apesar de cumprir os testes atuais.
+
+Remédio: recuperar os binários históricos ou reconstituir os seus bytes e exigir igualdade com os SHA originais dos recibos; preservar também as extrações Qt/instrumentação correspondente e verificá-las no auditor portátil. Não atribuir uma reconstrução divergente aos recibos antigos; delimitar expressamente o que não for recuperável. Manter as 42 partidas e recibos históricos intactos.
+
+Nos restantes pontos, não identifiquei omissões ou scope creep. O auditor confirmou 42 partidas, 506 colocações, quatro controlos e 39 recibos; 15 testes passaram e `-O` é recusado explicitamente. O oráculo usa peças SVG desenhadas/coordenadas, gravidade e linhas independentes, sem vencedor/modelo oculto. Ambos os iniciadores, cinco/seis dificuldades IA, vitórias/derrotas/empates, direções com amigo, ilegalidades, pontuação e controlos estão cobertos.
+
+As correções PT, total do galo, empate apenas com tabuleiro cheio e layout do indicador cabem no âmbito. A composição baseline/rules/final é explícita: os verdes finais dirigidos cobrem ambos os consumidores sem fingir nova execução integral das 42 partidas. Diagnósticos Qt137 estão separados. Linux, audição, hardware, Windows e revisão docente/global permanecem delimitados.

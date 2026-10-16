@@ -363,7 +363,8 @@ Três repetições completas0 não demonstram a sua causa nem ausência futura.
 A estabilidade e a aceitação global permanecem pendentes.
 
 A tarefa 80 tem provas Linux dos quatro jogos de alinhamento integradas e
-aguarda Standards e Spec independentes em `ready-for-review`. As quatro
+fica resolvida neste âmbito após suplemento físico e revisões sem achados
+restantes; [relatórios](review/integration80/README.md). As quatro
 ligações funcionais acrescentadas mantêm todos os critérios globais, Windows,
 hardware, áudio e revisão docente pendentes.
 
@@ -372,3 +373,12 @@ controlos, em `ready-for-review` para Standards e Spec independentes. Duas
 ligações mantêm critérios globais pendentes. A ocorrência 139 continua na
 investigação 83: replay e dois GDB com saída zero não provam correção.
 Windows, hardware, áudio e revisão docente permanecem pendentes.
+
+A tarefa81 fica resolvida no âmbito funcional Linux finito após Standards e
+Spec sem achados; [relatórios](review/integration81/README.md). As duas ligações
+não aprovam estabilidade, Windows, hardware, áudio ou aceitação global.
+O encerramento139 continua na tarefa83 aberta.
+
+- [84 — Exploração do mundo](issues/84-exploracao-mundo.md)
+
+- [85 — Ciclos e eclusa](issues/85-ciclos-e-eclusa.md)
