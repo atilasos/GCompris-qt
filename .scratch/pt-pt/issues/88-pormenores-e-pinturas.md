@@ -1,7 +1,7 @@
 # Concluir pormenores, pinturas e diferenças por imagens visíveis
 
 Status: ready-for-agent
-Progress: claimed
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25, 75
 
