@@ -1,0 +1,17 @@
+{
+  "scope": "GStreamer to fakesink; software decoding only. No hearing or hardware approval.",
+  "results": [
+    {
+      "resource": "src/core/resource/sounds/completetask.wav",
+      "sha256": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "resource": "src/core/resource/sounds/crash.wav",
+      "sha256": "86f844cb3f4cd87485de76b26a868e695d278ea971f308e092305827e7943c11",
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ]
+}
