@@ -1,0 +1,1028 @@
+{
+  "scope": "Linux native offline; six explicitly completed cases; Windows/physical audio/touch/teacher pending",
+  "cases": [
+    "final-numbers/ordering_numbers-gameplay",
+    "verified-controls/ordering_numbers-controls",
+    "alphabets",
+    "verified-controls/ordering_alphabets-controls",
+    "sentences",
+    "verified-controls/ordering_sentences-controls"
+  ],
+  "levels": 36,
+  "wrong_submissions": 36,
+  "drags": 636,
+  "snapshot_manifest_sha256": "f2199ddaf4918c8dfe8314236cedb89ab7c65179599ddd1fec09200edbc95b09",
+  "resource_count": 269,
+  "records": {
+    "ordering_numbers": {
+      "failures": 0,
+      "passes": 2,
+      "completed": [
+        {
+          "level": 1,
+          "visible": [
+            "1",
+            "2",
+            "4",
+            "3",
+            "5"
+          ],
+          "ordered": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "rejected": [
+            "2",
+            "1",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "level": 2,
+          "visible": [
+            "5",
+            "2",
+            "3",
+            "1",
+            "4"
+          ],
+          "ordered": [
+            "5",
+            "4",
+            "3",
+            "2",
+            "1"
+          ],
+          "rejected": [
+            "4",
+            "5",
+            "3",
+            "2",
+            "1"
+          ]
+        },
+        {
+          "level": 3,
+          "visible": [
+            "5",
+            "7",
+            "8",
+            "3",
+            "4"
+          ],
+          "ordered": [
+            "3",
+            "4",
+            "5",
+            "7",
+            "8"
+          ],
+          "rejected": [
+            "4",
+            "3",
+            "5",
+            "7",
+            "8"
+          ]
+        },
+        {
+          "level": 4,
+          "visible": [
+            "7",
+            "3",
+            "6",
+            "10",
+            "4"
+          ],
+          "ordered": [
+            "10",
+            "7",
+            "6",
+            "4",
+            "3"
+          ],
+          "rejected": [
+            "7",
+            "10",
+            "6",
+            "4",
+            "3"
+          ]
+        },
+        {
+          "level": 5,
+          "visible": [
+            "8",
+            "16",
+            "11",
+            "15",
+            "12"
+          ],
+          "ordered": [
+            "8",
+            "11",
+            "12",
+            "15",
+            "16"
+          ],
+          "rejected": [
+            "11",
+            "8",
+            "12",
+            "15",
+            "16"
+          ]
+        },
+        {
+          "level": 6,
+          "visible": [
+            "8",
+            "14",
+            "11",
+            "18",
+            "19"
+          ],
+          "ordered": [
+            "19",
+            "18",
+            "14",
+            "11",
+            "8"
+          ],
+          "rejected": [
+            "18",
+            "19",
+            "14",
+            "11",
+            "8"
+          ]
+        },
+        {
+          "level": 7,
+          "visible": [
+            "22",
+            "17",
+            "12",
+            "9",
+            "2",
+            "16",
+            "14",
+            "23"
+          ],
+          "ordered": [
+            "2",
+            "9",
+            "12",
+            "14",
+            "16",
+            "17",
+            "22",
+            "23"
+          ],
+          "rejected": [
+            "9",
+            "2",
+            "12",
+            "14",
+            "16",
+            "17",
+            "22",
+            "23"
+          ]
+        },
+        {
+          "level": 8,
+          "visible": [
+            "28",
+            "4",
+            "20",
+            "8",
+            "22",
+            "30",
+            "3",
+            "25"
+          ],
+          "ordered": [
+            "30",
+            "28",
+            "25",
+            "22",
+            "20",
+            "8",
+            "4",
+            "3"
+          ],
+          "rejected": [
+            "28",
+            "30",
+            "25",
+            "22",
+            "20",
+            "8",
+            "4",
+            "3"
+          ]
+        }
+      ],
+      "rejected": 8,
+      "drags": 139,
+      "reordered": 1
+    },
+    "ordering_alphabets": {
+      "failures": 0,
+      "passes": 2,
+      "completed": [
+        {
+          "level": 1,
+          "visible": [
+            "c",
+            "e",
+            "d",
+            "b",
+            "a"
+          ],
+          "ordered": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "rejected": [
+            "b",
+            "a",
+            "c",
+            "d",
+            "e"
+          ]
+        },
+        {
+          "level": 2,
+          "visible": [
+            "l",
+            "g",
+            "f",
+            "m",
+            "c"
+          ],
+          "ordered": [
+            "c",
+            "f",
+            "g",
+            "l",
+            "m"
+          ],
+          "rejected": [
+            "f",
+            "c",
+            "g",
+            "l",
+            "m"
+          ]
+        },
+        {
+          "level": 3,
+          "visible": [
+            "y",
+            "z",
+            "v",
+            "w",
+            "x"
+          ],
+          "ordered": [
+            "z",
+            "y",
+            "x",
+            "w",
+            "v"
+          ],
+          "rejected": [
+            "y",
+            "z",
+            "x",
+            "w",
+            "v"
+          ]
+        },
+        {
+          "level": 4,
+          "visible": [
+            "a",
+            "f",
+            "g",
+            "b",
+            "d"
+          ],
+          "ordered": [
+            "g",
+            "f",
+            "d",
+            "b",
+            "a"
+          ],
+          "rejected": [
+            "f",
+            "g",
+            "d",
+            "b",
+            "a"
+          ]
+        },
+        {
+          "level": 5,
+          "visible": [
+            "e",
+            "o",
+            "f",
+            "n",
+            "v"
+          ],
+          "ordered": [
+            "e",
+            "f",
+            "n",
+            "o",
+            "v"
+          ],
+          "rejected": [
+            "f",
+            "e",
+            "n",
+            "o",
+            "v"
+          ]
+        },
+        {
+          "level": 6,
+          "visible": [
+            "z",
+            "e",
+            "q",
+            "r",
+            "g"
+          ],
+          "ordered": [
+            "z",
+            "r",
+            "q",
+            "g",
+            "e"
+          ],
+          "rejected": [
+            "r",
+            "z",
+            "q",
+            "g",
+            "e"
+          ]
+        },
+        {
+          "level": 7,
+          "visible": [
+            "n",
+            "g",
+            "d",
+            "h",
+            "r",
+            "e",
+            "u",
+            "q"
+          ],
+          "ordered": [
+            "d",
+            "e",
+            "g",
+            "h",
+            "n",
+            "q",
+            "r",
+            "u"
+          ],
+          "rejected": [
+            "e",
+            "d",
+            "g",
+            "h",
+            "n",
+            "q",
+            "r",
+            "u"
+          ]
+        },
+        {
+          "level": 8,
+          "visible": [
+            "m",
+            "o",
+            "a",
+            "d",
+            "s",
+            "c",
+            "k",
+            "i"
+          ],
+          "ordered": [
+            "s",
+            "o",
+            "m",
+            "k",
+            "i",
+            "d",
+            "c",
+            "a"
+          ],
+          "rejected": [
+            "o",
+            "s",
+            "m",
+            "k",
+            "i",
+            "d",
+            "c",
+            "a"
+          ]
+        }
+      ],
+      "rejected": 8,
+      "drags": 139,
+      "reordered": 1
+    },
+    "ordering_sentences": {
+      "failures": 0,
+      "passes": 2,
+      "completed": [
+        {
+          "level": 1,
+          "visible": [
+            "O",
+            "ladra.",
+            "cão"
+          ],
+          "ordered": [
+            "O",
+            "cão",
+            "ladra."
+          ],
+          "rejected": [
+            "cão",
+            "O",
+            "ladra."
+          ]
+        },
+        {
+          "level": 2,
+          "visible": [
+            "casa",
+            "vermelha.",
+            "é",
+            "A"
+          ],
+          "ordered": [
+            "A",
+            "casa",
+            "é",
+            "vermelha."
+          ],
+          "rejected": [
+            "casa",
+            "A",
+            "é",
+            "vermelha."
+          ]
+        },
+        {
+          "level": 3,
+          "visible": [
+            "O",
+            "um livro.",
+            "menino",
+            "lê"
+          ],
+          "ordered": [
+            "O",
+            "menino",
+            "lê",
+            "um livro."
+          ],
+          "rejected": [
+            "menino",
+            "O",
+            "lê",
+            "um livro."
+          ]
+        },
+        {
+          "level": 4,
+          "visible": [
+            "é",
+            "O",
+            "meu",
+            "amigo",
+            "fixe."
+          ],
+          "ordered": [
+            "O",
+            "meu",
+            "amigo",
+            "é",
+            "fixe."
+          ],
+          "rejected": [
+            "meu",
+            "O",
+            "amigo",
+            "é",
+            "fixe."
+          ]
+        },
+        {
+          "level": 5,
+          "visible": [
+            "maravilhosa!",
+            "Que",
+            "vista"
+          ],
+          "ordered": [
+            "Que",
+            "vista",
+            "maravilhosa!"
+          ],
+          "rejected": [
+            "vista",
+            "Que",
+            "maravilhosa!"
+          ]
+        },
+        {
+          "level": 6,
+          "visible": [
+            "O",
+            "mergulha",
+            "na",
+            "João",
+            "piscina."
+          ],
+          "ordered": [
+            "O",
+            "João",
+            "mergulha",
+            "na",
+            "piscina."
+          ],
+          "rejected": [
+            "João",
+            "O",
+            "mergulha",
+            "na",
+            "piscina."
+          ]
+        },
+        {
+          "level": 7,
+          "visible": [
+            "A",
+            "quer",
+            "um",
+            "Joana",
+            "livro."
+          ],
+          "ordered": [
+            "A",
+            "Joana",
+            "quer",
+            "um",
+            "livro."
+          ],
+          "rejected": [
+            "Joana",
+            "A",
+            "quer",
+            "um",
+            "livro."
+          ]
+        },
+        {
+          "level": 8,
+          "visible": [
+            "uma",
+            "fez-me",
+            "mãe",
+            "A",
+            "sandes."
+          ],
+          "ordered": [
+            "A",
+            "mãe",
+            "fez-me",
+            "uma",
+            "sandes."
+          ],
+          "rejected": [
+            "mãe",
+            "A",
+            "fez-me",
+            "uma",
+            "sandes."
+          ]
+        },
+        {
+          "level": 9,
+          "visible": [
+            "nas",
+            "Os",
+            "florestas.",
+            "vivem",
+            "tigres"
+          ],
+          "ordered": [
+            "Os",
+            "tigres",
+            "vivem",
+            "nas",
+            "florestas."
+          ],
+          "rejected": [
+            "tigres",
+            "Os",
+            "vivem",
+            "nas",
+            "florestas."
+          ]
+        },
+        {
+          "level": 10,
+          "visible": [
+            "em",
+            "joga-se",
+            "futebol",
+            "equipa.",
+            "O"
+          ],
+          "ordered": [
+            "O",
+            "futebol",
+            "joga-se",
+            "em",
+            "equipa."
+          ],
+          "rejected": [
+            "futebol",
+            "O",
+            "joga-se",
+            "em",
+            "equipa."
+          ]
+        },
+        {
+          "level": 11,
+          "visible": [
+            "no",
+            "Sol",
+            "céu",
+            "azul.",
+            "brilha",
+            "O"
+          ],
+          "ordered": [
+            "O",
+            "Sol",
+            "brilha",
+            "no",
+            "céu",
+            "azul."
+          ],
+          "rejected": [
+            "Sol",
+            "O",
+            "brilha",
+            "no",
+            "céu",
+            "azul."
+          ]
+        },
+        {
+          "level": 12,
+          "visible": [
+            "se",
+            "divertir",
+            "à",
+            "de",
+            "As",
+            "gostam",
+            "crianças",
+            "noite."
+          ],
+          "ordered": [
+            "As",
+            "crianças",
+            "gostam",
+            "de",
+            "se",
+            "divertir",
+            "à",
+            "noite."
+          ],
+          "rejected": [
+            "crianças",
+            "As",
+            "gostam",
+            "de",
+            "se",
+            "divertir",
+            "à",
+            "noite."
+          ]
+        },
+        {
+          "level": 13,
+          "visible": [
+            "almoçar?",
+            "sair",
+            "casa",
+            "para",
+            "Vais",
+            "de"
+          ],
+          "ordered": [
+            "Vais",
+            "sair",
+            "de",
+            "casa",
+            "para",
+            "almoçar?"
+          ],
+          "rejected": [
+            "sair",
+            "Vais",
+            "de",
+            "casa",
+            "para",
+            "almoçar?"
+          ]
+        },
+        {
+          "level": 14,
+          "visible": [
+            "A",
+            "menina",
+            "os",
+            "calçou",
+            "saiu.",
+            "sapatos",
+            "e"
+          ],
+          "ordered": [
+            "A",
+            "menina",
+            "calçou",
+            "os",
+            "sapatos",
+            "e",
+            "saiu."
+          ],
+          "rejected": [
+            "menina",
+            "A",
+            "calçou",
+            "os",
+            "sapatos",
+            "e",
+            "saiu."
+          ]
+        },
+        {
+          "level": 15,
+          "visible": [
+            "de",
+            "O",
+            "ficou",
+            "comer",
+            "doente",
+            "chocolates",
+            "grandes.",
+            "José",
+            "depois"
+          ],
+          "ordered": [
+            "O",
+            "José",
+            "ficou",
+            "doente",
+            "depois",
+            "de",
+            "comer",
+            "chocolates",
+            "grandes."
+          ],
+          "rejected": [
+            "José",
+            "O",
+            "ficou",
+            "doente",
+            "depois",
+            "de",
+            "comer",
+            "chocolates",
+            "grandes."
+          ]
+        },
+        {
+          "level": 16,
+          "visible": [
+            "todos",
+            "férias",
+            "família",
+            "na",
+            "os",
+            "A",
+            "anos.",
+            "passa",
+            "nossa",
+            "praia"
+          ],
+          "ordered": [
+            "A",
+            "nossa",
+            "família",
+            "passa",
+            "férias",
+            "na",
+            "praia",
+            "todos",
+            "os",
+            "anos."
+          ],
+          "rejected": [
+            "nossa",
+            "A",
+            "família",
+            "passa",
+            "férias",
+            "na",
+            "praia",
+            "todos",
+            "os",
+            "anos."
+          ]
+        },
+        {
+          "level": 17,
+          "visible": [
+            "um",
+            "Paulo",
+            "camião",
+            "vermelho.",
+            "O",
+            "deu-me",
+            "tio"
+          ],
+          "ordered": [
+            "O",
+            "tio",
+            "Paulo",
+            "deu-me",
+            "um",
+            "camião",
+            "vermelho."
+          ],
+          "rejected": [
+            "tio",
+            "O",
+            "Paulo",
+            "deu-me",
+            "um",
+            "camião",
+            "vermelho."
+          ]
+        },
+        {
+          "level": 18,
+          "visible": [
+            "o",
+            "a",
+            "comer",
+            "podes",
+            "terminares",
+            "sobremesa.",
+            "arroz",
+            "Quando"
+          ],
+          "ordered": [
+            "Quando",
+            "terminares",
+            "o",
+            "arroz",
+            "podes",
+            "comer",
+            "a",
+            "sobremesa."
+          ],
+          "rejected": [
+            "terminares",
+            "Quando",
+            "o",
+            "arroz",
+            "podes",
+            "comer",
+            "a",
+            "sobremesa."
+          ]
+        },
+        {
+          "level": 19,
+          "visible": [
+            "no",
+            "mãe",
+            "quarto.",
+            "pediu-me",
+            "brincar",
+            "A",
+            "para"
+          ],
+          "ordered": [
+            "A",
+            "mãe",
+            "pediu-me",
+            "para",
+            "brincar",
+            "no",
+            "quarto."
+          ],
+          "rejected": [
+            "mãe",
+            "A",
+            "pediu-me",
+            "para",
+            "brincar",
+            "no",
+            "quarto."
+          ]
+        },
+        {
+          "level": 20,
+          "visible": [
+            "vamos",
+            "que",
+            "ter",
+            "dia.",
+            "um",
+            "Penso",
+            "bom"
+          ],
+          "ordered": [
+            "Penso",
+            "que",
+            "vamos",
+            "ter",
+            "um",
+            "bom",
+            "dia."
+          ],
+          "rejected": [
+            "que",
+            "Penso",
+            "vamos",
+            "ter",
+            "um",
+            "bom",
+            "dia."
+          ]
+        }
+      ],
+      "rejected": 20,
+      "drags": 358,
+      "reordered": 1
+    }
+  },
+  "artifact_sha256": {
+    "final-numbers/ordering_numbers-gameplay/level-1.png": "3c4f3cbbe3e4978b2df7853fc1da369c46545dcccc95c310b5b3a594088643c6",
+    "final-numbers/ordering_numbers-gameplay/level-8.png": "c9f3d177c7378aee84ec5f55d20df058a0ca345fc4197df8371568219d0b1489",
+    "final-numbers/ordering_numbers-gameplay/native.log": "1e2fd244f7348542a19d314eb0e064d17f8521fc3a594061d1ef7764b1cd92ca",
+    "final-numbers/ordering_numbers-gameplay/result.json": "ed0e7cf59b223a98d3a70e909439e0f24b7d8242ca56069dd024b2dd38f5b8b5",
+    "final-numbers/ordering_numbers-gameplay/wrong.png": "fd660d44e349e2708faa58a29db68ff2848c840ad2b525f26306ea20186fd8a2",
+    "verified-controls/ordering_numbers-controls/help.png": "8ea2f980e52b180c75b516ba7c42ce75f94bb7332002496b82174577eb22684e",
+    "verified-controls/ordering_numbers-controls/native.log": "4b5fccdde40d12ad09333269ea1c5821df815e32fc1a8571f53b1a3374693de4",
+    "verified-controls/ordering_numbers-controls/result.json": "e4ce2b5fdcd5a08136ec6828e3ee03fb6d9013fca566f43e6b595ec299b6cb4a",
+    "alphabets/level-1.png": "19ec9f1a7c17a02ea69cc7a1a1dca99de424ac6dba0051ac430fe8cdcae63af2",
+    "alphabets/level-8.png": "7c91478391a007c21ee675a3e2d12b4764a059f90bc005d09a9b84a02a1962d5",
+    "alphabets/native.log": "f43ec9a6fb9b8a6739771c9a58a70e8eea9e45a2b22514ac5ba2db58000f6e06",
+    "alphabets/result.json": "1d9bddfce5ba1c059bed3c14cea43974848a7ce01cfdc20b00efd22601fe817b",
+    "alphabets/wrong.png": "00d229b9d32b11686d702c70241083b7f099fb82f58198fda23dcb8c371557b6",
+    "verified-controls/ordering_alphabets-controls/help.png": "ee05104e9d84347fd7687823070024fbd944111c8d87e8452e842b66634ca6b5",
+    "verified-controls/ordering_alphabets-controls/native.log": "a5e662c66daf930ab0ae5ac846d1c119c038c04cf27f2d07cb594e51bb9a408c",
+    "verified-controls/ordering_alphabets-controls/result.json": "d7fcc21dd953c3ce3c94d7c60386ff82c5c7365c3e2194f6f797c84b6ec20cee",
+    "sentences/level-1.png": "c3a24d51c8acd79e17efa3191565c564b414e65a74f7a0aa340069bd6ba28d91",
+    "sentences/level-20.png": "dc29a7cca44840813a327c4065ccd660457f4b8247aa67973fb23e1ab7d2b1b8",
+    "sentences/native.log": "30a9d88bea2267aaec77fecc1e235e76a1b11fda80ad85f37ac70d64131b5752",
+    "sentences/result.json": "26782eb86ce3886c0a87cb4704c5c6a1133c7efa1c0a16e488894c3fa1b255bf",
+    "sentences/wrong.png": "cd4672d2bb7c6a00b0d6a394cad50dcddb3f8d9153d7e8d668f836867e40e32b",
+    "verified-controls/ordering_sentences-controls/help.png": "8536032d520c615875d02dd6d8eb758781c5611c89cf8e0bc498413d7fb234da",
+    "verified-controls/ordering_sentences-controls/native.log": "85366b697ffc46299818a56273c1e4a4bc5de8894d075a83a0ba258dc3b3bb06",
+    "verified-controls/ordering_sentences-controls/result.json": "e3c8cab96997ee4c8ab4c7556fd3af4e9beefa338aea07b7f58cec5912214aea"
+  }
+}

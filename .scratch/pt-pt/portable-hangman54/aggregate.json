@@ -1,0 +1,938 @@
+{
+  "passed": true,
+  "campaigns": 116,
+  "words": 4824,
+  "expected_campaigns": 116,
+  "missing": [],
+  "errors": [],
+  "receipts": [
+    {
+      "name": "hangman-full-lesson02-imagefalse-audiofalse",
+      "report": "hangman-final/hangman-full-lesson02-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "02eac376c7bcdd1cd98c361cdc282099c82eab31d372591447a3d0f5298a24d2",
+      "completed": 95,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson02-imagefalse-audiotrue",
+      "report": "hangman-final/hangman-full-lesson02-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "39e4efe4ea2402f5a8fa1056e16343375e6c54d881ab307675069d6182511293",
+      "completed": 95,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson02-imagetrue-audiofalse",
+      "report": "hangman-final/hangman-full-lesson02-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "3278c6354ccae39b050e8d299114c1b252ca27dcd628ef8eb77ab09fdf5f705f",
+      "completed": 95,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson02-imagetrue-audiotrue",
+      "report": "hangman-final/hangman-full-lesson02-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "b500ca77cc3defa1a9fda70233b58f15fb3d2ef03bd2235302f71d5613b5d397",
+      "completed": 95,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson21-imagefalse-audiofalse",
+      "report": "hangman-final/hangman-full-lesson21-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "33bce6c0c93138150d3b881ba01b5b90a6068e80e73cf5a6aec072b0d74e2f1a",
+      "completed": 139,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson21-imagefalse-audiotrue",
+      "report": "hangman-final/hangman-full-lesson21-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "cd6dd23a0079452b6f4b86bf1323d58ef9d9f6f54276278893cedc8b57acb94b",
+      "completed": 139,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson21-imagetrue-audiofalse",
+      "report": "hangman-final/hangman-full-lesson21-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "32f56defeb4c6d6ef5ec7245f5bcfe9245f7f2a30ca3ba0098f770056518da94",
+      "completed": 139,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson21-imagetrue-audiotrue",
+      "report": "hangman-final/hangman-full-lesson21-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "a4818112d7ca94c60b4ef632126d5002ab18bf75f77d4060caaebb64ffe8515a",
+      "completed": 139,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson01-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson01-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "233f39cb0f511533eb3476efd1dc52e352089f69493bc18ddfcf6a820ca63520",
+      "completed": 61,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson01-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson01-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "02a14ce33636ce9fedc2839661c7da356b5580d0850e281b4dff29fc96a6188d",
+      "completed": 61,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson01-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson01-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "9bb613b0946813f0f0df98f11c2c6b8ea35be70b1894936c70b4800c22902f78",
+      "completed": 61,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson01-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson01-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "53ca442b4479b8875fd33f9ad7114f0f1dae7f5ebd855957d6c49f9c6539b869",
+      "completed": 61,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson03-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson03-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "ff4022d553db0fb077da6ec6873e95fd152cde337244a3a0c64dd0c571825d27",
+      "completed": 39,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson03-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson03-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "a1bc4c032ae21faf91b203f1a6360af8ca6aec97619d4006786568feff848c39",
+      "completed": 39,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson03-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson03-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "b7440e441d2edffe2dd18f7709cafe5ca944fcfc21e2d9f1f53aab077805aa25",
+      "completed": 39,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson03-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson03-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "28df7fdcf2ff734e4f5d4088114b201ba88f83e340699e239a9750e2a33610ad",
+      "completed": 39,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson04-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson04-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "060a2bd90da921e17d5847e0e987f63b1e6dfae347e540cc852b1d66d634e5fb",
+      "completed": 12,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson04-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson04-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "604f29548b71364317541cc049d4045307e5bf31850dede8aca7022700fbdff0",
+      "completed": 12,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson04-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson04-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "5d1a01ae0f72475f4144931063765f9cebc122ba2aaf65c6c8b02fb5b0e5d69d",
+      "completed": 12,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson04-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson04-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "62073d5e7c991534b615489c945690e60e46ddeed7420b1413f4298246b468af",
+      "completed": 12,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson05-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson05-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "d18932b2488a9ff7e509629b1fed8785ddaeba5e47d1cac6b3c6555e7ed7fc16",
+      "completed": 14,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson05-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson05-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "457bb4edde05f36f15cc5335014206fb58118a81a1a82751268dd5de7c8ea0ca",
+      "completed": 14,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson05-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson05-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "89890457d21ee3a2523e433bbb77ea9f11b16e73607b73cc96a0c21c38e8609c",
+      "completed": 14,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson05-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson05-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "fd87488831f6bf9fb8a838502c681e7d20b9cd6ae8abb197b307d7c186d31f34",
+      "completed": 14,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson06-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson06-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "bb48d341c61634661068486be501e3e90e534304addeda8a113b3ce144a57ed3",
+      "completed": 51,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson06-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson06-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "41943e2befc1cded1ae2a62ab14d90a0b21cf2112e62e8cdea39579cacf14be2",
+      "completed": 51,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson06-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson06-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "6cbbf112826cc062446550c94ecc3feffe407cfd4830e2694cf83cf6b2662f28",
+      "completed": 51,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson06-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson06-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "40427332e7a4be51a6783c08c79b97972e959cbea07d5a7a4ca2241753c669bb",
+      "completed": 51,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson07-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson07-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "a1f2e295d88aed565c5122a904e96f76cf9f26a8d5e3f6e547d46d588b6830f4",
+      "completed": 42,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson07-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson07-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "52034b0f88a55707ebc19ce306486fa64533a23fb1e4fbc9027eeb77c92382b1",
+      "completed": 42,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson07-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson07-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "88d4d2100ebc7e6b1374f4135ef1876db7a5d363f34528d746d575a4f2ef35b3",
+      "completed": 42,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson07-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson07-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "634d2228cff336bf50ebcd99fcf0c6c40835da59b74780458beca73f3988a2e8",
+      "completed": 42,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson08-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson08-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "30c3b9fe1017fc9b05dc5f7755bcc04c26a73d2eacdeae2f3b9c0a45e14339e0",
+      "completed": 12,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson08-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson08-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "fc9b8b4e6588d38d8c210d67565fa64dfe3791630186fb58a9b0ac73d2078aea",
+      "completed": 12,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson08-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson08-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "99deb3577daf3da6d85307e3210e2c9ff263d7b626e14c9d629b9e376534b35d",
+      "completed": 12,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson08-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson08-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "6973eb3218288bc089ec1dc2f74a75ffaf23a4c1b394a22dc97ff3b0b6caf360",
+      "completed": 12,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson09-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson09-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "4ede8c02e3c8c9b9930dd5d6791b9c3d701c937686e970e38bdc6133b6baaf31",
+      "completed": 41,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson09-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson09-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "2f62c7ffcdedd574336d2ec159325c7cb372e7336ac5e852fceb377c1ddc1cdb",
+      "completed": 41,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson09-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson09-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "bd100344497470133f6121b963d7f8368d541945dae950ffdd7fe8203fdf2834",
+      "completed": 41,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson09-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson09-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "67cdab7453e8120b96b4397ada558d7bb554ed89e983483fc46c94876ced664c",
+      "completed": 41,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson10-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson10-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "4f19489f1b6214ab55ab6293cf26952b471b70f949c11c27ba505b2edd8c7165",
+      "completed": 27,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson10-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson10-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "575d38245abdbade18f6c3e53f8dea920351ea37dc033a50d7183beccec45685",
+      "completed": 27,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson10-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson10-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "b192c7609268b1a4618fb83a93892c5324258f7f79a2132c12e336282d5984f2",
+      "completed": 27,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson10-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson10-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "d23a6d359f97e2fd757c56855edb9ee553b3f75ca4c451c998a16b4ce76909cf",
+      "completed": 27,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson11-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson11-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "afb83534e91102ea46886ad77437c758931ab643d21c5de376c6c85ec7b854de",
+      "completed": 25,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson11-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson11-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "e058a54910d98e3190a9a23be23d567eb5b6898b835935801f50bee313c6ff18",
+      "completed": 25,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson11-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson11-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "79e4516c1d982393c0e6ab4e858631e4668a9465c59363e324c681fcd58e6ec6",
+      "completed": 25,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson11-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson11-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "278217db4c428c9de2254f859e6bb2811c5180f87bd055c24c04d0a9ae5e731e",
+      "completed": 25,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson12-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson12-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "709e5b15d180dac71c5f572d651c26f3c6ccb1f6e9e95a6db1c048264f3cea20",
+      "completed": 53,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson12-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson12-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "e4c7b49731672f792e08d3c76fdabd4ae3169987473cb010ee2747dc91fea6e7",
+      "completed": 53,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson12-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson12-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "c75bccc36ff59078fb5359e170a6f0cf88f1166fc571dbf41331cade194dff34",
+      "completed": 53,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson12-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson12-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "6e04ed9afdb702ca6db0ae29a98e73b772931e8a6b40caaeafbfdc2aafab9144",
+      "completed": 53,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson13-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson13-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "728b3094465242bc4405c71ee73d21a4a584a7a0be00869c4db74008dd354644",
+      "completed": 156,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson13-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson13-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "d2c85087aa9385f8127da2d07c9f9e0c0bc5d15e994b8a1263362a8232c7fdf4",
+      "completed": 156,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson13-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson13-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "ab3956a4059f8b18295f212a9f2e1cebc9adf51692ccbab181038d1d874247e1",
+      "completed": 156,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson13-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson13-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "fc7a87ecd5b0e4dd2d2cb3ef91a3abab3955d34da74927567e7139931fa132ec",
+      "completed": 156,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson14-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson14-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "f547581ecdc166f74423b8bc18ef6a3000e739922cdab9a4e6d4acd485e9e101",
+      "completed": 25,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson14-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson14-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "aeb389d558fe4b86714567d5f3ee201e3a938f1c86f22c5241423e66d1698e29",
+      "completed": 25,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson14-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson14-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "ad1a46d50126c30b70beb6165481303e6bb5652305d94852051c724be0627271",
+      "completed": 25,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson14-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson14-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "747626526e9ee778ef20f5ddf290a1ce87bedb02ad5206c9c7ff865666c10648",
+      "completed": 25,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson15-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson15-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "6dcd9693fe983b97b6d57d0626fe03f40e78dad086c3bc795d4e920479b7beb8",
+      "completed": 73,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson15-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson15-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "ec9c9a9fc5f085082d2d84c86a4f27785328e610afcb870034c451dcad53820f",
+      "completed": 73,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson15-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson15-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "43adb671d9e2682fc871fdbaa8ca48a9623c69ae925d798172fbf66b0b87f93b",
+      "completed": 73,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson15-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson15-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "10f11c452645834bab8df29c236ce469bfdae49c909e7de0786b468b2687a9dc",
+      "completed": 73,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson16-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson16-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "1ee919cc40d308b36ed9b77894c39f4fdd11fb6e65ccde08c94527242c92ed17",
+      "completed": 38,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson16-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson16-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "7e8dc445b9994a48922f3f352a034296a5da3a4e50a5eef7d1664109a43c83b7",
+      "completed": 38,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson16-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson16-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "32079286375aea51cfa9264ab65a1cfdc414b1da4fbc8b9d90d0c611bc5c5614",
+      "completed": 38,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson16-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson16-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "ddbc2065f5968854633e8a1e55994ac5c731bc57c016975b9b734b8a41677b53",
+      "completed": 38,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson17-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson17-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "36eb1f0c883c937946179d5bfb5fdd1ad6a99692e66083de1eff35c7874bc522",
+      "completed": 32,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson17-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson17-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "0ac025733cbcb986f660f29a747631f0e827d8abdc7d5bcd371c90ef036dbb87",
+      "completed": 32,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson17-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson17-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "6c0ea818a316a108b454576507e899014270034be8686b532bf0311c551f1feb",
+      "completed": 32,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson17-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson17-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "1e13d36b247375ea79f4d5bd7ab090fc646461237a52f2b99d027ac64116409c",
+      "completed": 32,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson18-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson18-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "6f794e120a6b0650d0f385758d9d4c276d0992cb4516cf1d1c3e6cd9ed190643",
+      "completed": 56,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson18-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson18-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "042e19d1e713bdb88833eee58510eaed73e146f21fb93a7f02252db2d1e91865",
+      "completed": 56,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson18-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson18-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "21f001efc470fff2776cdfe959cfd2f4dcdb7bba6b76ee436ebb7c297f9d55fd",
+      "completed": 56,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson18-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson18-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "4f229d266f53632e06badbf3d98ddacb2299b3539e6c13c847f8f37085554904",
+      "completed": 56,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson19-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson19-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "7f55b754f78cacfcb71b0672d0026ed8d75c015d108dfd71e863a8ee23495ddf",
+      "completed": 28,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson19-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson19-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "61d20cb67f17dd67b20db802fcecaab9239de77ec482e1d0744a4f9d33287583",
+      "completed": 28,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson19-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson19-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "52d4c7ee09ab613b88334c950f6951a133283ba7e3f4c7dddb8cad9f144f019e",
+      "completed": 28,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson19-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson19-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "e2b73b0cc8dc072047bdd1037877bc301521162553f050409f63bb1bd3722463",
+      "completed": 28,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson20-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson20-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "e2a9855f190574e1a473e4e2588f408b374373b05a63274d36c6d5d1754dd51a",
+      "completed": 35,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson20-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson20-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "cc655c3ca6f07ddd86c7356d7003148d5ab247cff1098c7accc3540f3085e5be",
+      "completed": 35,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson20-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson20-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "c7b4a8a475b7a27b23ae78ebeb41107f1d8ca1abe7c22c3c50fc8fecd5bb2f0e",
+      "completed": 35,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson20-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson20-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "c8ba5868a48069849f33ffc85fe13e56c20429970370049e935cc5465b92b445",
+      "completed": 35,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson22-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson22-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "77b6078564734433bee201c02b74492f4c0978c4d7e304b10ef2ddc82de1977d",
+      "completed": 20,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson22-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson22-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "27a008287ef252d04509d3762c946f8ac0e18176435979cb0909de9e3ef3bbeb",
+      "completed": 20,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson22-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson22-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "8357350d1bdb9189ba8c6852ae71f96a0a46f46e467396a4c327f1b4eca64e24",
+      "completed": 20,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson22-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson22-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "ebebb8007c02fc13f347dda683e1338f533d108806e5bc9d2880db78592c00eb",
+      "completed": 20,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson23-imagefalse-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson23-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "91be5032d7dffe4261e08b27c8c7a0699c28d7859f44576235b89d2e94177dce",
+      "completed": 16,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson23-imagefalse-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson23-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "36074bf0bf4b6d954f637dee5304bef05e0a121cb93f347f409ccb247cbc63ed",
+      "completed": 16,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson23-imagetrue-audiofalse",
+      "report": "hangman-remaining-full/hangman-full-lesson23-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "c07f9abe8390e3b6d40cdfa4eea2b53706aa82c514f19525e8ac84550d14b466",
+      "completed": 16,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-full-lesson23-imagetrue-audiotrue",
+      "report": "hangman-remaining-full/hangman-full-lesson23-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "7f309474bba1332be32471d88f67d6d88aa1a98653a7b0e4912a1f71a718cd80",
+      "completed": 16,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson01-imagefalse-audiofalse",
+      "report": "hangman-remaining-sample/hangman-sample-lesson01-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "28fa3f572694dde3bc46624ca18f12719f9e885865687a1d74e1ec4d776e8e97",
+      "completed": 12,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson01-imagefalse-audiotrue",
+      "report": "hangman-remaining-sample/hangman-sample-lesson01-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "a32564bf9144b73ea7e1d4e94a3c992d57018537d9bc17b7174dce39588845ec",
+      "completed": 12,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson01-imagetrue-audiofalse",
+      "report": "hangman-remaining-sample/hangman-sample-lesson01-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "a2c9ebec5fa7c9c1e94376e47a9b390ad325b00ee94316fc3682006046681189",
+      "completed": 12,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson01-imagetrue-audiotrue",
+      "report": "hangman-remaining-sample/hangman-sample-lesson01-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "1b0d8230deb143579f889a138570cd278ed0e8e95ad45bce82307111622bc023",
+      "completed": 12,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson02-imagefalse-audiofalse",
+      "report": "hangman-remaining-sample/hangman-sample-lesson02-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "480f01f4e9183c6084de36f00fe520560aac7b080023e9ecd8adce610693a4ca",
+      "completed": 14,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson02-imagefalse-audiotrue",
+      "report": "hangman-remaining-sample/hangman-sample-lesson02-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "4a86378e559a1bf1e14135b0127d0d33b223bd2b6f5b01d09a403a3f0bc235d4",
+      "completed": 14,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson02-imagetrue-audiofalse",
+      "report": "hangman-remaining-sample/hangman-sample-lesson02-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "6b826f13d23c04effb88b90f1fd876a881e020bef1211183e91e999d71356048",
+      "completed": 14,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson02-imagetrue-audiotrue",
+      "report": "hangman-remaining-sample/hangman-sample-lesson02-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "af9e349230b599f3dac9b2ae946b62df6cca7265592e6c549e9f0403d2616818",
+      "completed": 14,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson03-imagefalse-audiofalse",
+      "report": "hangman-remaining-sample/hangman-sample-lesson03-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "a2572bc8a453d490eae2e8652b290753cd2825644f3c0c9ae1cb91e4302f43ea",
+      "completed": 20,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson03-imagefalse-audiotrue",
+      "report": "hangman-remaining-sample/hangman-sample-lesson03-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "2bcbe30fe1e2cbfac5ca6e767f7ae494c1f754897071cc645f4b604106ded011",
+      "completed": 20,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson03-imagetrue-audiofalse",
+      "report": "hangman-remaining-sample/hangman-sample-lesson03-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "0d3946938e3d79ccc764be7adefe95becfbab669a2835b2e3d89b1b2a92f1de8",
+      "completed": 20,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson03-imagetrue-audiotrue",
+      "report": "hangman-remaining-sample/hangman-sample-lesson03-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "dd26c17be543cfb8afee506840834f840d7dd08030b4033e04c402f17eb2707c",
+      "completed": 20,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson04-imagefalse-audiofalse",
+      "report": "hangman-remaining-sample/hangman-sample-lesson04-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "bcd4ff709d5dd40f5a64bf57dd2c504b98612c037defdfbfbfcef1dac478be10",
+      "completed": 13,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson04-imagefalse-audiotrue",
+      "report": "hangman-remaining-sample/hangman-sample-lesson04-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "2ce76de377f8dd773eb5e09748a77128b5a938bbd27c2ab2c98374595e2a7f14",
+      "completed": 13,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson04-imagetrue-audiofalse",
+      "report": "hangman-remaining-sample/hangman-sample-lesson04-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "3592aaffc981028650bf85c58cb7319ebd5401c2ec98f2921024b9542a4f4a2c",
+      "completed": 13,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson04-imagetrue-audiotrue",
+      "report": "hangman-remaining-sample/hangman-sample-lesson04-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "252e8b63b1c4cf4efcf14f31da380f3400d84e845970adaa1e0d7b23576f752d",
+      "completed": 13,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson05-imagefalse-audiofalse",
+      "report": "hangman-remaining-sample/hangman-sample-lesson05-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "d21c9db7d438b3bf2250da7834f97361fe53fc73717c8ca9792aa0dd81963e0a",
+      "completed": 44,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson05-imagefalse-audiotrue",
+      "report": "hangman-remaining-sample/hangman-sample-lesson05-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "f5de284594d4e76d6db5be1aa66c954c7da7bdfdc375a4e821cf46ba8c2e04dc",
+      "completed": 44,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson05-imagetrue-audiofalse",
+      "report": "hangman-remaining-sample/hangman-sample-lesson05-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "ad67c21b15981f8bea72350226524eef18414e50929855274d853d3a82b50c2e",
+      "completed": 44,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson05-imagetrue-audiotrue",
+      "report": "hangman-remaining-sample/hangman-sample-lesson05-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "439588d035827f63c0ae6ef30ec6b4aa50172114766d3e0d47b7be73133f6951",
+      "completed": 44,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson06-imagefalse-audiofalse",
+      "report": "hangman-remaining-sample/hangman-sample-lesson06-imagefalse-audiofalse/attempt01/result.json",
+      "report_sha256": "0f660cd6e419b3be6348867e617412cd73dc4f716429a9ad377ce3c67413f4fe",
+      "completed": 13,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson06-imagefalse-audiotrue",
+      "report": "hangman-remaining-sample/hangman-sample-lesson06-imagefalse-audiotrue/attempt01/result.json",
+      "report_sha256": "41cf21aec3ec1f94bf9681994d9efbee695bd8ecdf981993798a2e3ae5363b7c",
+      "completed": 13,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson06-imagetrue-audiofalse",
+      "report": "hangman-remaining-sample/hangman-sample-lesson06-imagetrue-audiofalse/attempt01/result.json",
+      "report_sha256": "1c6c0bab64bc5696836bb44b2870ba1c75e3a2f2d4f2ceabfe73bb5007abf6b0",
+      "completed": 13,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "hangman-sample-lesson06-imagetrue-audiotrue",
+      "report": "hangman-remaining-sample/hangman-sample-lesson06-imagetrue-audiotrue/attempt01/result.json",
+      "report_sha256": "66fc83b9ef99cb30a63ffcdcb104c3f365136572cbe565aeaebd5283ea591539",
+      "completed": 13,
+      "passed": true,
+      "errors": []
+    }
+  ]
+}

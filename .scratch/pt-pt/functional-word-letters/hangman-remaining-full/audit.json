@@ -1,0 +1,590 @@
+[
+  {
+    "name": "hangman-full-lesson01-imagefalse-audiofalse",
+    "report": "hangman-full-lesson01-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 61,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson01-imagefalse-audiotrue",
+    "report": "hangman-full-lesson01-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 61,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson01-imagetrue-audiofalse",
+    "report": "hangman-full-lesson01-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 61,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson01-imagetrue-audiotrue",
+    "report": "hangman-full-lesson01-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 61,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson03-imagefalse-audiofalse",
+    "report": "hangman-full-lesson03-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 39,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson03-imagefalse-audiotrue",
+    "report": "hangman-full-lesson03-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 39,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson03-imagetrue-audiofalse",
+    "report": "hangman-full-lesson03-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 39,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson03-imagetrue-audiotrue",
+    "report": "hangman-full-lesson03-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 39,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson04-imagefalse-audiofalse",
+    "report": "hangman-full-lesson04-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 12,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson04-imagefalse-audiotrue",
+    "report": "hangman-full-lesson04-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 12,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson04-imagetrue-audiofalse",
+    "report": "hangman-full-lesson04-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 12,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson04-imagetrue-audiotrue",
+    "report": "hangman-full-lesson04-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 12,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson05-imagefalse-audiofalse",
+    "report": "hangman-full-lesson05-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 14,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson05-imagefalse-audiotrue",
+    "report": "hangman-full-lesson05-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 14,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson05-imagetrue-audiofalse",
+    "report": "hangman-full-lesson05-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 14,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson05-imagetrue-audiotrue",
+    "report": "hangman-full-lesson05-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 14,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson06-imagefalse-audiofalse",
+    "report": "hangman-full-lesson06-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 51,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson06-imagefalse-audiotrue",
+    "report": "hangman-full-lesson06-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 51,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson06-imagetrue-audiofalse",
+    "report": "hangman-full-lesson06-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 51,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson06-imagetrue-audiotrue",
+    "report": "hangman-full-lesson06-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 51,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson07-imagefalse-audiofalse",
+    "report": "hangman-full-lesson07-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 42,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson07-imagefalse-audiotrue",
+    "report": "hangman-full-lesson07-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 42,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson07-imagetrue-audiofalse",
+    "report": "hangman-full-lesson07-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 42,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson07-imagetrue-audiotrue",
+    "report": "hangman-full-lesson07-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 42,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson08-imagefalse-audiofalse",
+    "report": "hangman-full-lesson08-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 12,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson08-imagefalse-audiotrue",
+    "report": "hangman-full-lesson08-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 12,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson08-imagetrue-audiofalse",
+    "report": "hangman-full-lesson08-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 12,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson08-imagetrue-audiotrue",
+    "report": "hangman-full-lesson08-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 12,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson09-imagefalse-audiofalse",
+    "report": "hangman-full-lesson09-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 41,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson09-imagefalse-audiotrue",
+    "report": "hangman-full-lesson09-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 41,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson09-imagetrue-audiofalse",
+    "report": "hangman-full-lesson09-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 41,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson09-imagetrue-audiotrue",
+    "report": "hangman-full-lesson09-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 41,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson10-imagefalse-audiofalse",
+    "report": "hangman-full-lesson10-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 27,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson10-imagefalse-audiotrue",
+    "report": "hangman-full-lesson10-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 27,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson10-imagetrue-audiofalse",
+    "report": "hangman-full-lesson10-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 27,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson10-imagetrue-audiotrue",
+    "report": "hangman-full-lesson10-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 27,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson11-imagefalse-audiofalse",
+    "report": "hangman-full-lesson11-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 25,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson11-imagefalse-audiotrue",
+    "report": "hangman-full-lesson11-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 25,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson11-imagetrue-audiofalse",
+    "report": "hangman-full-lesson11-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 25,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson11-imagetrue-audiotrue",
+    "report": "hangman-full-lesson11-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 25,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson12-imagefalse-audiofalse",
+    "report": "hangman-full-lesson12-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 53,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson12-imagefalse-audiotrue",
+    "report": "hangman-full-lesson12-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 53,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson12-imagetrue-audiofalse",
+    "report": "hangman-full-lesson12-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 53,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson12-imagetrue-audiotrue",
+    "report": "hangman-full-lesson12-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 53,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson13-imagefalse-audiofalse",
+    "report": "hangman-full-lesson13-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 156,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson13-imagefalse-audiotrue",
+    "report": "hangman-full-lesson13-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 156,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson13-imagetrue-audiofalse",
+    "report": "hangman-full-lesson13-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 156,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson13-imagetrue-audiotrue",
+    "report": "hangman-full-lesson13-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 156,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson14-imagefalse-audiofalse",
+    "report": "hangman-full-lesson14-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 25,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson14-imagefalse-audiotrue",
+    "report": "hangman-full-lesson14-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 25,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson14-imagetrue-audiofalse",
+    "report": "hangman-full-lesson14-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 25,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson14-imagetrue-audiotrue",
+    "report": "hangman-full-lesson14-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 25,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson15-imagefalse-audiofalse",
+    "report": "hangman-full-lesson15-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 73,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson15-imagefalse-audiotrue",
+    "report": "hangman-full-lesson15-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 73,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson15-imagetrue-audiofalse",
+    "report": "hangman-full-lesson15-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 73,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson15-imagetrue-audiotrue",
+    "report": "hangman-full-lesson15-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 73,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson16-imagefalse-audiofalse",
+    "report": "hangman-full-lesson16-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 38,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson16-imagefalse-audiotrue",
+    "report": "hangman-full-lesson16-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 38,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson16-imagetrue-audiofalse",
+    "report": "hangman-full-lesson16-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 38,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson16-imagetrue-audiotrue",
+    "report": "hangman-full-lesson16-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 38,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson17-imagefalse-audiofalse",
+    "report": "hangman-full-lesson17-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 32,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson17-imagefalse-audiotrue",
+    "report": "hangman-full-lesson17-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 32,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson17-imagetrue-audiofalse",
+    "report": "hangman-full-lesson17-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 32,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson17-imagetrue-audiotrue",
+    "report": "hangman-full-lesson17-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 32,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson18-imagefalse-audiofalse",
+    "report": "hangman-full-lesson18-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 56,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson18-imagefalse-audiotrue",
+    "report": "hangman-full-lesson18-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 56,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson18-imagetrue-audiofalse",
+    "report": "hangman-full-lesson18-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 56,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson18-imagetrue-audiotrue",
+    "report": "hangman-full-lesson18-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 56,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson19-imagefalse-audiofalse",
+    "report": "hangman-full-lesson19-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 28,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson19-imagefalse-audiotrue",
+    "report": "hangman-full-lesson19-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 28,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson19-imagetrue-audiofalse",
+    "report": "hangman-full-lesson19-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 28,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson19-imagetrue-audiotrue",
+    "report": "hangman-full-lesson19-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 28,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson20-imagefalse-audiofalse",
+    "report": "hangman-full-lesson20-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 35,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson20-imagefalse-audiotrue",
+    "report": "hangman-full-lesson20-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 35,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson20-imagetrue-audiofalse",
+    "report": "hangman-full-lesson20-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 35,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson20-imagetrue-audiotrue",
+    "report": "hangman-full-lesson20-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 35,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson22-imagefalse-audiofalse",
+    "report": "hangman-full-lesson22-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 20,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson22-imagefalse-audiotrue",
+    "report": "hangman-full-lesson22-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 20,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson22-imagetrue-audiofalse",
+    "report": "hangman-full-lesson22-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 20,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson22-imagetrue-audiotrue",
+    "report": "hangman-full-lesson22-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 20,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson23-imagefalse-audiofalse",
+    "report": "hangman-full-lesson23-imagefalse-audiofalse/attempt01/result.json",
+    "completed": 16,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson23-imagefalse-audiotrue",
+    "report": "hangman-full-lesson23-imagefalse-audiotrue/attempt01/result.json",
+    "completed": 16,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson23-imagetrue-audiofalse",
+    "report": "hangman-full-lesson23-imagetrue-audiofalse/attempt01/result.json",
+    "completed": 16,
+    "passed": true,
+    "errors": []
+  },
+  {
+    "name": "hangman-full-lesson23-imagetrue-audiotrue",
+    "report": "hangman-full-lesson23-imagetrue-audiotrue/attempt01/result.json",
+    "completed": 16,
+    "passed": true,
+    "errors": []
+  }
+]

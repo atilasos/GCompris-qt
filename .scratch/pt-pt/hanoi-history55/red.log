@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-hanoi-history/.scratch/pt-pt/functional-hanoi/audit.py", line 93, in <module>
+    output = audit()
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-hanoi-history/.scratch/pt-pt/functional-hanoi/audit.py", line 37, in audit
+    assert result["portuguese_catalogue_sha256"] == sha(ROOT / "poqm/pt/gcompris_qt.po")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

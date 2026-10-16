@@ -1,0 +1,24 @@
+{
+  "snapshot_manifest_sha256": "f2199ddaf4918c8dfe8314236cedb89ab7c65179599ddd1fec09200edbc95b09",
+  "file_count": 269,
+  "source_base": "4713dc58e",
+  "private_compilation": {
+    "core": {
+      "sha256": "9804902831c4924c1f3619ba5648fe065d4fe520ab234afa97946dcf4ca4e425",
+      "bytes": 2446940
+    },
+    "ordering_numbers": {
+      "sha256": "9ad29bee07843b7ddab7a3505f1f872e156c0203cca2d5c494146b0aab352017",
+      "bytes": 20806
+    },
+    "ordering_alphabets": {
+      "sha256": "df15ee1158df617d8145f9425a069fb885c22b8053ee0e523c3a85083724395c",
+      "bytes": 14277
+    },
+    "ordering_sentences": {
+      "sha256": "6e1dd2267f7adffd0d1016acdac3eec351a373dc4ebe945f39f7e23064af3773",
+      "bytes": 14150
+    }
+  },
+  "scope": "Independent physical resource copy. Four RCC rebuilt privately before sealing. No main build writes."
+}

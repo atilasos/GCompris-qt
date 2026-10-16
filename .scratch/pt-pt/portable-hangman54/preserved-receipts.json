@@ -1,0 +1,26 @@
+{
+  "all_original_report_bytes_and_hashes_unchanged": true,
+  "campaigns": [
+    {
+      "directory": "hangman-final",
+      "cases": 8,
+      "completed": 936
+    },
+    {
+      "directory": "hangman-remaining-full",
+      "cases": 84,
+      "completed": 3424
+    },
+    {
+      "directory": "hangman-remaining-sample",
+      "cases": 24,
+      "completed": 464
+    },
+    {
+      "directory": "letter-complete",
+      "cases": 174,
+      "completed": 1740
+    }
+  ],
+  "qt_cases_rerun": 0
+}

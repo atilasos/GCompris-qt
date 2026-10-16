@@ -1,0 +1,41 @@
+test_copied_archive_passes_with_historical_worktree_inaccessible (test_portable_archive.PortableArchiveCLI.test_copied_archive_passes_with_historical_worktree_inaccessible) ... FAIL
+test_tampered_archived_inputs_are_rejected (test_portable_archive.PortableArchiveCLI.test_tampered_archived_inputs_are_rejected) ... ok
+
+======================================================================
+FAIL: test_copied_archive_passes_with_historical_worktree_inaccessible (test_portable_archive.PortableArchiveCLI.test_copied_archive_passes_with_historical_worktree_inaccessible)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-hangman-portable/tests/functional_word_letters/test_portable_archive.py", line 66, in test_copied_archive_passes_with_historical_worktree_inaccessible
+    self.assertEqual(result.returncode,0,result.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0 : Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import pathlib,sys,runpy; assert not pathlib.Path('/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters').exists(); sys.path.insert(0,'/suite/source/tests/functional_word_letters'); sys.argv=['/suite/source/tests/functional_word_letters/aggregate.py']+sys.argv[1:]; runpy.run_path('/suite/source/tests/functional_word_letters/aggregate.py',run_name="__main__")
+                                                                                                                                                                                                                                                                                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/suite/source/tests/functional_word_letters/aggregate.py", line 77, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+                                             ~~~~^^
+  File "/suite/source/tests/functional_word_letters/aggregate.py", line 72, in main
+    result=aggregate(args.outputs)
+  File "/suite/source/tests/functional_word_letters/aggregate.py", line 40, in aggregate
+    if sha(case_path)!=row['case_sha256'] or report['case_sha256']!=row['case_sha256']:
+       ~~~^^^^^^^^^^^
+  File "/suite/source/tests/functional_word_letters/aggregate.py", line 14, in sha
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+                          ~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 778, in read_bytes
+    with self.open(mode='rb', buffering=0) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 772, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-final/hangman-full-lesson02-imagefalse-audiofalse.qml'
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 1.895s
+
+FAILED (failures=1)

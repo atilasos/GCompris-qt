@@ -1,0 +1,1 @@
+{"exit_code":0,"pipeline":"filesrc ! decodebin ! audioconvert ! fakesink","scope":"Software decode only; no SoundEffect playback or hearing approval"}

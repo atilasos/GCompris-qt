@@ -1,0 +1,2334 @@
+{
+  "passed": true,
+  "tested_source_revision": "8d9492256b0b49c5a67a8703914739b4e72316fc",
+  "main_level_completions": 150,
+  "pointer_tracer_completions": 18,
+  "controls": 3,
+  "cases": [
+    {
+      "directory": "full-settled/maze-normal",
+      "case": "full-settled/maze-normal.qml",
+      "activity": "maze",
+      "result_sha256": "12760d378e961f9ba4cc541c0792fff8a26b2e353bca1ddaf0ea50a3449209c4",
+      "case_sha256": "64b6b12e26ec4d37b080c18401e1dca8726f0eaf6e107eba6706c5f3e692878e",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 1,
+            "columns": 4,
+            "rows": 4,
+            "pathCells": 7,
+            "inputs": 6,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 2,
+            "columns": 5,
+            "rows": 4,
+            "pathCells": 7,
+            "inputs": 6,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 3,
+            "columns": 5,
+            "rows": 5,
+            "pathCells": 11,
+            "inputs": 10,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 4,
+            "columns": 6,
+            "rows": 5,
+            "pathCells": 11,
+            "inputs": 10,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 5,
+            "columns": 6,
+            "rows": 6,
+            "pathCells": 21,
+            "inputs": 20,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 6,
+            "columns": 6,
+            "rows": 7,
+            "pathCells": 13,
+            "inputs": 12,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 7,
+            "columns": 7,
+            "rows": 7,
+            "pathCells": 24,
+            "inputs": 23,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 8,
+            "columns": 8,
+            "rows": 7,
+            "pathCells": 17,
+            "inputs": 16,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 9,
+            "columns": 8,
+            "rows": 8,
+            "pathCells": 16,
+            "inputs": 15,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 10,
+            "columns": 9,
+            "rows": 8,
+            "pathCells": 31,
+            "inputs": 30,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 11,
+            "columns": 9,
+            "rows": 9,
+            "pathCells": 59,
+            "inputs": 58,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 12,
+            "columns": 10,
+            "rows": 9,
+            "pathCells": 14,
+            "inputs": 13,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 13,
+            "columns": 10,
+            "rows": 10,
+            "pathCells": 23,
+            "inputs": 22,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 14,
+            "columns": 8,
+            "rows": 16,
+            "pathCells": 7,
+            "inputs": 6,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 15,
+            "columns": 14,
+            "rows": 14,
+            "pathCells": 31,
+            "inputs": 30,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 16,
+            "columns": 16,
+            "rows": 15,
+            "pathCells": 46,
+            "inputs": 45,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 17,
+            "columns": 17,
+            "rows": 16,
+            "pathCells": 55,
+            "inputs": 54,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 18,
+            "columns": 18,
+            "rows": 16,
+            "pathCells": 120,
+            "inputs": 119,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 19,
+            "columns": 19,
+            "rows": 18,
+            "pathCells": 163,
+            "inputs": 162,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 20,
+            "columns": 19,
+            "rows": 19,
+            "pathCells": 74,
+            "inputs": 73,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 21,
+            "columns": 20,
+            "rows": 19,
+            "pathCells": 123,
+            "inputs": 122,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 22,
+            "columns": 20,
+            "rows": 20,
+            "pathCells": 101,
+            "inputs": 100,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 23,
+            "columns": 19,
+            "rows": 21,
+            "pathCells": 100,
+            "inputs": 99,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 24,
+            "columns": 23,
+            "rows": 21,
+            "pathCells": 89,
+            "inputs": 88,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 25,
+            "columns": 23,
+            "rows": 23,
+            "pathCells": 209,
+            "inputs": 208,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          }
+        ],
+        "attempts": 1372,
+        "collisions": 25,
+        "rotations": 0,
+        "lastLevel": 25
+      }
+    },
+    {
+      "directory": "pointer/maze-1-normal",
+      "case": "pointer/maze-1-normal.qml",
+      "activity": "maze",
+      "result_sha256": "f9158e2ad270c3530aab9d54304d4979ca23705d8cd5e79db50e59c4981c0393",
+      "case_sha256": "d7ab2c3e595039f4b652aa5f136eb0f6498c1c1d186f07861ad2e5d631c00420",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 1,
+            "columns": 4,
+            "rows": 4,
+            "pathCells": 4,
+            "inputs": 3,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          }
+        ],
+        "attempts": 4,
+        "collisions": 1,
+        "rotations": 0,
+        "lastLevel": 1
+      }
+    },
+    {
+      "directory": "pointer/maze-14-normal",
+      "case": "pointer/maze-14-normal.qml",
+      "activity": "maze",
+      "result_sha256": "58f93fcfd16cdaf9e4dc6f266be50c8ea4ff78e871441d70fb964d87a671bd8d",
+      "case_sha256": "d470d388d9f986e6ef998ea42d1159cbf3a23055ed6964d77e97851c0e71e669",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 14,
+            "columns": 8,
+            "rows": 16,
+            "pathCells": 22,
+            "inputs": 21,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          }
+        ],
+        "attempts": 22,
+        "collisions": 1,
+        "rotations": 0,
+        "lastLevel": 14
+      }
+    },
+    {
+      "directory": "pointer/maze-25-normal",
+      "case": "pointer/maze-25-normal.qml",
+      "activity": "maze",
+      "result_sha256": "ad8b9f396f925f4719cc9870a121da28889df2e0e0b28010acd3a90aad3324d9",
+      "case_sha256": "597b5662ae33a2b8d00b18510e908f5f1701802f8d6469be85080108a2cff765",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 25,
+            "columns": 23,
+            "rows": 23,
+            "pathCells": 143,
+            "inputs": 142,
+            "fast": false,
+            "relative": false,
+            "invisible": false
+          }
+        ],
+        "attempts": 143,
+        "collisions": 1,
+        "rotations": 0,
+        "lastLevel": 25
+      }
+    },
+    {
+      "directory": "full-settled/maze-fast",
+      "case": "full-settled/maze-fast.qml",
+      "activity": "maze",
+      "result_sha256": "0e5e34f489294f778566396b13626534b0babbd36b906a145d6491a63124f4d3",
+      "case_sha256": "95381e5043253d176b67d4db534db5b4d2998aee6a327fdea7d1ce69666d670a",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 1,
+            "columns": 4,
+            "rows": 4,
+            "pathCells": 5,
+            "inputs": 1,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 2,
+            "columns": 5,
+            "rows": 4,
+            "pathCells": 10,
+            "inputs": 2,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 3,
+            "columns": 5,
+            "rows": 5,
+            "pathCells": 15,
+            "inputs": 2,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 4,
+            "columns": 6,
+            "rows": 5,
+            "pathCells": 13,
+            "inputs": 1,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 5,
+            "columns": 6,
+            "rows": 6,
+            "pathCells": 8,
+            "inputs": 1,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 6,
+            "columns": 6,
+            "rows": 7,
+            "pathCells": 7,
+            "inputs": 2,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 7,
+            "columns": 7,
+            "rows": 7,
+            "pathCells": 15,
+            "inputs": 3,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 8,
+            "columns": 8,
+            "rows": 7,
+            "pathCells": 12,
+            "inputs": 1,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 9,
+            "columns": 8,
+            "rows": 8,
+            "pathCells": 13,
+            "inputs": 3,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 10,
+            "columns": 9,
+            "rows": 8,
+            "pathCells": 21,
+            "inputs": 5,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 11,
+            "columns": 9,
+            "rows": 9,
+            "pathCells": 53,
+            "inputs": 7,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 12,
+            "columns": 10,
+            "rows": 9,
+            "pathCells": 40,
+            "inputs": 4,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 13,
+            "columns": 10,
+            "rows": 10,
+            "pathCells": 26,
+            "inputs": 3,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 14,
+            "columns": 8,
+            "rows": 16,
+            "pathCells": 43,
+            "inputs": 5,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 15,
+            "columns": 14,
+            "rows": 14,
+            "pathCells": 66,
+            "inputs": 10,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 16,
+            "columns": 16,
+            "rows": 15,
+            "pathCells": 63,
+            "inputs": 11,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 17,
+            "columns": 17,
+            "rows": 16,
+            "pathCells": 62,
+            "inputs": 9,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 18,
+            "columns": 18,
+            "rows": 16,
+            "pathCells": 46,
+            "inputs": 5,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 19,
+            "columns": 19,
+            "rows": 18,
+            "pathCells": 95,
+            "inputs": 7,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 20,
+            "columns": 19,
+            "rows": 19,
+            "pathCells": 128,
+            "inputs": 15,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 21,
+            "columns": 20,
+            "rows": 19,
+            "pathCells": 46,
+            "inputs": 6,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 22,
+            "columns": 20,
+            "rows": 20,
+            "pathCells": 214,
+            "inputs": 23,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 23,
+            "columns": 19,
+            "rows": 21,
+            "pathCells": 107,
+            "inputs": 15,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 24,
+            "columns": 23,
+            "rows": 21,
+            "pathCells": 164,
+            "inputs": 17,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          },
+          {
+            "level": 25,
+            "columns": 23,
+            "rows": 23,
+            "pathCells": 162,
+            "inputs": 18,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          }
+        ],
+        "attempts": 201,
+        "collisions": 25,
+        "rotations": 0,
+        "lastLevel": 25
+      }
+    },
+    {
+      "directory": "pointer/maze-1-fast",
+      "case": "pointer/maze-1-fast.qml",
+      "activity": "maze",
+      "result_sha256": "8c41ef5466f8ece9d6c3a30c0cfd860d3ed6e72f1d87738fc66a481d94024580",
+      "case_sha256": "5b1210a5faa6b7788afac765fac0bb64327212114472b30365ba717f2e79168d",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 1,
+            "columns": 4,
+            "rows": 4,
+            "pathCells": 5,
+            "inputs": 1,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          }
+        ],
+        "attempts": 2,
+        "collisions": 1,
+        "rotations": 0,
+        "lastLevel": 1
+      }
+    },
+    {
+      "directory": "pointer/maze-14-fast",
+      "case": "pointer/maze-14-fast.qml",
+      "activity": "maze",
+      "result_sha256": "fc7e197799ae9e4ef276db8f29b5ee7a011ec7d78d57dfdfff31f065dc502f93",
+      "case_sha256": "bc292fee42e4ea23b5854498a08c7d2247bc4e816d2b09236855da7971643b1b",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 14,
+            "columns": 8,
+            "rows": 16,
+            "pathCells": 18,
+            "inputs": 2,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          }
+        ],
+        "attempts": 3,
+        "collisions": 1,
+        "rotations": 0,
+        "lastLevel": 14
+      }
+    },
+    {
+      "directory": "pointer/maze-25-fast",
+      "case": "pointer/maze-25-fast.qml",
+      "activity": "maze",
+      "result_sha256": "908889c22fc31ed7611b569a01b3e629b3879dc30f303894ef43132a6d24ad33",
+      "case_sha256": "fef28c2fdefd95b0d400b1e73c444bf19bea1c4e38cbe69b4f824c245b4e6130",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 25,
+            "columns": 23,
+            "rows": 23,
+            "pathCells": 170,
+            "inputs": 21,
+            "fast": true,
+            "relative": false,
+            "invisible": false
+          }
+        ],
+        "attempts": 22,
+        "collisions": 1,
+        "rotations": 0,
+        "lastLevel": 25
+      }
+    },
+    {
+      "directory": "controls-maze",
+      "case": "controls-case.qml",
+      "activity": "maze",
+      "result_sha256": "1b31e8ebdc77633f9fcb2ae8693f2e9e9205c20ce2ac820fcf8ed3efb6530310",
+      "case_sha256": "0331f69b128d2d5f9f97aa6c94b1125ac3792d86675704e13e85879360800ff5",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "controls": {
+          "activity": "maze",
+          "levels": 25,
+          "navigation": true,
+          "fastToggle": true,
+          "mapToggle": false,
+          "helpEscape": true,
+          "focusAfterHelp": true,
+          "resources": [
+            "qrc:/gcompris/src/activities/maze/resource/maze_bg.svg",
+            "qrc:/gcompris/src/activities/maze/resource/tux_top_south.svg",
+            "qrc:/gcompris/src/activities/maze/resource/tux_shoes_top_south.svg",
+            "qrc:/gcompris/src/activities/maze/resource/door.svg",
+            "qrc:/gcompris/src/activities/maze/resource/fast-mode-button.svg",
+            "qrc:/gcompris/src/activities/maze/resource/maze-2d-bubble.svg",
+            "qrc:/gcompris/src/core/resource/arrows_move.svg",
+            "qrc:/gcompris/src/core/resource/sounds/brick.wav"
+          ]
+        }
+      }
+    },
+    {
+      "directory": "full-settled/mazeinvisible-normal",
+      "case": "full-settled/mazeinvisible-normal.qml",
+      "activity": "mazeinvisible",
+      "result_sha256": "a19933464d5fe11f8307a4665c5376b9869de64f6935e652c49d1ecc66f27ea9",
+      "case_sha256": "64b6b12e26ec4d37b080c18401e1dca8726f0eaf6e107eba6706c5f3e692878e",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 1,
+            "columns": 4,
+            "rows": 4,
+            "pathCells": 9,
+            "inputs": 8,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 2,
+            "columns": 5,
+            "rows": 4,
+            "pathCells": 5,
+            "inputs": 4,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 3,
+            "columns": 5,
+            "rows": 5,
+            "pathCells": 6,
+            "inputs": 5,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 4,
+            "columns": 6,
+            "rows": 5,
+            "pathCells": 15,
+            "inputs": 14,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 5,
+            "columns": 6,
+            "rows": 6,
+            "pathCells": 20,
+            "inputs": 19,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 6,
+            "columns": 6,
+            "rows": 7,
+            "pathCells": 25,
+            "inputs": 24,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 7,
+            "columns": 7,
+            "rows": 7,
+            "pathCells": 13,
+            "inputs": 12,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 8,
+            "columns": 8,
+            "rows": 7,
+            "pathCells": 25,
+            "inputs": 24,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 9,
+            "columns": 8,
+            "rows": 8,
+            "pathCells": 15,
+            "inputs": 14,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 10,
+            "columns": 9,
+            "rows": 8,
+            "pathCells": 37,
+            "inputs": 36,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 11,
+            "columns": 9,
+            "rows": 9,
+            "pathCells": 37,
+            "inputs": 36,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 12,
+            "columns": 10,
+            "rows": 9,
+            "pathCells": 64,
+            "inputs": 63,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 13,
+            "columns": 10,
+            "rows": 10,
+            "pathCells": 34,
+            "inputs": 33,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 14,
+            "columns": 8,
+            "rows": 16,
+            "pathCells": 35,
+            "inputs": 34,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 15,
+            "columns": 14,
+            "rows": 14,
+            "pathCells": 65,
+            "inputs": 64,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 16,
+            "columns": 16,
+            "rows": 15,
+            "pathCells": 45,
+            "inputs": 44,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 17,
+            "columns": 17,
+            "rows": 16,
+            "pathCells": 92,
+            "inputs": 91,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 18,
+            "columns": 18,
+            "rows": 16,
+            "pathCells": 52,
+            "inputs": 51,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 19,
+            "columns": 19,
+            "rows": 18,
+            "pathCells": 123,
+            "inputs": 122,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 20,
+            "columns": 19,
+            "rows": 19,
+            "pathCells": 117,
+            "inputs": 116,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 21,
+            "columns": 20,
+            "rows": 19,
+            "pathCells": 166,
+            "inputs": 165,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 22,
+            "columns": 20,
+            "rows": 20,
+            "pathCells": 131,
+            "inputs": 130,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 23,
+            "columns": 19,
+            "rows": 21,
+            "pathCells": 141,
+            "inputs": 140,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 24,
+            "columns": 23,
+            "rows": 21,
+            "pathCells": 138,
+            "inputs": 137,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 25,
+            "columns": 23,
+            "rows": 23,
+            "pathCells": 95,
+            "inputs": 94,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          }
+        ],
+        "attempts": 1530,
+        "collisions": 25,
+        "rotations": 0,
+        "lastLevel": 25
+      }
+    },
+    {
+      "directory": "pointer/mazeinvisible-1-normal",
+      "case": "pointer/mazeinvisible-1-normal.qml",
+      "activity": "mazeinvisible",
+      "result_sha256": "50dde9db70a323e3fe0b7dca06bfab505200db8a0b63e45bbba5250758de9b46",
+      "case_sha256": "d7ab2c3e595039f4b652aa5f136eb0f6498c1c1d186f07861ad2e5d631c00420",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 1,
+            "columns": 4,
+            "rows": 4,
+            "pathCells": 6,
+            "inputs": 5,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          }
+        ],
+        "attempts": 7,
+        "collisions": 1,
+        "rotations": 0,
+        "lastLevel": 1
+      }
+    },
+    {
+      "directory": "pointer/mazeinvisible-14-normal",
+      "case": "pointer/mazeinvisible-14-normal.qml",
+      "activity": "mazeinvisible",
+      "result_sha256": "6e9027e076ad85f526edf19e2cef7ccdbf7d97865cb5f08924f67817be7b5a77",
+      "case_sha256": "d470d388d9f986e6ef998ea42d1159cbf3a23055ed6964d77e97851c0e71e669",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 14,
+            "columns": 8,
+            "rows": 16,
+            "pathCells": 12,
+            "inputs": 11,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          }
+        ],
+        "attempts": 13,
+        "collisions": 1,
+        "rotations": 0,
+        "lastLevel": 14
+      }
+    },
+    {
+      "directory": "pointer/mazeinvisible-25-normal",
+      "case": "pointer/mazeinvisible-25-normal.qml",
+      "activity": "mazeinvisible",
+      "result_sha256": "23c3dbc29327bef6de6bf9b7c5471316f23b0597177dfbddb30bbbfe29b0cc0b",
+      "case_sha256": "597b5662ae33a2b8d00b18510e908f5f1701802f8d6469be85080108a2cff765",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 25,
+            "columns": 23,
+            "rows": 23,
+            "pathCells": 77,
+            "inputs": 76,
+            "fast": false,
+            "relative": false,
+            "invisible": true
+          }
+        ],
+        "attempts": 78,
+        "collisions": 1,
+        "rotations": 0,
+        "lastLevel": 25
+      }
+    },
+    {
+      "directory": "full-settled/mazeinvisible-fast",
+      "case": "full-settled/mazeinvisible-fast.qml",
+      "activity": "mazeinvisible",
+      "result_sha256": "898cfd57e5fd8e45a2eab461fb1fc05473d628a9b37188f87249eddc480070d3",
+      "case_sha256": "95381e5043253d176b67d4db534db5b4d2998aee6a327fdea7d1ce69666d670a",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 1,
+            "columns": 4,
+            "rows": 4,
+            "pathCells": 7,
+            "inputs": 3,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 2,
+            "columns": 5,
+            "rows": 4,
+            "pathCells": 13,
+            "inputs": 3,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 3,
+            "columns": 5,
+            "rows": 5,
+            "pathCells": 7,
+            "inputs": 2,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 4,
+            "columns": 6,
+            "rows": 5,
+            "pathCells": 13,
+            "inputs": 2,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 5,
+            "columns": 6,
+            "rows": 6,
+            "pathCells": 16,
+            "inputs": 3,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 6,
+            "columns": 6,
+            "rows": 7,
+            "pathCells": 16,
+            "inputs": 6,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 7,
+            "columns": 7,
+            "rows": 7,
+            "pathCells": 21,
+            "inputs": 4,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 8,
+            "columns": 8,
+            "rows": 7,
+            "pathCells": 25,
+            "inputs": 2,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 9,
+            "columns": 8,
+            "rows": 8,
+            "pathCells": 22,
+            "inputs": 6,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 10,
+            "columns": 9,
+            "rows": 8,
+            "pathCells": 41,
+            "inputs": 7,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 11,
+            "columns": 9,
+            "rows": 9,
+            "pathCells": 17,
+            "inputs": 5,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 12,
+            "columns": 10,
+            "rows": 9,
+            "pathCells": 36,
+            "inputs": 4,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 13,
+            "columns": 10,
+            "rows": 10,
+            "pathCells": 72,
+            "inputs": 8,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 14,
+            "columns": 8,
+            "rows": 16,
+            "pathCells": 24,
+            "inputs": 3,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 15,
+            "columns": 14,
+            "rows": 14,
+            "pathCells": 62,
+            "inputs": 6,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 16,
+            "columns": 16,
+            "rows": 15,
+            "pathCells": 125,
+            "inputs": 15,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 17,
+            "columns": 17,
+            "rows": 16,
+            "pathCells": 32,
+            "inputs": 7,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 18,
+            "columns": 18,
+            "rows": 16,
+            "pathCells": 54,
+            "inputs": 8,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 19,
+            "columns": 19,
+            "rows": 18,
+            "pathCells": 139,
+            "inputs": 21,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 20,
+            "columns": 19,
+            "rows": 19,
+            "pathCells": 189,
+            "inputs": 20,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 21,
+            "columns": 20,
+            "rows": 19,
+            "pathCells": 91,
+            "inputs": 11,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 22,
+            "columns": 20,
+            "rows": 20,
+            "pathCells": 61,
+            "inputs": 6,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 23,
+            "columns": 19,
+            "rows": 21,
+            "pathCells": 75,
+            "inputs": 8,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 24,
+            "columns": 23,
+            "rows": 21,
+            "pathCells": 145,
+            "inputs": 16,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          },
+          {
+            "level": 25,
+            "columns": 23,
+            "rows": 23,
+            "pathCells": 150,
+            "inputs": 13,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          }
+        ],
+        "attempts": 239,
+        "collisions": 25,
+        "rotations": 0,
+        "lastLevel": 25
+      }
+    },
+    {
+      "directory": "pointer/mazeinvisible-1-fast",
+      "case": "pointer/mazeinvisible-1-fast.qml",
+      "activity": "mazeinvisible",
+      "result_sha256": "427a9956a51aa8a3ca3779da9071c6afdf1f1811e23ec3c624dcb02cf8d7413d",
+      "case_sha256": "5b1210a5faa6b7788afac765fac0bb64327212114472b30365ba717f2e79168d",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 1,
+            "columns": 4,
+            "rows": 4,
+            "pathCells": 11,
+            "inputs": 1,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          }
+        ],
+        "attempts": 3,
+        "collisions": 1,
+        "rotations": 0,
+        "lastLevel": 1
+      }
+    },
+    {
+      "directory": "pointer/mazeinvisible-14-fast",
+      "case": "pointer/mazeinvisible-14-fast.qml",
+      "activity": "mazeinvisible",
+      "result_sha256": "4d3100891c5efba83ec351cf45f78e35749828e22cbeda31b79f0d8fd9d22cf4",
+      "case_sha256": "bc292fee42e4ea23b5854498a08c7d2247bc4e816d2b09236855da7971643b1b",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 14,
+            "columns": 8,
+            "rows": 16,
+            "pathCells": 22,
+            "inputs": 3,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          }
+        ],
+        "attempts": 5,
+        "collisions": 1,
+        "rotations": 0,
+        "lastLevel": 14
+      }
+    },
+    {
+      "directory": "pointer/mazeinvisible-25-fast",
+      "case": "pointer/mazeinvisible-25-fast.qml",
+      "activity": "mazeinvisible",
+      "result_sha256": "de1750025f65ae67b8b8ec6574c6654a4e40cb93c3b04eebd452f3d233b80a0d",
+      "case_sha256": "fef28c2fdefd95b0d400b1e73c444bf19bea1c4e38cbe69b4f824c245b4e6130",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 25,
+            "columns": 23,
+            "rows": 23,
+            "pathCells": 70,
+            "inputs": 11,
+            "fast": true,
+            "relative": false,
+            "invisible": true
+          }
+        ],
+        "attempts": 13,
+        "collisions": 1,
+        "rotations": 0,
+        "lastLevel": 25
+      }
+    },
+    {
+      "directory": "controls-mazeinvisible",
+      "case": "controls-case.qml",
+      "activity": "mazeinvisible",
+      "result_sha256": "585881555ab348f10fd3ac58dab624a2f37bb94b4f3923050a51e4dbe045707f",
+      "case_sha256": "0331f69b128d2d5f9f97aa6c94b1125ac3792d86675704e13e85879360800ff5",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "controls": {
+          "activity": "mazeinvisible",
+          "levels": 25,
+          "navigation": true,
+          "fastToggle": true,
+          "mapToggle": true,
+          "helpEscape": true,
+          "focusAfterHelp": true,
+          "resources": [
+            "qrc:/gcompris/src/activities/maze/resource/maze_bg.svg",
+            "qrc:/gcompris/src/activities/maze/resource/tux_top_south.svg",
+            "qrc:/gcompris/src/activities/maze/resource/tux_shoes_top_south.svg",
+            "qrc:/gcompris/src/activities/maze/resource/door.svg",
+            "qrc:/gcompris/src/activities/maze/resource/fast-mode-button.svg",
+            "qrc:/gcompris/src/activities/maze/resource/maze-2d-bubble.svg",
+            "qrc:/gcompris/src/core/resource/arrows_move.svg",
+            "qrc:/gcompris/src/core/resource/sounds/brick.wav"
+          ]
+        }
+      }
+    },
+    {
+      "directory": "full-settled/mazerelative-normal",
+      "case": "full-settled/mazerelative-normal.qml",
+      "activity": "mazerelative",
+      "result_sha256": "258c06d14f59c457a8bdb0a0884efb0d374cb76eaef8487bd48238dfebdf3324",
+      "case_sha256": "64b6b12e26ec4d37b080c18401e1dca8726f0eaf6e107eba6706c5f3e692878e",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 1,
+            "columns": 4,
+            "rows": 4,
+            "pathCells": 6,
+            "inputs": 7,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 2,
+            "columns": 5,
+            "rows": 4,
+            "pathCells": 12,
+            "inputs": 27,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 3,
+            "columns": 5,
+            "rows": 5,
+            "pathCells": 14,
+            "inputs": 35,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 4,
+            "columns": 6,
+            "rows": 5,
+            "pathCells": 18,
+            "inputs": 47,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 5,
+            "columns": 6,
+            "rows": 6,
+            "pathCells": 15,
+            "inputs": 30,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 6,
+            "columns": 6,
+            "rows": 7,
+            "pathCells": 14,
+            "inputs": 25,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 7,
+            "columns": 7,
+            "rows": 7,
+            "pathCells": 15,
+            "inputs": 30,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 8,
+            "columns": 8,
+            "rows": 7,
+            "pathCells": 28,
+            "inputs": 55,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 9,
+            "columns": 8,
+            "rows": 8,
+            "pathCells": 23,
+            "inputs": 44,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 10,
+            "columns": 9,
+            "rows": 8,
+            "pathCells": 17,
+            "inputs": 29,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 11,
+            "columns": 9,
+            "rows": 9,
+            "pathCells": 28,
+            "inputs": 51,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 12,
+            "columns": 10,
+            "rows": 9,
+            "pathCells": 22,
+            "inputs": 41,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 13,
+            "columns": 10,
+            "rows": 10,
+            "pathCells": 28,
+            "inputs": 65,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 14,
+            "columns": 8,
+            "rows": 16,
+            "pathCells": 52,
+            "inputs": 108,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 15,
+            "columns": 14,
+            "rows": 14,
+            "pathCells": 73,
+            "inputs": 164,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 16,
+            "columns": 16,
+            "rows": 15,
+            "pathCells": 53,
+            "inputs": 118,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 17,
+            "columns": 17,
+            "rows": 16,
+            "pathCells": 53,
+            "inputs": 114,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 18,
+            "columns": 18,
+            "rows": 16,
+            "pathCells": 92,
+            "inputs": 195,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 19,
+            "columns": 19,
+            "rows": 18,
+            "pathCells": 74,
+            "inputs": 154,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 20,
+            "columns": 19,
+            "rows": 19,
+            "pathCells": 60,
+            "inputs": 138,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 21,
+            "columns": 20,
+            "rows": 19,
+            "pathCells": 142,
+            "inputs": 316,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 22,
+            "columns": 20,
+            "rows": 20,
+            "pathCells": 120,
+            "inputs": 259,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 23,
+            "columns": 19,
+            "rows": 21,
+            "pathCells": 196,
+            "inputs": 468,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 24,
+            "columns": 23,
+            "rows": 21,
+            "pathCells": 172,
+            "inputs": 390,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 25,
+            "columns": 23,
+            "rows": 23,
+            "pathCells": 142,
+            "inputs": 319,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          }
+        ],
+        "attempts": 3292,
+        "collisions": 25,
+        "rotations": 1823,
+        "lastLevel": 25
+      }
+    },
+    {
+      "directory": "pointer/mazerelative-1-normal",
+      "case": "pointer/mazerelative-1-normal.qml",
+      "activity": "mazerelative",
+      "result_sha256": "c9d46b2e2d098b61d36ae901a548f7bcee77b90b7bc66fe8778d767e1b216562",
+      "case_sha256": "d7ab2c3e595039f4b652aa5f136eb0f6498c1c1d186f07861ad2e5d631c00420",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 1,
+            "columns": 4,
+            "rows": 4,
+            "pathCells": 11,
+            "inputs": 26,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          }
+        ],
+        "attempts": 30,
+        "collisions": 1,
+        "rotations": 19,
+        "lastLevel": 1
+      }
+    },
+    {
+      "directory": "pointer/mazerelative-14-normal",
+      "case": "pointer/mazerelative-14-normal.qml",
+      "activity": "mazerelative",
+      "result_sha256": "cb1189014ef5541e2547a17295b554a56531a8d8324366fd936d191b247719df",
+      "case_sha256": "d470d388d9f986e6ef998ea42d1159cbf3a23055ed6964d77e97851c0e71e669",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 14,
+            "columns": 8,
+            "rows": 16,
+            "pathCells": 52,
+            "inputs": 130,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          }
+        ],
+        "attempts": 131,
+        "collisions": 1,
+        "rotations": 79,
+        "lastLevel": 14
+      }
+    },
+    {
+      "directory": "pointer/mazerelative-25-normal",
+      "case": "pointer/mazerelative-25-normal.qml",
+      "activity": "mazerelative",
+      "result_sha256": "1dcd5fa9b4b077e9ca8e359af3192356f2abe98687d2a7cf7913ead107885f31",
+      "case_sha256": "597b5662ae33a2b8d00b18510e908f5f1701802f8d6469be85080108a2cff765",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 25,
+            "columns": 23,
+            "rows": 23,
+            "pathCells": 238,
+            "inputs": 564,
+            "fast": false,
+            "relative": true,
+            "invisible": false
+          }
+        ],
+        "attempts": 566,
+        "collisions": 1,
+        "rotations": 328,
+        "lastLevel": 25
+      }
+    },
+    {
+      "directory": "full-settled/mazerelative-fast",
+      "case": "full-settled/mazerelative-fast.qml",
+      "activity": "mazerelative",
+      "result_sha256": "a21c4379be887f4b5038eed9bcd08569382691178ab5be76c95ec04996521158",
+      "case_sha256": "95381e5043253d176b67d4db534db5b4d2998aee6a327fdea7d1ce69666d670a",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 1,
+            "columns": 4,
+            "rows": 4,
+            "pathCells": 12,
+            "inputs": 8,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 2,
+            "columns": 5,
+            "rows": 4,
+            "pathCells": 7,
+            "inputs": 7,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 3,
+            "columns": 5,
+            "rows": 5,
+            "pathCells": 9,
+            "inputs": 3,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 4,
+            "columns": 6,
+            "rows": 5,
+            "pathCells": 13,
+            "inputs": 2,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 5,
+            "columns": 6,
+            "rows": 6,
+            "pathCells": 16,
+            "inputs": 5,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 6,
+            "columns": 6,
+            "rows": 7,
+            "pathCells": 20,
+            "inputs": 11,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 7,
+            "columns": 7,
+            "rows": 7,
+            "pathCells": 15,
+            "inputs": 9,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 8,
+            "columns": 8,
+            "rows": 7,
+            "pathCells": 29,
+            "inputs": 15,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 9,
+            "columns": 8,
+            "rows": 8,
+            "pathCells": 28,
+            "inputs": 12,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 10,
+            "columns": 9,
+            "rows": 8,
+            "pathCells": 31,
+            "inputs": 15,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 11,
+            "columns": 9,
+            "rows": 9,
+            "pathCells": 26,
+            "inputs": 10,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 12,
+            "columns": 10,
+            "rows": 9,
+            "pathCells": 43,
+            "inputs": 15,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 13,
+            "columns": 10,
+            "rows": 10,
+            "pathCells": 53,
+            "inputs": 30,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 14,
+            "columns": 8,
+            "rows": 16,
+            "pathCells": 18,
+            "inputs": 7,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 15,
+            "columns": 14,
+            "rows": 14,
+            "pathCells": 31,
+            "inputs": 7,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 16,
+            "columns": 16,
+            "rows": 15,
+            "pathCells": 82,
+            "inputs": 16,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 17,
+            "columns": 17,
+            "rows": 16,
+            "pathCells": 53,
+            "inputs": 21,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 18,
+            "columns": 18,
+            "rows": 16,
+            "pathCells": 123,
+            "inputs": 28,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 19,
+            "columns": 19,
+            "rows": 18,
+            "pathCells": 90,
+            "inputs": 32,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 20,
+            "columns": 19,
+            "rows": 19,
+            "pathCells": 64,
+            "inputs": 16,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 21,
+            "columns": 20,
+            "rows": 19,
+            "pathCells": 77,
+            "inputs": 16,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 22,
+            "columns": 20,
+            "rows": 20,
+            "pathCells": 59,
+            "inputs": 18,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 23,
+            "columns": 19,
+            "rows": 21,
+            "pathCells": 169,
+            "inputs": 52,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 24,
+            "columns": 23,
+            "rows": 21,
+            "pathCells": 191,
+            "inputs": 71,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          },
+          {
+            "level": 25,
+            "columns": 23,
+            "rows": 23,
+            "pathCells": 110,
+            "inputs": 39,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          }
+        ],
+        "attempts": 530,
+        "collisions": 25,
+        "rotations": 335,
+        "lastLevel": 25
+      }
+    },
+    {
+      "directory": "pointer/mazerelative-1-fast",
+      "case": "pointer/mazerelative-1-fast.qml",
+      "activity": "mazerelative",
+      "result_sha256": "c9f8246c2daf0cd2c37bbcd70629752ee13e914b94f4ba48a621ccb83d07b3fa",
+      "case_sha256": "5b1210a5faa6b7788afac765fac0bb64327212114472b30365ba717f2e79168d",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 1,
+            "columns": 4,
+            "rows": 4,
+            "pathCells": 6,
+            "inputs": 6,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          }
+        ],
+        "attempts": 7,
+        "collisions": 1,
+        "rotations": 4,
+        "lastLevel": 1
+      }
+    },
+    {
+      "directory": "pointer/mazerelative-14-fast",
+      "case": "pointer/mazerelative-14-fast.qml",
+      "activity": "mazerelative",
+      "result_sha256": "9751e8311e402712697d33bbd70148da6ae10870ff343899d32bd539b1affdc7",
+      "case_sha256": "bc292fee42e4ea23b5854498a08c7d2247bc4e816d2b09236855da7971643b1b",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 14,
+            "columns": 8,
+            "rows": 16,
+            "pathCells": 41,
+            "inputs": 17,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          }
+        ],
+        "attempts": 20,
+        "collisions": 1,
+        "rotations": 12,
+        "lastLevel": 14
+      }
+    },
+    {
+      "directory": "pointer/mazerelative-25-fast",
+      "case": "pointer/mazerelative-25-fast.qml",
+      "activity": "mazerelative",
+      "result_sha256": "7b4473b18247d5912beb0c7e1994e934f99c25b800be11ae9d7eb75b6b3a7d4f",
+      "case_sha256": "fef28c2fdefd95b0d400b1e73c444bf19bea1c4e38cbe69b4f824c245b4e6130",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "completed": [
+          {
+            "level": 25,
+            "columns": 23,
+            "rows": 23,
+            "pathCells": 149,
+            "inputs": 42,
+            "fast": true,
+            "relative": true,
+            "invisible": false
+          }
+        ],
+        "attempts": 43,
+        "collisions": 1,
+        "rotations": 28,
+        "lastLevel": 25
+      }
+    },
+    {
+      "directory": "controls-mazerelative",
+      "case": "controls-case.qml",
+      "activity": "mazerelative",
+      "result_sha256": "f9ac813a3c3a6bec63455555e4836a56c978d81149f87fed49ea5bdd928e5c9c",
+      "case_sha256": "0331f69b128d2d5f9f97aa6c94b1125ac3792d86675704e13e85879360800ff5",
+      "observations": {
+        "failures": 0,
+        "passes": 2,
+        "controls": {
+          "activity": "mazerelative",
+          "levels": 25,
+          "navigation": true,
+          "fastToggle": true,
+          "mapToggle": false,
+          "helpEscape": true,
+          "focusAfterHelp": true,
+          "resources": [
+            "qrc:/gcompris/src/activities/maze/resource/maze_bg.svg",
+            "qrc:/gcompris/src/activities/maze/resource/tux_top_south.svg",
+            "qrc:/gcompris/src/activities/maze/resource/tux_shoes_top_south.svg",
+            "qrc:/gcompris/src/activities/maze/resource/door.svg",
+            "qrc:/gcompris/src/activities/maze/resource/fast-mode-button.svg",
+            "qrc:/gcompris/src/activities/maze/resource/maze-2d-bubble.svg",
+            "qrc:/gcompris/src/core/resource/arrows_move.svg",
+            "qrc:/gcompris/src/core/resource/sounds/brick.wav"
+          ]
+        }
+      }
+    }
+  ],
+  "artifact_sha256": {
+    "full-settled/maze-normal/maze-1.png": "50a1c95b64ceaeb65868b73126f8b306171d3d1105ee3b93bfb396fd2ffe0a41",
+    "full-settled/maze-normal/maze-14.png": "a38e1e83f2f4fd5aa0bf898e58371996db84bca70b7b318ca6d2d6039421f203",
+    "full-settled/maze-normal/maze-25.png": "2b320f561f30fd2648fd9f6ec197b308954e569a55d638c84851953d9ce28280",
+    "full-settled/maze-normal/native.log": "932c2a2a6d73dab68f51483412a447039ff88cdaab935f9c83ac7946be8ceb70",
+    "full-settled/maze-normal/result.json": "12760d378e961f9ba4cc541c0792fff8a26b2e353bca1ddaf0ea50a3449209c4",
+    "full-settled/maze-normal.qml": "64b6b12e26ec4d37b080c18401e1dca8726f0eaf6e107eba6706c5f3e692878e",
+    "pointer/maze-1-normal/maze-1.png": "693b524597e23567de1a6d0bcb1e953cb5e21a1fa0538988966b6d162185793c",
+    "pointer/maze-1-normal/native.log": "5dea4775072e38890872d8eed3db1eeece076e5644046cc36438fb20160f773b",
+    "pointer/maze-1-normal/result.json": "f9158e2ad270c3530aab9d54304d4979ca23705d8cd5e79db50e59c4981c0393",
+    "pointer/maze-1-normal.qml": "d7ab2c3e595039f4b652aa5f136eb0f6498c1c1d186f07861ad2e5d631c00420",
+    "pointer/maze-14-normal/maze-14.png": "313d1b2a61d21606d4539caa524a5c30e58fec1027f349ae52d03d9fd752b8e5",
+    "pointer/maze-14-normal/native.log": "069767be6a9877ca2c42249d0e7be82732e79ac9f17cdb133191da2905c38a1a",
+    "pointer/maze-14-normal/result.json": "58f93fcfd16cdaf9e4dc6f266be50c8ea4ff78e871441d70fb964d87a671bd8d",
+    "pointer/maze-14-normal.qml": "d470d388d9f986e6ef998ea42d1159cbf3a23055ed6964d77e97851c0e71e669",
+    "pointer/maze-25-normal/maze-25.png": "5a32b821e9c7ab8a952d2bcbf5145432f90b35c35d9c725e101f3cd01a9fa983",
+    "pointer/maze-25-normal/native.log": "26eed00f92f39667dca02ac153816e5f5647d252afeecc40ce0734f1426e0395",
+    "pointer/maze-25-normal/result.json": "ad8b9f396f925f4719cc9870a121da28889df2e0e0b28010acd3a90aad3324d9",
+    "pointer/maze-25-normal.qml": "597b5662ae33a2b8d00b18510e908f5f1701802f8d6469be85080108a2cff765",
+    "full-settled/maze-fast/maze-1.png": "d24964e7f3a76d5010d5d9599e42aede7b22a1df0646c01e8ed639a385dd0fcd",
+    "full-settled/maze-fast/maze-14.png": "84bbdd2f0f0508f1b72bd5ca85076451115515021e8667b6b2d2358b654b07a1",
+    "full-settled/maze-fast/maze-25.png": "357400dd6dfb5cdac6a1b9575152e80b7ee50a1249b3a14581c580726dba7f1a",
+    "full-settled/maze-fast/native.log": "8287894b3cedd7f4030c4ee70b2b58aa4bacd54e452ef699c983347dfd3393f2",
+    "full-settled/maze-fast/result.json": "0e5e34f489294f778566396b13626534b0babbd36b906a145d6491a63124f4d3",
+    "full-settled/maze-fast.qml": "95381e5043253d176b67d4db534db5b4d2998aee6a327fdea7d1ce69666d670a",
+    "pointer/maze-1-fast/maze-1.png": "383f10709d587319aa8a123c8e0829a92f30f84ae8bdf7b6d96e8bbc44789983",
+    "pointer/maze-1-fast/native.log": "8a2836d89accc427c628689a5a24f71341d874a7d4d5eb26ba68fec3080e17f6",
+    "pointer/maze-1-fast/result.json": "8c41ef5466f8ece9d6c3a30c0cfd860d3ed6e72f1d87738fc66a481d94024580",
+    "pointer/maze-1-fast.qml": "5b1210a5faa6b7788afac765fac0bb64327212114472b30365ba717f2e79168d",
+    "pointer/maze-14-fast/maze-14.png": "22db1b943d4cd108b66a9acbccea8b5bf400d13a12583e19ae28ed7ba7627508",
+    "pointer/maze-14-fast/native.log": "73d818e679b5147de7d19aa1f6916905dd12e70d71a392b75304c9de86fe7f14",
+    "pointer/maze-14-fast/result.json": "fc7e197799ae9e4ef276db8f29b5ee7a011ec7d78d57dfdfff31f065dc502f93",
+    "pointer/maze-14-fast.qml": "bc292fee42e4ea23b5854498a08c7d2247bc4e816d2b09236855da7971643b1b",
+    "pointer/maze-25-fast/maze-25.png": "dba93554f35ee080119a50ecf49a67b014bfbf70e1e22b57b330498229d38fcc",
+    "pointer/maze-25-fast/native.log": "1c8f91040bc4595e2eca1fb33e5f27a9d871a11047823490c418194c4fd04464",
+    "pointer/maze-25-fast/result.json": "908889c22fc31ed7611b569a01b3e629b3879dc30f303894ef43132a6d24ad33",
+    "pointer/maze-25-fast.qml": "fef28c2fdefd95b0d400b1e73c444bf19bea1c4e38cbe69b4f824c245b4e6130",
+    "controls-maze/arrows_move.svg": "9e05b0be0bfb94b5a3ef34129793b7c825538c007277e3cc7cd4291bee650824",
+    "controls-maze/brick.wav": "a5bcc4db6b84c0c47e90eaa0c889314c1f703993bfb32e6e33fc161d89a88cee",
+    "controls-maze/door.svg": "cbfbdd946a1826c86121787fa105d36ae9ffd258568ab05d1a49bf52a9981142",
+    "controls-maze/fast-mode-button.svg": "f2328622b03968007770063674b29278eac31aad36164f9e1eb082767bc2aaac",
+    "controls-maze/help.png": "20b3c822ecdb00402cedfce7a317dc794872a7824f672ba7f3b313241de9bc92",
+    "controls-maze/maze-2d-bubble.svg": "7219881c4edd09eb458778fd63b63b426b2e6423acecf447d082e6ec21e68611",
+    "controls-maze/maze_bg.svg": "ed7109fb06cb6d6209e9be1df6523b074d7676be7debb7ba6a714e127d597bd6",
+    "controls-maze/menu.png": "20dc728030f1f145a280c84a9e1719dee9fe1b8b981cf16905b69516586e13b6",
+    "controls-maze/native.log": "94474cc36eabb2d2c1c96fc6883ddbbd6b3ea2b28851b2e4b8286562df6d7a0b",
+    "controls-maze/result.json": "1b31e8ebdc77633f9fcb2ae8693f2e9e9205c20ce2ac820fcf8ed3efb6530310",
+    "controls-maze/tux_shoes_top_south.svg": "7a533f8c662210f1624ddd5c1b424d45581ec69840da94d734083a7b3f1da852",
+    "controls-maze/tux_top_south.svg": "ae493fd7c3c3a0ee66b3e2b6b977e210bbbebfdb355d58d6ac1ad71db52d7610",
+    "controls-case.qml": "0331f69b128d2d5f9f97aa6c94b1125ac3792d86675704e13e85879360800ff5",
+    "full-settled/mazeinvisible-normal/maze-1.png": "b407f211d62e526fdd757917a57991b2b42835e96d7a031dd083d12412af8c9e",
+    "full-settled/mazeinvisible-normal/maze-14.png": "731cac33a851f81caf6b2990104462c78aa7944f61e9a87c27a52e9b95894d3e",
+    "full-settled/mazeinvisible-normal/maze-25.png": "2279c3988500e2fef1d17924939f16edba7c52156a0e52379c4391e7965a994e",
+    "full-settled/mazeinvisible-normal/native.log": "5e3311416f158780d667752ba91a832b456ba87959a0f2625653cae59ebfb5bf",
+    "full-settled/mazeinvisible-normal/result.json": "a19933464d5fe11f8307a4665c5376b9869de64f6935e652c49d1ecc66f27ea9",
+    "full-settled/mazeinvisible-normal.qml": "64b6b12e26ec4d37b080c18401e1dca8726f0eaf6e107eba6706c5f3e692878e",
+    "pointer/mazeinvisible-1-normal/maze-1.png": "76b6f315ef505929e16f8f14622fcaaa2f0a07059ff43b1dbb424a596f2b7bf9",
+    "pointer/mazeinvisible-1-normal/native.log": "47058f52a70479a604c4e1ec773a5a9bb9e0de99f847929bd0ccc2821f6cf45e",
+    "pointer/mazeinvisible-1-normal/result.json": "50dde9db70a323e3fe0b7dca06bfab505200db8a0b63e45bbba5250758de9b46",
+    "pointer/mazeinvisible-1-normal.qml": "d7ab2c3e595039f4b652aa5f136eb0f6498c1c1d186f07861ad2e5d631c00420",
+    "pointer/mazeinvisible-14-normal/maze-14.png": "11d398a67be2f5d74c28bcfdf850c7efbcfac74aac46d68d234cb65046563c32",
+    "pointer/mazeinvisible-14-normal/native.log": "d37d1479df75d50ac911d03be1c76bba095b0ee4d591e6cb514a2848fe4b0e38",
+    "pointer/mazeinvisible-14-normal/result.json": "6e9027e076ad85f526edf19e2cef7ccdbf7d97865cb5f08924f67817be7b5a77",
+    "pointer/mazeinvisible-14-normal.qml": "d470d388d9f986e6ef998ea42d1159cbf3a23055ed6964d77e97851c0e71e669",
+    "pointer/mazeinvisible-25-normal/maze-25.png": "595a70ae777ed2666aab725aa8f9c7fe055636dd655a5a1242ddc0720566a0de",
+    "pointer/mazeinvisible-25-normal/native.log": "f53d9d0b058c068653065a513da5916eb199db4abf61422be125583132df134f",
+    "pointer/mazeinvisible-25-normal/result.json": "23c3dbc29327bef6de6bf9b7c5471316f23b0597177dfbddb30bbbfe29b0cc0b",
+    "pointer/mazeinvisible-25-normal.qml": "597b5662ae33a2b8d00b18510e908f5f1701802f8d6469be85080108a2cff765",
+    "full-settled/mazeinvisible-fast/maze-1.png": "9d273ba4cfe11ddf5cc13af9e6f79c32f832bc95751b51f767cd612ef1051f3b",
+    "full-settled/mazeinvisible-fast/maze-14.png": "7d0ffb09adbdbfa22b6718da6a2675960e31eedbe84a4f870fbb02717a8bc899",
+    "full-settled/mazeinvisible-fast/maze-25.png": "5817b28b7998ff837899e543bce46ec5a2fc36cc07d9ce4e0f56e99c0f0c6885",
+    "full-settled/mazeinvisible-fast/native.log": "800c7c0de94dc9a6928d49d927bd452b1607ed4c1c97ee96c4ddd5cfc518bbae",
+    "full-settled/mazeinvisible-fast/result.json": "898cfd57e5fd8e45a2eab461fb1fc05473d628a9b37188f87249eddc480070d3",
+    "full-settled/mazeinvisible-fast.qml": "95381e5043253d176b67d4db534db5b4d2998aee6a327fdea7d1ce69666d670a",
+    "pointer/mazeinvisible-1-fast/maze-1.png": "c12c87ebebb7e4c0545392d4b9229a2ab306b815137a6e4456df20d8c978852a",
+    "pointer/mazeinvisible-1-fast/native.log": "c653a8a65440c5335804fbbb1623c9d25c00b95220be26f2088742551ca29eb9",
+    "pointer/mazeinvisible-1-fast/result.json": "427a9956a51aa8a3ca3779da9071c6afdf1f1811e23ec3c624dcb02cf8d7413d",
+    "pointer/mazeinvisible-1-fast.qml": "5b1210a5faa6b7788afac765fac0bb64327212114472b30365ba717f2e79168d",
+    "pointer/mazeinvisible-14-fast/maze-14.png": "2fda8fb20066322799222f02b458515019c9ef7d646fc630d16322c395c16bee",
+    "pointer/mazeinvisible-14-fast/native.log": "723d9434ca4fd8d030cf3e8393492e75821a059f417a4e80090ad3b19caf6782",
+    "pointer/mazeinvisible-14-fast/result.json": "4d3100891c5efba83ec351cf45f78e35749828e22cbeda31b79f0d8fd9d22cf4",
+    "pointer/mazeinvisible-14-fast.qml": "bc292fee42e4ea23b5854498a08c7d2247bc4e816d2b09236855da7971643b1b",
+    "pointer/mazeinvisible-25-fast/maze-25.png": "b6bee351bfc5ee77923523eb59d86531773f7252c2b5b4a20e19e7d8cc450127",
+    "pointer/mazeinvisible-25-fast/native.log": "b6ec1babb90ad879cf82f90b6d2ec281a15a9aedd45020914e43b4baa540176b",
+    "pointer/mazeinvisible-25-fast/result.json": "de1750025f65ae67b8b8ec6574c6654a4e40cb93c3b04eebd452f3d233b80a0d",
+    "pointer/mazeinvisible-25-fast.qml": "fef28c2fdefd95b0d400b1e73c444bf19bea1c4e38cbe69b4f824c245b4e6130",
+    "controls-mazeinvisible/arrows_move.svg": "9e05b0be0bfb94b5a3ef34129793b7c825538c007277e3cc7cd4291bee650824",
+    "controls-mazeinvisible/brick.wav": "a5bcc4db6b84c0c47e90eaa0c889314c1f703993bfb32e6e33fc161d89a88cee",
+    "controls-mazeinvisible/door.svg": "cbfbdd946a1826c86121787fa105d36ae9ffd258568ab05d1a49bf52a9981142",
+    "controls-mazeinvisible/fast-mode-button.svg": "f2328622b03968007770063674b29278eac31aad36164f9e1eb082767bc2aaac",
+    "controls-mazeinvisible/help.png": "29f398a949175cb5adddeeef00449208d22e39bf522360f4a9cccfd047ee25f0",
+    "controls-mazeinvisible/maze-2d-bubble.svg": "7219881c4edd09eb458778fd63b63b426b2e6423acecf447d082e6ec21e68611",
+    "controls-mazeinvisible/maze_bg.svg": "ed7109fb06cb6d6209e9be1df6523b074d7676be7debb7ba6a714e127d597bd6",
+    "controls-mazeinvisible/menu.png": "39a27a64e901d8ba724403412dc72e106758c9eba1f56b414f48e397f81de86d",
+    "controls-mazeinvisible/native.log": "7e5088e41560470bfb191c4e7b875e6ec68fc4359d4664137f9a8486b6158840",
+    "controls-mazeinvisible/result.json": "585881555ab348f10fd3ac58dab624a2f37bb94b4f3923050a51e4dbe045707f",
+    "controls-mazeinvisible/tux_shoes_top_south.svg": "7a533f8c662210f1624ddd5c1b424d45581ec69840da94d734083a7b3f1da852",
+    "controls-mazeinvisible/tux_top_south.svg": "ae493fd7c3c3a0ee66b3e2b6b977e210bbbebfdb355d58d6ac1ad71db52d7610",
+    "full-settled/mazerelative-normal/maze-1.png": "9c6dd7261fd23d31c79e22a3c3455395dbceb30076dd8a8995d970b4b5ea069d",
+    "full-settled/mazerelative-normal/maze-14.png": "eb92cdf0ff118fed700b2e90d90c0000e091d9241167327945a87c6ba813e6c4",
+    "full-settled/mazerelative-normal/maze-25.png": "c90a974c4d702ccbdeb98e6aef27ef9959731dbd5a478edcf4154dbb6a94e05b",
+    "full-settled/mazerelative-normal/native.log": "e3964ff4f5c0ac440824efbd030d23f8933db5b3cec4644aced275d38d9cf4c8",
+    "full-settled/mazerelative-normal/result.json": "258c06d14f59c457a8bdb0a0884efb0d374cb76eaef8487bd48238dfebdf3324",
+    "full-settled/mazerelative-normal.qml": "64b6b12e26ec4d37b080c18401e1dca8726f0eaf6e107eba6706c5f3e692878e",
+    "pointer/mazerelative-1-normal/maze-1.png": "dbe72b7afe54f93bbf03bc2c297a199c2d111fdcc878eb3335c4faded307b09c",
+    "pointer/mazerelative-1-normal/native.log": "a73c2d34add0e17ac60eafb84b8d4c42c225ac01405b4d515d7b58c6b3379224",
+    "pointer/mazerelative-1-normal/result.json": "c9d46b2e2d098b61d36ae901a548f7bcee77b90b7bc66fe8778d767e1b216562",
+    "pointer/mazerelative-1-normal.qml": "d7ab2c3e595039f4b652aa5f136eb0f6498c1c1d186f07861ad2e5d631c00420",
+    "pointer/mazerelative-14-normal/maze-14.png": "8f01a542a35079912dd8b972db313b773d587d063f34b4d4fc2f32ca1d1d63ce",
+    "pointer/mazerelative-14-normal/native.log": "d3c0b5a9d993aca839a17d17912685fccd83f6a848f70b70456415a29d48041a",
+    "pointer/mazerelative-14-normal/result.json": "cb1189014ef5541e2547a17295b554a56531a8d8324366fd936d191b247719df",
+    "pointer/mazerelative-14-normal.qml": "d470d388d9f986e6ef998ea42d1159cbf3a23055ed6964d77e97851c0e71e669",
+    "pointer/mazerelative-25-normal/maze-25.png": "b9edec4b2d67f527e4f99020d792f4b2326734cd62958dbda03fe31247c2c46b",
+    "pointer/mazerelative-25-normal/native.log": "b308cffccb74d6371e7f86255808eff1ef848acf1ac52c3b910f9ce8be7803c6",
+    "pointer/mazerelative-25-normal/result.json": "1dcd5fa9b4b077e9ca8e359af3192356f2abe98687d2a7cf7913ead107885f31",
+    "pointer/mazerelative-25-normal.qml": "597b5662ae33a2b8d00b18510e908f5f1701802f8d6469be85080108a2cff765",
+    "full-settled/mazerelative-fast/maze-1.png": "fa07c74f263061372cf3f353ce24ba337f74e49764120e4879437565aa2b9ba1",
+    "full-settled/mazerelative-fast/maze-14.png": "b57984abf6a3b0081ff71a384d4c3311d24455e99e09c19879e1ddfca72d3cbd",
+    "full-settled/mazerelative-fast/maze-25.png": "68cb57a11e663f06d8edf78f5d061fffffc991f3dc6d5b6749d4e6eb967bce33",
+    "full-settled/mazerelative-fast/native.log": "e51608de41e65c6f3e4ebe3f3f3302ffbe225e2646cc675c5a3929d54f78df12",
+    "full-settled/mazerelative-fast/result.json": "a21c4379be887f4b5038eed9bcd08569382691178ab5be76c95ec04996521158",
+    "full-settled/mazerelative-fast.qml": "95381e5043253d176b67d4db534db5b4d2998aee6a327fdea7d1ce69666d670a",
+    "pointer/mazerelative-1-fast/maze-1.png": "7217951869fb7376378ca5e313a75cbf2f9a1af0e18b2686afcadd15900aa4a0",
+    "pointer/mazerelative-1-fast/native.log": "7b032c072f86cd08783608856cc59a873749ba428ecde106f0af86296ca7b1e6",
+    "pointer/mazerelative-1-fast/result.json": "c9f8246c2daf0cd2c37bbcd70629752ee13e914b94f4ba48a621ccb83d07b3fa",
+    "pointer/mazerelative-1-fast.qml": "5b1210a5faa6b7788afac765fac0bb64327212114472b30365ba717f2e79168d",
+    "pointer/mazerelative-14-fast/maze-14.png": "937bf333ed0cdf0a3dc0cfa12e02c0723f9e662e8ada4a4fbf0d08a9f69e9703",
+    "pointer/mazerelative-14-fast/native.log": "93ba28f92556e0b9dc0d7d7385a82acd6cca8e137122dd56dcf26222b81a2282",
+    "pointer/mazerelative-14-fast/result.json": "9751e8311e402712697d33bbd70148da6ae10870ff343899d32bd539b1affdc7",
+    "pointer/mazerelative-14-fast.qml": "bc292fee42e4ea23b5854498a08c7d2247bc4e816d2b09236855da7971643b1b",
+    "pointer/mazerelative-25-fast/maze-25.png": "0322f8cfde1f24822fa229b2c9bcc578c81421c39648eae85266dd8c9253d7ae",
+    "pointer/mazerelative-25-fast/native.log": "a71ff51662fd19b911934d47637f0fe6ee6ac372ca57753a828a9f9ff66899b6",
+    "pointer/mazerelative-25-fast/result.json": "7b4473b18247d5912beb0c7e1994e934f99c25b800be11ae9d7eb75b6b3a7d4f",
+    "pointer/mazerelative-25-fast.qml": "fef28c2fdefd95b0d400b1e73c444bf19bea1c4e38cbe69b4f824c245b4e6130",
+    "controls-mazerelative/arrows_move.svg": "9e05b0be0bfb94b5a3ef34129793b7c825538c007277e3cc7cd4291bee650824",
+    "controls-mazerelative/brick.wav": "a5bcc4db6b84c0c47e90eaa0c889314c1f703993bfb32e6e33fc161d89a88cee",
+    "controls-mazerelative/door.svg": "cbfbdd946a1826c86121787fa105d36ae9ffd258568ab05d1a49bf52a9981142",
+    "controls-mazerelative/fast-mode-button.svg": "f2328622b03968007770063674b29278eac31aad36164f9e1eb082767bc2aaac",
+    "controls-mazerelative/help.png": "0df6587ef6d53174e5a2c6d922fe749fb9d82a074cce3c57fbce59b3b52005ee",
+    "controls-mazerelative/maze-2d-bubble.svg": "7219881c4edd09eb458778fd63b63b426b2e6423acecf447d082e6ec21e68611",
+    "controls-mazerelative/maze_bg.svg": "ed7109fb06cb6d6209e9be1df6523b074d7676be7debb7ba6a714e127d597bd6",
+    "controls-mazerelative/menu.png": "14c60ea0982b6b49a54a03a73102c8a8c67c4a8a5ac5c98ec39a423f1df7c916",
+    "controls-mazerelative/native.log": "cc2e81bcbe84d0be3d4860c961f41a13ca63916bee970bbc231cbc85cb38b61b",
+    "controls-mazerelative/result.json": "f9ac813a3c3a6bec63455555e4836a56c978d81149f87fed49ea5bdd928e5c9c",
+    "controls-mazerelative/tux_shoes_top_south.svg": "7a533f8c662210f1624ddd5c1b424d45581ec69840da94d734083a7b3f1da852",
+    "controls-mazerelative/tux_top_south.svg": "ae493fd7c3c3a0ee66b3e2b6b977e210bbbebfdb355d58d6ac1ad71db52d7610"
+  }
+}
