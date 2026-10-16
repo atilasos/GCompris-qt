@@ -5,3 +5,7 @@ Quatro conjuntos reais: símbolos 3×3, símbolos com regiões 2×2 em 4×4, sí
 [Provas físicas, auditor e limites](../functional-grids/README.md). Pronto para revisão independente; não há aceitação global. Windows, dispositivos, audição, perceção das imagens, revisão docente e estabilidade83 pendentes.
 
 [Suplemento de menu após sucesso](../functional-grids-success/README.md): conclusão natural, Bonus/continuação e regresso ao menu estável por botão real. Contagens repetidas declaradas; cobertura única original preservada. Validação complementar pedida na revisão, sem defeito de produto demonstrado.
+
+[Rechecks independentes sem achados](../review/integration87/). Menu após
+sucesso foi validação complementar solicitada, com 25 grelhas repetidas
+no lote conjunto; não aumenta a cobertura única. Limites globais preservados.

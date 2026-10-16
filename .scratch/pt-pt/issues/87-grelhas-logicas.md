@@ -1,7 +1,7 @@
 # Concluir Sudoku e Calcudoku por regras independentes
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -62,3 +62,9 @@ O suplemento comprova menu estável após sucesso/continuação em 25 grelhas
 repetidas. O ticket original exigia menu genericamente; esta sequência é
 validação complementar de revisão, não nova cobertura única. Aguarda
 rechecks independentes; [relatórios iniciais](../review/integration87/).
+
+## Fecho de revisão
+
+Rechecks sem achados acionáveis; [relatórios](../review/integration87/).
+Resolução limitada ao âmbito Linux finito publicado. As 25 conclusões
+suplementares são repetições e não aumentam cobertura única ou critérios globais.
