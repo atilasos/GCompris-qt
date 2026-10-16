@@ -31,7 +31,6 @@ ActivityBase {
 
     pageComponent: Rectangle {
         id: activityBackground
-        focus: true
         anchors.fill: parent
         color: "#cacaca"
         signal start
