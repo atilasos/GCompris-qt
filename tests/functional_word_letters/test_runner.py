@@ -46,10 +46,11 @@ class LessonCheckpointTest(unittest.TestCase):
         data=[{'name':'fixture','imgPrefix':'qrc:/fixture/','content':[{'name':'fixture','content':entries}]}]
         for name in ('words.json','words_sample.json'):(self.resource/name).write_text(json.dumps(data))
 
-    def invoke(self,resume=False,exit_code=0):
+    def invoke(self,resume=False,exit_code=0,extra=()):
         command=[sys.executable,str(self.root/'tests/functional_word_letters/run.py'),
             '--full-snapshot',str(self.root/'full'),'--sample-snapshot',str(self.root/'sample'),
             '--output',str(self.output),'--jobs','1']
+        command.extend(extra)
         if resume:command.append('--resume')
         result=subprocess.run(command,text=True,capture_output=True,
             env=dict(os.environ,WORD_LESSON_FIXTURE_LOG=str(self.log),WORD_LESSON_FIXTURE_EXIT=str(exit_code)))
@@ -82,6 +83,15 @@ class LessonCheckpointTest(unittest.TestCase):
                 self.assertEqual(len(self.log.read_text().splitlines()),expected)
                 self.assertEqual(self.invoke(resume=True),0)
                 self.assertEqual(len(self.log.read_text().splitlines()),expected)
+
+    def test_dataset_selector_limits_campaign_to_explicit_dataset(self):
+        for dataset in ('full','sample'):
+            with self.subTest(dataset=dataset):
+                self.output=self.root/('selected-'+dataset)
+                self.assertEqual(self.invoke(extra=('--dataset',dataset)),0)
+                rows=json.loads((self.output/'summary.json').read_text())
+                self.assertEqual(len(rows),4)
+                self.assertTrue(all('-'+dataset+'-' in row['name'] for row in rows))
 
     def test_invalid_lesson_combinations_reject_before_preparation(self):
         for activity in ('hangman','letter-in-word'):

@@ -1,0 +1,47 @@
+test_dataset_selector_limits_campaign_to_explicit_dataset (test_runner.LessonCheckpointTest.test_dataset_selector_limits_campaign_to_explicit_dataset) ... 
+  test_dataset_selector_limits_campaign_to_explicit_dataset (test_runner.LessonCheckpointTest.test_dataset_selector_limits_campaign_to_explicit_dataset) (dataset='full') ... FAIL
+  test_dataset_selector_limits_campaign_to_explicit_dataset (test_runner.LessonCheckpointTest.test_dataset_selector_limits_campaign_to_explicit_dataset) (dataset='sample') ... FAIL
+test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) ... ok
+test_resume_rechecks_changed_frozen_inputs_and_launcher (test_runner.LessonCheckpointTest.test_resume_rechecks_changed_frozen_inputs_and_launcher) ... ok
+test_resume_retains_semantically_identical_json_inputs_but_rechecks_changed_words (test_runner.LessonCheckpointTest.test_resume_retains_semantically_identical_json_inputs_but_rechecks_changed_words) ... ok
+
+======================================================================
+FAIL: test_dataset_selector_limits_campaign_to_explicit_dataset (test_runner.LessonCheckpointTest.test_dataset_selector_limits_campaign_to_explicit_dataset) (dataset='full')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tests/functional_word_letters/test_runner.py", line 91, in test_dataset_selector_limits_campaign_to_explicit_dataset
+    self.assertEqual(self.invoke(extra=('--dataset',dataset)),0)
+                     ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tests/functional_word_letters/test_runner.py", line 57, in invoke
+    self.assertEqual(result.stderr,'')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+AssertionError: 'usage: run.py [-h] --full-snapshot FULL_S[236 chars]ll\n' != ''
+- usage: run.py [-h] --full-snapshot FULL_SNAPSHOT
+-               --sample-snapshot SAMPLE_SNAPSHOT --output OUTPUT [--jobs JOBS]
+-               [--resume] [--activity {hangman,letter-in-word}]
+-               [--lesson LESSON]
+- run.py: error: unrecognized arguments: --dataset full
+
+
+======================================================================
+FAIL: test_dataset_selector_limits_campaign_to_explicit_dataset (test_runner.LessonCheckpointTest.test_dataset_selector_limits_campaign_to_explicit_dataset) (dataset='sample')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tests/functional_word_letters/test_runner.py", line 91, in test_dataset_selector_limits_campaign_to_explicit_dataset
+    self.assertEqual(self.invoke(extra=('--dataset',dataset)),0)
+                     ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/tests/functional_word_letters/test_runner.py", line 57, in invoke
+    self.assertEqual(result.stderr,'')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+AssertionError: 'usage: run.py [-h] --full-snapshot FULL_S[238 chars]le\n' != ''
+- usage: run.py [-h] --full-snapshot FULL_SNAPSHOT
+-               --sample-snapshot SAMPLE_SNAPSHOT --output OUTPUT [--jobs JOBS]
+-               [--resume] [--activity {hangman,letter-in-word}]
+-               [--lesson LESSON]
+- run.py: error: unrecognized arguments: --dataset sample
+
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.880s
+
+FAILED (failures=2)
