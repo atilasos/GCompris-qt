@@ -12,7 +12,7 @@ ROOT=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(ROOT/'tools'))
 from native_qml_supervision import verify_status
 PHASES={'baseline':'052399f75a3bbdda098c0c854cc99368f3219ecf','final':'d1e639c9f44e3124f37c614a58835bb14c90cc26'}
-PROOF_REVISION='PENDING_ARCHIVE_COMMIT'
+PROOF_REVISION='081b75c0a95a8babef391e627b9911381786ae4d'
 PREFIX='.scratch/pt-pt/functional-graduated/'
 ACTIVITIES=('graduated_line_read','graduated_line_use')
 EXTERNAL={'src/activities/chess/resource/background-wood.svg',*[f'src/core/resource/sounds/{name}.wav' for name in ['completetask','crash','audioclick','smudge']]}
@@ -51,14 +51,14 @@ def audit(base,repository):
    text=blob(PHASES['final'],f'src/activities/{activity}/resource/{dataset}/Data.qml').decode()
    for within,rules in enumerate(re.findall(r'"rules":\s*(\{[^}]+\})',text),1):expected.append({'dataset':dataset,'within_dataset':within,'rules':json.loads(rules)})
   assert levels==expected and len(levels)==29
- coverage={a:[] for a in ACTIVITIES};seen={};wrong=0;steps=0;controls=0;tracers=0;decimals=0;inputs={'keyboard':0,'pointer':0}
+ coverage={a:[] for a in ACTIVITIES};seen={};wrong=0;steps=0;controls=0;tracers=0;decimals=0;fractional=0;inputs={'keyboard':0,'pointer':0}
  def visible(view):
   marks=view['marks'];assert len(marks)>2 and 0<=view['index']<len(marks)
   assert marks[0]>0 and marks[-1]<800 and all(marks[i]>marks[i-1] for i in range(1,len(marks)))
   assert all(abs((marks[i]-marks[i-1])-(marks[1]-marks[0]))<0.02 for i in range(2,len(marks)))
   assert number(view['right'])>number(view['left'])
  def sample(activity,row):
-  nonlocal steps,decimals
+  nonlocal steps,decimals,fractional
   view=row['view'];visible(view);config=data[activity][row['level']-1]['rules'];denominator=config.get('denominator',1)
   step=(number(view['right'])-number(view['left']))/(len(view['marks'])-1)*denominator
   assert step.denominator==1 and int(step) in config['steps']
@@ -67,7 +67,8 @@ def audit(base,repository):
   seen.setdefault((activity,row['level']),set()).add(int(step));steps+=1
   if activity=='graduated_line_read':assert row['request']==row['response']==at_tick(view['left'],view['right'],len(view['marks']),view['index'])
   else:assert row['response']==tick_for(view['left'],view['right'],len(view['marks']),row['request'])
-  if ',' in row['request']:decimals+=1
+  if denominator!=1:decimals+=1
+  if ',' in row['request']:fractional+=1
  for name,case in index['cases'].items():
   result=read(name+'/result.json');revision=PHASES[case['phase']];kind=case['kind'];positive=kind!='red';native=result['case_result'];activity=case['activity']
   assert result['activity']==activity and result['locale']=='pt_PT' and result['network']=='docker-none'
@@ -105,6 +106,10 @@ def audit(base,repository):
    evidence=native['evidence'];assert all(evidence[k] for k in ['focusAfterHelp','partialRestart','previousAfterProgress','persistedSelection','restoredSelection','menuByCtrlW']);controls+=1
    assert 'Controlos do teclado' in evidence['help']['content']
    if activity=='graduated_line_use':assert evidence['bounds']['left']==1 and evidence['bounds']['right']==len(evidence['bounds']['view']['marks'])-2
+  elif kind=='keyboard':
+   evidence=native['evidence'];visible(evidence['before'])
+   if activity=='graduated_line_read':assert evidence['afterText']=='5'
+   else:assert abs(evidence['after']['index']-evidence['before']['index'])==1
   elif kind=='green':
    evidence=native['evidence'];assert any('0 e 20' in text for text in evidence['datasets'])
    if activity=='graduated_line_read':assert evidence['instruction']=='Encontra o número indicado.' and 'Delete: limpar a resposta' in evidence['help']
@@ -114,8 +119,13 @@ def audit(base,repository):
   assert sorted(coverage[activity])==expected
   for i,row in enumerate(levels,1):assert seen[(activity,i)]==set(row['rules']['steps'])
   red=read('portuguese-red-'+activity+'/result.json');green=read('portuguese-green-'+activity+'/result.json');assert red['case_sha256']==green['case_sha256']
+  before=red['case_result']['evidence']
+  if activity=='graduated_line_read':
+   assert before['instruction']=='Descobrir a borboleta cor de ferrugem'
+   assert 'Algarismos: escreve a tua resposta' in before['help'] and any('0e 20' in text for text in before['datasets'])
+  else:assert 'mover a nave' in before['help']
  assert wrong==58 and controls==2 and tracers==4 and len(index['cases'])==22
- return {'passed':True,'questions':sum(map(len,coverage.values())),'levels':58,'datasets':20,'wrong_repaired':wrong,'configured_level_step_pairs':sum(map(len,seen.values())),'step_samples':tracers,'controls':controls,'decimal_questions':decimals,'inputs':inputs,'native_receipts':22,'scope':'Linux software only; same-process selection reopening; Windows/hardware/audio/teacher approval pending'}
+ return {'passed':True,'questions':sum(map(len,coverage.values())),'levels':58,'datasets':20,'wrong_repaired':wrong,'configured_level_step_pairs':sum(map(len,seen.values())),'step_samples':tracers,'controls':controls,'decimal_level_questions':decimals,'fractional_requests':fractional,'inputs':inputs,'native_receipts':22,'scope':'Linux software only; same-process selection reopening; Windows/hardware/audio/teacher approval pending'}
 def main():
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('--evidence',type=Path,default=ROOT/PREFIX);p.add_argument('--repository',type=Path,default=ROOT);a=p.parse_args()
  try:print(json.dumps(audit(a.evidence,a.repository),indent=2))

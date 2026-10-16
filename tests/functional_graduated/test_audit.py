@@ -28,4 +28,14 @@ class HistoricalGraduations(unittest.TestCase):
   case=self.copy/'full/graduated_line_read-01/case.qml';case.write_bytes(case.read_bytes()+b'\n// modified\n')
   path=case.with_name('result.json');d=json.loads(path.read_text());d['case_sha256']=hashlib.sha256(case.read_bytes()).hexdigest();d['case_result']['completed'][0]['response']='999';path.write_text(json.dumps(d));self.reseal()
   self.assertNotEqual(self.invoke().returncode,0)
+ def test_resealed_qrc_resource_bytes_and_source_map_are_rejected(self):
+  relative='src/activities/graduated_line_read/resource/1/Data.qml'
+  path=self.copy/'resources'/relative;path.write_bytes(path.read_bytes()+b'\n// changed source bytes\n');sha=hashlib.sha256(path.read_bytes()).hexdigest()
+  for phase in ['baseline','final']:
+   file=self.copy/'phases'/phase/'source-manifest.json';d=json.loads(file.read_text());d['files'][relative]=sha;file.write_text(json.dumps(d))
+  file=self.copy/'qt-resources.json';d=json.loads(file.read_text())
+  for row in d['graduated_line_read']['files']:
+   if row['path']==':/gcompris/'+relative:row['sha256']=sha;row['bytes']=path.stat().st_size
+  file.write_text(json.dumps(d));self.reseal()
+  self.assertNotEqual(self.invoke().returncode,0)
 if __name__=='__main__':unittest.main()
