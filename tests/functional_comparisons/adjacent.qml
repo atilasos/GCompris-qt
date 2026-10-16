@@ -28,9 +28,9 @@ TestCase {
         icon(bar,"bar_activity_config.svg");tryCompare(dialogActivityConfig,"visible",true,2500);wait(900);
         var box=find(dialogActivityConfig,function(o){return o.visible&&o.currentIndex!==undefined&&o.model!==undefined&&o.label!==undefined&&o.label===qsTranslate("ActivityConfig","Validate answers");});
         ensure(box!==null,"Answer mode selector");
-        if(box.currentIndex!==(manual?1:0)){click(box);keyClick(manual?Qt.Key_End:Qt.Key_Home);keyClick(Qt.Key_Return);wait(150);}
+        if(box.currentIndex!==(manual?1:0)){click(find(box,function(o){return o.visible&&o.text===box.currentText;}));wait(200);var label=qsTranslate("ActivityConfig",manual?"OK button":"Automatic");click(find(dialogActivityConfig,function(o){return o.visible&&o.text===label&&o.font!==undefined;}));wait(400);}
         checked(box.currentIndex,manual?1:0);dialogActivityConfig.forceActiveFocus();keyClick(Qt.Key_Return);tryCompare(dialogActivityConfig,"visible",false,2500);wait(1100);
-        checked(ApplicationSettings.loadActivityConfiguration(activity.activityInfo.shortName()).answerMode,manual?"2":"1");
+        checked(String(ApplicationSettings.loadActivityConfiguration(activity.activityInfo.shortName()).answerMode),manual?"2":"1");
     }
     function test_complete(){
         wait(1300);if(manual)configure();
