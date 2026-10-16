@@ -1,0 +1,9 @@
+TestCase {
+ name:'EverySimpleAndAdvancedGridPaletteChoicePaintsObservedColour'
+ when:activity.visible&&paintArea.width>0
+ property var evidence: ({palettes:[]})
+__VISIBLE__
+ function runPalette(total){var record={level:bar.level,count:colorSelector.count,colors:[]};evidence.palettes.push(record);compare(record.count,total);keyClick(Qt.Key_Up);wait(200);for(var i=0;i<total;i++){var tile=colorSelector.itemAtIndex(i);ensure(tile&&drawn(tile),'Keyboard scroll exposes current swatch');var swatch=tile.children[0];var expected=String(swatch.color);var image=shot('palette-'+bar.level+'-'+i+'-choice');var row={index:i,color:expected,swatch:box(swatch),swatchPixel:sample(image,swatch,swatch.width/2,swatch.height/2)};record.colors.push(row);keyClick(Qt.Key_Tab);var point={x:cursor.x+cursor.width*.08,y:cursor.y+cursor.height*.08};row.grid=box(paintGrid);row.point=point;keyClick(Qt.Key_Space);wait(150);var painted=shot('palette-'+bar.level+'-'+i+'-paint');row.painted=sample(painted,paintGrid,point.x,point.y);if(i>0)compare(row.painted,expected);if(i+1<total){if((i+1)%paintGrid.columns===0){for(var left=1;left<paintGrid.columns;left++)keyClick(Qt.Key_Left);keyClick(Qt.Key_Down);}else keyClick(Qt.Key_Right);keyClick(Qt.Key_Tab);keyClick(Qt.Key_Down);wait(200);}console.log('CREATION_PROGRESS grid-palette',bar.level,i+1,total);}}
+ function test_palettes(){wait(1900);runPalette(12);for(var level=1;level<10;level++)icon('bar_next.svg');compare(bar.level,10);keyClick(Qt.Key_Tab);runPalette(49);shot('finished-colour-drawing');ActivityInfoTree.startingActivity='';icon('bar_home.svg');tryCompare(pageView,'depth',1);ensure(pageView.currentItem.isMenu);shot('menu');evidence.menu=true;}
+ function cleanupTestCase(){console.log('NATIVE_CREATION_RESULT',JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,evidence:evidence}));}
+}

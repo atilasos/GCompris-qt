@@ -140,7 +140,7 @@ ActivityBase {
             moveColorSelectorAnim.running = false;
             moveColorSelectorAnim.from = colorSelector.contentY;
             if(items.current_color != (items.colors.length-1)) {
-                colorSelector.positionViewAtIndex(items.current_color >= 1 ? items.current_color-2 : items.current_color, GridView.Contain);
+                colorSelector.positionViewAtIndex(items.current_color, GridView.Contain);
             }else {
                 colorSelector.positionViewAtEnd();
             }

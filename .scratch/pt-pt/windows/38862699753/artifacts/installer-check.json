@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "scope": "Packaged runtime files, locked assets, and optional native activity list; no gameplay/teacher acceptance",
+  "expected_activities": 203,
+  "native_list_checked": true,
+  "missing": [],
+  "corrupt": [],
+  "unlisted_activities": [],
+  "unexpected_activities": []
+}

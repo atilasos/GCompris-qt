@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "activity_list_matches_manifest": true,
+  "expected_activities": 8,
+  "list_exit_code": 0,
+  "activities": [
+    {
+      "activity": "grammar_classes",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "grammar_analysis",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "click_on_letter",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "gletters",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "keyboard_training",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "multiple_choice_questions",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "ordering_chronology",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "fractions_create",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    }
+  ],
+  "scope": "Native offline startup in the same CI Windows user; no level completion or audible playback acceptance"
+}
