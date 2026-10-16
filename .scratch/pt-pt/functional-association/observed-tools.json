@@ -1,0 +1,44 @@
+{
+  "names-red": {
+    "kind": "observed-exec-tool-return",
+    "session_id": 97335,
+    "chunk_id": "08be35",
+    "exit_code": 1
+  },
+  "names-green": {
+    "kind": "observed-exec-tool-return",
+    "session_id": 4248,
+    "chunk_id": "c71140",
+    "exit_code": 0
+  },
+  "edge-red": {
+    "kind": "observed-exec-tool-return",
+    "session_id": 46457,
+    "chunk_id": "0eddc8",
+    "exit_code": 1
+  },
+  "edge-green": {
+    "kind": "observed-exec-tool-return",
+    "session_id": 46677,
+    "chunk_id": "b36402",
+    "exit_code": 0
+  },
+  "caption-red": {
+    "kind": "observed-exec-tool-return",
+    "session_id": 66238,
+    "chunk_id": "118d02",
+    "exit_code": 1
+  },
+  "caption-green": {
+    "kind": "observed-exec-tool-return",
+    "session_id": 68972,
+    "chunk_id": "b8516e",
+    "exit_code": 0
+  },
+  "audio-observed": {
+    "kind": "observed-exec-tool-return",
+    "session_id": 29199,
+    "chunk_id": "b7f862",
+    "exit_code": 0
+  }
+}

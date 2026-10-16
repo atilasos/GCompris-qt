@@ -52,6 +52,25 @@ def freeze(commit,snapshot,directory):
     return manifest
 
 
+def capture(commit,directory):
+    """Bind already completed proof files to immutable Git blobs, not live paths."""
+    commit=subprocess.check_output(['git','rev-parse',commit],cwd=ROOT,text=True).strip()
+    prefix=directory.relative_to(ROOT).as_posix()+'/'
+    names=subprocess.check_output(['git','ls-tree','-r','--name-only',commit,'--',prefix],cwd=ROOT,text=True).splitlines()
+    assert names
+    files={}
+    for name in names:
+        relative=name[len(prefix):]
+        if relative in ('capture.json','README.md','audit-result.json'):continue
+        data=subprocess.check_output(['git','show',commit+':'+name],cwd=ROOT)
+        assert data==(directory/relative).read_bytes(),relative
+        files[relative]={'sha256':sha(data),'bytes':len(data)}
+    assert len(files)>1000
+    record={'version':1,'capture_commit':commit,'files':files}
+    (directory/'capture.json').write_text(json.dumps(record,indent=2)+'\n')
+    return record
+
+
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--commit',default='HEAD');parser.add_argument('--snapshot',type=Path,required=True);parser.add_argument('--output',type=Path,required=True)

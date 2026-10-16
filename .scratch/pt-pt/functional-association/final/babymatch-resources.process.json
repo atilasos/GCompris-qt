@@ -1,0 +1,9 @@
+{
+  "kind": "observed-supervisor-subprocess-exit",
+  "case": "babymatch-resources",
+  "exit_code": 0,
+  "elapsed": 4.846555233001709,
+  "receipt_sha256": "e11cccbb62e8ec90d920f9d1811a87cf44234aca5c16243f6cafea349b6238f9",
+  "launcher_status_sha256": "879aea3c0523130270994a6a6e4e5c066984ba7bbca386f599d53d0cd930e1c4",
+  "supervisor_sha256": "d3036d68f65c91905732c953d9438a642d3a1a99ccee8e05c66bf0c76cd68347"
+}
