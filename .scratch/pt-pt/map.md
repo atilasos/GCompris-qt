@@ -254,6 +254,6 @@ Windows, dispositivos físicos, audição ou revisão docente.
 - [70 — Acertar o relógio](issues/70-relogio.md)
 
 A tarefa 67 tem 190 capturas e 12 níveis documentados dos três jogos com avião,
-com controlos e tutorial. Está `ready-for-review`, aguardando Standards e Spec
-independentes. Três ligações de evidência foram acrescentadas sem alterar os
+com controlos e tutorial. Fica resolvida no âmbito Linux, após Standards e Spec independentes sem
+achados; [relatórios](review/integration67/). Três ligações foram acrescentadas sem alterar os
 critérios globais; hardware, áudio, Windows e professor permanecem pendentes.
