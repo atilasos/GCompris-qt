@@ -55,3 +55,9 @@ A reprodução MediaPlayer é observada no componente original. Os SoundEffect
 sem dispositivo e a audição física têm limites separados. Nenhuma gravação é
 alterada. Windows, dispositivos físicos, touch/mobile, pronúncia e aprovação
 docente continuam pendentes.
+
+A verificação histórica acrescentada na tarefa 59 exige os objetos Git da
+revisão `53c2fe61ea46e950e58752a9e6ef0a71b5e80c31` e os três manifestos
+arquivados. Não usa os ficheiros fonte atuais nem os caminhos operacionais
+antigos. Guardar nova saída do auditor fora do índice original. Procedimento e
+provas em `.scratch/pt-pt/colors-identity59/README.md`.

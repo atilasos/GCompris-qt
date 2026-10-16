@@ -6,6 +6,7 @@ import hashlib
 import json
 from pathlib import Path
 from oracle import light_steps, pigment_steps
+from identities import verify_identities
 
 
 def validate_mix(row, light):
@@ -41,6 +42,7 @@ def receipt(base, name):
 
 
 def audit(base):
+    historical_inputs = verify_identities(base)
     vocabulary = json.loads((base/'vocabulary.json').read_text())
     data = json.loads((base/'inventory.json').read_text())
     affected = data['fawn_affected_levels']
@@ -90,7 +92,7 @@ def audit(base):
     for name in ['paint-feedback-tracer', 'light-feedback-tracer', 'repeat-tab-tracer']:
         assert len(parsed[name]['case_result']['observations']) == 6
         assert parsed[name]['case_result']['wins'] == 1
-    result = {'scope': 'Linux native offline; perceptual fidelity, pronunciation, physical audition/devices, Windows and teacher review remain pending.',
+    result = {'historical_inputs': historical_inputs, 'scope': 'Linux native offline; perceptual fidelity, pronunciation, physical audition/devices, Windows and teacher review remain pending.',
               'records': records, 'main_questions': sum(row['questions'] for row in records.values()), 'color_voice_routes_playing': sorted(expected),
               'advanced_composition': {'baseline_levels': [level for level in range(1,21) if level not in affected], 'replacement_levels': affected},
               'cases': {name: {'result_sha256': sha(base/name/'result.json'), 'case_sha256': parsed[name]['case_sha256']} for name in cases}}

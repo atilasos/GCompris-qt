@@ -1,0 +1,10 @@
+{
+  "tested_revision": "53c2fe61ea46e950e58752a9e6ef0a71b5e80c31",
+  "original_artifacts": 201,
+  "all_original_bytes_unchanged": true,
+  "original_index_sha256": "f57831b948b64f99242c6ed8f08c958445c4397ae8314efabcd38e0eafee8af5",
+  "original_native_cases": 19,
+  "questions": 254,
+  "qt_reruns": 0,
+  "new_snapshot_manifest": "colors-current-manifest.json"
+}
