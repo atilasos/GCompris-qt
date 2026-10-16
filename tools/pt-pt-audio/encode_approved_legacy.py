@@ -21,7 +21,7 @@ def encode(approval, samples, output):
         raise ValueError('New encoding output required')
     if sha(approval) != APPROVAL_SHA256:
         raise ValueError('Exact teacher approval identity required')
-    decision = json.loads(approval.read_text())
+    decision = json.loads(approval.read_text(encoding='utf-8'))
     expected = {(Path(name).name, row['text'], row['wav'], row['wav_sha256'])
                 for name, row in APPROVED_LEGACY.items()}
     if {(r['key'], r['text'], r['wav'], r['wav_sha256'])
@@ -65,7 +65,7 @@ def encode(approval, samples, output):
               'source_wav_review': 'approved', 'derived_ogg_human_review': 'not-performed',
               'encoder': 'GStreamer audioconvert/vorbisenc quality=0.5/oggmux',
               'gstreamer_version': version, 'recordings': rows}
-    (output / 'replacements.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')
+    (output / 'replacements.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     return result
 
 
