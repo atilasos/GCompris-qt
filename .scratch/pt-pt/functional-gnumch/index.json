@@ -176,7 +176,7 @@
   ],
   "artifact_sha256": {
     ".gitignore": "47e77ef9f1906e89921829ac64d0a6d70ffe39741037d84033b68caf387cd8a1",
-    "README.md": "3c41e65624150ce76e8c1ddf6e2ca459287685b918444b9112fcb4b1cb89e27e",
+    "README.md": "929d39d4b83fbaa401041fa2e7d5923f21174e95a44d6b860e50e97aac05f052",
     "aggregate.json": "4d1a94416b466e6a2a286744c0f7dabcca6cbe173deee6ed108340469c77f092",
     "baseline-source-identity.json": "a6c3e460342867e4666492a959bb959781b617235c91107d7eeb9f2a21820e96",
     "controls/gnumch-equality/case.qml": "7c77f0490b7475e057b62f78daa16dbd325b3d24ed1f30dda0c49c2e8105c096",
@@ -618,7 +618,7 @@
     "pointer-pilot/case.qml": "42557bf4f67928b1f2e3c728959a98866bc9a656f95bf29a39d4f20bbddc9703",
     "pointer-pilot/native.log": "deca7761a828b86e87cff63c97c1d53d0561f02d27cff1d307400d7db8e3a7cf",
     "pointer-pilot/result.json": "b2172688b341d48741d8be5509a8280176a66c5a61918185c3ae1b44acae87f5",
-    "python-green.log": "5efb8b1e79c02b80cfded2579f463a3172290f43a5a7b4112d9f5688c6e17932",
+    "python-green.log": "f219a31877c7dc05e56ff820c3d669fcab7893bf34370f37b899234e311443c8",
     "resource-snapshot.json": "daa76bfae2eb66576a46e90e9340d874b169022b9c39260ad333951605090a74",
     "return-green/case.qml": "e630d9d10d704b7b788afc9c72ab3fcd33c38db813396716f0fa8a5ac38119c5",
     "return-green/native.log": "56178477984a0245d041b3d5fb3c33bef401e473290a9bf6ac81c41cb83cedd4",
@@ -640,6 +640,7 @@
     "two-levels/native.log": "c92b06598961aa0b7782ac7380f31292065e8437bbec4ab50e2ea16bd5a1edae",
     "two-levels/result.json": "09f2e75cb9cffb4f37a7ac008f2df63560e7702e7770108cd113916a357ac854",
     "wav-decode.json": "50f86f1336c355c0e334ad53fd68f5d9120c8fc65d3e681fdb655626606f82e2",
-    "wav-decode.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    "wav-decode.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "progression-audit-red.log": "1193b723fbfc5cff8efa06a592b601631ef94ed4d6d99949cc0e188d704bfe5e"
   }
 }

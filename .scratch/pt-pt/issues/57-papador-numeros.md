@@ -27,7 +27,7 @@ primos. Auditor independente confere1874 capturas certas,28 avisos e cobertura
 integral de níveis. Cinco casos extras de monstros perdem e recuperam o nível,
 sem encurtar temporizadores; cinco controlos cobrem ajuda/foco/menu/reinício e
 seletores reais quando expostos.21 recibos finais Qt/launcher0, sem timeout ou
-erros QML. Cinco testes Python/CLI passam,50 recursos Qt conferidos e dois WAV
+erros QML. Sete testes Python/CLI passam,50 recursos Qt conferidos e dois WAV
 descodificados por software.
 
 Corrigidas três traduções reproduzidas e a flag de monstros que não regressava

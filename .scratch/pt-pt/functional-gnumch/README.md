@@ -19,7 +19,8 @@ e trajetórias são aleatórias; não se esgotam todos os tabuleiros possíveis.
 O caso lê o texto GCText efetivamente visível de cada célula e o pedido PT do
 painel. Só então calcula aritmética, igualdade/desigualdade, divisibilidade ou
 primalidade por divisão experimental. O auditor Python usa Fraction e volta
-a calcular cada decisão. Não consulta validadores, listas de respostas ou
+a calcular cada decisão. Confere também a progressão do objetivo e operação
+por nível; as regressões CLI alteram estes dois campos e são rejeitadas. Não consulta validadores, listas de respostas ou
 objetivos ocultos do JS. As coordenadas desenhadas do jogador planeiam setas
 e cliques reais; uma entrada é comparada com um passo de grelha. Os canais
 alternam por nível, sem alegar o produto cartesiano integral por canal.
@@ -87,7 +88,7 @@ python3 tests/functional_gnumch/campaigns.py --snapshot SNAPSHOT_NOVO --source-r
 ```
 
 O executor recusa saídas já existentes e
-seleções de níveis inválidas antes de preparar dados. Cinco testes Python/CLI
+seleções de níveis inválidas antes de preparar dados. Sete testes Python/CLI
 passam; o oráculo matemático teve vermelho antes de ser implementado.
 Windows, toque, rato/teclado físicos, audição/pronúncia e revisão docente
 permanecem pendentes. Não certifica a matriz global203 nem altera mapa/CSV ou
