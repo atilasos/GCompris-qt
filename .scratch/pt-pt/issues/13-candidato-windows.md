@@ -133,3 +133,11 @@ O professor recebeu o candidato para o Windows11 pessoal confirmado. A tarefa13
 fecha apenas a preparação deste candidato inicial. As tarefas07/08 permanecem
 abertas para o artefacto final, Windows10 e aceitação na escola; as correções
 posteriores ao commit dfc26b730 exigem novo candidato.
+
+## Candidato posterior verificado localmente
+
+Actions38846063228, fonte9b001ee47d63ca70d16ec536892f8bc10c06553a, passou
+construção, instalação e203arranques no ambiente CI. O EXE foi descarregado
+e o SHA-256 recalculado,825768382bytes. Inclui os lotes73–78, mas antecede
+79–82. [Provas e limites](../windows/38846063228/README.md).
+Não há ainda execução manual aprovada em Windows11/10 nem aceitação global.
