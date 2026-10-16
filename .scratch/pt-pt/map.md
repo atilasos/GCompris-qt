@@ -408,3 +408,8 @@ finito após revisões sem achados; [relatórios](review/integration86/).
 Duas ligações mantêm os critérios
 globais pendentes; iconografia não demonstra género pela aparência.
 Windows, hardware, áudio e revisão docente permanecem pendentes.
+
+A tarefa 85 recebeu suplemento para o P2 de regresso ao menu, com três
+percursos completos repetidos e Ctrl+W até ao menu estável. Aguarda recheck
+independente; não aumenta a cobertura única nem altera a matriz. Os
+[relatórios iniciais](review/integration85/) ficam preservados como histórico.
