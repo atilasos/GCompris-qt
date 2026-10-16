@@ -1,7 +1,7 @@
 # Coordenação com a bola
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -55,3 +55,9 @@ Pendência de encerramento: [tarefa 83](../issues/83-encerramento-penalty.md).
 Provas integradas para Standards e Spec independentes; `ready-for-review`,
 sem resolução final ou aceitação global. A ocorrência 139 permanece sob
 investigação 83; replay e GDB com saída zero não demonstram a sua correção.
+
+## Revisão independente
+
+Standards e Spec sem achados acionáveis no âmbito funcional finito;
+[relatórios](../review/integration81/README.md). Estabilidade permanece aberta
+na tarefa83. Não há aprovação Windows, equipamento, audição ou global.

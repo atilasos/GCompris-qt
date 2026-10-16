@@ -1,0 +1,9 @@
+{
+  "build/pt-pt/bin/gcompris-qt": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+  "build/pt-pt/share/gcompris-qt/translations/gcompris_qt_pt.qm": "539ece1e900c13eb9d7a3295fdb5ecf093338f9f950b427d45ab4a2b1c14f567",
+  "build/pt-pt/share/gcompris-qt/rcc/data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc": "4887e4a8c7112e6b744829c82a3476a9f322a593173d17c3b7e369fad21528ee",
+  "build/pt-pt/share/gcompris-qt/rcc/align4.rcc": "cc2cb3fe4ed51b0c05fb9fd6aff948496b01d6153bb031a66d15ed1c0c093da7",
+  "build/pt-pt/share/gcompris-qt/rcc/tic_tac_toe.rcc": "8042bfac980225bae98ce7227a3a2ca44f90ceb8789e44f0e80721d010f8741d",
+  "build/pt-pt/share/gcompris-qt/rcc/ballcatch.rcc": "de9713e44fb1958859156bb0a91a89ab770c88eabf91e1fb457f2e27654c07f0",
+  "build/pt-pt/share/gcompris-qt/rcc/penalty.rcc": "fb1d06e83481ffb8b8447a1112868d08b3a797e1d60587d14e141a0d7c58f053"
+}
