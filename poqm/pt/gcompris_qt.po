@@ -26230,6 +26230,41 @@ msgctxt "BrushToolPanel|"
 msgid "Drawing Tools"
 msgstr "Ferramentas de desenho"
 
+#: activities/sketch/ColorSelector.qml:85
+msgctxt "ColorSelector|"
+msgid "Palette Colors"
+msgstr "Paleta de cores"
+
+#: activities/sketch/ColorSelector.qml:165
+msgctxt "ColorSelector|"
+msgid "Reset palette"
+msgstr "Repor paleta"
+
+#: activities/sketch/ColorSelector.qml:215
+msgctxt "ColorSelector|"
+msgid "Selected Color"
+msgstr "Cor selecionada"
+
+#: activities/sketch/ColorSelector.qml:239
+msgctxt "ColorSelector|color hue"
+msgid "Hue"
+msgstr "Matiz"
+
+#: activities/sketch/ColorSelector.qml:267
+msgctxt "ColorSelector|color saturation"
+msgid "Saturation"
+msgstr "Saturação"
+
+#: activities/sketch/ColorSelector.qml:293
+msgctxt "ColorSelector|color lightness"
+msgid "Lightness"
+msgstr "Luminosidade"
+
+#: activities/sketch/ColorSelector.qml:329
+msgctxt "ColorSelector|"
+msgid "Reset Color"
+msgstr "Repor cor"
+
 #: activities/sketch/FilesPanel.qml:35
 msgctxt "FilesPanel|"
 msgid "Save your image"
