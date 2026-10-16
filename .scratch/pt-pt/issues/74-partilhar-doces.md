@@ -20,8 +20,9 @@ audição. Não transferir a aprovação das 32 gravações para outros recursos
 
 Snapshot privado offline, supervisão após a espera e retornos observados,
 fontes/catálogos/casos/recibos imutáveis. Auditor portátil com cópia independente
-e ataques de adulteração com hashes recalculados. Falhar com Python -O. Se
-houver defeito, preservar caso idêntico vermelho/verde. Não preparar a mesma
+e ataques de adulteração com hashes recalculados. Manter as verificações
+eficazes também com Python -O: aceitar provas válidas e rejeitar adulterações
+com e sem otimização. Se houver defeito, preservar caso idêntico vermelho/verde. Não preparar a mesma
 pasta de fontes em trabalhadores paralelos.
 
 A aceitação global, Windows 10, dispositivos físicos, áudio e revisão docente
@@ -51,3 +52,10 @@ limites globais, Windows, equipamento, audição e docente mantêm-se.
 
 Provas integradas para Standards e Spec independentes. `ready-for-review`
 não representa resolução final ou aceitação global.
+
+## Correção documental da revisão Spec
+
+Clarificado o critério de Python -O: as verificações continuam ativas sob
+otimização, com sucesso da prova válida e rejeição das adulterações. O auditor
+`require()` e os testes existentes já comprovam esse comportamento. O P3 era
+uma ambiguidade do texto; código e provas históricas permanecem iguais.
