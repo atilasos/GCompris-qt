@@ -1,7 +1,7 @@
 # Sequências numéricas e alfabéticas com avião em PT-PT
 
 Status: ready-for-agent
-Progress: resolved
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -39,3 +39,8 @@ O tutorial da paridade foi percorrido integralmente pela UI, oito páginas e tr�
 Auditor `python3 tests/functional_planes/audit.py` fixa a prova histórica `db1119f63b9c93dacd5839bdc4a7f53c7db4213f` e confronta fontes, catálogo, launcher/supervisor, QResource e snapshots com identidades imutáveis. Vinte e um testes passaram, incluindo cópia deslocada, caminhos/hashes adulterados com reindexação coerente, caso/recibo/estado externo recalculados e recusa de recibo nativo verde com lançador falhado.
 
 Snapshot privado de 269 ficheiros; 237 fontes inventariadas, quatro RCC canónicos e dois assets externos conferidos. Quarenta e sete vozes preexistentes e o efeito de erro passaram em GStreamer para fakesink, sem regeneração. Audição, pronúncia, Windows 10/11, dispositivos físicos, acessibilidade e revisão docente continuam pendentes; a aprovação das 32 adições de outro lote não se transfere. Não houve escrita no build principal, mapa ou CSV nem push. Todos os critérios globais continuam pendentes.
+
+## Integração
+
+Provas integradas; aguardam Standards e Spec independentes. Estado
+`ready-for-review` limitado ao lote Linux, sem resolução final ou global.
