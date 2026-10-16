@@ -7,15 +7,14 @@ TestCase {
     property var tutorialPages: []
 __MOVEMENT__
 __TUTORIAL__
+__OBSERVE__
     function test_all_four_visible_sequences(){
         wait(1400);tutorialPages=tutorial();compare(items.numberOfLevel,4);compare(items.currentLevel,0);
         for(var level=0;level<4;level++){
             wait(1200);compare(items.currentLevel,level);compare(score.visible,level<2);
-            var accepted=[];
-            for(var text of expectedLevels[level]){
-                accepted.push(capture(text,false));
-                console.log('PLANE_PROGRESS',level+1,accepted.length,expectedLevels[level].length,text);
-            }
+            visibleCloudHistory=[];capturedClouds=[];currentExpected=expectedLevels[level];observedLevel=level+1;
+            while(capturedClouds.length<currentExpected.length)pursueNextVisibleCloud();
+            var accepted=capturedClouds.slice();
             tryCompare(bonus,'isPlaying',true,2000);
             observations.push({level:level+1,indicationVisible:level<2,captures:accepted,bonus:true});
             tryCompare(items,'currentLevel',(level+1)%4,10000);tryCompare(bonus,'isPlaying',false,4000);

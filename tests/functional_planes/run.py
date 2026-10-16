@@ -2,12 +2,16 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 """Operate native flying sequences using immutable sources and post-wait status."""
 import argparse
+import hashlib
 import json
+import os
+import uuid
 from pathlib import Path
 import shutil
 import subprocess
 import sys
 from oracle import sequence
+from phase import verify_source
 
 ROOT=Path(__file__).resolve().parents[2]
 HERE=Path(__file__).resolve().parent
@@ -22,14 +26,18 @@ def main():
     parser.add_argument('--controls',action='store_true')
     args=parser.parse_args()
     source=args.source_root.resolve();output=args.output.resolve()
+    verify_source(source)
     if output.exists():parser.error('Use a new output directory')
     text=(HERE/('controls.qml' if args.controls else 'gameplay.qml')).read_text().replace('__LEVELS__',json.dumps([sequence(args.activity,level) for level in range(1,5)]))
-    for marker,filename in [('__MOVEMENT__','movement.fragment'),('__TUTORIAL__','tutorial.fragment')]:text=text.replace(marker,(HERE/filename).read_text())
+    for marker,filename in [('__MOVEMENT__','movement.fragment'),('__TUTORIAL__','tutorial.fragment'),('__OBSERVE__','observe.fragment')]:text=text.replace(marker,(HERE/filename).read_text())
     titles={'planegame':'Ordem numérica','numbers-odd-even':'Números pares e ímpares','alphabet-sequence':'Sequência alfabética'}
     text=text.replace('__TITLE__',json.dumps(titles[args.activity])).replace('__FIRST__',json.dumps(sequence(args.activity,1)[0])).replace('__ESCAPE__',json.dumps(args.activity=='alphabet-sequence'))
-    case=ROOT/'build/planes-cases'/(args.activity+('-controls' if args.controls else '')+'.qml');case.parent.mkdir(parents=True,exist_ok=True);case.write_text(text)
+    case=ROOT/'build/planes-cases'/(hashlib.sha256(text.encode()).hexdigest()+'.qml');case.parent.mkdir(parents=True,exist_ok=True)
+    if case.exists():assert case.read_text()==text
+    else:case.write_text(text)
     command=[sys.executable,str(source/'tools/run-native-qml-supervised.py'),'--source-root',str(source),'--activity',args.activity,'--qml-file',str(source/'src/activities/planegame/Planegame.qml'),'--resource-snapshot',str(args.snapshot.resolve()),'--case',str(case),'--output',str(output),'--result-marker','NATIVE_PLANE_RESULT','--offline','--timeout','2400']
-    completed=subprocess.run(command)
+    environment=dict(os.environ,PYTHONDONTWRITEBYTECODE='1',PYTHONPYCACHEPREFIX=str(ROOT/'build/planes-python-cache'/uuid.uuid4().hex))
+    completed=subprocess.run(command,env=environment)
     if output.exists():shutil.copyfile(case,output/'case.qml')
     return completed.returncode
 
