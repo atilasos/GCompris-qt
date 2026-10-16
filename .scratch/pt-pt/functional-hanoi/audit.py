@@ -3,9 +3,11 @@
 import hashlib
 import json
 from pathlib import Path
+import subprocess
 
 ROOT = Path(__file__).resolve().parents[3]
 HERE = Path(__file__).resolve().parent
+TESTED_REVISION = "d256e7fc447b468aca789a89a8a02d093caf61d8"
 CASES = {
     "classic-visual-order": ("hanoi_real", "tests/hanoi_real.qml"),
     "simplified-visual-order": ("hanoi", "tests/hanoi_simplified.qml"),
@@ -20,10 +22,16 @@ def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def audit():
+def tested_sha(relative):
+    content = subprocess.check_output(["git", "-C", str(ROOT), "show", TESTED_REVISION + ":" + relative])
+    return hashlib.sha256(content).hexdigest()
+
+
+def audit(evidence=HERE):
+    evidence = Path(evidence)
     receipts = []
     for name, (activity, case) in CASES.items():
-        directory = HERE / name
+        directory = evidence / name
         result = json.loads((directory / "result.json").read_text())
         assert result["passed"] and result["exit_code"] == 0
         assert not result["timeout"] and not result["qml_errors"]
@@ -31,10 +39,10 @@ def audit():
         assert result["network"] == "docker-none"
         assert result["runtime_uid"] == result["runtime_gid"] == 1000
         assert result["private_file_ownership_verified"]
-        assert result["case_sha256"] == sha(ROOT / case)
-        assert result["runner_sha256"] == sha(ROOT / "tools/run-native-qml-case.py")
-        assert result["source_sha256"] == sha(ROOT / "src/activities" / result["qml_file"])
-        assert result["portuguese_catalogue_sha256"] == sha(ROOT / "poqm/pt/gcompris_qt.po")
+        assert result["case_sha256"] == tested_sha(case)
+        assert result["runner_sha256"] == tested_sha("tools/run-native-qml-case.py")
+        assert result["source_sha256"] == tested_sha("src/activities/" + result["qml_file"])
+        assert result["portuguese_catalogue_sha256"] == tested_sha("poqm/pt/gcompris_qt.po")
         for screenshot in result["screenshots"]:
             assert sha(directory / screenshot["file"]) == screenshot["sha256"]
         record = result["case_result"]
@@ -79,13 +87,14 @@ def audit():
             assert len(controls["resources"]) == (3 if activity == "hanoi_real" else 4)
             for resource in controls["resources"]:
                 relative = resource.removeprefix("qrc:/gcompris/")
-                assert sha(ROOT / relative) == sha(directory / Path(relative).name)
+                assert tested_sha(relative) == sha(directory / Path(relative).name)
         receipts.append({"directory": name, "activity": activity, "case": case,
                          "case_sha256": result["case_sha256"], "result": record})
-    artifacts = {str(path.relative_to(HERE)): sha(path)
-                 for name in CASES for path in sorted((HERE / name).iterdir())
+    artifacts = {str(path.relative_to(evidence)): sha(path)
+                 for name in CASES for path in sorted((evidence / name).iterdir())
                  if path.is_file()}
-    return {"passed": True, "scope": "Linux native offline; six final cases only",
+    return {"passed": True, "scope": "Historical Linux native offline; six final cases only",
+            "tested_source_revision": TESTED_REVISION,
             "cases": receipts, "artifact_sha256": artifacts}
 
 

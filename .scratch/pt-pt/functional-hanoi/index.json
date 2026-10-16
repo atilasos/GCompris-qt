@@ -1,6 +1,7 @@
 {
   "passed": true,
-  "scope": "Linux native offline; six final cases only",
+  "scope": "Historical Linux native offline; six final cases only",
+  "tested_source_revision": "d256e7fc447b468aca789a89a8a02d093caf61d8",
   "cases": [
     {
       "directory": "classic-visual-order",

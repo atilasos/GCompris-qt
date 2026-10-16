@@ -90,3 +90,14 @@ python3 tools/run-native-qml-case.py --resource-snapshot /SNAPSHOT_SELADO \
 
 Repetir com `--activity hanoi` usa o mesmo motor e caso. As provas novas mantêm
 os limites Linux offline e os critérios Windows/hardware/docente separados.
+
+## Identidade histórica do auditor
+
+A tarefa55 reproduziu uma recusa falsa depois de a tarefa52 alterar apenas
+frases de ordenação no catálogo. O auditor comparava o catálogo atual com
+o hash antigo. Agora confere fontes, casos, launcher e recursos na revisão
+Git imutável d256e7fc447b468aca789a89a8a02d093caf61d8 realmente testada.
+Os seis recibos e os 34 hashes originais não mudaram. O índice explicita a
+revisão histórica; não aprova mudanças futuras de Hanói ou do catálogo.
+Três testes verificam evidência copiada, bytes preservados e recusa de
+recursos/identidades adulterados. Provas em ../hanoi-history55/README.md.
