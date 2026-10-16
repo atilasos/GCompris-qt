@@ -1,0 +1,36 @@
+{
+  "kind": "agent-recorded-tools-exec-or-write-stdin-completion",
+  "scope": "External conversation observations, not platform signatures; native observations remain in the immutable capsule",
+  "source_commit": "ad173141b",
+  "integration_synced": "e8a5cbf3077585c2f0939115ac507a756b061405",
+  "runs": {
+    "host-optimized": {
+      "session_id": 19999,
+      "output_chunk": "1300f5",
+      "exit_code": 0
+    },
+    "portable-prerequisite-failure": {
+      "session_id": 3239,
+      "output_chunk": "635392",
+      "exit_code": 1,
+      "reason": "Docker tmpfs lacked exec; Pillow extension could not map. No product conclusion."
+    },
+    "portable-preliminary": {
+      "session_id": 34766,
+      "output_chunk": "662dae",
+      "exit_code": 0
+    },
+    "portable-final": {
+      "session_id": 49151,
+      "output_chunk": "e64107",
+      "exit_code": 0
+    }
+  },
+  "unit_log_command": {
+    "output_chunk": "70c2c1",
+    "exit_code": 0,
+    "normal_tests": 8,
+    "optimized_tests": 8
+  },
+  "report_sha256": "439c143bcbe4aa17d771fdf47b911fed280b35090f8197501e13f9f3e0e205d0"
+}
