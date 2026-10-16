@@ -17083,7 +17083,7 @@ msgstr "o resultado não é um inteiro"
 #, qt-format
 msgctxt "Guesscount|"
 msgid "Guesscount: %1"
-msgstr "Conde das Adivinhas: %1"
+msgstr "Número a obter: %1"
 
 #: activities/guesscount/OperandRow.qml:38
 msgctxt "OperandRow|"
