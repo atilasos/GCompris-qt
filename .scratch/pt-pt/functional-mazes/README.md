@@ -64,7 +64,7 @@ O auditor compara fontes maze/wrappers, catálogo e gerador com a revisão
 Git 8d9492256b0b49c5a67a8703914739b4e72316fc realmente testada. Confere casos
 arquivados, snapshot e 145 artefactos sem paths históricos obrigatórios.
 Catálogos posteriores alterados noutros jogos não têm de manter o hash.
-Estas provas também não aprovam modificações futuras de maze. Cinco testes
+Estas provas também não aprovam modificações futuras de maze. Seis testes
 verificam cópia independente e recusa de nível ausente, recurso, caso ou
 identidade de fonte adulterados.
 

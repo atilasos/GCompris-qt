@@ -22,6 +22,6 @@ hashes e limites; não substituir aceitação Windows, hardware ou docente.
 
 150 conclusões principais, 18 tracers por gestos de rato e três controlos,
 27 recibos positivos. Três correções nativas já integradas na parcial.
-Cinco testes da auditoria passam. Todas as sessões terminaram com saída zero.
+Seis testes da auditoria passam. Todas as sessões terminaram com saída zero.
 Provas, fontes fixadas, comandos e limites em `../functional-mazes/README.md`.
 Os critérios globais mantêm-se pendentes.

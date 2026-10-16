@@ -60,6 +60,10 @@ class EvidenceContract(unittest.TestCase):
         self.alter('full-settled/source-identity.json', lambda data: data.update({'src/activities/maze/maze.js': '0' * 64}))
         with self.assertRaises(AssertionError): MODULE.audit(self.copy)
 
+    def test_missing_frozen_game_source_is_rejected(self):
+        self.alter('full-settled/source-identity.json', lambda data: data.pop('src/activities/maze/maze.js'))
+        with self.assertRaises(AssertionError): MODULE.audit(self.copy)
+
 
 if __name__ == '__main__':
     unittest.main()

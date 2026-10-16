@@ -26,6 +26,12 @@ def source_bytes(path):
 def audit(evidence):
     evidence = Path(evidence)
     source_identity = json.loads((evidence / 'full-settled/source-identity.json').read_text())
+    required_sources = {'src/activities/maze/Maze.qml', 'src/activities/maze/maze.js',
+                        'src/activities/mazeinvisible/Mazeinvisible.qml',
+                        'src/activities/mazerelative/Mazerelative.qml',
+                        'poqm/pt/gcompris_qt.po', 'tools/run-native-qml-case.py',
+                        'tests/functional_mazes/run.py', 'tests/functional_mazes/gameplay.qml.in'}
+    assert required_sources <= source_identity.keys()
     for path, digest in source_identity.items():
         assert hashlib.sha256(source_bytes(path)).hexdigest() == digest, path
     snapshot_file = evidence / 'resource-snapshot.json'
