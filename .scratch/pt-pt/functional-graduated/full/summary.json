@@ -1,0 +1,72 @@
+[
+  {
+    "activity": "graduated_line_read",
+    "start": 1,
+    "levels": 6,
+    "exit_code": 0,
+    "output": "graduated_line_read-01"
+  },
+  {
+    "activity": "graduated_line_read",
+    "start": 7,
+    "levels": 6,
+    "exit_code": 0,
+    "output": "graduated_line_read-07"
+  },
+  {
+    "activity": "graduated_line_read",
+    "start": 13,
+    "levels": 6,
+    "exit_code": 0,
+    "output": "graduated_line_read-13"
+  },
+  {
+    "activity": "graduated_line_read",
+    "start": 19,
+    "levels": 6,
+    "exit_code": 0,
+    "output": "graduated_line_read-19"
+  },
+  {
+    "activity": "graduated_line_read",
+    "start": 25,
+    "levels": 5,
+    "exit_code": 0,
+    "output": "graduated_line_read-25"
+  },
+  {
+    "activity": "graduated_line_use",
+    "start": 1,
+    "levels": 6,
+    "exit_code": 0,
+    "output": "graduated_line_use-01"
+  },
+  {
+    "activity": "graduated_line_use",
+    "start": 7,
+    "levels": 6,
+    "exit_code": 0,
+    "output": "graduated_line_use-07"
+  },
+  {
+    "activity": "graduated_line_use",
+    "start": 13,
+    "levels": 6,
+    "exit_code": 0,
+    "output": "graduated_line_use-13"
+  },
+  {
+    "activity": "graduated_line_use",
+    "start": 19,
+    "levels": 6,
+    "exit_code": 0,
+    "output": "graduated_line_use-19"
+  },
+  {
+    "activity": "graduated_line_use",
+    "start": 25,
+    "levels": 5,
+    "exit_code": 0,
+    "output": "graduated_line_use-25"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "activity": "graduated_line_read",
+    "level": 22,
+    "step": 2000
+  },
+  {
+    "activity": "graduated_line_read",
+    "level": 26,
+    "step": 100000
+  },
+  {
+    "activity": "graduated_line_use",
+    "level": 20,
+    "step": 200
+  },
+  {
+    "activity": "graduated_line_use",
+    "level": 23,
+    "step": 1000
+  }
+]

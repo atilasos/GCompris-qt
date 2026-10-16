@@ -1,0 +1,12 @@
+[
+  {
+    "activity": "graduated_line_read",
+    "exit_code": 0,
+    "output": "graduated_line_read"
+  },
+  {
+    "activity": "graduated_line_use",
+    "exit_code": 0,
+    "output": "graduated_line_use"
+  }
+]

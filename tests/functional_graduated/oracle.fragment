@@ -1,0 +1,6 @@
+ function gcd(a,b){a=Math.abs(a);b=Math.abs(b);while(b){var r=a%b;a=b;b=r;}return a;}
+ function fraction(n,d){var g=gcd(n,d);return {n:n/g,d:d/g};}
+ function numeric(text){var s=String(text).replace(/[\s\u00a0\u202f]/g,'').replace('−','-').replace(',','.');var point=s.indexOf('.');return point<0?fraction(Number(s),1):fraction(Number(s.replace('.','')),Math.pow(10,s.length-point-1));}
+ function atTick(view,index){var l=numeric(view.left),r=numeric(view.right),segments=view.marks.length-1;return fraction(l.n*r.d*segments+(r.n*l.d-l.n*r.d)*index,l.d*r.d*segments);}
+ function canonical(value){var sign=value.n<0?'-':'',n=Math.abs(value.n),text=sign+Math.floor(n/value.d),remainder=n%value.d;if(remainder)text+=',';for(var i=0;remainder && i<10;i++){remainder*=10;text+=Math.floor(remainder/value.d);remainder%=value.d;}verify(!remainder,'Finite decimal graduated line');return text;}
+ function indexFor(view,target){var l=numeric(view.left),r=numeric(view.right),t=numeric(target);var n=(t.n*l.d-l.n*t.d)*r.d*(view.marks.length-1),d=t.d*(r.n*l.d-l.n*r.d);compare(n%d,0,'Requested value is on a visible tick');return n/d;}

@@ -1,0 +1,1060 @@
+{
+  "graduated_line_read": [
+    {
+      "dataset": 1,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 6,
+        "fitLimits": true,
+        "range": [
+          1,
+          5
+        ],
+        "steps": [
+          1
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 2,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          1,
+          7
+        ],
+        "steps": [
+          1
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 2,
+      "within_dataset": 2,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": false,
+        "range": [
+          1,
+          7
+        ],
+        "steps": [
+          1
+        ],
+        "segments": [
+          4,
+          6
+        ]
+      }
+    },
+    {
+      "dataset": 3,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          1,
+          10
+        ],
+        "steps": [
+          1
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 3,
+      "within_dataset": 2,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": false,
+        "range": [
+          1,
+          10
+        ],
+        "steps": [
+          1
+        ],
+        "segments": [
+          5,
+          9
+        ]
+      }
+    },
+    {
+      "dataset": 4,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 8,
+        "fitLimits": true,
+        "range": [
+          0,
+          20
+        ],
+        "steps": [
+          1
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 4,
+      "within_dataset": 2,
+      "rules": {
+        "nbOfQuestions": 8,
+        "fitLimits": true,
+        "range": [
+          0,
+          20
+        ],
+        "steps": [
+          2
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 4,
+      "within_dataset": 3,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": false,
+        "range": [
+          0,
+          20
+        ],
+        "steps": [
+          1,
+          2,
+          4
+        ],
+        "segments": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "dataset": 5,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 5,
+        "fitLimits": true,
+        "range": [
+          0,
+          50
+        ],
+        "steps": [
+          10
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 5,
+      "within_dataset": 2,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          0,
+          50
+        ],
+        "steps": [
+          5
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 5,
+      "within_dataset": 3,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          0,
+          50
+        ],
+        "steps": [
+          5,
+          10
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 5,
+      "within_dataset": 4,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": false,
+        "range": [
+          0,
+          50
+        ],
+        "steps": [
+          2,
+          4
+        ],
+        "segments": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "dataset": 5,
+      "within_dataset": 5,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": false,
+        "range": [
+          0,
+          50
+        ],
+        "steps": [
+          10
+        ],
+        "segments": [
+          5,
+          15
+        ]
+      }
+    },
+    {
+      "dataset": 6,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          0,
+          100
+        ],
+        "steps": [
+          10
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 6,
+      "within_dataset": 2,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          0,
+          100
+        ],
+        "steps": [
+          5,
+          10
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 6,
+      "within_dataset": 3,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": false,
+        "range": [
+          0,
+          100
+        ],
+        "steps": [
+          10
+        ],
+        "segments": [
+          3,
+          10
+        ]
+      }
+    },
+    {
+      "dataset": 6,
+      "within_dataset": 4,
+      "rules": {
+        "nbOfQuestions": 15,
+        "fitLimits": false,
+        "range": [
+          0,
+          100
+        ],
+        "steps": [
+          10,
+          20
+        ],
+        "segments": [
+          2,
+          8
+        ]
+      }
+    },
+    {
+      "dataset": 7,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          0,
+          1000
+        ],
+        "steps": [
+          50,
+          100
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 7,
+      "within_dataset": 2,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": false,
+        "range": [
+          0,
+          1000
+        ],
+        "steps": [
+          50,
+          100
+        ],
+        "segments": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "dataset": 7,
+      "within_dataset": 3,
+      "rules": {
+        "nbOfQuestions": 15,
+        "fitLimits": false,
+        "range": [
+          0,
+          1000
+        ],
+        "steps": [
+          10,
+          100,
+          200
+        ],
+        "segments": [
+          4,
+          12
+        ]
+      }
+    },
+    {
+      "dataset": 8,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          0,
+          10000
+        ],
+        "steps": [
+          500,
+          1000
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 8,
+      "within_dataset": 2,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          0,
+          10000
+        ],
+        "steps": [
+          500,
+          1000,
+          2000
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 8,
+      "within_dataset": 3,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": false,
+        "range": [
+          0,
+          10000
+        ],
+        "steps": [
+          100,
+          1000
+        ],
+        "segments": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "dataset": 8,
+      "within_dataset": 4,
+      "rules": {
+        "nbOfQuestions": 15,
+        "fitLimits": false,
+        "range": [
+          0,
+          10000
+        ],
+        "steps": [
+          100,
+          1000,
+          2000
+        ],
+        "segments": [
+          4,
+          12
+        ]
+      }
+    },
+    {
+      "dataset": 9,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          0,
+          1000000
+        ],
+        "steps": [
+          50000,
+          100000
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 9,
+      "within_dataset": 2,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": false,
+        "range": [
+          0,
+          1000000
+        ],
+        "steps": [
+          10000,
+          100000
+        ],
+        "segments": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "dataset": 9,
+      "within_dataset": 3,
+      "rules": {
+        "nbOfQuestions": 15,
+        "fitLimits": false,
+        "range": [
+          0,
+          1000000
+        ],
+        "steps": [
+          10000,
+          100000
+        ],
+        "segments": [
+          4,
+          12
+        ]
+      }
+    },
+    {
+      "dataset": 10,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 5,
+        "fitLimits": true,
+        "range": [
+          0,
+          40
+        ],
+        "steps": [
+          1
+        ],
+        "segments": [],
+        "denominator": 10
+      }
+    },
+    {
+      "dataset": 10,
+      "within_dataset": 2,
+      "rules": {
+        "nbOfQuestions": 5,
+        "fitLimits": false,
+        "range": [
+          0,
+          40
+        ],
+        "steps": [
+          1
+        ],
+        "segments": [
+          10,
+          10
+        ],
+        "denominator": 10
+      }
+    }
+  ],
+  "graduated_line_use": [
+    {
+      "dataset": 1,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 6,
+        "fitLimits": true,
+        "range": [
+          1,
+          5
+        ],
+        "steps": [
+          1
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 2,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          1,
+          7
+        ],
+        "steps": [
+          1
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 2,
+      "within_dataset": 2,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": false,
+        "range": [
+          1,
+          7
+        ],
+        "steps": [
+          1
+        ],
+        "segments": [
+          4,
+          6
+        ]
+      }
+    },
+    {
+      "dataset": 3,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          1,
+          10
+        ],
+        "steps": [
+          1
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 3,
+      "within_dataset": 2,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": false,
+        "range": [
+          1,
+          10
+        ],
+        "steps": [
+          1
+        ],
+        "segments": [
+          5,
+          9
+        ]
+      }
+    },
+    {
+      "dataset": 4,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 8,
+        "fitLimits": true,
+        "range": [
+          0,
+          20
+        ],
+        "steps": [
+          1
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 4,
+      "within_dataset": 2,
+      "rules": {
+        "nbOfQuestions": 8,
+        "fitLimits": true,
+        "range": [
+          0,
+          20
+        ],
+        "steps": [
+          2
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 4,
+      "within_dataset": 3,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": false,
+        "range": [
+          0,
+          20
+        ],
+        "steps": [
+          1,
+          2,
+          4
+        ],
+        "segments": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "dataset": 5,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 5,
+        "fitLimits": true,
+        "range": [
+          0,
+          50
+        ],
+        "steps": [
+          10
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 5,
+      "within_dataset": 2,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          0,
+          50
+        ],
+        "steps": [
+          5
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 5,
+      "within_dataset": 3,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          0,
+          50
+        ],
+        "steps": [
+          5,
+          10
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 5,
+      "within_dataset": 4,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": false,
+        "range": [
+          0,
+          50
+        ],
+        "steps": [
+          2,
+          4
+        ],
+        "segments": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "dataset": 5,
+      "within_dataset": 5,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": false,
+        "range": [
+          0,
+          50
+        ],
+        "steps": [
+          10
+        ],
+        "segments": [
+          5,
+          15
+        ]
+      }
+    },
+    {
+      "dataset": 6,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          0,
+          100
+        ],
+        "steps": [
+          10
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 6,
+      "within_dataset": 2,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          0,
+          100
+        ],
+        "steps": [
+          5,
+          10
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 6,
+      "within_dataset": 3,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": false,
+        "range": [
+          0,
+          100
+        ],
+        "steps": [
+          10
+        ],
+        "segments": [
+          3,
+          10
+        ]
+      }
+    },
+    {
+      "dataset": 6,
+      "within_dataset": 4,
+      "rules": {
+        "nbOfQuestions": 15,
+        "fitLimits": false,
+        "range": [
+          0,
+          100
+        ],
+        "steps": [
+          10,
+          20
+        ],
+        "segments": [
+          2,
+          8
+        ]
+      }
+    },
+    {
+      "dataset": 7,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          0,
+          1000
+        ],
+        "steps": [
+          50,
+          100
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 7,
+      "within_dataset": 2,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": false,
+        "range": [
+          0,
+          1000
+        ],
+        "steps": [
+          50,
+          100
+        ],
+        "segments": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "dataset": 7,
+      "within_dataset": 3,
+      "rules": {
+        "nbOfQuestions": 15,
+        "fitLimits": false,
+        "range": [
+          0,
+          1000
+        ],
+        "steps": [
+          10,
+          100,
+          200
+        ],
+        "segments": [
+          4,
+          12
+        ]
+      }
+    },
+    {
+      "dataset": 8,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          0,
+          10000
+        ],
+        "steps": [
+          500,
+          1000
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 8,
+      "within_dataset": 2,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          0,
+          10000
+        ],
+        "steps": [
+          500,
+          1000,
+          2000
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 8,
+      "within_dataset": 3,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": false,
+        "range": [
+          0,
+          10000
+        ],
+        "steps": [
+          100,
+          1000
+        ],
+        "segments": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "dataset": 8,
+      "within_dataset": 4,
+      "rules": {
+        "nbOfQuestions": 15,
+        "fitLimits": false,
+        "range": [
+          0,
+          10000
+        ],
+        "steps": [
+          100,
+          1000,
+          2000
+        ],
+        "segments": [
+          4,
+          12
+        ]
+      }
+    },
+    {
+      "dataset": 9,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": true,
+        "range": [
+          0,
+          1000000
+        ],
+        "steps": [
+          50000,
+          100000
+        ],
+        "segments": []
+      }
+    },
+    {
+      "dataset": 9,
+      "within_dataset": 2,
+      "rules": {
+        "nbOfQuestions": 10,
+        "fitLimits": false,
+        "range": [
+          0,
+          1000000
+        ],
+        "steps": [
+          10000,
+          100000
+        ],
+        "segments": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "dataset": 9,
+      "within_dataset": 3,
+      "rules": {
+        "nbOfQuestions": 15,
+        "fitLimits": false,
+        "range": [
+          0,
+          1000000
+        ],
+        "steps": [
+          10000,
+          100000
+        ],
+        "segments": [
+          4,
+          12
+        ]
+      }
+    },
+    {
+      "dataset": 10,
+      "within_dataset": 1,
+      "rules": {
+        "nbOfQuestions": 5,
+        "fitLimits": true,
+        "range": [
+          0,
+          40
+        ],
+        "steps": [
+          1
+        ],
+        "segments": [],
+        "denominator": 10
+      }
+    },
+    {
+      "dataset": 10,
+      "within_dataset": 2,
+      "rules": {
+        "nbOfQuestions": 5,
+        "fitLimits": false,
+        "range": [
+          0,
+          40
+        ],
+        "steps": [
+          1
+        ],
+        "segments": [
+          10,
+          10
+        ],
+        "denominator": 10
+      }
+    }
+  ]
+}
