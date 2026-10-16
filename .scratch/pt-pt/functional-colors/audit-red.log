@@ -1,0 +1,23 @@
+test_audit (unittest.loader._FailedTest.test_audit) ... ERROR
+test_quantized_displayed_channels_recover_discrete_controls (test_oracle.VisibleMixing.test_quantized_displayed_channels_recover_discrete_controls) ... ok
+test_red_light_uses_only_red_and_cyan_paint_uses_only_cyan (test_oracle.VisibleMixing.test_red_light_uses_only_red_and_cyan_paint_uses_only_cyan) ... ok
+
+======================================================================
+ERROR: test_audit (unittest.loader._FailedTest.test_audit)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_audit
+Traceback (most recent call last):
+  File "/usr/lib/python3.14/unittest/loader.py", line 426, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/lib/python3.14/unittest/loader.py", line 367, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-colors/tests/functional_colors/test_audit.py", line 3, in <module>
+    from audit import validate_mix, validate_name
+ModuleNotFoundError: No module named 'audit'
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+FAILED (errors=1)

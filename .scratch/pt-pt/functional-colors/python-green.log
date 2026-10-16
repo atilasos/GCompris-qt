@@ -1,0 +1,10 @@
+test_color_name_cannot_be_matched_to_a_different_image (test_audit.RecordedColorEvidence.test_color_name_cannot_be_matched_to_a_different_image) ... ok
+test_recorded_steps_must_match_the_displayed_color (test_audit.RecordedColorEvidence.test_recorded_steps_must_match_the_displayed_color) ... ok
+test_incompatible_options_reject_before_snapshot_or_output (test_cli.ColorsCLI.test_incompatible_options_reject_before_snapshot_or_output) ... ok
+test_quantized_displayed_channels_recover_discrete_controls (test_oracle.VisibleMixing.test_quantized_displayed_channels_recover_discrete_controls) ... ok
+test_red_light_uses_only_red_and_cyan_paint_uses_only_cyan (test_oracle.VisibleMixing.test_red_light_uses_only_red_and_cyan_paint_uses_only_cyan) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.103s
+
+OK

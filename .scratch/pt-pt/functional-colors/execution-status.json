@@ -1,0 +1,12 @@
+{
+  "advanced_complete": {
+    "native_exit_code": 0,
+    "native_passed": true,
+    "completed": 160,
+    "wins": 20,
+    "cleanup_verified": true,
+    "exec_session_exit_code": 143,
+    "note": "The exec session returned 143 when collected, after a complete successful native receipt and its final JSON had been written. Cause not established. No native launcher remained alive."
+  },
+  "other_final_exec_sessions_exit_code": 0
+}
