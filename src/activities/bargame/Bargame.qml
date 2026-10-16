@@ -67,6 +67,7 @@ ActivityBase {
         }
 
         onStart: {
+            activity.numberOfLevel = items.numberOfLevel;
             Activity.start(items, activity.gameMode);
             Activity.calculateWinPlaces();
         }

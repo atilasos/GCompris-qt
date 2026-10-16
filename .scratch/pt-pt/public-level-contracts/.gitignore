@@ -1,0 +1,6 @@
+# Private independent runtime and pre-seal development evidence.
+/runtime-snapshot/
+/sources/
+/runs/
+/exports/
+/cases/

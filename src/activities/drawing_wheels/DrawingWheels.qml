@@ -108,7 +108,8 @@ ActivityBase {
             readonly property real devicePixelRatio: Screen.devicePixelRatio
         }
 
-        onStart: { Activity.start(items) }
+        onStart: {
+            activity.numberOfLevel = items.numberOfLevel; Activity.start(items) }
         onStop: { Activity.stop() }
 
         File { id: file }

@@ -1,0 +1,2695 @@
+{
+  "effective": {
+    "guess24-01": {
+      "rcc_sha256": "fcd717db066fe5e10cd5f513e280c8b6fba3441ed20436e09b0cada260a2983c",
+      "files": [
+        {
+          "bytes": 87218,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/Guess24-solutions.csv",
+          "sha256": "71305f74f033f75f917813e37cdedcb1d1c9784788c69ff7db940892a67b681b"
+        },
+        {
+          "bytes": 4771,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/README.md",
+          "sha256": "b0c246297de918802716fe2d5609ab1271adf48e0d69e112fb3b577ac87fda31"
+        },
+        {
+          "bytes": 48459,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/Guess24-difficulty.csv",
+          "sha256": "4e8eddec8d69111380d6c3bc2c0b5e1c2def9aabd0078d01daf9cf3928324e9a"
+        },
+        {
+          "bytes": 5492,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/build-datas.php",
+          "sha256": "044ce998d4e9696ad0471adabb850d4a07ebd8092825e5fd3c073142265890f7"
+        },
+        {
+          "bytes": 1422,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/ActivityInfo.qml",
+          "sha256": "53e92ba754109a0062fec0b73d25f3ad432449123a7a49fcc2837b9c7966efb1"
+        },
+        {
+          "bytes": 5843,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/guess24.svg",
+          "sha256": "f88c77e2c6c576183a1fde85168c81dc42e395d0a95cd5daf11c344f7e9bc0e5"
+        },
+        {
+          "bytes": 31047,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/Guess24.qml",
+          "sha256": "789850bc38c9cc51e1e4dbf19d36d196e75ce6c760e3c3748437064d4af7b0b3"
+        },
+        {
+          "bytes": 14847,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/guess24.js",
+          "sha256": "f59fb3a3e146cd2a84a29bc56dcb764a51fd1dabd8c80bdc662133ad08917f12"
+        },
+        {
+          "bytes": 416,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/1/Data.qml",
+          "sha256": "c8d9e131261414d03df81a509553f82b7c82b47a9a69363cae17e35d2e136c42"
+        },
+        {
+          "bytes": 423,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/2/Data.qml",
+          "sha256": "c60e84ccd31136bb50695fb007a44883682bb9effa7a1d31dc9b82d903a58651"
+        },
+        {
+          "bytes": 418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/3/Data.qml",
+          "sha256": "e706bcd7aaf17c01d939b810d28b343092519179948324c2b7adfa577025b69a"
+        },
+        {
+          "bytes": 425,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/4/Data.qml",
+          "sha256": "82bd52f5c5ad019cbc1ef1c9a154f64f179aa36ed7e1b0d00022027a88855f0d"
+        },
+        {
+          "bytes": 412,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/5/Data.qml",
+          "sha256": "f37ed94ec7de2854ab4f2c51d24d1f8bfc5afa5e8bbcefe973253f1668e3b051"
+        },
+        {
+          "bytes": 417,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/6/Data.qml",
+          "sha256": "a0fcb21156ae0faa1f9f4c39c9d861f4104abe32875881ae0a2534f5c1aab1d2"
+        },
+        {
+          "bytes": 205622,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/guess24.json",
+          "sha256": "1e4d3758272c2d0a3448088ca8ff74527d864530bfb9fb691ae22b8da563b1fe"
+        },
+        {
+          "bytes": 391,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/CMakeLists.txt",
+          "sha256": "48aba3cadca0fb65707dfbe44614f0d33eab19a2101f89770b951cefad749f9a"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/guess24-01",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/ad68de3f69b88b326afa69eeda1bad7c3a1aeafb"
+    },
+    "guess24-02": {
+      "rcc_sha256": "ae3b6c573fd15297eebdefc0bdc4ac64222c52937d6b9ec0eb2de8f2061c892b",
+      "files": [
+        {
+          "bytes": 87218,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/Guess24-solutions.csv",
+          "sha256": "71305f74f033f75f917813e37cdedcb1d1c9784788c69ff7db940892a67b681b"
+        },
+        {
+          "bytes": 4771,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/README.md",
+          "sha256": "b0c246297de918802716fe2d5609ab1271adf48e0d69e112fb3b577ac87fda31"
+        },
+        {
+          "bytes": 48459,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/Guess24-difficulty.csv",
+          "sha256": "4e8eddec8d69111380d6c3bc2c0b5e1c2def9aabd0078d01daf9cf3928324e9a"
+        },
+        {
+          "bytes": 5492,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/build-datas.php",
+          "sha256": "044ce998d4e9696ad0471adabb850d4a07ebd8092825e5fd3c073142265890f7"
+        },
+        {
+          "bytes": 1422,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/ActivityInfo.qml",
+          "sha256": "53e92ba754109a0062fec0b73d25f3ad432449123a7a49fcc2837b9c7966efb1"
+        },
+        {
+          "bytes": 5843,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/guess24.svg",
+          "sha256": "f88c77e2c6c576183a1fde85168c81dc42e395d0a95cd5daf11c344f7e9bc0e5"
+        },
+        {
+          "bytes": 31047,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/Guess24.qml",
+          "sha256": "30905b4abbe18ef64a362caf7cd351ac65119695639cc75df9206262501476e4"
+        },
+        {
+          "bytes": 14847,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/guess24.js",
+          "sha256": "f59fb3a3e146cd2a84a29bc56dcb764a51fd1dabd8c80bdc662133ad08917f12"
+        },
+        {
+          "bytes": 416,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/1/Data.qml",
+          "sha256": "c8d9e131261414d03df81a509553f82b7c82b47a9a69363cae17e35d2e136c42"
+        },
+        {
+          "bytes": 423,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/2/Data.qml",
+          "sha256": "c60e84ccd31136bb50695fb007a44883682bb9effa7a1d31dc9b82d903a58651"
+        },
+        {
+          "bytes": 418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/3/Data.qml",
+          "sha256": "e706bcd7aaf17c01d939b810d28b343092519179948324c2b7adfa577025b69a"
+        },
+        {
+          "bytes": 425,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/4/Data.qml",
+          "sha256": "82bd52f5c5ad019cbc1ef1c9a154f64f179aa36ed7e1b0d00022027a88855f0d"
+        },
+        {
+          "bytes": 412,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/5/Data.qml",
+          "sha256": "f37ed94ec7de2854ab4f2c51d24d1f8bfc5afa5e8bbcefe973253f1668e3b051"
+        },
+        {
+          "bytes": 417,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/6/Data.qml",
+          "sha256": "a0fcb21156ae0faa1f9f4c39c9d861f4104abe32875881ae0a2534f5c1aab1d2"
+        },
+        {
+          "bytes": 205622,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/guess24.json",
+          "sha256": "1e4d3758272c2d0a3448088ca8ff74527d864530bfb9fb691ae22b8da563b1fe"
+        },
+        {
+          "bytes": 391,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/CMakeLists.txt",
+          "sha256": "48aba3cadca0fb65707dfbe44614f0d33eab19a2101f89770b951cefad749f9a"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/guess24-02",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/ad68de3f69b88b326afa69eeda1bad7c3a1aeafb"
+    },
+    "guess24-03": {
+      "rcc_sha256": "8af3bf61de1541426b8fad3b5f5f1cf3c14ceee7727649273932f6b2f73610e0",
+      "files": [
+        {
+          "bytes": 87218,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/Guess24-solutions.csv",
+          "sha256": "71305f74f033f75f917813e37cdedcb1d1c9784788c69ff7db940892a67b681b"
+        },
+        {
+          "bytes": 4771,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/README.md",
+          "sha256": "b0c246297de918802716fe2d5609ab1271adf48e0d69e112fb3b577ac87fda31"
+        },
+        {
+          "bytes": 48459,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/Guess24-difficulty.csv",
+          "sha256": "4e8eddec8d69111380d6c3bc2c0b5e1c2def9aabd0078d01daf9cf3928324e9a"
+        },
+        {
+          "bytes": 5492,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/build-datas.php",
+          "sha256": "044ce998d4e9696ad0471adabb850d4a07ebd8092825e5fd3c073142265890f7"
+        },
+        {
+          "bytes": 1422,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/ActivityInfo.qml",
+          "sha256": "53e92ba754109a0062fec0b73d25f3ad432449123a7a49fcc2837b9c7966efb1"
+        },
+        {
+          "bytes": 5843,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/guess24.svg",
+          "sha256": "f88c77e2c6c576183a1fde85168c81dc42e395d0a95cd5daf11c344f7e9bc0e5"
+        },
+        {
+          "bytes": 31047,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/Guess24.qml",
+          "sha256": "767ca6cfa35e6d429277abc6428bdfac7419f4ae28a98aec36111187e2f5f4c7"
+        },
+        {
+          "bytes": 14847,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/guess24.js",
+          "sha256": "f59fb3a3e146cd2a84a29bc56dcb764a51fd1dabd8c80bdc662133ad08917f12"
+        },
+        {
+          "bytes": 416,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/1/Data.qml",
+          "sha256": "c8d9e131261414d03df81a509553f82b7c82b47a9a69363cae17e35d2e136c42"
+        },
+        {
+          "bytes": 423,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/2/Data.qml",
+          "sha256": "c60e84ccd31136bb50695fb007a44883682bb9effa7a1d31dc9b82d903a58651"
+        },
+        {
+          "bytes": 418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/3/Data.qml",
+          "sha256": "e706bcd7aaf17c01d939b810d28b343092519179948324c2b7adfa577025b69a"
+        },
+        {
+          "bytes": 425,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/4/Data.qml",
+          "sha256": "82bd52f5c5ad019cbc1ef1c9a154f64f179aa36ed7e1b0d00022027a88855f0d"
+        },
+        {
+          "bytes": 412,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/5/Data.qml",
+          "sha256": "f37ed94ec7de2854ab4f2c51d24d1f8bfc5afa5e8bbcefe973253f1668e3b051"
+        },
+        {
+          "bytes": 417,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/6/Data.qml",
+          "sha256": "a0fcb21156ae0faa1f9f4c39c9d861f4104abe32875881ae0a2534f5c1aab1d2"
+        },
+        {
+          "bytes": 205622,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/guess24.json",
+          "sha256": "1e4d3758272c2d0a3448088ca8ff74527d864530bfb9fb691ae22b8da563b1fe"
+        },
+        {
+          "bytes": 391,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/CMakeLists.txt",
+          "sha256": "48aba3cadca0fb65707dfbe44614f0d33eab19a2101f89770b951cefad749f9a"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/guess24-03",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/ad68de3f69b88b326afa69eeda1bad7c3a1aeafb"
+    },
+    "guess24-04": {
+      "rcc_sha256": "4657c6d79319a3b802e824f5cf808f8854d18e3dce4b048495ac0ae53d72530f",
+      "files": [
+        {
+          "bytes": 87218,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/Guess24-solutions.csv",
+          "sha256": "71305f74f033f75f917813e37cdedcb1d1c9784788c69ff7db940892a67b681b"
+        },
+        {
+          "bytes": 4771,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/README.md",
+          "sha256": "b0c246297de918802716fe2d5609ab1271adf48e0d69e112fb3b577ac87fda31"
+        },
+        {
+          "bytes": 48459,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/Guess24-difficulty.csv",
+          "sha256": "4e8eddec8d69111380d6c3bc2c0b5e1c2def9aabd0078d01daf9cf3928324e9a"
+        },
+        {
+          "bytes": 5492,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/build-datas.php",
+          "sha256": "044ce998d4e9696ad0471adabb850d4a07ebd8092825e5fd3c073142265890f7"
+        },
+        {
+          "bytes": 1422,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/ActivityInfo.qml",
+          "sha256": "53e92ba754109a0062fec0b73d25f3ad432449123a7a49fcc2837b9c7966efb1"
+        },
+        {
+          "bytes": 5843,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/guess24.svg",
+          "sha256": "f88c77e2c6c576183a1fde85168c81dc42e395d0a95cd5daf11c344f7e9bc0e5"
+        },
+        {
+          "bytes": 31047,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/Guess24.qml",
+          "sha256": "1481e2a78c0a6bdf074b845ff11ec55874ee6205690d4c4c9cf0b101992be9d7"
+        },
+        {
+          "bytes": 14847,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/guess24.js",
+          "sha256": "f59fb3a3e146cd2a84a29bc56dcb764a51fd1dabd8c80bdc662133ad08917f12"
+        },
+        {
+          "bytes": 416,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/1/Data.qml",
+          "sha256": "c8d9e131261414d03df81a509553f82b7c82b47a9a69363cae17e35d2e136c42"
+        },
+        {
+          "bytes": 423,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/2/Data.qml",
+          "sha256": "c60e84ccd31136bb50695fb007a44883682bb9effa7a1d31dc9b82d903a58651"
+        },
+        {
+          "bytes": 418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/3/Data.qml",
+          "sha256": "e706bcd7aaf17c01d939b810d28b343092519179948324c2b7adfa577025b69a"
+        },
+        {
+          "bytes": 425,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/4/Data.qml",
+          "sha256": "82bd52f5c5ad019cbc1ef1c9a154f64f179aa36ed7e1b0d00022027a88855f0d"
+        },
+        {
+          "bytes": 412,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/5/Data.qml",
+          "sha256": "f37ed94ec7de2854ab4f2c51d24d1f8bfc5afa5e8bbcefe973253f1668e3b051"
+        },
+        {
+          "bytes": 417,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/6/Data.qml",
+          "sha256": "a0fcb21156ae0faa1f9f4c39c9d861f4104abe32875881ae0a2534f5c1aab1d2"
+        },
+        {
+          "bytes": 205622,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/guess24.json",
+          "sha256": "1e4d3758272c2d0a3448088ca8ff74527d864530bfb9fb691ae22b8da563b1fe"
+        },
+        {
+          "bytes": 391,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/CMakeLists.txt",
+          "sha256": "48aba3cadca0fb65707dfbe44614f0d33eab19a2101f89770b951cefad749f9a"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/guess24-04",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/ad68de3f69b88b326afa69eeda1bad7c3a1aeafb"
+    },
+    "guess24-05": {
+      "rcc_sha256": "78df01c9789af839d874e5767c6668e67568dd21d835c0c0789a8f20bfb98b79",
+      "files": [
+        {
+          "bytes": 87218,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/Guess24-solutions.csv",
+          "sha256": "71305f74f033f75f917813e37cdedcb1d1c9784788c69ff7db940892a67b681b"
+        },
+        {
+          "bytes": 4771,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/README.md",
+          "sha256": "b0c246297de918802716fe2d5609ab1271adf48e0d69e112fb3b577ac87fda31"
+        },
+        {
+          "bytes": 48459,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/Guess24-difficulty.csv",
+          "sha256": "4e8eddec8d69111380d6c3bc2c0b5e1c2def9aabd0078d01daf9cf3928324e9a"
+        },
+        {
+          "bytes": 5492,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/build-datas.php",
+          "sha256": "044ce998d4e9696ad0471adabb850d4a07ebd8092825e5fd3c073142265890f7"
+        },
+        {
+          "bytes": 1422,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/ActivityInfo.qml",
+          "sha256": "53e92ba754109a0062fec0b73d25f3ad432449123a7a49fcc2837b9c7966efb1"
+        },
+        {
+          "bytes": 5843,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/guess24.svg",
+          "sha256": "f88c77e2c6c576183a1fde85168c81dc42e395d0a95cd5daf11c344f7e9bc0e5"
+        },
+        {
+          "bytes": 31047,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/Guess24.qml",
+          "sha256": "df3d786014ee3a9d5932ceba63f61d3a1508305265f245fc11ba65089149a265"
+        },
+        {
+          "bytes": 14847,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/guess24.js",
+          "sha256": "f59fb3a3e146cd2a84a29bc56dcb764a51fd1dabd8c80bdc662133ad08917f12"
+        },
+        {
+          "bytes": 416,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/1/Data.qml",
+          "sha256": "c8d9e131261414d03df81a509553f82b7c82b47a9a69363cae17e35d2e136c42"
+        },
+        {
+          "bytes": 423,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/2/Data.qml",
+          "sha256": "c60e84ccd31136bb50695fb007a44883682bb9effa7a1d31dc9b82d903a58651"
+        },
+        {
+          "bytes": 418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/3/Data.qml",
+          "sha256": "e706bcd7aaf17c01d939b810d28b343092519179948324c2b7adfa577025b69a"
+        },
+        {
+          "bytes": 425,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/4/Data.qml",
+          "sha256": "82bd52f5c5ad019cbc1ef1c9a154f64f179aa36ed7e1b0d00022027a88855f0d"
+        },
+        {
+          "bytes": 412,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/5/Data.qml",
+          "sha256": "f37ed94ec7de2854ab4f2c51d24d1f8bfc5afa5e8bbcefe973253f1668e3b051"
+        },
+        {
+          "bytes": 417,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/6/Data.qml",
+          "sha256": "a0fcb21156ae0faa1f9f4c39c9d861f4104abe32875881ae0a2534f5c1aab1d2"
+        },
+        {
+          "bytes": 205622,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/guess24.json",
+          "sha256": "1e4d3758272c2d0a3448088ca8ff74527d864530bfb9fb691ae22b8da563b1fe"
+        },
+        {
+          "bytes": 391,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/CMakeLists.txt",
+          "sha256": "48aba3cadca0fb65707dfbe44614f0d33eab19a2101f89770b951cefad749f9a"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/guess24-05",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/ad68de3f69b88b326afa69eeda1bad7c3a1aeafb"
+    },
+    "guess24-06": {
+      "rcc_sha256": "70beaecc18154593a2cfca434b8046844c2a677aee28bc351a4efc2b3f4172a8",
+      "files": [
+        {
+          "bytes": 87218,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/Guess24-solutions.csv",
+          "sha256": "71305f74f033f75f917813e37cdedcb1d1c9784788c69ff7db940892a67b681b"
+        },
+        {
+          "bytes": 4771,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/README.md",
+          "sha256": "b0c246297de918802716fe2d5609ab1271adf48e0d69e112fb3b577ac87fda31"
+        },
+        {
+          "bytes": 48459,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/Guess24-difficulty.csv",
+          "sha256": "4e8eddec8d69111380d6c3bc2c0b5e1c2def9aabd0078d01daf9cf3928324e9a"
+        },
+        {
+          "bytes": 5492,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/build-datas.php",
+          "sha256": "044ce998d4e9696ad0471adabb850d4a07ebd8092825e5fd3c073142265890f7"
+        },
+        {
+          "bytes": 1422,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/ActivityInfo.qml",
+          "sha256": "53e92ba754109a0062fec0b73d25f3ad432449123a7a49fcc2837b9c7966efb1"
+        },
+        {
+          "bytes": 5843,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/guess24.svg",
+          "sha256": "f88c77e2c6c576183a1fde85168c81dc42e395d0a95cd5daf11c344f7e9bc0e5"
+        },
+        {
+          "bytes": 31047,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/Guess24.qml",
+          "sha256": "d6bb6fd2809e7798a8bd7fa71d17d2ba2b6eae28e5cfcc135b001feccf0695c4"
+        },
+        {
+          "bytes": 14847,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/guess24.js",
+          "sha256": "f59fb3a3e146cd2a84a29bc56dcb764a51fd1dabd8c80bdc662133ad08917f12"
+        },
+        {
+          "bytes": 416,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/1/Data.qml",
+          "sha256": "c8d9e131261414d03df81a509553f82b7c82b47a9a69363cae17e35d2e136c42"
+        },
+        {
+          "bytes": 423,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/2/Data.qml",
+          "sha256": "c60e84ccd31136bb50695fb007a44883682bb9effa7a1d31dc9b82d903a58651"
+        },
+        {
+          "bytes": 418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/3/Data.qml",
+          "sha256": "e706bcd7aaf17c01d939b810d28b343092519179948324c2b7adfa577025b69a"
+        },
+        {
+          "bytes": 425,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/4/Data.qml",
+          "sha256": "82bd52f5c5ad019cbc1ef1c9a154f64f179aa36ed7e1b0d00022027a88855f0d"
+        },
+        {
+          "bytes": 412,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/5/Data.qml",
+          "sha256": "f37ed94ec7de2854ab4f2c51d24d1f8bfc5afa5e8bbcefe973253f1668e3b051"
+        },
+        {
+          "bytes": 417,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/6/Data.qml",
+          "sha256": "a0fcb21156ae0faa1f9f4c39c9d861f4104abe32875881ae0a2534f5c1aab1d2"
+        },
+        {
+          "bytes": 205622,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/guess24.json",
+          "sha256": "1e4d3758272c2d0a3448088ca8ff74527d864530bfb9fb691ae22b8da563b1fe"
+        },
+        {
+          "bytes": 391,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/CMakeLists.txt",
+          "sha256": "48aba3cadca0fb65707dfbe44614f0d33eab19a2101f89770b951cefad749f9a"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/guess24-06",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/ad68de3f69b88b326afa69eeda1bad7c3a1aeafb"
+    },
+    "count-01": {
+      "rcc_sha256": "54af7312c6e359825e9c6a59a238187c8103fa8a8c878ac48e1b0ac3dd877fbb",
+      "files": [
+        {
+          "bytes": 2609,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Tile.qml",
+          "sha256": "e8181d3f3773646a2711c29536509b76eec2c298f00b8837043ed1a78a2f71fe"
+        },
+        {
+          "bytes": 1369,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperatorRow.qml",
+          "sha256": "4d9613489b1d5a85985b60b591d3b5d1895476f86fb4804b6d7f35a5e9931652"
+        },
+        {
+          "bytes": 3487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Admin.qml",
+          "sha256": "2bb8703a495fdfeb3abd7704c7c82d990450e67e57fec763a1d5476bd09e0ae7"
+        },
+        {
+          "bytes": 1360,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperandRow.qml",
+          "sha256": "aff8132c007cebc107c35690576b527b86648f1e3ec7b127806a843895292708"
+        },
+        {
+          "bytes": 1117,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityInfo.qml",
+          "sha256": "e3a11120ee2bd37314790f5d900acba9031ed2d25c2eafa97640a96ba0318990"
+        },
+        {
+          "bytes": 5743,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperationRow.qml",
+          "sha256": "d16846cc3b4efd3907a33c6f526389a059d5399e8f5353a4e0283f26508e0779"
+        },
+        {
+          "bytes": 2836,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/dataset.js",
+          "sha256": "b81588561bb284b25a5aac2efb627ab00111892de7bf0d65ff9971b7c6ecc97f"
+        },
+        {
+          "bytes": 1067,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DropTile.qml",
+          "sha256": "66876df50cf44eb79c5f9a713f24973a634fdab539b3f371e896df4dc3dc17b6"
+        },
+        {
+          "bytes": 955,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DragTile.qml",
+          "sha256": "16c69a12994b1f188e0bd21752db2e6405f8963e6943d6545ffb82bc7a4b2ecb"
+        },
+        {
+          "bytes": 6841,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.js",
+          "sha256": "03cc028b7346223bf45d25f7fc40cf611b422b891dede38a418d78447a8e11d8"
+        },
+        {
+          "bytes": 4031,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityConfig.qml",
+          "sha256": "47df9ac3f7a915150378218ac9edd378a653cfdbae3b6c48cbecf3d2bbf5d236"
+        },
+        {
+          "bytes": 1384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/1/Data.qml",
+          "sha256": "48d04603bc4fa4f639cfdd001ea20500ad00fae0daef8a97a60feb7fbf1ff060"
+        },
+        {
+          "bytes": 1351,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/2/Data.qml",
+          "sha256": "615be232bf606d43400efdc3a54e530fbbf679114623f759c00606dfd7de1b11"
+        },
+        {
+          "bytes": 974,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/3/Data.qml",
+          "sha256": "aa59fd744f9fe038b3660b6af76489e2515fcd640328cfc2b079b5e0b3f23f9f"
+        },
+        {
+          "bytes": 923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/4/Data.qml",
+          "sha256": "e9b245d90411aa1e3a8c924512eec872747feadc4c828da5eee1cca178f78149"
+        },
+        {
+          "bytes": 28520,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW02.svg",
+          "sha256": "019473de6b74fcd9d1c0efc5efea71dc72988d1986e1a0494c4feec5c2ea3d70"
+        },
+        {
+          "bytes": 28203,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW01.svg",
+          "sha256": "c44652c1a1e602ab34ca848d9124eeee551f3722aa5f62e2fa825c4bc969df69"
+        },
+        {
+          "bytes": 404,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/CMakeLists.txt",
+          "sha256": "fa39a66803f2617e6aa0a503bfac7603704acc846f2b4b5b7ba80380e231329d"
+        },
+        {
+          "bytes": 21952,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Guesscount.qml",
+          "sha256": "ec0f5d4b44eda8bee318dac76f74e846eb8b2bd8384c8fba5f1543853155edd6"
+        },
+        {
+          "bytes": 22150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.svg",
+          "sha256": "3a57e397231bce2194c2b811a8d0e7b09db22f3c80fb8d533c99fbbf32039411"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/count-01",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/3ae1c80fb49fd373956a7d5e3294274d90d7f34b"
+    },
+    "count-05": {
+      "rcc_sha256": "44e954874535161f77bd14142a37540fa65aba90a7e0a19b175deda6ff6f5a3d",
+      "files": [
+        {
+          "bytes": 2609,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Tile.qml",
+          "sha256": "e8181d3f3773646a2711c29536509b76eec2c298f00b8837043ed1a78a2f71fe"
+        },
+        {
+          "bytes": 1369,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperatorRow.qml",
+          "sha256": "4d9613489b1d5a85985b60b591d3b5d1895476f86fb4804b6d7f35a5e9931652"
+        },
+        {
+          "bytes": 3487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Admin.qml",
+          "sha256": "2bb8703a495fdfeb3abd7704c7c82d990450e67e57fec763a1d5476bd09e0ae7"
+        },
+        {
+          "bytes": 1360,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperandRow.qml",
+          "sha256": "aff8132c007cebc107c35690576b527b86648f1e3ec7b127806a843895292708"
+        },
+        {
+          "bytes": 1117,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityInfo.qml",
+          "sha256": "e3a11120ee2bd37314790f5d900acba9031ed2d25c2eafa97640a96ba0318990"
+        },
+        {
+          "bytes": 5743,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperationRow.qml",
+          "sha256": "d16846cc3b4efd3907a33c6f526389a059d5399e8f5353a4e0283f26508e0779"
+        },
+        {
+          "bytes": 2836,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/dataset.js",
+          "sha256": "b81588561bb284b25a5aac2efb627ab00111892de7bf0d65ff9971b7c6ecc97f"
+        },
+        {
+          "bytes": 1067,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DropTile.qml",
+          "sha256": "66876df50cf44eb79c5f9a713f24973a634fdab539b3f371e896df4dc3dc17b6"
+        },
+        {
+          "bytes": 955,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DragTile.qml",
+          "sha256": "16c69a12994b1f188e0bd21752db2e6405f8963e6943d6545ffb82bc7a4b2ecb"
+        },
+        {
+          "bytes": 6841,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.js",
+          "sha256": "03cc028b7346223bf45d25f7fc40cf611b422b891dede38a418d78447a8e11d8"
+        },
+        {
+          "bytes": 4031,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityConfig.qml",
+          "sha256": "47df9ac3f7a915150378218ac9edd378a653cfdbae3b6c48cbecf3d2bbf5d236"
+        },
+        {
+          "bytes": 1384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/1/Data.qml",
+          "sha256": "48d04603bc4fa4f639cfdd001ea20500ad00fae0daef8a97a60feb7fbf1ff060"
+        },
+        {
+          "bytes": 1351,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/2/Data.qml",
+          "sha256": "615be232bf606d43400efdc3a54e530fbbf679114623f759c00606dfd7de1b11"
+        },
+        {
+          "bytes": 974,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/3/Data.qml",
+          "sha256": "aa59fd744f9fe038b3660b6af76489e2515fcd640328cfc2b079b5e0b3f23f9f"
+        },
+        {
+          "bytes": 923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/4/Data.qml",
+          "sha256": "e9b245d90411aa1e3a8c924512eec872747feadc4c828da5eee1cca178f78149"
+        },
+        {
+          "bytes": 28520,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW02.svg",
+          "sha256": "019473de6b74fcd9d1c0efc5efea71dc72988d1986e1a0494c4feec5c2ea3d70"
+        },
+        {
+          "bytes": 28203,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW01.svg",
+          "sha256": "c44652c1a1e602ab34ca848d9124eeee551f3722aa5f62e2fa825c4bc969df69"
+        },
+        {
+          "bytes": 404,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/CMakeLists.txt",
+          "sha256": "fa39a66803f2617e6aa0a503bfac7603704acc846f2b4b5b7ba80380e231329d"
+        },
+        {
+          "bytes": 21958,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Guesscount.qml",
+          "sha256": "f094185ad4fec499a36d1c51140020c578db861908f3061bd0d8f9dc8bc93489"
+        },
+        {
+          "bytes": 22150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.svg",
+          "sha256": "3a57e397231bce2194c2b811a8d0e7b09db22f3c80fb8d533c99fbbf32039411"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/count-05",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/3ae1c80fb49fd373956a7d5e3294274d90d7f34b"
+    },
+    "count-15": {
+      "rcc_sha256": "553654ed36122730cf83951ad582f29430d7a7cbd28a404f12d478a8cc1981c5",
+      "files": [
+        {
+          "bytes": 2609,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Tile.qml",
+          "sha256": "e8181d3f3773646a2711c29536509b76eec2c298f00b8837043ed1a78a2f71fe"
+        },
+        {
+          "bytes": 1369,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperatorRow.qml",
+          "sha256": "4d9613489b1d5a85985b60b591d3b5d1895476f86fb4804b6d7f35a5e9931652"
+        },
+        {
+          "bytes": 3487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Admin.qml",
+          "sha256": "2bb8703a495fdfeb3abd7704c7c82d990450e67e57fec763a1d5476bd09e0ae7"
+        },
+        {
+          "bytes": 1360,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperandRow.qml",
+          "sha256": "aff8132c007cebc107c35690576b527b86648f1e3ec7b127806a843895292708"
+        },
+        {
+          "bytes": 1117,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityInfo.qml",
+          "sha256": "e3a11120ee2bd37314790f5d900acba9031ed2d25c2eafa97640a96ba0318990"
+        },
+        {
+          "bytes": 5743,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperationRow.qml",
+          "sha256": "d16846cc3b4efd3907a33c6f526389a059d5399e8f5353a4e0283f26508e0779"
+        },
+        {
+          "bytes": 2836,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/dataset.js",
+          "sha256": "b81588561bb284b25a5aac2efb627ab00111892de7bf0d65ff9971b7c6ecc97f"
+        },
+        {
+          "bytes": 1067,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DropTile.qml",
+          "sha256": "66876df50cf44eb79c5f9a713f24973a634fdab539b3f371e896df4dc3dc17b6"
+        },
+        {
+          "bytes": 955,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DragTile.qml",
+          "sha256": "16c69a12994b1f188e0bd21752db2e6405f8963e6943d6545ffb82bc7a4b2ecb"
+        },
+        {
+          "bytes": 6841,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.js",
+          "sha256": "03cc028b7346223bf45d25f7fc40cf611b422b891dede38a418d78447a8e11d8"
+        },
+        {
+          "bytes": 4031,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityConfig.qml",
+          "sha256": "47df9ac3f7a915150378218ac9edd378a653cfdbae3b6c48cbecf3d2bbf5d236"
+        },
+        {
+          "bytes": 1384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/1/Data.qml",
+          "sha256": "48d04603bc4fa4f639cfdd001ea20500ad00fae0daef8a97a60feb7fbf1ff060"
+        },
+        {
+          "bytes": 1351,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/2/Data.qml",
+          "sha256": "615be232bf606d43400efdc3a54e530fbbf679114623f759c00606dfd7de1b11"
+        },
+        {
+          "bytes": 974,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/3/Data.qml",
+          "sha256": "aa59fd744f9fe038b3660b6af76489e2515fcd640328cfc2b079b5e0b3f23f9f"
+        },
+        {
+          "bytes": 923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/4/Data.qml",
+          "sha256": "e9b245d90411aa1e3a8c924512eec872747feadc4c828da5eee1cca178f78149"
+        },
+        {
+          "bytes": 28520,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW02.svg",
+          "sha256": "019473de6b74fcd9d1c0efc5efea71dc72988d1986e1a0494c4feec5c2ea3d70"
+        },
+        {
+          "bytes": 28203,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW01.svg",
+          "sha256": "c44652c1a1e602ab34ca848d9124eeee551f3722aa5f62e2fa825c4bc969df69"
+        },
+        {
+          "bytes": 404,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/CMakeLists.txt",
+          "sha256": "fa39a66803f2617e6aa0a503bfac7603704acc846f2b4b5b7ba80380e231329d"
+        },
+        {
+          "bytes": 21952,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Guesscount.qml",
+          "sha256": "a1438d20fe0e4d38e627347fb4e71a43b9930a0e500649fc22630153f563ca01"
+        },
+        {
+          "bytes": 22150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.svg",
+          "sha256": "3a57e397231bce2194c2b811a8d0e7b09db22f3c80fb8d533c99fbbf32039411"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/count-15",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/3ae1c80fb49fd373956a7d5e3294274d90d7f34b"
+    },
+    "count-11-final": {
+      "rcc_sha256": "897e74903621f6333f5897242f582b6f55f1c5914c4ab52c72fca9c8a0a8b50c",
+      "files": [
+        {
+          "bytes": 2609,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Tile.qml",
+          "sha256": "e8181d3f3773646a2711c29536509b76eec2c298f00b8837043ed1a78a2f71fe"
+        },
+        {
+          "bytes": 1369,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperatorRow.qml",
+          "sha256": "4d9613489b1d5a85985b60b591d3b5d1895476f86fb4804b6d7f35a5e9931652"
+        },
+        {
+          "bytes": 3487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Admin.qml",
+          "sha256": "2bb8703a495fdfeb3abd7704c7c82d990450e67e57fec763a1d5476bd09e0ae7"
+        },
+        {
+          "bytes": 1360,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperandRow.qml",
+          "sha256": "aff8132c007cebc107c35690576b527b86648f1e3ec7b127806a843895292708"
+        },
+        {
+          "bytes": 1117,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityInfo.qml",
+          "sha256": "e3a11120ee2bd37314790f5d900acba9031ed2d25c2eafa97640a96ba0318990"
+        },
+        {
+          "bytes": 5743,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperationRow.qml",
+          "sha256": "d16846cc3b4efd3907a33c6f526389a059d5399e8f5353a4e0283f26508e0779"
+        },
+        {
+          "bytes": 2836,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/dataset.js",
+          "sha256": "1eebca52ba9802f3794df0eadb56b8782331faba6a0adc94502811a904a6f482"
+        },
+        {
+          "bytes": 1067,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DropTile.qml",
+          "sha256": "66876df50cf44eb79c5f9a713f24973a634fdab539b3f371e896df4dc3dc17b6"
+        },
+        {
+          "bytes": 955,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DragTile.qml",
+          "sha256": "16c69a12994b1f188e0bd21752db2e6405f8963e6943d6545ffb82bc7a4b2ecb"
+        },
+        {
+          "bytes": 6841,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.js",
+          "sha256": "03cc028b7346223bf45d25f7fc40cf611b422b891dede38a418d78447a8e11d8"
+        },
+        {
+          "bytes": 4031,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityConfig.qml",
+          "sha256": "47df9ac3f7a915150378218ac9edd378a653cfdbae3b6c48cbecf3d2bbf5d236"
+        },
+        {
+          "bytes": 1384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/1/Data.qml",
+          "sha256": "48d04603bc4fa4f639cfdd001ea20500ad00fae0daef8a97a60feb7fbf1ff060"
+        },
+        {
+          "bytes": 1351,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/2/Data.qml",
+          "sha256": "615be232bf606d43400efdc3a54e530fbbf679114623f759c00606dfd7de1b11"
+        },
+        {
+          "bytes": 974,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/3/Data.qml",
+          "sha256": "6d2d323c504a85afa3fc64df4ed9d9a7a9e5d7b5c60d5e02daea4afd060eb926"
+        },
+        {
+          "bytes": 923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/4/Data.qml",
+          "sha256": "e9b245d90411aa1e3a8c924512eec872747feadc4c828da5eee1cca178f78149"
+        },
+        {
+          "bytes": 28520,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW02.svg",
+          "sha256": "019473de6b74fcd9d1c0efc5efea71dc72988d1986e1a0494c4feec5c2ea3d70"
+        },
+        {
+          "bytes": 28203,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW01.svg",
+          "sha256": "c44652c1a1e602ab34ca848d9124eeee551f3722aa5f62e2fa825c4bc969df69"
+        },
+        {
+          "bytes": 404,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/CMakeLists.txt",
+          "sha256": "fa39a66803f2617e6aa0a503bfac7603704acc846f2b4b5b7ba80380e231329d"
+        },
+        {
+          "bytes": 21967,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Guesscount.qml",
+          "sha256": "25a7659a1f9a83536c4ba5a488f73e3f8525eb5f37b14a01774143da66601ba6"
+        },
+        {
+          "bytes": 22150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.svg",
+          "sha256": "3a57e397231bce2194c2b811a8d0e7b09db22f3c80fb8d533c99fbbf32039411"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/count-11-final",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/8f630b759cae374a7d12e888bf09446e62273dec"
+    },
+    "admin-01": {
+      "rcc_sha256": "599e1c2d37944b961d2867b12093a3ee077972aa95ba0c3bb4e21fccbd690bb0",
+      "files": [
+        {
+          "bytes": 2609,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Tile.qml",
+          "sha256": "e8181d3f3773646a2711c29536509b76eec2c298f00b8837043ed1a78a2f71fe"
+        },
+        {
+          "bytes": 1369,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperatorRow.qml",
+          "sha256": "4d9613489b1d5a85985b60b591d3b5d1895476f86fb4804b6d7f35a5e9931652"
+        },
+        {
+          "bytes": 3487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Admin.qml",
+          "sha256": "2bb8703a495fdfeb3abd7704c7c82d990450e67e57fec763a1d5476bd09e0ae7"
+        },
+        {
+          "bytes": 1360,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperandRow.qml",
+          "sha256": "aff8132c007cebc107c35690576b527b86648f1e3ec7b127806a843895292708"
+        },
+        {
+          "bytes": 1117,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityInfo.qml",
+          "sha256": "e3a11120ee2bd37314790f5d900acba9031ed2d25c2eafa97640a96ba0318990"
+        },
+        {
+          "bytes": 5743,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperationRow.qml",
+          "sha256": "d16846cc3b4efd3907a33c6f526389a059d5399e8f5353a4e0283f26508e0779"
+        },
+        {
+          "bytes": 2836,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/dataset.js",
+          "sha256": "b81588561bb284b25a5aac2efb627ab00111892de7bf0d65ff9971b7c6ecc97f"
+        },
+        {
+          "bytes": 1067,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DropTile.qml",
+          "sha256": "66876df50cf44eb79c5f9a713f24973a634fdab539b3f371e896df4dc3dc17b6"
+        },
+        {
+          "bytes": 955,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DragTile.qml",
+          "sha256": "16c69a12994b1f188e0bd21752db2e6405f8963e6943d6545ffb82bc7a4b2ecb"
+        },
+        {
+          "bytes": 6841,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.js",
+          "sha256": "03cc028b7346223bf45d25f7fc40cf611b422b891dede38a418d78447a8e11d8"
+        },
+        {
+          "bytes": 4031,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityConfig.qml",
+          "sha256": "47df9ac3f7a915150378218ac9edd378a653cfdbae3b6c48cbecf3d2bbf5d236"
+        },
+        {
+          "bytes": 1384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/1/Data.qml",
+          "sha256": "48d04603bc4fa4f639cfdd001ea20500ad00fae0daef8a97a60feb7fbf1ff060"
+        },
+        {
+          "bytes": 1351,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/2/Data.qml",
+          "sha256": "615be232bf606d43400efdc3a54e530fbbf679114623f759c00606dfd7de1b11"
+        },
+        {
+          "bytes": 974,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/3/Data.qml",
+          "sha256": "aa59fd744f9fe038b3660b6af76489e2515fcd640328cfc2b079b5e0b3f23f9f"
+        },
+        {
+          "bytes": 923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/4/Data.qml",
+          "sha256": "e9b245d90411aa1e3a8c924512eec872747feadc4c828da5eee1cca178f78149"
+        },
+        {
+          "bytes": 28520,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW02.svg",
+          "sha256": "019473de6b74fcd9d1c0efc5efea71dc72988d1986e1a0494c4feec5c2ea3d70"
+        },
+        {
+          "bytes": 28203,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW01.svg",
+          "sha256": "c44652c1a1e602ab34ca848d9124eeee551f3722aa5f62e2fa825c4bc969df69"
+        },
+        {
+          "bytes": 404,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/CMakeLists.txt",
+          "sha256": "fa39a66803f2617e6aa0a503bfac7603704acc846f2b4b5b7ba80380e231329d"
+        },
+        {
+          "bytes": 21949,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Guesscount.qml",
+          "sha256": "f5a948df53e086004f4c85cd486ec29c873aaaecfbe3564f4dfb215d29d6a130"
+        },
+        {
+          "bytes": 22150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.svg",
+          "sha256": "3a57e397231bce2194c2b811a8d0e7b09db22f3c80fb8d533c99fbbf32039411"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/admin-01",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/3ae1c80fb49fd373956a7d5e3294274d90d7f34b"
+    },
+    "admin-05": {
+      "rcc_sha256": "54ab12133588d3a643afd270fb630f6e8948aab5f029cc6145d077528eb2fa24",
+      "files": [
+        {
+          "bytes": 2609,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Tile.qml",
+          "sha256": "e8181d3f3773646a2711c29536509b76eec2c298f00b8837043ed1a78a2f71fe"
+        },
+        {
+          "bytes": 1369,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperatorRow.qml",
+          "sha256": "4d9613489b1d5a85985b60b591d3b5d1895476f86fb4804b6d7f35a5e9931652"
+        },
+        {
+          "bytes": 3487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Admin.qml",
+          "sha256": "2bb8703a495fdfeb3abd7704c7c82d990450e67e57fec763a1d5476bd09e0ae7"
+        },
+        {
+          "bytes": 1360,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperandRow.qml",
+          "sha256": "aff8132c007cebc107c35690576b527b86648f1e3ec7b127806a843895292708"
+        },
+        {
+          "bytes": 1117,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityInfo.qml",
+          "sha256": "e3a11120ee2bd37314790f5d900acba9031ed2d25c2eafa97640a96ba0318990"
+        },
+        {
+          "bytes": 5743,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperationRow.qml",
+          "sha256": "d16846cc3b4efd3907a33c6f526389a059d5399e8f5353a4e0283f26508e0779"
+        },
+        {
+          "bytes": 2836,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/dataset.js",
+          "sha256": "b81588561bb284b25a5aac2efb627ab00111892de7bf0d65ff9971b7c6ecc97f"
+        },
+        {
+          "bytes": 1067,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DropTile.qml",
+          "sha256": "66876df50cf44eb79c5f9a713f24973a634fdab539b3f371e896df4dc3dc17b6"
+        },
+        {
+          "bytes": 955,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DragTile.qml",
+          "sha256": "16c69a12994b1f188e0bd21752db2e6405f8963e6943d6545ffb82bc7a4b2ecb"
+        },
+        {
+          "bytes": 6841,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.js",
+          "sha256": "03cc028b7346223bf45d25f7fc40cf611b422b891dede38a418d78447a8e11d8"
+        },
+        {
+          "bytes": 4031,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityConfig.qml",
+          "sha256": "47df9ac3f7a915150378218ac9edd378a653cfdbae3b6c48cbecf3d2bbf5d236"
+        },
+        {
+          "bytes": 1384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/1/Data.qml",
+          "sha256": "48d04603bc4fa4f639cfdd001ea20500ad00fae0daef8a97a60feb7fbf1ff060"
+        },
+        {
+          "bytes": 1351,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/2/Data.qml",
+          "sha256": "615be232bf606d43400efdc3a54e530fbbf679114623f759c00606dfd7de1b11"
+        },
+        {
+          "bytes": 974,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/3/Data.qml",
+          "sha256": "aa59fd744f9fe038b3660b6af76489e2515fcd640328cfc2b079b5e0b3f23f9f"
+        },
+        {
+          "bytes": 923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/4/Data.qml",
+          "sha256": "e9b245d90411aa1e3a8c924512eec872747feadc4c828da5eee1cca178f78149"
+        },
+        {
+          "bytes": 28520,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW02.svg",
+          "sha256": "019473de6b74fcd9d1c0efc5efea71dc72988d1986e1a0494c4feec5c2ea3d70"
+        },
+        {
+          "bytes": 28203,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW01.svg",
+          "sha256": "c44652c1a1e602ab34ca848d9124eeee551f3722aa5f62e2fa825c4bc969df69"
+        },
+        {
+          "bytes": 404,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/CMakeLists.txt",
+          "sha256": "fa39a66803f2617e6aa0a503bfac7603704acc846f2b4b5b7ba80380e231329d"
+        },
+        {
+          "bytes": 21949,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Guesscount.qml",
+          "sha256": "31b7fd66e6345815a7191374084544b60023e4db081b093c40274fe8512ccfc8"
+        },
+        {
+          "bytes": 22150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.svg",
+          "sha256": "3a57e397231bce2194c2b811a8d0e7b09db22f3c80fb8d533c99fbbf32039411"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/admin-05",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/3ae1c80fb49fd373956a7d5e3294274d90d7f34b"
+    },
+    "controls24": {
+      "rcc_sha256": "9f6e56948e1e41d49a390d183d8603c0d446e8840477a53d093b50166028de0a",
+      "files": [
+        {
+          "bytes": 87218,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/Guess24-solutions.csv",
+          "sha256": "71305f74f033f75f917813e37cdedcb1d1c9784788c69ff7db940892a67b681b"
+        },
+        {
+          "bytes": 4771,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/README.md",
+          "sha256": "b0c246297de918802716fe2d5609ab1271adf48e0d69e112fb3b577ac87fda31"
+        },
+        {
+          "bytes": 48459,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/Guess24-difficulty.csv",
+          "sha256": "4e8eddec8d69111380d6c3bc2c0b5e1c2def9aabd0078d01daf9cf3928324e9a"
+        },
+        {
+          "bytes": 5492,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/tools/build-datas.php",
+          "sha256": "044ce998d4e9696ad0471adabb850d4a07ebd8092825e5fd3c073142265890f7"
+        },
+        {
+          "bytes": 1422,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/ActivityInfo.qml",
+          "sha256": "53e92ba754109a0062fec0b73d25f3ad432449123a7a49fcc2837b9c7966efb1"
+        },
+        {
+          "bytes": 5843,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/guess24.svg",
+          "sha256": "f88c77e2c6c576183a1fde85168c81dc42e395d0a95cd5daf11c344f7e9bc0e5"
+        },
+        {
+          "bytes": 30842,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/Guess24.qml",
+          "sha256": "9cbd649b5d614f7e29c401be952af9bbe32911ed1d6a2177bc966eafd549a89a"
+        },
+        {
+          "bytes": 14847,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/guess24.js",
+          "sha256": "f59fb3a3e146cd2a84a29bc56dcb764a51fd1dabd8c80bdc662133ad08917f12"
+        },
+        {
+          "bytes": 416,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/1/Data.qml",
+          "sha256": "c8d9e131261414d03df81a509553f82b7c82b47a9a69363cae17e35d2e136c42"
+        },
+        {
+          "bytes": 423,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/2/Data.qml",
+          "sha256": "c60e84ccd31136bb50695fb007a44883682bb9effa7a1d31dc9b82d903a58651"
+        },
+        {
+          "bytes": 418,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/3/Data.qml",
+          "sha256": "e706bcd7aaf17c01d939b810d28b343092519179948324c2b7adfa577025b69a"
+        },
+        {
+          "bytes": 425,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/4/Data.qml",
+          "sha256": "82bd52f5c5ad019cbc1ef1c9a154f64f179aa36ed7e1b0d00022027a88855f0d"
+        },
+        {
+          "bytes": 412,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/5/Data.qml",
+          "sha256": "f37ed94ec7de2854ab4f2c51d24d1f8bfc5afa5e8bbcefe973253f1668e3b051"
+        },
+        {
+          "bytes": 417,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/6/Data.qml",
+          "sha256": "a0fcb21156ae0faa1f9f4c39c9d861f4104abe32875881ae0a2534f5c1aab1d2"
+        },
+        {
+          "bytes": 205622,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/resource/guess24.json",
+          "sha256": "1e4d3758272c2d0a3448088ca8ff74527d864530bfb9fb691ae22b8da563b1fe"
+        },
+        {
+          "bytes": 391,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guess24/CMakeLists.txt",
+          "sha256": "48aba3cadca0fb65707dfbe44614f0d33eab19a2101f89770b951cefad749f9a"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/controls24",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/3ae1c80fb49fd373956a7d5e3294274d90d7f34b"
+    },
+    "controls-count-complete": {
+      "rcc_sha256": "c0f019a57112bf8277609e87a5b429b839c063c28687c1c85f3595665f8e097f",
+      "files": [
+        {
+          "bytes": 2609,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Tile.qml",
+          "sha256": "e8181d3f3773646a2711c29536509b76eec2c298f00b8837043ed1a78a2f71fe"
+        },
+        {
+          "bytes": 1369,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperatorRow.qml",
+          "sha256": "4d9613489b1d5a85985b60b591d3b5d1895476f86fb4804b6d7f35a5e9931652"
+        },
+        {
+          "bytes": 3487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Admin.qml",
+          "sha256": "2bb8703a495fdfeb3abd7704c7c82d990450e67e57fec763a1d5476bd09e0ae7"
+        },
+        {
+          "bytes": 1360,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperandRow.qml",
+          "sha256": "aff8132c007cebc107c35690576b527b86648f1e3ec7b127806a843895292708"
+        },
+        {
+          "bytes": 1117,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityInfo.qml",
+          "sha256": "e3a11120ee2bd37314790f5d900acba9031ed2d25c2eafa97640a96ba0318990"
+        },
+        {
+          "bytes": 5743,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperationRow.qml",
+          "sha256": "d16846cc3b4efd3907a33c6f526389a059d5399e8f5353a4e0283f26508e0779"
+        },
+        {
+          "bytes": 2836,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/dataset.js",
+          "sha256": "1eebca52ba9802f3794df0eadb56b8782331faba6a0adc94502811a904a6f482"
+        },
+        {
+          "bytes": 1067,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DropTile.qml",
+          "sha256": "66876df50cf44eb79c5f9a713f24973a634fdab539b3f371e896df4dc3dc17b6"
+        },
+        {
+          "bytes": 955,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DragTile.qml",
+          "sha256": "16c69a12994b1f188e0bd21752db2e6405f8963e6943d6545ffb82bc7a4b2ecb"
+        },
+        {
+          "bytes": 6841,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.js",
+          "sha256": "03cc028b7346223bf45d25f7fc40cf611b422b891dede38a418d78447a8e11d8"
+        },
+        {
+          "bytes": 4031,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityConfig.qml",
+          "sha256": "47df9ac3f7a915150378218ac9edd378a653cfdbae3b6c48cbecf3d2bbf5d236"
+        },
+        {
+          "bytes": 1384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/1/Data.qml",
+          "sha256": "48d04603bc4fa4f639cfdd001ea20500ad00fae0daef8a97a60feb7fbf1ff060"
+        },
+        {
+          "bytes": 1351,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/2/Data.qml",
+          "sha256": "615be232bf606d43400efdc3a54e530fbbf679114623f759c00606dfd7de1b11"
+        },
+        {
+          "bytes": 974,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/3/Data.qml",
+          "sha256": "6d2d323c504a85afa3fc64df4ed9d9a7a9e5d7b5c60d5e02daea4afd060eb926"
+        },
+        {
+          "bytes": 923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/4/Data.qml",
+          "sha256": "e9b245d90411aa1e3a8c924512eec872747feadc4c828da5eee1cca178f78149"
+        },
+        {
+          "bytes": 28520,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW02.svg",
+          "sha256": "019473de6b74fcd9d1c0efc5efea71dc72988d1986e1a0494c4feec5c2ea3d70"
+        },
+        {
+          "bytes": 28203,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW01.svg",
+          "sha256": "c44652c1a1e602ab34ca848d9124eeee551f3722aa5f62e2fa825c4bc969df69"
+        },
+        {
+          "bytes": 404,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/CMakeLists.txt",
+          "sha256": "fa39a66803f2617e6aa0a503bfac7603704acc846f2b4b5b7ba80380e231329d"
+        },
+        {
+          "bytes": 23115,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Guesscount.qml",
+          "sha256": "7c23cc487d8d39b637ea43c10026ac04676fc660da662d89d59d96217c2b468a"
+        },
+        {
+          "bytes": 22150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.svg",
+          "sha256": "3a57e397231bce2194c2b811a8d0e7b09db22f3c80fb8d533c99fbbf32039411"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/controls-count-complete",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/436762daa4e972f6c369a33434897cbf008339f6"
+    },
+    "pool-red": {
+      "rcc_sha256": "d16e75221ab98278bb14eeecac0971bab0071c0171422f21cab241d2f10011f2",
+      "files": [
+        {
+          "bytes": 2609,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Tile.qml",
+          "sha256": "e8181d3f3773646a2711c29536509b76eec2c298f00b8837043ed1a78a2f71fe"
+        },
+        {
+          "bytes": 1369,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperatorRow.qml",
+          "sha256": "4d9613489b1d5a85985b60b591d3b5d1895476f86fb4804b6d7f35a5e9931652"
+        },
+        {
+          "bytes": 3487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Admin.qml",
+          "sha256": "2bb8703a495fdfeb3abd7704c7c82d990450e67e57fec763a1d5476bd09e0ae7"
+        },
+        {
+          "bytes": 1360,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperandRow.qml",
+          "sha256": "aff8132c007cebc107c35690576b527b86648f1e3ec7b127806a843895292708"
+        },
+        {
+          "bytes": 1117,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityInfo.qml",
+          "sha256": "e3a11120ee2bd37314790f5d900acba9031ed2d25c2eafa97640a96ba0318990"
+        },
+        {
+          "bytes": 5743,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperationRow.qml",
+          "sha256": "d16846cc3b4efd3907a33c6f526389a059d5399e8f5353a4e0283f26508e0779"
+        },
+        {
+          "bytes": 2836,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/dataset.js",
+          "sha256": "8e290120252b6adff794a1d96ef591678859f9eb9cb31bcacc09aedab294f046"
+        },
+        {
+          "bytes": 1067,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DropTile.qml",
+          "sha256": "66876df50cf44eb79c5f9a713f24973a634fdab539b3f371e896df4dc3dc17b6"
+        },
+        {
+          "bytes": 955,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DragTile.qml",
+          "sha256": "16c69a12994b1f188e0bd21752db2e6405f8963e6943d6545ffb82bc7a4b2ecb"
+        },
+        {
+          "bytes": 6309,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.js",
+          "sha256": "8a58907687e9aa74b7d0044e5b260ad19a64cf7d67fa8c9c0f3e4d7a83a3bd49"
+        },
+        {
+          "bytes": 4031,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityConfig.qml",
+          "sha256": "47df9ac3f7a915150378218ac9edd378a653cfdbae3b6c48cbecf3d2bbf5d236"
+        },
+        {
+          "bytes": 1384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/1/Data.qml",
+          "sha256": "48d04603bc4fa4f639cfdd001ea20500ad00fae0daef8a97a60feb7fbf1ff060"
+        },
+        {
+          "bytes": 1351,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/2/Data.qml",
+          "sha256": "615be232bf606d43400efdc3a54e530fbbf679114623f759c00606dfd7de1b11"
+        },
+        {
+          "bytes": 974,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/3/Data.qml",
+          "sha256": "aa59fd744f9fe038b3660b6af76489e2515fcd640328cfc2b079b5e0b3f23f9f"
+        },
+        {
+          "bytes": 923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/4/Data.qml",
+          "sha256": "e9b245d90411aa1e3a8c924512eec872747feadc4c828da5eee1cca178f78149"
+        },
+        {
+          "bytes": 28520,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW02.svg",
+          "sha256": "019473de6b74fcd9d1c0efc5efea71dc72988d1986e1a0494c4feec5c2ea3d70"
+        },
+        {
+          "bytes": 28203,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW01.svg",
+          "sha256": "c44652c1a1e602ab34ca848d9124eeee551f3722aa5f62e2fa825c4bc969df69"
+        },
+        {
+          "bytes": 404,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/CMakeLists.txt",
+          "sha256": "fa39a66803f2617e6aa0a503bfac7603704acc846f2b4b5b7ba80380e231329d"
+        },
+        {
+          "bytes": 22235,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Guesscount.qml",
+          "sha256": "43cb371b6ebca84ca28fb5ed7702f5b2aa3cc5dd58bb8dde5e9fefd331db8cb9"
+        },
+        {
+          "bytes": 22150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.svg",
+          "sha256": "3a57e397231bce2194c2b811a8d0e7b09db22f3c80fb8d533c99fbbf32039411"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/pool16-red4",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/ad68de3f69b88b326afa69eeda1bad7c3a1aeafb"
+    },
+    "pool-green": {
+      "rcc_sha256": "673b4355b98fb0848db868ecaa0519698d63e4a6f7cf774ecb588b99c2ca4282",
+      "files": [
+        {
+          "bytes": 2609,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Tile.qml",
+          "sha256": "e8181d3f3773646a2711c29536509b76eec2c298f00b8837043ed1a78a2f71fe"
+        },
+        {
+          "bytes": 1369,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperatorRow.qml",
+          "sha256": "4d9613489b1d5a85985b60b591d3b5d1895476f86fb4804b6d7f35a5e9931652"
+        },
+        {
+          "bytes": 3487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Admin.qml",
+          "sha256": "2bb8703a495fdfeb3abd7704c7c82d990450e67e57fec763a1d5476bd09e0ae7"
+        },
+        {
+          "bytes": 1360,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperandRow.qml",
+          "sha256": "aff8132c007cebc107c35690576b527b86648f1e3ec7b127806a843895292708"
+        },
+        {
+          "bytes": 1117,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityInfo.qml",
+          "sha256": "e3a11120ee2bd37314790f5d900acba9031ed2d25c2eafa97640a96ba0318990"
+        },
+        {
+          "bytes": 5743,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperationRow.qml",
+          "sha256": "d16846cc3b4efd3907a33c6f526389a059d5399e8f5353a4e0283f26508e0779"
+        },
+        {
+          "bytes": 2836,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/dataset.js",
+          "sha256": "b81588561bb284b25a5aac2efb627ab00111892de7bf0d65ff9971b7c6ecc97f"
+        },
+        {
+          "bytes": 1067,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DropTile.qml",
+          "sha256": "66876df50cf44eb79c5f9a713f24973a634fdab539b3f371e896df4dc3dc17b6"
+        },
+        {
+          "bytes": 955,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DragTile.qml",
+          "sha256": "16c69a12994b1f188e0bd21752db2e6405f8963e6943d6545ffb82bc7a4b2ecb"
+        },
+        {
+          "bytes": 6841,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.js",
+          "sha256": "03cc028b7346223bf45d25f7fc40cf611b422b891dede38a418d78447a8e11d8"
+        },
+        {
+          "bytes": 4031,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityConfig.qml",
+          "sha256": "47df9ac3f7a915150378218ac9edd378a653cfdbae3b6c48cbecf3d2bbf5d236"
+        },
+        {
+          "bytes": 1384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/1/Data.qml",
+          "sha256": "48d04603bc4fa4f639cfdd001ea20500ad00fae0daef8a97a60feb7fbf1ff060"
+        },
+        {
+          "bytes": 1351,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/2/Data.qml",
+          "sha256": "615be232bf606d43400efdc3a54e530fbbf679114623f759c00606dfd7de1b11"
+        },
+        {
+          "bytes": 974,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/3/Data.qml",
+          "sha256": "aa59fd744f9fe038b3660b6af76489e2515fcd640328cfc2b079b5e0b3f23f9f"
+        },
+        {
+          "bytes": 923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/4/Data.qml",
+          "sha256": "e9b245d90411aa1e3a8c924512eec872747feadc4c828da5eee1cca178f78149"
+        },
+        {
+          "bytes": 28520,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW02.svg",
+          "sha256": "019473de6b74fcd9d1c0efc5efea71dc72988d1986e1a0494c4feec5c2ea3d70"
+        },
+        {
+          "bytes": 28203,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW01.svg",
+          "sha256": "c44652c1a1e602ab34ca848d9124eeee551f3722aa5f62e2fa825c4bc969df69"
+        },
+        {
+          "bytes": 404,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/CMakeLists.txt",
+          "sha256": "fa39a66803f2617e6aa0a503bfac7603704acc846f2b4b5b7ba80380e231329d"
+        },
+        {
+          "bytes": 22239,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Guesscount.qml",
+          "sha256": "80a4419a1fccee01ee75fb81fa91958c7fe4c72b5407c5efdc0aa36e907e1b5e"
+        },
+        {
+          "bytes": 22150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.svg",
+          "sha256": "3a57e397231bce2194c2b811a8d0e7b09db22f3c80fb8d533c99fbbf32039411"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/pool16-green3",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/3ae1c80fb49fd373956a7d5e3294274d90d7f34b"
+    },
+    "admin-red": {
+      "rcc_sha256": "be1738f70fbab74bfd678b498ba7f13a9c8cdc881a26fe3be4c33ef4d74086f7",
+      "files": [
+        {
+          "bytes": 2609,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Tile.qml",
+          "sha256": "e8181d3f3773646a2711c29536509b76eec2c298f00b8837043ed1a78a2f71fe"
+        },
+        {
+          "bytes": 1369,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperatorRow.qml",
+          "sha256": "4d9613489b1d5a85985b60b591d3b5d1895476f86fb4804b6d7f35a5e9931652"
+        },
+        {
+          "bytes": 3487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Admin.qml",
+          "sha256": "2bb8703a495fdfeb3abd7704c7c82d990450e67e57fec763a1d5476bd09e0ae7"
+        },
+        {
+          "bytes": 1360,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperandRow.qml",
+          "sha256": "aff8132c007cebc107c35690576b527b86648f1e3ec7b127806a843895292708"
+        },
+        {
+          "bytes": 1117,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityInfo.qml",
+          "sha256": "e3a11120ee2bd37314790f5d900acba9031ed2d25c2eafa97640a96ba0318990"
+        },
+        {
+          "bytes": 5743,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperationRow.qml",
+          "sha256": "d16846cc3b4efd3907a33c6f526389a059d5399e8f5353a4e0283f26508e0779"
+        },
+        {
+          "bytes": 2836,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/dataset.js",
+          "sha256": "8e290120252b6adff794a1d96ef591678859f9eb9cb31bcacc09aedab294f046"
+        },
+        {
+          "bytes": 1067,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DropTile.qml",
+          "sha256": "66876df50cf44eb79c5f9a713f24973a634fdab539b3f371e896df4dc3dc17b6"
+        },
+        {
+          "bytes": 955,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DragTile.qml",
+          "sha256": "16c69a12994b1f188e0bd21752db2e6405f8963e6943d6545ffb82bc7a4b2ecb"
+        },
+        {
+          "bytes": 6309,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.js",
+          "sha256": "8a58907687e9aa74b7d0044e5b260ad19a64cf7d67fa8c9c0f3e4d7a83a3bd49"
+        },
+        {
+          "bytes": 4031,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityConfig.qml",
+          "sha256": "47df9ac3f7a915150378218ac9edd378a653cfdbae3b6c48cbecf3d2bbf5d236"
+        },
+        {
+          "bytes": 1384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/1/Data.qml",
+          "sha256": "48d04603bc4fa4f639cfdd001ea20500ad00fae0daef8a97a60feb7fbf1ff060"
+        },
+        {
+          "bytes": 1351,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/2/Data.qml",
+          "sha256": "615be232bf606d43400efdc3a54e530fbbf679114623f759c00606dfd7de1b11"
+        },
+        {
+          "bytes": 974,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/3/Data.qml",
+          "sha256": "aa59fd744f9fe038b3660b6af76489e2515fcd640328cfc2b079b5e0b3f23f9f"
+        },
+        {
+          "bytes": 923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/4/Data.qml",
+          "sha256": "e9b245d90411aa1e3a8c924512eec872747feadc4c828da5eee1cca178f78149"
+        },
+        {
+          "bytes": 28520,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW02.svg",
+          "sha256": "019473de6b74fcd9d1c0efc5efea71dc72988d1986e1a0494c4feec5c2ea3d70"
+        },
+        {
+          "bytes": 28203,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW01.svg",
+          "sha256": "c44652c1a1e602ab34ca848d9124eeee551f3722aa5f62e2fa825c4bc969df69"
+        },
+        {
+          "bytes": 404,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/CMakeLists.txt",
+          "sha256": "fa39a66803f2617e6aa0a503bfac7603704acc846f2b4b5b7ba80380e231329d"
+        },
+        {
+          "bytes": 21966,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Guesscount.qml",
+          "sha256": "79d0bee5f1b3dfbd421db3d9f84a610ed23c06c7642935d54ccdfc26e8777225"
+        },
+        {
+          "bytes": 22150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.svg",
+          "sha256": "3a57e397231bce2194c2b811a8d0e7b09db22f3c80fb8d533c99fbbf32039411"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/admin8-red3",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/ad68de3f69b88b326afa69eeda1bad7c3a1aeafb"
+    },
+    "admin-green": {
+      "rcc_sha256": "1dba72d0f941f8cadf859910a316cb44f650dc4acb73a072919a2d58528d13fe",
+      "files": [
+        {
+          "bytes": 2609,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Tile.qml",
+          "sha256": "e8181d3f3773646a2711c29536509b76eec2c298f00b8837043ed1a78a2f71fe"
+        },
+        {
+          "bytes": 1369,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperatorRow.qml",
+          "sha256": "4d9613489b1d5a85985b60b591d3b5d1895476f86fb4804b6d7f35a5e9931652"
+        },
+        {
+          "bytes": 3487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Admin.qml",
+          "sha256": "2bb8703a495fdfeb3abd7704c7c82d990450e67e57fec763a1d5476bd09e0ae7"
+        },
+        {
+          "bytes": 1360,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperandRow.qml",
+          "sha256": "aff8132c007cebc107c35690576b527b86648f1e3ec7b127806a843895292708"
+        },
+        {
+          "bytes": 1117,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityInfo.qml",
+          "sha256": "e3a11120ee2bd37314790f5d900acba9031ed2d25c2eafa97640a96ba0318990"
+        },
+        {
+          "bytes": 5743,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperationRow.qml",
+          "sha256": "d16846cc3b4efd3907a33c6f526389a059d5399e8f5353a4e0283f26508e0779"
+        },
+        {
+          "bytes": 2836,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/dataset.js",
+          "sha256": "b81588561bb284b25a5aac2efb627ab00111892de7bf0d65ff9971b7c6ecc97f"
+        },
+        {
+          "bytes": 1067,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DropTile.qml",
+          "sha256": "66876df50cf44eb79c5f9a713f24973a634fdab539b3f371e896df4dc3dc17b6"
+        },
+        {
+          "bytes": 955,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DragTile.qml",
+          "sha256": "16c69a12994b1f188e0bd21752db2e6405f8963e6943d6545ffb82bc7a4b2ecb"
+        },
+        {
+          "bytes": 6841,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.js",
+          "sha256": "03cc028b7346223bf45d25f7fc40cf611b422b891dede38a418d78447a8e11d8"
+        },
+        {
+          "bytes": 4031,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityConfig.qml",
+          "sha256": "47df9ac3f7a915150378218ac9edd378a653cfdbae3b6c48cbecf3d2bbf5d236"
+        },
+        {
+          "bytes": 1384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/1/Data.qml",
+          "sha256": "48d04603bc4fa4f639cfdd001ea20500ad00fae0daef8a97a60feb7fbf1ff060"
+        },
+        {
+          "bytes": 1351,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/2/Data.qml",
+          "sha256": "615be232bf606d43400efdc3a54e530fbbf679114623f759c00606dfd7de1b11"
+        },
+        {
+          "bytes": 974,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/3/Data.qml",
+          "sha256": "aa59fd744f9fe038b3660b6af76489e2515fcd640328cfc2b079b5e0b3f23f9f"
+        },
+        {
+          "bytes": 923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/4/Data.qml",
+          "sha256": "e9b245d90411aa1e3a8c924512eec872747feadc4c828da5eee1cca178f78149"
+        },
+        {
+          "bytes": 28520,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW02.svg",
+          "sha256": "019473de6b74fcd9d1c0efc5efea71dc72988d1986e1a0494c4feec5c2ea3d70"
+        },
+        {
+          "bytes": 28203,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW01.svg",
+          "sha256": "c44652c1a1e602ab34ca848d9124eeee551f3722aa5f62e2fa825c4bc969df69"
+        },
+        {
+          "bytes": 404,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/CMakeLists.txt",
+          "sha256": "fa39a66803f2617e6aa0a503bfac7603704acc846f2b4b5b7ba80380e231329d"
+        },
+        {
+          "bytes": 21970,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Guesscount.qml",
+          "sha256": "1efde9e9e87d4e766c49fcbf72b5f4383bc241154d6bcdd3915daeb0ef919699"
+        },
+        {
+          "bytes": 22150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.svg",
+          "sha256": "3a57e397231bce2194c2b811a8d0e7b09db22f3c80fb8d533c99fbbf32039411"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/admin8-green2",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/3ae1c80fb49fd373956a7d5e3294274d90d7f34b"
+    },
+    "unsolvable-red": {
+      "rcc_sha256": "02fe12b847acbd0acf57d659839e7773fd3679b8bd3523e04c561e6cc0fbe402",
+      "files": [
+        {
+          "bytes": 2609,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Tile.qml",
+          "sha256": "e8181d3f3773646a2711c29536509b76eec2c298f00b8837043ed1a78a2f71fe"
+        },
+        {
+          "bytes": 1369,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperatorRow.qml",
+          "sha256": "4d9613489b1d5a85985b60b591d3b5d1895476f86fb4804b6d7f35a5e9931652"
+        },
+        {
+          "bytes": 3487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Admin.qml",
+          "sha256": "2bb8703a495fdfeb3abd7704c7c82d990450e67e57fec763a1d5476bd09e0ae7"
+        },
+        {
+          "bytes": 1360,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperandRow.qml",
+          "sha256": "aff8132c007cebc107c35690576b527b86648f1e3ec7b127806a843895292708"
+        },
+        {
+          "bytes": 1117,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityInfo.qml",
+          "sha256": "e3a11120ee2bd37314790f5d900acba9031ed2d25c2eafa97640a96ba0318990"
+        },
+        {
+          "bytes": 5743,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperationRow.qml",
+          "sha256": "d16846cc3b4efd3907a33c6f526389a059d5399e8f5353a4e0283f26508e0779"
+        },
+        {
+          "bytes": 2836,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/dataset.js",
+          "sha256": "b81588561bb284b25a5aac2efb627ab00111892de7bf0d65ff9971b7c6ecc97f"
+        },
+        {
+          "bytes": 1067,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DropTile.qml",
+          "sha256": "66876df50cf44eb79c5f9a713f24973a634fdab539b3f371e896df4dc3dc17b6"
+        },
+        {
+          "bytes": 955,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DragTile.qml",
+          "sha256": "16c69a12994b1f188e0bd21752db2e6405f8963e6943d6545ffb82bc7a4b2ecb"
+        },
+        {
+          "bytes": 6841,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.js",
+          "sha256": "03cc028b7346223bf45d25f7fc40cf611b422b891dede38a418d78447a8e11d8"
+        },
+        {
+          "bytes": 4031,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityConfig.qml",
+          "sha256": "47df9ac3f7a915150378218ac9edd378a653cfdbae3b6c48cbecf3d2bbf5d236"
+        },
+        {
+          "bytes": 1384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/1/Data.qml",
+          "sha256": "48d04603bc4fa4f639cfdd001ea20500ad00fae0daef8a97a60feb7fbf1ff060"
+        },
+        {
+          "bytes": 1351,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/2/Data.qml",
+          "sha256": "615be232bf606d43400efdc3a54e530fbbf679114623f759c00606dfd7de1b11"
+        },
+        {
+          "bytes": 974,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/3/Data.qml",
+          "sha256": "aa59fd744f9fe038b3660b6af76489e2515fcd640328cfc2b079b5e0b3f23f9f"
+        },
+        {
+          "bytes": 923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/4/Data.qml",
+          "sha256": "e9b245d90411aa1e3a8c924512eec872747feadc4c828da5eee1cca178f78149"
+        },
+        {
+          "bytes": 28520,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW02.svg",
+          "sha256": "019473de6b74fcd9d1c0efc5efea71dc72988d1986e1a0494c4feec5c2ea3d70"
+        },
+        {
+          "bytes": 28203,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW01.svg",
+          "sha256": "c44652c1a1e602ab34ca848d9124eeee551f3722aa5f62e2fa825c4bc969df69"
+        },
+        {
+          "bytes": 404,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/CMakeLists.txt",
+          "sha256": "fa39a66803f2617e6aa0a503bfac7603704acc846f2b4b5b7ba80380e231329d"
+        },
+        {
+          "bytes": 22202,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Guesscount.qml",
+          "sha256": "ce17de93052214eee8b12bcad39ab5e6da0fc24b06d61a5978855d82d610f225"
+        },
+        {
+          "bytes": 22150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.svg",
+          "sha256": "3a57e397231bce2194c2b811a8d0e7b09db22f3c80fb8d533c99fbbf32039411"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/unsolvable-red",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/3ae1c80fb49fd373956a7d5e3294274d90d7f34b"
+    },
+    "unsolvable-green": {
+      "rcc_sha256": "e0c6345a0a8eb4600217e823a7ac29250d47c54fb7f2c56b1431b063ff3fd794",
+      "files": [
+        {
+          "bytes": 2609,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Tile.qml",
+          "sha256": "e8181d3f3773646a2711c29536509b76eec2c298f00b8837043ed1a78a2f71fe"
+        },
+        {
+          "bytes": 1369,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperatorRow.qml",
+          "sha256": "4d9613489b1d5a85985b60b591d3b5d1895476f86fb4804b6d7f35a5e9931652"
+        },
+        {
+          "bytes": 3487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Admin.qml",
+          "sha256": "2bb8703a495fdfeb3abd7704c7c82d990450e67e57fec763a1d5476bd09e0ae7"
+        },
+        {
+          "bytes": 1360,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperandRow.qml",
+          "sha256": "aff8132c007cebc107c35690576b527b86648f1e3ec7b127806a843895292708"
+        },
+        {
+          "bytes": 1117,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityInfo.qml",
+          "sha256": "e3a11120ee2bd37314790f5d900acba9031ed2d25c2eafa97640a96ba0318990"
+        },
+        {
+          "bytes": 5743,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperationRow.qml",
+          "sha256": "d16846cc3b4efd3907a33c6f526389a059d5399e8f5353a4e0283f26508e0779"
+        },
+        {
+          "bytes": 2836,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/dataset.js",
+          "sha256": "1eebca52ba9802f3794df0eadb56b8782331faba6a0adc94502811a904a6f482"
+        },
+        {
+          "bytes": 1067,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DropTile.qml",
+          "sha256": "66876df50cf44eb79c5f9a713f24973a634fdab539b3f371e896df4dc3dc17b6"
+        },
+        {
+          "bytes": 955,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DragTile.qml",
+          "sha256": "16c69a12994b1f188e0bd21752db2e6405f8963e6943d6545ffb82bc7a4b2ecb"
+        },
+        {
+          "bytes": 6841,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.js",
+          "sha256": "03cc028b7346223bf45d25f7fc40cf611b422b891dede38a418d78447a8e11d8"
+        },
+        {
+          "bytes": 4031,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityConfig.qml",
+          "sha256": "47df9ac3f7a915150378218ac9edd378a653cfdbae3b6c48cbecf3d2bbf5d236"
+        },
+        {
+          "bytes": 1384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/1/Data.qml",
+          "sha256": "48d04603bc4fa4f639cfdd001ea20500ad00fae0daef8a97a60feb7fbf1ff060"
+        },
+        {
+          "bytes": 1351,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/2/Data.qml",
+          "sha256": "615be232bf606d43400efdc3a54e530fbbf679114623f759c00606dfd7de1b11"
+        },
+        {
+          "bytes": 974,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/3/Data.qml",
+          "sha256": "6d2d323c504a85afa3fc64df4ed9d9a7a9e5d7b5c60d5e02daea4afd060eb926"
+        },
+        {
+          "bytes": 923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/4/Data.qml",
+          "sha256": "e9b245d90411aa1e3a8c924512eec872747feadc4c828da5eee1cca178f78149"
+        },
+        {
+          "bytes": 28520,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW02.svg",
+          "sha256": "019473de6b74fcd9d1c0efc5efea71dc72988d1986e1a0494c4feec5c2ea3d70"
+        },
+        {
+          "bytes": 28203,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW01.svg",
+          "sha256": "c44652c1a1e602ab34ca848d9124eeee551f3722aa5f62e2fa825c4bc969df69"
+        },
+        {
+          "bytes": 404,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/CMakeLists.txt",
+          "sha256": "fa39a66803f2617e6aa0a503bfac7603704acc846f2b4b5b7ba80380e231329d"
+        },
+        {
+          "bytes": 22206,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Guesscount.qml",
+          "sha256": "86469866f6eee501e8df56bdb87642f1812ffb4f4b4c90d9d1da07b2dca5bdf0"
+        },
+        {
+          "bytes": 22150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.svg",
+          "sha256": "3a57e397231bce2194c2b811a8d0e7b09db22f3c80fb8d533c99fbbf32039411"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/unsolvable-green",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/d3066266a697a155dbbb14eb2857459e0259b164"
+    },
+    "label-red": {
+      "rcc_sha256": "c4d6f45475e8b6342280fdceef23fe8ed41d0bb7eea430b770af8d632a09b675",
+      "files": [
+        {
+          "bytes": 2609,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Tile.qml",
+          "sha256": "e8181d3f3773646a2711c29536509b76eec2c298f00b8837043ed1a78a2f71fe"
+        },
+        {
+          "bytes": 1369,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperatorRow.qml",
+          "sha256": "4d9613489b1d5a85985b60b591d3b5d1895476f86fb4804b6d7f35a5e9931652"
+        },
+        {
+          "bytes": 3487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Admin.qml",
+          "sha256": "2bb8703a495fdfeb3abd7704c7c82d990450e67e57fec763a1d5476bd09e0ae7"
+        },
+        {
+          "bytes": 1360,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperandRow.qml",
+          "sha256": "aff8132c007cebc107c35690576b527b86648f1e3ec7b127806a843895292708"
+        },
+        {
+          "bytes": 1117,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityInfo.qml",
+          "sha256": "e3a11120ee2bd37314790f5d900acba9031ed2d25c2eafa97640a96ba0318990"
+        },
+        {
+          "bytes": 5743,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperationRow.qml",
+          "sha256": "d16846cc3b4efd3907a33c6f526389a059d5399e8f5353a4e0283f26508e0779"
+        },
+        {
+          "bytes": 2836,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/dataset.js",
+          "sha256": "1eebca52ba9802f3794df0eadb56b8782331faba6a0adc94502811a904a6f482"
+        },
+        {
+          "bytes": 1067,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DropTile.qml",
+          "sha256": "66876df50cf44eb79c5f9a713f24973a634fdab539b3f371e896df4dc3dc17b6"
+        },
+        {
+          "bytes": 955,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DragTile.qml",
+          "sha256": "16c69a12994b1f188e0bd21752db2e6405f8963e6943d6545ffb82bc7a4b2ecb"
+        },
+        {
+          "bytes": 6841,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.js",
+          "sha256": "03cc028b7346223bf45d25f7fc40cf611b422b891dede38a418d78447a8e11d8"
+        },
+        {
+          "bytes": 4031,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityConfig.qml",
+          "sha256": "47df9ac3f7a915150378218ac9edd378a653cfdbae3b6c48cbecf3d2bbf5d236"
+        },
+        {
+          "bytes": 1384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/1/Data.qml",
+          "sha256": "48d04603bc4fa4f639cfdd001ea20500ad00fae0daef8a97a60feb7fbf1ff060"
+        },
+        {
+          "bytes": 1351,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/2/Data.qml",
+          "sha256": "615be232bf606d43400efdc3a54e530fbbf679114623f759c00606dfd7de1b11"
+        },
+        {
+          "bytes": 974,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/3/Data.qml",
+          "sha256": "6d2d323c504a85afa3fc64df4ed9d9a7a9e5d7b5c60d5e02daea4afd060eb926"
+        },
+        {
+          "bytes": 923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/4/Data.qml",
+          "sha256": "e9b245d90411aa1e3a8c924512eec872747feadc4c828da5eee1cca178f78149"
+        },
+        {
+          "bytes": 28520,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW02.svg",
+          "sha256": "019473de6b74fcd9d1c0efc5efea71dc72988d1986e1a0494c4feec5c2ea3d70"
+        },
+        {
+          "bytes": 28203,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW01.svg",
+          "sha256": "c44652c1a1e602ab34ca848d9124eeee551f3722aa5f62e2fa825c4bc969df69"
+        },
+        {
+          "bytes": 404,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/CMakeLists.txt",
+          "sha256": "fa39a66803f2617e6aa0a503bfac7603704acc846f2b4b5b7ba80380e231329d"
+        },
+        {
+          "bytes": 12109,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Guesscount.qml",
+          "sha256": "30a51bf4fbc6bbb91d57e70741fc20baa881191dfa2b4d21bcaedf60c5f68dc8"
+        },
+        {
+          "bytes": 22150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.svg",
+          "sha256": "3a57e397231bce2194c2b811a8d0e7b09db22f3c80fb8d533c99fbbf32039411"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/target-title-red",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/d3066266a697a155dbbb14eb2857459e0259b164"
+    },
+    "label-green": {
+      "rcc_sha256": "ef9cb4bbc9eade3251882be2bf1ce5139d4548d9e405b1406bf7a8cbd48a3da1",
+      "files": [
+        {
+          "bytes": 2609,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Tile.qml",
+          "sha256": "e8181d3f3773646a2711c29536509b76eec2c298f00b8837043ed1a78a2f71fe"
+        },
+        {
+          "bytes": 1369,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperatorRow.qml",
+          "sha256": "4d9613489b1d5a85985b60b591d3b5d1895476f86fb4804b6d7f35a5e9931652"
+        },
+        {
+          "bytes": 3487,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Admin.qml",
+          "sha256": "2bb8703a495fdfeb3abd7704c7c82d990450e67e57fec763a1d5476bd09e0ae7"
+        },
+        {
+          "bytes": 1360,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperandRow.qml",
+          "sha256": "aff8132c007cebc107c35690576b527b86648f1e3ec7b127806a843895292708"
+        },
+        {
+          "bytes": 1117,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityInfo.qml",
+          "sha256": "e3a11120ee2bd37314790f5d900acba9031ed2d25c2eafa97640a96ba0318990"
+        },
+        {
+          "bytes": 5743,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/OperationRow.qml",
+          "sha256": "d16846cc3b4efd3907a33c6f526389a059d5399e8f5353a4e0283f26508e0779"
+        },
+        {
+          "bytes": 2836,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/dataset.js",
+          "sha256": "1eebca52ba9802f3794df0eadb56b8782331faba6a0adc94502811a904a6f482"
+        },
+        {
+          "bytes": 1067,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DropTile.qml",
+          "sha256": "66876df50cf44eb79c5f9a713f24973a634fdab539b3f371e896df4dc3dc17b6"
+        },
+        {
+          "bytes": 955,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/DragTile.qml",
+          "sha256": "16c69a12994b1f188e0bd21752db2e6405f8963e6943d6545ffb82bc7a4b2ecb"
+        },
+        {
+          "bytes": 6841,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.js",
+          "sha256": "03cc028b7346223bf45d25f7fc40cf611b422b891dede38a418d78447a8e11d8"
+        },
+        {
+          "bytes": 4031,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/ActivityConfig.qml",
+          "sha256": "47df9ac3f7a915150378218ac9edd378a653cfdbae3b6c48cbecf3d2bbf5d236"
+        },
+        {
+          "bytes": 1384,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/1/Data.qml",
+          "sha256": "48d04603bc4fa4f639cfdd001ea20500ad00fae0daef8a97a60feb7fbf1ff060"
+        },
+        {
+          "bytes": 1351,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/2/Data.qml",
+          "sha256": "615be232bf606d43400efdc3a54e530fbbf679114623f759c00606dfd7de1b11"
+        },
+        {
+          "bytes": 974,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/3/Data.qml",
+          "sha256": "6d2d323c504a85afa3fc64df4ed9d9a7a9e5d7b5c60d5e02daea4afd060eb926"
+        },
+        {
+          "bytes": 923,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/4/Data.qml",
+          "sha256": "e9b245d90411aa1e3a8c924512eec872747feadc4c828da5eee1cca178f78149"
+        },
+        {
+          "bytes": 28520,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW02.svg",
+          "sha256": "019473de6b74fcd9d1c0efc5efea71dc72988d1986e1a0494c4feec5c2ea3d70"
+        },
+        {
+          "bytes": 28203,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW01.svg",
+          "sha256": "c44652c1a1e602ab34ca848d9124eeee551f3722aa5f62e2fa825c4bc969df69"
+        },
+        {
+          "bytes": 404,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/CMakeLists.txt",
+          "sha256": "fa39a66803f2617e6aa0a503bfac7603704acc846f2b4b5b7ba80380e231329d"
+        },
+        {
+          "bytes": 12111,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/Guesscount.qml",
+          "sha256": "8151065297c859ab73bc25e158c664acee88ec7224310827072c5615a7cdbfae"
+        },
+        {
+          "bytes": 22150,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/guesscount.svg",
+          "sha256": "3a57e397231bce2194c2b811a8d0e7b09db22f3c80fb8d533c99fbbf32039411"
+        }
+      ],
+      "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/target-title-green",
+      "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/sources/436762daa4e972f6c369a33434897cbf008339f6"
+    }
+  },
+  "imports": {
+    "core": {
+      "rcc_sha256": "4c40f1dd1ef1169d78084c2f62655627dab02d4051e6dec9efd494a51191bacb",
+      "files": [
+        {
+          "bytes": 6298,
+          "ogg": false,
+          "path": ":/gcompris/src/core/Bonus.qml",
+          "sha256": "48d482e880560fe1a3b06bace371def756eaf4af92eaf23b21c21a330842cc28"
+        },
+        {
+          "bytes": 88244,
+          "ogg": false,
+          "path": ":/gcompris/src/core/resource/sounds/bonus.wav",
+          "sha256": "fbf6fba4772211a0336b37c916e77340ca25c6e8062e9b2f631cf16394edd140"
+        },
+        {
+          "bytes": 133676,
+          "ogg": false,
+          "path": ":/gcompris/src/core/resource/sounds/completetask.wav",
+          "sha256": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c"
+        },
+        {
+          "bytes": 27234,
+          "ogg": false,
+          "path": ":/gcompris/src/core/resource/sounds/crash.wav",
+          "sha256": "86f844cb3f4cd87485de76b26a868e695d278ea971f308e092305827e7943c11"
+        },
+        {
+          "bytes": 21548,
+          "ogg": false,
+          "path": ":/gcompris/src/core/resource/sounds/smudge.wav",
+          "sha256": "e2037cfb555e638fae4af7a497ec2fefb7becf8fac3dd9da4d28adcf3c4b245f"
+        },
+        {
+          "bytes": 10444,
+          "ogg": false,
+          "path": ":/gcompris/src/core/resource/sounds/bleep.wav",
+          "sha256": "759b2225a42e407ac8d76e01c2b98d31af670de0a61c7f78ae5c34ca36bdc59e"
+        }
+      ]
+    },
+    "chess": {
+      "rcc_sha256": "eaef09810e17973771b0fbb21df9391d761852a9ce9ded4147e8c695829e5a8c",
+      "files": [
+        {
+          "bytes": 3314,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/chess/resource/undo.svg",
+          "sha256": "7289dbc2f21a00546abeb2beca0f778c5c604282127e59e9298a086d5396b10f"
+        }
+      ]
+    },
+    "guesscount": {
+      "rcc_sha256": "180ea4874cfbc3e1303a613e6e379cc4d1ab8b1cf7dfbdbe7194d74fa6c8fd40",
+      "files": [
+        {
+          "bytes": 28203,
+          "ogg": false,
+          "path": ":/gcompris/src/activities/guesscount/resource/backgroundW01.svg",
+          "sha256": "c44652c1a1e602ab34ca848d9124eeee551f3722aa5f62e2fa825c4bc969df69"
+        }
+      ]
+    }
+  }
+}

@@ -189,32 +189,37 @@ function equal(levelOperators, array) {
     return true
 }
 
-function findIndex(data) {
-
-    var index
-    var levelArr = defaultOperators
-
-    for(var i = 0; i < data.length; i++) {
-        for(var j in data[i]) {
-            if(equal(levelArr[items.currentLevel], data[i][j][0])) {
-                return i
-            }
-        }
-    }
-}
-
 function buildDataset(data, levelSchema) {
 
     var level = []
     var levelArr = (items.mode === 'builtin' && items.levels) ? defaultOperators : items.levelArr
     var noOfOperators = levelArr[items.currentLevel].length
-    var index = (items.mode === 'builtin' && items.levels) ? findIndex(data) : noOfOperators - 1
     var questions = []
 
-    for(var j in data[index]) {
-        if(equal(levelArr[items.currentLevel], data[index][j][0])) {
-            questions = data[index][j][1]
-            break
+    if(items.mode === 'builtin' && items.levels) {
+        // Different published levels may use the same operators. Select the
+        // corresponding occurrence instead of always taking the first pool.
+        var occurrence = 0
+        for(var previous = 0; previous < items.currentLevel; previous++) {
+            if(equal(levelArr[items.currentLevel], levelArr[previous]) &&
+                    levelArr[items.currentLevel].length === levelArr[previous].length)
+                occurrence++
+        }
+        var matchingPools = []
+        for(var group of data) {
+            for(var pool of group) {
+                if(pool[0].length === noOfOperators && equal(levelArr[items.currentLevel], pool[0]))
+                    matchingPools.push(pool[1])
+            }
+        }
+        questions = matchingPools[occurrence]
+    }
+    else {
+        for(var j in data[noOfOperators - 1]) {
+            if(equal(levelArr[items.currentLevel], data[noOfOperators - 1][j][0])) {
+                questions = data[noOfOperators - 1][j][1]
+                break
+            }
         }
     }
 

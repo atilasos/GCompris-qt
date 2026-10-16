@@ -107,6 +107,7 @@ ActivityBase {
         }
 
         onStart: {
+            activity.numberOfLevel = items.numberOfLevel;
             if(!ApplicationSettings.isAudioVoicesEnabled || !ApplicationSettings.isAudioEffectsEnabled) {
                     activityBackground.audioDisabled = true;
             }

@@ -1,0 +1,24 @@
+[
+  {
+    "activity": "guess24",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime-batch79-startup/guess24.log"
+  },
+  {
+    "activity": "guesscount",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime-batch79-startup/guesscount.log"
+  }
+]

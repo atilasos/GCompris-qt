@@ -41,6 +41,9 @@ ActivityBase {
             property Item main: activity.main
             property alias activityBackground: activityBackground
             property int currentLevel: activity.currentLevel
+            onCurrentLevelChanged: activity.currentLevel = currentLevel
+            readonly property int numberOfLevel: isTutorialMode ? tutorialDataset.tutorialLevels.length : 0
+            onNumberOfLevelChanged: activity.numberOfLevel = numberOfLevel
             property string mode: "tutorial"
             property bool isTutorialMode: mode === "tutorial" ? true : false
             property alias tutorialDataset: tutorialDataset
@@ -76,7 +79,10 @@ ActivityBase {
             property alias keyboardCursor: keyboardCursor
         }
 
-        onStart: { Activity.start(items) }
+        onStart: {
+            activity.numberOfLevel = items.numberOfLevel;
+            Activity.start(items);
+        }
         onStop: { Activity.stop() }
 
         // Needed to get keyboard focus on IntroMessage
