@@ -4,6 +4,7 @@
 import argparse
 from concurrent.futures import ThreadPoolExecutor
 import json
+import os
 from pathlib import Path
 import subprocess
 import sys
@@ -26,7 +27,8 @@ def run(activity,kind,args,manifest):
              '--result-marker','NATIVE_FRACTIONS_RESULT']
     started=time.time()
     with (args.output/(name+'.launcher.log')).open('x') as log:
-        process=subprocess.Popen(command,stdout=log,stderr=subprocess.STDOUT)
+        process=subprocess.Popen(command,stdout=log,stderr=subprocess.STDOUT,
+                                 env=dict(os.environ,PYTHONDONTWRITEBYTECODE="1"))
         print(json.dumps({'case':name,'pid':process.pid,'started':started}),flush=True)
         code=process.wait()
     result_path=target/'result.json';result=json.loads(result_path.read_text()) if result_path.exists() else {}

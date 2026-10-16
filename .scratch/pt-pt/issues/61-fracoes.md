@@ -1,7 +1,7 @@
 # Frações em PT-PT
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -23,8 +23,21 @@ Todos os critérios globais continuam pendentes.
 
 ## Progresso
 
-Inventariados 30 níveis/138 perguntas. Vermelho nativo confirmou hifenização
-indevida nos nomes de frações. Dez traduções passam a espaços; o mesmo caso
-nativo concluiu cinco perguntas e Bonus no verde. O auditor independente
-interpreta palavras, decimais com vírgula, percentagens e limite de metade.
-Campanhas completas e auditoria histórica ainda em preparação, claimed.
+Concluídos quatro processos Qt nativos offline, todos com saída externa e
+nativa 0: criação 18 níveis/78 perguntas; identificação 12 níveis/60 perguntas;
+controlos de ambos. Rejeitadas 138 respostas erradas e observados 30 Bonus
+naturais, sem alterar relógios ou progresso. Configuração persistida,
+reinício, navegação, ajuda, foco e menu verificados.
+
+Vermelho/verde com o mesmo caso confirmou e corrigiu dez traduções com
+hifenização indevida dos nomes de frações. Nenhuma lógica de jogo alterada.
+Arquivo de 252 fontes Git, snapshot independente de 269 ficheiros e auditor
+racional/geométrico/píxeis reproduzível sem catálogo corrente. Sete testes de
+oráculo, cópia e adulteração passaram. Identidades, limites e instruções em
+[provas de frações](../functional-fractions/README.md).
+
+## Resposta
+
+Fatia Linux concluída. As 60 perguntas aleatórias não esgotam as combinações.
+Windows, dispositivos físicos, áudio, ramo QtCharts antigo e revisão docente
+continuam pendentes; esta resolução não aprova critérios globais.
