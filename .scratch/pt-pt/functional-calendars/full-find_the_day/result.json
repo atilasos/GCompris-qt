@@ -32,7 +32,7 @@
     "share/gcompris-qt/rcc/braille_alphabets.rcc": "e5e9f5ba89ebeb33d6848e3e73716b9615c53480b612f471fd56ba6af38995d8",
     "share/gcompris-qt/rcc/braille_fun.rcc": "8e84b2371cb2f20320f2810ca9ddbb5264a8ba54caa437953a1369b8d2eb9b3c",
     "share/gcompris-qt/rcc/calcudoku.rcc": "2584df29260795285c1afe4ec10fdb8155f68916bc42228240cf0d2f332868ce",
-    "share/gcompris-qt/rcc/calendar.rcc": "09632d3bc2fa6d7eaf8c220f871aec33b9523bef93a5d9568e45b9c8be851b9b",
+    "share/gcompris-qt/rcc/calendar.rcc": "bb729acc9dd58f6a4bc1d09a704e7146ff37015a653a8c082755d56a86f5433c",
     "share/gcompris-qt/rcc/canal_lock.rcc": "a874e989a1cc0f1dde646084a759c33a43319b1efda58327412744a43345cce4",
     "share/gcompris-qt/rcc/categorization.rcc": "7c5773426732705615202ae412a2f7606a00954c229149113c19583fd646f04e",
     "share/gcompris-qt/rcc/checkers.rcc": "aac56b0df6a33d7da77a5b0225eb18c724946eef504ddbaea1874e3ef0d2addb",
@@ -278,43 +278,43 @@
   "activity": "find_the_day",
   "locale": "pt_PT",
   "qml_file": "calendar/Calendar.qml",
-  "source_sha256": "1c1d6c4c40a7f44b26fa2cc9593a7acf0de4306ca62d3e3522234fa8cf9d3d92",
+  "source_sha256": "035329c1a51f8cf0fb109b81a27d949830829aaffeb0673f220e7de5d6560ba7",
   "portuguese_catalogue_sha256": "30584f0bd2e712201132a789be4ac59c84498fe3cbd736d6cbb72e74c8169286",
   "private_qm_sha256": "95c1fbeb847733932a36aeefb009ccaefe720097dde16546775f62349789540d",
   "case_sha256": "3dec5a37848ab28634d6f8ace0ec204d339167e193f0201c81987b244433f587",
-  "private_rcc_sha256": "09632d3bc2fa6d7eaf8c220f871aec33b9523bef93a5d9568e45b9c8be851b9b",
+  "private_rcc_sha256": "bb729acc9dd58f6a4bc1d09a704e7146ff37015a653a8c082755d56a86f5433c",
   "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
   "runner_sha256": "612889370d52dc3c643f894c58dd22fdd6073c245525d5e8502791527fd6ec42",
-  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars/.scratch/pt-pt/functional-calendars/.native-qml-0e5d984924c24ac79435801c6c7965a1",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars/.scratch/pt-pt/functional-calendars/.native-qml-207ae780535c46c684b4c2ac05d30804",
   "version_code": 260200,
   "network": "docker-none",
-  "timestamp_utc": "2026-10-16T00:57:18.389845+00:00",
+  "timestamp_utc": "2026-10-16T01:05:37.678496+00:00",
   "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
   "screenshots": [
     {
       "file": "level-1.png",
-      "sha256": "f1942f3bbfdc867094a2695485191a5900d36db42b53bcab282e8ddee415832b",
-      "bytes": 107799
+      "sha256": "8df1694bc23b188a4f569a37b64993dfe57507d818bc6281a3c6a04bc5233142",
+      "bytes": 108771
     },
     {
       "file": "level-2.png",
-      "sha256": "3290eb02f25e2ae2e408d2d7b5af828c7802709d05369655f5c84b5bbdc958e3",
-      "bytes": 139801
+      "sha256": "3d911a882e80004a7535424590f79dd938eb6ce60fbe7c12cfccc47081b5a4a1",
+      "bytes": 140091
     },
     {
       "file": "level-3.png",
-      "sha256": "73ad5e15bd299d9bbf5a9c49949d0446176f7eefc7c43903efe0f1bc8f7b3afa",
-      "bytes": 109515
+      "sha256": "688616409e205777ccc0d88e4e8549d0c7ae59112f420a05c9f1130efe98177c",
+      "bytes": 108723
     },
     {
       "file": "level-4.png",
-      "sha256": "1dec5bd65e9d4883f827c6cf2b780579baffc84c13d0c1532a883c596adf06d7",
-      "bytes": 138070
+      "sha256": "b664ac3dd9bc036c7e19d2edea0b7a9792099be3b7e60b10dc99a2509201b0e8",
+      "bytes": 137688
     },
     {
       "file": "level-5.png",
-      "sha256": "1bf9ef7098d08e8dad6519a3b4d8f3801d43de7bc4a147cbc9e3124f453737e6",
-      "bytes": 104996
+      "sha256": "f5bdd3f20945eaa6667154688b200141045e57a3a993a9ebe06e444e939dd64d",
+      "bytes": 107437
     }
   ],
   "passed": true,
@@ -349,13 +349,13 @@
     "answered": [
       {
         "level": 1,
-        "question": "Descobrir a data de 7 dias a seguir ao 1 de outubro.",
+        "question": "Descobrir a data duas semanas depois do 27 de novembro.",
         "expected": {
           "dates": [
             [
               2018,
-              10,
-              8
+              12,
+              11
             ]
           ]
         }
@@ -369,32 +369,6 @@
               2018,
               8,
               12
-            ]
-          ]
-        }
-      },
-      {
-        "level": 1,
-        "question": "Descobrir a data de 19 dias antes do 1 de setembro.",
-        "expected": {
-          "dates": [
-            [
-              2018,
-              8,
-              13
-            ]
-          ]
-        }
-      },
-      {
-        "level": 1,
-        "question": "Descobrir a data duas semanas depois do 27 de novembro.",
-        "expected": {
-          "dates": [
-            [
-              2018,
-              12,
-              11
             ]
           ]
         }
@@ -426,8 +400,43 @@
         }
       },
       {
+        "level": 1,
+        "question": "Descobrir a data de 7 dias a seguir ao 1 de outubro.",
+        "expected": {
+          "dates": [
+            [
+              2018,
+              10,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "level": 1,
+        "question": "Descobrir a data de 19 dias antes do 1 de setembro.",
+        "expected": {
+          "dates": [
+            [
+              2018,
+              8,
+              13
+            ]
+          ]
+        }
+      },
+      {
         "level": 2,
-        "question": "Descobrir o dia da semana de 12 dias antes do 12 de novembro.",
+        "question": "Descobrir o dia da semana de 32 dias depois do 5 de janeiro.",
+        "expected": {
+          "weekdays": [
+            2
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "question": "Descobrir o dia da semana de 5 dias depois do 23 de fevereiro.",
         "expected": {
           "weekdays": [
             3
@@ -445,7 +454,7 @@
       },
       {
         "level": 2,
-        "question": "Descobrir o dia da semana de 5 dias depois do 23 de fevereiro.",
+        "question": "Descobrir o dia da semana de 12 dias antes do 12 de novembro.",
         "expected": {
           "weekdays": [
             3
@@ -462,41 +471,6 @@
         }
       },
       {
-        "level": 2,
-        "question": "Descobrir o dia da semana de 32 dias depois do 5 de janeiro.",
-        "expected": {
-          "weekdays": [
-            2
-          ]
-        }
-      },
-      {
-        "level": 3,
-        "question": "Descobrir a data de 2 semanas e 5 dias antes do 2 de julho.",
-        "expected": {
-          "dates": [
-            [
-              2018,
-              6,
-              13
-            ]
-          ]
-        }
-      },
-      {
-        "level": 3,
-        "question": "Descobrir a data de 2 semanas e 3 dias depois do 12 de janeiro.",
-        "expected": {
-          "dates": [
-            [
-              2018,
-              1,
-              29
-            ]
-          ]
-        }
-      },
-      {
         "level": 3,
         "question": "Descobrir a data de 1 semana e 1 dia antes do 8 de agosto.",
         "expected": {
@@ -505,6 +479,19 @@
               2018,
               7,
               31
+            ]
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "question": "Descobrir a data de 3 semanas e 2 dias depois do 22 de março.",
+        "expected": {
+          "dates": [
+            [
+              2018,
+              4,
+              14
             ]
           ]
         }
@@ -524,41 +511,27 @@
       },
       {
         "level": 3,
-        "question": "Descobrir a data de 3 semanas e 2 dias depois do 22 de março.",
+        "question": "Descobrir a data de 2 semanas e 3 dias depois do 12 de janeiro.",
         "expected": {
           "dates": [
             [
               2018,
-              4,
-              14
+              1,
+              29
             ]
           ]
         }
       },
       {
-        "level": 4,
-        "question": "Descobre o dia da semana 5 meses e 2 dias depois de 3 de julho.",
+        "level": 3,
+        "question": "Descobrir a data de 2 semanas e 5 dias antes do 2 de julho.",
         "expected": {
-          "weekdays": [
-            3
-          ]
-        }
-      },
-      {
-        "level": 4,
-        "question": "Descobrir o dia da semana de 8 meses e 7 dias depois do 28 de fevereiro.",
-        "expected": {
-          "weekdays": [
-            0
-          ]
-        }
-      },
-      {
-        "level": 4,
-        "question": "Descobrir o dia da semana de 3 meses e 3 dias antes do 15 de setembro.",
-        "expected": {
-          "weekdays": [
-            2
+          "dates": [
+            [
+              2018,
+              6,
+              13
+            ]
           ]
         }
       },
@@ -573,7 +546,16 @@
       },
       {
         "level": 4,
-        "question": "Descobrir o dia da semana de 2 meses e 4 dias depois do 8 de outubro.",
+        "question": "Descobrir o dia da semana de 8 meses e 7 dias depois do 28 de fevereiro.",
+        "expected": {
+          "weekdays": [
+            0
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "question": "Descobre o dia da semana 5 meses e 2 dias depois de 3 de julho.",
         "expected": {
           "weekdays": [
             3
@@ -581,15 +563,20 @@
         }
       },
       {
-        "level": 5,
-        "question": "Descobrir a data de 3 meses, 2 semanas e 1 dia a seguir ao 23 de agosto.",
+        "level": 4,
+        "question": "Descobrir o dia da semana de 3 meses e 3 dias antes do 15 de setembro.",
         "expected": {
-          "dates": [
-            [
-              2018,
-              12,
-              8
-            ]
+          "weekdays": [
+            2
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "question": "Descobrir o dia da semana de 2 meses e 4 dias depois do 8 de outubro.",
+        "expected": {
+          "weekdays": [
+            3
           ]
         }
       },
@@ -621,19 +608,6 @@
       },
       {
         "level": 5,
-        "question": "Descobrir a data de 1 mês, 1 semana e 1 dia antes do 10 de setembro.",
-        "expected": {
-          "dates": [
-            [
-              2018,
-              8,
-              2
-            ]
-          ]
-        }
-      },
-      {
-        "level": 5,
         "question": "Descobrir a data de 2 meses, 1 semana e 8 dias antes do 7 de abril.",
         "expected": {
           "dates": [
@@ -641,6 +615,32 @@
               2018,
               1,
               23
+            ]
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "question": "Descobrir a data de 3 meses, 2 semanas e 1 dia a seguir ao 23 de agosto.",
+        "expected": {
+          "dates": [
+            [
+              2018,
+              12,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "question": "Descobrir a data de 1 mês, 1 semana e 1 dia antes do 10 de setembro.",
+        "expected": {
+          "dates": [
+            [
+              2018,
+              8,
+              2
             ]
           ]
         }

@@ -32,7 +32,7 @@
     "share/gcompris-qt/rcc/braille_alphabets.rcc": "e5e9f5ba89ebeb33d6848e3e73716b9615c53480b612f471fd56ba6af38995d8",
     "share/gcompris-qt/rcc/braille_fun.rcc": "8e84b2371cb2f20320f2810ca9ddbb5264a8ba54caa437953a1369b8d2eb9b3c",
     "share/gcompris-qt/rcc/calcudoku.rcc": "2584df29260795285c1afe4ec10fdb8155f68916bc42228240cf0d2f332868ce",
-    "share/gcompris-qt/rcc/calendar.rcc": "ecc4c8e1ad92dc56a94b7212114c404ce14fc0076905bc678c35228598c763a4",
+    "share/gcompris-qt/rcc/calendar.rcc": "b55359240b81a0802c7a2a06c5fc859ed3a0df897569336a35d9bfad54269ed5",
     "share/gcompris-qt/rcc/canal_lock.rcc": "a874e989a1cc0f1dde646084a759c33a43319b1efda58327412744a43345cce4",
     "share/gcompris-qt/rcc/categorization.rcc": "7c5773426732705615202ae412a2f7606a00954c229149113c19583fd646f04e",
     "share/gcompris-qt/rcc/checkers.rcc": "aac56b0df6a33d7da77a5b0225eb18c724946eef504ddbaea1874e3ef0d2addb",
@@ -278,28 +278,28 @@
   "activity": "calendar",
   "locale": "pt_PT",
   "qml_file": "calendar/Calendar.qml",
-  "source_sha256": "1c1d6c4c40a7f44b26fa2cc9593a7acf0de4306ca62d3e3522234fa8cf9d3d92",
+  "source_sha256": "035329c1a51f8cf0fb109b81a27d949830829aaffeb0673f220e7de5d6560ba7",
   "portuguese_catalogue_sha256": "30584f0bd2e712201132a789be4ac59c84498fe3cbd736d6cbb72e74c8169286",
   "private_qm_sha256": "95c1fbeb847733932a36aeefb009ccaefe720097dde16546775f62349789540d",
   "case_sha256": "1077773c4dc61cecd0af5690345b76bdd061855c18c15d120c339c91444c2831",
-  "private_rcc_sha256": "ecc4c8e1ad92dc56a94b7212114c404ce14fc0076905bc678c35228598c763a4",
+  "private_rcc_sha256": "b55359240b81a0802c7a2a06c5fc859ed3a0df897569336a35d9bfad54269ed5",
   "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
   "runner_sha256": "612889370d52dc3c643f894c58dd22fdd6073c245525d5e8502791527fd6ec42",
-  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars/.scratch/pt-pt/functional-calendars/.native-qml-14ce90d2d41348d3b5344252a7022713",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars/.scratch/pt-pt/functional-calendars/.native-qml-966f5b39c8314752ba43d287251f3a07",
   "version_code": 260200,
   "network": "docker-none",
-  "timestamp_utc": "2026-10-16T00:58:38.421092+00:00",
+  "timestamp_utc": "2026-10-16T01:05:37.644918+00:00",
   "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
   "screenshots": [
     {
       "file": "help.png",
-      "sha256": "35370dab9df4f690f895c643bbbdcc3cf03c410a67128812b7926ab5996da24c",
-      "bytes": 93596
+      "sha256": "07441b51193d3921e61b6663702e4057e4fef69bdb834fe59bd0938847f483d6",
+      "bytes": 93567
     },
     {
       "file": "menu.png",
-      "sha256": "e952c250910a87949cbe335c1fbcb19b80f210e10725532d7cbcde612b106854",
-      "bytes": 166828
+      "sha256": "7c98b0f99d95c4382deb831f48ae1be782b48886e371f6cddd0b6c5acae5f165",
+      "bytes": 168890
     }
   ],
   "passed": true,

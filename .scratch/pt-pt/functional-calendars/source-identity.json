@@ -1,9 +1,9 @@
 {
-  "revision": "02c4675f67bf273448cffb643d80008fae308a77",
+  "revision": "64d35aaef27df1b2eaa11d18d4441bebdbe5e9c7",
   "files": {
     "src/activities/calendar/ActivityInfo.qml": "1f2109891f0d6f0a88184d79288e8ae6d046c3bc2f660cd61a71c92bbe436d68",
     "src/activities/calendar/CMakeLists.txt": "d7f381041b16c738ffaed3f5bf53660140557e62e7ac81b1cf07b3d40821a8a9",
-    "src/activities/calendar/Calendar.qml": "1c1d6c4c40a7f44b26fa2cc9593a7acf0de4306ca62d3e3522234fa8cf9d3d92",
+    "src/activities/calendar/Calendar.qml": "035329c1a51f8cf0fb109b81a27d949830829aaffeb0673f220e7de5d6560ba7",
     "src/activities/calendar/ChoiceTable.qml": "d4c58c14cde1de709d7123063e93f3da75b892b76eee722e059b2bb75e365814",
     "src/activities/calendar/MonthGridDelegate.qml": "47fa13b9f1686f03a7821f03693ac6f756ce09d9bf03d62c0a86dc979bc808f5",
     "src/activities/calendar/calendar.js": "347bdb3cba1093655ab4c03ced876b531a1146c14dc6a80e56bcfc7a849a19cc",

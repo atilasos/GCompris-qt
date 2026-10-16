@@ -1,72 +1,67 @@
-# Calendários, tarefa 62 em curso
+# Calendários em português de Portugal
 
-O intérprete gregoriano independente verificou as 70 perguntas dos 12 níveis.
-Cinco testes puros verificam datas, semanas, meses, ano bissexto e ordinais.
-O título do mês/ano estava oculto com a navegação bloqueada. O caso nativo
-idêntico ficou verde ao manter o título visível, sem desbloquear os botões.
+As campanhas finais concluíram 70 perguntas dos 12 níveis: 44 perguntas em
+sete níveis de calendar e 26 perguntas em cinco níveis de find_the_day.
+Houve 12 escolhas erradas rejeitadas, 12 Bonus e transições naturais.
 
-Foram corrigidas maiúsculas de meses e dias a meio de 47 instruções PT.
-O caso orthography.qml falhou com o catálogo anterior e concluiu as cinco
-perguntas do nível 5 com o catálogo corrigido, sem alterar o caso.
+O oráculo interpreta o enunciado original com calendário gregoriano Python,
+calcula datas, meses e dias da semana e verifica separadamente os dados
+publicados. No Qt, a pergunta PT desenhada identifica esse resultado próprio.
+Os testes escolhem pela data e destaque visíveis, cabeçalho do mês/ano e
+nomes portugueses dos dias. Não leem correctAnswer, dataset, modelos ou
+funções do motor para obter respostas e não alteram progresso ou relógios.
 
-month-navigation-red demonstra 31 de janeiro → março ao clicar uma vez para
-avançar. A correção deste salto de mês e as campanhas completas ainda estão
-pendentes neste checkpoint. As primeiras campanhas pararam no segundo nível:
-o fixture esperava «segunda-feira», mas a etiqueta exposta é «Segunda». O
-fixture passou a aceitar a forma abreviada correta. Estes ensaios ficam em
-fixture-weekdays-* e não contam como campanhas completas positivas.
+Três defeitos de interface e uma correção de ortografia têm casos nativos
+idênticos antes e depois:
 
-Nenhuma aprovação global Linux, Windows, hardware, audição ou docente.
+- O mês/ano ficava oculto quando a navegação estava bloqueada. Agora o título
+  permanece visível e os botões continuam bloqueados.
+- Avançar a partir de 31 de janeiro saltava fevereiro. A mudança de mês passa
+  pelo dia 1 e ajusta a seleção ao último dia válido. O caso cobre ambos os
+  sentidos e o destaque do dia 28.
+- End em 30 de janeiro selecionava fevereiro. Agora seleciona 31 de janeiro.
+- Foram corrigidas maiúsculas a meio de 47 instruções. A lista before/after
+  está em orthography-changes.json para revisão docente. O vermelho registou
+  explicitamente «Descobre um mês que começa num Sábado»; o verde concluiu
+  as cinco perguntas do nível 5. Nesse par só mudou o catálogo.
 
-## Campanhas e controlos finais
+Dois casos de controlos verificam setas, Home/End, PageUp/PageDown, limites,
+navegação anterior/seguinte, reinício após progresso, respostas de dias da
+semana por Return, Espaço e Enter, ajuda PT/Escape, nova tecla após ajuda e
+menu. Não existe seletor de datasets nestas duas atividades.
 
-Depois da correção do salto de mês, as duas campanhas completas concluíram
-44 perguntas em sete níveis de calendar e 26 perguntas em cinco níveis de
-find_the_day. São 70 perguntas, 12 escolhas erradas rejeitadas e 12 Bonus.
-As campanhas de fixture anteriores não contam como conclusões finais.
+Dois inventários copiaram 26 recursos QRC e carregaram os SVG com Image.Ready.
+As quatro cópias WAV descodificaram para GStreamer fakesink, sem reprodução
+física ou audição. Não foram alteradas gravações.
 
-Os controlos das duas atividades passaram: setas, Home/End, PageUp/PageDown,
-limites, navegação anterior/seguinte com reinício, respostas de dias da semana
-por Return, Espaço e Enter, ajuda PT/Escape, nova tecla após ajuda e menu.
-Não existe seletor de datasets nestas duas atividades.
+São 14 recibos selecionados: seis casos principais e quatro pares de regressão.
+Os dez positivos terminaram com 0 no Qt e no lançador. Os quatro negativos
+esperados têm uma asserção falhada, processo Qt normal com 0 e lançador com 1.
+As fontes finais de jogo e controlos estão fixadas em 64d35aaef; os inventários
+foram recolhidos em 02c4675f6, antes da correção de End, que só altera o QML
+instrumentado, excluído das cópias QRC. Os restantes recursos são byte a byte
+iguais. As fases históricas do título e catálogo estão em bde22db2e e db2f86383.
+O snapshot privado tem 269 ficheiros; Docker está sem rede e usa perfis novos.
 
-Dois inventários copiaram bytes QRC originais e carregaram SVG com Image.Ready.
-As quatro cópias WAV descodificaram em software para fakesink; sem reprodução
-física. Os fontes finais são 02c4675f67bf273448cffb643d80008fae308a77.
+As campanhas antes da correção de End, com 70 perguntas e os seus controlos,
+foram preservadas em before-month-end-*. Os 24 ficheiros originais foram
+conferidos byte a byte contra Git e não se somam à campanha final. Os primeiros
+ensaios fixture-weekdays-* pararam porque esperavam «segunda-feira», enquanto
+a etiqueta exposta é «Segunda». O fixture passou a aceitar a abreviatura
+correta, sem alterar produção. As provas orthography-green anteriores também
+ficam fora das contagens principais.
 
-Três regressões têm casos idênticos antes/depois: título oculto, maiúsculas
-nas instruções e salto de mês a partir do dia 31. orthography-diagnostic-red
-regista explicitamente a asserção e texto com «Sábado»; o verde conclui as
-cinco perguntas. O único input alterado nesse par é o catálogo. A cópia
-separada de catálogo antigo foi removida após terminar os dois processos;
-o auditor usa o catálogo Git db2f86383 e não depende dessa pasta.
-
-O ponto anterior deste documento descreve o checkpoint histórico; as campanhas
-acima já terminaram com 0 no lançador e nos recibos. A auditoria e revisão final
-continuam pendentes até à consolidação. Nenhum critério global foi aprovado.
-
-## Auditoria final
-
-A auditoria passou com 12 recibos selecionados: seis casos principais e três
-pares de regressão, com nove resultados positivos e três negativos esperados.
-Os negativos terminam normalmente no processo Qt com 0, mas têm uma asserção
-falhada e o lançador termina com 1. Os nove positivos têm ambas as saídas 0.
-O caso orthography-green anterior é uma prova adicional histórica, não acrescenta
-perguntas nem níveis à contagem principal de 70/12.
-
-Os casos e recursos estão fixados no commit 253a90e85, as fontes finais em
-02c4675f6, a fase do título em bde22db2e e o catálogo anterior em db2f86383.
 O auditor confere listas exatas e SHA de fontes, catálogo por fase, lançador,
-casos, snapshot efetivo de 269 ficheiros, capturas, bytes QRC e todas as
-perguntas/respostas gregorianas. Não abre ficheiros de worktrees antigas nem
-usa o catálogo corrente. Onze testes puros incluem cópia independente,
-remoção de pergunta e adulteração de fonte/catálogo, caso, recurso e inventário.
+casos, snapshot efetivo, capturas, bytes QRC e todas as perguntas gregorianas.
+Usa revisões Git imutáveis e não depende do catálogo corrente ou de caminhos
+de worktrees antigas. Onze testes puros incluem cópia independente e rejeição
+de adulteração de pergunta, fonte/catálogo, caso, recurso e inventário.
 
 ```sh
 python3 tests/functional_calendars/audit.py
 python3 -m unittest discover -s tests/functional_calendars -p 'test_*.py'
 ```
 
-As 47 correções de ortografia constam de orthography-changes.json, para revisão
-docente. A revisão independente do código e das provas finais fica registada
-separadamente. A aceitação global permanece pendente.
+A revisão independente final é registada separadamente. Continuam pendentes
+aceitação global Linux, Windows 10 da escola, dispositivos físicos, touch,
+audição e revisão docente. As provas Linux não aprovam esses critérios.

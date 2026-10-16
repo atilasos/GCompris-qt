@@ -32,7 +32,7 @@
     "share/gcompris-qt/rcc/braille_alphabets.rcc": "e5e9f5ba89ebeb33d6848e3e73716b9615c53480b612f471fd56ba6af38995d8",
     "share/gcompris-qt/rcc/braille_fun.rcc": "8e84b2371cb2f20320f2810ca9ddbb5264a8ba54caa437953a1369b8d2eb9b3c",
     "share/gcompris-qt/rcc/calcudoku.rcc": "2584df29260795285c1afe4ec10fdb8155f68916bc42228240cf0d2f332868ce",
-    "share/gcompris-qt/rcc/calendar.rcc": "949bc1f8686b69f3b4f91007826c58b9660f211fcc05d097c4e788b6da7a88e5",
+    "share/gcompris-qt/rcc/calendar.rcc": "cb3d0ef503b58422befecc6ec2ef0db264d394a511f76cc3c1ca19ce3166581f",
     "share/gcompris-qt/rcc/canal_lock.rcc": "a874e989a1cc0f1dde646084a759c33a43319b1efda58327412744a43345cce4",
     "share/gcompris-qt/rcc/categorization.rcc": "7c5773426732705615202ae412a2f7606a00954c229149113c19583fd646f04e",
     "share/gcompris-qt/rcc/checkers.rcc": "aac56b0df6a33d7da77a5b0225eb18c724946eef504ddbaea1874e3ef0d2addb",
@@ -278,53 +278,53 @@
   "activity": "calendar",
   "locale": "pt_PT",
   "qml_file": "calendar/Calendar.qml",
-  "source_sha256": "1c1d6c4c40a7f44b26fa2cc9593a7acf0de4306ca62d3e3522234fa8cf9d3d92",
+  "source_sha256": "035329c1a51f8cf0fb109b81a27d949830829aaffeb0673f220e7de5d6560ba7",
   "portuguese_catalogue_sha256": "30584f0bd2e712201132a789be4ac59c84498fe3cbd736d6cbb72e74c8169286",
   "private_qm_sha256": "95c1fbeb847733932a36aeefb009ccaefe720097dde16546775f62349789540d",
   "case_sha256": "14930dc3914f1f4d3111b8a263243f16962438e031f6909a5c1d16fa33b44236",
-  "private_rcc_sha256": "949bc1f8686b69f3b4f91007826c58b9660f211fcc05d097c4e788b6da7a88e5",
+  "private_rcc_sha256": "cb3d0ef503b58422befecc6ec2ef0db264d394a511f76cc3c1ca19ce3166581f",
   "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
   "runner_sha256": "612889370d52dc3c643f894c58dd22fdd6073c245525d5e8502791527fd6ec42",
-  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars/.scratch/pt-pt/functional-calendars/.native-qml-72899274ceb14f63942555bd56941cc6",
+  "deployment": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars/.scratch/pt-pt/functional-calendars/.native-qml-25000703aa2b4bdea5ee1e6f6c1c9c6c",
   "version_code": 260200,
   "network": "docker-none",
-  "timestamp_utc": "2026-10-16T00:57:18.387797+00:00",
+  "timestamp_utc": "2026-10-16T01:05:37.678326+00:00",
   "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
   "screenshots": [
     {
       "file": "level-1.png",
-      "sha256": "61696d33b652f8593dd6096ce60edb7dfcd96d769d4a5a621e32e43c8f684a08",
-      "bytes": 104657
+      "sha256": "c3b00abedf8b5d94c7c4459a3550482f5a3bdf385a4f5ca9cf36110f47e97339",
+      "bytes": 111281
     },
     {
       "file": "level-2.png",
-      "sha256": "9a053ace7648886598c14c4d39d83f9857f34f29140b220d3bfde4902f04a517",
-      "bytes": 136768
+      "sha256": "61c598b64b684b8a890c70dfecd96a629149e81f7955e78beeba84c75bbcfe8b",
+      "bytes": 139920
     },
     {
       "file": "level-3.png",
-      "sha256": "80ac374b75205a45d8e39c9364dbde4405d4ccfdd46c66d508f5c49b373e201a",
-      "bytes": 103013
+      "sha256": "98f8b3e7d627798738d5c917768adbe01e168ef3d72b9df6c34c9d4dda2f7252",
+      "bytes": 109113
     },
     {
       "file": "level-4.png",
-      "sha256": "594ae25607c4219e58518f80101e0daff2684360c7e86750b5dfae911c5968a1",
-      "bytes": 104248
+      "sha256": "33e1e9dc84d93ba77f48103dd19f566da18b466e65b8caec668e2f79b8bba485",
+      "bytes": 108726
     },
     {
       "file": "level-5.png",
-      "sha256": "2a4dffcb380b00a5d0d69f928bdf89fab1b8b9b102a32030ccc854bb3e83ad1a",
-      "bytes": 108853
+      "sha256": "da34f273a9f81eaafdba6fca785bb7410555da074baa80c47d19f377f04bd765",
+      "bytes": 113482
     },
     {
       "file": "level-6.png",
-      "sha256": "11a8fc36bb3630719e725f95a35b1d697188c2701ba6ecdc2f9f8231194605d6",
-      "bytes": 109861
+      "sha256": "c32548020d9af3fa07d1bd846b6fa7bb297fde301321936762bf853f9a17e7b4",
+      "bytes": 114473
     },
     {
       "file": "level-7.png",
-      "sha256": "bedc0ec8f7bf6f5747b4b8ce68a371c5ff75da987cea2082792908aa79002f94",
-      "bytes": 113724
+      "sha256": "a1e199fe7f393918b3f25534628711ad16fa400499b1fd9c81ea3b2b4b3b3c68",
+      "bytes": 119669
     }
   ],
   "passed": true,
@@ -367,6 +367,19 @@
     "answered": [
       {
         "level": 1,
+        "question": "Selecionar o dia 20",
+        "expected": {
+          "dates": [
+            [
+              2018,
+              3,
+              20
+            ]
+          ]
+        }
+      },
+      {
+        "level": 1,
         "question": "Selecionar o dia 11",
         "expected": {
           "dates": [
@@ -374,19 +387,6 @@
               2018,
               3,
               11
-            ]
-          ]
-        }
-      },
-      {
-        "level": 1,
-        "question": "Selecionar o dia 28",
-        "expected": {
-          "dates": [
-            [
-              2018,
-              3,
-              28
             ]
           ]
         }
@@ -406,13 +406,26 @@
       },
       {
         "level": 1,
-        "question": "Selecionar o dia 20",
+        "question": "Selecionar o dia 1",
         "expected": {
           "dates": [
             [
               2018,
               3,
-              20
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "level": 1,
+        "question": "Selecionar o dia 28",
+        "expected": {
+          "dates": [
+            [
+              2018,
+              3,
+              28
             ]
           ]
         }
@@ -431,33 +444,11 @@
         }
       },
       {
-        "level": 1,
-        "question": "Selecionar o dia 1",
-        "expected": {
-          "dates": [
-            [
-              2018,
-              3,
-              1
-            ]
-          ]
-        }
-      },
-      {
         "level": 2,
-        "question": "Que dia da semana é o 16º do mês indicado?",
+        "question": "Que dia da semana é o 10º do mês indicado?",
         "expected": {
           "weekdays": [
-            5
-          ]
-        }
-      },
-      {
-        "level": 2,
-        "question": "Que dia da semana é o 28º do mês indicado?",
-        "expected": {
-          "weekdays": [
-            3
+            6
           ]
         }
       },
@@ -472,15 +463,6 @@
       },
       {
         "level": 2,
-        "question": "Que dia da semana é o 22º do mês indicado?",
-        "expected": {
-          "weekdays": [
-            4
-          ]
-        }
-      },
-      {
-        "level": 2,
         "question": "Que dia da semana é o 12º do mês indicado?",
         "expected": {
           "weekdays": [
@@ -490,19 +472,63 @@
       },
       {
         "level": 2,
-        "question": "Que dia da semana é o 10º do mês indicado?",
+        "question": "Que dia da semana é o 20º do mês indicado?",
         "expected": {
           "weekdays": [
-            6
+            2
           ]
         }
       },
       {
         "level": 2,
-        "question": "Que dia da semana é o 20º do mês indicado?",
+        "question": "Que dia da semana é o 22º do mês indicado?",
         "expected": {
           "weekdays": [
-            2
+            4
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "question": "Que dia da semana é o 28º do mês indicado?",
+        "expected": {
+          "weekdays": [
+            3
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "question": "Que dia da semana é o 16º do mês indicado?",
+        "expected": {
+          "weekdays": [
+            5
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "question": "Seleciona uma segunda-feira entre os dias 1 e 7 do mês indicado",
+        "expected": {
+          "dates": [
+            [
+              2018,
+              3,
+              5
+            ]
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "question": "Seleciona uma sexta-feira entre os dias 20 e 25 do mês indicado",
+        "expected": {
+          "dates": [
+            [
+              2018,
+              3,
+              23
+            ]
           ]
         }
       },
@@ -534,26 +560,13 @@
       },
       {
         "level": 3,
-        "question": "Seleciona um sábado entre os dias 13 e 23 do mês indicado",
+        "question": "Seleciona uma quinta-feira entre os dias 26 e 31 do mês indicado",
         "expected": {
           "dates": [
             [
               2018,
               3,
-              17
-            ]
-          ]
-        }
-      },
-      {
-        "level": 3,
-        "question": "Seleciona uma sexta-feira entre os dias 20 e 25 do mês indicado",
-        "expected": {
-          "dates": [
-            [
-              2018,
-              3,
-              23
+              29
             ]
           ]
         }
@@ -573,39 +586,13 @@
       },
       {
         "level": 3,
-        "question": "Seleciona uma segunda-feira entre os dias 1 e 7 do mês indicado",
+        "question": "Seleciona um sábado entre os dias 13 e 23 do mês indicado",
         "expected": {
           "dates": [
             [
               2018,
               3,
-              5
-            ]
-          ]
-        }
-      },
-      {
-        "level": 3,
-        "question": "Seleciona uma quinta-feira entre os dias 26 e 31 do mês indicado",
-        "expected": {
-          "dates": [
-            [
-              2018,
-              3,
-              29
-            ]
-          ]
-        }
-      },
-      {
-        "level": 4,
-        "question": "Seleciona o terceiro dia a seguir ao dia 27 do mês indicado",
-        "expected": {
-          "dates": [
-            [
-              2018,
-              3,
-              30
+              17
             ]
           ]
         }
@@ -625,19 +612,6 @@
       },
       {
         "level": 4,
-        "question": "Seleciona a quinta quinta-feira do mês indicado",
-        "expected": {
-          "dates": [
-            [
-              2018,
-              3,
-              29
-            ]
-          ]
-        }
-      },
-      {
-        "level": 4,
         "question": "Seleciona o dia que fica uma semana a seguir ao dia 13 do mês indicado",
         "expected": {
           "dates": [
@@ -645,6 +619,19 @@
               2018,
               3,
               20
+            ]
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "question": "Seleciona o terceiro dia a seguir ao dia 27 do mês indicado",
+        "expected": {
+          "dates": [
+            [
+              2018,
+              3,
+              30
             ]
           ]
         }
@@ -659,6 +646,38 @@
               3,
               25
             ]
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "question": "Seleciona a quinta quinta-feira do mês indicado",
+        "expected": {
+          "dates": [
+            [
+              2018,
+              3,
+              29
+            ]
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "question": "Descobre o mês entre junho e agosto",
+        "expected": {
+          "months": [
+            7
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "question": "Descobre um mês que começa num sábado",
+        "expected": {
+          "months": [
+            9,
+            12
           ]
         }
       },
@@ -686,29 +705,62 @@
       },
       {
         "level": 5,
-        "question": "Descobre o mês entre junho e agosto",
-        "expected": {
-          "months": [
-            7
-          ]
-        }
-      },
-      {
-        "level": 5,
-        "question": "Descobre um mês que começa num sábado",
-        "expected": {
-          "months": [
-            9,
-            12
-          ]
-        }
-      },
-      {
-        "level": 5,
         "question": "Descobre o mês que começa a uma quinta-feira e tem 28 dias",
         "expected": {
           "months": [
             2
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "question": "Descobre o quinto domingo do mês de abril do ano 2018",
+        "expected": {
+          "dates": [
+            [
+              2018,
+              4,
+              29
+            ]
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "question": "Descobre o quinto domingo do mês de outubro do ano 2017",
+        "expected": {
+          "dates": [
+            [
+              2017,
+              10,
+              29
+            ]
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "question": "Descobre a primeira segunda-feira do mês de janeiro do ano 2019",
+        "expected": {
+          "dates": [
+            [
+              2019,
+              1,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "question": "Descobre a quarta terça-feira do mês de julho do ano 2018",
+        "expected": {
+          "dates": [
+            [
+              2018,
+              7,
+              24
+            ]
           ]
         }
       },
@@ -740,6 +792,19 @@
       },
       {
         "level": 6,
+        "question": "Descobre a segunda quarta-feira do mês de fevereiro do ano 2019",
+        "expected": {
+          "dates": [
+            [
+              2019,
+              2,
+              13
+            ]
+          ]
+        }
+      },
+      {
+        "level": 6,
         "question": "Descobre a segunda sexta-feira do mês de dezembro do ano 2017",
         "expected": {
           "dates": [
@@ -747,19 +812,6 @@
               2017,
               12,
               8
-            ]
-          ]
-        }
-      },
-      {
-        "level": 6,
-        "question": "Descobre a primeira segunda-feira do mês de janeiro do ano 2019",
-        "expected": {
-          "dates": [
-            [
-              2019,
-              1,
-              7
             ]
           ]
         }
@@ -778,53 +830,27 @@
         }
       },
       {
-        "level": 6,
-        "question": "Descobre o quinto domingo do mês de outubro do ano 2017",
+        "level": 7,
+        "question": "O Dia Internacional da Mulher celebra-se dois dias antes de 10 de março.<br/>Descobre a data do Dia Internacional da Mulher em 2018.",
+        "expected": {
+          "dates": [
+            [
+              2018,
+              3,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "level": 7,
+        "question": "A competição desportiva ocorreu na última sexta-feira de setembro de 2017.<br/>Seleciona a data da competição no calendário.",
         "expected": {
           "dates": [
             [
               2017,
-              10,
+              9,
               29
-            ]
-          ]
-        }
-      },
-      {
-        "level": 6,
-        "question": "Descobre o quinto domingo do mês de abril do ano 2018",
-        "expected": {
-          "dates": [
-            [
-              2018,
-              4,
-              29
-            ]
-          ]
-        }
-      },
-      {
-        "level": 6,
-        "question": "Descobre a quarta terça-feira do mês de julho do ano 2018",
-        "expected": {
-          "dates": [
-            [
-              2018,
-              7,
-              24
-            ]
-          ]
-        }
-      },
-      {
-        "level": 6,
-        "question": "Descobre a segunda quarta-feira do mês de fevereiro do ano 2019",
-        "expected": {
-          "dates": [
-            [
-              2019,
-              2,
-              13
             ]
           ]
         }
@@ -864,32 +890,6 @@
               2017,
               12,
               10
-            ]
-          ]
-        }
-      },
-      {
-        "level": 7,
-        "question": "A competição desportiva ocorreu na última sexta-feira de setembro de 2017.<br/>Seleciona a data da competição no calendário.",
-        "expected": {
-          "dates": [
-            [
-              2017,
-              9,
-              29
-            ]
-          ]
-        }
-      },
-      {
-        "level": 7,
-        "question": "O Dia Internacional da Mulher celebra-se dois dias antes de 10 de março.<br/>Descobre a data do Dia Internacional da Mulher em 2018.",
-        "expected": {
-          "dates": [
-            [
-              2018,
-              3,
-              8
             ]
           ]
         }
