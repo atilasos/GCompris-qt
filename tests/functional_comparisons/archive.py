@@ -36,9 +36,12 @@ def freeze(output):
     for name in names:
         data=git('show',commit+':'+name);path=output/'files'/name;path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(data)
         files[name]={'sha256':sha(path),'bytes':len(data)}
-    relative='src/activities/adjacent_numbers/Adjacent_numbers.qml';path=output/'red'/relative;path.parent.mkdir(parents=True);path.write_bytes(git('show',red+':'+relative))
+    red_files={}
+    for relative in ('src/activities/adjacent_numbers/Adjacent_numbers.qml','src/activities/adjacent_numbers/adjacent_numbers.js'):
+        path=output/'red'/relative;path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(git('show',red+':'+relative))
+        red_files[relative]={'sha256':sha(path),'bytes':path.stat().st_size}
     assert git('show',commit+':src/activities/comparator/Comparator.qml')==git('show',COMPARATOR+':src/activities/comparator/Comparator.qml')
-    manifest={'version':1,'source_commit':commit,'red_commit':red,'files':files,'red':{relative:{'sha256':sha(path),'bytes':path.stat().st_size}}}
+    manifest={'version':1,'source_commit':commit,'red_commit':red,'files':files,'red':red_files}
     (output/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n');verify(output);return manifest
 
 

@@ -17,7 +17,7 @@ if not __debug__:
     raise RuntimeError('Evidence checks require Python assertions; run without optimisation')
 
 SOURCE='e38441ab1e30fe543db96b35a913857f70153dc9'
-ARCHIVE='fcb173f1fe9ebcb9902f2b52577b53e83659ef389e92f71ebee5a2a4e88645a4'
+ARCHIVE='358e891a94e89235ae88911316ceb803ab55a3cc4f60f4310845cd8c45d06156'
 CAPTURE='PENDING'
 BASE='.scratch/pt-pt/functional-comparisons'
 DEFAULT=Path(__file__).resolve().parents[2]/BASE

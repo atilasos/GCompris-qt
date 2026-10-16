@@ -37,9 +37,9 @@ aleatórias exercitadas não esgotam todas as combinações.
 A fonte final é `e38441ab1e30fe543db96b35a913857f70153dc9`.
 `archive/` contém 262 ficheiros Git, com catálogo, casos gerados,
 launcher/supervisor, manifesto do snapshot e recursos originais. Conserva
-também o QML vermelho de `d76b8408a`. O comparador final é byte a byte igual
+também o QML e o JavaScript vermelhos de `d76b8408a`. O comparador final é byte a byte igual
 à sua fonte em `7e334d5ee`. SHA-256 do manifesto de fontes:
-`fcb173f1fe9ebcb9902f2b52577b53e83659ef389e92f71ebee5a2a4e88645a4`.
+`358e891a94e89235ae88911316ceb803ab55a3cc4f60f4310845cd8c45d06156`.
 
 `capture.json` ligará os nove diretórios selecionados a blobs de um commit
 Git imutável. O auditor fixa o SHA desse manifesto, além do SHA de fontes.
