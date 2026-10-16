@@ -353,3 +353,9 @@ A tarefa 82 tem 24 contratos públicos e 50 execuções documentadas. Está
 `ready-for-review`, aguardando Standards e Spec independentes. Não representa
 conclusão dos jogos, não acrescenta ligações funcionais à matriz nem altera
 critérios globais, Windows, hardware, áudio ou revisão docente.
+
+- [83 — Encerramento intermitente após penáltis](issues/83-encerramento-penalty.md)
+
+A ocorrência original139 da tarefa81 fica preservada e em investigação separada.
+Três repetições completas0 não demonstram a sua causa nem ausência futura.
+A estabilidade e a aceitação global permanecem pendentes.
