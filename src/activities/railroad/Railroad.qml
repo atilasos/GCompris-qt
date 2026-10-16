@@ -73,7 +73,8 @@ ActivityBase {
             property var uniqueId: []
         }
 
-        onStart: { Activity.start(items) }
+        onStart: {
+            activity.numberOfLevel = items.numberOfLevel; Activity.start(items) }
         onStop: {
             trainSound.stop()
             Activity.stop()

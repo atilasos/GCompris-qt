@@ -1,7 +1,7 @@
 # Puzzles deslizantes de quinze e dezasseis peças
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -80,3 +80,8 @@ continuam pendentes. Nenhum critério global foi aprovado por este lote.
 Provas integradas para Standards e Spec independentes. `ready-for-review`
 não representa resolução final ou aceitação global. A composição do baseline
 funcional com provas PT dirigidas não equivale a nova execução final de 28 níveis.
+
+## Fecho de revisão
+
+Standards e Spec sem achados acionáveis; [relatórios](../review/integration77/).
+Resolução limitada à prova Linux publicada, sem alterar critérios globais.

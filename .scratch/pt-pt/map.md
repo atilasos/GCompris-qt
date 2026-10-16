@@ -159,7 +159,7 @@ e os restantes critérios de aceitação mantêm os seus estados próprios.
 
 A memória matemática concluiu 14 variantes e 207 combinações nível/modo;
 decimais/quantidades concluíram 316 puzzles em 16 campanhas offline e quatro casos de controlos.
-As 123 atividades com evidência funcional ligada na matriz não representam
+As 125 atividades com evidência funcional ligada na matriz não representam
 a aceitação global dos 203 jogos.
 
 - [40 — Contrato dos níveis do Solitário](issues/40-niveis-solitario.md)
@@ -327,14 +327,35 @@ Windows, hardware, áudio ou revisão docente.
 - [79 — Desafios aritméticos](issues/79-desafios-aritmeticos.md)
 
 A tarefa 76 tem prova Linux integrada de 80 tarefas/13 níveis e 13 erros
-reparados em orientação/rato. Está `ready-for-review`, aguardando Standards
-e Spec independentes. Três ligações foram acrescentadas sem alterar critérios
+reparados em orientação/rato. Fica resolvida no âmbito Linux após Standards
+e Spec sem achados; [relatórios](review/integration76/). Três ligações mantêm critérios
 globais, Windows, hardware, áudio ou revisão docente.
 
 - [80 — Jogos de alinhamento](issues/80-jogos-alinhamento.md)
 
 A tarefa 77 tem provas integradas de 28 níveis dos puzzles deslizantes, com
 baseline funcional e provas dirigidas da ajuda/arte PT final, sem declarar
-nova execução final dos 28 níveis. Está `ready-for-review`, aguardando
-Standards e Spec independentes. Duas ligações mantêm os critérios globais,
+nova execução final dos 28 níveis. Fica resolvida no âmbito Linux após
+Standards e Spec sem achados; [relatórios](review/integration77/).
+Duas ligações mantêm os critérios globais,
 Windows, hardware, áudio e revisão docente pendentes.
+
+- [81 — Coordenação com a bola](issues/81-coordenacao-com-bola.md)
+
+- [82 — Contagens públicas dos níveis](issues/82-contratos-publicos-niveis.md)
+
+A tarefa 79 tem provas Linux integradas de 186 perguntas principais/31 níveis
+e quatro perguntas de editor, sem confundir entradas estáticas com partidas.
+Está `ready-for-review`, aguardando Standards e Spec independentes. Duas
+ligações mantêm os critérios globais, Windows, hardware, áudio e docente pendentes.
+
+A tarefa 82 tem 24 contratos públicos e 50 execuções documentadas. Está
+`ready-for-review`, aguardando Standards e Spec independentes. Não representa
+conclusão dos jogos, não acrescenta ligações funcionais à matriz nem altera
+critérios globais, Windows, hardware, áudio ou revisão docente.
+
+- [83 — Encerramento intermitente após penáltis](issues/83-encerramento-penalty.md)
+
+A ocorrência original139 da tarefa81 fica preservada e em investigação separada.
+Três repetições completas0 não demonstram a sua causa nem ausência futura.
+A estabilidade e a aceitação global permanecem pendentes.

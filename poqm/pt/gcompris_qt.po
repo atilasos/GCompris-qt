@@ -17032,7 +17032,7 @@ msgstr "Não Selecionado"
 #: activities/guesscount/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Guesscount"
-msgstr "Conde das Adivinhas"
+msgstr "Adivinha a conta"
 
 #. Help title
 #: activities/guesscount/ActivityInfo.qml:21
@@ -17082,7 +17082,7 @@ msgstr "o resultado não é um inteiro"
 #, qt-format
 msgctxt "Guesscount|"
 msgid "Guesscount: %1"
-msgstr "Conde das Adivinhas: %1"
+msgstr "Número a obter: %1"
 
 #: activities/guesscount/OperandRow.qml:38
 msgctxt "OperandRow|"

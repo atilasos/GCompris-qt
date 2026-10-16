@@ -1,0 +1,285 @@
+{
+  "inventory_tool_sha256": "dce862eb7728c70e51033e40dd080a56479d7e56e43aa1b398538b8154028492",
+  "commands": [
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-d9c730a5c7a94c3fb7d370e96b71d979/share/gcompris-qt/rcc/guess24.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/guess24-01"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-ac064c7ce70b489b826a2a71e892ab29/share/gcompris-qt/rcc/guess24.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/guess24-02"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-e37b1cb5b4004b5ca39bb746ada09ee5/share/gcompris-qt/rcc/guess24.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/guess24-03"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-3ba438669e75414382d99ad5749906fe/share/gcompris-qt/rcc/guess24.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/guess24-04"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-d04b571290c54cdb8e36fa4f39d9b1c7/share/gcompris-qt/rcc/guess24.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/guess24-05"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-f90b89c7a01743898f86ec683b52ba7f/share/gcompris-qt/rcc/guess24.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/guess24-06"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-6cde939e70234943b230d785c4306edb/share/gcompris-qt/rcc/guesscount.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/count-01"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-2f6799ded574428a85d396076e049806/share/gcompris-qt/rcc/guesscount.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/count-05"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-58388cce241e486caededab62c54998f/share/gcompris-qt/rcc/guesscount.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/count-15"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-09dd7c078ee242ac94fb3d7250acb5b1/share/gcompris-qt/rcc/guesscount.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/count-11-final"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-7ef351d0b5b74f289d01865db35e8cbf/share/gcompris-qt/rcc/guesscount.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/admin-01"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-7cf09111995f415980653652fb15c16a/share/gcompris-qt/rcc/guesscount.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/admin-05"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-44d61f3199fb4438a7e46fcee2529eb8/share/gcompris-qt/rcc/guess24.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/controls24"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-00023cf571ba4e1496e607ca8199eb78/share/gcompris-qt/rcc/guesscount.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/controls-count-complete"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/.native-qml-82cad24151c94f76a58f4b3058a95f61/share/gcompris-qt/rcc/guesscount.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/pool-red"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/.native-qml-3699d14baab9417682c271f84c295ec4/share/gcompris-qt/rcc/guesscount.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/pool-green"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/.native-qml-2f05b853706c4ce0a1bdb83dffdba0a0/share/gcompris-qt/rcc/guesscount.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/admin-red"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/.native-qml-f44f85f670f84f51b009e8aae8ab4327/share/gcompris-qt/rcc/guesscount.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/admin-green"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/.native-qml-53f646310c6d450b8c7b3cea6295e9b5/share/gcompris-qt/rcc/guesscount.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/unsolvable-red"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/.native-qml-a0b6c60cdec94fb492dc967c5611b1e4/share/gcompris-qt/rcc/guesscount.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/unsolvable-green"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/.native-qml-734660a60a034c77a9340ba82fe1b3cd/share/gcompris-qt/rcc/guesscount.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/label-red"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/.native-qml-1b82a56d7aac4f6f8bb96f31a8b3fbd1/share/gcompris-qt/rcc/guesscount.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/label-green"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/snapshot/share/gcompris-qt/rcc/core.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/import-core"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/imports/src/core/resource/sounds/bonus.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/imports/src/core/resource/sounds/completetask.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/imports/src/core/resource/sounds/crash.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/imports/src/core/resource/sounds/smudge.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/imports/src/core/resource/sounds/bleep.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/snapshot/share/gcompris-qt/rcc/chess.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/import-chess"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/snapshot/share/gcompris-qt/rcc/guesscount.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/exported/import-guesscount"
+      ],
+      "exit_code": 0
+    }
+  ]
+}

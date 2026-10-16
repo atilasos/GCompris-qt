@@ -56,7 +56,8 @@ ActivityBase {
             property bool gotIt: false
         }
 
-        onStart: { Activity.start(items) }
+        onStart: {
+            activity.numberOfLevel = items.numberOfLevel; Activity.start(items) }
         onStop: { Activity.stop() }
 
         GCSoundEffect {

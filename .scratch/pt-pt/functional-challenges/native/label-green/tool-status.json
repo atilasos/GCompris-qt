@@ -1,0 +1,9 @@
+{
+  "format": 1,
+  "kind": "observed-runner-exit-after-wait",
+  "exit_code": 0,
+  "native_receipt_sha256": "5c78b8f73af19dbb70c1a4c928b5923ca09e023df69cfc4d5e06671a41a5e4c1",
+  "case_sha256": "7fcd33e2cd1a57169d76d752fbd5a92251b4e00dcd9825b7f4075cf6eedc7a20",
+  "runner_sha256": "2c66ec91fb877c4ce42db340acd7818c31537b596921a968266cd859466e876b",
+  "capture_sha256": "573ad1b259c1ffa43d3d6c094ba9412c2de75b3cecac72d19d2162ef734f04f6"
+}
