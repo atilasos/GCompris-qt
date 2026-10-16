@@ -28,9 +28,7 @@ def main():
    if saved:
     destination=output/'creations';destination.mkdir();records=[]
     for name in saved:
-     original=Path(name);assert original.resolve().is_relative_to((deployment/'profile').resolve())
-     if not original.is_file():
-      records.append({'file':original.name,'exists':False,'historical_path':str(original)});continue
+     original=Path(name);assert original.resolve().is_relative_to((deployment/'profile').resolve()) and original.is_file()
      with (destination/original.name).open('xb') as stream:stream.write(original.read_bytes())
      records.append({'file':original.name,'sha256':sha(original),'historical_path':str(original)})
     (destination/'files.json').write_text(json.dumps(records,indent=2)+'\n')

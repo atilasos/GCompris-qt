@@ -100,6 +100,7 @@ Qt, launcher, supervisor e capturador são registados separadamente após espera
 ## Repetição da auditoria
 
 `python3 tests/functional_creation/audit.py` usa apenas Python e a cápsula. O ZIP físico está repartido em blocos de 8 MiB, com identidade conjunta literal e sem alterar o arquivo original.
+Os 16 testes finais constam de `tests-final.log`; os retornos observados da auditoria e testes estão em `index.json`.
 `python3 -m unittest discover -s tests/functional_creation` verifica oráculos,
 fronteira da saída e adulteração. A cópia portátil precisa de `audit.py`,
 `pixels.py`, `curves.py` e da pasta `portable-capsule`, sem Git, Qt ou árvore histórica.

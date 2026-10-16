@@ -1,0 +1,52 @@
+{
+  "format": 1,
+  "capsule": "portable-capsule",
+  "capture_sha256": "9b8e6aab0aac15a3c9f8bcd73dcaac8b62a0eb7040181f6c874dd51e27ebeb61",
+  "coverage_receipts": [
+    "simplepaint-levels-v5",
+    "simplepaint-palettes-green",
+    "sketch-tracer-v6",
+    "sketch-tools-v3",
+    "wheels-levels-v4",
+    "fixed-resources",
+    "sketch-labels-green",
+    "wheels-labels-green",
+    "sketch-background-v2",
+    "wheels-controls-v2"
+  ],
+  "coverage": {
+    "simplepaint_levels": 31,
+    "palette_choices": 61,
+    "sketch_tools": 23,
+    "wheel_levels": 2,
+    "fixed_images": 159,
+    "curve_max_errors": [
+      2.9523508441924395,
+      0.9213221610861299
+    ]
+  },
+  "diagnostics_included_in_archive": true,
+  "scope": "Composite native routes; free combinations, Windows, hardware, hearing, teacher and task83 stability pending",
+  "validation_observations": [
+    {
+      "kind": "observed-tools.write_stdin-final-return",
+      "command": "python3 tests/functional_creation/audit.py",
+      "session_id": 36975,
+      "chunk_id": "5ba721",
+      "exit_code": 0,
+      "log": "audit-final.json",
+      "log_sha256": "47ca5b1b3a212c6d0f5a7b7170734376128fbf07e47bb6a6ae6b06ace4286dd1"
+    },
+    {
+      "kind": "observed-tools.write_stdin-final-return",
+      "command": "python3 -m unittest discover -s tests/functional_creation",
+      "session_id": 14816,
+      "chunk_id": "50518c",
+      "exit_code": 0,
+      "tests": 16,
+      "log": "tests-final.log",
+      "log_sha256": "c84d69c61de4baf9ddbe586cccad9ada2242135b0eed3da3ee388eb676fe8f70"
+    }
+  ],
+  "native_tool_returns": "See each immutable cases/*/tool-exit.json, independently observed after wait; never inferred from native status."
+}
