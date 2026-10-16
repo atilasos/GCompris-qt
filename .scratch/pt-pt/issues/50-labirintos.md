@@ -1,7 +1,7 @@
 # Validar os três labirintos em PT-PT
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -17,3 +17,11 @@ transições e Bonus. Ajuda PT, navegação, menu e recursos usados.
 
 Corrigir defeitos só após reprodução nativa vermelho/verde. Conservar comandos,
 hashes e limites; não substituir aceitação Windows, hardware ou docente.
+
+## Answer
+
+150 conclusões principais, 18 tracers por gestos de rato e três controlos,
+27 recibos positivos. Três correções nativas já integradas na parcial.
+Seis testes da auditoria passam. Todas as sessões terminaram com saída zero.
+Provas, fontes fixadas, comandos e limites em `../functional-mazes/README.md`.
+Os critérios globais mantêm-se pendentes.

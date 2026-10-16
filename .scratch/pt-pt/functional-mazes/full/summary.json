@@ -1,0 +1,36 @@
+{
+  "passed": false,
+  "sources_unchanged": false,
+  "cases": [
+    {
+      "case": "maze-normal",
+      "passed": false,
+      "exit_code": 1
+    },
+    {
+      "case": "maze-fast",
+      "passed": false,
+      "exit_code": 1
+    },
+    {
+      "case": "mazeinvisible-normal",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "mazeinvisible-fast",
+      "passed": false,
+      "exit_code": 1
+    },
+    {
+      "case": "mazerelative-normal",
+      "passed": false,
+      "exit_code": 1
+    },
+    {
+      "case": "mazerelative-fast",
+      "passed": false,
+      "exit_code": 1
+    }
+  ]
+}
