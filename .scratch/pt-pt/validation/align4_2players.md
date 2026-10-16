@@ -1,0 +1,5 @@
+# Quatro-em-linha com um amigo
+
+Dez partidas naturais na fase rules: oito vitórias nas quatro direções e dois empates de 42 peças, ambos os jogadores iniciais. Dois casos exatos vermelhos/verdes adicionais reproduzem e corrigem empate prematuro com 40/39 peças. Sem seletor de dificuldade/dataset. Ajuda PT por mesmo caso vermelho/verde, teclado por mesmo caso após reinício na fase final, e controlo final completo: coluna cheia ignorada por rato/Baixo, turnos, pontuação, reinício parcial, setas/volta circular, ajuda/Escape, foco e menu. As dez partidas não são atribuídas à revisão final do layout.
+
+[Arquivo físico, auditor, casos e fases](../functional-alignment/README.md). Eventos Qt reais e software Linux; não se leem modelos ou soluções privadas nem se chama o validador interno. Uma política humana finita por nível, sem exaustão de todos os tabuleiros possíveis. Windows 10/11, dispositivos físicos, audição, acessibilidade e revisão docente continuam pendentes; critérios globais não aprovados.

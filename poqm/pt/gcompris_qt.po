@@ -2105,8 +2105,8 @@ msgid ""
 "Play with Tux. Take turns to click the line in which you want to drop a "
 "token. The first player to create a line of 4 tokens wins."
 msgstr ""
-"Joga com o Tux. Joga por turnos para carregares na linha onde desejas largar "
-"uma peça. O primeiro jogador a criar uma linha de 4 peças ganha."
+"Joga com o Tux. À vez, clica na coluna onde queres deixar cair uma peça. "
+"O primeiro jogador a alinhar quatro peças ganha."
 
 #: activities/align4/ActivityInfo.qml:23
 #: activities/align4_2players/ActivityInfo.qml:23
@@ -2126,8 +2126,8 @@ msgid ""
 "You can use the arrow buttons to manually select the difficulty level. Tux "
 "will play better when you increase the level."
 msgstr ""
-"Poderás usar as teclas dos cursores para selecionares manualmente o nível "
-"de dificuldade. O Tux irá jogar melhor quando aumentares o nível."
+"Usa os botões com setas para selecionar manualmente o nível de dificuldade. "
+"O Tux joga melhor quando aumentas o nível."
 
 #: activities/align4/ActivityInfo.qml:26
 #: activities/align4_2players/ActivityInfo.qml:25
@@ -2160,8 +2160,8 @@ msgid ""
 "Play with a friend. Take turns to click the line in which you want to drop a "
 "token. The first player to create a line of 4 tokens wins."
 msgstr ""
-"Joga com um amigo. À vez, carrega no quadrado que desejas marcar. O primeiro "
-"jogador a criar uma linha de 3 marcas ganha."
+"Joga com um amigo. À vez, clica na coluna onde queres deixar cair uma peça. "
+"O primeiro jogador a alinhar quatro peças ganha."
 
 #. Activity title
 #: activities/alphabet-sequence/ActivityInfo.qml:15

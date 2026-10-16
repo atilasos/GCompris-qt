@@ -63,6 +63,7 @@ ActivityBase {
             onNumberOfLevelChanged: activity.numberOfLevel = numberOfLevel
             property alias bonus: bonus
             property alias repeater: repeater
+            property alias grid: grid
             property alias columns: grid.columns
             property alias rows: grid.rows
             property alias trigTuxMove: trigTuxMove
