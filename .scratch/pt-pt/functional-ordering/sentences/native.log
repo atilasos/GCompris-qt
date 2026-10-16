@@ -1,0 +1,135 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ordering/build/ordering-snapshot/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-ordering/.scratch/pt-pt/functional-ordering/.native-qml-020488a71ed14889acd523989a747301/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ordering/.scratch/pt-pt/functional-ordering/.native-qml-020488a71ed14889acd523989a747301/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ordering/.scratch/pt-pt/functional-ordering/.native-qml-020488a71ed14889acd523989a747301/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ordering/.scratch/pt-pt/functional-ordering/.native-qml-020488a71ed14889acd523989a747301/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ordering/.scratch/pt-pt/functional-ordering/.native-qml-020488a71ed14889acd523989a747301/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ordering/.scratch/pt-pt/functional-ordering/.native-qml-020488a71ed14889acd523989a747301/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ordering/.scratch/pt-pt/functional-ordering/.native-qml-020488a71ed14889acd523989a747301/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ordering/.scratch/pt-pt/functional-ordering/.native-qml-020488a71ed14889acd523989a747301/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-ordering/.scratch/pt-pt/functional-ordering/.native-qml-020488a71ed14889acd523989a747301/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity ordering_sentences/OrderingSentences.qml at level -1
+qml: ordering_sentences/OrderingSentences.qml ordering_sentences/OrderingSentences.qml
+qml: ORDERING_INITIAL sentences 20 20 0
+qml: ORDERING_VISIBLE ["O","ladra.","cão"] 3 0
+qml: ORDERING_HEARTBEAT sentences 1 ["O","ladra.","cão"]
+qml: ORDERING_VISIBLE ["casa","vermelha.","é","A"] 4 1
+qml: ORDERING_HEARTBEAT sentences 2 ["casa","vermelha.","é","A"]
+qml: ORDERING_VISIBLE ["O","um livro.","menino","lê"] 4 2
+qml: ORDERING_HEARTBEAT sentences 3 ["O","um livro.","menino","lê"]
+qml: ORDERING_VISIBLE ["é","O","meu","amigo","fixe."] 5 3
+qml: ORDERING_HEARTBEAT sentences 4 ["é","O","meu","amigo","fixe."]
+qml: ORDERING_VISIBLE ["maravilhosa!","Que","vista"] 3 4
+qml: ORDERING_HEARTBEAT sentences 5 ["maravilhosa!","Que","vista"]
+qml: ORDERING_VISIBLE ["O","mergulha","na","João","piscina."] 5 5
+qml: ORDERING_HEARTBEAT sentences 6 ["O","mergulha","na","João","piscina."]
+qml: ORDERING_VISIBLE ["A","quer","um","Joana","livro."] 5 6
+qml: ORDERING_HEARTBEAT sentences 7 ["A","quer","um","Joana","livro."]
+qml: ORDERING_VISIBLE ["uma","fez-me","mãe","A","sandes."] 5 7
+qml: ORDERING_HEARTBEAT sentences 8 ["uma","fez-me","mãe","A","sandes."]
+qml: ORDERING_VISIBLE ["nas","Os","florestas.","vivem","tigres"] 5 8
+qml: ORDERING_HEARTBEAT sentences 9 ["nas","Os","florestas.","vivem","tigres"]
+qml: ORDERING_VISIBLE ["em","joga-se","futebol","equipa.","O"] 5 9
+qml: ORDERING_HEARTBEAT sentences 10 ["em","joga-se","futebol","equipa.","O"]
+qml: ORDERING_VISIBLE ["no","Sol","céu","azul.","brilha","O"] 6 10
+qml: ORDERING_HEARTBEAT sentences 11 ["no","Sol","céu","azul.","brilha","O"]
+qml: ORDERING_VISIBLE ["se","divertir","à","de","As","gostam","crianças","noite."] 8 11
+qml: ORDERING_HEARTBEAT sentences 12 ["se","divertir","à","de","As","gostam","crianças","noite."]
+qml: ORDERING_VISIBLE ["almoçar?","sair","casa","para","Vais","de"] 6 12
+qml: ORDERING_HEARTBEAT sentences 13 ["almoçar?","sair","casa","para","Vais","de"]
+qml: ORDERING_VISIBLE ["A","menina","os","calçou","saiu.","sapatos","e"] 7 13
+qml: ORDERING_HEARTBEAT sentences 14 ["A","menina","os","calçou","saiu.","sapatos","e"]
+qml: ORDERING_VISIBLE ["de","O","ficou","comer","doente","chocolates","grandes.","José","depois"] 9 14
+qml: ORDERING_HEARTBEAT sentences 15 ["de","O","ficou","comer","doente","chocolates","grandes.","José","depois"]
+qml: ORDERING_VISIBLE ["todos","férias","família","na","os","A","anos.","passa","nossa","praia"] 10 15
+qml: ORDERING_HEARTBEAT sentences 16 ["todos","férias","família","na","os","A","anos.","passa","nossa","praia"]
+qml: ORDERING_VISIBLE ["um","Paulo","camião","vermelho.","O","deu-me","tio"] 7 16
+qml: ORDERING_HEARTBEAT sentences 17 ["um","Paulo","camião","vermelho.","O","deu-me","tio"]
+qml: ORDERING_VISIBLE ["o","a","comer","podes","terminares","sobremesa.","arroz","Quando"] 8 17
+qml: ORDERING_HEARTBEAT sentences 18 ["o","a","comer","podes","terminares","sobremesa.","arroz","Quando"]
+qml: ORDERING_VISIBLE ["no","mãe","quarto.","pediu-me","brincar","A","para"] 7 18
+qml: ORDERING_HEARTBEAT sentences 19 ["no","mãe","quarto.","pediu-me","brincar","A","para"]
+qml: ORDERING_VISIBLE ["vamos","que","ter","dia.","um","Penso","bom"] 7 19
+qml: ORDERING_HEARTBEAT sentences 20 ["vamos","que","ter","dia.","um","Penso","bom"]
+qml: NATIVE_ORDERING_RESULT {"failures":0,"passes":2,"completed":[{"level":1,"visible":["O","ladra.","cão"],"ordered":["O","cão","ladra."],"rejected":["cão","O","ladra."]},{"level":2,"visible":["casa","vermelha.","é","A"],"ordered":["A","casa","é","vermelha."],"rejected":["casa","A","é","vermelha."]},{"level":3,"visible":["O","um livro.","menino","lê"],"ordered":["O","menino","lê","um livro."],"rejected":["menino","O","lê","um livro."]},{"level":4,"visible":["é","O","meu","amigo","fixe."],"ordered":["O","meu","amigo","é","fixe."],"rejected":["meu","O","amigo","é","fixe."]},{"level":5,"visible":["maravilhosa!","Que","vista"],"ordered":["Que","vista","maravilhosa!"],"rejected":["vista","Que","maravilhosa!"]},{"level":6,"visible":["O","mergulha","na","João","piscina."],"ordered":["O","João","mergulha","na","piscina."],"rejected":["João","O","mergulha","na","piscina."]},{"level":7,"visible":["A","quer","um","Joana","livro."],"ordered":["A","Joana","quer","um","livro."],"rejected":["Joana","A","quer","um","livro."]},{"level":8,"visible":["uma","fez-me","mãe","A","sandes."],"ordered":["A","mãe","fez-me","uma","sandes."],"rejected":["mãe","A","fez-me","uma","sandes."]},{"level":9,"visible":["nas","Os","florestas.","vivem","tigres"],"ordered":["Os","tigres","vivem","nas","florestas."],"rejected":["tigres","Os","vivem","nas","florestas."]},{"level":10,"visible":["em","joga-se","futebol","equipa.","O"],"ordered":["O","futebol","joga-se","em","equipa."],"rejected":["futebol","O","joga-se","em","equipa."]},{"level":11,"visible":["no","Sol","céu","azul.","brilha","O"],"ordered":["O","Sol","brilha","no","céu","azul."],"rejected":["Sol","O","brilha","no","céu","azul."]},{"level":12,"visible":["se","divertir","à","de","As","gostam","crianças","noite."],"ordered":["As","crianças","gostam","de","se","divertir","à","noite."],"rejected":["crianças","As","gostam","de","se","divertir","à","noite."]},{"level":13,"visible":["almoçar?","sair","casa","para","Vais","de"],"ordered":["Vais","sair","de","casa","para","almoçar?"],"rejected":["sair","Vais","de","casa","para","almoçar?"]},{"level":14,"visible":["A","menina","os","calçou","saiu.","sapatos","e"],"ordered":["A","menina","calçou","os","sapatos","e","saiu."],"rejected":["menina","A","calçou","os","sapatos","e","saiu."]},{"level":15,"visible":["de","O","ficou","comer","doente","chocolates","grandes.","José","depois"],"ordered":["O","José","ficou","doente","depois","de","comer","chocolates","grandes."],"rejected":["José","O","ficou","doente","depois","de","comer","chocolates","grandes."]},{"level":16,"visible":["todos","férias","família","na","os","A","anos.","passa","nossa","praia"],"ordered":["A","nossa","família","passa","férias","na","praia","todos","os","anos."],"rejected":["nossa","A","família","passa","férias","na","praia","todos","os","anos."]},{"level":17,"visible":["um","Paulo","camião","vermelho.","O","deu-me","tio"],"ordered":["O","tio","Paulo","deu-me","um","camião","vermelho."],"rejected":["tio","O","Paulo","deu-me","um","camião","vermelho."]},{"level":18,"visible":["o","a","comer","podes","terminares","sobremesa.","arroz","Quando"],"ordered":["Quando","terminares","o","arroz","podes","comer","a","sobremesa."],"rejected":["terminares","Quando","o","arroz","podes","comer","a","sobremesa."]},{"level":19,"visible":["no","mãe","quarto.","pediu-me","brincar","A","para"],"ordered":["A","mãe","pediu-me","para","brincar","no","quarto."],"rejected":["mãe","A","pediu-me","para","brincar","no","quarto."]},{"level":20,"visible":["vamos","que","ter","dia.","um","Penso","bom"],"ordered":["Penso","que","vamos","ter","um","bom","dia."],"rejected":["que","Penso","vamos","ter","um","bom","dia."]}],"rejected":20,"drags":358,"reordered":1}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
