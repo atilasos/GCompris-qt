@@ -1,0 +1,17 @@
+[
+  {
+    "activity": "vertical_addition",
+    "exit_code": 0,
+    "output": "vertical_addition"
+  },
+  {
+    "activity": "vertical_subtraction",
+    "exit_code": 0,
+    "output": "vertical_subtraction"
+  },
+  {
+    "activity": "vertical_subtraction_compensation",
+    "exit_code": 0,
+    "output": "vertical_subtraction_compensation"
+  }
+]

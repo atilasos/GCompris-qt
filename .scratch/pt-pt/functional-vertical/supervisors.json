@@ -1,0 +1,17 @@
+{
+  "baseline": {
+    "exit_code": 0,
+    "cases": 12,
+    "puzzles": 360
+  },
+  "intermediate": {
+    "exit_code": 0,
+    "cases": 12,
+    "puzzles": 360
+  },
+  "final": {
+    "exit_code": 0,
+    "cases": 12,
+    "puzzles": 360
+  }
+}

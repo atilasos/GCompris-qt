@@ -1,0 +1,128 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/build/functional-vertical/green-snapshot/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/.scratch/pt-pt/functional-vertical/final/.native-qml-1a452f36b1484f26b498d40142ae33ca/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/.scratch/pt-pt/functional-vertical/final/.native-qml-1a452f36b1484f26b498d40142ae33ca/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/.scratch/pt-pt/functional-vertical/final/.native-qml-1a452f36b1484f26b498d40142ae33ca/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/.scratch/pt-pt/functional-vertical/final/.native-qml-1a452f36b1484f26b498d40142ae33ca/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/.scratch/pt-pt/functional-vertical/final/.native-qml-1a452f36b1484f26b498d40142ae33ca/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/.scratch/pt-pt/functional-vertical/final/.native-qml-1a452f36b1484f26b498d40142ae33ca/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/.scratch/pt-pt/functional-vertical/final/.native-qml-1a452f36b1484f26b498d40142ae33ca/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/.scratch/pt-pt/functional-vertical/final/.native-qml-1a452f36b1484f26b498d40142ae33ca/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/.scratch/pt-pt/functional-vertical/final/.native-qml-1a452f36b1484f26b498d40142ae33ca/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity vertical_subtraction_compensation/VerticalSubtractionCompensation.qml at level 3
+qml: vertical_subtraction_compensation/VerticalSubtractionCompensation.qml vertical_subtraction_compensation/VerticalSubtractionCompensation.qml
+No audio device detected
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: VERTICAL_PUZZLE {"level":4,"sublevel":1,"prompt":"Escreve: 132 - 87","operands":[132,87],"result":45,"adjustments":[[0,0,10],[1,1,1],[0,1,10],[1,2,1]],"laid":false,"error":true}
+qml: VERTICAL_PUZZLE {"level":4,"sublevel":2,"prompt":"Escreve: 173 - 95","operands":[173,95],"result":78,"adjustments":[[0,0,10],[1,1,1],[0,1,10],[1,2,1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":4,"sublevel":3,"prompt":"Escreve: 105 - 62","operands":[105,62],"result":43,"adjustments":[[0,1,10],[1,2,1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":4,"sublevel":4,"prompt":"Escreve: 100 - 65","operands":[100,65],"result":35,"adjustments":[[0,0,10],[1,1,1],[0,1,10],[1,2,1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":4,"sublevel":5,"prompt":"Escreve: 162 - 83","operands":[162,83],"result":79,"adjustments":[[0,0,10],[1,1,1],[0,1,10],[1,2,1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":4,"sublevel":6,"prompt":"Escreve: 97 - 0","operands":[97,0],"result":97,"adjustments":[],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":4,"sublevel":7,"prompt":"Escreve: 147 - 83","operands":[147,83],"result":64,"adjustments":[[0,1,10],[1,2,1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":4,"sublevel":8,"prompt":"Escreve: 96 - 17","operands":[96,17],"result":79,"adjustments":[[0,0,10],[1,1,1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":4,"sublevel":9,"prompt":"Escreve: 165 - 69","operands":[165,69],"result":96,"adjustments":[[0,0,10],[1,1,1],[0,1,10],[1,2,1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":4,"sublevel":10,"prompt":"Escreve: 158 - 77","operands":[158,77],"result":81,"adjustments":[[0,1,10],[1,2,1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":5,"sublevel":1,"prompt":"Escreve: 176 - 85 - 23","operands":[176,85,23],"result":68,"adjustments":[[0,0,10],[2,1,1],[0,1,10],[2,2,1]],"laid":false,"error":true}
+qml: VERTICAL_PUZZLE {"level":5,"sublevel":2,"prompt":"Escreve: 68 - 3 - 46","operands":[68,3,46],"result":19,"adjustments":[[0,0,10],[2,1,1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":5,"sublevel":3,"prompt":"Escreve: 149 - 58 - 39","operands":[149,58,39],"result":52,"adjustments":[[0,0,10],[2,1,1],[0,1,10],[2,2,1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":5,"sublevel":4,"prompt":"Escreve: 147 - 55 - 40","operands":[147,55,40],"result":52,"adjustments":[[0,1,10],[2,2,1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":5,"sublevel":5,"prompt":"Escreve: 258 - 80 - 93","operands":[258,80,93],"result":85,"adjustments":[[0,1,20],[2,2,2]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":5,"sublevel":6,"prompt":"Escreve: 109 - 34 - 18","operands":[109,34,18],"result":57,"adjustments":[[0,0,10],[2,1,1],[0,1,10],[2,2,1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":5,"sublevel":7,"prompt":"Escreve: 161 - 62 - 88","operands":[161,62,88],"result":11,"adjustments":[[0,0,10],[2,1,1],[0,1,10],[2,2,1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":5,"sublevel":8,"prompt":"Escreve: 200 - 54 - 51","operands":[200,54,51],"result":95,"adjustments":[[0,0,10],[2,1,1],[0,1,20],[2,2,2]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":5,"sublevel":9,"prompt":"Escreve: 122 - 42 - 62","operands":[122,42,62],"result":18,"adjustments":[[0,0,10],[2,1,1],[0,1,10],[2,2,1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":5,"sublevel":10,"prompt":"Escreve: 130 - 84 - 5","operands":[130,84,5],"result":41,"adjustments":[[0,0,10],[2,1,1],[0,1,10],[2,2,1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":6,"sublevel":1,"prompt":"Resolve: 1892 - 955","operands":[1892,955],"result":937,"adjustments":[[0,0,10],[1,1,1],[0,2,10],[1,3,1]],"laid":true,"error":true}
+qml: VERTICAL_PUZZLE {"level":6,"sublevel":2,"prompt":"Resolve: 1301 - 476","operands":[1301,476],"result":825,"adjustments":[[0,0,10],[1,1,1],[0,1,10],[1,2,1],[0,2,10],[1,3,1]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":6,"sublevel":3,"prompt":"Resolve: 1192 - 692","operands":[1192,692],"result":500,"adjustments":[[0,2,10],[1,3,1]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":6,"sublevel":4,"prompt":"Resolve: 835 - 518","operands":[835,518],"result":317,"adjustments":[[0,0,10],[1,1,1]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":6,"sublevel":5,"prompt":"Resolve: 51 - 8","operands":[51,8],"result":43,"adjustments":[[0,0,10],[1,1,1]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":6,"sublevel":6,"prompt":"Resolve: 839 - 628","operands":[839,628],"result":211,"adjustments":[],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":6,"sublevel":7,"prompt":"Resolve: 745 - 248","operands":[745,248],"result":497,"adjustments":[[0,0,10],[1,1,1],[0,1,10],[1,2,1]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":6,"sublevel":8,"prompt":"Resolve: 1750 - 788","operands":[1750,788],"result":962,"adjustments":[[0,0,10],[1,1,1],[0,1,10],[1,2,1],[0,2,10],[1,3,1]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":6,"sublevel":9,"prompt":"Resolve: 968 - 592","operands":[968,592],"result":376,"adjustments":[[0,1,10],[1,2,1]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":6,"sublevel":10,"prompt":"Resolve: 667 - 157","operands":[667,157],"result":510,"adjustments":[],"laid":true,"error":false}
+qml: NATIVE_VERTICAL_RESULT {"failures":0,"passes":2,"completed":[{"level":4,"sublevel":1,"prompt":"Escreve: 132 - 87","operands":[132,87],"result":45,"adjustments":[[0,0,10],[1,1,1],[0,1,10],[1,2,1]],"laid":false,"error":true},{"level":4,"sublevel":2,"prompt":"Escreve: 173 - 95","operands":[173,95],"result":78,"adjustments":[[0,0,10],[1,1,1],[0,1,10],[1,2,1]],"laid":false,"error":false},{"level":4,"sublevel":3,"prompt":"Escreve: 105 - 62","operands":[105,62],"result":43,"adjustments":[[0,1,10],[1,2,1]],"laid":false,"error":false},{"level":4,"sublevel":4,"prompt":"Escreve: 100 - 65","operands":[100,65],"result":35,"adjustments":[[0,0,10],[1,1,1],[0,1,10],[1,2,1]],"laid":false,"error":false},{"level":4,"sublevel":5,"prompt":"Escreve: 162 - 83","operands":[162,83],"result":79,"adjustments":[[0,0,10],[1,1,1],[0,1,10],[1,2,1]],"laid":false,"error":false},{"level":4,"sublevel":6,"prompt":"Escreve: 97 - 0","operands":[97,0],"result":97,"adjustments":[],"laid":false,"error":false},{"level":4,"sublevel":7,"prompt":"Escreve: 147 - 83","operands":[147,83],"result":64,"adjustments":[[0,1,10],[1,2,1]],"laid":false,"error":false},{"level":4,"sublevel":8,"prompt":"Escreve: 96 - 17","operands":[96,17],"result":79,"adjustments":[[0,0,10],[1,1,1]],"laid":false,"error":false},{"level":4,"sublevel":9,"prompt":"Escreve: 165 - 69","operands":[165,69],"result":96,"adjustments":[[0,0,10],[1,1,1],[0,1,10],[1,2,1]],"laid":false,"error":false},{"level":4,"sublevel":10,"prompt":"Escreve: 158 - 77","operands":[158,77],"result":81,"adjustments":[[0,1,10],[1,2,1]],"laid":false,"error":false},{"level":5,"sublevel":1,"prompt":"Escreve: 176 - 85 - 23","operands":[176,85,23],"result":68,"adjustments":[[0,0,10],[2,1,1],[0,1,10],[2,2,1]],"laid":false,"error":true},{"level":5,"sublevel":2,"prompt":"Escreve: 68 - 3 - 46","operands":[68,3,46],"result":19,"adjustments":[[0,0,10],[2,1,1]],"laid":false,"error":false},{"level":5,"sublevel":3,"prompt":"Escreve: 149 - 58 - 39","operands":[149,58,39],"result":52,"adjustments":[[0,0,10],[2,1,1],[0,1,10],[2,2,1]],"laid":false,"error":false},{"level":5,"sublevel":4,"prompt":"Escreve: 147 - 55 - 40","operands":[147,55,40],"result":52,"adjustments":[[0,1,10],[2,2,1]],"laid":false,"error":false},{"level":5,"sublevel":5,"prompt":"Escreve: 258 - 80 - 93","operands":[258,80,93],"result":85,"adjustments":[[0,1,20],[2,2,2]],"laid":false,"error":false},{"level":5,"sublevel":6,"prompt":"Escreve: 109 - 34 - 18","operands":[109,34,18],"result":57,"adjustments":[[0,0,10],[2,1,1],[0,1,10],[2,2,1]],"laid":false,"error":false},{"level":5,"sublevel":7,"prompt":"Escreve: 161 - 62 - 88","operands":[161,62,88],"result":11,"adjustments":[[0,0,10],[2,1,1],[0,1,10],[2,2,1]],"laid":false,"error":false},{"level":5,"sublevel":8,"prompt":"Escreve: 200 - 54 - 51","operands":[200,54,51],"result":95,"adjustments":[[0,0,10],[2,1,1],[0,1,20],[2,2,2]],"laid":false,"error":false},{"level":5,"sublevel":9,"prompt":"Escreve: 122 - 42 - 62","operands":[122,42,62],"result":18,"adjustments":[[0,0,10],[2,1,1],[0,1,10],[2,2,1]],"laid":false,"error":false},{"level":5,"sublevel":10,"prompt":"Escreve: 130 - 84 - 5","operands":[130,84,5],"result":41,"adjustments":[[0,0,10],[2,1,1],[0,1,10],[2,2,1]],"laid":false,"error":false},{"level":6,"sublevel":1,"prompt":"Resolve: 1892 - 955","operands":[1892,955],"result":937,"adjustments":[[0,0,10],[1,1,1],[0,2,10],[1,3,1]],"laid":true,"error":true},{"level":6,"sublevel":2,"prompt":"Resolve: 1301 - 476","operands":[1301,476],"result":825,"adjustments":[[0,0,10],[1,1,1],[0,1,10],[1,2,1],[0,2,10],[1,3,1]],"laid":true,"error":false},{"level":6,"sublevel":3,"prompt":"Resolve: 1192 - 692","operands":[1192,692],"result":500,"adjustments":[[0,2,10],[1,3,1]],"laid":true,"error":false},{"level":6,"sublevel":4,"prompt":"Resolve: 835 - 518","operands":[835,518],"result":317,"adjustments":[[0,0,10],[1,1,1]],"laid":true,"error":false},{"level":6,"sublevel":5,"prompt":"Resolve: 51 - 8","operands":[51,8],"result":43,"adjustments":[[0,0,10],[1,1,1]],"laid":true,"error":false},{"level":6,"sublevel":6,"prompt":"Resolve: 839 - 628","operands":[839,628],"result":211,"adjustments":[],"laid":true,"error":false},{"level":6,"sublevel":7,"prompt":"Resolve: 745 - 248","operands":[745,248],"result":497,"adjustments":[[0,0,10],[1,1,1],[0,1,10],[1,2,1]],"laid":true,"error":false},{"level":6,"sublevel":8,"prompt":"Resolve: 1750 - 788","operands":[1750,788],"result":962,"adjustments":[[0,0,10],[1,1,1],[0,1,10],[1,2,1],[0,2,10],[1,3,1]],"laid":true,"error":false},{"level":6,"sublevel":9,"prompt":"Resolve: 968 - 592","operands":[968,592],"result":376,"adjustments":[[0,1,10],[1,2,1]],"laid":true,"error":false},{"level":6,"sublevel":10,"prompt":"Resolve: 667 - 157","operands":[667,157],"result":510,"adjustments":[],"laid":true,"error":false}],"wins":3}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs

@@ -1,0 +1,8 @@
+test_existing_archive_is_preserved (test_cli.CampaignCLI.test_existing_archive_is_preserved) ... ok
+test_invalid_and_empty_selections_do_not_prepare_outputs (test_cli.CampaignCLI.test_invalid_and_empty_selections_do_not_prepare_outputs) ... ok
+test_launcher_and_native_result_must_both_succeed (test_cli.CampaignCLI.test_launcher_and_native_result_must_both_succeed) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.476s
+
+OK
