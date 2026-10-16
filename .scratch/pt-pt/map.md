@@ -159,7 +159,7 @@ e os restantes critérios de aceitação mantêm os seus estados próprios.
 
 A memória matemática concluiu 14 variantes e 207 combinações nível/modo;
 decimais/quantidades concluíram 316 puzzles em 16 campanhas offline e quatro casos de controlos.
-As 110 atividades com evidência funcional ligada na matriz não representam
+As 114 atividades com evidência funcional ligada na matriz não representam
 a aceitação global dos 203 jogos.
 
 - [40 — Contrato dos níveis do Solitário](issues/40-niveis-solitario.md)
@@ -288,3 +288,26 @@ dos critérios globais, Windows, hardware, áudio e revisão docente.
 - [74 — Partilhar doces](issues/74-partilhar-doces.md)
 
 - [75 — Associar imagens, formas e nomes](issues/75-associar-imagens.md)
+
+A tarefa 71 tem provas Linux integradas dos dois chapéus mágicos: 41 níveis
+por jogo, 82 puzzles e 82 erros reparados. Fica resolvida no âmbito Linux após
+Standards e Spec sem achados; [relatórios](review/integration71/). Duas ligações mantêm os
+critérios globais, Windows, hardware, áudio ou revisão docente.
+
+A tarefa 74 tem prova Linux integrada de 146 perguntas/30 níveis nos dois
+modos, 30 erros reparados e 544 transferências. Fica resolvida no âmbito Linux
+após revisões e correção do P3 documental; [relatórios](review/integration74/).
+Os retornos externos publicados são do launcher, sem tool-status individual
+dos 14 casos. A ligação mantém critérios globais, Windows, hardware, áudio e
+revisão docente pendentes.
+
+A tarefa 73 tem prova Linux integrada de 14 níveis e 102 perguntas romanas,
+com erros reparados e entradas física/virtual. Fica resolvida no âmbito Linux
+após revisões independentes; [relatórios](review/integration73/). A ligação mantém os
+alterar critérios globais, Windows, hardware, áudio ou revisão docente.
+
+- [76 — Orientação espacial e botões do rato](issues/76-orientacao-e-rato.md)
+
+- [77 — Puzzles deslizantes](issues/77-puzzles-deslizantes.md)
+
+- [78 — Apagar as luzes](issues/78-apagar-luzes.md)

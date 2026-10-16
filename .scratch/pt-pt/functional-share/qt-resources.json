@@ -1,0 +1,252 @@
+{
+  "share": {
+    "rcc_sha256": "b98af75e158ae6ea0077ecfea877fe79169aa2aded1ead7174c10e14a6ae4afd",
+    "files": [
+      {
+        "bytes": 4710,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/CandyWidget.qml",
+        "sha256": "258d6d7a8c3819d4d291c3ad3116f020a9c6a5351004817579ce332ab4bfc55e"
+      },
+      {
+        "bytes": 1114,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/ActivityInfo.qml",
+        "sha256": "0e70f9ebd1d96fedd75fd3c4227c15f811cb12301f0613ceb9c21fe3d03e67ec"
+      },
+      {
+        "bytes": 2430,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/WidgetOption.qml",
+        "sha256": "43274e94c8edbb436f25746a0c0bedc09990744f185c5ac493a10f7853f2c608"
+      },
+      {
+        "bytes": 49593,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/share.svg",
+        "sha256": "62124c69b744e81a68488cd9cb7b712a3b2d61cb7b195516dcdf60614569c989"
+      },
+      {
+        "bytes": 18088,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/Share.qml",
+        "sha256": "13ae897256374ddcfaa8eb418c7afaf10485faeab367dcad30bce47ab1eab9e8"
+      },
+      {
+        "bytes": 10260,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/DropChild.qml",
+        "sha256": "de45fad042493f5d2982d5f37830959f66c439533cf8ebbdcaf86aaa277e3ac4"
+      },
+      {
+        "bytes": 1073,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/ActivityConfig.qml",
+        "sha256": "b1538bc3e8a555a1b1d9f6b335e386ae354b6dda01e586e763d5bfad29465a90"
+      },
+      {
+        "bytes": 13477,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/resource/1/Data.qml",
+        "sha256": "dc496e156dc69173eeeb1350e2abc43e562c00bae989060468208e84d77fb373"
+      },
+      {
+        "bytes": 12308,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/resource/2/Data.qml",
+        "sha256": "7c8e2228264ced8ea194a74f4896edd0c3b32466f76623c1bb9ac469395fe165"
+      },
+      {
+        "bytes": 6915,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/resource/3/Data.qml",
+        "sha256": "611bd70708c55e6b900dcd324e84392d07a17bcd0eb7abc909cc7caf98212d54"
+      },
+      {
+        "bytes": 24943,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/resource/images/girl.svg",
+        "sha256": "59007ea8b05993d0b9afa24b591ecdc19aaf076dcf8a0f2008b686894da28ef4"
+      },
+      {
+        "bytes": 9002,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/resource/images/basket.svg",
+        "sha256": "5308712440a250b6f9b98a44b4dab4acd904807a2251ce5cb49c05c311b37c99"
+      },
+      {
+        "bytes": 5283,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/resource/images/candy.svg",
+        "sha256": "c6a53bc677303aac8e4a3536f32c9a769d21001f7880e1b317f04a841be8a41a"
+      },
+      {
+        "bytes": 22768,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/resource/images/boy.svg",
+        "sha256": "0dd9722fc1e4aa6295188cbb461fde3a546295e5b3c543bcef8655f6f279ad92"
+      },
+      {
+        "bytes": 1323,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/ChildWidget.qml",
+        "sha256": "e7ca91da5fca2c76cd4265e036f69372b56748b9ae03605cbb7dd2782aaab984"
+      },
+      {
+        "bytes": 931,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/BasketWidget.qml",
+        "sha256": "28cd44d105ee3ef87a16c0ccd3dc83b7078e93e01499a10f8cf761b9416e6408"
+      },
+      {
+        "bytes": 8702,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/share.js",
+        "sha256": "6672e45f0a1e8c05ac320d5725c168337e324f228492fd7be82e3c6b09b42434"
+      }
+    ],
+    "kind": "snapshot",
+    "source_phase": "baseline",
+    "archive_prefix": "resources"
+  },
+  "core": {
+    "rcc_sha256": "4c40f1dd1ef1169d78084c2f62655627dab02d4051e6dec9efd494a51191bacb",
+    "files": [
+      {
+        "bytes": 133676,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/completetask.wav",
+        "sha256": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c"
+      },
+      {
+        "bytes": 27234,
+        "ogg": false,
+        "path": ":/gcompris/src/core/resource/sounds/crash.wav",
+        "sha256": "86f844cb3f4cd87485de76b26a868e695d278ea971f308e092305827e7943c11"
+      }
+    ],
+    "kind": "snapshot",
+    "source_phase": "baseline",
+    "archive_prefix": "resources"
+  },
+  "share-effective": {
+    "kind": "private",
+    "source_phase": "final",
+    "rcc_sha256": "c3d4d47042ea0ad6d4b3b9c90db420757165e597c12a9d62f718d9d3f63e7bfc",
+    "archive_rcc": "effective/share.rcc",
+    "archive_prefix": "effective/resources",
+    "receipt": "resources-effective",
+    "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-sharing/.scratch/pt-pt/functional-share/resources-effective",
+    "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-sharing/build/functional-sharing/sources/4382e3ecd23d99294e04fe5eeccfa374c6d2b5a7",
+    "files": [
+      {
+        "bytes": 4694,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/CandyWidget.qml",
+        "sha256": "12108634f4d86bbc8ee993707ea95528d243e6bc75bfd4a6d55457d65211a1a2"
+      },
+      {
+        "bytes": 1114,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/ActivityInfo.qml",
+        "sha256": "0e70f9ebd1d96fedd75fd3c4227c15f811cb12301f0613ceb9c21fe3d03e67ec"
+      },
+      {
+        "bytes": 2430,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/WidgetOption.qml",
+        "sha256": "43274e94c8edbb436f25746a0c0bedc09990744f185c5ac493a10f7853f2c608"
+      },
+      {
+        "bytes": 49593,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/share.svg",
+        "sha256": "62124c69b744e81a68488cd9cb7b712a3b2d61cb7b195516dcdf60614569c989"
+      },
+      {
+        "bytes": 21881,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/Share.qml",
+        "sha256": "4c21adbbd1e0f4bef2c786a4eb7ad3f447e62391c1dc34326aff639bc8552329"
+      },
+      {
+        "bytes": 10260,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/DropChild.qml",
+        "sha256": "de45fad042493f5d2982d5f37830959f66c439533cf8ebbdcaf86aaa277e3ac4"
+      },
+      {
+        "bytes": 1073,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/ActivityConfig.qml",
+        "sha256": "b1538bc3e8a555a1b1d9f6b335e386ae354b6dda01e586e763d5bfad29465a90"
+      },
+      {
+        "bytes": 13477,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/resource/1/Data.qml",
+        "sha256": "dc496e156dc69173eeeb1350e2abc43e562c00bae989060468208e84d77fb373"
+      },
+      {
+        "bytes": 12308,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/resource/2/Data.qml",
+        "sha256": "7c8e2228264ced8ea194a74f4896edd0c3b32466f76623c1bb9ac469395fe165"
+      },
+      {
+        "bytes": 6915,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/resource/3/Data.qml",
+        "sha256": "611bd70708c55e6b900dcd324e84392d07a17bcd0eb7abc909cc7caf98212d54"
+      },
+      {
+        "bytes": 24943,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/resource/images/girl.svg",
+        "sha256": "59007ea8b05993d0b9afa24b591ecdc19aaf076dcf8a0f2008b686894da28ef4"
+      },
+      {
+        "bytes": 9002,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/resource/images/basket.svg",
+        "sha256": "5308712440a250b6f9b98a44b4dab4acd904807a2251ce5cb49c05c311b37c99"
+      },
+      {
+        "bytes": 5283,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/resource/images/candy.svg",
+        "sha256": "c6a53bc677303aac8e4a3536f32c9a769d21001f7880e1b317f04a841be8a41a"
+      },
+      {
+        "bytes": 22768,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/resource/images/boy.svg",
+        "sha256": "0dd9722fc1e4aa6295188cbb461fde3a546295e5b3c543bcef8655f6f279ad92"
+      },
+      {
+        "bytes": 1323,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/ChildWidget.qml",
+        "sha256": "e7ca91da5fca2c76cd4265e036f69372b56748b9ae03605cbb7dd2782aaab984"
+      },
+      {
+        "bytes": 405,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/CMakeLists.txt",
+        "sha256": "6d5e022aa951fe92e0d774d1abe2166a8585d8e022b02c01f0fa87e70d12690c"
+      },
+      {
+        "bytes": 931,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/BasketWidget.qml",
+        "sha256": "28cd44d105ee3ef87a16c0ccd3dc83b7078e93e01499a10f8cf761b9416e6408"
+      },
+      {
+        "bytes": 8702,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/share/share.js",
+        "sha256": "6672e45f0a1e8c05ac320d5725c168337e324f228492fd7be82e3c6b09b42434"
+      }
+    ]
+  }
+}

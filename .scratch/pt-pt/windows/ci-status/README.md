@@ -22,3 +22,9 @@ as alterações de produção dos lotes 60 a 63. Não foi descarregado nem
 verificado localmente outro EXE. A entrega desses lotes exige novo candidato.
 
 A execução 38835741153 terminou com sucesso em 2026-10-16T02:09:11Z, na fonte `b0921a0494c9d139b43ac368a66bbfff5414832e`. Inclui as correções de produção dos lotes 60–63. Os JSON de execução e artefactos foram recolhidos da API; o EXE desta execução não foi descarregado nem verificado localmente. As correções posteriores de alfabeto, retas graduadas e contrato de níveis dos vizinhos precisam de nova compilação. Não constitui execução em Windows 10 da escola.
+
+A execução `38840444821` terminou com sucesso em 2026-10-16 03:01:31 UTC,
+na fonte `9e922b3b2fe2e6a7b1764db4c70932ffa744c904`. As provas extraídas
+em `../38840444821/` confirmam oito arranques preparados e 203 instalados no
+runner. O EXE desta execução não foi descarregado nem verificado localmente.
+Numeração romana, partilha e associações posteriores precisam de novo candidato.

@@ -1,0 +1,11 @@
+{
+  "format": 1,
+  "kind": "observed-exec-tool-return",
+  "exit_code": 0,
+  "session_id": 12456,
+  "chunk_id": "7c1b6f",
+  "provenance": "Actual write_stdin response retained in conversation. Transcribed after observation separately from the native launcher.",
+  "recorded_utc": "2026-10-16T02:47:33.034857+00:00",
+  "native_receipt_sha256": "e87f696fe575512408ff756e6e880e7757721ed8756a2de98e79803c21cd5057",
+  "launcher_status_sha256": "6cb4343bc76d474b1437cfa1ac91ecd9db6d0ed9dd54349160d3d0384e4127e7"
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "questions": 146,
+  "levels": 30,
+  "datasets": 6,
+  "wrong_repaired": 30,
+  "remainder_puzzles": 47,
+  "candy_transfers": 544,
+  "controls": 2,
+  "native_receipts": 14,
+  "scope": "Linux offline software; random templates sampled once per mode, not all random draws; Windows/devices/audio/teacher review pending"
+}

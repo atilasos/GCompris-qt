@@ -1,7 +1,7 @@
 # Numeração romana em PT-PT
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -22,3 +22,13 @@ Qualquer defeito exige caso idêntico vermelho/verde.
 
 Windows 10, dispositivos físicos, audição e aceitação docente/global permanecem
 pendentes.
+
+## Integração
+
+Provas integradas para Standards e Spec independentes. `ready-for-review`
+não representa resolução final ou aceitação global.
+
+## Fecho de revisão
+
+Revisões independentes concluídas; [relatórios e limites](../review/integration73/).
+Resolução limitada à prova Linux publicada, sem alterar critérios globais.

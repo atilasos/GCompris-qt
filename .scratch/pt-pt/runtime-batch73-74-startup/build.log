@@ -1,0 +1,15 @@
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/roman_numerals.rcc
+Generate roman_numerals RCC
+Built target rcc_roman_numerals
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/share.rcc
+Generate share RCC
+Built target rcc_share
+[  0%] Generating share/gcompris-qt/translations/gcompris_qt_pt.qm
+Updating '/home/proteu/Projetos/GCompris-qt/build/pt-pt/share/gcompris-qt/translations/gcompris_qt_pt.qm'...
+Removing translations equal to source text in '/home/proteu/Projetos/GCompris-qt/build/pt-pt/share/gcompris-qt/translations/gcompris_qt_pt.qm'...
+    Generated 3897 translation(s) (3897 finished and 0 unfinished)
+[100%] Built target BuildTranslationsgcompris_qt
