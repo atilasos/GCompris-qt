@@ -1,7 +1,7 @@
 # Codificar e descodificar percursos em PT-PT
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -18,3 +18,13 @@ Erros rejeitados, animações naturais, Bonus/transições, seletores persistido
 reinício por configuração, ajuda PT, foco e menu. Recursos/dados verificados,
 Qt offline privado, vermelho/verde para defeitos. Limites explícitos de
 Windows, dispositivos físicos, áudio e revisão docente.
+
+## Resultado Linux
+
+Doze casos positivos concluídos, 28 níveis e 829 movimentos corretos com
+28 erros rejeitados. Quatro controlos e quatro inventários QRC separados.
+O título relativo foi corrigido com caso nativo idêntico antes/depois.
+Nove testes puros passaram, incluindo cópia independente e adulteração.
+[Provas e limites](../functional-paths/README.md). As revisões Standards e Spec
+finais não encontraram novos problemas. Este fecho cobre o lote Linux;
+Windows, dispositivos, audição e revisão docente continuam pendentes.

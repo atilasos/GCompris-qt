@@ -153,10 +153,10 @@ ordering_sentences,pending,pending,pending,pending,pending,.scratch/pt-pt/valida
 oware,pending,pending,pending,pending,pending,
 oware_2players,pending,pending,pending,pending,pending,
 paintings,pending,pending,pending,pending,pending,
-path_decoding,pending,pending,pending,pending,pending,
-path_decoding_relative,pending,pending,pending,pending,pending,
-path_encoding,pending,pending,pending,pending,pending,
-path_encoding_relative,pending,pending,pending,pending,pending,
+path_decoding,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/path_decoding.md
+path_decoding_relative,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/path_decoding_relative.md
+path_encoding,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/path_encoding.md
+path_encoding_relative,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/path_encoding_relative.md
 peg_solitaire,pending,pending,pending,pending,pending,
 penalty,pending,pending,pending,pending,pending,
 photo_hunter,pending,pending,pending,pending,pending,

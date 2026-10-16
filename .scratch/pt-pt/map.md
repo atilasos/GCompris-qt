@@ -210,3 +210,7 @@ critérios globais pendentes.
 A revisão Spec final de 57 foi arquivada, mas o fecho da revisão Standards
 continua pendente: o auditor precisa de rejeitar identidades de fonte/catálogo
 adulteradas. As cinco novas ligações Gnumch ainda não foram acrescentadas.
+
+O lote 56 tem doze casos positivos e revisões finais sem achados em
+[Standards e Spec](review/integration56-final/). As quatro novas ligações de
+percursos preservam os critérios globais pendentes.
