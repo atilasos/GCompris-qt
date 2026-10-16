@@ -1,8 +1,11 @@
 # Comparar números e descobrir os vizinhos
 
 A tarefa 69 seleciona nove casos: oito positivos e um vermelho esperado.
-O fecho das campanhas e a publicação dos hashes ainda aguardam o commit de
-captura. Pilotos e diagnósticos ficam separados e não contam como conclusão.
+Os nove casos terminaram e foram capturados em
+`c29601eba08028b5ca941c893d0a70d7feea881f`. Passaram 76 conclusões naturais
+de nível, 380 perguntas e 380 respostas erradas rejeitadas. As 650 comparações
+e 250 sequências foram conferidas por oráculos independentes. Pilotos e
+diagnósticos ficam separados e não contam como conclusão.
 
 ## Percursos selecionados
 
@@ -41,12 +44,13 @@ também o QML e o JavaScript vermelhos de `d76b8408a`. O comparador final é byt
 à sua fonte em `7e334d5ee`. SHA-256 do manifesto de fontes:
 `358e891a94e89235ae88911316ceb803ab55a3cc4f60f4310845cd8c45d06156`.
 
-`capture.json` ligará os nove diretórios selecionados a blobs de um commit
-Git imutável. O auditor fixa o SHA desse manifesto, além do SHA de fontes.
+`capture.json` liga 154 ficheiros dos nove diretórios selecionados e a
+descodificação de áudio aos blobs do commit de captura. O seu SHA-256 é
+`546315cf82d0c8eae0dcca6610d9aee9a9d128c6af8d512cb8b1977496ebdaf6`. O auditor fixa o SHA desse manifesto, além do SHA de fontes.
 Assim, recalcular um manifesto depois de alterar PO, QML, caso, status,
 resposta ou imagem não cria uma prova válida. Cada status pós-espera liga a
 saída externa ao SHA do recibo Qt. O vermelho deve ter retorno externo 1,
-Qt 0 e uma asserção falhada; os oito positivos devem ter ambos os retornos 0.
+Qt 0 e uma asserção falhada; os oito positivos têm Qt, launcher e ferramenta 0.
 
 As 76 capturas são de fim de nível/Bonus. Os seus bytes e formato de imagem
 são verificados; não são 380 capturas de perguntas nem se afirma OCR ou
@@ -54,7 +58,7 @@ contagem de píxeis dos rótulos. As respostas independentes são conferidas
 nos rótulos visíveis registados pelos casos Qt. Alterar um píxel e recalcular
 os hashes continua a ser rejeitado pela identidade Git da captura.
 
-Após a publicação do pacote, uma cópia desta pasta poderá ser auditada sem
+Uma cópia desta pasta pode ser auditada sem
 Git, worktrees antigas ou catálogo corrente:
 
 ```sh
@@ -63,8 +67,22 @@ python3 -B auditor/audit.py --evidence .
 
 Requer Python com Pillow e Node para os dados estáticos arquivados. Os
 binários grandes do snapshot não são necessários para auditar recibos já
-capturados. A auditoria não executa novos jogos. Os testes de cópia e
-adulteração serão publicados com o pacote completo.
+capturados. A auditoria não executa novos jogos. Os 14 testes passaram:
+três de aritmética e 11 de cópia, fronteiras e adulteração. Cobrem uma cópia
+fora do checkout, PO, fonte, caso, status do launcher, retorno externo 143,
+respostas decimal e sequencial, percurso vazio e píxel da imagem alterados,
+com manifestos/hashes recalculados. A CLI recusa Python `-O`, que desativaria
+as asserções. `audit-tests.txt` conserva o resultado.
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests/functional_comparisons -p 'test_*.py'
+```
+
+O inventário arquivado contém todos os datasets e configurações originais,
+26 níveis de comparação e 25 de vizinhos. Os dois percursos QRC copiaram
+39 ficheiros, conferidos byte a byte com a fonte congelada. O snapshot original
+e os dois overlays privados de cada recibo são verificados separadamente.
+Apenas os nove casos selecionados podem contribuir para `index.json`.
 
 ## Limites
 
@@ -87,9 +105,9 @@ com recibo Qt 0 e launcher 0 observado pelo supervisor. A ferramenta externa
 retornou 143. Não se infere aqui a causa. Essa execução é histórica, não entra
 nas contagens selecionadas e não é descrita como sucesso em todas as fronteiras.
 O percurso selecionado é `adjacent-manual-complete-rerun`, com o mesmo SHA do
-caso QML original e uma nova execução integral, ainda a aguardar captura.
+caso QML original e uma nova execução integral. Os seus 125 exercícios substituem os 125 históricos; não são somados a estes.
 
-Cada caso selecionado terá `tool-status.json`, criado após observar o retorno
+Cada caso selecionado tem `tool-status.json`, criado após observar o retorno
 da ferramenta, ligado aos hashes do recibo nativo e do status do launcher.
 A auditoria exige saída Qt, launcher pós-espera e ferramenta externa coerentes:
 0 nos oito positivos; no vermelho esperado, Qt 0 e launcher/ferramenta 1.

@@ -18,7 +18,7 @@ if not __debug__:
 
 SOURCE='e38441ab1e30fe543db96b35a913857f70153dc9'
 ARCHIVE='358e891a94e89235ae88911316ceb803ab55a3cc4f60f4310845cd8c45d06156'
-CAPTURE='PENDING'
+CAPTURE='546315cf82d0c8eae0dcca6610d9aee9a9d128c6af8d512cb8b1977496ebdaf6'
 BASE='.scratch/pt-pt/functional-comparisons'
 DEFAULT=Path(__file__).resolve().parents[2]/BASE
 ACTIVITIES={'comparator':'Comparator.qml','adjacent_numbers':'Adjacent_numbers.qml'}
