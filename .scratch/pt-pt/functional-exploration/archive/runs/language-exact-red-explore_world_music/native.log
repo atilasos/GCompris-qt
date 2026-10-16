@@ -1,0 +1,112 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/build/functional-exploration/runtime-snapshot/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-ea5eeb97cd484edc9213a80691bbb5b4/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-ea5eeb97cd484edc9213a80691bbb5b4/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-ea5eeb97cd484edc9213a80691bbb5b4/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-ea5eeb97cd484edc9213a80691bbb5b4/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-ea5eeb97cd484edc9213a80691bbb5b4/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-ea5eeb97cd484edc9213a80691bbb5b4/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-ea5eeb97cd484edc9213a80691bbb5b4/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-ea5eeb97cd484edc9213a80691bbb5b4/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-world-exploration/.scratch/pt-pt/functional-exploration/.native-qml-ea5eeb97cd484edc9213a80691bbb5b4/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity explore_world_music/ExploreWorldMusic.qml at level -1
+qml: explore_world_music/ExploreWorldMusic.qml explore_world_music/ExploreWorldMusic.qml
+No audio device detected
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+notifyAudioVoices:  true
+notifyAudioEffects:  true
+No audio device detected
+No audio device detected
+No audio device detected
+No audio device detected
+No audio device detected
+No audio device detected
+No audio device detected
+No audio device detected
+No audio device detected
+No audio device detected
+No audio device detected
+[vorbis @ 0x7bb0e40b5e40] Could not update timestamps for discarded samples.
+qml: NATIVE_RESULT {"failures":1,"passes":1,"pages":[{"map":1,"title":"Austrália","description":"Os aborígenes foram as primeiras pessoas a viver na Austrália. Eles cantam e tocam instrumentos como a tuba e a vuvuzela. É feita a partir de um tronco e pode ter até cinco metros de comprimento!","image":"qrc:/gcompris/src/activities/explore_world_music/resource/music/australia.webp","mapImage":"qrc:/gcompris/src/activities/explore_monuments/resource/wonders/world-map.svg","x":0.7575,"y":0.59875,"audio":"qrc:/gcompris/src/activities/explore_world_music/resource/music/australia.ogg"},{"map":1,"title":"África","description":"A música faz parte do dia-a-dia de todos os povos em África. A música africana oferece uma grande variedade de tambores, sendo que acreditam que é um instrumento sagrado e mágico.","image":"qrc:/gcompris/src/activities/explore_world_music/resource/music/africa.webp","mapImage":"qrc:/gcompris/src/activities/explore_monuments/resource/wonders/world-map.svg","x":0.5225,"y":0.53,"audio":"qrc:/gcompris/src/activities/explore_world_music/resource/music/africa.ogg"},{"map":1,"title":"Médio-Oriente","description":"A música é uma parte muito importante na cultura do Médio-Oriente. Algumas músicas são tocadas para chamar os fiéis às orações. O alaúde é um instrumento inventado há milhares de anos e que continua ainda a ser usado hoje em dia.","image":"qrc:/gcompris/src/activities/explore_world_music/resource/music/middleeast.webp","mapImage":"qrc:/gcompris/src/activities/explore_monuments/resource/wonders/world-map.svg","x":0.56875,"y":0.47,"audio":"qrc:/gcompris/src/activities/explore_world_music/resource/music/middleeast.ogg"},{"map":1,"title":"Japão","description":"A percussão com o Taikô vem do Japão. Esse tipo de percussão era usado originalmente para assustar os inimigos nas batalhas. O seu som é bastante alto e os espectáculos são muito excitantes com a multidão a bater palmas e os artistas aos gritos!","image":"qrc:/gcompris/src/activities/explore_world_music/resource/music/japan.webp","mapImage":"qrc:/gcompris/src/activities/explore_monuments/resource/wonders/world-map.svg","x":0.76875,"y":0.45875,"audio":"qrc:/gcompris/src/activities/explore_world_music/resource/music/japan.ogg"},{"map":1,"title":"Escócia e Irlanda","description":"A música folclórica desta região chama-se música celta, incorporando normalmente um poema ou história narrativos. Os instrumentos típicos incluem gaitas-de-foles, flautas, violinos, harpas e acordeões.","image":"qrc:/gcompris/src/activities/explore_world_music/resource/music/ireland.webp","mapImage":"qrc:/gcompris/src/activities/explore_monuments/resource/wonders/world-map.svg","x":0.455,"y":0.39375,"audio":"qrc:/gcompris/src/activities/explore_world_music/resource/music/ireland.ogg"},{"map":1,"title":"Itália","description":"A Itália é conhecida pela sua ópera. A ópera é um teatro musical onde os actores contam uma história, interpretam papéis e cantam. Os cantores de ópera, homens ou mulheres, aprendem técnicas especiais para cantarem em óperas.","image":"qrc:/gcompris/src/activities/explore_world_music/resource/music/italy.webp","mapImage":"qrc:/gcompris/src/activities/explore_monuments/resource/wonders/world-map.svg","x":0.515,"y":0.455,"audio":"qrc:/gcompris/src/activities/explore_world_music/resource/music/italy.ogg"},{"map":1,"title":"Música Clássica Europeia","description":"A Europa é a casa da música clássica. Os compositores famosos, como Bach, Beethoven e Mozart, mudaram para sempre a história da música.","image":"qrc:/gcompris/src/activities/explore_world_music/resource/music/orchestra.webp","mapImage":"qrc:/gcompris/src/activities/explore_monuments/resource/wonders/world-map.svg","x":0.5,"y":0.40875,"audio":"qrc:/gcompris/src/activities/explore_world_music/resource/music/beethoven.ogg"},{"map":1,"title":"México","description":"A música Mariachi é um tipo famoso de música mexicana. Inclui guitarras, trompetes e violinos. Estas bandas tocam em diversas ocasiões, incluindo casamentos e festas.","image":"qrc:/gcompris/src/activities/explore_world_music/resource/music/mexico.webp","mapImage":"qrc:/gcompris/src/activities/explore_monuments/resource/wonders/world-map.svg","x":0.265,"y":0.5,"audio":"qrc:/gcompris/src/activities/explore_world_music/resource/music/mexico.ogg"},{"map":1,"title":"Estados Unidos da América","description":"Os EUA também têm uma grande variedade de géneros musicais, mas talvez o mais conhecido seja a música 'rock'n'roll'. Esta música inclui vocalistas, guitarras e baterias.","image":"qrc:/gcompris/src/activities/explore_world_music/resource/music/america.webp","mapImage":"qrc:/gcompris/src/activities/explore_monuments/resource/wonders/world-map.svg","x":0.26125,"y":0.44375,"audio":"qrc:/gcompris/src/activities/explore_world_music/resource/music/america.ogg"}],"evidence":{"initial":{"map":1,"stage":1,"totalStages":3,"totalMaps":1},"spots":9}}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
