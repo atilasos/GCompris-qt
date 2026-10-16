@@ -30,3 +30,10 @@ Três defeitos receberam pares nativos de caso SHA-256 idêntico: teclado bloque
 [Procedimento, provas e limites](../functional-money/README.md), [correções](../functional-money/fixes.md). Auditor `python3 tests/functional_money/audit.py` fixa a prova histórica `ee3eb60d751c4463f0781560f729dba1aa8354a8`, confere fontes, launcher, catálogo, todos os mapas de QResource e os 269 ficheiros de snapshot por fase. Aceita uma cópia deslocada e rejeita adulterações dos recibos, casos, caminhos, hashes de fonte/RCC/catálogo e manifesto, incluindo reindexação indevida. Onze testes unitários passaram.
 
 Os 18 recibos têm saída normal Qt 0, sem timeout e com propriedade local verificada; três são vermelhos esperados de asserção, quinze verdes. Todos os processos deste lote terminaram e não há PIDs Qt ativos. Os três WAV passaram em GStreamer para fakesink. Windows, dispositivos físicos, audição, acessibilidade e revisão docente continuam pendentes, bem como todos os critérios globais. Não há alterações ao mapa/CSV nem ao build principal.
+
+## Revisão integrada
+
+Standards e Spec conferidos, com os três P2 de retornos/âncoras fechados pela
+tarefa 65 e recheck independente. [Relatórios e resolução](../review/integration60-65/).
+Resolução limitada à prova Linux publicada; Windows, escola, hardware, audição
+e revisão docente conservam os critérios próprios.

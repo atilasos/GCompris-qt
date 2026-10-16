@@ -1,7 +1,7 @@
 # Completar sequências em PT-PT
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -21,3 +21,10 @@ Snapshot privado offline, casos e identidades históricas exatas, auditoria
 reproduzível, cópia independente e rejeição de adulteração. Caso idêntico
 vermelho/verde para defeitos. Aceitação global, Windows, dispositivos físicos,
 audição e revisão docente continuam pendentes.
+
+## Revisão integrada
+
+Standards e Spec conferidos, com os três P2 de retornos/âncoras fechados pela
+tarefa 65 e recheck independente. [Relatórios e resolução](../review/integration60-65/).
+Resolução limitada à prova Linux publicada; Windows, escola, hardware, audição
+e revisão docente conservam os critérios próprios.

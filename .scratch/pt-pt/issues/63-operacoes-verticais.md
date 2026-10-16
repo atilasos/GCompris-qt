@@ -43,3 +43,10 @@ saída existente e cópia sem os caminhos originais. Provas, comandos, origem
 dos hashes e âmbito em `../functional-vertical/README.md` e index.json.
 Persistência é reabertura do diálogo no mesmo processo/perfil. Windows,
 hardware, áudio e aprovação docente permanecem pendentes; sem conclusão203.
+
+## Revisão integrada
+
+Standards e Spec conferidos, com os três P2 de retornos/âncoras fechados pela
+tarefa 65 e recheck independente. [Relatórios e resolução](../review/integration60-65/).
+Resolução limitada à prova Linux publicada; Windows, escola, hardware, audição
+e revisão docente conservam os critérios próprios.
