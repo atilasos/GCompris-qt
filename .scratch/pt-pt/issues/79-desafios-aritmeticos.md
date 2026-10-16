@@ -1,7 +1,7 @@
 # Desafios de operações e de chegar a 24
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -49,3 +49,9 @@ Windows/dispositivos/audição/revisão docente e aceitação global pendentes.
 
 Provas integradas para Standards e Spec independentes. `ready-for-review`
 não representa resolução final ou aceitação global.
+
+## Revisão independente
+
+Standards e Spec sem achados acionáveis;
+[relatórios](../review/integration79/README.md). Resolvida apenas no âmbito
+Linux documentado. Windows/dispositivos/audição/docente/global pendentes.
