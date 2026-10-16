@@ -382,3 +382,9 @@ O encerramento139 continua na tarefa83 aberta.
 - [84 — Exploração do mundo](issues/84-exploracao-mundo.md)
 
 - [85 — Ciclos e eclusa](issues/85-ciclos-e-eclusa.md)
+
+O diagnóstico 83 foi integrado para revisão independente do handoff
+(`ready-for-review` documental), mantendo a investigação aberta. Os seis
+probes com saída zero não demonstram causa nem resolução da ocorrência139;
+`cause_known` e `issue_resolved` continuam falsos. A ligação ao PID original
+é apenas temporal. Nenhum critério global ou ligação funcional foi alterado.
