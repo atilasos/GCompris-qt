@@ -1,7 +1,7 @@
 # Desafios de operações e de chegar a 24
 
 Status: ready-for-agent
-Progress: ready
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -29,3 +29,18 @@ otimizado ou recusar explicitamente essa modalidade.
 
 Windows 10, dispositivos físicos, audição, revisão docente e aceitação global
 continuam pendentes.
+
+## Answer
+
+Implementação e provas submetidas para revisão: 186 perguntas principais/31
+níveis concluídos em Qt offline, mais quatro perguntas num nível criado pelo
+editor de operadores. Seis datasets de guess24, quatro incorporados de
+guesscount e oito níveis administrativos predefinidos. Quatro pares idênticos
+vermelho/verde corrigem grupos repetidos, contagem administrativa, alvo
+insolúvel e instrução/título PT. Auditor puro de 22 recibos e 1506 entradas
+estáticas; não confundir estas entradas com partidas Qt ou todas as combinações
+possíveis do editor. Fontes/PO/recursos/retornos físicos preservados.
+
+Ver [provas e limites](../functional-challenges/README.md),
+[guess24](../validation/guess24.md) e [guesscount](../validation/guesscount.md).
+Windows/dispositivos/audição/revisão docente e aceitação global pendentes.

@@ -1,0 +1,115 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/build/functional-challenges/snapshot/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-58388cce241e486caededab62c54998f/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-58388cce241e486caededab62c54998f/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-58388cce241e486caededab62c54998f/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-58388cce241e486caededab62c54998f/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-58388cce241e486caededab62c54998f/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-58388cce241e486caededab62c54998f/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-58388cce241e486caededab62c54998f/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-58388cce241e486caededab62c54998f/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-arithmetic-challenges/.scratch/pt-pt/functional-challenges/native/.native-qml-58388cce241e486caededab62c54998f/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity guesscount/Guesscount.qml at level 14
+qml: guesscount/Guesscount.qml guesscount/Guesscount.qml
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+load configuration for: "guesscount"
+qml: CHALLENGE_ATTEMPT 15 1 [1,7,2,2,4] 5 ["+","-","*","/"]
+qml: CHALLENGE_COMPLETED {"level":15,"question":1,"mode":"builtin","values":[1,7,2,2,4],"target":5,"operators":["+","-","*","/"],"steps":[{"b":1,"op":"+","left":1,"right":7,"result":8,"a":0},{"b":2,"op":"+","left":8,"right":2,"result":10},{"b":3,"op":"*","left":10,"right":2,"result":20},{"b":4,"op":"/","left":20,"right":4,"result":5}],"wrong":{"steps":[{"b":1,"op":"+","left":1,"right":7,"result":8,"a":0},{"b":2,"op":"+","left":8,"right":2,"result":10},{"b":3,"op":"+","left":10,"right":2,"result":12},{"b":4,"op":"+","left":12,"right":4,"result":16}]},"rejected":[{"a":4,"b":1,"op":"/","left":4,"right":7,"reason":"fraction","message":"o resultado não é um inteiro"}]}
+qml: CHALLENGE_ATTEMPT 15 2 [9,7,8,2,4] 4 ["+","-","*","/"]
+qml: CHALLENGE_COMPLETED {"level":15,"question":2,"mode":"builtin","values":[9,7,8,2,4],"target":4,"operators":["+","-","*","/"],"steps":[{"b":1,"op":"+","left":9,"right":7,"result":16,"a":0},{"b":2,"op":"+","left":16,"right":8,"result":24},{"b":4,"op":"/","left":24,"right":4,"result":6},{"b":3,"op":"-","left":6,"right":2,"result":4}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 15 3 [1,7,2,3,2] 13 ["+","-","*","/"]
+qml: CHALLENGE_COMPLETED {"level":15,"question":3,"mode":"builtin","values":[1,7,2,3,2],"target":13,"operators":["+","-","*","/"],"steps":[{"b":1,"op":"+","left":1,"right":7,"result":8,"a":0},{"b":3,"op":"*","left":8,"right":3,"result":24},{"b":2,"op":"+","left":24,"right":2,"result":26},{"b":4,"op":"/","left":26,"right":2,"result":13}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 16 1 [9,5,1,2,4] 9 ["+","-","*","/"]
+qml: CHALLENGE_COMPLETED {"level":16,"question":1,"mode":"builtin","values":[9,5,1,2,4],"target":9,"operators":["+","-","*","/"],"steps":[{"b":1,"op":"+","left":9,"right":5,"result":14,"a":0},{"b":2,"op":"+","left":14,"right":1,"result":15},{"b":3,"op":"-","left":15,"right":2,"result":13},{"b":4,"op":"-","left":13,"right":4,"result":9}],"wrong":{"steps":[{"b":1,"op":"+","left":9,"right":5,"result":14,"a":0},{"b":2,"op":"+","left":14,"right":1,"result":15},{"b":3,"op":"+","left":15,"right":2,"result":17},{"b":4,"op":"+","left":17,"right":4,"result":21}]},"rejected":[{"a":4,"b":1,"op":"/","left":4,"right":5,"reason":"fraction","message":"o resultado não é um inteiro"}]}
+qml: CHALLENGE_ATTEMPT 16 2 [18,10,5,2,1] 4 ["+","-","*","/"]
+qml: CHALLENGE_COMPLETED {"level":16,"question":2,"mode":"builtin","values":[18,10,5,2,1],"target":4,"operators":["+","-","*","/"],"steps":[{"b":3,"op":"+","left":18,"right":2,"result":20,"a":0},{"b":1,"op":"-","left":20,"right":10,"result":10},{"b":2,"op":"-","left":10,"right":5,"result":5},{"b":4,"op":"-","left":5,"right":1,"result":4}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 16 3 [6,3,2,4,1] 5 ["+","-","*","/"]
+qml: CHALLENGE_COMPLETED {"level":16,"question":3,"mode":"builtin","values":[6,3,2,4,1],"target":5,"operators":["+","-","*","/"],"steps":[{"b":1,"op":"+","left":6,"right":3,"result":9,"a":0},{"b":4,"op":"+","left":9,"right":1,"result":10},{"b":2,"op":"*","left":10,"right":2,"result":20},{"b":3,"op":"/","left":20,"right":4,"result":5}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 17 1 [2,10,6,14,16] 6 ["+","-","*","/"]
+qml: CHALLENGE_COMPLETED {"level":17,"question":1,"mode":"builtin","values":[2,10,6,14,16],"target":6,"operators":["+","-","*","/"],"steps":[{"b":3,"op":"+","left":2,"right":14,"result":16,"a":0},{"b":4,"op":"-","left":16,"right":16,"result":0},{"b":1,"op":"*","left":0,"right":10,"result":0},{"b":2,"op":"+","left":0,"right":6,"result":6}],"wrong":{"steps":[{"b":1,"op":"+","left":2,"right":10,"result":12,"a":0},{"b":2,"op":"+","left":12,"right":6,"result":18},{"b":3,"op":"+","left":18,"right":14,"result":32},{"b":4,"op":"+","left":32,"right":16,"result":48}]},"rejected":[{"a":4,"b":3,"op":"/","left":16,"right":14,"reason":"fraction","message":"o resultado não é um inteiro"}]}
+qml: CHALLENGE_ATTEMPT 17 2 [10,40,20,6,5] 10 ["+","-","*","/"]
+qml: CHALLENGE_COMPLETED {"level":17,"question":2,"mode":"builtin","values":[10,40,20,6,5],"target":10,"operators":["+","-","*","/"],"steps":[{"b":1,"op":"+","left":10,"right":40,"result":50,"a":0},{"b":2,"op":"-","left":50,"right":20,"result":30},{"b":3,"op":"/","left":30,"right":6,"result":5},{"b":4,"op":"+","left":5,"right":5,"result":10}],"wrong":null,"rejected":[]}
+qml: CHALLENGE_ATTEMPT 17 3 [6,3,2,4,3] 7 ["+","-","*","/"]
+qml: CHALLENGE_COMPLETED {"level":17,"question":3,"mode":"builtin","values":[6,3,2,4,3],"target":7,"operators":["+","-","*","/"],"steps":[{"b":1,"op":"+","left":6,"right":3,"result":9,"a":0},{"b":3,"op":"-","left":9,"right":4,"result":5},{"b":2,"op":"*","left":5,"right":2,"result":10},{"b":4,"op":"-","left":10,"right":3,"result":7}],"wrong":null,"rejected":[]}
+qml: NATIVE_CHALLENGES_RESULT {"failures":0,"passes":2,"completed":[{"level":15,"question":1,"mode":"builtin","values":[1,7,2,2,4],"target":5,"operators":["+","-","*","/"],"steps":[{"b":1,"op":"+","left":1,"right":7,"result":8,"a":0},{"b":2,"op":"+","left":8,"right":2,"result":10},{"b":3,"op":"*","left":10,"right":2,"result":20},{"b":4,"op":"/","left":20,"right":4,"result":5}],"wrong":{"steps":[{"b":1,"op":"+","left":1,"right":7,"result":8,"a":0},{"b":2,"op":"+","left":8,"right":2,"result":10},{"b":3,"op":"+","left":10,"right":2,"result":12},{"b":4,"op":"+","left":12,"right":4,"result":16}]},"rejected":[{"a":4,"b":1,"op":"/","left":4,"right":7,"reason":"fraction","message":"o resultado não é um inteiro"}]},{"level":15,"question":2,"mode":"builtin","values":[9,7,8,2,4],"target":4,"operators":["+","-","*","/"],"steps":[{"b":1,"op":"+","left":9,"right":7,"result":16,"a":0},{"b":2,"op":"+","left":16,"right":8,"result":24},{"b":4,"op":"/","left":24,"right":4,"result":6},{"b":3,"op":"-","left":6,"right":2,"result":4}],"wrong":null,"rejected":[]},{"level":15,"question":3,"mode":"builtin","values":[1,7,2,3,2],"target":13,"operators":["+","-","*","/"],"steps":[{"b":1,"op":"+","left":1,"right":7,"result":8,"a":0},{"b":3,"op":"*","left":8,"right":3,"result":24},{"b":2,"op":"+","left":24,"right":2,"result":26},{"b":4,"op":"/","left":26,"right":2,"result":13}],"wrong":null,"rejected":[]},{"level":16,"question":1,"mode":"builtin","values":[9,5,1,2,4],"target":9,"operators":["+","-","*","/"],"steps":[{"b":1,"op":"+","left":9,"right":5,"result":14,"a":0},{"b":2,"op":"+","left":14,"right":1,"result":15},{"b":3,"op":"-","left":15,"right":2,"result":13},{"b":4,"op":"-","left":13,"right":4,"result":9}],"wrong":{"steps":[{"b":1,"op":"+","left":9,"right":5,"result":14,"a":0},{"b":2,"op":"+","left":14,"right":1,"result":15},{"b":3,"op":"+","left":15,"right":2,"result":17},{"b":4,"op":"+","left":17,"right":4,"result":21}]},"rejected":[{"a":4,"b":1,"op":"/","left":4,"right":5,"reason":"fraction","message":"o resultado não é um inteiro"}]},{"level":16,"question":2,"mode":"builtin","values":[18,10,5,2,1],"target":4,"operators":["+","-","*","/"],"steps":[{"b":3,"op":"+","left":18,"right":2,"result":20,"a":0},{"b":1,"op":"-","left":20,"right":10,"result":10},{"b":2,"op":"-","left":10,"right":5,"result":5},{"b":4,"op":"-","left":5,"right":1,"result":4}],"wrong":null,"rejected":[]},{"level":16,"question":3,"mode":"builtin","values":[6,3,2,4,1],"target":5,"operators":["+","-","*","/"],"steps":[{"b":1,"op":"+","left":6,"right":3,"result":9,"a":0},{"b":4,"op":"+","left":9,"right":1,"result":10},{"b":2,"op":"*","left":10,"right":2,"result":20},{"b":3,"op":"/","left":20,"right":4,"result":5}],"wrong":null,"rejected":[]},{"level":17,"question":1,"mode":"builtin","values":[2,10,6,14,16],"target":6,"operators":["+","-","*","/"],"steps":[{"b":3,"op":"+","left":2,"right":14,"result":16,"a":0},{"b":4,"op":"-","left":16,"right":16,"result":0},{"b":1,"op":"*","left":0,"right":10,"result":0},{"b":2,"op":"+","left":0,"right":6,"result":6}],"wrong":{"steps":[{"b":1,"op":"+","left":2,"right":10,"result":12,"a":0},{"b":2,"op":"+","left":12,"right":6,"result":18},{"b":3,"op":"+","left":18,"right":14,"result":32},{"b":4,"op":"+","left":32,"right":16,"result":48}]},"rejected":[{"a":4,"b":3,"op":"/","left":16,"right":14,"reason":"fraction","message":"o resultado não é um inteiro"}]},{"level":17,"question":2,"mode":"builtin","values":[10,40,20,6,5],"target":10,"operators":["+","-","*","/"],"steps":[{"b":1,"op":"+","left":10,"right":40,"result":50,"a":0},{"b":2,"op":"-","left":50,"right":20,"result":30},{"b":3,"op":"/","left":30,"right":6,"result":5},{"b":4,"op":"+","left":5,"right":5,"result":10}],"wrong":null,"rejected":[]},{"level":17,"question":3,"mode":"builtin","values":[6,3,2,4,3],"target":7,"operators":["+","-","*","/"],"steps":[{"b":1,"op":"+","left":6,"right":3,"result":9,"a":0},{"b":3,"op":"-","left":9,"right":4,"result":5},{"b":2,"op":"*","left":5,"right":2,"result":10},{"b":4,"op":"-","left":10,"right":3,"result":7}],"wrong":null,"rejected":[]}],"wins":3}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
