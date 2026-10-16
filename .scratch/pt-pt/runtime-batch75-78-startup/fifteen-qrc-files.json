@@ -1,0 +1,62 @@
+[
+  {
+    "bytes": 3255,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/fifteen/SlideButton.qml",
+    "sha256": "fcab7e814f3f9ff295557bdde3cdb26b4cd3233b88c01f9f0806851533f50480"
+  },
+  {
+    "bytes": 1111,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/fifteen/ActivityInfo.qml",
+    "sha256": "2718e5b131b368b95a6af1032e5567993b26ca5985b4dcee8afa69af5780948c"
+  },
+  {
+    "bytes": 18277,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/fifteen/fifteen.js",
+    "sha256": "de8a891d2821d1a29ad586bc1e33c9c05d154a51da61ce9aed9927f87c7745bf"
+  },
+  {
+    "bytes": 14785,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/fifteen/Fifteen.qml",
+    "sha256": "00b67309b8a00ce755c7fc2fc3c676ca1f2b8ee003f62ae7ac23e40ea3875bfe"
+  },
+  {
+    "bytes": 49713,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/fifteen/fifteen.svg",
+    "sha256": "fdd1db1f08710d3eae51c88b7b2131cdc117a4a4964f70fad5b9e637731340cb"
+  },
+  {
+    "bytes": 4306,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/fifteen/resource/blueframe.svg",
+    "sha256": "6d59934855e2dce0794604c0a9bfacc96cc47c47ce8de361ed8360d6b7a3e3d5"
+  },
+  {
+    "bytes": 138994,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/fifteen/resource/background.svg",
+    "sha256": "32352fdc4969f213bb0cbfb67051bb3e9bdc1f363ecab499dc89bd1a138b6807"
+  },
+  {
+    "bytes": 62239,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/fifteen/resource/Coastal_Path-pt.svg",
+    "sha256": "6b911e9d1b322e0e69b914254233dcd807acf65ff9597a27e064dd7941907cf5"
+  },
+  {
+    "bytes": 62235,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/fifteen/resource/Coastal_Path.svg",
+    "sha256": "a96e4a6f758bf848adb4fee4311f2865c77d93383928d3df622bd58251f79676"
+  },
+  {
+    "bytes": 42080,
+    "ogg": false,
+    "path": ":/gcompris/src/activities/fifteen/resource/Fishing_Boat_Scene.svg",
+    "sha256": "cd57258f7e8547f47a2047abe9e1733c93ffcb36435e5abba78237a1767aa9dc"
+  }
+]
