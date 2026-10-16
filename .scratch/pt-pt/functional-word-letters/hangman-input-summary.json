@@ -1,0 +1,20 @@
+{
+  "campaigns": 116,
+  "completed_words": 4824,
+  "physical_input_events": 15136,
+  "virtual_input_clicks": 12200,
+  "non_ascii_characters_exercised": [
+    "á",
+    "â",
+    "ã",
+    "ç",
+    "é",
+    "ê",
+    "í",
+    "ó",
+    "ô",
+    "õ",
+    "ú"
+  ],
+  "scope": "All29 lessons and4 hint modes; channels alternate by character, not a Cartesian word-by-channel proof."
+}

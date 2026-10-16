@@ -1,0 +1,883 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/build/current-lang/full-snapshot/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-remaining-full/hangman-full-lesson13-imagefalse-audiotrue/.native-qml-bec3c89460234d2aba204d6ff33911cf/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-remaining-full/hangman-full-lesson13-imagefalse-audiotrue/.native-qml-bec3c89460234d2aba204d6ff33911cf/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-remaining-full/hangman-full-lesson13-imagefalse-audiotrue/.native-qml-bec3c89460234d2aba204d6ff33911cf/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-remaining-full/hangman-full-lesson13-imagefalse-audiotrue/.native-qml-bec3c89460234d2aba204d6ff33911cf/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-remaining-full/hangman-full-lesson13-imagefalse-audiotrue/.native-qml-bec3c89460234d2aba204d6ff33911cf/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-remaining-full/hangman-full-lesson13-imagefalse-audiotrue/.native-qml-bec3c89460234d2aba204d6ff33911cf/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-remaining-full/hangman-full-lesson13-imagefalse-audiotrue/.native-qml-bec3c89460234d2aba204d6ff33911cf/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-remaining-full/hangman-full-lesson13-imagefalse-audiotrue/.native-qml-bec3c89460234d2aba204d6ff33911cf/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-remaining-full/hangman-full-lesson13-imagefalse-audiotrue/.native-qml-bec3c89460234d2aba204d6ff33911cf/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity hangman/Hangman.qml at level 12
+qml: hangman/Hangman.qml hangman/Hangman.qml
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+load configuration for: "hangman"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-remaining-full/hangman-full-lesson13-imagefalse-audiotrue/.native-qml-bec3c89460234d2aba204d6ff33911cf/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-words-letters/.scratch/pt-pt/functional-word-letters/hangman-remaining-full/hangman-full-lesson13-imagefalse-audiotrue/.native-qml-bec3c89460234d2aba204d6ff33911cf/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+virtualkeyboard set to:  true
+notifyAudioVoices:  true
+No audio device detected
+qml: HANGMAN_COMPLETED {"ordinal":1,"key":"puppy.ogg","word":"cachorro","remainingLife":3}
+[vorbis @ 0x62d3088827c0] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48001f40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480023c0] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":2,"key":"ostrich.ogg","word":"avestruz","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":3,"key":"bear.ogg","word":"urso","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":4,"key":"salamander.ogg","word":"salamandra","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":5,"key":"magpie.ogg","word":"pega","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":6,"key":"buffalo.ogg","word":"búfalo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":7,"key":"beaver.ogg","word":"castor","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":8,"key":"squirrel.ogg","word":"esquilo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":9,"key":"mouse.ogg","word":"rato","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":10,"key":"tusk.ogg","word":"tromba","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":11,"key":"hedgehog.ogg","word":"porco-espinho","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":12,"key":"turtle.ogg","word":"tartaruga","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":13,"key":"bat.ogg","word":"morcego","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":14,"key":"antelope.ogg","word":"antílope","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":15,"key":"chick.ogg","word":"pinto","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":16,"key":"claw.ogg","word":"garra","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":17,"key":"shell.ogg","word":"búzio","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":18,"key":"hive.ogg","word":"colmeia","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":19,"key":"snake.ogg","word":"cobra","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":20,"key":"ox.ogg","word":"boi","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":21,"key":"flamingo.ogg","word":"flamingo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":22,"key":"panda.ogg","word":"panda","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":23,"key":"wing.ogg","word":"asa","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":24,"key":"fin.ogg","word":"barbatana","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":25,"key":"beetle.ogg","word":"escaravelho","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":26,"key":"cod.ogg","word":"bacalhau","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":27,"key":"moose.ogg","word":"alce","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c480b5e40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":28,"key":"pet.ogg","word":"animal de estimação","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":29,"key":"dove.ogg","word":"pomba","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":30,"key":"spider.ogg","word":"aranha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":31,"key":"spike.ogg","word":"espinhoso","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":32,"key":"sparrow.ogg","word":"pardal","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":33,"key":"panther.ogg","word":"pantera","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":34,"key":"caterpillar.ogg","word":"lagarta","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":35,"key":"den.ogg","word":"aninhar","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":36,"key":"tiger.ogg","word":"tigre","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":37,"key":"rabbit.ogg","word":"coelho","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":38,"key":"starfish.ogg","word":"estrela-do-mar","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":39,"key":"pony.ogg","word":"pónei","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":40,"key":"chimp.ogg","word":"chimpanzé","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":41,"key":"sloth.ogg","word":"preguiça","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":42,"key":"crow.ogg","word":"corvo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":43,"key":"toad.ogg","word":"sapo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":44,"key":"snail.ogg","word":"caracol","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":45,"key":"oyster.ogg","word":"ostra","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":46,"key":"hummingbird.ogg","word":"beija-flor","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":47,"key":"dolphin.ogg","word":"golfinho","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":48,"key":"turkey.ogg","word":"peru","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":49,"key":"skunk.ogg","word":"doninha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":50,"key":"lamb.ogg","word":"cordeiro","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":51,"key":"vulture.ogg","word":"abutre","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":52,"key":"piranha.ogg","word":"piranha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":53,"key":"lion.ogg","word":"leão","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":54,"key":"ladybug.ogg","word":"joaninha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":55,"key":"crab.ogg","word":"caranguejo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":56,"key":"lama.ogg","word":"lama","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":57,"key":"ant.ogg","word":"formiga","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":58,"key":"slug.ogg","word":"lesma","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":59,"key":"lizard.ogg","word":"lagarto","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":60,"key":"centipede.ogg","word":"centopeia","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":61,"key":"frog.ogg","word":"sapo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":62,"key":"camel.ogg","word":"camelo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":63,"key":"doe.ogg","word":"corsa","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":64,"key":"iguana.ogg","word":"iguana","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":65,"key":"rabbit_baby.ogg","word":"coelho bebé","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":66,"key":"rat.ogg","word":"rato","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":67,"key":"sole.ogg","word":"solha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":68,"key":"goose.ogg","word":"ganso","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":69,"key":"hyena.ogg","word":"hiena","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":70,"key":"bird.ogg","word":"pássaro","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":71,"key":"fox.ogg","word":"raposa","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":72,"key":"mice.ogg","word":"ratos","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":73,"key":"dog.ogg","word":"cão","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":74,"key":"chameleon.ogg","word":"camaleão","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":75,"key":"bait.ogg","word":"isco","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":76,"key":"parrot.ogg","word":"papagaio","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":77,"key":"bee.ogg","word":"abelha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":78,"key":"guinea_pig.ogg","word":"porquinho-da-índia","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":79,"key":"dragon.ogg","word":"dragão","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":80,"key":"horse.ogg","word":"cavalo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":81,"key":"colt.ogg","word":"potro","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":82,"key":"rhinoceros.ogg","word":"rinoceronte","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":83,"key":"fish.ogg","word":"peixe","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":84,"key":"peacock.ogg","word":"pavão","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":85,"key":"hippopotamus.ogg","word":"hipopótamo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":86,"key":"blackbird.ogg","word":"melro","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":87,"key":"wasp.ogg","word":"vespa","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":88,"key":"anteater.ogg","word":"papa-formigas","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":89,"key":"butterfly.ogg","word":"borboleta","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":90,"key":"otter.ogg","word":"lontra","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":91,"key":"koala.ogg","word":"coala","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":92,"key":"cat_female.ogg","word":"gata","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":93,"key":"hound.ogg","word":"cão-de-caça","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":94,"key":"giraffe.ogg","word":"girafa","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":95,"key":"clam.ogg","word":"concha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":96,"key":"deer.ogg","word":"veado","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":97,"key":"lobster.ogg","word":"lagosta","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":98,"key":"cobra.ogg","word":"cobra","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":99,"key":"elk.ogg","word":"alce","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":100,"key":"mole.ogg","word":"toupeira","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":101,"key":"fur.ogg","word":"pêlo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":102,"key":"jay.ogg","word":"gaio","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":103,"key":"alligator.ogg","word":"jacaré","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":104,"key":"pug.ogg","word":"buldogue","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":105,"key":"viper.ogg","word":"víbora","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":106,"key":"duck.ogg","word":"pato","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":107,"key":"hen.ogg","word":"galinha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":108,"key":"leopard.ogg","word":"leopardo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":109,"key":"mosquito.ogg","word":"mosquito","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":110,"key":"cat.ogg","word":"gato","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":111,"key":"duck_mother.ogg","word":"mãe do pato","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":112,"key":"jaguar.ogg","word":"jaguar","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":113,"key":"herd.ogg","word":"rebanho","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":114,"key":"slime.ogg","word":"viscoso","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":115,"key":"mane.ogg","word":"juba","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":116,"key":"kitten.ogg","word":"gato","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":117,"key":"paw.ogg","word":"pata","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":118,"key":"wolf.ogg","word":"lobo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":119,"key":"flies.ogg","word":"moscas","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":120,"key":"cow.ogg","word":"vaca","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":121,"key":"salmon.ogg","word":"salmão","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":122,"key":"feather.ogg","word":"pena","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":123,"key":"whale.ogg","word":"baleia","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":124,"key":"parakeet.ogg","word":"periquito","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":125,"key":"reptile.ogg","word":"réptil","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":126,"key":"bull.ogg","word":"bói","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":127,"key":"tick.ogg","word":"piolho","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":128,"key":"eagle.ogg","word":"águia","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":129,"key":"scorpion.ogg","word":"escorpião","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":130,"key":"pigeon.ogg","word":"pombo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":131,"key":"shark.ogg","word":"tubarão","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":132,"key":"crocodile.ogg","word":"crocodilo","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":133,"key":"zebra.ogg","word":"zebra","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":134,"key":"fawn.ogg","word":"corso","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":135,"key":"tadpole.ogg","word":"girino","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":136,"key":"tail.ogg","word":"cauda","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":137,"key":"sheep.ogg","word":"ovelha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":138,"key":"mule.ogg","word":"mula","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":139,"key":"pig.ogg","word":"porco","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":140,"key":"gorilla.ogg","word":"gorila","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":141,"key":"kangaroo.ogg","word":"canguru","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":142,"key":"animal.ogg","word":"animal","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":143,"key":"chicken.ogg","word":"galinha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":144,"key":"bug.ogg","word":"besouro","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":145,"key":"opossum.ogg","word":"gambá","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":146,"key":"lemur.ogg","word":"lémur","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":147,"key":"squid.ogg","word":"lula","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":148,"key":"swan.ogg","word":"cisne","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":149,"key":"dragonfly.ogg","word":"libelinha","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":150,"key":"shrimp.ogg","word":"camarão","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":151,"key":"canary.ogg","word":"canário","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":152,"key":"owl.ogg","word":"coruja","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":153,"key":"lion_cub.ogg","word":"cria de leão","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":154,"key":"pelican.ogg","word":"pelicano","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":155,"key":"jellyfish.ogg","word":"alforreca","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: HANGMAN_COMPLETED {"ordinal":156,"key":"goat.ogg","word":"cabra","remainingLife":6}
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+No audio device detected
+[vorbis @ 0x758c48012d40] Could not update timestamps for discarded samples.
+qml: NATIVE_RESULT {"failures":0,"passes":2,"lesson":12,"externalWords":true,"imageHint":false,"audioHint":true,"physicalInputs":479,"virtualInputs":403,"accented":{"ú":true,"í":true,"ç":true,"ã":true,"ó":true,"é":true,"á":true,"ê":true},"completed":[{"ordinal":1,"key":"puppy.ogg","word":"cachorro","remainingLife":3},{"ordinal":2,"key":"ostrich.ogg","word":"avestruz","remainingLife":6},{"ordinal":3,"key":"bear.ogg","word":"urso","remainingLife":6},{"ordinal":4,"key":"salamander.ogg","word":"salamandra","remainingLife":6},{"ordinal":5,"key":"magpie.ogg","word":"pega","remainingLife":6},{"ordinal":6,"key":"buffalo.ogg","word":"búfalo","remainingLife":6},{"ordinal":7,"key":"beaver.ogg","word":"castor","remainingLife":6},{"ordinal":8,"key":"squirrel.ogg","word":"esquilo","remainingLife":6},{"ordinal":9,"key":"mouse.ogg","word":"rato","remainingLife":6},{"ordinal":10,"key":"tusk.ogg","word":"tromba","remainingLife":6},{"ordinal":11,"key":"hedgehog.ogg","word":"porco-espinho","remainingLife":6},{"ordinal":12,"key":"turtle.ogg","word":"tartaruga","remainingLife":6},{"ordinal":13,"key":"bat.ogg","word":"morcego","remainingLife":6},{"ordinal":14,"key":"antelope.ogg","word":"antílope","remainingLife":6},{"ordinal":15,"key":"chick.ogg","word":"pinto","remainingLife":6},{"ordinal":16,"key":"claw.ogg","word":"garra","remainingLife":6},{"ordinal":17,"key":"shell.ogg","word":"búzio","remainingLife":6},{"ordinal":18,"key":"hive.ogg","word":"colmeia","remainingLife":6},{"ordinal":19,"key":"snake.ogg","word":"cobra","remainingLife":6},{"ordinal":20,"key":"ox.ogg","word":"boi","remainingLife":6},{"ordinal":21,"key":"flamingo.ogg","word":"flamingo","remainingLife":6},{"ordinal":22,"key":"panda.ogg","word":"panda","remainingLife":6},{"ordinal":23,"key":"wing.ogg","word":"asa","remainingLife":6},{"ordinal":24,"key":"fin.ogg","word":"barbatana","remainingLife":6},{"ordinal":25,"key":"beetle.ogg","word":"escaravelho","remainingLife":6},{"ordinal":26,"key":"cod.ogg","word":"bacalhau","remainingLife":6},{"ordinal":27,"key":"moose.ogg","word":"alce","remainingLife":6},{"ordinal":28,"key":"pet.ogg","word":"animal de estimação","remainingLife":6},{"ordinal":29,"key":"dove.ogg","word":"pomba","remainingLife":6},{"ordinal":30,"key":"spider.ogg","word":"aranha","remainingLife":6},{"ordinal":31,"key":"spike.ogg","word":"espinhoso","remainingLife":6},{"ordinal":32,"key":"sparrow.ogg","word":"pardal","remainingLife":6},{"ordinal":33,"key":"panther.ogg","word":"pantera","remainingLife":6},{"ordinal":34,"key":"caterpillar.ogg","word":"lagarta","remainingLife":6},{"ordinal":35,"key":"den.ogg","word":"aninhar","remainingLife":6},{"ordinal":36,"key":"tiger.ogg","word":"tigre","remainingLife":6},{"ordinal":37,"key":"rabbit.ogg","word":"coelho","remainingLife":6},{"ordinal":38,"key":"starfish.ogg","word":"estrela-do-mar","remainingLife":6},{"ordinal":39,"key":"pony.ogg","word":"pónei","remainingLife":6},{"ordinal":40,"key":"chimp.ogg","word":"chimpanzé","remainingLife":6},{"ordinal":41,"key":"sloth.ogg","word":"preguiça","remainingLife":6},{"ordinal":42,"key":"crow.ogg","word":"corvo","remainingLife":6},{"ordinal":43,"key":"toad.ogg","word":"sapo","remainingLife":6},{"ordinal":44,"key":"snail.ogg","word":"caracol","remainingLife":6},{"ordinal":45,"key":"oyster.ogg","word":"ostra","remainingLife":6},{"ordinal":46,"key":"hummingbird.ogg","word":"beija-flor","remainingLife":6},{"ordinal":47,"key":"dolphin.ogg","word":"golfinho","remainingLife":6},{"ordinal":48,"key":"turkey.ogg","word":"peru","remainingLife":6},{"ordinal":49,"key":"skunk.ogg","word":"doninha","remainingLife":6},{"ordinal":50,"key":"lamb.ogg","word":"cordeiro","remainingLife":6},{"ordinal":51,"key":"vulture.ogg","word":"abutre","remainingLife":6},{"ordinal":52,"key":"piranha.ogg","word":"piranha","remainingLife":6},{"ordinal":53,"key":"lion.ogg","word":"leão","remainingLife":6},{"ordinal":54,"key":"ladybug.ogg","word":"joaninha","remainingLife":6},{"ordinal":55,"key":"crab.ogg","word":"caranguejo","remainingLife":6},{"ordinal":56,"key":"lama.ogg","word":"lama","remainingLife":6},{"ordinal":57,"key":"ant.ogg","word":"formiga","remainingLife":6},{"ordinal":58,"key":"slug.ogg","word":"lesma","remainingLife":6},{"ordinal":59,"key":"lizard.ogg","word":"lagarto","remainingLife":6},{"ordinal":60,"key":"centipede.ogg","word":"centopeia","remainingLife":6},{"ordinal":61,"key":"frog.ogg","word":"sapo","remainingLife":6},{"ordinal":62,"key":"camel.ogg","word":"camelo","remainingLife":6},{"ordinal":63,"key":"doe.ogg","word":"corsa","remainingLife":6},{"ordinal":64,"key":"iguana.ogg","word":"iguana","remainingLife":6},{"ordinal":65,"key":"rabbit_baby.ogg","word":"coelho bebé","remainingLife":6},{"ordinal":66,"key":"rat.ogg","word":"rato","remainingLife":6},{"ordinal":67,"key":"sole.ogg","word":"solha","remainingLife":6},{"ordinal":68,"key":"goose.ogg","word":"ganso","remainingLife":6},{"ordinal":69,"key":"hyena.ogg","word":"hiena","remainingLife":6},{"ordinal":70,"key":"bird.ogg","word":"pássaro","remainingLife":6},{"ordinal":71,"key":"fox.ogg","word":"raposa","remainingLife":6},{"ordinal":72,"key":"mice.ogg","word":"ratos","remainingLife":6},{"ordinal":73,"key":"dog.ogg","word":"cão","remainingLife":6},{"ordinal":74,"key":"chameleon.ogg","word":"camaleão","remainingLife":6},{"ordinal":75,"key":"bait.ogg","word":"isco","remainingLife":6},{"ordinal":76,"key":"parrot.ogg","word":"papagaio","remainingLife":6},{"ordinal":77,"key":"bee.ogg","word":"abelha","remainingLife":6},{"ordinal":78,"key":"guinea_pig.ogg","word":"porquinho-da-índia","remainingLife":6},{"ordinal":79,"key":"dragon.ogg","word":"dragão","remainingLife":6},{"ordinal":80,"key":"horse.ogg","word":"cavalo","remainingLife":6},{"ordinal":81,"key":"colt.ogg","word":"potro","remainingLife":6},{"ordinal":82,"key":"rhinoceros.ogg","word":"rinoceronte","remainingLife":6},{"ordinal":83,"key":"fish.ogg","word":"peixe","remainingLife":6},{"ordinal":84,"key":"peacock.ogg","word":"pavão","remainingLife":6},{"ordinal":85,"key":"hippopotamus.ogg","word":"hipopótamo","remainingLife":6},{"ordinal":86,"key":"blackbird.ogg","word":"melro","remainingLife":6},{"ordinal":87,"key":"wasp.ogg","word":"vespa","remainingLife":6},{"ordinal":88,"key":"anteater.ogg","word":"papa-formigas","remainingLife":6},{"ordinal":89,"key":"butterfly.ogg","word":"borboleta","remainingLife":6},{"ordinal":90,"key":"otter.ogg","word":"lontra","remainingLife":6},{"ordinal":91,"key":"koala.ogg","word":"coala","remainingLife":6},{"ordinal":92,"key":"cat_female.ogg","word":"gata","remainingLife":6},{"ordinal":93,"key":"hound.ogg","word":"cão-de-caça","remainingLife":6},{"ordinal":94,"key":"giraffe.ogg","word":"girafa","remainingLife":6},{"ordinal":95,"key":"clam.ogg","word":"concha","remainingLife":6},{"ordinal":96,"key":"deer.ogg","word":"veado","remainingLife":6},{"ordinal":97,"key":"lobster.ogg","word":"lagosta","remainingLife":6},{"ordinal":98,"key":"cobra.ogg","word":"cobra","remainingLife":6},{"ordinal":99,"key":"elk.ogg","word":"alce","remainingLife":6},{"ordinal":100,"key":"mole.ogg","word":"toupeira","remainingLife":6},{"ordinal":101,"key":"fur.ogg","word":"pêlo","remainingLife":6},{"ordinal":102,"key":"jay.ogg","word":"gaio","remainingLife":6},{"ordinal":103,"key":"alligator.ogg","word":"jacaré","remainingLife":6},{"ordinal":104,"key":"pug.ogg","word":"buldogue","remainingLife":6},{"ordinal":105,"key":"viper.ogg","word":"víbora","remainingLife":6},{"ordinal":106,"key":"duck.ogg","word":"pato","remainingLife":6},{"ordinal":107,"key":"hen.ogg","word":"galinha","remainingLife":6},{"ordinal":108,"key":"leopard.ogg","word":"leopardo","remainingLife":6},{"ordinal":109,"key":"mosquito.ogg","word":"mosquito","remainingLife":6},{"ordinal":110,"key":"cat.ogg","word":"gato","remainingLife":6},{"ordinal":111,"key":"duck_mother.ogg","word":"mãe do pato","remainingLife":6},{"ordinal":112,"key":"jaguar.ogg","word":"jaguar","remainingLife":6},{"ordinal":113,"key":"herd.ogg","word":"rebanho","remainingLife":6},{"ordinal":114,"key":"slime.ogg","word":"viscoso","remainingLife":6},{"ordinal":115,"key":"mane.ogg","word":"juba","remainingLife":6},{"ordinal":116,"key":"kitten.ogg","word":"gato","remainingLife":6},{"ordinal":117,"key":"paw.ogg","word":"pata","remainingLife":6},{"ordinal":118,"key":"wolf.ogg","word":"lobo","remainingLife":6},{"ordinal":119,"key":"flies.ogg","word":"moscas","remainingLife":6},{"ordinal":120,"key":"cow.ogg","word":"vaca","remainingLife":6},{"ordinal":121,"key":"salmon.ogg","word":"salmão","remainingLife":6},{"ordinal":122,"key":"feather.ogg","word":"pena","remainingLife":6},{"ordinal":123,"key":"whale.ogg","word":"baleia","remainingLife":6},{"ordinal":124,"key":"parakeet.ogg","word":"periquito","remainingLife":6},{"ordinal":125,"key":"reptile.ogg","word":"réptil","remainingLife":6},{"ordinal":126,"key":"bull.ogg","word":"bói","remainingLife":6},{"ordinal":127,"key":"tick.ogg","word":"piolho","remainingLife":6},{"ordinal":128,"key":"eagle.ogg","word":"águia","remainingLife":6},{"ordinal":129,"key":"scorpion.ogg","word":"escorpião","remainingLife":6},{"ordinal":130,"key":"pigeon.ogg","word":"pombo","remainingLife":6},{"ordinal":131,"key":"shark.ogg","word":"tubarão","remainingLife":6},{"ordinal":132,"key":"crocodile.ogg","word":"crocodilo","remainingLife":6},{"ordinal":133,"key":"zebra.ogg","word":"zebra","remainingLife":6},{"ordinal":134,"key":"fawn.ogg","word":"corso","remainingLife":6},{"ordinal":135,"key":"tadpole.ogg","word":"girino","remainingLife":6},{"ordinal":136,"key":"tail.ogg","word":"cauda","remainingLife":6},{"ordinal":137,"key":"sheep.ogg","word":"ovelha","remainingLife":6},{"ordinal":138,"key":"mule.ogg","word":"mula","remainingLife":6},{"ordinal":139,"key":"pig.ogg","word":"porco","remainingLife":6},{"ordinal":140,"key":"gorilla.ogg","word":"gorila","remainingLife":6},{"ordinal":141,"key":"kangaroo.ogg","word":"canguru","remainingLife":6},{"ordinal":142,"key":"animal.ogg","word":"animal","remainingLife":6},{"ordinal":143,"key":"chicken.ogg","word":"galinha","remainingLife":6},{"ordinal":144,"key":"bug.ogg","word":"besouro","remainingLife":6},{"ordinal":145,"key":"opossum.ogg","word":"gambá","remainingLife":6},{"ordinal":146,"key":"lemur.ogg","word":"lémur","remainingLife":6},{"ordinal":147,"key":"squid.ogg","word":"lula","remainingLife":6},{"ordinal":148,"key":"swan.ogg","word":"cisne","remainingLife":6},{"ordinal":149,"key":"dragonfly.ogg","word":"libelinha","remainingLife":6},{"ordinal":150,"key":"shrimp.ogg","word":"camarão","remainingLife":6},{"ordinal":151,"key":"canary.ogg","word":"canário","remainingLife":6},{"ordinal":152,"key":"owl.ogg","word":"coruja","remainingLife":6},{"ordinal":153,"key":"lion_cub.ogg","word":"cria de leão","remainingLife":6},{"ordinal":154,"key":"pelican.ogg","word":"pelicano","remainingLife":6},{"ordinal":155,"key":"jellyfish.ogg","word":"alforreca","remainingLife":6},{"ordinal":156,"key":"goat.ogg","word":"cabra","remainingLife":6}]}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs

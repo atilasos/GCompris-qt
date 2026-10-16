@@ -83,7 +83,7 @@ gravity,pending,pending,pending,pending,pending,
 guess24,pending,pending,pending,pending,pending,
 guesscount,pending,pending,pending,pending,pending,
 guessnumber,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/guessnumber.md
-hangman,pending,pending,pending,pending,pending,
+hangman,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/hangman.md
 hanoi,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/hanoi.md
 hanoi_real,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/hanoi_real.md
 hexagon,pending,pending,pending,pending,pending,
