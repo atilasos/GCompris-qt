@@ -59,6 +59,7 @@ ActivityBase {
         }
 
         onStart: {
+            activity.numberOfLevel = items.numberOfLevel;
             items.currentLevel = Core.getInitialLevel(items.numberOfLevel);
             score.numberOfSubLevels = 5;
             score.currentSubLevel = 0;

@@ -54,7 +54,10 @@ ActivityBase {
             property bool inputLocked: true
         }
 
-        onStart: Activity.start(activity, items)
+        onStart: {
+            activity.numberOfLevel = items.numberOfLevel;
+            Activity.start(activity, items)
+        }
         onStop: Activity.stop()
 
         function checkTouchPoint(touchPoints) {
