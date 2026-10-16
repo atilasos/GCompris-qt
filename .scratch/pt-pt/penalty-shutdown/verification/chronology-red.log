@@ -1,0 +1,14 @@
+E
+======================================================================
+ERROR: test_missing_original_files_do_not_prove_inode_independence (test_chronology.MissingHistoricalRuntime.test_missing_original_files_do_not_prove_inode_independence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/tests/penalty_shutdown/test_chronology.py", line 8, in test_missing_original_files_do_not_prove_inode_independence
+    root=Path(temporary);output=root/'report.json';run=subprocess.run([sys.executable,str(ROOT/'tests/penalty_shutdown/reconstruct.py'),'--original-runtime',str(root/'missing-runtime'),'--main-prefix',str(root/'missing-main'),'--output',str(output)],capture_output=True,text=True);self.assertEqual(run.returncode,0,run.stderr);d=json.loads(output.read_text());self.assertEqual(d['original_snapshot_available_files'],0);self.assertIsNone(d['verified_no_shared_main_inode']);self.assertEqual(d['original_snapshot_files'],269)
+                                                                                                                                                                                                                                                                                                                                                                                         ~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'original_snapshot_available_files'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.057s
+
+FAILED (errors=1)

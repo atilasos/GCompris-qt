@@ -1,0 +1,470 @@
+{
+  "baseline-bare": {
+    "files": [
+      {
+        "bytes": 430842,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/Penalty.qml",
+        "sha256": "88636d2e6fc2fcc591859c6d3cdd3b4fddb8732362dc0818b080dd8b57ce4d84"
+      },
+      {
+        "bytes": 33849,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/penalty.svg",
+        "sha256": "d7e07a1370c3e6dbcac5ea0d1348fab3c87099e609bd77985919d3787e0d17f8"
+      },
+      {
+        "bytes": 1064,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/ActivityInfo.qml",
+        "sha256": "f833b5095532c465533e6f1c07de2265df24141bf128b29361db199da214f9af"
+      },
+      {
+        "bytes": 1077,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/Progress.qml",
+        "sha256": "6ef4c43981f7ae9242eddb08909a39164f4331c4e153da74835a55db0637a365"
+      },
+      {
+        "bytes": 3076,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/penalty.js",
+        "sha256": "57e11d27c60fd9189ff7a4f1b59f5123233926817294430c7403cbdefb47baed"
+      },
+      {
+        "bytes": 7915,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/goal.svg",
+        "sha256": "2800700be560d6aaf184f51636d955fc4ed40aa20121429b248d4a7187a2fa23"
+      },
+      {
+        "bytes": 10498,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/penalty_player.svg",
+        "sha256": "a3a0b10d3ed5f59479cf30417add067b95643d14e6588c7ea8d1f7b132c995a0"
+      },
+      {
+        "bytes": 5446,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/penalty_ball.svg",
+        "sha256": "0581bd8c9c3e246aaec41a1307489d1fc070510d21ea7dbd43d1d3f345bcf46a"
+      },
+      {
+        "bytes": 2302,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/penalty_bg.svg",
+        "sha256": "0389c5c2b3928bafdda0ecbfe330d2f689fc010b7839fb35db8aac8e1828535d"
+      },
+      {
+        "bytes": 10858,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/click_icon.svg",
+        "sha256": "e7ec7afd1e5696f836f251c77cc22789ab5b265c8d708f2cf4ec96123efde179"
+      },
+      {
+        "bytes": 381,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/CMakeLists.txt",
+        "sha256": "b312461622295f755d9768262965185ee9fc16de66a8bc6592344ce2e93a3850"
+      },
+      {
+        "bytes": 567,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/GoalZone.qml",
+        "sha256": "20cef29397b1d083df778ec4f8b1b48fd94d38c2e09d9b77aa7dcbf802796897"
+      }
+    ],
+    "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/baseline-bare",
+    "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/build/penalty-shutdown/sources/597c05f0b1d41946cb0fffe8b99e1c837b627cb2"
+  },
+  "baseline-retained": {
+    "files": [
+      {
+        "bytes": 430846,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/Penalty.qml",
+        "sha256": "6988b899afaa432316007ddcedc35a959fa6dea8a638f8d9ec67c537ae8726d0"
+      },
+      {
+        "bytes": 33849,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/penalty.svg",
+        "sha256": "d7e07a1370c3e6dbcac5ea0d1348fab3c87099e609bd77985919d3787e0d17f8"
+      },
+      {
+        "bytes": 1064,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/ActivityInfo.qml",
+        "sha256": "f833b5095532c465533e6f1c07de2265df24141bf128b29361db199da214f9af"
+      },
+      {
+        "bytes": 1077,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/Progress.qml",
+        "sha256": "6ef4c43981f7ae9242eddb08909a39164f4331c4e153da74835a55db0637a365"
+      },
+      {
+        "bytes": 3076,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/penalty.js",
+        "sha256": "57e11d27c60fd9189ff7a4f1b59f5123233926817294430c7403cbdefb47baed"
+      },
+      {
+        "bytes": 7915,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/goal.svg",
+        "sha256": "2800700be560d6aaf184f51636d955fc4ed40aa20121429b248d4a7187a2fa23"
+      },
+      {
+        "bytes": 10498,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/penalty_player.svg",
+        "sha256": "a3a0b10d3ed5f59479cf30417add067b95643d14e6588c7ea8d1f7b132c995a0"
+      },
+      {
+        "bytes": 5446,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/penalty_ball.svg",
+        "sha256": "0581bd8c9c3e246aaec41a1307489d1fc070510d21ea7dbd43d1d3f345bcf46a"
+      },
+      {
+        "bytes": 2302,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/penalty_bg.svg",
+        "sha256": "0389c5c2b3928bafdda0ecbfe330d2f689fc010b7839fb35db8aac8e1828535d"
+      },
+      {
+        "bytes": 10858,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/click_icon.svg",
+        "sha256": "e7ec7afd1e5696f836f251c77cc22789ab5b265c8d708f2cf4ec96123efde179"
+      },
+      {
+        "bytes": 381,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/CMakeLists.txt",
+        "sha256": "b312461622295f755d9768262965185ee9fc16de66a8bc6592344ce2e93a3850"
+      },
+      {
+        "bytes": 567,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/GoalZone.qml",
+        "sha256": "20cef29397b1d083df778ec4f8b1b48fd94d38c2e09d9b77aa7dcbf802796897"
+      }
+    ],
+    "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/baseline-retained",
+    "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/build/penalty-shutdown/sources/597c05f0b1d41946cb0fffe8b99e1c837b627cb2"
+  },
+  "baseline-logged": {
+    "files": [
+      {
+        "bytes": 430844,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/Penalty.qml",
+        "sha256": "760270d865a09ee42ceea346c44e66d37d6242f9aa2ebc3f4adf6608132e4279"
+      },
+      {
+        "bytes": 33849,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/penalty.svg",
+        "sha256": "d7e07a1370c3e6dbcac5ea0d1348fab3c87099e609bd77985919d3787e0d17f8"
+      },
+      {
+        "bytes": 1064,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/ActivityInfo.qml",
+        "sha256": "f833b5095532c465533e6f1c07de2265df24141bf128b29361db199da214f9af"
+      },
+      {
+        "bytes": 1077,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/Progress.qml",
+        "sha256": "6ef4c43981f7ae9242eddb08909a39164f4331c4e153da74835a55db0637a365"
+      },
+      {
+        "bytes": 3076,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/penalty.js",
+        "sha256": "57e11d27c60fd9189ff7a4f1b59f5123233926817294430c7403cbdefb47baed"
+      },
+      {
+        "bytes": 7915,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/goal.svg",
+        "sha256": "2800700be560d6aaf184f51636d955fc4ed40aa20121429b248d4a7187a2fa23"
+      },
+      {
+        "bytes": 10498,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/penalty_player.svg",
+        "sha256": "a3a0b10d3ed5f59479cf30417add067b95643d14e6588c7ea8d1f7b132c995a0"
+      },
+      {
+        "bytes": 5446,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/penalty_ball.svg",
+        "sha256": "0581bd8c9c3e246aaec41a1307489d1fc070510d21ea7dbd43d1d3f345bcf46a"
+      },
+      {
+        "bytes": 2302,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/penalty_bg.svg",
+        "sha256": "0389c5c2b3928bafdda0ecbfe330d2f689fc010b7839fb35db8aac8e1828535d"
+      },
+      {
+        "bytes": 10858,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/click_icon.svg",
+        "sha256": "e7ec7afd1e5696f836f251c77cc22789ab5b265c8d708f2cf4ec96123efde179"
+      },
+      {
+        "bytes": 381,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/CMakeLists.txt",
+        "sha256": "b312461622295f755d9768262965185ee9fc16de66a8bc6592344ce2e93a3850"
+      },
+      {
+        "bytes": 567,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/GoalZone.qml",
+        "sha256": "20cef29397b1d083df778ec4f8b1b48fd94d38c2e09d9b77aa7dcbf802796897"
+      }
+    ],
+    "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/baseline-logged",
+    "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/build/penalty-shutdown/sources/597c05f0b1d41946cb0fffe8b99e1c837b627cb2"
+  },
+  "final-bare": {
+    "files": [
+      {
+        "bytes": 430842,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/Penalty.qml",
+        "sha256": "88636d2e6fc2fcc591859c6d3cdd3b4fddb8732362dc0818b080dd8b57ce4d84"
+      },
+      {
+        "bytes": 33849,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/penalty.svg",
+        "sha256": "d7e07a1370c3e6dbcac5ea0d1348fab3c87099e609bd77985919d3787e0d17f8"
+      },
+      {
+        "bytes": 1064,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/ActivityInfo.qml",
+        "sha256": "f833b5095532c465533e6f1c07de2265df24141bf128b29361db199da214f9af"
+      },
+      {
+        "bytes": 1077,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/Progress.qml",
+        "sha256": "6ef4c43981f7ae9242eddb08909a39164f4331c4e153da74835a55db0637a365"
+      },
+      {
+        "bytes": 3184,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/penalty.js",
+        "sha256": "17e1d808d8fa76d3b1cd640155993f39c23514a2839053f5ca615abccbb1167a"
+      },
+      {
+        "bytes": 7915,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/goal.svg",
+        "sha256": "2800700be560d6aaf184f51636d955fc4ed40aa20121429b248d4a7187a2fa23"
+      },
+      {
+        "bytes": 10498,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/penalty_player.svg",
+        "sha256": "a3a0b10d3ed5f59479cf30417add067b95643d14e6588c7ea8d1f7b132c995a0"
+      },
+      {
+        "bytes": 5446,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/penalty_ball.svg",
+        "sha256": "0581bd8c9c3e246aaec41a1307489d1fc070510d21ea7dbd43d1d3f345bcf46a"
+      },
+      {
+        "bytes": 2302,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/penalty_bg.svg",
+        "sha256": "0389c5c2b3928bafdda0ecbfe330d2f689fc010b7839fb35db8aac8e1828535d"
+      },
+      {
+        "bytes": 10858,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/click_icon.svg",
+        "sha256": "e7ec7afd1e5696f836f251c77cc22789ab5b265c8d708f2cf4ec96123efde179"
+      },
+      {
+        "bytes": 381,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/CMakeLists.txt",
+        "sha256": "b312461622295f755d9768262965185ee9fc16de66a8bc6592344ce2e93a3850"
+      },
+      {
+        "bytes": 567,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/GoalZone.qml",
+        "sha256": "20cef29397b1d083df778ec4f8b1b48fd94d38c2e09d9b77aa7dcbf802796897"
+      }
+    ],
+    "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/final-bare",
+    "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/build/penalty-shutdown/sources/1729d456c16b2a670f75622c6444ce208dd59c37"
+  },
+  "final-retained": {
+    "files": [
+      {
+        "bytes": 430846,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/Penalty.qml",
+        "sha256": "6988b899afaa432316007ddcedc35a959fa6dea8a638f8d9ec67c537ae8726d0"
+      },
+      {
+        "bytes": 33849,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/penalty.svg",
+        "sha256": "d7e07a1370c3e6dbcac5ea0d1348fab3c87099e609bd77985919d3787e0d17f8"
+      },
+      {
+        "bytes": 1064,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/ActivityInfo.qml",
+        "sha256": "f833b5095532c465533e6f1c07de2265df24141bf128b29361db199da214f9af"
+      },
+      {
+        "bytes": 1077,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/Progress.qml",
+        "sha256": "6ef4c43981f7ae9242eddb08909a39164f4331c4e153da74835a55db0637a365"
+      },
+      {
+        "bytes": 3184,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/penalty.js",
+        "sha256": "17e1d808d8fa76d3b1cd640155993f39c23514a2839053f5ca615abccbb1167a"
+      },
+      {
+        "bytes": 7915,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/goal.svg",
+        "sha256": "2800700be560d6aaf184f51636d955fc4ed40aa20121429b248d4a7187a2fa23"
+      },
+      {
+        "bytes": 10498,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/penalty_player.svg",
+        "sha256": "a3a0b10d3ed5f59479cf30417add067b95643d14e6588c7ea8d1f7b132c995a0"
+      },
+      {
+        "bytes": 5446,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/penalty_ball.svg",
+        "sha256": "0581bd8c9c3e246aaec41a1307489d1fc070510d21ea7dbd43d1d3f345bcf46a"
+      },
+      {
+        "bytes": 2302,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/penalty_bg.svg",
+        "sha256": "0389c5c2b3928bafdda0ecbfe330d2f689fc010b7839fb35db8aac8e1828535d"
+      },
+      {
+        "bytes": 10858,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/click_icon.svg",
+        "sha256": "e7ec7afd1e5696f836f251c77cc22789ab5b265c8d708f2cf4ec96123efde179"
+      },
+      {
+        "bytes": 381,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/CMakeLists.txt",
+        "sha256": "b312461622295f755d9768262965185ee9fc16de66a8bc6592344ce2e93a3850"
+      },
+      {
+        "bytes": 567,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/GoalZone.qml",
+        "sha256": "20cef29397b1d083df778ec4f8b1b48fd94d38c2e09d9b77aa7dcbf802796897"
+      }
+    ],
+    "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/final-retained",
+    "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/build/penalty-shutdown/sources/1729d456c16b2a670f75622c6444ce208dd59c37"
+  },
+  "final-logged": {
+    "files": [
+      {
+        "bytes": 430844,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/Penalty.qml",
+        "sha256": "760270d865a09ee42ceea346c44e66d37d6242f9aa2ebc3f4adf6608132e4279"
+      },
+      {
+        "bytes": 33849,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/penalty.svg",
+        "sha256": "d7e07a1370c3e6dbcac5ea0d1348fab3c87099e609bd77985919d3787e0d17f8"
+      },
+      {
+        "bytes": 1064,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/ActivityInfo.qml",
+        "sha256": "f833b5095532c465533e6f1c07de2265df24141bf128b29361db199da214f9af"
+      },
+      {
+        "bytes": 1077,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/Progress.qml",
+        "sha256": "6ef4c43981f7ae9242eddb08909a39164f4331c4e153da74835a55db0637a365"
+      },
+      {
+        "bytes": 3184,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/penalty.js",
+        "sha256": "17e1d808d8fa76d3b1cd640155993f39c23514a2839053f5ca615abccbb1167a"
+      },
+      {
+        "bytes": 7915,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/goal.svg",
+        "sha256": "2800700be560d6aaf184f51636d955fc4ed40aa20121429b248d4a7187a2fa23"
+      },
+      {
+        "bytes": 10498,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/penalty_player.svg",
+        "sha256": "a3a0b10d3ed5f59479cf30417add067b95643d14e6588c7ea8d1f7b132c995a0"
+      },
+      {
+        "bytes": 5446,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/penalty_ball.svg",
+        "sha256": "0581bd8c9c3e246aaec41a1307489d1fc070510d21ea7dbd43d1d3f345bcf46a"
+      },
+      {
+        "bytes": 2302,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/penalty_bg.svg",
+        "sha256": "0389c5c2b3928bafdda0ecbfe330d2f689fc010b7839fb35db8aac8e1828535d"
+      },
+      {
+        "bytes": 10858,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/resource/click_icon.svg",
+        "sha256": "e7ec7afd1e5696f836f251c77cc22789ab5b265c8d708f2cf4ec96123efde179"
+      },
+      {
+        "bytes": 381,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/CMakeLists.txt",
+        "sha256": "b312461622295f755d9768262965185ee9fc16de66a8bc6592344ce2e93a3850"
+      },
+      {
+        "bytes": 567,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/penalty/GoalZone.qml",
+        "sha256": "20cef29397b1d083df778ec4f8b1b48fd94d38c2e09d9b77aa7dcbf802796897"
+      }
+    ],
+    "runtime_output": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/final-logged",
+    "runtime_source": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/build/penalty-shutdown/sources/1729d456c16b2a670f75622c6444ce208dd59c37"
+  }
+}

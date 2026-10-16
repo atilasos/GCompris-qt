@@ -1,0 +1,20 @@
+[
+  {
+    "argv": [
+      "journalctl",
+      "-k",
+      "--utc",
+      "--since",
+      "2026-10-16 03:48:00 UTC",
+      "--until",
+      "2026-10-16 03:50:15 UTC",
+      "--grep=segfault|oom|Out of memory|Killed process|Mem-Info",
+      "--no-pager",
+      "-n",
+      "40"
+    ],
+    "exit_code": 0,
+    "file": "kernel-utc.txt",
+    "sha256": "2285b25743860828235edebddab549eb7b19cc42a046bd89b346165b13637d5a"
+  }
+]

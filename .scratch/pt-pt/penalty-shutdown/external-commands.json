@@ -1,0 +1,50 @@
+[
+  {
+    "argv": [
+      "/tmp/pt-audio-rcc-inventory",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-19f657ffa3144559b34aedb8915e1a03/share/gcompris-qt/rcc/penalty.rcc",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/build/penalty-shutdown/exported/baseline-bare"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "/tmp/pt-audio-rcc-inventory",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-434a97cb87314687b900f0c993b23199/share/gcompris-qt/rcc/penalty.rcc",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/build/penalty-shutdown/exported/baseline-retained"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "/tmp/pt-audio-rcc-inventory",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-3a776dec01724aa1ad809904babb06f3/share/gcompris-qt/rcc/penalty.rcc",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/build/penalty-shutdown/exported/baseline-logged"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "/tmp/pt-audio-rcc-inventory",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-440f3af6c86f46f9ab9137a2d90c79f4/share/gcompris-qt/rcc/penalty.rcc",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/build/penalty-shutdown/exported/final-bare"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "/tmp/pt-audio-rcc-inventory",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-5525b2669a204b4e8a55283bda338c05/share/gcompris-qt/rcc/penalty.rcc",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/build/penalty-shutdown/exported/final-retained"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "/tmp/pt-audio-rcc-inventory",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-021a2de415364c749dba95b4421d389e/share/gcompris-qt/rcc/penalty.rcc",
+      "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/build/penalty-shutdown/exported/final-logged"
+    ],
+    "exit_code": 0
+  }
+]
