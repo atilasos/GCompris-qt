@@ -20,3 +20,5 @@ para o fonte 6ea583f2bcec65e8658ae069d287fe8464d34470. O JSON conserva a
 resposta da API. Esse fonte inclui os lotes 52, 53, 56, 57 e 58; não inclui
 as alterações de produção dos lotes 60 a 63. Não foi descarregado nem
 verificado localmente outro EXE. A entrega desses lotes exige novo candidato.
+
+A execução 38835741153 terminou com sucesso em 2026-10-16T02:09:11Z, na fonte `b0921a0494c9d139b43ac368a66bbfff5414832e`. Inclui as correções de produção dos lotes 60–63. Os JSON de execução e artefactos foram recolhidos da API; o EXE desta execução não foi descarregado nem verificado localmente. As correções posteriores de alfabeto, retas graduadas e contrato de níveis dos vizinhos precisam de nova compilação. Não constitui execução em Windows 10 da escola.

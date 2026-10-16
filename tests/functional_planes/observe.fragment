@@ -1,0 +1,39 @@
+    property var visibleCloudHistory: []
+    property var capturedClouds: []
+    property var currentExpected: []
+    property int observedLevel: 0
+    function observeClouds(){
+        for(var object of activityBackground.children){
+            if(object.source===undefined||!/\/cloud(?:_storm)?\.svg$/.test(String(object.source))||!object.visible||object.opacity<=0.5)continue;
+            var label=find(object,function(child){return child.text!==undefined&&child.visible&&String(child.text).length>0;});
+            if(!label)continue;var point=label.mapToItem(activityBackground,0,0);
+            if(point.x<0||point.x+label.width>activityBackground.width||point.y<0||point.y+label.height>activityBackground.height-bar.height)continue;
+            if(!visibleCloudHistory.some(function(row){return row.item===object;}))visibleCloudHistory.push({item:object,text:String(label.text),x:object.x,y:object.y,seen:false});
+        }
+        for(var row of visibleCloudHistory){
+            if(row.item&&!row.seen&&row.item.opacity<0.5){
+                row.seen=true;
+                ensure(capturedClouds.length<currentExpected.length,'Only the declared sequence is captured');
+                var wanted=currentExpected[capturedClouds.length];
+                ensure(row.text===wanted,'Observed fade must follow independent order: expected '+wanted+', got '+row.text);
+                var evidence={expected:wanted,drawn:row.text,feedback:'fade',cloudMoved:Math.abs(row.item.x-row.x)>1,plane:{x:plane.x,y:plane.y}};
+                ensure(evidence.cloudMoved,'Natural cloud movement before capture');capturedClouds.push(evidence);
+                console.log('PLANE_PROGRESS',observedLevel,capturedClouds.length,currentExpected.length,row.text);
+            }
+        }
+    }
+    function pursueNextVisibleCloud(){
+        var before=capturedClouds.length,selected=null;
+        for(var tick=0;tick<1000&&capturedClouds.length===before;tick++){
+            observeClouds();if(capturedClouds.length!==before)break;
+            var candidates=clouds().filter(function(row){return row.text===currentExpected[before]&&row.item.x>activityBackground.width*0.35;});
+            candidates.sort(function(a,b){return b.item.x-a.item.x;});
+            if(candidates.length)selected=candidates[0].item;
+            if(selected&&selected.x+selected.width>0&&selected.opacity>0.5){
+                // Intercept in the middle of the field, keeping incoming labels visible.
+                mouseClick(activityBackground,Math.min(selected.x+selected.width/2,activityBackground.width*0.6),selected.y+selected.height/2,Qt.LeftButton,Qt.NoModifier,0);
+            }
+            wait(100);
+        }
+        ensure(capturedClouds.length>before,'A naturally drawn target is intercepted within 100 seconds');
+    }
