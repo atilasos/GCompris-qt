@@ -277,3 +277,5 @@ e Spec independentes; duas ligações foram acrescentadas sem alterar os
 critérios globais, Windows, hardware, áudio ou revisão docente.
 
 - [72 — Preparação concorrente das fontes de teste](issues/72-preparacao-concorrente-fontes.md)
+
+- [73 — Numeração romana](issues/73-numeracao-romana.md)
