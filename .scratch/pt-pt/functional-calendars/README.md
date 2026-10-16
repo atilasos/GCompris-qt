@@ -44,3 +44,29 @@ o auditor usa o catálogo Git db2f86383 e não depende dessa pasta.
 O ponto anterior deste documento descreve o checkpoint histórico; as campanhas
 acima já terminaram com 0 no lançador e nos recibos. A auditoria e revisão final
 continuam pendentes até à consolidação. Nenhum critério global foi aprovado.
+
+## Auditoria final
+
+A auditoria passou com 12 recibos selecionados: seis casos principais e três
+pares de regressão, com nove resultados positivos e três negativos esperados.
+Os negativos terminam normalmente no processo Qt com 0, mas têm uma asserção
+falhada e o lançador termina com 1. Os nove positivos têm ambas as saídas 0.
+O caso orthography-green anterior é uma prova adicional histórica, não acrescenta
+perguntas nem níveis à contagem principal de 70/12.
+
+Os casos e recursos estão fixados no commit 253a90e85, as fontes finais em
+02c4675f6, a fase do título em bde22db2e e o catálogo anterior em db2f86383.
+O auditor confere listas exatas e SHA de fontes, catálogo por fase, lançador,
+casos, snapshot efetivo de 269 ficheiros, capturas, bytes QRC e todas as
+perguntas/respostas gregorianas. Não abre ficheiros de worktrees antigas nem
+usa o catálogo corrente. Onze testes puros incluem cópia independente,
+remoção de pergunta e adulteração de fonte/catálogo, caso, recurso e inventário.
+
+```sh
+python3 tests/functional_calendars/audit.py
+python3 -m unittest discover -s tests/functional_calendars -p 'test_*.py'
+```
+
+As 47 correções de ortografia constam de orthography-changes.json, para revisão
+docente. A revisão independente do código e das provas finais fica registada
+separadamente. A aceitação global permanece pendente.
