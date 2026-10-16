@@ -1,7 +1,7 @@
 # Concluir padrões, mosaicos e polígonos por geometria visível
 
 Status: ready-for-agent
-Progress: open
+Progress: claimed
 Type: task
 Blocked by: 02, 25, 88
 
