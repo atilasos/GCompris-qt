@@ -1,0 +1,44 @@
+[
+  {
+    "mode": "counters",
+    "start": 1,
+    "levels": 5,
+    "exit_code": 0,
+    "output": "counters-01"
+  },
+  {
+    "mode": "counters",
+    "start": 6,
+    "levels": 5,
+    "exit_code": 0,
+    "output": "counters-06"
+  },
+  {
+    "mode": "counters",
+    "start": 11,
+    "levels": 5,
+    "exit_code": 0,
+    "output": "counters-11"
+  },
+  {
+    "mode": "hidden",
+    "start": 1,
+    "levels": 5,
+    "exit_code": 0,
+    "output": "hidden-01"
+  },
+  {
+    "mode": "hidden",
+    "start": 6,
+    "levels": 5,
+    "exit_code": 0,
+    "output": "hidden-06"
+  },
+  {
+    "mode": "hidden",
+    "start": 11,
+    "levels": 5,
+    "exit_code": 0,
+    "output": "hidden-11"
+  }
+]
