@@ -403,7 +403,8 @@ independentes. Três ligações mantêm os critérios globais, Windows, hardware
 - [87 — Grelhas lógicas](issues/87-grelhas-logicas.md)
 
 A tarefa 86 tem provas Linux integradas de 36 níveis, 46 conclusões naturais
-e 36 erros/reparações das relações familiares. Está `ready-for-review`,
-aguardando Standards e Spec independentes. Duas ligações mantêm os critérios
+e 36 erros/reparações das relações familiares. Fica resolvida no âmbito Linux
+finito após revisões sem achados; [relatórios](review/integration86/).
+Duas ligações mantêm os critérios
 globais pendentes; iconografia não demonstra género pela aparência.
 Windows, hardware, áudio e revisão docente permanecem pendentes.
