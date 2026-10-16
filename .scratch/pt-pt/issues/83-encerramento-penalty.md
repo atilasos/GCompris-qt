@@ -55,3 +55,14 @@ A tarefa permanece open, conforme o critério de aceitação. Os seis 0 não eli
 a hipótese, não provam estabilidade, não aprovam Windows e não bloqueiam outras
 validações funcionais. Uma futura reprodução precisa de stack/core e vínculo
 de processo demonstrado antes de justificar correção.
+
+## Correção da ferramenta após revisão P2
+
+O runner futuro usa um único critério de continuação e veredito: retorno 0 do
+supervisor e do inferior, ausência de sinais e identidade/cmdline/namespace
+observados e compatíveis. Uma falha interrompe ambos os ciclos, mesmo quando o
+wrapper devolve 0. A regressão CLI sem Qt reproduziu o SIGSEGV que antes iniciava
+três ensaios adicionais; cobre também saídas não zero e identidade ausente ou
+incompatível, além da matriz saudável de seis ensaios. As ferramentas arquivadas
+e as seis provas históricas permanecem intactas. Esta correção não diagnostica
+o 139 original; a tarefa continua open.
