@@ -3,7 +3,7 @@
 import errno,hashlib,json,subprocess,tempfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
-PREFIXES=['CMakeLists.txt','poqm/pt/gcompris_qt.po','tools/run-native-qml-case.py','tools/run-native-qml-supervised.py','tools/native_qml_resources.py','tools/native_qml_supervision.py','tools/pt-pt-audio/rcc_inventory.cpp','src/core','src/activities/babymatch','src/activities/details','src/activities/paintings','src/activities/photo_hunter','tests/functional_visual_puzzles']
+PREFIXES=['CMakeLists.txt','poqm/pt/gcompris_qt.po','tools/run-native-qml-case.py','tools/run-native-qml-supervised.py','tools/native_qml_resources.py','tools/native_qml_supervision.py','tools/pt-pt-audio/rcc_inventory.cpp','src/core','src/activities/babymatch','src/activities/details','src/activities/paintings','src/activities/photo_hunter','tests/functional_visual_puzzles','tests/painting_pixel_solver']
 def freeze(revision):
  revision=subprocess.check_output(['git','rev-parse',revision+'^{commit}'],cwd=ROOT,text=True).strip()
  output=ROOT/'build/functional-visual-puzzles/sources'/revision
