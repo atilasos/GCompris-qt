@@ -320,8 +320,8 @@ ocluído no ensaio adicional em retrato e a ausência de prova de reprodução
 SoundEffect mantêm os limites publicados; Windows, hardware e docente pendentes.
 
 A tarefa 78 tem prova Linux integrada dos 99 níveis/nove datasets de apagar
-luzes, com 99 Bonus. Está `ready-for-review`, aguardando Standards e Spec
-independentes. A ligação foi acrescentada sem alterar critérios globais,
+luzes, com 99 Bonus. Fica resolvida no âmbito Linux após Standards e Spec
+sem achados; [relatórios](review/integration78/). A ligação mantém critérios globais,
 Windows, hardware, áudio ou revisão docente.
 
 - [79 — Desafios aritméticos](issues/79-desafios-aritmeticos.md)
