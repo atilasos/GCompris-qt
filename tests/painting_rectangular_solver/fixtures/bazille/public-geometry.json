@@ -1,0 +1,145 @@
+{
+  "board": {
+    "level": 20,
+    "frame": {
+      "x": 445,
+      "y": 352.4344729344729,
+      "width": 710,
+      "height": 520.8689458689458,
+      "opacity": 1,
+      "visible": true,
+      "source": "qrc:/gcompris/src/activities/paintings/resource/image/bg.svg"
+    },
+    "pages": [
+      [
+        {
+          "x": 45,
+          "y": 45,
+          "width": 65,
+          "height": 65,
+          "opacity": 1,
+          "visible": true,
+          "source": "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_2.webp"
+        },
+        {
+          "x": 45,
+          "y": 120,
+          "width": 65,
+          "height": 65,
+          "opacity": 1,
+          "visible": true,
+          "source": "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_3.webp"
+        },
+        {
+          "x": 45,
+          "y": 195,
+          "width": 65,
+          "height": 65,
+          "opacity": 1,
+          "visible": true,
+          "source": "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_4.webp"
+        },
+        {
+          "x": 45,
+          "y": 270,
+          "width": 65,
+          "height": 65,
+          "opacity": 1,
+          "visible": true,
+          "source": "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_6.webp"
+        },
+        {
+          "x": 45,
+          "y": 345,
+          "width": 65,
+          "height": 65,
+          "opacity": 1,
+          "visible": true,
+          "source": "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_1.webp"
+        },
+        {
+          "x": 45,
+          "y": 420,
+          "width": 65,
+          "height": 65,
+          "opacity": 1,
+          "visible": true,
+          "source": "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_5.webp"
+        }
+      ]
+    ],
+    "drawnCircles": [
+      {
+        "x": 240.51999999999998,
+        "y": 239.40591168091166,
+        "width": 10,
+        "height": 10,
+        "opacity": 1,
+        "visible": true,
+        "source": null
+      },
+      {
+        "x": 445.71,
+        "y": 239.40591168091166,
+        "width": 10,
+        "height": 10,
+        "opacity": 1,
+        "visible": true,
+        "source": null
+      },
+      {
+        "x": 651.61,
+        "y": 239.40591168091166,
+        "width": 10,
+        "height": 10,
+        "opacity": 1,
+        "visible": true,
+        "source": null
+      },
+      {
+        "x": 240.51999999999998,
+        "y": 422.2309116809117,
+        "width": 10,
+        "height": 10,
+        "opacity": 1,
+        "visible": true,
+        "source": null
+      },
+      {
+        "x": 445.71,
+        "y": 422.2309116809117,
+        "width": 10,
+        "height": 10,
+        "opacity": 1,
+        "visible": true,
+        "source": null
+      },
+      {
+        "x": 651.61,
+        "y": 422.2309116809117,
+        "width": 10,
+        "height": 10,
+        "opacity": 1,
+        "visible": true,
+        "source": null
+      }
+    ]
+  },
+  "calibration": {
+    "level": 20,
+    "frame": {
+      "x": 445,
+      "y": 352.4344729344729,
+      "width": 710,
+      "height": 520.8689458689458,
+      "opacity": 1,
+      "visible": true,
+      "source": "qrc:/gcompris/src/activities/paintings/resource/image/bg.svg"
+    },
+    "placed": {
+      "source": "qrc:/gcompris/src/activities/paintings/resource/image/bazille_rampart_2.webp",
+      "width": 205.3133903133903,
+      "height": 185.0854700854701
+    }
+  }
+}
