@@ -9,11 +9,11 @@ import sys
 from corpus import corpus
 
 
-def check_report(report):
+def check_report(report, data=None):
     result=report.get('case_result') or {}
     activity=report['activity']
     dataset='words.json' if result['externalWords'] else 'words_sample.json'
-    lessons=corpus()['datasets'][dataset]
+    lessons=(corpus() if data is None else data)['datasets'][dataset]
     lesson=lessons[result['lesson']]
     words={word['image'].split('/')[-1].replace('.webp','.ogg'):word['text'] for word in lesson['words']}
     completed=result.get('completed',[])
