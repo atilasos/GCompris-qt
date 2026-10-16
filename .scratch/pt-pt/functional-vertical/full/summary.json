@@ -1,0 +1,98 @@
+[
+  {
+    "activity": "vertical_addition",
+    "start": 1,
+    "levels": 3,
+    "puzzles": 30,
+    "exit_code": 0,
+    "output": "vertical_addition-01"
+  },
+  {
+    "activity": "vertical_addition",
+    "start": 4,
+    "levels": 3,
+    "puzzles": 30,
+    "exit_code": 0,
+    "output": "vertical_addition-04"
+  },
+  {
+    "activity": "vertical_addition",
+    "start": 7,
+    "levels": 3,
+    "puzzles": 30,
+    "exit_code": 0,
+    "output": "vertical_addition-07"
+  },
+  {
+    "activity": "vertical_addition",
+    "start": 10,
+    "levels": 3,
+    "puzzles": 30,
+    "exit_code": 0,
+    "output": "vertical_addition-10"
+  },
+  {
+    "activity": "vertical_subtraction",
+    "start": 1,
+    "levels": 3,
+    "puzzles": 30,
+    "exit_code": 0,
+    "output": "vertical_subtraction-01"
+  },
+  {
+    "activity": "vertical_subtraction",
+    "start": 4,
+    "levels": 3,
+    "puzzles": 30,
+    "exit_code": 0,
+    "output": "vertical_subtraction-04"
+  },
+  {
+    "activity": "vertical_subtraction",
+    "start": 7,
+    "levels": 3,
+    "puzzles": 30,
+    "exit_code": 0,
+    "output": "vertical_subtraction-07"
+  },
+  {
+    "activity": "vertical_subtraction",
+    "start": 10,
+    "levels": 3,
+    "puzzles": 30,
+    "exit_code": 0,
+    "output": "vertical_subtraction-10"
+  },
+  {
+    "activity": "vertical_subtraction_compensation",
+    "start": 1,
+    "levels": 3,
+    "puzzles": 30,
+    "exit_code": 0,
+    "output": "vertical_subtraction_compensation-01"
+  },
+  {
+    "activity": "vertical_subtraction_compensation",
+    "start": 4,
+    "levels": 3,
+    "puzzles": 30,
+    "exit_code": 0,
+    "output": "vertical_subtraction_compensation-04"
+  },
+  {
+    "activity": "vertical_subtraction_compensation",
+    "start": 7,
+    "levels": 3,
+    "puzzles": 30,
+    "exit_code": 0,
+    "output": "vertical_subtraction_compensation-07"
+  },
+  {
+    "activity": "vertical_subtraction_compensation",
+    "start": 10,
+    "levels": 3,
+    "puzzles": 30,
+    "exit_code": 0,
+    "output": "vertical_subtraction_compensation-10"
+  }
+]

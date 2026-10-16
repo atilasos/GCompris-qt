@@ -22,6 +22,7 @@ function start(items_) {
     // Make sure items.numberOfLevel is initialized before calling Core.getInitialLevel
     items.numberOfLevel = items.levels.length
     items.currentLevel = Core.getInitialLevel(items.numberOfLevel)
+    items.currentSubLevel = 0
     initLevel()
 }
 
@@ -164,7 +165,7 @@ function checkDropped() {
             for (i = 0; i < items.numbersModel.count; i++) {    // Build the new numberValue (from dropped numbers)
                 items.numberRepeater.itemAt(i).toNumberValue()
                 var value = Number(items.numberRepeater.itemAt(i).numberValue)
-                if (items.numberRepeater.itemAt(i).numberValue !== "0")
+                if (!items.numberRepeater.itemAt(i).checkEmptyNumber())
                     result += (((i === 0) || (items.operation === items.operationType.Addition)) ? 1 : -1) * value
             }
             items.board.result = result
@@ -273,6 +274,7 @@ function nextLevel() {
 
 function previousLevel() {
     items.currentLevel = Core.getPreviousLevel(items.currentLevel, items.numberOfLevel);
+    items.currentSubLevel = 0
     initLevel();
 }
 

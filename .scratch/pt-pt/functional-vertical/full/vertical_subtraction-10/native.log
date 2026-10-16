@@ -1,0 +1,128 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/build/functional-vertical/snapshot/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/.scratch/pt-pt/functional-vertical/full/.native-qml-d948561b05f548d99f7a25f90244f085/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/.scratch/pt-pt/functional-vertical/full/.native-qml-d948561b05f548d99f7a25f90244f085/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/.scratch/pt-pt/functional-vertical/full/.native-qml-d948561b05f548d99f7a25f90244f085/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/.scratch/pt-pt/functional-vertical/full/.native-qml-d948561b05f548d99f7a25f90244f085/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/.scratch/pt-pt/functional-vertical/full/.native-qml-d948561b05f548d99f7a25f90244f085/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/.scratch/pt-pt/functional-vertical/full/.native-qml-d948561b05f548d99f7a25f90244f085/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/.scratch/pt-pt/functional-vertical/full/.native-qml-d948561b05f548d99f7a25f90244f085/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/.scratch/pt-pt/functional-vertical/full/.native-qml-d948561b05f548d99f7a25f90244f085/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-vertical-operations/.scratch/pt-pt/functional-vertical/full/.native-qml-d948561b05f548d99f7a25f90244f085/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity vertical_subtraction/VerticalSubtraction.qml at level 9
+qml: vertical_subtraction/VerticalSubtraction.qml vertical_subtraction/VerticalSubtraction.qml
+No audio device detected
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: VERTICAL_PUZZLE {"level":10,"sublevel":1,"prompt":"Resolve: 12482 - 6863 - 4731","operands":[12482,6863,4731],"result":888,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,20],[0,3,-2],[0,3,10],[0,4,-1]],"laid":true,"error":true}
+qml: VERTICAL_PUZZLE {"level":10,"sublevel":2,"prompt":"Resolve: 21124 - 8551 - 7517","operands":[21124,8551,7517],"result":5056,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1],[0,3,20],[0,4,-2]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":10,"sublevel":3,"prompt":"Resolve: 11991 - 3550 - 6524","operands":[11991,3550,6524],"result":1917,"adjustments":[[0,0,10],[0,1,-1],[0,2,10],[0,3,-1],[0,3,10],[0,4,-1]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":10,"sublevel":4,"prompt":"Resolve: 20725 - 8726 - 3977","operands":[20725,8726,3977],"result":8022,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1],[0,3,20],[0,4,-2]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":10,"sublevel":5,"prompt":"Resolve: 13334 - 9586 - 2042","operands":[13334,9586,2042],"result":1706,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1],[0,3,10],[0,4,-1]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":10,"sublevel":6,"prompt":"Resolve: 9457 - 5969 - 1584","operands":[9457,5969,1584],"result":1904,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,20],[0,3,-2]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":10,"sublevel":7,"prompt":"Resolve: 8360 - 2656 - 1936","operands":[8360,2656,1936],"result":3768,"adjustments":[[0,0,20],[0,1,-2],[0,1,10],[0,2,-1],[0,2,20],[0,3,-2]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":10,"sublevel":8,"prompt":"Resolve: 7692 - 864 - 6047","operands":[7692,864,6047],"result":781,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":10,"sublevel":9,"prompt":"Resolve: 16402 - 1215 - 8544","operands":[16402,1215,8544],"result":6643,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1],[0,3,10],[0,4,-1]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":10,"sublevel":10,"prompt":"Resolve: 22217 - 9312 - 9705","operands":[22217,9312,9705],"result":3200,"adjustments":[[0,2,10],[0,3,-1],[0,3,20],[0,4,-2]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":11,"sublevel":1,"prompt":"Resolve: 20663 - 9202 - 4098 - 6218","operands":[20663,9202,4098,6218],"result":1145,"adjustments":[[0,0,20],[0,1,-2],[0,1,10],[0,2,-1],[0,3,20],[0,4,-2]],"laid":true,"error":true}
+qml: VERTICAL_PUZZLE {"level":11,"sublevel":2,"prompt":"Resolve: 12886 - 4685 - 3015 - 1268","operands":[12886,4685,3015,1268],"result":3918,"adjustments":[[0,0,20],[0,1,-2],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1],[0,3,10],[0,4,-1]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":11,"sublevel":3,"prompt":"Resolve: 22140 - 9596 - 5583 - 4909","operands":[22140,9596,5583,4909],"result":2052,"adjustments":[[0,0,20],[0,1,-2],[0,1,20],[0,2,-2],[0,2,20],[0,3,-2],[0,3,20],[0,4,-2]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":11,"sublevel":4,"prompt":"Resolve: 17848 - 4910 - 4359 - 8449","operands":[17848,4910,4359,8449],"result":130,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1],[0,3,10],[0,4,-1]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":11,"sublevel":5,"prompt":"Resolve: 12352 - 672 - 218 - 4236","operands":[12352,672,218,4236],"result":7226,"adjustments":[[0,0,20],[0,1,-2],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1],[0,3,10],[0,4,-1]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":11,"sublevel":6,"prompt":"Resolve: 18990 - 97 - 8678 - 1490","operands":[18990,97,8678,1490],"result":8725,"adjustments":[[0,0,20],[0,1,-2],[0,1,20],[0,2,-2],[0,2,10],[0,3,-1],[0,3,10],[0,4,-1]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":11,"sublevel":7,"prompt":"Resolve: 19067 - 6181 - 3454 - 2112","operands":[19067,6181,3454,2112],"result":7320,"adjustments":[[0,1,10],[0,2,-1],[0,2,10],[0,3,-1],[0,3,10],[0,4,-1]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":11,"sublevel":8,"prompt":"Resolve: 14603 - 6001 - 6012 - 1382","operands":[14603,6001,6012,1382],"result":1208,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,3,10],[0,4,-1]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":11,"sublevel":9,"prompt":"Resolve: 25786 - 6699 - 7976 - 4115","operands":[25786,6699,7976,4115],"result":6996,"adjustments":[[0,0,20],[0,1,-2],[0,1,20],[0,2,-2],[0,2,20],[0,3,-2],[0,3,20],[0,4,-2]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":11,"sublevel":10,"prompt":"Resolve: 16965 - 5647 - 667 - 4801","operands":[16965,5647,667,4801],"result":5850,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,20],[0,3,-2],[0,3,10],[0,4,-1]],"laid":true,"error":false}
+qml: VERTICAL_PUZZLE {"level":12,"sublevel":1,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[4321,1234,245,12],"result":2830,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1]],"laid":false,"error":true}
+qml: VERTICAL_PUZZLE {"level":12,"sublevel":2,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[1000,1,0,0],"result":999,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":12,"sublevel":3,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[9999,999,99,9],"result":8892,"adjustments":[[0,0,20],[0,1,-2],[0,1,20],[0,2,-2],[0,2,10],[0,3,-1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":12,"sublevel":4,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[9876,876,76,6],"result":8918,"adjustments":[[0,0,20],[0,1,-2],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":12,"sublevel":5,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[9000,899,99,9],"result":7993,"adjustments":[[0,0,30],[0,1,-3],[0,1,30],[0,2,-3],[0,2,20],[0,3,-2]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":12,"sublevel":6,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[8000,7000,999,1],"result":0,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":12,"sublevel":7,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[3003,1001,1001,1001],"result":0,"adjustments":[],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":12,"sublevel":8,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[7777,777,77,7],"result":6916,"adjustments":[[0,0,20],[0,1,-2],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":12,"sublevel":9,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[5000,2222,1111,1111],"result":556,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1]],"laid":false,"error":false}
+qml: VERTICAL_PUZZLE {"level":12,"sublevel":10,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[4567,0,56,7],"result":4504,"adjustments":[[0,0,10],[0,1,-1]],"laid":false,"error":false}
+qml: NATIVE_VERTICAL_RESULT {"failures":0,"passes":2,"completed":[{"level":10,"sublevel":1,"prompt":"Resolve: 12482 - 6863 - 4731","operands":[12482,6863,4731],"result":888,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,20],[0,3,-2],[0,3,10],[0,4,-1]],"laid":true,"error":true},{"level":10,"sublevel":2,"prompt":"Resolve: 21124 - 8551 - 7517","operands":[21124,8551,7517],"result":5056,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1],[0,3,20],[0,4,-2]],"laid":true,"error":false},{"level":10,"sublevel":3,"prompt":"Resolve: 11991 - 3550 - 6524","operands":[11991,3550,6524],"result":1917,"adjustments":[[0,0,10],[0,1,-1],[0,2,10],[0,3,-1],[0,3,10],[0,4,-1]],"laid":true,"error":false},{"level":10,"sublevel":4,"prompt":"Resolve: 20725 - 8726 - 3977","operands":[20725,8726,3977],"result":8022,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1],[0,3,20],[0,4,-2]],"laid":true,"error":false},{"level":10,"sublevel":5,"prompt":"Resolve: 13334 - 9586 - 2042","operands":[13334,9586,2042],"result":1706,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1],[0,3,10],[0,4,-1]],"laid":true,"error":false},{"level":10,"sublevel":6,"prompt":"Resolve: 9457 - 5969 - 1584","operands":[9457,5969,1584],"result":1904,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,20],[0,3,-2]],"laid":true,"error":false},{"level":10,"sublevel":7,"prompt":"Resolve: 8360 - 2656 - 1936","operands":[8360,2656,1936],"result":3768,"adjustments":[[0,0,20],[0,1,-2],[0,1,10],[0,2,-1],[0,2,20],[0,3,-2]],"laid":true,"error":false},{"level":10,"sublevel":8,"prompt":"Resolve: 7692 - 864 - 6047","operands":[7692,864,6047],"result":781,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1]],"laid":true,"error":false},{"level":10,"sublevel":9,"prompt":"Resolve: 16402 - 1215 - 8544","operands":[16402,1215,8544],"result":6643,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1],[0,3,10],[0,4,-1]],"laid":true,"error":false},{"level":10,"sublevel":10,"prompt":"Resolve: 22217 - 9312 - 9705","operands":[22217,9312,9705],"result":3200,"adjustments":[[0,2,10],[0,3,-1],[0,3,20],[0,4,-2]],"laid":true,"error":false},{"level":11,"sublevel":1,"prompt":"Resolve: 20663 - 9202 - 4098 - 6218","operands":[20663,9202,4098,6218],"result":1145,"adjustments":[[0,0,20],[0,1,-2],[0,1,10],[0,2,-1],[0,3,20],[0,4,-2]],"laid":true,"error":true},{"level":11,"sublevel":2,"prompt":"Resolve: 12886 - 4685 - 3015 - 1268","operands":[12886,4685,3015,1268],"result":3918,"adjustments":[[0,0,20],[0,1,-2],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1],[0,3,10],[0,4,-1]],"laid":true,"error":false},{"level":11,"sublevel":3,"prompt":"Resolve: 22140 - 9596 - 5583 - 4909","operands":[22140,9596,5583,4909],"result":2052,"adjustments":[[0,0,20],[0,1,-2],[0,1,20],[0,2,-2],[0,2,20],[0,3,-2],[0,3,20],[0,4,-2]],"laid":true,"error":false},{"level":11,"sublevel":4,"prompt":"Resolve: 17848 - 4910 - 4359 - 8449","operands":[17848,4910,4359,8449],"result":130,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1],[0,3,10],[0,4,-1]],"laid":true,"error":false},{"level":11,"sublevel":5,"prompt":"Resolve: 12352 - 672 - 218 - 4236","operands":[12352,672,218,4236],"result":7226,"adjustments":[[0,0,20],[0,1,-2],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1],[0,3,10],[0,4,-1]],"laid":true,"error":false},{"level":11,"sublevel":6,"prompt":"Resolve: 18990 - 97 - 8678 - 1490","operands":[18990,97,8678,1490],"result":8725,"adjustments":[[0,0,20],[0,1,-2],[0,1,20],[0,2,-2],[0,2,10],[0,3,-1],[0,3,10],[0,4,-1]],"laid":true,"error":false},{"level":11,"sublevel":7,"prompt":"Resolve: 19067 - 6181 - 3454 - 2112","operands":[19067,6181,3454,2112],"result":7320,"adjustments":[[0,1,10],[0,2,-1],[0,2,10],[0,3,-1],[0,3,10],[0,4,-1]],"laid":true,"error":false},{"level":11,"sublevel":8,"prompt":"Resolve: 14603 - 6001 - 6012 - 1382","operands":[14603,6001,6012,1382],"result":1208,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,3,10],[0,4,-1]],"laid":true,"error":false},{"level":11,"sublevel":9,"prompt":"Resolve: 25786 - 6699 - 7976 - 4115","operands":[25786,6699,7976,4115],"result":6996,"adjustments":[[0,0,20],[0,1,-2],[0,1,20],[0,2,-2],[0,2,20],[0,3,-2],[0,3,20],[0,4,-2]],"laid":true,"error":false},{"level":11,"sublevel":10,"prompt":"Resolve: 16965 - 5647 - 667 - 4801","operands":[16965,5647,667,4801],"result":5850,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,20],[0,3,-2],[0,3,10],[0,4,-1]],"laid":true,"error":false},{"level":12,"sublevel":1,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[4321,1234,245,12],"result":2830,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1]],"laid":false,"error":true},{"level":12,"sublevel":2,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[1000,1,0,0],"result":999,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1]],"laid":false,"error":false},{"level":12,"sublevel":3,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[9999,999,99,9],"result":8892,"adjustments":[[0,0,20],[0,1,-2],[0,1,20],[0,2,-2],[0,2,10],[0,3,-1]],"laid":false,"error":false},{"level":12,"sublevel":4,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[9876,876,76,6],"result":8918,"adjustments":[[0,0,20],[0,1,-2],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1]],"laid":false,"error":false},{"level":12,"sublevel":5,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[9000,899,99,9],"result":7993,"adjustments":[[0,0,30],[0,1,-3],[0,1,30],[0,2,-3],[0,2,20],[0,3,-2]],"laid":false,"error":false},{"level":12,"sublevel":6,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[8000,7000,999,1],"result":0,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1]],"laid":false,"error":false},{"level":12,"sublevel":7,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[3003,1001,1001,1001],"result":0,"adjustments":[],"laid":false,"error":false},{"level":12,"sublevel":8,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[7777,777,77,7],"result":6916,"adjustments":[[0,0,20],[0,1,-2],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1]],"laid":false,"error":false},{"level":12,"sublevel":9,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[5000,2222,1111,1111],"result":556,"adjustments":[[0,0,10],[0,1,-1],[0,1,10],[0,2,-1],[0,2,10],[0,3,-1]],"laid":false,"error":false},{"level":12,"sublevel":10,"prompt":"Escreve a tua própria subtração e resolve-a.","operands":[4567,0,56,7],"result":4504,"adjustments":[[0,0,10],[0,1,-1]],"laid":false,"error":false}],"wins":3}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
