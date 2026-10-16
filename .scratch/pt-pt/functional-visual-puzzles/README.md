@@ -111,3 +111,5 @@ recibos de cópia e retornos em `audit-verification/`. A revisão independente
 ainda está pendente.
 Windows 10, Windows 11 manual, dispositivos, audição, revisão docente,
 a investigação 83 e todos os critérios globais continuam pendentes.
+
+A revisão de código identificou uma guarda incompleta para saídas ocupadas por ligações simbólicas pendentes. A [correção do executor](review-output-boundary/README.md) tem regressão pura vermelho/verde e -O. As 19 fontes e execuções históricas continuam intactas; não houve nova alteração de produto.

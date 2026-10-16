@@ -11,7 +11,7 @@ def main():
  parser.add_argument('--case',type=Path,required=True);parser.add_argument('--output',type=Path,required=True)
  parser.add_argument('--snapshot',type=Path,default=ROOT/'build/visual-origin');parser.add_argument('--timeout',type=int,default=240)
  args=parser.parse_args();output=args.output.absolute();log=output.parent/(output.name+'.log')
- if output.exists() or log.exists():parser.error('Output and parent log must both be new')
+ if output.exists() or output.is_symlink() or log.exists() or log.is_symlink():parser.error('Output and parent log must both be new')
  if not args.case.is_file():parser.error('Case must exist')
  source=freeze(args.revision);output.parent.mkdir(parents=True,exist_ok=True)
  command=[sys.executable,str(ROOT/'tests/functional_visual_puzzles/capture.py'),'--launcher',str(source/'tools/run-native-qml-case.py'),'--source-root',str(source),'--activity',args.activity,'--qml-file',str(source/'src/activities'/FILES[args.activity]),'--case',str(args.case.absolute()),'--output',str(output),'--resource-snapshot',str(args.snapshot.absolute()),'--offline','--offline-container-image','sha256:28bd5fe8b56d1bd048e5babf5b10710ebe0bae67db86916198a6eec434943f8b','--keep-deployment','--timeout',str(args.timeout)]
