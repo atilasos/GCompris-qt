@@ -7,7 +7,7 @@ from pathlib import Path
 def environment(original):
     env=dict(original)
     for key in ['XAUTHORITY','QT_QUICK_BACKEND']:env.pop(key,None)
-    env.update(DISPLAY=':99',LIBGL_ALWAYS_SOFTWARE='1',QT_QPA_PLATFORM='offscreen')
+    env.update(DISPLAY=':99',LIBGL_ALWAYS_SOFTWARE='1',QT_QPA_PLATFORM='xcb')
     return env
 
 def main():
@@ -18,6 +18,7 @@ def main():
     if command[:1]==['--']:command=command[1:]
     if not args.xvfb.is_file() or not command:parser.error('Existing Xvfb and command required')
     env=environment(os.environ)
+    Path('/tmp/.X11-unix').mkdir(mode=0o1777,exist_ok=True)
     server=subprocess.Popen([str(args.xvfb),':99','-screen','0','1024x768x24','-nolisten','tcp','-ac','-noreset'],env=env)
     try:
         ready=False
