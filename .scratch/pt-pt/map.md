@@ -159,7 +159,7 @@ e os restantes critérios de aceitação mantêm os seus estados próprios.
 
 A memória matemática concluiu 14 variantes e 207 combinações nível/modo;
 decimais/quantidades concluíram 316 puzzles em 16 campanhas offline e quatro casos de controlos.
-As 87 atividades com evidência funcional ligada na matriz não representam
+As 99 atividades com evidência funcional ligada na matriz não representam
 a aceitação global dos 203 jogos.
 
 - [40 — Contrato dos níveis do Solitário](issues/40-niveis-solitario.md)
@@ -227,3 +227,20 @@ percursos preservam os critérios globais pendentes.
 - [64 — Completar sequências](issues/64-algoritmos.md)
 
 - [66 — Aprender números e operações](issues/66-aprender-numeros-operacoes.md)
+
+Os lotes 60–64 concluíram a prova Linux delimitada de dinheiro/troco, frações,
+calendários, operações verticais e sequências. Standards e Spec foram revistos;
+a tarefa 65 fechou os três P2 de retornos externos e âncoras históricas, sem
+reescrever os 1795 blobs/97 recibos originais ou repetir jogos.
+[Relatórios e limites](review/integration60-65/). As doze ligações adicionais
+na matriz mantêm todos os critérios globais pendentes. A tarefa 66 continua em
+curso; áudio global, Windows/escola e revisão humana dos pares legados (44)
+conservam os respetivos estados.
+
+- [65 — Retornos externos e âncoras das provas](issues/65-provas-retornos-ancoras.md)
+
+- [67 — Aviões e sequências](issues/67-avioes-sequencias.md)
+
+- [68 — Retas graduadas](issues/68-retas-graduadas.md)
+
+- [69 — Comparar números e descobrir vizinhos](issues/69-comparar-vizinhos.md)

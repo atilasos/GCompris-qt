@@ -41,3 +41,10 @@ oráculo, cópia e adulteração passaram. Identidades, limites e instruções e
 Fatia Linux concluída. As 60 perguntas aleatórias não esgotam as combinações.
 Windows, dispositivos físicos, áudio, ramo QtCharts antigo e revisão docente
 continuam pendentes; esta resolução não aprova critérios globais.
+
+## Revisão integrada
+
+Standards e Spec conferidos, com os três P2 de retornos/âncoras fechados pela
+tarefa 65 e recheck independente. [Relatórios e resolução](../review/integration60-65/).
+Resolução limitada à prova Linux publicada; Windows, escola, hardware, audição
+e revisão docente conservam os critérios próprios.

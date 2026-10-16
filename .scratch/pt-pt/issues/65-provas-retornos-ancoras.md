@@ -35,3 +35,10 @@ As três raízes históricas de verticais são constantes do auditor, com lista
 Todos os blobs originais dos três arquivos foram conferidos com Git9750a053a.
 Provas/comandos/proveniência em `../proof-review65/README.md`. Sem Qt novo,
 produção, build principal, mapa, CSV ou push; limites de aceitação inalterados.
+
+## Revisão integrada
+
+Standards e Spec conferidos, com os três P2 de retornos/âncoras fechados pela
+tarefa 65 e recheck independente. [Relatórios e resolução](../review/integration60-65/).
+Resolução limitada à prova Linux publicada; Windows, escola, hardware, audição
+e revisão docente conservam os critérios próprios.
