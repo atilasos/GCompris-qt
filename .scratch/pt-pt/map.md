@@ -388,3 +388,7 @@ O diagnóstico 83 foi integrado para revisão independente do handoff
 probes com saída zero não demonstram causa nem resolução da ocorrência139;
 `cause_known` e `issue_resolved` continuam falsos. A ligação ao PID original
 é apenas temporal. Nenhum critério global ou ligação funcional foi alterado.
+
+O artefacto da investigação83 passou Standards/Spec após corrigir a interrupção
+do driver; [relatórios](review/integration83/README.md). Os seis probes ociosos0
+não resolveram a causa: a tarefa permanece aberta e sem nova cobertura de jogos.

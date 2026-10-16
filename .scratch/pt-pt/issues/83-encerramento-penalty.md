@@ -66,3 +66,10 @@ três ensaios adicionais; cobre também saídas não zero e identidade ausente o
 incompatível, além da matriz saudável de seis ensaios. As ferramentas arquivadas
 e as seis provas históricas permanecem intactas. Esta correção não diagnostica
 o 139 original; a tarefa continua open.
+
+## Revisão do artefacto de investigação
+
+Driver interrompe toda a matriz por falha real do inferior, mesmo com wrapper0.
+P2 corrigido; Standards e Spec revalidados sem achados restantes no artefacto.
+[Relatórios](../review/integration83/README.md). A causa original permanece
+desconhecida, pelo que esta tarefa continua aberta.
