@@ -313,7 +313,8 @@ alterar critérios globais, Windows, hardware, áudio ou revisão docente.
 - [78 — Apagar as luzes](issues/78-apagar-luzes.md)
 
 A tarefa 75 tem prova Linux integrada de 21 níveis, 25 tabuleiros e 119
-associações. Está `ready-for-review`, aguardando Standards e Spec independentes.
+associações. Fica resolvida no âmbito Linux após Standards e Spec sem achados;
+[relatórios](review/integration75/).
 Três ligações foram acrescentadas sem alterar os critérios globais. Um círculo
 ocluído no ensaio adicional em retrato e a ausência de prova de reprodução
 SoundEffect mantêm os limites publicados; Windows, hardware e docente pendentes.

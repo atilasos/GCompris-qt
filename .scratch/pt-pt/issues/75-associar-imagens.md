@@ -1,7 +1,7 @@
 # Associar imagens, formas e nomes em PT-PT
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -51,3 +51,8 @@ hardware, audição e revisão docente/global continuam pendentes.
 
 Provas integradas para Standards e Spec independentes. `ready-for-review`
 não representa resolução final ou aceitação global.
+
+## Fecho de revisão
+
+Standards e Spec sem achados acionáveis; [relatórios](../review/integration75/).
+Resolução limitada à prova Linux publicada, preservando limites e globais.
