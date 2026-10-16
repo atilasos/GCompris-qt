@@ -272,8 +272,8 @@ Standards e Spec independentes; duas ligações de evidência foram acrescentada
 sem alterar os critérios globais, Windows, hardware, áudio ou revisão docente.
 
 A tarefa 69 tem prova Linux integrada de 650 comparações e 250 sequências,
-380 respostas erradas e 76 Bonus. Está `ready-for-review`, aguardando Standards
-e Spec independentes; duas ligações foram acrescentadas sem alterar os
+380 respostas erradas e 76 Bonus. Fica resolvida no âmbito Linux após Standards
+e Spec sem achados; [relatórios](review/integration69/). Duas ligações mantêm os
 critérios globais, Windows, hardware, áudio ou revisão docente.
 
 - [72 — Preparação concorrente das fontes de teste](issues/72-preparacao-concorrente-fontes.md)
