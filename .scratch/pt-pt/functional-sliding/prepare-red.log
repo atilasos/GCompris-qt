@@ -1,0 +1,14 @@
+F
+======================================================================
+FAIL: test_missing_frozen_source_is_rejected_before_publishing_snapshot (test_prepare.FrozenInputBoundary.test_missing_frozen_source_is_rejected_before_publishing_snapshot)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-sliding-puzzles/tests/functional_sliding/test_prepare.py", line 8, in test_missing_frozen_source_is_rejected_before_publishing_snapshot
+    root=Path(temp);output=root/'must not exist';result=subprocess.run([sys.executable,str(CLI),'--source-root',str(root/'missing'),'--origin-snapshot',str(root/'missing origin'),'--output',str(output)],capture_output=True,text=True,env=dict(os.environ,PYTHONDONTWRITEBYTECODE='1'));self.assertNotEqual(result.returncode,0);self.assertIn('source-manifest.json',result.stderr);self.assertFalse(output.exists())
+                                                                                                                                                                                                                                                                                                                                    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'source-manifest.json' not found in 'Traceback (most recent call last):\n  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-sliding-puzzles/tests/functional_sliding/prepare.py", line 63, in <module>\n    main()\n    ~~~~^^\n  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-sliding-puzzles/tests/functional_sliding/prepare.py", line 27, in main\n    verify_snapshot(origin)\n    ~~~~~~~~~~~~~~~^^^^^^^^\n  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-sliding-puzzles/tools/native_qml_resources.py", line 110, in verify_snapshot\n    manifest = json.loads((destination / \'manifest.json\').read_text())\n                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File "/usr/lib/python3.14/pathlib/__init__.py", line 788, in read_text\n    with self.open(mode=\'r\', encoding=encoding, errors=errors, newline=newline) as f:\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3.14/pathlib/__init__.py", line 772, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \'/tmp/tmpwjer3gx5/missing origin/manifest.json\'\n'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.086s
+
+FAILED (failures=1)
