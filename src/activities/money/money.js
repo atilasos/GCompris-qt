@@ -216,6 +216,9 @@ function checkAnswer() {
         else if(items.mode === 2) {
             items.errorRectangle.startAnimation();
             items.badAnswerSound.play();
+        } else {
+            // An incomplete automatic payment must keep keyboard controls usable.
+            items.buttonsBlocked = false;
         }
     } else {
         if(paid === (dataset[items.currentLevel].paid - priceTotal).toFixed(2))
@@ -223,6 +226,9 @@ function checkAnswer() {
         else if(items.mode === 2) {
             items.errorRectangle.startAnimation();
             items.badAnswerSound.play();
+        } else {
+            // An incomplete automatic payment must keep keyboard controls usable.
+            items.buttonsBlocked = false;
         }
     }
 }
