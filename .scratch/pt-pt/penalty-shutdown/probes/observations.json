@@ -1,0 +1,265 @@
+{
+  "planned": 6,
+  "actual": 6,
+  "runs": [
+    {
+      "name": "baseline-bare",
+      "phase": "597c05f0b1d41946cb0fffe8b99e1c837b627cb2",
+      "mode": "bare",
+      "supervisor_return": 0,
+      "inferior": {
+        "kind": "gdb-inferior-observation",
+        "gdb_pid": 36492,
+        "qt_pid": 36515,
+        "identity_observed": true,
+        "native_exit_code": 0,
+        "signals": [],
+        "binary": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-19f657ffa3144559b34aedb8915e1a03/bin/gcompris-qt",
+        "argv": [
+          "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-19f657ffa3144559b34aedb8915e1a03/bin/gcompris-qt",
+          "--window",
+          "--locale",
+          "pt_PT",
+          "--renderer",
+          "software",
+          "--mute",
+          "--launch",
+          "penalty"
+        ],
+        "cmdline_matches_binary": true,
+        "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+        "gdb_pid_namespace": "pid:[4026531836]",
+        "qt_pid_namespace": "pid:[4026531836]",
+        "observed_utc": "2026-10-16T04:21:36.391205+00:00",
+        "proc_status": [
+          "Name:\tgcompris-qt",
+          "Pid:\t36515",
+          "PPid:\t36492",
+          "Uid:\t1000\t1000\t1000\t1000",
+          "NSpid:\t36515",
+          "VmSize:\t  125488 kB",
+          "VmRSS:\t   33772 kB"
+        ]
+      },
+      "source_launcher_sha256": "612889370d52dc3c643f894c58dd22fdd6073c245525d5e8502791527fd6ec42",
+      "diagnostic_launcher_sha256": "48bb4e4d5a4439ba9333994fb276b1c12bfc2327221d4ae52dab41b09533b1be",
+      "case_sha256": "af310ff22c863744cd9f0dab4f0a013ee9e0e33f6dd2ee973fcce04c8a5329db"
+    },
+    {
+      "name": "baseline-retained",
+      "phase": "597c05f0b1d41946cb0fffe8b99e1c837b627cb2",
+      "mode": "retained",
+      "supervisor_return": 0,
+      "inferior": {
+        "kind": "gdb-inferior-observation",
+        "gdb_pid": 37441,
+        "qt_pid": 37463,
+        "identity_observed": true,
+        "native_exit_code": 0,
+        "signals": [],
+        "binary": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-434a97cb87314687b900f0c993b23199/bin/gcompris-qt",
+        "argv": [
+          "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-434a97cb87314687b900f0c993b23199/bin/gcompris-qt",
+          "--window",
+          "--locale",
+          "pt_PT",
+          "--renderer",
+          "software",
+          "--mute",
+          "--launch",
+          "penalty"
+        ],
+        "cmdline_matches_binary": true,
+        "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+        "gdb_pid_namespace": "pid:[4026531836]",
+        "qt_pid_namespace": "pid:[4026531836]",
+        "observed_utc": "2026-10-16T04:21:43.126935+00:00",
+        "proc_status": [
+          "Name:\tgcompris-qt",
+          "Pid:\t37463",
+          "PPid:\t37441",
+          "Uid:\t1000\t1000\t1000\t1000",
+          "NSpid:\t37463",
+          "VmSize:\t  125488 kB",
+          "VmRSS:\t   33524 kB"
+        ]
+      },
+      "source_launcher_sha256": "612889370d52dc3c643f894c58dd22fdd6073c245525d5e8502791527fd6ec42",
+      "diagnostic_launcher_sha256": "48bb4e4d5a4439ba9333994fb276b1c12bfc2327221d4ae52dab41b09533b1be",
+      "case_sha256": "f8975878cf96ca7403627130b8d8a1596f792870266ae003c7e9d292bab6a4dc"
+    },
+    {
+      "name": "baseline-logged",
+      "phase": "597c05f0b1d41946cb0fffe8b99e1c837b627cb2",
+      "mode": "logged",
+      "supervisor_return": 0,
+      "inferior": {
+        "kind": "gdb-inferior-observation",
+        "gdb_pid": 37840,
+        "qt_pid": 37862,
+        "identity_observed": true,
+        "native_exit_code": 0,
+        "signals": [],
+        "binary": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-3a776dec01724aa1ad809904babb06f3/bin/gcompris-qt",
+        "argv": [
+          "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-3a776dec01724aa1ad809904babb06f3/bin/gcompris-qt",
+          "--window",
+          "--locale",
+          "pt_PT",
+          "--renderer",
+          "software",
+          "--mute",
+          "--launch",
+          "penalty"
+        ],
+        "cmdline_matches_binary": true,
+        "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+        "gdb_pid_namespace": "pid:[4026531836]",
+        "qt_pid_namespace": "pid:[4026531836]",
+        "observed_utc": "2026-10-16T04:21:49.404105+00:00",
+        "proc_status": [
+          "Name:\tgcompris-qt",
+          "Pid:\t37862",
+          "PPid:\t37840",
+          "Uid:\t1000\t1000\t1000\t1000",
+          "NSpid:\t37862",
+          "VmSize:\t  125488 kB",
+          "VmRSS:\t   33676 kB"
+        ]
+      },
+      "source_launcher_sha256": "612889370d52dc3c643f894c58dd22fdd6073c245525d5e8502791527fd6ec42",
+      "diagnostic_launcher_sha256": "48bb4e4d5a4439ba9333994fb276b1c12bfc2327221d4ae52dab41b09533b1be",
+      "case_sha256": "b90800dabfcc4c891b4c24017bdebbc7b02c915b723e6f1856e84d9292a2976c"
+    },
+    {
+      "name": "final-bare",
+      "phase": "1729d456c16b2a670f75622c6444ce208dd59c37",
+      "mode": "bare",
+      "supervisor_return": 0,
+      "inferior": {
+        "kind": "gdb-inferior-observation",
+        "gdb_pid": 38263,
+        "qt_pid": 38285,
+        "identity_observed": true,
+        "native_exit_code": 0,
+        "signals": [],
+        "binary": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-440f3af6c86f46f9ab9137a2d90c79f4/bin/gcompris-qt",
+        "argv": [
+          "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-440f3af6c86f46f9ab9137a2d90c79f4/bin/gcompris-qt",
+          "--window",
+          "--locale",
+          "pt_PT",
+          "--renderer",
+          "software",
+          "--mute",
+          "--launch",
+          "penalty"
+        ],
+        "cmdline_matches_binary": true,
+        "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+        "gdb_pid_namespace": "pid:[4026531836]",
+        "qt_pid_namespace": "pid:[4026531836]",
+        "observed_utc": "2026-10-16T04:21:56.392532+00:00",
+        "proc_status": [
+          "Name:\tgcompris-qt",
+          "Pid:\t38285",
+          "PPid:\t38263",
+          "Uid:\t1000\t1000\t1000\t1000",
+          "NSpid:\t38285",
+          "VmSize:\t  125488 kB",
+          "VmRSS:\t   33548 kB"
+        ]
+      },
+      "source_launcher_sha256": "612889370d52dc3c643f894c58dd22fdd6073c245525d5e8502791527fd6ec42",
+      "diagnostic_launcher_sha256": "48bb4e4d5a4439ba9333994fb276b1c12bfc2327221d4ae52dab41b09533b1be",
+      "case_sha256": "af310ff22c863744cd9f0dab4f0a013ee9e0e33f6dd2ee973fcce04c8a5329db"
+    },
+    {
+      "name": "final-retained",
+      "phase": "1729d456c16b2a670f75622c6444ce208dd59c37",
+      "mode": "retained",
+      "supervisor_return": 0,
+      "inferior": {
+        "kind": "gdb-inferior-observation",
+        "gdb_pid": 38609,
+        "qt_pid": 38630,
+        "identity_observed": true,
+        "native_exit_code": 0,
+        "signals": [],
+        "binary": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-5525b2669a204b4e8a55283bda338c05/bin/gcompris-qt",
+        "argv": [
+          "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-5525b2669a204b4e8a55283bda338c05/bin/gcompris-qt",
+          "--window",
+          "--locale",
+          "pt_PT",
+          "--renderer",
+          "software",
+          "--mute",
+          "--launch",
+          "penalty"
+        ],
+        "cmdline_matches_binary": true,
+        "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+        "gdb_pid_namespace": "pid:[4026531836]",
+        "qt_pid_namespace": "pid:[4026531836]",
+        "observed_utc": "2026-10-16T04:22:03.237513+00:00",
+        "proc_status": [
+          "Name:\tgcompris-qt",
+          "Pid:\t38630",
+          "PPid:\t38609",
+          "Uid:\t1000\t1000\t1000\t1000",
+          "NSpid:\t38630",
+          "VmSize:\t  125488 kB",
+          "VmRSS:\t   33616 kB"
+        ]
+      },
+      "source_launcher_sha256": "612889370d52dc3c643f894c58dd22fdd6073c245525d5e8502791527fd6ec42",
+      "diagnostic_launcher_sha256": "48bb4e4d5a4439ba9333994fb276b1c12bfc2327221d4ae52dab41b09533b1be",
+      "case_sha256": "f8975878cf96ca7403627130b8d8a1596f792870266ae003c7e9d292bab6a4dc"
+    },
+    {
+      "name": "final-logged",
+      "phase": "1729d456c16b2a670f75622c6444ce208dd59c37",
+      "mode": "logged",
+      "supervisor_return": 0,
+      "inferior": {
+        "kind": "gdb-inferior-observation",
+        "gdb_pid": 38899,
+        "qt_pid": 38920,
+        "identity_observed": true,
+        "native_exit_code": 0,
+        "signals": [],
+        "binary": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-021a2de415364c749dba95b4421d389e/bin/gcompris-qt",
+        "argv": [
+          "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown/.scratch/pt-pt/penalty-shutdown/probes/.native-qml-021a2de415364c749dba95b4421d389e/bin/gcompris-qt",
+          "--window",
+          "--locale",
+          "pt_PT",
+          "--renderer",
+          "software",
+          "--mute",
+          "--launch",
+          "penalty"
+        ],
+        "cmdline_matches_binary": true,
+        "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
+        "gdb_pid_namespace": "pid:[4026531836]",
+        "qt_pid_namespace": "pid:[4026531836]",
+        "observed_utc": "2026-10-16T04:22:10.018064+00:00",
+        "proc_status": [
+          "Name:\tgcompris-qt",
+          "Pid:\t38920",
+          "PPid:\t38899",
+          "Uid:\t1000\t1000\t1000\t1000",
+          "NSpid:\t38920",
+          "VmSize:\t  125488 kB",
+          "VmRSS:\t   33800 kB"
+        ]
+      },
+      "source_launcher_sha256": "612889370d52dc3c643f894c58dd22fdd6073c245525d5e8502791527fd6ec42",
+      "diagnostic_launcher_sha256": "48bb4e4d5a4439ba9333994fb276b1c12bfc2327221d4ae52dab41b09533b1be",
+      "case_sha256": "b90800dabfcc4c891b4c24017bdebbc7b02c915b723e6f1856e84d9292a2976c"
+    }
+  ],
+  "scope": "Idle diagnostic variants; historical payload is not newly played gameplay; gdb wrapper exit is distinct from inferior status"
+}

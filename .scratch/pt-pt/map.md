@@ -159,7 +159,7 @@ e os restantes critérios de aceitação mantêm os seus estados próprios.
 
 A memória matemática concluiu 14 variantes e 207 combinações nível/modo;
 decimais/quantidades concluíram 316 puzzles em 16 campanhas offline e quatro casos de controlos.
-As 131 atividades com evidência funcional ligada na matriz não representam
+As 136 atividades com evidência funcional ligada na matriz não representam
 a aceitação global dos 203 jogos.
 
 - [40 — Contrato dos níveis do Solitário](issues/40-niveis-solitario.md)
@@ -363,7 +363,8 @@ Três repetições completas0 não demonstram a sua causa nem ausência futura.
 A estabilidade e a aceitação global permanecem pendentes.
 
 A tarefa 80 tem provas Linux dos quatro jogos de alinhamento integradas e
-aguarda Standards e Spec independentes em `ready-for-review`. As quatro
+fica resolvida neste âmbito após suplemento físico e revisões sem achados
+restantes; [relatórios](review/integration80/README.md). As quatro
 ligações funcionais acrescentadas mantêm todos os critérios globais, Windows,
 hardware, áudio e revisão docente pendentes.
 
@@ -379,3 +380,38 @@ não aprovam estabilidade, Windows, hardware, áudio ou aceitação global.
 O encerramento139 continua na tarefa83 aberta.
 
 - [84 — Exploração do mundo](issues/84-exploracao-mundo.md)
+
+- [85 — Ciclos e eclusa](issues/85-ciclos-e-eclusa.md)
+
+O diagnóstico 83 foi integrado para revisão independente do handoff
+(`ready-for-review` documental), mantendo a investigação aberta. Os seis
+probes com saída zero não demonstram causa nem resolução da ocorrência139;
+`cause_known` e `issue_resolved` continuam falsos. A ligação ao PID original
+é apenas temporal. Nenhum critério global ou ligação funcional foi alterado.
+
+O artefacto da investigação83 passou Standards/Spec após corrigir a interrupção
+do driver; [relatórios](review/integration83/README.md). Os seis probes ociosos0
+não resolveram a causa: a tarefa permanece aberta e sem nova cobertura de jogos.
+
+- [86 — Relações familiares](issues/86-relacoes-familiares.md)
+
+A tarefa 85 tem percursos Linux integrados da eclusa, ciclo da água e três
+níveis de energia. Está `ready-for-review`, aguardando Standards e Spec
+independentes. Três ligações mantêm os critérios globais, Windows, hardware,
+áudio e docente pendentes; os limites dos recibos históricos estão publicados.
+
+- [87 — Grelhas lógicas](issues/87-grelhas-logicas.md)
+
+A tarefa 86 tem provas Linux integradas de 36 níveis, 46 conclusões naturais
+e 36 erros/reparações das relações familiares. Fica resolvida no âmbito Linux
+finito após revisões sem achados; [relatórios](review/integration86/).
+Duas ligações mantêm os critérios
+globais pendentes; iconografia não demonstra género pela aparência.
+Windows, hardware, áudio e revisão docente permanecem pendentes.
+
+A tarefa 85 recebeu suplemento para o P2 de regresso ao menu, com três
+percursos completos repetidos e Ctrl+W até ao menu estável. Aguarda recheck
+independente; não aumenta a cobertura única nem altera a matriz. Os
+[relatórios iniciais](review/integration85/) ficam preservados como histórico.
+
+- [88 — Pormenores e pinturas](issues/88-pormenores-e-pinturas.md)

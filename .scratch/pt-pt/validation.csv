@@ -25,7 +25,7 @@ braille_alphabets,pending,pending,pending,pending,pending,
 braille_fun,pending,pending,pending,pending,pending,
 calcudoku,pending,pending,pending,pending,pending,
 calendar,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/calendar.md
-canal_lock,pending,pending,pending,pending,pending,
+canal_lock,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/canal_lock.md
 categorization,pending,pending,pending,pending,pending,
 checkers,pending,pending,pending,pending,pending,
 checkers_2players,pending,pending,pending,pending,pending,
@@ -57,8 +57,8 @@ explore_farm_animals,pending,pending,pending,pending,pending,
 explore_monuments,pending,pending,pending,pending,pending,
 explore_world_animals,pending,pending,pending,pending,pending,
 explore_world_music,pending,pending,pending,pending,pending,
-family,pending,pending,pending,pending,pending,
-family_find_relative,pending,pending,pending,pending,pending,
+family,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/family.md
+family_find_relative,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/family_find_relative.md
 fifteen,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/fifteen.md
 find_the_day,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/find_the_day.md
 followline,pending,pending,pending,pending,pending,
@@ -172,7 +172,7 @@ readingh,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/readi
 readingv,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/readingv.md
 redraw,pending,pending,pending,pending,pending,
 redraw_symmetrical,pending,pending,pending,pending,pending,
-renewable_energy,pending,pending,pending,pending,pending,
+renewable_energy,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/renewable_energy.md
 reversecount,pending,pending,pending,pending,pending,
 roman_numerals,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/roman_numerals.md
 scalesboard,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/scalesboard.md
@@ -200,5 +200,5 @@ traffic,pending,pending,pending,pending,pending,
 vertical_addition,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/vertical_addition.md
 vertical_subtraction,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/vertical_subtraction.md
 vertical_subtraction_compensation,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/vertical_subtraction_compensation.md
-watercycle,pending,pending,pending,pending,pending,
+watercycle,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/watercycle.md
 wordsgame,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/wordsgame.md
