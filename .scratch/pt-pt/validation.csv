@@ -74,8 +74,8 @@ gnumch-factors,pending,pending,pending,pending,pending,.scratch/pt-pt/validation
 gnumch-inequality,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/gnumch-inequality.md
 gnumch-multiples,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/gnumch-multiples.md
 gnumch-primes,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/gnumch-primes.md
-graduated_line_read,pending,pending,pending,pending,pending,
-graduated_line_use,pending,pending,pending,pending,pending,
+graduated_line_read,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/graduated_line_read.md
+graduated_line_use,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/graduated_line_use.md
 grammar_analysis,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/grammar_analysis.md
 grammar_classes,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/grammar_classes.md
 graph-coloring,pending,pending,pending,pending,pending,

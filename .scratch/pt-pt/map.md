@@ -159,7 +159,7 @@ e os restantes critérios de aceitação mantêm os seus estados próprios.
 
 A memória matemática concluiu 14 variantes e 207 combinações nível/modo;
 decimais/quantidades concluíram 316 puzzles em 16 campanhas offline e quatro casos de controlos.
-As 106 atividades com evidência funcional ligada na matriz não representam
+As 108 atividades com evidência funcional ligada na matriz não representam
 a aceitação global dos 203 jogos.
 
 - [40 — Contrato dos níveis do Solitário](issues/40-niveis-solitario.md)
@@ -265,3 +265,8 @@ do relógio foi acrescentada sem alterar critérios globais ou aprovação Windo
 hardware, áudio e docente.
 
 - [71 — Chapéu mágico de adição e subtração](issues/71-chapeu-magico.md)
+
+A tarefa 68 tem prova Linux integrada de 574 perguntas, 58 níveis e 20
+datasets das duas retas graduadas. Está `ready-for-review`, aguardando
+Standards e Spec independentes; duas ligações de evidência foram acrescentadas
+sem alterar os critérios globais, Windows, hardware, áudio ou revisão docente.

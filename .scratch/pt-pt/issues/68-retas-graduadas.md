@@ -1,7 +1,7 @@
 # Ler e utilizar retas graduadas em PT-PT
 
 Status: ready-for-agent
-Progress: resolved
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -48,3 +48,8 @@ hashes recalculados. Prova em `../functional-graduated/README.md`; verificação
 em `../functional-graduated-verification/README.md`. Persistência delimitada ao
 mesmo processo/perfil. Windows/dispositivos/áudio/docente permanecem pendentes.
 Sem build principal, mapa, CSV ou push, sem conclusão global203.
+
+## Integração
+
+Provas integradas para Standards e Spec independentes. `ready-for-review`
+não representa resolução final ou aceitação global.
