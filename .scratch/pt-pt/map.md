@@ -363,7 +363,8 @@ Três repetições completas0 não demonstram a sua causa nem ausência futura.
 A estabilidade e a aceitação global permanecem pendentes.
 
 A tarefa 80 tem provas Linux dos quatro jogos de alinhamento integradas e
-aguarda Standards e Spec independentes em `ready-for-review`. As quatro
+fica resolvida neste âmbito após suplemento físico e revisões sem achados
+restantes; [relatórios](review/integration80/README.md). As quatro
 ligações funcionais acrescentadas mantêm todos os critérios globais, Windows,
 hardware, áudio e revisão docente pendentes.
 
