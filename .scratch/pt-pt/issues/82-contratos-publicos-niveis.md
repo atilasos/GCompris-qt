@@ -1,7 +1,7 @@
 # Contagens públicas dos níveis
 
 Status: ready-for-agent
-Progress: ready
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -32,3 +32,22 @@ reintrodução do padrão incorreto, com testes de adulteração e cópia isolad
 Esta tarefa verifica metadados e navegação. Não acrescenta conclusões de jogos
 à cobertura funcional nem aprova colunas globais do CSV. Windows, dispositivos,
 áudio e revisão docente continuam pendentes.
+
+## Answer
+
+Confirmados e corrigidos contratos públicos de níveis em 24 atividades/variantes,
+sem alterar regras, respostas ou dificuldade. Os casos preservados usam o
+seletor desenhado e cliques reais 1 → 2 → 1; os mesmos casos falham antes e
+passam depois. Em polígonos/tutorial também foi corrigida a publicação do nível
+atual. Damas a dois e polígonos/livre mantêm total zero sem seletor.
+
+O [relatório e limites](../public-level-contracts/README.md) descreve o arquivo
+físico compacto com 24 pares vermelho/verde e dois controlos, recursos Qt
+extraídos, fontes congeladas e retornos observados separadamente. Auditor puro
+normal e otimizado, sete adulterações com selo recalculado, cópia sem árvore
+original/Git/ferramentas Qt/rede e guarda de regressão passaram.
+
+Não foram acrescentadas conclusões funcionais nem alterações ao CSV. Galo e
+penálti continuam nas tarefas 80/81. O manifesto de 269 recursos está preservado;
+a cápsula compacta não inclui o runtime completo necessário a repetir Qt.
+Windows, equipamento, áudio, pronúncia e revisão docente continuam pendentes.

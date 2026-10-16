@@ -62,7 +62,8 @@ var items
 
 function start(items_) {
     items = items_
-    items.currentLevel = Core.getInitialLevel(levels.length)
+    items.numberOfLevel = levels.length
+    items.currentLevel = Core.getInitialLevel(items.numberOfLevel)
     initLevel()
 }
 
@@ -91,13 +92,13 @@ function initLevel() {
 
 function nextLevel() {
     items.score.stopWinAnimation()
-    items.currentLevel = Core.getNextLevel(items.currentLevel, levels.length);
+    items.currentLevel = Core.getNextLevel(items.currentLevel, items.numberOfLevel);
     initLevel();
 }
 
 function previousLevel() {
     items.score.stopWinAnimation()
-    items.currentLevel = Core.getPreviousLevel(items.currentLevel, levels.length);
+    items.currentLevel = Core.getPreviousLevel(items.currentLevel, items.numberOfLevel);
     initLevel();
 }
 

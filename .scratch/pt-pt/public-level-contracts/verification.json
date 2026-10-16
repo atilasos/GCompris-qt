@@ -1,0 +1,61 @@
+[
+  {
+    "argv": [
+      "python3",
+      "tests/public_levels/audit.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"activities\": 24, \"identical_red_green_pairs\": 24, \"no_level_modes\": 2, \"scope\": \"Public metadata and next/previous navigation; no game completions\"}\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "python3",
+      "-O",
+      "tests/public_levels/audit.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"activities\": 24, \"identical_red_green_pairs\": 24, \"no_level_modes\": 2, \"scope\": \"Public metadata and next/previous navigation; no game completions\"}\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "python3",
+      "tests/public_levels/guard.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"literal_startup_publication_missing\": []}\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests/public_levels",
+      "-p",
+      "test_*.py"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ".....\n----------------------------------------------------------------------\nRan 5 tests in 2.873s\n\nOK\n"
+  },
+  {
+    "argv": [
+      "python3",
+      "-O",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests/public_levels",
+      "-p",
+      "test_*.py"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ".....\n----------------------------------------------------------------------\nRan 5 tests in 2.884s\n\nOK\n"
+  }
+]

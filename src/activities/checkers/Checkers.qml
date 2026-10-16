@@ -50,7 +50,7 @@ ActivityBase {
             property int currentLevel: activity.currentLevel
             onCurrentLevelChanged: activity.currentLevel = currentLevel
             property int numberOfLevel: 5
-            onNumberOfLevelChanged: activity.numberOfLevel = numberOfLevel
+            onNumberOfLevelChanged: activity.numberOfLevel = activity.twoPlayers ? 0 : numberOfLevel
             property alias bonus: bonus
             property bool isVertical: layoutArea.height - bar.height > layoutArea.width
             property int cellSize: 1
@@ -75,7 +75,8 @@ ActivityBase {
             property int numberOfCases: 10
         }
 
-        onStart: { Activity.start(items) }
+        onStart: {
+            activity.numberOfLevel = activity.twoPlayers ? 0 : items.numberOfLevel; Activity.start(items) }
         onStop: { Activity.stop() }
 
         GCSoundEffect {

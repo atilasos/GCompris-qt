@@ -60,7 +60,8 @@ ActivityBase {
             property alias brickSound: brickSound
         }
 
-        onStart: { Activity.start(items) }
+        onStart: {
+            activity.numberOfLevel = items.numberOfLevel; Activity.start(items) }
         onStop: {
             activityIsStopped = true;
             repositionTimer.stop();

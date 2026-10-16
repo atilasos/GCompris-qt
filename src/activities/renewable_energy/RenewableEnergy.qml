@@ -70,7 +70,10 @@ ActivityBase {
             }
         }
 
-        onStart: items.currentLevel = Core.getInitialLevel(items.numberOfLevel);
+        onStart: {
+            activity.numberOfLevel = items.numberOfLevel;
+            items.currentLevel = Core.getInitialLevel(items.numberOfLevel);
+        }
         onStop: {
             harbor1Sound.stop()
             harbor2Sound.stop()
