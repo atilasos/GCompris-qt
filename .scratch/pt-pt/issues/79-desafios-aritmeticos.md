@@ -1,7 +1,7 @@
 # Desafios de operações e de chegar a 24
 
 Status: ready-for-agent
-Progress: resolved
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -44,3 +44,8 @@ possíveis do editor. Fontes/PO/recursos/retornos físicos preservados.
 Ver [provas e limites](../functional-challenges/README.md),
 [guess24](../validation/guess24.md) e [guesscount](../validation/guesscount.md).
 Windows/dispositivos/audição/revisão docente e aceitação global pendentes.
+
+## Integração
+
+Provas integradas para Standards e Spec independentes. `ready-for-review`
+não representa resolução final ou aceitação global.
