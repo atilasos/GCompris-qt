@@ -1,0 +1,10 @@
+[  0%] Generating shareFolders
+[  0%] Built target createShareFolders
+[  0%] Generating ../../../share/gcompris-qt/rcc/guesscount.rcc
+[100%] Generate guesscount RCC
+[100%] Built target rcc_guesscount
+[  0%] Generating share/gcompris-qt/translations/gcompris_qt_pt.qm
+Updating '/home/proteu/Projetos/GCompris-qt/build/pt-pt/share/gcompris-qt/translations/gcompris_qt_pt.qm'...
+Removing translations equal to source text in '/home/proteu/Projetos/GCompris-qt/build/pt-pt/share/gcompris-qt/translations/gcompris_qt_pt.qm'...
+    Generated 3897 translation(s) (3897 finished and 0 unfinished)
+[100%] Built target BuildTranslationsgcompris_qt
