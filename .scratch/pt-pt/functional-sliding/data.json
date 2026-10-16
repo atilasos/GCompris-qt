@@ -1,0 +1,109 @@
+{
+  "source": "src/activities/fifteen/Fifteen.qml",
+  "activities": [
+    "fifteen",
+    "sixteen"
+  ],
+  "datasets": [],
+  "levels": [
+    {
+      "level": 1,
+      "representation": "numbers-and-image",
+      "scene": "Fishing_Boat_Scene.svg",
+      "initial_misplaced_threshold_fifteen": 2,
+      "initial_rotations_sixteen": 2
+    },
+    {
+      "level": 2,
+      "representation": "image-only",
+      "scene": "Fishing_Boat_Scene.svg",
+      "initial_misplaced_threshold_fifteen": 3,
+      "initial_rotations_sixteen": 3
+    },
+    {
+      "level": 3,
+      "representation": "numbers-and-image",
+      "scene": "Fishing_Boat_Scene.svg",
+      "initial_misplaced_threshold_fifteen": 4,
+      "initial_rotations_sixteen": 4
+    },
+    {
+      "level": 4,
+      "representation": "image-only",
+      "scene": "Fishing_Boat_Scene.svg",
+      "initial_misplaced_threshold_fifteen": 5,
+      "initial_rotations_sixteen": 5
+    },
+    {
+      "level": 5,
+      "representation": "numbers-and-image",
+      "scene": "Coastal_Path.svg",
+      "initial_misplaced_threshold_fifteen": 6,
+      "initial_rotations_sixteen": 6
+    },
+    {
+      "level": 6,
+      "representation": "image-only",
+      "scene": "Coastal_Path.svg",
+      "initial_misplaced_threshold_fifteen": 7,
+      "initial_rotations_sixteen": 7
+    },
+    {
+      "level": 7,
+      "representation": "numbers-and-image",
+      "scene": "Coastal_Path.svg",
+      "initial_misplaced_threshold_fifteen": 8,
+      "initial_rotations_sixteen": 8
+    },
+    {
+      "level": 8,
+      "representation": "image-only",
+      "scene": "Coastal_Path.svg",
+      "initial_misplaced_threshold_fifteen": 9,
+      "initial_rotations_sixteen": 9
+    },
+    {
+      "level": 9,
+      "representation": "numbers-and-image",
+      "scene": "Coastal_Path.svg",
+      "initial_misplaced_threshold_fifteen": 10,
+      "initial_rotations_sixteen": 10
+    },
+    {
+      "level": 10,
+      "representation": "image-only",
+      "scene": "Coastal_Path.svg",
+      "initial_misplaced_threshold_fifteen": 11,
+      "initial_rotations_sixteen": 11
+    },
+    {
+      "level": 11,
+      "representation": "numbers-and-image",
+      "scene": "Coastal_Path.svg",
+      "initial_misplaced_threshold_fifteen": 12,
+      "initial_rotations_sixteen": 12
+    },
+    {
+      "level": 12,
+      "representation": "image-only",
+      "scene": "Coastal_Path.svg",
+      "initial_misplaced_threshold_fifteen": 13,
+      "initial_rotations_sixteen": 13
+    },
+    {
+      "level": 13,
+      "representation": "numbers-and-image",
+      "scene": "Coastal_Path.svg",
+      "initial_misplaced_threshold_fifteen": 14,
+      "initial_rotations_sixteen": 14
+    },
+    {
+      "level": 14,
+      "representation": "image-only",
+      "scene": "Coastal_Path.svg",
+      "initial_misplaced_threshold_fifteen": 15,
+      "initial_rotations_sixteen": 15
+    }
+  ],
+  "scope": "One naturally shuffled board per activity and runtime level; no exhaustive random-state coverage."
+}

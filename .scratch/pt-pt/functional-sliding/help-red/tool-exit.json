@@ -1,0 +1,12 @@
+{
+  "format": 1,
+  "kind": "observed-exec-tool-return",
+  "session_id": 82762,
+  "exit_code": 1,
+  "chunk_id": "a9cc97",
+  "stdout": "",
+  "native_receipt_sha256": "6f547b12066ad6e16a0abaae2bb565b7adb6a0573c0a0b9d97b513aca4b0887e",
+  "launcher_status_sha256": "ea8961e0cadc3135f6ce6eafbe08b60ed34ef6f59b7b9ae0cb237b00f618fb95",
+  "case_sha256": "fe06191519359ce09b8d5bb53b79586a6555f95e241bc27a0341de2c262afd53",
+  "provenance": "Transcribed from actual tools.write_stdin completion, independently after wait; native exit does not imply this outer return."
+}
