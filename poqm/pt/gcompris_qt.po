@@ -29455,12 +29455,7 @@ msgid ""
 "the different components which make up the water cycle. First click on the "
 "sun, then on the cloud, the water pumping station near the river, the sewage "
 "treatment, and at last regulate the switch to provide water to Tux's shower."
-msgstr ""
-"O teu objetivo é completares o ciclo da água antes do Tux chegar a casa. "
-"Carrega nos diferentes componentes que pertencem ao ciclo da água. "
-"Primeiro, carrega no Sol, depois na nuvem, depois na estação de bombagem de"
-" água, depois na estação de tratamento das águas e por fim regula o botão "
-"para ofereceres água ao chuveiro do Tux."
+msgstr "Completa o ciclo da água para que o Tux possa tomar duche quando chegar a casa. Clica primeiro no Sol, depois na nuvem, na estação de bombagem de água e na estação de tratamento de águas residuais. Quando o Tux estiver em casa e a torre tiver água, clica no chuveiro para lhe fornecer água."
 
 #. Activity title
 #: activities/wordsgame/ActivityInfo.qml:15
