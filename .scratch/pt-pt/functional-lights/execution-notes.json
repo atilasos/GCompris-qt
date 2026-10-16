@@ -1,0 +1,15 @@
+{
+  "phases": {
+    "baseline": "d83e5ab7e",
+    "final": "4e2f434cf"
+  },
+  "primary": "Only complete: 99 levels, 1736 solution clicks, 198 nonwinning/repair clicks, 99 natural good Bonus transitions. Nine datasets, 57 fixed and 42 random boards.",
+  "tracers": "150 nonempty restart boards and individual dynamic grid selections are additional tracers, not extra levels. Red restart observed 88 samples, last empty.",
+  "historical": {
+    "pilot": "Hover enlargement moved image edges outside nominal cells. This fixture failed after a legal first click; no product defect. Fixed observation uses image centres, which remain stable under hover.",
+    "pilot2": "One first-level puzzle passed with corrected geometry; not added to final 99."
+  },
+  "root_cause": "Current level zero ran no scramble; later random clicks could cancel. Generate at least one move and add a move if the resulting board is empty.",
+  "effective_resources": "Actual retained RCCs from both red cases and one final resource case were hashed, registered with Qt and extracted. Successful primary launcher removes its deployment, so its RCC is not separately archived. The final extra resource case binds effective source bytes explicitly.",
+  "limits": "Software native Qt offline only. Keyboard and help focus are actual simulated inputs. Config persistence reopened within same process. Saved selected level/grid images, no pixel recognition of every board. Three WAVs fully decoded to fakesink only; no physical sound or pronunciation approval. Windows and teacher/global acceptance pending."
+}
