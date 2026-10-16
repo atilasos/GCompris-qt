@@ -307,3 +307,5 @@ após revisões independentes; [relatórios](review/integration73/). A ligação
 alterar critérios globais, Windows, hardware, áudio ou revisão docente.
 
 - [76 — Orientação espacial e botões do rato](issues/76-orientacao-e-rato.md)
+
+- [77 — Puzzles deslizantes](issues/77-puzzles-deslizantes.md)
