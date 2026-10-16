@@ -102,6 +102,7 @@ function start(items_) {
     dataset = dataset.filter((level,i) => validateLevel(level,i))
 
     numberExercises = dataset.length
+    items.numberOfLevel = numberExercises
 
     currentExercise = Core.getInitialLevel(numberExercises)
     items.score.currentSubLevel = 0
@@ -155,6 +156,7 @@ function setTitleText() {
 }
 
 function initLevel() {
+    items.currentLevel = currentExercise
     items.bar.level = currentExercise + 1
 
     items.questionTilesModel.clear();
