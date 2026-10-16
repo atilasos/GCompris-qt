@@ -1,0 +1,174 @@
+{
+  "cases": {
+    "money-auto": {
+      "phase": "final",
+      "kind": "campaign",
+      "mode": 1
+    },
+    "money-ok": {
+      "phase": "final",
+      "kind": "campaign",
+      "mode": 2
+    },
+    "money-controls": {
+      "phase": "final",
+      "kind": "controls"
+    },
+    "money_cents-auto": {
+      "phase": "final",
+      "kind": "campaign",
+      "mode": 1
+    },
+    "money_cents-ok": {
+      "phase": "final",
+      "kind": "campaign",
+      "mode": 2
+    },
+    "money_cents-controls": {
+      "phase": "final",
+      "kind": "controls"
+    },
+    "money_back-auto": {
+      "phase": "final",
+      "kind": "campaign",
+      "mode": 1
+    },
+    "money_back-ok": {
+      "phase": "final",
+      "kind": "campaign",
+      "mode": 2
+    },
+    "money_back-controls": {
+      "phase": "final",
+      "kind": "controls"
+    },
+    "money_back_cents-auto": {
+      "phase": "final",
+      "kind": "campaign",
+      "mode": 1
+    },
+    "money_back_cents-ok": {
+      "phase": "final",
+      "kind": "campaign",
+      "mode": 2
+    },
+    "money_back_cents-controls": {
+      "phase": "final",
+      "kind": "controls"
+    },
+    "automatic-keyboard-red": {
+      "phase": "original",
+      "kind": "red"
+    },
+    "automatic-keyboard-green": {
+      "phase": "keyboard-fixed",
+      "kind": "green"
+    },
+    "manual-feedback-red": {
+      "phase": "keyboard-fixed",
+      "kind": "red"
+    },
+    "manual-feedback-green": {
+      "phase": "final",
+      "kind": "green"
+    },
+    "reachability-red": {
+      "phase": "keyboard-fixed",
+      "kind": "red"
+    },
+    "reachability-green": {
+      "phase": "final",
+      "kind": "green"
+    }
+  },
+  "files": {
+    "README.md": "940d374dc097715015b93b40a50a0d4a2c459fdeec8846ee7a920d9756af03b6",
+    "audio-decode.json": "f6436a1e0a0afeefa176b1cc89a00e10908175012eb9cfacd928463c5b0f4175",
+    "automatic-keyboard-green/case.qml": "2a8a1c6265fee956c2e522b93e04413469c68261d8959db0fc0a4e90863e4c97",
+    "automatic-keyboard-green/native.log": "a67614fdea3aef6a509a0abb9aa40ac623841f9b81ec3c8760cfcf127b6fac0b",
+    "automatic-keyboard-green/result.json": "db06aaa6bef09bf01cd54c50fdee20b00ad53f34dc091d91169eb58742d67ac6",
+    "automatic-keyboard-red/case.qml": "2a8a1c6265fee956c2e522b93e04413469c68261d8959db0fc0a4e90863e4c97",
+    "automatic-keyboard-red/native.log": "d26ff4da750a6656225a4d6b6d822603dede46c7acfce06e21c82da1fcf558c6",
+    "automatic-keyboard-red/result.json": "18b6bd8c9287f138395af13c06bb010626892fc5774ec66a03ee459777537a83",
+    "data-red.log": "66e69941a50dcbcd0cf430fc35c1928c508c81eef770832d9314abd32c8ff76b",
+    "fixes.md": "4360378a4419552f2cad5a2270c38db688d29a348682a029bf1cd4a4656f2208",
+    "inventory.json": "7b3a1c1e829934771ae4c37c42e7a58266a5d3282aa4def07d029b96cb4828c3",
+    "manual-feedback-green/case.qml": "4e92ef9d85b631ca75dec02f16f08419bb26ba29d94fd6f4d78fdbdbc600bd8f",
+    "manual-feedback-green/native.log": "dafdaf78422d13d9a433b66c6781cd13188dfd2c3452c5d12fe3037ebd404f2c",
+    "manual-feedback-green/result.json": "9a05855a4fe477873baa4bedf23cc127409387c2897366a532b28e06a4e2d791",
+    "manual-feedback-red/case.qml": "4e92ef9d85b631ca75dec02f16f08419bb26ba29d94fd6f4d78fdbdbc600bd8f",
+    "manual-feedback-red/native.log": "c3a7e9655d59530ec857fdf96a4a1321a347ba1a12e8785a554b0c4f38138c95",
+    "manual-feedback-red/result.json": "6f32b9516f3dd4d6581b55988f62a023352cb9fef76ffe8d6e41c29b3135f0ac",
+    "money-auto/case.qml": "7296e461f040f31ff0f754d36fcc8565c7a5a45365d6fc8b37e065cde3412055",
+    "money-auto/invocation.json": "e9968d3d9ef36873d4f6975f4a492afe7100f136111444821edda22c07f32bdb",
+    "money-auto/native.log": "687a7672b02bd596e3f8e2148bb790097ec5b0c2913102e7130ad03594906721",
+    "money-auto/result.json": "b57d35220ab4957f88206e2b202d87d46d374620fd7f5e534ec9bf37d77942ae",
+    "money-controls/case.qml": "d1b934e04f97147ce977a9cdaaea349f85add5e7b4a1deef7f3e126b5e63e2e4",
+    "money-controls/help.png": "f8026426ff5e201895e809c0e7fa00cb0abe8f22f8dfe20e22ed4639e8d69445",
+    "money-controls/invocation.json": "e9968d3d9ef36873d4f6975f4a492afe7100f136111444821edda22c07f32bdb",
+    "money-controls/native.log": "c336da7529e9e8559df2d062be5503439677bde107d8563c4529cb75e051b10a",
+    "money-controls/result.json": "e11708ad03f152b2bc612a6f9c675c18bbbb86fe07336a5e194fa0383c26ad37",
+    "money-ok/case.qml": "ec06c762666ae86a1896c41c704c47d65b2f7f50dabe9add6a114e7baad2194f",
+    "money-ok/invocation.json": "a5400773d718ef807c6bf26cdba533d5b7e1fc775c93a2fef9eb396a4c6402e1",
+    "money-ok/native.log": "ffbe20edbb90b62012971c92591b816b501e81a83fd68e336d652d37c3e0b1d2",
+    "money-ok/result.json": "7b8101cb76328458c6e1b2fa7be562ff4018fdcec1ce624e8bd97e4e065e20d8",
+    "money_back-auto/case.qml": "8d766a8f416838eb96f64b57b21e3d8386b145999c60e8baa10908b105e22c2c",
+    "money_back-auto/invocation.json": "d996e61a04c6204a9b38c008515e3d0339d32ac3270aa806a372d92bfc1c272d",
+    "money_back-auto/native.log": "5058db736cfe8e14d4071ce8dda841805378a864e0e7377acfb52547f17e1921",
+    "money_back-auto/result.json": "49773e94d08fb59a601d0f8da6f082633f40f934952c9af57f60df235cbe9ed9",
+    "money_back-controls/case.qml": "ca9d463501b1a603b7a6ba9dfb39c1b518b397fd293e57a17e56b297e62644b9",
+    "money_back-controls/help.png": "6885b030cd691a895c1d57a1784ded4bcd548c5dfd2805aa2f09e4f2604e712e",
+    "money_back-controls/invocation.json": "d996e61a04c6204a9b38c008515e3d0339d32ac3270aa806a372d92bfc1c272d",
+    "money_back-controls/native.log": "6c721e3307d75f471e5607cd48371f2ccb9bc88127236cea61ad74941dde8ce6",
+    "money_back-controls/result.json": "163065a7b050ee89595f5afb5f16674031eedd7e2af41deca60b32f96de1c4e8",
+    "money_back-ok/case.qml": "11cf15921cb228a466fe18c341d5a4592c6828aa85647d9f9a76838058716e1f",
+    "money_back-ok/invocation.json": "31bf6d254bbca2d1e007706867003824bb801411ec3eac0d2dcb81950df635bd",
+    "money_back-ok/native.log": "44dcc5c7475978308451e2e3127401efb517d274c466114575fee196a9b12f34",
+    "money_back-ok/result.json": "2eb098c39dcb79bed001712096c6399d84f84bd21ee3b404f678ec44bcb7f6e4",
+    "money_back_cents-auto/case.qml": "9d371dd56336ed8300e63735d2b459aadf3eeaed939859f92457d82d0aa0f686",
+    "money_back_cents-auto/invocation.json": "67dc2085d665d085c60e2b20f420b2433fe3ace0d0736815d12415fe6876af2a",
+    "money_back_cents-auto/native.log": "bdbc85e6ef4114180ca4682c3efb8eabefd1a6d5e9517f248bbcdc9261ba7f8a",
+    "money_back_cents-auto/result.json": "44543dea8538cf9aa3eecd425be630163913a3d17ef75ce98f2ef50b02394a58",
+    "money_back_cents-controls/case.qml": "1869eaf8073ba1e9c4725b78526df48bee2e5a54cd9da3e12d133b4d7f2ec90f",
+    "money_back_cents-controls/help.png": "a15aba4f345071b3020edb4029b4dffff71dd1a63e23025cfdf882aa89c13afc",
+    "money_back_cents-controls/invocation.json": "67dc2085d665d085c60e2b20f420b2433fe3ace0d0736815d12415fe6876af2a",
+    "money_back_cents-controls/native.log": "4faaa1db7a8ae2b5425f7a96ae6567ce4c7937b5f8be34590cb98db532ed318b",
+    "money_back_cents-controls/result.json": "788b41f867689219f68d153be65bf652e720867e7b65de5538d18a4fac38b831",
+    "money_back_cents-ok/case.qml": "b7e0847f027c0c6d606236b78cef5e21dce12bce474fb05234934cffc60df0e9",
+    "money_back_cents-ok/invocation.json": "7818fcfea86b34ab2806a5ec61ebb40d593c8f5256f79e9194b4e42af8ef2ac9",
+    "money_back_cents-ok/native.log": "198e46378a0368aa1bbb4da3717b7f681c46081f4bd0d6a90f3b521d673dcb3b",
+    "money_back_cents-ok/result.json": "561a15b18bb07fd991756c47ede8f9b278b58ca4b0c262b7d6dbf0cd24ff1344",
+    "money_cents-auto/case.qml": "7296e461f040f31ff0f754d36fcc8565c7a5a45365d6fc8b37e065cde3412055",
+    "money_cents-auto/invocation.json": "6f29c463fcaaa41a7202e4f92db6ba84e5ba03740ef0cbedbc4dc5c6b881abf9",
+    "money_cents-auto/native.log": "06a9dce30729a87419855e39a9cde3d7952207c467a46535753065d27e8193bb",
+    "money_cents-auto/result.json": "ca60dfa022b1cf85ab5d58fc93c3b4ab3e968ac38cf1d4482485737e92ec1488",
+    "money_cents-controls/case.qml": "c787ac78b2c5b10a840e91257ad6320459379224a0be10d95156787a846f1f90",
+    "money_cents-controls/help.png": "08fe4ffd1a80fd397460cc7005dcc56a12019c4df9d55050022c5466c9b99ba4",
+    "money_cents-controls/invocation.json": "6f29c463fcaaa41a7202e4f92db6ba84e5ba03740ef0cbedbc4dc5c6b881abf9",
+    "money_cents-controls/native.log": "f6d81f2cf05592ed5b6953f8148e807c80e9db957b4f290d35bacb868f410429",
+    "money_cents-controls/result.json": "3fc02c4b4bc7ed9b9a6b834923c0278a5f1aa70bfef1de527a9e678cbde5f977",
+    "money_cents-ok/case.qml": "ec06c762666ae86a1896c41c704c47d65b2f7f50dabe9add6a114e7baad2194f",
+    "money_cents-ok/invocation.json": "5921c4a2dea5cfff2b26fe8355792cc6c4a310163da9b6f40d7ee2c056a4f921",
+    "money_cents-ok/native.log": "a104d36056dcb0720a3f8f98557196799c954836d8143d8ed09ec75d28c4820b",
+    "money_cents-ok/result.json": "3a4f7bb8b7443403c1017e0ff0cd6389043229222fc4a0b340327d3fcf6b8866",
+    "oracle-green.log": "e26057b1c8b7e60cb0dd54efb5d14099975cabddb2314207422acc813a0bddd2",
+    "oracle-red.log": "28ad1880d263f1a2a57145f3ec01733416991630574aaa8f7f6faaea84e7253a",
+    "phases/final/external-identities.json": "fb178ec06d8261ca28b36fcdcb48e8011a8cb6488dc9181caecd288446ea7932",
+    "phases/final/rcc-identities.json": "bebb37443cd42380f9f1530f13119c6b87c244112b514b84219c4f5b3d64966b",
+    "phases/final/snapshot-manifest.json": "d6239a2544e4f662455f636c1f2b2be3c5abcbfd2aa25eaaf0b85cf353044155",
+    "phases/final/source-manifest.json": "03dcc7efb2903eabc6c6e34d6a01cbfa21dbf1fff348b3819d8c5075cb130f98",
+    "phases/keyboard-fixed/rcc-identities.json": "4c183e1d13720ff07c5dd78aef7ea3ffb3e3d6f22cda9607b4e9acde05e8ae3b",
+    "phases/keyboard-fixed/snapshot-manifest.json": "31418474fd4cbabe11968c029078b0069e26fe95e87fcc65d0b5563e2dfc7c39",
+    "phases/keyboard-fixed/source-manifest.json": "29e750a03661d9c87b3941737856efc334fd928f08dd344e5e6b7d532c912089",
+    "phases/original/rcc-identities.json": "cc9731c8888c89e39c63cef182e7de160da4f66b5d093d950b92302515466b51",
+    "phases/original/snapshot-manifest.json": "b96cd6c24d4b92f654078824aa3325c2efa178d4b1600fe192441a325282e00f",
+    "phases/original/source-manifest.json": "c9d09b0dad2703dc1eeffdfb4c2817db9a81778ed61bf69eda1282e0bfb8fa1e",
+    "reachability-green/case.qml": "e820fe51b8bbea95a734c75558e973dba21e8cc85ef42fe2636d68732b12f1f6",
+    "reachability-green/native.log": "ecae313be24305f4e844a27f1e0d5efd90629428e3ed757e00c933182f80c95b",
+    "reachability-green/result.json": "99248178271337cbddfa2e2c107075ade9b1f60330a6f92327af5b9e3cecc031",
+    "reachability-red/case.qml": "e820fe51b8bbea95a734c75558e973dba21e8cc85ef42fe2636d68732b12f1f6",
+    "reachability-red/failure.png": "4c63c99e9b15280d367e88f7b2c4c354dd5a7a2473c4ea253daf6a710e7c9eca",
+    "reachability-red/native.log": "4664ae0731f618252c96e883c54b701d2a93929cc93f4fa0b22d6148d94a5a1e",
+    "reachability-red/result.json": "3b3f0ddd7ba23bb156adacf948b566e0b14cde2c9236125fb18ff52d3cef0a83"
+  }
+}

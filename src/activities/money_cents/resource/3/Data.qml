@@ -127,6 +127,7 @@ Data {
             moneyItems.MONEY_PAPER_50E,
             moneyItems.MONEY_PAPER_20E,
             moneyItems.MONEY_PAPER_20E,
+            moneyItems.MONEY_PAPER_10E,
             moneyItems.MONEY_PAPER_5E,
             moneyItems.MONEY_PAPER_5E,
             moneyItems.MONEY_COIN_2E,
