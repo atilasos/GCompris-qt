@@ -1,0 +1,10 @@
+test_altered_case_is_rejected (test_audit.EvidenceContract.test_altered_case_is_rejected) ... ok
+test_altered_frozen_source_identity_is_rejected (test_audit.EvidenceContract.test_altered_frozen_source_identity_is_rejected) ... ok
+test_altered_visible_resource_is_rejected (test_audit.EvidenceContract.test_altered_visible_resource_is_rejected) ... ok
+test_copied_evidence_is_independent_of_original_runtime_paths (test_audit.EvidenceContract.test_copied_evidence_is_independent_of_original_runtime_paths) ... ok
+test_missing_level_is_rejected (test_audit.EvidenceContract.test_missing_level_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.461s
+
+OK
