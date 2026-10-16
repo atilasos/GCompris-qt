@@ -221,3 +221,5 @@ percursos preservam os critérios globais pendentes.
 - [61 — Frações](issues/61-fracoes.md)
 
 - [62 — Calendários](issues/62-calendarios.md)
+
+- [63 — Operações verticais](issues/63-operacoes-verticais.md)
