@@ -1,0 +1,164 @@
+[
+    {
+        "bytes": 2037,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/ActivityInfo.qml",
+        "sha256": "bc8dea2ef52283b02717b8b5c7e8003a38a9fd284a4374d0f99f1ffd72407d9f"
+    },
+    {
+        "bytes": 1901,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/TakenPiecesList.qml",
+        "sha256": "50c5899d6c5f678fd0dde00a2bfe8e41648f47b4d31981512e34cab7443d2be3"
+    },
+    {
+        "bytes": 2753,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/Piece.qml",
+        "sha256": "604b49aa4152af3d43fd48070ebc01d4765f5e67b70b2960ed72bf5b7b775403"
+    },
+    {
+        "bytes": 72256,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/chess.svg",
+        "sha256": "324fb54bcda6527099cd4f7221ec037f060e9a17750ea46aa916ea8eb43c6624"
+    },
+    {
+        "bytes": 3314,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/undo.svg",
+        "sha256": "7289dbc2f21a00546abeb2beca0f778c5c604282127e59e9298a086d5396b10f"
+    },
+    {
+        "bytes": 8866,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/captured.svg",
+        "sha256": "12b9453549c440dd0b466ba1093709d5cf73ab3a0009f3921f9e9fc17b2d6b78"
+    },
+    {
+        "bytes": 6022,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/bb.svg",
+        "sha256": "c4027db2722271211fd5869080d80f0c366e768332cc950c9eda5ee1a1dd925a"
+    },
+    {
+        "bytes": 4360,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/bk.svg",
+        "sha256": "378a7957cb60caf223843b62ff16a7d44ca3dd782e26ca8ab32ec6c07261d666"
+    },
+    {
+        "bytes": 5426,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/bn.svg",
+        "sha256": "8089684353ca9a379d45a4f87f0525b2fd76e541cd74d0aeef47f85885e4fc75"
+    },
+    {
+        "bytes": 4714,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/bp.svg",
+        "sha256": "ebad18feae47be181f28d6d2bc02513219e50391700d6d0148ad79e37dd67b87"
+    },
+    {
+        "bytes": 5835,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/bq.svg",
+        "sha256": "b394f84f4c54e6fc94a88b975e783d8897d3e881eac702d749a7645ae3ac05e9"
+    },
+    {
+        "bytes": 4838,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/br.svg",
+        "sha256": "916ddc86d3981d47a038b5b35e7b01eb11d7355dbe2e02c77bbb239b0947384e"
+    },
+    {
+        "bytes": 6026,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/wb.svg",
+        "sha256": "6dc461f2a6f6924a786a956c4dc368daa32b4427ee7886d230324e452a62ae3a"
+    },
+    {
+        "bytes": 4361,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/wk.svg",
+        "sha256": "1d9685946c4e7c98618a7e84cb9cb3d7fc6280efb2c09b5fdd08e85649ada2a6"
+    },
+    {
+        "bytes": 5426,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/wn.svg",
+        "sha256": "0189b7997da6870952ea071ab5231a8a2effc1d4daee15f98fbf5a9eddd00c2e"
+    },
+    {
+        "bytes": 4692,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/wp.svg",
+        "sha256": "830ae2caff66875f0099e9495afff2b60e5673ee9b58464eedaf95b9c95de4f2"
+    },
+    {
+        "bytes": 5835,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/wq.svg",
+        "sha256": "3963ba9606e7752db9e44abbc82603a90c225239b1a942fdcec4e60cd2b6a11e"
+    },
+    {
+        "bytes": 4843,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/wr.svg",
+        "sha256": "2e7ad83b13099a3754c364a67dd7d41566d5d3d66146f58683d66d97a76a14d6"
+    },
+    {
+        "bytes": 5548,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/chess-white.svg",
+        "sha256": "4a1f629520c91418e5a6239a3b9dc1d9e063c76274d5d87ce1a86408366434eb"
+    },
+    {
+        "bytes": 27448,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/background-wood.svg",
+        "sha256": "ee7e85a2ad3b30c2d89f43bddc18c277c1941d1b12ca02f2d1f027ef08bd589d"
+    },
+    {
+        "bytes": 3322,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/redo.svg",
+        "sha256": "01ce5b1ac8b73d0ec4c3f78f1c39682cd7fc53be4e602304deec6a3e21cff422"
+    },
+    {
+        "bytes": 7871,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/turn.svg",
+        "sha256": "7e1e9ff9fda82aba3843a8d67d7f0023aa87539902187f3bc51534e023821443"
+    },
+    {
+        "bytes": 5496,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/resource/chess-black.svg",
+        "sha256": "5f77c467d2ac54b3dbc007416ca54449223a083dcec807b77e5cb49c119f4766"
+    },
+    {
+        "bytes": 24418,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/Chess.qml",
+        "sha256": "f8b099d29ba06c0b5b792f2506bba0e66d334863da0a1d16655ab2aaeb556911"
+    },
+    {
+        "bytes": 729,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/GCTimerButton.qml",
+        "sha256": "2ac81e8974f8736071bc74db7a464e9d1076bea250f55987827b74430af7fb63"
+    },
+    {
+        "bytes": 51834,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/engine.js",
+        "sha256": "916fba649fd856a57f0d290d5af30dc7723af97451b87787a9c4146b9268edb2"
+    },
+    {
+        "bytes": 10628,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/chess/chess.js",
+        "sha256": "9bb0f350dd2ad02132f39190826f279136fbf45ffd8491ebdbb6682201f35cd6"
+    }
+]

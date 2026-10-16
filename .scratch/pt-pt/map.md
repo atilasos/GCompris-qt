@@ -159,7 +159,7 @@ e os restantes critérios de aceitação mantêm os seus estados próprios.
 
 A memória matemática concluiu 14 variantes e 207 combinações nível/modo;
 decimais/quantidades concluíram 316 puzzles em 16 campanhas offline e quatro casos de controlos.
-As 131 atividades com evidência funcional ligada na matriz não representam
+As 134 atividades com evidência funcional ligada na matriz não representam
 a aceitação global dos 203 jogos.
 
 - [40 — Contrato dos níveis do Solitário](issues/40-niveis-solitario.md)
@@ -394,3 +394,10 @@ do driver; [relatórios](review/integration83/README.md). Os seis probes ociosos
 não resolveram a causa: a tarefa permanece aberta e sem nova cobertura de jogos.
 
 - [86 — Relações familiares](issues/86-relacoes-familiares.md)
+
+A tarefa 85 tem percursos Linux integrados da eclusa, ciclo da água e três
+níveis de energia. Está `ready-for-review`, aguardando Standards e Spec
+independentes. Três ligações mantêm os critérios globais, Windows, hardware,
+áudio e docente pendentes; os limites dos recibos históricos estão publicados.
+
+- [87 — Grelhas lógicas](issues/87-grelhas-logicas.md)
