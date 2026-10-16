@@ -379,3 +379,5 @@ não aprovam estabilidade, Windows, hardware, áudio ou aceitação global.
 O encerramento139 continua na tarefa83 aberta.
 
 - [84 — Exploração do mundo](issues/84-exploracao-mundo.md)
+
+- [85 — Ciclos e eclusa](issues/85-ciclos-e-eclusa.md)
