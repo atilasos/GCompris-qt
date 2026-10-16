@@ -16079,7 +16079,7 @@ msgstr "Escreve as letras em queda antes que cheguem ao chão."
 #: activities/gnumch-equality/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Gnumch equality"
-msgstr "Desigualdade do Gnumch"
+msgstr "Igualdade do Gnumch"
 
 #. Help title
 #. ----------
@@ -16191,7 +16191,7 @@ msgstr "Primos inferiores a %1"
 #: activities/gnumch-equality/Warning.qml:29
 msgctxt "Warning|"
 msgid "You were eaten by a Troggle."
-msgstr "Fos-te comido por um Ogre."
+msgstr "Foste comido por um Ogre."
 
 #: activities/gnumch-equality/Warning.qml:33
 msgctxt "Warning|"
@@ -16227,7 +16227,7 @@ msgstr "Divisores de %1 são: %2"
 #: activities/gnumch-equality/Warning.qml:101
 msgctxt "Warning|"
 msgid "Press \"Return\" or click on me to continue."
-msgstr "Carrega em \"Retroceder\" ou sobre mim para prosseguires."
+msgstr "Carrega em \"Enter\" ou clica aqui para continuares."
 
 #: activities/gnumch-equality/WarnMonster.qml:39
 msgctxt "WarnMonster|"
