@@ -504,7 +504,12 @@ function continueGame() {
             items.trigTuxMove.start();
         }
     }
-    if(items.counter === 42) {
+    var boardFull = getBoardFromModel().every(function(row) {
+        return row.every(function(piece) { return piece !== "invisible"; });
+    });
+    if(!items.gameDone && boardFull) {
+        items.gameDone = true;
+        items.trigTuxMove.stop();
         items.player1score.endTurn();
         items.player2score.endTurn();
         items.bonus.bad("flower");
