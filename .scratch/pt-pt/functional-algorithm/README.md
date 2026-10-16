@@ -13,7 +13,7 @@ com setas e Espaço/Enter/Return reais. A resposta completa desenhada é
 conferida contra a correspondência visual independente.
 
 O inventário estático verifica os 28 exemplos publicados, incluindo um
-exemplo duplicado. Há 27 padrões únicos por nível. Todos são identificáveis
+exemplo duplicado. Há 27 exemplos distintos ao contar cada nível separadamente. Todos são identificáveis
 pelos quatro pares iniciais. As perguntas aleatórias observadas não aprovam
 todas as permutações de frutas ou todos os exemplos interativos possíveis.
 
@@ -40,3 +40,15 @@ ou do catálogo corrente. A revisão final é registada separadamente.
 Aceitação global Linux, Windows 10 da escola, dispositivos físicos, touch,
 audição e revisão docente continuam pendentes. As provas acima não aprovam
 estes critérios.
+
+O auditor final passou com três casos positivos, sete níveis, 21 perguntas e
+15 padrões diferentes observados, sem os confundir com os 28 exemplos
+publicados. Oito testes puros passaram, incluindo correspondência conhecida,
+prefixo ambíguo rejeitado, cópia independente e adulteração de fonte/catálogo
+reeselada, retorno externo, caso e imagem. Os recibos e sidecars originais
+são também conferidos byte a byte contra o commit imutável de captura.
+
+```sh
+python3 tests/functional_algorithm/audit.py
+python3 -m unittest discover -s tests/functional_algorithm -p 'test_*.py'
+```
