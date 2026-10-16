@@ -1,7 +1,7 @@
 # Comparar números e descobrir os vizinhos em PT-PT
 
 Status: ready-for-agent
-Progress: claimed
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -25,3 +25,8 @@ idênticos vermelho/verde para defeitos, sem manipular progresso ou relógios.
 
 Aceitação global, Windows 10, dispositivos físicos, áudio e revisão docente
 continuam pendentes.
+
+## Integração
+
+Provas integradas para Standards e Spec independentes. Estado
+`ready-for-review` limitado à prova Linux; sem resolução final ou global.
