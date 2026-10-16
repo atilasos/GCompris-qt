@@ -1,0 +1,74 @@
+[
+  {
+    "image": "qrc:/gcompris/src/activities/explore_monuments/resource/india/gatewayofIndia.webp",
+    "map": 2,
+    "title": "Portão da Índia",
+    "x": 0.26125,
+    "y": 0.58375,
+    "old": "O Portão da Índia é um dos marcos mais únicos da Índia, situado na cidade de Mumbai. A estrutura colossal foi construída em 1924. Localizada na ponta do Apollo Bunder, o portão tem uma vista sobre o porto de Mumbai, rodeado pelo Mar Árabe no distrito de Colaba. O Portão da Índia é um monumento que marca os portos principais da Índia e é uma atração turística importante para os visitantes que chegam à Índia pela primeira vez.",
+    "new": "O Portão da Índia é um dos marcos mais únicos da Índia, situado na cidade de Mumbai. A estrutura colossal foi construída em 1924. Localizado na ponta do Apollo Bunder, o portão tem uma vista sobre o porto de Mumbai, rodeado pelo Mar Árabe no distrito de Colaba. O Portão da Índia é um monumento que marca os portos principais da Índia e é uma atração turística importante para os visitantes que chegam à Índia pela primeira vez."
+  },
+  {
+    "image": "qrc:/gcompris/src/activities/explore_monuments/resource/germany/neuschwansteinCastle.webp",
+    "map": 4,
+    "title": "Castelo de Neuschwanstein",
+    "x": 0.51875,
+    "y": 0.83125,
+    "old": "O pináculo dos castelos de contos de fadas, o Neuschwanstein situa-se uma colina rugosa perto de Füssen, no Sudoeste da Baviera. Foi a inspiração para os castelos da Bela Adormecida nos parques da Disneylândia. O castelo foi encomendado pelo Rei Ludwig II da Baviera, o qual foi declarado como louco quando o castelo estava perto da sua conclusão em 1886, sendo encontrado morto alguns dias depois. Neuschwanstein é o edifício mais fotografado do país e é uma das mais conhecidas atrações turísticas na Alemanha.",
+    "new": "O pináculo dos castelos de contos de fadas, o Neuschwanstein situa-se numa colina escarpada perto de Füssen, no Sudoeste da Baviera. Foi a inspiração para os castelos da Bela Adormecida nos parques da Disneylândia. O castelo foi encomendado pelo Rei Ludwig II da Baviera, o qual foi declarado como louco quando o castelo estava perto da sua conclusão em 1886, sendo encontrado morto alguns dias depois. Neuschwanstein é o edifício mais fotografado do país e é uma das mais conhecidas atrações turísticas na Alemanha."
+  },
+  {
+    "image": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/castillodeSanMarcos.webp",
+    "map": 5,
+    "title": "Castelo de São Marcos",
+    "x": 0.69625,
+    "y": 0.6275,
+    "old": "Estendendo-se em mais de 8 hectares de St. Augustine, na Flórida, o Castelo de São Marcos foi terminado como sendo o forte defensivo da cidade em 1695, quando a Flórida ainda era um território Espanhol. Construído a partir da pedra rara que é a coquina, o castelo em forma de estrela também é o mais antigo forte senhorial do país.",
+    "new": "Estendendo-se em mais de 8 hectares de St. Augustine, na Flórida, o Castelo de São Marcos foi terminado como sendo o forte defensivo da cidade em 1695, quando a Flórida ainda era um território Espanhol. Construído a partir da pedra rara que é a coquina, o castelo em forma de estrela também é o mais antigo forte de alvenaria do país."
+  },
+  {
+    "image": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/georgeWashingtonBirthplace.webp",
+    "map": 5,
+    "title": "Local de Nascimento de George Washington",
+    "x": 0.755,
+    "y": 0.52375,
+    "old": "O Monumento Nacional de Nascimento de George Washington existe no Condado de Westmoreland, em Virgínia, nos Estados Unidos. Originalmente iniciado por John Washington, o bisavô de George Washington, George Washington nasceu aqui em 22 de fevereiro de 1732. Ele viveu lá até aos três anos, regressando mais tarde como adolescente.",
+    "new": "O Monumento Nacional do Local de Nascimento de George Washington situa-se no condado de Westmoreland, na Virgínia, nos Estados Unidos. O seu bisavô, John Washington, estabeleceu-se nesta região no século XVII. George Washington nasceu aqui em 22 de fevereiro de 1732. Viveu neste local até aos três anos e regressou mais tarde, na adolescência."
+  },
+  {
+    "image": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/lincolnMemorial.webp",
+    "map": 5,
+    "title": "Memorial de Lincoln",
+    "x": 0.72,
+    "y": 0.46625,
+    "old": "Construída em pedra branca com 36 colunas imponentes, o Memorial de Lincoln é uma das estruturas mais reconhecidas nos Estados Unidos. O memorial fica no extremo ocidental do National Mall, no Parque de Potomac Ocidental, sendo um exemplo da arquitetura Neoclássica. Oferece uma estátua solitária de 6 metros de altura de Abraham Lincoln sentado em contemplação, a qual está rodeada por câmaras laterais de ambos os lados com as inscrições do Segundo Discurso Inaugural de Lincoln e, sem dúvida o seu mais famoso discurso, o Discurso de Gettysburg.",
+    "new": "Construído em pedra branca com 36 colunas imponentes, o Memorial de Lincoln é uma das estruturas mais reconhecidas nos Estados Unidos. O memorial fica no extremo ocidental do National Mall, no Parque de Potomac Ocidental, sendo um exemplo da arquitetura Neoclássica. Oferece uma estátua solitária de 6 metros de altura de Abraham Lincoln sentado em contemplação, a qual está rodeada por câmaras laterais de ambos os lados com as inscrições do Segundo Discurso Inaugural de Lincoln e, sem dúvida o seu mais famoso discurso, o Discurso de Gettysburg."
+  },
+  {
+    "image": "qrc:/gcompris/src/activities/explore_monuments/resource/egypt/meidumPyramid.webp",
+    "map": 6,
+    "title": "Pirâmide de Meidum",
+    "x": 0.5825,
+    "y": 0.31875,
+    "old": "Cinco milhas a Sul de Saqqara no Egito, eleva-se a misteriosa pirâmide em torre de Meidum, que nos dias de hoje pouco se parece com uma pirâmide de todo. A pirâmide foi provavelmente construída durante o reinado do faraó da 4a Dinastia Sneferu, ainda que se acredita que parte da pirâmide tenha sido iniciada pelo antecessor de Sneferu, Huni. A determinada altura da sua construção, os degraus da pirâmide foram preenchidos com uma cobertura em pedra calcária, marcando a primeira tentativa dos antigos Egípcios na construção de uma verdadeira pirâmide.",
+    "new": "A pirâmide de Meidum situa-se na região de Beni Suef, no Egito. O faraó Sneferu, primeiro rei da IV dinastia, escolheu Meidum para construir o seu túmulo real. A construção começou como uma pirâmide de degraus e foi depois transformada numa pirâmide de faces lisas, revestida de calcário. Hoje, o núcleo restante ergue-se sobre um monte de entulho. A atribuição anterior a Huni, antecessor de Sneferu, já não corresponde ao consenso atual dos especialistas."
+  },
+  {
+    "image": "qrc:/gcompris/src/activities/explore_monuments/resource/china/forbiddenCity.webp",
+    "map": 7,
+    "title": "Cidade Proibida",
+    "x": 0.64375,
+    "y": 0.4625,
+    "old": "A Cidade Proibida, localizada no coração de Beijing (Pequim), na China, é um magnífico complexo do Palácio imperial que serviu de casa aos imperadores chineses e de centro político da nação por quase 500 anos, da Dinastia Ming (1368-1644) até ao fim da dinastia Qing (1644-1912). Construído entre 1406 e 1420, esta obra-prima arquitetónica abrange 180 hectares e apresenta mais de 980 edifícios preservados com 8.700 divisões, representativas do design palaciano chinês tradicional. Rodeado por um fosso e muralhas altas, a Cidade Proibida já foi inacessível ao público em geral, simbolizando a exclusividade do poder imperial.",
+    "new": "A Cidade Proibida, localizada no coração de Beijing (Pequim), na China, é um magnífico complexo do Palácio imperial que serviu de casa aos imperadores chineses e de centro político da nação por quase 500 anos, da Dinastia Ming (1368-1644) até ao fim da dinastia Qing (1644-1912). Construída entre 1406 e 1420, esta obra-prima arquitetónica abrange 180 acres (cerca de 73 hectares) e apresenta mais de 980 edifícios preservados com 8 700 divisões, representativas do design palaciano chinês tradicional. Rodeada por um fosso e muralhas altas, a Cidade Proibida já foi inacessível ao público em geral, simbolizando a exclusividade do poder imperial."
+  },
+  {
+    "image": "qrc:/gcompris/src/activities/explore_monuments/resource/italy/florenceCathedral.webp",
+    "map": 8,
+    "title": "Catedral de Florença",
+    "x": 0.42375,
+    "y": 0.39375,
+    "old": "A Catedral de Florença, oficialmente conhecida como Cattedrale di Santa Maria del Fiore, é uma obra-prima de renome da arquitetura gótica e renascentista localizada em Florença, Itália. Concluída em 1436, é famosa pela sua enorme cúpula de azulejos vermelhos projetada por Filippo Brunelleschi, permanecendo uma maravilha da engenharia e um símbolo da cidade. A intricada fachada em mármore da catedral, acrescentada no século XIX, complementa os tesouros artísticos do seu interior ricamente decorado. Juntamente com o Campanário de Giotto e o Batistério de São João, faz parte do Património Mundial da Humanidade da UNESCO, e as suas características históricas, culturais e a sua importância arquitetónica atraem anualmente milhões de visitantes.",
+    "new": "A Catedral de Florença, oficialmente conhecida como Cattedrale di Santa Maria del Fiore, é uma obra-prima de renome da arquitetura gótica e renascentista localizada em Florença, Itália. Concluída em 1436, é famosa pela sua enorme cúpula revestida de telhas de terracota vermelha projetada por Filippo Brunelleschi, permanecendo uma maravilha da engenharia e um símbolo da cidade. A intricada fachada em mármore da catedral, acrescentada no século XIX, complementa os tesouros artísticos do seu interior ricamente decorado. Juntamente com o Campanário de Giotto e o Batistério de São João, faz parte do Património Mundial da Humanidade da UNESCO, e as suas características históricas, culturais e a sua importância arquitetónica atraem anualmente milhões de visitantes."
+  }
+]

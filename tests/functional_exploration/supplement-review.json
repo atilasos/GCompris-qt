@@ -1,0 +1,56 @@
+[
+  {
+    "image": "qrc:/gcompris/src/activities/explore_monuments/resource/wonders/machuPicchu.webp",
+    "map": 1,
+    "title": "Machu Picchu",
+    "old": "Machu Picchu eleva-se a 2 430 m acima do nível do mar, no meio de uma floresta montanhosa tropical, com um cenário extraordinariamente bonito. Foi provavelmente a mais impressionante criação urbana do Império Inca na sua altura; as suas paredes, terraços e rampas gigantes parecem ter sido cortadas naturalmente nas escarpas de rocha contínuas. O cenário natural, nas escarpas orientais dos Andes, compõe a nascente superior do Amazonas com a sua rica diversidade de flora e fauna.",
+    "new": "Machu Picchu eleva-se a 2 430 m acima do nível do mar, no meio de uma floresta montanhosa tropical, com um cenário extraordinariamente bonito. Foi provavelmente a mais impressionante criação urbana do Império Inca no seu apogeu; as suas paredes, terraços e rampas gigantes parecem ter sido cortadas naturalmente nas escarpas de rocha contínuas. O cenário natural, nas escarpas orientais dos Andes, abrange a bacia superior do Amazonas com a sua rica diversidade de flora e fauna.",
+    "x": 0.3275,
+    "y": 0.57625
+  },
+  {
+    "image": "qrc:/gcompris/src/activities/explore_monuments/resource/india/qutubMinar.webp",
+    "map": 2,
+    "title": "Qutub Minar",
+    "old": "O Qutub Minar, elevado a 74 metros, é o mais alto minarete de tijolos do mundo, sendo o segundo mais alto na Índia a seguir ao Fateh Burj em Mohali. O Qutub Minar, em conjunto com os monumentos antigos e medievais que o rodeiam, formam o Complexo de Qutb, que é considerado Património Mundial da Humanidade pela UNESCO. A torre localiza-se na área de Mehrauli em Deli, Índia. É feito de granito vermelho e mármore.",
+    "new": "O Qutub Minar, elevado a 74 metros, é o mais alto minarete de tijolos do mundo, sendo o segundo mais alto na Índia a seguir ao Fateh Burj em Mohali. O Qutub Minar, em conjunto com os monumentos antigos e medievais que o rodeiam, formam o Complexo de Qutb, que é considerado Património Mundial da Humanidade pela UNESCO. A torre localiza-se na área de Mehrauli em Deli, Índia. É feito de arenito vermelho e mármore.",
+    "x": 0.35625,
+    "y": 0.33
+  },
+  {
+    "image": "qrc:/gcompris/src/activities/explore_monuments/resource/germany/wormsCathedral.webp",
+    "map": 4,
+    "title": "Catedral de Worms",
+    "old": "A Catedral de Worms (Wormser Dom), também conhecida como Catedral de São Pedro, é uma catedral Românica na cidade alemã de Worms. Uma estrutura em granito com distintas torres cónicas, a Catedral de Worms foi construída por fases, ao longo do século XII, e foi terminada na sua maioria em 1181.",
+    "new": "A Catedral de Worms (Wormser Dom), também conhecida como Catedral de São Pedro, é uma catedral Românica na cidade alemã de Worms. Uma estrutura em arenito com distintas torres cónicas, a Catedral de Worms foi construída por fases, ao longo do século XII, e foi terminada na sua maioria em 1181.",
+    "x": 0.3725,
+    "y": 0.64875
+  },
+  {
+    "image": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/canyondeChelly.webp",
+    "map": 5,
+    "title": "Escarpas de Chelly",
+    "old": "As estóicas ruínas vermelhas das Escarpas de Chelly, a Nordeste do Arizona, fazem parte por um lado do Serviço de Parques Nacionais e por outro da Nação Navajo, sendo estabelecidos como monumentos nacionais em 1931. Um conjunto de locais importantes dos antigos Nativos Americanos são preservados nos cerca de 34 000 hectares do parque, sendo que as Escarpas de Chelly também oferecem um conjunto de formações geológicas da zona Sudoeste, incluindo a Spider Rock (Rochedo da Aranha), uma espira de granito com cerca de 200 metros de altura que se eleva de forma estranha a partir do fundo da escarpa.",
+    "new": "O Canyon de Chelly, no nordeste do Arizona, foi declarado monumento nacional em 1931. Situa-se no território da Nação Navajo e conserva locais importantes dos antigos povos indígenas americanos. Os seus cerca de 34 000 hectares incluem formações de arenito como a Spider Rock (Rochedo da Aranha), uma agulha de rocha com cerca de 244 metros de altura.",
+    "x": 0.33125,
+    "y": 0.5525
+  },
+  {
+    "image": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/castleClinton.webp",
+    "map": 5,
+    "title": "Castelo Clinton",
+    "old": "Este forte redondo de granito, situado no fundo da Ilha de Manhattan antecede a Ilha de Ellis em cerca de 50 anos como sendo o primeiro ponto de verificação de imigração dos EUA. O Castelo Clinton (nps.gov/cacl) foi construído originalmente como um forte para proteger Nova Iorque de uma invasão Britânica durante a guerra de 1812, sendo convertido num monumento nacional em 1946.",
+    "new": "Este forte circular de arenito, situado no extremo sul da ilha de Manhattan antecede a Ilha de Ellis em cerca de 50 anos como sendo o primeiro ponto de verificação de imigração dos EUA. O Castelo Clinton (nps.gov/cacl) foi construído originalmente como um forte para proteger Nova Iorque de uma invasão Britânica durante a guerra de 1812, sendo convertido num monumento nacional em 1946.",
+    "x": 0.75875,
+    "y": 0.41625
+  },
+  {
+    "image": "qrc:/gcompris/src/activities/explore_monuments/resource/usa/navajo.webp",
+    "map": 5,
+    "title": "Navajo",
+    "old": "O Monumento Nacional Navajo é um Monumento Nacional localizado dentro da parte Noroeste do território da Nação Navajo, a Norte do Arizona, que foi estabelecido para preservar três baixos-relevos em penhasco do Povo Ancestral Puebloan: Keet Seel (Kitsʼiil), Betatakin (Bitátʼahkin), e a Casa da Inscrição(Tsʼah Biiʼ Kin). O monumento eleva-se no planalto de Shonto, tendo uma visão geral sobre o sistema montanhoso de Tsegi, a oeste de Kayenta, Arizona. Oferece um centro aos visitantes com um museu, dois trajetos curtos às mesetas, dois parques de campismo e uma área de piqueniques. Alguns guardas guiam os visitantes em viagens gratuitas aos relevos de Keet Seel e Betatakin. O local da Casa da Inscrição, mais a oeste, está neste momento encerrado ao público.",
+    "new": "O Monumento Nacional Navajo situa-se no norte do Arizona, no território da Nação Navajo. Preserva três conjuntos de habitações construídas em abrigos nas falésias pelos povos ancestrais pueblo: Keet Seel (Kitsʼiil), Betatakin (Bitátʼahkin) e Inscription House (Tsʼah Biiʼ Kin). Fica no planalto de Shonto, com vista para o sistema de desfiladeiros de Tsegi, a oeste de Kayenta. Tem um centro de visitantes com museu, trilhos, parques de campismo e uma área de piqueniques.",
+    "x": 0.34875,
+    "y": 0.49875
+  }
+]
