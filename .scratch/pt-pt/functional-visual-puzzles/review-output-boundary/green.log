@@ -1,0 +1,7 @@
+test_capture_occupied_output (test_output_boundary.OutputBoundary.test_capture_occupied_output) ... ok
+test_runner_occupied_output (test_output_boundary.OutputBoundary.test_runner_occupied_output) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.007s
+
+OK

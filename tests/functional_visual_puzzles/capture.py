@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[2]
 def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 def main():
  parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--case',type=Path,required=True);parser.add_argument('--output',type=Path,required=True);args,_=parser.parse_known_args()
- if args.output.exists():parser.error('Output must be new')
+ if args.output.exists() or args.output.is_symlink():parser.error('Output must be new')
  if not args.case.is_file():parser.error('Case must exist')
  digest=sha(args.case);command=[sys.executable,str(ROOT/'tools/run-native-qml-supervised.py'),*sys.argv[1:]];process=subprocess.run(command)
  receipt=args.output/'result.json';status=args.output/'launcher-status.json'

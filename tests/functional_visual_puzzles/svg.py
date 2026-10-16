@@ -27,4 +27,3 @@ def render(source,target,size=160):
     if not r.rsvg_handle_render_cairo(h,cr):raise ValueError("SVG render failed")
     if c.cairo_surface_write_to_png(surface,str(target).encode())!=0:raise ValueError("PNG export failed")
     c.cairo_destroy(cr);c.cairo_surface_destroy(surface);g.g_object_unref(h)
-
