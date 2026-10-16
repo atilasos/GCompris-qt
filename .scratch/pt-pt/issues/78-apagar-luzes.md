@@ -1,7 +1,7 @@
 # Apagar as luzes
 
 Status: ready-for-agent
-Progress: claimed
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -27,3 +27,8 @@ sob Python otimizado, ou recusar explicitamente essa modalidade.
 
 Windows 10, dispositivos físicos, audição, revisão docente e aceitação global
 continuam pendentes.
+
+## Integração
+
+Provas integradas para Standards e Spec independentes. `ready-for-review`
+não representa resolução final ou aceitação global.
