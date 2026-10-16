@@ -214,3 +214,7 @@ adulteradas. As cinco novas ligações Gnumch ainda não foram acrescentadas.
 O lote 56 tem doze casos positivos e revisões finais sem achados em
 [Standards e Spec](review/integration56-final/). As quatro novas ligações de
 percursos preservam os critérios globais pendentes.
+
+- [60 — Dinheiro e troco](issues/60-dinheiro-troco.md)
+
+- [61 — Frações](issues/61-fracoes.md)
