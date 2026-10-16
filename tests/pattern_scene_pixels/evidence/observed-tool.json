@@ -9,6 +9,7 @@
     "session_id": 24243,
     "chunk_id": "74841f",
     "exit_code": 0,
-    "observed_stdout": "normal/-O physical report equality checked;336 scenes;no missing scenes"
+    "verification": "The driver compared parsed normal/-O JSON and raised on mismatch before printing counts.",
+    "stdout_last_line": "scenes 336 missing []"
   }
 }
