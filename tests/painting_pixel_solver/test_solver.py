@@ -41,4 +41,17 @@ class PixelPlacement(unittest.TestCase):
   board={'level':1,'frame':frame,'pages':[[{'source':'opaque'}]],'drawnCircles':[{'x':10,'y':10}]}
   cal={'level':1,'frame':frame,'placed':{'source':'opaque','width':4,'height':3}}
   with self.assertRaisesRegex(ValueError,'inconsistent width/height'):solve_observed({'opaque':image},board,cal)
+ def test_internal_concave_edge_is_not_an_external_border(self):
+  # The upper piece's bottom edge has two opaque runs covering 2/3 of its width.
+  # They are separated by a socket filled by the lower piece's top tab.
+  upper=Image.new('RGBA',(6,4));lower=Image.new('RGBA',(6,4))
+  upper.putdata([(80,90,100,255) if bit=='#' else (0,0,0,0) for row in ['######','######','######','##..##'] for bit in row])
+  lower.putdata([(80,90,100,255) if bit=='#' else (0,0,0,0) for row in ['..##..','######','######','######'] for bit in row])
+  result=solve({'upper':upper,'lower':lower},[(3,2),(3,5)],(6,7),flat_border_constraints=True)
+  self.assertEqual(result['mapping'],{'upper':0,'lower':1})
+ def test_foreground_may_bleed_outside_background_when_explicitly_allowed(self):
+  # A visible 4x4 foreground centered 1px below a background top starts at -1.
+  image=Image.new('RGBA',(4,4),(10,20,30,255))
+  result=solve({'opaque':image},[(2,1)],(4,4),canvas_padding=1)
+  self.assertEqual(result['mapping'],{'opaque':0})
 if __name__=='__main__':unittest.main()

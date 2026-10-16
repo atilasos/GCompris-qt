@@ -21,12 +21,25 @@ discontinuity across overlapping/touching edges. It samples at most 128 contact
 pixels per shift. It searches for the optimum and runner-up; it does not return
 an early best guess when the node budget expires.
 
-The optional `flat_border_constraints=True` classifies edges with more than 60%
-opaque boundary pixels and places them outside the extrema of the public slot
+The optional `flat_border_constraints=True` classifies edges with a contiguous opaque run spanning more than 60%
+of the side and places them outside the extrema of the public slot
 centers. This assumes a rectangular jigsaw with interlocking interior cuts.
 It is off by default. Fully opaque rectangles do not get this restriction.
 It can reject valid arrangements with straight interior cuts; do not enable it
 without checking that model assumption against the actual pieces.
+
+A concave internal edge can have two separated opaque runs covering most of a
+side. Their combined fraction is not an external-border signal: the classifier
+uses the **longest contiguous run**, not their sum. This fixes the observed
+piano cuts with about 63% total occupancy but only 32% in either run.
+
+`canvas_padding=0` keeps the original strict background bounds. Set a positive
+integer only when the public image geometry permits pieces to extend beyond the
+background image. The computational mask canvas gets that many pixels on each
+side; slot indexes and placement centers stay unchanged. This padding does not
+alter the alpha overlap budget or crop the source images. It is a separate,
+explicit assumption about the background frame, which may not be a clipping
+boundary. It never increases automatically after a failed search.
 
 The default alpha overlap fraction is 0.015. It is an explicit model parameter,
 not an automatic loop that increases tolerance until an answer appears. Existing
@@ -50,7 +63,8 @@ python3 -O -m unittest discover -s tests/painting_pixel_solver -v
 
 The fixtures cover complementary silhouettes, repeated shapes resolved by RGB,
 public scale calibration, indistinguishable images, an exhausted search budget,
-an image that cannot fit and a scale probe with inconsistent height. They use
+an image that cannot fit, a scale probe with inconsistent height, a concave
+internal edge and an explicitly allowed foreground bleed. They use
 literal pixels and expected placements, not answers computed by the solver.
 
 `probe.py` reads existing native inventory/calibration JSON and physical images.

@@ -21,7 +21,14 @@ class _Placement:
  area: int
  image: object
 
-def solve(images_by_id, visible_slots_in_canvas_pixels, canvas_size, *, max_nodes=100000, overlap_fraction=.015, flat_border_constraints=False):
+def _longest_opaque_run(values):
+ longest=current=0
+ for value in values:
+  current=current+1 if value else 0
+  longest=max(longest,current)
+ return longest
+
+def solve(images_by_id, visible_slots_in_canvas_pixels, canvas_size, *, max_nodes=100000, overlap_fraction=.015, flat_border_constraints=False, canvas_padding=0):
  """Return piece ID -> index in the supplied visible slot list, or refuse.
 
  IDs are opaque labels. Images use their observed orientation and native size.
@@ -31,8 +38,10 @@ def solve(images_by_id, visible_slots_in_canvas_pixels, canvas_size, *, max_node
  """
  width,height=map(int,canvas_size);slots=list(visible_slots_in_canvas_pixels)
  if width<=0 or height<=0 or not images_by_id or len(images_by_id)!=len(slots):raise ValueError('Expected equal nonempty pieces and slots on a positive canvas')
+ if not isinstance(canvas_padding,int) or isinstance(canvas_padding,bool) or canvas_padding<0:raise ValueError('Canvas padding must be a nonnegative integer')
  if not 0<=overlap_fraction<.1 or max_nodes<1:raise ValueError('Invalid overlap fraction or node budget')
  if any(not all(math.isfinite(v) for v in point) or len(point)!=2 for point in slots):raise ValueError('Expected finite x/y slot pairs')
+ width+=canvas_padding*2;height+=canvas_padding*2;slots=[(x+canvas_padding,y+canvas_padding) for x,y in slots]
  extrema=(min(p[0] for p in slots),max(p[0] for p in slots),min(p[1] for p in slots),max(p[1] for p in slots))
  ids=list(images_by_id);placements=[];domains=[]
  for piece,key in enumerate(ids):
@@ -41,7 +50,7 @@ def solve(images_by_id, visible_slots_in_canvas_pixels, canvas_size, *, max_node
   pixels=alpha.load();rows=[sum(1<<x for x in range(image.width) if pixels[x,y]>=128) for y in range(image.height)];area=sum(row.bit_count() for row in rows);options=[]
   flags=(False,False,False,False)
   if flat_border_constraints and area<image.width*image.height*.98:
-   flags=(sum(pixels[0,y]>=128 for y in range(image.height))/image.height>.6,sum(pixels[image.width-1,y]>=128 for y in range(image.height))/image.height>.6,sum(pixels[x,0]>=128 for x in range(image.width))/image.width>.6,sum(pixels[x,image.height-1]>=128 for x in range(image.width))/image.width>.6)
+   flags=(_longest_opaque_run(pixels[0,y]>=128 for y in range(image.height))/image.height>.6,_longest_opaque_run(pixels[image.width-1,y]>=128 for y in range(image.height))/image.height>.6,_longest_opaque_run(pixels[x,0]>=128 for x in range(image.width))/image.width>.6,_longest_opaque_run(pixels[x,image.height-1]>=128 for x in range(image.width))/image.width>.6)
   for slot,(cx,cy) in enumerate(slots):
    left=round(cx-image.width/2);top=round(cy-image.height/2)
    if not (0<=left+bbox[0] and left+bbox[2]<=width and 0<=top+bbox[1] and top+bbox[3]<=height):continue
@@ -105,4 +114,4 @@ def solve(images_by_id, visible_slots_in_canvas_pixels, canvas_size, *, max_node
  if ties>1:raise AmbiguousPuzzle(f'{ties} arrangements share the best RGB seam cost {best:g}')
  selected=[placements[candidate] for candidate in winner.values()]
  max_overlap=max(((p.mask&q.mask).bit_count()/min(p.area,q.area) for i,p in enumerate(selected) for q in selected[i+1:]),default=0.)
- return {'mapping':{ids[piece]:placements[candidate].slot for piece,candidate in winner.items()},'diagnostics':{'status':'unique','nodes':nodes,'pair_checks':pair_checks,'method':'alpha constraints and RGB seam continuity','rgb_cost':best,'runner_up_cost':second if math.isfinite(second) else None,'flat_border_constraints':flat_border_constraints,'overlap_fraction':overlap_fraction,'maximum_observed_pair_overlap':max_overlap,'alpha_threshold':128,'contact_sample_limit_per_shift':128}}
+ return {'mapping':{ids[piece]:placements[candidate].slot for piece,candidate in winner.items()},'diagnostics':{'status':'unique','nodes':nodes,'pair_checks':pair_checks,'method':'alpha constraints and RGB seam continuity','rgb_cost':best,'runner_up_cost':second if math.isfinite(second) else None,'canvas_padding':canvas_padding,'border_rule':'longest contiguous opaque run exceeds 60%','flat_border_constraints':flat_border_constraints,'overlap_fraction':overlap_fraction,'maximum_observed_pair_overlap':max_overlap,'alpha_threshold':128,'contact_sample_limit_per_shift':128}}
