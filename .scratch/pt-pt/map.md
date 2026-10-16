@@ -470,3 +470,13 @@ retorno externo 1 pelo ID inexistente polygons2 selecionado por engano.
 Esse negativo permanece bruto. O instalador publicado ainda antecede os pares.
 Windows real, escola, dispositivos, audição global, docente e estabilidade 83
 continuam pendentes. CSV inalterado: 203 atividades, 152 ligações, cinco critérios globais pending.
+
+
+A tarefa 91 fica resolvida para a correção dos pares físicos Windows/Linux e
+publicação em [gcompris.infantinho.xyz](https://gcompris.infantinho.xyz/).
+[CI 38894977302](windows/38894977302/README.md) verde, EXE real verificado,
+extração Qt e descarga HTTPS completa com o mesmo hash. As
+[revisões](review/integration91/README.md) fecharam sem achados.
+[Operação e rollback delimitado](publication91/README.md) preservam outros túneis
+e políticas partilhadas. Windows 10 da escola, dispositivos, audição e aceitação
+global continuam pendentes; CSV203/152 e cápsulas anteriores não mudam.

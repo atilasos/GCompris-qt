@@ -1,0 +1,90 @@
+{
+  "activate-origin.py": {
+    "bytes": 1833,
+    "sha256": "0a6e2347ff4a1cb427ff222f125326aca40cc283f7a71d1c438e77a7eb3254dc"
+  },
+  "actual-installer-extraction.log": {
+    "bytes": 679,
+    "sha256": "f0fe1eed6569b467e7278da1ab6b521870736e8270dab0ac733130e4c95db5e3"
+  },
+  "actual-installer-verification.json": {
+    "bytes": 1285,
+    "sha256": "d694ee92a71276c6f74d4ae035ba2be3a9a47651ef2c303fec48428f15271c48"
+  },
+  "actual-installer-verification.log": {
+    "bytes": 1285,
+    "sha256": "d694ee92a71276c6f74d4ae035ba2be3a9a47651ef2c303fec48428f15271c48"
+  },
+  "browser-verification.json": {
+    "bytes": 694,
+    "sha256": "3edcc2890a1d05e4d27e371e78ee1a465cc2d22400927830830fdbf82bfa7c06"
+  },
+  "cloudflare-state.json": {
+    "bytes": 214,
+    "sha256": "59e3626ca39ea1ac59a2ddb9e50b287bd6816af1bfe05fd9f1b8547928bd64d3"
+  },
+  "cloudflared-empty.yml": {
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  "current-installer.json": {
+    "bytes": 320,
+    "sha256": "63df77014ed8b2a6d9d64a97c2a0d3afba07848be10530ad27a504fc4a977c70"
+  },
+  "gcompris-download-origin.service": {
+    "bytes": 381,
+    "sha256": "2720df5129cbeeb2102777b451b5ee6e39ae4521a7015eb2bf5c2e66772cca9e"
+  },
+  "gcompris-download-tunnel.service": {
+    "bytes": 418,
+    "sha256": "9c72c5f06433167a878945d0f18c5e8a4d1ac18fae82e13766a4307740322861"
+  },
+  "local-validation-old-candidate.json": {
+    "bytes": 1048,
+    "sha256": "8b77d7f476b7302fbc788d6251618df0901d4e4c61a5908ef9b5533f6092a0d2"
+  },
+  "local-validation.json": {
+    "bytes": 330,
+    "sha256": "2cdb25586d96071c321bfcfe11d19e4ecd75542601bdce2f4687b51da56db795"
+  },
+  "monitor-and-fetch.py": {
+    "bytes": 1766,
+    "sha256": "709b6d34fb77ced304daaf141b4d69202927b7bc175de44f33f65201dba96cc0"
+  },
+  "observations.json": {
+    "bytes": 1026,
+    "sha256": "d177f260faaf92aee3a1cf68b2b700b693b0885be2575cec05e9670b7ea2a3ba"
+  },
+  "public-verification-python-default-403.log": {
+    "bytes": 1418,
+    "sha256": "6824ad96db2d7ebdabdba9c8d305c741b46af4bc1544b40bfb0904c1c52c6e06"
+  },
+  "public-verification.json": {
+    "bytes": 1223,
+    "sha256": "d1f10b6e702e260aac2ad1081575a8c999c9dae32030ca75c33e0226bc667e5b"
+  },
+  "public-verification.log": {
+    "bytes": 1280,
+    "sha256": "520915d2f178d235535771bad7f27532f5f7c7c86f6016bb9135d7f832c73d9f"
+  },
+  "publish-dns.py": {
+    "bytes": 1256,
+    "sha256": "7819c9c7a3bde33ac8e136a500bef466e6117053bbcbc4f1e5fbc32d69d7211b"
+  },
+  "server.py": {
+    "bytes": 3218,
+    "sha256": "2497b26da1b813166ba9e204d144d5ed428359b09c8f6fc6166c91b323109dd0"
+  },
+  "verify-installer.py": {
+    "bytes": 5350,
+    "sha256": "d03a7092ae0dd81259ac5d78d0cc92bfed0936c06f71bd7d74165b5759c50637"
+  },
+  "verify-public-python-default.py": {
+    "bytes": 2954,
+    "sha256": "40fc6890b61aed188fd198fad75e48b789b4761d507f8fceba7baca04ab17a06"
+  },
+  "verify-public.py": {
+    "bytes": 3053,
+    "sha256": "4dcb6658d3a438b952b233202053f3ae33db34bc4025b9c0d45ee4095e11f616"
+  }
+}

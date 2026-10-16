@@ -1,0 +1,22 @@
+[
+  {
+    "kind": "local-head",
+    "status": 200,
+    "bytes": 825767337
+  },
+  {
+    "kind": "local-range",
+    "status": 206,
+    "bytes": 1024
+  },
+  {
+    "kind": "local-rejection",
+    "path": "/../../README.md",
+    "status": 404
+  },
+  {
+    "kind": "local-rejection",
+    "path": "/gcompris.exe",
+    "status": 416
+  }
+]

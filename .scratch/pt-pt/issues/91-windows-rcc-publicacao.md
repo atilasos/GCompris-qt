@@ -1,7 +1,7 @@
 # Corrigir RCC Windows e publicar instalador em endereço curto
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 
 ## Âmbito
@@ -19,3 +19,24 @@ Reproduzir e corrigir a diferença do contentor entre plataformas, com teste de 
 ## Correção do verificador preparada
 
 Política de dois pares físicos RCC+Contents fixados, sem misturas nem confiança nos hashes declarados. Invariantes, áudios e proveniência preservados. Fonte, red/green Qt real e limites em ../windows-rcc-policy/README.md. 40 testes verdes, 14 também -O; auditor Linux histórico compatível. A prova Windows física completa e a publicação continuam a cargo do coordenador na próxima CI. A tarefa permanece claimed.
+
+
+## Answer
+
+Resolvida a correção e a publicação pedidas. A política fixa dois pares físicos
+RCC/Contents, mantém invariantes e verifica bytes reais. A CLI lê UTF-8
+explicitamente. [Revisões e recheck](../review/integration91/README.md)
+sem achados. A [CI 38894977302](../windows/38894977302/README.md) passou na fonte
+3c98f5c6b, com oito arranques staged e 203 installed offline.
+
+O EXE efetivo foi transferido, conferido por CRC/SHA e extraído para leitura
+Qt dos recursos: duas gramáticas PT, 1610 vozes, 1576 originais e 32 adições
+intactos, apenas os dois pares aprovados substituídos.
+A [publicação HTTPS](../publication91/README.md) em https://gcompris.infantinho.xyz/
+foi verificada por browser, intervalos e descarga pública completa com hash igual.
+Os logs preservam também a recusa 403 do User-Agent Python predefinido.
+O quick-tunnel anterior e as políticas partilhadas permanecem intactos.
+
+Este fecho não aprova Windows 10 da escola, hardware, audição ou jogabilidade
+global. A origem depende do computador ligado. CSV e cápsulas anteriores
+permanecem intactos, com todos os critérios globais pending.

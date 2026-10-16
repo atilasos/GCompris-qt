@@ -1,0 +1,25 @@
+{
+  "total_count": 1,
+  "artifacts": [
+    {
+      "id": 12044992932,
+      "node_id": "MDg6QXJ0aWZhY3QxMjA0NDk5MjkzMg==",
+      "name": "GCompris-PT-PT-Windows-x64-candidate-3c98f5c6b4543e15dda66e2b0e275f5d9e6b49df",
+      "size_in_bytes": 1788940455,
+      "url": "https://api.github.com/repos/atilasos/GCompris-qt/actions/artifacts/12044992932",
+      "archive_download_url": "https://api.github.com/repos/atilasos/GCompris-qt/actions/artifacts/12044992932/zip",
+      "expired": false,
+      "digest": "sha256:428d0bfdc6b63b0fdf108b1532c0def56133672b4b920a29bd5700ce9e81ac7c",
+      "created_at": "2026-10-16T12:14:15Z",
+      "updated_at": "2026-10-16T12:14:15Z",
+      "expires_at": "2026-11-15T12:13:30Z",
+      "workflow_run": {
+        "id": 38894977302,
+        "repository_id": 1420360354,
+        "head_repository_id": 1420360354,
+        "head_branch": "integration/pt-pt",
+        "head_sha": "3c98f5c6b4543e15dda66e2b0e275f5d9e6b49df"
+      }
+    }
+  ]
+}
