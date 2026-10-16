@@ -21,7 +21,22 @@ def receipt(base,relative):
  for image in d['screenshots']:assert sha(folder/image['file'])==image['sha256']
  return d
 
+def verify_historical_inputs(base):
+ source=base/'frozen-source'
+ manifest=json.loads((source/'manifest.json').read_text())
+ assert all(sha(source/path)==value for path,value in manifest.items())
+ inputs=json.loads((base/'receipt-inputs.json').read_text())
+ results={p.parent.relative_to(base).as_posix():p for p in base.rglob('result.json')
+          if not any(part.startswith('.native-qml-') for part in p.parts)}
+ assert inputs.keys()==results.keys(), 'Every historical receipt must have archived inputs'
+ for relative,paths in inputs.items():
+  d=json.loads(results[relative].read_text())
+  assert paths['source']=='src/activities/'+d['qml_file'], relative
+  assert d['source_sha256']==manifest[paths['source']], (relative,'source_sha256')
+  assert d['portuguese_catalogue_sha256']==manifest[paths['portuguese_catalogue']], (relative,'portuguese_catalogue_sha256')
+
 def audit(base):
+ verify_historical_inputs(base)
  data=json.loads((base/'inventory.json').read_text());summary=json.loads((base/'final/summary.json').read_text())
  assert len(summary)==11 and all(row['exit_code']==0 for row in summary)
  covered={activity:[] for activity in data['activities']};counts={activity:0 for activity in covered};warnings=losses=0;records=[]
@@ -65,8 +80,6 @@ def audit(base):
  for value in identity.values():
   for row in value['files']:assert sha(source/row['path'].removeprefix(':/gcompris/'))==row['sha256']
  assert sum(len(value['files']) for value in identity.values())==50
- manifest=json.loads((source/'manifest.json').read_text())
- assert all(sha(source/path)==value for path,value in manifest.items())
  return {'passed':True,'levels':{a:len(v) for a,v in covered.items()},'total_levels':sum(map(len,covered.values())),
   'correct_player_captures':counts,'warnings':warnings,'natural_or_error_losses_during_gameplay':losses,
   'controlled_monster_losses':5,'qt_source_files':50,'gameplay_cases':records,

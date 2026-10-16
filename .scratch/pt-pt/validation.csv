@@ -69,11 +69,11 @@ frieze,pending,pending,pending,pending,pending,
 geo-country,pending,pending,pending,pending,pending,
 geography,pending,pending,pending,pending,pending,
 gletters,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/gletters.md
-gnumch-equality,pending,pending,pending,pending,pending,
-gnumch-factors,pending,pending,pending,pending,pending,
-gnumch-inequality,pending,pending,pending,pending,pending,
-gnumch-multiples,pending,pending,pending,pending,pending,
-gnumch-primes,pending,pending,pending,pending,pending,
+gnumch-equality,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/gnumch-equality.md
+gnumch-factors,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/gnumch-factors.md
+gnumch-inequality,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/gnumch-inequality.md
+gnumch-multiples,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/gnumch-multiples.md
+gnumch-primes,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/gnumch-primes.md
 graduated_line_read,pending,pending,pending,pending,pending,
 graduated_line_use,pending,pending,pending,pending,pending,
 grammar_analysis,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/grammar_analysis.md
