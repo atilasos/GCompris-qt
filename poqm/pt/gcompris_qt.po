@@ -3577,7 +3577,7 @@ msgstr ""
 #: activities/ballcatch/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Synchronize left and right hands movements."
-msgstr "Descobrir as mãos esquerda e direita"
+msgstr "Sincronizar os movimentos das mãos esquerda e direita."
 
 #. Help manual
 #: activities/ballcatch/ActivityInfo.qml:23
@@ -3588,8 +3588,8 @@ msgid ""
 "same time."
 msgstr ""
 "Carrega nas teclas de cursores para a esquerda e para a direita ao mesmo "
-"tempo, para que a bola vá em linha reta. Num ecrã por toque, terás de "
-"carregar com as duas mãos ao mesmo tempo."
+"tempo, para que a bola vá em linha reta. Num ecrã tátil, toca nas duas mãos "
+"desenhadas ao mesmo tempo."
 
 #: activities/ballcatch/Ballcatch.qml:234
 msgctxt "Ballcatch|"
