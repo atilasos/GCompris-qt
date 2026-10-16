@@ -1,0 +1,3373 @@
+{
+  "details": {
+    "1": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0012_background.webp",
+      "background_sha256": "45f038919ae8216a927d35cd6766c6a99cbb622873185c5fb0af615f1525caf6",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0012_1.webp": {
+          "top_left": [
+            189,
+            197
+          ],
+          "pixel_box": [
+            189,
+            197,
+            263,
+            271
+          ],
+          "mean_sample_error": 4.2682926829268295,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.601063829787234,
+            0.468
+          ],
+          "piece_sha256": "c11a14d196d2b04b2df85f49c79aeeddd7de7ed360fafa0626151aac44c34dcf"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0012_0.webp": {
+          "top_left": [
+            167,
+            14
+          ],
+          "pixel_box": [
+            167,
+            14,
+            241,
+            88
+          ],
+          "mean_sample_error": 3.3902439024390243,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.5425531914893617,
+            0.102
+          ],
+          "piece_sha256": "99db5b29bdcf30507af8ec0c7b3a64da2e06ac6209fee3e914169e1d83716b8c"
+        }
+      }
+    },
+    "2": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/VincentVanGoghBridge_background.webp",
+      "background_sha256": "865df5627716d3175d8350d6a98f63de866827de12e03c2def785aaa4098a65a",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/VincentVanGoghBridge_0.webp": {
+          "top_left": [
+            338,
+            232
+          ],
+          "pixel_box": [
+            338,
+            232,
+            410,
+            304
+          ],
+          "mean_sample_error": 3.6153846153846154,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.5598802395209581,
+            0.536
+          ],
+          "piece_sha256": "4b1ac0f4e7713bde7937bd04c5357caf96b6f5506419f1d6f8e42fb12bd0ea80"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/VincentVanGoghBridge_1.webp": {
+          "top_left": [
+            594,
+            214
+          ],
+          "pixel_box": [
+            594,
+            214,
+            666,
+            286
+          ],
+          "mean_sample_error": 2.923076923076923,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.9431137724550899,
+            0.5
+          ],
+          "piece_sha256": "ed8284fdcc19dd91da120784a53f14e1924d351fe6785e54e40957babf79e499"
+        }
+      }
+    },
+    "3": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/Eglise_dAuvers-sur-Oise_background.webp",
+      "background_sha256": "6605f1dd5519ecd1e66220343dd27c3873f72a52b4c91f041e80c698554b9093",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/Eglise_dAuvers-sur-Oise_2.webp": {
+          "top_left": [
+            0,
+            244
+          ],
+          "pixel_box": [
+            0,
+            244,
+            72,
+            316
+          ],
+          "mean_sample_error": 4.435897435897436,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.0906801007556675,
+            0.56
+          ],
+          "piece_sha256": "d48ee0968aadea44ef912f5585d7c32cd9fd53e32da837b6a3da0ac51848c05c"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Eglise_dAuvers-sur-Oise_0.webp": {
+          "top_left": [
+            36,
+            354
+          ],
+          "pixel_box": [
+            36,
+            354,
+            108,
+            426
+          ],
+          "mean_sample_error": 3.5384615384615383,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.181360201511335,
+            0.78
+          ],
+          "piece_sha256": "fa8691ea3c11340c152f9de70448de78b2a45e4d80424275a51dbda905019b7d"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Eglise_dAuvers-sur-Oise_1.webp": {
+          "top_left": [
+            193,
+            53
+          ],
+          "pixel_box": [
+            193,
+            53,
+            265,
+            125
+          ],
+          "mean_sample_error": 4.051282051282051,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.5768261964735516,
+            0.178
+          ],
+          "piece_sha256": "22b08ed59df5ee0b5671a92f876a2dec8562eb4a65ae95e2da586cdcaf33bc50"
+        }
+      }
+    },
+    "4": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0013_background.webp",
+      "background_sha256": "ddc28715a60a357f9f887df332d49dbdc5815b1fd1fbe8343035861a84938cdd",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0013_3.webp": {
+          "top_left": [
+            138,
+            98
+          ],
+          "pixel_box": [
+            138,
+            98,
+            210,
+            170
+          ],
+          "mean_sample_error": 3.41025641025641,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.39635535307517084,
+            0.268
+          ],
+          "piece_sha256": "3d5be2723acd6211c5f93a78455285b4637fcc7dee2a92d49c904164e4381906"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0013_2.webp": {
+          "top_left": [
+            258,
+            74
+          ],
+          "pixel_box": [
+            258,
+            74,
+            330,
+            146
+          ],
+          "mean_sample_error": 2.769230769230769,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.6697038724373576,
+            0.22
+          ],
+          "piece_sha256": "bf91e64aa32c5bbb7905ed4a88fbc246dec701459a085c097ca49cbfc52bd122"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0013_0.webp": {
+          "top_left": [
+            184,
+            124
+          ],
+          "pixel_box": [
+            184,
+            124,
+            256,
+            196
+          ],
+          "mean_sample_error": 4.0,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.5011389521640092,
+            0.32
+          ],
+          "piece_sha256": "3ab16f1cc90344f20a4269b0edf32c2fd7366397ee79ec94c3c228cc32bbd280"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0013_1.webp": {
+          "top_left": [
+            341,
+            378
+          ],
+          "pixel_box": [
+            341,
+            378,
+            413,
+            450
+          ],
+          "mean_sample_error": 3.641025641025641,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.8587699316628702,
+            0.828
+          ],
+          "piece_sha256": "7ea17532d1984981e1e3f285d26e0d454833af9951b08732a179c42472a85187"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0013_4.webp": {
+          "top_left": [
+            57,
+            184
+          ],
+          "pixel_box": [
+            57,
+            184,
+            129,
+            256
+          ],
+          "mean_sample_error": 3.4358974358974357,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.21184510250569477,
+            0.44
+          ],
+          "piece_sha256": "4bb752292b8cb47a1860fa6f334572e9a322d030a1d83c0afc1f5cc0e62f591a"
+        }
+      }
+    },
+    "5": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0019_background.webp",
+      "background_sha256": "53f7fae4fb52354272b6596acbff439f1b851029a16f0bbdf94d8cd727de49f4",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0019_0.webp": {
+          "top_left": [
+            202,
+            138
+          ],
+          "pixel_box": [
+            202,
+            138,
+            274,
+            210
+          ],
+          "mean_sample_error": 3.230769230769231,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.3927392739273927,
+            0.348
+          ],
+          "piece_sha256": "e3d20ad1b62a28d8e509d8077e1e06a77587a45a3c6c6a2a6958ae0327ee5ab3"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0019_8.webp": {
+          "top_left": [
+            168,
+            99
+          ],
+          "pixel_box": [
+            168,
+            99,
+            240,
+            171
+          ],
+          "mean_sample_error": 3.128205128205128,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.33663366336633666,
+            0.27
+          ],
+          "piece_sha256": "423d8470bb5bddfb2da395577ed074b8cacc1021287edfaf03fa424e597e921b"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0019_4.webp": {
+          "top_left": [
+            379,
+            266
+          ],
+          "pixel_box": [
+            379,
+            266,
+            451,
+            338
+          ],
+          "mean_sample_error": 3.3333333333333335,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.6848184818481848,
+            0.604
+          ],
+          "piece_sha256": "fc8c073973fa837a0a0f68d86f81804ee407d830719b88e50f9c0735ee574556"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0019_7.webp": {
+          "top_left": [
+            141,
+            206
+          ],
+          "pixel_box": [
+            141,
+            206,
+            213,
+            278
+          ],
+          "mean_sample_error": 4.205128205128205,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.29207920792079206,
+            0.484
+          ],
+          "piece_sha256": "71cfa8b40c507cca5056927ae02888f99bfa433dc70928c7883d6b031b84b177"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0019_5.webp": {
+          "top_left": [
+            101,
+            70
+          ],
+          "pixel_box": [
+            101,
+            70,
+            173,
+            142
+          ],
+          "mean_sample_error": 3.358974358974359,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.22607260726072606,
+            0.212
+          ],
+          "piece_sha256": "939189b3fb88b0c6283f439d39143c987c4292328daf1baff87073023f283af2"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0019_2.webp": {
+          "top_left": [
+            267,
+            196
+          ],
+          "pixel_box": [
+            267,
+            196,
+            339,
+            268
+          ],
+          "mean_sample_error": 3.641025641025641,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.5,
+            0.464
+          ],
+          "piece_sha256": "e73694073ea14f31627ec523fc3a41e1faafa08c8ade8d8f85fe644a28d49c96"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0019_3.webp": {
+          "top_left": [
+            43,
+            137
+          ],
+          "pixel_box": [
+            43,
+            137,
+            115,
+            209
+          ],
+          "mean_sample_error": 3.5641025641025643,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.13036303630363036,
+            0.346
+          ],
+          "piece_sha256": "e04c3f1f4c912dec0a0af45e0ebe164ae9fb52573579d169e57b81057496a7cf"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0019_6.webp": {
+          "top_left": [
+            514,
+            69
+          ],
+          "pixel_box": [
+            514,
+            69,
+            586,
+            141
+          ],
+          "mean_sample_error": 2.5384615384615383,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.9075907590759076,
+            0.21
+          ],
+          "piece_sha256": "c7473d5b3dc61b01a2e551f007cdf48d66b35c38d882238e4436e8ed4d43fbdf"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/VincentVanGogh0019_1.webp": {
+          "top_left": [
+            439,
+            213
+          ],
+          "pixel_box": [
+            439,
+            213,
+            511,
+            285
+          ],
+          "mean_sample_error": 3.5128205128205128,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.7838283828382838,
+            0.498
+          ],
+          "piece_sha256": "2051fc189637e395c36568419fe750b034afdba310e7c9533978527fc76c02ad"
+        }
+      }
+    },
+    "6": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/Gogh4_background.webp",
+      "background_sha256": "cd41f9e0ad142148fc4dbb86bd98641cd56c7be95b650131066aaaa3e1d52957",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/Gogh4_8.webp": {
+          "top_left": [
+            196,
+            361
+          ],
+          "pixel_box": [
+            196,
+            361,
+            268,
+            433
+          ],
+          "mean_sample_error": 4.384615384615385,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.5785536159600998,
+            0.794
+          ],
+          "piece_sha256": "96b3bf992db83510ab72cad9a17d43e54dfce88f945241d72825e1939898a898"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Gogh4_1.webp": {
+          "top_left": [
+            58,
+            352
+          ],
+          "pixel_box": [
+            58,
+            352,
+            130,
+            424
+          ],
+          "mean_sample_error": 4.230769230769231,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.2344139650872818,
+            0.776
+          ],
+          "piece_sha256": "e4d951f70303689138237ba90a45c073bc1f119ba0cfed6c64dd468c1c26466a"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Gogh4_0.webp": {
+          "top_left": [
+            266,
+            261
+          ],
+          "pixel_box": [
+            266,
+            261,
+            338,
+            333
+          ],
+          "mean_sample_error": 4.153846153846154,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.7531172069825436,
+            0.594
+          ],
+          "piece_sha256": "f5470c0cb7802408cc63260b96521401ed153f3c7c285e63b702f63e20b51b97"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Gogh4_2.webp": {
+          "top_left": [
+            218,
+            273
+          ],
+          "pixel_box": [
+            218,
+            273,
+            290,
+            345
+          ],
+          "mean_sample_error": 4.230769230769231,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.6334164588528678,
+            0.618
+          ],
+          "piece_sha256": "8fdf3a47c03f89899ca41c7f13904f87316fe95f605167ae2d7d5341d6f5f6f8"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Gogh4_7.webp": {
+          "top_left": [
+            56,
+            186
+          ],
+          "pixel_box": [
+            56,
+            186,
+            128,
+            258
+          ],
+          "mean_sample_error": 3.1025641025641026,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.22942643391521197,
+            0.444
+          ],
+          "piece_sha256": "1de58fbf9ea5496cde6fa9f194172c69fad9a804d809e2140cb59baff8b2fa30"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Gogh4_6.webp": {
+          "top_left": [
+            278,
+            63
+          ],
+          "pixel_box": [
+            278,
+            63,
+            350,
+            135
+          ],
+          "mean_sample_error": 3.41025641025641,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.7830423940149626,
+            0.198
+          ],
+          "piece_sha256": "ee4cc2e2efa85bae2c03038f36aaef610f308d03c3fd511623903559ec86d7b8"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Gogh4_4.webp": {
+          "top_left": [
+            169,
+            20
+          ],
+          "pixel_box": [
+            169,
+            20,
+            241,
+            92
+          ],
+          "mean_sample_error": 4.076923076923077,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.5112219451371571,
+            0.112
+          ],
+          "piece_sha256": "cf3f8c549d42322f0e455cd8e58e12ca6471c9dfc5c7634be252ebe16ff5bdf6"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Gogh4_3.webp": {
+          "top_left": [
+            148,
+            425
+          ],
+          "pixel_box": [
+            148,
+            425,
+            220,
+            497
+          ],
+          "mean_sample_error": 4.6923076923076925,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.45885286783042395,
+            0.922
+          ],
+          "piece_sha256": "6adf3760d08e708b673934e7715c0895f7fe6a645c56203e78eb417746967d1e"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Gogh4_5.webp": {
+          "top_left": [
+            317,
+            230
+          ],
+          "pixel_box": [
+            317,
+            230,
+            389,
+            302
+          ],
+          "mean_sample_error": 4.384615384615385,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.8802992518703242,
+            0.532
+          ],
+          "piece_sha256": "bd074822a1c1c9af0d2c22e1c8b537dba959e473b098ba988a8a5b2c8b128cf0"
+        }
+      }
+    },
+    "7": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/Van_Gogh_The_Night_Cafe_background.webp",
+      "background_sha256": "ce4d535bc04fb59a177873a1b3ed7a2edeb81af82ede5e28d85fad82533ba33b",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/Van_Gogh_The_Night_Cafe_2.webp": {
+          "top_left": [
+            392,
+            142
+          ],
+          "pixel_box": [
+            392,
+            142,
+            464,
+            214
+          ],
+          "mean_sample_error": 3.5128205128205128,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.6750788643533123,
+            0.356
+          ],
+          "piece_sha256": "8469dd878dced44cd3f3fd3cf28e255703b30b7e8dce3ac2b61f71d96c0f95be"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Van_Gogh_The_Night_Cafe_7.webp": {
+          "top_left": [
+            230,
+            95
+          ],
+          "pixel_box": [
+            230,
+            95,
+            302,
+            167
+          ],
+          "mean_sample_error": 4.0256410256410255,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.4195583596214511,
+            0.262
+          ],
+          "piece_sha256": "e2eb17e4f13fdcff7f940c9bbeec2049056668fb66bd48aa286d2b277f91ae60"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Van_Gogh_The_Night_Cafe_1.webp": {
+          "top_left": [
+            348,
+            233
+          ],
+          "pixel_box": [
+            348,
+            233,
+            420,
+            305
+          ],
+          "mean_sample_error": 3.7948717948717947,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.6056782334384858,
+            0.538
+          ],
+          "piece_sha256": "24e4a9ccc3b0ebf9d86ba11bff795b67bc5873e88585a155114735f7c9c2cf2e"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Van_Gogh_The_Night_Cafe_6.webp": {
+          "top_left": [
+            544,
+            444
+          ],
+          "pixel_box": [
+            544,
+            444,
+            616,
+            500
+          ],
+          "mean_sample_error": 2.6666666666666665,
+          "sample_count": 36,
+          "equal_minima": 1,
+          "center": [
+            0.9148264984227129,
+            0.944
+          ],
+          "piece_sha256": "f3234d53e224c710e72632675d77af755fd54149f8d28df5fb7a3546a38edfa7"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Van_Gogh_The_Night_Cafe_3.webp": {
+          "top_left": [
+            476,
+            109
+          ],
+          "pixel_box": [
+            476,
+            109,
+            548,
+            181
+          ],
+          "mean_sample_error": 3.2564102564102564,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.807570977917981,
+            0.29
+          ],
+          "piece_sha256": "c518fa8af450a4fe757e7e6767f306a21e170321b2588baea8e6f6110ad76bd1"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Van_Gogh_The_Night_Cafe_5.webp": {
+          "top_left": [
+            140,
+            93
+          ],
+          "pixel_box": [
+            140,
+            93,
+            212,
+            165
+          ],
+          "mean_sample_error": 3.4871794871794872,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.277602523659306,
+            0.258
+          ],
+          "piece_sha256": "5b68066fd761bba6172dd6e0843cf47cf418bfd2e5f9c11cf1df524036aff053"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Van_Gogh_The_Night_Cafe_0.webp": {
+          "top_left": [
+            172,
+            26
+          ],
+          "pixel_box": [
+            172,
+            26,
+            244,
+            98
+          ],
+          "mean_sample_error": 3.230769230769231,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.3280757097791798,
+            0.124
+          ],
+          "piece_sha256": "b25e5724b94674908e3147f5d141c2b5597badfba811c79cf1df4d3b0223cde5"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Van_Gogh_The_Night_Cafe_4.webp": {
+          "top_left": [
+            69,
+            141
+          ],
+          "pixel_box": [
+            69,
+            141,
+            141,
+            213
+          ],
+          "mean_sample_error": 4.256410256410256,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.16561514195583596,
+            0.354
+          ],
+          "piece_sha256": "131dc926b70a50df1c96f7734c705068784a0514ea6865419ab34b5d7cf2eaa6"
+        }
+      }
+    },
+    "8": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_background.webp",
+      "background_sha256": "5dc91d4230a20c5e488149b3b624a1acd023309b11acb08e89af19745965e96c",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_6.webp": {
+          "top_left": [
+            63,
+            69
+          ],
+          "pixel_box": [
+            63,
+            69,
+            137,
+            143
+          ],
+          "mean_sample_error": 3.707317073170732,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.25380710659898476,
+            0.212
+          ],
+          "piece_sha256": "e3b83ee84866f1b0764f770e6375748dde7c4b895e629e1b53e6d7d0f7dcf2f6"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_5.webp": {
+          "top_left": [
+            154,
+            370
+          ],
+          "pixel_box": [
+            154,
+            370,
+            228,
+            444
+          ],
+          "mean_sample_error": 3.6097560975609757,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.4847715736040609,
+            0.814
+          ],
+          "piece_sha256": "a59277fd066182a83ac025949fd11cf677f4885d72c6220b3e33c245054856cb"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_8.webp": {
+          "top_left": [
+            320,
+            375
+          ],
+          "pixel_box": [
+            320,
+            375,
+            394,
+            449
+          ],
+          "mean_sample_error": 3.658536585365854,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.9060913705583756,
+            0.824
+          ],
+          "piece_sha256": "e739e72cf285b39e3647b2b83afa2b9faecc409d3e37768725dc290aaaa5ba66"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_2.webp": {
+          "top_left": [
+            319,
+            235
+          ],
+          "pixel_box": [
+            319,
+            235,
+            393,
+            309
+          ],
+          "mean_sample_error": 4.048780487804878,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.9035532994923858,
+            0.544
+          ],
+          "piece_sha256": "f36cdab593d2f5c59ee729da64c4278027393580aac88e029761a4fd79daf787"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_4.webp": {
+          "top_left": [
+            5,
+            418
+          ],
+          "pixel_box": [
+            5,
+            418,
+            79,
+            492
+          ],
+          "mean_sample_error": 3.902439024390244,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.1065989847715736,
+            0.91
+          ],
+          "piece_sha256": "a13c1e9ccdade3b962ed0e9b9e8edf9c8836e266bc07ba15f44a2b69e2a0c373"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_7.webp": {
+          "top_left": [
+            11,
+            3
+          ],
+          "pixel_box": [
+            11,
+            3,
+            85,
+            77
+          ],
+          "mean_sample_error": 3.097560975609756,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.1218274111675127,
+            0.08
+          ],
+          "piece_sha256": "7d098a8c266a824b3fb4992b2b7d366d1e6fe7ea750623fc8a811e75ebe5a5d5"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_0.webp": {
+          "top_left": [
+            7,
+            145
+          ],
+          "pixel_box": [
+            7,
+            145,
+            81,
+            219
+          ],
+          "mean_sample_error": 3.5609756097560976,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.1116751269035533,
+            0.364
+          ],
+          "piece_sha256": "fca52e1439f0f704b234a3470beb0440a1d5009e4707940956e2e38e347521bd"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_1.webp": {
+          "top_left": [
+            161,
+            89
+          ],
+          "pixel_box": [
+            161,
+            89,
+            235,
+            163
+          ],
+          "mean_sample_error": 3.4146341463414633,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.5025380710659898,
+            0.252
+          ],
+          "piece_sha256": "adf6289aab5459534c3818818d5514b371badc3f3f6ff8b957abae2930e72841"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/PortraitOfPereTanguy_3.webp": {
+          "top_left": [
+            197,
+            196
+          ],
+          "pixel_box": [
+            197,
+            196,
+            271,
+            270
+          ],
+          "mean_sample_error": 3.317073170731707,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.5939086294416244,
+            0.466
+          ],
+          "piece_sha256": "3055af20ce82597a8608bc4685035a0ccbb63a60df767c271d9a6db9e07749b2"
+        }
+      }
+    },
+    "9": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/NDP_background.webp",
+      "background_sha256": "0bbfd0f6edd1145aeee774587635d7738c73274271b4be83eec9b476a3c421ee",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/NDP_0.webp": {
+          "top_left": [
+            147,
+            281
+          ],
+          "pixel_box": [
+            147,
+            281,
+            235,
+            369
+          ],
+          "mean_sample_error": 4.487179487179487,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.5079787234042553,
+            0.65
+          ],
+          "piece_sha256": "27b25ad80aca60b77086f230b56d21293e5fe6c10b09f7b1e09b4431a42e4a13"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/NDP_2.webp": {
+          "top_left": [
+            64,
+            401
+          ],
+          "pixel_box": [
+            64,
+            401,
+            151,
+            487
+          ],
+          "mean_sample_error": 3.210526315789474,
+          "sample_count": 38,
+          "equal_minima": 1,
+          "center": [
+            0.2859042553191489,
+            0.888
+          ],
+          "piece_sha256": "503a3cbded43c43441102fcb11cda764ca786555088877fa23920ba2f9a9c90c"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/NDP_1.webp": {
+          "top_left": [
+            144,
+            135
+          ],
+          "pixel_box": [
+            144,
+            135,
+            231,
+            222
+          ],
+          "mean_sample_error": 2.3076923076923075,
+          "sample_count": 39,
+          "equal_minima": 1,
+          "center": [
+            0.49867021276595747,
+            0.357
+          ],
+          "piece_sha256": "51ea4385edb304ed720a7e5becc3102e8ba1accbec61e2d078c0f441ddb8f6d9"
+        }
+      }
+    },
+    "10": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/EilanDonanCastle_background.webp",
+      "background_sha256": "cd94fbfc2ef05477d23688eb24401fb8b8dd550f6eb0aa2b8cbcb6f646c7a62f",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/EilanDonanCastle_0.webp": {
+          "top_left": [
+            348,
+            111
+          ],
+          "pixel_box": [
+            348,
+            111,
+            422,
+            185
+          ],
+          "mean_sample_error": 4.073170731707317,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.5661764705882353,
+            0.32671081677704195
+          ],
+          "piece_sha256": "bafd07f181171546a0516d2ec4e0a95ed81b41cf4dd6d50f67479af37f03c063"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/EilanDonanCastle_1.webp": {
+          "top_left": [
+            524,
+            42
+          ],
+          "pixel_box": [
+            524,
+            42,
+            598,
+            116
+          ],
+          "mean_sample_error": 2.1707317073170733,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.825,
+            0.17439293598233996
+          ],
+          "piece_sha256": "bc3a7a78e52fcb87188abdd76548023f25740ae56ca41d0635ab33be50f38b05"
+        }
+      }
+    },
+    "11": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/GizahPyramids_background.webp",
+      "background_sha256": "71946fdfe1a1dab7b081b97a53fe4d2beed6eaf8bf02e0df7ecf4a1974bbe7db",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/GizahPyramids_3.webp": {
+          "top_left": [
+            569,
+            284
+          ],
+          "pixel_box": [
+            569,
+            284,
+            643,
+            358
+          ],
+          "mean_sample_error": 4.048780487804878,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.8911764705882353,
+            0.7101769911504425
+          ],
+          "piece_sha256": "ae0d719737ce21d6dbb063efba9ab985ef0f2381287a7c50d9895174afbd26f4"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/GizahPyramids_0.webp": {
+          "top_left": [
+            476,
+            188
+          ],
+          "pixel_box": [
+            476,
+            188,
+            550,
+            262
+          ],
+          "mean_sample_error": 2.6341463414634148,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.7544117647058823,
+            0.497787610619469
+          ],
+          "piece_sha256": "770827633160bb4fb892267b1df36dcae730817d5a7d6c381ff727dc9e374a2b"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/GizahPyramids_2.webp": {
+          "top_left": [
+            242,
+            236
+          ],
+          "pixel_box": [
+            242,
+            236,
+            316,
+            310
+          ],
+          "mean_sample_error": 4.390243902439025,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.4102941176470588,
+            0.6039823008849557
+          ],
+          "piece_sha256": "aca83e5e4ffeb977e311e9be193a3ce7d04a7e9f4897fdc92d131aad99a9f90f"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/GizahPyramids_1.webp": {
+          "top_left": [
+            361,
+            128
+          ],
+          "pixel_box": [
+            361,
+            128,
+            435,
+            202
+          ],
+          "mean_sample_error": 2.4390243902439024,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.5852941176470589,
+            0.36504424778761063
+          ],
+          "piece_sha256": "b6f757bfcf55863fc0a35cb13cd6378044d34938d9ab9fb90cfefdeb4337cf37"
+        }
+      }
+    },
+    "12": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/OperaSidney_background.webp",
+      "background_sha256": "702de281dd3a2fa4c4c3bea385e2e12d5030fc8b46268e96dcfda5a3d0d3bb90",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/OperaSidney_3.webp": {
+          "top_left": [
+            357,
+            181
+          ],
+          "pixel_box": [
+            357,
+            181,
+            431,
+            255
+          ],
+          "mean_sample_error": 3.682926829268293,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.5794117647058824,
+            0.5797872340425532
+          ],
+          "piece_sha256": "2e14af331bc82fc27dec6490c72a324c5688949b41592839d25b73ee4deaaed5"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/OperaSidney_0.webp": {
+          "top_left": [
+            128,
+            167
+          ],
+          "pixel_box": [
+            128,
+            167,
+            202,
+            241
+          ],
+          "mean_sample_error": 3.8292682926829267,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.2426470588235294,
+            0.5425531914893617
+          ],
+          "piece_sha256": "a69cbe64dbf14e79cd5b6aabe192392ac659e122b9c89e69f3de613b05ed02f7"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/OperaSidney_1.webp": {
+          "top_left": [
+            234,
+            187
+          ],
+          "pixel_box": [
+            234,
+            187,
+            308,
+            261
+          ],
+          "mean_sample_error": 4.7560975609756095,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.3985294117647059,
+            0.5957446808510638
+          ],
+          "piece_sha256": "006ff308ea672dee9eea328c6be12d4b21b938d8b6ac995afeec06f997892a94"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/OperaSidney_2.webp": {
+          "top_left": [
+            283,
+            104
+          ],
+          "pixel_box": [
+            283,
+            104,
+            357,
+            178
+          ],
+          "mean_sample_error": 2.975609756097561,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.47058823529411764,
+            0.375
+          ],
+          "piece_sha256": "75c266d38d20dbb9edc47c5ef3288e7dec6f6b9a8625b3ae04bea609459e6de8"
+        }
+      }
+    },
+    "13": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/TowerBridgeLondon_background.webp",
+      "background_sha256": "a811a6b2294807122fdde6295e2decb59e80ef6e248eddb4b228a6785a354e8c",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/TowerBridgeLondon_2.webp": {
+          "top_left": [
+            223,
+            204
+          ],
+          "pixel_box": [
+            223,
+            204,
+            297,
+            278
+          ],
+          "mean_sample_error": 3.4390243902439024,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.38235294117647056,
+            0.7088235294117647
+          ],
+          "piece_sha256": "250f94dcb6e40ea6bb11d789f3dc4f8eb1200bca8cc27cc197d47848419c4e09"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/TowerBridgeLondon_1.webp": {
+          "top_left": [
+            489,
+            33
+          ],
+          "pixel_box": [
+            489,
+            33,
+            563,
+            107
+          ],
+          "mean_sample_error": 1.829268292682927,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.7735294117647059,
+            0.20588235294117646
+          ],
+          "piece_sha256": "d619bd9790caf3b223ad728167b3a12191456beccc85fe800db5344d10e510be"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/TowerBridgeLondon_0.webp": {
+          "top_left": [
+            294,
+            87
+          ],
+          "pixel_box": [
+            294,
+            87,
+            368,
+            161
+          ],
+          "mean_sample_error": 2.951219512195122,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.48676470588235293,
+            0.36470588235294116
+          ],
+          "piece_sha256": "b5dc8eb2af75495113b3a4d5a290ad33c89c8d2d10a518469968aa4aa90ab5fe"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/TowerBridgeLondon_3.webp": {
+          "top_left": [
+            537,
+            155
+          ],
+          "pixel_box": [
+            537,
+            155,
+            611,
+            229
+          ],
+          "mean_sample_error": 3.2439024390243905,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.8441176470588235,
+            0.5647058823529412
+          ],
+          "piece_sha256": "94f45fe95c67705f7edbaa0beddf82732006d6a35f61572fe224d050c224f1a0"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/TowerBridgeLondon_4.webp": {
+          "top_left": [
+            117,
+            190
+          ],
+          "pixel_box": [
+            117,
+            190,
+            191,
+            264
+          ],
+          "mean_sample_error": 3.5609756097560976,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.22647058823529412,
+            0.6676470588235294
+          ],
+          "piece_sha256": "41aad86f979529a7e4751194690e29b9e800abccd0ff576deeccc7ffea5962c8"
+        }
+      }
+    },
+    "14": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/TourEiffel_background.webp",
+      "background_sha256": "5e763c937dbae956fb6190c09f781c2c8051902701bf217f7db40207893b8dd4",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/TourEiffel_1.webp": {
+          "top_left": [
+            95,
+            225
+          ],
+          "pixel_box": [
+            95,
+            225,
+            169,
+            299
+          ],
+          "mean_sample_error": 3.951219512195122,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.4888888888888889,
+            0.524
+          ],
+          "piece_sha256": "f38b30b50bae07f0367e0b9e66aa13bdfc79bd93c21418ca4d5a52f7d20deb07"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/TourEiffel_0.webp": {
+          "top_left": [
+            96,
+            8
+          ],
+          "pixel_box": [
+            96,
+            8,
+            170,
+            82
+          ],
+          "mean_sample_error": 1.1951219512195121,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.4925925925925926,
+            0.09
+          ],
+          "piece_sha256": "c74c153504b2222198ac8e3c0cbcb801e3b3d377403f707c9cec0680b359999f"
+        }
+      }
+    },
+    "15": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/Louvre_2007_02_24_c_background.webp",
+      "background_sha256": "cb88769524ed233f9926c75c97a8f1660c95e8284028ba142db55ea7c0fe66c2",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/Louvre_2007_02_24_c_2.webp": {
+          "top_left": [
+            78,
+            84
+          ],
+          "pixel_box": [
+            78,
+            84,
+            152,
+            158
+          ],
+          "mean_sample_error": 3.4390243902439024,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.16428571428571428,
+            0.4368231046931408
+          ],
+          "piece_sha256": "5632092c74d53aa935e854faf2da01b8745c7da5180fd5b45a0b1aaa6379d67d"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Louvre_2007_02_24_c_1.webp": {
+          "top_left": [
+            309,
+            104
+          ],
+          "pixel_box": [
+            309,
+            104,
+            383,
+            178
+          ],
+          "mean_sample_error": 3.1951219512195124,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.4942857142857143,
+            0.5090252707581228
+          ],
+          "piece_sha256": "b0b495eb59400c10e2221aa24d2e43e053a2e83c427814095e840691ab438efe"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Louvre_2007_02_24_c_0.webp": {
+          "top_left": [
+            593,
+            100
+          ],
+          "pixel_box": [
+            593,
+            100,
+            667,
+            174
+          ],
+          "mean_sample_error": 3.951219512195122,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.9,
+            0.49458483754512633
+          ],
+          "piece_sha256": "99880f47f95aae8c402e53f44f3237097fc5b6a4409c5b83be8798a528f4d6a7"
+        }
+      }
+    },
+    "16": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/Chenonceau_background.webp",
+      "background_sha256": "d8f4c352456d71487af05171b498ce4bd3f96d830a6c6e865e12f4608c5fd5a6",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/Chenonceau_2.webp": {
+          "top_left": [
+            282,
+            175
+          ],
+          "pixel_box": [
+            282,
+            175,
+            356,
+            249
+          ],
+          "mean_sample_error": 2.731707317073171,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.46911764705882353,
+            0.5792349726775956
+          ],
+          "piece_sha256": "d9577ddbe38916431e16ec36edd62ec486a3109ab03a9515dffee06aca110957"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Chenonceau_1.webp": {
+          "top_left": [
+            179,
+            117
+          ],
+          "pixel_box": [
+            179,
+            117,
+            253,
+            191
+          ],
+          "mean_sample_error": 4.048780487804878,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.3176470588235294,
+            0.4207650273224044
+          ],
+          "piece_sha256": "bf2a8f20d317b0e5f0e57b065737b6a2f5dc0145378c359bd0b910a1626d8e91"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Chenonceau_0.webp": {
+          "top_left": [
+            98,
+            131
+          ],
+          "pixel_box": [
+            98,
+            131,
+            172,
+            205
+          ],
+          "mean_sample_error": 3.1463414634146343,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.19852941176470587,
+            0.45901639344262296
+          ],
+          "piece_sha256": "5dc801af720d6626d089ade3e75abec6dcf58d20ddb131801f6c1ff3cd9bb813"
+        }
+      }
+    },
+    "17": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/FanoeWindmill_background.webp",
+      "background_sha256": "3cea5251d1e93a9a2e03d3d6001a26098c9614e4b7922725924307a305148068",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/FanoeWindmill_3.webp": {
+          "top_left": [
+            87,
+            311
+          ],
+          "pixel_box": [
+            87,
+            311,
+            161,
+            385
+          ],
+          "mean_sample_error": 3.5121951219512195,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.37237237237237236,
+            0.696
+          ],
+          "piece_sha256": "9f9b67204579bf806029ca68e9c424a3023ec1b585438057ebce758742451711"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/FanoeWindmill_1.webp": {
+          "top_left": [
+            17,
+            269
+          ],
+          "pixel_box": [
+            17,
+            269,
+            91,
+            343
+          ],
+          "mean_sample_error": 2.268292682926829,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.16216216216216217,
+            0.612
+          ],
+          "piece_sha256": "344bb195b5f40a2e4c5aac9cf6865b68934644a7c9a4e4462b1f956d0ff26668"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/FanoeWindmill_2.webp": {
+          "top_left": [
+            197,
+            369
+          ],
+          "pixel_box": [
+            197,
+            369,
+            271,
+            443
+          ],
+          "mean_sample_error": 2.5853658536585367,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.7027027027027027,
+            0.812
+          ],
+          "piece_sha256": "5e3d3ab0cd9f83ebb06885b8a2e40bfd88cf52fa6204ed48c00305b50f876332"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/FanoeWindmill_0.webp": {
+          "top_left": [
+            189,
+            125
+          ],
+          "pixel_box": [
+            189,
+            125,
+            263,
+            199
+          ],
+          "mean_sample_error": 4.658536585365853,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.6786786786786787,
+            0.324
+          ],
+          "piece_sha256": "f54b77b88bf6b8f8ca0147182bc34702f836d82ce8005276ed8fbe6cf1cb2ed1"
+        }
+      }
+    },
+    "18": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/Nagoya_background.webp",
+      "background_sha256": "84b09f2cc12c464b1404e4fdb3c45ac7f7f51e9b4b3dfe450bf7cdf669946cd7",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/Nagoya_1.webp": {
+          "top_left": [
+            480,
+            239
+          ],
+          "pixel_box": [
+            480,
+            239,
+            554,
+            313
+          ],
+          "mean_sample_error": 3.6097560975609757,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.7602941176470588,
+            0.720626631853786
+          ],
+          "piece_sha256": "3592dd7e0e871f6ddb093442e96460d296a4daca06f397e0ea26eeb5acde2d66"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Nagoya_2.webp": {
+          "top_left": [
+            108,
+            171
+          ],
+          "pixel_box": [
+            108,
+            171,
+            182,
+            245
+          ],
+          "mean_sample_error": 3.4634146341463414,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.21323529411764705,
+            0.5430809399477807
+          ],
+          "piece_sha256": "821669bdbd261a3cf9dcb46f28e03fd898e49f02b79493c1c35f67648f53efd3"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Nagoya_4.webp": {
+          "top_left": [
+            313,
+            163
+          ],
+          "pixel_box": [
+            313,
+            163,
+            387,
+            237
+          ],
+          "mean_sample_error": 3.902439024390244,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.5147058823529411,
+            0.5221932114882507
+          ],
+          "piece_sha256": "b386e6d3de3b2aa6a592e89b2d38be6174c2eb86ce325945551abffdc41ec68f"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Nagoya_3.webp": {
+          "top_left": [
+            418,
+            8
+          ],
+          "pixel_box": [
+            418,
+            8,
+            492,
+            82
+          ],
+          "mean_sample_error": 2.4390243902439024,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.6691176470588235,
+            0.1174934725848564
+          ],
+          "piece_sha256": "ee4741fd8c937b790aac53235698a6bd32b9eb121ba80e8c5bcea0de81de8700"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Nagoya_0.webp": {
+          "top_left": [
+            460,
+            97
+          ],
+          "pixel_box": [
+            460,
+            97,
+            534,
+            171
+          ],
+          "mean_sample_error": 3.341463414634146,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.7308823529411764,
+            0.34986945169712796
+          ],
+          "piece_sha256": "8030d7795e17102a96bf9da7c41530883ff9a325226ab1cea03254683fd6f49f"
+        }
+      }
+    },
+    "19": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/TajMahal_background.webp",
+      "background_sha256": "9c2796c2a415cfd3b2ba20f52d7da5935298d00f208028b6c6d25d5d680b0cfb",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/TajMahal_1.webp": {
+          "top_left": [
+            505,
+            89
+          ],
+          "pixel_box": [
+            505,
+            89,
+            579,
+            163
+          ],
+          "mean_sample_error": 2.5853658536585367,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.8929159802306426,
+            0.252
+          ],
+          "piece_sha256": "156ff37bc53d888d198c58d908f570d296d9dc88267711432049da8fb8aaf3ff"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/TajMahal_5.webp": {
+          "top_left": [
+            267,
+            91
+          ],
+          "pixel_box": [
+            267,
+            91,
+            341,
+            165
+          ],
+          "mean_sample_error": 3.926829268292683,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.500823723228995,
+            0.256
+          ],
+          "piece_sha256": "0578bdb57d84ea991f9efa3a8eda6a4c6e8216f7881a6e9b5c6182953726afad"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/TajMahal_0.webp": {
+          "top_left": [
+            266,
+            13
+          ],
+          "pixel_box": [
+            266,
+            13,
+            340,
+            87
+          ],
+          "mean_sample_error": 2.6341463414634148,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.49917627677100496,
+            0.1
+          ],
+          "piece_sha256": "74affa83230223133d3bdb5cd502b91cde38399d24ba53450d8d657c98b69489"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/TajMahal_2.webp": {
+          "top_left": [
+            271,
+            230
+          ],
+          "pixel_box": [
+            271,
+            230,
+            345,
+            304
+          ],
+          "mean_sample_error": 3.4878048780487805,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.5074135090609555,
+            0.534
+          ],
+          "piece_sha256": "f7f9bb73c903abacb76d131c3558548983ce695bb397f1d8f0172716c5a1b65f"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/TajMahal_3.webp": {
+          "top_left": [
+            176,
+            128
+          ],
+          "pixel_box": [
+            176,
+            128,
+            250,
+            202
+          ],
+          "mean_sample_error": 3.6341463414634148,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.35090609555189456,
+            0.33
+          ],
+          "piece_sha256": "6560fdcc22d9ea816ffcacc34264c86b51c50e49c7ab0df79d5d8d3cdb7de02e"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/TajMahal_4.webp": {
+          "top_left": [
+            343,
+            123
+          ],
+          "pixel_box": [
+            343,
+            123,
+            417,
+            197
+          ],
+          "mean_sample_error": 2.6097560975609757,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.6260296540362438,
+            0.32
+          ],
+          "piece_sha256": "743d8af02ca5687909bd7c9800b9f1035be0940cd4454cb3f35aad47014908b1"
+        }
+      }
+    },
+    "20": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/Neuschwanstein_background.webp",
+      "background_sha256": "b973a69611d3ff8ed554879d08d31d8876faaf4c20ee76e0c8ff36922cd15b34",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/Neuschwanstein_7.webp": {
+          "top_left": [
+            136,
+            12
+          ],
+          "pixel_box": [
+            136,
+            12,
+            210,
+            86
+          ],
+          "mean_sample_error": 1.7073170731707317,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.25441176470588234,
+            0.1101123595505618
+          ],
+          "piece_sha256": "5c2b4112f43e10e3fec891165f554b1afc2c363f2c55e95d31ac0fedbb6751b5"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Neuschwanstein_5.webp": {
+          "top_left": [
+            258,
+            202
+          ],
+          "pixel_box": [
+            258,
+            202,
+            332,
+            276
+          ],
+          "mean_sample_error": 3.8292682926829267,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.4338235294117647,
+            0.5370786516853933
+          ],
+          "piece_sha256": "f913a369d6b3d2341c0cfbd7f7d3b7d45afbcbe859c66cb222480f5a8853edbf"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Neuschwanstein_8.webp": {
+          "top_left": [
+            75,
+            201
+          ],
+          "pixel_box": [
+            75,
+            201,
+            149,
+            275
+          ],
+          "mean_sample_error": 4.048780487804878,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.16470588235294117,
+            0.5348314606741573
+          ],
+          "piece_sha256": "ed7f26cc36f7f89a831dafd331668e5c5cdae6347b4106df17f4e5026fb335bb"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Neuschwanstein_6.webp": {
+          "top_left": [
+            184,
+            81
+          ],
+          "pixel_box": [
+            184,
+            81,
+            258,
+            155
+          ],
+          "mean_sample_error": 2.1707317073170733,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.325,
+            0.2651685393258427
+          ],
+          "piece_sha256": "70037a5198f46cca8805a4eda50e7353e4ad26363ec56d1d44e608e8b51cd9ad"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Neuschwanstein_2.webp": {
+          "top_left": [
+            421,
+            118
+          ],
+          "pixel_box": [
+            421,
+            118,
+            495,
+            192
+          ],
+          "mean_sample_error": 2.097560975609756,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.6735294117647059,
+            0.34831460674157305
+          ],
+          "piece_sha256": "fe5588dae19862abc6b213c6a7f515ca19edd01e8084f857aa1735019ccddf46"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Neuschwanstein_1.webp": {
+          "top_left": [
+            479,
+            202
+          ],
+          "pixel_box": [
+            479,
+            202,
+            553,
+            276
+          ],
+          "mean_sample_error": 4.146341463414634,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.7588235294117647,
+            0.5370786516853933
+          ],
+          "piece_sha256": "5bc03b98d5a61bd2781e21cf22a3365e42878809615bc4f13ac5d715ac3d0582"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Neuschwanstein_9.webp": {
+          "top_left": [
+            3,
+            185
+          ],
+          "pixel_box": [
+            3,
+            185,
+            77,
+            259
+          ],
+          "mean_sample_error": 3.4390243902439024,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.058823529411764705,
+            0.49887640449438203
+          ],
+          "piece_sha256": "ff7e35069e3eb7203f0a2d85cc04a2cb72a53f8848409aa2ba7a80454b0f47f3"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Neuschwanstein_0.webp": {
+          "top_left": [
+            559,
+            220
+          ],
+          "pixel_box": [
+            559,
+            220,
+            633,
+            294
+          ],
+          "mean_sample_error": 3.5121951219512195,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.8764705882352941,
+            0.5775280898876405
+          ],
+          "piece_sha256": "b35d09d13322909fdfe52300150c681ecd3879bba9cc9b95ade1ad3e140b1836"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Neuschwanstein_4.webp": {
+          "top_left": [
+            339,
+            290
+          ],
+          "pixel_box": [
+            339,
+            290,
+            413,
+            364
+          ],
+          "mean_sample_error": 3.7804878048780486,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.5529411764705883,
+            0.7348314606741573
+          ],
+          "piece_sha256": "6ace9df05a4ba0c9bb6840328d486ba00fca7147f1898b23eea2e87b74e28681"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/Neuschwanstein_3.webp": {
+          "top_left": [
+            342,
+            170
+          ],
+          "pixel_box": [
+            342,
+            170,
+            416,
+            244
+          ],
+          "mean_sample_error": 3.5853658536585367,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.5573529411764706,
+            0.4651685393258427
+          ],
+          "piece_sha256": "9d9f13e4e27bdcaf6ecd19f5226d18442039be80d44b48d6eab00ba108d6665b"
+        }
+      }
+    },
+    "21": {
+      "background": "qrc:/gcompris/src/activities/details/resource/image/EgeskovSlotSpejling_background.webp",
+      "background_sha256": "6ba38f91b6f6f53c4c105c57f647bd43d11b737293f23b1cef1806a81b872106",
+      "answers": {
+        "qrc:/gcompris/src/activities/details/resource/image/EgeskovSlotSpejling_7.webp": {
+          "top_left": [
+            246,
+            158
+          ],
+          "pixel_box": [
+            246,
+            158,
+            320,
+            232
+          ],
+          "mean_sample_error": 4.829268292682927,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.4161764705882353,
+            0.41226215644820297
+          ],
+          "piece_sha256": "256309dc64b1c64d59ce8e734c4467187d469bb6179ba72026b0c1d6a85cc0b8"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/EgeskovSlotSpejling_1.webp": {
+          "top_left": [
+            481,
+            349
+          ],
+          "pixel_box": [
+            481,
+            349,
+            555,
+            423
+          ],
+          "mean_sample_error": 2.731707317073171,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.7617647058823529,
+            0.8160676532769556
+          ],
+          "piece_sha256": "698a29670ca6b01c103c2eeaf223f5283fa5a3fae434eebdffe7f4cdf7886502"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/EgeskovSlotSpejling_0.webp": {
+          "top_left": [
+            484,
+            56
+          ],
+          "pixel_box": [
+            484,
+            56,
+            558,
+            130
+          ],
+          "mean_sample_error": 2.4878048780487805,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.7661764705882353,
+            0.19661733615221988
+          ],
+          "piece_sha256": "378dfd4111da9afe78a78ee65c34fe4929a1beb0ff0b7cddb582c2a6ef8341c9"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/EgeskovSlotSpejling_2.webp": {
+          "top_left": [
+            418,
+            62
+          ],
+          "pixel_box": [
+            418,
+            62,
+            492,
+            136
+          ],
+          "mean_sample_error": 3.5609756097560976,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.6691176470588235,
+            0.20930232558139536
+          ],
+          "piece_sha256": "e1c24db6de9a3cd5a7c105c84c8dffc31a33350175f317eca1ead0f3dd60be91"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/EgeskovSlotSpejling_3.webp": {
+          "top_left": [
+            349,
+            177
+          ],
+          "pixel_box": [
+            349,
+            177,
+            423,
+            251
+          ],
+          "mean_sample_error": 4.024390243902439,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.5676470588235294,
+            0.452431289640592
+          ],
+          "piece_sha256": "4043c05cc83838cf3a98b0325f81774b311bd87460fe334e920bc4a33523c175"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/EgeskovSlotSpejling_4.webp": {
+          "top_left": [
+            319,
+            11
+          ],
+          "pixel_box": [
+            319,
+            11,
+            393,
+            85
+          ],
+          "mean_sample_error": 1.2195121951219512,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.5235294117647059,
+            0.1014799154334038
+          ],
+          "piece_sha256": "b0aaf9254e5d9a947da792615e8366b7853f3ebf2d8c2925fafc4b1f8c0479b9"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/EgeskovSlotSpejling_5.webp": {
+          "top_left": [
+            152,
+            39
+          ],
+          "pixel_box": [
+            152,
+            39,
+            226,
+            113
+          ],
+          "mean_sample_error": 2.268292682926829,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.27794117647058825,
+            0.160676532769556
+          ],
+          "piece_sha256": "d415355a8ef865b4c08cca61bf825078ca45ec3b12ed6c7ffaf1960c26fc46e7"
+        },
+        "qrc:/gcompris/src/activities/details/resource/image/EgeskovSlotSpejling_6.webp": {
+          "top_left": [
+            319,
+            346
+          ],
+          "pixel_box": [
+            319,
+            346,
+            393,
+            420
+          ],
+          "mean_sample_error": 3.5609756097560976,
+          "sample_count": 41,
+          "equal_minima": 1,
+          "center": [
+            0.5235294117647059,
+            0.8097251585623678
+          ],
+          "piece_sha256": "97965f15048ed834950df5ba4dd5c0f0dadfd52a4a69cbb023e8e37888e74980"
+        }
+      }
+    }
+  },
+  "photo_hunter": {
+    "1": {
+      "crop_boxes": [
+        [
+          15,
+          176,
+          395,
+          556
+        ],
+        [
+          405,
+          176,
+          785,
+          556
+        ]
+      ],
+      "scene_sha256": "dff5a5bb8c90a2a0b3c6124c3f497f84ea613676617b682477c303cf86be1dab",
+      "candidates": [
+        {
+          "box": [
+            17,
+            7,
+            64,
+            54
+          ],
+          "pixel": [
+            33,
+            25
+          ],
+          "pixels": 1491,
+          "peak_difference": 131,
+          "threshold": 25
+        },
+        {
+          "box": [
+            24,
+            269,
+            36,
+            281
+          ],
+          "pixel": [
+            30,
+            274
+          ],
+          "pixels": 130,
+          "peak_difference": 203,
+          "threshold": 25
+        },
+        {
+          "box": [
+            110,
+            327,
+            120,
+            337
+          ],
+          "pixel": [
+            115,
+            332
+          ],
+          "pixels": 68,
+          "peak_difference": 165,
+          "threshold": 25
+        },
+        {
+          "box": [
+            118,
+            310,
+            130,
+            318
+          ],
+          "pixel": [
+            124,
+            314
+          ],
+          "pixels": 67,
+          "peak_difference": 105,
+          "threshold": 25
+        },
+        {
+          "box": [
+            106,
+            316,
+            116,
+            324
+          ],
+          "pixel": [
+            110,
+            319
+          ],
+          "pixels": 65,
+          "peak_difference": 164,
+          "threshold": 25
+        },
+        {
+          "box": [
+            118,
+            320,
+            130,
+            327
+          ],
+          "pixel": [
+            124,
+            323
+          ],
+          "pixels": 63,
+          "peak_difference": 170,
+          "threshold": 25
+        },
+        {
+          "box": [
+            135,
+            313,
+            145,
+            319
+          ],
+          "pixel": [
+            138,
+            317
+          ],
+          "pixels": 46,
+          "peak_difference": 77,
+          "threshold": 25
+        }
+      ],
+      "image_size": [
+        380,
+        380
+      ]
+    },
+    "2": {
+      "crop_boxes": [
+        [
+          15,
+          176,
+          395,
+          556
+        ],
+        [
+          405,
+          176,
+          785,
+          556
+        ]
+      ],
+      "scene_sha256": "164f6af77d49e3412af4c9acfa914db27d05ca3f4e6532bafa9ad78fda1824fa",
+      "candidates": [
+        {
+          "box": [
+            158,
+            288,
+            207,
+            367
+          ],
+          "pixel": [
+            187,
+            349
+          ],
+          "pixels": 2228,
+          "peak_difference": 193,
+          "threshold": 25
+        },
+        {
+          "box": [
+            301,
+            61,
+            332,
+            96
+          ],
+          "pixel": [
+            319,
+            94
+          ],
+          "pixels": 856,
+          "peak_difference": 237,
+          "threshold": 25
+        },
+        {
+          "box": [
+            293,
+            344,
+            324,
+            367
+          ],
+          "pixel": [
+            313,
+            348
+          ],
+          "pixels": 549,
+          "peak_difference": 186,
+          "threshold": 25
+        }
+      ],
+      "image_size": [
+        380,
+        380
+      ]
+    },
+    "3": {
+      "crop_boxes": [
+        [
+          15,
+          176,
+          395,
+          556
+        ],
+        [
+          405,
+          176,
+          785,
+          556
+        ]
+      ],
+      "scene_sha256": "ea63222cc973117606761eb4c73ea87703dac9664414e773f404468285669d6b",
+      "candidates": [
+        {
+          "box": [
+            266,
+            34,
+            347,
+            61
+          ],
+          "pixel": [
+            306,
+            42
+          ],
+          "pixels": 1518,
+          "peak_difference": 186,
+          "threshold": 25
+        },
+        {
+          "box": [
+            222,
+            329,
+            234,
+            346
+          ],
+          "pixel": [
+            229,
+            332
+          ],
+          "pixels": 34,
+          "peak_difference": 38,
+          "threshold": 25
+        },
+        {
+          "box": [
+            213,
+            328,
+            217,
+            344
+          ],
+          "pixel": [
+            214,
+            334
+          ],
+          "pixels": 24,
+          "peak_difference": 38,
+          "threshold": 25
+        },
+        {
+          "box": [
+            186,
+            337,
+            191,
+            345
+          ],
+          "pixel": [
+            188,
+            341
+          ],
+          "pixels": 12,
+          "peak_difference": 38,
+          "threshold": 25
+        },
+        {
+          "box": [
+            218,
+            334,
+            221,
+            340
+          ],
+          "pixel": [
+            218,
+            338
+          ],
+          "pixels": 8,
+          "peak_difference": 37,
+          "threshold": 25
+        },
+        {
+          "box": [
+            202,
+            339,
+            205,
+            344
+          ],
+          "pixel": [
+            203,
+            341
+          ],
+          "pixels": 5,
+          "peak_difference": 35,
+          "threshold": 25
+        },
+        {
+          "box": [
+            206,
+            339,
+            209,
+            343
+          ],
+          "pixel": [
+            207,
+            340
+          ],
+          "pixels": 4,
+          "peak_difference": 31,
+          "threshold": 25
+        }
+      ],
+      "image_size": [
+        380,
+        380
+      ]
+    },
+    "4": {
+      "crop_boxes": [
+        [
+          15,
+          176,
+          395,
+          556
+        ],
+        [
+          405,
+          176,
+          785,
+          556
+        ]
+      ],
+      "scene_sha256": "fc43599ab5f80a77a453b5f754bc717fd077fd169c9a3a7aa962eb37fe608cb0",
+      "candidates": [
+        {
+          "box": [
+            154,
+            353,
+            214,
+            370
+          ],
+          "pixel": [
+            184,
+            361
+          ],
+          "pixels": 766,
+          "peak_difference": 121,
+          "threshold": 25
+        },
+        {
+          "box": [
+            66,
+            147,
+            98,
+            175
+          ],
+          "pixel": [
+            82,
+            159
+          ],
+          "pixels": 573,
+          "peak_difference": 239,
+          "threshold": 25
+        },
+        {
+          "box": [
+            300,
+            35,
+            321,
+            46
+          ],
+          "pixel": [
+            314,
+            38
+          ],
+          "pixels": 61,
+          "peak_difference": 138,
+          "threshold": 25
+        },
+        {
+          "box": [
+            211,
+            182,
+            216,
+            189
+          ],
+          "pixel": [
+            214,
+            187
+          ],
+          "pixels": 30,
+          "peak_difference": 82,
+          "threshold": 25
+        },
+        {
+          "box": [
+            211,
+            190,
+            216,
+            196
+          ],
+          "pixel": [
+            214,
+            194
+          ],
+          "pixels": 26,
+          "peak_difference": 94,
+          "threshold": 25
+        }
+      ],
+      "image_size": [
+        380,
+        380
+      ]
+    },
+    "5": {
+      "crop_boxes": [
+        [
+          15,
+          176,
+          395,
+          556
+        ],
+        [
+          405,
+          176,
+          785,
+          556
+        ]
+      ],
+      "scene_sha256": "b2f9d69c3aaca3c92bd367334381d22b4d5128607656bdbd39caa4d43b1d9e9a",
+      "candidates": [
+        {
+          "box": [
+            228,
+            299,
+            280,
+            327
+          ],
+          "pixel": [
+            256,
+            316
+          ],
+          "pixels": 905,
+          "peak_difference": 56,
+          "threshold": 25
+        },
+        {
+          "box": [
+            106,
+            274,
+            114,
+            282
+          ],
+          "pixel": [
+            109,
+            277
+          ],
+          "pixels": 64,
+          "peak_difference": 43,
+          "threshold": 25
+        },
+        {
+          "box": [
+            173,
+            54,
+            188,
+            66
+          ],
+          "pixel": [
+            177,
+            55
+          ],
+          "pixels": 59,
+          "peak_difference": 118,
+          "threshold": 25
+        },
+        {
+          "box": [
+            203,
+            264,
+            212,
+            271
+          ],
+          "pixel": [
+            207,
+            266
+          ],
+          "pixels": 36,
+          "peak_difference": 107,
+          "threshold": 25
+        },
+        {
+          "box": [
+            191,
+            269,
+            201,
+            275
+          ],
+          "pixel": [
+            195,
+            270
+          ],
+          "pixels": 36,
+          "peak_difference": 107,
+          "threshold": 25
+        },
+        {
+          "box": [
+            183,
+            261,
+            192,
+            267
+          ],
+          "pixel": [
+            187,
+            264
+          ],
+          "pixels": 34,
+          "peak_difference": 106,
+          "threshold": 25
+        }
+      ],
+      "image_size": [
+        380,
+        380
+      ]
+    },
+    "6": {
+      "crop_boxes": [
+        [
+          15,
+          176,
+          395,
+          556
+        ],
+        [
+          405,
+          176,
+          785,
+          556
+        ]
+      ],
+      "scene_sha256": "51428c670f48a1c160b2826dc8fb70b68c17ca9b1e2a306dee4b271f2cf2947e",
+      "candidates": [
+        {
+          "box": [
+            53,
+            111,
+            105,
+            164
+          ],
+          "pixel": [
+            76,
+            140
+          ],
+          "pixels": 977,
+          "peak_difference": 203,
+          "threshold": 25
+        },
+        {
+          "box": [
+            250,
+            32,
+            298,
+            63
+          ],
+          "pixel": [
+            280,
+            52
+          ],
+          "pixels": 373,
+          "peak_difference": 189,
+          "threshold": 25
+        },
+        {
+          "box": [
+            283,
+            331,
+            329,
+            358
+          ],
+          "pixel": [
+            317,
+            344
+          ],
+          "pixels": 336,
+          "peak_difference": 210,
+          "threshold": 25
+        }
+      ],
+      "image_size": [
+        380,
+        380
+      ]
+    },
+    "7": {
+      "crop_boxes": [
+        [
+          15,
+          176,
+          395,
+          556
+        ],
+        [
+          405,
+          176,
+          785,
+          556
+        ]
+      ],
+      "scene_sha256": "4734952fb25b2cca6eb57fb81d68e4259c7e7236e060853362f5093740307f90",
+      "candidates": [
+        {
+          "box": [
+            19,
+            101,
+            78,
+            119
+          ],
+          "pixel": [
+            31,
+            103
+          ],
+          "pixels": 815,
+          "peak_difference": 145,
+          "threshold": 25
+        },
+        {
+          "box": [
+            221,
+            281,
+            242,
+            298
+          ],
+          "pixel": [
+            230,
+            288
+          ],
+          "pixels": 150,
+          "peak_difference": 80,
+          "threshold": 25
+        },
+        {
+          "box": [
+            292,
+            155,
+            306,
+            168
+          ],
+          "pixel": [
+            298,
+            160
+          ],
+          "pixels": 92,
+          "peak_difference": 51,
+          "threshold": 25
+        },
+        {
+          "box": [
+            210,
+            289,
+            221,
+            299
+          ],
+          "pixel": [
+            217,
+            292
+          ],
+          "pixels": 53,
+          "peak_difference": 80,
+          "threshold": 25
+        },
+        {
+          "box": [
+            201,
+            285,
+            210,
+            294
+          ],
+          "pixel": [
+            205,
+            290
+          ],
+          "pixels": 47,
+          "peak_difference": 80,
+          "threshold": 25
+        },
+        {
+          "box": [
+            193,
+            286,
+            200,
+            291
+          ],
+          "pixel": [
+            196,
+            287
+          ],
+          "pixels": 24,
+          "peak_difference": 80,
+          "threshold": 25
+        }
+      ],
+      "image_size": [
+        380,
+        380
+      ]
+    },
+    "8": {
+      "crop_boxes": [
+        [
+          15,
+          176,
+          395,
+          556
+        ],
+        [
+          405,
+          176,
+          785,
+          556
+        ]
+      ],
+      "scene_sha256": "580ce3be87e94fc964be9ed7511395b20c76d5326c822754066e3abb1c56b447",
+      "candidates": [
+        {
+          "box": [
+            252,
+            150,
+            280,
+            170
+          ],
+          "pixel": [
+            277,
+            157
+          ],
+          "pixels": 305,
+          "peak_difference": 120,
+          "threshold": 25
+        },
+        {
+          "box": [
+            138,
+            253,
+            171,
+            264
+          ],
+          "pixel": [
+            160,
+            253
+          ],
+          "pixels": 291,
+          "peak_difference": 172,
+          "threshold": 25
+        },
+        {
+          "box": [
+            29,
+            317,
+            47,
+            339
+          ],
+          "pixel": [
+            34,
+            329
+          ],
+          "pixels": 224,
+          "peak_difference": 181,
+          "threshold": 25
+        },
+        {
+          "box": [
+            52,
+            191,
+            68,
+            211
+          ],
+          "pixel": [
+            60,
+            201
+          ],
+          "pixels": 190,
+          "peak_difference": 138,
+          "threshold": 25
+        },
+        {
+          "box": [
+            167,
+            182,
+            174,
+            188
+          ],
+          "pixel": [
+            169,
+            184
+          ],
+          "pixels": 29,
+          "peak_difference": 110,
+          "threshold": 25
+        },
+        {
+          "box": [
+            144,
+            93,
+            149,
+            99
+          ],
+          "pixel": [
+            146,
+            96
+          ],
+          "pixels": 28,
+          "peak_difference": 134,
+          "threshold": 25
+        },
+        {
+          "box": [
+            56,
+            214,
+            59,
+            218
+          ],
+          "pixel": [
+            57,
+            216
+          ],
+          "pixels": 8,
+          "peak_difference": 111,
+          "threshold": 25
+        },
+        {
+          "box": [
+            51,
+            211,
+            53,
+            213
+          ],
+          "pixel": [
+            51,
+            211
+          ],
+          "pixels": 3,
+          "peak_difference": 73,
+          "threshold": 25
+        }
+      ],
+      "image_size": [
+        380,
+        380
+      ]
+    },
+    "9": {
+      "crop_boxes": [
+        [
+          15,
+          176,
+          395,
+          556
+        ],
+        [
+          405,
+          176,
+          785,
+          556
+        ]
+      ],
+      "scene_sha256": "e5a2ace21302dacdf67c78e42abeb1d8351a30701a4939e4895b99207cc397aa",
+      "candidates": [
+        {
+          "box": [
+            189,
+            342,
+            226,
+            347
+          ],
+          "pixel": [
+            207,
+            344
+          ],
+          "pixels": 171,
+          "peak_difference": 133,
+          "threshold": 25
+        },
+        {
+          "box": [
+            36,
+            60,
+            44,
+            66
+          ],
+          "pixel": [
+            39,
+            62
+          ],
+          "pixels": 39,
+          "peak_difference": 208,
+          "threshold": 25
+        },
+        {
+          "box": [
+            342,
+            339,
+            349,
+            342
+          ],
+          "pixel": [
+            344,
+            340
+          ],
+          "pixels": 18,
+          "peak_difference": 133,
+          "threshold": 25
+        }
+      ],
+      "image_size": [
+        380,
+        380
+      ]
+    },
+    "10": {
+      "crop_boxes": [
+        [
+          15,
+          176,
+          395,
+          556
+        ],
+        [
+          405,
+          176,
+          785,
+          556
+        ]
+      ],
+      "scene_sha256": "1fed983f60ee06bfa8f08357d5daac02812b91804ffa172e09d77f52af1f6a54",
+      "candidates": [
+        {
+          "box": [
+            214,
+            95,
+            241,
+            127
+          ],
+          "pixel": [
+            232,
+            102
+          ],
+          "pixels": 584,
+          "peak_difference": 210,
+          "threshold": 25
+        },
+        {
+          "box": [
+            236,
+            212,
+            257,
+            241
+          ],
+          "pixel": [
+            246,
+            227
+          ],
+          "pixels": 556,
+          "peak_difference": 184,
+          "threshold": 25
+        },
+        {
+          "box": [
+            12,
+            55,
+            32,
+            63
+          ],
+          "pixel": [
+            21,
+            59
+          ],
+          "pixels": 142,
+          "peak_difference": 185,
+          "threshold": 25
+        },
+        {
+          "box": [
+            141,
+            329,
+            151,
+            345
+          ],
+          "pixel": [
+            145,
+            334
+          ],
+          "pixels": 32,
+          "peak_difference": 60,
+          "threshold": 25
+        },
+        {
+          "box": [
+            133,
+            328,
+            138,
+            344
+          ],
+          "pixel": [
+            134,
+            337
+          ],
+          "pixels": 27,
+          "peak_difference": 59,
+          "threshold": 25
+        },
+        {
+          "box": [
+            113,
+            337,
+            118,
+            345
+          ],
+          "pixel": [
+            115,
+            342
+          ],
+          "pixels": 13,
+          "peak_difference": 53,
+          "threshold": 25
+        },
+        {
+          "box": [
+            138,
+            334,
+            141,
+            340
+          ],
+          "pixel": [
+            138,
+            337
+          ],
+          "pixels": 9,
+          "peak_difference": 59,
+          "threshold": 25
+        },
+        {
+          "box": [
+            124,
+            337,
+            128,
+            343
+          ],
+          "pixel": [
+            126,
+            341
+          ],
+          "pixels": 6,
+          "peak_difference": 45,
+          "threshold": 25
+        },
+        {
+          "box": [
+            120,
+            332,
+            124,
+            336
+          ],
+          "pixel": [
+            121,
+            333
+          ],
+          "pixels": 4,
+          "peak_difference": 31,
+          "threshold": 25
+        },
+        {
+          "box": [
+            128,
+            338,
+            131,
+            342
+          ],
+          "pixel": [
+            129,
+            340
+          ],
+          "pixels": 4,
+          "peak_difference": 44,
+          "threshold": 25
+        },
+        {
+          "box": [
+            118,
+            337,
+            119,
+            338
+          ],
+          "pixel": [
+            118,
+            337
+          ],
+          "pixels": 1,
+          "peak_difference": 26,
+          "threshold": 25
+        }
+      ],
+      "image_size": [
+        380,
+        380
+      ]
+    }
+  },
+  "input_receipts": {
+    "details": "91cadd6201e8621653eba2e8b356ea7bcb49739ae3b00ef229af6069ae836fb6",
+    "photo_hunter": "ac765c2e371f15715a49c7da36a2ef7f98764944a36f9a7b5df1e815c9fa0aae"
+  },
+  "canonical_index_sha256": "eeb859cb29f63ca779ff5783da165d1d5d5ef2a0605b5487652510c7f8b796fe",
+  "unresolved": []
+}

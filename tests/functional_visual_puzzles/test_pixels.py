@@ -1,9 +1,18 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 import unittest
 from PIL import Image
-from pixels import locate_detail
+from pixels import locate_detail, difference_points
 
 class DetailFromPixels(unittest.TestCase):
+    def test_two_visible_changes_produce_two_pixel_candidates(self):
+        left = Image.new('RGB', (20, 20), 'white')
+        right = left.copy()
+        left.paste('red', (2, 3, 5, 6))
+        left.paste('blue', (13, 14, 16, 17))
+        result = difference_points(left, right)
+        self.assertEqual(len(result), 2)
+        self.assertEqual([row['box'] for row in result], [[2, 3, 5, 6], [13, 14, 16, 17]])
+
     def test_unique_cut_out_is_located_without_board_coordinates(self):
         background = Image.new('RGB', (20, 20), 'white')
         patch = Image.new('RGB', (3, 3))

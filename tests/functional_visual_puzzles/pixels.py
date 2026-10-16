@@ -3,6 +3,39 @@
 from PIL import Image, ImageChops, ImageMath
 
 
+def difference_points(left, right, threshold=25):
+    if left.size != right.size:
+        raise ValueError('Visible pictures must have matching dimensions')
+    difference = ImageChops.difference(left.convert('RGB'), right.convert('RGB'))
+    pixels = difference.load()
+    remaining = {(x, y) for y in range(left.height) for x in range(left.width)
+                 if max(pixels[x, y]) > threshold}
+    regions = []
+    while remaining:
+        first = min(remaining, key=lambda point: (point[1], point[0]))
+        remaining.remove(first)
+        pending = [first]
+        component = []
+        while pending:
+            x, y = pending.pop()
+            component.append((x, y))
+            for dx, dy in [(-1, -1), (0, -1), (1, -1), (-1, 0),
+                           (1, 0), (-1, 1), (0, 1), (1, 1)]:
+                neighbour = (x + dx, y + dy)
+                if neighbour in remaining:
+                    remaining.remove(neighbour)
+                    pending.append(neighbour)
+        xs, ys = zip(*component)
+        center = (sum(xs) / len(xs), sum(ys) / len(ys))
+        strongest = max(max(pixels[x, y]) for x, y in component)
+        point = min((p for p in component if max(pixels[p]) == strongest),
+                    key=lambda p: ((p[0] - center[0]) ** 2 + (p[1] - center[1]) ** 2, p[1], p[0]))
+        regions.append({'box': [min(xs), min(ys), max(xs) + 1, max(ys) + 1],
+                        'pixel': list(point), 'pixels': len(component),
+                        'peak_difference': strongest, 'threshold': threshold})
+    return regions
+
+
 def locate_detail(piece, background):
     piece = piece.convert('RGBA')
     background = background.convert('RGB')
