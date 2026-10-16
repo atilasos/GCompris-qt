@@ -1,0 +1,327 @@
+{
+  "gnumch-equality": {
+    "rcc_sha256": "7851d0baf89f9bd4a1fa5763ef915335e914f5b072e34e7d26f195fc63d38318",
+    "files": [
+      {
+        "bytes": 4659,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/Warning.qml",
+        "sha256": "a73ae0fe7a5dd796968a33aae36db93544df41bfc4d4140b0d77df1ef39823d0"
+      },
+      {
+        "bytes": 13420,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/Gnumch.qml",
+        "sha256": "e24f103bde3de2311242e4bf32ceb2feaa716d06fb731dc9444e24c585b57dd6"
+      },
+      {
+        "bytes": 1660,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/ActivityInfo.qml",
+        "sha256": "009e80ccc2a3aaedefdf409383718687b4b75a24e0da04a4d46cdbe232546f14"
+      },
+      {
+        "bytes": 3596,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/Creature.qml",
+        "sha256": "0f802c5bf14ccdd1c9dbfe458a5c5086e4a7117395f2615725f6e8e32b563555"
+      },
+      {
+        "bytes": 584,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/Diaper.qml",
+        "sha256": "dd303d0acd81fc87311ba6d4416c996f3f9af3c8360cb28fe676e4ef0d740212"
+      },
+      {
+        "bytes": 1500,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/WarnMonster.qml",
+        "sha256": "47aa7d6c23e462fe31bfd57408b49fa36acb225786a7ccf99d95bf0faf49ef39"
+      },
+      {
+        "bytes": 1117,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/Smarty.qml",
+        "sha256": "8868c3a210a2634560bcb68b4b0a66ac2bc155cb7c1a9d55fb596557ad21691c"
+      },
+      {
+        "bytes": 1213,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/CellDelegate.qml",
+        "sha256": "17e0c9f432b3162d24bd41d6e2cb1e1c38213be22ff0de597af793aaa64d4664"
+      },
+      {
+        "bytes": 1755,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/Monster.qml",
+        "sha256": "b41983dd42d2354e82dcc43f9af310ca3ff3cde19706f10231069f0dc68cfc03"
+      },
+      {
+        "bytes": 347,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/GnumchEquality.qml",
+        "sha256": "cc72d8e280f0a8f0ec0ace0eb6b342f493aa6e43ce2543dcb4f709d0ecf18b0b"
+      },
+      {
+        "bytes": 563,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/Eater.qml",
+        "sha256": "16dc93272517522171ab30b1d7a37242bd16aa6e27a08062cab88faf793ed1d3"
+      },
+      {
+        "bytes": 1422,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/resource/1/Data.qml",
+        "sha256": "b7d3b474f18633c835aff50474306eba252a79bac763e431864b54300974f378"
+      },
+      {
+        "bytes": 1428,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/resource/2/Data.qml",
+        "sha256": "426ed26ceec588b809dbdcaa48a93d74b6e7d4164c4d4190a6630c550040639e"
+      },
+      {
+        "bytes": 1434,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/resource/3/Data.qml",
+        "sha256": "41e58dc5fb17322cadc9c399391f873592f1725f755a56c18467a47b14c41113"
+      },
+      {
+        "bytes": 1422,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/resource/4/Data.qml",
+        "sha256": "3d9a2eb9ee6acc2ba132b39f66880a71ce3b412090f21edc26bc98347645d74b"
+      },
+      {
+        "bytes": 8779,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/resource/muncherIcon.svg",
+        "sha256": "e9f9db504d10d6e9ff6ddb75e31c1043320292fd2a9f615c0a3cab03d1abadcf"
+      },
+      {
+        "bytes": 7465,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/resource/diaper.svg",
+        "sha256": "f798781f1487867febed975f0630faae6f2dd9a70055447aa34a8cb237dbf845"
+      },
+      {
+        "bytes": 9119,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/resource/smarty.svg",
+        "sha256": "e40ff6a29ad77dfa0594fc6e1117cc7d3f8e7f2397ecfb1e18702d1a63aa3613"
+      },
+      {
+        "bytes": 4343,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/resource/eater.svg",
+        "sha256": "d96c1f3a77bca8b3de3cb52bf84ab26f69a71e68e4625edeeaf8cf05b6a39e2c"
+      },
+      {
+        "bytes": 45224,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/resource/eat.wav",
+        "sha256": "403129964166618915ad02c69b51d8e54b31e2a9ec1f6e4b125379cbd01f7ec4"
+      },
+      {
+        "bytes": 6928,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/resource/reggie.svg",
+        "sha256": "0afabb6d3ff42dadb4424fa76a4248e603c5ba0a3bb52a31dc72fe0ec4984086"
+      },
+      {
+        "bytes": 31753,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/resource/muncher.svg",
+        "sha256": "e52f041632d4cd4b3b773865c79b98eda1a69bb4dc4a1436ab52393fe9f771d4"
+      },
+      {
+        "bytes": 7849,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/resource/fraidy.svg",
+        "sha256": "52f109e730dc9e9de1b5012c28f5a92fca210b4d3ee164d60e5a37fe58a7b562"
+      },
+      {
+        "bytes": 426,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/CMakeLists.txt",
+        "sha256": "f33954140679e63dfb381face5c17e0fc30c1a88363a52470e6ca2fef90754e5"
+      },
+      {
+        "bytes": 345,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/Reggie.qml",
+        "sha256": "aad077c4f7f9a38dcea1f559941e7b12b1d1979ff1342f41d00fa6b4a6b3c59b"
+      },
+      {
+        "bytes": 20133,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/gnumch-equality.svg",
+        "sha256": "0c4433763fe9ca9e2cf0e8b7500dc4372f9f3950606239e9b25c1651fd3a0475"
+      },
+      {
+        "bytes": 1115,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/Muncher.qml",
+        "sha256": "e80ec5c5343b4cba3414265f8f3949ea4c1fccb7c9e791a1506e157a5dcacd37"
+      },
+      {
+        "bytes": 12660,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/gnumch-equality.js",
+        "sha256": "fa096cd927934af0b9bcd9d468ad838c8636b9d1a6e1d4a40880593cda7a514c"
+      },
+      {
+        "bytes": 1385,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/Fraidy.qml",
+        "sha256": "c57429fd7c85a93df762bed3dd39326fd4c7a29b30c998a0ef3837f8d51e1658"
+      },
+      {
+        "bytes": 3233,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-equality/TopPanel.qml",
+        "sha256": "16ac01338f48e5c3dc425c8dfc2d472e05e5e7247e08cce50c35714af485e260"
+      }
+    ]
+  },
+  "gnumch-inequality": {
+    "rcc_sha256": "e4f537c9289e58d49667686acbce1863b58f92255c596f3145ae1156b90eb732",
+    "files": [
+      {
+        "bytes": 1628,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-inequality/ActivityInfo.qml",
+        "sha256": "3a646afea282b2bf8b9a057eb5ea9851b2a88adafcd38dc33e52411f3a9fae41"
+      },
+      {
+        "bytes": 20953,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-inequality/gnumch-inequality.svg",
+        "sha256": "6fc722e637ee2446f2a85ad6c16c54e0e7e2aca9e6ecba069edb75b548f07012"
+      },
+      {
+        "bytes": 1424,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-inequality/resource/1/Data.qml",
+        "sha256": "34cea4ee89162c865b98e6d6e25d2a61d4044df4725aa56dd03b568991f74576"
+      },
+      {
+        "bytes": 1430,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-inequality/resource/2/Data.qml",
+        "sha256": "4355ef4de28bb1a08045b6842d49723201375ac2da9f2515508df8b9900197e3"
+      },
+      {
+        "bytes": 1436,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-inequality/resource/3/Data.qml",
+        "sha256": "090fc5b8af8b4be2f6a89146202df93c586765680a5ca4491dc6105c3ef46010"
+      },
+      {
+        "bytes": 1424,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-inequality/resource/4/Data.qml",
+        "sha256": "d98dc77e16cf84afeaea498b1044ed0dce0029976a939adcebae60ebac59acc1"
+      },
+      {
+        "bytes": 420,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-inequality/CMakeLists.txt",
+        "sha256": "76910e42168ec82f28a6eb496e63751d45bd96dcf16d3559612df2c5a41d6d36"
+      },
+      {
+        "bytes": 391,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-inequality/GnumchInequality.qml",
+        "sha256": "9c61105a1995899f2c7cae8975174f5f31efb302b21c5c1b29e4353ce13215b0"
+      }
+    ]
+  },
+  "gnumch-factors": {
+    "rcc_sha256": "bc66fcf36bd81e6736a4b9eb5c2433eb293366107e2fbcaba9716e6e3b73faa8",
+    "files": [
+      {
+        "bytes": 356,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-factors/GnumchFactors.qml",
+        "sha256": "c9608f367f0f7b2260b022bb4af7ca4b287275f30c68ebf244319dad1a02d148"
+      },
+      {
+        "bytes": 1966,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-factors/ActivityInfo.qml",
+        "sha256": "4045f505463bf60a38075fa4e0f76728d4211f21abc6e35996bbfa978b83dd35"
+      },
+      {
+        "bytes": 22463,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-factors/gnumch-factors.svg",
+        "sha256": "df0788a23c547a98714a4705f5eeaa7ca14044dc82b2dae42276ff9c4c6d17bf"
+      },
+      {
+        "bytes": 395,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-factors/CMakeLists.txt",
+        "sha256": "976481972b281804e5237b11df447d163a8a46f1d99dee793cfde6cc58005018"
+      }
+    ]
+  },
+  "gnumch-multiples": {
+    "rcc_sha256": "35f6dee46c245dba7d6894db29a80f8351bb7e8974cd793d8019ac46c1d91ab7",
+    "files": [
+      {
+        "bytes": 360,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-multiples/GnumchMultiples.qml",
+        "sha256": "d196b5325e8088ec2983ca13948e26ded72cc66fb98e99ac30b478941e000d1a"
+      },
+      {
+        "bytes": 2365,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-multiples/ActivityInfo.qml",
+        "sha256": "fb4ec6fb0768e521bc2ed1b99839c4140daddaed57f865407f92915aceafc57e"
+      },
+      {
+        "bytes": 20072,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-multiples/gnumch-multiples.svg",
+        "sha256": "16110c6a5986ab856be84fbea781f6a2e4746a90772ab1d868b8645d9a745baf"
+      },
+      {
+        "bytes": 397,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-multiples/CMakeLists.txt",
+        "sha256": "01569fc9fd697f042a147472f9a21f903af29ee82da1e47d894a6411de475748"
+      }
+    ]
+  },
+  "gnumch-primes": {
+    "rcc_sha256": "7c73bec0bcc9a6c37181b698cec55d0740c44abd9b65e129bb6608155e5dc250",
+    "files": [
+      {
+        "bytes": 29847,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-primes/gnumch-primes.svg",
+        "sha256": "baca859789984e33345ce482a0be4049f094ddf1b5da1dba34e7e3013f1e1d3b"
+      },
+      {
+        "bytes": 354,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-primes/GnumchPrimes.qml",
+        "sha256": "e7eda5302d344a4c2c887f82b135356a0a30e81f7e183be91e16edafab26fcc6"
+      },
+      {
+        "bytes": 1930,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-primes/ActivityInfo.qml",
+        "sha256": "21c87a27d5e7db3736ae16ec53bc6cba69ed9c05f24dd021e7beaf455e662f48"
+      },
+      {
+        "bytes": 394,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/gnumch-primes/CMakeLists.txt",
+        "sha256": "dae78a254ebb96cc1bc11f31d6da4d0bc07176363689f478f9032ed99556695c"
+      }
+    ]
+  }
+}

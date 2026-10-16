@@ -1,0 +1,573 @@
+{
+  "activities": {
+    "gnumch-equality": {
+      "datasets": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "levels": [
+        {
+          "dataset": "1",
+          "goal": 6,
+          "operator": " + ",
+          "spawnMonsters": false
+        },
+        {
+          "dataset": "1",
+          "goal": 7,
+          "operator": " + ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "1",
+          "goal": 8,
+          "operator": " + ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "1",
+          "goal": 9,
+          "operator": " + ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "1",
+          "goal": 10,
+          "operator": " + ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "1",
+          "goal": 11,
+          "operator": " + ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "1",
+          "goal": 12,
+          "operator": " + ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "1",
+          "goal": 13,
+          "operator": " + ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "1",
+          "goal": 14,
+          "operator": " + ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "1",
+          "goal": 15,
+          "operator": " + ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "2",
+          "goal": 6,
+          "operator": " - ",
+          "spawnMonsters": false
+        },
+        {
+          "dataset": "2",
+          "goal": 7,
+          "operator": " - ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "2",
+          "goal": 8,
+          "operator": " - ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "2",
+          "goal": 9,
+          "operator": " - ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "2",
+          "goal": 10,
+          "operator": " - ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "2",
+          "goal": 11,
+          "operator": " - ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "2",
+          "goal": 12,
+          "operator": " - ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "2",
+          "goal": 13,
+          "operator": " - ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "2",
+          "goal": 14,
+          "operator": " - ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "2",
+          "goal": 15,
+          "operator": " - ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "3",
+          "goal": 8,
+          "operator": " * ",
+          "spawnMonsters": false
+        },
+        {
+          "dataset": "3",
+          "goal": 10,
+          "operator": " * ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "3",
+          "goal": 12,
+          "operator": " * ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "3",
+          "goal": 14,
+          "operator": " * ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "3",
+          "goal": 15,
+          "operator": " * ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "3",
+          "goal": 16,
+          "operator": " * ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "3",
+          "goal": 18,
+          "operator": " * ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "3",
+          "goal": 20,
+          "operator": " * ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "3",
+          "goal": 24,
+          "operator": " * ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "3",
+          "goal": 28,
+          "operator": " * ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "4",
+          "goal": 3,
+          "operator": " / ",
+          "spawnMonsters": false
+        },
+        {
+          "dataset": "4",
+          "goal": 4,
+          "operator": " / ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "4",
+          "goal": 5,
+          "operator": " / ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "4",
+          "goal": 6,
+          "operator": " / ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "4",
+          "goal": 7,
+          "operator": " / ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "4",
+          "goal": 8,
+          "operator": " / ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "4",
+          "goal": 9,
+          "operator": " / ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "4",
+          "goal": 10,
+          "operator": " / ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "4",
+          "goal": 11,
+          "operator": " / ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "4",
+          "goal": 12,
+          "operator": " / ",
+          "spawnMonsters": true
+        }
+      ],
+      "level_count": 40
+    },
+    "gnumch-inequality": {
+      "datasets": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "levels": [
+        {
+          "dataset": "1",
+          "goal": 6,
+          "operator": " + ",
+          "spawnMonsters": false
+        },
+        {
+          "dataset": "1",
+          "goal": 7,
+          "operator": " + ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "1",
+          "goal": 8,
+          "operator": " + ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "1",
+          "goal": 9,
+          "operator": " + ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "1",
+          "goal": 10,
+          "operator": " + ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "1",
+          "goal": 11,
+          "operator": " + ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "1",
+          "goal": 12,
+          "operator": " + ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "1",
+          "goal": 13,
+          "operator": " + ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "1",
+          "goal": 14,
+          "operator": " + ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "1",
+          "goal": 15,
+          "operator": " + ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "2",
+          "goal": 6,
+          "operator": " - ",
+          "spawnMonsters": false
+        },
+        {
+          "dataset": "2",
+          "goal": 7,
+          "operator": " - ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "2",
+          "goal": 8,
+          "operator": " - ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "2",
+          "goal": 9,
+          "operator": " - ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "2",
+          "goal": 10,
+          "operator": " - ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "2",
+          "goal": 11,
+          "operator": " - ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "2",
+          "goal": 12,
+          "operator": " - ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "2",
+          "goal": 13,
+          "operator": " - ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "2",
+          "goal": 14,
+          "operator": " - ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "2",
+          "goal": 15,
+          "operator": " - ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "3",
+          "goal": 8,
+          "operator": " * ",
+          "spawnMonsters": false
+        },
+        {
+          "dataset": "3",
+          "goal": 10,
+          "operator": " * ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "3",
+          "goal": 12,
+          "operator": " * ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "3",
+          "goal": 14,
+          "operator": " * ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "3",
+          "goal": 15,
+          "operator": " * ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "3",
+          "goal": 16,
+          "operator": " * ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "3",
+          "goal": 18,
+          "operator": " * ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "3",
+          "goal": 20,
+          "operator": " * ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "3",
+          "goal": 24,
+          "operator": " * ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "3",
+          "goal": 28,
+          "operator": " * ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "4",
+          "goal": 3,
+          "operator": " / ",
+          "spawnMonsters": false
+        },
+        {
+          "dataset": "4",
+          "goal": 4,
+          "operator": " / ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "4",
+          "goal": 5,
+          "operator": " / ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "4",
+          "goal": 6,
+          "operator": " / ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "4",
+          "goal": 7,
+          "operator": " / ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "4",
+          "goal": 8,
+          "operator": " / ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "4",
+          "goal": 9,
+          "operator": " / ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "4",
+          "goal": 10,
+          "operator": " / ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "4",
+          "goal": 11,
+          "operator": " / ",
+          "spawnMonsters": true
+        },
+        {
+          "dataset": "4",
+          "goal": 12,
+          "operator": " / ",
+          "spawnMonsters": true
+        }
+      ],
+      "level_count": 40
+    },
+    "gnumch-factors": {
+      "datasets": [],
+      "levels": [],
+      "level_count": 8
+    },
+    "gnumch-multiples": {
+      "datasets": [],
+      "levels": [],
+      "level_count": 8
+    },
+    "gnumch-primes": {
+      "datasets": [],
+      "levels": [],
+      "level_count": 8
+    }
+  },
+  "source_files": {
+    "src/activities/gnumch-equality/Smarty.qml": "8868c3a210a2634560bcb68b4b0a66ac2bc155cb7c1a9d55fb596557ad21691c",
+    "src/activities/gnumch-equality/CellDelegate.qml": "17e0c9f432b3162d24bd41d6e2cb1e1c38213be22ff0de597af793aaa64d4664",
+    "src/activities/gnumch-equality/Warning.qml": "a73ae0fe7a5dd796968a33aae36db93544df41bfc4d4140b0d77df1ef39823d0",
+    "src/activities/gnumch-equality/Creature.qml": "0f802c5bf14ccdd1c9dbfe458a5c5086e4a7117395f2615725f6e8e32b563555",
+    "src/activities/gnumch-equality/CMakeLists.txt": "f33954140679e63dfb381face5c17e0fc30c1a88363a52470e6ca2fef90754e5",
+    "src/activities/gnumch-equality/Reggie.qml": "aad077c4f7f9a38dcea1f559941e7b12b1d1979ff1342f41d00fa6b4a6b3c59b",
+    "src/activities/gnumch-equality/Eater.qml": "16dc93272517522171ab30b1d7a37242bd16aa6e27a08062cab88faf793ed1d3",
+    "src/activities/gnumch-equality/Diaper.qml": "dd303d0acd81fc87311ba6d4416c996f3f9af3c8360cb28fe676e4ef0d740212",
+    "src/activities/gnumch-equality/ActivityInfo.qml": "009e80ccc2a3aaedefdf409383718687b4b75a24e0da04a4d46cdbe232546f14",
+    "src/activities/gnumch-equality/gnumch-equality.svg": "0c4433763fe9ca9e2cf0e8b7500dc4372f9f3950606239e9b25c1651fd3a0475",
+    "src/activities/gnumch-equality/Gnumch.qml": "e24f103bde3de2311242e4bf32ceb2feaa716d06fb731dc9444e24c585b57dd6",
+    "src/activities/gnumch-equality/GnumchEquality.qml": "cc72d8e280f0a8f0ec0ace0eb6b342f493aa6e43ce2543dcb4f709d0ecf18b0b",
+    "src/activities/gnumch-equality/Monster.qml": "b41983dd42d2354e82dcc43f9af310ca3ff3cde19706f10231069f0dc68cfc03",
+    "src/activities/gnumch-equality/TopPanel.qml": "16ac01338f48e5c3dc425c8dfc2d472e05e5e7247e08cce50c35714af485e260",
+    "src/activities/gnumch-equality/Muncher.qml": "e80ec5c5343b4cba3414265f8f3949ea4c1fccb7c9e791a1506e157a5dcacd37",
+    "src/activities/gnumch-equality/gnumch-equality.js": "fa096cd927934af0b9bcd9d468ad838c8636b9d1a6e1d4a40880593cda7a514c",
+    "src/activities/gnumch-equality/Fraidy.qml": "c57429fd7c85a93df762bed3dd39326fd4c7a29b30c998a0ef3837f8d51e1658",
+    "src/activities/gnumch-equality/WarnMonster.qml": "47aa7d6c23e462fe31bfd57408b49fa36acb225786a7ccf99d95bf0faf49ef39",
+    "src/activities/gnumch-equality/resource/eat.wav": "403129964166618915ad02c69b51d8e54b31e2a9ec1f6e4b125379cbd01f7ec4",
+    "src/activities/gnumch-equality/resource/smarty.svg": "e40ff6a29ad77dfa0594fc6e1117cc7d3f8e7f2397ecfb1e18702d1a63aa3613",
+    "src/activities/gnumch-equality/resource/eater.svg": "d96c1f3a77bca8b3de3cb52bf84ab26f69a71e68e4625edeeaf8cf05b6a39e2c",
+    "src/activities/gnumch-equality/resource/reggie.svg": "0afabb6d3ff42dadb4424fa76a4248e603c5ba0a3bb52a31dc72fe0ec4984086",
+    "src/activities/gnumch-equality/resource/diaper.svg": "f798781f1487867febed975f0630faae6f2dd9a70055447aa34a8cb237dbf845",
+    "src/activities/gnumch-equality/resource/fraidy.svg": "52f109e730dc9e9de1b5012c28f5a92fca210b4d3ee164d60e5a37fe58a7b562",
+    "src/activities/gnumch-equality/resource/muncher.svg": "e52f041632d4cd4b3b773865c79b98eda1a69bb4dc4a1436ab52393fe9f771d4",
+    "src/activities/gnumch-equality/resource/muncherIcon.svg": "e9f9db504d10d6e9ff6ddb75e31c1043320292fd2a9f615c0a3cab03d1abadcf",
+    "src/activities/gnumch-equality/resource/4/Data.qml": "3d9a2eb9ee6acc2ba132b39f66880a71ce3b412090f21edc26bc98347645d74b",
+    "src/activities/gnumch-equality/resource/2/Data.qml": "426ed26ceec588b809dbdcaa48a93d74b6e7d4164c4d4190a6630c550040639e",
+    "src/activities/gnumch-equality/resource/3/Data.qml": "41e58dc5fb17322cadc9c399391f873592f1725f755a56c18467a47b14c41113",
+    "src/activities/gnumch-equality/resource/1/Data.qml": "b7d3b474f18633c835aff50474306eba252a79bac763e431864b54300974f378",
+    "src/activities/gnumch-inequality/GnumchInequality.qml": "9c61105a1995899f2c7cae8975174f5f31efb302b21c5c1b29e4353ce13215b0",
+    "src/activities/gnumch-inequality/CMakeLists.txt": "76910e42168ec82f28a6eb496e63751d45bd96dcf16d3559612df2c5a41d6d36",
+    "src/activities/gnumch-inequality/ActivityInfo.qml": "3a646afea282b2bf8b9a057eb5ea9851b2a88adafcd38dc33e52411f3a9fae41",
+    "src/activities/gnumch-inequality/gnumch-inequality.svg": "6fc722e637ee2446f2a85ad6c16c54e0e7e2aca9e6ecba069edb75b548f07012",
+    "src/activities/gnumch-inequality/resource/4/Data.qml": "d98dc77e16cf84afeaea498b1044ed0dce0029976a939adcebae60ebac59acc1",
+    "src/activities/gnumch-inequality/resource/2/Data.qml": "4355ef4de28bb1a08045b6842d49723201375ac2da9f2515508df8b9900197e3",
+    "src/activities/gnumch-inequality/resource/3/Data.qml": "090fc5b8af8b4be2f6a89146202df93c586765680a5ca4491dc6105c3ef46010",
+    "src/activities/gnumch-inequality/resource/1/Data.qml": "34cea4ee89162c865b98e6d6e25d2a61d4044df4725aa56dd03b568991f74576",
+    "src/activities/gnumch-factors/CMakeLists.txt": "976481972b281804e5237b11df447d163a8a46f1d99dee793cfde6cc58005018",
+    "src/activities/gnumch-factors/ActivityInfo.qml": "4045f505463bf60a38075fa4e0f76728d4211f21abc6e35996bbfa978b83dd35",
+    "src/activities/gnumch-factors/GnumchFactors.qml": "c9608f367f0f7b2260b022bb4af7ca4b287275f30c68ebf244319dad1a02d148",
+    "src/activities/gnumch-factors/gnumch-factors.svg": "df0788a23c547a98714a4705f5eeaa7ca14044dc82b2dae42276ff9c4c6d17bf",
+    "src/activities/gnumch-multiples/CMakeLists.txt": "01569fc9fd697f042a147472f9a21f903af29ee82da1e47d894a6411de475748",
+    "src/activities/gnumch-multiples/ActivityInfo.qml": "fb4ec6fb0768e521bc2ed1b99839c4140daddaed57f865407f92915aceafc57e",
+    "src/activities/gnumch-multiples/GnumchMultiples.qml": "d196b5325e8088ec2983ca13948e26ded72cc66fb98e99ac30b478941e000d1a",
+    "src/activities/gnumch-multiples/gnumch-multiples.svg": "16110c6a5986ab856be84fbea781f6a2e4746a90772ab1d868b8645d9a745baf",
+    "src/activities/gnumch-primes/CMakeLists.txt": "dae78a254ebb96cc1bc11f31d6da4d0bc07176363689f478f9032ed99556695c",
+    "src/activities/gnumch-primes/ActivityInfo.qml": "21c87a27d5e7db3736ae16ec53bc6cba69ed9c05f24dd021e7beaf455e662f48",
+    "src/activities/gnumch-primes/GnumchPrimes.qml": "e7eda5302d344a4c2c887f82b135356a0a30e81f7e183be91e16edafab26fcc6",
+    "src/activities/gnumch-primes/gnumch-primes.svg": "baca859789984e33345ce482a0be4049f094ddf1b5da1dba34e7e3013f1e1d3b"
+  }
+}
