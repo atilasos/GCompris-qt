@@ -331,9 +331,8 @@ ActivityBase {
                 calendar.selectedDay = calendar.currentDate.getDate();
             }
             function selectLastDayOfMonth() {
-                // on some months, it goes to the next month...
-                if(calendar.currentDate.getDate() == 31) return;
                 var date = new Date(calendar.currentDate);
+                date.setDate(1);
                 date.setMonth(calendar.currentDate.getMonth()+1);
                 date.setDate(0);
                 calendar.currentDate = date;
