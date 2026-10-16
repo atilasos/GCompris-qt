@@ -88,8 +88,44 @@ python3 tests/functional_gnumch/campaigns.py --snapshot SNAPSHOT_NOVO --source-r
 ```
 
 O executor recusa saídas já existentes e
-seleções de níveis inválidas antes de preparar dados. Sete testes Python/CLI
+seleções de níveis inválidas antes de preparar dados. Nove testes Python/CLI
 passam; o oráculo matemático teve vermelho antes de ser implementado.
 Windows, toque, rato/teclado físicos, audição/pronúncia e revisão docente
 permanecem pendentes. Não certifica a matriz global203 nem altera mapa/CSV ou
 build principal.
+
+
+## Revisão da identidade dos recibos
+
+`receipt-inputs.json` liga os44 recibos históricos, incluindo pilotos, baseline
+anterior ao JS corrigido, negativos e resultados finais, ao QML e ao PO exatos
+em `frozen-source/manifest.json`. O auditor exige correspondência dos campos
+`source_sha256` e `portuguese_catalogue_sha256` de cada recibo com esses arquivos.
+Não procura o catálogo atual do projeto, nem escolhe a fase pelo campo mutável
+do próprio recibo. A relação por pasta conserva a fase histórica.
+
+Os21 casos finais e o baseline completo usaram o PO `c8d794b5…`; não houve
+alterações no QML comum entre as fases. Para conservar os três PO anteriores,
+partiu-se do PO final arquivado e inverteram-se, por esta ordem, apenas estas
+substituições msgstr, uma ocorrência cada:
+
+1. `Foste comido por um Ogre.` → `Fos-te comido por um Ogre.` (SHA85f1efbb…,
+   usado por return-green, pointer-pilot e monster-red).
+2. `Carrega em "Enter" ou clica aqui para continuares.` →
+   `Carrega em "Retroceder" ou sobre mim para prosseguires.` (com as aspas
+   escapadas do PO; SHAffcbabed…, usado por title-green, return-red e pilot).
+3. `Igualdade do Gnumch` → `Desigualdade do Gnumch` (SHA51359920…,
+   usado por title-red).
+
+Cada reconstrução coincide com o SHA256 completo já registado pelo launcher
+na execução histórica. Os bytes reconstruídos estão em `catalogue-phases/`
+dentro de `frozen-source`, com hashes completos no manifesto. Não se alterou
+nenhum recibo, caso, screenshot ou saída nativa. `identity-review/` preserva o
+vermelho CLI (12 adulterações antes aceites), o verde e a comparação byte a
+byte dos44 recibos com o checkpoint anterior à correção.
+
+O teste portátil copia a evidência e os dois módulos do auditor para um
+contentor sem rede, sem a worktree original e sem fontes atuais montadas.
+Confere104 níveis e rejeita alterações no QML, PO histórico e manifesto;
+a troca por outro PO histórico válido também é rejeitada. Nove testes passam.
+Não houve nova execução Qt, mudança de produção ou ampliação da cobertura.
