@@ -39,23 +39,17 @@ function initLevel() {
     var cardLoopCount = Math.floor(cardsToDisplay / 2);
     var animalCardLeft = {
         "animalIdentifier": Position.left,
-        "leftArea": items.leftArea,
-        "rightArea": items.rightArea,
         "animalInvisible": false,
         "imageSource": imgSrc[0]
     }
     var animalCardRight = {
         "animalIdentifier": Position.right,
-        "leftArea": items.leftArea,
-        "rightArea": items.rightArea,
         "animalInvisible": false,
         "imageSource": imgSrc[1]
     }
     // this is invisible card so giving any value won't be of any use.
     var animalCardInvisible = {
         "animalIdentifier": Position.right,
-        "leftArea": items.leftArea,
-        "rightArea": items.rightArea,
         "animalInvisible": true,
         "imageSource": imgSrc[1]
     }

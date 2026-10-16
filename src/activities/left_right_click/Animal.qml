@@ -14,6 +14,9 @@ Item {
     z: 10
     visible: !animalInvisible ? true : false
     property bool clicked: false
+    // Targets belong to the scene and outlive model rows during level changes.
+    property Item leftArea
+    property Item rightArea
     height: width
 
     Rectangle {

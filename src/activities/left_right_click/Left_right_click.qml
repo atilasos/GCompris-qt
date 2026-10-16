@@ -130,6 +130,8 @@ ActivityBase {
                 cellWidth: animalCardsArea.animalCardSize
                 model: animalListModel
                 delegate: Animal {
+                    leftArea: leftAreaTarget
+                    rightArea: rightAreaTarget
                     width: animalCardsArea.animalCardSize
                 }
             }
