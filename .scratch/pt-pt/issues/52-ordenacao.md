@@ -1,7 +1,7 @@
 # Ordenar letras, números e frases em PT-PT
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -18,15 +18,25 @@ Verificar dados e recursos de todos os níveis. Corrigir defeitos reproduzidos
 com vermelho/verde. Preservar provas/comandos/hashes e limites de amostragem,
 áudio, Windows e revisão docente. Não repetir ordering_chronology já coberta.
 
-## Progresso — dados
+## Answer
 
-O inventário Qt inicial confirmou as 20 frases efetivamente traduzidas.
-A auditoria independente através de lconvert detetou quatro frases fora dos
-intervalos explícitos nos comentários dos conjuntos: futebol7 (máximo5),
-Sol5 e sair4 (mínimo6), família12 (máximo10). A correção mantém os20 níveis,
-ajusta só essas quatro frases e torna inclusivos os objetivos «Até5/10
-palavras». Vermelho/verde em `functional-ordering/data-{red.log,green.json}`;
-a revisão docente de clareza e das frases alternativas permanece pendente.
+Os seis recibos Qt finais passaram com perfis novos PT-PT, sem rede e com
+269 recursos físicos privados. Concluídos todos os 36 níveis originais:
+8 números, 8 letras e 20 frases, nos 16 conjuntos disponíveis. Houve 36
+ordens erradas rejeitadas, 636 arrastos de jogo, três reordenações no destino
+e três arrastos parciais adicionais reiniciados pela configuração.
 
-Campanhas de arrastos completos e provas finais ainda em execução; esta
-fatia não declara a tarefa resolvida nem aprovação global de jogos/Windows.
+Os oráculos leem rótulos desenhados, com comparação numérica, alfabeto a-z e
+frases PT completas independentes da solução do motor. Verificados Bonus,
+bordos, progressão natural, configuração persistida, ajuda, navegação, foco
+e menu. O fundo carregou e os seus bytes QRC coincidiram com o SVG original.
+
+A auditoria do catálogo compilado reproduziu quatro frases fora das bandas
+explicitadas nos comentários. Corrigidas só essas quatro frases e os dois
+objetivos PT inclusivos. O JS de produção não mudou. O relatório e auditor
+estão em `../functional-ordering/README.md` e `tests/functional_ordering/`.
+
+Os conjuntos aleatórios têm uma amostra nativa por nível, além do inventário
+completo de dados. Não se certificam todas as permutações linguísticas,
+Windows, toque ou áudio físico. Revisão docente permanece pendente, incluindo
+as quatro frases corrigidas. A matriz global mantém aceitação própria.
