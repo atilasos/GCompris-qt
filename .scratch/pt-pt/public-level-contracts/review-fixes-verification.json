@@ -1,0 +1,69 @@
+{
+  "scope": "Verifier/executor regression checks only; no new native Qt campaigns; historical evidence unchanged.",
+  "historical_index_sha256": "39e855e2bd740c70bc6e02f3953cae9babd078ebcd5d5c417764e73353c82f5d",
+  "commands": [
+    {
+      "argv": [
+        "python3",
+        "tests/public_levels/audit.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"activities\": 24, \"identical_red_green_pairs\": 24, \"no_level_modes\": 2, \"scope\": \"Public metadata and next/previous navigation; no game completions\"}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-O",
+        "tests/public_levels/audit.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"activities\": 24, \"identical_red_green_pairs\": 24, \"no_level_modes\": 2, \"scope\": \"Public metadata and next/previous navigation; no game completions\"}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests/public_levels",
+        "-p",
+        "test_*.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".......\n----------------------------------------------------------------------\nRan 7 tests in 4.540s\n\nOK\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "-O",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests/public_levels",
+        "-p",
+        "test_*.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".......\n----------------------------------------------------------------------\nRan 7 tests in 4.152s\n\nOK\n"
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--exit-code",
+        "7cf59ba8c",
+        "--",
+        ".scratch/pt-pt/public-level-contracts/archive"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

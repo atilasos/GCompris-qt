@@ -57,3 +57,23 @@ original permanece em `public-level-candidates.md`.
 A verificação cobre metadados públicos e navegação em Linux/software/offline.
 Não acrescenta jogos concluídos nem aprova CSV, Windows, dispositivos, áudio,
 pronúncia ou revisão docente. Não foi reconstruído o build principal.
+
+## Correções do verificador e executor após a revisão
+
+O auditor fixa no código externo o SHA-256 do `archive/sealed.json` histórico
+(`39e855e2bd740c70bc6e02f3953cae9babd078ebcd5d5c417764e73353c82f5d`).
+Uma substituição coerente do PO verde, cápsula, índices, recibos, estados e selo
+é rejeitada, mesmo que todos os hashes internos sejam recalculados.
+
+O executor recusa uma saída existente antes de criar casos, abrir logs ou
+invocar processos. Usa criação exclusiva para logs e estados; uma recusa do
+supervisor com código 2 não produz um estado sobre um recibo preexistente.
+O teste verifica que todos os bytes anteriores permanecem inalterados.
+
+Os sete testes passam em Python normal e com `-O`. A cópia isolada também
+verifica o arquivo original, rejeita a adulteração coerente e executa a recusa
+sobre a saída existente em ambos os modos. Nenhuma campanha Qt foi repetida:
+os índices, cápsulas, recibos, recursos e observações anteriores conservam os
+bytes e a fase histórica. A nova verificação está em
+`review-fixes-verification.json`; `verification.json` continua a registar os
+comandos da campanha original.
