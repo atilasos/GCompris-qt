@@ -1,0 +1,32 @@
+FFF
+======================================================================
+FAIL: test_optimized_python_is_explicitly_rejected_at_cli_boundaries (test_cli.ValidationInterpreter.test_optimized_python_is_explicitly_rejected_at_cli_boundaries) (filename='phase.py')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-magic-hat/tests/functional_magic_hat/test_cli.py", line 15, in test_optimized_python_is_explicitly_rejected_at_cli_boundaries
+    self.assertNotEqual(result.returncode,0)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 == 0
+
+======================================================================
+FAIL: test_optimized_python_is_explicitly_rejected_at_cli_boundaries (test_cli.ValidationInterpreter.test_optimized_python_is_explicitly_rejected_at_cli_boundaries) (filename='prepare.py')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-magic-hat/tests/functional_magic_hat/test_cli.py", line 15, in test_optimized_python_is_explicitly_rejected_at_cli_boundaries
+    self.assertNotEqual(result.returncode,0)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 == 0
+
+======================================================================
+FAIL: test_optimized_python_is_explicitly_rejected_at_cli_boundaries (test_cli.ValidationInterpreter.test_optimized_python_is_explicitly_rejected_at_cli_boundaries) (filename='inventory.py')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-magic-hat/tests/functional_magic_hat/test_cli.py", line 15, in test_optimized_python_is_explicitly_rejected_at_cli_boundaries
+    self.assertNotEqual(result.returncode,0)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 == 0
+
+----------------------------------------------------------------------
+Ran 1 test in 0.634s
+
+FAILED (failures=3)

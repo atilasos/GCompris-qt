@@ -1,0 +1,55 @@
+{
+  "kind": "post-wait-tool-completion-observations",
+  "recorded_at_utc": "2026-10-16T02:29:24.425022+00:00",
+  "provenance": "Transcribed from actual retained tools.write_stdin completion responses after waiting for each session. Independent of native receipt status and launcher-status files; diagnostic external 1 differs from native Qt 0.",
+  "observations": {
+    "minus-complete": {
+      "tool_session_id": 72816,
+      "tool_exit_code": 0,
+      "tool_chunk_id": "93a5b9",
+      "tool_response_output": "",
+      "native_receipt_sha256": "bfcccce38b260fc626ae115edff60b3c6e2c6844b746558f2a0cccf786dc0c8d",
+      "case_sha256": "48b705aadfec8589f69bdb98f2420ad53d9d17bfc89093d55d4f24201056a96d"
+    },
+    "plus-complete": {
+      "tool_session_id": 48610,
+      "tool_exit_code": 0,
+      "tool_chunk_id": "8cf208",
+      "tool_response_output": "",
+      "native_receipt_sha256": "3ac4d2365e4956121ccbc5969cb5179f95a5e2d96cdf8439449efc0e48e46a59",
+      "case_sha256": "48b705aadfec8589f69bdb98f2420ad53d9d17bfc89093d55d4f24201056a96d"
+    },
+    "minus-controls": {
+      "tool_session_id": 8852,
+      "tool_exit_code": 0,
+      "tool_chunk_id": "211990",
+      "tool_response_output": "",
+      "native_receipt_sha256": "0c5080753079d9b18f847e0df9d7ae2742cb13ad5d135b862f79c39e36af3e61",
+      "case_sha256": "8989cc1f3f392d1e0fc2aca60d1f286a5e19d7eb661d067e1d2fb888f889fc61"
+    },
+    "plus-controls": {
+      "tool_session_id": 62663,
+      "tool_exit_code": 0,
+      "tool_chunk_id": "7ae7a3",
+      "tool_response_output": "",
+      "native_receipt_sha256": "1391a84acccee052a714c1fd0d2f39bb0027fa14789d42dd23b65ec56504212d",
+      "case_sha256": "8989cc1f3f392d1e0fc2aca60d1f286a5e19d7eb661d067e1d2fb888f889fc61"
+    },
+    "minus-tracer": {
+      "tool_session_id": 41074,
+      "tool_exit_code": 0,
+      "tool_chunk_id": "bd982e",
+      "tool_response_output": "",
+      "native_receipt_sha256": "96bf250adcc51c648f5b662000f405e257e9742641ec35e245f504a04a716959",
+      "case_sha256": "35673676303cf5eafab69611477ee20b1fc90e5ab94549824495511b06f3165e"
+    },
+    "help-vocabulary-diagnostic": {
+      "tool_session_id": 71716,
+      "tool_exit_code": 1,
+      "tool_chunk_id": "e21496",
+      "tool_response_output": "",
+      "native_receipt_sha256": "600a72f3113becd1e6dcc6a42013b3426bd93bcd40f1e7ed1228cb564378261c",
+      "case_sha256": "0b5bc11e904809a689caf4b41f79416e00944075c8ae4b0de6658ae718aa84aa"
+    }
+  }
+}
