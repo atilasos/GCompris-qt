@@ -14,7 +14,7 @@ import "../../core"
 Item {
     id: button
     width: parent.width * 0.2
-    height: parent.height
+    height: width
 
     property alias source: buttonImage.source
     property bool buttonsBlocked

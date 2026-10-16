@@ -1,0 +1,74 @@
+{
+  "qrc:/gcompris/data/voices-ogg/pt/misc/perfect.ogg": {
+    "sha256": "1113093de89eccaa68ed3b2d771ad8d1bf5e81a2014ddcebb14903efd56a738d",
+    "bytes": 9409
+  },
+  "qrc:/gcompris/data/voices-ogg/pt/misc/waytogo.ogg": {
+    "sha256": "d1a514d4c511663be47898d83aed240f33ad2cad759af96ba4abece6a7098fb0",
+    "bytes": 8954
+  },
+  "qrc:/gcompris/data/voices-ogg/pt/misc/good.ogg": {
+    "sha256": "9ed340bc04075447486b47705bddb174d9dd70bda3133ba2412bcae21960f186",
+    "bytes": 7719
+  },
+  "qrc:/gcompris/data/voices-ogg/pt/misc/super.ogg": {
+    "sha256": "3c01448187be7b0a4f13ef58d508fe7b46b8f4d8b4274df6d4ad32468f17451c",
+    "bytes": 8866
+  },
+  "qrc:/gcompris/data/voices-ogg/pt/misc/congratulation.ogg": {
+    "sha256": "5a06864be4b374c79dad9226f2ea80ef42df7ecb00d9e2872bcfaa3e09e579d9",
+    "bytes": 8819
+  },
+  "qrc:/gcompris/data/voices-ogg/pt/misc/fantastic.ogg": {
+    "sha256": "fdcd1f81058421cd1a45027c09946189bcea1c04ddb988632fad80869374eb39",
+    "bytes": 9589
+  },
+  "qrc:/gcompris/data/voices-ogg/pt/misc/great.ogg": {
+    "sha256": "e7322b2fa9d5070a4f9068d2baedda731e6aa64c66477615187f192ebef70546",
+    "bytes": 8146
+  },
+  "qrc:/gcompris/data/voices-ogg/pt/colors/purple.ogg": {
+    "sha256": "022a8a770d695a79fe33660781ec257871e34e329ad511e0dbb088f4b7c9bbe7",
+    "bytes": 7616
+  },
+  "qrc:/gcompris/data/voices-ogg/pt/colors/white.ogg": {
+    "sha256": "7b1b4ee6474c7b7aecda5ea04425374c3bb518c34a5742e6bc8dcac279b4ee03",
+    "bytes": 7402
+  },
+  "qrc:/gcompris/data/voices-ogg/pt/colors/blue.ogg": {
+    "sha256": "cb7ebc085393ef9e9a215fe3da6865c45084d8139e59715599502cb1fcf2c33d",
+    "bytes": 7410
+  },
+  "qrc:/gcompris/data/voices-ogg/pt/colors/red.ogg": {
+    "sha256": "e55b7105bd6c53c87114ff54cfec554b30c33ca41d49783fe22f6b95f26b4296",
+    "bytes": 8459
+  },
+  "qrc:/gcompris/data/voices-ogg/pt/colors/yellow.ogg": {
+    "sha256": "33344409afa13d799f02a89251563b69470fbe516ef1adfce68f2a5d62bfdf4a",
+    "bytes": 8051
+  },
+  "qrc:/gcompris/data/voices-ogg/pt/colors/black.ogg": {
+    "sha256": "75863bb7267dd837ede2c15e3ce096d5ba623f11df5adb0d91fac1aa14ec3e13",
+    "bytes": 7455
+  },
+  "qrc:/gcompris/data/voices-ogg/pt/colors/green.ogg": {
+    "sha256": "a8c2eb54baaafd0fb71fcfd2e29acbbc23feaae9a08f749f513c4e9bcd227ace",
+    "bytes": 7946
+  },
+  "qrc:/gcompris/data/voices-ogg/pt/colors/brown.ogg": {
+    "sha256": "4fcf42abe3faa07f45c0f46dc85362252f76fbf03265975b7a8b821cdc7659d1",
+    "bytes": 8755
+  },
+  "qrc:/gcompris/data/voices-ogg/pt/colors/grey.ogg": {
+    "sha256": "225fd8ac7e228ce9fc1c418d49ef3192d6c401204df836fb08bdeaca94e7f4b5",
+    "bytes": 9170
+  },
+  "qrc:/gcompris/data/voices-ogg/pt/colors/orange.ogg": {
+    "sha256": "4b9911bfa1e9e79abdd0b0e586077aefa32d5207839a77a4d8d9c78cd2a9fcda",
+    "bytes": 8913
+  },
+  "qrc:/gcompris/data/voices-ogg/pt/colors/pink.ogg": {
+    "sha256": "04f5016468c83fa543b8f74c62e37b9796e68e95961eec97005fe884b9c8c494",
+    "bytes": 9023
+  }
+}
