@@ -1,7 +1,7 @@
 # Contagens públicas dos níveis
 
 Status: ready-for-agent
-Progress: resolved
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -51,3 +51,9 @@ Não foram acrescentadas conclusões funcionais nem alterações ao CSV. Galo e
 penálti continuam nas tarefas 80/81. O manifesto de 269 recursos está preservado;
 a cápsula compacta não inclui o runtime completo necessário a repetir Qt.
 Windows, equipamento, áudio, pronúncia e revisão docente continuam pendentes.
+
+## Integração
+
+Provas integradas para Standards e Spec independentes. São contratos públicos
+de níveis, não conclusão funcional dos jogos. `ready-for-review` não aprova
+critérios globais ou resolução final; nenhuma ligação funcional foi acrescentada.

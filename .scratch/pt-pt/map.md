@@ -348,3 +348,8 @@ A tarefa 79 tem provas Linux integradas de 186 perguntas principais/31 níveis
 e quatro perguntas de editor, sem confundir entradas estáticas com partidas.
 Está `ready-for-review`, aguardando Standards e Spec independentes. Duas
 ligações mantêm os critérios globais, Windows, hardware, áudio e docente pendentes.
+
+A tarefa 82 tem 24 contratos públicos e 50 execuções documentadas. Está
+`ready-for-review`, aguardando Standards e Spec independentes. Não representa
+conclusão dos jogos, não acrescenta ligações funcionais à matriz nem altera
+critérios globais, Windows, hardware, áudio ou revisão docente.
