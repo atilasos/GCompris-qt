@@ -1,7 +1,7 @@
 # Chapéu mágico de adição e subtração em PT-PT
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -67,3 +67,8 @@ continuam pendentes; os critérios globais não são aprovados por este lote.
 
 Provas integradas para Standards e Spec independentes. `ready-for-review`
 não representa resolução final ou aceitação global.
+
+## Fecho de revisão
+
+Standards e Spec sem achados acionáveis; [relatórios](../review/integration71/).
+Resolução limitada à prova Linux publicada, sem alterar critérios globais.

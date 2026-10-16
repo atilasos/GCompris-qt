@@ -290,6 +290,6 @@ dos critérios globais, Windows, hardware, áudio e revisão docente.
 - [75 — Associar imagens, formas e nomes](issues/75-associar-imagens.md)
 
 A tarefa 71 tem provas Linux integradas dos dois chapéus mágicos: 41 níveis
-por jogo, 82 puzzles e 82 erros reparados. Está `ready-for-review`, aguardando
-Standards e Spec independentes. Duas ligações foram acrescentadas sem alterar
+por jogo, 82 puzzles e 82 erros reparados. Fica resolvida no âmbito Linux após
+Standards e Spec sem achados; [relatórios](review/integration71/). Duas ligações mantêm os
 critérios globais, Windows, hardware, áudio ou revisão docente.
