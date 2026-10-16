@@ -1,7 +1,7 @@
 # Validar desenho livre e rodas de desenho
 
 Status: ready-for-agent
-Progress: open
+Progress: claimed
 Type: task
 Blocked by: 02, 25, 82
 
