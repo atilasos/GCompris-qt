@@ -81,4 +81,3 @@ class PortableHistoricalInputs(unittest.TestCase):
    self.assertNotEqual(invoke().returncode, 0)
 
 if __name__ == '__main__': unittest.main()
-

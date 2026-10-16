@@ -44,3 +44,10 @@ anteriores reconstruídos por inversão das traduções documentadas coincidem
 exatamente com os hashes das execuções. Todos os44 recibos, incluindo21 finais,
 conservam os bytes. Nove testes passam, incluindo negativos CLI e cópia isolada
 sem os caminhos originais; sem repetir Qt. Ver `identity-review/` na evidência.
+
+## Fecho de revisão
+
+O recheck Standards confirmou o P2 fechado na integração `9e7c0a0db`, após
+nove testes e conferência dos 44 recibos byte a byte. Relatórios inicial e
+final em `../review/integration53-59/`. Resolução limitada à prova Linux;
+Windows, hardware, audição e revisão docente mantêm-se pendentes.
