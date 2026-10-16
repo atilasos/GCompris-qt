@@ -1,0 +1,61 @@
+EEEE
+======================================================================
+ERROR: test_mixed_pair_is_rejected_even_when_both_components_are_known (test_voice_container_policy.ContainerPolicyTest.test_mixed_pair_is_rejected_even_when_both_components_are_known)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-windows-rcc-policy/tests/test_voice_container_policy.py", line 91, in test_mixed_pair_is_rejected_even_when_both_components_are_known
+    self.assertIn('voice-completion-manifest', self.check(completion)['corrupt'])
+                                               ~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-windows-rcc-policy/tests/test_voice_container_policy.py", line 76, in check
+    return package.check(self.stage, [], [], completion=completion, voice_policy=self.policy,
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         voice_container_variants=self.variants)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: check() got an unexpected keyword argument 'voice_container_variants'
+
+======================================================================
+ERROR: test_same_qt_resources_in_distinct_pinned_containers_are_accepted (test_voice_container_policy.ContainerPolicyTest.test_same_qt_resources_in_distinct_pinned_containers_are_accepted) (index=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-windows-rcc-policy/tests/test_voice_container_policy.py", line 85, in test_same_qt_resources_in_distinct_pinned_containers_are_accepted
+    self.assertEqual(self.check(self.install(index))['corrupt'], [])
+                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-windows-rcc-policy/tests/test_voice_container_policy.py", line 76, in check
+    return package.check(self.stage, [], [], completion=completion, voice_policy=self.policy,
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         voice_container_variants=self.variants)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: check() got an unexpected keyword argument 'voice_container_variants'
+
+======================================================================
+ERROR: test_same_qt_resources_in_distinct_pinned_containers_are_accepted (test_voice_container_policy.ContainerPolicyTest.test_same_qt_resources_in_distinct_pinned_containers_are_accepted) (index=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-windows-rcc-policy/tests/test_voice_container_policy.py", line 85, in test_same_qt_resources_in_distinct_pinned_containers_are_accepted
+    self.assertEqual(self.check(self.install(index))['corrupt'], [])
+                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-windows-rcc-policy/tests/test_voice_container_policy.py", line 76, in check
+    return package.check(self.stage, [], [], completion=completion, voice_policy=self.policy,
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         voice_container_variants=self.variants)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: check() got an unexpected keyword argument 'voice_container_variants'
+
+======================================================================
+ERROR: test_tamper_and_coherent_reseal_are_rejected (test_voice_container_policy.ContainerPolicyTest.test_tamper_and_coherent_reseal_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-windows-rcc-policy/tests/test_voice_container_policy.py", line 97, in test_tamper_and_coherent_reseal_are_rejected
+    self.assertIn('share/GCompris/rcc/data3/voices-ogg/completed.rcc', self.check(completion)['corrupt'])
+                                                                       ~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-windows-rcc-policy/tests/test_voice_container_policy.py", line 76, in check
+    return package.check(self.stage, [], [], completion=completion, voice_policy=self.policy,
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         voice_container_variants=self.variants)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: check() got an unexpected keyword argument 'voice_container_variants'
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.883s
+
+FAILED (errors=4)

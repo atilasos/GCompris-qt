@@ -15,3 +15,7 @@ No head 11f6ff1c4, a conclusão Windows verifica os 1610 recursos mas gera RCC S
 ## Aceitação
 
 Reproduzir e corrigir a diferença do contentor entre plataformas, com teste de regressão. Pipeline Windows completo verde, EXE efetivo verificado por hash, publicação HTTPS em endereço curto testada com conteúdo real. Registar limites de testes CI versus Windows 10 da escola.
+
+## Correção do verificador preparada
+
+Política de dois pares físicos RCC+Contents fixados, sem misturas nem confiança nos hashes declarados. Invariantes, áudios e proveniência preservados. Fonte, red/green Qt real e limites em ../windows-rcc-policy/README.md. 40 testes verdes, 14 também -O; auditor Linux histórico compatível. A prova Windows física completa e a publicação continuam a cargo do coordenador na próxima CI. A tarefa permanece claimed.
