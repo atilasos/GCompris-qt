@@ -1,0 +1,7 @@
+test_existing_output_bytes_are_untouched (test_cli.SupervisedCLI.test_existing_output_bytes_are_untouched) ... ok
+test_green_native_json_does_not_hide_child_failure (test_cli.SupervisedCLI.test_green_native_json_does_not_hide_child_failure) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.144s
+
+OK

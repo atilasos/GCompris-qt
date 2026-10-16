@@ -34,7 +34,7 @@ def main():
     case=ROOT/'build/functional-money/cases'/(f'{args.activity}-'+('controls.qml' if args.controls else str(args.mode)+'.qml'))
     case.parent.mkdir(parents=True,exist_ok=True)
     case.write_text(template)
-    command=[sys.executable,str(source/'tools/run-native-qml-case.py'),'--source-root',str(source),'--resource-snapshot',str(args.snapshot.resolve()),'--activity',args.activity,'--qml-file',str(source/'src/activities/money/MoneyCore.qml'),'--case',str(case),'--output',str(output),'--result-marker','NATIVE_MONEY_RESULT','--offline','--timeout','900']
+    command=[sys.executable,str(ROOT/'tools/run-native-qml-supervised.py'),'--launcher',str(source/'tools/run-native-qml-case.py'),'--source-root',str(source),'--resource-snapshot',str(args.snapshot.resolve()),'--activity',args.activity,'--qml-file',str(source/'src/activities/money/MoneyCore.qml'),'--case',str(case),'--output',str(output),'--result-marker','NATIVE_MONEY_RESULT','--offline','--timeout','900']
     completed=subprocess.run(command)
     if output.exists():
         shutil.copyfile(case,output/'case.qml')

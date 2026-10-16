@@ -1,0 +1,29 @@
+test_existing_output_bytes_are_untouched (test_cli.SupervisedCLI.test_existing_output_bytes_are_untouched) ... ok
+test_green_native_json_does_not_hide_child_failure (test_cli.SupervisedCLI.test_green_native_json_does_not_hide_child_failure) ... 
+  test_green_native_json_does_not_hide_child_failure (test_cli.SupervisedCLI.test_green_native_json_does_not_hide_child_failure) (exit_code=0) ... FAIL
+  test_green_native_json_does_not_hide_child_failure (test_cli.SupervisedCLI.test_green_native_json_does_not_hide_child_failure) (exit_code=1) ... FAIL
+
+======================================================================
+FAIL: test_green_native_json_does_not_hide_child_failure (test_cli.SupervisedCLI.test_green_native_json_does_not_hide_child_failure) (exit_code=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-review-status-anchors/tests/native_qml_supervised/test_cli.py", line 15, in test_green_native_json_does_not_hide_child_failure
+    self.assertTrue((output/'launcher-status.json').is_file(),p.stderr)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : /usr/bin/python3: can't open file '/home/proteu/Projetos/GCompris-qt-worktrees/pt-review-status-anchors/tools/run-native-qml-supervised.py': [Errno 2] No such file or directory
+
+
+======================================================================
+FAIL: test_green_native_json_does_not_hide_child_failure (test_cli.SupervisedCLI.test_green_native_json_does_not_hide_child_failure) (exit_code=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-review-status-anchors/tests/native_qml_supervised/test_cli.py", line 15, in test_green_native_json_does_not_hide_child_failure
+    self.assertTrue((output/'launcher-status.json').is_file(),p.stderr)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : /usr/bin/python3: can't open file '/home/proteu/Projetos/GCompris-qt-worktrees/pt-review-status-anchors/tools/run-native-qml-supervised.py': [Errno 2] No such file or directory
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.027s
+
+FAILED (failures=2)

@@ -24,6 +24,27 @@ class IdentityAudit(unittest.TestCase):
       self.assertNotEqual(run.returncode,0,f'Accepted altered {field} in {folder}')
       file.write_bytes(original)
 
+class CoherentlyResealedArchive(unittest.TestCase):
+ def test_resealed_po_manifest_bindings_and_receipts_are_rejected(self):
+  with tempfile.TemporaryDirectory(prefix='vertical-resealed-') as tmp:
+   evidence=Path(tmp)/'copy';shutil.copytree(EVIDENCE,evidence,ignore=shutil.ignore_patterns('.native-qml-*'))
+   source=evidence/'frozen-source/complete'
+   extra=source/'src/activities/vertical_subtraction/manifest.json';extra.write_text('{}')
+   result=subprocess.run([sys.executable,str(AUDITOR),str(evidence)],capture_output=True,text=True,timeout=30)
+   self.assertNotEqual(result.returncode,0,'The root manifest exception must not hide an extra nested file')
+   extra.unlink()
+   catalogue=source/'poqm/pt/gcompris_qt.po';catalogue.write_bytes(catalogue.read_bytes()+b'\n# changed historical bytes\n')
+   qml=source/'src/activities/vertical_subtraction/VerticalSubtraction.qml';qml.write_bytes(qml.read_bytes()+b'\n// changed historical bytes\n')
+   manifest=source/'manifest.json';data=json.loads(manifest.read_text());data['poqm/pt/gcompris_qt.po']=sha(catalogue);data['src/activities/vertical_subtraction/VerticalSubtraction.qml']=sha(qml);manifest.write_text(json.dumps(data,indent=2)+'\n')
+   file=evidence/'receipt-inputs.json';bindings=json.loads(file.read_text())
+   for folder,binding in bindings.items():
+    if binding['source']=='frozen-source/complete':
+     binding['source_manifest_sha256']=sha(manifest)
+     receipt=evidence/folder/'result.json';data=json.loads(receipt.read_text());data['portuguese_catalogue_sha256']=sha(catalogue);data['source_sha256']=sha(qml);receipt.write_text(json.dumps(data))
+   file.write_text(json.dumps(bindings));reseal_index(evidence)
+   result=subprocess.run([sys.executable,str(AUDITOR),str(evidence)],capture_output=True,text=True,timeout=30)
+   self.assertNotEqual(result.returncode,0,'Coherently re-signed historical PO must not pass an immutable-source audit')
+
 @unittest.skipUnless(shutil.which('docker'),'Copied-proof isolation requires Docker')
 class PortableAudit(unittest.TestCase):
  def test_copy_passes_without_worktree_and_corrupt_archives_are_rejected(self):

@@ -1,0 +1,19 @@
+test_altered_native_result_arithmetic_is_rejected (test_audit.HistoricalMoneyEvidence.test_altered_native_result_arithmetic_is_rejected) ... ok
+test_captured_rcc_identity_is_not_an_approval_baseline (test_audit.HistoricalMoneyEvidence.test_captured_rcc_identity_is_not_an_approval_baseline) ... ok
+test_copied_case_bytes_are_independent_and_tampering_is_rejected (test_audit.HistoricalMoneyEvidence.test_copied_case_bytes_are_independent_and_tampering_is_rejected) ... ok
+test_green_native_receipt_with_failed_launcher_is_rejected (test_audit.HistoricalMoneyEvidence.test_green_native_receipt_with_failed_launcher_is_rejected) ... ok
+test_index_refuses_failed_launcher_without_overwriting_old_index (test_audit.HistoricalMoneyEvidence.test_index_refuses_failed_launcher_without_overwriting_old_index) ... ok
+test_original_and_independent_moved_copy_are_valid (test_audit.HistoricalMoneyEvidence.test_original_and_independent_moved_copy_are_valid) ... ok
+test_receipt_catalogue_identity_is_bound_to_tested_revision (test_audit.HistoricalMoneyEvidence.test_receipt_catalogue_identity_is_bound_to_tested_revision) ... ok
+test_receipt_source_hash_cannot_be_laundered_through_a_new_index (test_audit.HistoricalMoneyEvidence.test_receipt_source_hash_cannot_be_laundered_through_a_new_index) ... ok
+test_retrospective_observations_are_immutable (test_audit.HistoricalMoneyEvidence.test_retrospective_observations_are_immutable) ... ok
+test_snapshot_file_hash_tampering_is_rejected (test_audit.HistoricalMoneyEvidence.test_snapshot_file_hash_tampering_is_rejected) ... ok
+test_source_identity_hash_tampering_is_rejected (test_audit.HistoricalMoneyEvidence.test_source_identity_hash_tampering_is_rejected) ... ok
+test_source_map_path_replacement_is_rejected (test_audit.HistoricalMoneyEvidence.test_source_map_path_replacement_is_rejected) ... ok
+test_finite_wallet_finds_a_non_greedy_exact_payment (test_oracle.MoneyArithmetic.test_finite_wallet_finds_a_non_greedy_exact_payment) ... ok
+test_portuguese_prices_are_exact_integer_cents (test_oracle.MoneyArithmetic.test_portuguese_prices_are_exact_integer_cents) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 9.076s
+
+OK

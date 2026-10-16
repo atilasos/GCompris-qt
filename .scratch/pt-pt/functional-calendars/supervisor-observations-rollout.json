@@ -1,0 +1,665 @@
+{
+  "provenance": "Reconstructed retrospectively from original root rollout custom_tool_call and custom_tool_call_output records, strengthening the prior memory-based observation list without replacing it. This file is not a native receipt or contemporaneously emitted launcher-status file. It preserves exact raw source event records, ordinal/timestamp/call_id/chunk and SHA-256 of each raw JSONL record without its terminating newline.",
+  "recorded_at_utc": "2026-10-16T01:19:26.034200+00:00",
+  "scope": "The 14 selected historical calendar cases only; no Qt rerun, no repository modification, no future execution attestation.",
+  "input_manifest_path": "/tmp/gcompris-calendar-supervisor-observations.json",
+  "input_manifest_sha256": "5802b004a8dd7a501b5eb45c664ba73d17b22756e4472164fd0818cafe672ec2",
+  "immutable_native_proof_revision": "9750a053ad248e7a368df59eebedc027d7724439",
+  "evidence_rollout_path": "/home/proteu/.codex/sessions/2026/10/15/rollout-2026-10-15T08-46-19-01a13e86-b6cd-75e3-85f5-4684df271ce7.jsonl",
+  "native_and_wrapper_distinction": "Native receipt exit_code is recorded separately and does not determine any external outcome. Direct tool returns attest direct launchers. Grouped coordinator tool returns attest the coordinator only; per-launcher returns come from its printed subprocess.wait() list, verified against original command input.",
+  "missing_outcomes": [],
+  "observations": [
+    {
+      "directory": "title-red",
+      "launcher_exit_code": 1,
+      "native_receipt_sha256": "5c606aa3afcaa588f11878314949e80872c799fff7f35ff3277f1b5a5e23837c",
+      "tool_session_id": "58756",
+      "tool_response_exit_code": 1,
+      "tool_response_output": "",
+      "case_path": ".scratch/pt-pt/functional-calendars/title-visible.qml",
+      "case_sha256": "9e21f494d37489c1b3f47bf79e6aa101f3376ff63427b0e7c2dce32d3a44c5bd",
+      "tool_start": {
+        "ordinal": 11259,
+        "timestamp_utc": "2026-10-16T00:51:29.229Z",
+        "output_block_index": 1,
+        "call_id": "call_07c0cdbb220c49998634007d30427c55",
+        "response": {
+          "chunk_id": "d46d20",
+          "wall_time_seconds": 1.000693934,
+          "session_id": 58756,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 11274,
+        "timestamp_utc": "2026-10-16T00:51:57.641Z",
+        "call_id": "call_414a8d512b99412fb85916160ca22731",
+        "output_block_index": 1,
+        "chunk_id": "cafe1d",
+        "raw_rollout_record_sha256": "9b83bf31e41d9ef6dad1cdd15ca9f9edb1c560467ff382fd580939cd42e614a1"
+      },
+      "observed_command_kind": "native launcher directly",
+      "grouped_wait_result_key": null,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": false
+    },
+    {
+      "directory": "title-green",
+      "launcher_exit_code": 0,
+      "native_receipt_sha256": "d263d3ab17ef4cb3b606f860d7400b5edb420d9b4ed68eb80f207c6ff314d4fe",
+      "tool_session_id": "7576",
+      "tool_response_exit_code": 0,
+      "tool_response_output": "",
+      "case_path": ".scratch/pt-pt/functional-calendars/title-visible.qml",
+      "case_sha256": "9e21f494d37489c1b3f47bf79e6aa101f3376ff63427b0e7c2dce32d3a44c5bd",
+      "tool_start": {
+        "ordinal": 11282,
+        "timestamp_utc": "2026-10-16T00:52:08.358Z",
+        "output_block_index": 1,
+        "call_id": "call_44f911c0daa142cba4859502fceb8d70",
+        "response": {
+          "chunk_id": "1941ec",
+          "wall_time_seconds": 1.001107831,
+          "session_id": 7576,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 11297,
+        "timestamp_utc": "2026-10-16T00:53:14.164Z",
+        "call_id": "call_a76e45ee01ac4a1d81803c168165a575",
+        "output_block_index": 1,
+        "chunk_id": "34b552",
+        "raw_rollout_record_sha256": "b55205f057ed43179f07d6a67d6defba6bb88dbacc74c459e9c27c924722ab3a"
+      },
+      "observed_command_kind": "native launcher directly",
+      "grouped_wait_result_key": null,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "month-navigation-red",
+      "launcher_exit_code": 1,
+      "native_receipt_sha256": "df485f70052a921e173fc42d95b8afab193ca166e0ecf3f6a22d7c42c19bc2ad",
+      "tool_session_id": "85760",
+      "tool_response_exit_code": 1,
+      "tool_response_output": "",
+      "case_path": ".scratch/pt-pt/functional-calendars/month-navigation.qml",
+      "case_sha256": "516fdd6141714d9ba64cdec79280ffcbfa554047a91c6b7f4d22e08bca06ec5f",
+      "tool_start": {
+        "ordinal": 11371,
+        "timestamp_utc": "2026-10-16T00:55:50.533Z",
+        "output_block_index": 1,
+        "call_id": "call_fbd6ae5c41a942d0835e406cda2f07c8",
+        "response": {
+          "chunk_id": "8b30af",
+          "wall_time_seconds": 1.001018602,
+          "session_id": 85760,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 11379,
+        "timestamp_utc": "2026-10-16T00:56:07.969Z",
+        "call_id": "call_1e6650d010c94d5ba1e77b9f2e06c488",
+        "output_block_index": 1,
+        "chunk_id": "180e23",
+        "raw_rollout_record_sha256": "08b5f44cdd21a2560bd0e2f7fc47c30d7ec7dcb97c879351c6771bd582dd820f"
+      },
+      "observed_command_kind": "native launcher directly",
+      "grouped_wait_result_key": null,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": false
+    },
+    {
+      "directory": "month-navigation-green",
+      "launcher_exit_code": 0,
+      "native_receipt_sha256": "0ca1c91d066c8f06556c77cad85c7c608486aff36709bb3c74d531537e35ad8c",
+      "tool_session_id": "30511",
+      "tool_response_exit_code": 0,
+      "tool_response_output": "",
+      "case_path": ".scratch/pt-pt/functional-calendars/month-navigation.qml",
+      "case_sha256": "516fdd6141714d9ba64cdec79280ffcbfa554047a91c6b7f4d22e08bca06ec5f",
+      "tool_start": {
+        "ordinal": 11394,
+        "timestamp_utc": "2026-10-16T00:56:37.953Z",
+        "output_block_index": 1,
+        "call_id": "call_86d2a2c058a2427fba3aaf40fb8e32cd",
+        "response": {
+          "chunk_id": "618e4c",
+          "wall_time_seconds": 1.000823287,
+          "session_id": 30511,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 11410,
+        "timestamp_utc": "2026-10-16T00:57:18.286Z",
+        "call_id": "call_13785d8e283c453a8f6cd92df493f13e",
+        "output_block_index": 1,
+        "chunk_id": "9f6b14",
+        "raw_rollout_record_sha256": "f0e2599afeb1baecdacb739f6f7f74522cf48e19b1d772253ca5f1a7c0cb514b"
+      },
+      "observed_command_kind": "native launcher directly",
+      "grouped_wait_result_key": null,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "orthography-diagnostic-red",
+      "launcher_exit_code": 1,
+      "native_receipt_sha256": "f3b8b5a93f4f5e1973146412f4ab01431069bdeabc32e11bc2a83fc978116ebc",
+      "tool_session_id": "45769",
+      "tool_response_exit_code": 0,
+      "tool_response_output": "[('red', 1), ('green', 0)]\n",
+      "case_path": ".scratch/pt-pt/functional-calendars/orthography-diagnostic.qml",
+      "case_sha256": "d80a8d5b4dafb1bb4a035b74927046d69c44322134773a5b40d47bbf244d65b7",
+      "tool_start": {
+        "ordinal": 11481,
+        "timestamp_utc": "2026-10-16T01:00:22.391Z",
+        "output_block_index": 1,
+        "call_id": "call_e8d1208b23c343a4b70c8a541b1d7650",
+        "response": {
+          "chunk_id": "a21fc5",
+          "wall_time_seconds": 1.001415227,
+          "session_id": 45769,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 11498,
+        "timestamp_utc": "2026-10-16T01:01:05.338Z",
+        "call_id": "call_1f7afafdc17c40f281e83338cc905ccd",
+        "output_block_index": 1,
+        "chunk_id": "be69b4",
+        "raw_rollout_record_sha256": "45374cd1808da5eb4c64456e059c6b086431efbfd2345e41bba55e28cb02d0ea"
+      },
+      "observed_command_kind": "Python coordinator printing actual subprocess.wait() results",
+      "grouped_wait_result_key": "red",
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": false
+    },
+    {
+      "directory": "orthography-diagnostic-green",
+      "launcher_exit_code": 0,
+      "native_receipt_sha256": "ea4986e5689bca27d4462b1e4b6960143631ac1f7ee5a2c67296a1be3682f472",
+      "tool_session_id": "45769",
+      "tool_response_exit_code": 0,
+      "tool_response_output": "[('red', 1), ('green', 0)]\n",
+      "case_path": ".scratch/pt-pt/functional-calendars/orthography-diagnostic.qml",
+      "case_sha256": "d80a8d5b4dafb1bb4a035b74927046d69c44322134773a5b40d47bbf244d65b7",
+      "tool_start": {
+        "ordinal": 11481,
+        "timestamp_utc": "2026-10-16T01:00:22.391Z",
+        "output_block_index": 1,
+        "call_id": "call_e8d1208b23c343a4b70c8a541b1d7650",
+        "response": {
+          "chunk_id": "a21fc5",
+          "wall_time_seconds": 1.001415227,
+          "session_id": 45769,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 11498,
+        "timestamp_utc": "2026-10-16T01:01:05.338Z",
+        "call_id": "call_1f7afafdc17c40f281e83338cc905ccd",
+        "output_block_index": 1,
+        "chunk_id": "be69b4",
+        "raw_rollout_record_sha256": "45374cd1808da5eb4c64456e059c6b086431efbfd2345e41bba55e28cb02d0ea"
+      },
+      "observed_command_kind": "Python coordinator printing actual subprocess.wait() results",
+      "grouped_wait_result_key": "green",
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "resources-calendar",
+      "launcher_exit_code": 0,
+      "native_receipt_sha256": "14413d585b5448be9e6718327b69ad82e2fb9e5a020a11eb3d4cf9d718c44a0a",
+      "tool_session_id": "79857",
+      "tool_response_exit_code": 0,
+      "tool_response_output": "[('calendar', 0), ('find_the_day', 0)]\n",
+      "case_path": ".scratch/pt-pt/functional-calendars/resources-calendar.qml",
+      "case_sha256": "ac6bdba01e80c11150dc9167f7fe88563783a1a6c11f404c5c92130f868de473",
+      "tool_start": {
+        "ordinal": 11422,
+        "timestamp_utc": "2026-10-16T00:57:53.216Z",
+        "output_block_index": 1,
+        "call_id": "call_450160f594534756a697ae5140582800",
+        "response": {
+          "chunk_id": "ec119a",
+          "wall_time_seconds": 1.001324144,
+          "session_id": 79857,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 11445,
+        "timestamp_utc": "2026-10-16T00:58:54.247Z",
+        "call_id": "call_d030ac36aec64f4481dc60936617b14b",
+        "output_block_index": 1,
+        "chunk_id": "0eb202",
+        "raw_rollout_record_sha256": "2a575dab649409ed3b984df1212477467de728cad7790b8428dda5db1e16a4fa"
+      },
+      "observed_command_kind": "Python coordinator printing actual subprocess.wait() results",
+      "grouped_wait_result_key": "calendar",
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "resources-find_the_day",
+      "launcher_exit_code": 0,
+      "native_receipt_sha256": "1ffb437b37ba707357ca2c94d15498fe0fb6ffe33e7f764875765256fb23f65a",
+      "tool_session_id": "79857",
+      "tool_response_exit_code": 0,
+      "tool_response_output": "[('calendar', 0), ('find_the_day', 0)]\n",
+      "case_path": ".scratch/pt-pt/functional-calendars/resources-find_the_day.qml",
+      "case_sha256": "f683f9c229bfc186c98955ff06404babbb3bd0ed51bb0f8700594034caa1e9ea",
+      "tool_start": {
+        "ordinal": 11422,
+        "timestamp_utc": "2026-10-16T00:57:53.216Z",
+        "output_block_index": 1,
+        "call_id": "call_450160f594534756a697ae5140582800",
+        "response": {
+          "chunk_id": "ec119a",
+          "wall_time_seconds": 1.001324144,
+          "session_id": 79857,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 11445,
+        "timestamp_utc": "2026-10-16T00:58:54.247Z",
+        "call_id": "call_d030ac36aec64f4481dc60936617b14b",
+        "output_block_index": 1,
+        "chunk_id": "0eb202",
+        "raw_rollout_record_sha256": "2a575dab649409ed3b984df1212477467de728cad7790b8428dda5db1e16a4fa"
+      },
+      "observed_command_kind": "Python coordinator printing actual subprocess.wait() results",
+      "grouped_wait_result_key": "find_the_day",
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "month-end-red",
+      "launcher_exit_code": 1,
+      "native_receipt_sha256": "1666e939911e60ce1675a568bc85e07db8c06c9ea9d43af7ecc9671d3e7d8c9e",
+      "tool_session_id": "71639",
+      "tool_response_exit_code": 1,
+      "tool_response_output": "",
+      "case_path": ".scratch/pt-pt/functional-calendars/month-end.qml",
+      "case_sha256": "d3bf57d5959fe8fb7f031ea31142d1339a3db869c3864d369e29910eaa19562c",
+      "tool_start": {
+        "ordinal": 11578,
+        "timestamp_utc": "2026-10-16T01:04:54.096Z",
+        "output_block_index": 1,
+        "call_id": "call_7a1c6a3c0f1c42e99c19dfbd4340f956",
+        "response": {
+          "chunk_id": "635746",
+          "wall_time_seconds": 1.001049362,
+          "session_id": 71639,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 11593,
+        "timestamp_utc": "2026-10-16T01:05:05.485Z",
+        "call_id": "call_779748f5993642a1993c1b0ccbe07b28",
+        "output_block_index": 1,
+        "chunk_id": "e18ef4",
+        "raw_rollout_record_sha256": "3bbaa2612bf3b32b63e93484ed0ec2ffa4aa845663fe624ef2558a321391a615"
+      },
+      "observed_command_kind": "native launcher directly",
+      "grouped_wait_result_key": null,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": false
+    },
+    {
+      "directory": "month-end-green",
+      "launcher_exit_code": 0,
+      "native_receipt_sha256": "2b9e23a38e207cebc3fee1ee0d820721dafefb812c208606f56ff788cd81ca66",
+      "tool_session_id": "55630",
+      "tool_response_exit_code": 0,
+      "tool_response_output": "[('month-end-green', 0), ('full-calendar', 0), ('full-find_the_day', 0), ('controls-calendar', 0), ('controls-find_the_day', 0)]\n",
+      "case_path": ".scratch/pt-pt/functional-calendars/month-end.qml",
+      "case_sha256": "d3bf57d5959fe8fb7f031ea31142d1339a3db869c3864d369e29910eaa19562c",
+      "tool_start": {
+        "ordinal": 11601,
+        "timestamp_utc": "2026-10-16T01:05:37.710Z",
+        "output_block_index": 1,
+        "call_id": "call_472d72316c58452db4f7309057496b51",
+        "response": {
+          "chunk_id": "24261d",
+          "wall_time_seconds": 1.000712966,
+          "session_id": 55630,
+          "original_token_count": 11,
+          "output": "64d35aaef27df1b2eaa11d18d4441bebdbe5e9c7\n"
+        }
+      },
+      "tool_completion": {
+        "ordinal": 11635,
+        "timestamp_utc": "2026-10-16T01:07:31.241Z",
+        "call_id": "call_6d8c062cf9ed4d3aa208e72407436248",
+        "output_block_index": 2,
+        "chunk_id": "56a4b3",
+        "raw_rollout_record_sha256": "933a98f3d9dac74b8d30267182c901c04001b8e1b492b963411f6f4d86ebeee4"
+      },
+      "observed_command_kind": "Python coordinator printing actual subprocess.wait() results",
+      "grouped_wait_result_key": "month-end-green",
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "full-calendar",
+      "launcher_exit_code": 0,
+      "native_receipt_sha256": "f97ba7fa6cd3ad1f263b7c5e657e020f81371f651f4af938dc045a6cdcc348e2",
+      "tool_session_id": "55630",
+      "tool_response_exit_code": 0,
+      "tool_response_output": "[('month-end-green', 0), ('full-calendar', 0), ('full-find_the_day', 0), ('controls-calendar', 0), ('controls-find_the_day', 0)]\n",
+      "case_path": ".scratch/pt-pt/functional-calendars/full-calendar.qml",
+      "case_sha256": "14930dc3914f1f4d3111b8a263243f16962438e031f6909a5c1d16fa33b44236",
+      "tool_start": {
+        "ordinal": 11601,
+        "timestamp_utc": "2026-10-16T01:05:37.710Z",
+        "output_block_index": 1,
+        "call_id": "call_472d72316c58452db4f7309057496b51",
+        "response": {
+          "chunk_id": "24261d",
+          "wall_time_seconds": 1.000712966,
+          "session_id": 55630,
+          "original_token_count": 11,
+          "output": "64d35aaef27df1b2eaa11d18d4441bebdbe5e9c7\n"
+        }
+      },
+      "tool_completion": {
+        "ordinal": 11635,
+        "timestamp_utc": "2026-10-16T01:07:31.241Z",
+        "call_id": "call_6d8c062cf9ed4d3aa208e72407436248",
+        "output_block_index": 2,
+        "chunk_id": "56a4b3",
+        "raw_rollout_record_sha256": "933a98f3d9dac74b8d30267182c901c04001b8e1b492b963411f6f4d86ebeee4"
+      },
+      "observed_command_kind": "Python coordinator printing actual subprocess.wait() results",
+      "grouped_wait_result_key": "full-calendar",
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "full-find_the_day",
+      "launcher_exit_code": 0,
+      "native_receipt_sha256": "75da44afb78598b62bb93a32437506ad1cf25e38d4ee4f0bd7f4db06372d0526",
+      "tool_session_id": "55630",
+      "tool_response_exit_code": 0,
+      "tool_response_output": "[('month-end-green', 0), ('full-calendar', 0), ('full-find_the_day', 0), ('controls-calendar', 0), ('controls-find_the_day', 0)]\n",
+      "case_path": ".scratch/pt-pt/functional-calendars/full-find_the_day.qml",
+      "case_sha256": "3dec5a37848ab28634d6f8ace0ec204d339167e193f0201c81987b244433f587",
+      "tool_start": {
+        "ordinal": 11601,
+        "timestamp_utc": "2026-10-16T01:05:37.710Z",
+        "output_block_index": 1,
+        "call_id": "call_472d72316c58452db4f7309057496b51",
+        "response": {
+          "chunk_id": "24261d",
+          "wall_time_seconds": 1.000712966,
+          "session_id": 55630,
+          "original_token_count": 11,
+          "output": "64d35aaef27df1b2eaa11d18d4441bebdbe5e9c7\n"
+        }
+      },
+      "tool_completion": {
+        "ordinal": 11635,
+        "timestamp_utc": "2026-10-16T01:07:31.241Z",
+        "call_id": "call_6d8c062cf9ed4d3aa208e72407436248",
+        "output_block_index": 2,
+        "chunk_id": "56a4b3",
+        "raw_rollout_record_sha256": "933a98f3d9dac74b8d30267182c901c04001b8e1b492b963411f6f4d86ebeee4"
+      },
+      "observed_command_kind": "Python coordinator printing actual subprocess.wait() results",
+      "grouped_wait_result_key": "full-find_the_day",
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "controls-calendar",
+      "launcher_exit_code": 0,
+      "native_receipt_sha256": "9bd13290368c3d882476320057f686f71e341eb331d44c70fe51f6e2d34c7cd5",
+      "tool_session_id": "55630",
+      "tool_response_exit_code": 0,
+      "tool_response_output": "[('month-end-green', 0), ('full-calendar', 0), ('full-find_the_day', 0), ('controls-calendar', 0), ('controls-find_the_day', 0)]\n",
+      "case_path": ".scratch/pt-pt/functional-calendars/controls-calendar.qml",
+      "case_sha256": "1077773c4dc61cecd0af5690345b76bdd061855c18c15d120c339c91444c2831",
+      "tool_start": {
+        "ordinal": 11601,
+        "timestamp_utc": "2026-10-16T01:05:37.710Z",
+        "output_block_index": 1,
+        "call_id": "call_472d72316c58452db4f7309057496b51",
+        "response": {
+          "chunk_id": "24261d",
+          "wall_time_seconds": 1.000712966,
+          "session_id": 55630,
+          "original_token_count": 11,
+          "output": "64d35aaef27df1b2eaa11d18d4441bebdbe5e9c7\n"
+        }
+      },
+      "tool_completion": {
+        "ordinal": 11635,
+        "timestamp_utc": "2026-10-16T01:07:31.241Z",
+        "call_id": "call_6d8c062cf9ed4d3aa208e72407436248",
+        "output_block_index": 2,
+        "chunk_id": "56a4b3",
+        "raw_rollout_record_sha256": "933a98f3d9dac74b8d30267182c901c04001b8e1b492b963411f6f4d86ebeee4"
+      },
+      "observed_command_kind": "Python coordinator printing actual subprocess.wait() results",
+      "grouped_wait_result_key": "controls-calendar",
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "controls-find_the_day",
+      "launcher_exit_code": 0,
+      "native_receipt_sha256": "e201ee7ca6d8a7d31a0e9f30fa45fb90e75cbfabf944d832dd8b65135b0d5ec3",
+      "tool_session_id": "55630",
+      "tool_response_exit_code": 0,
+      "tool_response_output": "[('month-end-green', 0), ('full-calendar', 0), ('full-find_the_day', 0), ('controls-calendar', 0), ('controls-find_the_day', 0)]\n",
+      "case_path": ".scratch/pt-pt/functional-calendars/controls-find_the_day.qml",
+      "case_sha256": "db70924638969ff63e221edd84bf6899297327271a150bf3d234235d993ff376",
+      "tool_start": {
+        "ordinal": 11601,
+        "timestamp_utc": "2026-10-16T01:05:37.710Z",
+        "output_block_index": 1,
+        "call_id": "call_472d72316c58452db4f7309057496b51",
+        "response": {
+          "chunk_id": "24261d",
+          "wall_time_seconds": 1.000712966,
+          "session_id": 55630,
+          "original_token_count": 11,
+          "output": "64d35aaef27df1b2eaa11d18d4441bebdbe5e9c7\n"
+        }
+      },
+      "tool_completion": {
+        "ordinal": 11635,
+        "timestamp_utc": "2026-10-16T01:07:31.241Z",
+        "call_id": "call_6d8c062cf9ed4d3aa208e72407436248",
+        "output_block_index": 2,
+        "chunk_id": "56a4b3",
+        "raw_rollout_record_sha256": "933a98f3d9dac74b8d30267182c901c04001b8e1b492b963411f6f4d86ebeee4"
+      },
+      "observed_command_kind": "Python coordinator printing actual subprocess.wait() results",
+      "grouped_wait_result_key": "controls-find_the_day",
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    }
+  ],
+  "source_rollout_records": {
+    "11259": {
+      "timestamp_utc": "2026-10-16T00:51:29.229Z",
+      "raw_rollout_record_sha256": "f27151be2664872a7eb6a400acd4e397f95ff5abbd83844f50cb606d24eaeac9",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:51:29.229Z\",\"ordinal\":11259,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call_output\",\"id\":\"ctco_01a14231-4b4d-73d2-ae64-a246329bc7ca\",\"call_id\":\"call_07c0cdbb220c49998634007d30427c55\",\"output\":[{\"type\":\"input_text\",\"text\":\"Script completed\\nWall time 1.2 seconds\\nOutput:\\n\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"d46d20\\\",\\\"wall_time_seconds\\\":1.000693934,\\\"session_id\\\":58756,\\\"original_token_count\\\":0,\\\"output\\\":\\\"\\\"}\"}],\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792111889.2294264}},\"metadata\":{\"client_authored\":false,\"fallback_token_limit_override\":12000}}"
+    },
+    "11274": {
+      "timestamp_utc": "2026-10-16T00:51:57.641Z",
+      "raw_rollout_record_sha256": "9b83bf31e41d9ef6dad1cdd15ca9f9edb1c560467ff382fd580939cd42e614a1",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:51:57.641Z\",\"ordinal\":11274,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call_output\",\"id\":\"ctco_01a14231-ba49-7032-b9b3-1ec3cd424ccc\",\"call_id\":\"call_414a8d512b99412fb85916160ca22731\",\"output\":[{\"type\":\"input_text\",\"text\":\"Script completed\\nWall time 0.1 seconds\\nOutput:\\n\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"cafe1d\\\",\\\"wall_time_seconds\\\":0.000016526,\\\"exit_code\\\":1,\\\"original_token_count\\\":0,\\\"output\\\":\\\"\\\"}\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"fa1caf\\\",\\\"wall_time_seconds\\\":0.000014944,\\\"exit_code\\\":0,\\\"original_token_count\\\":4,\\\"output\\\":\\\"snapshot sealed\\\\n\\\"}\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"6d8a62\\\",\\\"wall_time_seconds\\\":0.000013878,\\\"exit_code\\\":0,\\\"original_token_count\\\":36,\\\"output\\\":\\\"False {'failures': 1, 'passes': 1, 'title': {'title': 'março 2018', 'titleVisible': False, 'previousVisible': False, 'nextVisible': False}}\\\\n\\\"}\"}],\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792111917.6413982}},\"metadata\":{\"client_authored\":false,\"fallback_token_limit_override\":12000}}"
+    },
+    "11257": {
+      "timestamp_utc": "2026-10-16T00:51:28.051Z",
+      "raw_rollout_record_sha256": "3222ae68f5eef8b0e4530d9c7e9ff3f6c213e92af22017408bbd1263a557c28a",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:51:28.051Z\",\"ordinal\":11257,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call\",\"id\":\"ctc_0c81a98c7fe5e2b1016ad175090d708191a23e5cf773ffe55b\",\"status\":\"completed\",\"call_id\":\"call_07c0cdbb220c49998634007d30427c55\",\"name\":\"exec\",\"input\":\"text(await tools.exec_command({cmd:\\\"cat > .scratch/pt-pt/functional-calendars/.gitignore <<'EOF'\\\\nsnapshot/\\\\n.native-qml-*/\\\\n__pycache__/\\\\nEOF\\\\ncat > .scratch/pt-pt/functional-calendars/title-visible.qml <<'QML'\\\\nTestCase {\\\\n    name: \\\\\\\"CalendarMonthRemainsVisibleWhenNavigationIsLocked\\\\\\\"\\\\n    when: activity.visible && calendar.width>0\\\\n    property var result: ({})\\\\n    function test_month_title() {\\\\n        wait(1200);\\\\n        result={title:dateText.text,titleVisible:dateText.visible,previousVisible:previousMonth.visible,nextVisible:nextMonth.visible};\\\\n        grabImage(activity).save(\\\\\\\"__QA_OUTPUT__/month-title.png\\\\\\\");\\\\n        verify(dateText.visible,\\\\\\\"The current month/year must be visible even when month navigation is locked\\\\\\\");\\\\n        verify(/março.*2018/i.test(dateText.text),\\\\\\\"Portuguese month and year\\\\\\\");\\\\n        verify(!previousMonth.visible && !nextMonth.visible,\\\\\\\"Month navigation remains locked\\\\\\\");\\\\n    }\\\\n    function cleanupTestCase(){console.log(\\\\\\\"NATIVE_RESULT\\\\\\\",JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,title:result}));}\\\\n}\\\\nQML\\\\npython3 tools/run-native-qml-case.py --source-root . --binary /home/proteu/Projetos/GCompris-qt/build/pt-pt/bin/gcompris-qt --activity calendar --qml-file src/activities/calendar/Calendar.qml --case .scratch/pt-pt/functional-calendars/title-visible.qml --output .scratch/pt-pt/functional-calendars/title-red --timeout 60 --offline > /tmp/gcompris-calendar-title-red.log 2>&1\\\",\\\"workdir\\\":\\\"/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars\\\",\\\"yield_time_ms\\\":1000,\\\"max_output_tokens\\\":200}));\\n\",\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792111881.0551085}}}"
+    },
+    "11271": {
+      "timestamp_utc": "2026-10-16T00:51:57.509Z",
+      "raw_rollout_record_sha256": "5f4cfb59395eea7783d779ab3923bba3300b0ee9c88d43cbf567da438b059cbe",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:51:57.509Z\",\"ordinal\":11271,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call\",\"id\":\"ctc_0c81a98c7fe5e2b1016ad1752b392c81918f0be4f29078fb12\",\"status\":\"completed\",\"call_id\":\"call_414a8d512b99412fb85916160ca22731\",\"name\":\"exec\",\"input\":\"text(await tools.write_stdin({session_id:58756,chars:\\\"\\\",yield_time_ms:1000,max_output_tokens:200}));\\ntext(await tools.write_stdin({session_id:30487,chars:\\\"\\\",yield_time_ms:1000,max_output_tokens:200}));\\ntext(await tools.exec_command({cmd:\\\"python3 - <<'PY'\\\\nimport json\\\\nfrom pathlib import Path\\\\np=Path('.scratch/pt-pt/functional-calendars/title-red/result.json')\\\\nif p.exists():\\\\n d=json.loads(p.read_text());print(d['passed'],d['case_result'])\\\\nPY\\\",\\\"workdir\\\":\\\"/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars\\\",\\\"max_output_tokens\\\":500}));\\n\",\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792111915.225675}}}"
+    },
+    "11282": {
+      "timestamp_utc": "2026-10-16T00:52:08.358Z",
+      "raw_rollout_record_sha256": "a76f3f5e3512ead8569dc57dc4a4c3a22c98d22b92e940e5fcbef45826cf7d37",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:52:08.358Z\",\"ordinal\":11282,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call_output\",\"id\":\"ctco_01a14231-e426-79e0-9c35-ffb14d514a68\",\"call_id\":\"call_44f911c0daa142cba4859502fceb8d70\",\"output\":[{\"type\":\"input_text\",\"text\":\"Script completed\\nWall time 1.2 seconds\\nOutput:\\n\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"1941ec\\\",\\\"wall_time_seconds\\\":1.001107831,\\\"session_id\\\":7576,\\\"original_token_count\\\":0,\\\"output\\\":\\\"\\\"}\"}],\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792111928.3583813}},\"metadata\":{\"client_authored\":false,\"fallback_token_limit_override\":12000}}"
+    },
+    "11297": {
+      "timestamp_utc": "2026-10-16T00:53:14.164Z",
+      "raw_rollout_record_sha256": "b55205f057ed43179f07d6a67d6defba6bb88dbacc74c459e9c27c924722ab3a",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:53:14.164Z\",\"ordinal\":11297,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call_output\",\"id\":\"ctco_01a14232-e534-7362-87ac-95c03387eeb7\",\"call_id\":\"call_a76e45ee01ac4a1d81803c168165a575\",\"output\":[{\"type\":\"input_text\",\"text\":\"Script completed\\nWall time 0.2 seconds\\nOutput:\\n\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"34b552\\\",\\\"wall_time_seconds\\\":0.000011793,\\\"exit_code\\\":0,\\\"original_token_count\\\":0,\\\"output\\\":\\\"\\\"}\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"7ed8e2\\\",\\\"wall_time_seconds\\\":0.000009457,\\\"exit_code\\\":1,\\\"original_token_count\\\":0,\\\"output\\\":\\\"\\\"}\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"88d1c7\\\",\\\"wall_time_seconds\\\":0.000010574,\\\"exit_code\\\":0,\\\"original_token_count\\\":62,\\\"output\\\":\\\"title-green True {'failures': 0, 'passes': 2, 'title': {'title': 'março 2018', 'titleVisible': True, 'previousVisible': False, 'nextVisible': False}}\\\\northography-red False {'failures': 1, 'passes': 1, 'completed': [], 'answered': [], 'wrong': 0}\\\\n\\\"}\"}],\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792111994.164953}},\"metadata\":{\"client_authored\":false,\"fallback_token_limit_override\":12000}}"
+    },
+    "11280": {
+      "timestamp_utc": "2026-10-16T00:52:07.184Z",
+      "raw_rollout_record_sha256": "3f30fa3db4ff828353b85d7a8497294439e0dbce143c0246066c6e142dda92f9",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:52:07.184Z\",\"ordinal\":11280,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call\",\"id\":\"ctc_0c81a98c7fe5e2b1016ad175338a048191aa65cc2cb1f0e51d\",\"status\":\"completed\",\"call_id\":\"call_44f911c0daa142cba4859502fceb8d70\",\"name\":\"exec\",\"input\":\"text(await tools.exec_command({cmd:\\\"python3 - <<'PY'\\\\nfrom pathlib import Path\\\\np=Path('src/activities/calendar/Calendar.qml');s=p.read_text();old='''                id: dateText\\\\n                visible: calendar.navigationBarVisible\\\\n                text: grid.title''';new='''                id: dateText\\\\n                text: grid.title''';assert s.count(old)==1;p.write_text(s.replace(old,new))\\\\nPY\\\\npython3 tools/run-native-qml-case.py --source-root . --activity calendar --qml-file src/activities/calendar/Calendar.qml --case .scratch/pt-pt/functional-calendars/title-visible.qml --output .scratch/pt-pt/functional-calendars/title-green --timeout 60 --offline --resource-snapshot .scratch/pt-pt/functional-calendars/snapshot > /tmp/gcompris-calendar-title-green.log 2>&1\\\",\\\"workdir\\\":\\\"/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars\\\",\\\"yield_time_ms\\\":1000,\\\"max_output_tokens\\\":200}));\\n\",\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792111923.541429}}}"
+    },
+    "11294": {
+      "timestamp_utc": "2026-10-16T00:53:13.997Z",
+      "raw_rollout_record_sha256": "fde59c18101f7be044743c86355e5ea64c9b3d33c18ec387e47d839aa56b08fe",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:53:13.997Z\",\"ordinal\":11294,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call\",\"id\":\"ctc_0c81a98c7fe5e2b1016ad175776bd48191b1cea5cca6e47bb9\",\"status\":\"completed\",\"call_id\":\"call_a76e45ee01ac4a1d81803c168165a575\",\"name\":\"exec\",\"input\":\"text(await tools.write_stdin({session_id:7576,chars:\\\"\\\",yield_time_ms:1000,max_output_tokens:200}));\\ntext(await tools.write_stdin({session_id:78063,chars:\\\"\\\",yield_time_ms:1000,max_output_tokens:200}));\\ntext(await tools.exec_command({cmd:\\\"python3 - <<'PY'\\\\nimport json\\\\nfrom pathlib import Path\\\\nfor name in ['title-green','orthography-red']:\\\\n p=Path('.scratch/pt-pt/functional-calendars')/name/'result.json'\\\\n if p.exists():\\\\n  d=json.loads(p.read_text());print(name,d['passed'],d['case_result'])\\\\nPY\\\",\\\"workdir\\\":\\\"/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars\\\",\\\"max_output_tokens\\\":500}));\\n\",\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792111991.4236217}}}"
+    },
+    "11371": {
+      "timestamp_utc": "2026-10-16T00:55:50.533Z",
+      "raw_rollout_record_sha256": "841ea63080c54c9c900bf1690943158869f8c4e00025f0922af9d0c0f8be439f",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:55:50.533Z\",\"ordinal\":11371,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call_output\",\"id\":\"ctco_01a14235-4805-7e20-86a8-303c04038ede\",\"call_id\":\"call_fbd6ae5c41a942d0835e406cda2f07c8\",\"output\":[{\"type\":\"input_text\",\"text\":\"Script completed\\nWall time 1.2 seconds\\nOutput:\\n\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"8b30af\\\",\\\"wall_time_seconds\\\":1.001018602,\\\"session_id\\\":85760,\\\"original_token_count\\\":0,\\\"output\\\":\\\"\\\"}\"}],\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112150.533866}},\"metadata\":{\"client_authored\":false,\"fallback_token_limit_override\":12000}}"
+    },
+    "11379": {
+      "timestamp_utc": "2026-10-16T00:56:07.969Z",
+      "raw_rollout_record_sha256": "08b5f44cdd21a2560bd0e2f7fc47c30d7ec7dcb97c879351c6771bd582dd820f",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:56:07.969Z\",\"ordinal\":11379,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call_output\",\"id\":\"ctco_01a14235-8c21-7fb2-bfdd-26712b91d640\",\"call_id\":\"call_1e6650d010c94d5ba1e77b9f2e06c488\",\"output\":[{\"type\":\"input_text\",\"text\":\"Script completed\\nWall time 0.1 seconds\\nOutput:\\n\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"180e23\\\",\\\"wall_time_seconds\\\":0.000008901,\\\"exit_code\\\":1,\\\"original_token_count\\\":0,\\\"output\\\":\\\"\\\"}\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"f944d1\\\",\\\"wall_time_seconds\\\":0.000012676,\\\"exit_code\\\":0,\\\"original_token_count\\\":135,\\\"output\\\":\\\"95:qml: CALENDAR_ASSERT 2018,3 2018,2 January 31 advances to February without skipping it checked@qrc:/gcompris/src/activities/calendar/Calendar.qml:529\\\\n96-test_month_navigation@qrc:/gcompris/src/activities/calendar/Calendar.qml:584\\\\n97-qtest_runInternal@qrc:/qt-project.org/imports/QtTest/TestCase.qml:1932\\\\n98-qtest_runFunction@qrc:/qt-project.org/imports/QtTest/TestCase.qml:1948\\\\n M poqm/pt/gcompris_qt.po\\\\n M src/activities/calendar/Calendar.qml\\\\n?? .scratch/pt-pt/functional-calendars/\\\\n?? tests/functional_calendars/\\\\n?? tools/__pycache__/\\\\n\\\"}\"}],\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112167.969716}},\"metadata\":{\"client_authored\":false,\"fallback_token_limit_override\":12000}}"
+    },
+    "11369": {
+      "timestamp_utc": "2026-10-16T00:55:49.362Z",
+      "raw_rollout_record_sha256": "9464fdd92c56817622cb8d4c543d22f9c23e374d229d283b94955eaa7dcf79fe",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:55:49.362Z\",\"ordinal\":11369,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call\",\"id\":\"ctc_0c81a98c7fe5e2b1016ad1760b23fc8191a8f633568950795f\",\"status\":\"completed\",\"call_id\":\"call_fbd6ae5c41a942d0835e406cda2f07c8\",\"name\":\"exec\",\"input\":\"text(await tools.exec_command({cmd:\\\"python3 - <<'PY'\\\\nfrom pathlib import Path\\\\nroot=Path('.scratch/pt-pt/functional-calendars')\\\\nfor a in ['calendar','find_the_day']:\\\\n (root/f'full-{a}.qml').rename(root/f'fixture-weekdays-{a}.qml')\\\\n (root/f'full-{a}').rename(root/f'fixture-weekdays-{a}')\\\\np=Path('tests/functional_calendars/gameplay.qml.in');s=p.read_text().replace('norm(item.choices.text)===weekdays[value]','norm(item.choices.text).replace(/-feira$/,\\\\\\\" \\\\\\\").trim()===weekdays[value].replace(/-feira$/,\\\\\\\" \\\\\\\").trim()');p.write_text(s)\\\\nsource=s.split('    function test_complete()')[0]\\\\nsource+='''    function test_month_navigation(){\\\\n        wait(1200);checked(activity.currentLevel,4);header();\\\\n        showMonth(2018,1);selectDay(31);mouseClick(nextMonth);wait(150);\\\\n        checked(header().join(),\\\\\\\"2018,2\\\\\\\",\\\\\\\"January 31 advances to February without skipping it\\\\\\\");\\\\n        selectDay(28);showMonth(2018,3);selectDay(31);mouseClick(previousMonth);wait(150);\\\\n        checked(header().join(),\\\\\\\"2018,2\\\\\\\",\\\\\\\"March 31 moves back to February without repeating March\\\\\\\");\\\\n        var delegates=[];collect(grid,function(o){return o.sameMonthDateTextColor!==undefined;},delegates);\\\\n        var selected=[];for(var delegate of delegates){var label=find(delegate,function(o){return o.text!==undefined && String(o.color)===String(delegate.selectedDateTextColor);});if(label!==null)selected.push(String(label.text));}\\\\n        checked(selected.join(),\\\\\\\"28\\\\\\\",\\\\\\\"Month navigation clamps and highlights the selected day\\\\\\\");\\\\n    }\\\\n    function cleanupTestCase(){console.log(\\\\\\\"NATIVE_RESULT\\\\\\\",JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount}));}\\\\n}\\\\n'''\\\\nimport json\\\\nlevels=json.loads((root/'data.json').read_text())['calendar']['levels']\\\\nsource=source.replace('__DATA__',json.dumps(levels,ensure_ascii=False)).replace('__FIRST__','5').replace('__COUNT__','1')\\\\n(root/'month-navigation.qml').write_text(source)\\\\nPY\\\\npython3 tools/run-native-qml-case.py --source-root . --activity calendar --qml-file src/activities/calendar/Calendar.qml --case .scratch/pt-pt/functional-calendars/month-navigation.qml --output .scratch/pt-pt/functional-calendars/month-navigation-red --start-level 5 --timeout 70 --offline --resource-snapshot .scratch/pt-pt/functional-calendars/snapshot > /tmp/gcompris-calendar-month-navigation-red.log 2>&1\\\",\\\"workdir\\\":\\\"/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars\\\",\\\"yield_time_ms\\\":1000,\\\"max_output_tokens\\\":200}));\\n\",\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112139.1438649}}}"
+    },
+    "11376": {
+      "timestamp_utc": "2026-10-16T00:56:07.832Z",
+      "raw_rollout_record_sha256": "9e2832330247c23b27e5f476e79991875a8ca93fc7ea651af87663585484c82f",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:56:07.832Z\",\"ordinal\":11376,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call\",\"id\":\"ctc_0c81a98c7fe5e2b1016ad176250b64819182bfe0f4ccc6bd79\",\"status\":\"completed\",\"call_id\":\"call_1e6650d010c94d5ba1e77b9f2e06c488\",\"name\":\"exec\",\"input\":\"text(await tools.write_stdin({session_id:85760,chars:\\\"\\\",yield_time_ms:1000,max_output_tokens:200}));\\ntext(await tools.exec_command({cmd:\\\"rg -n -A3 'CALENDAR_ASSERT' .scratch/pt-pt/functional-calendars/month-navigation-red/native.log | head -8; git status --short | head -8\\\",\\\"workdir\\\":\\\"/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars\\\",\\\"max_output_tokens\\\":600}));\\n\",\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112165.0487626}}}"
+    },
+    "11394": {
+      "timestamp_utc": "2026-10-16T00:56:37.953Z",
+      "raw_rollout_record_sha256": "da6fa5be031435adac00c1ea42ccd9572d3b69e5cc8cef685bbc6697306df001",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:56:37.953Z\",\"ordinal\":11394,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call_output\",\"id\":\"ctco_01a14236-0141-7311-83e7-e03cd3953e5b\",\"call_id\":\"call_86d2a2c058a2427fba3aaf40fb8e32cd\",\"output\":[{\"type\":\"input_text\",\"text\":\"Script completed\\nWall time 1.2 seconds\\nOutput:\\n\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"618e4c\\\",\\\"wall_time_seconds\\\":1.000823287,\\\"session_id\\\":30511,\\\"original_token_count\\\":0,\\\"output\\\":\\\"\\\"}\"}],\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112197.9533808}},\"metadata\":{\"client_authored\":false,\"fallback_token_limit_override\":12000}}"
+    },
+    "11410": {
+      "timestamp_utc": "2026-10-16T00:57:18.286Z",
+      "raw_rollout_record_sha256": "f0e2599afeb1baecdacb739f6f7f74522cf48e19b1d772253ca5f1a7c0cb514b",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:57:18.286Z\",\"ordinal\":11410,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call_output\",\"id\":\"ctco_01a14236-9ece-7f61-a1ce-5b3e713aa9bd\",\"call_id\":\"call_13785d8e283c453a8f6cd92df493f13e\",\"output\":[{\"type\":\"input_text\",\"text\":\"Script completed\\nWall time 1.2 seconds\\nOutput:\\n\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"9f6b14\\\",\\\"wall_time_seconds\\\":0.000014125,\\\"exit_code\\\":0,\\\"original_token_count\\\":0,\\\"output\\\":\\\"\\\"}\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"3e1f2c\\\",\\\"wall_time_seconds\\\":1.001667137,\\\"session_id\\\":6643,\\\"original_token_count\\\":11,\\\"output\\\":\\\"02c4675f67bf273448cffb643d80008fae308a77\\\\n\\\"}\"}],\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112238.2866979}},\"metadata\":{\"client_authored\":false,\"fallback_token_limit_override\":12000}}"
+    },
+    "11392": {
+      "timestamp_utc": "2026-10-16T00:56:36.778Z",
+      "raw_rollout_record_sha256": "8762dc7e0676f9fb516054dae6d2d7ab9ac3a51d306c73b4246768c81e4bd07d",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:56:36.778Z\",\"ordinal\":11392,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call\",\"id\":\"ctc_0c81a98c7fe5e2b1016ad1763ee4d481919b68d4e28d67e18c\",\"status\":\"completed\",\"call_id\":\"call_86d2a2c058a2427fba3aaf40fb8e32cd\",\"name\":\"exec\",\"input\":\"text(await tools.exec_command({cmd:\\\"python3 - <<'PY'\\\\nfrom pathlib import Path\\\\np=Path('src/activities/calendar/Calendar.qml');s=p.read_text()\\\\na=s.index('            function showPreviousMonth() {');b=s.index('            function selectPreviousDay()',a)\\\\ns=s[:a]+'''            function showPreviousMonth() {\\\\n                changeMonth(-1);\\\\n            }\\\\n            function showNextMonth() {\\\\n                changeMonth(1);\\\\n            }\\\\n            function changeMonth(offset) {\\\\n                var date = new Date(calendar.currentDate);\\\\n                var day = date.getDate();\\\\n                date.setDate(1);\\\\n                date.setMonth(date.getMonth() + offset);\\\\n                var lastDay = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();\\\\n                date.setDate(Math.min(day, lastDay));\\\\n                if(minimumDate.getTime() <= date.getTime() && date.getTime() <= maximumDate.getTime()) {\\\\n                    calendar.currentDate = date;\\\\n                    calendar.selectedDay = date.getDate();\\\\n                }\\\\n            }\\\\n''' +s[b:]\\\\np.write_text(s)\\\\nPY\\\\npython3 tools/run-native-qml-case.py --source-root . --activity calendar --qml-file src/activities/calendar/Calendar.qml --case .scratch/pt-pt/functional-calendars/month-navigation.qml --output .scratch/pt-pt/functional-calendars/month-navigation-green --start-level 5 --timeout 70 --offline --resource-snapshot .scratch/pt-pt/functional-calendars/snapshot > /tmp/gcompris-calendar-month-navigation-green.log 2>&1\\\",\\\"workdir\\\":\\\"/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars\\\",\\\"yield_time_ms\\\":1000,\\\"max_output_tokens\\\":200}));\\n\",\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112190.8962317}}}"
+    },
+    "11408": {
+      "timestamp_utc": "2026-10-16T00:57:17.110Z",
+      "raw_rollout_record_sha256": "ff26a741f3d0cf96d9729ba215a9be36bc93f13ceaddf0b8808241041ab5bacf",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:57:17.110Z\",\"ordinal\":11408,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call\",\"id\":\"ctc_0c81a98c7fe5e2b1016ad1766689208191be4c8acdbc739754\",\"status\":\"completed\",\"call_id\":\"call_13785d8e283c453a8f6cd92df493f13e\",\"name\":\"exec\",\"input\":\"text(await tools.write_stdin({session_id:30511,chars:\\\"\\\",yield_time_ms:1000,max_output_tokens:200}));\\ntext(await tools.exec_command({cmd:\\\"git add src/activities/calendar/Calendar.qml .scratch/pt-pt/functional-calendars/month-navigation-green\\\\ngit diff --cached --check\\\\ngit commit -m 'fix(calendar): clamp selected day before changing month' > /tmp/gcompris-calendar-month-commit.log\\\\ngit rev-parse HEAD\\\\npython3 tests/functional_calendars/prepare.py calendar --count 7 --output .scratch/pt-pt/functional-calendars/full-calendar.qml\\\\npython3 tests/functional_calendars/prepare.py find_the_day --count 5 --output .scratch/pt-pt/functional-calendars/full-find_the_day.qml\\\\npython3 - <<'PY'\\\\nimport subprocess\\\\nprocs=[]\\\\nfor activity in ['calendar','find_the_day']:\\\\n log=open('/tmp/gcompris-calendar-full-fixed-'+activity+'.log','w')\\\\n command=['python3','tools/run-native-qml-case.py','--source-root','.','--activity',activity,'--qml-file','src/activities/calendar/Calendar.qml','--case',f'.scratch/pt-pt/functional-calendars/full-{activity}.qml','--output',f'.scratch/pt-pt/functional-calendars/full-{activity}','--timeout','300','--offline','--resource-snapshot','.scratch/pt-pt/functional-calendars/snapshot']\\\\n procs.append((activity,subprocess.Popen(command,stdout=log,stderr=subprocess.STDOUT),log))\\\\nresults=[]\\\\nfor name,p,log in procs:results.append((name,p.wait()));log.close()\\\\nprint(results)\\\\nassert all(code==0 for _,code in results)\\\\nPY\\\",\\\"workdir\\\":\\\"/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars\\\",\\\"yield_time_ms\\\":1000,\\\"max_output_tokens\\\":300}));\\n\",\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112230.5381694}}}"
+    },
+    "11481": {
+      "timestamp_utc": "2026-10-16T01:00:22.391Z",
+      "raw_rollout_record_sha256": "6c0978f02bee0baeebb7e8e2f64d04dae1db363d2ff0218046c7a64ccfa1d164",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T01:00:22.391Z\",\"ordinal\":11481,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call_output\",\"id\":\"ctco_01a14239-6df7-7c10-8dd4-db368e3cde44\",\"call_id\":\"call_e8d1208b23c343a4b70c8a541b1d7650\",\"output\":[{\"type\":\"input_text\",\"text\":\"Script completed\\nWall time 1.2 seconds\\nOutput:\\n\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"a21fc5\\\",\\\"wall_time_seconds\\\":1.001415227,\\\"session_id\\\":45769,\\\"original_token_count\\\":0,\\\"output\\\":\\\"\\\"}\"}],\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112422.391573}},\"metadata\":{\"client_authored\":false,\"fallback_token_limit_override\":12000}}"
+    },
+    "11498": {
+      "timestamp_utc": "2026-10-16T01:01:05.338Z",
+      "raw_rollout_record_sha256": "45374cd1808da5eb4c64456e059c6b086431efbfd2345e41bba55e28cb02d0ea",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T01:01:05.338Z\",\"ordinal\":11498,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call_output\",\"id\":\"ctco_01a1423a-15ba-7422-8bd3-1ce8f64fbaab\",\"call_id\":\"call_1f7afafdc17c40f281e83338cc905ccd\",\"output\":[{\"type\":\"input_text\",\"text\":\"Script completed\\nWall time 1.0 seconds\\nOutput:\\n\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"be69b4\\\",\\\"wall_time_seconds\\\":0.000008034,\\\"exit_code\\\":0,\\\"original_token_count\\\":7,\\\"output\\\":\\\"[('red', 1), ('green', 0)]\\\\n\\\"}\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"ec0896\\\",\\\"wall_time_seconds\\\":0.826569725,\\\"exit_code\\\":0,\\\"original_token_count\\\":146,\\\"output\\\":\\\"95:qml: CALENDAR_ASSERT Current Portuguese orthography: Descobre um mês que começa num Sábado ensure@qrc:/gcompris/src/activities/calendar/Calendar.qml:534\\\\n96-test_complete@qrc:/gcompris/src/activities/calendar/Calendar.qml:595\\\\n97-qtest_runInternal@qrc:/qt-project.org/imports/QtTest/TestCase.qml:1932\\\\n?? .scratch/pt-pt/functional-calendars/source-identity.json\\\\n?? .scratch/pt-pt/functional-calendars/wav-software-decode.json\\\\n?? tests/functional_calendars/controls.fragment\\\\n?? tests/functional_calendars/resources.py\\\\n?? tools/__pycache__/\\\\n{\\\\\\\"conclusion\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"status\\\\\\\":\\\\\\\"in_progress\\\\\\\"}\\\\n\\\"}\"}],\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112465.3383644}},\"metadata\":{\"client_authored\":false,\"fallback_token_limit_override\":12000}}"
+    },
+    "11479": {
+      "timestamp_utc": "2026-10-16T01:00:21.213Z",
+      "raw_rollout_record_sha256": "88332981726da7d5859c713e94c28e976ad23ba861b9c2a56c40e21b2de52ebc",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T01:00:21.213Z\",\"ordinal\":11479,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call\",\"id\":\"ctc_0c81a98c7fe5e2b1016ad1771dd4d481919db731ed037d9464\",\"status\":\"completed\",\"call_id\":\"call_e8d1208b23c343a4b70c8a541b1d7650\",\"name\":\"exec\",\"input\":\"text(await tools.exec_command({cmd:\\\"git worktree add --detach /home/proteu/Projetos/GCompris-qt-worktrees/pt-calendar-catalogue-baseline 02c4675f67bf273448cffb643d80008fae308a77 > /tmp/gcompris-calendar-baseline-worktree.log 2>&1\\\\ngit show db2f86383:poqm/pt/gcompris_qt.po > /home/proteu/Projetos/GCompris-qt-worktrees/pt-calendar-catalogue-baseline/poqm/pt/gcompris_qt.po\\\\npython3 tests/functional_calendars/prepare.py calendar --first 5 --output .scratch/pt-pt/functional-calendars/orthography-diagnostic.qml\\\\npython3 - <<'PY'\\\\nimport subprocess\\\\nfrom pathlib import Path\\\\nroot=Path.cwd();evidence=root/'.scratch/pt-pt/functional-calendars';jobs=[]\\\\nfor color,source in [('red',Path('/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendar-catalogue-baseline')),('green',root)]:\\\\n log=open('/tmp/gcompris-calendar-orthography-diagnostic-'+color+'.log','w')\\\\n command=['python3',str(source/'tools/run-native-qml-case.py'),'--source-root',str(source),'--activity','calendar','--qml-file',str(source/'src/activities/calendar/Calendar.qml'),'--case',str(evidence/'orthography-diagnostic.qml'),'--output',str(evidence/('orthography-diagnostic-'+color)),'--start-level','5','--timeout','90','--offline','--resource-snapshot',str(evidence/'snapshot')]\\\\n jobs.append((color,subprocess.Popen(command,stdout=log,stderr=subprocess.STDOUT),log))\\\\nresults=[]\\\\nfor name,p,log in jobs:results.append((name,p.wait()));log.close()\\\\nprint(results);assert dict(results)=={'red':1,'green':0}\\\\nPY\\\",\\\"workdir\\\":\\\"/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars\\\",\\\"yield_time_ms\\\":1000,\\\"max_output_tokens\\\":200}));\\n\",\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112413.8357792}}}"
+    },
+    "11495": {
+      "timestamp_utc": "2026-10-16T01:01:04.300Z",
+      "raw_rollout_record_sha256": "4e06204940e52cf75285cf576673f5d154ed7111e4d6d794f478fef85fc8a625",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T01:01:04.300Z\",\"ordinal\":11495,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call\",\"id\":\"ctc_0c81a98c7fe5e2b1016ad1774e44088191a6e7ab793b21727e\",\"status\":\"completed\",\"call_id\":\"call_1f7afafdc17c40f281e83338cc905ccd\",\"name\":\"exec\",\"input\":\"text(await tools.write_stdin({session_id:45769,chars:\\\"\\\",yield_time_ms:1000,max_output_tokens:200}));\\ntext(await tools.exec_command({cmd:\\\"rg -n -A2 'CALENDAR_ASSERT' .scratch/pt-pt/functional-calendars/orthography-diagnostic-red/native.log | head -6; git status --short | tail -5; gh run view 38831696724 --json status,conclusion --jq '{status,conclusion}'\\\",\\\"workdir\\\":\\\"/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars\\\",\\\"max_output_tokens\\\":500}));\\n\",\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112462.2689836}}}"
+    },
+    "11422": {
+      "timestamp_utc": "2026-10-16T00:57:53.216Z",
+      "raw_rollout_record_sha256": "b5da586f9ee8c615b001895f8d244386e9c9b2f853bc2b01412ae6fac9a4da65",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:57:53.216Z\",\"ordinal\":11422,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call_output\",\"id\":\"ctco_01a14237-2740-7983-9dcf-7a46c9bb7712\",\"call_id\":\"call_450160f594534756a697ae5140582800\",\"output\":[{\"type\":\"input_text\",\"text\":\"Script completed\\nWall time 1.2 seconds\\nOutput:\\n\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"ec119a\\\",\\\"wall_time_seconds\\\":1.001324144,\\\"session_id\\\":79857,\\\"original_token_count\\\":0,\\\"output\\\":\\\"\\\"}\"}],\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112273.2167606}},\"metadata\":{\"client_authored\":false,\"fallback_token_limit_override\":12000}}"
+    },
+    "11445": {
+      "timestamp_utc": "2026-10-16T00:58:54.247Z",
+      "raw_rollout_record_sha256": "2a575dab649409ed3b984df1212477467de728cad7790b8428dda5db1e16a4fa",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:58:54.247Z\",\"ordinal\":11445,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call_output\",\"id\":\"ctco_01a14238-15a7-7bd0-8cb5-6a8b65d0a244\",\"call_id\":\"call_d030ac36aec64f4481dc60936617b14b\",\"output\":[{\"type\":\"input_text\",\"text\":\"Script completed\\nWall time 0.1 seconds\\nOutput:\\n\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"0eb202\\\",\\\"wall_time_seconds\\\":0.000011066,\\\"exit_code\\\":0,\\\"original_token_count\\\":10,\\\"output\\\":\\\"[('calendar', 0), ('find_the_day', 0)]\\\\n\\\"}\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"ae2afe\\\",\\\"wall_time_seconds\\\":0.000011425,\\\"exit_code\\\":0,\\\"original_token_count\\\":80,\\\"output\\\":\\\"full-calendar running\\\\nfull-find_the_day True 26 [{'level': 1, 'questions': 6}, {'level': 2, 'questions': 5}, {'level': 3, 'questions': 5}, {'level': 4, 'questions': 5}, {'level': 5, 'questions': 5}]\\\\nresources-calendar True 0 []\\\\nresources-find_the_day True 0 []\\\\ncontrols-calendar running\\\\ncontrols-find_the_day running\\\\n\\\"}\"}],\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112334.2472847}},\"metadata\":{\"client_authored\":false,\"fallback_token_limit_override\":12000}}"
+    },
+    "11420": {
+      "timestamp_utc": "2026-10-16T00:57:52.043Z",
+      "raw_rollout_record_sha256": "67be2df3ada89d37c44d3608cdbc7d8d315aa27310b9310fa88cf411a126ad7a",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:57:52.043Z\",\"ordinal\":11420,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call\",\"id\":\"ctc_0c81a98c7fe5e2b1016ad17680d048819180e157152a76beb1\",\"status\":\"completed\",\"call_id\":\"call_450160f594534756a697ae5140582800\",\"name\":\"exec\",\"input\":\"text(await tools.exec_command({cmd:\\\"cat > tests/functional_calendars/resources.py <<'PY'\\\\n#!/usr/bin/env python3\\\\n# SPDX-License-Identifier: GPL-3.0-or-later\\\\nimport argparse\\\\nimport json\\\\nfrom pathlib import Path\\\\n\\\\nROOT=Path(__file__).resolve().parents[2]\\\\nEXTRA=['src/activities/fifteen/resource/background.svg','src/core/resource/sounds/completetask.wav','src/core/resource/sounds/crash.wav','src/core/resource/scroll_down.svg','src/core/resource/bar_ok.svg']\\\\n\\\\n\\\\ndef resources(activity):\\\\n    paths=set(EXTRA)\\\\n    for name in {'calendar',activity}:\\\\n        paths.update(str(p.relative_to(ROOT)) for p in (ROOT/'src/activities'/name).rglob('*') if p.is_file() and p.suffix in {'.qml','.js','.svg'} and p.name!='Calendar.qml')\\\\n    return sorted(paths)\\\\n\\\\n\\\\ndef case(activity):\\\\n    return '''TestCase {\\\\n    name: \\\\\\\"CalendarOriginalQrcResources\\\\\\\"\\\\n    when: activity.visible\\\\n    property var copied: []\\\\n    function test_resources(){\\\\n        var reader=Qt.createQmlObject('import core 1.0; File {}',this);\\\\n        for(var file of FILES){\\\\n            var source=\\\\\\\"qrc:/gcompris/\\\\\\\"+file,target=\\\\\\\"file://__QA_OUTPUT__/resources/\\\\\\\"+file;\\\\n            verify(reader.mkpath(target.slice(0,target.lastIndexOf(\\\\\\\"/\\\\\\\"))));\\\\n            verify(reader.copy(source,target),file);\\\\n            if(file.endsWith(\\\\\\\".svg\\\\\\\")){\\\\n                var image=Qt.createQmlObject('import QtQuick; Image { asynchronous:false }',this);\\\\n                image.source=source;tryCompare(image,\\\\\\\"status\\\\\\\",Image.Ready);image.destroy();\\\\n            }\\\\n            copied.push(file);\\\\n        }\\\\n    }\\\\n    function cleanupTestCase(){console.log(\\\\\\\"NATIVE_RESULT\\\\\\\",JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,resources:copied}));}\\\\n}\\\\n'''.replace('FILES',json.dumps(resources(activity)))\\\\n\\\\n\\\\nif __name__=='__main__':\\\\n    p=argparse.ArgumentParser();p.add_argument('activity',choices=['calendar','find_the_day']);p.add_argument('--output',type=Path,required=True);a=p.parse_args()\\\\n    with a.output.open('x') as stream:stream.write(case(a.activity))\\\\nPY\\\\npython3 - <<'PY'\\\\nimport hashlib,json,subprocess\\\\nfrom pathlib import Path\\\\nrevision='02c4675f67bf273448cffb643d80008fae308a77'\\\\npaths=subprocess.check_output(['git','ls-tree','-r','--name-only',revision,'--','src/activities/calendar','src/activities/find_the_day'],text=True).splitlines()\\\\npaths+=['tools/run-native-qml-case.py','poqm/pt/gcompris_qt.po','src/activities/fifteen/resource/background.svg','src/core/resource/sounds/completetask.wav','src/core/resource/sounds/crash.wav','src/core/resource/scroll_down.svg','src/core/resource/bar_ok.svg']\\\\nidentity={p:hashlib.sha256(subprocess.check_output(['git','show',revision+':'+p])).hexdigest() for p in paths}\\\\nPath('.scratch/pt-pt/functional-calendars/source-identity.json').write_text(json.dumps({'revision':revision,'files':identity},indent=2)+'\\\\\\\\n')\\\\nPY\\\\npython3 - <<'PY'\\\\nimport subprocess\\\\njobs=[]\\\\nfor activity in ['calendar','find_the_day']:\\\\n case=f'.scratch/pt-pt/functional-calendars/resources-{activity}.qml'\\\\n subprocess.run(['python3','tests/functional_calendars/resources.py',activity,'--output',case],check=True)\\\\n log=open('/tmp/gcompris-calendar-resources-'+activity+'.log','w')\\\\n command=['python3','tools/run-native-qml-case.py','--source-root','.','--activity',activity,'--qml-file','src/activities/calendar/Calendar.qml','--case',case,'--output',f'.scratch/pt-pt/functional-calendars/resources-{activity}','--timeout','60','--offline','--resource-snapshot','.scratch/pt-pt/functional-calendars/snapshot']\\\\n jobs.append((activity,subprocess.Popen(command,stdout=log,stderr=subprocess.STDOUT),log))\\\\nresults=[]\\\\nfor name,p,log in jobs:results.append((name,p.wait()));log.close()\\\\nprint(results);assert all(code==0 for _,code in results)\\\\nPY\\\",\\\"workdir\\\":\\\"/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars\\\",\\\"yield_time_ms\\\":1000,\\\"max_output_tokens\\\":200}));\\n\",\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112256.816214}}}"
+    },
+    "11442": {
+      "timestamp_utc": "2026-10-16T00:58:54.111Z",
+      "raw_rollout_record_sha256": "8bc319b3f33e6f063cfbafb6e8ffa7269f8d07fce63c6ed5051cae90ee721320",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T00:58:54.111Z\",\"ordinal\":11442,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call\",\"id\":\"ctc_0c81a98c7fe5e2b1016ad176ca5acc8191b50213618b6705e1\",\"status\":\"completed\",\"call_id\":\"call_d030ac36aec64f4481dc60936617b14b\",\"name\":\"exec\",\"input\":\"text(await tools.write_stdin({session_id:79857,chars:\\\"\\\",yield_time_ms:1000,max_output_tokens:200}));\\ntext(await tools.exec_command({cmd:\\\"python3 - <<'PY'\\\\nimport json\\\\nfrom pathlib import Path\\\\nroot=Path('.scratch/pt-pt/functional-calendars')\\\\nfor name in ['full-calendar','full-find_the_day','resources-calendar','resources-find_the_day','controls-calendar','controls-find_the_day']:\\\\n p=root/name/'result.json'\\\\n if p.exists():\\\\n  d=json.loads(p.read_text());r=d.get('case_result',{});print(name,d['passed'],len(r.get('answered',[])),r.get('completed',[]))\\\\n else:print(name,'running')\\\\nPY\\\\nrg -n -A3 'CALENDAR_ASSERT' .scratch/pt-pt/functional-calendars/full-*/native.log | tail -10\\\",\\\"workdir\\\":\\\"/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars\\\",\\\"max_output_tokens\\\":600}));\\n\",\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112330.358816}}}"
+    },
+    "11578": {
+      "timestamp_utc": "2026-10-16T01:04:54.096Z",
+      "raw_rollout_record_sha256": "4bd63e053cedac556f477fcd328c8835027a61f511dc96ba76ac869d717039ec",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T01:04:54.096Z\",\"ordinal\":11578,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call_output\",\"id\":\"ctco_01a1423d-9350-7d21-95ed-05043fe99a59\",\"call_id\":\"call_7a1c6a3c0f1c42e99c19dfbd4340f956\",\"output\":[{\"type\":\"input_text\",\"text\":\"Script completed\\nWall time 1.2 seconds\\nOutput:\\n\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"635746\\\",\\\"wall_time_seconds\\\":1.001049362,\\\"session_id\\\":71639,\\\"original_token_count\\\":0,\\\"output\\\":\\\"\\\"}\"}],\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112694.0966043}},\"metadata\":{\"client_authored\":false,\"fallback_token_limit_override\":12000}}"
+    },
+    "11593": {
+      "timestamp_utc": "2026-10-16T01:05:05.485Z",
+      "raw_rollout_record_sha256": "3bbaa2612bf3b32b63e93484ed0ec2ffa4aa845663fe624ef2558a321391a615",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T01:05:05.485Z\",\"ordinal\":11593,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call_output\",\"id\":\"ctco_01a1423d-bfcd-7ad3-9fa8-341e6c223c8d\",\"call_id\":\"call_779748f5993642a1993c1b0ccbe07b28\",\"output\":[{\"type\":\"input_text\",\"text\":\"Script completed\\nWall time 0.2 seconds\\nOutput:\\n\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"e18ef4\\\",\\\"wall_time_seconds\\\":0.00000875,\\\"exit_code\\\":1,\\\"original_token_count\\\":0,\\\"output\\\":\\\"\\\"}\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"5f470c\\\",\\\"wall_time_seconds\\\":0.000010752,\\\"exit_code\\\":0,\\\"original_token_count\\\":105,\\\"output\\\":\\\"95:qml: CALENDAR_ASSERT 2018,2 2018,1 End on January 30 remains in January checked@qrc:/gcompris/src/activities/calendar/Calendar.qml:533\\\\n96-test_end_keeps_month@qrc:/gcompris/src/activities/calendar/Calendar.qml:587\\\\n97-qtest_runInternal@qrc:/qt-project.org/imports/QtTest/TestCase.qml:1932\\\\n?? .scratch/pt-pt/functional-calendars/month-end-red/\\\\n?? .scratch/pt-pt/functional-calendars/month-end.qml\\\\n?? tools/__pycache__/\\\\n\\\"}\"}],\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112705.4851837}},\"metadata\":{\"client_authored\":false,\"fallback_token_limit_override\":12000}}"
+    },
+    "11576": {
+      "timestamp_utc": "2026-10-16T01:04:52.921Z",
+      "raw_rollout_record_sha256": "3d4de6384a63ce2d2be71360709346c4b38d0116926da105ece96892c316ce15",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T01:04:52.921Z\",\"ordinal\":11576,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call\",\"id\":\"ctc_0c81a98c7fe5e2b1016ad1782ecd208191a5ca426b17b46e3b\",\"status\":\"completed\",\"call_id\":\"call_7a1c6a3c0f1c42e99c19dfbd4340f956\",\"name\":\"exec\",\"input\":\"text(await tools.exec_command({cmd:\\\"python3 - <<'PY'\\\\nfrom pathlib import Path\\\\nroot=Path('.scratch/pt-pt/functional-calendars')\\\\nsource=(root/'month-navigation.qml').read_text();a=source.index('    function test_month_navigation()');b=source.index('    function cleanupTestCase()',a)\\\\nsource=source[:a]+'''    function test_end_keeps_month(){\\\\n        wait(1200);showMonth(2018,1);selectDay(30);keyClick(Qt.Key_End);wait(150);\\\\n        checked(header().join(),\\\\\\\"2018,1\\\\\\\",\\\\\\\"End on January 30 remains in January\\\\\\\");\\\\n        var delegates=[],selected=[];collect(grid,function(o){return o.sameMonthDateTextColor!==undefined;},delegates);\\\\n        for(var delegate of delegates){var label=find(delegate,function(o){return o.text!==undefined && String(o.color)===String(delegate.selectedDateTextColor);});if(label!==null)selected.push(String(label.text));}\\\\n        checked(selected.join(),\\\\\\\"31\\\\\\\",\\\\\\\"End selects January 31\\\\\\\");\\\\n    }\\\\n'''+source[b:]\\\\n(root/'month-end.qml').write_text(source)\\\\nPY\\\\npython3 tools/run-native-qml-case.py --source-root . --activity calendar --qml-file src/activities/calendar/Calendar.qml --case .scratch/pt-pt/functional-calendars/month-end.qml --output .scratch/pt-pt/functional-calendars/month-end-red --start-level 5 --timeout 70 --offline --resource-snapshot .scratch/pt-pt/functional-calendars/snapshot > /tmp/gcompris-calendar-month-end-red.log 2>&1\\\",\\\"workdir\\\":\\\"/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars\\\",\\\"yield_time_ms\\\":1000,\\\"max_output_tokens\\\":200}));\\n\",\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112686.8082445}}}"
+    },
+    "11590": {
+      "timestamp_utc": "2026-10-16T01:05:05.311Z",
+      "raw_rollout_record_sha256": "51baac6bc1f254aea2cc84db4b41b5d7b814594259787a17f10a4ccd6bf918aa",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T01:05:05.311Z\",\"ordinal\":11590,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call\",\"id\":\"ctc_0c81a98c7fe5e2b1016ad1783fbde48191b0bea2ff30b7a1aa\",\"status\":\"completed\",\"call_id\":\"call_779748f5993642a1993c1b0ccbe07b28\",\"name\":\"exec\",\"input\":\"text(await tools.write_stdin({session_id:71639,chars:\\\"\\\",yield_time_ms:1000,max_output_tokens:200}));\\ntext(await tools.exec_command({cmd:\\\"rg -n -A2 'CALENDAR_ASSERT' .scratch/pt-pt/functional-calendars/month-end-red/native.log | head -5; git status --short | head -10\\\",\\\"workdir\\\":\\\"/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars\\\",\\\"max_output_tokens\\\":500}));\\n\",\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112703.7450294}}}"
+    },
+    "11601": {
+      "timestamp_utc": "2026-10-16T01:05:37.710Z",
+      "raw_rollout_record_sha256": "1824fc011c68f479b31f39fba790799c2d99ee4e5222e008b9fb49149a0770a5",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T01:05:37.710Z\",\"ordinal\":11601,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call_output\",\"id\":\"ctco_01a1423e-3dae-73a3-9e29-3597835cd409\",\"call_id\":\"call_472d72316c58452db4f7309057496b51\",\"output\":[{\"type\":\"input_text\",\"text\":\"Script completed\\nWall time 1.2 seconds\\nOutput:\\n\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"24261d\\\",\\\"wall_time_seconds\\\":1.000712966,\\\"session_id\\\":55630,\\\"original_token_count\\\":11,\\\"output\\\":\\\"64d35aaef27df1b2eaa11d18d4441bebdbe5e9c7\\\\n\\\"}\"}],\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112737.7101367}},\"metadata\":{\"client_authored\":false,\"fallback_token_limit_override\":12000}}"
+    },
+    "11635": {
+      "timestamp_utc": "2026-10-16T01:07:31.241Z",
+      "raw_rollout_record_sha256": "933a98f3d9dac74b8d30267182c901c04001b8e1b492b963411f6f4d86ebeee4",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T01:07:31.241Z\",\"ordinal\":11635,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call_output\",\"id\":\"ctco_01a1423f-f929-7bf3-aa71-6bdd099be89a\",\"call_id\":\"call_6d8c062cf9ed4d3aa208e72407436248\",\"output\":[{\"type\":\"input_text\",\"text\":\"Script completed\\nWall time 0.2 seconds\\nOutput:\\n\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"d11fc3\\\",\\\"wall_time_seconds\\\":0.00001006,\\\"exit_code\\\":0,\\\"original_token_count\\\":11,\\\"output\\\":\\\"preserved 24 original files byte-identical\\\\n\\\"}\"},{\"type\":\"input_text\",\"text\":\"{\\\"chunk_id\\\":\\\"56a4b3\\\",\\\"wall_time_seconds\\\":0.000009451,\\\"exit_code\\\":0,\\\"original_token_count\\\":33,\\\"output\\\":\\\"[('month-end-green', 0), ('full-calendar', 0), ('full-find_the_day', 0), ('controls-calendar', 0), ('controls-find_the_day', 0)]\\\\n\\\"}\"}],\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112851.2412055}},\"metadata\":{\"client_authored\":false,\"fallback_token_limit_override\":12000}}"
+    },
+    "11599": {
+      "timestamp_utc": "2026-10-16T01:05:36.538Z",
+      "raw_rollout_record_sha256": "f4d8c8409893faf2e25aee666a510835664af71e1e598cdd71c317ebb63b3f98",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T01:05:36.538Z\",\"ordinal\":11599,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call\",\"id\":\"ctc_0c81a98c7fe5e2b1016ad178567b448191869e1f9db726c6e2\",\"status\":\"completed\",\"call_id\":\"call_472d72316c58452db4f7309057496b51\",\"name\":\"exec\",\"input\":\"text(await tools.exec_command({cmd:\\\"python3 - <<'PY'\\\\nfrom pathlib import Path\\\\np=Path('src/activities/calendar/Calendar.qml');s=p.read_text();old='''                // on some months, it goes to the next month...\\\\n                if(calendar.currentDate.getDate() == 31) return;\\\\n                var date = new Date(calendar.currentDate);\\\\n                date.setMonth(calendar.currentDate.getMonth()+1);\\\\n                date.setDate(0);''';new='''                var date = new Date(calendar.currentDate);\\\\n                date.setDate(1);\\\\n                date.setMonth(calendar.currentDate.getMonth()+1);\\\\n                date.setDate(0);''';assert s.count(old)==1;p.write_text(s.replace(old,new))\\\\nPY\\\\ngit add src/activities/calendar/Calendar.qml .scratch/pt-pt/functional-calendars/month-end.qml .scratch/pt-pt/functional-calendars/month-end-red\\\\ngit diff --cached --check\\\\ngit commit -m 'fix(calendar): keep End key within the displayed month' > /tmp/gcompris-calendar-end-commit.log\\\\ngit rev-parse HEAD\\\\npython3 - <<'PY'\\\\nfrom pathlib import Path\\\\nroot=Path('.scratch/pt-pt/functional-calendars')\\\\n(root/'index.json').rename(root/'index-before-month-end.json')\\\\nfor a in ['calendar','find_the_day']:\\\\n for kind in ['full','controls']:\\\\n  (root/(kind+'-'+a)).rename(root/('before-month-end-'+kind+'-'+a))\\\\nPY\\\\npython3 - <<'PY'\\\\nimport subprocess\\\\njobs=[]\\\\nfor name,activity,case,level,timeout in [('month-end-green','calendar','month-end.qml','5','70'),('full-calendar','calendar','full-calendar.qml',None,'300'),('full-find_the_day','find_the_day','full-find_the_day.qml',None,'300'),('controls-calendar','calendar','controls-calendar.qml',None,'140'),('controls-find_the_day','find_the_day','controls-find_the_day.qml',None,'140')]:\\\\n log=open('/tmp/gcompris-calendar-final-'+name+'.log','w')\\\\n command=['python3','tools/run-native-qml-case.py','--source-root','.','--activity',activity,'--qml-file','src/activities/calendar/Calendar.qml','--case','.scratch/pt-pt/functional-calendars/'+case,'--output','.scratch/pt-pt/functional-calendars/'+name,'--timeout',timeout,'--offline','--resource-snapshot','.scratch/pt-pt/functional-calendars/snapshot']\\\\n if level:command+=['--start-level',level]\\\\n jobs.append((name,subprocess.Popen(command,stdout=log,stderr=subprocess.STDOUT),log))\\\\nresults=[]\\\\nfor name,p,log in jobs:results.append((name,p.wait()));log.close()\\\\nprint(results);assert all(code==0 for _,code in results)\\\\nPY\\\",\\\"workdir\\\":\\\"/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars\\\",\\\"yield_time_ms\\\":1000,\\\"max_output_tokens\\\":200}));\\n\",\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112726.4832594}}}"
+    },
+    "11632": {
+      "timestamp_utc": "2026-10-16T01:07:31.055Z",
+      "raw_rollout_record_sha256": "6c148baa4d0b21c586daebea96d1108d7c804436f63e9b9b62dcd5f60accee2c",
+      "raw_rollout_record": "{\"timestamp\":\"2026-10-16T01:07:31.055Z\",\"ordinal\":11632,\"type\":\"response_item\",\"payload\":{\"type\":\"custom_tool_call\",\"id\":\"ctc_0c81a98c7fe5e2b1016ad178cd58fc81919b17106009dd5b15\",\"status\":\"completed\",\"call_id\":\"call_6d8c062cf9ed4d3aa208e72407436248\",\"name\":\"exec\",\"input\":\"text(await tools.exec_command({cmd:\\\"python3 - <<'PY'\\\\nimport hashlib,json,subprocess\\\\nfrom pathlib import Path\\\\nroot=Path('.scratch/pt-pt/functional-calendars');records=[]\\\\nfor activity in ['calendar','find_the_day']:\\\\n for kind in ['full','controls']:\\\\n  old=f'.scratch/pt-pt/functional-calendars/{kind}-{activity}'\\\\n  new=root/f'before-month-end-{kind}-{activity}'\\\\n  names=subprocess.check_output(['git','ls-tree','-r','--name-only','7b6ab3960803dca8cda6cdb79b085cfbce544cc0','--',old],text=True).splitlines()\\\\n  for name in names:\\\\n   path=new/Path(name).relative_to(old)\\\\n   original=subprocess.check_output(['git','show','7b6ab3960803dca8cda6cdb79b085cfbce544cc0:'+name])\\\\n   assert path.read_bytes()==original,name\\\\n   records.append({'original':name,'preserved':str(path.relative_to(root)),'sha256':hashlib.sha256(original).hexdigest()})\\\\n(root/'before-month-end-preservation.json').write_text(json.dumps(records,indent=2)+'\\\\\\\\n')\\\\nprint('preserved',len(records),'original files byte-identical')\\\\nPY\\\",\\\"workdir\\\":\\\"/home/proteu/Projetos/GCompris-qt-worktrees/pt-calendars\\\",\\\"max_output_tokens\\\":200}));\\ntext(await tools.write_stdin({session_id:55630,chars:\\\"\\\",yield_time_ms:1000,max_output_tokens:300}));\\n\",\"internal_chat_message_metadata_passthrough\":{\"turn_id\":\"01a14111-a1ea-7ed1-8e79-59c1dd3ee392\",\"create_time\":1792112845.3502376}}}"
+    }
+  }
+}

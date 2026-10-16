@@ -1,0 +1,11 @@
+{
+  "proof_revision": "ee3eb60d751c4463f0781560f729dba1aa8354a8",
+  "cases": 18,
+  "puzzles": 206,
+  "mouse": 106,
+  "keyboard": 100,
+  "insufficient": 204,
+  "excessive": 197,
+  "controls": 4,
+  "scope": "Linux software evidence; Windows, physical audio and teacher review pending"
+}

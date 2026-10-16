@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: GPL-3.0-or-later
 """Validate the historical native calendar evidence, independent of old paths."""
+import argparse
+import sys
 import hashlib
 import json
 from pathlib import Path
 import subprocess
 
 ROOT=Path(__file__).resolve().parents[2]
+sys.path.insert(0,str(ROOT/'tools'))
+from native_qml_supervision import verify_status
+
 HERE=ROOT/'.scratch/pt-pt/functional-calendars'
 SOURCE='64d35aaef27df1b2eaa11d18d4441bebdbe5e9c7'
 NAVIGATION='02c4675f67bf273448cffb643d80008fae308a77'
@@ -18,6 +23,8 @@ CAT='poqm/pt/gcompris_qt.po'
 RUNNER='tools/run-native-qml-case.py'
 PREFIX='.scratch/pt-pt/functional-calendars/'
 ACTIVITIES=['calendar','find_the_day']
+OBSERVATIONS_SHA256='492ad2ef62ad41cd015210d3cf6f6a2e67b5656eebb76692cdcdfc8809892a84'
+ORIGINAL_OBSERVATIONS_SHA256='5802b004a8dd7a501b5eb45c664ba73d17b22756e4472164fd0818cafe672ec2'
 EXTRA={'src/activities/fifteen/resource/background.svg','src/core/resource/sounds/completetask.wav','src/core/resource/sounds/crash.wav','src/core/resource/scroll_down.svg','src/core/resource/bar_ok.svg'}
 
 
@@ -28,6 +35,12 @@ def git(name,revision=SOURCE):return subprocess.check_output(['git','show',revis
 
 def audit(evidence=HERE):
     evidence=Path(evidence)
+    observed=(evidence/'supervisor-observations-rollout.json').read_bytes()
+    assert sha(observed)==OBSERVATIONS_SHA256,'Immutable retrospective supervisor observations'
+    history=json.loads(observed)
+    assert sha((evidence/'supervisor-observations.json').read_bytes())==ORIGINAL_OBSERVATIONS_SHA256==history['input_manifest_sha256']
+    observations={row['directory']:row for row in history['observations']}
+    assert len(observations)==len(history['observations'])==14 and not history['missing_outcomes']
     identity=json.loads((evidence/'source-identity.json').read_text())
     required=set(subprocess.check_output(['git','ls-tree','-r','--name-only',SOURCE,'--',*[f'src/activities/{a}' for a in ACTIVITIES]],cwd=ROOT,text=True).splitlines())|{RUNNER,CAT}|EXTRA
     assert identity['revision']==SOURCE and set(identity['files'])==required
@@ -46,6 +59,13 @@ def audit(evidence=HERE):
     cases=[]
     def receipt(directory,case,activity,source=SOURCE,catalogue=SOURCE,positive=True):
         result=json.loads((evidence/directory/'result.json').read_text())
+        observation=observations[directory]
+        expected_exit=0 if positive else 1
+        assert observation['launcher_exit_code']==expected_exit,'Historical native launcher completion'
+        assert observation['native_receipt_sha256']==sha((evidence/directory/'result.json').read_bytes())
+        assert observation['case_sha256']==sha((evidence/case).read_bytes())
+        if (evidence/directory/'launcher-status.json').exists():
+            verify_status(evidence/directory/'launcher-status.json',evidence/directory/'result.json',evidence/case,expected_exit)
         assert result['passed'] is positive and result['timeout'] is False
         assert result['exit_code']==0 and not result['qml_errors']
         assert result['activity']==activity and result['locale']=='pt_PT' and result['network']=='docker-none'
@@ -83,6 +103,7 @@ def audit(evidence=HERE):
         ('month-end','month-end.qml',NAVIGATION,SOURCE,SOURCE,SOURCE)]:
         receipt(stem+'-red',case,'calendar',old_source,old_cat,False)
         receipt(stem+'-green',case,'calendar',new_source,new_cat,True)
+    assert {row['directory'] for row in cases}==set(observations)
     assert json.loads((evidence/'title-red/result.json').read_text())['case_result']['title']['titleVisible'] is False
     assert 'CALENDAR_ASSERT 2018,3 2018,2 January 31' in (evidence/'month-navigation-red/native.log').read_text()
     assert 'CALENDAR_ASSERT Current Portuguese orthography:' in (evidence/'orthography-diagnostic-red/native.log').read_text()
@@ -95,5 +116,10 @@ def audit(evidence=HERE):
 
 
 if __name__=='__main__':
-    result=audit();(HERE/'index.json').write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n')
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--evidence',type=Path,default=HERE)
+    parser.add_argument('--check-only',action='store_true')
+    args=parser.parse_args()
+    result=audit(args.evidence)
+    if not args.check_only:(args.evidence/'index.json').write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n')
     print(json.dumps({k:v for k,v in result.items() if k not in {'artifacts_sha256','cases'}}))

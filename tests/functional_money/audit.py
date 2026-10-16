@@ -10,6 +10,7 @@ from pathlib import Path, PurePosixPath
 import subprocess
 import sys
 from oracle import DENOMINATIONS, cents, subset
+from completion import historical_completion, verify_completion
 
 ROOT=Path(__file__).resolve().parents[2]
 EVIDENCE='.scratch/pt-pt/functional-money/'
@@ -72,6 +73,9 @@ def audit(base,repository=ROOT):
         return sum(DENOMINATIONS[source.split('/')[-1]] for source in sources)
     for name,case in index['cases'].items():
         result=read(name+'/result.json');phase=case['phase'];revision=PHASES[phase]
+        expected_exit=1 if case['kind']=='red' else 0
+        historical_completion(base,name,expected_exit)
+        verify_completion(base,name,expected_exit)
         assert result['case_sha256']==digest((base/name/'case.qml').read_bytes())
         assert result['source_sha256']==digest(blob(revision,'src/activities/'+result['qml_file']))
         assert result['runner_sha256']==digest(blob(revision,'tools/run-native-qml-case.py'))
