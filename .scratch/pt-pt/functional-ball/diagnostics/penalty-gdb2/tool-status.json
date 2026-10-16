@@ -1,0 +1,10 @@
+{
+  "format": 1,
+  "kind": "observed-exec-tool-return",
+  "exit_code": 0,
+  "session_id": 50352,
+  "chunk_id": "12c94a",
+  "provenance": "Actual write_stdin response observed by data_04; command runs Qt under gdb and is not a standard native acceptance receipt",
+  "native_receipt_sha256": "a8634dae37a01c494e5c56f547724790e254991022707620b17f4ff7011af0ec",
+  "launcher_status_sha256": "e7056c1c6626a691ffee6696c9147bdf3ef0ca51ea641aa52be81457f2af33cf"
+}

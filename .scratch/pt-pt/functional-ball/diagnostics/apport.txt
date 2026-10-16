@@ -1,0 +1,1 @@
+ERROR: apport (pid 4143323) 2026-10-16 04:49:57,573: executable was modified after program start, ignoring

@@ -1,0 +1,15 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+TestCase {
+ when:activity.visible
+ property var evidence:({})
+ function all(root){var found=[root];if(root.children)for(var c of root.children)found=found.concat(all(c));return found;}
+ function click(item,button){verify(item!==undefined&&item!==null);var point=item.mapToItem(pageView,item.width/2,item.height/2);verify(point.x>=0&&point.y>=0&&point.x<pageView.width&&point.y<pageView.height);mouseClick(pageView,point.x,point.y,button===undefined?Qt.LeftButton:button,Qt.NoModifier,0);wait(30);}
+ function icon(suffix){wait(400);var image=all(bar).find(c=>c.source!==undefined&&String(c.source).endsWith(suffix));verify(image!==undefined,suffix);click(image);wait(350);}
+ function point(item){var p=item.mapToItem(activityBackground,item.width/2,item.height/2);return {x:p.x,y:p.y,width:item.width,height:item.height,source:item.source!==undefined?String(item.source):null};}
+ function helpPT(word){var depth=pageView.depth;icon('bar_help.svg');tryCompare(pageView,'depth',depth+1,2000);wait(300);var help=pageView.currentItem;verify(help.content.indexOf(word)>=0);evidence.help={title:String(help.title),content:String(help.content)};grabImage(pageView).save('__QA_OUTPUT__/help.png');keyClick(Qt.Key_Escape);tryCompare(pageView,'depth',depth,2000);wait(500);evidence.escape=true;}
+ function finishMenu(){evidence.reloadOffered=all(bar).some(c=>c.source!==undefined&&String(c.source).endsWith('bar_reload.svg'));evidence.configurationOffered=all(bar).some(c=>c.source!==undefined&&String(c.source).endsWith('bar_activity_config.svg'));ActivityInfoTree.startingActivity='';keyClick(Qt.Key_W,Qt.ControlModifier);tryCompare(pageView,'depth',1,2000);verify(pageView.currentItem.isMenu);evidence.menu=true;grabImage(pageView).save('__QA_OUTPUT__/menu.png');}
+ function test_controls(){wait(1300);compare(activity.numberOfLevel,9);verify(message.visible);keyClick(Qt.Key_Return);tryCompare(message,'visible',false,2000);wait(300);helpPT('mãos');
+ var before=point(ball);keyClick(Qt.Key_Left,Qt.NoModifier,0);keyClick(Qt.Key_Right,Qt.NoModifier,0);tryVerify(()=>point(ball).y<before.y-20,2500);evidence.focusAfterHelp=true;var start=Date.now();while(!bonus.isPlaying&&Date.now()-start<12000)wait(20);verify(bonus.isPlaying);tryVerify(()=>bonus.opacity>0.5,1500);verify(String(bonus.source).indexOf('good')>=0);evidence.correctAfterHelp=true;tryCompare(activity,'currentLevel',1,10000);tryCompare(bonus,'isPlaying',false,3000);wait(350);
+ click(leftHand);wait(150);icon('bar_next.svg');compare(activity.currentLevel,2);tryVerify(()=>Math.abs(point(ball).x-point(tux).x)<1,1500);evidence.partialRestart=true;icon('bar_previous.svg');compare(activity.currentLevel,1);icon('bar_previous.svg');compare(activity.currentLevel,0);icon('bar_previous.svg');compare(activity.currentLevel,8);icon('bar_next.svg');compare(activity.currentLevel,0);evidence.wrap=true;finishMenu();}
+ function cleanupTestCase(){if(qtest_results.failCount)grabImage(pageView).save('__QA_OUTPUT__/failure.png');console.log('NATIVE_RESULT',JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,evidence:evidence}));}
+}

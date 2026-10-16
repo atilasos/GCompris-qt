@@ -66,6 +66,9 @@ function setBallToRetun() {
 }
 
 function resetProgressBars() {
+    items.progressRight.anim.stop();
+    items.progressLeft.anim.stop();
+    items.progressTop.anim.stop();
     items.progressRight.ratio = 0;
     items.progressLeft.ratio = 0;
     items.progressTop.ratio = 0;
