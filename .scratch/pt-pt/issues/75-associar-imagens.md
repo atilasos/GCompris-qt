@@ -1,7 +1,7 @@
 # Associar imagens, formas e nomes em PT-PT
 
 Status: ready-for-agent
-Progress: claimed
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -46,3 +46,8 @@ na regressão retrato extra está separada dos 119 centros visíveis landscape.
 fontes/recibos selados, cópia fora de Git e 13 testes de auditoria/adulteração.
 Progress permanece claimed até Standards/Spec independentes. Windows,
 hardware, audição e revisão docente/global continuam pendentes.
+
+## Integração
+
+Provas integradas para Standards e Spec independentes. `ready-for-review`
+não representa resolução final ou aceitação global.
