@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "questions": 80,
+  "levels": 13,
+  "curriculum": {
+    "hand_levels": 6,
+    "position_datasets": 2,
+    "mouse_levels": 3
+  },
+  "wrong_repaired": 13,
+  "controls": 3,
+  "native_receipts": 11,
+  "mouse_buttons": {
+    "left": 11,
+    "right": 11
+  },
+  "answer_inputs": {
+    "keyboard": 30,
+    "mouse": 28
+  },
+  "scope": "Linux offline; all published levels/modes, not all random permutations; Windows/devices/audio/teacher review pending"
+}

@@ -1,0 +1,53 @@
+{
+  "method": "Manual inspection of all eight actual photos: wrist on left, fingers on right; thumb orientation and palm/back distinguish anatomical hand. Rotation does not change handedness. No activity answer fields used.",
+  "images": {
+    "main_droite_dessus_0.webp": {
+      "side": "right",
+      "view": "back",
+      "thumb_in_unrotated_photo": "upper",
+      "sha256": "05657aeb43336d513b6724533e79082b149bdf6e6af0680031b601c9bc78e77d"
+    },
+    "main_droite_paume_0.webp": {
+      "side": "right",
+      "view": "palm",
+      "thumb_in_unrotated_photo": "lower",
+      "sha256": "7ac0058c04f93fd039a2acb06a7548e0a3990fe4074ae694367923380f29f356"
+    },
+    "main_gauche_dessus_0.webp": {
+      "side": "left",
+      "view": "back",
+      "thumb_in_unrotated_photo": "lower",
+      "sha256": "f588e583051557a4f61a071b836a6091e67fae7a6703f912ab3a9bd44b5d4705"
+    },
+    "main_gauche_paume_0.webp": {
+      "side": "left",
+      "view": "palm",
+      "thumb_in_unrotated_photo": "upper",
+      "sha256": "e57658199006929a6af8973974197acfa69c7da0cab7c835a1805ecb44e2ab59"
+    },
+    "poing_droit_dessus_0.webp": {
+      "side": "right",
+      "view": "back",
+      "thumb_in_unrotated_photo": "upper",
+      "sha256": "305784dc75919d340ece5703d107e841376b4fb42965e324fe42c761c49a175a"
+    },
+    "poing_droit_paume_0.webp": {
+      "side": "right",
+      "view": "palm",
+      "thumb_in_unrotated_photo": "lower",
+      "sha256": "6ae0836358634d700a6d1143c4527b14321c23b332f270a175843b8805f5308f"
+    },
+    "poing_gauche_dessus_0.webp": {
+      "side": "left",
+      "view": "back",
+      "thumb_in_unrotated_photo": "lower",
+      "sha256": "a6a9a168d9920ddd1e77ee9611d7403f2a13e6de2a799a978af677d21a75dbac"
+    },
+    "poing_gauche_paume_0.webp": {
+      "side": "left",
+      "view": "palm",
+      "thumb_in_unrotated_photo": "upper",
+      "sha256": "7c31b833b995dfa59a0fb69d550dcda48a07a785a76b60d1950c498115f3a0c7"
+    }
+  }
+}
