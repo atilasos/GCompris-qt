@@ -1,0 +1,126 @@
+test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) ... 
+  test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='title-red', field='source_sha256') ... FAIL
+  test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='title-red', field='portuguese_catalogue_sha256') ... FAIL
+  test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='title-green', field='source_sha256') ... FAIL
+  test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='title-green', field='portuguese_catalogue_sha256') ... FAIL
+  test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='return-green', field='source_sha256') ... FAIL
+  test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='return-green', field='portuguese_catalogue_sha256') ... FAIL
+  test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='monster-green', field='source_sha256') ... FAIL
+  test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='monster-green', field='portuguese_catalogue_sha256') ... FAIL
+  test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='full/gnumch-equality-01', field='source_sha256') ... FAIL
+  test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='full/gnumch-equality-01', field='portuguese_catalogue_sha256') ... FAIL
+  test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='final/gnumch-equality-01', field='source_sha256') ... FAIL
+  test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='final/gnumch-equality-01', field='portuguese_catalogue_sha256') ... FAIL
+
+======================================================================
+FAIL: test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='title-red', field='source_sha256')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-number-munchers/tests/functional_gnumch/test_identity_audit.py", line 30, in test_changed_input_identities_are_rejected_in_each_phase
+    self.assertNotEqual(run.returncode, 0, f'Accepted changed {field} in {folder}')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 == 0 : Accepted changed source_sha256 in title-red
+
+======================================================================
+FAIL: test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='title-red', field='portuguese_catalogue_sha256')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-number-munchers/tests/functional_gnumch/test_identity_audit.py", line 30, in test_changed_input_identities_are_rejected_in_each_phase
+    self.assertNotEqual(run.returncode, 0, f'Accepted changed {field} in {folder}')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 == 0 : Accepted changed portuguese_catalogue_sha256 in title-red
+
+======================================================================
+FAIL: test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='title-green', field='source_sha256')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-number-munchers/tests/functional_gnumch/test_identity_audit.py", line 30, in test_changed_input_identities_are_rejected_in_each_phase
+    self.assertNotEqual(run.returncode, 0, f'Accepted changed {field} in {folder}')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 == 0 : Accepted changed source_sha256 in title-green
+
+======================================================================
+FAIL: test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='title-green', field='portuguese_catalogue_sha256')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-number-munchers/tests/functional_gnumch/test_identity_audit.py", line 30, in test_changed_input_identities_are_rejected_in_each_phase
+    self.assertNotEqual(run.returncode, 0, f'Accepted changed {field} in {folder}')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 == 0 : Accepted changed portuguese_catalogue_sha256 in title-green
+
+======================================================================
+FAIL: test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='return-green', field='source_sha256')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-number-munchers/tests/functional_gnumch/test_identity_audit.py", line 30, in test_changed_input_identities_are_rejected_in_each_phase
+    self.assertNotEqual(run.returncode, 0, f'Accepted changed {field} in {folder}')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 == 0 : Accepted changed source_sha256 in return-green
+
+======================================================================
+FAIL: test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='return-green', field='portuguese_catalogue_sha256')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-number-munchers/tests/functional_gnumch/test_identity_audit.py", line 30, in test_changed_input_identities_are_rejected_in_each_phase
+    self.assertNotEqual(run.returncode, 0, f'Accepted changed {field} in {folder}')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 == 0 : Accepted changed portuguese_catalogue_sha256 in return-green
+
+======================================================================
+FAIL: test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='monster-green', field='source_sha256')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-number-munchers/tests/functional_gnumch/test_identity_audit.py", line 30, in test_changed_input_identities_are_rejected_in_each_phase
+    self.assertNotEqual(run.returncode, 0, f'Accepted changed {field} in {folder}')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 == 0 : Accepted changed source_sha256 in monster-green
+
+======================================================================
+FAIL: test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='monster-green', field='portuguese_catalogue_sha256')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-number-munchers/tests/functional_gnumch/test_identity_audit.py", line 30, in test_changed_input_identities_are_rejected_in_each_phase
+    self.assertNotEqual(run.returncode, 0, f'Accepted changed {field} in {folder}')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 == 0 : Accepted changed portuguese_catalogue_sha256 in monster-green
+
+======================================================================
+FAIL: test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='full/gnumch-equality-01', field='source_sha256')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-number-munchers/tests/functional_gnumch/test_identity_audit.py", line 30, in test_changed_input_identities_are_rejected_in_each_phase
+    self.assertNotEqual(run.returncode, 0, f'Accepted changed {field} in {folder}')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 == 0 : Accepted changed source_sha256 in full/gnumch-equality-01
+
+======================================================================
+FAIL: test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='full/gnumch-equality-01', field='portuguese_catalogue_sha256')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-number-munchers/tests/functional_gnumch/test_identity_audit.py", line 30, in test_changed_input_identities_are_rejected_in_each_phase
+    self.assertNotEqual(run.returncode, 0, f'Accepted changed {field} in {folder}')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 == 0 : Accepted changed portuguese_catalogue_sha256 in full/gnumch-equality-01
+
+======================================================================
+FAIL: test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='final/gnumch-equality-01', field='source_sha256')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-number-munchers/tests/functional_gnumch/test_identity_audit.py", line 30, in test_changed_input_identities_are_rejected_in_each_phase
+    self.assertNotEqual(run.returncode, 0, f'Accepted changed {field} in {folder}')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 == 0 : Accepted changed source_sha256 in final/gnumch-equality-01
+
+======================================================================
+FAIL: test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) (folder='final/gnumch-equality-01', field='portuguese_catalogue_sha256')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-number-munchers/tests/functional_gnumch/test_identity_audit.py", line 30, in test_changed_input_identities_are_rejected_in_each_phase
+    self.assertNotEqual(run.returncode, 0, f'Accepted changed {field} in {folder}')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 == 0 : Accepted changed portuguese_catalogue_sha256 in final/gnumch-equality-01
+
+----------------------------------------------------------------------
+Ran 1 test in 0.805s
+
+FAILED (failures=12)
