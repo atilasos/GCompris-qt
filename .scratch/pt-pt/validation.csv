@@ -14,8 +14,8 @@ baby_keyboard,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/
 baby_mouse,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/baby_mouse.md
 baby_tangram,pending,pending,pending,pending,pending,
 baby_wordprocessor,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/baby_wordprocessor.md
-babymatch,pending,pending,pending,pending,pending,
-babyshapes,pending,pending,pending,pending,pending,
+babymatch,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/babymatch.md
+babyshapes,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/babyshapes.md
 balancebox,pending,pending,pending,pending,pending,
 ballcatch,pending,pending,pending,pending,pending,
 bargame,pending,pending,pending,pending,pending,
@@ -87,7 +87,7 @@ hangman,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/hangma
 hanoi,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/hanoi.md
 hanoi_real,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/hanoi_real.md
 hexagon,pending,pending,pending,pending,pending,
-imagename,pending,pending,pending,pending,pending,
+imagename,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/imagename.md
 instruments,pending,pending,pending,pending,pending,
 keyboard_training,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/keyboard_training.md
 land_safe,pending,pending,pending,pending,pending,

@@ -1,7 +1,7 @@
 # Associar imagens, formas e nomes em PT-PT
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -27,3 +27,32 @@ qualquer correção. Preparar fontes antes dos trabalhadores concorrentes.
 
 Windows 10, dispositivos físicos, audição e aprovação global/docente continuam
 pendentes. Os pares legados da tarefa 44 permanecem à espera de decisão humana.
+
+## Implementação para revisão independente
+
+Prova Linux delimitada pronta: 21 níveis, 25 tabuleiros, 119 associações,
+25 tentativas trocadas e reparadas, 21 Bonus naturais. Quatorze casos positivos
+e três vermelhos esperados terminaram; os dez percursos finais têm retorno
+da ferramenta externa 0 efetivamente observado, além de Qt/launcher 0.
+
+Corrigidos com o mesmo caso Qt antes/depois: tradução «oveiro», limiar de
+arrasto no referencial da página e legenda «Natureza-morta com flores».
+Não se gerou áudio. A board do oveiro não possui voz de palavra; seleção
+usa scroll.wav. SoundEffect sem playing permanece limite, MediaPlayer
+PlayingState/hasAudio é apenas reprodução técnica. A oclusão de um centro
+na regressão retrato extra está separada dos 119 centros visíveis landscape.
+
+[Provas e auditor portátil](../functional-association/README.md), com
+fontes/recibos selados, cópia fora de Git e 13 testes de auditoria/adulteração.
+Progress permanece claimed até Standards/Spec independentes. Windows,
+hardware, audição e revisão docente/global continuam pendentes.
+
+## Integração
+
+Provas integradas para Standards e Spec independentes. `ready-for-review`
+não representa resolução final ou aceitação global.
+
+## Fecho de revisão
+
+Standards e Spec sem achados acionáveis; [relatórios](../review/integration75/).
+Resolução limitada à prova Linux publicada, preservando limites e globais.

@@ -1,0 +1,103 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/build/association-snapshot/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/.scratch/pt-pt/functional-association/.native-qml-b172a1f386294b8cbcb223dd391c0b4d/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/.scratch/pt-pt/functional-association/.native-qml-b172a1f386294b8cbcb223dd391c0b4d/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/.scratch/pt-pt/functional-association/.native-qml-b172a1f386294b8cbcb223dd391c0b4d/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/.scratch/pt-pt/functional-association/.native-qml-b172a1f386294b8cbcb223dd391c0b4d/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/.scratch/pt-pt/functional-association/.native-qml-b172a1f386294b8cbcb223dd391c0b4d/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/.scratch/pt-pt/functional-association/.native-qml-b172a1f386294b8cbcb223dd391c0b4d/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/.scratch/pt-pt/functional-association/.native-qml-b172a1f386294b8cbcb223dd391c0b4d/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/.scratch/pt-pt/functional-association/.native-qml-b172a1f386294b8cbcb223dd391c0b4d/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-image-association/.scratch/pt-pt/functional-association/.native-qml-b172a1f386294b8cbcb223dd391c0b4d/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity babyshapes/Babyshapes.qml at level -1
+qml: babyshapes/Babyshapes.qml babyshapes/Babyshapes.qml
+No audio device detected
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: ASSOCIATION_HEARTBEAT {"level":7,"sublevel":0,"boards":1}
+qml: ASSOCIATION_HEARTBEAT {"level":7,"sublevel":1,"boards":2}
+qml: ASSOCIATION_HEARTBEAT {"level":7,"sublevel":2,"boards":3}
+qml: ASSOCIATION_HEARTBEAT {"level":7,"sublevel":3,"boards":4}
+qml: ASSOCIATION_HEARTBEAT {"level":7,"sublevel":4,"boards":5}
+qml: NATIVE_ASSOCIATION_RESULT {"failures":0,"passes":2,"activity":"babyshapes","boards":[{"level":7,"sublevel":0,"pieces":[{"piece":"image/Paul_Gauguin_006_chien.webp","target":{"x":287.38,"y":525.0174326465929},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/Paul_Gauguin_006_background.webp","center":[0.28526148969889065,0.799],"pixelBox":[20,315,340,484],"iou":0.7077448747152619,"edgeContinuityCost":0,"score":0.6597448747152619,"runnerUp":0.32186971140375453}},{"piece":"image/Paul_Gauguin_006_statue.webp","target":{"x":224.9,"y":145.8256735340729},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/Paul_Gauguin_006_background.webp","center":[0.1901743264659271,0.132],"pixelBox":[82,1,158,131],"iou":0.9390756302521008,"edgeContinuityCost":0,"score":0.9360756302521008,"runnerUp":0.2706151636990236}},{"piece":"image/Paul_Gauguin_006_jeunes_filles.webp","target":{"x":562.86,"y":329.79556259904916},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/Paul_Gauguin_006_background.webp","center":[0.6664025356576863,0.459],"pixelBox":[281,90,560,369],"iou":0.9870071007705091,"edgeContinuityCost":0,"score":0.9850071007705091,"runnerUp":0.2747341466874734}}],"instruction":"Paul Gauguin, Arearea - 1892","beforeScore":0},{"level":7,"sublevel":1,"pieces":[{"piece":"image/Pieter_Bruegel_fillette.webp","target":{"x":341.34,"y":533},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/Pieter_Bruegel_background.webp","center":[0.3544827586206897,0.87],"pixelBox":[188,372,326,498],"iou":0.9706840390879479,"edgeContinuityCost":0,"score":0.9696840390879479,"runnerUp":0.4452589442419333}},{"piece":"image/Pieter_Bruegel_mur.webp","target":{"x":704.86,"y":177.02068965517242},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/Pieter_Bruegel_background.webp","center":[0.8662068965517241,0.144],"pixelBox":[588,20,668,124],"iou":0.9533751962323391,"edgeContinuityCost":0,"score":0.9513751962323391,"runnerUp":0.44202661343978705}},{"piece":"image/Pieter_Bruegel_musicien.webp","target":{"x":272.47,"y":328.8137931034483},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/Pieter_Bruegel_background.webp","center":[0.2558620689655172,0.463],"pixelBox":[139,89,232,374],"iou":0.8768484288354899,"edgeContinuityCost":0,"score":0.8658484288354898,"runnerUp":0.3069137072685032}},{"piece":"image/Pieter_Bruegel_service.webp","target":{"x":575.6400000000001,"y":414.50344827586207},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/Pieter_Bruegel_background.webp","center":[0.6834482758620689,0.629],"pixelBox":[321,158,670,471],"iou":0.9866594555615648,"edgeContinuityCost":0,"score":0.9846594555615648,"runnerUp":0.24794172270252962}}],"instruction":"Pieter Bruegel o Antigo, O casamento dos humildes - 1568","beforeScore":1},{"level":7,"sublevel":2,"pieces":[{"piece":"image/lady_unicorn_3.webp","target":{"x":604.04,"y":555.199203821656},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/lady_unicorn_background.webp","center":[0.7237261146496815,0.8840425531914894],"pixelBox":[429,379,480,452],"iou":0.9691828793774319,"edgeContinuityCost":0,"score":0.9681828793774319,"runnerUp":0.6500126008778139}},{"piece":"image/lady_unicorn_4.webp","target":{"x":271.76,"y":439.8920382165606},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/lady_unicorn_background.webp","center":[0.25557324840764334,0.6702127659574468],"pixelBox":[87,177,234,453],"iou":0.9632536567962897,"edgeContinuityCost":0,"score":0.9582536567962897,"runnerUp":0.42400704949331763}},{"piece":"image/lady_unicorn_5.webp","target":{"x":139.7,"y":520.6601910828026},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/lady_unicorn_background.webp","center":[0.07006369426751592,0.8170212765957446],"pixelBox":[1,338,87,430],"iou":0.9451450189155107,"edgeContinuityCost":0,"score":0.9431450189155107,"runnerUp":0.5056285758949508}},{"piece":"image/lady_unicorn_2.webp","target":{"x":418.02000000000004,"y":379.8472929936306},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/lady_unicorn_background.webp","center":[0.46337579617834396,0.5531914893617021],"pixelBox":[251,222,331,298],"iou":0.9553903345724907,"edgeContinuityCost":0,"score":0.9513903345724907,"runnerUp":0.6492809405940595}},{"piece":"image/lady_unicorn_1.webp","target":{"x":712.67,"y":106.7234076433121},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/lady_unicorn_background.webp","center":[0.8789808917197452,0.03829787234042553],"pixelBox":[530,1,574,35],"iou":0.911798775442661,"edgeContinuityCost":0,"score":0.908798775442661,"runnerUp":0.6609464509831264}}],"instruction":"A Dama e o Unicórnio - Século XV","beforeScore":2},{"level":7,"sublevel":3,"pieces":[{"piece":"image/Van_Gogh_0011_1.webp","target":{"x":267.5,"y":315.61119751166405},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/Van_Gogh_0011_background.webp","center":[0.24883359253499224,0.433],"pixelBox":[96,137,224,296],"iou":0.9560708898944194,"edgeContinuityCost":0,"score":0.9540708898944193,"runnerUp":0.5167052569403425}},{"piece":"image/Van_Gogh_0011_5.webp","target":{"x":583.45,"y":374.13374805598755},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/Van_Gogh_0011_background.webp","center":[0.6951788491446346,0.541],"pixelBox":[291,122,603,419],"iou":0.9830230826507819,"edgeContinuityCost":0,"score":0.9820230826507819,"runnerUp":0.35403009653605905}},{"piece":"image/Van_Gogh_0011_3.webp","target":{"x":438.61,"y":153.29393468118195},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/Van_Gogh_0011_background.webp","center":[0.49222395023328147,0.14],"pixelBox":[280,43,353,97],"iou":0.9693840359616086,"edgeContinuityCost":0,"score":0.9693840359616086,"runnerUp":0.6754884825457136}},{"piece":"image/Van_Gogh_0011_4.webp","target":{"x":567.83,"y":113.54276827371694},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/Van_Gogh_0011_background.webp","center":[0.6726283048211509,0.068],"pixelBox":[409,1,456,67],"iou":0.9304640833205697,"edgeContinuityCost":0,"score":0.9284640833205697,"runnerUp":0.7111183266447768}},{"piece":"image/Van_Gogh_0011_2.webp","target":{"x":151.06,"y":412.7807153965785},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/Van_Gogh_0011_background.webp","center":[0.08475894245723173,0.608],"pixelBox":[1,185,108,423],"iou":0.9663007895243597,"edgeContinuityCost":0,"score":0.9633007895243597,"runnerUp":0.4388349587396849}}],"instruction":"Vincent van Gogh, Quarto em Arles - 1888","beforeScore":3},{"level":7,"sublevel":4,"pieces":[{"piece":"image/Bosschaert_04_3.webp","target":{"x":244.07,"y":204.2421875},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/Bosschaert_04_background.webp","center":[0.21875,0.234],"pixelBox":[82,68,198,166],"iou":0.8864085899971743,"edgeContinuityCost":0,"score":0.8774085899971743,"runnerUp":0.4693183492999263}},{"piece":"image/Bosschaert_04_5.webp","target":{"x":482.63000000000005,"y":241.40625},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/Bosschaert_04_background.webp","center":[0.55390625,0.301],"pixelBox":[308,121,401,180],"iou":0.9581521739130435,"edgeContinuityCost":0,"score":0.9541521739130435,"runnerUp":0.6562641776269269}},{"piece":"image/Bosschaert_04_6.webp","target":{"x":396.71999999999997,"y":481.03125},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/Bosschaert_04_background.webp","center":[0.41953125,0.735],"pixelBox":[193,304,344,431],"iou":0.8512035010940919,"edgeContinuityCost":0,"score":0.8242035010940919,"runnerUp":0.5132034895942821}},{"piece":"image/Bosschaert_04_2.webp","target":{"x":208.57,"y":397.828125},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/Bosschaert_04_background.webp","center":[0.165625,0.582],"pixelBox":[26,250,186,332],"iou":0.9380880121396055,"edgeContinuityCost":0,"score":0.9320880121396055,"runnerUp":0.49120543806646527}},{"piece":"image/Bosschaert_04_1.webp","target":{"x":553.63,"y":490.4609375},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/Bosschaert_04_background.webp","center":[0.653125,0.751],"pixelBox":[385,345,451,406],"iou":0.9096071935636536,"edgeContinuityCost":0,"score":0.9036071935636536,"runnerUp":0.7179871549603717}},{"piece":"image/Bosschaert_04_4.webp","target":{"x":431.51,"y":344.578125},"reason":"Visible image hole geometry and edge continuity","evidence":{"background":"image/Bosschaert_04_background.webp","center":[0.48125,0.486],"pixelBox":[271,206,345,280],"iou":0.9642698295033358,"edgeContinuityCost":0,"score":0.9612698295033358,"runnerUp":0.6753428992892584}}],"instruction":"Ambrosius Bosschaert o Antigo, Natureza-morta com flores - 1614","beforeScore":4}],"wins":1,"wrong":5,"moves":33}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs

@@ -1,0 +1,9 @@
+{
+  "kind": "observed-supervisor-subprocess-exit",
+  "case": "imagename-complete",
+  "exit_code": 0,
+  "elapsed": 76.89843964576721,
+  "receipt_sha256": "d6f4ad580bdee0e18b12d7c0b01a7a287626068e28c33a2b9f954c9321f47e2f",
+  "launcher_status_sha256": "4c158a4dfc5514c7d5ec3c00e7745f0ea1d6473802de1acaffc5f3bc328248aa",
+  "supervisor_sha256": "d3036d68f65c91905732c953d9438a642d3a1a99ccee8e05c66bf0c76cd68347"
+}

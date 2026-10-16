@@ -1,0 +1,9 @@
+{
+  "kind": "observed-supervisor-subprocess-exit",
+  "case": "imagename-controls",
+  "exit_code": 0,
+  "elapsed": 11.275003910064697,
+  "receipt_sha256": "95c1923f2d38ea37864d39503fa83fc4c02b10c8ba8fd7fb12a145e217df8a49",
+  "launcher_status_sha256": "5460537add42616a3a780bf31c95d458a68f5c49470fb5992eec5cbf89524523",
+  "supervisor_sha256": "d3036d68f65c91905732c953d9438a642d3a1a99ccee8e05c66bf0c76cd68347"
+}

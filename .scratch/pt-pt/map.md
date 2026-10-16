@@ -159,7 +159,7 @@ e os restantes critérios de aceitação mantêm os seus estados próprios.
 
 A memória matemática concluiu 14 variantes e 207 combinações nível/modo;
 decimais/quantidades concluíram 316 puzzles em 16 campanhas offline e quatro casos de controlos.
-As 114 atividades com evidência funcional ligada na matriz não representam
+As 117 atividades com evidência funcional ligada na matriz não representam
 a aceitação global dos 203 jogos.
 
 - [40 — Contrato dos níveis do Solitário](issues/40-niveis-solitario.md)
@@ -311,3 +311,10 @@ alterar critérios globais, Windows, hardware, áudio ou revisão docente.
 - [77 — Puzzles deslizantes](issues/77-puzzles-deslizantes.md)
 
 - [78 — Apagar as luzes](issues/78-apagar-luzes.md)
+
+A tarefa 75 tem prova Linux integrada de 21 níveis, 25 tabuleiros e 119
+associações. Fica resolvida no âmbito Linux após Standards e Spec sem achados;
+[relatórios](review/integration75/).
+Três ligações foram acrescentadas sem alterar os critérios globais. Um círculo
+ocluído no ensaio adicional em retrato e a ausência de prova de reprodução
+SoundEffect mantêm os limites publicados; Windows, hardware e docente pendentes.
