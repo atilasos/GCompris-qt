@@ -1,0 +1,113 @@
+EEEEEEEEE
+======================================================================
+ERROR: test_coherent_po_sources_receipts_statuses_objects_and_reseal_hit_external_anchor (test_audit.GridsPhysicalAudit.test_coherent_po_sources_receipts_statuses_objects_and_reseal_hit_external_anchor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-logical-grids/tests/functional_grids/test_audit.py", line 7, in setUp
+    self.temp=tempfile.TemporaryDirectory(prefix='grids physical copy ');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name);self.copy=self.root/'only evidence';shutil.copytree(BASE,self.copy)
+                                                                                                                                                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 652, in copytree
+    with os.scandir(src) as itr:
+         ~~~~~~~~~~^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-logical-grids/.scratch/pt-pt/functional-grids/capsule'
+
+======================================================================
+ERROR: test_copied_case_mutation_does_not_change_original_capsule (test_audit.GridsPhysicalAudit.test_copied_case_mutation_does_not_change_original_capsule)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-logical-grids/tests/functional_grids/test_audit.py", line 7, in setUp
+    self.temp=tempfile.TemporaryDirectory(prefix='grids physical copy ');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name);self.copy=self.root/'only evidence';shutil.copytree(BASE,self.copy)
+                                                                                                                                                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 652, in copytree
+    with os.scandir(src) as itr:
+         ~~~~~~~~~~^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-logical-grids/.scratch/pt-pt/functional-grids/capsule'
+
+======================================================================
+ERROR: test_empty_completion_and_reseal_cannot_replace_literal_anchor (test_audit.GridsPhysicalAudit.test_empty_completion_and_reseal_cannot_replace_literal_anchor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-logical-grids/tests/functional_grids/test_audit.py", line 7, in setUp
+    self.temp=tempfile.TemporaryDirectory(prefix='grids physical copy ');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name);self.copy=self.root/'only evidence';shutil.copytree(BASE,self.copy)
+                                                                                                                                                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 652, in copytree
+    with os.scandir(src) as itr:
+         ~~~~~~~~~~^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-logical-grids/.scratch/pt-pt/functional-grids/capsule'
+
+======================================================================
+ERROR: test_forged_outer_success_and_coherent_reseal_is_rejected (test_audit.GridsPhysicalAudit.test_forged_outer_success_and_coherent_reseal_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-logical-grids/tests/functional_grids/test_audit.py", line 7, in setUp
+    self.temp=tempfile.TemporaryDirectory(prefix='grids physical copy ');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name);self.copy=self.root/'only evidence';shutil.copytree(BASE,self.copy)
+                                                                                                                                                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 652, in copytree
+    with os.scandir(src) as itr:
+         ~~~~~~~~~~^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-logical-grids/.scratch/pt-pt/functional-grids/capsule'
+
+======================================================================
+ERROR: test_optimized_audit_is_explicitly_rejected (test_audit.GridsPhysicalAudit.test_optimized_audit_is_explicitly_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-logical-grids/tests/functional_grids/test_audit.py", line 7, in setUp
+    self.temp=tempfile.TemporaryDirectory(prefix='grids physical copy ');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name);self.copy=self.root/'only evidence';shutil.copytree(BASE,self.copy)
+                                                                                                                                                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 652, in copytree
+    with os.scandir(src) as itr:
+         ~~~~~~~~~~^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-logical-grids/.scratch/pt-pt/functional-grids/capsule'
+
+======================================================================
+ERROR: test_physical_instrumented_qml_corruption_is_rejected (test_audit.GridsPhysicalAudit.test_physical_instrumented_qml_corruption_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-logical-grids/tests/functional_grids/test_audit.py", line 7, in setUp
+    self.temp=tempfile.TemporaryDirectory(prefix='grids physical copy ');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name);self.copy=self.root/'only evidence';shutil.copytree(BASE,self.copy)
+                                                                                                                                                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 652, in copytree
+    with os.scandir(src) as itr:
+         ~~~~~~~~~~^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-logical-grids/.scratch/pt-pt/functional-grids/capsule'
+
+======================================================================
+ERROR: test_physical_private_rcc_corruption_is_rejected (test_audit.GridsPhysicalAudit.test_physical_private_rcc_corruption_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-logical-grids/tests/functional_grids/test_audit.py", line 7, in setUp
+    self.temp=tempfile.TemporaryDirectory(prefix='grids physical copy ');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name);self.copy=self.root/'only evidence';shutil.copytree(BASE,self.copy)
+                                                                                                                                                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 652, in copytree
+    with os.scandir(src) as itr:
+         ~~~~~~~~~~^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-logical-grids/.scratch/pt-pt/functional-grids/capsule'
+
+======================================================================
+ERROR: test_physical_qm_corruption_is_rejected (test_audit.GridsPhysicalAudit.test_physical_qm_corruption_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-logical-grids/tests/functional_grids/test_audit.py", line 7, in setUp
+    self.temp=tempfile.TemporaryDirectory(prefix='grids physical copy ');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name);self.copy=self.root/'only evidence';shutil.copytree(BASE,self.copy)
+                                                                                                                                                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 652, in copytree
+    with os.scandir(src) as itr:
+         ~~~~~~~~~~^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-logical-grids/.scratch/pt-pt/functional-grids/capsule'
+
+======================================================================
+ERROR: test_portable_physical_copy_without_original_tree_git_or_qt (test_audit.GridsPhysicalAudit.test_portable_physical_copy_without_original_tree_git_or_qt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-logical-grids/tests/functional_grids/test_audit.py", line 7, in setUp
+    self.temp=tempfile.TemporaryDirectory(prefix='grids physical copy ');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name);self.copy=self.root/'only evidence';shutil.copytree(BASE,self.copy)
+                                                                                                                                                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 652, in copytree
+    with os.scandir(src) as itr:
+         ~~~~~~~~~~^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/proteu/Projetos/GCompris-qt-worktrees/pt-logical-grids/.scratch/pt-pt/functional-grids/capsule'
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.002s
+
+FAILED (errors=9)
