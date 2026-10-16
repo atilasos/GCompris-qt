@@ -106,3 +106,5 @@ fora da composição das 27 rotas. Os seus bytes brutos foram preservados.
 Windows 10, dispositivos físicos, toque real, audição, revisão docente,
 estabilidade do encerramento histórico e aceitação global continuam pendentes.
 Este lote é entregue para revisão independente, não declara os 203 jogos aceites.
+
+Pendência de encerramento: [tarefa 83](../issues/83-encerramento-penalty.md).

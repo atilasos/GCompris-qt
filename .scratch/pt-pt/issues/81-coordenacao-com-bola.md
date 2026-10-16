@@ -47,3 +47,5 @@ desta implementação, não resolve essa pendência nem a aceitação global.
 Ver [provas/limites](../functional-ball/README.md),
 [ballcatch](../validation/ballcatch.md) e [penalty](../validation/penalty.md).
 Windows, dispositivos, toque, audição e revisão docente pendentes.
+
+Pendência de encerramento: [tarefa 83](../issues/83-encerramento-penalty.md).

@@ -12,3 +12,5 @@ duas repetições gdb não reproduziram o crash. A causa continua pendente em
 tarefa própria antes da aceitação global. Provas e limites:
 [functional-ball](../functional-ball/README.md). Windows/dispositivos/toque/
 audição/revisão docente pendentes.
+
+Pendência de encerramento: [tarefa 83](../issues/83-encerramento-penalty.md).
