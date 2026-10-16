@@ -238,3 +238,5 @@ curso; áudio global, Windows/escola e revisão humana dos pares legados (44)
 conservam os respetivos estados.
 
 - [65 — Retornos externos e âncoras das provas](issues/65-provas-retornos-ancoras.md)
+
+- [67 — Aviões e sequências](issues/67-avioes-sequencias.md)
