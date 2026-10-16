@@ -1,0 +1,165 @@
+{
+  "canal_lock": {
+    "images": [
+      "src/activities/canal_lock/canal_lock.svg",
+      "src/activities/canal_lock/resource/boat1.svg",
+      "src/activities/canal_lock/resource/boat2.svg",
+      "src/activities/canal_lock/resource/canal_left.svg",
+      "src/activities/canal_lock/resource/canal_lock.svg",
+      "src/activities/canal_lock/resource/canal_right.svg",
+      "src/activities/canal_lock/resource/cloud1.svg",
+      "src/activities/canal_lock/resource/cloud2.svg",
+      "src/activities/canal_lock/resource/light_green.svg",
+      "src/activities/canal_lock/resource/light_red.svg",
+      "src/activities/canal_lock/resource/sky.svg",
+      "src/activities/canal_lock/resource/sun.svg"
+    ],
+    "audio": [
+      "src/activities/canal_lock/resource/door_close.wav",
+      "src/activities/canal_lock/resource/door_open.wav",
+      "src/activities/canal_lock/resource/lock.wav",
+      "src/activities/canal_lock/resource/water_fill.wav"
+    ],
+    "svg_text": []
+  },
+  "watercycle": {
+    "images": [
+      "src/activities/watercycle/artworkSource/landscape-source.svg",
+      "src/activities/watercycle/resource/boat.svg",
+      "src/activities/watercycle/resource/boat_parked.svg",
+      "src/activities/watercycle/resource/city.svg",
+      "src/activities/watercycle/resource/cloud.svg",
+      "src/activities/watercycle/resource/fillwater.svg",
+      "src/activities/watercycle/resource/landscape.svg",
+      "src/activities/watercycle/resource/motor.svg",
+      "src/activities/watercycle/resource/rain.svg",
+      "src/activities/watercycle/resource/reservoir1.svg",
+      "src/activities/watercycle/resource/reservoir2.svg",
+      "src/activities/watercycle/resource/reservoir3.svg",
+      "src/activities/watercycle/resource/river.svg",
+      "src/activities/watercycle/resource/sea.svg",
+      "src/activities/watercycle/resource/shower.svg",
+      "src/activities/watercycle/resource/sky.svg",
+      "src/activities/watercycle/resource/sun.svg",
+      "src/activities/watercycle/resource/tuxHouse.svg",
+      "src/activities/watercycle/resource/tuxbath.svg",
+      "src/activities/watercycle/resource/vapor.svg",
+      "src/activities/watercycle/resource/waste.svg",
+      "src/activities/watercycle/resource/wastewater.svg",
+      "src/activities/watercycle/resource/watertower.svg",
+      "src/activities/watercycle/resource/watertowerfill.svg",
+      "src/activities/watercycle/watercycle.svg"
+    ],
+    "audio": [
+      "src/activities/watercycle/resource/apert.wav",
+      "src/activities/watercycle/resource/bubble.wav",
+      "src/activities/watercycle/resource/harbor1.wav",
+      "src/activities/watercycle/resource/harbor2.wav"
+    ],
+    "svg_text": [
+      {
+        "path": "src/activities/watercycle/artworkSource/landscape-source.svg",
+        "text": "0 W"
+      },
+      {
+        "path": "src/activities/watercycle/artworkSource/landscape-source.svg",
+        "text": "0 W"
+      },
+      {
+        "path": "src/activities/watercycle/artworkSource/landscape-source.svg",
+        "text": "0 W"
+      },
+      {
+        "path": "src/activities/watercycle/artworkSource/landscape-source.svg",
+        "text": "0 W"
+      },
+      {
+        "path": "src/activities/watercycle/artworkSource/landscape-source.svg",
+        "text": "0 W"
+      },
+      {
+        "path": "src/activities/watercycle/artworkSource/landscape-source.svg",
+        "text": "0 W"
+      },
+      {
+        "path": "src/activities/watercycle/artworkSource/landscape-source.svg",
+        "text": "0 W"
+      },
+      {
+        "path": "src/activities/watercycle/artworkSource/landscape-source.svg",
+        "text": "0 W"
+      },
+      {
+        "path": "src/activities/watercycle/artworkSource/landscape-source.svg",
+        "text": "0 W"
+      },
+      {
+        "path": "src/activities/watercycle/artworkSource/landscape-source.svg",
+        "text": "0 W"
+      },
+      {
+        "path": "src/activities/watercycle/artworkSource/landscape-source.svg",
+        "text": "0 W"
+      },
+      {
+        "path": "src/activities/watercycle/artworkSource/landscape-source.svg",
+        "text": "0 W"
+      },
+      {
+        "path": "src/activities/watercycle/artworkSource/landscape-source.svg",
+        "text": "0 W"
+      },
+      {
+        "path": "src/activities/watercycle/artworkSource/landscape-source.svg",
+        "text": "0 W"
+      },
+      {
+        "path": "src/activities/watercycle/artworkSource/landscape-source.svg",
+        "text": "0 W"
+      },
+      {
+        "path": "src/activities/watercycle/artworkSource/landscape-source.svg",
+        "text": "0 W"
+      }
+    ]
+  },
+  "renewable_energy": {
+    "images": [
+      "src/activities/renewable_energy/renewable_energy.svg",
+      "src/activities/renewable_energy/resource/consumer_pole.svg",
+      "src/activities/renewable_energy/resource/hydroelectric/dam_off.svg",
+      "src/activities/renewable_energy/resource/hydroelectric/dam_on.svg",
+      "src/activities/renewable_energy/resource/hydroelectric/damwire_off.svg",
+      "src/activities/renewable_energy/resource/hydroelectric/damwire_on.svg",
+      "src/activities/renewable_energy/resource/hydroelectric/stepdownwire_off.svg",
+      "src/activities/renewable_energy/resource/hydroelectric/stepdownwire_on.svg",
+      "src/activities/renewable_energy/resource/hydroelectric/stepupwire_off.svg",
+      "src/activities/renewable_energy/resource/hydroelectric/stepupwire_on.svg",
+      "src/activities/renewable_energy/resource/lightsoff.svg",
+      "src/activities/renewable_energy/resource/lightson.svg",
+      "src/activities/renewable_energy/resource/off.svg",
+      "src/activities/renewable_energy/resource/on.svg",
+      "src/activities/renewable_energy/resource/resident_bigon.svg",
+      "src/activities/renewable_energy/resource/resident_smallon.svg",
+      "src/activities/renewable_energy/resource/solar/solar_panel_off.svg",
+      "src/activities/renewable_energy/resource/solar/solar_panel_on.svg",
+      "src/activities/renewable_energy/resource/solar/solar_power_off.svg",
+      "src/activities/renewable_energy/resource/solar/solar_power_on.svg",
+      "src/activities/renewable_energy/resource/solar/solar_wire_off.svg",
+      "src/activities/renewable_energy/resource/solar/solar_wire_on.svg",
+      "src/activities/renewable_energy/resource/transformer_off.svg",
+      "src/activities/renewable_energy/resource/transformer_on.svg",
+      "src/activities/renewable_energy/resource/tux_house_on.svg",
+      "src/activities/renewable_energy/resource/wind/blade.svg",
+      "src/activities/renewable_energy/resource/wind/cloud_blowing.svg",
+      "src/activities/renewable_energy/resource/wind/cloud_quiet.svg",
+      "src/activities/renewable_energy/resource/wind/mast.svg",
+      "src/activities/renewable_energy/resource/wind/wind_off.svg",
+      "src/activities/renewable_energy/resource/wind/wind_on.svg",
+      "src/activities/renewable_energy/resource/wind/wind_power_off.svg",
+      "src/activities/renewable_energy/resource/wind/wind_power_on.svg"
+    ],
+    "audio": [],
+    "svg_text": []
+  }
+}
