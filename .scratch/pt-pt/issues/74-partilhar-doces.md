@@ -1,7 +1,7 @@
 # Partilhar doces em PT-PT
 
 Status: ready-for-agent
-Progress: resolved
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -46,3 +46,8 @@ ataques com hashes recalculados. Verificação em
 [functional-share-verification/README.md](../functional-share-verification/README.md).
 Nenhum processo pendente; pronto para merger e revisões independentes. Os
 limites globais, Windows, equipamento, audição e docente mantêm-se.
+
+## Integração
+
+Provas integradas para Standards e Spec independentes. `ready-for-review`
+não representa resolução final ou aceitação global.
