@@ -429,3 +429,5 @@ no âmbito Linux finito após rechecks sem achados; [relatórios](review/integra
 Menu após sucesso tem validação complementar em 25 grelhas repetidas, sem
 nova cobertura única. Duas ligações
 mantêm os critérios globais, Windows, hardware, áudio e revisão docente pendentes.
+
+- [89 — Desenho e criação](issues/89-desenho-e-criacao.md)
