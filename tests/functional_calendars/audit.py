@@ -8,8 +8,9 @@ import subprocess
 
 ROOT=Path(__file__).resolve().parents[2]
 HERE=ROOT/'.scratch/pt-pt/functional-calendars'
-SOURCE='02c4675f67bf273448cffb643d80008fae308a77'
-ARCHIVE='253a90e85a7d0acf6ea00c8ffd57a34e0e55b17f'
+SOURCE='64d35aaef27df1b2eaa11d18d4441bebdbe5e9c7'
+NAVIGATION='02c4675f67bf273448cffb643d80008fae308a77'
+ARCHIVE='747cf4dad6a70a473bb5e781666e8ea181f289cb'
 BASE='db2f86383'
 TITLE='bde22db2e0bedde49ebcc4a08e314e0b54e3b5be'
 QML='src/activities/calendar/Calendar.qml'
@@ -71,24 +72,26 @@ def audit(evidence=HERE):
         assert actual==expected and len(full['answered'])==len(expected),'All independent questions exactly once'
         controls=receipt('controls-'+activity,'controls-'+activity+'.qml',activity)['controls']
         assert controls['activity']==activity and all(controls[k] is True for k in ['arrowKeys','homeEnd','pageKeys','bounds','restart','weekdayKeyboard','helpEscape','keyAfterHelp','navigation'])
-        resources=receipt('resources-'+activity,'resources-'+activity+'.qml',activity)['resources']
+        resources=receipt('resources-'+activity,'resources-'+activity+'.qml',activity,source=NAVIGATION)['resources']
         expected_resources=sorted(EXTRA|{p for p in required if any(p.startswith('src/activities/'+a+'/') for a in {'calendar',activity}) and Path(p).suffix in {'.qml','.js','.svg'} and p!=QML})
         assert resources==expected_resources
         for name in resources:assert (evidence/('resources-'+activity)/'resources'/name).read_bytes()==git(name),'Original QRC bytes '+name
     for stem,case,old_source,new_source,old_cat,new_cat in [
         ('title','title-visible.qml',BASE,TITLE,BASE,BASE),
-        ('month-navigation','month-navigation.qml',TITLE,SOURCE,SOURCE,SOURCE),
-        ('orthography-diagnostic','orthography-diagnostic.qml',SOURCE,SOURCE,BASE,SOURCE)]:
+        ('month-navigation','month-navigation.qml',TITLE,NAVIGATION,SOURCE,SOURCE),
+        ('orthography-diagnostic','orthography-diagnostic.qml',NAVIGATION,NAVIGATION,BASE,SOURCE),
+        ('month-end','month-end.qml',NAVIGATION,SOURCE,SOURCE,SOURCE)]:
         receipt(stem+'-red',case,'calendar',old_source,old_cat,False)
         receipt(stem+'-green',case,'calendar',new_source,new_cat,True)
     assert json.loads((evidence/'title-red/result.json').read_text())['case_result']['title']['titleVisible'] is False
     assert 'CALENDAR_ASSERT 2018,3 2018,2 January 31' in (evidence/'month-navigation-red/native.log').read_text()
     assert 'CALENDAR_ASSERT Current Portuguese orthography:' in (evidence/'orthography-diagnostic-red/native.log').read_text()
+    assert 'CALENDAR_ASSERT 2018,2 2018,1 End on January 30' in (evidence/'month-end-red/native.log').read_text()
     decode=json.loads((evidence/'wav-software-decode.json').read_text())['results']
     assert {(r['activity'],r['resource']) for r in decode}=={(a,p) for a in ACTIVITIES for p in EXTRA if p.endswith('.wav')} and len(decode)==4
     assert all(r['exit_code']==0 and r['sha256']==sha(git(r['resource'])) for r in decode)
     artifacts={str(p.relative_to(evidence)):sha(p.read_bytes()) for p in evidence.rglob('*') if p.is_file() and p.name!='index.json' and not any(part.startswith('.') or part in {'snapshot','__pycache__'} for part in p.relative_to(evidence).parts)}
-    return {'passed':True,'scope':'Historical Linux Qt inputs and QRC resources only; Windows, physical devices, listening and teacher review pending','source_revision':SOURCE,'archive_revision':ARCHIVE,'levels':12,'questions':70,'wrong':12,'primary_cases':6,'regression_pairs':3,'cases':cases,'artifacts_sha256':artifacts}
+    return {'passed':True,'scope':'Historical Linux Qt inputs and QRC resources only; Windows, physical devices, listening and teacher review pending','source_revision':SOURCE,'archive_revision':ARCHIVE,'levels':12,'questions':70,'wrong':12,'primary_cases':6,'regression_pairs':4,'cases':cases,'artifacts_sha256':artifacts}
 
 
 if __name__=='__main__':

@@ -18,7 +18,7 @@ class CalendarEvidence(unittest.TestCase):
         for activity in MODULE.ACTIVITIES:
             for group in ['full','controls','resources']:
                 names.extend([group+'-'+activity,group+'-'+activity+'.qml'])
-        for stem,case in [('title','title-visible.qml'),('month-navigation','month-navigation.qml'),('orthography-diagnostic','orthography-diagnostic.qml')]:
+        for stem,case in [('title','title-visible.qml'),('month-navigation','month-navigation.qml'),('orthography-diagnostic','orthography-diagnostic.qml'),('month-end','month-end.qml')]:
             names.extend([stem+'-red',stem+'-green',case])
         for name in names:
             source=MODULE.HERE/name;target=self.evidence/name
