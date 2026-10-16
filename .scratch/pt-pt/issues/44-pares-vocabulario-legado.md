@@ -35,3 +35,7 @@ O professor respondeu «podemos usar o que foi criado» à pergunta dos dois par
 ## Aplicação preparada para revisão
 
 Os nomes e os dois WAV aprovados foram aplicados em build privado: 2 OGG derivados, RCC de 1610 recursos, 1576 originais e as 32 adições intactos. Novo manifesto e política de pacote distinguem as duas substituições; o RCC upstream e o pacote ouvido permanecem intactos. Provas, testes negativos e limites em ../legacy-word-application/README.md. Layout Windows extraído verificado sem execução do instalador; reprodução Windows continua pendente. Tarefa permanece claimed, sem fecho pelo implementador.
+
+## Correções da revisão da aplicação
+
+Preparado suplemento em ../legacy-word-application-review/README.md: LF determinístico em Contents/metadata, quatro textos raw-byte fixados com eol=lf e preparação/verificação de proveniência e NOTICE antes de publicar qualquer ficheiro, Contents por último. Negativos preservam pacote anterior; checkout Git real sob autocrlf/eol CRLF e conclusão física de 1610 recursos mantêm os hashes fixos. Nenhum áudio novo nem alteração das provas antigas. Aguarda integração e recheck separados; não se fecha a tarefa aqui.

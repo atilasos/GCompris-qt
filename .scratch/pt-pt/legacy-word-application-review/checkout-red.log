@@ -1,0 +1,53 @@
+...FFFF
+======================================================================
+FAIL: test_raw_byte_pinned_texts_keep_exact_hashes_with_crlf_checkout_defaults (test_legacy_voice_publication.WindowsGitCheckoutTest.test_raw_byte_pinned_texts_keep_exact_hashes_with_crlf_checkout_defaults) (path='resources/pt-pt-voices/manifest.json')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-legacy-voices-review/tests/test_legacy_voice_publication.py", line 129, in test_raw_byte_pinned_texts_keep_exact_hashes_with_crlf_checkout_defaults
+    self.assertEqual(hashlib.sha256((checkout / name).read_bytes()).hexdigest(), sha256)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '999dd86500334d6952db5afb23c035e148c00d807ad98468144fa81de5a7ec35' != '7b877e58376bbbbe4c900446f9345e091aa68ab903d56ce4859f24919905170e'
+- 999dd86500334d6952db5afb23c035e148c00d807ad98468144fa81de5a7ec35
++ 7b877e58376bbbbe4c900446f9345e091aa68ab903d56ce4859f24919905170e
+
+
+======================================================================
+FAIL: test_raw_byte_pinned_texts_keep_exact_hashes_with_crlf_checkout_defaults (test_legacy_voice_publication.WindowsGitCheckoutTest.test_raw_byte_pinned_texts_keep_exact_hashes_with_crlf_checkout_defaults) (path='resources/pt-pt-voices/replacements.json')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-legacy-voices-review/tests/test_legacy_voice_publication.py", line 129, in test_raw_byte_pinned_texts_keep_exact_hashes_with_crlf_checkout_defaults
+    self.assertEqual(hashlib.sha256((checkout / name).read_bytes()).hexdigest(), sha256)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '7c0563fbf5486fe28a55f80432cc24ba91688b0cac87722670bb4da0f560838a' != '0011530fbe6d086a32a90ac6fc4bab66296492010f046d862c2e597983789a7b'
+- 7c0563fbf5486fe28a55f80432cc24ba91688b0cac87722670bb4da0f560838a
++ 0011530fbe6d086a32a90ac6fc4bab66296492010f046d862c2e597983789a7b
+
+
+======================================================================
+FAIL: test_raw_byte_pinned_texts_keep_exact_hashes_with_crlf_checkout_defaults (test_legacy_voice_publication.WindowsGitCheckoutTest.test_raw_byte_pinned_texts_keep_exact_hashes_with_crlf_checkout_defaults) (path='resources/pt-pt-voices/NOTICE.md')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-legacy-voices-review/tests/test_legacy_voice_publication.py", line 129, in test_raw_byte_pinned_texts_keep_exact_hashes_with_crlf_checkout_defaults
+    self.assertEqual(hashlib.sha256((checkout / name).read_bytes()).hexdigest(), sha256)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '262a02ef51b85aeaa089c291e55c1b9ee9a8676fa8e9a321107f53285229fafc' != '885f026245eae433ceb7e04f55fa957916943e42e95e2da0a1d8105d86cc6a4a'
+- 262a02ef51b85aeaa089c291e55c1b9ee9a8676fa8e9a321107f53285229fafc
++ 885f026245eae433ceb7e04f55fa957916943e42e95e2da0a1d8105d86cc6a4a
+
+
+======================================================================
+FAIL: test_raw_byte_pinned_texts_keep_exact_hashes_with_crlf_checkout_defaults (test_legacy_voice_publication.WindowsGitCheckoutTest.test_raw_byte_pinned_texts_keep_exact_hashes_with_crlf_checkout_defaults) (path='.scratch/pt-pt/legacy-word-review/human-approval.json')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-legacy-voices-review/tests/test_legacy_voice_publication.py", line 129, in test_raw_byte_pinned_texts_keep_exact_hashes_with_crlf_checkout_defaults
+    self.assertEqual(hashlib.sha256((checkout / name).read_bytes()).hexdigest(), sha256)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '326e7c9567e91486646f271cb77d97b626961a9886a3b2801097b6bc67fe0ee2' != '7aaa494997f32a01661e5b6607d305dce353990bb7f4862166c60dc78ff4ad9c'
+- 326e7c9567e91486646f271cb77d97b626961a9886a3b2801097b6bc67fe0ee2
++ 7aaa494997f32a01661e5b6607d305dce353990bb7f4862166c60dc78ff4ad9c
+
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.001s
+
+FAILED (failures=4)

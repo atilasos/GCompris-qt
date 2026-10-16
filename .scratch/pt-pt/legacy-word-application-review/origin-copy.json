@@ -1,0 +1,15 @@
+{
+  "scope": "Read-only copy from the preserved original task44 private build, not the main build",
+  "files": [
+    {
+      "file": "voices-pt-2026-09-23-18-56-49.rcc",
+      "sha256": "522d05bcf421e3cee2fdebf7ba9469ff294a69b61d629464283855297e006b8f",
+      "bytes": 36864646
+    },
+    {
+      "file": "Contents",
+      "sha256": "0a52da4564eb3d9c3d6492d93f211686f614519cf3551365d92972438d737ddc",
+      "bytes": 3484
+    }
+  ]
+}

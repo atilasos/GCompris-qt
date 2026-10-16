@@ -65,7 +65,7 @@ def encode(approval, samples, output):
               'source_wav_review': 'approved', 'derived_ogg_human_review': 'not-performed',
               'encoder': 'GStreamer audioconvert/vorbisenc quality=0.5/oggmux',
               'gstreamer_version': version, 'recordings': rows}
-    (output / 'replacements.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    (output / 'replacements.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
     return result
 
 

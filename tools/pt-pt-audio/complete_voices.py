@@ -141,37 +141,44 @@ def complete(voices_dir, additions, utility, rcc_tool):
         lines = [line for line in original_contents.splitlines()
                  if not (len(line.split()) == 2 and line.split()[1].startswith('voices-pt-'))]
         lines.append(f'{digest(completed, "md5")}  {OUTPUT}')
-        (temporary / 'Contents').write_text('\n'.join(lines) + '\n', encoding='utf-8')
-        # Publish the RCC first, then its index. A retry always starts from the
-        # pinned original and converges to the same bytes and registration entry.
-        completed.replace(voices_dir / OUTPUT)
-        (temporary / 'Contents').replace(contents)
-    result = {'format': 2 if substitutions else 1, 'source_rcc': original.name, 'source_rcc_sha256': digest(original),
-              'original_files': len(source), 'added_files': len(manifest['recordings']),
-              'total_files': len(expected), 'original_bytes_preserved': not bool(substitutions),
-              'source_rcc_bytes_preserved': True,
-              'preserved_original_files': len(source) - len(substitutions),
-              'replaced_files': len(substitutions),
-              'substitutions': [{key: row[key] for key in ('file','text','original_sha256','sha256','wav','wav_sha256')} for row in substitutions],
-              'replacement_source_wav_review': 'approved' if substitutions else 'not-applicable',
-              'replacement_ogg_human_review': 'not-performed' if substitutions else 'not-applicable',
-              'pronunciation': ('bounded-32-additions-and-two-source-wav-approvals' if substitutions else 'approved-new-recordings' if recording_review_status(manifest) == 'approved'
-                                else 'pending-final-teacher-review'),
-              'new_recordings_review': recording_review_status(manifest), 'files': [
-                  {'path': name, 'bytes': (voices_dir / name).stat().st_size,
-                   'sha256': digest(voices_dir / name)} for name in (OUTPUT, 'Contents')]}
-    shutil.copyfile(additions / 'manifest.json', voices_dir / 'additions-manifest.json')
-    if substitutions:
-        shutil.copyfile(additions / 'replacements.json', voices_dir / 'replacements-manifest.json')
-    notice = additions / 'NOTICE.md'
-    if notice.is_file():
-        shutil.copyfile(notice, voices_dir / 'pt-pt-additions-NOTICE.md')
-    if substitutions:
-        result['human_approval_sha256'] = APPROVAL_SHA256
-        result['provenance_files'] = [{'path': name, 'bytes': (voices_dir / name).stat().st_size,
-                                      'sha256': digest(voices_dir / name)}
-                                     for name in ('additions-manifest.json', 'replacements-manifest.json', 'pt-pt-additions-NOTICE.md')]
-    (voices_dir / 'completion.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        (temporary / 'Contents').write_bytes(('\n'.join(lines) + '\n').encode('utf-8'))
+        result = {'format': 2 if substitutions else 1, 'source_rcc': original.name, 'source_rcc_sha256': digest(original),
+                  'original_files': len(source), 'added_files': len(manifest['recordings']),
+                  'total_files': len(expected), 'original_bytes_preserved': not bool(substitutions),
+                  'source_rcc_bytes_preserved': True,
+                  'preserved_original_files': len(source) - len(substitutions),
+                  'replaced_files': len(substitutions),
+                  'substitutions': [{key: row[key] for key in ('file','text','original_sha256','sha256','wav','wav_sha256')} for row in substitutions],
+                  'replacement_source_wav_review': 'approved' if substitutions else 'not-applicable',
+                  'replacement_ogg_human_review': 'not-performed' if substitutions else 'not-applicable',
+                  'pronunciation': ('bounded-32-additions-and-two-source-wav-approvals' if substitutions else 'approved-new-recordings' if recording_review_status(manifest) == 'approved'
+                                    else 'pending-final-teacher-review'),
+                  'new_recordings_review': recording_review_status(manifest), 'files': [
+                      {'path': name, 'bytes': (temporary / name).stat().st_size,
+                       'sha256': digest(temporary / name)} for name in (OUTPUT, 'Contents')]}
+        provenance = {'additions-manifest.json': additions / 'manifest.json'}
+        if substitutions:
+            provenance['replacements-manifest.json'] = additions / 'replacements.json'
+        notice = additions / 'NOTICE.md'
+        if substitutions or notice.is_file():
+            provenance['pt-pt-additions-NOTICE.md'] = notice
+        for name, source_path in provenance.items():
+            staged = temporary / name
+            shutil.copyfile(source_path, staged)
+            if digest(staged) != digest(source_path):
+                raise ValueError('Staged provenance differs from source: ' + name)
+        if substitutions:
+            result['human_approval_sha256'] = APPROVAL_SHA256
+            result['provenance_files'] = [{'path': name, 'bytes': (temporary / name).stat().st_size,
+                                          'sha256': digest(temporary / name)}
+                                         for name in ('additions-manifest.json', 'replacements-manifest.json', 'pt-pt-additions-NOTICE.md')]
+        (temporary / 'completion.json').write_bytes((json.dumps(result, ensure_ascii=False, indent=2) + '\n').encode('utf-8'))
+        # Finish every fallible preparation step before publishing anything.
+        if json.loads((temporary / 'completion.json').read_text(encoding='utf-8')) != result:
+            raise ValueError('Staged completion metadata differs from validated resources')
+        # Contents is the selection point and must be published last.
+        for name in [OUTPUT, *provenance, 'completion.json', 'Contents']:
+            (temporary / name).replace(voices_dir / name)
     return result
 
 

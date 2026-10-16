@@ -1,0 +1,22 @@
+{
+  "scope": "Full 1610-resource completion with Windows default text-write CRLF translation simulated on Linux, initial Contents CRLF; no Windows execution",
+  "passed": true,
+  "completion_matches_unchanged_policy": true,
+  "generated": [
+    {
+      "file": "voices-pt-2026-10-16-00-00-00.rcc",
+      "bytes": 37210875,
+      "sha256": "766a4650c93cf0d012c768daca8f54a931e061e77e7e7b7ef35585bf05c2869b"
+    },
+    {
+      "file": "Contents",
+      "bytes": 3484,
+      "sha256": "0a52da4564eb3d9c3d6492d93f211686f614519cf3551365d92972438d737ddc"
+    },
+    {
+      "file": "completion.json",
+      "bytes": 2272,
+      "sha256": "8111a1103b2aaff3273a4aee8fb57834b898bb0bd528acc1317cbb1a2e3fcc28"
+    }
+  ]
+}
