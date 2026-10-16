@@ -44,7 +44,7 @@ TestCase {
     }
     function find(root,predicate){if(predicate(root))return root;if(root.children)for(var child of root.children){var hit=find(child,predicate);if(hit)return hit;}return null;}
     function click(item){ensure(item!==null);var p=item.mapToItem(pageView,item.width/2,item.height/2);mouseClick(pageView,p.x,p.y);wait(50);}
-    function icon(root,suffix){click(find(root,function(o){return o.visible&&o.source!==undefined&&String(o.source).endsWith(suffix);}));}
+    function icon(root,suffix){wait(1700);click(find(root,function(o){return o.visible&&o.source!==undefined&&String(o.source).endsWith(suffix);}));}
     function configure(){
         icon(bar,"bar_activity_config.svg");tryCompare(dialogActivityConfig,"visible",true,2500);wait(900);
         var box=find(dialogActivityConfig,function(o){return o.visible&&o.modeBox!==undefined;});ensure(box!==null);box=box.modeBox;

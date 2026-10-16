@@ -1,0 +1,102 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/home/proteu/Projetos/GCompris-qt-worktrees/pt-clock/.scratch/pt-pt/functional-clock/snapshot/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/home/proteu/Projetos/GCompris-qt-worktrees/pt-clock/.scratch/pt-pt/functional-clock/.native-qml-e2997ea201ac45329120ae8a68c06245/profile/data/GCompris)
+Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
+Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
+Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
+Contents:  "af"  ->  "voices-af-2017-05-31-22-01-24.rcc"
+Contents:  "ar"  ->  "voices-ar-2017-05-31-22-01-24.rcc"
+Contents:  "ast"  ->  "voices-ast-2017-05-31-22-01-24.rcc"
+Contents:  "bg"  ->  "voices-bg-2017-05-31-22-01-24.rcc"
+Contents:  "br"  ->  "voices-br-2026-07-28-15-07-14.rcc"
+Contents:  "ca"  ->  "voices-ca-2026-07-28-15-07-14.rcc"
+Contents:  "cs"  ->  "voices-cs-2017-05-31-22-01-24.rcc"
+Contents:  "da"  ->  "voices-da-2017-05-31-22-01-24.rcc"
+Contents:  "de"  ->  "voices-de-2026-01-30-16-42-03.rcc"
+Contents:  "el"  ->  "voices-el-2026-07-28-15-07-14.rcc"
+Contents:  "en"  ->  "voices-en-2026-07-28-15-07-14.rcc"
+Contents:  "en_GB"  ->  "voices-en_GB-2026-07-28-15-07-14.rcc"
+Contents:  "en_US"  ->  "voices-en_US-2026-07-28-15-07-14.rcc"
+Contents:  "eo"  ->  "voices-eo-2017-05-31-22-01-24.rcc"
+Contents:  "es"  ->  "voices-es-2018-12-20-21-49-05.rcc"
+Contents:  "eu"  ->  "voices-eu-2017-05-31-22-01-24.rcc"
+Contents:  "fi"  ->  "voices-fi-2017-05-31-22-01-24.rcc"
+Contents:  "fr"  ->  "voices-fr-2026-07-28-15-07-14.rcc"
+Contents:  "ga"  ->  "voices-ga-2026-07-28-15-07-14.rcc"
+Contents:  "gd"  ->  "voices-gd-2026-07-28-15-07-14.rcc"
+Contents:  "he"  ->  "voices-he-2017-05-31-22-01-24.rcc"
+Contents:  "hi"  ->  "voices-hi-2021-02-07-17-47-35.rcc"
+Contents:  "hr"  ->  "voices-hr-2025-01-27-17-30-00.rcc"
+Contents:  "hu"  ->  "voices-hu-2026-07-28-15-07-14.rcc"
+Contents:  "id"  ->  "voices-id-2017-10-03-21-21-05.rcc"
+Contents:  "it"  ->  "voices-it-2017-05-31-22-01-24.rcc"
+Contents:  "kn"  ->  "voices-kn-2025-12-23-14-08-55.rcc"
+Contents:  "lt"  ->  "voices-lt-2026-07-28-15-07-14.rcc"
+Contents:  "ml"  ->  "voices-ml-2026-07-28-15-07-14.rcc"
+Contents:  "mr"  ->  "voices-mr-2021-02-07-17-52-59.rcc"
+Contents:  "nb"  ->  "voices-nb-2021-02-07-17-54-17.rcc"
+Contents:  "nl"  ->  "voices-nl-2020-09-21-19-59-42.rcc"
+Contents:  "nn"  ->  "voices-nn-2026-07-28-15-07-14.rcc"
+Contents:  "pa"  ->  "voices-pa-2021-02-07-17-55-32.rcc"
+Contents:  "pl"  ->  "voices-pl-2017-05-31-22-01-24.rcc"
+Contents:  "pt_BR"  ->  "voices-pt_BR-2026-07-28-15-07-14.rcc"
+Contents:  "ro"  ->  "voices-ro-2026-07-28-15-07-14.rcc"
+Contents:  "ru"  ->  "voices-ru-2017-05-31-22-01-24.rcc"
+Contents:  "sk"  ->  "voices-sk-2021-02-05-08-28-38.rcc"
+Contents:  "sl"  ->  "voices-sl-2026-07-28-15-07-14.rcc"
+Contents:  "so"  ->  "voices-so-2017-05-31-22-01-24.rcc"
+Contents:  "sr"  ->  "voices-sr-2017-05-31-22-01-24.rcc"
+Contents:  "sv"  ->  "voices-sv-2017-05-31-22-01-24.rcc"
+Contents:  "ta"  ->  "voices-ta-2026-07-28-15-07-14.rcc"
+Contents:  "th"  ->  "voices-th-2026-07-28-15-07-14.rcc"
+Contents:  "tr"  ->  "voices-tr-2026-03-16-19-50-57.rcc"
+Contents:  "uk"  ->  "voices-uk-2026-08-31-18-36-10.rcc"
+Contents:  "ur"  ->  "voices-ur-2021-02-07-17-57-34.rcc"
+Contents:  "zh_CN"  ->  "voices-zh_CN-2026-07-28-15-07-14.rcc"
+Contents:  "zh_TW"  ->  "voices-zh_TW-2026-07-28-15-07-14.rcc"
+Contents:  "pt"  ->  "voices-pt-2026-10-15-00-00-00.rcc"
+Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
+Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-clock/.scratch/pt-pt/functional-clock/.native-qml-e2997ea201ac45329120ae8a68c06245/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-clock/.scratch/pt-pt/functional-clock/.native-qml-e2997ea201ac45329120ae8a68c06245/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-15-00-00-00.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-clock/.scratch/pt-pt/functional-clock/.native-qml-e2997ea201ac45329120ae8a68c06245/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-clock/.scratch/pt-pt/functional-clock/.native-qml-e2997ea201ac45329120ae8a68c06245/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-clock/.scratch/pt-pt/functional-clock/.native-qml-e2997ea201ac45329120ae8a68c06245/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-clock/.scratch/pt-pt/functional-clock/.native-qml-e2997ea201ac45329120ae8a68c06245/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+Successfully unregistered resource file "/home/proteu/Projetos/GCompris-qt-worktrees/pt-clock/.scratch/pt-pt/functional-clock/.native-qml-e2997ea201ac45329120ae8a68c06245/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/home/proteu/Projetos/GCompris-qt-worktrees/pt-clock/.scratch/pt-pt/functional-clock/.native-qml-e2997ea201ac45329120ae8a68c06245/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Get voices for  "pt_PT.UTF-8" ,  "pt"
+qml: Start activity clockgame/Clockgame.qml at level -1
+qml: clockgame/Clockgame.qml clockgame/Clockgame.qml
+No audio device detected
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+load configuration for: "clockgame"
+load configuration for: "clockgame"
+save configuration for: "clockgame"
+load configuration for: "clockgame"
+qml: NATIVE_RESULT {"failures":0,"passes":2,"questions":[{"level":1,"text":"Acertar o relógio para as: 19 horas 0 minutos","answer":[19,0,0],"angles":[210,null,null],"minutes":false,"seconds":false},{"level":1,"text":"Acertar o relógio para as: 17 horas 0 minutos","answer":[17,0,0],"angles":[150,null,null],"minutes":false,"seconds":false},{"level":1,"text":"Acertar o relógio para as: 18 horas 0 minutos","answer":[18,0,0],"angles":[180,null,null],"minutes":false,"seconds":false},{"level":1,"text":"Acertar o relógio para as: 13 horas 0 minutos","answer":[13,0,0],"angles":[30,null,null],"minutes":false,"seconds":false},{"level":1,"text":"Acertar o relógio para as: 15 horas 0 minutos","answer":[15,0,0],"angles":[90,null,null],"minutes":false,"seconds":false},{"level":2,"text":"Acertar o relógio para as: 14 horas 30 minutos","answer":[14,30,0],"angles":[75,180,null],"minutes":true,"seconds":false},{"level":2,"text":"Acertar o relógio para as: 22 horas 30 minutos","answer":[22,30,0],"angles":[315,180,null],"minutes":true,"seconds":false},{"level":2,"text":"Acertar o relógio para as: 20 horas 30 minutos","answer":[20,30,0],"angles":[255,180,null],"minutes":true,"seconds":false},{"level":2,"text":"Acertar o relógio para as: 18 horas 30 minutos","answer":[18,30,0],"angles":[195,180,null],"minutes":true,"seconds":false},{"level":2,"text":"Acertar o relógio para as: 21 horas 30 minutos","answer":[21,30,0],"angles":[285,180,null],"minutes":true,"seconds":false},{"level":3,"text":"Acertar o relógio para as: 20 horas 15 minutos","answer":[20,15,0],"angles":[247.5,90,null],"minutes":true,"seconds":false},{"level":3,"text":"Acertar o relógio para as: 13 horas 15 minutos","answer":[13,15,0],"angles":[37.5,90,null],"minutes":true,"seconds":false},{"level":3,"text":"Acertar o relógio para as: 16 horas 15 minutos","answer":[16,15,0],"angles":[127.5,90,null],"minutes":true,"seconds":false},{"level":3,"text":"Acertar o relógio para as: 14 horas 15 minutos","answer":[14,15,0],"angles":[67.5,90,null],"minutes":true,"seconds":false},{"level":3,"text":"Acertar o relógio para as: 19 horas 15 minutos","answer":[19,15,0],"angles":[217.5,90,null],"minutes":true,"seconds":false},{"level":4,"text":"Acertar o relógio para as: 23 horas 45 minutos","answer":[23,45,0],"angles":[352.5,270,null],"minutes":true,"seconds":false},{"level":4,"text":"Acertar o relógio para as: 20 horas 45 minutos","answer":[20,45,0],"angles":[262.5,270,null],"minutes":true,"seconds":false},{"level":4,"text":"Acertar o relógio para as: 17 horas 45 minutos","answer":[17,45,0],"angles":[172.5,270,null],"minutes":true,"seconds":false},{"level":4,"text":"Acertar o relógio para as: 14 horas 45 minutos","answer":[14,45,0],"angles":[82.5,270,null],"minutes":true,"seconds":false},{"level":4,"text":"Acertar o relógio para as: 13 horas 45 minutos","answer":[13,45,0],"angles":[52.5,270,null],"minutes":true,"seconds":false},{"level":5,"text":"Acertar o relógio para as: 14 horas 46 minutos","answer":[14,46,0],"angles":[83,276,null],"minutes":true,"seconds":false},{"level":5,"text":"Acertar o relógio para as: 20 horas 30 minutos","answer":[20,30,0],"angles":[255,180,null],"minutes":true,"seconds":false},{"level":5,"text":"Acertar o relógio para as: 15 horas 24 minutos","answer":[15,24,0],"angles":[102,144,null],"minutes":true,"seconds":false},{"level":5,"text":"Acertar o relógio para as: 22 horas 18 minutos","answer":[22,18,0],"angles":[309,108,null],"minutes":true,"seconds":false},{"level":5,"text":"Acertar o relógio para as: 21 horas 5 minutos","answer":[21,5,0],"angles":[272.5,30,null],"minutes":true,"seconds":false},{"level":6,"text":"Acertar o relógio para as: 23 horas 28 minutos 53 segundos","answer":[23,28,53],"angles":[344,173.29999999999995,318],"minutes":true,"seconds":true},{"level":6,"text":"Acertar o relógio para as: 13 horas 7 minutos 23 segundos","answer":[13,7,23],"angles":[33.5,44.30000000000001,138],"minutes":true,"seconds":true},{"level":6,"text":"Acertar o relógio para as: 14 horas 32 minutos 45 segundos","answer":[14,32,45],"angles":[76,196.5,270],"minutes":true,"seconds":true},{"level":6,"text":"Acertar o relógio para as: 17 horas 38 minutos 34 segundos","answer":[17,38,34],"angles":[169,231.39999999999998,204],"minutes":true,"seconds":true},{"level":6,"text":"Acertar o relógio para as: 16 horas 57 minutos 31 segundos","answer":[16,57,31],"angles":[148.5,345.0999999999999,186],"minutes":true,"seconds":true},{"level":7,"text":"Acertar o relógio para as: 12 horas 46 minutos 21 segundos","answer":[12,46,21],"angles":[23,278.1,126],"minutes":true,"seconds":true},{"level":7,"text":"Acertar o relógio para as: 21 horas 4 minutos 59 segundos","answer":[21,4,59],"angles":[272,29.899999999999977,354],"minutes":true,"seconds":true},{"level":7,"text":"Acertar o relógio para as: 14 horas 33 minutos 42 segundos","answer":[14,33,42],"angles":[76.5,202.20000000000005,252],"minutes":true,"seconds":true},{"level":7,"text":"Acertar o relógio para as: 16 horas 53 minutos 39 segundos","answer":[16,53,39],"angles":[146.5,321.9,234],"minutes":true,"seconds":true},{"level":7,"text":"Acertar o relógio para as: 15 horas 17 minutos 33 segundos","answer":[15,17,33],"angles":[98.5,105.30000000000001,198],"minutes":true,"seconds":true},{"level":8,"text":"Acertar o relógio para as: 20 horas 14 minutos 0 segundos","answer":[20,14,0],"angles":[247,84,0],"minutes":true,"seconds":true},{"level":8,"text":"Acertar o relógio para as: 17 horas 58 minutos 53 segundos","answer":[17,58,53],"angles":[179,353.29999999999995,318],"minutes":true,"seconds":true},{"level":8,"text":"Acertar o relógio para as: 15 horas 53 minutos 8 segundos","answer":[15,53,8],"angles":[116.5,318.79999999999995,48],"minutes":true,"seconds":true},{"level":8,"text":"Acertar o relógio para as: 12 horas 5 minutos 12 segundos","answer":[12,5,12],"angles":[2.5,31.19999999999999,72],"minutes":true,"seconds":true},{"level":8,"text":"Acertar o relógio para as: 21 horas 42 minutos 50 segundos","answer":[21,42,50],"angles":[291,257,300],"minutes":true,"seconds":true},{"level":9,"text":"Acertar o relógio para as: 14 horas 12 minutos 20 segundos","answer":[14,12,20],"angles":[66,74,120],"minutes":true,"seconds":true},{"level":9,"text":"Acertar o relógio para as: 13 horas 44 minutos 54 segundos","answer":[13,44,54],"angles":[52,269.4,324],"minutes":true,"seconds":true},{"level":9,"text":"Acertar o relógio para as: 19 horas 50 minutos 41 segundos","answer":[19,50,41],"angles":[235,304.1,246],"minutes":true,"seconds":true},{"level":9,"text":"Acertar o relógio para as: 15 horas 11 minutos 29 segundos","answer":[15,11,29],"angles":[95.5,68.89999999999998,174],"minutes":true,"seconds":true},{"level":9,"text":"Acertar o relógio para as: 21 horas 20 minutos 57 segundos","answer":[21,20,57],"angles":[280,125.69999999999999,342],"minutes":true,"seconds":true},{"level":10,"text":"Acertar o relógio para as: 12 horas 23 minutos 22 segundos","answer":[12,23,22],"angles":[11.5,140.20000000000005,132],"minutes":true,"seconds":true},{"level":10,"text":"Acertar o relógio para as: 16 horas 20 minutos 6 segundos","answer":[16,20,6],"angles":[130,120.60000000000002,36],"minutes":true,"seconds":true},{"level":10,"text":"Acertar o relógio para as: 17 horas 49 minutos 31 segundos","answer":[17,49,31],"angles":[174.5,297.1,186],"minutes":true,"seconds":true},{"level":10,"text":"Acertar o relógio para as: 15 horas 44 minutos 27 segundos","answer":[15,44,27],"angles":[112,266.70000000000005,162],"minutes":true,"seconds":true},{"level":10,"text":"Acertar o relógio para as: 21 horas 34 minutos 54 segundos","answer":[21,34,54],"angles":[287,209.39999999999998,324],"minutes":true,"seconds":true}],"completed":[{"level":1,"questions":5},{"level":2,"questions":5},{"level":3,"questions":5},{"level":4,"questions":5},{"level":5,"questions":5},{"level":6,"questions":5},{"level":7,"questions":5},{"level":8,"questions":5},{"level":9,"questions":5},{"level":10,"questions":5}],"wrong":50,"gestures":123,"twentyFour":true}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
