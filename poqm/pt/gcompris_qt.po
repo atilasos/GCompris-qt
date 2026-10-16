@@ -11271,8 +11271,7 @@ msgid ""
 "Click or drag on any piece next to the empty space, and it will move to the "
 "empty space."
 msgstr ""
-"Carrega ou arrasta todas as peças perto de um bloco vazio, para o mesmo se "
-"movrt para o espaço vazio."
+"Clica ou arrasta uma peça junto ao espaço vazio para a mover para esse espaço."
 
 #: activities/fifteen/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
