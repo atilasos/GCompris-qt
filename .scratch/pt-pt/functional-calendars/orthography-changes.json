@@ -1,0 +1,190 @@
+[
+  {
+    "before": "Seleciona uma Segunda-Feira entre os dias 1 e 7 do mês indicado",
+    "after": "Seleciona uma segunda-feira entre os dias 1 e 7 do mês indicado"
+  },
+  {
+    "before": "Seleciona uma Terça-Feira entre os dias 8 e 16 do mês indicado",
+    "after": "Seleciona uma terça-feira entre os dias 8 e 16 do mês indicado"
+  },
+  {
+    "before": "Seleciona uma Quarta-Feira entre os dias 15 e 22 do mês indicado",
+    "after": "Seleciona uma quarta-feira entre os dias 15 e 22 do mês indicado"
+  },
+  {
+    "before": "Seleciona uma Quinta-Feira entre os dias 26 e 31 do mês indicado",
+    "after": "Seleciona uma quinta-feira entre os dias 26 e 31 do mês indicado"
+  },
+  {
+    "before": "Seleciona uma Sexta-Feira entre os dias 20 e 25 do mês indicado",
+    "after": "Seleciona uma sexta-feira entre os dias 20 e 25 do mês indicado"
+  },
+  {
+    "before": "Seleciona um Sábado entre os dias 13 e 23 do mês indicado",
+    "after": "Seleciona um sábado entre os dias 13 e 23 do mês indicado"
+  },
+  {
+    "before": "Seleciona um Domingo entre os dias 5 e 17 do mês indicado",
+    "after": "Seleciona um domingo entre os dias 5 e 17 do mês indicado"
+  },
+  {
+    "before": "Seleciona o quarto Domingo do mês indicado",
+    "after": "Seleciona o quarto domingo do mês indicado"
+  },
+  {
+    "before": "Seleciona a quinta Quinta-Feira do mês indicado",
+    "after": "Seleciona a quinta quinta-feira do mês indicado"
+  },
+  {
+    "before": "Descobre o mês que começa a uma Quinta-Feira e tem 28 dias",
+    "after": "Descobre o mês que começa a uma quinta-feira e tem 28 dias"
+  },
+  {
+    "before": "Descobre um mês que começa a uma Segunda-Feira e tem 31 dias",
+    "after": "Descobre um mês que começa a uma segunda-feira e tem 31 dias"
+  },
+  {
+    "before": "Descobre o mês entre Junho e Agosto",
+    "after": "Descobre o mês entre junho e agosto"
+  },
+  {
+    "before": "Descobre um mês que começa num Sábado",
+    "after": "Descobre um mês que começa num sábado"
+  },
+  {
+    "before": "Descobre a primeira Segunda-Feira do mês de Janeiro do ano 2019",
+    "after": "Descobre a primeira segunda-feira do mês de janeiro do ano 2019"
+  },
+  {
+    "before": "Descobre a segunda Quarta-Feira do mês de Fevereiro do ano 2019",
+    "after": "Descobre a segunda quarta-feira do mês de fevereiro do ano 2019"
+  },
+  {
+    "before": "Descobre a terceira Sexta-Feira do mês de Março do ano 2019",
+    "after": "Descobre a terceira sexta-feira do mês de março do ano 2019"
+  },
+  {
+    "before": "Descobre o quinto Domingo do mês de Abril do ano 2018",
+    "after": "Descobre o quinto domingo do mês de abril do ano 2018"
+  },
+  {
+    "before": "Descobre a quarta Terça-Feira do mês de Julho do ano 2018",
+    "after": "Descobre a quarta terça-feira do mês de julho do ano 2018"
+  },
+  {
+    "before": "Descobre a primeira Segunda-Feira do mês de Agosto do ano 2018",
+    "after": "Descobre a primeira segunda-feira do mês de agosto do ano 2018"
+  },
+  {
+    "before": "Descobre a terceira Quinta-Feira do mês de Setembro do ano 2017",
+    "after": "Descobre a terceira quinta-feira do mês de setembro do ano 2017"
+  },
+  {
+    "before": "Descobre o quinto Domingo do mês de Outubro do ano 2017",
+    "after": "Descobre o quinto domingo do mês de outubro do ano 2017"
+  },
+  {
+    "before": "Descobre a segunda Sexta-Feira do mês de Dezembro do ano 2017",
+    "after": "Descobre a segunda sexta-feira do mês de dezembro do ano 2017"
+  },
+  {
+    "before": "O Dia de Braille celebra-se um dia antes de 5 de Janeiro.<br/>Descobre a data do Dia de Braille em 2018",
+    "after": "O Dia de Braille celebra-se um dia antes de 5 de janeiro.<br/>Descobre a data do Dia de Braille em 2018"
+  },
+  {
+    "before": "O Dia Internacional da Mulher celebra-se dois dias antes de 10 de Março.<br/>Descobre a data do Dia Internacional da Mulher em 2018.",
+    "after": "O Dia Internacional da Mulher celebra-se dois dias antes de 10 de março.<br/>Descobre a data do Dia Internacional da Mulher em 2018."
+  },
+  {
+    "before": "A competição desportiva ocorreu na última Sexta-Feira de Setembro de 2017.<br/>Seleciona a data da competição no calendário.",
+    "after": "A competição desportiva ocorreu na última sexta-feira de setembro de 2017.<br/>Seleciona a data da competição no calendário."
+  },
+  {
+    "before": "Descobrir a data de 13 dias a seguir ao 3 de Maio.",
+    "after": "Descobrir a data de 13 dias a seguir ao 3 de maio."
+  },
+  {
+    "before": "Descobrir a data de 7 dias a seguir ao 1 de Outubro.",
+    "after": "Descobrir a data de 7 dias a seguir ao 1 de outubro."
+  },
+  {
+    "before": "Descobrir a data de 31 dias a seguir ao 12 de Julho.",
+    "after": "Descobrir a data de 31 dias a seguir ao 12 de julho."
+  },
+  {
+    "before": "Descobrir a data duas semanas depois do 27 de Novembro.",
+    "after": "Descobrir a data duas semanas depois do 27 de novembro."
+  },
+  {
+    "before": "Descobrir a data de 19 dias antes do 1 de Setembro.",
+    "after": "Descobrir a data de 19 dias antes do 1 de setembro."
+  },
+  {
+    "before": "Descobrir a data de 5 dias antes do 8 de Dezembro.",
+    "after": "Descobrir a data de 5 dias antes do 8 de dezembro."
+  },
+  {
+    "before": "Descobrir o dia da semana de 3 dias depois do 5 de Dezembro.",
+    "after": "Descobrir o dia da semana de 3 dias depois do 5 de dezembro."
+  },
+  {
+    "before": "Descobrir o dia da semana de 12 dias antes do 12 de Novembro.",
+    "after": "Descobrir o dia da semana de 12 dias antes do 12 de novembro."
+  },
+  {
+    "before": "Descobrir o dia da semana de 32 dias depois do 5 de Janeiro.",
+    "after": "Descobrir o dia da semana de 32 dias depois do 5 de janeiro."
+  },
+  {
+    "before": "Descobrir o dia da semana de 5 dias depois do 23 de Fevereiro.",
+    "after": "Descobrir o dia da semana de 5 dias depois do 23 de fevereiro."
+  },
+  {
+    "before": "Descobrir a data de 2 semanas e 3 dias depois do 12 de Janeiro.",
+    "after": "Descobrir a data de 2 semanas e 3 dias depois do 12 de janeiro."
+  },
+  {
+    "before": "Descobrir a data de 3 semanas e 2 dias depois do 22 de Março.",
+    "after": "Descobrir a data de 3 semanas e 2 dias depois do 22 de março."
+  },
+  {
+    "before": "Descobrir a data de 5 semanas e 6 dias depois do 5 de Outubro.",
+    "after": "Descobrir a data de 5 semanas e 6 dias depois do 5 de outubro."
+  },
+  {
+    "before": "Descobrir a data de 1 semana e 1 dia antes do 8 de Agosto.",
+    "after": "Descobrir a data de 1 semana e 1 dia antes do 8 de agosto."
+  },
+  {
+    "before": "Descobrir a data de 2 semanas e 5 dias antes do 2 de Julho.",
+    "after": "Descobrir a data de 2 semanas e 5 dias antes do 2 de julho."
+  },
+  {
+    "before": "Descobrir o dia da semana de 2 meses e 4 dias depois do 8 de Outubro.",
+    "after": "Descobrir o dia da semana de 2 meses e 4 dias depois do 8 de outubro."
+  },
+  {
+    "before": "Descobrir o dia da semana de 8 meses e 7 dias depois do 28 de Fevereiro.",
+    "after": "Descobrir o dia da semana de 8 meses e 7 dias depois do 28 de fevereiro."
+  },
+  {
+    "before": "Descobrir o dia da semana de 3 meses e 3 dias antes do 15 de Setembro.",
+    "after": "Descobrir o dia da semana de 3 meses e 3 dias antes do 15 de setembro."
+  },
+  {
+    "before": "Descobrir a data de 3 meses, 2 semanas e 1 dia a seguir ao 23 de Agosto.",
+    "after": "Descobrir a data de 3 meses, 2 semanas e 1 dia a seguir ao 23 de agosto."
+  },
+  {
+    "before": "Descobrir a data de 5 meses, 3 semanas e 2 dias a seguir ao 20 de Março.",
+    "after": "Descobrir a data de 5 meses, 3 semanas e 2 dias a seguir ao 20 de março."
+  },
+  {
+    "before": "Descobrir a data de 1 mês, 1 semana e 1 dia antes do 10 de Setembro.",
+    "after": "Descobrir a data de 1 mês, 1 semana e 1 dia antes do 10 de setembro."
+  },
+  {
+    "before": "Descobrir a data de 2 meses, 1 semana e 8 dias antes do 7 de Abril.",
+    "after": "Descobrir a data de 2 meses, 1 semana e 8 dias antes do 7 de abril."
+  }
+]

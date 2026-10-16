@@ -225,7 +225,6 @@ ActivityBase {
             }
             GCText {
                 id: dateText
-                visible: calendar.navigationBarVisible
                 text: grid.title
                 color: GCStyle.darkText
                 horizontalAlignment: Text.AlignHCenter
