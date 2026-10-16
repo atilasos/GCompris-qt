@@ -1,0 +1,866 @@
+{
+  "comparator": {
+    "datasets": 10,
+    "levels": [
+      {
+        "level": 1,
+        "source": "src/activities/comparator/resource/1/Data.qml",
+        "source_sha256": "a93c173364204a06e97e0f602839486de377fa4d7fd60e28abaef7abd11eb8b2",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "minValue": 1,
+          "maxValue": 9,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 2,
+        "source": "src/activities/comparator/resource/1/Data.qml",
+        "source_sha256": "a93c173364204a06e97e0f602839486de377fa4d7fd60e28abaef7abd11eb8b2",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "minValue": 1,
+          "maxValue": 9,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 3,
+        "source": "src/activities/comparator/resource/1/Data.qml",
+        "source_sha256": "a93c173364204a06e97e0f602839486de377fa4d7fd60e28abaef7abd11eb8b2",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "minValue": 1,
+          "maxValue": 9,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 4,
+        "source": "src/activities/comparator/resource/2/Data.qml",
+        "source_sha256": "e4ea16b308b3f92005ab5f9f042bd5efd26fcf904804ff0caf3a4a6dfe0330b5",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "minValue": 1,
+          "maxValue": 19,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 5,
+        "source": "src/activities/comparator/resource/2/Data.qml",
+        "source_sha256": "e4ea16b308b3f92005ab5f9f042bd5efd26fcf904804ff0caf3a4a6dfe0330b5",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "minValue": 1,
+          "maxValue": 19,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 6,
+        "source": "src/activities/comparator/resource/2/Data.qml",
+        "source_sha256": "e4ea16b308b3f92005ab5f9f042bd5efd26fcf904804ff0caf3a4a6dfe0330b5",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "minValue": 1,
+          "maxValue": 19,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 7,
+        "source": "src/activities/comparator/resource/3/Data.qml",
+        "source_sha256": "74d9726ff3253aa5a4aa14452b3773acec0db4211c1e0cc478d041e2f70fb466",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "minValue": 1,
+          "maxValue": 100,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 8,
+        "source": "src/activities/comparator/resource/3/Data.qml",
+        "source_sha256": "74d9726ff3253aa5a4aa14452b3773acec0db4211c1e0cc478d041e2f70fb466",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 30,
+          "minValue": 1,
+          "maxValue": 100,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 9,
+        "source": "src/activities/comparator/resource/3/Data.qml",
+        "source_sha256": "74d9726ff3253aa5a4aa14452b3773acec0db4211c1e0cc478d041e2f70fb466",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 5,
+          "minValue": 1,
+          "maxValue": 100,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 10,
+        "source": "src/activities/comparator/resource/4/Data.qml",
+        "source_sha256": "70d7006dabedcaf5b4d5212568c6f86fea80f0dcfd32a0787b3d3ba54533c089",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 200,
+          "minValue": 1,
+          "maxValue": 1000,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 11,
+        "source": "src/activities/comparator/resource/4/Data.qml",
+        "source_sha256": "70d7006dabedcaf5b4d5212568c6f86fea80f0dcfd32a0787b3d3ba54533c089",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 50,
+          "minValue": 1,
+          "maxValue": 1000,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 12,
+        "source": "src/activities/comparator/resource/4/Data.qml",
+        "source_sha256": "70d7006dabedcaf5b4d5212568c6f86fea80f0dcfd32a0787b3d3ba54533c089",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 10,
+          "minValue": 1,
+          "maxValue": 1000,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 13,
+        "source": "src/activities/comparator/resource/5/Data.qml",
+        "source_sha256": "71d32555c9a4d7c86e5a482302b61306e49e820cc46c1c63e39a4b2f033457f8",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 100000,
+          "minValue": 1,
+          "maxValue": 1000000,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 14,
+        "source": "src/activities/comparator/resource/5/Data.qml",
+        "source_sha256": "71d32555c9a4d7c86e5a482302b61306e49e820cc46c1c63e39a4b2f033457f8",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 1000,
+          "minValue": 1,
+          "maxValue": 1000000,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 15,
+        "source": "src/activities/comparator/resource/5/Data.qml",
+        "source_sha256": "71d32555c9a4d7c86e5a482302b61306e49e820cc46c1c63e39a4b2f033457f8",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 10,
+          "minValue": 1,
+          "maxValue": 1000000,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 16,
+        "source": "src/activities/comparator/resource/6/Data.qml",
+        "source_sha256": "96cb3c2c65ba4b22a3de2396531ff29f761b5fadfb7c27cbf5bc87fc05f0e372",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 10000000,
+          "minValue": 1,
+          "maxValue": 1000000000,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 17,
+        "source": "src/activities/comparator/resource/6/Data.qml",
+        "source_sha256": "96cb3c2c65ba4b22a3de2396531ff29f761b5fadfb7c27cbf5bc87fc05f0e372",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 100000,
+          "minValue": 1,
+          "maxValue": 1000000000,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 18,
+        "source": "src/activities/comparator/resource/6/Data.qml",
+        "source_sha256": "96cb3c2c65ba4b22a3de2396531ff29f761b5fadfb7c27cbf5bc87fc05f0e372",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 1000,
+          "minValue": 1,
+          "maxValue": 1000000000,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 19,
+        "source": "src/activities/comparator/resource/7/Data.qml",
+        "source_sha256": "e5f22015acc2307529f305f862bf65e2cd8c54df553a96fd74fb1972e01a482a",
+        "configuration": {
+          "random": true,
+          "sameInteger": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 0.1,
+          "precision": 0.1,
+          "minValue": 0,
+          "maxValue": 9.9,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 20,
+        "source": "src/activities/comparator/resource/8/Data.qml",
+        "source_sha256": "c283f9044c4673c7d1e24a8e4c221d10821d2f82aa91b06829642f99bc070c15",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 0.5,
+          "precision": 0.1,
+          "minValue": 0,
+          "maxValue": 9.9,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 21,
+        "source": "src/activities/comparator/resource/8/Data.qml",
+        "source_sha256": "c283f9044c4673c7d1e24a8e4c221d10821d2f82aa91b06829642f99bc070c15",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 1,
+          "precision": 0.1,
+          "minValue": 0,
+          "maxValue": 9.9,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 22,
+        "source": "src/activities/comparator/resource/9/Data.qml",
+        "source_sha256": "59b486c0e12fa2c4b52460e5b26e4d73c5bbd17e8c62e1f994c89fb3dc2f575a",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 0.5,
+          "precision": 0.01,
+          "minValue": 0,
+          "maxValue": 99.99,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 23,
+        "source": "src/activities/comparator/resource/9/Data.qml",
+        "source_sha256": "59b486c0e12fa2c4b52460e5b26e4d73c5bbd17e8c62e1f994c89fb3dc2f575a",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 1,
+          "precision": 0.01,
+          "minValue": 0,
+          "maxValue": 99.99,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 24,
+        "source": "src/activities/comparator/resource/10/Data.qml",
+        "source_sha256": "a2436f3e2c45beecab69507df8c1d61ed09081f1e4ac14455fa8ebc455bc6a3f",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 0.05,
+          "precision": 0.001,
+          "minValue": 0,
+          "maxValue": 999.999,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 25,
+        "source": "src/activities/comparator/resource/10/Data.qml",
+        "source_sha256": "a2436f3e2c45beecab69507df8c1d61ed09081f1e4ac14455fa8ebc455bc6a3f",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 0.5,
+          "precision": 0.001,
+          "minValue": 0,
+          "maxValue": 999.999,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 26,
+        "source": "src/activities/comparator/resource/10/Data.qml",
+        "source_sha256": "a2436f3e2c45beecab69507df8c1d61ed09081f1e4ac14455fa8ebc455bc6a3f",
+        "configuration": {
+          "random": true,
+          "numberOfSublevels": 5,
+          "maxDistanceBetweenNumbers": 1,
+          "precision": 0.001,
+          "minValue": 0,
+          "maxValue": 999.999,
+          "numberOfEquations": 5
+        },
+        "puzzles": 5
+      }
+    ],
+    "puzzles": 130
+  },
+  "adjacent_numbers": {
+    "datasets": 5,
+    "levels": [
+      {
+        "level": 1,
+        "source": "src/activities/adjacent_numbers/resource/1/Data.qml",
+        "source_sha256": "d89e019c61556b2437ca33aca7eafea984628e2204d5497ca15e2e609796fe71",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": 0,
+          "upperBound": 8,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            2
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 3
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 2,
+        "source": "src/activities/adjacent_numbers/resource/1/Data.qml",
+        "source_sha256": "d89e019c61556b2437ca33aca7eafea984628e2204d5497ca15e2e609796fe71",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": 0,
+          "upperBound": 8,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            0
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 3
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 3,
+        "source": "src/activities/adjacent_numbers/resource/1/Data.qml",
+        "source_sha256": "d89e019c61556b2437ca33aca7eafea984628e2204d5497ca15e2e609796fe71",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": 0,
+          "upperBound": 8,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            1
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 3
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 4,
+        "source": "src/activities/adjacent_numbers/resource/1/Data.qml",
+        "source_sha256": "d89e019c61556b2437ca33aca7eafea984628e2204d5497ca15e2e609796fe71",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": 0,
+          "upperBound": 8,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            0,
+            2
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 5,
+        "source": "src/activities/adjacent_numbers/resource/2/Data.qml",
+        "source_sha256": "7f884393ced50510c05dfa3047e366cc2341adfbc7e65ceebce7745b761c6f18",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": 0,
+          "upperBound": 18,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            2
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 6,
+        "source": "src/activities/adjacent_numbers/resource/2/Data.qml",
+        "source_sha256": "7f884393ced50510c05dfa3047e366cc2341adfbc7e65ceebce7745b761c6f18",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": 0,
+          "upperBound": 18,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            0
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 7,
+        "source": "src/activities/adjacent_numbers/resource/2/Data.qml",
+        "source_sha256": "7f884393ced50510c05dfa3047e366cc2341adfbc7e65ceebce7745b761c6f18",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": 0,
+          "upperBound": 18,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            1
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 8,
+        "source": "src/activities/adjacent_numbers/resource/2/Data.qml",
+        "source_sha256": "7f884393ced50510c05dfa3047e366cc2341adfbc7e65ceebce7745b761c6f18",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": 0,
+          "upperBound": 18,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            0,
+            2
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 7
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 9,
+        "source": "src/activities/adjacent_numbers/resource/3/Data.qml",
+        "source_sha256": "f5b1a035754ffbf1d3cdaf9b6ce8c39ab392d507e99ae18692a63013a4eadd66",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": 0,
+          "upperBound": 80,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            2
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 4
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 10,
+        "source": "src/activities/adjacent_numbers/resource/3/Data.qml",
+        "source_sha256": "f5b1a035754ffbf1d3cdaf9b6ce8c39ab392d507e99ae18692a63013a4eadd66",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": 0,
+          "upperBound": 80,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            0
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 4
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 11,
+        "source": "src/activities/adjacent_numbers/resource/3/Data.qml",
+        "source_sha256": "f5b1a035754ffbf1d3cdaf9b6ce8c39ab392d507e99ae18692a63013a4eadd66",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": 0,
+          "upperBound": 80,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            1
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 4
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 12,
+        "source": "src/activities/adjacent_numbers/resource/3/Data.qml",
+        "source_sha256": "f5b1a035754ffbf1d3cdaf9b6ce8c39ab392d507e99ae18692a63013a4eadd66",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": 0,
+          "upperBound": 80,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            0,
+            2
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 8
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 13,
+        "source": "src/activities/adjacent_numbers/resource/3/Data.qml",
+        "source_sha256": "f5b1a035754ffbf1d3cdaf9b6ce8c39ab392d507e99ae18692a63013a4eadd66",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": 0,
+          "upperBound": 97,
+          "step": 1,
+          "numberShown": 4,
+          "indicesToGuess": [
+            2,
+            3
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 14,
+        "source": "src/activities/adjacent_numbers/resource/3/Data.qml",
+        "source_sha256": "f5b1a035754ffbf1d3cdaf9b6ce8c39ab392d507e99ae18692a63013a4eadd66",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": 0,
+          "upperBound": 97,
+          "step": 1,
+          "numberShown": 4,
+          "indicesToGuess": [
+            0,
+            1
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 15,
+        "source": "src/activities/adjacent_numbers/resource/3/Data.qml",
+        "source_sha256": "f5b1a035754ffbf1d3cdaf9b6ce8c39ab392d507e99ae18692a63013a4eadd66",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": 0,
+          "upperBound": 97,
+          "step": 1,
+          "numberShown": 4,
+          "indicesToGuess": [
+            0,
+            3
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 7
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 16,
+        "source": "src/activities/adjacent_numbers/resource/3/Data.qml",
+        "source_sha256": "f5b1a035754ffbf1d3cdaf9b6ce8c39ab392d507e99ae18692a63013a4eadd66",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": 0,
+          "upperBound": 97,
+          "step": 1,
+          "numberShown": 4,
+          "indicesToGuess": [
+            1,
+            2
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 7
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 17,
+        "source": "src/activities/adjacent_numbers/resource/4/Data.qml",
+        "source_sha256": "311498c7813d0e9fde217d55ab8bb95ebfadb78c43cc9065287776eecd914a07",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": -10,
+          "upperBound": -3,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            2
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 3
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 18,
+        "source": "src/activities/adjacent_numbers/resource/4/Data.qml",
+        "source_sha256": "311498c7813d0e9fde217d55ab8bb95ebfadb78c43cc9065287776eecd914a07",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": -10,
+          "upperBound": -3,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            0
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 3
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 19,
+        "source": "src/activities/adjacent_numbers/resource/4/Data.qml",
+        "source_sha256": "311498c7813d0e9fde217d55ab8bb95ebfadb78c43cc9065287776eecd914a07",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": -10,
+          "upperBound": -3,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            1
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 3
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 20,
+        "source": "src/activities/adjacent_numbers/resource/4/Data.qml",
+        "source_sha256": "311498c7813d0e9fde217d55ab8bb95ebfadb78c43cc9065287776eecd914a07",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": -10,
+          "upperBound": -3,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            0,
+            2
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 21,
+        "source": "src/activities/adjacent_numbers/resource/5/Data.qml",
+        "source_sha256": "6f2eb5680bb712582040f81e2d557130a5128a401f7ab8c52cb7badd5d5b84d9",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": -10,
+          "upperBound": 8,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            2
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 22,
+        "source": "src/activities/adjacent_numbers/resource/5/Data.qml",
+        "source_sha256": "6f2eb5680bb712582040f81e2d557130a5128a401f7ab8c52cb7badd5d5b84d9",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": -10,
+          "upperBound": 8,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            0
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 5
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 23,
+        "source": "src/activities/adjacent_numbers/resource/5/Data.qml",
+        "source_sha256": "6f2eb5680bb712582040f81e2d557130a5128a401f7ab8c52cb7badd5d5b84d9",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": -5,
+          "upperBound": 3,
+          "step": 1,
+          "numberShown": 3,
+          "indicesToGuess": [
+            1
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 3
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 24,
+        "source": "src/activities/adjacent_numbers/resource/5/Data.qml",
+        "source_sha256": "6f2eb5680bb712582040f81e2d557130a5128a401f7ab8c52cb7badd5d5b84d9",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": -10,
+          "upperBound": 8,
+          "step": 1,
+          "numberShown": 4,
+          "indicesToGuess": [
+            0,
+            3
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 7
+        },
+        "puzzles": 5
+      },
+      {
+        "level": 25,
+        "source": "src/activities/adjacent_numbers/resource/5/Data.qml",
+        "source_sha256": "6f2eb5680bb712582040f81e2d557130a5128a401f7ab8c52cb7badd5d5b84d9",
+        "configuration": {
+          "randomSubLevels": true,
+          "lowerBound": -10,
+          "upperBound": 6,
+          "step": 1,
+          "numberShown": 5,
+          "indicesToGuess": [
+            1,
+            2,
+            3
+          ],
+          "numberRandomLevel": 5,
+          "fixedLevels": [],
+          "numberPropositions": 7
+        },
+        "puzzles": 5
+      }
+    ],
+    "puzzles": 125
+  }
+}
