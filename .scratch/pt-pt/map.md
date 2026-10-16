@@ -233,8 +233,8 @@ calendários, operações verticais e sequências. Standards e Spec foram revist
 a tarefa 65 fechou os três P2 de retornos externos e âncoras históricas, sem
 reescrever os 1795 blobs/97 recibos originais ou repetir jogos.
 [Relatórios e limites](review/integration60-65/). As doze ligações adicionais
-na matriz mantêm todos os critérios globais pendentes. A tarefa 66 continua em
-curso; áudio global, Windows/escola e revisão humana dos pares legados (44)
+na matriz mantêm todos os critérios globais pendentes. Áudio global,
+Windows/escola e revisão humana dos pares legados (44)
 conservam os respetivos estados.
 
 - [65 — Retornos externos e âncoras das provas](issues/65-provas-retornos-ancoras.md)
@@ -250,3 +250,5 @@ representação/nível e 220 respostas certas/erradas. Fica resolvida no âmbito
 sem achados acionáveis; [revisões arquivadas](review/integration66/).
 Três ligações de evidência foram acrescentadas sem alterar critérios globais,
 Windows, dispositivos físicos, audição ou revisão docente.
+
+- [70 — Acertar o relógio](issues/70-relogio.md)
