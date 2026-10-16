@@ -41,12 +41,18 @@ def main():
     parser.add_argument('--timeout', type=float, default=180)
     parser.add_argument('--result-marker', default='NATIVE_RESULT')
     parser.add_argument('--locale', default='pt_PT')
+    parser.add_argument('--renderer', choices=['software', 'opengl'], default='software')
+    parser.add_argument('--xvfb', type=Path, help='private Xvfb binary, required for offline OpenGL with Mesa')
     parser.add_argument('--offline', action='store_true')
     parser.add_argument('--offline-container-image', default='alpine:latest')
     parser.add_argument('--start-level', type=int)
     parser.add_argument('--resource-snapshot', type=Path, help='verified independent runtime snapshot to reuse')
     parser.add_argument('--keep-deployment', action='store_true', help='retain successful private deployment; failures are always retained')
     args = parser.parse_args()
+    if args.renderer == 'opengl' and (not args.offline or not args.xvfb):
+        parser.error('OpenGL requires --offline and --xvfb')
+    if args.xvfb and (args.renderer != 'opengl' or not args.xvfb.is_file()):
+        parser.error('--xvfb requires OpenGL and an existing binary')
     ROOT = args.source_root.resolve()
     output = args.output.resolve()
     qml_path = args.qml_file.resolve()
@@ -126,9 +132,11 @@ def main():
     env = dict(os.environ, QT_QPA_PLATFORM='offscreen')
     for key, name in [('XDG_CONFIG_HOME', 'config'), ('XDG_DATA_HOME', 'data'), ('XDG_CACHE_HOME', 'cache')]:
         env[key] = str(profile / name)
-    command = [str(binary), '--window', '--locale', args.locale, '--renderer', 'software', '--mute', '--launch', args.activity]
+    command = [str(binary), '--window', '--locale', args.locale, '--renderer', args.renderer, '--mute', '--launch', args.activity]
     if args.start_level is not None:
         command += ['--start-level', str(args.start_level)]
+    if args.renderer == 'opengl':
+        command = ['/usr/bin/python3', str(ROOT / 'tools/native_qml_headless.py'), '--xvfb', str(args.xvfb.resolve()), '--', *command]
     container = None
     image = None
     if args.offline:
@@ -161,6 +169,8 @@ def main():
                 'source_sha256': sha(qml_path), 'portuguese_catalogue_sha256': sha(ROOT / 'poqm/pt/gcompris_qt.po'),
                 'private_qm_sha256': sha(qm), 'case_sha256': sha(args.case), 'private_rcc_sha256': sha(rcc),
                 'binary_sha256': sha(binary), 'runner_sha256': sha(Path(__file__)), 'deployment': str(deployment), 'version_code': version_code,
+                'renderer_requested': args.renderer, 'headless_helper_sha256': sha(ROOT / 'tools/native_qml_headless.py') if args.renderer == 'opengl' else None,
+                'xvfb_sha256': sha(args.xvfb.resolve()) if args.xvfb else None,
                 'network': 'docker-none' if args.offline else 'not-enforced', 'timestamp_utc': datetime.now(timezone.utc).isoformat(),
                 'scope': 'Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.'}
     log_path = output / 'native.log'
