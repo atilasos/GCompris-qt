@@ -1,0 +1,19 @@
+test_color_name_cannot_be_matched_to_a_different_image (test_audit.RecordedColorEvidence.test_color_name_cannot_be_matched_to_a_different_image) ... ok
+test_recorded_steps_must_match_the_displayed_color (test_audit.RecordedColorEvidence.test_recorded_steps_must_match_the_displayed_color) ... ok
+test_incompatible_options_reject_before_snapshot_or_output (test_cli.ColorsCLI.test_incompatible_options_reject_before_snapshot_or_output) ... ok
+test_changed_current_sources_and_runner_are_not_historical_inputs (test_identities.HistoricalColorsIdentities.test_changed_current_sources_and_runner_are_not_historical_inputs) ... ok
+test_corrupted_canonical_rcc_hash_is_rejected (test_identities.HistoricalColorsIdentities.test_corrupted_canonical_rcc_hash_is_rejected) ... ok
+test_corrupted_source_hash_is_rejected (test_identities.HistoricalColorsIdentities.test_corrupted_source_hash_is_rejected) ... ok
+test_each_snapshot_stage_rejects_changed_hashes (test_identities.HistoricalColorsIdentities.test_each_snapshot_stage_rejects_changed_hashes) ... ok
+test_early_catalogue_cannot_be_replaced_by_final_fulva_catalogue (test_identities.HistoricalColorsIdentities.test_early_catalogue_cannot_be_replaced_by_final_fulva_catalogue) ... ok
+test_inventory_and_audio_captures_cannot_be_rebased (test_identities.HistoricalColorsIdentities.test_inventory_and_audio_captures_cannot_be_rebased) ... ok
+test_original_proof_accepts_all_19_cases_after_moving_evidence (test_identities.HistoricalColorsIdentities.test_original_proof_accepts_all_19_cases_after_moving_evidence) ... ok
+test_receipt_identity_fields_cannot_be_changed (test_identities.HistoricalColorsIdentities.test_receipt_identity_fields_cannot_be_changed) ... ok
+test_wrong_or_missing_source_path_is_rejected (test_identities.HistoricalColorsIdentities.test_wrong_or_missing_source_path_is_rejected) ... ok
+test_quantized_displayed_channels_recover_discrete_controls (test_oracle.VisibleMixing.test_quantized_displayed_channels_recover_discrete_controls) ... ok
+test_red_light_uses_only_red_and_cyan_paint_uses_only_cyan (test_oracle.VisibleMixing.test_red_light_uses_only_red_and_cyan_paint_uses_only_cyan) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 5.266s
+
+OK

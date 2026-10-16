@@ -1,0 +1,14 @@
+test_changed_current_sources_and_runner_are_not_historical_inputs (test_identities.HistoricalColorsIdentities.test_changed_current_sources_and_runner_are_not_historical_inputs) ... ok
+test_corrupted_canonical_rcc_hash_is_rejected (test_identities.HistoricalColorsIdentities.test_corrupted_canonical_rcc_hash_is_rejected) ... ok
+test_corrupted_source_hash_is_rejected (test_identities.HistoricalColorsIdentities.test_corrupted_source_hash_is_rejected) ... ok
+test_each_snapshot_stage_rejects_changed_hashes (test_identities.HistoricalColorsIdentities.test_each_snapshot_stage_rejects_changed_hashes) ... ok
+test_early_catalogue_cannot_be_replaced_by_final_fulva_catalogue (test_identities.HistoricalColorsIdentities.test_early_catalogue_cannot_be_replaced_by_final_fulva_catalogue) ... ok
+test_inventory_and_audio_captures_cannot_be_rebased (test_identities.HistoricalColorsIdentities.test_inventory_and_audio_captures_cannot_be_rebased) ... ok
+test_original_proof_accepts_all_19_cases_after_moving_evidence (test_identities.HistoricalColorsIdentities.test_original_proof_accepts_all_19_cases_after_moving_evidence) ... ok
+test_receipt_identity_fields_cannot_be_changed (test_identities.HistoricalColorsIdentities.test_receipt_identity_fields_cannot_be_changed) ... ok
+test_wrong_or_missing_source_path_is_rejected (test_identities.HistoricalColorsIdentities.test_wrong_or_missing_source_path_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 3.967s
+
+OK
