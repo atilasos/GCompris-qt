@@ -1,0 +1,24 @@
+[
+  {
+    "activity": "roman_numerals",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime-batch73-74-startup/roman_numerals.log"
+  },
+  {
+    "activity": "share",
+    "locale": "pt_PT",
+    "seconds": 6.0,
+    "network_isolation": "docker-network-none",
+    "early_exit": null,
+    "launch_requested": true,
+    "qml_errors": [],
+    "startup_check": "passed",
+    "log": ".scratch/pt-pt/runtime-batch73-74-startup/share.log"
+  }
+]
