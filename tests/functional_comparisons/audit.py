@@ -107,7 +107,11 @@ def verify(root):
                     compared+=1
             else:
                 assert puzzle['manual']==manual and case['manual']==manual
-                visible=[None if item=='?' else int(oracle.number(item)) for item in puzzle['visible']]
+                visible=[]
+                for item in puzzle['visible']:
+                    if item=='?':visible.append(None)
+                    else:
+                        value=oracle.number(item);assert value==value.to_integral_value();visible.append(int(value))
                 expected=oracle.adjacent(visible)
                 negative_adjacent=negative_adjacent or min(expected)<0
                 assert puzzle['expected']==expected and puzzle['missing']==[i for i,value in enumerate(visible) if value is None]
