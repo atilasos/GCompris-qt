@@ -1,0 +1,15 @@
+{
+  "format": 1,
+  "kind": "observed-tools.write_stdin-final-return",
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests/functional_creation",
+  "tested_source": "99c1cebe479ca7824d002036286c292bf6c17a84",
+  "integrated_head": "e9a7a84502661d261c121638ac580a2337486e3b",
+  "session_id": 52501,
+  "chunk_id": "dde929",
+  "exit_code": 0,
+  "tests": 31,
+  "elapsed_seconds": 119.238,
+  "log": "merger-final-tests.log",
+  "log_sha256": "b12f9a53473db0e71080a8b1bcbd147982dbc94bc9b92ef786dec8b99751243c",
+  "provenance": "Observed real final tools.write_stdin return after waiting; independent of native receipts. No Qt process started."
+}
