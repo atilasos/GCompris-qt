@@ -48,6 +48,7 @@ TestCase {
                 wait(250);var targets=blanks();ensure(targets.length>=3);var backgrounds=images(backgroundImage).filter(function(o){return o.parent===backgroundImage&&o!==backgroundImage;});var labels=all(backgroundImage,function(o){return o.text!==undefined&&o.font!==undefined;});
                 var prefix='level-'+l+'-board-'+sub;grabImage(pageView).save('__QA_OUTPUT__/'+prefix+'-question.png');
                 if(activity.activityInfo.shortName()==='imagename'){console.log('VISIBLE_PT_NAMES',JSON.stringify(labels.map(function(t){return String(t.text);})));for(var label of labels)ensure(Object.values(oracle.semantic.names).indexOf(String(label.text))>=0,'Inspected PT dictionary rejects '+String(label.text));}
+                var observed={circles:targets.map(function(t){var p=point(t);return {x:p.x,y:p.y,color:String(t.color)};}),backgrounds:backgrounds.map(function(t){var p=point(t);return {image:imageId(t.source),x:p.x,y:p.y,width:t.width,height:t.height};}),labels:labels.map(function(t){var p=point(t);return {text:String(t.text),x:p.x,y:p.y};}),frame:{x:point(backgroundImage).x,y:point(backgroundImage).y,width:backgroundImage.width,height:backgroundImage.height,image:imageId(backgroundImage.source)}};
                 var initial=sidebar();ensure(initial.length>=2);var a=initial[0],b=initial[1],nameA=imageId(a.source),nameB=imageId(b.source);var choiceA=answerFor(a,targets,backgrounds,labels),choiceB=answerFor(b,targets,backgrounds,labels);ensure(choiceA.target!==choiceB.target);
                 var plan=[],beforeWins=wins,beforeScore=score.currentSubLevel;
                 drag(a,choiceB.target);drag(b,choiceA.target);plan.push({piece:nameA,target:point(choiceA.target),reason:choiceA.reason,evidence:choiceA.evidence});plan.push({piece:nameB,target:point(choiceB.target),reason:choiceB.reason,evidence:choiceB.evidence});
@@ -56,11 +57,11 @@ TestCase {
                     var image=list[0],name=imageId(image.source);var choice=answerFor(image,targets,backgrounds,labels);plan.push({piece:name,target:point(choice.target),reason:choice.reason,evidence:choice.evidence});drag(image,choice.target);
                 }
                 check(plan.length,targets.length);tryCompare(availablePieces,'okEnabled',true,1500);icon(availablePieces,'bar_ok.svg');wait(180);check(score.currentSubLevel,beforeScore);check(wins,beforeWins);ensure(!bonus.isPlaying);
-                var errors=all(spotsContainer,function(o){return o.source!==undefined&&String(o.source).endsWith('/error.svg');});ensure(errors.length>=2,'Wrong associations visibly marked');wrong++;grabImage(pageView).save('__QA_OUTPUT__/'+prefix+'-wrong.png');
+                var errors=all(spotsContainer,function(o){return o.source!==undefined&&String(o.source).endsWith('/error.svg');});ensure(errors.length>=2,'Wrong associations visibly marked');wrong++;var errorBounds=errors.map(function(t){var p=point(t);return {x:p.x,y:p.y,width:t.width,height:t.height};});grabImage(pageView).save('__QA_OUTPUT__/'+prefix+'-wrong.png');
                 var droppedA=images(spotsContainer).filter(function(o){return imageId(o.source)===nameA;});ensure(droppedA.length===1);drag(droppedA[0],choiceA.target);
                 var returnedB=sidebar().filter(function(o){return imageId(o.source)===nameB;});ensure(returnedB.length===1);drag(returnedB[0],choiceB.target);tryCompare(availablePieces,'okEnabled',true,1500);
                 grabImage(pageView).save('__QA_OUTPUT__/'+prefix+'-answer.png');icon(availablePieces,'bar_ok.svg');
-                boards.push({level:l,sublevel:sub,pieces:plan,instruction:String(instructionPanel.textItem.text),beforeScore:beforeScore});
+                boards.push({level:l,sublevel:sub,pieces:plan,observed:observed,wrongPlacements:[{piece:nameA,target:point(choiceB.target)},{piece:nameB,target:point(choiceA.target)}],errors:errorBounds,instruction:String(instructionPanel.textItem.text),beforeScore:beforeScore});
                 if(sub+1<count){tryCompare(score,'currentSubLevel',beforeScore+1,2000);tryVerify(function(){return sidebar().length>=2;},5000);}else{tryCompare(qa,'wins',beforeWins+1,7000);tryCompare(activity,'currentLevel',l%7,2500);}
                 console.log('ASSOCIATION_HEARTBEAT',JSON.stringify({level:l,sublevel:sub,boards:boards.length}));
             }
