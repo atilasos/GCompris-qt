@@ -163,7 +163,7 @@ ActivityBase {
                 }
             ]
 
-            onQuestionValueChanged: {
+            function resetQuestionInput() {
                 textInput.text = ''
                 romanConverter.arabic = 0
                 if(toArabic)
@@ -188,12 +188,13 @@ ActivityBase {
 
             function initSubLevel() {
                 if(dataset[currentLevel].values[0] === '_random_') {
-                    questionValue = Math.round(Math.random() * dataset[currentLevel].values[1] + 1)
+                    questionValue = Math.floor(Math.random() * dataset[currentLevel].values[1]) + 1
                     score.numberOfSubLevels = dataset[currentLevel].values[2]
                 } else {
                     questionValue = dataset[currentLevel].values[score.currentSubLevel]
                     score.numberOfSubLevels = dataset[currentLevel].values.length
                 }
+                resetQuestionInput()
                 items.buttonsBlocked = false
             }
 
@@ -353,7 +354,9 @@ ActivityBase {
                             romanConverter.arabic = parseInt(text)
                             else
                                 romanConverter.roman = text
-                    }
+                    } else {
+                    romanConverter.arabic = 0;
+                }
 
                 function appendText(car: string) {
                     if(car === keyboard.backspace) {

@@ -1,0 +1,14 @@
+{
+  "cases": 10,
+  "positive": 7,
+  "expected_red": 3,
+  "levels": 14,
+  "questions": 102,
+  "wrong": 102,
+  "physical": 51,
+  "virtual": 51,
+  "additional_random_samples": 300,
+  "source_files": 218,
+  "runtime_files": 269,
+  "scope": "Linux software verification; no physical audio, Windows or teacher acceptance."
+}
