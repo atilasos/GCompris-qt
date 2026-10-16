@@ -1,0 +1,84 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+TestCase {
+ id:qa
+ name:'PolygonTutorialControlsAndFiniteFreeModeBehaviours'
+ when:activity.visible&&activity.numberOfLevel>0
+__COMMON__
+ function combo() {
+  return one(dialogActivityConfig,function(o){return o.currentText!==undefined&&o.currentIndex!==undefined&&o.label!==undefined&&String(o.label)==='Selecionar o modo';});
+ }
+ function chooseFree() {
+  icon('bar_activity_config.svg');tryCompare(dialogActivityConfig,'visible',true);wait(700);
+  var mode=combo();evidence.controls.push({kind:'mode-before',text:String(mode.currentText)});
+  click(one(mode,function(o){return o.font!==undefined&&o.text!==undefined&&String(o.text)===String(mode.currentText);}));wait(700);
+  evidence.controls.push({kind:'mode-offer',texts:texts(dialogActivityConfig)});shot('mode-offer');
+  click(one(dialogActivityConfig,function(o){return o.font!==undefined&&o.text!==undefined&&String(o.text)==='Modo Livre';}));wait(700);
+  compare(String(mode.currentText),'Modo Livre');button(dialogActivityConfig,'Gravar');tryCompare(dialogActivityConfig,'visible',false);wait(1900);
+  compare(activity.numberOfLevel,0,'Free mode has no artificial levels');verify(!drawn(okButton));
+  icon('bar_activity_config.svg');tryCompare(dialogActivityConfig,'visible',true);wait(700);
+  compare(String(combo().currentText),'Modo Livre');shot('mode-persisted');button(dialogActivityConfig,'Cancelar');tryCompare(dialogActivityConfig,'visible',false);wait(1900);
+ }
+ function renderedPoint(at) {
+  return one(canvasContainer,function(o){return o.centerX!==undefined&&o.centerY!==undefined&&o.radius!==undefined&&pointKey([o.centerX/o.radius,o.centerY/o.radius])===pointKey(at);});
+ }
+ function dragPoint(before,after) {
+  var target=renderedPoint(before),start=pose(target),end=sceneGrid.mapToItem(pageView,sceneGrid.width*after[0]/10,sceneGrid.height*after[1]/10);
+  mousePress(pageView,start.x,start.y);
+  for(var step=1;step<=10;step++)mouseMove(pageView,start.x+(end.x-start.x)*step/10,start.y+(end.y-start.y)*step/10,30,Qt.LeftButton);
+  mouseRelease(pageView,end.x,end.y);wait(400);
+ }
+ function cursorAt(o) {
+  var p=o.mapToItem(sceneGrid,o.width/2,o.height/2);
+  return [Math.round(10*p.x/sceneGrid.width),Math.round(10*p.y/sceneGrid.height)];
+ }
+ function moveKeyboard(target,label) {
+  if(drawn(selectedPointCursor)){keyClick(Qt.Key_Space);wait(200);verify(!drawn(selectedPointCursor));}
+  var trail=[];
+  for(var step=0;step<40;step++) {
+   var p=cursorAt(keyboardCursor);trail.push({point:p,frame:pose(keyboardCursor)});
+   if(pointKey(p)===pointKey(target))break;
+   keyClick(p[0]!==target[0]?(p[0]<target[0]?Qt.Key_Right:Qt.Key_Left):(p[1]<target[1]?Qt.Key_Down:Qt.Key_Up));wait(120);
+  }
+  compare(pointKey(cursorAt(keyboardCursor)),pointKey(target));
+  evidence.controls.push({kind:'keyboard-cursor',label:label,trail:trail});
+ }
+ function test_controls_and_free() {
+  wait(1500);activity.Window.window.requestActivate();wait(300);
+  compare(activity.numberOfLevel,9);introductions('controls-initial');
+  var initial={kind:'navigation',before:bar.level,steps:[]};
+  icon('bar_previous.svg');compare(bar.level,9);initial.steps.push({level:bar.level,pages:introductions('controls-previous-wrap')});
+  icon('bar_next.svg');compare(bar.level,1);initial.steps.push({level:bar.level,pages:introductions('controls-next-wrap')});evidence.controls.push(initial);
+  gridClick([2,2]);gridClick([7,2]);var partial=snapshot('partial-before-reload');assertPoints(partial,[[2,2],[7,2]]);
+  evidence.controls.push({kind:'partial-reload',before:partial,after:reload('partial-after-reload')});
+  helpAndEscape('tutorial-controls');chooseFree();
+  var baseline={wins:wins,losses:losses};
+  for(var i=0;i<proposals.length;i++) {
+   reload('free-'+i+'-blank');var route={kind:'free-class',instructionReference:proposals[i].instruction,property:proposals[i].property};evidence.routes.push(route);
+   route.drawing=draw(proposals[i].vertices,'free-'+i);verify(!drawn(okButton));wait(700);
+   compare(wins,baseline.wins);compare(losses,baseline.losses);
+  }
+  reload('mouse-edit-blank');var expected=proposals[0].vertices.map(function(p){return p.slice();});
+  var editing={kind:'mouse-and-keyboard-edit',initial:draw(expected,'mouse-edit')};evidence.controls.push(editing);
+  gridClick([9,9]);editing.closedRefusesNewPoint=snapshot('closed-no-new-point');assertPoints(editing.closedRefusesNewPoint,expected);
+  dragPoint([6,1],[7,2]);expected[1]=[7,2];editing.dragged=snapshot('dragged-point');assertPoints(editing.dragged,expected);
+  var remove=pose(renderedPoint([8,4]));mouseDoubleClick(pageView,remove.x,remove.y);wait(350);expected=expected.filter(function(p){return pointKey(p)!==pointKey([8,4]);});
+  editing.doubleClickDeleted=snapshot('double-click-deleted');assertPoints(editing.doubleClickDeleted,expected);
+  for(var tab=0;tab<3&&!drawn(selectedPointCursor);tab++){keyClick(Qt.Key_Tab);wait(250);}
+  verify(drawn(selectedPointCursor),'Selection ring is actually visible');var selected=cursorAt(selectedPointCursor),moved=[selected[0]+(selected[0]>=8?-1:1),selected[1]];
+  verify(keys(expected).indexOf(pointKey(selected))>=0);keyClick(selected[0]>=8?Qt.Key_Left:Qt.Key_Right);wait(300);
+  expected=expected.map(function(p){return pointKey(p)===pointKey(selected)?moved:p;});editing.keyboardMoved=snapshot('keyboard-moved');assertPoints(editing.keyboardMoved,expected);
+  keyClick(Qt.Key_Delete);wait(300);expected=expected.filter(function(p){return pointKey(p)!==pointKey(moved);});editing.keyboardDeleted=snapshot('keyboard-deleted');assertPoints(editing.keyboardDeleted,expected);
+  reload('keyboard-create-blank');keyClick(Qt.Key_Right);wait(250);verify(drawn(keyboardCursor));
+  var triangle=[[2,2],[7,2],[4,7]],steps=[];
+  for(var vertex=0;vertex<triangle.length;vertex++) {
+   moveKeyboard(triangle[vertex],'create-'+vertex);keyClick(Qt.Key_Return);wait(300);
+   var state=snapshot('keyboard-create-'+vertex);assertPoints(state,triangle.slice(0,vertex+1));steps.push(state);
+  }
+  gridClick(triangle[0]);var closed=snapshot('keyboard-triangle-closed');assertPoints(closed,triangle);
+  evidence.controls.push({kind:'keyboard-created-triangle',steps:steps,closed:closed});
+  helpAndEscape('free-controls');var afterHelp=snapshot('free-after-help');assertPoints(afterHelp,triangle);
+  compare(wins,baseline.wins);compare(losses,baseline.losses);compare(activity.numberOfLevel,0);
+  homeAfterWork('free-menu-after-creation');
+ }
+ function cleanupTestCase() {finish();}
+}

@@ -1,0 +1,18 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+TestCase {
+ id:qa
+ name:'PolygonPilotCollinearRejectionAndIndependentRepair'
+ when:activity.visible&&activity.numberOfLevel>0
+__COMMON__
+ function test_pilot() {
+  wait(1500);compare(activity.numberOfLevel,9);compare(bar.level,1);
+  var route={level:1,pages:introductions('pilot'),instruction:instruction()};evidence.routes.push(route);
+  compare(route.instruction,proposals[0].instruction);
+  route.wrong=draw([[2,4],[5,4],[8,4]],'pilot-collinear');
+  route.rejection=submit('pilot-collinear',false);
+  route.reload=reload('pilot-cleared');
+  route.repair=draw(proposals[0].vertices,'pilot-independent');
+  route.success=submit('pilot-independent',true);
+ }
+ function cleanupTestCase() {finish();}
+}
