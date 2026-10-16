@@ -1,0 +1,107 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+TestCase {
+    id:nativeFractions
+    name:'FractionsRenderedRationalOracle'
+    when:true
+    property int levelLimit: __LEVELS__
+    property var completed: []
+    property int wins: 0
+    property int wrong: 0
+    property int toggles: 0
+    property string phase: 'initialization'
+    Connections {target:bonus;function onWin(){nativeFractions.wins++;}}
+    function check(a,b,message){if(a!==b)console.log('FRACTIONS_ASSERT',phase,a,b,message||'',new Error().stack);compare(a,b,message||'');}
+    function ensured(value,message){if(!value){console.log('FRACTIONS_VERIFY',phase,message||'',new Error().stack);grabImage(activityBackground).save('__QA_OUTPUT__/verification-failure.png');}verify(value,message||'');}
+    function find(root,predicate){if(predicate(root))return root;if(root.children)for(var child of root.children){var hit=find(child,predicate);if(hit)return hit;}return null;}
+    function click(item,x,y){ensured(item!==null);var p=item.mapToItem(pageView,x===undefined?item.width/2:x,y===undefined?item.height/2:y);mouseClick(pageView,p.x,p.y,Qt.LeftButton,Qt.NoModifier,0);wait(5);}
+    function numberLabel(root){var label=find(root,function(item){return item.text!==undefined&&item.visible&&/^\d+$/.test(String(item.text));});ensured(label!==null);return Number(label.text);}
+    function arrow(root,suffix){return find(root,function(item){return item.source!==undefined&&String(item.source).endsWith(suffix);});}
+    function editable(root){var icon=arrow(root,'bar_next.svg');ensured(icon!==null);return icon.visible&&icon.opacity>0.9;}
+    function setNumber(root,value){ensured(value>=0&&value<100&&value===Math.floor(value));var count=0;while(numberLabel(root)!==value){ensured(count++<100);var old=numberLabel(root),right=old<value;click(arrow(root,right?'bar_next.svg':'bar_previous.svg'));check(numberLabel(root),old+(right?1:-1));}}
+    function chartItems(){var result=[];function collect(item){if(item.item!==undefined&&item.source!==undefined&&/(PieGraph|PieChart|RectangleChart)\.qml$/.test(String(item.source))){result.push(item.item);return;}if(item.children)for(var child of item.children)collect(child);}collect(chartDisplay);ensured(result.length>0);return result;}
+    function parts(){
+        var charts=chartItems(),result=[],background=[];
+        for(var chart of charts){
+            var outside=chart.mapToItem(activityBackground,3,3);background.push({x:outside.x,y:outside.y});
+            if(chart.pieSeries!==undefined){
+                var series=chart.pieSeries;ensured(series.count>=2);
+                for(var i=0;i<series.count;i++){
+                    var slice=series.at(i);ensured(Math.abs(slice.angleSpan-360/series.count)<0.001,'Equal visible angular sectors');
+                    var angle=(slice.startAngle+slice.angleSpan/2)*Math.PI/180;
+                    var plot=chart.plotArea,radius=Math.min(plot.width,plot.height)*0.27;
+                    var p=chart.mapToItem(activityBackground,plot.x+plot.width/2+Math.sin(angle)*radius,plot.y+plot.height/2-Math.cos(angle)*radius);
+                    var page=chart.mapToItem(pageView,plot.x+plot.width/2+Math.sin(angle)*radius,plot.y+plot.height/2-Math.cos(angle)*radius);
+                    result.push({x:p.x,y:p.y,pageX:page.x,pageY:page.y,selected:String(slice.color)==='#80ffffff',denominator:series.count,chart:background.length-1,kind:'pie',angle:slice.angleSpan});
+                }
+            }else{
+                var rectangles=[];
+                function collect(item){if(item.color!==undefined&&item.border!==undefined&&item.border.width>0&&(String(item.color)==='#80ffffff'||String(item.color)==='#00000000')){rectangles.push(item);return;}if(item.children)for(var child of item.children)collect(child);}
+                collect(chart);ensured(rectangles.length>=2);rectangles.sort(function(a,b){return a.mapToItem(chart,0,0).x-b.mapToItem(chart,0,0).x;});
+                for(var rect of rectangles){var p=rect.mapToItem(activityBackground,rect.width/2,rect.height/2),page=rect.mapToItem(pageView,rect.width/2,rect.height/2);result.push({x:p.x,y:p.y,pageX:page.x,pageY:page.y,selected:String(rect.color)==='#80ffffff',denominator:rectangles.length,chart:background.length-1,kind:'rectangle',width:rect.width,height:rect.height});}
+            }
+        }
+        var denominator=result[0].denominator;for(var part of result)check(part.denominator,denominator);
+        return {parts:result,background:background,denominator:denominator,selected:result.filter(function(part){return part.selected;}).length};
+    }
+    function instructionFraction(text,denominator){
+        ensured(!/(dois|três)-(terços|quintos|quartos)/.test(text),'Portuguese fraction names have no hyphen');
+        var normalized=text.toLowerCase().replace(/-/g,' ');
+        if(normalized.indexOf('máximo de partes')>=0)return [Math.floor(denominator/2),denominator];
+        var percent=normalized.match(/(\d+)%/);if(percent)return [Number(percent[1]),100];
+        var decimal=normalized.match(/(\d+),(\d+)/);if(decimal)return [Number(decimal[1]+decimal[2]),Math.pow(10,decimal[2].length)];
+        var terms=[['dois terços',2,3],['dois quintos',2,5],['três quintos',3,5],['três quartos',3,4],['um terço',1,3],['um quarto',1,4],['metade',1,2]];
+        for(var term of terms)if(normalized.indexOf(term[0])>=0){var whole=/ (uma tarte|um quadrado) e /.test(normalized)?1:0;return [term[1]+whole*term[2],term[2]];}
+        ensured(false,'Independent PT instruction parser: '+text);return [0,1];
+    }
+    function pressPart(part){mouseClick(pageView,part.pageX,part.pageY,Qt.LeftButton,Qt.NoModifier,0);wait(30);}
+    function gcd(a,b){while(b){var t=a%b;a=b;b=t;}return a;}
+    function test_all_levels(){
+        wait(1800);if(!activity.visible){keyClick(Qt.Key_Return);tryCompare(activity,'visible',true,2500);wait(1100);}
+        var counts=activity.mode==='selectPie'?[5,5,5,5,5,5,5,5,5,5,5,5,5,3,3,3,2,2]:[5,5,5,5,5,5,5,5,5,5,5,5];
+        check(activity.numberOfLevel,counts.length);check(items.numberOfLevel,counts.length);
+        var limit=levelLimit===0?counts.length:levelLimit;
+        for(var level=0;level<limit;level++){
+            check(items.currentLevel,level);check(score.numberOfSubLevels,counts[level]);
+            for(var sub=0;sub<counts[level];sub++){
+                phase='level-'+(level+1)+'-question-'+(sub+1);wait(200);
+                var before=parts(),instruction=String(items.instructionItem.text),n=numberLabel(numeratorText),d=numberLabel(denominatorText);
+                var target=activity.mode==='selectPie'?instructionFraction(instruction,before.denominator):[before.selected,before.denominator];
+                ensured(target[0]>0&&target[1]>0);var expectedParts=target[0]*before.denominator/target[1];ensured(expectedParts===Math.floor(expectedParts));
+                var prefix='level-'+(level+1)+'-question-'+(sub+1);
+                console.log('FRACTIONS_HEARTBEAT',activity.mode,level+1,sub+1,instruction,JSON.stringify(target),before.parts.length);
+                grabImage(activityBackground).save('__QA_OUTPUT__/'+prefix+'-question.png');
+                if(activity.mode==='selectPie'){
+                    check(before.selected,0);check(n,0);check(d,before.denominator);
+                    if(sub===0){pressPart(before.parts[0]);check(parts().selected,1);pressPart(before.parts[0]);check(parts().selected,0);check(numberLabel(numeratorText),0);toggles++;}
+                }else if(sub===0){pressPart(before.parts[0]);check(parts().selected,before.selected,'Read-only visual chart');}
+                if(editable(numeratorText)&&numberLabel(numeratorText)===0){click(arrow(numeratorText,'bar_previous.svg'));check(numberLabel(numeratorText),0);}
+                if(editable(denominatorText)&&numberLabel(denominatorText)===0){click(arrow(denominatorText,'bar_previous.svg'));check(numberLabel(denominatorText),0);}
+                click(okButton);tryVerify(function(){return errorRectangle.opacity>0;},1000);check(score.currentSubLevel,sub);wrong++;
+                if(activity.mode==='selectPie'){pressPart(before.parts[0]);check(parts().selected,0,'Input blocked during wrong feedback');}
+                else{if(editable(numeratorText))click(arrow(numeratorText,'bar_next.svg'));else click(arrow(denominatorText,'bar_next.svg'));check(numberLabel(numeratorText),n);check(numberLabel(denominatorText),d);}
+                tryCompare(errorRectangle.errorAnimation,'running',false,4000);check(score.currentSubLevel,sub);
+                if(activity.mode==='selectPie'){
+                    for(var index=0;index<expectedParts;index++)pressPart(before.parts[index]);
+                    check(parts().selected,expectedParts);check(numberLabel(numeratorText),expectedParts);
+                }else{
+                    var wantedN,wantedD;
+                    if(editable(numeratorText)&&editable(denominatorText)){var factor=gcd(target[0],target[1]);wantedN=target[0]/factor;wantedD=target[1]/factor;if(sub%2){wantedN*=2;wantedD*=2;}}
+                    else if(editable(numeratorText)){wantedD=d;wantedN=target[0]*d/target[1];}
+                    else{wantedN=n;wantedD=n*target[1]/target[0];}
+                    if(editable(numeratorText))setNumber(numeratorText,wantedN);
+                    if(editable(denominatorText))setNumber(denominatorText,wantedD);
+                    ensured(numberLabel(denominatorText)>0);check(numberLabel(numeratorText)*target[1],target[0]*numberLabel(denominatorText));
+                }
+                var answer=parts(),answerN=numberLabel(numeratorText),answerD=numberLabel(denominatorText);
+                grabImage(activityBackground).save('__QA_OUTPUT__/'+prefix+'-answer.png');
+                click(okButton);check(score.currentSubLevel,sub+1);tryCompare(score,'isWinAnimationPlaying',true,500);
+                click(okButton);check(score.currentSubLevel,sub+1,'Repeated OK blocked during success');
+                completed.push({level:level+1,question:sub+1,instruction:instruction,before:before,answer:answer,answerNumerator:answerN,answerDenominator:answerD,target:target,questionFile:prefix+'-question.png',answerFile:prefix+'-answer.png'});
+                if(sub+1<counts[level])tryCompare(score,'isWinAnimationPlaying',false,5000);
+                else tryCompare(items,'currentLevel',(level+1)%counts.length,10000);
+            }
+        }
+        check(wins,limit);
+    }
+    function cleanupTestCase(){console.log('NATIVE_FRACTIONS_RESULT',JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,mode:activity.mode,completed:completed,wins:wins,wrong:wrong,toggles:toggles,phase:phase,levels:activity.numberOfLevel}));}
+}

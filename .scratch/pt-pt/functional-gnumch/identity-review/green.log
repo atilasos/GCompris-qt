@@ -1,0 +1,6 @@
+test_changed_input_identities_are_rejected_in_each_phase (test_identity_audit.HistoricalInputAudit.test_changed_input_identities_are_rejected_in_each_phase) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.982s
+
+OK

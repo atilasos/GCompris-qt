@@ -4297,37 +4297,37 @@ msgstr "Que dia da semana é o 10º do mês indicado?"
 #: activities/calendar/calendar_dataset.js:119
 msgctxt "calendar_dataset|"
 msgid "Select a Monday between days 1 and 7 of the given month"
-msgstr "Seleciona uma Segunda-Feira entre os dias 1 e 7 do mês indicado"
+msgstr "Seleciona uma segunda-feira entre os dias 1 e 7 do mês indicado"
 
 #: activities/calendar/calendar_dataset.js:123
 msgctxt "calendar_dataset|"
 msgid "Select a Tuesday between days 8 and 16 of the given month"
-msgstr "Seleciona uma Terça-Feira entre os dias 8 e 16 do mês indicado"
+msgstr "Seleciona uma terça-feira entre os dias 8 e 16 do mês indicado"
 
 #: activities/calendar/calendar_dataset.js:127
 msgctxt "calendar_dataset|"
 msgid "Select a Wednesday between days 15 and 22 of the given month"
-msgstr "Seleciona uma Quarta-Feira entre os dias 15 e 22 do mês indicado"
+msgstr "Seleciona uma quarta-feira entre os dias 15 e 22 do mês indicado"
 
 #: activities/calendar/calendar_dataset.js:131
 msgctxt "calendar_dataset|"
 msgid "Select a Thursday between days 26 and 31 of the given month"
-msgstr "Seleciona uma Quinta-Feira entre os dias 26 e 31 do mês indicado"
+msgstr "Seleciona uma quinta-feira entre os dias 26 e 31 do mês indicado"
 
 #: activities/calendar/calendar_dataset.js:135
 msgctxt "calendar_dataset|"
 msgid "Select a Friday between days 20 and 25 of the given month"
-msgstr "Seleciona uma Sexta-Feira entre os dias 20 e 25 do mês indicado"
+msgstr "Seleciona uma sexta-feira entre os dias 20 e 25 do mês indicado"
 
 #: activities/calendar/calendar_dataset.js:139
 msgctxt "calendar_dataset|"
 msgid "Select a Saturday between days 13 and 23 of the given month"
-msgstr "Seleciona um Sábado entre os dias 13 e 23 do mês indicado"
+msgstr "Seleciona um sábado entre os dias 13 e 23 do mês indicado"
 
 #: activities/calendar/calendar_dataset.js:143
 msgctxt "calendar_dataset|"
 msgid "Select a Sunday between days 5 and 17 of the given month"
-msgstr "Seleciona um Domingo entre os dias 5 e 17 do mês indicado"
+msgstr "Seleciona um domingo entre os dias 5 e 17 do mês indicado"
 
 #: activities/calendar/calendar_dataset.js:162
 msgctxt "calendar_dataset|"
@@ -4337,7 +4337,7 @@ msgstr "Seleciona o segundo dia antes do dia 15 do mês indicado"
 #: activities/calendar/calendar_dataset.js:166
 msgctxt "calendar_dataset|"
 msgid "Select the fourth Sunday of the given month"
-msgstr "Seleciona o quarto Domingo do mês indicado"
+msgstr "Seleciona o quarto domingo do mês indicado"
 
 #: activities/calendar/calendar_dataset.js:170
 msgctxt "calendar_dataset|"
@@ -4347,7 +4347,7 @@ msgstr "Seleciona o dia que fica uma semana a seguir ao dia 13 do mês indicado"
 #: activities/calendar/calendar_dataset.js:174
 msgctxt "calendar_dataset|"
 msgid "Select the fifth Thursday of the given month"
-msgstr "Seleciona a quinta Quinta-Feira do mês indicado"
+msgstr "Seleciona a quinta quinta-feira do mês indicado"
 
 #: activities/calendar/calendar_dataset.js:178
 msgctxt "calendar_dataset|"
@@ -4357,22 +4357,22 @@ msgstr "Seleciona o terceiro dia a seguir ao dia 27 do mês indicado"
 #: activities/calendar/calendar_dataset.js:197
 msgctxt "calendar_dataset|"
 msgid "Find the month starting a Thursday and having 28 days"
-msgstr "Descobre o mês que começa a uma Quinta-Feira e tem 28 dias"
+msgstr "Descobre o mês que começa a uma quinta-feira e tem 28 dias"
 
 #: activities/calendar/calendar_dataset.js:201
 msgctxt "calendar_dataset|"
 msgid "Find a month starting a Monday and having 31 days"
-msgstr "Descobre um mês que começa a uma Segunda-Feira e tem 31 dias"
+msgstr "Descobre um mês que começa a uma segunda-feira e tem 31 dias"
 
 #: activities/calendar/calendar_dataset.js:205
 msgctxt "calendar_dataset|"
 msgid "Find the month between June and August"
-msgstr "Descobre o mês entre Junho e Agosto"
+msgstr "Descobre o mês entre junho e agosto"
 
 #: activities/calendar/calendar_dataset.js:209
 msgctxt "calendar_dataset|"
 msgid "Find a month starting a Saturday"
-msgstr "Descobre um mês que começa num Sábado"
+msgstr "Descobre um mês que começa num sábado"
 
 #: activities/calendar/calendar_dataset.js:213
 msgctxt "calendar_dataset|"
@@ -4382,47 +4382,47 @@ msgstr "Descobre um mês que tem 30 dias"
 #: activities/calendar/calendar_dataset.js:233
 msgctxt "calendar_dataset|"
 msgid "Find the first Monday of January in the year 2019"
-msgstr "Descobre a primeira Segunda-Feira do mês de Janeiro do ano 2019"
+msgstr "Descobre a primeira segunda-feira do mês de janeiro do ano 2019"
 
 #: activities/calendar/calendar_dataset.js:237
 msgctxt "calendar_dataset|"
 msgid "Find the second Wednesday of February in the year 2019"
-msgstr "Descobre a segunda Quarta-Feira do mês de Fevereiro do ano 2019"
+msgstr "Descobre a segunda quarta-feira do mês de fevereiro do ano 2019"
 
 #: activities/calendar/calendar_dataset.js:241
 msgctxt "calendar_dataset|"
 msgid "Find the third Friday of March in the year 2019"
-msgstr "Descobre a terceira Sexta-Feira do mês de Março do ano 2019"
+msgstr "Descobre a terceira sexta-feira do mês de março do ano 2019"
 
 #: activities/calendar/calendar_dataset.js:245
 msgctxt "calendar_dataset|"
 msgid "Find the fifth Sunday of April in the year 2018"
-msgstr "Descobre o quinto Domingo do mês de Abril do ano 2018"
+msgstr "Descobre o quinto domingo do mês de abril do ano 2018"
 
 #: activities/calendar/calendar_dataset.js:249
 msgctxt "calendar_dataset|"
 msgid "Find the fourth Tuesday of July in the year 2018"
-msgstr "Descobre a quarta Terça-Feira do mês de Julho do ano 2018"
+msgstr "Descobre a quarta terça-feira do mês de julho do ano 2018"
 
 #: activities/calendar/calendar_dataset.js:253
 msgctxt "calendar_dataset|"
 msgid "Find the first Monday of August in the year 2018"
-msgstr "Descobre a primeira Segunda-Feira do mês de Agosto do ano 2018"
+msgstr "Descobre a primeira segunda-feira do mês de agosto do ano 2018"
 
 #: activities/calendar/calendar_dataset.js:257
 msgctxt "calendar_dataset|"
 msgid "Find the third Thursday of September in the year 2017"
-msgstr "Descobre a terceira Quinta-Feira do mês de Setembro do ano 2017"
+msgstr "Descobre a terceira quinta-feira do mês de setembro do ano 2017"
 
 #: activities/calendar/calendar_dataset.js:261
 msgctxt "calendar_dataset|"
 msgid "Find the fifth Sunday of October in the year 2017"
-msgstr "Descobre o quinto Domingo do mês de Outubro do ano 2017"
+msgstr "Descobre o quinto domingo do mês de outubro do ano 2017"
 
 #: activities/calendar/calendar_dataset.js:265
 msgctxt "calendar_dataset|"
 msgid "Find the second Friday of December in the year 2017"
-msgstr "Descobre a segunda Sexta-Feira do mês de Dezembro do ano 2017"
+msgstr "Descobre a segunda sexta-feira do mês de dezembro do ano 2017"
 
 #: activities/calendar/calendar_dataset.js:284
 msgctxt "calendar_dataset|"
@@ -4438,9 +4438,7 @@ msgctxt "calendar_dataset|"
 msgid ""
 "Braille Day is celebrated one day before January 5.<br> Find the date of "
 "Braille Day in 2018"
-msgstr ""
-"O Dia de Braille celebra-se um dia antes de 5 de Janeiro.<br/>Descobre a "
-"data do Dia de Braille em 2018"
+msgstr "O Dia de Braille celebra-se um dia antes de 5 de janeiro.<br/>Descobre a data do Dia de Braille em 2018"
 
 #: activities/calendar/calendar_dataset.js:292
 msgctxt "calendar_dataset|"
@@ -4456,18 +4454,14 @@ msgctxt "calendar_dataset|"
 msgid ""
 "International Women's Day is celebrated two days before March 10.<br> Find "
 "the date of International Women's Day in 2018."
-msgstr ""
-"O Dia Internacional da Mulher celebra-se dois dias antes de 10 de Março.<br/"
-">Descobre a data do Dia Internacional da Mulher em 2018."
+msgstr "O Dia Internacional da Mulher celebra-se dois dias antes de 10 de março.<br/>Descobre a data do Dia Internacional da Mulher em 2018."
 
 #: activities/calendar/calendar_dataset.js:300
 msgctxt "calendar_dataset|"
 msgid ""
 "The sports competition was held on last Friday of September 2017.<br> Select "
 "the date of the sports competition on the calendar."
-msgstr ""
-"A competição desportiva ocorreu na última Sexta-Feira de Setembro de "
-"2017.<br/>Seleciona a data da competição no calendário."
+msgstr "A competição desportiva ocorreu na última sexta-feira de setembro de 2017.<br/>Seleciona a data da competição no calendário."
 
 #. Activity title
 #: activities/canal_lock/ActivityInfo.qml:15
@@ -11324,52 +11318,52 @@ msgstr ""
 #: activities/find_the_day/find_the_day_dataset.js:34
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 13 days after May 3rd."
-msgstr "Descobrir a data de 13 dias a seguir ao 3 de Maio."
+msgstr "Descobrir a data de 13 dias a seguir ao 3 de maio."
 
 #: activities/find_the_day/find_the_day_dataset.js:38
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 7 days after October 1st."
-msgstr "Descobrir a data de 7 dias a seguir ao 1 de Outubro."
+msgstr "Descobrir a data de 7 dias a seguir ao 1 de outubro."
 
 #: activities/find_the_day/find_the_day_dataset.js:42
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 31 days after July 12th."
-msgstr "Descobrir a data de 31 dias a seguir ao 12 de Julho."
+msgstr "Descobrir a data de 31 dias a seguir ao 12 de julho."
 
 #: activities/find_the_day/find_the_day_dataset.js:46
 msgctxt "find_the_day_dataset|"
 msgid "Find the date two weeks after November 27th."
-msgstr "Descobrir a data duas semanas depois do 27 de Novembro."
+msgstr "Descobrir a data duas semanas depois do 27 de novembro."
 
 #: activities/find_the_day/find_the_day_dataset.js:50
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 19 days before September 1st."
-msgstr "Descobrir a data de 19 dias antes do 1 de Setembro."
+msgstr "Descobrir a data de 19 dias antes do 1 de setembro."
 
 #: activities/find_the_day/find_the_day_dataset.js:54
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 5 days before December 8th."
-msgstr "Descobrir a data de 5 dias antes do 8 de Dezembro."
+msgstr "Descobrir a data de 5 dias antes do 8 de dezembro."
 
 #: activities/find_the_day/find_the_day_dataset.js:74
 msgctxt "find_the_day_dataset|"
 msgid "Find the day of the week 3 days after December 5th."
-msgstr "Descobrir o dia da semana de 3 dias depois do 5 de Dezembro."
+msgstr "Descobrir o dia da semana de 3 dias depois do 5 de dezembro."
 
 #: activities/find_the_day/find_the_day_dataset.js:78
 msgctxt "find_the_day_dataset|"
 msgid "Find the day of the week 12 days before November 12th."
-msgstr "Descobrir o dia da semana de 12 dias antes do 12 de Novembro."
+msgstr "Descobrir o dia da semana de 12 dias antes do 12 de novembro."
 
 #: activities/find_the_day/find_the_day_dataset.js:82
 msgctxt "find_the_day_dataset|"
 msgid "Find the day of the week 32 days after January 5th."
-msgstr "Descobrir o dia da semana de 32 dias depois do 5 de Janeiro."
+msgstr "Descobrir o dia da semana de 32 dias depois do 5 de janeiro."
 
 #: activities/find_the_day/find_the_day_dataset.js:86
 msgctxt "find_the_day_dataset|"
 msgid "Find the day of the week 5 days after February 23rd."
-msgstr "Descobrir o dia da semana de 5 dias depois do 23 de Fevereiro."
+msgstr "Descobrir o dia da semana de 5 dias depois do 23 de fevereiro."
 
 #: activities/find_the_day/find_the_day_dataset.js:90
 msgctxt "find_the_day_dataset|"
@@ -11379,27 +11373,27 @@ msgstr "Descobre o dia da semana 17 dias antes de 16 de agosto."
 #: activities/find_the_day/find_the_day_dataset.js:111
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 2 weeks and 3 days after January 12th."
-msgstr "Descobrir a data de 2 semanas e 3 dias depois do 12 de Janeiro."
+msgstr "Descobrir a data de 2 semanas e 3 dias depois do 12 de janeiro."
 
 #: activities/find_the_day/find_the_day_dataset.js:115
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 3 weeks and 2 days after March 22nd."
-msgstr "Descobrir a data de 3 semanas e 2 dias depois do 22 de Março."
+msgstr "Descobrir a data de 3 semanas e 2 dias depois do 22 de março."
 
 #: activities/find_the_day/find_the_day_dataset.js:119
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 5 weeks and 6 days after October 5th."
-msgstr "Descobrir a data de 5 semanas e 6 dias depois do 5 de Outubro."
+msgstr "Descobrir a data de 5 semanas e 6 dias depois do 5 de outubro."
 
 #: activities/find_the_day/find_the_day_dataset.js:123
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 1 week and 1 day before August 8th."
-msgstr "Descobrir a data de 1 semana e 1 dia antes do 8 de Agosto."
+msgstr "Descobrir a data de 1 semana e 1 dia antes do 8 de agosto."
 
 #: activities/find_the_day/find_the_day_dataset.js:127
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 2 weeks and 5 days before July 2nd."
-msgstr "Descobrir a data de 2 semanas e 5 dias antes do 2 de Julho."
+msgstr "Descobrir a data de 2 semanas e 5 dias antes do 2 de julho."
 
 #: activities/find_the_day/find_the_day_dataset.js:147
 msgctxt "find_the_day_dataset|"
@@ -11409,7 +11403,7 @@ msgstr "Descobre o dia da semana 5 meses e 2 dias depois de 3 de julho."
 #: activities/find_the_day/find_the_day_dataset.js:151
 msgctxt "find_the_day_dataset|"
 msgid "Find the day of the week 2 months and 4 days after October 8th."
-msgstr "Descobrir o dia da semana de 2 meses e 4 dias depois do 8 de Outubro."
+msgstr "Descobrir o dia da semana de 2 meses e 4 dias depois do 8 de outubro."
 
 #: activities/find_the_day/find_the_day_dataset.js:155
 msgctxt "find_the_day_dataset|"
@@ -11419,13 +11413,12 @@ msgstr "Descobre o dia da semana 1 mês e 3 dias antes de 28 de dezembro."
 #: activities/find_the_day/find_the_day_dataset.js:159
 msgctxt "find_the_day_dataset|"
 msgid "Find the day of the week 8 months and 7 days after February 28th."
-msgstr ""
-"Descobrir o dia da semana de 8 meses e 7 dias depois do 28 de Fevereiro."
+msgstr "Descobrir o dia da semana de 8 meses e 7 dias depois do 28 de fevereiro."
 
 #: activities/find_the_day/find_the_day_dataset.js:163
 msgctxt "find_the_day_dataset|"
 msgid "Find the day of the week 3 months and 3 days before September 15th."
-msgstr "Descobrir o dia da semana de 3 meses e 3 dias antes do 15 de Setembro."
+msgstr "Descobrir o dia da semana de 3 meses e 3 dias antes do 15 de setembro."
 
 #: activities/find_the_day/find_the_day_dataset.js:182
 msgctxt "find_the_day_dataset|"
@@ -11435,24 +11428,22 @@ msgstr "Descobre a data 2 meses, 1 semana e 5 dias depois de 12 de janeiro."
 #: activities/find_the_day/find_the_day_dataset.js:186
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 3 months, 2 weeks and 1 day after August 23rd."
-msgstr ""
-"Descobrir a data de 3 meses, 2 semanas e 1 dia a seguir ao 23 de Agosto."
+msgstr "Descobrir a data de 3 meses, 2 semanas e 1 dia a seguir ao 23 de agosto."
 
 #: activities/find_the_day/find_the_day_dataset.js:190
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 5 months, 3 weeks and 2 days after March 20th."
-msgstr ""
-"Descobrir a data de 5 meses, 3 semanas e 2 dias a seguir ao 20 de Março."
+msgstr "Descobrir a data de 5 meses, 3 semanas e 2 dias a seguir ao 20 de março."
 
 #: activities/find_the_day/find_the_day_dataset.js:194
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 1 month 1 week and 1 day before September 10th."
-msgstr "Descobrir a data de 1 mês, 1 semana e 1 dia antes do 10 de Setembro."
+msgstr "Descobrir a data de 1 mês, 1 semana e 1 dia antes do 10 de setembro."
 
 #: activities/find_the_day/find_the_day_dataset.js:198
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 2 months, 1 week and 8 days before April 7th."
-msgstr "Descobrir a data de 2 meses, 1 semana e 8 dias antes do 7 de Abril."
+msgstr "Descobrir a data de 2 meses, 1 semana e 8 dias antes do 7 de abril."
 
 #. Activity title
 #: activities/followline/ActivityInfo.qml:15
@@ -11577,7 +11568,7 @@ msgstr "Seleciona um terço da tarte."
 #: activities/fractions_create/resource/3/Data.qml:61
 msgctxt "Data|"
 msgid "Select two-thirds of the pie."
-msgstr "Seleciona dois-terços da tarte."
+msgstr "Seleciona dois terços da tarte."
 
 #: activities/fractions_create/resource/1/Data.qml:38
 #: activities/fractions_create/resource/3/Data.qml:67
@@ -11589,7 +11580,7 @@ msgstr "Seleciona um quarto da tarte."
 #: activities/fractions_create/resource/3/Data.qml:73
 msgctxt "Data|"
 msgid "Select two-fifths of the pie."
-msgstr "Seleciona dois-quintos da tarte."
+msgstr "Seleciona dois quintos da tarte."
 
 #: activities/fractions_create/resource/1/Data.qml:55
 msgctxt "Data|"
@@ -11599,7 +11590,7 @@ msgstr "Seleciona uma tarte e um quarto de tarte."
 #: activities/fractions_create/resource/1/Data.qml:61
 msgctxt "Data|"
 msgid "Select one pie and two-fifths of a pie."
-msgstr "Seleciona uma tarte e dois-quintos de tarte."
+msgstr "Seleciona uma tarte e dois quintos de tarte."
 
 #: activities/fractions_create/resource/1/Data.qml:67
 msgctxt "Data|"
@@ -11614,7 +11605,7 @@ msgstr "Seleciona uma tarte e uma metade de tarte."
 #: activities/fractions_create/resource/1/Data.qml:79
 msgctxt "Data|"
 msgid "Select one pie and three-quarters of a pie."
-msgstr "Seleciona uma tarte e três-quartos de tarte."
+msgstr "Seleciona uma tarte e três quartos de tarte."
 
 #: activities/fractions_create/resource/10/Data.qml:9
 msgctxt "Data|"
@@ -11653,7 +11644,7 @@ msgstr "Seleciona um terço do quadrado."
 #: activities/fractions_create/resource/4/Data.qml:61
 msgctxt "Data|"
 msgid "Select two-thirds of the square."
-msgstr "Seleciona dois-terços do quadrado."
+msgstr "Seleciona dois terços do quadrado."
 
 #: activities/fractions_create/resource/2/Data.qml:38
 #: activities/fractions_create/resource/4/Data.qml:67
@@ -11665,7 +11656,7 @@ msgstr "Seleciona um quarto do quadrado."
 #: activities/fractions_create/resource/4/Data.qml:73
 msgctxt "Data|"
 msgid "Select two-fifths of the square."
-msgstr "Seleciona dois-quintos do quadrado."
+msgstr "Seleciona dois quintos do quadrado."
 
 #: activities/fractions_create/resource/2/Data.qml:55
 msgctxt "Data|"
@@ -11675,7 +11666,7 @@ msgstr "Seleciona um quadrado e um quarto de quadrado."
 #: activities/fractions_create/resource/2/Data.qml:61
 msgctxt "Data|"
 msgid "Select one square and two-fifths of a square."
-msgstr "Seleciona um quadrado e dois-quintos de quadrado."
+msgstr "Seleciona um quadrado e dois quintos de quadrado."
 
 #: activities/fractions_create/resource/2/Data.qml:67
 msgctxt "Data|"
@@ -11690,7 +11681,7 @@ msgstr "Seleciona um quadrado e uma metade de quadrado."
 #: activities/fractions_create/resource/2/Data.qml:79
 msgctxt "Data|"
 msgid "Select one square and three-quarters of a square."
-msgstr "Seleciona um quadrado e três-quartos de quadrado."
+msgstr "Seleciona um quadrado e três quartos de quadrado."
 
 #: activities/fractions_create/resource/3/Data.qml:9
 msgctxt "Data|"
@@ -11700,7 +11691,7 @@ msgstr "Frações não simplificadas com uma tarte."
 #: activities/fractions_create/resource/3/Data.qml:79
 msgctxt "Data|"
 msgid "Select three-fifths of the pie."
-msgstr "Seleciona três-quintos da tarte."
+msgstr "Seleciona três quintos da tarte."
 
 #: activities/fractions_create/resource/4/Data.qml:9
 msgctxt "Data|"
@@ -11710,7 +11701,7 @@ msgstr "Frações não simplificadas com um quadrado."
 #: activities/fractions_create/resource/4/Data.qml:79
 msgctxt "Data|"
 msgid "Select three-fifths of the square."
-msgstr "Seleciona três-quintos do quadrado."
+msgstr "Seleciona três quintos do quadrado."
 
 #: activities/fractions_create/resource/5/Data.qml:9
 msgctxt "Data|"

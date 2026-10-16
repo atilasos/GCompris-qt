@@ -1,0 +1,59 @@
+    property var controls: ({})
+    function selectedDayText(){
+        var delegates=[],found=[];collect(grid,function(o){return o.sameMonthDateTextColor!==undefined;},delegates);
+        for(var delegate of delegates){
+            var label=find(delegate,function(o){return o.text!==undefined && String(o.color)===String(delegate.selectedDateTextColor);});
+            if(label!==null)found.push(String(label.text));
+        }
+        checked(found.length,1,"One date is visibly selected");return Number(found[0]);
+    }
+    function press(key,day){keyClick(key);wait(100);checked(selectedDayText(),day);}
+    function icon(suffix){wait(1600);var button=find(bar,function(o){return o.source!==undefined && String(o.source).endsWith(suffix);});ensure(button!==null,suffix);mouseClick(button);wait(350);}
+    function expected(){
+        var text=norm(instructionPanel.textItem.text),rows=fixture[activity.currentLevel].questions.filter(function(q){return norm(q.portuguese)===text;});
+        checked(rows.length,1);return rows[0].expected;
+    }
+    function keyboardWeekday(day,key){
+        var target=weekdays[day].replace(/-feira$/," ").trim();
+        for(var i=0;i<8;i++){
+            if(norm(answerChoices.currentItem.choices.text).replace(/-feira$/," ").trim()===target){keyClick(key);wait(50);return;}
+            keyClick(Qt.Key_Down);wait(70);
+        }
+        fail("Visible weekday selection converges");
+    }
+    function test_controls(){
+        wait(1200);checked(activity.currentLevel,0);header();
+        selectDay(15);press(Qt.Key_Right,16);press(Qt.Key_Left,15);press(Qt.Key_Down,22);press(Qt.Key_Up,15);
+        press(Qt.Key_Home,1);press(Qt.Key_End,31);
+        var name=activity.activityInfo.shortName();
+        if(name==="calendar"){
+            press(Qt.Key_Right,31);press(Qt.Key_PageDown,31);checked(header().join(),"2018,3");
+            press(Qt.Key_Home,1);press(Qt.Key_Left,1);press(Qt.Key_PageUp,1);checked(header().join(),"2018,3");
+        }else{
+            showMonth(2018,1);selectDay(1);press(Qt.Key_Left,1);press(Qt.Key_PageUp,1);checked(header().join(),"2018,1");
+            showMonth(2018,12);selectDay(31);press(Qt.Key_Right,31);press(Qt.Key_PageDown,31);checked(header().join(),"2018,12");
+        }
+        var text=String(instructionPanel.textItem.text);choose(expected(),false);checked(score.currentSubLevel,1);
+        tryVerify(function(){return String(instructionPanel.textItem.text)!==text;},5000);
+        icon("bar_next.svg");checked(activity.currentLevel,1);checked(score.currentSubLevel,0);
+        icon("bar_previous.svg");checked(activity.currentLevel,0);checked(score.currentSubLevel,0);checked(selectedDayText(),1);
+        icon("bar_previous.svg");checked(activity.currentLevel,fixture.length-1);icon("bar_next.svg");checked(activity.currentLevel,0);
+        icon("bar_next.svg");checked(activity.currentLevel,1);ensure(answerChoices.visible);
+        var target=expected().weekdays[0];keyboardWeekday((target+1)%7,Qt.Key_Return);checked(score.currentSubLevel,0);
+        tryVerify(function(){return errorRectangle.opacity>0;},1000);wait(1600);
+        text=String(instructionPanel.textItem.text);keyboardWeekday(target,Qt.Key_Space);checked(score.currentSubLevel,1);
+        tryVerify(function(){return String(instructionPanel.textItem.text)!==text;},5000);
+        target=expected().weekdays[0];text=String(instructionPanel.textItem.text);keyboardWeekday(target,Qt.Key_Enter);checked(score.currentSubLevel,2);
+        tryVerify(function(){return String(instructionPanel.textItem.text)!==text;},5000);
+        icon("bar_previous.svg");checked(activity.currentLevel,0);checked(selectedDayText(),1);
+        var depth=pageView.depth;icon("bar_help.svg");tryCompare(pageView,"depth",depth+1,3000);wait(500);
+        var help=pageView.currentItem;checked(help.title,activity.activityInfo.title);
+        ensure(help.content.indexOf(activity.activityInfo.manual)>=0);ensure(help.content.indexOf("Select the required date")<0);
+        grabImage(pageView).save("__QA_OUTPUT__/help.png");keyClick(Qt.Key_Escape);tryCompare(pageView,"depth",depth,3000);wait(500);
+        press(Qt.Key_Right,2);
+        controls={activity:name,arrowKeys:true,homeEnd:true,pageKeys:true,bounds:true,restart:true,weekdayKeyboard:true,helpEscape:true,keyAfterHelp:true,navigation:true};
+        ActivityInfoTree.startingActivity="";icon("bar_home.svg");tryCompare(pageView,"depth",1,3000);ensure(pageView.currentItem.isMenu);
+        grabImage(pageView).save("__QA_OUTPUT__/menu.png");
+    }
+    function cleanupTestCase(){console.log("NATIVE_RESULT",JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,controls:controls}));}
+}

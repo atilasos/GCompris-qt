@@ -1,0 +1,122 @@
+[
+  {
+    "original": ".scratch/pt-pt/functional-calendars/full-calendar/level-1.png",
+    "preserved": "before-month-end-full-calendar/level-1.png",
+    "sha256": "61696d33b652f8593dd6096ce60edb7dfcd96d769d4a5a621e32e43c8f684a08"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/full-calendar/level-2.png",
+    "preserved": "before-month-end-full-calendar/level-2.png",
+    "sha256": "9a053ace7648886598c14c4d39d83f9857f34f29140b220d3bfde4902f04a517"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/full-calendar/level-3.png",
+    "preserved": "before-month-end-full-calendar/level-3.png",
+    "sha256": "80ac374b75205a45d8e39c9364dbde4405d4ccfdd46c66d508f5c49b373e201a"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/full-calendar/level-4.png",
+    "preserved": "before-month-end-full-calendar/level-4.png",
+    "sha256": "594ae25607c4219e58518f80101e0daff2684360c7e86750b5dfae911c5968a1"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/full-calendar/level-5.png",
+    "preserved": "before-month-end-full-calendar/level-5.png",
+    "sha256": "2a4dffcb380b00a5d0d69f928bdf89fab1b8b9b102a32030ccc854bb3e83ad1a"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/full-calendar/level-6.png",
+    "preserved": "before-month-end-full-calendar/level-6.png",
+    "sha256": "11a8fc36bb3630719e725f95a35b1d697188c2701ba6ecdc2f9f8231194605d6"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/full-calendar/level-7.png",
+    "preserved": "before-month-end-full-calendar/level-7.png",
+    "sha256": "bedc0ec8f7bf6f5747b4b8ce68a371c5ff75da987cea2082792908aa79002f94"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/full-calendar/native.log",
+    "preserved": "before-month-end-full-calendar/native.log",
+    "sha256": "aaaa2d8364b4cae254b54517ea3059e68d4debf85847c1f807734a39253dadae"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/full-calendar/result.json",
+    "preserved": "before-month-end-full-calendar/result.json",
+    "sha256": "f33d1d739454d012e9f3c73182373a27587b3159fbd17babed572741c67e0b16"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/controls-calendar/help.png",
+    "preserved": "before-month-end-controls-calendar/help.png",
+    "sha256": "35370dab9df4f690f895c643bbbdcc3cf03c410a67128812b7926ab5996da24c"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/controls-calendar/menu.png",
+    "preserved": "before-month-end-controls-calendar/menu.png",
+    "sha256": "e952c250910a87949cbe335c1fbcb19b80f210e10725532d7cbcde612b106854"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/controls-calendar/native.log",
+    "preserved": "before-month-end-controls-calendar/native.log",
+    "sha256": "5508e539424a08d8791aeeb4068d46a8e916505d2b7f37806f55ecde8794ab4b"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/controls-calendar/result.json",
+    "preserved": "before-month-end-controls-calendar/result.json",
+    "sha256": "9bb33109b632cd5b9ebbc2866b6c0c090e47393e37d46dfb09049b770b87efdc"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/full-find_the_day/level-1.png",
+    "preserved": "before-month-end-full-find_the_day/level-1.png",
+    "sha256": "f1942f3bbfdc867094a2695485191a5900d36db42b53bcab282e8ddee415832b"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/full-find_the_day/level-2.png",
+    "preserved": "before-month-end-full-find_the_day/level-2.png",
+    "sha256": "3290eb02f25e2ae2e408d2d7b5af828c7802709d05369655f5c84b5bbdc958e3"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/full-find_the_day/level-3.png",
+    "preserved": "before-month-end-full-find_the_day/level-3.png",
+    "sha256": "73ad5e15bd299d9bbf5a9c49949d0446176f7eefc7c43903efe0f1bc8f7b3afa"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/full-find_the_day/level-4.png",
+    "preserved": "before-month-end-full-find_the_day/level-4.png",
+    "sha256": "1dec5bd65e9d4883f827c6cf2b780579baffc84c13d0c1532a883c596adf06d7"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/full-find_the_day/level-5.png",
+    "preserved": "before-month-end-full-find_the_day/level-5.png",
+    "sha256": "1bf9ef7098d08e8dad6519a3b4d8f3801d43de7bc4a147cbc9e3124f453737e6"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/full-find_the_day/native.log",
+    "preserved": "before-month-end-full-find_the_day/native.log",
+    "sha256": "87d956aa753d1b40a6cf80182b04a3274800d7c3fbfe8c61adb471c6d96cf0d1"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/full-find_the_day/result.json",
+    "preserved": "before-month-end-full-find_the_day/result.json",
+    "sha256": "cf324dac90e209948c0e2e1a3048bbb7dfb45aee95914ba6d67023917a1403b5"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/controls-find_the_day/help.png",
+    "preserved": "before-month-end-controls-find_the_day/help.png",
+    "sha256": "22fd6617e439d5114c1454678c217d454a321d61a4ed6d17e66d282938d1feec"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/controls-find_the_day/menu.png",
+    "preserved": "before-month-end-controls-find_the_day/menu.png",
+    "sha256": "c0de4432d4b51715a69907638d99e27aceb8c5d0decb211fecd53e7fd8d0fdd5"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/controls-find_the_day/native.log",
+    "preserved": "before-month-end-controls-find_the_day/native.log",
+    "sha256": "b8802693dead6a3ad374044d1751587015603fd24a4ead086399861c6a9f074c"
+  },
+  {
+    "original": ".scratch/pt-pt/functional-calendars/controls-find_the_day/result.json",
+    "preserved": "before-month-end-controls-find_the_day/result.json",
+    "sha256": "a6ec41ad1379a09a43ffc176d146614fac637151550d5877d262375e8d118910"
+  }
+]

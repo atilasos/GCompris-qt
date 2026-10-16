@@ -159,7 +159,7 @@ e os restantes critérios de aceitação mantêm os seus estados próprios.
 
 A memória matemática concluiu 14 variantes e 207 combinações nível/modo;
 decimais/quantidades concluíram 316 puzzles em 16 campanhas offline e quatro casos de controlos.
-As 78 atividades com evidência funcional ligada na matriz não representam
+As 87 atividades com evidência funcional ligada na matriz não representam
 a aceitação global dos 203 jogos.
 
 - [40 — Contrato dos níveis do Solitário](issues/40-niveis-solitario.md)
@@ -207,9 +207,10 @@ revistas por Standards e Spec. O P2 de identidade foi corrigido e reverificado;
 de Windows, hardware, audição e revisão docente; a matriz conserva todos os
 critérios globais pendentes.
 
-A revisão Spec final de 57 foi arquivada, mas o fecho da revisão Standards
-continua pendente: o auditor precisa de rejeitar identidades de fonte/catálogo
-adulteradas. As cinco novas ligações Gnumch ainda não foram acrescentadas.
+O lote 57 tem revisão Spec final sem achados e o P2 Standards de identidade
+foi corrigido e reverificado: os 44 recibos conservam os bytes e estão ligados
+aos fontes e catálogos históricos. [Revisão e recheck](review/integration53-59/).
+As cinco ligações Gnumch foram acrescentadas sem aprovar critérios globais.
 
 O lote 56 tem doze casos positivos e revisões finais sem achados em
 [Standards e Spec](review/integration56-final/). As quatro novas ligações de
@@ -218,3 +219,9 @@ percursos preservam os critérios globais pendentes.
 - [60 — Dinheiro e troco](issues/60-dinheiro-troco.md)
 
 - [61 — Frações](issues/61-fracoes.md)
+
+- [62 — Calendários](issues/62-calendarios.md)
+
+- [63 — Operações verticais](issues/63-operacoes-verticais.md)
+
+- [64 — Completar sequências](issues/64-algoritmos.md)

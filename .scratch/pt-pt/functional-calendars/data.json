@@ -1,0 +1,997 @@
+{
+  "calendar": {
+    "source": "src/activities/calendar/calendar_dataset.js",
+    "sha256": "f49ddcace80c4a5ae4f1f1f4b037e49f3337ebaf1c64027d1964fde413064f10",
+    "levels": [
+      {
+        "level": 1,
+        "configuration": {
+          "navigationBarVisible": false,
+          "minimumDate": "2018-03-01",
+          "maximumDate": "2018-03-31",
+          "visibleMonth": 2,
+          "visibleYear": 2018,
+          "mode": "findDay"
+        },
+        "questions": [
+          {
+            "question": "Select the 23rd",
+            "portuguese": "Selecionar o dia 23",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  23
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Select the 1st",
+            "portuguese": "Selecionar o dia 1",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Select the 16th",
+            "portuguese": "Selecionar o dia 16",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  16
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Select the 28th",
+            "portuguese": "Selecionar o dia 28",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  28
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Select the 11th",
+            "portuguese": "Selecionar o dia 11",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  11
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Select the 20th",
+            "portuguese": "Selecionar o dia 20",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  20
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "configuration": {
+          "navigationBarVisible": false,
+          "minimumDate": "2018-03-01",
+          "maximumDate": "2018-03-31",
+          "visibleMonth": 2,
+          "visibleYear": 2018,
+          "mode": "findDayOfWeek"
+        },
+        "questions": [
+          {
+            "question": "Which day of the week is the 4th of the given month?",
+            "portuguese": "Que dia da semana é o 4º do mês indicado?",
+            "expected": {
+              "weekdays": [
+                0
+              ]
+            }
+          },
+          {
+            "question": "Which day of the week is the 12th of the given month?",
+            "portuguese": "Que dia da semana é o 12º do mês indicado?",
+            "expected": {
+              "weekdays": [
+                1
+              ]
+            }
+          },
+          {
+            "question": "Which day of the week is the 20th of the given month?",
+            "portuguese": "Que dia da semana é o 20º do mês indicado?",
+            "expected": {
+              "weekdays": [
+                2
+              ]
+            }
+          },
+          {
+            "question": "Which day of the week is the 28th of the given month?",
+            "portuguese": "Que dia da semana é o 28º do mês indicado?",
+            "expected": {
+              "weekdays": [
+                3
+              ]
+            }
+          },
+          {
+            "question": "Which day of the week is the 22nd of the given month?",
+            "portuguese": "Que dia da semana é o 22º do mês indicado?",
+            "expected": {
+              "weekdays": [
+                4
+              ]
+            }
+          },
+          {
+            "question": "Which day of the week is the 16th of the given month?",
+            "portuguese": "Que dia da semana é o 16º do mês indicado?",
+            "expected": {
+              "weekdays": [
+                5
+              ]
+            }
+          },
+          {
+            "question": "Which day of the week is the 10th of the given month?",
+            "portuguese": "Que dia da semana é o 10º do mês indicado?",
+            "expected": {
+              "weekdays": [
+                6
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "configuration": {
+          "navigationBarVisible": false,
+          "minimumDate": "2018-03-01",
+          "maximumDate": "2018-03-31",
+          "visibleMonth": 2,
+          "visibleYear": 2018,
+          "mode": "findDay"
+        },
+        "questions": [
+          {
+            "question": "Select a Monday between days 1 and 7 of the given month",
+            "portuguese": "Seleciona uma segunda-feira entre os dias 1 e 7 do mês indicado",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  5
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Select a Tuesday between days 8 and 16 of the given month",
+            "portuguese": "Seleciona uma terça-feira entre os dias 8 e 16 do mês indicado",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  13
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Select a Wednesday between days 15 and 22 of the given month",
+            "portuguese": "Seleciona uma quarta-feira entre os dias 15 e 22 do mês indicado",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  21
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Select a Thursday between days 26 and 31 of the given month",
+            "portuguese": "Seleciona uma quinta-feira entre os dias 26 e 31 do mês indicado",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  29
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Select a Friday between days 20 and 25 of the given month",
+            "portuguese": "Seleciona uma sexta-feira entre os dias 20 e 25 do mês indicado",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  23
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Select a Saturday between days 13 and 23 of the given month",
+            "portuguese": "Seleciona um sábado entre os dias 13 e 23 do mês indicado",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  17
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Select a Sunday between days 5 and 17 of the given month",
+            "portuguese": "Seleciona um domingo entre os dias 5 e 17 do mês indicado",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  11
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "configuration": {
+          "navigationBarVisible": false,
+          "minimumDate": "2018-03-01",
+          "maximumDate": "2018-03-31",
+          "visibleMonth": 2,
+          "visibleYear": 2018,
+          "mode": "findDay"
+        },
+        "questions": [
+          {
+            "question": "Select the second day before the 15th of the given month",
+            "portuguese": "Seleciona o segundo dia antes do dia 15 do mês indicado",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  13
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Select the fourth Sunday of the given month",
+            "portuguese": "Seleciona o quarto domingo do mês indicado",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  25
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Select the day one week after 13th of the given month",
+            "portuguese": "Seleciona o dia que fica uma semana a seguir ao dia 13 do mês indicado",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  20
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Select the fifth Thursday of the given month",
+            "portuguese": "Seleciona a quinta quinta-feira do mês indicado",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  29
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Select the third day after 27th of the given month",
+            "portuguese": "Seleciona o terceiro dia a seguir ao dia 27 do mês indicado",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  30
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "configuration": {
+          "navigationBarVisible": true,
+          "minimumDate": "2018-01-01",
+          "maximumDate": "2018-12-31",
+          "visibleMonth": 1,
+          "visibleYear": 2018,
+          "mode": "findMonthOnly"
+        },
+        "questions": [
+          {
+            "question": "Find the month starting a Thursday and having 28 days",
+            "portuguese": "Descobre o mês que começa a uma quinta-feira e tem 28 dias",
+            "expected": {
+              "months": [
+                2
+              ]
+            }
+          },
+          {
+            "question": "Find a month starting a Monday and having 31 days",
+            "portuguese": "Descobre um mês que começa a uma segunda-feira e tem 31 dias",
+            "expected": {
+              "months": [
+                1,
+                10
+              ]
+            }
+          },
+          {
+            "question": "Find the month between June and August",
+            "portuguese": "Descobre o mês entre junho e agosto",
+            "expected": {
+              "months": [
+                7
+              ]
+            }
+          },
+          {
+            "question": "Find a month starting a Saturday",
+            "portuguese": "Descobre um mês que começa num sábado",
+            "expected": {
+              "months": [
+                9,
+                12
+              ]
+            }
+          },
+          {
+            "question": "Find a month having 30 days",
+            "portuguese": "Descobre um mês que tem 30 dias",
+            "expected": {
+              "months": [
+                4,
+                6,
+                9,
+                11
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "configuration": {
+          "navigationBarVisible": true,
+          "minimumDate": "2017-01-01",
+          "maximumDate": "2019-12-31",
+          "visibleMonth": 2,
+          "visibleYear": 2018,
+          "mode": "findYearMonthDay"
+        },
+        "questions": [
+          {
+            "question": "Find the first Monday of January in the year 2019",
+            "portuguese": "Descobre a primeira segunda-feira do mês de janeiro do ano 2019",
+            "expected": {
+              "dates": [
+                [
+                  2019,
+                  1,
+                  7
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the second Wednesday of February in the year 2019",
+            "portuguese": "Descobre a segunda quarta-feira do mês de fevereiro do ano 2019",
+            "expected": {
+              "dates": [
+                [
+                  2019,
+                  2,
+                  13
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the third Friday of March in the year 2019",
+            "portuguese": "Descobre a terceira sexta-feira do mês de março do ano 2019",
+            "expected": {
+              "dates": [
+                [
+                  2019,
+                  3,
+                  15
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the fifth Sunday of April in the year 2018",
+            "portuguese": "Descobre o quinto domingo do mês de abril do ano 2018",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  4,
+                  29
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the fourth Tuesday of July in the year 2018",
+            "portuguese": "Descobre a quarta terça-feira do mês de julho do ano 2018",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  7,
+                  24
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the first Monday of August in the year 2018",
+            "portuguese": "Descobre a primeira segunda-feira do mês de agosto do ano 2018",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  8,
+                  6
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the third Thursday of September in the year 2017",
+            "portuguese": "Descobre a terceira quinta-feira do mês de setembro do ano 2017",
+            "expected": {
+              "dates": [
+                [
+                  2017,
+                  9,
+                  21
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the fifth Sunday of October in the year 2017",
+            "portuguese": "Descobre o quinto domingo do mês de outubro do ano 2017",
+            "expected": {
+              "dates": [
+                [
+                  2017,
+                  10,
+                  29
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the second Friday of December in the year 2017",
+            "portuguese": "Descobre a segunda sexta-feira do mês de dezembro do ano 2017",
+            "expected": {
+              "dates": [
+                [
+                  2017,
+                  12,
+                  8
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "configuration": {
+          "navigationBarVisible": true,
+          "minimumDate": "2017-01-01",
+          "maximumDate": "2019-12-31",
+          "visibleMonth": 1,
+          "visibleYear": 2018,
+          "mode": "findYearMonthDay"
+        },
+        "questions": [
+          {
+            "question": "Human Rights Day is celebrated five days after December 5.<br> Find the date of Human Rights Day in 2017.",
+            "portuguese": "O Dia dos Direitos Humanos celebra-se cinco dias depois de 5 de dezembro.<br>Descobre a data do Dia dos Direitos Humanos em 2017.",
+            "expected": {
+              "dates": [
+                [
+                  2017,
+                  12,
+                  10
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Braille Day is celebrated one day before January 5.<br> Find the date of Braille Day in 2018",
+            "portuguese": "O Dia de Braille celebra-se um dia antes de 5 de janeiro.<br/>Descobre a data do Dia de Braille em 2018",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  1,
+                  4
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Mark's birthday is on November 4. In 2017 his party was exactly two weeks later.<br> Find the date of his party in 2017",
+            "portuguese": "O aniversário do Marco é a 4 de novembro. Em 2017, a sua festa foi exatamente duas semanas depois.<br>Descobre a data da festa em 2017",
+            "expected": {
+              "dates": [
+                [
+                  2017,
+                  11,
+                  18
+                ]
+              ]
+            }
+          },
+          {
+            "question": "International Women's Day is celebrated two days before March 10.<br> Find the date of International Women's Day in 2018.",
+            "portuguese": "O Dia Internacional da Mulher celebra-se dois dias antes de 10 de março.<br/>Descobre a data do Dia Internacional da Mulher em 2018.",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  8
+                ]
+              ]
+            }
+          },
+          {
+            "question": "The sports competition was held on last Friday of September 2017.<br> Select the date of the sports competition on the calendar.",
+            "portuguese": "A competição desportiva ocorreu na última sexta-feira de setembro de 2017.<br/>Seleciona a data da competição no calendário.",
+            "expected": {
+              "dates": [
+                [
+                  2017,
+                  9,
+                  29
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "find_the_day": {
+    "source": "src/activities/find_the_day/find_the_day_dataset.js",
+    "sha256": "29b854c193f9942305a0844115a7bd6344bc63e836dcfead99efd34f1c85d22f",
+    "levels": [
+      {
+        "level": 1,
+        "configuration": {
+          "navigationBarVisible": true,
+          "minimumDate": "2018-01-01",
+          "maximumDate": "2018-12-31",
+          "visibleMonth": 7,
+          "visibleYear": 2018,
+          "mode": "findYearMonthDay"
+        },
+        "questions": [
+          {
+            "question": "Find the date 13 days after May 3rd.",
+            "portuguese": "Descobrir a data de 13 dias a seguir ao 3 de maio.",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  5,
+                  16
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the date 7 days after October 1st.",
+            "portuguese": "Descobrir a data de 7 dias a seguir ao 1 de outubro.",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  10,
+                  8
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the date 31 days after July 12th.",
+            "portuguese": "Descobrir a data de 31 dias a seguir ao 12 de julho.",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  8,
+                  12
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the date two weeks after November 27th.",
+            "portuguese": "Descobrir a data duas semanas depois do 27 de novembro.",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  12,
+                  11
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the date 19 days before September 1st.",
+            "portuguese": "Descobrir a data de 19 dias antes do 1 de setembro.",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  8,
+                  13
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the date 5 days before December 8th.",
+            "portuguese": "Descobrir a data de 5 dias antes do 8 de dezembro.",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  12,
+                  3
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "configuration": {
+          "navigationBarVisible": true,
+          "minimumDate": "2018-01-01",
+          "maximumDate": "2018-12-31",
+          "visibleMonth": 7,
+          "visibleYear": 2018,
+          "mode": "findDayOfWeek"
+        },
+        "questions": [
+          {
+            "question": "Find the day of the week 3 days after December 5th.",
+            "portuguese": "Descobrir o dia da semana de 3 dias depois do 5 de dezembro.",
+            "expected": {
+              "weekdays": [
+                6
+              ]
+            }
+          },
+          {
+            "question": "Find the day of the week 12 days before November 12th.",
+            "portuguese": "Descobrir o dia da semana de 12 dias antes do 12 de novembro.",
+            "expected": {
+              "weekdays": [
+                3
+              ]
+            }
+          },
+          {
+            "question": "Find the day of the week 32 days after January 5th.",
+            "portuguese": "Descobrir o dia da semana de 32 dias depois do 5 de janeiro.",
+            "expected": {
+              "weekdays": [
+                2
+              ]
+            }
+          },
+          {
+            "question": "Find the day of the week 5 days after February 23rd.",
+            "portuguese": "Descobrir o dia da semana de 5 dias depois do 23 de fevereiro.",
+            "expected": {
+              "weekdays": [
+                3
+              ]
+            }
+          },
+          {
+            "question": "Find the day of the week 17 days before August 16th.",
+            "portuguese": "Descobre o dia da semana 17 dias antes de 16 de agosto.",
+            "expected": {
+              "weekdays": [
+                1
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "configuration": {
+          "navigationBarVisible": true,
+          "minimumDate": "2018-01-01",
+          "maximumDate": "2018-12-31",
+          "visibleMonth": 7,
+          "visibleYear": 2018,
+          "mode": "findYearMonthDay"
+        },
+        "questions": [
+          {
+            "question": "Find the date 2 weeks and 3 days after January 12th.",
+            "portuguese": "Descobrir a data de 2 semanas e 3 dias depois do 12 de janeiro.",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  1,
+                  29
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the date 3 weeks and 2 days after March 22nd.",
+            "portuguese": "Descobrir a data de 3 semanas e 2 dias depois do 22 de março.",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  4,
+                  14
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the date 5 weeks and 6 days after October 5th.",
+            "portuguese": "Descobrir a data de 5 semanas e 6 dias depois do 5 de outubro.",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  11,
+                  15
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the date 1 week and 1 day before August 8th.",
+            "portuguese": "Descobrir a data de 1 semana e 1 dia antes do 8 de agosto.",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  7,
+                  31
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the date 2 weeks and 5 days before July 2nd.",
+            "portuguese": "Descobrir a data de 2 semanas e 5 dias antes do 2 de julho.",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  6,
+                  13
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "configuration": {
+          "navigationBarVisible": true,
+          "minimumDate": "2018-01-01",
+          "maximumDate": "2018-12-31",
+          "visibleMonth": 7,
+          "visibleYear": 2018,
+          "mode": "findDayOfWeek"
+        },
+        "questions": [
+          {
+            "question": "Find the day of the week 5 months and 2 days after July 3rd.",
+            "portuguese": "Descobre o dia da semana 5 meses e 2 dias depois de 3 de julho.",
+            "expected": {
+              "weekdays": [
+                3
+              ]
+            }
+          },
+          {
+            "question": "Find the day of the week 2 months and 4 days after October 8th.",
+            "portuguese": "Descobrir o dia da semana de 2 meses e 4 dias depois do 8 de outubro.",
+            "expected": {
+              "weekdays": [
+                3
+              ]
+            }
+          },
+          {
+            "question": "Find the day of the week 1 month and 3 days before December 28th.",
+            "portuguese": "Descobre o dia da semana 1 mês e 3 dias antes de 28 de dezembro.",
+            "expected": {
+              "weekdays": [
+                0
+              ]
+            }
+          },
+          {
+            "question": "Find the day of the week 8 months and 7 days after February 28th.",
+            "portuguese": "Descobrir o dia da semana de 8 meses e 7 dias depois do 28 de fevereiro.",
+            "expected": {
+              "weekdays": [
+                0
+              ]
+            }
+          },
+          {
+            "question": "Find the day of the week 3 months and 3 days before September 15th.",
+            "portuguese": "Descobrir o dia da semana de 3 meses e 3 dias antes do 15 de setembro.",
+            "expected": {
+              "weekdays": [
+                2
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "configuration": {
+          "navigationBarVisible": true,
+          "minimumDate": "2018-01-01",
+          "maximumDate": "2018-12-31",
+          "visibleMonth": 7,
+          "visibleYear": 2018,
+          "mode": "findYearMonthDay"
+        },
+        "questions": [
+          {
+            "question": "Find the date 2 months, 1 week and 5 days after January 12th.",
+            "portuguese": "Descobre a data 2 meses, 1 semana e 5 dias depois de 12 de janeiro.",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  3,
+                  24
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the date 3 months, 2 weeks and 1 day after August 23rd.",
+            "portuguese": "Descobrir a data de 3 meses, 2 semanas e 1 dia a seguir ao 23 de agosto.",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  12,
+                  8
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the date 5 months, 3 weeks and 2 days after March 20th.",
+            "portuguese": "Descobrir a data de 5 meses, 3 semanas e 2 dias a seguir ao 20 de março.",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  9,
+                  12
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the date 1 month 1 week and 1 day before September 10th.",
+            "portuguese": "Descobrir a data de 1 mês, 1 semana e 1 dia antes do 10 de setembro.",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  8,
+                  2
+                ]
+              ]
+            }
+          },
+          {
+            "question": "Find the date 2 months, 1 week and 8 days before April 7th.",
+            "portuguese": "Descobrir a data de 2 meses, 1 semana e 8 dias antes do 7 de abril.",
+            "expected": {
+              "dates": [
+                [
+                  2018,
+                  1,
+                  23
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

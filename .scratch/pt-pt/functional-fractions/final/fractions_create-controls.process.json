@@ -1,0 +1,12 @@
+{
+  "activity": "fractions_create",
+  "case": "controls",
+  "pid": 3559679,
+  "source_commit": "a32b458613048ed6190fcac8ff271533e0d468d8",
+  "archive_manifest_sha256": "c6f7815a18fe2ba3938656f26133a4e2e6d17357571d26d5298396132f7890e9",
+  "launcher_exit": 0,
+  "native_exit": 0,
+  "native_passed": true,
+  "seconds": 18.226667642593384,
+  "test_file": "tests/functional_fractions/controls.qml"
+}
