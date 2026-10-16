@@ -1,0 +1,8 @@
+test_divisors_and_multiples_are_opposite_relations (test_oracle.VisibleArithmetic.test_divisors_and_multiples_are_opposite_relations) ... ok
+test_prime_uses_trial_division_and_visible_bound (test_oracle.VisibleArithmetic.test_prime_uses_trial_division_and_visible_bound) ... ok
+test_uses_visible_expression_and_goal (test_oracle.VisibleArithmetic.test_uses_visible_expression_and_goal) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK

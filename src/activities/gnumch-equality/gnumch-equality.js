@@ -46,8 +46,8 @@ function initLevel() {
     fillAllGrid();
 
     if(useMultipleDataset) {
-        if(items.levels[items.currentLevel].spawnMonsters) {
-            items.withMonsters = true;
+        items.withMonsters = items.levels[items.currentLevel].spawnMonsters;
+        if(items.withMonsters) {
             items.spawningMonsters.restart();
         }
     }

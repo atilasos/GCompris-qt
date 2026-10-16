@@ -20,6 +20,7 @@ ActivityBase {
     id: activity
     focus: true
     property string type: "erase"
+    numberOfLevel: 6
 
     onStart: {}
     onStop: {}
@@ -50,8 +51,7 @@ ActivityBase {
             property alias blocks: blocks
             property int currentLevel: activity.currentLevel
             onCurrentLevelChanged: activity.currentLevel = currentLevel
-            property int numberOfLevel: 6
-            onNumberOfLevelChanged: activity.numberOfLevel = numberOfLevel
+            readonly property int numberOfLevel: activity.numberOfLevel
             property alias bonus: bonus
             property alias score: score
             property alias okButton: okButton

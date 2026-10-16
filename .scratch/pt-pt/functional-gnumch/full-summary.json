@@ -1,0 +1,79 @@
+[
+  {
+    "activity": "gnumch-primes",
+    "start": 1,
+    "levels": 8,
+    "exit_code": 0,
+    "output": ".scratch/pt-pt/functional-gnumch/full/gnumch-primes-01"
+  },
+  {
+    "activity": "gnumch-multiples",
+    "start": 1,
+    "levels": 8,
+    "exit_code": 0,
+    "output": ".scratch/pt-pt/functional-gnumch/full/gnumch-multiples-01"
+  },
+  {
+    "activity": "gnumch-factors",
+    "start": 1,
+    "levels": 8,
+    "exit_code": 0,
+    "output": ".scratch/pt-pt/functional-gnumch/full/gnumch-factors-01"
+  },
+  {
+    "activity": "gnumch-inequality",
+    "start": 21,
+    "levels": 10,
+    "exit_code": 0,
+    "output": ".scratch/pt-pt/functional-gnumch/full/gnumch-inequality-21"
+  },
+  {
+    "activity": "gnumch-equality",
+    "start": 31,
+    "levels": 10,
+    "exit_code": 0,
+    "output": ".scratch/pt-pt/functional-gnumch/full/gnumch-equality-31"
+  },
+  {
+    "activity": "gnumch-equality",
+    "start": 1,
+    "levels": 10,
+    "exit_code": 0,
+    "output": ".scratch/pt-pt/functional-gnumch/full/gnumch-equality-01"
+  },
+  {
+    "activity": "gnumch-inequality",
+    "start": 31,
+    "levels": 10,
+    "exit_code": 0,
+    "output": ".scratch/pt-pt/functional-gnumch/full/gnumch-inequality-31"
+  },
+  {
+    "activity": "gnumch-inequality",
+    "start": 1,
+    "levels": 10,
+    "exit_code": 0,
+    "output": ".scratch/pt-pt/functional-gnumch/full/gnumch-inequality-01"
+  },
+  {
+    "activity": "gnumch-equality",
+    "start": 11,
+    "levels": 10,
+    "exit_code": 0,
+    "output": ".scratch/pt-pt/functional-gnumch/full/gnumch-equality-11"
+  },
+  {
+    "activity": "gnumch-inequality",
+    "start": 11,
+    "levels": 10,
+    "exit_code": 0,
+    "output": ".scratch/pt-pt/functional-gnumch/full/gnumch-inequality-11"
+  },
+  {
+    "activity": "gnumch-equality",
+    "start": 21,
+    "levels": 10,
+    "exit_code": 0,
+    "output": ".scratch/pt-pt/functional-gnumch/full/gnumch-equality-21"
+  }
+]

@@ -1,0 +1,12 @@
+test_existing_output_is_preserved (test_cli.GnumchSelectionCLI.test_existing_output_is_preserved) ... ok
+test_invalid_ranges_are_rejected_before_preparation (test_cli.GnumchSelectionCLI.test_invalid_ranges_are_rejected_before_preparation) ... ok
+test_divisors_and_multiples_are_opposite_relations (test_oracle.VisibleArithmetic.test_divisors_and_multiples_are_opposite_relations) ... ok
+test_prime_uses_trial_division_and_visible_bound (test_oracle.VisibleArithmetic.test_prime_uses_trial_division_and_visible_bound) ... ok
+test_uses_visible_expression_and_goal (test_oracle.VisibleArithmetic.test_uses_visible_expression_and_goal) ... ok
+test_altered_level_goal_is_rejected (test_progression_audit.GoalProgressionAudit.test_altered_level_goal_is_rejected) ... ok
+test_altered_level_operator_is_rejected (test_progression_audit.GoalProgressionAudit.test_altered_level_operator_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.935s
+
+OK

@@ -1,0 +1,740 @@
+{
+  "scope": "Linux native offline; 6 gameplay plus 3 controls. Windows, physical touch/audio and teacher pending.",
+  "cases": [
+    {
+      "activity": "erase",
+      "mode": 1,
+      "images": 36,
+      "wins": 6,
+      "gestures": 1602,
+      "pixel_checks": [
+        {
+          "level": 1,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.982985576923077
+        },
+        {
+          "level": 2,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9859350961538461
+        },
+        {
+          "level": 3,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9763581730769231
+        },
+        {
+          "level": 4,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9853653846153846
+        },
+        {
+          "level": 5,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9825841346153846
+        },
+        {
+          "level": 6,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9823966346153846
+        }
+      ],
+      "process": {
+        "name": "erase-automatic",
+        "pid": 3428247,
+        "launcher_exit": 0,
+        "native_exit": 0,
+        "native_passed": true,
+        "seconds": 467.135379076004
+      },
+      "sound_effect_observations": [
+        {
+          "source": "qrc:/gcompris/src/activities/erase/resource/eraser1.wav",
+          "status": 0,
+          "playing": false
+        },
+        {
+          "source": "qrc:/gcompris/src/activities/erase/resource/eraser2.wav",
+          "status": 0,
+          "playing": false
+        },
+        {
+          "source": "qrc:/gcompris/src/core/resource/sounds/completetask.wav",
+          "status": 0,
+          "playing": false
+        }
+      ]
+    },
+    {
+      "activity": "erase",
+      "mode": 2,
+      "images": 36,
+      "wins": 6,
+      "gestures": 1602,
+      "pixel_checks": [
+        {
+          "level": 1,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9763581730769231
+        },
+        {
+          "level": 2,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9737644230769231
+        },
+        {
+          "level": 3,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9748269230769231
+        },
+        {
+          "level": 4,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9829158653846154
+        },
+        {
+          "level": 5,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9617572115384615
+        },
+        {
+          "level": 6,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9837884615384616
+        }
+      ],
+      "process": {
+        "name": "erase-manual",
+        "pid": 3428246,
+        "launcher_exit": 0,
+        "native_exit": 0,
+        "native_passed": true,
+        "seconds": 478.930988073349
+      },
+      "sound_effect_observations": [
+        {
+          "source": "qrc:/gcompris/src/activities/erase/resource/eraser1.wav",
+          "status": 0,
+          "playing": false
+        },
+        {
+          "source": "qrc:/gcompris/src/activities/erase/resource/eraser2.wav",
+          "status": 0,
+          "playing": false
+        },
+        {
+          "source": "qrc:/gcompris/src/core/resource/sounds/completetask.wav",
+          "status": 0,
+          "playing": false
+        }
+      ]
+    },
+    {
+      "activity": "erase_clic",
+      "mode": 1,
+      "images": 36,
+      "wins": 6,
+      "gestures": 1602,
+      "pixel_checks": [
+        {
+          "level": 1,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.982985576923077
+        },
+        {
+          "level": 2,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.984375
+        },
+        {
+          "level": 3,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9828966346153846
+        },
+        {
+          "level": 4,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9856298076923077
+        },
+        {
+          "level": 5,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9833461538461539
+        },
+        {
+          "level": 6,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.98565625
+        }
+      ],
+      "process": {
+        "name": "erase_clic-automatic",
+        "pid": 3428248,
+        "launcher_exit": 0,
+        "native_exit": 0,
+        "native_passed": true,
+        "seconds": 110.58864569664001
+      },
+      "sound_effect_observations": [
+        {
+          "source": "qrc:/gcompris/src/activities/erase/resource/eraser1.wav",
+          "status": 0,
+          "playing": false
+        },
+        {
+          "source": "qrc:/gcompris/src/activities/erase/resource/eraser2.wav",
+          "status": 0,
+          "playing": false
+        },
+        {
+          "source": "qrc:/gcompris/src/core/resource/sounds/completetask.wav",
+          "status": 0,
+          "playing": false
+        }
+      ]
+    },
+    {
+      "activity": "erase_clic",
+      "mode": 2,
+      "images": 36,
+      "wins": 6,
+      "gestures": 1602,
+      "pixel_checks": [
+        {
+          "level": 1,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9836586538461538
+        },
+        {
+          "level": 2,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9837884615384616
+        },
+        {
+          "level": 3,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9832115384615384
+        },
+        {
+          "level": 4,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9853485576923077
+        },
+        {
+          "level": 5,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9749014423076923
+        },
+        {
+          "level": 6,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9857259615384616
+        }
+      ],
+      "process": {
+        "name": "erase_clic-manual",
+        "pid": 3433248,
+        "launcher_exit": 0,
+        "native_exit": 0,
+        "native_passed": true,
+        "seconds": 122.87721467018127
+      },
+      "sound_effect_observations": [
+        {
+          "source": "qrc:/gcompris/src/activities/erase/resource/eraser1.wav",
+          "status": 0,
+          "playing": false
+        },
+        {
+          "source": "qrc:/gcompris/src/activities/erase/resource/eraser2.wav",
+          "status": 0,
+          "playing": false
+        },
+        {
+          "source": "qrc:/gcompris/src/core/resource/sounds/completetask.wav",
+          "status": 0,
+          "playing": false
+        }
+      ]
+    },
+    {
+      "activity": "erase_2clic",
+      "mode": 1,
+      "images": 36,
+      "wins": 6,
+      "gestures": 1602,
+      "pixel_checks": [
+        {
+          "level": 1,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9825889423076923
+        },
+        {
+          "level": 2,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9783004807692308
+        },
+        {
+          "level": 3,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9825841346153846
+        },
+        {
+          "level": 4,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9851514423076924
+        },
+        {
+          "level": 5,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9829903846153846
+        },
+        {
+          "level": 6,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9737644230769231
+        }
+      ],
+      "process": {
+        "name": "erase_2clic-automatic",
+        "pid": 3439381,
+        "launcher_exit": 0,
+        "native_exit": 0,
+        "native_passed": true,
+        "seconds": 114.1183431148529
+      },
+      "sound_effect_observations": [
+        {
+          "source": "qrc:/gcompris/src/activities/erase/resource/eraser1.wav",
+          "status": 0,
+          "playing": false
+        },
+        {
+          "source": "qrc:/gcompris/src/activities/erase/resource/eraser2.wav",
+          "status": 0,
+          "playing": false
+        },
+        {
+          "source": "qrc:/gcompris/src/core/resource/sounds/completetask.wav",
+          "status": 0,
+          "playing": false
+        }
+      ]
+    },
+    {
+      "activity": "erase_2clic",
+      "mode": 2,
+      "images": 36,
+      "wins": 6,
+      "gestures": 1602,
+      "pixel_checks": [
+        {
+          "level": 1,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9782908653846154
+        },
+        {
+          "level": 2,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9379519230769231
+        },
+        {
+          "level": 3,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9829711538461539
+        },
+        {
+          "level": 4,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9807860576923076
+        },
+        {
+          "level": 5,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9748269230769231
+        },
+        {
+          "level": 6,
+          "region": [
+            0,
+            0,
+            800,
+            520
+          ],
+          "changed_fraction_above_8": 0.9823966346153846
+        }
+      ],
+      "process": {
+        "name": "erase_2clic-manual",
+        "pid": 3445345,
+        "launcher_exit": 0,
+        "native_exit": 0,
+        "native_passed": true,
+        "seconds": 126.21431517601013
+      },
+      "sound_effect_observations": [
+        {
+          "source": "qrc:/gcompris/src/activities/erase/resource/eraser1.wav",
+          "status": 0,
+          "playing": false
+        },
+        {
+          "source": "qrc:/gcompris/src/activities/erase/resource/eraser2.wav",
+          "status": 0,
+          "playing": false
+        },
+        {
+          "source": "qrc:/gcompris/src/core/resource/sounds/completetask.wav",
+          "status": 0,
+          "playing": false
+        }
+      ]
+    }
+  ],
+  "completed_level_routes": 36,
+  "completed_images": 216,
+  "gameplay_gestures": 9612,
+  "wrong_events": 144,
+  "snapshot_manifest_sha256": "34131b7e3f63f356b92bd78e3070e67275001867c8d1ac2b4d51d3cc251d8ed0",
+  "resource_count": 269,
+  "original_exported_resources": 39,
+  "artifact_sha256": {
+    "full/erase-automatic/calf.webp": "5957d392349d9016e0b6a2ca900ebd12a6a6eed6b21a1fb69111d1fabbca3973",
+    "full/erase-automatic/penguin.webp": "1c8be6df0a6ff161ad49a789b5699f842b18f5dc93bf6b66fd5f1342266643b2",
+    "full/erase-automatic/nubian_ibex.webp": "5268033ecc366dbcf949a06e62361785a7be788dfa2b1ad343e7ded8104cfaf2",
+    "full/erase-automatic/meerkats.webp": "459198d83393a1835c76861d901144d209a0bead29f4b9d2ef5b472eeab01fdd",
+    "full/erase-automatic/goat.webp": "acba63337c11582a5cc3fd97573e4fefd353da82e63a06f1947cdbb11f49b7bd",
+    "full/erase-automatic/dolphin.webp": "2847f84c4c9698a9b55124145dd679868da1239b0f174db8f2c83e173cbb9d8c",
+    "full/erase-automatic/eraser2.wav": "b6dab802ac12fc653abb02dc6a68d3dc400dc2cbf3017f306a5694d0da801b2a",
+    "full/erase-automatic/macaque.webp": "3a97a3c854c6d93cc67cc608e569ed0e6157f22cd5dd7e118fb0a42641eeada8",
+    "full/erase-automatic/rhinoceros.webp": "250140eb6d3a0af11b87c084ce18a6c41a8ed679c97ef758b58ba54e04b11f9c",
+    "full/erase-automatic/northern_harrier.webp": "e2b2f388dc6f92ce2ea0f40f2d8d2d1ec6e8a135d05986cae67a7d0330c1ac26",
+    "full/erase-automatic/level-4-revealed.png": "5dc635de07056058ff015741a9050d62ccf765e33b10faaac5eddab97a812f20",
+    "full/erase-automatic/kitten.webp": "c6f3a52585a3d6179c78e15375a9d9b11f37bfd0ac33b477f3b67cda06c59727",
+    "full/erase-automatic/level-3-revealed.png": "b078799a624f48d93cb3215116d18362fab26066f1d89a7f66fe653873a6a98e",
+    "full/erase-automatic/level-4-masked.png": "c50ff707728b91c1135d7b8216791b2814303747462693c6e481803735958869",
+    "full/erase-automatic/flying_fox.webp": "076622230f0634c0ef952f8f197280262db2355205c22f0c8f7731a13557c54a",
+    "full/erase-automatic/long_nosed_monkey.webp": "7dcb1048527339524e6decd296d4bf8c22d74415fe5d6fcaa3354ae17530bf86",
+    "full/erase-automatic/squirrel.webp": "56bdd761a41440bdd47eae4aa75b1703f9d24c5d09c8352f9b462deaa6b9b96f",
+    "full/erase-automatic/cheetah.webp": "b9d85c2e2899036e7b0caf458696586adf63d431e5034362bb48a0abd8d29149",
+    "full/erase-automatic/horse.webp": "15b49393342bf7de3fef6c1bb083cc7b643fa90b5b46e1a344833eb1d515a795",
+    "full/erase-automatic/pika.webp": "1c8a4014d079380622c55d15afe6cad5bb53c42b09eb5b4e7bec8f127fdd063f",
+    "full/erase-automatic/level-5-revealed.png": "d25336a4bf3bb5f5ce8a132f0d3dc2781d73c7a213b87f920791c67a46f48cfc",
+    "full/erase-automatic/giraffe.webp": "c39106edc785a65bf0eee10bf039375b2fc3f72b405d76fec392a1a40b39d4f0",
+    "full/erase-automatic/transparent_square_green.svg": "ad08ee1385622bec6a542e3b675f2b6aee5e98f48cf811ceef818defdb82eb8d",
+    "full/erase-automatic/configuration.png": "795b8f874426ec23a0c91f28ddb4bb4345c6a49a35f38f0cbfa8bfd6ebdaa443",
+    "full/erase-automatic/eraser1.wav": "fbfb95b4bd494e195c71b68ef08cc5fd29fba7ca7addfd97ed959488c6e57535",
+    "full/erase-automatic/camels.webp": "df4da85790b8a403f5095e796d042f28f8386831a4970ab4b3035746ae038edc",
+    "full/erase-automatic/level-1-revealed.png": "1fcdb8b09978444241e50718b99bb7fe7788b1ea62f4f34d15202e734c20ac84",
+    "full/erase-automatic/toucan.webp": "977b0ff4277075a4ef79e0c335276fd5a2ae68f8bf366503fd33203c49f82b04",
+    "full/erase-automatic/level-2-revealed.png": "c05cef1a46829420d9abe44f5fcda9332a75600b6e9c35b197e1bd0bb8dbf3e7",
+    "full/erase-automatic/chamaeleon.webp": "8a338c7df32949c5a5e1fef4b901d554b1c1af71c6a5bd81882522c11e0c41e5",
+    "full/erase-automatic/transparent_square_yellow.svg": "1e9be9087ed5c29472487788e7f68efb96302df233e9f4562aa6850f4d58972c",
+    "full/erase-automatic/level-1-masked.png": "0f6606b09e80b4695950ea137272adbefbf04641186780e8b98fad9df5a3fd63",
+    "full/erase-automatic/gosling.webp": "dab7bc930f6fe4f7a32db0b8f1bd86d905db50d8aa2e646522c428c731a80853",
+    "full/erase-automatic/spoonbills.webp": "f67d7d04bf3ba2270953db11be657fc3fc7292d4d070891f5164fef5b1665f96",
+    "full/erase-automatic/native.log": "7fbe36dc86bd3d60d1635c7e63d8aa819672d96f5ee27c97bcb393ac493faf7c",
+    "full/erase-automatic/alpaca.webp": "ffd29864f09bf7439144e8da04d772fb455cfe9891d50e60ae70b99a16e42d5e",
+    "full/erase-automatic/gorilla.webp": "5ce6131ce966f585b263e2f04cbd504dd7366f99885ca3cbef12aa25d559b5d4",
+    "full/erase-automatic/kingfisher.webp": "b637658d7e0f8f555b5683a8c912646d57ba37be6ba9684df893a1d07ee9e637",
+    "full/erase-automatic/level-3-masked.png": "8e27ec14716346902910abf0559bb8e40945b417052a35114edd4f37727af719",
+    "full/erase-automatic/level-5-masked.png": "99175298601e31d51a8db5c3ef159ffcbabb5470bafee68d25b4f6fe741c665d",
+    "full/erase-automatic/result.json": "2938f14faffef91d94ddcf9f31bb322bb498d012739fe8e439a5394ec2911735",
+    "full/erase-automatic/butterfly.webp": "e12b50bb4ee6bb36bd4e3ab428a2d1ea87d5390b5a6a4aa189b10950a1925860",
+    "full/erase-automatic/swans.webp": "5fe69699bf37d702c3ca9b2b76c727aff717494ba368272952e05ac233028eda",
+    "full/erase-automatic/completetask.wav": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c",
+    "full/erase-automatic/level-6-revealed.png": "d4714a266782fd95ec4dc01d32975c5db1f41c7c4fa7e5ca04f516dc256a78b4",
+    "full/erase-automatic/heron.webp": "63006dabe8b74b826eba8d8d80c4330ff38f57fd3e1010254f4644d830c48067",
+    "full/erase-automatic/level-2-masked.png": "4f9b50aa2394d96aa461a2e5f3745215c9aa8f1c5897da85b6fdc1c5ad2e7683",
+    "full/erase-automatic/gibbon.webp": "a7b242c4b014e7e37f2f3fac95c841c49e2dea5d5aa886e2ab4758e0372af9f8",
+    "full/erase-automatic/level-6-masked.png": "e7fd8719167cfb8b4b9878e9e720a4228edc6a2f08f81e7ad5d6cfacb8d1f30d",
+    "full/erase-automatic/red_panda.webp": "ec755f7b9d8953037161a7cf4f01270fdc92382913b33d987ceb27c1dfa6ded1",
+    "full/erase-automatic/bee.webp": "810de9fea0499e4d1a7584c8b62b509ef1c404d9bec3094d53aeb8a77abdc7b2",
+    "full/erase-automatic/crab.webp": "822be2d08adc89a71e6eeff1500eea684c6f0961c98ddb1b23f0e66bbae4f987",
+    "full/erase-automatic/caterpillar.webp": "1aca9fcc5a0e3e9f2b2bc7d0f231e509f935dd8207b064e7c1810e0466e9403a",
+    "full/erase-automatic/transparent_square.svg": "e0f059b7b7e53154fd516d2ed6e376b25c4c54f2281cdb91e508695520454695",
+    "full/erase-automatic.qml": "abb486cfd39fc3a0a1a884e0cdc26ecd2f54b0ada6759b0054613e8111a94a11",
+    "full/erase-automatic.process.json": "5747f458af829e35e3e532e59162bae3aafcd73268aacd04f3bedfdbcc7d5716",
+    "full/erase-automatic.launcher.log": "74d7adbd7443e739c134a78a498e4e0713b7a669dda5b9343443430846af063c",
+    "full/erase-manual/level-4-revealed.png": "40c675ade2748119e0eda1817fca4a4a52ce5ca7a42e407f0fbffcc2476ae5a7",
+    "full/erase-manual/level-3-revealed.png": "dcfc83669cd6f18bafcc2e4ed632374dcca723ba3c04b43a432493b917ceaec8",
+    "full/erase-manual/level-4-masked.png": "551e2581b139b69ba34089f2fd31c6e17f92648e91f0d06a2bac3f2d10f6d554",
+    "full/erase-manual/level-5-revealed.png": "dc7f118c924cc1bec6aac8b467bc9d14aa4b892d3ef912bace078ca735984767",
+    "full/erase-manual/configuration.png": "dd00a68511b4469a59aa0044616db97c1f09c2e113c82b2f373b5be601e50d28",
+    "full/erase-manual/level-1-revealed.png": "45b16d4e4bb33f155421848e1d75e31e4c71ff2994d92e6468f9bed4e911913a",
+    "full/erase-manual/level-2-revealed.png": "ad029e5ca8c03a0df4979853ab0a478c05765c4dd2a296582eb6f5ef6aa1d3fd",
+    "full/erase-manual/level-1-masked.png": "bc85914756bff56d2b0177207f4020723952e1f9080203556005a30681dd3daa",
+    "full/erase-manual/native.log": "d3d2112af013201cd60d140fe1b9b829253eb1bd1c037e32c6f9653f58aa0a6a",
+    "full/erase-manual/level-3-masked.png": "d141da827e40f9793f941366a28d4f26dde0f8080e507228e3be2cb9316ed2ff",
+    "full/erase-manual/level-5-masked.png": "26b54f9797997222afebf360dee8a48515790bb80c036259680571fa8c649869",
+    "full/erase-manual/result.json": "6d891fd29bed81e6fa0a094698191375bf6070776af3269fd6a07c2505ab27e0",
+    "full/erase-manual/level-6-revealed.png": "73b8b13f0f16369dd9aa6498f27a534d74f22ea42659eee963ee3f682b0f7575",
+    "full/erase-manual/level-2-masked.png": "3c181ba4bde2b74f89bd82b167bb15b3bb2d81771c5660d5da06914b92feca19",
+    "full/erase-manual/level-6-masked.png": "9c4d4a12593a2f98fbad5db2329a76560c55ad9c81549031030239ac52df6574",
+    "full/erase-manual.qml": "ae87a55fe49d26854c8788ab52c8efdf85f1c7b75d196f0d928e296f6ea6efc6",
+    "full/erase-manual.process.json": "f83070186d3c703e05ccad15de6db6bf8025ebb92a52b367228cb019df96fe58",
+    "full/erase-manual.launcher.log": "72eae6eadf348eede217086b308a67f6bb2c4fa7928d2a81171298b36002170b",
+    "controls-final/erase/help.png": "ebf85268d84c46da5a7667162d4665e0ba65cda1391df524c620b69d37aed148",
+    "controls-final/erase/native.log": "d486929a70500637cd7d533f07f0a54243892d92538fa5ab6638454d6dd938cf",
+    "controls-final/erase/result.json": "0f5c77c50dbe7c9f702185219e085c786fcc4d72801be35d414df3cb20e85dd7",
+    "controls-final/erase.process.json": "a12caef18468cf923fe3fa13458db4f1155cc245b21d278f987f572665abd11f",
+    "controls-final/erase.launcher.log": "fdb5563a58370639ae44206a96ff3524403636b0943cc0554ca007528d45cca0",
+    "full/erase_clic-automatic/level-4-revealed.png": "b82fb35951cc38d59fe4560bc81301d65263c3878edcb87d0c01ce7cb4db7e93",
+    "full/erase_clic-automatic/level-3-revealed.png": "9e52149b7088331de6d8111a18ba0e232b956ab94e51fb86041d63b8c6604979",
+    "full/erase_clic-automatic/level-4-masked.png": "f6a3760c9f9aa34afd615ab641b0aea75ba2a4338adc9dd5951c6aa3f6c559e1",
+    "full/erase_clic-automatic/level-5-revealed.png": "f070bb1a4485bcddc7545185d00e173f67fcb9df11b7828dfe2c92bb7939aef3",
+    "full/erase_clic-automatic/configuration.png": "3cfd6dc2ca2df6d1fc760aa9a49e8027195dab235b8710ad7cade0bcd03c126b",
+    "full/erase_clic-automatic/level-1-revealed.png": "392ca28b489417c60da30c593ffca0cc5a5c2d80e8ddfa1b1d458a1ebd0afcab",
+    "full/erase_clic-automatic/level-2-revealed.png": "5a5689ac5e2a95957e045da7b35eec742ab0d9b6ed43b7914763562b2657003f",
+    "full/erase_clic-automatic/level-1-masked.png": "0f6606b09e80b4695950ea137272adbefbf04641186780e8b98fad9df5a3fd63",
+    "full/erase_clic-automatic/native.log": "4c76c75e630ddfc31ff7328839214355e53746a5b9e46e1d788741189dbc9c33",
+    "full/erase_clic-automatic/level-3-masked.png": "7eefa95242fdb3d1d507019c0f4b55c3040a35b2cd57738017f6149cf4b8df18",
+    "full/erase_clic-automatic/level-5-masked.png": "390e3e5753e28482ba3a0d8ae4af7ac415ccd8c407ad4db55df071e5c2d47bea",
+    "full/erase_clic-automatic/result.json": "7c40c0c8c641a2e33646680ca459ef2086189e5c1b239ff2849d8c9b255c54af",
+    "full/erase_clic-automatic/level-6-revealed.png": "e07e62fafebb10afd46fad31bffb7a194d5446f6147a5c91c122b93df072047a",
+    "full/erase_clic-automatic/level-2-masked.png": "9b0af7954a30c48872c403641f200ef99f9add37d8775554f7abc47e2d5c2ae4",
+    "full/erase_clic-automatic/level-6-masked.png": "f0dd12bd2e3b00e9430305d5fcf37b5f73549210421ab81ab6ed909288a4a4ef",
+    "full/erase_clic-automatic.qml": "abb486cfd39fc3a0a1a884e0cdc26ecd2f54b0ada6759b0054613e8111a94a11",
+    "full/erase_clic-automatic.process.json": "bf4dac81cc3f60fd972b9e142b24a39fca263c64c23a09b21c0d507cfd87c30b",
+    "full/erase_clic-automatic.launcher.log": "a86680b484dc609b2e0dd6ed47cecdf7ce73a3151bd8502de3b32e312339c989",
+    "full/erase_clic-manual/level-4-revealed.png": "a7d0c07754115941a4b93a0ceeb018c3254a85a3d71d968553e8f711e5fddd62",
+    "full/erase_clic-manual/level-3-revealed.png": "e53bd2a06899d45cfc0e48e87ee60fc6ff2ff49fe74afb72c9e36f297223996b",
+    "full/erase_clic-manual/level-4-masked.png": "895844b56d165c7c339a43776f9905b2f3648492d8b1c5e7a53bc171c5fea427",
+    "full/erase_clic-manual/level-5-revealed.png": "5abffb1074ffc3c01c175a13dc5fc9efd3590980630001fa8f4d3293635990c5",
+    "full/erase_clic-manual/configuration.png": "12da7e18f748f0a518c0e57b5e20fd4212f37212b7986514ffddc4c6a545da83",
+    "full/erase_clic-manual/level-1-revealed.png": "69b17d0850dd2aa0f5b011e4049663f28e4cb7b10f07b996cf7be36a60bea76f",
+    "full/erase_clic-manual/level-2-revealed.png": "58b386f77271ac0b732e7966916b0088a15b987bf37b9c719a7ee901dfca925f",
+    "full/erase_clic-manual/level-1-masked.png": "5862dd86730effbf26aa805a86b578a16c346865ed38eaf86b2388524b3b3b80",
+    "full/erase_clic-manual/native.log": "f0241ae4e3342b32d504ebcaa0aa83bd29a5bdd5dae4281089439e9e392c23ca",
+    "full/erase_clic-manual/level-3-masked.png": "95ccc3ece7f26a4f2ee2f05928fea622b993ea5552257791a87aaf02141dd1d5",
+    "full/erase_clic-manual/level-5-masked.png": "20b23ac972f165bb1168c6b55ba548320cf4bf0c97601e0422d8542a42238dce",
+    "full/erase_clic-manual/result.json": "f13f0165c10f3498c64c5edeb1bf7eb83a65b29df3226ee26d15e69bcfbfe1c7",
+    "full/erase_clic-manual/level-6-revealed.png": "b0c56254bbd4adb146f2921c9b9e7d9c54d388fe99b06d4d61007d208aa97333",
+    "full/erase_clic-manual/level-2-masked.png": "4f69fd99745e96a141f5c763f67df86be8f1b79fe14266f7558cbf0ea23f5e59",
+    "full/erase_clic-manual/level-6-masked.png": "8a2456cd4039e04711604eb00047d0b709981ccdaa03884b9707b2035410215f",
+    "full/erase_clic-manual.qml": "ae87a55fe49d26854c8788ab52c8efdf85f1c7b75d196f0d928e296f6ea6efc6",
+    "full/erase_clic-manual.process.json": "87e9bf8637a0b98cb176261bc17dc692a974906314e2eee8d0abb95b67fe08e0",
+    "full/erase_clic-manual.launcher.log": "97d400a5a993773aa23945b5ffde38d7d9cdb4fe5febda97272ea303bf4259e9",
+    "controls-final/erase_clic/help.png": "d609d8fda93588821db8b45f680713fec6758ded7c9cc16b3b9e5371c99318d8",
+    "controls-final/erase_clic/native.log": "a7ab6fbd316fcaa7d187f46f161c1610164798badd9a65dfd63e1ffe39c4bcca",
+    "controls-final/erase_clic/result.json": "1d3abe928151f829ac59724d764c443477670447f92d099215fefd7d203b2d1e",
+    "controls-final/erase_clic.process.json": "b32a54e324c237dc2ecd887d7fcb16a069f76896221e8ab0d364f90f276aaee4",
+    "controls-final/erase_clic.launcher.log": "b7a47b3b9542efb0df3b631d9add97153d1d41c44fe40319bed568eefeea6237",
+    "full/erase_2clic-automatic/level-4-revealed.png": "53ded5fe692f3a69b36fda7ad53b66459465710187cac17a2b8c9aeea8004c3e",
+    "full/erase_2clic-automatic/level-3-revealed.png": "6b18ef30faa89202ed949add90007b8ca8ec59390c6e48cc24a48d8658a81380",
+    "full/erase_2clic-automatic/level-4-masked.png": "12c299a25b9e88374eb8d8de1f0adae62b7b0ad9692f44489d891b156bdc3ce1",
+    "full/erase_2clic-automatic/level-5-revealed.png": "d75ce48da4d6ac31cb8d697fa3e79cef51657c4633f5083f4f06184e47b1ea68",
+    "full/erase_2clic-automatic/configuration.png": "42f2f4c1ea19785f1c4f5739c247989ce33eace0878f6e3fe9b177d73b95d20e",
+    "full/erase_2clic-automatic/level-1-revealed.png": "71f1cafe07bd0beb7ef21ebeaaa83c3c7c3c1249fb16dedacecefb14b8bf2cee",
+    "full/erase_2clic-automatic/level-2-revealed.png": "6ab635804efa320cf6306dff5fd5fdfca5ab3374fc25b588a801e0902c9de524",
+    "full/erase_2clic-automatic/level-1-masked.png": "27f979a7e017e60bc37db158f352d2a31c4cf236bae484305c5319818669c301",
+    "full/erase_2clic-automatic/native.log": "bc44f00f15caaac684f4667ebf57146d01523382920d3b3ce894e67a4909b1a3",
+    "full/erase_2clic-automatic/level-3-masked.png": "f1c363b92fc4e3bf0bb6aefe361ed012d846dfebd41444a6f79d5b314be55ca3",
+    "full/erase_2clic-automatic/level-5-masked.png": "c949291c619ff418170eda8547d965f8ac13645a41505dafdf3ac7a58473ccae",
+    "full/erase_2clic-automatic/result.json": "66c5a32713e24fa457bf06a7bb317162f538888d2e96d26be0776b0610e43aff",
+    "full/erase_2clic-automatic/level-6-revealed.png": "217912f19fd3a990e7f671306e5f1204170eab4e99b34fba1e16a3e1bbdbce62",
+    "full/erase_2clic-automatic/level-2-masked.png": "9e9a34b524be1aa5109dde5e1b20e86fcbfc9419c875273b671caf5820430535",
+    "full/erase_2clic-automatic/level-6-masked.png": "a7ee190c622bb1428ec04e63ae33d4e2031620417e872d1f546929f99e6a1733",
+    "full/erase_2clic-automatic.qml": "abb486cfd39fc3a0a1a884e0cdc26ecd2f54b0ada6759b0054613e8111a94a11",
+    "full/erase_2clic-automatic.process.json": "3e130f18b99f064929e66062dde3d7fed1de0e0ef5f3c5c07c9bbf37b2f3bec8",
+    "full/erase_2clic-automatic.launcher.log": "a12e18bccd577c964056806c739c0fb93a04718dc623434624472c00d2e199d0",
+    "full/erase_2clic-manual/level-4-revealed.png": "e1ffc020bf9dd3ccacf2a1c3ec0e3e94213d77734dcff9bf0dff0a9d982dfbdb",
+    "full/erase_2clic-manual/level-3-revealed.png": "8ef9b9625e6b3c8052cd04c9f6e5d44c6ad31d0354153c98e59d4b0a1fc2e3e6",
+    "full/erase_2clic-manual/level-4-masked.png": "ca63e1295f9919bd746587966c71c5155c02ddaebefb2fe4bbd1870b7253843a",
+    "full/erase_2clic-manual/level-5-revealed.png": "46ddc35bb0f841403157823723b833003278e144b8571b1ce65c0c01fa69d0c4",
+    "full/erase_2clic-manual/configuration.png": "ea876943b0040c7d2bfdb5cc8a536676c8dd7f5f5afbd145144c7e9d2874d12a",
+    "full/erase_2clic-manual/level-1-revealed.png": "165bcb6f49864b53c05810dcf923a904771a3902023d48736a0f22a5f0f6d9cc",
+    "full/erase_2clic-manual/level-2-revealed.png": "5d7d84a42d8a65c8164a556f72908a85f593994f17810460caa65d9137712b0c",
+    "full/erase_2clic-manual/level-1-masked.png": "5d108abbf1e39a098223bd4c4374441ba7b1239d2dfb21bc14d9b489d61b1486",
+    "full/erase_2clic-manual/native.log": "2a73a4aa6637a1a96ab02891b815acbf4d10d53f684352aaac586952d9455383",
+    "full/erase_2clic-manual/level-3-masked.png": "94edd8d5e8f52ca28305fd198bfd8cb76c74859514c3a380a92a27c1d042dda8",
+    "full/erase_2clic-manual/level-5-masked.png": "bd4dcfaa50171e858e1571f85a0b8674f0a9fbafca515ba87912695ab5bd36f1",
+    "full/erase_2clic-manual/result.json": "a86830d53738a1bad555ca7f2d4d3dec16463e68e3bb8a9a34a1231dbde13225",
+    "full/erase_2clic-manual/level-6-revealed.png": "7a28eed9b11a2878561165f52d1038d37db987f30fef53933afc294ed3c87760",
+    "full/erase_2clic-manual/level-2-masked.png": "140d641f0e9c83e1d35220c6c0cb29a532fd12d8629564ec898a2704b03e1bee",
+    "full/erase_2clic-manual/level-6-masked.png": "e7fd8719167cfb8b4b9878e9e720a4228edc6a2f08f81e7ad5d6cfacb8d1f30d",
+    "full/erase_2clic-manual.qml": "ae87a55fe49d26854c8788ab52c8efdf85f1c7b75d196f0d928e296f6ea6efc6",
+    "full/erase_2clic-manual.process.json": "ec9117cdab5601aec4caaba420e5ba213098be5a8a3660875f967ebe4e3561c5",
+    "full/erase_2clic-manual.launcher.log": "8961cd694491cda7cb7e2fa0597a30fce5a2fb05b6dada5a8c216d3709b7981e",
+    "controls-final/erase_2clic/help.png": "d834d97be8468d9165f28da04c666a70a4ed3aabe668e2ef82db2a1e1d1d4353",
+    "controls-final/erase_2clic/native.log": "b0dab3f6f0369a5d215fc929f6ea2d573a5b7c651ff5fee76bd9f4b184c50e27",
+    "controls-final/erase_2clic/result.json": "c464fe23e603273d43474128c6c9f46dd7447a7826bbadb8bf1527129da15ade",
+    "controls-final/erase_2clic.process.json": "48e813a489aa70bf86d50a7484cdfa19f976bf746b47b9c2cc60857e8a00b20d",
+    "controls-final/erase_2clic.launcher.log": "ec2d61c956fdafc1b9704ac5904beb77da986e85ca4f7e1531a038cfacf8d0dd"
+  }
+}

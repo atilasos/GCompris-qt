@@ -1,6 +1,6 @@
 activity,linux,windows10,school_windows10,offline,linguistic_review,evidence
 adjacent_numbers,pending,pending,pending,pending,pending,
-advanced_colors,pending,pending,pending,pending,pending,
+advanced_colors,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/advanced_colors.md
 algebra_by,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/algebra_by.md
 algebra_div,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/algebra_div.md
 algebra_minus,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/algebra_minus.md
@@ -38,9 +38,9 @@ click_on_letter_up,pending,pending,pending,pending,pending,.scratch/pt-pt/valida
 clickanddraw,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/clickanddraw.md
 clickgame,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/clickgame.md
 clockgame,pending,pending,pending,pending,pending,
-color_mix,pending,pending,pending,pending,pending,
-color_mix_light,pending,pending,pending,pending,pending,
-colors,pending,pending,pending,pending,pending,
+color_mix,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/color_mix.md
+color_mix_light,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/color_mix_light.md
+colors,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/colors.md
 comparator,pending,pending,pending,pending,pending,
 compass,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/compass.md
 crane,pending,pending,pending,pending,pending,
@@ -50,9 +50,9 @@ drawing_wheels,pending,pending,pending,pending,pending,
 drawletters,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/drawletters.md
 drawnumbers,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/drawnumbers.md
 enumerate,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/enumerate.md
-erase,pending,pending,pending,pending,pending,
-erase_2clic,pending,pending,pending,pending,pending,
-erase_clic,pending,pending,pending,pending,pending,
+erase,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/erase.md
+erase_2clic,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/erase_2clic.md
+erase_clic,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/erase_clic.md
 explore_farm_animals,pending,pending,pending,pending,pending,
 explore_monuments,pending,pending,pending,pending,pending,
 explore_world_animals,pending,pending,pending,pending,pending,

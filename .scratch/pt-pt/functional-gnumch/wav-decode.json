@@ -1,0 +1,14 @@
+[
+  {
+    "source": "src/activities/gnumch-equality/resource/eat.wav",
+    "sha256": "403129964166618915ad02c69b51d8e54b31e2a9ec1f6e4b125379cbd01f7ec4",
+    "gstreamer_decode_exit": 0,
+    "physical_audition": false
+  },
+  {
+    "source": "src/core/resource/sounds/smudge.wav",
+    "sha256": "e2037cfb555e638fae4af7a497ec2fefb7becf8fac3dd9da4d28adcf3c4b245f",
+    "gstreamer_decode_exit": 0,
+    "physical_audition": false
+  }
+]

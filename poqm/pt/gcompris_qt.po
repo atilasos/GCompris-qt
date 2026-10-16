@@ -1289,7 +1289,7 @@ msgstr "Descobrir a borboleta cor de pó-de-arroz"
 #: activities/advanced_colors/advanced_colors.js:651
 msgctxt "advanced_colors|"
 msgid "Find the fawn butterfly"
-msgstr "Descobrir a borboleta cor de fauno"
+msgstr "Descobrir a borboleta fulva"
 
 #. Color #7FFF00
 #: activities/advanced_colors/advanced_colors.js:193
@@ -1388,7 +1388,7 @@ msgstr "Descobrir a borboleta cor-de-pomba"
 #: activities/advanced_colors/advanced_colors.js:272
 msgctxt "advanced_colors|"
 msgid "Find the garnet butterfly"
-msgstr "Descobrir a borboleta rubi"
+msgstr "Descobrir a borboleta grená"
 
 #. Color #4B0082
 #: activities/advanced_colors/advanced_colors.js:277
@@ -16079,7 +16079,7 @@ msgstr "Escreve as letras em queda antes que cheguem ao chão."
 #: activities/gnumch-equality/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Gnumch equality"
-msgstr "Desigualdade do Gnumch"
+msgstr "Igualdade do Gnumch"
 
 #. Help title
 #. ----------
@@ -16191,7 +16191,7 @@ msgstr "Primos inferiores a %1"
 #: activities/gnumch-equality/Warning.qml:29
 msgctxt "Warning|"
 msgid "You were eaten by a Troggle."
-msgstr "Fos-te comido por um Ogre."
+msgstr "Foste comido por um Ogre."
 
 #: activities/gnumch-equality/Warning.qml:33
 msgctxt "Warning|"
@@ -16227,7 +16227,7 @@ msgstr "Divisores de %1 são: %2"
 #: activities/gnumch-equality/Warning.qml:101
 msgctxt "Warning|"
 msgid "Press \"Return\" or click on me to continue."
-msgstr "Carrega em \"Retroceder\" ou sobre mim para prosseguires."
+msgstr "Carrega em \"Enter\" ou clica aqui para continuares."
 
 #: activities/gnumch-equality/WarnMonster.qml:39
 msgctxt "WarnMonster|"
