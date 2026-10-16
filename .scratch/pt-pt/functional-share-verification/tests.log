@@ -1,0 +1,19 @@
+test_copied_original_passes_with_optimization (test_audit.ImmutableSharingProof.test_copied_original_passes_with_optimization) ... ok
+test_outer_failure_cannot_be_hidden_by_green_native_json (test_audit.ImmutableSharingProof.test_outer_failure_cannot_be_hidden_by_green_native_json) ... ok
+test_resealed_case_and_painted_distribution_are_rejected (test_audit.ImmutableSharingProof.test_resealed_case_and_painted_distribution_are_rejected) ... ok
+test_resealed_catalogue_and_source_identities_are_rejected (test_audit.ImmutableSharingProof.test_resealed_catalogue_and_source_identities_are_rejected) ... ok
+test_resealed_effective_qt_source_bytes_are_rejected (test_audit.ImmutableSharingProof.test_resealed_effective_qt_source_bytes_are_rejected) ... ok
+test_existing_output_is_untouched_before_preparation (test_cli.RunnerBoundaries.test_existing_output_is_untouched_before_preparation) ... ok
+test_invalid_combinations_do_not_prepare_sources_or_outputs (test_cli.RunnerBoundaries.test_invalid_combinations_do_not_prepare_sources_or_outputs) ... ok
+test_exact_and_remainder (test_oracle.VisibleCandyDivision.test_exact_and_remainder) ... ok
+test_non_counts_and_impossible_layout_are_rejected (test_oracle.VisibleCandyDivision.test_non_counts_and_impossible_layout_are_rejected) ... ok
+test_concurrent_freeze_never_reads_an_unfinished_write (test_phase.FrozenSourceTests.test_concurrent_freeze_never_reads_an_unfinished_write) ... ok
+test_corrupt_published_source_is_rejected_without_resealing (test_phase.FrozenSourceTests.test_corrupt_published_source_is_rejected_without_resealing) ... ok
+test_interrupted_preparation_is_not_published_and_can_retry (test_phase.FrozenSourceTests.test_interrupted_preparation_is_not_published_and_can_retry) ... ok
+test_copied_proof_passes_without_historical_worktree (test_portable.PortableGitProof.test_copied_proof_passes_without_historical_worktree) ... ok
+test_child_exit_and_native_assertions_are_both_required (test_runner_exit.ObservedRunnerExit.test_child_exit_and_native_assertions_are_both_required) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 2.716s
+
+OK
