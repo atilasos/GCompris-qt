@@ -1,0 +1,21 @@
+{
+  "kind": "root-recorded-tools-exec-or-write-stdin-completion",
+  "scope": "Redraw and symmetry controls passed. Mosaic fixture now observed half-pixel cursor rounding but incorrectly passed cursor center to strict answer-cell lookup; native Qt0, no product change",
+  "runs": {
+    "controls2-redraw": {
+      "session_id": 69834,
+      "output_chunk": "5af9b8",
+      "exit_code": 0
+    },
+    "controls2-redraw_symmetrical": {
+      "session_id": 18949,
+      "output_chunk": "855872",
+      "exit_code": 0
+    },
+    "controls2-mosaic": {
+      "session_id": 57399,
+      "output_chunk": "281a10",
+      "exit_code": 1
+    }
+  }
+}
