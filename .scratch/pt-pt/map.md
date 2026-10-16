@@ -159,7 +159,7 @@ e os restantes critérios de aceitação mantêm os seus estados próprios.
 
 A memória matemática concluiu 14 variantes e 207 combinações nível/modo;
 decimais/quantidades concluíram 316 puzzles em 16 campanhas offline e quatro casos de controlos.
-As 136 atividades com evidência funcional ligada na matriz não representam
+As 142 atividades com evidência funcional ligada na matriz não representam
 a aceitação global dos 203 jogos.
 
 - [40 — Contrato dos níveis do Solitário](issues/40-niveis-solitario.md)
@@ -396,8 +396,9 @@ não resolveram a causa: a tarefa permanece aberta e sem nova cobertura de jogos
 - [86 — Relações familiares](issues/86-relacoes-familiares.md)
 
 A tarefa 85 tem percursos Linux integrados da eclusa, ciclo da água e três
-níveis de energia. Está `ready-for-review`, aguardando Standards e Spec
-independentes. Três ligações mantêm os critérios globais, Windows, hardware,
+níveis de energia. Fica resolvida no âmbito Linux finito após revisões e
+recheck sem achados; [relatórios](review/integration85/). Três ligações mantêm
+os critérios globais, Windows, hardware,
 áudio e docente pendentes; os limites dos recibos históricos estão publicados.
 
 - [87 — Grelhas lógicas](issues/87-grelhas-logicas.md)
@@ -410,8 +411,19 @@ globais pendentes; iconografia não demonstra género pela aparência.
 Windows, hardware, áudio e revisão docente permanecem pendentes.
 
 A tarefa 85 recebeu suplemento para o P2 de regresso ao menu, com três
-percursos completos repetidos e Ctrl+W até ao menu estável. Aguarda recheck
-independente; não aumenta a cobertura única nem altera a matriz. Os
+percursos completos repetidos e Ctrl+W até ao menu estável. O recheck
+independente fechou o P2; não aumenta cobertura única nem altera a matriz. Os
 [relatórios iniciais](review/integration85/) ficam preservados como histórico.
 
 - [88 — Pormenores e pinturas](issues/88-pormenores-e-pinturas.md)
+
+A tarefa 84 tem provas Linux integradas de 14 mapas, 98 apresentações e
+116 perguntas das quatro atividades de exploração. Fica resolvida no âmbito
+Linux finito após rechecks sem achados; [relatórios](review/integration84/).
+Quatro ligações mantêm os critérios
+globais, Windows, hardware, áudio e revisão docente pendentes.
+
+A tarefa 87 tem provas Linux integradas de 68 Sudoku fixos e 100 Calcudoku
+gerados, com 18 níveis/nove conjuntos e 18 erros reparados. Está
+`ready-for-review`, aguardando Standards e Spec independentes. Duas ligações
+mantêm os critérios globais, Windows, hardware, áudio e revisão docente pendentes.

@@ -1,7 +1,7 @@
 # Concluir as simulações de água, energia e eclusa
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -46,3 +46,9 @@ A revisão identificou falta de regresso ao menu após sucesso. Foram acrescenta
 três repetições completas com navegação real, fontes finais, RCC/QM e recibos
 novos, sem modificar os 18 históricos. Ver [suplemento](../functional-cycles-menu/README.md).
 O suplemento aguarda nova revisão antes de fechar a tarefa.
+
+## Fecho de revisão
+
+P2 corrigido e fechado por Spec recheck e Standards do suplemento, sem
+achados acionáveis; [relatórios](../review/integration85/). Resolução limitada
+aos percursos Linux finitos publicados, sem aumentar cobertura única ou globais.

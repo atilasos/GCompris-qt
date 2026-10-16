@@ -1,0 +1,79 @@
+{
+  "utc": "2026-10-16T05:06:28.889786+00:00",
+  "commands": [
+    {
+      "argv": [
+        "python3",
+        "tests/functional_exploration/audit_all.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"activities\": 4, \"maps\": 14, \"presentations\": 98, \"questions\": 116, \"wrong_repaired\": 16, \"natural_bonus\": 30, \"red_green_pairs\": 7, \"controls\": 4, \"decoded_audio\": 30, \"human_audio_approved\": 0, \"scope\": \"Linux/software/offline; Windows, hardware, human listening and teacher acceptance pending\", \"supplemental_presentations\": 6, \"supplemental_red_green_pairs\": 1, \"second_supplemental_presentations\": 8, \"second_supplemental_red_green_pairs\": 1}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-O",
+        "tests/functional_exploration/audit_all.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"activities\": 4, \"maps\": 14, \"presentations\": 98, \"questions\": 116, \"wrong_repaired\": 16, \"natural_bonus\": 30, \"red_green_pairs\": 7, \"controls\": 4, \"decoded_audio\": 30, \"human_audio_approved\": 0, \"scope\": \"Linux/software/offline; Windows, hardware, human listening and teacher acceptance pending\", \"supplemental_presentations\": 6, \"supplemental_red_green_pairs\": 1, \"second_supplemental_presentations\": 8, \"second_supplemental_red_green_pairs\": 1}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests/functional_exploration",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_coherent_catalogue_reseal_needs_external_anchor (test_audit.HistoricalProof.test_coherent_catalogue_reseal_needs_external_anchor) ... ok\ntest_empty_campaign_rejected_even_with_trusted_reseal (test_audit.HistoricalProof.test_empty_campaign_rejected_even_with_trusted_reseal) ... ok\ntest_full_composed_evidence (test_audit.HistoricalProof.test_full_composed_evidence) ... ok\ntest_supplement_reseal_rejected (test_audit.HistoricalProof.test_supplement_reseal_rejected) ... ok\ntest_case_freeze_keeps_original_bytes_after_author_edits (test_boundaries.ExecutionBoundaries.test_case_freeze_keeps_original_bytes_after_author_edits) ... ok\ntest_cases_do_not_inspect_hidden_answer_models (test_boundaries.ExecutionBoundaries.test_cases_do_not_inspect_hidden_answer_models) ... ok\ntest_existing_output_preserves_all_old_bytes_before_launch (test_boundaries.ExecutionBoundaries.test_existing_output_preserves_all_old_bytes_before_launch) ... ok\ntest_frozen_source_corruption_refuses_execution (test_boundaries.ExecutionBoundaries.test_frozen_source_corruption_refuses_execution) ... ok\ntest_farm_uses_taught_behaviour (test_curriculum.VisibleMeaning.test_farm_uses_taught_behaviour) ... ok\ntest_inventory_distinguishes_maps_and_presentations (test_curriculum.VisibleMeaning.test_inventory_distinguishes_maps_and_presentations) ... ok\ntest_map_names_allow_a_country_suffix_but_no_guesses (test_curriculum.VisibleMeaning.test_map_names_allow_a_country_suffix_but_no_guesses) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 10.479s\n\nOK\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "-O",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests/functional_exploration",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_coherent_catalogue_reseal_needs_external_anchor (test_audit.HistoricalProof.test_coherent_catalogue_reseal_needs_external_anchor) ... ok\ntest_empty_campaign_rejected_even_with_trusted_reseal (test_audit.HistoricalProof.test_empty_campaign_rejected_even_with_trusted_reseal) ... ok\ntest_full_composed_evidence (test_audit.HistoricalProof.test_full_composed_evidence) ... ok\ntest_supplement_reseal_rejected (test_audit.HistoricalProof.test_supplement_reseal_rejected) ... ok\ntest_case_freeze_keeps_original_bytes_after_author_edits (test_boundaries.ExecutionBoundaries.test_case_freeze_keeps_original_bytes_after_author_edits) ... ok\ntest_cases_do_not_inspect_hidden_answer_models (test_boundaries.ExecutionBoundaries.test_cases_do_not_inspect_hidden_answer_models) ... ok\ntest_existing_output_preserves_all_old_bytes_before_launch (test_boundaries.ExecutionBoundaries.test_existing_output_preserves_all_old_bytes_before_launch) ... ok\ntest_frozen_source_corruption_refuses_execution (test_boundaries.ExecutionBoundaries.test_frozen_source_corruption_refuses_execution) ... ok\ntest_farm_uses_taught_behaviour (test_curriculum.VisibleMeaning.test_farm_uses_taught_behaviour) ... ok\ntest_inventory_distinguishes_maps_and_presentations (test_curriculum.VisibleMeaning.test_inventory_distinguishes_maps_and_presentations) ... ok\ntest_map_names_allow_a_country_suffix_but_no_guesses (test_curriculum.VisibleMeaning.test_map_names_allow_a_country_suffix_but_no_guesses) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 10.572s\n\nOK\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "tests/functional_exploration/apply_language.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"reviewed_messages\": 86, \"changed\": 0}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "msgfmt",
+        "--check",
+        "poqm/pt/gcompris_qt.po",
+        "-o",
+        "/tmp/task84-verified.mo"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "catalogue_sha256": "46af0f90855f8422da4ee1ebeb7f8476462b49fdaf31704647e27b1d4cac969b"
+}

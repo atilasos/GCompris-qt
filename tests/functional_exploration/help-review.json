@@ -1,0 +1,17 @@
+[
+  {
+    "activity": "explore_farm_animals",
+    "old": "No primeiro nível, os jogadores começam a explorar cada animal no ecrã. Carrega no ponto de interrogação e aprende sobre o animal, qual o seu nome, o som que faz e como é que se parece. Estuda bem esta informação, porque será testada no nível 2 e 3.",
+    "new": "Na primeira etapa, explora cada animal no ecrã. Carrega num animal para aprenderes o seu nome, o som que faz e o seu aspeto. Estuda esta informação para responderes às perguntas das etapas 2 e 3."
+  },
+  {
+    "activity": "explore_world_animals",
+    "old": "Aprende sobre os diversos animais selvagens em todo o mundo e recordar onde vivem.",
+    "new": "Aprende sobre os diversos animais selvagens do mundo e recorda onde vivem."
+  },
+  {
+    "activity": "explore_world_animals",
+    "old": "No primeiro nível, os jogadores começam a explorar cada animal no ecrã. Carrega no ponto de interrogação e aprende sobre o animal, qual o seu nome, o som que faz e como é que se parece. Estuda bem esta informação, porque será testada no nível 2.",
+    "new": "Na primeira etapa de cada mapa, carrega num ponto de interrogação para aprenderes o nome e o aspeto do animal e descobrires onde vive. Estuda esta informação para responderes às perguntas da segunda etapa."
+  }
+]
