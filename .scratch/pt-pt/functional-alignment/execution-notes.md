@@ -1,0 +1,11 @@
+# Execução e retornos observados
+
+Cada pasta contém o caso exato, `result.json` nativo, `launcher-status.json` escrito após terminar o launcher, `supervisor-exit.json` após esperar o supervisor e `tool-exit.json` observado na resposta final de `tools.write_stdin`. SHA do caso/recibo/status liga as camadas. O código nativo não é usado como substituto do retorno externo.
+
+As quatro partidas/campanhas principais terminaram com Qt 0, launcher 0, supervisor 0 e ferramenta 0. O mesmo vale para os quatro controlos e os verdes dirigidos. Os vermelhos e diagnósticos de assertions terminaram normalmente com Qt 0, mas launcher/supervisor/ferramenta 1: caso falhado não significa processo Qt falhado. As sessões e chunk IDs observados constam individualmente de `tool-exit.json`.
+
+Quatro diagnósticos iniciais `*-parse-diagnostic` continham `var final`, palavra reservada em QML. Permaneceram no menu e foram interrompidos operacionalmente com `docker stop` nos quatro contentores privados desta tarefa. Recibos nativos 137 e retornos externos 1 foram preservados. Não se infere sinal nem causa de crash destes códigos, nem se conta qualquer jogo nesses diagnósticos. As quatro chamadas de stop terminaram 0 (sessões 30250, 27655, 7059, 4370; chunks 57483c, c398b8, 0d4f42, 25d374). Foi acrescentada pré-validação sintática por qmlformat antes de novos lançamentos; não se ocultaram os diagnósticos.
+
+Os restantes diagnósticos preservam uma espera prematura do indicador, a primeira investigação do empate, tentativas iniciais de teclado e um controlo IA sem recriação de Grid que já passava. Não são somados a cobertura final. Os casos estritos vermelhos e verdes têm hashes iguais. Um snapshot intermediário preparado incorretamente por lista de atividades herdada de outro harness não foi usado em Qt; a preparação passou a partilhar a lista única e recusa fonte sem os CMakeLists esperados. Uma invocação de arquivo com hash digitado incorretamente foi recusada antes de produzir arquivo.
+
+Os últimos verdes dirigidos terminaram nas sessões 64430, 57305, 25728, chunks 4a6d0d, 5d62c3, 84edd2, todos 0; a campanha IA quatro-em-linha terminou na sessão 95766, chunk 39eea6, 0. Nenhum processo nativo permanece necessário para a prova.
