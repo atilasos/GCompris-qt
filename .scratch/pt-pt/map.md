@@ -323,3 +323,5 @@ A tarefa 78 tem prova Linux integrada dos 99 níveis/nove datasets de apagar
 luzes, com 99 Bonus. Está `ready-for-review`, aguardando Standards e Spec
 independentes. A ligação foi acrescentada sem alterar critérios globais,
 Windows, hardware, áudio ou revisão docente.
+
+- [79 — Desafios aritméticos](issues/79-desafios-aritmeticos.md)
