@@ -14,7 +14,7 @@ class CalendarEvidence(unittest.TestCase):
     def setUp(self):
         self.temporary=tempfile.TemporaryDirectory();self.addCleanup(self.temporary.cleanup)
         self.evidence=Path(self.temporary.name)/'copied';self.evidence.mkdir()
-        names=['source-identity.json','resource-snapshot.json','data.json','wav-software-decode.json']
+        names=['supervisor-observations.json','supervisor-observations-rollout.json','source-identity.json','resource-snapshot.json','data.json','wav-software-decode.json']
         for activity in MODULE.ACTIVITIES:
             for group in ['full','controls','resources']:
                 names.extend([group+'-'+activity,group+'-'+activity+'.qml'])
@@ -30,6 +30,24 @@ class CalendarEvidence(unittest.TestCase):
 
     def test_relocated_without_original_worktree(self):
         result=MODULE.audit(self.evidence);self.assertEqual(result['questions'],70)
+
+    def test_green_native_receipt_with_failed_launcher_is_rejected(self):
+        import hashlib,subprocess,sys
+        native=self.evidence/'full-calendar/result.json';d=json.loads(native.read_text())
+        for code in [0,1]:
+            status={'format':1,'kind':'observed-subprocess-exit','exit_code':code,
+                    'native_receipt_sha256':hashlib.sha256(native.read_bytes()).hexdigest(),
+                    'case_sha256':d['case_sha256'],'launcher_sha256':d['runner_sha256']}
+            (native.parent/'launcher-status.json').write_text(json.dumps(status))
+            run=subprocess.run([sys.executable,str(Path(__file__).with_name('audit.py')),'--evidence',str(self.evidence),'--check-only'],capture_output=True,text=True)
+            if code==0:self.assertEqual(run.returncode,0,run.stderr)
+            else:
+                self.assertNotEqual(run.returncode,0,run.stdout)
+                self.assertIn('Native launcher did not finish',run.stderr)
+
+    def test_retrospective_observations_are_immutable(self):
+        self.alter('supervisor-observations-rollout.json',lambda d:d['observations'][0].update(launcher_exit_code=0))
+        with self.assertRaises(AssertionError):MODULE.audit(self.evidence)
 
     def test_missing_question_rejected(self):
         self.alter('full-calendar/result.json',lambda d:d['case_result']['answered'].pop())

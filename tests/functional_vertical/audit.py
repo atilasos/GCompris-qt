@@ -5,14 +5,30 @@ import argparse,hashlib,json,re
 from pathlib import Path
 from oracle import columns
 ACTIVITIES=('vertical_addition','vertical_subtraction','vertical_subtraction_compensation')
+# Exact historical root blobs from integrated proof commit 1b7ac42cb.
+PHASE_MANIFEST_SHA256={
+ 'baseline':'40d18f8e7011748588f4df7596a5887ccce1da03afdc5ef8053e407c63799579',
+ 'green':'2d4f68819d3ff21c2570ce516ae229dd68d323c2e91bc77ab43102178f7692f0',
+ 'complete':'689007d8ba577f29cbc66cc656f490c447c300afd82565557fc1e79fc4e3680a',
+}
 def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 def read(path):return json.loads(path.read_text())
 def validate_receipts(base):
+ for phase,expected_hash in PHASE_MANIFEST_SHA256.items():
+  source=base/'frozen-source'/phase
+  assert sha(source/'manifest.json')==expected_hash, 'Immutable historical source root: '+phase
+  manifest=read(source/'manifest.json')
+  files={p.relative_to(source).as_posix() for p in source.rglob('*') if p.is_file() and p!=source/'manifest.json'}
+  assert files==set(manifest), 'Exact historical source path set: '+phase
+  assert not any(p.is_symlink() for p in source.rglob('*'))
+  assert all(sha(source/path)==digest for path,digest in manifest.items())
  bindings=read(base/'receipt-inputs.json')
  actual={p.parent.relative_to(base).as_posix() for p in base.rglob('result.json') if not any(x.startswith('.native-qml-') for x in p.parts)}
  assert set(bindings)==actual,'Every receipt needs its own historical input binding'
  for relative,binding in bindings.items():
-  folder=base/relative;d=read(folder/'result.json');source=base/binding['source'];manifest=read(source/'manifest.json')
+  folder=base/relative;d=read(folder/'result.json')
+  assert binding['source'] in {'frozen-source/'+phase for phase in PHASE_MANIFEST_SHA256}
+  source=base/binding['source'];manifest=read(source/'manifest.json')
   assert sha(source/'manifest.json')==binding['source_manifest_sha256']
   assert all(sha(source/p)==value for p,value in manifest.items())
   assert d['source_sha256']==manifest['src/activities/'+d['qml_file']]

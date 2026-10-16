@@ -1,0 +1,661 @@
+{
+  "provenance": "Reconstructed after execution from actual retained exec/write_stdin response records in the local agent rollout. Separate retrospective observations, not native receipts or contemporaneously emitted launcher-status files. Completion exit codes come from tool responses, not native result.json. Existing receipt/case bytes were independently bound to historical Git proof and unchanged files.",
+  "recorded_at_utc": "2026-10-16T01:17:20.334813+00:00",
+  "scope": "The 18 selected historical money cases only. Three expected assertion-red launcher returns 1; fifteen green launcher returns 0. Does not attest future executions. No Qt rerun and no repository modification.",
+  "native_and_wrapper_distinction": "All native receipts report Qt exit_code 0. The three expected red assertion cases have external launcher/tool exit_code 1; therefore native status and wrapper status are explicitly different. For 12 full/control runs, the observed run.py wrapper returns the child launcher status using subprocess.run and sys.exit, verified against the historical run.py Git blob.",
+  "evidence_rollout_path": "/home/proteu/.codex/sessions/2026/10/15/rollout-2026-10-15T22-28-39-01a14177-97a1-7fa0-ae3c-75b5c64b1c2e.jsonl",
+  "immutable_native_proof_revision": "ee3eb60d751c4463f0781560f729dba1aa8354a8",
+  "historical_run_py_sha256": "5283718b63d7085623e64039b54fcedde44253ae9c1d442062a49957aac31208",
+  "observation_method": "Tool completion output block selected by exact session wait call and output order; two parallel red waits additionally carry explicit session_id in each output. Sequential loop output blocks follow the awaited session list order. Start records establish session identifiers; complete stdout is not claimed when tools applied token truncation.",
+  "missing_outcomes": [],
+  "observations": [
+    {
+      "directory": "automatic-keyboard-red",
+      "native_receipt_sha256": "18b6bd8c9287f138395af13c06bb010626892fc5774ec66a03ee459777537a83",
+      "case_sha256": "2a8a1c6265fee956c2e522b93e04413469c68261d8959db0fc0a4e90863e4c97",
+      "tool_session_id": "26732",
+      "launcher_exit_code": 1,
+      "tool_response_exit_code": 1,
+      "observed_command_kind": "native launcher directly",
+      "tool_start": {
+        "ordinal": 4430,
+        "timestamp_utc": "2026-10-16T00:52:12.927Z",
+        "output_block_index": 2,
+        "call_id": "call_61e8cb9f0a9f44e2816e3098b010821b",
+        "response": {
+          "chunk_id": "165de2",
+          "wall_time_seconds": 1.001096273,
+          "session_id": 26732,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 4448,
+        "timestamp_utc": "2026-10-16T00:53:17.108Z",
+        "call_id": "call_ae70baa34f0f401ca857596d45c283f1",
+        "output_block_index": 2,
+        "chunk_id": "4f1352",
+        "raw_rollout_record_sha256": "6fee1c3a1c859258cfe9d0fd448b8f4f08798d78cec714864944faaf2db20b16",
+        "wait_expression": "text(await tools.write_stdin({session_id:26732,chars:\"\",yield_time_ms:1000,max_output_tokens:300}));"
+      },
+      "tool_response_output": "",
+      "tool_response_output_original_token_count": 0,
+      "tool_response_output_may_be_truncated": false,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": false
+    },
+    {
+      "directory": "automatic-keyboard-green",
+      "native_receipt_sha256": "db06aaa6bef09bf01cd54c50fdee20b00ad53f34dc091d91169eb58742d67ac6",
+      "case_sha256": "2a8a1c6265fee956c2e522b93e04413469c68261d8959db0fc0a4e90863e4c97",
+      "tool_session_id": "27973",
+      "launcher_exit_code": 0,
+      "tool_response_exit_code": 0,
+      "observed_command_kind": "native launcher directly",
+      "tool_start": {
+        "ordinal": 4489,
+        "timestamp_utc": "2026-10-16T00:55:42.714Z",
+        "output_block_index": 3,
+        "call_id": "call_ef2c32e727764998a99067f9151474c1",
+        "response": {
+          "chunk_id": "6d2ec6",
+          "wall_time_seconds": 1.000773015,
+          "session_id": 27973,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 4503,
+        "timestamp_utc": "2026-10-16T00:57:24.136Z",
+        "call_id": "call_742a046d62a845ebaee25447d1f30fd2",
+        "output_block_index": 4,
+        "chunk_id": "6edf53",
+        "raw_rollout_record_sha256": "5b61bb38857e01715583e1b461102300607c16a907e035107f693de1dfbe68d9",
+        "wait_expression": "text(await tools.write_stdin({session_id:27973,chars:\"\",yield_time_ms:1000,max_output_tokens:300}));"
+      },
+      "tool_response_output": "",
+      "tool_response_output_original_token_count": 0,
+      "tool_response_output_may_be_truncated": false,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "manual-feedback-red",
+      "native_receipt_sha256": "6f32b9516f3dd4d6581b55988f62a023352cb9fef76ffe8d6e41c29b3135f0ac",
+      "case_sha256": "4e92ef9d85b631ca75dec02f16f08419bb26ba29d94fd6f4d78fdbdbc600bd8f",
+      "tool_session_id": "27327",
+      "launcher_exit_code": 1,
+      "tool_response_exit_code": 1,
+      "observed_command_kind": "native launcher directly",
+      "tool_start": {
+        "ordinal": 4503,
+        "timestamp_utc": "2026-10-16T00:57:24.136Z",
+        "output_block_index": 2,
+        "call_id": "call_742a046d62a845ebaee25447d1f30fd2",
+        "response": {
+          "chunk_id": "c306b8",
+          "wall_time_seconds": 1.001751112,
+          "session_id": 27327,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 4529,
+        "timestamp_utc": "2026-10-16T00:59:14.630Z",
+        "call_id": "call_d955877ce3d1405b8994094b62ba15c3",
+        "output_block_index": 2,
+        "chunk_id": "40dd81",
+        "raw_rollout_record_sha256": "77354ad36573a7a69a7205c710fb4977fd0281d4b7a4932602f64fbd835aca9c",
+        "wait_expression": "await Promise.all([27327,59412].map(async session_id=>text({session_id,...await tools.write_stdin({session_id,chars:\"\",yield_time_ms:1000,max_output_tokens:200})})));\n"
+      },
+      "tool_response_output": "",
+      "tool_response_output_original_token_count": 0,
+      "tool_response_output_may_be_truncated": false,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": false
+    },
+    {
+      "directory": "reachability-red",
+      "native_receipt_sha256": "3b3f0ddd7ba23bb156adacf948b566e0b14cde2c9236125fb18ff52d3cef0a83",
+      "case_sha256": "e820fe51b8bbea95a734c75558e973dba21e8cc85ef42fe2636d68732b12f1f6",
+      "tool_session_id": "59412",
+      "launcher_exit_code": 1,
+      "tool_response_exit_code": 1,
+      "observed_command_kind": "native launcher directly",
+      "tool_start": {
+        "ordinal": 4503,
+        "timestamp_utc": "2026-10-16T00:57:24.136Z",
+        "output_block_index": 3,
+        "call_id": "call_742a046d62a845ebaee25447d1f30fd2",
+        "response": {
+          "chunk_id": "42897a",
+          "wall_time_seconds": 1.001143428,
+          "session_id": 59412,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 4529,
+        "timestamp_utc": "2026-10-16T00:59:14.630Z",
+        "call_id": "call_d955877ce3d1405b8994094b62ba15c3",
+        "output_block_index": 3,
+        "chunk_id": "c63a57",
+        "raw_rollout_record_sha256": "77354ad36573a7a69a7205c710fb4977fd0281d4b7a4932602f64fbd835aca9c",
+        "wait_expression": "await Promise.all([27327,59412].map(async session_id=>text({session_id,...await tools.write_stdin({session_id,chars:\"\",yield_time_ms:1000,max_output_tokens:200})})));\n"
+      },
+      "tool_response_output": "",
+      "tool_response_output_original_token_count": 0,
+      "tool_response_output_may_be_truncated": false,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": false
+    },
+    {
+      "directory": "manual-feedback-green",
+      "native_receipt_sha256": "9a05855a4fe477873baa4bedf23cc127409387c2897366a532b28e06a4e2d791",
+      "case_sha256": "4e92ef9d85b631ca75dec02f16f08419bb26ba29d94fd6f4d78fdbdbc600bd8f",
+      "tool_session_id": "68269",
+      "launcher_exit_code": 0,
+      "tool_response_exit_code": 0,
+      "observed_command_kind": "native launcher directly",
+      "tool_start": {
+        "ordinal": 4592,
+        "timestamp_utc": "2026-10-16T01:02:13.907Z",
+        "output_block_index": 1,
+        "call_id": "call_147579f3bd5d4535bd71a81a889a5fc6",
+        "response": {
+          "chunk_id": "e8bf4d",
+          "wall_time_seconds": 1.000622122,
+          "session_id": 68269,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 4606,
+        "timestamp_utc": "2026-10-16T01:02:56.374Z",
+        "call_id": "call_4b1f3e31a75a4b0eba4377f366297440",
+        "output_block_index": 2,
+        "chunk_id": "32a909",
+        "raw_rollout_record_sha256": "962ecd1eea28bfd91657a3024244f83192038d6bf55de901433400454bf1e54f",
+        "wait_expression": "text(await tools.write_stdin({session_id:68269,chars:\"\",\"yield_time_ms\":1000,\"max_output_tokens\":500}));"
+      },
+      "tool_response_output": "Warning: truncated output (original token count: 8067)\nTotal output lines: 1\n\n{\"resource_snapshot\": \"/home/proteu/Projetos/GCompris-qt-worktrees/pt-money/build/money-final\", \"resource_manifest_sha256\": \"d6239a2544e4f662455f636c1f2b2be3c5abcbfd2aa25eaaf0b85cf353044155\", \"resource_files_sha256\": {\"bin/gcompris-qt\": \"3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb\", \"lib/qml/Box2D.2.0/libqmlbox2d.so\": \"783cccd77278ff33d8889c739816df82d5978359f02f7a4d760e9299a4183a8a\", \"lib/qml/Box2D.2.0/qmldir\": \"66e2de0d9bf5d1ee4632411b6715a695a49174c8c1dfd5ed96cbc6e12c01e4da\", \"share/gcompris-qt/rcc/activities.rcc\": \"3774bd95fab7e9503b2b43356dad85f756ed088c304382164de0f59fb8ba0a80\", \"share/gcompris-qt/rcc/activities_light.rcc\": \"c1a2aa341e301fecfa4838d8bb8a374d091bd4bb54f84b3c27497bf7ec6c60f8\", \"share/gcompris-qt/rcc/adjacent_numbers.rcc\": \"1bad8a6686c9f964db5c8a9fd795fa6d8927f63c64aaaf60927f34611fc519dd\", \"share/gcompris-qt/rcc/advanced_colors.rcc\": \"a94b2cfb7b559ae8b4b208e5dcf33146150217c9b680dc5fefff15299085dee3\", \"share/gcompris-qt/rcc/algebra_by.rcc\": \"1d900…7567 tokens truncated…31ca75dec02f16f08419bb26ba29d94fd6f4d78fdbdbc600bd8f\", \"private_rcc_sha256\": \"50167922e1a9b1d5e2e9d6ea43a5366565d5af1649f3975edd7b0b05022a447d\", \"binary_sha256\": \"3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb\", \"runner_sha256\": \"612889370d52dc3c643f894c58dd22fdd6073c245525d5e8502791527fd6ec42\", \"deployment\": \"/home/proteu/Projetos/GCompris-qt-worktrees/pt-money/.scratch/pt-pt/functional-money/.native-qml-c3a998e586154e6d9295451684af09cd\", \"version_code\": 260200, \"network\": \"docker-none\", \"timestamp_utc\": \"2026-10-16T01:02:12.471343+00:00\", \"scope\": \"Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.\", \"screenshots\": [], \"passed\": true, \"timeout\": false, \"exit_code\": 0, \"qml_errors\": [], \"case_result\": {\"failures\": 0, \"passes\": 2, \"evidence\": {\"targetCents\": 300, \"before\": 1, \"after\": 1}}, \"deployment_retained\": false, \"private_file_ownership_verified\": true}\n",
+      "tool_response_output_original_token_count": 8067,
+      "tool_response_output_may_be_truncated": true,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "reachability-green",
+      "native_receipt_sha256": "99248178271337cbddfa2e2c107075ade9b1f60330a6f92327af5b9e3cecc031",
+      "case_sha256": "e820fe51b8bbea95a734c75558e973dba21e8cc85ef42fe2636d68732b12f1f6",
+      "tool_session_id": "93014",
+      "launcher_exit_code": 0,
+      "tool_response_exit_code": 0,
+      "observed_command_kind": "native launcher directly",
+      "tool_start": {
+        "ordinal": 4592,
+        "timestamp_utc": "2026-10-16T01:02:13.907Z",
+        "output_block_index": 2,
+        "call_id": "call_147579f3bd5d4535bd71a81a889a5fc6",
+        "response": {
+          "chunk_id": "428cdd",
+          "wall_time_seconds": 1.001172707,
+          "session_id": 93014,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 4657,
+        "timestamp_utc": "2026-10-16T01:03:56.404Z",
+        "call_id": "call_064a2a27e92f4908a69ea3b047413c24",
+        "output_block_index": 1,
+        "chunk_id": "5b623f",
+        "raw_rollout_record_sha256": "dc2bf2641fc3b3d8bd9f8e666a16d152f16f90eb643bcc6270eff4897b7b80f2",
+        "wait_expression": "text(await tools.write_stdin({session_id:93014,chars:\"\",\"yield_time_ms\":1000,\"max_output_tokens\":300}));"
+      },
+      "tool_response_output": "Warning: truncated output (original token count: 13695)\nTotal output lines: 1\n\n{\"resource_snapshot\": \"/home/proteu/Projetos/GCompris-qt-worktrees/pt-money/build/money-final\", \"resource_manifest_sha256\": \"d6239a2544e4f662455f636c1f2b2be3c5abcbfd2aa25eaaf0b85cf353044155\", \"resource_files_sha256\": {\"bin/gcompris-qt\": \"3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb\", \"lib/qml/Box2D.2.0/libqmlbox2d.so\": \"783cccd77278ff33d8889c739816df82d5978359f02f7a4d760e9299a4183a8a\", \"lib/qml/Box2D.2.0/qmldir\": \"66e2de0d9bf5d1ee4632411b6715a695a49174c8c1dfd5ed96cbc6e12c01e4da\", \"share/gcompris-qt/rcc/activities.rcc\": \"3774bd95fab7e9503b2b43356dad85f756ed088c304382164de0f5…13395 tokens truncated….svg\", \"cents\": 200}, {\"source\": \"qrc:/gcompris/src/activities/money/resource/c50c.svg\", \"cents\": 50}, {\"source\": \"qrc:/gcompris/src/activities/money/resource/c1e.svg\", \"cents\": 100}, {\"source\": \"qrc:/gcompris/src/activities/money/resource/c1e.svg\", \"cents\": 100}, {\"source\": \"qrc:/gcompris/src/activities/money/resource/c20c.svg\", \"cents\": 20}, {\"source\": \"qrc:/gcompris/src/activities/money/resource/c20c.svg\", \"cents\": 20}, {\"source\": \"qrc:/gcompris/src/activities/money/resource/c10c.svg\", \"cents\": 10}], \"payable\": true}]}, \"deployment_retained\": false, \"private_file_ownership_verified\": true}\n",
+      "tool_response_output_original_token_count": 13695,
+      "tool_response_output_may_be_truncated": true,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "money-auto",
+      "native_receipt_sha256": "b57d35220ab4957f88206e2b202d87d46d374620fd7f5e534ec9bf37d77942ae",
+      "case_sha256": "7296e461f040f31ff0f754d36fcc8565c7a5a45365d6fc8b37e065cde3412055",
+      "tool_session_id": "30610",
+      "launcher_exit_code": 0,
+      "tool_response_exit_code": 0,
+      "observed_command_kind": "functional_money/run.py forwarding subprocess.run launcher return code through sys.exit",
+      "tool_start": {
+        "ordinal": 4606,
+        "timestamp_utc": "2026-10-16T01:02:56.374Z",
+        "output_block_index": 1,
+        "call_id": "call_4b1f3e31a75a4b0eba4377f366297440",
+        "response": {
+          "chunk_id": "95afbd",
+          "wall_time_seconds": 1.000480483,
+          "session_id": 30610,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 4745,
+        "timestamp_utc": "2026-10-16T01:05:55.080Z",
+        "call_id": "call_d795431f27c542cbb71ea6377412d7f1",
+        "output_block_index": 4,
+        "chunk_id": "e2fa84",
+        "raw_rollout_record_sha256": "c292179050c92cd2dc1cfa87dfff550d0699067dd42235cfd3e4db9063cfb8ea",
+        "wait_expression": "text(await tools.write_stdin({session_id:30610,chars:\"\",\"yield_time_ms\":1000,\"max_output_tokens\":100}));"
+      },
+      "tool_response_output": "Warning: truncated output (original token count: 17665)\nTotal output lines: 1\n\n{\"resource_snapshot\": \"/home/proteu/Projetos/GCompris-qt-worktrees/pt-money/build/money-final\", \"resource_manifest_sha256\": \"d6239a2544e4f662455f636c1f2b2be3c5abcbfd2aa25eaaf0b85cf353044155\", \"resourc…17565 tokens truncated…ctivities/money/resource/c2e.svg\", \"qrc:/gcompris/src/activities/money/resource/c1e.svg\"], \"paidCents\": 74800, \"bonus\": true}]}, \"deployment_retained\": false, \"private_file_ownership_verified\": true}\n",
+      "tool_response_output_original_token_count": 17665,
+      "tool_response_output_may_be_truncated": true,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "money-ok",
+      "native_receipt_sha256": "7b8101cb76328458c6e1b2fa7be562ff4018fdcec1ce624e8bd97e4e065e20d8",
+      "case_sha256": "ec06c762666ae86a1896c41c704c47d65b2f7f50dabe9add6a114e7baad2194f",
+      "tool_session_id": "85220",
+      "launcher_exit_code": 0,
+      "tool_response_exit_code": 0,
+      "observed_command_kind": "functional_money/run.py forwarding subprocess.run launcher return code through sys.exit",
+      "tool_start": {
+        "ordinal": 4626,
+        "timestamp_utc": "2026-10-16T01:03:21.978Z",
+        "output_block_index": 1,
+        "call_id": "call_d8a6987123aa4277b5d661147edf4355",
+        "response": {
+          "chunk_id": "909a88",
+          "wall_time_seconds": 1.000662445,
+          "session_id": 85220,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 4816,
+        "timestamp_utc": "2026-10-16T01:08:02.517Z",
+        "call_id": "call_92d8287f5a754f238d9e960d770f4c07",
+        "output_block_index": 3,
+        "chunk_id": "55d821",
+        "raw_rollout_record_sha256": "da1830fb79d76dae007ebd7f53f457e0606f4129768e0add029e0811c0d31239",
+        "wait_expression": "for(const session_id of [93566,91040,85220]) text(await tools.write_stdin({session_id,chars:\"\",\"yield_time_ms\":1000,\"max_output_tokens\":100}));"
+      },
+      "tool_response_output": "",
+      "tool_response_output_original_token_count": 0,
+      "tool_response_output_may_be_truncated": false,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "money_cents-auto",
+      "native_receipt_sha256": "ca60dfa022b1cf85ab5d58fc93c3b4ab3e968ac38cf1d4482485737e92ec1488",
+      "case_sha256": "7296e461f040f31ff0f754d36fcc8565c7a5a45365d6fc8b37e065cde3412055",
+      "tool_session_id": "93566",
+      "launcher_exit_code": 0,
+      "tool_response_exit_code": 0,
+      "observed_command_kind": "functional_money/run.py forwarding subprocess.run launcher return code through sys.exit",
+      "tool_start": {
+        "ordinal": 4626,
+        "timestamp_utc": "2026-10-16T01:03:21.978Z",
+        "output_block_index": 2,
+        "call_id": "call_d8a6987123aa4277b5d661147edf4355",
+        "response": {
+          "chunk_id": "f87bb2",
+          "wall_time_seconds": 1.001026132,
+          "session_id": 93566,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 4816,
+        "timestamp_utc": "2026-10-16T01:08:02.517Z",
+        "call_id": "call_92d8287f5a754f238d9e960d770f4c07",
+        "output_block_index": 1,
+        "chunk_id": "ffe40e",
+        "raw_rollout_record_sha256": "da1830fb79d76dae007ebd7f53f457e0606f4129768e0add029e0811c0d31239",
+        "wait_expression": "for(const session_id of [93566,91040,85220]) text(await tools.write_stdin({session_id,chars:\"\",\"yield_time_ms\":1000,\"max_output_tokens\":100}));"
+      },
+      "tool_response_output": "",
+      "tool_response_output_original_token_count": 0,
+      "tool_response_output_may_be_truncated": false,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "money_back-auto",
+      "native_receipt_sha256": "49773e94d08fb59a601d0f8da6f082633f40f934952c9af57f60df235cbe9ed9",
+      "case_sha256": "8d766a8f416838eb96f64b57b21e3d8386b145999c60e8baa10908b105e22c2c",
+      "tool_session_id": "65123",
+      "launcher_exit_code": 0,
+      "tool_response_exit_code": 0,
+      "observed_command_kind": "functional_money/run.py forwarding subprocess.run launcher return code through sys.exit",
+      "tool_start": {
+        "ordinal": 4626,
+        "timestamp_utc": "2026-10-16T01:03:21.978Z",
+        "output_block_index": 3,
+        "call_id": "call_d8a6987123aa4277b5d661147edf4355",
+        "response": {
+          "chunk_id": "c4a120",
+          "wall_time_seconds": 1.000706483,
+          "session_id": 65123,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 4778,
+        "timestamp_utc": "2026-10-16T01:06:36.932Z",
+        "call_id": "call_675f07960edd4b54b98b937f72f6966c",
+        "output_block_index": 2,
+        "chunk_id": "beba52",
+        "raw_rollout_record_sha256": "fabaf27bcb0ba08a6b723703846d59497ad1c2503b41ae7480bb9e629ea3d707",
+        "wait_expression": "text(await tools.write_stdin({session_id:65123,chars:\"\",\"yield_time_ms\":1000,\"max_output_tokens\":100}));"
+      },
+      "tool_response_output": "",
+      "tool_response_output_original_token_count": 0,
+      "tool_response_output_may_be_truncated": false,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "money_back_cents-auto",
+      "native_receipt_sha256": "44543dea8538cf9aa3eecd425be630163913a3d17ef75ce98f2ef50b02394a58",
+      "case_sha256": "9d371dd56336ed8300e63735d2b459aadf3eeaed939859f92457d82d0aa0f686",
+      "tool_session_id": "91040",
+      "launcher_exit_code": 0,
+      "tool_response_exit_code": 0,
+      "observed_command_kind": "functional_money/run.py forwarding subprocess.run launcher return code through sys.exit",
+      "tool_start": {
+        "ordinal": 4650,
+        "timestamp_utc": "2026-10-16T01:03:48.450Z",
+        "output_block_index": 2,
+        "call_id": "call_9c8262366e3147f2a1dca9c71bd86f62",
+        "response": {
+          "chunk_id": "ce10e2",
+          "wall_time_seconds": 1.00083394,
+          "session_id": 91040,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 4816,
+        "timestamp_utc": "2026-10-16T01:08:02.517Z",
+        "call_id": "call_92d8287f5a754f238d9e960d770f4c07",
+        "output_block_index": 2,
+        "chunk_id": "a640b4",
+        "raw_rollout_record_sha256": "da1830fb79d76dae007ebd7f53f457e0606f4129768e0add029e0811c0d31239",
+        "wait_expression": "for(const session_id of [93566,91040,85220]) text(await tools.write_stdin({session_id,chars:\"\",\"yield_time_ms\":1000,\"max_output_tokens\":100}));"
+      },
+      "tool_response_output": "",
+      "tool_response_output_original_token_count": 0,
+      "tool_response_output_may_be_truncated": false,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "money_cents-ok",
+      "native_receipt_sha256": "3a4f7bb8b7443403c1017e0ff0cd6389043229222fc4a0b340327d3fcf6b8866",
+      "case_sha256": "ec06c762666ae86a1896c41c704c47d65b2f7f50dabe9add6a114e7baad2194f",
+      "tool_session_id": "71508",
+      "launcher_exit_code": 0,
+      "tool_response_exit_code": 0,
+      "observed_command_kind": "functional_money/run.py forwarding subprocess.run launcher return code through sys.exit",
+      "tool_start": {
+        "ordinal": 4714,
+        "timestamp_utc": "2026-10-16T01:05:15.228Z",
+        "output_block_index": 1,
+        "call_id": "call_14962c4bf6c447e4ab2b2f96ab7be10d",
+        "response": {
+          "chunk_id": "0ed120",
+          "wall_time_seconds": 1.001709696,
+          "session_id": 71508,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 4877,
+        "timestamp_utc": "2026-10-16T01:10:15.366Z",
+        "call_id": "call_cd05a9cd5d0a40389285efe5bfbe0592",
+        "output_block_index": 2,
+        "chunk_id": "d2d570",
+        "raw_rollout_record_sha256": "44d025baee4b024b4ecc70acd8003ef9e81c52b35579bfb12ef5517d1180754b",
+        "wait_expression": "for(const session_id of [71508,38911,21865])text(await tools.write_stdin({session_id,chars:\"\",\"yield_time_ms\":1000,\"max_output_tokens\":100}));"
+      },
+      "tool_response_output": "",
+      "tool_response_output_original_token_count": 0,
+      "tool_response_output_may_be_truncated": false,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "money_back-ok",
+      "native_receipt_sha256": "2eb098c39dcb79bed001712096c6399d84f84bd21ee3b404f678ec44bcb7f6e4",
+      "case_sha256": "11cf15921cb228a466fe18c341d5a4592c6828aa85647d9f9a76838058716e1f",
+      "tool_session_id": "38911",
+      "launcher_exit_code": 0,
+      "tool_response_exit_code": 0,
+      "observed_command_kind": "functional_money/run.py forwarding subprocess.run launcher return code through sys.exit",
+      "tool_start": {
+        "ordinal": 4714,
+        "timestamp_utc": "2026-10-16T01:05:15.228Z",
+        "output_block_index": 2,
+        "call_id": "call_14962c4bf6c447e4ab2b2f96ab7be10d",
+        "response": {
+          "chunk_id": "a7ec2c",
+          "wall_time_seconds": 1.001346732,
+          "session_id": 38911,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 4877,
+        "timestamp_utc": "2026-10-16T01:10:15.366Z",
+        "call_id": "call_cd05a9cd5d0a40389285efe5bfbe0592",
+        "output_block_index": 3,
+        "chunk_id": "65da53",
+        "raw_rollout_record_sha256": "44d025baee4b024b4ecc70acd8003ef9e81c52b35579bfb12ef5517d1180754b",
+        "wait_expression": "for(const session_id of [71508,38911,21865])text(await tools.write_stdin({session_id,chars:\"\",\"yield_time_ms\":1000,\"max_output_tokens\":100}));"
+      },
+      "tool_response_output": "",
+      "tool_response_output_original_token_count": 0,
+      "tool_response_output_may_be_truncated": false,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "money_back_cents-ok",
+      "native_receipt_sha256": "561a15b18bb07fd991756c47ede8f9b278b58ca4b0c262b7d6dbf0cd24ff1344",
+      "case_sha256": "b7e0847f027c0c6d606236b78cef5e21dce12bce474fb05234934cffc60df0e9",
+      "tool_session_id": "21865",
+      "launcher_exit_code": 0,
+      "tool_response_exit_code": 0,
+      "observed_command_kind": "functional_money/run.py forwarding subprocess.run launcher return code through sys.exit",
+      "tool_start": {
+        "ordinal": 4714,
+        "timestamp_utc": "2026-10-16T01:05:15.228Z",
+        "output_block_index": 3,
+        "call_id": "call_14962c4bf6c447e4ab2b2f96ab7be10d",
+        "response": {
+          "chunk_id": "f15504",
+          "wall_time_seconds": 1.001069434,
+          "session_id": 21865,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 4899,
+        "timestamp_utc": "2026-10-16T01:10:33.424Z",
+        "call_id": "call_537556b11f5d49fca2c07b89e4a5289b",
+        "output_block_index": 2,
+        "chunk_id": "4997db",
+        "raw_rollout_record_sha256": "e3fb8509764cb250647edf4afa54529b35f53d972e9148e6a1d81a2b5b8db3b1",
+        "wait_expression": "text(await tools.write_stdin({session_id:21865,chars:\"\",\"yield_time_ms\":1000,\"max_output_tokens\":100}));"
+      },
+      "tool_response_output": "",
+      "tool_response_output_original_token_count": 0,
+      "tool_response_output_may_be_truncated": false,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "money-controls",
+      "native_receipt_sha256": "e11708ad03f152b2bc612a6f9c675c18bbbb86fe07336a5e194fa0383c26ad37",
+      "case_sha256": "d1b934e04f97147ce977a9cdaaea349f85add5e7b4a1deef7f3e126b5e63e2e4",
+      "tool_session_id": "23803",
+      "launcher_exit_code": 0,
+      "tool_response_exit_code": 0,
+      "observed_command_kind": "functional_money/run.py forwarding subprocess.run launcher return code through sys.exit",
+      "tool_start": {
+        "ordinal": 4701,
+        "timestamp_utc": "2026-10-16T01:04:53.297Z",
+        "output_block_index": 1,
+        "call_id": "call_0c2690dd865d4d5190703f4acf1f4551",
+        "response": {
+          "chunk_id": "654a9e",
+          "wall_time_seconds": 1.000968748,
+          "session_id": 23803,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 4737,
+        "timestamp_utc": "2026-10-16T01:05:47.131Z",
+        "call_id": "call_bd684209ca8741c2a8580dc8d6f59233",
+        "output_block_index": 1,
+        "chunk_id": "42bfad",
+        "raw_rollout_record_sha256": "810686ec9aac71a802820dde982be7c1fdd3de3c57c96516566c1a94262f0491",
+        "wait_expression": "text(await tools.write_stdin({session_id:23803,chars:\"\",\"yield_time_ms\":1000,\"max_output_tokens\":200}));"
+      },
+      "tool_response_output": "",
+      "tool_response_output_original_token_count": 0,
+      "tool_response_output_may_be_truncated": false,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "money_cents-controls",
+      "native_receipt_sha256": "3fc02c4b4bc7ed9b9a6b834923c0278a5f1aa70bfef1de527a9e678cbde5f977",
+      "case_sha256": "c787ac78b2c5b10a840e91257ad6320459379224a0be10d95156787a846f1f90",
+      "tool_session_id": "74652",
+      "launcher_exit_code": 0,
+      "tool_response_exit_code": 0,
+      "observed_command_kind": "functional_money/run.py forwarding subprocess.run launcher return code through sys.exit",
+      "tool_start": {
+        "ordinal": 4745,
+        "timestamp_utc": "2026-10-16T01:05:55.080Z",
+        "output_block_index": 1,
+        "call_id": "call_d795431f27c542cbb71ea6377412d7f1",
+        "response": {
+          "chunk_id": "d88357",
+          "wall_time_seconds": 1.00132813,
+          "session_id": 74652,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 4778,
+        "timestamp_utc": "2026-10-16T01:06:36.932Z",
+        "call_id": "call_675f07960edd4b54b98b937f72f6966c",
+        "output_block_index": 3,
+        "chunk_id": "7425c9",
+        "raw_rollout_record_sha256": "fabaf27bcb0ba08a6b723703846d59497ad1c2503b41ae7480bb9e629ea3d707",
+        "wait_expression": "text(await tools.write_stdin({session_id:74652,chars:\"\",\"yield_time_ms\":1000,\"max_output_tokens\":100}));"
+      },
+      "tool_response_output": "",
+      "tool_response_output_original_token_count": 0,
+      "tool_response_output_may_be_truncated": false,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "money_back-controls",
+      "native_receipt_sha256": "163065a7b050ee89595f5afb5f16674031eedd7e2af41deca60b32f96de1c4e8",
+      "case_sha256": "ca9d463501b1a603b7a6ba9dfb39c1b518b397fd293e57a17e56b297e62644b9",
+      "tool_session_id": "78065",
+      "launcher_exit_code": 0,
+      "tool_response_exit_code": 0,
+      "observed_command_kind": "functional_money/run.py forwarding subprocess.run launcher return code through sys.exit",
+      "tool_start": {
+        "ordinal": 4745,
+        "timestamp_utc": "2026-10-16T01:05:55.080Z",
+        "output_block_index": 2,
+        "call_id": "call_d795431f27c542cbb71ea6377412d7f1",
+        "response": {
+          "chunk_id": "737090",
+          "wall_time_seconds": 1.001150855,
+          "session_id": 78065,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 4778,
+        "timestamp_utc": "2026-10-16T01:06:36.932Z",
+        "call_id": "call_675f07960edd4b54b98b937f72f6966c",
+        "output_block_index": 4,
+        "chunk_id": "30a86b",
+        "raw_rollout_record_sha256": "fabaf27bcb0ba08a6b723703846d59497ad1c2503b41ae7480bb9e629ea3d707",
+        "wait_expression": "text(await tools.write_stdin({session_id:78065,chars:\"\",\"yield_time_ms\":1000,\"max_output_tokens\":100}));"
+      },
+      "tool_response_output": "",
+      "tool_response_output_original_token_count": 0,
+      "tool_response_output_may_be_truncated": false,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    },
+    {
+      "directory": "money_back_cents-controls",
+      "native_receipt_sha256": "788b41f867689219f68d153be65bf652e720867e7b65de5538d18a4fac38b831",
+      "case_sha256": "1869eaf8073ba1e9c4725b78526df48bee2e5a54cd9da3e12d133b4d7f2ec90f",
+      "tool_session_id": "64199",
+      "launcher_exit_code": 0,
+      "tool_response_exit_code": 0,
+      "observed_command_kind": "functional_money/run.py forwarding subprocess.run launcher return code through sys.exit",
+      "tool_start": {
+        "ordinal": 4745,
+        "timestamp_utc": "2026-10-16T01:05:55.080Z",
+        "output_block_index": 3,
+        "call_id": "call_d795431f27c542cbb71ea6377412d7f1",
+        "response": {
+          "chunk_id": "3efe2c",
+          "wall_time_seconds": 1.001133967,
+          "session_id": 64199,
+          "original_token_count": 0,
+          "output": ""
+        }
+      },
+      "tool_completion": {
+        "ordinal": 4778,
+        "timestamp_utc": "2026-10-16T01:06:36.932Z",
+        "call_id": "call_675f07960edd4b54b98b937f72f6966c",
+        "output_block_index": 5,
+        "chunk_id": "b9287d",
+        "raw_rollout_record_sha256": "fabaf27bcb0ba08a6b723703846d59497ad1c2503b41ae7480bb9e629ea3d707",
+        "wait_expression": "text(await tools.write_stdin({session_id:64199,chars:\"\",\"yield_time_ms\":1000,\"max_output_tokens\":100}));"
+      },
+      "tool_response_output": "",
+      "tool_response_output_original_token_count": 0,
+      "tool_response_output_may_be_truncated": false,
+      "native_exit_code_reported_separately": 0,
+      "native_passed_reported_separately": true
+    }
+  ]
+}

@@ -1,16 +1,21 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: GPL-3.0-or-later
 """Index finished native money receipts; never treat running logs as passes."""
+import argparse
 import hashlib
 import json
 from pathlib import Path
 from run import LEVELS
+from completion import verify_completion
 
 ROOT=Path(__file__).resolve().parents[2]
 BASE=ROOT/'.scratch/pt-pt/functional-money'
 
 
 def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--evidence',type=Path,default=BASE)
+    base=parser.parse_args().evidence
     cases={}
     for activity in LEVELS:
         for suffix,mode in [('auto',1),('ok',2)]:
@@ -20,16 +25,17 @@ def main():
         cases[prefix+'-red']={'phase':red,'kind':'red'}
         cases[prefix+'-green']={'phase':green,'kind':'green'}
     for name,metadata in cases.items():
-        result=json.loads((BASE/name/'result.json').read_text())
+        result=json.loads((base/name/'result.json').read_text())
         assert result['exit_code']==0 and not result['timeout']
         assert result['passed']==(metadata['kind']!='red'),name
-        assert hashlib.sha256((BASE/name/'case.qml').read_bytes()).hexdigest()==result['case_sha256']
+        verify_completion(base,name,1 if metadata['kind']=='red' else 0)
+        assert hashlib.sha256((base/name/'case.qml').read_bytes()).hexdigest()==result['case_sha256']
     files={}
-    for path in sorted(BASE.rglob('*')):
-        relative=path.relative_to(BASE)
+    for path in sorted(base.rglob('*')):
+        relative=path.relative_to(base)
         if any(part.startswith('.') for part in relative.parts) or relative.as_posix()=='index.json':continue
         assert not path.is_symlink()
         if path.is_file():files[relative.as_posix()]=hashlib.sha256(path.read_bytes()).hexdigest()
-    (BASE/'index.json').write_text(json.dumps({'cases':cases,'files':files},indent=2)+'\n')
+    (base/'index.json').write_text(json.dumps({'cases':cases,'files':files},indent=2)+'\n')
 
 if __name__=='__main__':main()

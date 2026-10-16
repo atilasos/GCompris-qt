@@ -1,0 +1,15 @@
+test_resealed_po_manifest_bindings_and_receipts_are_rejected (test_audit.CoherentlyResealedArchive.test_resealed_po_manifest_bindings_and_receipts_are_rejected) ... FAIL
+
+======================================================================
+FAIL: test_resealed_po_manifest_bindings_and_receipts_are_rejected (test_audit.CoherentlyResealedArchive.test_resealed_po_manifest_bindings_and_receipts_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-review-status-anchors/tests/functional_vertical/test_audit.py", line 41, in test_resealed_po_manifest_bindings_and_receipts_are_rejected
+    self.assertNotEqual(result.returncode,0,'Coherently re-signed historical PO must not pass an immutable-source audit')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 == 0 : Coherently re-signed historical PO must not pass an immutable-source audit
+
+----------------------------------------------------------------------
+Ran 1 test in 0.378s
+
+FAILED (failures=1)

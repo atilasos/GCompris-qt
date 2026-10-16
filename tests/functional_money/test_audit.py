@@ -40,6 +40,29 @@ class HistoricalMoneyEvidence(unittest.TestCase):
             self.assertEqual(completed.returncode,0,completed.stdout+completed.stderr)
             report=json.loads(completed.stdout);self.assertEqual(report['puzzles'],206);self.assertEqual(report['cases'],18)
 
+    def status(self,code):
+        native=self.copy/'money-auto/result.json';d=json.loads(native.read_text())
+        status={'format':1,'kind':'observed-subprocess-exit','exit_code':code,
+                'native_receipt_sha256':hashlib.sha256(native.read_bytes()).hexdigest(),
+                'case_sha256':d['case_sha256'],'launcher_sha256':d['runner_sha256']}
+        (native.parent/'launcher-status.json').write_text(json.dumps(status))
+
+    def test_green_native_receipt_with_failed_launcher_is_rejected(self):
+        self.status(0)
+        passed=self.run_auditor(self.copy);self.assertEqual(passed.returncode,0,passed.stderr)
+        self.status(1);self.rejected()
+
+    def test_index_refuses_failed_launcher_without_overwriting_old_index(self):
+        self.status(1);original=(self.copy/'index.json').read_bytes()
+        run=subprocess.run([sys.executable,str(CLI.with_name('index.py')),'--evidence',str(self.copy)],capture_output=True,text=True)
+        self.assertNotEqual(run.returncode,0,run.stdout)
+        self.assertIn('Native launcher did not finish',run.stderr)
+        self.assertEqual((self.copy/'index.json').read_bytes(),original)
+
+    def test_retrospective_observations_are_immutable(self):
+        self.change_json('supervisor-observations.json',lambda d:d['observations'][0].update(launcher_exit_code=0))
+        self.rejected()
+
     def test_receipt_source_hash_cannot_be_laundered_through_a_new_index(self):
         self.change_json('money-auto/result.json',lambda value:value.update(source_sha256='0'*64),reindex=True)
         self.rejected()

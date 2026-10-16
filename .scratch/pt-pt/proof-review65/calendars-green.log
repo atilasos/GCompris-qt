@@ -1,0 +1,18 @@
+test_changed_archived_case_rejected (test_audit.CalendarEvidence.test_changed_archived_case_rejected) ... ok
+test_changed_qrc_resource_rejected (test_audit.CalendarEvidence.test_changed_qrc_resource_rejected) ... ok
+test_changed_receipt_source_and_catalogue_rejected (test_audit.CalendarEvidence.test_changed_receipt_source_and_catalogue_rejected) ... ok
+test_green_native_receipt_with_failed_launcher_is_rejected (test_audit.CalendarEvidence.test_green_native_receipt_with_failed_launcher_is_rejected) ... ok
+test_missing_question_rejected (test_audit.CalendarEvidence.test_missing_question_rejected) ... ok
+test_missing_source_inventory_rejected (test_audit.CalendarEvidence.test_missing_source_inventory_rejected) ... ok
+test_relocated_without_original_worktree (test_audit.CalendarEvidence.test_relocated_without_original_worktree) ... ok
+test_retrospective_observations_are_immutable (test_audit.CalendarEvidence.test_retrospective_observations_are_immutable) ... ok
+test_bounded_weekday_is_unique (test_oracle.CalendarMeaning.test_bounded_weekday_is_unique) ... ok
+test_leap_year_and_weekday (test_oracle.CalendarMeaning.test_leap_year_and_weekday) ... ok
+test_month_question_returns_every_valid_month (test_oracle.CalendarMeaning.test_month_question_returns_every_valid_month) ... ok
+test_months_are_added_before_days_across_year_end (test_oracle.CalendarMeaning.test_months_are_added_before_days_across_year_end) ... ok
+test_ordinal_weekday_uses_real_gregorian_calendar (test_oracle.CalendarMeaning.test_ordinal_weekday_uses_real_gregorian_calendar) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.225s
+
+OK

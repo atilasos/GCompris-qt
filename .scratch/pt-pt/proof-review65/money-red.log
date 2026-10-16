@@ -1,0 +1,29 @@
+test_green_native_receipt_with_failed_launcher_is_rejected (test_audit.HistoricalMoneyEvidence.test_green_native_receipt_with_failed_launcher_is_rejected) ... FAIL
+
+======================================================================
+FAIL: test_green_native_receipt_with_failed_launcher_is_rejected (test_audit.HistoricalMoneyEvidence.test_green_native_receipt_with_failed_launcher_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-review-status-anchors/tests/functional_money/test_audit.py", line 49, in test_green_native_receipt_with_failed_launcher_is_rejected
+    self.rejected()
+    ~~~~~~~~~~~~~^^
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-review-status-anchors/tests/functional_money/test_audit.py", line 34, in rejected
+    self.assertEqual(completed.returncode,1,completed.stdout+completed.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 1 : {
+  "proof_revision": "ee3eb60d751c4463f0781560f729dba1aa8354a8",
+  "cases": 18,
+  "puzzles": 206,
+  "mouse": 106,
+  "keyboard": 100,
+  "insufficient": 204,
+  "excessive": 197,
+  "controls": 4,
+  "scope": "Linux software evidence; Windows, physical audio and teacher review pending"
+}
+
+
+----------------------------------------------------------------------
+Ran 1 test in 1.789s
+
+FAILED (failures=1)

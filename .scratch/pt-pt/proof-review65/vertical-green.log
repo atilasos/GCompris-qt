@@ -1,0 +1,6 @@
+test_resealed_po_manifest_bindings_and_receipts_are_rejected (test_audit.CoherentlyResealedArchive.test_resealed_po_manifest_bindings_and_receipts_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.222s
+
+OK
