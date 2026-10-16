@@ -1,0 +1,64 @@
+{
+  "inventory_tool": {
+    "path": "/tmp/pt-audio-rcc-inventory",
+    "sha256": "dce862eb7728c70e51033e40dd080a56479d7e56e43aa1b398538b8154028492"
+  },
+  "commands": [
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-sharing/build/functional-sharing/snapshot/share/gcompris-qt/rcc/share.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-sharing/build/functional-sharing/exported/share"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-sharing/build/functional-sharing/snapshot/share/gcompris-qt/rcc/core.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-sharing/build/functional-sharing/exported/core"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-sharing/.scratch/pt-pt/functional-share/resources/src/core/resource/sounds/completetask.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "gst-launch-1.0",
+        "-q",
+        "filesrc",
+        "location=/home/proteu/Projetos/GCompris-qt-worktrees/pt-sharing/.scratch/pt-pt/functional-share/resources/src/core/resource/sounds/crash.wav",
+        "!",
+        "decodebin",
+        "!",
+        "audioconvert",
+        "!",
+        "fakesink"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/tmp/pt-audio-rcc-inventory",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-sharing/.scratch/pt-pt/functional-share/.native-qml-a2ed9c419a834a778d51b5882f71dd3a/share/gcompris-qt/rcc/share.rcc",
+        "/home/proteu/Projetos/GCompris-qt-worktrees/pt-sharing/build/functional-sharing/exported/effective"
+      ],
+      "exit_code": 0
+    }
+  ]
+}

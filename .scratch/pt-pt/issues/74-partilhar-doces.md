@@ -1,7 +1,7 @@
 # Partilhar doces em PT-PT
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -26,3 +26,23 @@ pasta de fontes em trabalhadores paralelos.
 
 A aceitação global, Windows 10, dispositivos físicos, áudio e revisão docente
 continuam pendentes.
+
+## Answer
+
+146 perguntas concluídas em Qt real offline: 15 níveis dos três datasets,
+nos dois modos, 30 erros reparados e Bonus natural. Os modelos aleatórios
+foram amostrados uma vez por modo, sem congelar o gerador. Dois casos de
+controlos comprovam ajuda/foco/Escape, reinício, navegação após progresso,
+configuração e seleção reabertas, instrução e regresso ao menu.
+
+Corrigida a coordenada duplicada do arrasto de doces sem contadores e
+restaurado o contexto omitido em instruções PT, com dois pares nativos
+vermelho/verde de caso idêntico. SVG carregados em Qt e dois WAV descodificados;
+não houve audição nem nova aprovação de gravações.
+
+Arquivo imutável: [functional-share/README.md](../functional-share/README.md).
+Auditor normal/-O e 14 testes Python passaram, incluindo cópia portátil e
+ataques com hashes recalculados. Verificação em
+[functional-share-verification/README.md](../functional-share-verification/README.md).
+Nenhum processo pendente; pronto para merger e revisões independentes. Os
+limites globais, Windows, equipamento, audição e docente mantêm-se.
