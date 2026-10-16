@@ -1,0 +1,182 @@
+[
+    {
+        "bytes": 1083,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/ActivityInfo.qml",
+        "sha256": "468b547339d95fa4eab7a6c06169e7afc47ada5df7013cd2fa6d5f674891e6b3"
+    },
+    {
+        "bytes": 13006,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/watercycle.svg",
+        "sha256": "64879230cbf51b7eb002a82bf8ccfacb48c02e784287e46d578f03456528e62a"
+    },
+    {
+        "bytes": 34566,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/Watercycle.qml",
+        "sha256": "0265bf919b7e9803be674911ff3b39546985e77fd69014aa6bc8f497e572481b"
+    },
+    {
+        "bytes": 71416,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/city.svg",
+        "sha256": "cb75ffcab4bfc4412899153e778e9c1c9270bc2aae24398857a89a76306c77e6"
+    },
+    {
+        "bytes": 2540,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/fillwater.svg",
+        "sha256": "46b5acaa4167acff952855ec53afe0f24a92dd3c783c8b4361bf60dc5157cf86"
+    },
+    {
+        "bytes": 3505,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/boat_parked.svg",
+        "sha256": "7679143ff5061d1030691aa68fedbc630e4ac72d7acbe4e704ecc05472d1c8f1"
+    },
+    {
+        "bytes": 6682,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/tuxHouse.svg",
+        "sha256": "c6c29ff532d2e3c01365cce46012921152a5b8ee77768b25ff9d7f6ca9a95415"
+    },
+    {
+        "bytes": 11607,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/boat.svg",
+        "sha256": "2ad93f3d1c97ab3076a0c390ba4e6f963d3f0d9030063c5624437170766cb971"
+    },
+    {
+        "bytes": 352884,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/harbor2.wav",
+        "sha256": "ab2f6de1f5a937083852ee0e0519436e0db4eb367586d6071fb2bde85e7801ee"
+    },
+    {
+        "bytes": 299052,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/harbor1.wav",
+        "sha256": "35d85a5e23eb215f87121bb54b31e7e5460da732e5fde73e349ab6332c47f727"
+    },
+    {
+        "bytes": 3498,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/cloud.svg",
+        "sha256": "e48c1d1c6ed4ad3981bdb60d5daef2ac3606b6fac0f62c3f03ebe20e1f3822ee"
+    },
+    {
+        "bytes": 7337,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/vapor.svg",
+        "sha256": "dbc606ee9178c1cdc6640ff00aeaef98d5133ffd719d05024ae4d2b76c444523"
+    },
+    {
+        "bytes": 12838,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/rain.svg",
+        "sha256": "51a1696d4912d2a8e15ba4328072b52b742427959244303edaf14cfb1214c561"
+    },
+    {
+        "bytes": 18163,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/tuxbath.svg",
+        "sha256": "cdd1192fbec36aeb95c85c57e4b4c83f4ca6880396acc59d50838de6ce523281"
+    },
+    {
+        "bytes": 48626,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/bubble.wav",
+        "sha256": "0e78a8f44e22b11c2bd31007a3780b5f664fc1f01ad663ef469b5ee6419074d7"
+    },
+    {
+        "bytes": 4461,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/reservoir2.svg",
+        "sha256": "3d9662742142ca81ff396b2d3c2cd7cafbb0614bda457adc0ffeff68f8723bba"
+    },
+    {
+        "bytes": 3252,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/reservoir1.svg",
+        "sha256": "356156029268f38555de8d98bc15f23c066ee8da0123f4937232f7da8edf55d0"
+    },
+    {
+        "bytes": 3342,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/reservoir3.svg",
+        "sha256": "a681f8222b0bbf2cdb296d838cda72e6cc02cda1c5e8d6bf68e776abeb396256"
+    },
+    {
+        "bytes": 3710,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/watertowerfill.svg",
+        "sha256": "ca3a79006c8ebb601cfe141424f516112372807aa08e10de9a05f0a113647a10"
+    },
+    {
+        "bytes": 4046,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/sea.svg",
+        "sha256": "9b891a672e8f4790bc9c5e3827c5a01cbecd234a6265cdfc037fec13862b1938"
+    },
+    {
+        "bytes": 3642,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/sky.svg",
+        "sha256": "f90284d471ba91a83cf1ef14a11ac1c075dd3d4b7b29d044bea9de6722b8f56c"
+    },
+    {
+        "bytes": 13154,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/waste.svg",
+        "sha256": "91c58b004ebc2d309d2cc2b3af94281ee9b1d3df646c9882c1da3bae9ca593a2"
+    },
+    {
+        "bytes": 2186,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/sun.svg",
+        "sha256": "37e45ad5e9ec635ee8b495fcc84e133b8dd3b720e501324c403edf6c1d32952b"
+    },
+    {
+        "bytes": 5904,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/motor.svg",
+        "sha256": "9201d5129606ce5e732c76ca863e4bce83f21d7de137f2100d8bc164bfcb2628"
+    },
+    {
+        "bytes": 3718,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/wastewater.svg",
+        "sha256": "9f3ba9813c1ae86383c1f1205ef81ddbcb3aab1297efa803416ccbf12d5f9f12"
+    },
+    {
+        "bytes": 121764,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/apert.wav",
+        "sha256": "21bbcc6881a6bd3e43e39235ac836441a7fdb1833db8f46fef2f3dfd0f576d07"
+    },
+    {
+        "bytes": 10564,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/watertower.svg",
+        "sha256": "27eb55e92662a57b0ccea4a17565079d8ac42ad87dd9a9846a545f0ecf2d55bb"
+    },
+    {
+        "bytes": 3450,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/river.svg",
+        "sha256": "729364cb8b1af5dc355512403b77fac9019cd923de0833262b28b32a39109634"
+    },
+    {
+        "bytes": 21239,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/landscape.svg",
+        "sha256": "43cfeecb9cf42b808203b18b1c02d74610392523c45271b5b13f53b9010bc689"
+    },
+    {
+        "bytes": 14053,
+        "ogg": false,
+        "path": ":/gcompris/src/activities/watercycle/resource/shower.svg",
+        "sha256": "fcb144f679bb548539521e13c68c3df93a3b11608a22ee38378ec82e4632d404"
+    }
+]

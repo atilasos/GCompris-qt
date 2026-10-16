@@ -1,7 +1,7 @@
 # Concluir as simulações de água, energia e eclusa
 
 Status: ready-for-agent
-Progress: claimed
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -31,3 +31,11 @@ contra sobreposição de saída antes de qualquer escrita.
 
 Descodificação não é audição; não transferir aprovação32 a outros sons.
 Windows, dispositivos, áudio, revisão docente, estabilidade83 e global pendentes.
+
+## Entrega para revisão
+
+Provas e limites em [functional-cycles/README.md](../functional-cycles/README.md).
+Oito traduções corrigidas, dois pares lexicais negativos/positivos, três
+percursos finitos, três controlos e 18 recibos nativos preservados. Auditor
+puro e 13 testes passaram normal e `-O`; cópia física isolada passou sem
+Git/Qt/checkout. Revisão independente pendente; não fechar por esta entrega.

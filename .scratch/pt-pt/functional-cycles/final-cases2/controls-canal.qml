@@ -1,0 +1,15 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+TestCase {
+ name:'CanalPublicControls'
+ when:activity.visible
+ property var evidence:({})
+ function all(root){var rows=[root];if(root.children)for(var c of root.children)rows=rows.concat(all(c));return rows;}
+ function point(item){var p=item.mapToItem(activityBackground,item.width/2,item.height/2);return {x:p.x,y:p.y,width:item.width,height:item.height,opacity:item.opacity,visible:item.visible,source:item.source!==undefined?String(item.source):null};}
+ function click(item){verify(item!==undefined&&item!==null&&item.visible);var p=item.mapToItem(pageView,item.width/2,item.height/2);verify(p.x>=0&&p.y>=0&&p.x<pageView.width&&p.y<pageView.height);mouseClick(pageView,p.x,p.y,Qt.LeftButton,Qt.NoModifier,0);wait(100);}
+ function icon(suffix){var item=all(bar).find(c=>c.source!==undefined&&String(c.source).endsWith(suffix));verify(item!==undefined,suffix);click(item);wait(350);}
+ function helpPT(word){var depth=pageView.depth;icon('bar_help.svg');tryCompare(pageView,'depth',depth+1,2000);tryCompare(pageView,'busy',false,2000);wait(100);var help=pageView.currentItem;verify(help.content.indexOf(word)>=0);evidence.help={title:String(help.title),content:String(help.content)};grabImage(pageView).save('__QA_OUTPUT__/help.png');keyClick(Qt.Key_Escape);tryCompare(pageView,'depth',depth,2000);tryCompare(pageView,'busy',false,2000);wait(100);evidence.escape=true;}
+ function menu(){evidence.offered=all(bar).filter(c=>c.source!==undefined&&String(c.source).indexOf('bar_')>=0).map(c=>String(c.source));ActivityInfoTree.startingActivity='';keyClick(Qt.Key_W,Qt.ControlModifier);tryCompare(pageView,'depth',1,2000);tryCompare(pageView,'busy',false,2000);verify(pageView.currentItem.isMenu);wait(100);evidence.menu=true;grabImage(pageView).save('__QA_OUTPUT__/menu.png');}
+ function cleanupTestCase(){if(qtest_results.failCount)grabImage(pageView).save('__QA_OUTPUT__/failure.png');console.log('NATIVE_RESULT',JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,evidence:evidence}));}
+
+ function test_controls(){wait(1300);keyClick(Qt.Key_Return);tryCompare(message,'visible',false,2000);helpPT('eclusa');var before=point(door1);click(door1);tryVerify(()=>door1.height<before.height-10,3000);tryVerify(()=>String(leftLight.source).indexOf('green')>=0,2000);evidence.inputAfterHelp=true;wait(4000);var rest=point(boat);click(boat);tryVerify(()=>point(boat).x>rest.x+2,2000);evidence.menuDuringMotion={before:rest,moving:point(boat)};menu();}
+}
