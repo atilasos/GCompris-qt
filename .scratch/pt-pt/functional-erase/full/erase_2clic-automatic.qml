@@ -1,0 +1,162 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+TestCase {
+    id: nativeErase
+    name: 'EraseVisibleMask'
+    when: true
+    property int configuredMode: 1
+    property int levelLimit: 6
+    property var completed: []
+    property var images: ({})
+    property var masks: ({})
+    property int wins: 0
+    property int gestures: 0
+    property int wrongEvents: 0
+    property string phase: 'initialization'
+    File { id: resources }
+    Connections { target:bonus; function onWin(){nativeErase.wins++;} }
+    function check(actual,expected,message) {
+        if(actual!==expected) console.log('ERASE_ASSERT',phase,message||'',actual,expected,new Error().stack);
+        compare(actual,expected,message||'');
+    }
+    function ensured(value,message) {
+        if(!value)console.log('ERASE_VERIFY',phase,message||'',new Error().stack);
+        verify(value,message||'');
+    }
+    function find(root,predicate) {
+        if(predicate(root))return root;
+        if(root.children)for(var child of root.children){var result=find(child,predicate);if(result)return result;}
+        return null;
+    }
+    function click(item) {
+        ensured(item!==null);var p=item.mapToItem(pageView,item.width/2,item.height/2);
+        mouseClick(pageView,p.x,p.y,Qt.LeftButton,Qt.NoModifier,0);
+    }
+    function button(suffix) {
+        click(find(bar,function(item){return item.source!==undefined&&String(item.source).endsWith(suffix);}));
+    }
+    function configure() {
+        button('bar_activity_config.svg');tryCompare(dialogActivityConfig,'visible',true,2500);wait(1100);
+        var panel=find(dialogActivityConfig,function(item){return item.modeBox!==undefined;});ensured(panel!==null);
+        var box=panel.modeBox;
+        if(box.currentIndex!==configuredMode-1) {
+            var surface=find(box,function(item){return item.border!==undefined&&item.width>0&&item.width<box.width;});ensured(surface!==null);
+            click(surface);wait(250);
+            var option=find(dialogActivityConfig,function(item){return item.text===(configuredMode===2?'Manual':'Automática')&&item.visible;});ensured(option!==null);click(option);wait(250);
+        }
+        check(box.currentIndex,configuredMode-1);
+        grabImage(pageView).save('__QA_OUTPUT__/configuration.png');
+        dialogActivityConfig.forceActiveFocus();keyClick(Qt.Key_Return);tryCompare(dialogActivityConfig,'visible',false,2500);wait(1100);
+        check(items.mode,configuredMode);
+        var stored=ApplicationSettings.loadActivityConfiguration(activity.activityInfo.shortName());check(Number(stored.mode),configuredMode);
+        // Reopen the actual dialog to check the saved choice, then save without edits.
+        button('bar_activity_config.svg');tryCompare(dialogActivityConfig,'visible',true,2500);wait(1100);
+        panel=find(dialogActivityConfig,function(item){return item.modeBox!==undefined;});check(panel.modeBox.currentIndex,configuredMode-1);
+        dialogActivityConfig.forceActiveFocus();keyClick(Qt.Key_Return);tryCompare(dialogActivityConfig,'visible',false,2500);wait(1100);
+    }
+    function visibleBlocks() {
+        var result=[];
+        for(var i=0;i<repeater.count;i++){var tile=repeater.itemAt(i);if(tile.visible&&tile.opacity>0)result.push(tile);}
+        return result;
+    }
+    function center(tile) {return tile.mapToItem(pageView,tile.width/2,tile.height/2);}
+    function neutral() {return activityBackground.mapToItem(pageView,activityBackground.width/2,bar.y-5);}
+    function park() {var p=neutral();mouseMove(pageView,p.x,p.y,0);}
+    function geometry(side) {
+        check(repeater.count,side*side);check(visibleBlocks().length,side*side);
+        var tiles=[],xs={},ys={};
+        for(var i=0;i<repeater.count;i++) {
+            var tile=repeater.itemAt(i);tryCompare(tile,'status',Image.Ready,2500);check(tile.opacity,1);
+            ensured(tile.width>0&&tile.height>0&&tile.x>=0&&tile.y>=0);
+            ensured(tile.x+tile.width<=activityBackground.width+0.01);
+            ensured(tile.y+tile.height<=bar.y+0.01);
+            xs[tile.x.toFixed(4)]=true;ys[tile.y.toFixed(4)]=true;tiles.push(tile);
+            var route=String(tile.source);ensured(route.indexOf('/transparent_square')>=0);
+            if(masks[route]===undefined) {
+                masks[route]=route.split('/').pop();
+                if(activity.type==='erase'&&configuredMode===1)ensured(resources.copy(route,'__QA_OUTPUT__/'+masks[route]));
+            }
+        }
+        check(Object.keys(xs).length,side);check(Object.keys(ys).length,side);
+        for(var a=0;a<tiles.length;a++)for(var b=a+1;b<tiles.length;b++) {
+            var overlapX=Math.min(tiles[a].x+tiles[a].width,tiles[b].x+tiles[b].width)-Math.max(tiles[a].x,tiles[b].x);
+            var overlapY=Math.min(tiles[a].y+tiles[a].height,tiles[b].y+tiles[b].height)-Math.max(tiles[a].y,tiles[b].y);
+            ensured(overlapX<0.01||overlapY<0.01,'Drawn tiles do not overlap');
+        }
+        tiles.sort(function(a,b){return a.y-b.y||a.x-b.x;});return tiles;
+    }
+    function ignoreWrongInputs(tile) {
+        var p=center(tile),count=visibleBlocks().length;
+        if(activity.type==='erase') {
+            // Leaving a tile before the original fade finishes must restore it.
+            mouseMove(pageView,p.x,p.y,0);wait(40);park();wait(280);
+            check(tile.opacity,1);check(visibleBlocks().length,count);check(items.currentSubLevel,0);wrongEvents++;
+            var safe=neutral();mouseClick(pageView,safe.x,safe.y,Qt.RightButton,Qt.NoModifier,0);wrongEvents++;
+            keyClick(Qt.Key_Space);wrongEvents++;
+        } else {
+            mouseMove(pageView,p.x,p.y,0);wait(250);check(tile.opacity,1);wrongEvents++;
+            mouseClick(pageView,p.x,p.y,Qt.RightButton,Qt.NoModifier,0);wait(250);check(tile.opacity,1);wrongEvents++;
+            mouseClick(pageView,p.x,p.y,Qt.MiddleButton,Qt.NoModifier,0);wait(250);check(tile.opacity,1);wrongEvents++;
+            mouseDoubleClickSequence(pageView,p.x,p.y,Qt.RightButton,Qt.NoModifier,0);wait(250);check(tile.opacity,1);wrongEvents++;
+            if(activity.type==='double_click') {
+                mouseClick(pageView,p.x,p.y,Qt.LeftButton,Qt.NoModifier,0);wait(550);check(tile.opacity,1);wrongEvents++;
+            }
+        }
+        check(visibleBlocks().length,count);check(items.currentSubLevel,0);park();
+    }
+    function reveal(tile) {
+        var p=center(tile);
+        if(activity.type==='erase') {mouseMove(pageView,p.x,p.y,0);wait(240);check(tile.opacity,0);}
+        else if(activity.type==='click')mouseClick(pageView,p.x,p.y,Qt.LeftButton,Qt.NoModifier,10);
+        else mouseDoubleClickSequence(pageView,p.x,p.y,Qt.LeftButton,Qt.NoModifier,10);
+        gestures++;
+    }
+    function test_complete_all_original_levels_and_sublevels() {
+        wait(1800);configure();park();
+        check(activity.numberOfLevel,6);check(items.numberOfLevel,6);check(items.nbSubLevel,6);
+        var audio=[eraser1Sound,eraser2Sound,winSound];
+        for(var sound of audio) {
+            if(activity.type==='erase'&&configuredMode===1)ensured(resources.copy(String(sound.source),'__QA_OUTPUT__/'+String(sound.source).split('/').pop()));
+        }
+        for(var level=0;level<levelLimit;level++) {
+            check(items.currentLevel,level);check(items.currentSubLevel,0);check(score.message,'0/6');
+            for(var sub=0;sub<6;sub++) {
+                phase='level-'+(level+1)+'-image-'+(sub+1);
+                tryCompare(activityBackground,'status',Image.Ready,3000);
+                var route=String(activityBackground.source),filename=route.split('/').pop();
+                ensured(route.indexOf('qrc:/gcompris/src/activities/erase/resource/')===0&&filename.endsWith('.webp'));
+                if(images[route]===undefined) {
+                    images[route]={file:filename,width:activityBackground.sourceSize.width,height:activityBackground.sourceSize.height};
+                    if(activity.type==='erase'&&configuredMode===1)ensured(resources.copy(route,'__QA_OUTPUT__/'+filename));
+                }
+                var tiles=geometry(level%2===0?5:8),mask=String(tiles[0].source);
+                console.log('ERASE_HEARTBEAT',activity.type,configuredMode,level+1,sub+1,filename,tiles.length);
+                if(sub===0)ignoreWrongInputs(tiles[0]);
+                if(sub===0)grabImage(activityBackground).save('__QA_OUTPUT__/level-'+(level+1)+'-masked.png');
+                for(var tile of tiles)reveal(tile);
+                wait(270);park();
+                check(visibleBlocks().length,0);check(items.currentSubLevel,sub+1);check(score.message,(sub+1)+'/6');
+                tryCompare(activityBackground,'status',Image.Ready,2500);
+                check(okButton.visible,configuredMode===2);
+                if(sub===0)grabImage(activityBackground).save('__QA_OUTPUT__/level-'+(level+1)+'-revealed.png');
+                completed.push({level:level+1,sublevel:sub+1,image:route,mask:mask,tiles:tiles.length,visibleAfter:visibleBlocks().length,score:score.message});
+                if(configuredMode===2) {
+                    tryCompare(score,'isWinAnimationPlaying',false,3000);wait(300);
+                    check(String(activityBackground.source),route);check(visibleBlocks().length,0);check(items.currentLevel,level);check(items.currentSubLevel,sub+1);
+                    click(okButton);
+                }
+                if(sub<5) {
+                    tryVerify(function(){return String(activityBackground.source)!==route&&visibleBlocks().length>0;},5000);
+                    check(items.currentLevel,level);check(items.currentSubLevel,sub+1);
+                } else {
+                    tryCompare(items,'currentLevel',(level+1)%6,10000);check(items.currentSubLevel,0);
+                }
+            }
+        }
+        check(wins,levelLimit);check(completed.length,levelLimit*6);check(Object.keys(masks).length,3);
+        if(levelLimit===6)check(Object.keys(images).length,33);
+    }
+    function cleanupTestCase() {
+        console.log('NATIVE_ERASE_RESULT',JSON.stringify({failures:qtest_results.failCount,passes:qtest_results.passCount,type:activity.type,mode:configuredMode,levelLimit:levelLimit,wins:wins,gestures:gestures,wrongEvents:wrongEvents,completed:completed,images:images,masks:masks,phase:phase,
+            soundEffects:[{source:String(eraser1Sound.source),status:eraser1Sound.status,playing:eraser1Sound.playing},{source:String(eraser2Sound.source),status:eraser2Sound.status,playing:eraser2Sound.playing},{source:String(winSound.source),status:winSound.status,playing:winSound.playing}]}));
+    }
+}
