@@ -1,7 +1,7 @@
 # Preparar as fontes das campanhas sem corridas
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 68
 
@@ -42,3 +42,8 @@ recheck independentes; nenhuma aceitação global muda.
 
 Correção integrada para recheck independente. `ready-for-review` não fecha
 a tarefa 68; provas históricas preservadas, sem repetição Qt.
+
+## Fecho de revisão
+
+P2 fechado por recheck independente; [relatórios](../review/integration68-72/).
+Resolução limitada ao âmbito Linux publicado, sem aceitação global.

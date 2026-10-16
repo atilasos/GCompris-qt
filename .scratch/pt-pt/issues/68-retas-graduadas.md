@@ -1,7 +1,7 @@
 # Ler e utilizar retas graduadas em PT-PT
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -53,3 +53,8 @@ Sem build principal, mapa, CSV ou push, sem conclusão global203.
 
 Provas integradas para Standards e Spec independentes. `ready-for-review`
 não representa resolução final ou aceitação global.
+
+## Fecho de revisão
+
+P2 fechado por recheck independente; [relatórios](../review/integration68-72/).
+Resolução limitada ao âmbito Linux publicado, sem aceitação global.

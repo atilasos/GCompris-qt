@@ -267,8 +267,8 @@ hardware, áudio e docente.
 - [71 — Chapéu mágico de adição e subtração](issues/71-chapeu-magico.md)
 
 A tarefa 68 tem prova Linux integrada de 574 perguntas, 58 níveis e 20
-datasets das duas retas graduadas. Está `ready-for-review`, aguardando
-Standards e Spec independentes; duas ligações de evidência foram acrescentadas
+datasets das duas retas graduadas. Fica resolvida no âmbito Linux após
+Standards e Spec, incluindo o P2 corrigido pela tarefa 72; duas ligações foram acrescentadas
 sem alterar os critérios globais, Windows, hardware, áudio ou revisão docente.
 
 A tarefa 69 tem prova Linux integrada de 650 comparações e 250 sequências,
@@ -279,3 +279,8 @@ critérios globais, Windows, hardware, áudio ou revisão docente.
 - [72 — Preparação concorrente das fontes de teste](issues/72-preparacao-concorrente-fontes.md)
 
 - [73 — Numeração romana](issues/73-numeracao-romana.md)
+
+A tarefa 72 fechou a corrida de preparação de fontes sem alterar os 307 blobs
+históricos; 16 testes e revisões independentes confirmaram a correção.
+[Relatórios 68/72](review/integration68-72/). Sem nova campanha Qt ou alteração
+dos critérios globais, Windows, hardware, áudio e revisão docente.
