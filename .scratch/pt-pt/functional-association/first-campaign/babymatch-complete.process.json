@@ -1,0 +1,9 @@
+{
+  "kind": "observed-supervisor-subprocess-exit",
+  "case": "babymatch-complete",
+  "exit_code": 0,
+  "elapsed": 58.81950283050537,
+  "receipt_sha256": "92e6be335c161c4bfb5cafd15685070bc594f7c9df3e96b20e43cd5421130e86",
+  "launcher_status_sha256": "48f377c1e6b60743b718a1ea114a46b143976a8db98cbfdfff29517e3c7a38a9",
+  "supervisor_sha256": "d3036d68f65c91905732c953d9438a642d3a1a99ccee8e05c66bf0c76cd68347"
+}

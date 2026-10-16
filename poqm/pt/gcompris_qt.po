@@ -3288,7 +3288,7 @@ msgstr "Vincent van Gogh, Quarto em Arles - 1888"
 #: activities/babyshapes/resource/board/board7_4.qml:14
 msgctxt "board7_4|"
 msgid "Ambrosius Bosschaert the Elder, Flower Still Life - 1614"
-msgstr "Ambrosius Bosschaert o Antigo, Vida Estática da Flor - 1614"
+msgstr "Ambrosius Bosschaert o Antigo, Natureza-morta com flores - 1614"
 
 #: activities/balancebox/ActivityConfig.qml:23
 msgctxt "ActivityConfig|"
@@ -17510,7 +17510,7 @@ msgstr "ovo"
 #: activities/imagename/resource/board/board2_0.qml:82
 msgctxt "board2_0|"
 msgid "eggcup"
-msgstr "copo de ovo"
+msgstr "oveiro"
 
 #: activities/imagename/resource/board/board2_0.qml:90
 msgctxt "board2_0|"

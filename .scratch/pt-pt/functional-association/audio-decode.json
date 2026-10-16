@@ -1,0 +1,110 @@
+[
+  {
+    "file": "final/babymatch-resources/resources/src/core/resource/sounds/completetask.wav",
+    "sha256": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 33408,
+      "peak_pcm16": 13244,
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration": 0.7575510204081632
+    }
+  },
+  {
+    "file": "final/babymatch-resources/resources/src/core/resource/sounds/crash.wav",
+    "sha256": "86f844cb3f4cd87485de76b26a868e695d278ea971f308e092305827e7943c11",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 13595,
+      "peak_pcm16": 4566,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.3082766439909297
+    }
+  },
+  {
+    "file": "final/babymatch-resources/resources/src/core/resource/sounds/scroll.wav",
+    "sha256": "7f2dd85a8e4b4f4eb2f685bd827de592a1c1793ab1d47476243e77a834caa64e",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 3127,
+      "peak_pcm16": 6690,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.07090702947845805
+    }
+  },
+  {
+    "file": "final/babyshapes-resources/resources/src/core/resource/sounds/completetask.wav",
+    "sha256": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 33408,
+      "peak_pcm16": 13244,
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration": 0.7575510204081632
+    }
+  },
+  {
+    "file": "final/babyshapes-resources/resources/src/core/resource/sounds/crash.wav",
+    "sha256": "86f844cb3f4cd87485de76b26a868e695d278ea971f308e092305827e7943c11",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 13595,
+      "peak_pcm16": 4566,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.3082766439909297
+    }
+  },
+  {
+    "file": "final/babyshapes-resources/resources/src/core/resource/sounds/scroll.wav",
+    "sha256": "7f2dd85a8e4b4f4eb2f685bd827de592a1c1793ab1d47476243e77a834caa64e",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 3127,
+      "peak_pcm16": 6690,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.07090702947845805
+    }
+  },
+  {
+    "file": "final/imagename-resources/resources/src/core/resource/sounds/completetask.wav",
+    "sha256": "4140365fd8e37863851b9399e689074f5df69ba838db064fc96678e48e78b86c",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 33408,
+      "peak_pcm16": 13244,
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration": 0.7575510204081632
+    }
+  },
+  {
+    "file": "final/imagename-resources/resources/src/core/resource/sounds/crash.wav",
+    "sha256": "86f844cb3f4cd87485de76b26a868e695d278ea971f308e092305827e7943c11",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 13595,
+      "peak_pcm16": 4566,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.3082766439909297
+    }
+  },
+  {
+    "file": "final/imagename-resources/resources/src/core/resource/sounds/scroll.wav",
+    "sha256": "7f2dd85a8e4b4f4eb2f685bd827de592a1c1793ab1d47476243e77a834caa64e",
+    "decoded": {
+      "decoder": "libsndfile-1.2.2",
+      "frames": 3127,
+      "peak_pcm16": 6690,
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration": 0.07090702947845805
+    }
+  }
+]
