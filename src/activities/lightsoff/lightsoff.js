@@ -39,7 +39,10 @@ function initLevel() {
             soluc[i] = 0
         }
 
-        for (var j = 0; j < items.currentLevel; ++j) {
+        for (var j = 0; j < Math.max(1, items.currentLevel); ++j) {
+            switchLightNoCheck(Math.floor(size * size * Math.random()))
+        }
+        if (table.every(function(light) { return light === 0 })) {
             switchLightNoCheck(Math.floor(size * size * Math.random()))
         }
     } else {

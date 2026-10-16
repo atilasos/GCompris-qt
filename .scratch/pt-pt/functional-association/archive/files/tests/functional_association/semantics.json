@@ -1,0 +1,40 @@
+{
+  "relations": [
+    ["lamp.svg", "light.svg", "O candeeiro utiliza uma lâmpada para iluminar."],
+    ["postpoint.svg", "postcard.svg", "O postal pode ser enviado através da caixa do correio."],
+    ["sailingboat.svg", "fishingboat.svg", "Ambos são embarcações que navegam na água."],
+    ["glass.svg", "bottle.svg", "Pode deitar-se uma bebida da garrafa para o copo."],
+    ["eggpot.svg", "egg.svg", "O oveiro suporta o ovo servido à mesa."],
+    ["flowerpot.svg", "flower.svg", "O vaso pode conter a flor."],
+    ["star.svg", "fusee.svg", "O foguete viaja no espaço, onde vemos estrelas."],
+    ["house.svg", "sofa.svg", "O sofá é mobiliário de uma casa."],
+    ["sailingboat.svg", "lighthouse.svg", "O farol orienta as embarcações."],
+    ["tree.svg", "apple.svg", "A maçã cresce numa árvore."],
+    ["car.svg", "bicycle.svg", "Ambos são meios de transporte terrestres com rodas."],
+    ["rape.svg", "carrot.svg", "O ralador pode ralar a cenoura."],
+    ["postcard.svg", "pencil.svg", "O lápis pode escrever uma mensagem no postal."],
+    ["tuxplane.svg", "tuxhelico.svg", "Ambos são aeronaves."],
+    ["minivan.svg", "truck.svg", "Ambos transportam carga por estrada."],
+    ["crown.svg", "castle.svg", "A coroa e o castelo associam-se à realeza."],
+    ["windflag5.svg", "sailingboat.svg", "O vento move a bandeira e impulsiona a vela."],
+    ["football.svg", "raquette.svg", "Bola e raquete são objetos de desporto, sem afirmar que esta bola é de ténis."],
+    ["lamp.svg", "sun.svg", "Ambos iluminam."],
+    ["bell.svg", "sound.svg", "Sino e altifalante produzem som."],
+    ["lifebuoy.svg", "sailingboat.svg", "A boia salva-vidas é equipamento de segurança a bordo."]
+  ],
+  "names": {
+    "postpoint.svg": "caixa do correio", "sailingboat.svg": "barco à vela", "lamp.svg": "candeeiro",
+    "postcard.svg": "postal", "fishingboat.svg": "barco de pesca", "light.svg": "lâmpada",
+    "bottle.svg": "garrafa", "glass.svg": "copo", "egg.svg": "ovo", "eggpot.svg": "oveiro",
+    "flower.svg": "flor", "flowerpot.svg": "vaso", "fusee.svg": "foguete", "star.svg": "estrela",
+    "sofa.svg": "sofá", "house.svg": "casa", "lighthouse.svg": "farol", "apple.svg": "maçã",
+    "tree.svg": "árvore", "bicycle.svg": "bicicleta", "car.svg": "carro", "carrot.svg": "cenoura",
+    "rape.svg": "ralador", "pencil.svg": "lápis", "truck.svg": "camião", "minivan.svg": "carrinha",
+    "castle.svg": "castelo", "crown.svg": "coroa", "windflag5.svg": "bandeira", "raquette.svg": "raquete", "football.svg": "bola"
+  },
+  "dog": {
+    "dog1/dog1.webp": {"rule":"leftmost", "reason":"As duas patas dianteiras e o peito encaixam na parte dianteira inferior, à esquerda da silhueta inspecionada."},
+    "dog1/dog2.webp": {"rule":"rightmost", "reason":"A cauda e os quartos traseiros ocupam a extremidade direita do cão deitado."},
+    "dog1/dog3.webp": {"rule":"topmost", "reason":"A cabeça e o focinho ocupam a parte superior da silhueta do cão."}
+  }
+}

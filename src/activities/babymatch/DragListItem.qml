@@ -272,7 +272,11 @@ Item {
 
                 onPositionChanged: {
                     tileImage.opacity = 0.5;
-                    if((activityBackground.verticalBar && tileImage.x > leftWidget.width) || (!activityBackground.verticalBar && tileImage.y > leftWidget.height)) {
+                    var imageCenter = tileImage.mapToItem(activityBackground, tileImage.width / 2, tileImage.height / 2);
+                    var outsidePanel = activityBackground.verticalBar ?
+                        imageCenter.x > leftWidget.x + leftWidget.width :
+                        imageCenter.y > leftWidget.y + leftWidget.height;
+                    if(outsidePanel) {
                         tileImage.dropEnabled = true;
                         Activity.highLightSpot(getClosestSpot(), tileImage);
                     } else {

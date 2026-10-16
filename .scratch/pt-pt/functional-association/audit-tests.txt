@@ -1,0 +1,18 @@
+test_independent_copy_without_git_or_original_paths (test_audit.EvidenceTests.test_independent_copy_without_git_or_original_paths) ... ok
+test_optimisation_rejected (test_audit.EvidenceTests.test_optimisation_rejected) ... ok
+test_reseal_answer (test_audit.EvidenceTests.test_reseal_answer) ... ok
+test_reseal_case (test_audit.EvidenceTests.test_reseal_case) ... ok
+test_reseal_catalogue (test_audit.EvidenceTests.test_reseal_catalogue) ... ok
+test_reseal_empty_campaign (test_audit.EvidenceTests.test_reseal_empty_campaign) ... ok
+test_reseal_outer_exit (test_audit.EvidenceTests.test_reseal_outer_exit) ... ok
+test_reseal_pixel_capture (test_audit.EvidenceTests.test_reseal_pixel_capture) ... ok
+test_reseal_postwait_status (test_audit.EvidenceTests.test_reseal_postwait_status) ... ok
+test_reseal_product (test_audit.EvidenceTests.test_reseal_product) ... ok
+test_reseal_visible_geometry (test_audit.EvidenceTests.test_reseal_visible_geometry) ... ok
+test_silhouette_oracle_uses_drawn_image_not_order (test_audit.EvidenceTests.test_silhouette_oracle_uses_drawn_image_not_order) ... ok
+test_visible_name_oracle_is_independent_of_target_order (test_audit.EvidenceTests.test_visible_name_oracle_is_independent_of_target_order) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 7.024s
+
+OK
