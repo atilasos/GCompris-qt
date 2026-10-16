@@ -1,7 +1,7 @@
 # Sequências numéricas e alfabéticas com avião em PT-PT
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -44,3 +44,8 @@ Snapshot privado de 269 ficheiros; 237 fontes inventariadas, quatro RCC canónic
 
 Provas integradas; aguardam Standards e Spec independentes. Estado
 `ready-for-review` limitado ao lote Linux, sem resolução final ou global.
+
+## Fecho de revisão
+
+Standards e Spec sem achados acionáveis; relatórios em `../review/integration67/`.
+Resolução limitada à prova Linux; critérios globais permanecem pendentes.

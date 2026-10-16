@@ -1,7 +1,7 @@
 # Acertar o relógio em PT-PT
 
 Status: ready-for-agent
-Progress: claimed
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -23,3 +23,8 @@ adulteração com hashes recalculados. Defeitos exigem caso vermelho/verde igual
 
 Windows 10, equipamento físico, audição e aceitação docente/global continuam
 pendentes.
+
+## Integração
+
+Provas integradas; aguardam Standards e Spec independentes. Estado
+`ready-for-review` limitado à prova Linux, sem resolução final ou global.

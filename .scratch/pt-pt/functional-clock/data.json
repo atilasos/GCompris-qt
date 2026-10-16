@@ -1,0 +1,138 @@
+{
+  "datasets": 6,
+  "levels": [
+    {
+      "level": 1,
+      "source": "src/activities/clockgame/resource/1/Data.qml",
+      "sha256": "b8304c096d6385ad3bbfc2741305f03e737132feecd301bd7e1f4e19d2f88e81",
+      "data": {
+        "numberOfSubLevels": 5,
+        "useFixedMinutes": true,
+        "fixedMinutes": 0,
+        "displayMinutesHand": false,
+        "useFixedSeconds": true,
+        "fixedSeconds": 0,
+        "displaySecondsHand": false
+      }
+    },
+    {
+      "level": 2,
+      "source": "src/activities/clockgame/resource/2/Data.qml",
+      "sha256": "cc58514c9650493f176d0d796c5f2125bc00dcadc75d99d80c690b2f78508f42",
+      "data": {
+        "numberOfSubLevels": 5,
+        "useFixedMinutes": true,
+        "fixedMinutes": 30,
+        "displayMinutesHand": true,
+        "useFixedSeconds": true,
+        "fixedSeconds": 0,
+        "displaySecondsHand": false
+      }
+    },
+    {
+      "level": 3,
+      "source": "src/activities/clockgame/resource/3/Data.qml",
+      "sha256": "890ee65e902998032fce0ead75db87afc3e9b2e15bee30d6a72cc6ad2dcdada8",
+      "data": {
+        "numberOfSubLevels": 5,
+        "useFixedMinutes": true,
+        "fixedMinutes": 15,
+        "displayMinutesHand": true,
+        "useFixedSeconds": true,
+        "fixedSeconds": 0,
+        "displaySecondsHand": false
+      }
+    },
+    {
+      "level": 4,
+      "source": "src/activities/clockgame/resource/3/Data.qml",
+      "sha256": "890ee65e902998032fce0ead75db87afc3e9b2e15bee30d6a72cc6ad2dcdada8",
+      "data": {
+        "numberOfSubLevels": 5,
+        "useFixedMinutes": true,
+        "fixedMinutes": 45,
+        "displayMinutesHand": true,
+        "useFixedSeconds": true,
+        "fixedSeconds": 0,
+        "displaySecondsHand": false
+      }
+    },
+    {
+      "level": 5,
+      "source": "src/activities/clockgame/resource/4/Data.qml",
+      "sha256": "2607489373180f9ed1cf9ac0e7787da518a7430ed4d32e82d8bce097034126b6",
+      "data": {
+        "numberOfSubLevels": 5,
+        "displayMinutesHand": true,
+        "useFixedSeconds": true,
+        "fixedSeconds": 0,
+        "displaySecondsHand": false
+      }
+    },
+    {
+      "level": 6,
+      "source": "src/activities/clockgame/resource/5/Data.qml",
+      "sha256": "d5a684a93df808594e29b02939e92cc4e61cc233756f3f9f2b74ea588136192c",
+      "data": {
+        "numberOfSubLevels": 5,
+        "displayMinutesHand": true,
+        "displaySecondsHand": true
+      }
+    },
+    {
+      "level": 7,
+      "source": "src/activities/clockgame/resource/6/Data.qml",
+      "sha256": "71a598105de07ea705cae98e0c384aa9714d7d01695332603ecfa2f8b2a8445b",
+      "data": {
+        "numberOfSubLevels": 5,
+        "displayMinutesHand": true,
+        "displaySecondsHand": true,
+        "hoursVisible": false,
+        "noHint": true
+      }
+    },
+    {
+      "level": 8,
+      "source": "src/activities/clockgame/resource/6/Data.qml",
+      "sha256": "71a598105de07ea705cae98e0c384aa9714d7d01695332603ecfa2f8b2a8445b",
+      "data": {
+        "numberOfSubLevels": 5,
+        "displayMinutesHand": true,
+        "displaySecondsHand": true,
+        "hoursVisible": false,
+        "hoursMarksVisible": false,
+        "noHint": true
+      }
+    },
+    {
+      "level": 9,
+      "source": "src/activities/clockgame/resource/6/Data.qml",
+      "sha256": "71a598105de07ea705cae98e0c384aa9714d7d01695332603ecfa2f8b2a8445b",
+      "data": {
+        "numberOfSubLevels": 5,
+        "displayMinutesHand": true,
+        "displaySecondsHand": true,
+        "hoursVisible": false,
+        "hoursMarksVisible": false,
+        "zonesVisible": false,
+        "noHint": true
+      }
+    },
+    {
+      "level": 10,
+      "source": "src/activities/clockgame/resource/6/Data.qml",
+      "sha256": "71a598105de07ea705cae98e0c384aa9714d7d01695332603ecfa2f8b2a8445b",
+      "data": {
+        "numberOfSubLevels": 5,
+        "displayMinutesHand": true,
+        "displaySecondsHand": true,
+        "hoursVisible": false,
+        "hoursMarksVisible": false,
+        "zonesVisible": false,
+        "minutesVisible": false,
+        "noHint": true
+      }
+    }
+  ],
+  "questions_per_mode": 50
+}
