@@ -3,12 +3,13 @@
 """Seal finished creation evidence once, including physical runtime resources."""
 import argparse,hashlib,json,subprocess,tempfile,zipfile
 from pathlib import Path
+from rcc_export import compile_exporter,export_resources
 from phase import verify_source,ACTIVITIES
 if not __debug__:raise SystemExit('Creation sealing rejects Python -O')
 ROOT=Path(__file__).resolve().parents[2];BASE=ROOT/'.scratch/pt-pt/functional-creation'
 def sha(raw):return hashlib.sha256(raw).hexdigest()
 def seal(output):
- if output.exists():raise ValueError('New capsule output required')
+ if output.is_symlink() or output.exists():raise ValueError('New output required')
  objects={};files={};phases={};cases={}
  def store(raw):
   digest=sha(raw);objects[digest]=raw;return digest
@@ -44,11 +45,11 @@ def seal(output):
  for p in (ROOT/'build').glob('creation-*-red.log'):files['tdd/'+p.name]=store(p.read_bytes())
  snapshots={};canonicals={}
  with tempfile.TemporaryDirectory(prefix='creation exports ',dir=ROOT/'build') as temp:
-  temp=Path(temp);cpp=ROOT/'build/creation-sources'/revisions[1]/'tools/pt-pt-audio/rcc_inventory.cpp';binary=temp/'inspect';flags=subprocess.check_output(['pkg-config','--cflags','--libs','Qt6Core'],text=True).split();subprocess.run(['g++','-std=c++17','-fPIC',str(cpp),'-o',str(binary),*flags],check=True)
+  temp=Path(temp);cpp=ROOT/'build/creation-sources'/revisions[1]/'tools/pt-pt-audio/rcc_inventory.cpp';binary=temp/'inspect';compile_exporter(cpp,binary)
   for name in ['creation-origin','creation-canonical','creation-focused','creation-final']:
    snapshot=ROOT/'build'/name;raw=(snapshot/'manifest.json').read_bytes();manifest=json.loads(raw);assert len(manifest['files'])==269;snapshots[sha(raw)]=store(raw);canonicals[name]={}
    for activity in [*ACTIVITIES,'core']:
-    path=snapshot/'share/gcompris-qt/rcc'/(activity+'.rcc');destination=temp/(name+'-'+activity);rows=json.loads(subprocess.check_output([str(binary),str(path),str(destination)]));digest=store(path.read_bytes());assert manifest['files']['share/gcompris-qt/rcc/'+activity+'.rcc']==digest
+    path=snapshot/'share/gcompris-qt/rcc'/(activity+'.rcc');destination=temp/(name+'-'+activity);rows=export_resources(binary,path,destination);digest=store(path.read_bytes());assert manifest['files']['share/gcompris-qt/rcc/'+activity+'.rcc']==digest
     for row in rows:assert store((destination/row['path'].removeprefix(':/')).read_bytes())==row['sha256']
     canonicals[name][activity]={'rcc_sha256':digest,'files':rows}
    # Physical executable/local QML and translated catalogues, as well as every RCC,
@@ -63,4 +64,6 @@ def seal(output):
    entry=zipfile.ZipInfo('objects/'+digest,(2026,1,1,0,0,0));entry.compress_type=zipfile.ZIP_DEFLATED;bundle.writestr(entry,raw)
  print(json.dumps({'capture_sha256':sha((output/'capture.json').read_bytes()),'objects':len(objects),'cases':len(cases),'zip_bytes':(output/'objects.zip').stat().st_size}))
 if __name__=='__main__':
- parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output',type=Path,required=True);args=parser.parse_args();seal(args.output.resolve())
+ parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output',type=Path,required=True);args=parser.parse_args()
+ if args.output.is_symlink() or args.output.exists():parser.error('New output required')
+ seal(args.output.resolve())

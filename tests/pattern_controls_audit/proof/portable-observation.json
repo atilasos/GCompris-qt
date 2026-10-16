@@ -1,0 +1,27 @@
+{
+  "kind": "agent-recorded-tools-exec-or-write-stdin-completion",
+  "scope": "Copied pure auditor and raw JSON only; no native application replay",
+  "source_commit": "76db3ceba",
+  "session_id": 92004,
+  "output_chunk": "93bfbd",
+  "exit_code": 0,
+  "modes": [
+    {
+      "optimized": false,
+      "docker_exit_code": 0,
+      "inner_exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "optimized": true,
+      "docker_exit_code": 0,
+      "inner_exit_codes": [
+        0,
+        0
+      ]
+    }
+  ],
+  "report_sha256": "968bc45083d18d66b0a048c6ab2d479d4f27496abf72bf82f84669ad0774c1ed"
+}

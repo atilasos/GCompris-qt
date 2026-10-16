@@ -71,3 +71,25 @@ Nenhum recibo antigo foi reescrito. Todos os processos nativos terminaram.
 
 Progress permanece claimed até integração e revisões independentes. Windows,
 dispositivos, audição, revisão docente, estabilidade 83 e aceitação global pendentes.
+
+
+## Suplemento de revisão das imagens
+
+Os dois P2 Spec e o P3 Standards têm correção em suplemento independente,
+sem novas execuções Qt ou alteração da cápsula original. O auditor suplementar
+verifica dez PNG físicos contra cenas completas, os SVG/PNG e a reabertura dos
+dois níveis das rodas, o efeito visual de desfazer/refazer e preservação exata
+em três cancelamentos. As diferenças de rasterização e tolerâncias estão
+explicitadas, com negativas para desenhos vazios/errados e perda de trabalho.
+As três ferramentas futuras partilham o helper de compilação/exportação RCC;
+as versões históricas permanecem arquivadas intactas.
+
+[Suplemento e métricas](../functional-creation-review/README.md).
+Progress permanece claimed, Review ready-for-review para recheck independente.
+Não se amplia cobertura nem aceitação global.
+
+
+A guarda futura adicional recusa symlink pendente e qualquer saída existente
+antes de resolver o caminho nas três ferramentas, com cinco testes CLI finais
+que preservam link, alvo ausente e bytes existentes. Sem novo Qt ou alteração
+da cápsula e capturadores históricos.
