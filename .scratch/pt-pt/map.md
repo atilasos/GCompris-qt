@@ -396,8 +396,9 @@ não resolveram a causa: a tarefa permanece aberta e sem nova cobertura de jogos
 - [86 — Relações familiares](issues/86-relacoes-familiares.md)
 
 A tarefa 85 tem percursos Linux integrados da eclusa, ciclo da água e três
-níveis de energia. Está `ready-for-review`, aguardando Standards e Spec
-independentes. Três ligações mantêm os critérios globais, Windows, hardware,
+níveis de energia. Fica resolvida no âmbito Linux finito após revisões e
+recheck sem achados; [relatórios](review/integration85/). Três ligações mantêm
+os critérios globais, Windows, hardware,
 áudio e docente pendentes; os limites dos recibos históricos estão publicados.
 
 - [87 — Grelhas lógicas](issues/87-grelhas-logicas.md)
@@ -410,8 +411,8 @@ globais pendentes; iconografia não demonstra género pela aparência.
 Windows, hardware, áudio e revisão docente permanecem pendentes.
 
 A tarefa 85 recebeu suplemento para o P2 de regresso ao menu, com três
-percursos completos repetidos e Ctrl+W até ao menu estável. Aguarda recheck
-independente; não aumenta a cobertura única nem altera a matriz. Os
+percursos completos repetidos e Ctrl+W até ao menu estável. O recheck
+independente fechou o P2; não aumenta cobertura única nem altera a matriz. Os
 [relatórios iniciais](review/integration85/) ficam preservados como histórico.
 
 - [88 — Pormenores e pinturas](issues/88-pormenores-e-pinturas.md)
