@@ -1,7 +1,7 @@
 # Validar desenho livre e rodas de desenho
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02, 25, 82
 
@@ -93,3 +93,24 @@ A guarda futura adicional recusa symlink pendente e qualquer saída existente
 antes de resolver o caminho nas três ferramentas, com cinco testes CLI finais
 que preservam link, alvo ausente e bytes existentes. Sem novo Qt ou alteração
 da cápsula e capturadores históricos.
+
+
+## Answer
+
+Resolvida no âmbito Linux finito após integração e rechecks independentes
+[Spec e Standards sem achados pendentes](../review/integration89/).
+Simplepaint tem 31 níveis e 61 escolhas de cor verificadas; Sketch tem 23 rotas
+reais de ferramentas e fluxos de criação, desfazer/refazer, gravar/abrir e fundos;
+DrawingWheels cobre os dois níveis, 30 combinações fixas, paragem/retoma e
+geometria independente. Não são puzzles nem combinações livres esgotadas.
+
+O [suplemento de revisão](../functional-creation-review/README.md) verifica dez
+PNG físicos, reabertura das rodas, desfazer/refazer e preservação em três
+cancelamentos. O merger confirmou 31 testes puros finais, sessão 52501,
+chunk dde929, retorno 0 após espera. A cápsula literal e todos os recibos e
+retornos históricos ficam intactos, incluindo diagnósticos e capturador 1.
+
+Três ligações de evidência no CSV não aprovam nenhuma coluna global. Windows,
+Windows da escola, dispositivos, audição, revisão docente/linguística,
+estabilidade 83 e aceitação global permanecem pendentes. Sem Qt, build ou push
+neste fecho; o teste de arranque principal é uma verificação posterior separada.

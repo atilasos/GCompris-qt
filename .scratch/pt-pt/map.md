@@ -435,3 +435,16 @@ mantêm os critérios globais, Windows, hardware, áudio e revisão docente pend
 - [90 — Padrões, mosaicos e polígonos](issues/90-padroes-e-formas.md) — metodologia física do lote 88 concluída; próximo grupo pronto.
 
 O lote 88 concluiu 53 tabuleiros, 367 peças e 35 diferenças, com revisões independentes e auditor portátil. Corrigiu seis legendas PT e a guarda de saídas do executor. O CSV tem 203 linhas e 145 ligações de evidência; todos os critérios globais continuam pending.
+
+
+A tarefa 89 fica resolvida no âmbito Linux finito de desenho e criação:
+31 níveis Simplepaint, 61 cores, 23 rotas de ferramentas Sketch e dois níveis
+DrawingWheels, com fluxos de gravação/reabertura e geometria observada.
+O [suplemento de imagens](functional-creation-review/README.md) completa PNG,
+reabertura, desfazer/refazer e preservação; [rechecks independentes](review/integration89/)
+sem achados pendentes. Os 31 testes puros finais passaram, sem novo Qt.
+Cápsula e diagnósticos históricos intactos; combinações livres não esgotadas.
+O CSV mantém 203 linhas e passa de 145 para 148 ligações de evidência.
+Todas as colunas globais Linux, Windows10, escola, offline e revisão linguística
+continuam `pending`; Windows, dispositivos, audição, docente e estabilidade 83
+não recebem aceitação por este fecho. A tarefa 90 conserva o seu trabalho separado.
