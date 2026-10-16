@@ -1,0 +1,12 @@
+test_every_translated_word_is_usable_in_complete_and_sample_lessons (test_corpus.PortugueseCorpusTest.test_every_translated_word_is_usable_in_complete_and_sample_lessons) ... ok
+test_copied_archive_passes_with_historical_worktree_inaccessible (test_portable_archive.PortableArchiveCLI.test_copied_archive_passes_with_historical_worktree_inaccessible) ... ok
+test_tampered_archived_inputs_are_rejected (test_portable_archive.PortableArchiveCLI.test_tampered_archived_inputs_are_rejected) ... ok
+test_dataset_selector_limits_campaign_to_explicit_dataset (test_runner.LessonCheckpointTest.test_dataset_selector_limits_campaign_to_explicit_dataset) ... ok
+test_invalid_lesson_combinations_reject_before_preparation (test_runner.LessonCheckpointTest.test_invalid_lesson_combinations_reject_before_preparation) ... ok
+test_resume_rechecks_changed_frozen_inputs_and_launcher (test_runner.LessonCheckpointTest.test_resume_rechecks_changed_frozen_inputs_and_launcher) ... ok
+test_resume_retains_semantically_identical_json_inputs_but_rechecks_changed_words (test_runner.LessonCheckpointTest.test_resume_retains_semantically_identical_json_inputs_but_rechecks_changed_words) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 5.570s
+
+OK

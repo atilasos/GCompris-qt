@@ -1,7 +1,7 @@
 # Auditar Hangman depois de limpar a worktree
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 38
 
@@ -18,3 +18,15 @@ Provar via CLI que o agregado funciona com evidência copiada e worktree
 histórica inacessível, mantendo recusa de casos/fontes/manifestos adulterados.
 Um implementador, branch/worktree isolada, revisão independente e merger
 separado. Não limpar pt-words-letters antes de selar os bytes necessários.
+
+
+## Answer
+
+Arquivo histórico selado por hashes originais, com116 casos relativos, duas
+árvores congeladas completas/adaptador e um launcher histórico. O agregado
+não segue comandos absolutos nem depende do launcher/corpus atuais.
+CLI vermelho/verde em Docker com worktree antiga inacessível e seis
+adulterações rejeitadas. Sete testes passam. Mantidos116/4824 e174/1740,
+byte a byte e por hashes, sem repetir Qt nem inventar campos antigos.
+Provas em `../portable-hangman54/README.md` e índice separado. Critérios
+Windows/hardware/docente permanecem pendentes; aguarda revisão/merger.

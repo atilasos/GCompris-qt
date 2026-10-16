@@ -140,3 +140,13 @@ constitui aprovação semântica docente de todas as1090 correspondências. Os
 pares fawn/corso e tick/piolho continuam rastreados na tarefa44, com originais
 e propostas separados. Esta conclusão de interação não aprova esses pares,
 pronúncia, audição física ou execução Windows.
+
+
+## Portabilidade do arquivo, tarefa54
+
+O agregado passou a resolver os casos, fontes congeladas, adaptador IME,
+launcher nativo e corpus a partir do próprio arquivo por caminhos relativos.
+Não exige a antiga worktree nem os bytes atuais do launcher. As árvores
+históricas e identidades estão em `sealed-inputs/historical/archive.json`.
+Os recibos e o índice38 permanecem inalterados. A prova CLI isolada, adulterações
+e o agregado portátil estão em `../portable-hangman54/README.md` e index.json.
