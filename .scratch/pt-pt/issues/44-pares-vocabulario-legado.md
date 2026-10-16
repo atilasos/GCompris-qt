@@ -1,6 +1,6 @@
 # Rever dois pares de vocabulário legado
 
-Status: ready-for-human
+Status: ready-for-agent
 Progress: claimed
 Type: task
 Blocked by: 02, 25
@@ -27,3 +27,7 @@ pares antigos. Nenhuma aprovação pode ser atribuída pelo agente.
 Pacote e propostas prontos, ver ../legacy-word-review/README.md.
 Pergunta de audição e escolha pedagógica enviada ao professor. Sem resposta
 ainda; recursos do jogo e aprovação dos32 mantidos. A tarefa continua claimed.
+
+## Aprovação e aplicação autorizada
+
+O professor respondeu «podemos usar o que foi criado» à pergunta dos dois pares. Aprova os nomes e as duas amostras novas apresentadas no ZIP, sem escolher conservar os áudios antigos. Ver ../legacy-word-review/human-approval.json para a identidade do pacote e dos WAV. Esta autorização permite agora aplicar as duas substituições deliberadas de texto/áudio; a restrição anterior de não instalar antes da decisão já foi satisfeita. As32 gravações aprovadas permanecem intactas. O instalador publicado 38862699753 antecede esta alteração e não se apresenta como atualizado.
