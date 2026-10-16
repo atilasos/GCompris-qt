@@ -106,9 +106,9 @@ lightsoff,pending,pending,pending,pending,pending,
 louis-braille,pending,pending,pending,pending,pending,
 magic-hat-minus,pending,pending,pending,pending,pending,
 magic-hat-plus,pending,pending,pending,pending,pending,
-maze,pending,pending,pending,pending,pending,
-mazeinvisible,pending,pending,pending,pending,pending,
-mazerelative,pending,pending,pending,pending,pending,
+maze,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/maze.md
+mazeinvisible,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/mazeinvisible.md
+mazerelative,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/mazerelative.md
 melody,pending,pending,pending,pending,pending,
 memory,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/memory.md
 memory-case-association,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/memory-case-association.md
@@ -146,10 +146,10 @@ nine_men_morris_2players,pending,pending,pending,pending,pending,
 note_names,pending,pending,pending,pending,pending,
 number_sequence,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/number_sequence.md
 numbers-odd-even,pending,pending,pending,pending,pending,
-ordering_alphabets,pending,pending,pending,pending,pending,
+ordering_alphabets,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/ordering_alphabets.md
 ordering_chronology,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/ordering_chronology.md
-ordering_numbers,pending,pending,pending,pending,pending,
-ordering_sentences,pending,pending,pending,pending,pending,
+ordering_numbers,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/ordering_numbers.md
+ordering_sentences,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/ordering_sentences.md
 oware,pending,pending,pending,pending,pending,
 oware_2players,pending,pending,pending,pending,pending,
 paintings,pending,pending,pending,pending,pending,
