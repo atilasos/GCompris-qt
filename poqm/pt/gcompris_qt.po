@@ -4467,7 +4467,7 @@ msgstr "A competição desportiva ocorreu na última sexta-feira de setembro de 
 #: activities/canal_lock/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Operate a canal lock"
-msgstr "Operar um fecho de canal"
+msgstr "Controlar uma eclusa"
 
 #. Help title
 #: activities/canal_lock/ActivityInfo.qml:17
@@ -4475,15 +4475,13 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Tux is in trouble, and needs to take his boat through a lock. Help Tux and "
 "find out how a canal lock works."
-msgstr ""
-"O Tux está em apuros, e precisa de passar o seu barco por um portão. Ajude o "
-"Tux a descobrir como é que funciona esse fecho do canal."
+msgstr "O Tux precisa de fazer passar o seu barco por uma eclusa. Ajuda-o a descobrir como funciona."
 
 #. Help goal
 #: activities/canal_lock/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Understand how a canal lock works."
-msgstr "Compreender como funciona um fecho de canal."
+msgstr "Compreender como funciona uma eclusa."
 
 #. Help manual
 #: activities/canal_lock/ActivityInfo.qml:23
@@ -4491,20 +4489,14 @@ msgctxt "ActivityInfo|"
 msgid ""
 "You are in charge of the canal lock. Open the gates and the locks in the "
 "right order, so that Tux can travel through the gates in both directions."
-msgstr ""
-"Tu és o responsável pelo fecho e a abertura do canal. Abre as comportas "
-"verdes e amarelas pela ordem correta, para que o Tux consiga viajar pelos "
-"portões em ambas as direções."
+msgstr "Estás a controlar a eclusa. Abre e fecha as comportas e as válvulas pela ordem correta para que o Tux atravesse a eclusa nos dois sentidos."
 
 #: activities/canal_lock/CanalLock.qml:74
 msgctxt "CanalLock|"
 msgid ""
 "Your goal is to lead Tux across the canal lock to get the wooden logs, using "
 "the different types of water locks available."
-msgstr ""
-"O teu objetivo é fazeres com que o Tux atravesse o portão trancado para "
-"apanhar os troncos de madeira, usando os diferentes tipos de comportas de "
-"água disponíveis."
+msgstr "O teu objetivo é ajudar o Tux a atravessar a eclusa para ir buscar os troncos de madeira, usando as comportas e as válvulas disponíveis."
 
 #: activities/canal_lock/CanalLock.qml:77
 msgctxt "CanalLock|"
@@ -4512,20 +4504,14 @@ msgid ""
 "The vertical colored bars represent the water locks, which can be operated "
 "by clicking on them. Two locks of the same type cannot be operated "
 "simultaneously."
-msgstr ""
-"As barras coloridas verticais representam as comportas da água, que podem "
-"ser operadas ao carregar nelas. Não podes manipular duas comportas do mesmo "
-"tipo em simultâneo."
+msgstr "As barras verdes representam as comportas e as amarelas representam as válvulas de água. Clica nas barras para as abrir ou fechar. Não podes abrir duas barras do mesmo tipo ao mesmo tempo."
 
 #: activities/canal_lock/CanalLock.qml:80
 msgctxt "CanalLock|"
 msgid ""
 "The water level inside the lock will change according to the side of the "
 "canal it is connected to. Use this property to help Tux get the job done."
-msgstr ""
-"O nível de água dentro da comporta irá mudar de acordo com o lado do canal "
-"ao qual está ligado. Usa esta propriedade para ajudares o Tux a terminar a "
-"tarefa."
+msgstr "O nível de água dentro da eclusa muda de acordo com o lado do canal a que está ligada. Usa esta diferença de nível para ajudar o Tux a completar a tarefa."
 
 #: activities/categorization/ActivityConfig.qml:38
 msgctxt "ActivityConfig|"
