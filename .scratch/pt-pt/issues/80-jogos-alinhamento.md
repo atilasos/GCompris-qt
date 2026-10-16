@@ -1,7 +1,7 @@
 # Jogo do galo e quatro em linha
 
 Status: ready-for-agent
-Progress: resolved
+Progress: ready-for-review
 Type: task
 Blocked by: 02, 25
 
@@ -39,3 +39,8 @@ continuam pendentes.
 Correções reproduzidas por mesmos casos vermelhos/verdes: três frases PT, publicação inicial dos cinco níveis do galo, empate prematuro de quatro-em-linha com 40/39 peças, e coluna do teclado calculada antes de Grid ter layout após reinício. Arquivo físico com quatro fases e 982 fontes, três inventários de snapshots físicos de 269 ficheiros, quatro WAV descodificadas sem audição. As 42 partidas anteriores são compostas explicitamente com os verdes finais dirigidos do layout, sem atribuir-lhes nova execução integral.
 
 [Provas e limites](../functional-alignment/README.md). Auditor físico portátil sem Git/Qt/caminhos históricos, âncoras literais, negativas de cobertura vazia/fonte/catálogo/caminho/caso/status e adulteração coerente com novo selo; Python -O recusado. Retornos Qt, launcher, supervisor e ferramenta observados separadamente. Os quatro diagnósticos de parser interrompidos operacionalmente (Qt137, externos1) são preservados e não contam para cobertura. Todos os processos nativos terminaram antes da entrega. Windows, dispositivos físicos, audição e revisão docente permanecem pendentes.
+
+## Integração
+
+Provas integradas para Standards e Spec independentes. Estado
+`ready-for-review`, sem resolução final ou aceitação global.

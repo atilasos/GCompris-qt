@@ -159,7 +159,7 @@ e os restantes critérios de aceitação mantêm os seus estados próprios.
 
 A memória matemática concluiu 14 variantes e 207 combinações nível/modo;
 decimais/quantidades concluíram 316 puzzles em 16 campanhas offline e quatro casos de controlos.
-As 125 atividades com evidência funcional ligada na matriz não representam
+As 129 atividades com evidência funcional ligada na matriz não representam
 a aceitação global dos 203 jogos.
 
 - [40 — Contrato dos níveis do Solitário](issues/40-niveis-solitario.md)
@@ -359,3 +359,8 @@ critérios globais, Windows, hardware, áudio ou revisão docente.
 A ocorrência original139 da tarefa81 fica preservada e em investigação separada.
 Três repetições completas0 não demonstram a sua causa nem ausência futura.
 A estabilidade e a aceitação global permanecem pendentes.
+
+A tarefa 80 tem provas Linux dos quatro jogos de alinhamento integradas e
+aguarda Standards e Spec independentes em `ready-for-review`. As quatro
+ligações funcionais acrescentadas mantêm todos os critérios globais, Windows,
+hardware, áudio e revisão docente pendentes.

@@ -6,8 +6,8 @@ algebra_div,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/al
 algebra_minus,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/algebra_minus.md
 algebra_plus,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/algebra_plus.md
 algorithm,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/algorithm.md
-align4,pending,pending,pending,pending,pending,
-align4_2players,pending,pending,pending,pending,pending,
+align4,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/align4.md
+align4_2players,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/align4_2players.md
 alphabet-sequence,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/alphabet-sequence.md
 analog_electricity,pending,pending,pending,pending,pending,
 baby_keyboard,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/baby_keyboard.md
@@ -194,8 +194,8 @@ tens_complement_calculate,pending,pending,pending,pending,pending,.scratch/pt-pt
 tens_complement_find,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/tens_complement_find.md
 tens_complement_swap,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/tens_complement_swap.md
 tens_complement_use,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/tens_complement_use.md
-tic_tac_toe,pending,pending,pending,pending,pending,
-tic_tac_toe_2players,pending,pending,pending,pending,pending,
+tic_tac_toe,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/tic_tac_toe.md
+tic_tac_toe_2players,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/tic_tac_toe_2players.md
 traffic,pending,pending,pending,pending,pending,
 vertical_addition,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/vertical_addition.md
 vertical_subtraction,pending,pending,pending,pending,pending,.scratch/pt-pt/validation/vertical_subtraction.md
