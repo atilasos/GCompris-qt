@@ -1,0 +1,13 @@
+..E
+======================================================================
+ERROR: test_nine_classes_and_natural_wrong_repair_feedback (test_observation.Tutorial.test_nine_classes_and_natural_wrong_repair_feedback)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/proteu/Projetos/GCompris-qt-worktrees/pt-polygon-observation/tests/polygon_observation_audit/test_observation.py", line 81, in test_nine_classes_and_natural_wrong_repair_feedback
+    from polygon_observation_audit import validate_tutorial
+ImportError: cannot import name 'validate_tutorial' from 'polygon_observation_audit' (/home/proteu/Projetos/GCompris-qt-worktrees/pt-polygon-observation/tests/polygon_observation_audit/__init__.py)
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (errors=1)
