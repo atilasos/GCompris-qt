@@ -1,7 +1,7 @@
 # Partilhar doces em PT-PT
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -59,3 +59,8 @@ Clarificado o critério de Python -O: as verificações continuam ativas sob
 otimização, com sucesso da prova válida e rejeição das adulterações. O auditor
 `require()` e os testes existentes já comprovam esse comportamento. O P3 era
 uma ambiguidade do texto; código e provas históricas permanecem iguais.
+
+## Fecho de revisão
+
+Revisões independentes concluídas; [relatórios e limites](../review/integration74/).
+Resolução limitada à prova Linux publicada, sem alterar critérios globais.

@@ -295,13 +295,15 @@ Standards e Spec sem achados; [relatórios](review/integration71/). Duas ligaç�
 critérios globais, Windows, hardware, áudio ou revisão docente.
 
 A tarefa 74 tem prova Linux integrada de 146 perguntas/30 níveis nos dois
-modos, 30 erros reparados e 544 transferências. Está `ready-for-review`,
-aguardando Standards e Spec independentes. A ligação de partilha foi
-acrescentada sem alterar critérios globais, Windows, hardware, áudio ou docente.
+modos, 30 erros reparados e 544 transferências. Fica resolvida no âmbito Linux
+após revisões e correção do P3 documental; [relatórios](review/integration74/).
+Os retornos externos publicados são do launcher, sem tool-status individual
+dos 14 casos. A ligação mantém critérios globais, Windows, hardware, áudio e
+revisão docente pendentes.
 
 A tarefa 73 tem prova Linux integrada de 14 níveis e 102 perguntas romanas,
-com erros reparados e entradas física/virtual. Está `ready-for-review`,
-aguardando Standards e Spec independentes. A ligação foi acrescentada sem
+com erros reparados e entradas física/virtual. Fica resolvida no âmbito Linux
+após revisões independentes; [relatórios](review/integration73/). A ligação mantém os
 alterar critérios globais, Windows, hardware, áudio ou revisão docente.
 
 - [76 — Orientação espacial e botões do rato](issues/76-orientacao-e-rato.md)

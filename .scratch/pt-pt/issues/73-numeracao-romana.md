@@ -1,7 +1,7 @@
 # Numeração romana em PT-PT
 
 Status: ready-for-agent
-Progress: ready-for-review
+Progress: resolved
 Type: task
 Blocked by: 02, 25
 
@@ -27,3 +27,8 @@ pendentes.
 
 Provas integradas para Standards e Spec independentes. `ready-for-review`
 não representa resolução final ou aceitação global.
+
+## Fecho de revisão
+
+Revisões independentes concluídas; [relatórios e limites](../review/integration73/).
+Resolução limitada à prova Linux publicada, sem alterar critérios globais.
