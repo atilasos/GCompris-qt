@@ -73,3 +73,7 @@ Driver interrompe toda a matriz por falha real do inferior, mesmo com wrapper0.
 P2 corrigido; Standards e Spec revalidados sem achados restantes no artefacto.
 [Relatórios](../review/integration83/README.md). A causa original permanece
 desconhecida, pelo que esta tarefa continua aberta.
+
+## Análise adicional sem nova execução
+
+A [comparação dos registos existentes](../research/83-next-evidence.md) distingue os payloads naturais e a identidade incompleta das bibliotecas Qt do host. A causa continua desconhecida. O possível ensaio de saída ali descrito é uma proposta finita, não uma execução nem uma correção demonstrada. Não se iniciou nova campanha de carga.
