@@ -1,0 +1,159 @@
+{
+  "native_cases": [
+    {
+      "result": "final/gnumch-equality-01/result.json",
+      "result_sha256": "37650677b533a711f6bbd6e9eb60664abab75829b7d84c3c36cc5e33d25edf85",
+      "case_sha256": "a763c961682841fde10745da1a0d50d0413d5bdcecdc755ff52f392286aedbe1",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "final/gnumch-equality-11/result.json",
+      "result_sha256": "33984b43c98f4d5a337e05831e1b94ab8d675434771f89ad806f29c594e310bc",
+      "case_sha256": "12f0b46e8bafe1b5a0fa64e4ad6567da0e926be924dc4bfbb1b6bbf315ea0c57",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "final/gnumch-equality-21/result.json",
+      "result_sha256": "69f257cd7a309ec927439791a6ff21db9ba71ae18a80cede3e6fc8cea5016eda",
+      "case_sha256": "e8a917e1a686d263c85e8fc3b6b4a3be38f080fc2d8a05b86a92778976144108",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "final/gnumch-equality-31/result.json",
+      "result_sha256": "67a80aff6e62792cef000f7d671953d5701b8c4b73cd73ba97d1abceaa244dd5",
+      "case_sha256": "e7d8f3c3f5c9c7ded0ff9d15ab0cbdc2af68bb6d0e882ed3d98013be69e67e99",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "final/gnumch-factors-01/result.json",
+      "result_sha256": "9f4b8623855a47c0d159c94757bc2571ee7622e96b10e174ffdec6d01d70f142",
+      "case_sha256": "fe06f1f6f4737ac13a3b8db805f91917b12227fd368524e1e7c175ace3f4ded1",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "final/gnumch-inequality-01/result.json",
+      "result_sha256": "a10abdc21b91fd3840d0ef45b017b78395ef0c594eb8dcdfd3f376584d8d7f22",
+      "case_sha256": "a763c961682841fde10745da1a0d50d0413d5bdcecdc755ff52f392286aedbe1",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "final/gnumch-inequality-11/result.json",
+      "result_sha256": "e7dcf35072a7c979b39e861374513d10f287c2218bf3e6c08416e645e29de67d",
+      "case_sha256": "12f0b46e8bafe1b5a0fa64e4ad6567da0e926be924dc4bfbb1b6bbf315ea0c57",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "final/gnumch-inequality-21/result.json",
+      "result_sha256": "0bd9cea1eda65b8bd6447b810042070eced201d05197e19e39fbb72293c6beb2",
+      "case_sha256": "e8a917e1a686d263c85e8fc3b6b4a3be38f080fc2d8a05b86a92778976144108",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "final/gnumch-inequality-31/result.json",
+      "result_sha256": "52d27b38b3280aed21deba6b4c79941a92b53617f22d553149a7ec5d02a041a7",
+      "case_sha256": "e7d8f3c3f5c9c7ded0ff9d15ab0cbdc2af68bb6d0e882ed3d98013be69e67e99",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "final/gnumch-multiples-01/result.json",
+      "result_sha256": "0f3c04cd648ee3cd2c73e83fb11f3555560a64d20ad2d8d5232868559c8268fa",
+      "case_sha256": "fe06f1f6f4737ac13a3b8db805f91917b12227fd368524e1e7c175ace3f4ded1",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "final/gnumch-primes-01/result.json",
+      "result_sha256": "8e6d6771797a15473d84b8bbb132091fbb47244d348c62ae5a9772a93f57d89f",
+      "case_sha256": "fe06f1f6f4737ac13a3b8db805f91917b12227fd368524e1e7c175ace3f4ded1",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "controls/gnumch-equality/result.json",
+      "result_sha256": "b8d11368a45a59e76e670a4863b9b83b68af0a696773ccbdcc6140fb7d120e9f",
+      "case_sha256": "7c77f0490b7475e057b62f78daa16dbd325b3d24ed1f30dda0c49c2e8105c096",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "controls/gnumch-factors/result.json",
+      "result_sha256": "e45b70362ca351be883bfcbd83e0ffa7e147b2a65ed7ab408f68ca623e7e4b55",
+      "case_sha256": "7c77f0490b7475e057b62f78daa16dbd325b3d24ed1f30dda0c49c2e8105c096",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "controls/gnumch-inequality/result.json",
+      "result_sha256": "fc30eee766248fa3eeae77b1fcbf494276b5a5f3b1c628a0592371c56ff1e0fe",
+      "case_sha256": "7c77f0490b7475e057b62f78daa16dbd325b3d24ed1f30dda0c49c2e8105c096",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "controls/gnumch-multiples/result.json",
+      "result_sha256": "90a4cdc9d5303eac8b3eb697b1f86f4b7aaacaf54d8429c36c9662393d3ab389",
+      "case_sha256": "7c77f0490b7475e057b62f78daa16dbd325b3d24ed1f30dda0c49c2e8105c096",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "controls/gnumch-primes/result.json",
+      "result_sha256": "ee5bf099fb5c121fd1bcd4c6e71ea637325869b3a8e2db63b963c57070dd9bc8",
+      "case_sha256": "7c77f0490b7475e057b62f78daa16dbd325b3d24ed1f30dda0c49c2e8105c096",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "monsters/gnumch-equality/result.json",
+      "result_sha256": "33c19fa350549c8586652a0b590d6d05100c813fd6f136eab0fa1db0ec1c8870",
+      "case_sha256": "546e04d4856c65c96c47ee477e082f50cd16910d14c180b047c5e809aefcd89b",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "monsters/gnumch-factors/result.json",
+      "result_sha256": "077ed0ac23cf886631a1c03cd5eda384bb2fe96a40df47227b64404db15f1be8",
+      "case_sha256": "546e04d4856c65c96c47ee477e082f50cd16910d14c180b047c5e809aefcd89b",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "monsters/gnumch-inequality/result.json",
+      "result_sha256": "9a09eb2e8e809ec3817f4d0e4c62f31a2026034ff3c01a3def05a3af9c89c189",
+      "case_sha256": "546e04d4856c65c96c47ee477e082f50cd16910d14c180b047c5e809aefcd89b",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "monsters/gnumch-multiples/result.json",
+      "result_sha256": "4d94986f19f025641d83d42c8838c70d5ef4f77e669f9ada4392542f148bd162",
+      "case_sha256": "546e04d4856c65c96c47ee477e082f50cd16910d14c180b047c5e809aefcd89b",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "result": "monsters/gnumch-primes/result.json",
+      "result_sha256": "598c4b0d2c145f29e5f40c6fe74507be18c79eab2340800512299c23a51241f1",
+      "case_sha256": "546e04d4856c65c96c47ee477e082f50cd16910d14c180b047c5e809aefcd89b",
+      "passed": true,
+      "exit_code": 0
+    }
+  ],
+  "main_levels": 104,
+  "additional_loss_recovery_levels": 5,
+  "all_supervisor_campaign_exit_codes": {
+    "original_baseline": 0,
+    "fixed_final": 0,
+    "controls": 0,
+    "monsters": 0
+  }
+}
