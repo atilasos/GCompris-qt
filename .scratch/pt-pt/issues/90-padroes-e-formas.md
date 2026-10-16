@@ -1,7 +1,7 @@
 # Concluir padrões, mosaicos e polígonos por geometria visível
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Type: task
 Blocked by: 02, 25, 88
 
@@ -46,6 +46,29 @@ critérios globais permanecem pendentes. Trabalho só no fork.
 
 ## Implementação para revisão
 
-Review: ready-for-review
+Review: completed
 
-Provas em ../functional-patterns/README.md.90 conclusões primárias,90 erros reparados; modo livre separado.23 execuções Qt com zero, sete fixtures externas negativas e um histórico parcial distinguido. Auditor com duas âncoras literais, fontes/recursos físicos, negativas coerentes e cópia Docker normal/-O passou.15 testes externos passaram nos dois modos. CSV152 ligações finitas,203 atividades e todos os critérios globais pending. Sem alterações de produto neste lote. A revisão independente ainda falta; tarefa continua claimed.
+Provas em ../functional-patterns/README.md.90 conclusões primárias,90 erros reparados; modo livre separado.23 execuções Qt com zero, sete fixtures externas negativas e um histórico parcial distinguido. Auditor com duas âncoras literais, fontes/recursos físicos, negativas coerentes e cópia Docker normal/-O passou.15 testes externos passaram nos dois modos. CSV152 ligações finitas,203 atividades e todos os critérios globais pending. Sem alterações de produto neste lote. As revisões independentes posteriores estão arquivadas no Answer.
+
+
+## Answer
+
+Resolvida no âmbito Linux finito após integração `2643942b9` e
+[revisões Spec e Standards sem achados](../review/integration90/README.md).
+Foram concluídos 38 padrões fixos, 21 padrões simétricos fixos,
+22 perguntas Mosaic geradas e nove níveis do tutorial Polygons,
+com 90 erros reparados e continuações naturais. Mosaic conserva o limite
+de uma pergunta gerada por nível. Os nove exemplos do modo livre de Polygons
+não são níveis nem conclusões adicionais.
+
+Os controlos finais cobrem ajuda/Escape, retoma, reinício parcial,
+configurações 3/3/4 e regresso ao menu durante atividade e após sucesso.
+Sym2 permanece parcial, substituído pelo Sym3 com mudança real da célula.
+Os dois auditores físicos independentes terminaram com zero, sessões 72889
+e 49869, chunks 25143f e 674ded. A cápsula literal, os 23 recibos e todos os
+negativos permanecem intactos. Nenhum código de produto ou áudio mudou no lote.
+
+Quatro ligações de evidência mantêm todas as colunas globais `pending`.
+Windows, escola, dispositivos, audição, revisão docente/linguística,
+estabilidade 83 e aceitação global continuam pendentes. Este fecho documental
+não executou Qt, builds ou publicação e não altera a tarefa 44 posterior.
