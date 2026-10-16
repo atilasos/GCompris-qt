@@ -1,0 +1,105 @@
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/bargame.rcc
+Generate bargame RCC
+Built target rcc_bargame
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/braille_fun.rcc
+Generate braille_fun RCC
+Built target rcc_braille_fun
+[  0%] Generating shareFolders
+[  0%] Built target createShareFolders
+[100%] Generating ../../../share/gcompris-qt/rcc/checkers.rcc
+[100%] Generate checkers RCC
+[100%] Built target rcc_checkers
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/color_mix.rcc
+Generate color_mix RCC
+Built target rcc_color_mix
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/drawing_wheels.rcc
+Generate drawing_wheels RCC
+Built target rcc_drawing_wheels
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/fifteen.rcc
+Generate fifteen RCC
+Built target rcc_fifteen
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/followline.rcc
+Generate followline RCC
+Built target rcc_followline
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/football.rcc
+Generate football RCC
+Built target rcc_football
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/hexagon.rcc
+Generate hexagon RCC
+Built target rcc_hexagon
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/left_right_click.rcc
+Generate left_right_click RCC
+Built target rcc_left_right_click
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/leftright.rcc
+Generate leftright RCC
+Built target rcc_leftright
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/melody.rcc
+Generate melody RCC
+Built target rcc_melody
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/mining.rcc
+Generate mining RCC
+Built target rcc_mining
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/piano_composition.rcc
+Generate piano_composition RCC
+Built target rcc_piano_composition
+[  0%] Generating shareFolders
+[  0%] Built target createShareFolders
+[  0%] Generating ../../../share/gcompris-qt/rcc/play_piano.rcc
+[100%] Generate play_piano RCC
+[100%] Built target rcc_play_piano
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/polygons.rcc
+Generate polygons RCC
+Built target rcc_polygons
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/railroad.rcc
+Generate railroad RCC
+Built target rcc_railroad
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/renewable_energy.rcc
+Generate renewable_energy RCC
+Built target rcc_renewable_energy
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/submarine.rcc
+Generate submarine RCC
+Built target rcc_submarine
+Generating shareFolders
+Built target createShareFolders
+Generating ../../../share/gcompris-qt/rcc/superbrain.rcc
+Generate superbrain RCC
+Built target rcc_superbrain
+[  0%] Generating shareFolders
+[  0%] Built target createShareFolders
+[  0%] Generating ../../../share/gcompris-qt/rcc/traffic.rcc
+[100%] Generate traffic RCC
+[100%] Built target rcc_traffic
