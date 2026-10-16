@@ -341,3 +341,5 @@ Duas ligações mantêm os critérios globais,
 Windows, hardware, áudio e revisão docente pendentes.
 
 - [81 — Coordenação com a bola](issues/81-coordenacao-com-bola.md)
+
+- [82 — Contagens públicas dos níveis](issues/82-contratos-publicos-niveis.md)
