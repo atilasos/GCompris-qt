@@ -1,0 +1,27 @@
+{
+  "scope": "Source inspection and retained CI log observations; Windows container bytes not downloaded or independently inspected here",
+  "ci_run": "38885128522",
+  "ci_source_head": "11f6ff1c4",
+  "ci_full_log_sha256": "54d7553bb4d0170934c600ea12d69f025011e81093e67cc8057a82ff3e283d84",
+  "ci_excerpt_sha256": "0a3162a06aaaea5c2632cbeb5c0562e7911fba59276e7d9d2160c79786545a6d",
+  "observed_windows_rcc_sha256": "471e582267642fbe0019eadb887ffb9e8ff537afe2a89feb4b40cfc52a75d2dd",
+  "observed_windows_contents_sha256": "d0a780069923bc88aeee9ef9b900fed77f4e1a1de560d497728d697440f56bf7",
+  "rcc_bytes": 37210875,
+  "contents_bytes": 3484,
+  "ci_complete_verified_resources": 1610,
+  "qt_sources": [
+    {
+      "url": "https://code.qt.io/cgit/qt/qtbase.git/tree/src/tools/rcc/rcc.cpp?h=v6.10.2",
+      "provided_local_file_sha256": "874670027d0f114d43a12ce329e0a1b89445bd2ec8bd2d613101474fb32eb142",
+      "relevant_lines": "104;1148-1258;1260-1333",
+      "finding": "Data and name sections iterate QMultiHash children; only tree siblings sort by the resource-name lookup hash."
+    },
+    {
+      "url": "https://code.qt.io/cgit/qt/qtbase.git/tree/src/tools/rcc/main.cpp?h=v6.10.2",
+      "provided_local_file_sha256": "c57565e8c97c22406864c670b452e5051838bcf6fbd91b4f5408b7a954cea637",
+      "finding": "Deterministic global seed is already enabled."
+    }
+  ],
+  "diagnosis_limit": "Unordered iteration explains why sorted QRC input and fixed seed are not a cross-platform container contract. The precise ABI/hash implementation difference between these two hosts was not isolated.",
+  "next_ci_required": "Check complete physical Windows RCC/Contents and both staged/installed package checks under the explicit fixed pair."
+}

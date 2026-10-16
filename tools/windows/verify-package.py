@@ -7,7 +7,20 @@ import json
 from pathlib import Path
 
 
-def check(stage, activities, entries, listed=None, completion=None, voice_policy=None):
+def approved_completion_files(completion, policy, variants=None):
+    """Select one complete externally pinned container/index pair, never a mix."""
+    if completion is None:
+        return None
+    if any(completion.get(key) != value for key, value in policy.items() if key != 'files'):
+        return None
+    pairs = [policy['files']] if variants is None else [variant['files'] for variant in variants]
+    for pair in pairs:
+        if completion.get('files') == pair:
+            return pair + policy['provenance_files']
+    return None
+
+
+def check(stage, activities, entries, listed=None, completion=None, voice_policy=None, voice_container_variants=None):
     required = ['bin/GCompris.exe', 'bin/Qt6Core.dll', 'bin/Qt6Gui.dll',
                 'bin/Qt6Qml.dll', 'bin/vcruntime140.dll', 'bin/msvcp140.dll', 'bin/Qt6Quick.dll', 'bin/Qt6Multimedia.dll',
                 'bin/platforms/qwindows.dll', 'bin/platforms/qoffscreen.dll',
@@ -26,10 +39,11 @@ def check(stage, activities, entries, listed=None, completion=None, voice_policy
     corrupt = []
     replacements = []
     if voice_policy is not None:
-        if completion is None or any(completion.get(key) != value for key, value in voice_policy.items()):
+        approved = approved_completion_files(completion, voice_policy, voice_container_variants)
+        if approved is None:
             corrupt.append('voice-completion-manifest')
         else:
-            replacements = voice_policy['files'] + voice_policy['provenance_files']
+            replacements = approved
     elif completion is not None:
         source = next((entry for entry in entries if entry['path'] == 'voices-ogg/' + completion.get('source_rcc', '')), None)
         valid = (completion.get('format') == 1 and source is not None and
@@ -79,7 +93,8 @@ if __name__ == '__main__':
     entries = lock['files']
     manifest = args.stage / 'share/GCompris/rcc/data3/voices-ogg/completion.json'
     completion = json.loads(manifest.read_text()) if manifest.exists() else None
-    result = check(args.stage, activities, entries, listed, completion, lock.get('pt_voice_completion'))
+    result = check(args.stage, activities, entries, listed, completion, lock.get('pt_voice_completion'),
+                   lock.get('pt_voice_container_variants'))
     args.output.write_text(json.dumps(result, indent=2) + '\n')
     print(json.dumps(result, indent=2))
     raise SystemExit(0 if result['passed'] else 1)
