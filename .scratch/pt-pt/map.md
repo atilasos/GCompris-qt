@@ -330,3 +330,5 @@ A tarefa 76 tem prova Linux integrada de 80 tarefas/13 níveis e 13 erros
 reparados em orientação/rato. Está `ready-for-review`, aguardando Standards
 e Spec independentes. Três ligações foram acrescentadas sem alterar critérios
 globais, Windows, hardware, áudio ou revisão docente.
+
+- [80 — Jogos de alinhamento](issues/80-jogos-alinhamento.md)
