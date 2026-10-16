@@ -424,6 +424,10 @@ Quatro ligações mantêm os critérios
 globais, Windows, hardware, áudio e revisão docente pendentes.
 
 A tarefa 87 tem provas Linux integradas de 68 Sudoku fixos e 100 Calcudoku
-gerados, com 18 níveis/nove conjuntos e 18 erros reparados. Está
-`ready-for-review`, aguardando Standards e Spec independentes. Duas ligações
+gerados, com 18 níveis/nove conjuntos e 18 erros reparados. Fica resolvida
+no âmbito Linux finito após rechecks sem achados; [relatórios](review/integration87/).
+Menu após sucesso tem validação complementar em 25 grelhas repetidas, sem
+nova cobertura única. Duas ligações
 mantêm os critérios globais, Windows, hardware, áudio e revisão docente pendentes.
+
+- [89 — Desenho e criação](issues/89-desenho-e-criacao.md)
