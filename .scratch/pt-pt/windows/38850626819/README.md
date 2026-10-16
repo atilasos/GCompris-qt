@@ -26,3 +26,7 @@ continua obrigatório. O candidato não é uma versão letiva final.
 
 Os JSON de estado final e metadados originais estão em `../ci-status/`.
 As provas pequenas deste artefacto foram extraídas sem substituir provas antigas.
+
+Os ficheiros originais Windows conservam os finais de linha CRLF. Por isso
+`git diff --check` assinala esses bytes como espaço final. Não foram
+normalizados, para preservar a prova extraída do artefacto original.
