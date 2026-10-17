@@ -13,6 +13,7 @@ python3 tools/run-native-qml-case.py \
   --activity menu --from-menu \
   --extra-activity dominorio --extra-activity gatos_caes \
   --extra-activity faisca --extra-activity quelhas --extra-activity atari_go \
+  --extra-activity produto \
   --qml-file src/activities/menu/Menu.qml \
   --case tests/crjm/atari-go-tux.qml --output /tmp/atari11-reproduce --offline
 ```
@@ -24,7 +25,7 @@ output directory. The resource snapshot and offline container are prerequisites.
 
 - Red: mode control absent; native assertion failed. `red-result.json` records
   this before the implementation.
-- Green: Tux and two-person cases each passed=true, failures0/passes2,
+- Green: after merging integration tip (including Produto), Tux and two-person cases each passed=true, failures0/passes2,
   qml_errors=[], software renderer, Docker network=none. TestCase counts are
   not assertion counts. See the manifests and logs in each directory.
 - The real Hard match ends through an actual first capture. Tests choose visible
@@ -41,8 +42,8 @@ output directory. The resource snapshot and offline container are prerequisites.
 - Help preserves the human placement. The test waits for native StackView close
   and menu transitions before further input. An earlier test attempted to click
   during the menu transition; the final test waits and reacquires its card.
-- Measured maximum non-help Tux response74ms, help opening3ms, maximum25ms
-  heartbeat gap237ms across the entire run, below pilot ceilings2000/1500/250ms.
+- Measured maximum non-help Tux response73ms, help opening4ms, maximum25ms
+  heartbeat gap212ms across the entire run, below pilot ceilings2000/1500/250ms.
   Host: Intel Core i5-12600K,16 logical CPUs. These figures do not validate a
   modest target device. Repeat there before distribution.
 - Desktop1100×700 and portrait600×900 screenshots inspected: board, distinct

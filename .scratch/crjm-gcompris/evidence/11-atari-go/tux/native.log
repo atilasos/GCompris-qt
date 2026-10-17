@@ -14,7 +14,7 @@ Failed to connect to pipewire instance "Host is down"
 PulseAudioService: pa_context_connect() failed
 qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
 No audio device detected
-qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/tmp/.native-qml-556d626e798047c1a66e2e221ba89694/profile/data/GCompris)
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/tmp/.native-qml-858260caa335475197c3868c9a03abcf/profile/data/GCompris)
 Contents:  "full-aac"  ->  "full-aac-2026-09-23-18-56-49.rcc"
 Contents:  "full-mp3"  ->  "full-mp3-2026-09-23-18-56-49.rcc"
 Contents:  "full-ogg"  ->  "full-ogg-2026-09-23-18-56-49.rcc"
@@ -73,23 +73,23 @@ Contents:  "backgroundMusic-aac"  ->  "backgroundMusic-aac-2024-03-19-11-10-30.r
 Contents:  "backgroundMusic-mp3"  ->  "backgroundMusic-mp3-2024-03-19-11-10-30.rcc"
 Contents:  "backgroundMusic-ogg"  ->  "backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
 Contents:  "words"  ->  "words-webp-2022-04-10-21-14-15.rcc"
-Successfully registered resource "/tmp/.native-qml-556d626e798047c1a66e2e221ba89694/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
+Successfully registered resource "/tmp/.native-qml-858260caa335475197c3868c9a03abcf/bin/../share/gcompris-qt/rcc//data3/full-ogg-2026-09-23-18-56-49.rcc"
 Get voices for  "pt_PT.UTF-8" ,  "pt"
-Successfully registered resource "/tmp/.native-qml-556d626e798047c1a66e2e221ba89694/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-16-00-00-00.rcc"
+Successfully registered resource "/tmp/.native-qml-858260caa335475197c3868c9a03abcf/bin/../share/gcompris-qt/rcc//data3/voices-ogg/voices-pt-2026-10-16-00-00-00.rcc"
 Get voices for  "pt_PT.UTF-8" ,  "pt"
-Successfully registered resource "/tmp/.native-qml-556d626e798047c1a66e2e221ba89694/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/tmp/.native-qml-858260caa335475197c3868c9a03abcf/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
 Get voices for  "pt_PT.UTF-8" ,  "pt"
-Successfully unregistered resource file "/tmp/.native-qml-556d626e798047c1a66e2e221ba89694/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
-Successfully registered resource "/tmp/.native-qml-556d626e798047c1a66e2e221ba89694/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully unregistered resource file "/tmp/.native-qml-858260caa335475197c3868c9a03abcf/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
+Successfully registered resource "/tmp/.native-qml-858260caa335475197c3868c9a03abcf/bin/../share/gcompris-qt/rcc//data3/words/words-webp-2022-04-10-21-14-15.rcc"
 Get voices for  "pt_PT.UTF-8" ,  "pt"
-Successfully registered resource "/tmp/.native-qml-556d626e798047c1a66e2e221ba89694/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/tmp/.native-qml-858260caa335475197c3868c9a03abcf/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
 Get voices for  "pt_PT.UTF-8" ,  "pt"
-Successfully unregistered resource file "/tmp/.native-qml-556d626e798047c1a66e2e221ba89694/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
-Successfully registered resource "/tmp/.native-qml-556d626e798047c1a66e2e221ba89694/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully unregistered resource file "/tmp/.native-qml-858260caa335475197c3868c9a03abcf/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
+Successfully registered resource "/tmp/.native-qml-858260caa335475197c3868c9a03abcf/bin/../share/gcompris-qt/rcc//data3/backgroundMusic/backgroundMusic-ogg-2024-03-19-11-10-30.rcc"
 Get voices for  "pt_PT.UTF-8" ,  "pt"
 qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
 qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
-qml: ATARI_TIMING {"maxResponseMs":74,"helpOpenMs":3,"heartbeatMaxMs":237}
+qml: ATARI_TIMING {"maxResponseMs":73,"helpOpenMs":4,"heartbeatMaxMs":212}
 qml: NATIVE_RESULT {"failures":0,"passes":2}
 DownloadManager: shutting down, 0 active jobs
 previous height set to:  900
