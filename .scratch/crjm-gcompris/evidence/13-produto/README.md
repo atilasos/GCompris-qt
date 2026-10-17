@@ -21,3 +21,5 @@ Medições finais: respostas observadas entre 5 e 60 ms, ajuda 8 ms e maior inte
 Host real: Intel Core i5-12600K, 16 CPUs lógicos, Linux x86_64. É um computador potente; estes tempos não são uma medição em hardware físico modesto. Os alvos do tabuleiro verificaram pelo menos 36 px em 1100×700 e 40 px em 600×900. Capturas desktop, retrato e revisão foram inspecionadas: texto, tabuleiro e botões estão dentro da página e legíveis.
 
 Toque é sintético QtTest, não ensaio num ecrã tátil físico. Testes mudos não verificam áudio nem adequação pedagógica com crianças. Nenhuma publicação/distribuição foi feita.
+
+Depois de integrar o tip com Atari Go contra Tux e Y para duas pessoas, o caso Tux foi repetido com `--extra-activity y --output /tmp/crjm13-integrated`: 2 passes, zero falhas e zero erros QML. Respostas 4–56 ms, ajuda 4 ms e heartbeat 26 ms, conservados em integrated-result.json e integrated-native.log.
