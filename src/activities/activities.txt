@@ -59,6 +59,7 @@ explore_farm_animals
 explore_monuments
 explore_world_animals
 explore_world_music
+faisca
 family
 family_find_relative
 fifteen
