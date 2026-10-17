@@ -23,3 +23,22 @@ export function hasMove(board, vertical) {
     }
     return false;
 }
+export function options(board, vertical) {
+    var result = [], step = vertical ? 10 : 1;
+    for (var first = 0; first < 100; ++first) {
+        if (board[first]) continue;
+        for (var last = first + step; last < 100 && (vertical || Math.floor(first / 10) === Math.floor(last / 10)); last += step) {
+            if (board[last]) break;
+            result.push(segment(first, last, vertical));
+        }
+    }
+    return result;
+}
+export function pairs(board, vertical) {
+    var count = 0;
+    for (var i = 0; i < 100; ++i) {
+        var other = i + (vertical ? 10 : 1);
+        if (other < 100 && (vertical || i % 10 < 9) && !board[i] && !board[other]) ++count;
+    }
+    return count;
+}

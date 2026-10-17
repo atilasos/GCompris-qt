@@ -23,11 +23,71 @@ ActivityBase {
         property int cursor: 0
         property int winner: 0
         property string feedback: ""
+        property bool tux: false
+        property int difficulty: 0
+        property int generation: 0
+        property bool thinking: false
+        property string phase: "match"
+        property int hints: 0
+        property var hintMove: []
+        property var decision: null
+        readonly property bool accepting: !thinking && phase !== "intro" && phase !== "reviewDone"
+        function hint() {
+            if (!accepting || winner) return;
+            hints++;
+            var options = Rules.options(cells, vertical);
+            if (!options.length) return;
+            var move = options[0];
+            if (hints === 1) feedback = qsTr("Perde quem faz a última jogada. Tenta conservar uma jogada para o adversário.");
+            else if (hints === 2) feedback = qsTr("Procura um segmento na linha %1. Observa as opções que restam na outra direção.").arg(Math.floor(move[0] / 10) + 1);
+            else { hintMove = move; feedback = qsTr("Experimenta os extremos assinalados. Esta é uma jogada permitida, não uma garantia de vitória."); }
+        }
+        function lesson() {
+            reset(); phase = "intro";
+            feedback = qsTr("Introdução: cada pessoa ocupa segmentos de duas ou mais casas na sua direção. Perde quem faz a última jogada. Quem começa o turno sem jogadas ganha. A troca inicial muda as orientações, não as pessoas.");
+        }
+        function exercise() {
+            reset(); phase = "exercise";
+            var position = Array(100).fill(1);
+            position[0] = 0; position[10] = 0; position[20] = 0;
+            position[22] = 0; position[23] = 0;
+            cells = position;
+            feedback = qsTr("Exercício didático preparado: joga da linha 1 à linha 2 da primeira coluna. Deixa o par horizontal para o outro participante. Depois de ele o ocupar, ganhas sem jogar. Seleciona os extremos.");
+        }
+        function review() {
+            if (!decision) return;
+            generation++; thinking = false; phase = "review"; winner = 0;
+            cells = decision.cells.slice(); player = decision.player; swapped = decision.swapped;
+            moves = decision.moves; first = -1; last = -1; hints = 0; hintMove = [];
+            feedback = qsTr("Revisão: jogaste da casa %1 à casa %2. Experimenta outro segmento e compara o espaço que deixas.").arg(decision.move[0] + 1).arg(decision.move[decision.move.length - 1] + 1);
+            board.forceActiveFocus();
+        }
+        function requestTux() {
+            if (!tux || phase !== "match" || winner || player !== 2) return;
+            var canSwap = swapAvailable;
+            thinking = true;
+            feedback = qsTr("Tux está a pensar… Podes consultar a ajuda ou reiniciar.");
+            opponent.sendMessage({board: cells, swapped: swapped, swapAvailable: canSwap, difficulty: difficulty, generation: generation});
+        }
+        WorkerScript {
+            id: opponent
+            source: "opponent.mjs"
+            onMessage: message => {
+                if (message.generation !== scene.generation || !scene.thinking || scene.player !== 2 || scene.winner) return;
+                scene.thinking = false;
+                if (message.swap) scene.swap();
+                else if (Rules.legal(scene.cells, message.move || [])) {
+                    scene.first = message.move[0]; scene.last = message.move[message.move.length - 1]; scene.confirm();
+                }
+            }
+        }
+        onStop: { generation++; thinking = false; }
         readonly property bool vertical: (player === 1) !== swapped
-        readonly property bool swapAvailable: !winner && player === 2 && moves === 1 && !swapped
+        readonly property bool swapAvailable: accepting && phase === "match" && !winner && player === 2 && moves === 1 && !swapped
         readonly property var selection: Rules.segment(first, last, vertical)
-        readonly property bool validSelection: !winner && Rules.legal(cells, selection)
+        readonly property bool validSelection: accepting && !winner && Rules.legal(cells, selection)
         function reset() {
+            generation++; thinking = false; phase = "match"; hints = 0; hintMove = []; decision = null;
             cells = Rules.emptyBoard(); player = 1; swapped = false; moves = 0;
             first = -1; last = -1; cursor = 0; winner = 0; feedback = "";
             board.forceActiveFocus();
@@ -36,7 +96,7 @@ ActivityBase {
             first = -1; last = -1; feedback = ""; board.forceActiveFocus();
         }
         function choose(index) {
-            if (winner) return;
+            if (winner || !accepting) return;
             cursor = index;
             if (first < 0) {
                 first = index;
@@ -49,13 +109,26 @@ ActivityBase {
         }
         function confirm() {
             if (!validSelection) return;
+            if (phase === "review") {
+                if (selection.join(",") === decision.move.join(",")) { feedback = qsTr("Escolhe uma alternativa à jogada original."); return; }
+                var originalPairs = Rules.pairs(Rules.place(decision.cells, decision.move), !vertical);
+                var alternativePairs = Rules.pairs(Rules.place(cells, selection), !vertical);
+                cells = Rules.place(cells, selection); first = -1; last = -1; phase = "reviewDone";
+                feedback = qsTr("Revisão concluída: a decisão original deixava %1 pares livres ao adversário; a alternativa deixa %2. Em misère, retirar a última opção ao adversário faz-te perder. Compara também os turnos seguintes.").arg(originalPairs).arg(alternativePairs);
+                return;
+            }
+            if (phase === "match" && player === 1 && !decision)
+                decision = {cells: cells.slice(), player: player, swapped: swapped, moves: moves, move: selection.slice()};
             cells = Rules.place(cells, selection); moves++;
+            hints = 0; hintMove = [];
             first = -1; last = -1;
             player = 3 - player;
             if (!Rules.hasMove(cells, vertical)) {
                 winner = player;
                 feedback = qsTr("O participante %1 não tem jogadas na sua orientação. Perde quem faz a última jogada: participante %2.").arg(player).arg(3 - player);
             } else feedback = "";
+            if (winner) { generation++; thinking = false; }
+            requestTux();
             board.forceActiveFocus();
         }
         function swap() {
@@ -73,7 +146,7 @@ ActivityBase {
             width: parent.width - 20
             horizontalAlignment: Text.AlignHCenter
             fontSize: 24; font.bold: true; color: "#183c50"
-            text: scene.winner ? qsTr("Venceu o participante %1!").arg(scene.winner) : scene.vertical ? qsTr("Participante %1 · Vertical ↕").arg(scene.player) : qsTr("Participante %1 · Horizontal ↔").arg(scene.player)
+            text: scene.phase === "intro" ? qsTr("Aprender Quelhas") : scene.phase === "reviewDone" ? qsTr("Compara as duas decisões") : scene.winner ? qsTr("Venceu o participante %1!").arg(scene.winner) : scene.tux && scene.phase === "match" ? (scene.player === 1 ? (scene.vertical ? qsTr("Tu · Vertical ↕") : qsTr("Tu · Horizontal ↔")) : (scene.vertical ? qsTr("Tux · Vertical ↕") : qsTr("Tux · Horizontal ↔"))) : scene.vertical ? qsTr("Participante %1 · Vertical ↕").arg(scene.player) : qsTr("Participante %1 · Horizontal ↔").arg(scene.player)
         }
         GCText {
             id: roles
@@ -93,8 +166,16 @@ ActivityBase {
             text: scene.feedback || qsTr("Seleciona os dois extremos de um segmento e confirma.")
             wrapMode: Text.WordWrap
         }
+        Flow {
+            id: modeControls
+            anchors { top: instruction.bottom; horizontalCenter: parent.horizontalCenter }
+            width: Math.min(parent.width - 16, 900); spacing: 6
+            GCButton { focusPolicy: Qt.StrongFocus; objectName: "tuxQuelhas"; text: scene.tux ? qsTr("Duas pessoas") : qsTr("Contra Tux"); onClicked: { scene.tux = !scene.tux; scene.reset(); } }
+            GCButton { focusPolicy: Qt.StrongFocus; objectName: "difficultyQuelhas"; visible: scene.tux; text: [qsTr("Fácil: ao acaso"), qsTr("Médio: compara espaço"), qsTr("Difícil: troca e antecipa")][scene.difficulty]; onClicked: { scene.difficulty = (scene.difficulty + 1) % 3; scene.reset(); } }
+            GCButton { focusPolicy: Qt.StrongFocus; objectName: "learnQuelhas"; text: qsTr("Aprender"); onClicked: scene.lesson() }
+        }
         Item {
-            anchors { top: instruction.bottom; bottom: controls.top; left: parent.left; right: parent.right; margins: 8 }
+            anchors { top: modeControls.bottom; bottom: controls.top; left: parent.left; right: parent.right; margins: 8 }
             Item {
                 id: board
                 objectName: "quelhasBoard"
@@ -124,8 +205,8 @@ ActivityBase {
                             readonly property bool occupied: scene.cells[index] > 0
                             readonly property bool preview: scene.first === index || scene.last === index || scene.selection.indexOf(index) >= 0
                             color: occupied ? "#183c50" : preview ? (scene.validSelection || scene.last < 0 ? "#c3e5ae" : "#ffc7bc") : "white"
-                            border.color: board.activeFocus && scene.cursor === index ? "#804100" : "#647986"
-                            border.width: board.activeFocus && scene.cursor === index ? 4 : 1
+                            border.color: scene.hintMove.indexOf(index) >= 0 ? "#b00064" : board.activeFocus && scene.cursor === index ? "#804100" : "#647986"
+                            border.width: scene.hintMove.indexOf(index) >= 0 ? 5 : board.activeFocus && scene.cursor === index ? 4 : 1
                             GCText {
                                 anchors.centerIn: parent
                                 fontSize: Math.max(12, parent.width * 0.45)
@@ -143,10 +224,13 @@ ActivityBase {
         }
         Flow {
             id: controls
-            width: Math.min(parent.width - 16, 760)
+            width: Math.min(parent.width - 16, 1000)
             anchors { bottom: bar.top; horizontalCenter: parent.horizontalCenter; bottomMargin: 6 }
             spacing: 8
             GCButton { focusPolicy: Qt.StrongFocus; objectName: "swapQuelhas"; text: qsTr("Trocar orientações"); enabled: scene.swapAvailable; onClicked: scene.swap() }
+            GCButton { focusPolicy: Qt.StrongFocus; objectName: "lessonQuelhas"; visible: scene.phase === "intro"; text: qsTr("Experimentar"); onClicked: scene.exercise() }
+            GCButton { focusPolicy: Qt.StrongFocus; objectName: "hintQuelhas"; text: qsTr("Pista"); enabled: scene.accepting && !scene.winner; onClicked: scene.hint() }
+            GCButton { focusPolicy: Qt.StrongFocus; objectName: "reviewQuelhas"; text: qsTr("Rever decisão"); visible: scene.winner > 0 && scene.phase === "match" && scene.decision !== null; onClicked: scene.review() }
             GCButton { focusPolicy: Qt.StrongFocus; objectName: "confirmQuelhas"; text: qsTr("Confirmar"); enabled: scene.validSelection; onClicked: scene.confirm() }
             GCButton { focusPolicy: Qt.StrongFocus; objectName: "clearQuelhas"; text: qsTr("Limpar seleção"); enabled: scene.first >= 0 && !scene.winner; onClicked: scene.clear() }
             GCButton { focusPolicy: Qt.StrongFocus; objectName: "restartQuelhas"; text: qsTr("Nova partida"); onClicked: scene.reset() }
