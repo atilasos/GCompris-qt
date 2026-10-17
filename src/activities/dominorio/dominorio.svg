@@ -1,2 +1,6 @@
-<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<!--
+SPDX-FileCopyrightText: NONE
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
 <svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180"><rect x="10" y="10" width="160" height="160" rx="20" fill="#183c50"/><g fill="#edf4eb" stroke="#183c50" stroke-width="3"><path d="M25 25h65v130H25z"/><path d="M90 25h65v65H90z"/><path d="M90 90h65v65H90z"/></g><path d="M57 42v96m-13-15 13 15 13-15M108 57h30m-12-12 12 12-12 12" fill="none" stroke="#175f88" stroke-width="7"/></svg>

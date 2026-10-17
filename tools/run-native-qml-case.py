@@ -11,6 +11,7 @@ import argparse
 from datetime import datetime, timezone
 import hashlib
 import json
+import math
 import os
 from pathlib import Path
 import re
@@ -47,10 +48,18 @@ def main():
     parser.add_argument('--xvfb', type=Path, help='private Xvfb binary, required for offline OpenGL with Mesa')
     parser.add_argument('--offline', action='store_true')
     parser.add_argument('--offline-container-image', default='alpine:latest')
+    parser.add_argument('--offline-cpus', type=float, help='Optional Docker CPU quota; requires --offline')
+    parser.add_argument('--offline-memory-mib', type=int, help='Optional Docker RAM limit with swap disabled; requires --offline')
     parser.add_argument('--start-level', type=int)
     parser.add_argument('--resource-snapshot', type=Path, help='verified independent runtime snapshot to reuse')
     parser.add_argument('--keep-deployment', action='store_true', help='retain successful private deployment; failures are always retained')
     args = parser.parse_args()
+    if (args.offline_cpus is not None or args.offline_memory_mib is not None) and not args.offline:
+        parser.error('Resource limits require --offline')
+    if args.offline_cpus is not None and (not math.isfinite(args.offline_cpus) or args.offline_cpus <= 0):
+        parser.error('--offline-cpus must be positive and finite')
+    if args.offline_memory_mib is not None and args.offline_memory_mib <= 0:
+        parser.error('--offline-memory-mib must be positive')
     if args.renderer == 'opengl' and (not args.offline or not args.xvfb):
         parser.error('OpenGL requires --offline and --xvfb')
     if args.xvfb and (args.renderer != 'opengl' or not args.xvfb.is_file()):
@@ -186,14 +195,24 @@ def main():
         if gnu_chroot is None:
             parser.error('--offline requires GNU chroot with --userspec support')
         settings = [f'{key}={env[key]}' for key in ['QT_QPA_PLATFORM', 'XDG_CONFIG_HOME', 'XDG_DATA_HOME', 'XDG_CACHE_HOME']]
-        command = ['docker', 'run', '--rm', '--pull=never', '--name', container, '--network', 'none', '--read-only',
+        limits = []
+        if args.offline_cpus is not None:
+            limits += ['--cpus', str(args.offline_cpus)]
+        if args.offline_memory_mib is not None:
+            limits += ['--memory', str(args.offline_memory_mib) + 'm', '--memory-swap', str(args.offline_memory_mib) + 'm']
+        command = ['docker', 'run', *limits, '--rm', '--pull=never', '--name', container, '--network', 'none', '--read-only',
                    '--mount', 'type=bind,src=/,dst=/host,readonly',
                    # Restore private resources beneath /tmp after its tmpfs overlay.
                    '--mount', f'type=bind,src={deployment},dst=/host{deployment},readonly',
                    '--mount', f'type=bind,src={snapshot},dst=/host{snapshot},readonly',
                    '--mount', f'type=bind,src={profile},dst=/host{profile}',
                    '--mount', f'type=bind,src={output},dst=/host{output}',
-                   '--tmpfs', '/host/tmp:rw,mode=1777', image, 'chroot', '/host', gnu_chroot,
+                   '--tmpfs', '/host/tmp:rw,mode=1777', image, 'sh', '-c',
+                   'printf "NATIVE_CGROUP_CPU "; cat /sys/fs/cgroup/cpu.max; '
+                   'printf "NATIVE_CGROUP_MEMORY "; cat /sys/fs/cgroup/memory.max; '
+                   '"$@"; status=$?; read peak < /sys/fs/cgroup/memory.peak; printf "NATIVE_CGROUP_PEAK %s\n" "$peak"; '
+                   'sed "s/^/NATIVE_CGROUP_EVENT /" /sys/fs/cgroup/memory.events; exit "$status"',
+                   'gcompris-cgroup', 'chroot', '/host', gnu_chroot,
                    f'--userspec={os.getuid()}:{os.getgid()}', '/', '/usr/bin/env', *settings, *command]
     effective_resources = dict(resource_manifest['files'])
     effective_resources['share/gcompris-qt/rcc/' + relative.parts[0] + '.rcc'] = sha(rcc)
@@ -207,6 +226,7 @@ def main():
                 'binary_sha256': sha(binary), 'runner_sha256': sha(Path(__file__)), 'deployment': str(deployment), 'version_code': version_code,
                 'renderer_requested': args.renderer, 'headless_helper_sha256': sha(ROOT / 'tools/native_qml_headless.py') if args.renderer == 'opengl' else None,
                 'xvfb_sha256': sha(args.xvfb.resolve()) if args.xvfb else None,
+                'offline_limits': {'cpus': args.offline_cpus, 'memory_mib': args.offline_memory_mib, 'swap_disabled': args.offline_memory_mib is not None},
                 'network': 'docker-none' if args.offline else 'not-enforced', 'timestamp_utc': datetime.now(timezone.utc).isoformat(),
                 'scope': 'Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.'}
     log_path = output / 'native.log'
@@ -231,7 +251,23 @@ def main():
     markers = re.findall(r'^qml: ' + re.escape(args.result_marker) + r' (\{.*\})$', text, re.M)
     result = json.loads(markers[0]) if len(markers) == 1 else None
     errors = [line for line in text.splitlines() if ERROR.search(line)]
-    passed = not timeout and code == 0 and result is not None and result.get('failures') == 0 and result.get('passes', 0) >= 1 and not errors
+    cpu_cgroup = re.search(r'^NATIVE_CGROUP_CPU (max|[0-9]+) ([0-9]+)$', text, re.M)
+    memory_cgroup = re.search(r'^NATIVE_CGROUP_MEMORY (max|[0-9]+)$', text, re.M)
+    limits_verified = True
+    if args.offline_cpus is not None:
+        limits_verified = bool(cpu_cgroup and cpu_cgroup[1] != 'max' and
+                               abs(int(cpu_cgroup[1]) / int(cpu_cgroup[2]) - args.offline_cpus) < 0.00001)
+    if args.offline_memory_mib is not None:
+        limits_verified = limits_verified and bool(memory_cgroup and memory_cgroup[1] != 'max' and
+                               int(memory_cgroup[1]) == args.offline_memory_mib * 1024 * 1024)
+    peak_cgroup = re.search(r'^NATIVE_CGROUP_PEAK ([0-9]+)$', text, re.M)
+    memory_events = dict(re.findall(r'^NATIVE_CGROUP_EVENT ([a-z_]+) ([0-9]+)$', text, re.M))
+    metadata['container_cgroup'] = {'memory_peak': int(peak_cgroup[1]) if peak_cgroup else None,
+                                    'memory_events': {name: int(value) for name, value in memory_events.items()},
+                                    'cpu_max': cpu_cgroup[0].removeprefix('NATIVE_CGROUP_CPU ') if cpu_cgroup else None,
+                                    'memory_max': memory_cgroup[1] if memory_cgroup else None,
+                                    'requested_limits_verified': limits_verified}
+    passed = limits_verified and not timeout and code == 0 and result is not None and result.get('failures') == 0 and result.get('passes', 0) >= 1 and not errors
     verify_snapshot(snapshot)
     wrong_owners = [str(path) for root in [profile, output] for path in root.rglob('*')
                     if path.lstat().st_uid != os.getuid() or path.lstat().st_gid != os.getgid()]

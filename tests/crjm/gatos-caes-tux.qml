@@ -49,6 +49,7 @@ TestCase {
         var restart = findChild(game, "restartGatos");
         var difficulty = findChild(game, "difficultyGatos");
         for (var level = 0; level < 3; ++level) {
+            console.log("GATOS_STAGE", "difficulty", level, Date.now());
             click(findChild(game, "gatosCell27"));
             tryVerify(function() { return textIn(game, "Tu · Gatos") || textIn(game, "Venceu"); }, 2000);
             var dogs = 0;
@@ -56,6 +57,7 @@ TestCase {
             ensure(dogs === 1, "Each difficulty returns a complete dog placement");
             click(restart); if (level < 2) click(difficulty);
         }
+        console.log("GATOS_STAGE", "learning", Date.now());
         var learn = findChild(game, "learnGatos");
         board.forceActiveFocus();
         for (var tab2 = 0; tab2 < 20 && !learn.activeFocus; ++tab2) keyClick(Qt.Key_Tab);
@@ -75,6 +77,7 @@ TestCase {
         var turns = 0; heartbeat.start();
         click(findChild(game, "legalGatos"));
         while (!textIn(game, "Venceu") && turns < 40) {
+            console.log("GATOS_STAGE", "hard-turn", turns, Date.now());
             var next = -1;
             for (var c = 0; c < 64; ++c) if (textIn(findChild(game, "gatosCell" + c), "+")) { next = c; break; }
             ensure(next >= 0, "A legal cat placement is displayed");
@@ -99,6 +102,7 @@ TestCase {
             }
             previousDogs = currentDogs; turns++;
         }
+        console.log("GATOS_STAGE", "review", Date.now());
         heartbeat.stop(); ensure(longestBeat < 250, "UI heartbeat below 250ms");
         ensure(textIn(game, "Venceu")); grabImage(pageView).save("__QA_OUTPUT__/result.png");
         click(findChild(game, "reviewGatos")); ensure(textIn(game, "Revisão:"));

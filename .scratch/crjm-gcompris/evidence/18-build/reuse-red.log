@@ -1,0 +1,14 @@
+src/activities/atari_go/ORIGIN.md: no license identifier
+src/activities/atari_go/atari_go.svg: no license identifier
+src/activities/dominorio/PROVENANCE.md: no license identifier
+src/activities/faisca/PROVENANCE.md: no license identifier
+src/activities/faisca/faisca.svg: no license identifier
+src/activities/nex/PROVENANCE.md: no license identifier
+src/activities/nex/nex.svg: no license identifier
+src/activities/produto/PROVENANCE.md: no license identifier
+src/activities/produto/produto.svg: no license identifier
+src/activities/y/PROVENANCE.md: no copyright notice
+src/activities/y/board.mjs: no copyright notice
+src/activities/y/y.svg: invalid SPDX License Expression 'GPL-3.0-or-later --><rect width="100" height="100" rx="15" fill="#edf4eb"/><path d="M15 20H85L50 85Z M15 20L50 48L85 20 M50 48V85" fill="none" stroke="#52646a" stroke-width="5"/><g fill="#1769aa" stroke="white" stroke-width="2"><circle cx="15" cy="20" r="9"/><circle cx="50" cy="48" r="9"/><circle cx="85" cy="20" r="9"/><circle cx="50" cy="85" r="9"/></g></svg>'
+src/activities/y/y.svg: no license identifier
+tests/crjm/README.md: no copyright notice

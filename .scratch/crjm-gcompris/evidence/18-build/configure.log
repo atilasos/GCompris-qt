@@ -1,0 +1,304 @@
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found WrapAtomic: TRUE
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+-- Found WrapOpenGL: TRUE
+-- Found WrapVulkanHeaders: /usr/include
+-- Could NOT find Wayland_Client (missing: Wayland_Client_LIBRARY Wayland_Client_INCLUDE_DIR) (found version "")
+-- Could NOT find Wayland_Server (missing: Wayland_Server_LIBRARY Wayland_Server_INCLUDE_DIR) (found version "")
+-- Could NOT find Wayland_Cursor (missing: Wayland_Cursor_LIBRARY Wayland_Cursor_INCLUDE_DIR) (found version "")
+-- Could NOT find Wayland_Egl (missing: Wayland_Egl_LIBRARY Wayland_Egl_INCLUDE_DIR Wayland_Client_FOUND) (found version "")
+-- Could NOT find Wayland (missing: Wayland_LIBRARIES) 
+CMake Warning at /usr/share/ECM/find-modules/FindWayland.cmake:132 (message):
+  Could not find wayland.xml in
+Call Stack (most recent call first):
+  /usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)
+  /usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6WaylandClient/Qt6WaylandClientDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6WaylandClient/Qt6WaylandClientConfig.cmake:50 (include)
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Config.cmake:251 (find_package)
+  CMakeLists.txt:147 (find_package)
+
+
+CMake Warning at /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Config.cmake:251 (find_package):
+  Found package configuration file:
+
+    /usr/lib/x86_64-linux-gnu/cmake/Qt6WaylandClient/Qt6WaylandClientConfig.cmake
+
+  but it set Qt6WaylandClient_FOUND to FALSE so package "Qt6WaylandClient" is
+  considered to be NOT FOUND.  Reason given by package:
+
+  Qt6WaylandClient could not be found because dependency Wayland could not be
+  found.
+
+  Configuring with --debug-find-pkg=Wayland might reveal details why the
+  package was not found.
+
+  Configuring with -DQT_DEBUG_FIND_PACKAGE=ON will print the values of some
+  of the path variables that find_package uses to try and find the package.
+
+Call Stack (most recent call first):
+  CMakeLists.txt:147 (find_package)
+
+
+CMake Warning at /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Config.cmake:308 (message):
+  Failed to find optional Qt component "WaylandClient".
+
+  Expected Config file at
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt6WaylandClient/Qt6WaylandClientConfig.cmake"
+  exists
+
+Call Stack (most recent call first):
+  CMakeLists.txt:147 (find_package)
+
+
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.5.5")
+CMake Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:169 (message):
+  KDE_INSTALL_BINDIR got its value from CMAKE_INSTALL_BINDIR.  In most cases
+  this is unintended, check if you included GNUInstallDirs before
+  KDEInstallDirs.  Some third party modules include GNUInstallDirs too so eg.
+  find_package(Qt6 ...) is equivalent to include(GNUInstallDirs).  If you set
+  CMAKE_INSTALL_BINDIR deliberately before including KDEInstallDirs its
+  recommended to use KDE_INSTALL_BINDIR instead to suppress this message.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:255 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs6.cmake:201 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:17 (include)
+  CMakeLists.txt:170 (include)
+
+
+CMake Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:169 (message):
+  KDE_INSTALL_SBINDIR got its value from CMAKE_INSTALL_SBINDIR.  In most
+  cases this is unintended, check if you included GNUInstallDirs before
+  KDEInstallDirs.  Some third party modules include GNUInstallDirs too so eg.
+  find_package(Qt6 ...) is equivalent to include(GNUInstallDirs).  If you set
+  CMAKE_INSTALL_SBINDIR deliberately before including KDEInstallDirs its
+  recommended to use KDE_INSTALL_SBINDIR instead to suppress this message.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:258 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs6.cmake:201 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:17 (include)
+  CMakeLists.txt:170 (include)
+
+
+CMake Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:169 (message):
+  KDE_INSTALL_LIBDIR got its value from CMAKE_INSTALL_LIBDIR.  In most cases
+  this is unintended, check if you included GNUInstallDirs before
+  KDEInstallDirs.  Some third party modules include GNUInstallDirs too so eg.
+  find_package(Qt6 ...) is equivalent to include(GNUInstallDirs).  If you set
+  CMAKE_INSTALL_LIBDIR deliberately before including KDEInstallDirs its
+  recommended to use KDE_INSTALL_LIBDIR instead to suppress this message.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:261 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs6.cmake:201 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:17 (include)
+  CMakeLists.txt:170 (include)
+
+
+CMake Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:169 (message):
+  KDE_INSTALL_LIBEXECDIR got its value from CMAKE_INSTALL_LIBEXECDIR.  In
+  most cases this is unintended, check if you included GNUInstallDirs before
+  KDEInstallDirs.  Some third party modules include GNUInstallDirs too so eg.
+  find_package(Qt6 ...) is equivalent to include(GNUInstallDirs).  If you set
+  CMAKE_INSTALL_LIBEXECDIR deliberately before including KDEInstallDirs its
+  recommended to use KDE_INSTALL_LIBEXECDIR instead to suppress this message.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:270 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs6.cmake:201 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:17 (include)
+  CMakeLists.txt:170 (include)
+
+
+CMake Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:169 (message):
+  KDE_INSTALL_INCLUDEDIR got its value from CMAKE_INSTALL_INCLUDEDIR.  In
+  most cases this is unintended, check if you included GNUInstallDirs before
+  KDEInstallDirs.  Some third party modules include GNUInstallDirs too so eg.
+  find_package(Qt6 ...) is equivalent to include(GNUInstallDirs).  If you set
+  CMAKE_INSTALL_INCLUDEDIR deliberately before including KDEInstallDirs its
+  recommended to use KDE_INSTALL_INCLUDEDIR instead to suppress this message.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:220 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:279 (_define_absolute)
+  /usr/share/ECM/kde-modules/KDEInstallDirs6.cmake:201 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:17 (include)
+  CMakeLists.txt:170 (include)
+
+
+CMake Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:169 (message):
+  KDE_INSTALL_LOCALSTATEDIR got its value from CMAKE_INSTALL_LOCALSTATEDIR.
+  In most cases this is unintended, check if you included GNUInstallDirs
+  before KDEInstallDirs.  Some third party modules include GNUInstallDirs too
+  so eg.  find_package(Qt6 ...) is equivalent to include(GNUInstallDirs).  If
+  you set CMAKE_INSTALL_LOCALSTATEDIR deliberately before including
+  KDEInstallDirs its recommended to use KDE_INSTALL_LOCALSTATEDIR instead to
+  suppress this message.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:220 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:288 (_define_absolute)
+  /usr/share/ECM/kde-modules/KDEInstallDirs6.cmake:201 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:17 (include)
+  CMakeLists.txt:170 (include)
+
+
+CMake Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:169 (message):
+  KDE_INSTALL_SHAREDSTATEDIR got its value from CMAKE_INSTALL_SHAREDSTATEDIR.
+  In most cases this is unintended, check if you included GNUInstallDirs
+  before KDEInstallDirs.  Some third party modules include GNUInstallDirs too
+  so eg.  find_package(Qt6 ...) is equivalent to include(GNUInstallDirs).  If
+  you set CMAKE_INSTALL_SHAREDSTATEDIR deliberately before including
+  KDEInstallDirs its recommended to use KDE_INSTALL_SHAREDSTATEDIR instead to
+  suppress this message.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:220 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:291 (_define_absolute)
+  /usr/share/ECM/kde-modules/KDEInstallDirs6.cmake:201 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:17 (include)
+  CMakeLists.txt:170 (include)
+
+
+CMake Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:169 (message):
+  KDE_INSTALL_DATAROOTDIR got its value from CMAKE_INSTALL_DATAROOTDIR.  In
+  most cases this is unintended, check if you included GNUInstallDirs before
+  KDEInstallDirs.  Some third party modules include GNUInstallDirs too so eg.
+  find_package(Qt6 ...) is equivalent to include(GNUInstallDirs).  If you set
+  CMAKE_INSTALL_DATAROOTDIR deliberately before including KDEInstallDirs its
+  recommended to use KDE_INSTALL_DATAROOTDIR instead to suppress this
+  message.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:220 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:299 (_define_absolute)
+  /usr/share/ECM/kde-modules/KDEInstallDirs6.cmake:201 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:17 (include)
+  CMakeLists.txt:170 (include)
+
+
+CMake Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:169 (message):
+  KDE_INSTALL_DATADIR got its value from CMAKE_INSTALL_DATADIR.  In most
+  cases this is unintended, check if you included GNUInstallDirs before
+  KDEInstallDirs.  Some third party modules include GNUInstallDirs too so eg.
+  find_package(Qt6 ...) is equivalent to include(GNUInstallDirs).  If you set
+  CMAKE_INSTALL_DATADIR deliberately before including KDEInstallDirs its
+  recommended to use KDE_INSTALL_DATADIR instead to suppress this message.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:304 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs6.cmake:201 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:17 (include)
+  CMakeLists.txt:170 (include)
+
+
+CMake Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:169 (message):
+  KDE_INSTALL_LOCALEDIR got its value from CMAKE_INSTALL_LOCALEDIR.  In most
+  cases this is unintended, check if you included GNUInstallDirs before
+  KDEInstallDirs.  Some third party modules include GNUInstallDirs too so eg.
+  find_package(Qt6 ...) is equivalent to include(GNUInstallDirs).  If you set
+  CMAKE_INSTALL_LOCALEDIR deliberately before including KDEInstallDirs its
+  recommended to use KDE_INSTALL_LOCALEDIR instead to suppress this message.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:332 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs6.cmake:201 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:17 (include)
+  CMakeLists.txt:170 (include)
+
+
+CMake Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:169 (message):
+  KDE_INSTALL_MANDIR got its value from CMAKE_INSTALL_MANDIR.  In most cases
+  this is unintended, check if you included GNUInstallDirs before
+  KDEInstallDirs.  Some third party modules include GNUInstallDirs too so eg.
+  find_package(Qt6 ...) is equivalent to include(GNUInstallDirs).  If you set
+  CMAKE_INSTALL_MANDIR deliberately before including KDEInstallDirs its
+  recommended to use KDE_INSTALL_MANDIR instead to suppress this message.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:357 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs6.cmake:201 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:17 (include)
+  CMakeLists.txt:170 (include)
+
+
+CMake Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:169 (message):
+  KDE_INSTALL_INFODIR got its value from CMAKE_INSTALL_INFODIR.  In most
+  cases this is unintended, check if you included GNUInstallDirs before
+  KDEInstallDirs.  Some third party modules include GNUInstallDirs too so eg.
+  find_package(Qt6 ...) is equivalent to include(GNUInstallDirs).  If you set
+  CMAKE_INSTALL_INFODIR deliberately before including KDEInstallDirs its
+  recommended to use KDE_INSTALL_INFODIR instead to suppress this message.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:360 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs6.cmake:201 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:17 (include)
+  CMakeLists.txt:170 (include)
+
+
+CMake Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:169 (message):
+  KDE_INSTALL_SYSCONFDIR got its value from CMAKE_INSTALL_SYSCONFDIR.  In
+  most cases this is unintended, check if you included GNUInstallDirs before
+  KDEInstallDirs.  Some third party modules include GNUInstallDirs too so eg.
+  find_package(Qt6 ...) is equivalent to include(GNUInstallDirs).  If you set
+  CMAKE_INSTALL_SYSCONFDIR deliberately before including KDEInstallDirs its
+  recommended to use KDE_INSTALL_SYSCONFDIR instead to suppress this message.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:220 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:387 (_define_absolute)
+  /usr/share/ECM/kde-modules/KDEInstallDirs6.cmake:201 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:17 (include)
+  CMakeLists.txt:170 (include)
+
+
+-- Installing in the same prefix as Qt, adopting their path scheme.
+-- The following OPTIONAL packages have been found:
+
+ * ECM (required version >= 1.4.0)
+ * QT
+ * Qt6QmlTools (required version >= 6.10.2)
+ * Qt6QuickTools (required version >= 6.10.2)
+ * OpenGL
+ * Vulkan
+ * Qt6GuiTools (required version >= 6.10.2)
+ * Qt6CoreTools (required version >= 6.10.2)
+ * Qt6DBusTools (required version >= 6.10.2)
+ * WrapVulkanHeaders
+ * Qt6Quick3DTools (required version >= 6.10.2)
+ * Qt6ShaderToolsTools (required version >= 6.10.2)
+ * Qt6QuickControls2Basic (required version >= 6.5.0)
+ * PkgConfig
+
+-- The following REQUIRED packages have been found:
+
+ * Qt6Qml (required version >= 6.5.0)
+ * Qt6Quick (required version >= 6.5.0)
+ * Qt6Multimedia (required version >= 6.5.0)
+ * Qt6Svg (required version >= 6.5.0)
+ * Qt6LinguistTools (required version >= 6.5.0)
+ * Qt6Sensors (required version >= 6.5.0)
+ * Qt6QuickControls2 (required version >= 6.5.0)
+ * Qt6Graphs (required version >= 6.5.0)
+ * OpenSSL
+ * Qt6
+
+-- The following OPTIONAL packages have not been found:
+
+ * Qt6QmlCompilerPlusPrivateTools (required version >= 6.10.2)
+ * Qt6WaylandClient (required version >= 6.5.0)
+
+-- Did not find the qml-box2d module in system scope, falling back to submodule build ...
+-- Found Git: /usr/bin/git (found version "2.53.0")
+Cloning into '/home/proteu/Projetos/GCompris-qt-worktrees/crjm-18/external/qml-box2d'...
+Submodule path 'external/qml-box2d': checked out 'e3674e0fe030c406a1d915e47eab760624fffa55'
+-- Configuring done (3.2s)
+-- Generating done (0.4s)
+-- Build files have been written to: /home/proteu/Projetos/GCompris-qt-worktrees/crjm-18/build/crjm

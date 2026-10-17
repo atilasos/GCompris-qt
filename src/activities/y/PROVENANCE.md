@@ -28,3 +28,9 @@ including the provenance and rights of this factual transcription.
 Acceptance move transcripts come from paths independently read from the drawing
 and recorded in the CRJM rule tests. They are played through the native controls;
 no test assigns a position or winner.
+
+The new record format and serialisation in `board.mjs` are offered under
+GPL-3.0-or-later, like the other newly authored activity files. This applies to
+that original expression and does not assign rights in the mathematical facts,
+the reference platform or its drawing. REUSE metadata uses `NONE` for the new
+AI-authored material; it does not invent a human copyright holder.

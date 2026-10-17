@@ -5380,3 +5380,16 @@ path = "src/activities/memory-wordnumber/memory-wordnumber-pt.svg"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2015 Timothée Giet"
 SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+# New CRJM integration: no human copyright holder is asserted for AI-authored
+# original files. Existing per-file licence identifiers remain authoritative.
+[[annotations]]
+path = ["src/activities/dominorio/**", "src/activities/gatos_caes/**", "src/activities/faisca/**", "src/activities/quelhas/**", "src/activities/atari_go/**", "src/activities/produto/**", "src/activities/y/**", "src/activities/nex/**", "tests/crjm/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "NONE"
+
+[[annotations]]
+path = ["src/activities/y/board.mjs", "src/activities/y/PROVENANCE.md", "tests/crjm/README.md", "src/activities/atari_go/ORIGIN.md", "src/activities/dominorio/PROVENANCE.md", "src/activities/faisca/PROVENANCE.md", "src/activities/nex/PROVENANCE.md", "src/activities/produto/PROVENANCE.md"]
+precedence = "aggregate"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+SPDX-FileCopyrightText = "NONE"

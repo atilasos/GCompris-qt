@@ -1,1 +1,5 @@
+<!--
+SPDX-FileCopyrightText: NONE
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
 <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160"><rect x="8" y="8" width="144" height="144" rx="16" fill="#e8bc77"/><path d="M32 32H128M32 80H128M32 128H128M32 32V128M80 32V128M128 32V128" stroke="#624b32" stroke-width="3"/><circle cx="80" cy="80" r="20" fill="#17212a"/><circle cx="128" cy="80" r="19" fill="#fff" stroke="#17212a" stroke-width="3"/><path d="M122 80h12" stroke="#17212a" stroke-width="3"/></svg>
