@@ -50,6 +50,7 @@ digital_electricity
 drawing_wheels
 drawletters
 dominorio
+quelhas
 drawnumbers
 enumerate
 erase
