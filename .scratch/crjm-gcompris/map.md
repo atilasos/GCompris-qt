@@ -37,9 +37,9 @@ são verificadas antes de resolver cada ticket.
 | [04](issues/04-gatos-caes-duas-pessoas.md) | Gatos & Cães para duas pessoas | 03 | resolved |
 | [05](issues/05-gatos-caes-tux-aprendizagem.md) | Gatos & Cães contra Tux e aprendizagem guiada | 04 | claimed |
 | [06](issues/06-faisca-duas-pessoas.md) | Faísca para duas pessoas | 03 | resolved |
-| [07](issues/07-faisca-tux-aprendizagem.md) | Faísca contra Tux e aprendizagem guiada | 06 | open |
+| [07](issues/07-faisca-tux-aprendizagem.md) | Faísca contra Tux e aprendizagem guiada | 06 | claimed |
 | [08](issues/08-quelhas-duas-pessoas.md) | Quelhas para duas pessoas | 03 | resolved |
-| [09](issues/09-quelhas-tux-aprendizagem.md) | Quelhas contra Tux e aprendizagem guiada | 08 | open |
+| [09](issues/09-quelhas-tux-aprendizagem.md) | Quelhas contra Tux e aprendizagem guiada | 08 | claimed |
 | [10](issues/10-atari-go-duas-pessoas.md) | Atari Go para duas pessoas | 03 | open |
 | [11](issues/11-atari-go-tux-aprendizagem.md) | Atari Go contra Tux e aprendizagem guiada | 10 | open |
 | [12](issues/12-produto-duas-pessoas.md) | Produto para duas pessoas | 03 | open |
