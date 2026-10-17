@@ -22,8 +22,8 @@
 A investigação e a especificação estão concluídas. A implementação decorre na branch
 `integration/crjm-games`, a partir de `620fde9e5`.
 Os 17 tickets de execução estão publicados como `ready-for-agent`. Os tickets 02,
-03, 04, 05, 06, 08 e 09 estão resolvidos e integrados; 07 e 10 estão assumidos.
-A fronteira disponível é 12, 14 e 16; a primeira tarefa é 12. A tarefa 01 agrega o âmbito e não deve
+03, 04, 05, 06, 07, 08 e 09 estão resolvidos e integrados; 10 e 12 estão assumidos.
+A fronteira disponível é 14 e 16; a primeira tarefa é 14. A tarefa 01 agrega o âmbito e não deve
 ser assumida como uma implementação concorrente das subtarefas. A tarefa principal está assumida pelo coordenador. A implementação e a integração
 são verificadas antes de resolver cada ticket.
 
@@ -37,7 +37,7 @@ são verificadas antes de resolver cada ticket.
 | [04](issues/04-gatos-caes-duas-pessoas.md) | Gatos & Cães para duas pessoas | 03 | resolved |
 | [05](issues/05-gatos-caes-tux-aprendizagem.md) | Gatos & Cães contra Tux e aprendizagem guiada | 04 | resolved |
 | [06](issues/06-faisca-duas-pessoas.md) | Faísca para duas pessoas | 03 | resolved |
-| [07](issues/07-faisca-tux-aprendizagem.md) | Faísca contra Tux e aprendizagem guiada | 06 | claimed |
+| [07](issues/07-faisca-tux-aprendizagem.md) | Faísca contra Tux e aprendizagem guiada | 06 | resolved |
 | [08](issues/08-quelhas-duas-pessoas.md) | Quelhas para duas pessoas | 03 | resolved |
 | [09](issues/09-quelhas-tux-aprendizagem.md) | Quelhas contra Tux e aprendizagem guiada | 08 | resolved |
 | [10](issues/10-atari-go-duas-pessoas.md) | Atari Go para duas pessoas | 03 | claimed |
@@ -86,3 +86,8 @@ Decisão da entrega 09: Quelhas com Tux local, troca inicial real, três níveis
 exercício misère, pistas e revisão. Evidência em `evidence/09-quelhas/README.md`;
 Tux e regressão 08 com 2 passes, 0 falhas e 0 erros QML cada. Heartbeat máximo
 observado de 247 ms no host partilhado; não constitui medição em hardware físico modesto.
+
+Decisão da entrega 07: Faísca com Tux local, três dificuldades, exercício, pistas
+graduais e revisão de uma decisão real. Evidência em `evidence/07-faisca/README.md`;
+Tux e regressão 06 com 2 passes, 0 falhas e 0 erros QML cada, incluindo saída e
+reabertura sem resposta tardia. Medições correspondem ao host disponível.
