@@ -47,7 +47,7 @@ são verificadas antes de resolver cada ticket.
 | [14](issues/14-y-duas-pessoas.md) | Y para duas pessoas | 03 | resolved |
 | [15](issues/15-y-tux-aprendizagem.md) | Y contra Tux e aprendizagem guiada | 14 | claimed |
 | [16](issues/16-nex-duas-pessoas.md) | Nex para duas pessoas | 03 | resolved |
-| [17](issues/17-nex-tux-aprendizagem.md) | Nex contra Tux e aprendizagem guiada | 16 | open |
+| [17](issues/17-nex-tux-aprendizagem.md) | Nex contra Tux e aprendizagem guiada | 16 | claimed |
 | [18](issues/18-validar-build-oito-jogos.md) | Validar os oito jogos numa build do fork | 05, 07, 09, 11, 13, 15, 17 | open |
 
 Os números de bloqueio são condições de início, não a ordem preferida de execução.
