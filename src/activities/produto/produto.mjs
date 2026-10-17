@@ -39,3 +39,14 @@ export function result(board) {
     if (a.count !== b.count) return a.count < b.count ? 1 : 2;
     return 3;
 }
+// A turn is atomic: opening has one stone, all later turns have two.
+export function apply(board, turn, move) {
+    if (!Array.isArray(move) || move.length !== (turn === 0 ? 1 : 2) || result(board)) return null;
+    var next = board.slice();
+    for (var i = 0; i < move.length; ++i) {
+        var stone = move[i];
+        if (stone.index < 0 || stone.index >= 61 || next[stone.index] !== 0 || (stone.color !== 1 && stone.color !== 2)) return null;
+        next[stone.index] = stone.color;
+    }
+    return next;
+}
