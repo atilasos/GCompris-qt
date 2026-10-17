@@ -28,12 +28,22 @@ ActivityBase {
         property string feedback: ""
         readonly property int own: colors[player-1]
         readonly property bool swapAllowed: turn===1 && player===2 && !swapped && !winner && !exercise
+        property bool tux: false
+        property int difficulty: 0
+        property int generation: 0
+        property bool thinking: false
+        property int hints: 0
+        property string phase: "match"
+        property var decision: null
+        property int matchWinner: 0
+        readonly property bool accepting: !thinking && phase!=="intro" && phase.indexOf("Done")<0
         function reset() {
+            ++generation;thinking=false;hints=0;phase="match";decision=null;matchWinner=0;
             cells=Rules.emptyBoard(); pending=[]; colors=[1,2]; player=1; mode=0; turn=0; winner=0;
             cursor=0;swapped=false;exercise=false;feedback="";viewport.contentX=0;viewport.contentY=0;board.forceActiveFocus();
         }
         function choose(i) {
-            if(winner || exercise || i<0 || i>=121) return;
+            if(winner || exercise || !accepting || i<0 || i>=121) return;
             cursor=i;
             var next=pending.slice(), at=next.indexOf(i);
             if(at>=0) { next.splice(at,1); pending=next;feedback="";return; }
@@ -55,16 +65,38 @@ ActivityBase {
             feedback=qsTr("Convenção das últimas casas aplicada. O resultado é calculado pelas conexões.");
         }
         function confirm() {
-            if(winner || exercise) return;
+            if(winner || exercise || !accepting) return;
             var result=Rules.apply(cells,own,mode,pending);
             if(!result) { feedback=qsTr("Completa uma ação válida antes de confirmar.");return; }
-            cells=result;pending=[];feedback="";++turn;
+            if(phase.indexOf("lesson")===0) {
+                var expected=phase==="lessonPlace"?[60,61]:phase==="lessonReplace"?[60,61,49]:[65,0];
+                var expectedMode=phase==="lessonReplace"?1:0;
+                if(mode!==expectedMode || pending.join(",")!==expected.join(",")) {
+                    feedback=qsTr("Experimenta a ação indicada. A terceira pista prepara uma seleção que podes confirmar.");return;
+                }
+                cells=result;pending=[];
+                if(phase==="lessonPlace") {phase="lessonPlaceDone";feedback=qsTr("Colocaste uma peça própria e uma neutra. Usa Continuar para aprender a substituição.");}
+                else if(phase==="lessonReplace") {phase="lessonReplaceDone";feedback=qsTr("Duas neutras tornaram-se tuas e uma tua ficou neutra. São três mudanças numa só ação. Continua para ligar as margens.");}
+                else {phase="exerciseDone";feedback=qsTr("Ligação completa! A cadeia negra alcança N e S. Este exercício didático não é uma partida CRJM. Usa Nova partida para jogar.");}
+                return;
+            }
+            if(phase==="review") {
+                if(mode===decision.mode && pending.join(",")===decision.selection.join(",")) {feedback=qsTr("Essa foi a decisão original. Experimenta uma alternativa.");return;}
+                var old=Rules.apply(decision.board,own,decision.mode,decision.selection);
+                cells=result;pending=[];phase="reviewDone";
+                feedback=qsTr("Comparação: %1 Original: %2 Alternativa: %3 O resultado da partida mantém-se: participante %4.").arg(decision.mode===mode?qsTr("Mudaste as casas escolhidas."):qsTr("Mudaste o tipo de ação.")).arg(consequence(old,own)).arg(consequence(result,own)).arg(matchWinner);
+                return;
+            }
+            if(tux && player===1) decision={board:cells.slice(),colors:colors.slice(),player:player,turn:turn,mode:mode,selection:pending.slice()};
+            cells=result;pending=[];feedback="";++turn;hints=0;
             if(Rules.connected(cells,own)) {winner=player;feedback=qsTr("Ligaste as duas margens com uma cadeia da tua cor!");}
             else { player=3-player;finishRare(); }
+            if(winner) matchWinner=winner;
+            else if(tux && player===2 && phase==="match") requestTux();
             board.forceActiveFocus();
         }
         function swap() {
-            if(!swapAllowed) return;
+            if(!swapAllowed || thinking || phase!=="match") return;
             colors=[colors[1],colors[0]];swapped=true;player=1;pending=[];++turn;
             feedback=qsTr("Cores e margens trocadas. Agora joga o participante 1.");board.forceActiveFocus();
         }
@@ -77,6 +109,75 @@ ActivityBase {
             cells=next;
             feedback=kind===0?qsTr("Exercício: resta uma casa vazia e nenhuma neutra. Ocupa-a com a cor de quem joga."):kind===1?qsTr("Exercício: resta uma neutra e nenhuma vazia. Converte-a na cor de quem joga."):qsTr("Exercício: resta uma vazia e uma neutra. A vazia recebe a tua cor e a neutra a do adversário.");
         }
+        function requestTux() {
+            thinking=true;pending=[];
+            opponent.sendMessage({generation:++generation,board:cells.slice(),own:own,difficulty:difficulty,swap:swapAllowed});
+        }
+        WorkerScript {
+            id:opponent
+            source:"opponent.mjs"
+            onMessage: message => {
+                if(message.generation!==scene.generation || !scene.thinking || scene.player!==2) return;
+                scene.thinking=false;
+                if(message.swap) {scene.swap();return;}
+                var action=message.action;
+                if(!action || !Rules.apply(scene.cells,scene.own,action.mode,action.selection)) return;
+                scene.mode=action.mode;scene.pending=action.selection;scene.confirm();
+            }
+        }
+        onStop: {++generation;thinking=false;}
+        function lesson() {
+            reset();phase="intro";
+            feedback=qsTr("Introdução: liga as tuas duas margens por vizinhas. Cada turno coloca uma peça tua e uma neutra OU converte duas neutras em tuas e uma tua em neutra. Confirma sempre a ação completa. Vamos experimentar três passos.");
+        }
+        function continueLesson() {
+            resetLessonBoard();
+            if(phase==="intro") {phase="lessonPlace";feedback=qsTr("Exercício 1 — colocação: escolhe a estrela central, depois a estrela à sua direita. Confirma a tua peça e a neutra juntas.");}
+            else if(phase==="lessonPlaceDone") {phase="lessonReplace";mode=1;var b=Rules.emptyBoard();b[60]=3;b[61]=3;b[49]=1;cells=b;feedback=qsTr("Exercício 2 — substituição: escolhe as duas + centrais, depois a tua ● acima à esquerda. Confirma as três mudanças.");}
+            else {phase="lessonConnect";var c=Rules.emptyBoard();for(var i=55;i<65;++i)c[i]=1;cells=c;feedback=qsTr("Exercício 3 — conexão: falta a estrela na margem S. Escolhe-a para a tua peça e o canto O para a neutra. Confirma para ligar N a S.");}
+            var lessonGeneration=generation;
+            Qt.callLater(function(){if(scene.generation===lessonGeneration)scene.reveal(scene.phase==="lessonConnect"?65:60);});
+        }
+        function reveal(i) {
+            cursor=i;
+            var x=(Math.floor(i/11)+i%11)*board.unit+14;
+            var y=(i%11-Math.floor(i/11)+10)*board.unit*0.5+17;
+            viewport.contentX=Math.max(0,Math.min(board.width-viewport.width,x-viewport.width/2));
+            viewport.contentY=Math.max(0,Math.min(board.height-viewport.height,y-viewport.height/2));
+        }
+        function resetLessonBoard() {++generation;thinking=false;hints=0;cells=Rules.emptyBoard();pending=[];mode=0;}
+        function hint() {
+            if(winner || thinking || !accepting || phase.indexOf("Done")>=0) return;
+            hints=Math.min(3,hints+1);
+            if(hints===1) feedback=qsTr("Pista 1: identifica as tuas margens e procura uma cadeia da tua cor. As neutras ainda não contam para a ligação.");
+            else if(hints===2) feedback=qsTr("Pista 2: podes colocar em duas vazias ou substituir duas neutras e uma tua. Uma neutra perto da cadeia pode ajudar num próximo turno.");
+            else {
+                var action=null;
+                if(phase==="lessonPlace") action={mode:0,selection:[60,61]};
+                else if(phase==="lessonReplace") action={mode:1,selection:[60,61,49]};
+                else if(phase==="lessonConnect") action={mode:0,selection:[65,0]};
+                else {
+                    var options=Rules.candidates(cells,own,1);
+                    for(var a of options) if(phase!=="review" || a.mode!==decision.mode || a.selection.join(",")!==decision.selection.join(",")) {action=a;break;}
+                }
+                if(action) {
+                    mode=action.mode;pending=action.selection;
+                    var hintGeneration=generation, first=action.selection[0];
+                    Qt.callLater(function(){if(scene.generation===hintGeneration&&scene.pending.length)scene.reveal(first);});
+                }
+                feedback=qsTr("Pista 3: a seleção marcada é uma ação completa e legal. Observa a previsão antes de confirmar; podes alterá-la.");
+            }
+        }
+        function consequence(b,color) {
+            var distance=Rules.distance(b,color);
+            return distance===0?qsTr("Já existe uma ligação entre as margens."):distance===999?qsTr("O adversário bloqueia todas as rotas."):qsTr("A rota mais curta precisa de conquistar %1 casa(s). Vazias e neutras ainda não são tuas.").arg(distance);
+        }
+        function review() {
+            if(!decision || !winner) return;
+            ++generation;thinking=false;phase="review";hints=0;winner=0;
+            cells=decision.board.slice();colors=decision.colors.slice();player=decision.player;turn=decision.turn;pending=[];mode=decision.mode;exercise=false;
+            feedback=qsTr("Revisão didática da tua última decisão real. A jogada original: %1 Experimenta outras casas ou outro tipo de ação e confirma para comparar. O resultado da partida fica guardado.").arg(consequence(Rules.apply(cells,own,decision.mode,decision.selection),own));
+        }
         Component.onCompleted: { activity.start.connect(start);activity.stop.connect(stop); }
         onStart: reset()
         GCText {
@@ -85,9 +186,10 @@ ActivityBase {
             width: parent.width-8
             horizontalAlignment: Text.AlignHCenter
             fontSize: 21
+            wrapMode: Text.WordWrap
             font.bold: true
             color: "#183c50"
-            text: scene.winner===3?qsTr("Empate!"):scene.winner?qsTr("Venceu o participante %1!").arg(scene.winner):qsTr("Participante %1 · %2").arg(scene.player).arg(scene.own===1?qsTr("● Negras · N ↔ S"):qsTr("◇ Brancas · O ↔ E"))
+            text: (scene.thinking?qsTr("Tux pensa… · "):scene.tux&&scene.phase==="match"?qsTr("Contra Tux · "):"") + (scene.winner===3?qsTr("Empate!"):scene.winner?qsTr("Venceu o participante %1!").arg(scene.winner):qsTr("Participante %1 · %2").arg(scene.player).arg(scene.own===1?qsTr("● Negras · N ↔ S"):qsTr("◇ Brancas · O ↔ E")))
         }
         GCText {
             id: ownership
@@ -96,19 +198,19 @@ ActivityBase {
             horizontalAlignment: Text.AlignHCenter
             fontSize: 13
             color: "#183c50"
-            text: qsTr("P1: %1 · P2: %2 · Neutras: +").arg(scene.colors[0]===1?qsTr("● N ↔ S"):qsTr("◇ O ↔ E")).arg(scene.colors[1]===1?qsTr("● N ↔ S"):qsTr("◇ O ↔ E"))
+            text: (scene.tux?qsTr("Tu = participante 1 · Tux = participante 2")+"\n":"") + qsTr("P1: %1 · P2: %2 · Neutras: +").arg(scene.colors[0]===1?qsTr("● N ↔ S"):qsTr("◇ O ↔ E")).arg(scene.colors[1]===1?qsTr("● N ↔ S"):qsTr("◇ O ↔ E"))
         }
         GCText {
             id: instruction
             anchors { top: ownership.bottom; horizontalCenter: parent.horizontalCenter }
-            width: parent.width-12;height:60
+            width: parent.width-12;height:Math.max(76,implicitHeight)
             fontSize:13;wrapMode:Text.WordWrap;horizontalAlignment:Text.AlignHCenter;verticalAlignment:Text.AlignVCenter;color:"#183c50"
             text:scene.feedback || (scene.mode===0?qsTr("Colocar: escolhe duas vazias, primeiro a tua peça, depois +. Seleção: %1/2. Desliza para ver todo o tabuleiro."):qsTr("Substituir: escolhe duas +, depois uma tua. Seleção: %1/3. Desliza para ver todo o tabuleiro.")).arg(scene.pending.length)
         }
         Flickable {
             id: viewport
             objectName:"nexViewport"
-            anchors { top:instruction.bottom;bottom:modeRow.top;left:parent.left;right:parent.right;margins:4 }
+            anchors { top:instruction.bottom;bottom:learning.top;left:parent.left;right:parent.right;margins:4 }
             QQC2.ScrollBar.vertical: QQC2.ScrollBar { policy:QQC2.ScrollBar.AsNeeded }
             QQC2.ScrollBar.horizontal: QQC2.ScrollBar { policy:QQC2.ScrollBar.AsNeeded }
             clip:true
@@ -120,7 +222,7 @@ ActivityBase {
                 width:Math.max(viewport.width,scene.enlarged?1400:1000)
                 height:Math.max(viewport.height,scene.enlarged?900:610)
                 readonly property real unit:Math.min((width-28)/21,(height-34)/11.5)
-                focus:true;activeFocusOnTab:true
+                focus:true;activeFocusOnTab:true;KeyNavigation.tab:placeButton.enabled?placeButton:zoomButton
                 Keys.onPressed:event=>{
                     if(event.key===Qt.Key_Left)scene.cursor=Math.max(0,scene.cursor-11);
                     else if(event.key===Qt.Key_Right)scene.cursor=Math.min(120,scene.cursor+11);
@@ -162,7 +264,7 @@ ActivityBase {
                         border.color:selected?"#b00064":board.activeFocus&&scene.cursor===index?"#125ca5":"#52655c"
                         border.width:selected||board.activeFocus&&scene.cursor===index?4:1
                         opacity:selected?0.65:1
-                        GCText { anchors.centerIn:parent;fontSize:14;color:parent.stone===1?"white":"#22333b";text:parent.stone===1?"●":parent.stone===2?"◇":parent.stone===3?"+":"" }
+                        GCText { anchors.centerIn:parent;fontSize:14;color:parent.stone===1?"white":"#22333b";text:parent.stone===1?"●":parent.stone===2?"◇":parent.stone===3?"+":(scene.phase==="lessonPlace"&&(index===60||index===61))||(scene.phase==="lessonConnect"&&(index===65||index===0))?"★":"" }
                         MouseArea { anchors.fill:parent;onClicked:scene.choose(parent.index) }
                         TapHandler { acceptedDevices:PointerDevice.TouchScreen|PointerDevice.TouchPad;onTapped:scene.choose(parent.index) }
                     }
@@ -174,31 +276,48 @@ ActivityBase {
             }
         }
         Row {
+            id:learning
+            anchors {bottom:modes.top;horizontalCenter:parent.horizontalCenter;bottomMargin:3}
+            spacing:4
+            GCButton {id:lessonButton;KeyNavigation.tab:continueButton.enabled?continueButton:hintButton.enabled?hintButton:reviewButton.enabled?reviewButton:tuxButton;objectName:"lessonNex";focusPolicy:Qt.StrongFocus;fixedFontSize:11;text:qsTr("Aprender");onClicked:scene.lesson()}
+            GCButton {id:continueButton;KeyNavigation.tab:hintButton.enabled?hintButton:tuxButton;objectName:"continueNex";focusPolicy:Qt.StrongFocus;fixedFontSize:11;text:qsTr("Continuar");enabled:scene.phase==="intro"||scene.phase==="lessonPlaceDone"||scene.phase==="lessonReplaceDone";onClicked:scene.continueLesson()}
+            GCButton {id:hintButton;KeyNavigation.tab:reviewButton.enabled?reviewButton:tuxButton;objectName:"hintNex";focusPolicy:Qt.StrongFocus;fixedFontSize:11;text:qsTr("Pista %1/3").arg(scene.hints);enabled:!scene.winner&&scene.accepting&&scene.phase.indexOf("Done")<0;onClicked:scene.hint()}
+            GCButton {id:reviewButton;KeyNavigation.tab:tuxButton;objectName:"reviewNex";focusPolicy:Qt.StrongFocus;fixedFontSize:11;text:qsTr("Rever decisão");enabled:scene.winner>0&&scene.decision!==null;onClicked:scene.review()}
+        }
+        Row {
+            id:modes
+            anchors {bottom:modeRow.top;horizontalCenter:parent.horizontalCenter;bottomMargin:3}
+            spacing:4
+            GCButton {id:tuxButton;KeyNavigation.tab:difficultyButton.visible?difficultyButton:board;objectName:"tuxNex";focusPolicy:Qt.StrongFocus;fixedFontSize:11;text:scene.tux?qsTr("Contra Tux"):qsTr("Duas pessoas");onClicked:{scene.tux=!scene.tux;scene.reset();}}
+            GCButton {id:difficultyButton;KeyNavigation.tab:board;objectName:"difficultyNex";focusPolicy:Qt.StrongFocus;fixedFontSize:11;visible:scene.tux;text:scene.difficulty===0?qsTr("Fácil: explora"):scene.difficulty===1?qsTr("Médio: encurta rota"):qsTr("Difícil: bloqueia");onClicked:{scene.difficulty=(scene.difficulty+1)%3;scene.reset();}}
+        }
+        Row {
             id:modeRow
             anchors { bottom:actions.top;horizontalCenter:parent.horizontalCenter;bottomMargin:4 }
             spacing:5
-            GCButton { objectName:"placeNex";focusPolicy:Qt.StrongFocus;text:qsTr("Colocar");enabled:!scene.winner&&!scene.exercise;onClicked:{scene.mode=0;scene.pending=[];scene.feedback="";} }
-            GCButton { objectName:"replaceNex";focusPolicy:Qt.StrongFocus;text:qsTr("Substituir");enabled:!scene.winner&&!scene.exercise;onClicked:{scene.mode=1;scene.pending=[];scene.feedback="";} }
-            GCButton { objectName:"swapNex";focusPolicy:Qt.StrongFocus;text:qsTr("Trocar");enabled:scene.swapAllowed;onClicked:scene.swap() }
-            GCButton { objectName:"zoomNex";focusPolicy:Qt.StrongFocus;text:scene.enlarged?qsTr("Reduzir"):qsTr("Ampliar");onClicked:scene.enlarged=!scene.enlarged }
+            GCButton { id:placeButton;KeyNavigation.tab:replaceButton;objectName:"placeNex";focusPolicy:Qt.StrongFocus;text:qsTr("Colocar");enabled:!scene.winner&&!scene.exercise&&scene.accepting;onClicked:{scene.mode=0;scene.pending=[];scene.feedback="";} }
+            GCButton { id:replaceButton;KeyNavigation.tab:swapButton.enabled?swapButton:zoomButton;objectName:"replaceNex";focusPolicy:Qt.StrongFocus;text:qsTr("Substituir");enabled:!scene.winner&&!scene.exercise&&scene.accepting;onClicked:{scene.mode=1;scene.pending=[];scene.feedback="";} }
+            GCButton { id:swapButton;KeyNavigation.tab:zoomButton;objectName:"swapNex";focusPolicy:Qt.StrongFocus;text:qsTr("Trocar");enabled:scene.swapAllowed&&!scene.thinking;onClicked:scene.swap() }
+            GCButton { id:zoomButton;KeyNavigation.tab:confirmButton.enabled?confirmButton:clearButton.enabled?clearButton:restartButton;objectName:"zoomNex";focusPolicy:Qt.StrongFocus;text:scene.enlarged?qsTr("Reduzir"):qsTr("Ampliar");onClicked:scene.enlarged=!scene.enlarged }
         }
         Row {
             id:actions
             anchors { bottom:exercises.top;horizontalCenter:parent.horizontalCenter;bottomMargin:4 }
             spacing:5
-            GCButton { objectName:"confirmNex";focusPolicy:Qt.StrongFocus;text:qsTr("Confirmar");enabled:!scene.winner&&!scene.exercise&&scene.pending.length===(scene.mode===0?2:3);onClicked:scene.confirm() }
-            GCButton { objectName:"clearNex";focusPolicy:Qt.StrongFocus;text:qsTr("Limpar");enabled:!scene.winner&&scene.pending.length>0;onClicked:{scene.pending=[];scene.feedback="";board.forceActiveFocus();} }
-            GCButton { objectName:"restartNex";focusPolicy:Qt.StrongFocus;text:qsTr("Nova partida");onClicked:scene.reset() }
+            GCButton { id:confirmButton;KeyNavigation.tab:clearButton.enabled?clearButton:restartButton;objectName:"confirmNex";focusPolicy:Qt.StrongFocus;text:qsTr("Confirmar");enabled:!scene.winner&&!scene.exercise&&scene.accepting&&scene.pending.length===(scene.mode===0?2:3);onClicked:scene.confirm() }
+            GCButton { id:clearButton;KeyNavigation.tab:restartButton;objectName:"clearNex";focusPolicy:Qt.StrongFocus;text:qsTr("Limpar");enabled:!scene.winner&&scene.accepting&&scene.pending.length>0;onClicked:{scene.pending=[];scene.feedback="";board.forceActiveFocus();} }
+            GCButton { id:restartButton;KeyNavigation.tab:finalButtons.itemAt(0);objectName:"restartNex";focusPolicy:Qt.StrongFocus;text:qsTr("Nova partida");onClicked:scene.reset() }
         }
         Row {
             id:exercises
             anchors { bottom:bar.top;horizontalCenter:parent.horizontalCenter;bottomMargin:4 }
             spacing:4
             Repeater {
+                id:finalButtons
                 model:3
-                GCButton { required property int index;objectName:"finalNex"+index;focusPolicy:Qt.StrongFocus;text:qsTr("Final %1").arg(index+1);onClicked:scene.prepareFinal(index) }
+                GCButton { required property int index;KeyNavigation.tab:index<2?finalButtons.itemAt(index+1):resolveButton.enabled?resolveButton:lessonButton;objectName:"finalNex"+index;focusPolicy:Qt.StrongFocus;text:qsTr("Final %1").arg(index+1);onClicked:scene.prepareFinal(index) }
             }
-            GCButton { objectName:"resolveNex";focusPolicy:Qt.StrongFocus;text:qsTr("Aplicar regra");enabled:scene.exercise&&!scene.winner;onClicked:scene.finishRare() }
+            GCButton { id:resolveButton;KeyNavigation.tab:lessonButton;objectName:"resolveNex";focusPolicy:Qt.StrongFocus;text:qsTr("Aplicar regra");enabled:scene.exercise&&!scene.winner;onClicked:scene.finishRare() }
         }
         DialogHelp { id:dialogHelp;onClose:home() }
         Bar {
