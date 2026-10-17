@@ -1,6 +1,23 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // Seam: the real menu and activity controls, never the rule engine or game state.
 TestCase {
+    function clickNative(item, x, y) {
+        // Scroll secondary tools into view through the real Flickable, without
+        // delaying immediate restart/exit cases while Tux is calculating.
+        var area = item.parent;
+        while (area) {
+            if (area.objectName === "boardGameToolsViewport") {
+                area.cancelFlick();
+                var point = item.mapToItem(area.contentItem, 0, 0);
+                if (point.y < area.contentY || point.y + item.height > area.contentY + area.height)
+                    area.contentY = Math.max(0, Math.min(area.contentHeight - area.height, point.y - 8));
+                break;
+            }
+            area = area.parent;
+        }
+        mouseClick(item, x, y);
+    }
+
     id: nativeCase
     property double lastBeat: 0
     property double longestBeat: 0
@@ -21,11 +38,11 @@ TestCase {
         return null;
     }
     function ensure(value, message) { if (!value) console.log("GATOS_ASSERT_FAILED", message || "", new Error().stack); verify(value, message || ""); }
-    function click(item) { ensure(item !== null); mouseClick(item, item.width / 2, item.height / 2); wait(60); }
+    function click(item) { ensure(item !== null); clickNative(item, item.width / 2, item.height / 2); wait(60); }
     function test_menu_to_complete_game() {
         wait(1500);
         click(section.itemAtIndex(section.count - 1));
-        mouseClick(searchTextField, searchTextField.width / 2, searchTextField.height / 2);
+        clickNative(searchTextField, searchTextField.width / 2, searchTextField.height / 2);
         keyClick(Qt.Key_G); keyClick(Qt.Key_A); keyClick(Qt.Key_T); keyClick(Qt.Key_O); keyClick(Qt.Key_S);
         wait(800);
         var card = null;
@@ -81,9 +98,9 @@ TestCase {
             var next = -1;
             for (var c = 0; c < 64; ++c) if (textIn(findChild(game, "gatosCell" + c), "+")) { next = c; break; }
             ensure(next >= 0, "A legal cat placement is displayed");
-            var start = Date.now(); mouseClick(findChild(game, "gatosCell" + next), 10, 10);
+            var start = Date.now(); clickNative(findChild(game, "gatosCell" + next), 10, 10);
             if (!turns) {
-                var helpStart = Date.now(); mouseClick(icon(game, "bar_help.svg"), 20, 20);
+                var helpStart = Date.now(); clickNative(icon(game, "bar_help.svg"), 20, 20);
                 tryCompare(pageView, "depth", 3, 1500); help.push(Date.now() - helpStart);
                 ensure(pageView.currentItem.content.indexOf("quatro casas centrais") >= 0);
                 keyClick(Qt.Key_Escape); tryCompare(pageView, "depth", 2, 1500); tryCompare(pageView, "busy", false, 2000); wait(80);
@@ -111,13 +128,13 @@ TestCase {
         ensure(textIn(game, "58 casas")); ensure(!textIn(game, "Venceu"));
         grabImage(pageView).save("__QA_OUTPUT__/review.png");
         click(restart);
-        mouseClick(findChild(game, "gatosCell27"), 10, 10); mouseClick(restart, 10, 10); wait(400);
+        clickNative(findChild(game, "gatosCell27"), 10, 10); clickNative(restart, 10, 10); wait(400);
         ensure(textIn(game, "Tu · Gatos"));
         for (var k = 0; k < 64; ++k) { ensure(!textIn(findChild(game, "gatosCell" + k), "1 G")); ensure(!textIn(findChild(game, "gatosCell" + k), "2 C")); }
         var window = game.Window.window;
         window.width = 1100; window.height = 700; wait(200); ensure(board.width / 8 >= 40); grabImage(pageView).save("__QA_OUTPUT__/desktop.png");
         window.width = 600; window.height = 900; wait(200); ensure(board.width / 8 >= 40); grabImage(pageView).save("__QA_OUTPUT__/portrait.png");
-        mouseClick(findChild(game, "gatosCell27"), 10, 10); click(icon(game, "bar_home.svg")); tryCompare(pageView, "depth", 1, 1500); wait(300);
+        clickNative(findChild(game, "gatosCell27"), 10, 10); click(icon(game, "bar_home.svg")); tryCompare(pageView, "depth", 1, 1500); wait(300);
         console.log("GATOS_TIMING", JSON.stringify({difficulty:"hard",response_ms:responses,help_ms:help,max_heartbeat_gap_ms:longestBeat}));
     }
     function cleanupTestCase() { if (qtest_results.failCount) grabImage(pageView).save("__QA_OUTPUT__/failure.png"); console.log("NATIVE_RESULT", JSON.stringify({failures:qtest_results.failCount, passes:qtest_results.passCount})); }

@@ -1,0 +1,164 @@
+{
+  "ui_profiles": 96,
+  "ui_games": [
+    "Atari Go",
+    "Dominório",
+    "Faísca",
+    "Gatos & Cães",
+    "Nex",
+    "Produto",
+    "Quelhas",
+    "Y"
+  ],
+  "font_settings": [
+    -7,
+    0,
+    7
+  ],
+  "primary_screen": "2048x1152",
+  "functional_cases": [
+    {
+      "case": "dominorio",
+      "passed": true,
+      "memory_peak": 125886464,
+      "oom_kill": 0,
+      "seconds": 12.017
+    },
+    {
+      "case": "dominorio-tux",
+      "passed": true,
+      "memory_peak": 283709440,
+      "oom_kill": 0,
+      "seconds": 11.658
+    },
+    {
+      "case": "gatos-caes",
+      "passed": true,
+      "memory_peak": 120954880,
+      "oom_kill": 0,
+      "seconds": 10.808
+    },
+    {
+      "case": "gatos-caes-tux",
+      "passed": true,
+      "memory_peak": 205475840,
+      "oom_kill": 0,
+      "seconds": 10.547
+    },
+    {
+      "case": "faisca",
+      "passed": true,
+      "memory_peak": 121188352,
+      "oom_kill": 0,
+      "seconds": 12.497
+    },
+    {
+      "case": "faisca-tux",
+      "passed": true,
+      "memory_peak": 131878912,
+      "oom_kill": 0,
+      "seconds": 15.626
+    },
+    {
+      "case": "quelhas",
+      "passed": true,
+      "memory_peak": 120639488,
+      "oom_kill": 0,
+      "seconds": 10.972
+    },
+    {
+      "case": "quelhas-tux",
+      "passed": true,
+      "memory_peak": 226312192,
+      "oom_kill": 0,
+      "seconds": 16.027
+    },
+    {
+      "case": "atari-go",
+      "passed": true,
+      "memory_peak": 132464640,
+      "oom_kill": 0,
+      "seconds": 11.457
+    },
+    {
+      "case": "atari-go-tux",
+      "passed": true,
+      "memory_peak": 140886016,
+      "oom_kill": 0,
+      "seconds": 12.671
+    },
+    {
+      "case": "produto",
+      "passed": true,
+      "memory_peak": 128925696,
+      "oom_kill": 0,
+      "seconds": 21.129
+    },
+    {
+      "case": "produto-tux",
+      "passed": true,
+      "memory_peak": 194760704,
+      "oom_kill": 0,
+      "seconds": 17.838
+    },
+    {
+      "case": "y",
+      "passed": true,
+      "memory_peak": 158466048,
+      "oom_kill": 0,
+      "seconds": 19.574
+    },
+    {
+      "case": "y-tux",
+      "passed": true,
+      "memory_peak": 162336768,
+      "oom_kill": 0,
+      "seconds": 15.406
+    },
+    {
+      "case": "nex",
+      "passed": true,
+      "memory_peak": 138031104,
+      "oom_kill": 0,
+      "seconds": 23.171
+    },
+    {
+      "case": "nex-tux",
+      "passed": true,
+      "memory_peak": 152539136,
+      "oom_kill": 0,
+      "seconds": 24.896
+    },
+    {
+      "case": "strategy-regression",
+      "passed": true,
+      "memory_peak": 104775680,
+      "oom_kill": 0,
+      "seconds": 17.339
+    },
+    {
+      "case": "dominorio-keyboard",
+      "passed": true,
+      "memory_peak": 287129600,
+      "oom_kill": 0,
+      "seconds": 11.874
+    }
+  ],
+  "passed": 18,
+  "qml_errors": 0,
+  "oom_kill": 0,
+  "max_memory_peak": 287129600,
+  "changed_runtime_files": [
+    "share/gcompris-qt/rcc/atari_go.rcc",
+    "share/gcompris-qt/rcc/core.rcc",
+    "share/gcompris-qt/rcc/dominorio.rcc",
+    "share/gcompris-qt/rcc/faisca.rcc",
+    "share/gcompris-qt/rcc/gatos_caes.rcc",
+    "share/gcompris-qt/rcc/nex.rcc",
+    "share/gcompris-qt/rcc/produto.rcc",
+    "share/gcompris-qt/rcc/quelhas.rcc",
+    "share/gcompris-qt/rcc/y.rcc"
+  ],
+  "unchanged_runtime_files": 271,
+  "rules_and_workers_unchanged": 17
+}

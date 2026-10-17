@@ -1,6 +1,23 @@
 // SPDX-FileCopyrightText: NONE
 // SPDX-License-Identifier: GPL-3.0-or-later
 TestCase {
+    function clickNative(item, x, y) {
+        // Scroll secondary tools into view through the real Flickable, without
+        // delaying immediate restart/exit cases while Tux is calculating.
+        var area = item.parent;
+        while (area) {
+            if (area.objectName === "boardGameToolsViewport") {
+                area.cancelFlick();
+                var point = item.mapToItem(area.contentItem, 0, 0);
+                if (point.y < area.contentY || point.y + item.height > area.contentY + area.height)
+                    area.contentY = Math.max(0, Math.min(area.contentHeight - area.height, point.y - 8));
+                break;
+            }
+            area = area.parent;
+        }
+        mouseClick(item, x, y);
+    }
+
     name: "ExistingStrategyNative"
     when: activity.visible
     function textIn(item, text) {
@@ -23,10 +40,10 @@ TestCase {
         for(var i=0;i<item.children.length;++i) { var found=gridIn(item.children[i]); if(found)return found; }
         return null;
     }
-    function click(item) { verify(item!==null); mouseClick(item,item.width/2,item.height/2); wait(100); }
+    function click(item) { verify(item!==null); clickNative(item,item.width/2,item.height/2); wait(100); }
     function test_existing_strategy_from_menu() {
         wait(1500); click(section.itemAtIndex(section.count-1));
-        mouseClick(searchTextField,searchTextField.width/2,searchTextField.height/2);
+        clickNative(searchTextField,searchTextField.width/2,searchTextField.height/2);
         keyClick(Qt.Key_L); keyClick(Qt.Key_I); keyClick(Qt.Key_N); keyClick(Qt.Key_H); keyClick(Qt.Key_A);
         wait(900);
         var card=null;
@@ -43,7 +60,7 @@ TestCase {
         for(var turn=0;turn<7;++turn) {
             var col=turn%2===0 ? 3 : 4;
             var point=grid.mapToItem(board,(col+0.5)*grid.width/7,grid.height/12);
-            mouseMove(board,point.x,point.y); mouseClick(board,point.x,point.y); wait(950);
+            mouseMove(board,point.x,point.y); clickNative(board,point.x,point.y); wait(950);
         }
         console.log("STRATEGY_WIN_MARKS", countImages(game,"win1.svg"));
         tryVerify(function(){return countImages(game,"win1.svg")===4;},3000);

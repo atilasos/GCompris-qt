@@ -1,6 +1,23 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // Seam: the real menu and activity controls, never the rule engine or game state.
 TestCase {
+    function clickNative(item, x, y) {
+        // Scroll secondary tools into view through the real Flickable, without
+        // delaying immediate restart/exit cases while Tux is calculating.
+        var area = item.parent;
+        while (area) {
+            if (area.objectName === "boardGameToolsViewport") {
+                area.cancelFlick();
+                var point = item.mapToItem(area.contentItem, 0, 0);
+                if (point.y < area.contentY || point.y + item.height > area.contentY + area.height)
+                    area.contentY = Math.max(0, Math.min(area.contentHeight - area.height, point.y - 8));
+                break;
+            }
+            area = area.parent;
+        }
+        mouseClick(item, x, y);
+    }
+
     id: nativeCase
     name: "DominorioNative"
     when: activity.visible
@@ -29,11 +46,11 @@ TestCase {
         return null;
     }
     function ensure(value, message) { if (!value) console.log("DOMINORIO_ASSERT_FAILED", message || "", new Error().stack); verify(value, message || ""); }
-    function click(item) { ensure(item !== null); mouseClick(item, item.width / 2, item.height / 2); wait(60); }
+    function click(item) { ensure(item !== null); clickNative(item, item.width / 2, item.height / 2); wait(60); }
     function test_tux_learning() {
         wait(1500);
         click(section.itemAtIndex(section.count - 1));
-        mouseClick(searchTextField, searchTextField.width / 2, searchTextField.height / 2);
+        clickNative(searchTextField, searchTextField.width / 2, searchTextField.height / 2);
         keyClick(Qt.Key_D); keyClick(Qt.Key_O); keyClick(Qt.Key_M); keyClick(Qt.Key_I); keyClick(Qt.Key_N);
         wait(800);
         var card = null;
@@ -94,11 +111,11 @@ TestCase {
             click(findChild(game, "dominoCell" + next));
             ensure(confirm.enabled, "Confirm enabled at turn " + moves + " cell " + next);
             var start = Date.now();
-            mouseClick(confirm, confirm.width / 2, confirm.height / 2);
+            clickNative(confirm, confirm.width / 2, confirm.height / 2);
             // Opening help is allowed while Tux is calculating.
             if (moves === 0) {
                 var inputStart = Date.now();
-                mouseClick(icon(game, "bar_help.svg"), 20, 20);
+                clickNative(icon(game, "bar_help.svg"), 20, 20);
                 tryCompare(pageView, "depth", 3, 1500);
                 interactions.push(Date.now() - inputStart);
                 keyClick(Qt.Key_Escape); tryCompare(pageView, "depth", 2, 1500); tryCompare(pageView, "busy", false, 2000); wait(80);
@@ -130,8 +147,8 @@ TestCase {
         // Restart invalidates a pending worker response and restores all empty cells.
         click(restart);
         click(findChild(game, "dominoCell0"));
-        mouseClick(confirm, confirm.width / 2, confirm.height / 2);
-        mouseClick(restart, restart.width / 2, restart.height / 2);
+        clickNative(confirm, confirm.width / 2, confirm.height / 2);
+        clickNative(restart, restart.width / 2, restart.height / 2);
         wait(400);
         ensure(textIn(game, "Tu · Vertical"));
         ensure(!textIn(findChild(game, "dominoCell0"), "1 ↕"));
@@ -143,7 +160,7 @@ TestCase {
         window.width = 600; window.height = 900; wait(200);
         ensure(findChild(game, "dominorioBoard").width / 8 >= 40, "Portrait target size");
         grabImage(pageView).save("__QA_OUTPUT__/tux-portrait.png");
-        click(findChild(game, "dominoCell0")); mouseClick(confirm, confirm.width / 2, confirm.height / 2);
+        click(findChild(game, "dominoCell0")); clickNative(confirm, confirm.width / 2, confirm.height / 2);
         click(icon(game, "bar_home.svg")); tryCompare(pageView, "depth", 1, 1500); wait(300);
         console.log("DOMINORIO_TIMING", JSON.stringify({difficulty: "hard", response_ms: responseTimes, help_ms: interactions, max_heartbeat_gap_ms: longestBeat}));
     }

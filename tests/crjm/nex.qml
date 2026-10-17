@@ -1,6 +1,23 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // Seam: the real menu and activity controls, never the rule engine or game state.
 TestCase {
+    function clickNative(item, x, y) {
+        // Scroll secondary tools into view through the real Flickable, without
+        // delaying immediate restart/exit cases while Tux is calculating.
+        var area = item.parent;
+        while (area) {
+            if (area.objectName === "boardGameToolsViewport") {
+                area.cancelFlick();
+                var point = item.mapToItem(area.contentItem, 0, 0);
+                if (point.y < area.contentY || point.y + item.height > area.contentY + area.height)
+                    area.contentY = Math.max(0, Math.min(area.contentHeight - area.height, point.y - 8));
+                break;
+            }
+            area = area.parent;
+        }
+        mouseClick(item, x, y);
+    }
+
     name: "NexNative"
     when: activity.visible
     function textIn(item, text) {
@@ -17,12 +34,12 @@ TestCase {
         return null;
     }
     function ensure(value, message) { if (!value) console.log("NEX_ASSERT_FAILED", message || "", new Error().stack); verify(value, message || ""); }
-    function click(item) { ensure(item !== null); mouseClick(item, item.width / 2, item.height / 2); wait(60); }
+    function click(item) { ensure(item !== null); clickNative(item, item.width / 2, item.height / 2); wait(60); }
     function test_menu_to_complete_game() {
         wait(1500);
         var search = section.itemAtIndex(section.count - 1);
         click(search);
-        mouseClick(searchTextField, searchTextField.width / 2, searchTextField.height / 2);
+        clickNative(searchTextField, searchTextField.width / 2, searchTextField.height / 2);
         keyClick(Qt.Key_N); keyClick(Qt.Key_E); keyClick(Qt.Key_X);
         wait(800);
         var card = null;
@@ -96,7 +113,7 @@ TestCase {
             ensure(textIn(game,"Convenção das últimas casas aplicada"));
         }
         click(restart);var window=game.Window.window;window.width=1100;window.height=700;wait(350);
-        ensure(cell(60).width>=40);grabImage(pageView).save("__QA_OUTPUT__/desktop.png");
+        if(findChild(game,"zoomNex").text === "Ampliar") click(findChild(game,"zoomNex"));ensure(cell(60).width>=40);grabImage(pageView).save("__QA_OUTPUT__/desktop.png");
         window.width=600;window.height=900;wait(350);ensure(cell(60).width>=40);
         ensure(restart.mapToItem(game,0,0).y+restart.height<=game.height);
         select(120);select(119);ensure(confirm.enabled);click(confirm);ensure(textIn(game,"Participante 2"));
