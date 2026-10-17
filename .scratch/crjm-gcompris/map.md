@@ -22,8 +22,8 @@
 A investigação e a especificação estão concluídas. A implementação decorre na branch
 `integration/crjm-games`, a partir de `620fde9e5`.
 Os 17 tickets de execução estão publicados como `ready-for-agent`. Os tickets 02,
-03, 04, 05, 06, 07, 08 e 09 estão resolvidos e integrados; 10 e 12 estão assumidos.
-A fronteira disponível é 14 e 16; a primeira tarefa é 14. A tarefa 01 agrega o âmbito e não deve
+03, 04, 05, 06, 07, 08, 09, 10 e 12 estão resolvidos e integrados; 11 e 14 estão
+assumidos. A fronteira disponível é 13 e 16; a primeira tarefa é 13. A tarefa 01 agrega o âmbito e não deve
 ser assumida como uma implementação concorrente das subtarefas. A tarefa principal está assumida pelo coordenador. A implementação e a integração
 são verificadas antes de resolver cada ticket.
 
@@ -40,10 +40,10 @@ são verificadas antes de resolver cada ticket.
 | [07](issues/07-faisca-tux-aprendizagem.md) | Faísca contra Tux e aprendizagem guiada | 06 | resolved |
 | [08](issues/08-quelhas-duas-pessoas.md) | Quelhas para duas pessoas | 03 | resolved |
 | [09](issues/09-quelhas-tux-aprendizagem.md) | Quelhas contra Tux e aprendizagem guiada | 08 | resolved |
-| [10](issues/10-atari-go-duas-pessoas.md) | Atari Go para duas pessoas | 03 | claimed |
-| [11](issues/11-atari-go-tux-aprendizagem.md) | Atari Go contra Tux e aprendizagem guiada | 10 | open |
-| [12](issues/12-produto-duas-pessoas.md) | Produto para duas pessoas | 03 | claimed |
-| [13](issues/13-produto-tux-aprendizagem.md) | Produto contra Tux e aprendizagem guiada | 12 | open |
+| [10](issues/10-atari-go-duas-pessoas.md) | Atari Go para duas pessoas | 03 | resolved |
+| [11](issues/11-atari-go-tux-aprendizagem.md) | Atari Go contra Tux e aprendizagem guiada | 10 | claimed |
+| [12](issues/12-produto-duas-pessoas.md) | Produto para duas pessoas | 03 | resolved |
+| [13](issues/13-produto-tux-aprendizagem.md) | Produto contra Tux e aprendizagem guiada | 12 | claimed |
 | [14](issues/14-y-duas-pessoas.md) | Y para duas pessoas | 03 | claimed |
 | [15](issues/15-y-tux-aprendizagem.md) | Y contra Tux e aprendizagem guiada | 14 | open |
 | [16](issues/16-nex-duas-pessoas.md) | Nex para duas pessoas | 03 | open |
@@ -91,3 +91,13 @@ Decisão da entrega 07: Faísca com Tux local, três dificuldades, exercício, p
 graduais e revisão de uma decisão real. Evidência em `evidence/07-faisca/README.md`;
 Tux e regressão 06 com 2 passes, 0 falhas e 0 erros QML cada, incluindo saída e
 reabertura sem resposta tardia. Medições correspondem ao host disponível.
+
+Decisão da entrega 10: Atari Go nativo com grupos, liberdades, rejeição de
+suicídio e vitória pela primeira captura, verificado desde o menu com referências
+CRJM. Evidência em `evidence/10-atari-go/validation.md`; 2 passes, 0 falhas e
+0 erros QML. Ticket 11 desbloqueado.
+
+Decisão da entrega 12: Produto nativo com 61 casas, abertura de qualquer cor,
+turnos de duas colocações corrigíveis, pontuação e desempate. Evidência em
+`evidence/12-produto/README.md`; aceitação pós-sincronização com 2 passes,
+0 falhas e 0 erros QML. Ticket 13 desbloqueado.
