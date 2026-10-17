@@ -33,7 +33,7 @@ são verificadas antes de resolver cada ticket.
 | Ticket | Entrega | Bloqueado por | Progresso |
 | --- | --- | --- | --- |
 | [02](issues/02-dominorio-duas-pessoas.md) | Dominório para duas pessoas | Nenhum | resolved |
-| [03](issues/03-dominorio-tux-aprendizagem.md) | Dominório contra Tux e aprendizagem guiada | 02 | open |
+| [03](issues/03-dominorio-tux-aprendizagem.md) | Dominório contra Tux e aprendizagem guiada | 02 | resolved |
 | [04](issues/04-gatos-caes-duas-pessoas.md) | Gatos & Cães para duas pessoas | 03 | open |
 | [05](issues/05-gatos-caes-tux-aprendizagem.md) | Gatos & Cães contra Tux e aprendizagem guiada | 04 | open |
 | [06](issues/06-faisca-duas-pessoas.md) | Faísca para duas pessoas | 03 | open |
@@ -59,3 +59,9 @@ Para validar a estrutura do tracker, executar `python3 .scratch/crjm-gcompris/ve
 Decisão da entrega 02: atividade original nativa com teste pelo menu e transcript
 CRJM completo. Evidência em `evidence/02-dominorio/green`; runner suporta
 `--from-menu` e `--extra-activity` apenas no runtime privado. Ticket 03 desbloqueado.
+
+Decisão da entrega03: piloto nativo completo com worker ES limitado, regras
+partilhadas, três níveis, exercício e revisão por mobilidade. Evidência em
+`evidence/03-dominorio/README.md`. Orçamentos piloto: resposta2s, heartbeat250ms,
+ajuda1.5s. Host desktop real, sem dispositivo modesto disponível; repetir medição
+nesse alvo antes da distribuição. Fronteira04/06/08/10/12/14/16 desbloqueada.

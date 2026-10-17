@@ -15,3 +15,8 @@ whole transcript through real controls and does not load or override game state.
 
 The CRJM platform retains its original licence. This attribution grants no new
 rights over that platform. No external distribution is performed by this work.
+
+The local opponent, three difficulty policies, lesson, graded hints and decision
+review are original teaching content. The opponent uses a bounded one-response
+lookahead in a WorkerScript ES module and imports the same rules as the board.
+No CRJM AI or training implementation is incorporated.
