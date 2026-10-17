@@ -34,3 +34,6 @@ It covers all three real local difficulty policies, the didactic exercise, grade
 hints, a full Hard match and alternative first-decision review, stale-result
 invalidation, responsiveness budgets and both layouts. Evidence and timing
 limitations are recorded under `.scratch/crjm-gcompris/evidence/03-dominorio`.
+
+`tests/crjm/dominorio-keyboard.qml` separately checks Tab traversal and Space
+activation of every Dominório control, including the post-match review.
