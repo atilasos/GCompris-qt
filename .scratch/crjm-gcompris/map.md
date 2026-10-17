@@ -22,8 +22,8 @@
 A investigação e a especificação estão concluídas. A implementação decorre na branch
 `integration/crjm-games`, a partir de `620fde9e5`.
 Os 17 tickets de execução estão publicados como `ready-for-agent`. Os tickets 02
-a 14 e o ticket 16 estão resolvidos e integrados; 15 está assumido. A fronteira
-disponível é 17; a primeira tarefa é 17. A tarefa 01 agrega o âmbito e não deve
+a 16 estão resolvidos e integrados; 17 está assumido. Não há outra tarefa aberta
+e desbloqueada até à conclusão desta entrega. A tarefa 01 agrega o âmbito e não deve
 ser assumida como uma implementação concorrente das subtarefas. A tarefa principal está assumida pelo coordenador. A implementação e a integração
 são verificadas antes de resolver cada ticket.
 
@@ -45,7 +45,7 @@ são verificadas antes de resolver cada ticket.
 | [12](issues/12-produto-duas-pessoas.md) | Produto para duas pessoas | 03 | resolved |
 | [13](issues/13-produto-tux-aprendizagem.md) | Produto contra Tux e aprendizagem guiada | 12 | resolved |
 | [14](issues/14-y-duas-pessoas.md) | Y para duas pessoas | 03 | resolved |
-| [15](issues/15-y-tux-aprendizagem.md) | Y contra Tux e aprendizagem guiada | 14 | claimed |
+| [15](issues/15-y-tux-aprendizagem.md) | Y contra Tux e aprendizagem guiada | 14 | resolved |
 | [16](issues/16-nex-duas-pessoas.md) | Nex para duas pessoas | 03 | resolved |
 | [17](issues/17-nex-tux-aprendizagem.md) | Nex contra Tux e aprendizagem guiada | 16 | claimed |
 | [18](issues/18-validar-build-oito-jogos.md) | Validar os oito jogos numa build do fork | 05, 07, 09, 11, 13, 15, 17 | open |
@@ -127,3 +127,8 @@ Decisão da entrega 16: Nex nativo com colocação e substituição corrigíveis
 inicial, duas conexões vencedoras e exercícios de finais raros. Evidência em
 `evidence/16-nex/README.md`; 2 passes, 0 falhas e 0 erros QML. Os oito jogos constam
 do catálogo; ticket 17 desbloqueado.
+
+Decisão da entrega 15: Y com Tux local, três níveis, exercício, pistas e revisão,
+partida de 42 jogadas até vitória real e cancelamento imediato. Evidência em
+`evidence/15-y/README.md`; Tux e regressão 14 com 2 passes, 0 falhas e 0 erros QML
+cada. Inclui controlos inteiros e alvos de 44 px em 1100×700 e retrato.
