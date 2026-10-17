@@ -44,7 +44,7 @@ são verificadas antes de resolver cada ticket.
 | [11](issues/11-atari-go-tux-aprendizagem.md) | Atari Go contra Tux e aprendizagem guiada | 10 | open |
 | [12](issues/12-produto-duas-pessoas.md) | Produto para duas pessoas | 03 | claimed |
 | [13](issues/13-produto-tux-aprendizagem.md) | Produto contra Tux e aprendizagem guiada | 12 | open |
-| [14](issues/14-y-duas-pessoas.md) | Y para duas pessoas | 03 | open |
+| [14](issues/14-y-duas-pessoas.md) | Y para duas pessoas | 03 | claimed |
 | [15](issues/15-y-tux-aprendizagem.md) | Y contra Tux e aprendizagem guiada | 14 | open |
 | [16](issues/16-nex-duas-pessoas.md) | Nex para duas pessoas | 03 | open |
 | [17](issues/17-nex-tux-aprendizagem.md) | Nex contra Tux e aprendizagem guiada | 16 | open |
