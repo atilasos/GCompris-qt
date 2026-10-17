@@ -35,6 +35,8 @@ def main():
     parser.add_argument('--source-root', type=Path, default=ROOT)
     parser.add_argument('--binary', type=Path, help='source executable, required when creating a snapshot')
     parser.add_argument('--activity', required=True)
+    parser.add_argument('--from-menu', action='store_true', help='Start at the menu, without --launch')
+    parser.add_argument('--extra-activity', action='append', default=[], help='Compile an additional activity into the private runtime and menu')
     parser.add_argument('--qml-file', type=Path, required=True, help='source path under src/activities, often the inherited base component')
     parser.add_argument('--case', type=Path, required=True, help='whole TestCase {...} QML fragment, without imports')
     parser.add_argument('--output', type=Path, required=True, help='new directory for logs, screenshots and result.json')
@@ -54,6 +56,9 @@ def main():
     if args.xvfb and (args.renderer != 'opengl' or not args.xvfb.is_file()):
         parser.error('--xvfb requires OpenGL and an existing binary')
     ROOT = args.source_root.resolve()
+    for extra in args.extra_activity:
+        if not re.fullmatch(r'[A-Za-z0-9_-]+', extra) or not (ROOT / 'src/activities' / extra / 'ActivityInfo.qml').is_file():
+            parser.error('Additional activity must have valid name and ActivityInfo.qml')
     output = args.output.resolve()
     qml_path = args.qml_file.resolve()
     try:
@@ -114,6 +119,33 @@ def main():
     if rcc.is_symlink():
         rcc.unlink()
     subprocess.run(['/usr/lib/qt6/libexec/rcc', '--binary', str(qrc_path), '-o', str(rcc)], check=True)
+    for extra in args.extra_activity:
+        if not re.fullmatch(r'[A-Za-z0-9_-]+', extra):
+            parser.error('Invalid additional activity')
+        folder = ROOT / 'src/activities' / extra
+        extra_qrc = ET.Element('RCC')
+        resource = ET.SubElement(extra_qrc, 'qresource', prefix='/gcompris/src/activities/' + extra)
+        for path in sorted(folder.rglob('*')):
+            if path.is_file():
+                ET.SubElement(resource, 'file', alias=path.relative_to(folder).as_posix()).text = str(path)
+        extra_path = deployment / (extra + '.qrc')
+        ET.ElementTree(extra_qrc).write(extra_path, encoding='utf-8')
+        target = share / 'rcc' / (extra + '.rcc')
+        if target.is_symlink():
+            target.unlink()
+        subprocess.run(['/usr/lib/qt6/libexec/rcc', '--binary', str(extra_path), '-o', str(target)], check=True)
+    if args.extra_activity:
+        names = [line.split('#', 1)[0].strip() for line in (ROOT / 'src/activities/activities.txt').read_text().splitlines()]
+        activity_list = deployment / 'activities_out.txt'
+        activity_list.write_text('\n'.join(name for name in names if name) + '\n')
+        list_qrc = ET.Element('RCC')
+        resource = ET.SubElement(list_qrc, 'qresource', prefix='/gcompris/src/activities')
+        ET.SubElement(resource, 'file', alias='activities_out.txt').text = str(activity_list)
+        list_path = deployment / 'activities.qrc'
+        ET.ElementTree(list_qrc).write(list_path, encoding='utf-8')
+        target = share / 'rcc/activities.rcc'
+        target.unlink()
+        subprocess.run(['/usr/lib/qt6/libexec/rcc', '--binary', str(list_path), '-o', str(target)], check=True)
     # Recompile this checkout's PT catalogue so translation fixes are exercised too.
     ts = deployment / 'gcompris_qt_pt.ts'
     subprocess.run(['/usr/lib/qt6/bin/lconvert', '-target-language', 'pt_PT', '-i',
@@ -132,7 +164,9 @@ def main():
     env = dict(os.environ, QT_QPA_PLATFORM='offscreen')
     for key, name in [('XDG_CONFIG_HOME', 'config'), ('XDG_DATA_HOME', 'data'), ('XDG_CACHE_HOME', 'cache')]:
         env[key] = str(profile / name)
-    command = [str(binary), '--window', '--locale', args.locale, '--renderer', args.renderer, '--mute', '--launch', args.activity]
+    command = [str(binary), '--window', '--locale', args.locale, '--renderer', args.renderer, '--mute']
+    if not args.from_menu:
+        command += ['--launch', args.activity]
     if args.start_level is not None:
         command += ['--start-level', str(args.start_level)]
     if args.renderer == 'opengl':
@@ -163,6 +197,8 @@ def main():
                    f'--userspec={os.getuid()}:{os.getgid()}', '/', '/usr/bin/env', *settings, *command]
     effective_resources = dict(resource_manifest['files'])
     effective_resources['share/gcompris-qt/rcc/' + relative.parts[0] + '.rcc'] = sha(rcc)
+    for extra in args.extra_activity + (['activities'] if args.extra_activity else []):
+        effective_resources['share/gcompris-qt/rcc/' + extra + '.rcc'] = sha(share / 'rcc' / (extra + '.rcc'))
     effective_resources['share/gcompris-qt/translations/gcompris_qt_pt.qm'] = sha(qm)
     metadata = {'resource_snapshot': str(snapshot), 'resource_manifest_sha256': sha(snapshot / 'manifest.json'), 'resource_files_sha256': effective_resources,
                 'runtime_uid': os.getuid(), 'runtime_gid': os.getgid(), 'offline_image_id': image, 'activity': args.activity, 'locale': args.locale, 'qml_file': str(relative),

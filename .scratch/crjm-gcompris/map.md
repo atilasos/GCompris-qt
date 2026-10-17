@@ -30,7 +30,7 @@ da divisão não iniciou a implementação nem alterou o estado da tarefa princi
 
 | Ticket | Entrega | Bloqueado por | Progresso |
 | --- | --- | --- | --- |
-| [02](issues/02-dominorio-duas-pessoas.md) | Dominório para duas pessoas | Nenhum | open |
+| [02](issues/02-dominorio-duas-pessoas.md) | Dominório para duas pessoas | Nenhum | resolved |
 | [03](issues/03-dominorio-tux-aprendizagem.md) | Dominório contra Tux e aprendizagem guiada | 02 | open |
 | [04](issues/04-gatos-caes-duas-pessoas.md) | Gatos & Cães para duas pessoas | 03 | open |
 | [05](issues/05-gatos-caes-tux-aprendizagem.md) | Gatos & Cães contra Tux e aprendizagem guiada | 04 | open |
@@ -53,3 +53,7 @@ O ticket 18 depende transitivamente de 02 e 03 e das entregas para duas pessoas
 através dos tickets finais de cada jogo. Não acrescentar esses bloqueios redundantes.
 
 Para validar a estrutura do tracker, executar `python3 .scratch/crjm-gcompris/verify-tickets.py`.
+
+Decisão da entrega 02: atividade original nativa com teste pelo menu e transcript
+CRJM completo. Evidência em `evidence/02-dominorio/green`; runner suporta
+`--from-menu` e `--extra-activity` apenas no runtime privado. Ticket 03 desbloqueado.
