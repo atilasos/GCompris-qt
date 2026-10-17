@@ -46,7 +46,7 @@ são verificadas antes de resolver cada ticket.
 | [13](issues/13-produto-tux-aprendizagem.md) | Produto contra Tux e aprendizagem guiada | 12 | claimed |
 | [14](issues/14-y-duas-pessoas.md) | Y para duas pessoas | 03 | claimed |
 | [15](issues/15-y-tux-aprendizagem.md) | Y contra Tux e aprendizagem guiada | 14 | open |
-| [16](issues/16-nex-duas-pessoas.md) | Nex para duas pessoas | 03 | open |
+| [16](issues/16-nex-duas-pessoas.md) | Nex para duas pessoas | 03 | claimed |
 | [17](issues/17-nex-tux-aprendizagem.md) | Nex contra Tux e aprendizagem guiada | 16 | open |
 | [18](issues/18-validar-build-oito-jogos.md) | Validar os oito jogos numa build do fork | 05, 07, 09, 11, 13, 15, 17 | open |
 
