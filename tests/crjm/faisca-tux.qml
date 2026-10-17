@@ -107,8 +107,13 @@ TestCase {
         window.width=600;window.height=900;wait(350);ensure(board.width/6>=40,"Portrait targets");
         ensure(confirm.mapToItem(game,0,0).y+confirm.height<=game.height);grabImage(pageView).save("__QA_OUTPUT__/portrait.png");
         click(findChild(game,"faiscaCell2"));click(findChild(game,"direction2"));mouseClick(confirm,confirm.width/2,confirm.height/2);
-        click(icon(game,"bar_home.svg"));tryCompare(pageView,"depth",1,2000);wait(400);ensure(pageView.currentItem.isMenu);
-        click(card);wait(1200);game=activityLoader.item;
+        click(icon(game,"bar_home.svg"));tryCompare(pageView,"depth",1,2000);wait(1000);ensure(pageView.currentItem.isMenu);
+        // Resizing the menu can recreate its delegates; use its current card.
+        card=null;
+        for(var reopen=0;reopen<activitiesGrid.count;++reopen) {
+            var current=activitiesGrid.itemAtIndex(reopen);if(current && textIn(current,"Faísca")) card=current;
+        }
+        click(card);tryCompare(pageView,"depth",2,2000);wait(1200);game=activityLoader.item;
         ensure(pieceCount(game,1)===0 && pieceCount(game,2)===0,"Reopened activity has no reply from previous match");
         ensure(textIn(findChild(game,"reserve2"),"1: 5 · 2: 5 · 3: 5"));
         click(icon(game,"bar_home.svg"));tryCompare(pageView,"depth",1,2000);
