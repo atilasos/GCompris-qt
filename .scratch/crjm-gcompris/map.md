@@ -22,8 +22,8 @@
 A investigação e a especificação estão concluídas. A implementação decorre na branch
 `integration/crjm-games`, a partir de `620fde9e5`.
 Os 17 tickets de execução estão publicados como `ready-for-agent`. Os tickets 02
-a 16 estão resolvidos e integrados; 17 está assumido. Não há outra tarefa aberta
-e desbloqueada até à conclusão desta entrega. A tarefa 01 agrega o âmbito e não deve
+a 17 estão resolvidos e integrados. A fronteira disponível é 18, a validação
+do conjunto numa build do fork. A tarefa 01 agrega o âmbito e não deve
 ser assumida como uma implementação concorrente das subtarefas. A tarefa principal está assumida pelo coordenador. A implementação e a integração
 são verificadas antes de resolver cada ticket.
 
@@ -47,7 +47,7 @@ são verificadas antes de resolver cada ticket.
 | [14](issues/14-y-duas-pessoas.md) | Y para duas pessoas | 03 | resolved |
 | [15](issues/15-y-tux-aprendizagem.md) | Y contra Tux e aprendizagem guiada | 14 | resolved |
 | [16](issues/16-nex-duas-pessoas.md) | Nex para duas pessoas | 03 | resolved |
-| [17](issues/17-nex-tux-aprendizagem.md) | Nex contra Tux e aprendizagem guiada | 16 | claimed |
+| [17](issues/17-nex-tux-aprendizagem.md) | Nex contra Tux e aprendizagem guiada | 16 | resolved |
 | [18](issues/18-validar-build-oito-jogos.md) | Validar os oito jogos numa build do fork | 05, 07, 09, 11, 13, 15, 17 | open |
 
 Os números de bloqueio são condições de início, não a ordem preferida de execução.
@@ -132,3 +132,8 @@ Decisão da entrega 15: Y com Tux local, três níveis, exercício, pistas e rev
 partida de 42 jogadas até vitória real e cancelamento imediato. Evidência em
 `evidence/15-y/README.md`; Tux e regressão 14 com 2 passes, 0 falhas e 0 erros QML
 cada. Inclui controlos inteiros e alvos de 44 px em 1100×700 e retrato.
+
+Decisão da entrega 17: Nex com Tux local, três níveis, exercício de ações, pistas
+e revisão, com cancelamento de respostas pendentes. Evidência em
+`evidence/17-nex/README.md`; Tux e regressão 16 com 2 passes, 0 falhas e 0 erros QML
+cada. Os oito jogos têm ambos os modos; ticket 18 desbloqueado.
