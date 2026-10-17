@@ -1,6 +1,23 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // Seam: the real menu and activity controls, never the rule engine or game state.
 TestCase {
+    function clickNative(item, x, y) {
+        // Scroll secondary tools into view through the real Flickable, without
+        // delaying immediate restart/exit cases while Tux is calculating.
+        var area = item.parent;
+        while (area) {
+            if (area.objectName === "boardGameToolsViewport") {
+                area.cancelFlick();
+                var point = item.mapToItem(area.contentItem, 0, 0);
+                if (point.y < area.contentY || point.y + item.height > area.contentY + area.height)
+                    area.contentY = Math.max(0, Math.min(area.contentHeight - area.height, point.y - 8));
+                break;
+            }
+            area = area.parent;
+        }
+        mouseClick(item, x, y);
+    }
+
     id:nexCase
     name: "NexTuxNative"
     property double heartbeatAt: 0
@@ -25,12 +42,12 @@ TestCase {
         return null;
     }
     function ensure(value, message) { if (!value) console.log("NEX_ASSERT_FAILED", message || "", new Error().stack); verify(value, message || ""); }
-    function click(item) { ensure(item !== null); mouseClick(item, item.width / 2, item.height / 2); wait(60); }
+    function click(item) { ensure(item !== null); clickNative(item, item.width / 2, item.height / 2); wait(60); }
     function test_menu_to_complete_game() {
         wait(1500);
         var search = section.itemAtIndex(section.count - 1);
         click(search);
-        mouseClick(searchTextField, searchTextField.width / 2, searchTextField.height / 2);
+        clickNative(searchTextField, searchTextField.width / 2, searchTextField.height / 2);
         keyClick(Qt.Key_N); keyClick(Qt.Key_E); keyClick(Qt.Key_X);
         wait(800);
         var card = null;
@@ -61,7 +78,7 @@ TestCase {
         }
         function play(a,b) {
             select(a);select(b);ensure(confirm.enabled);measuring=true;dispatchAt=Date.now();
-            mouseClick(confirm,confirm.width/2,confirm.height/2);
+            clickNative(confirm,confirm.width/2,confirm.height/2);
             if(textIn(game,"Tux pensa")) {
                 ensure(!confirm.enabled&&!findChild(game,"swapNex").enabled&&!findChild(game,"replaceNex").enabled&&!findChild(game,"placeNex").enabled,"Human cannot act for Tux");
                 ++lockedChecks;
@@ -113,15 +130,15 @@ TestCase {
         grabImage(pageView).save("__QA_OUTPUT__/hard-result.png");
         tabClick(findChild(game,"reviewNex"));tabClick(hint);tabClick(hint);tabClick(hint);tabClick(confirm);ensure(textIn(game,"Comparação:"));
         // Restart and leave immediately after dispatch: no late moves in fresh game.
-        click(restart);select(0);select(120);mouseClick(confirm,confirm.width/2,confirm.height/2);mouseClick(restart,restart.width/2,restart.height/2);wait(2100);
+        click(restart);select(0);select(120);clickNative(confirm,confirm.width/2,confirm.height/2);clickNative(restart,restart.width/2,restart.height/2);wait(2100);
         ensure(textIn(game,"Participante 1"));ensure(!textIn(cell(0),"●"));ensure(!textIn(cell(120),"+"));
-        select(0);select(120);dispatchAt=Date.now();mouseClick(confirm,confirm.width/2,confirm.height/2);
-        var beforeHelp=Date.now(),help=icon(game,"bar_help.svg");mouseClick(help,help.width/2,help.height/2);tryCompare(pageView,"depth",3,1500);var helpMs=Date.now()-beforeHelp;ensure(helpMs<=1500);keyClick(Qt.Key_Escape);tryCompare(pageView,"depth",2,1500);wait(1200);tryVerify(function(){return textIn(game,"Participante 1")||result();},2000);
+        select(0);select(120);dispatchAt=Date.now();clickNative(confirm,confirm.width/2,confirm.height/2);
+        var beforeHelp=Date.now(),help=icon(game,"bar_help.svg");clickNative(help,help.width/2,help.height/2);tryCompare(pageView,"depth",3,1500);var helpMs=Date.now()-beforeHelp;ensure(helpMs<=1500);keyClick(Qt.Key_Escape);tryCompare(pageView,"depth",2,1500);wait(1200);tryVerify(function(){return textIn(game,"Participante 1")||result();},2000);
         ensure(textIn(cell(0),"●"));
-        click(restart);var window=game.Window.window;window.width=1100;window.height=760;wait(300);ensure(cell(60).width>=40);grabImage(pageView).save("__QA_OUTPUT__/desktop.png");
+        click(restart);var window=game.Window.window;window.width=1100;window.height=760;wait(300);if(findChild(game,"zoomNex").text === "Ampliar") click(findChild(game,"zoomNex"));ensure(cell(60).width>=40);grabImage(pageView).save("__QA_OUTPUT__/desktop.png");
         window.width=600;window.height=900;wait(300);ensure(cell(60).width>=40);ensure(restart.mapToItem(game,0,0).y+restart.height<=game.height);grabImage(pageView).save("__QA_OUTPUT__/portrait.png");
-        select(0,true);select(120);mouseClick(confirm,confirm.width/2,confirm.height/2);
-        var home=icon(game,"bar_home.svg");mouseClick(home,home.width/2,home.height/2);tryCompare(pageView,"depth",1,2000);wait(2100);
+        select(0,true);select(120);clickNative(confirm,confirm.width/2,confirm.height/2);
+        var home=icon(game,"bar_home.svg");clickNative(home,home.width/2,home.height/2);tryCompare(pageView,"depth",1,2000);wait(2100);
         console.log("NEX_STAGE","left while computing");click(card);tryVerify(function(){return activityLoader.item&&activityLoader.item.visible;},5000);wait(1500);game=activityLoader.item;
         ensure(textIn(game,"Participante 1"));ensure(!textIn(findChild(game,"nexCell0"),"●"));
         console.log("NEX_STAGE","reopened",pageView.depth);click(icon(game,"bar_home.svg"));tryCompare(pageView,"depth",1,3000);

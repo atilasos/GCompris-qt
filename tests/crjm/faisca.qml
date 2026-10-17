@@ -1,6 +1,23 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // Acceptance seam: real native menu, controls and observable board.
 TestCase {
+    function clickNative(item, x, y) {
+        // Scroll secondary tools into view through the real Flickable, without
+        // delaying immediate restart/exit cases while Tux is calculating.
+        var area = item.parent;
+        while (area) {
+            if (area.objectName === "boardGameToolsViewport") {
+                area.cancelFlick();
+                var point = item.mapToItem(area.contentItem, 0, 0);
+                if (point.y < area.contentY || point.y + item.height > area.contentY + area.height)
+                    area.contentY = Math.max(0, Math.min(area.contentHeight - area.height, point.y - 8));
+                break;
+            }
+            area = area.parent;
+        }
+        mouseClick(item, x, y);
+    }
+
     name: "FaiscaNative"
     when: activity.visible
     function textIn(item, text) {
@@ -14,7 +31,7 @@ TestCase {
         return null;
     }
     function ensure(value, message) { if(!value) console.log("FAISCA_ASSERT_FAILED", message, new Error().stack); verify(value, message || ""); }
-    function click(item) { ensure(item !== null, "Control exists"); mouseClick(item,item.width/2,item.height/2); wait(60); }
+    function click(item) { ensure(item !== null, "Control exists"); clickNative(item,item.width/2,item.height/2); wait(60); }
     function tabTo(button) {
         for(var k=0;k<30 && !button.activeFocus;++k) keyClick(Qt.Key_Tab);
         ensure(button.activeFocus,"Tab reaches "+button.objectName);
@@ -28,6 +45,11 @@ TestCase {
         tryVerify(function(){return activityLoader.item && activityLoader.item.visible;},5000); wait(1200);
         var game=activityLoader.item, board=findChild(game,"faiscaBoard"), confirm=findChild(game,"confirmFaisca");
         ensure(board !== null); ensure(textIn(game,"Participante 1"));
+        // Direct destination preview is reversible before anything is placed.
+        click(findChild(game,"faiscaCell0")); click(findChild(game,"faiscaCell1"));
+        ensure(confirm.enabled); click(findChild(game,"clearFaisca"));
+        ensure(!confirm.enabled); ensure(textIn(game,"Participante 1"));
+        ensure(textIn(findChild(game,"reserve1"),"1: 5 · 2: 5 · 3: 5"));
         // Invalid endpoint preserves reserve and turn; direction/distance are editable.
         click(findChild(game,"faiscaCell2")); click(findChild(game,"direction0"));
         ensure(!confirm.enabled); ensure(textIn(game,"Destino inválido")); ensure(textIn(game,"1: 5 · 2: 5 · 3: 5"));

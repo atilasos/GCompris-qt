@@ -1,6 +1,23 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // Seam: the real menu and activity controls, never the rule engine or game state.
 TestCase {
+    function clickNative(item, x, y) {
+        // Scroll secondary tools into view through the real Flickable, without
+        // delaying immediate restart/exit cases while Tux is calculating.
+        var area = item.parent;
+        while (area) {
+            if (area.objectName === "boardGameToolsViewport") {
+                area.cancelFlick();
+                var point = item.mapToItem(area.contentItem, 0, 0);
+                if (point.y < area.contentY || point.y + item.height > area.contentY + area.height)
+                    area.contentY = Math.max(0, Math.min(area.contentHeight - area.height, point.y - 8));
+                break;
+            }
+            area = area.parent;
+        }
+        mouseClick(item, x, y);
+    }
+
     name: "AtariGoTuxNative"
     property double lastTick: 0
     property double heartbeatMax: 0
@@ -24,12 +41,12 @@ TestCase {
         return null;
     }
     function ensure(value, message) { if (!value) console.log("ATARI_ASSERT_FAILED", message || "", new Error().stack); verify(value, message || ""); }
-    function click(item) { ensure(item !== null); mouseClick(item, item.width / 2, item.height / 2); wait(60); }
+    function click(item) { ensure(item !== null); clickNative(item, item.width / 2, item.height / 2); wait(60); }
     function test_menu_to_complete_game() {
         wait(1500);
         var search = section.itemAtIndex(section.count - 1);
         click(search);
-        mouseClick(searchTextField, searchTextField.width / 2, searchTextField.height / 2);
+        clickNative(searchTextField, searchTextField.width / 2, searchTextField.height / 2);
         keyClick(Qt.Key_A); keyClick(Qt.Key_T); keyClick(Qt.Key_A); keyClick(Qt.Key_R);
         wait(800);
         var card = null;
@@ -82,13 +99,13 @@ TestCase {
             for (var i = 0; i < 81 && !played; ++i) {
                 if (textIn(cell(i), "●") || textIn(cell(i), "○")) continue;
                 var before = Date.now();
-                mouseClick(cell(i), cell(i).width/2, cell(i).height/2);
+                clickNative(cell(i), cell(i).width/2, cell(i).height/2);
                 wait(10);
                 if (textIn(game, "Suicídio")) continue;
                 played = true;
                 if (turn === 0) {
                     var helpStart = Date.now();
-                    mouseClick(icon(game, "bar_help.svg"));
+                    clickNative(icon(game, "bar_help.svg"));
                     tryCompare(pageView, "depth", 3, 1500);
                     helpLatency = Date.now() - helpStart; ensure(helpLatency < 1500);
                     ensure(pageView.currentItem.content.indexOf("liberdades") >= 0);
@@ -111,8 +128,8 @@ TestCase {
         click(cell(41)); ensure(!textIn(cell(41), "●"));
         grabImage(pageView).save("__QA_OUTPUT__/review.png");
         activate(restart);
-        mouseClick(cell(0),cell(0).width/2,cell(0).height/2);
-        mouseClick(restart,restart.width/2,restart.height/2); wait(500);
+        clickNative(cell(0),cell(0).width/2,cell(0).height/2);
+        clickNative(restart,restart.width/2,restart.height/2); wait(500);
         ensure(textIn(game, "Tu · Pretas"));
         for (var n = 0; n < 81; ++n) ensure(!textIn(cell(n), "○") && !textIn(cell(n), "●"), "Reset invalidates worker");
         // Remaining difficulty policies each produce a real legal reply.
@@ -131,8 +148,8 @@ TestCase {
         window.width = 600; window.height = 900; wait(200);
         ensure(board.width/9 >= 40); grabImage(pageView).save("__QA_OUTPUT__/portrait.png");
         click(restart);
-        mouseClick(cell(0),cell(0).width/2,cell(0).height/2);
-        mouseClick(icon(game, "bar_home.svg")); tryCompare(pageView,"depth",1,2000); wait(1100);
+        clickNative(cell(0),cell(0).width/2,cell(0).height/2);
+        clickNative(icon(game, "bar_home.svg")); tryCompare(pageView,"depth",1,2000); wait(1100);
         card = null;
         for (var d2 = 0; d2 < activitiesGrid.count; ++d2) {
             var candidate2 = activitiesGrid.itemAtIndex(d2);

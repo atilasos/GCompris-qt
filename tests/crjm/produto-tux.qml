@@ -1,6 +1,23 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // Seam: the real menu and activity controls, never the rule engine or game state.
 TestCase {
+    function clickNative(item, x, y) {
+        // Scroll secondary tools into view through the real Flickable, without
+        // delaying immediate restart/exit cases while Tux is calculating.
+        var area = item.parent;
+        while (area) {
+            if (area.objectName === "boardGameToolsViewport") {
+                area.cancelFlick();
+                var point = item.mapToItem(area.contentItem, 0, 0);
+                if (point.y < area.contentY || point.y + item.height > area.contentY + area.height)
+                    area.contentY = Math.max(0, Math.min(area.contentHeight - area.height, point.y - 8));
+                break;
+            }
+            area = area.parent;
+        }
+        mouseClick(item, x, y);
+    }
+
     id: nativeCase
     name: "ProdutoTuxNative"
     property double lastBeat: 0
@@ -36,12 +53,12 @@ TestCase {
         return null;
     }
     function ensure(value, message) { if (!value) console.log("PRODUTO_ASSERT_FAILED", message || "", new Error().stack); verify(value, message || ""); }
-    function click(item) { ensure(item !== null); mouseClick(item, item.width / 2, item.height / 2); wait(60); }
+    function click(item) { ensure(item !== null); clickNative(item, item.width / 2, item.height / 2); wait(60); }
     function test_menu_to_complete_game() {
         wait(1500);
         var search = section.itemAtIndex(section.count - 1);
         click(search);
-        mouseClick(searchTextField, searchTextField.width / 2, searchTextField.height / 2);
+        clickNative(searchTextField, searchTextField.width / 2, searchTextField.height / 2);
         keyClick(Qt.Key_P); keyClick(Qt.Key_R); keyClick(Qt.Key_O); keyClick(Qt.Key_D);
         wait(800);
         var card = null;
@@ -67,7 +84,7 @@ TestCase {
         for(var level=0;level<3;++level) {
             ensure(textIn(difficulty,["Fácil","Médio","Difícil"][level]));
             choose(30,2);
-            var started=Date.now(); mouseClick(confirm,confirm.width/2,confirm.height/2);
+            var started=Date.now(); clickNative(confirm,confirm.width/2,confirm.height/2);
             tryVerify(function(){return textIn(game,"Participante 1") && !textIn(game,"pensa");},2000);
             times.push(Date.now()-started);
             ensure(stoneCount(game)===3,"Opening plus one complete legal Tux double turn");
@@ -95,9 +112,9 @@ TestCase {
             for(var c=0;c<61 && selected<need;++c)
                 if(!textIn(cell(c),"●") && !textIn(cell(c),"◇")) { choose(c,(humanTurns+selected)%2+1); ++selected; }
             ensure(confirm.enabled,"Complete human turn");
-            var start=Date.now(); mouseClick(confirm,confirm.width/2,confirm.height/2);
+            var start=Date.now(); clickNative(confirm,confirm.width/2,confirm.height/2);
             if(humanTurns===0) {
-                var hs=Date.now(), help=icon(game,"bar_help.svg");mouseClick(help,help.width/2,help.height/2);
+                var hs=Date.now(), help=icon(game,"bar_help.svg");clickNative(help,help.width/2,help.height/2);
                 tryCompare(pageView,"depth",3,1500); helpTimes.push(Date.now()-hs);
                 keyClick(Qt.Key_Escape);tryCompare(pageView,"depth",2,2000);wait(1000);
             }
@@ -118,13 +135,13 @@ TestCase {
         ensure(textIn(game,"O vencedor da partida mantém-se"));ensure(!textIn(game,"Venceu"));
         grabImage(pageView).save("__QA_OUTPUT__/review.png");
         activate(restart);choose(30,1);
-        mouseClick(confirm,confirm.width/2,confirm.height/2);mouseClick(restart,restart.width/2,restart.height/2);wait(600);
+        clickNative(confirm,confirm.width/2,confirm.height/2);clickNative(restart,restart.width/2,restart.height/2);wait(600);
         ensure(stoneCount(game)===0,"Restart discards pending reply");
         var window=game.Window.window;window.width=1100;window.height=700;wait(350);
         ensure(cell(30).width>=36,"Desktop targets");grabImage(pageView).save("__QA_OUTPUT__/desktop.png");
         window.width=600;window.height=900;wait(350);
         ensure(cell(30).width>=40,"Portrait targets");grabImage(pageView).save("__QA_OUTPUT__/portrait.png");
-        choose(30,1);mouseClick(confirm,confirm.width/2,confirm.height/2);
+        choose(30,1);clickNative(confirm,confirm.width/2,confirm.height/2);
         click(icon(game,"bar_home.svg"));tryCompare(pageView,"depth",1,2000);wait(700);
         card=null;
         for(var r=0;r<activitiesGrid.count;++r) {var current=activitiesGrid.itemAtIndex(r);if(current && textIn(current,"Produto")) card=current;}

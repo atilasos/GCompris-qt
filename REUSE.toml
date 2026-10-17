@@ -5393,3 +5393,10 @@ path = ["src/activities/y/board.mjs", "src/activities/y/PROVENANCE.md", "tests/c
 precedence = "aggregate"
 SPDX-License-Identifier = "GPL-3.0-or-later"
 SPDX-FileCopyrightText = "NONE"
+
+# Existing GCompris artwork reused unchanged in the native game.
+[[annotations]]
+path = ["src/activities/gatos_caes/cat.svg", "src/activities/gatos_caes/dog.svg"]
+precedence = "override"
+SPDX-FileCopyrightText = "2020 Timothée Giet"
+SPDX-License-Identifier = "CC-BY-SA-4.0"

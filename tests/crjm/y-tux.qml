@@ -1,6 +1,23 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // Seam: the real menu and activity controls, never the rule engine or game state.
 TestCase {
+    function clickNative(item, x, y) {
+        // Scroll secondary tools into view through the real Flickable, without
+        // delaying immediate restart/exit cases while Tux is calculating.
+        var area = item.parent;
+        while (area) {
+            if (area.objectName === "boardGameToolsViewport") {
+                area.cancelFlick();
+                var point = item.mapToItem(area.contentItem, 0, 0);
+                if (point.y < area.contentY || point.y + item.height > area.contentY + area.height)
+                    area.contentY = Math.max(0, Math.min(area.contentHeight - area.height, point.y - 8));
+                break;
+            }
+            area = area.parent;
+        }
+        mouseClick(item, x, y);
+    }
+
     name: "YTuxNative"
     property double lastTick: 0
     property double heartbeatMax: 0
@@ -24,12 +41,12 @@ TestCase {
         return null;
     }
     function ensure(value, message) { if (!value) console.log("Y_ASSERT_FAILED", message || "", new Error().stack); verify(value, message || ""); }
-    function click(item) { ensure(item !== null); mouseClick(item, item.width / 2, item.height / 2); wait(60); }
+    function click(item) { ensure(item !== null); clickNative(item, item.width / 2, item.height / 2); wait(60); }
     function test_menu_to_complete_game() {
         wait(1500);
         var search = section.itemAtIndex(section.count - 1);
         click(search);
-        mouseClick(searchTextField, searchTextField.width / 2, searchTextField.height / 2);
+        clickNative(searchTextField, searchTextField.width / 2, searchTextField.height / 2);
         keyClick(Qt.Key_Y); keyClick(Qt.Key_Slash);
         wait(800);
         var card = null;
@@ -119,6 +136,9 @@ TestCase {
         ensure(textIn(game,"Exercício didático preparado"));
         for(var h=0;h<3;h++) tabActivate(findChild(game,"hintY"));
         ensure(textIn(game,"intersecção A9"));
+        // A full-board overview is for planning. Enlarge before precise touch.
+        if(node("A9").width<44)tabActivate(findChild(game,"zoomY"));
+        ensure(node("A9").width>=44,"Enlarged touch target");
         // Synthetic touch and actual ordinary connection detection complete the exercise.
         board.forceActiveFocus();
         var goal=ids.indexOf("A9"); while(cursor!==goal) {keyClick(Qt.Key_Right);cursor=(cursor+1)%93;}
@@ -130,7 +150,7 @@ TestCase {
         reset(); board.forceActiveFocus(); keyClick(Qt.Key_Right); cursor=1;
         keyClick(Qt.Key_Space);
         // No wait/yield between scheduling the real worker and the cancellation.
-        mouseClick(findChild(game,"restartY"),20,20); cursor=0;wait(400);
+        clickNative(findChild(game,"restartY"),20,20); cursor=0;wait(400);
         ensure(textIn(game,"Tu · Azul"));
         for(var i=0;i<ids.length;i++) ensure(!occupied(ids[i]),"No stale move after reset");
         var window=game.Window.window;
@@ -147,7 +167,7 @@ TestCase {
         place("A2");awaitHuman();ensure(textIn(node("A2"),"◆"));
         grabImage(pageView).save("__QA_OUTPUT__/desktop-small.png");
         window.width=600;window.height=900;wait(150);
-        tabActivate(findChild(game,"zoomY"));
+        if(findChild(game,"zoomY").text==="Ampliar")tabActivate(findChild(game,"zoomY"));
         // Reach lower graph with keyboard, then drag viewport back up.
         board.forceActiveFocus();goal=ids.indexOf("M1");
         while(cursor!==goal){keyClick(Qt.Key_Right);cursor=(cursor+1)%93;}wait(100);
@@ -159,7 +179,7 @@ TestCase {
         grabImage(pageView).save("__QA_OUTPUT__/portrait-scroll.png");
         reset(); board.forceActiveFocus(); keyClick(Qt.Key_Right); cursor=1;
         keyClick(Qt.Key_Space);
-        var home=icon(game,"bar_home.svg");mouseClick(home,home.width/2,home.height/2);
+        var home=icon(game,"bar_home.svg");clickNative(home,home.width/2,home.height/2);
         tryCompare(pageView,"depth",1,2000);wait(1100);
         ensure(pageView.currentItem.isMenu);
         card=null;

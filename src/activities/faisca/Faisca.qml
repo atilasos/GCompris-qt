@@ -11,7 +11,7 @@ ActivityBase {
     pageComponent: Rectangle {
         id: scene
         anchors.fill: parent
-        color: "#edf4eb"
+        color: "#dcecf3"
         signal start
         signal stop
         property var cells: Rules.emptyBoard()
@@ -142,6 +142,32 @@ ActivityBase {
             }
             board.forceActiveFocus();
         }
+        function destinationChoice(index) {
+            if (selected < 0 || !accepting || winner)
+                return null;
+            var row = Math.floor(index / 6) - Math.floor(selected / 6);
+            var col = index % 6 - selected % 6;
+            if ((row === 0) === (col === 0))
+                return null;
+            var steps = Math.abs(row || col);
+            if (steps < 1 || steps > 3)
+                return null;
+            var facing = row < 0 ? 0 : col > 0 ? 1 : row > 0 ? 2 : 3;
+            return Rules.legal(cells, reserves[player - 1], selected, mandatory, steps, facing) ? {
+                distance: steps,
+                direction: facing
+            } : null;
+        }
+        function selectOnBoard(index) {
+            var target = destinationChoice(index);
+            if (target) {
+                distance = target.distance;
+                direction = target.direction;
+                feedback = qsTr("Destino escolhido. Confirma a seta ou escolhe outro destino.");
+                board.forceActiveFocus();
+            } else
+                choose(index);
+        }
         function confirm() {
             if (!validSelection)
                 return;
@@ -217,96 +243,198 @@ ActivityBase {
             activity.stop.connect(stop);
         }
         onStart: reset()
-        GCText {
+        BoardGameLayout {
+            id: gameLayout
+            focusTarget: board
+            anchors.fill: parent
+            anchors.bottomMargin: bar.height * bar.scale + 6
+            gameName: qsTr("Faísca")
+            iconSource: "qrc:/gcompris/src/activities/faisca/faisca.svg"
+            toolItems: [
+                Flow {
+                    id: choices
+
+                    width: parent.width
+
+                    spacing: 4
+                    Flow {
+                        width: parent.width
+
+                        spacing: 6
+                        Repeater {
+                            model: 3
+                            BoardGameButton {
+                                focusPolicy: Qt.StrongFocus
+                                required property int index
+                                width: (parent.width - 12) / 3
+                                selected: scene.distance === index + 1
+                                objectName: "distance" + (index + 1)
+                                text: index === 0 ? qsTr("1 casa") : qsTr("%1 casas").arg(index + 1)
+                                enabled: scene.accepting && !scene.winner
+                                onClicked: {
+                                    scene.distance = index + 1;
+                                    scene.feedback = "";
+                                    board.forceActiveFocus();
+                                }
+                            }
+                        }
+                    }
+                    Flow {
+                        width: parent.width
+
+                        spacing: 6
+                        Repeater {
+                            model: 4
+                            BoardGameButton {
+                                focusPolicy: Qt.StrongFocus
+                                required property int index
+                                width: (parent.width - 18) / 4
+                                selected: scene.direction === index
+                                objectName: "direction" + index
+                                text: scene.arrows[index]
+                                Accessible.name: [qsTr("Cima"), qsTr("Direita"), qsTr("Baixo"), qsTr("Esquerda")][index]
+                                enabled: scene.accepting && !scene.winner
+                                onClicked: {
+                                    scene.direction = index;
+                                    scene.feedback = "";
+                                    board.forceActiveFocus();
+                                }
+                            }
+                        }
+                    }
+                },
+                Flow {
+                    id: controls
+
+                    width: parent.width
+
+                    spacing: 6
+                    BoardGameButton {
+                        focusPolicy: Qt.StrongFocus
+                        objectName: "lessonNext"
+                        visible: scene.phase === "intro"
+                        text: qsTr("Experimentar")
+                        onClicked: scene.exercise()
+                    }
+                    BoardGameButton {
+                        focusPolicy: Qt.StrongFocus
+                        objectName: "hintFaisca"
+                        text: qsTr("Pista")
+                        enabled: scene.accepting && !scene.winner
+                        onClicked: scene.hint()
+                    }
+                    BoardGameButton {
+                        focusPolicy: Qt.StrongFocus
+                        objectName: "reviewFaisca"
+                        visible: scene.winner > 0 && scene.phase === "match" && scene.decision !== null
+                        text: qsTr("Rever decisão")
+                        onClicked: scene.review()
+                    }
+                    BoardGameButton {
+                        focusPolicy: Qt.StrongFocus
+                        primaryAction: true
+                        objectName: "confirmFaisca"
+                        text: qsTr("Confirmar")
+                        enabled: scene.validSelection
+                        onClicked: scene.confirm()
+                    }
+                    BoardGameButton {
+                        objectName: "clearFaisca"
+                        text: qsTr("Limpar seleção")
+                        enabled: scene.accepting && !scene.winner && scene.selected >= 0
+                        onClicked: {
+                            scene.selected = -1;
+                            scene.feedback = "";
+                            board.forceActiveFocus();
+                        }
+                    }
+                    BoardGameButton {
+                        focusPolicy: Qt.StrongFocus
+                        objectName: "restartFaisca"
+                        text: qsTr("Nova partida")
+                        onClicked: scene.reset()
+                    }
+                },
+                BoardGameText {
+                    id: instruction
+                    fontSizeMode: Text.FixedSize
+
+                    width: parent.width
+                    horizontalAlignment: Text.AlignLeft
+
+                    fontSize: 14
+                    color: "#183c50"
+                    wrapMode: Text.WordWrap
+                    text: scene.feedback || (scene.selected < 0 ? (scene.mandatory < 0 ? qsTr("Escolhe a origem e depois um destino azul. Podes também usar as setas e a distância.") : qsTr("Coloca a seta na casa obrigatória ◎, escolhe a distância e a direção.")) : scene.validSelection ? qsTr("Destino: linha %1, coluna %2. Confirma para colocar a seta.").arg(Math.floor(scene.endpoint / 6) + 1).arg(scene.endpoint % 6 + 1) : qsTr("Destino inválido ou distância sem reserva. Corrige a distância ou a direção."))
+                },
+                Flow {
+                    id: stocks
+
+                    width: parent.width
+
+                    spacing: 16
+                    Repeater {
+                        model: 2
+                        BoardGameText {
+                            required property int index
+                            objectName: "reserve" + (index + 1)
+                            fontSize: 14
+                            color: "#183c50"
+                            text: qsTr("%1 %2 — 1: %3 · 2: %4 · 3: %5").arg(index + 1).arg(index === 0 ? "●" : "◆").arg(scene.reserves[index][0]).arg(scene.reserves[index][1]).arg(scene.reserves[index][2])
+                        }
+                    }
+                },
+                Flow {
+                    id: modes
+
+                    width: parent.width
+
+                    spacing: 4
+                    BoardGameButton {
+                        focusPolicy: Qt.StrongFocus
+                        objectName: "tuxMode"
+                        text: scene.tux ? qsTr("Duas pessoas") : qsTr("Contra Tux")
+                        onClicked: {
+                            scene.tux = !scene.tux;
+                            scene.reset();
+                        }
+                    }
+                    BoardGameButton {
+                        focusPolicy: Qt.StrongFocus
+                        objectName: "difficultyFaisca"
+                        visible: scene.tux
+                        text: [qsTr("Fácil: ao acaso"), qsTr("Médio: limita opções"), qsTr("Difícil: antecipa resposta")][scene.difficulty]
+                        onClicked: {
+                            scene.difficulty = (scene.difficulty + 1) % 3;
+                            scene.reset();
+                        }
+                    }
+                    BoardGameButton {
+                        focusPolicy: Qt.StrongFocus
+                        objectName: "learnFaisca"
+                        text: qsTr("Aprender")
+                        onClicked: scene.lesson()
+                    }
+                }
+            ]
+        }
+        BoardGameText {
             id: title
-            anchors {
-                top: parent.top
-                horizontalCenter: parent.horizontalCenter
-                topMargin: 8
-            }
-            width: parent.width - 16
+            parent: gameLayout.headerArea
+            anchors.fill: parent
             horizontalAlignment: Text.AlignHCenter
+            verticalAlignment: Text.AlignVCenter
+
             fontSize: 24
             font.bold: true
             color: "#183c50"
             text: scene.phase === "intro" ? qsTr("Aprender Faísca") : scene.phase === "reviewDone" ? qsTr("Compara as duas decisões") : scene.winner ? qsTr("Venceu o participante %1!").arg(scene.winner) : scene.tux ? (scene.player === 1 ? qsTr("Tu · 1 ●") : qsTr("Tux · 2 ◆")) : qsTr("Participante %1 · %2").arg(scene.player).arg(scene.player === 1 ? "●" : "◆")
         }
-        Row {
-            id: stocks
-            anchors {
-                top: title.bottom
-                horizontalCenter: parent.horizontalCenter
-            }
-            spacing: 16
-            Repeater {
-                model: 2
-                GCText {
-                    required property int index
-                    objectName: "reserve" + (index + 1)
-                    fontSize: 14
-                    color: "#183c50"
-                    text: qsTr("%1 %2 — 1: %3 · 2: %4 · 3: %5").arg(index + 1).arg(index === 0 ? "●" : "◆").arg(scene.reserves[index][0]).arg(scene.reserves[index][1]).arg(scene.reserves[index][2])
-                }
-            }
-        }
-        GCText {
-            id: instruction
-            anchors {
-                top: stocks.bottom
-                horizontalCenter: parent.horizontalCenter
-            }
-            width: parent.width - 20
-            height: 80
-            horizontalAlignment: Text.AlignHCenter
-            verticalAlignment: Text.AlignVCenter
-            fontSize: 14
-            color: "#183c50"
-            wrapMode: Text.WordWrap
-            text: scene.feedback || (scene.selected < 0 ? (scene.mandatory < 0 ? qsTr("Escolhe uma casa para começar, a distância e a direção.") : qsTr("Coloca a seta na casa obrigatória ◎, escolhe a distância e a direção.")) : scene.validSelection ? qsTr("Destino: linha %1, coluna %2. Confirma para colocar a seta.").arg(Math.floor(scene.endpoint / 6) + 1).arg(scene.endpoint % 6 + 1) : qsTr("Destino inválido ou distância sem reserva. Corrige a distância ou a direção."))
-        }
-        Flow {
-            id: modes
-            width: Math.min(parent.width - 16, 820)
-            anchors {
-                top: instruction.bottom
-                horizontalCenter: parent.horizontalCenter
-            }
-            spacing: 4
-            GCButton {
-                focusPolicy: Qt.StrongFocus
-                objectName: "tuxMode"
-                text: scene.tux ? qsTr("Duas pessoas") : qsTr("Contra Tux")
-                onClicked: {
-                    scene.tux = !scene.tux;
-                    scene.reset();
-                }
-            }
-            GCButton {
-                focusPolicy: Qt.StrongFocus
-                objectName: "difficultyFaisca"
-                visible: scene.tux
-                text: [qsTr("Fácil: ao acaso"), qsTr("Médio: limita opções"), qsTr("Difícil: antecipa resposta")][scene.difficulty]
-                onClicked: {
-                    scene.difficulty = (scene.difficulty + 1) % 3;
-                    scene.reset();
-                }
-            }
-            GCButton {
-                focusPolicy: Qt.StrongFocus
-                objectName: "learnFaisca"
-                text: qsTr("Aprender")
-                onClicked: scene.lesson()
-            }
-        }
         Item {
             id: playArea
-            anchors {
-                top: modes.bottom
-                bottom: choices.top
-                left: parent.left
-                right: parent.right
-                margins: 8
-            }
+            parent: gameLayout.boardArea
+            anchors.fill: parent
+
             Item {
                 id: board
                 objectName: "faiscaBoard"
@@ -356,22 +484,23 @@ ActivityBase {
                             width: board.width / 6
                             height: width
                             readonly property var piece: scene.cells[index]
-                            color: piece ? (piece.player === 1 ? "#175f88" : "#804100") : scene.validSelection && scene.endpoint === index ? "#c3e5ae" : scene.selected === index ? "#fff0ae" : "white"
+                            readonly property bool reachable: scene.destinationChoice(index) !== null
+                            color: piece ? (piece.player === 1 ? "#175f88" : "#804100") : scene.validSelection && scene.endpoint === index ? "#c3e5ae" : scene.selected === index ? "#fff0ae" : reachable ? "#e1f1fc" : "white"
                             border.color: scene.mandatory === index ? "#b00064" : board.activeFocus && scene.cursor === index ? "#111111" : "#647986"
                             border.width: scene.mandatory === index ? 5 : board.activeFocus && scene.cursor === index ? 4 : 1
-                            GCText {
+                            BoardGameText {
                                 anchors.centerIn: parent
                                 fontSize: Math.max(12, parent.width * 0.26)
                                 color: parent.piece ? "white" : "#183c50"
-                                text: parent.piece ? parent.piece.player + " " + scene.arrows[parent.piece.direction] + parent.piece.distance : scene.mandatory === parent.index ? "◎" : scene.selected === parent.index ? scene.arrows[scene.direction] + scene.distance : scene.validSelection && scene.endpoint === parent.index ? "↳" : ""
+                                text: parent.piece ? parent.piece.player + " " + scene.arrows[parent.piece.direction] + parent.piece.distance : scene.mandatory === parent.index ? "◎" : scene.selected === parent.index ? scene.arrows[scene.direction] + scene.distance : scene.validSelection && scene.endpoint === parent.index ? "↳" : parent.reachable ? "·" : ""
                             }
                             MouseArea {
                                 anchors.fill: parent
-                                onClicked: scene.choose(parent.index)
+                                onClicked: scene.selectOnBoard(parent.index)
                             }
                             TapHandler {
                                 acceptedDevices: PointerDevice.TouchScreen | PointerDevice.TouchPad
-                                onTapped: scene.choose(parent.index)
+                                onTapped: scene.selectOnBoard(parent.index)
                             }
                             Accessible.role: Accessible.Button
                             Accessible.name: qsTr("Linha %1, coluna %2: %3").arg(Math.floor(index / 6) + 1).arg(index % 6 + 1).arg(piece ? qsTr("participante %1, seta %2, distância %3").arg(piece.player).arg(scene.arrows[piece.direction]).arg(piece.distance) : scene.mandatory === index ? qsTr("casa obrigatória") : qsTr("vazia"))
@@ -381,103 +510,14 @@ ActivityBase {
                 }
             }
         }
-        Column {
-            id: choices
-            anchors {
-                bottom: controls.top
-                horizontalCenter: parent.horizontalCenter
-                bottomMargin: 6
-            }
-            spacing: 4
-            Row {
-                anchors.horizontalCenter: parent.horizontalCenter
-                spacing: 6
-                Repeater {
-                    model: 3
-                    GCButton {
-                        focusPolicy: Qt.StrongFocus
-                        required property int index
-                        objectName: "distance" + (index + 1)
-                        text: (scene.distance === index + 1 ? "✓ " : "") + qsTr("Distância %1").arg(index + 1)
-                        enabled: scene.accepting && !scene.winner
-                        onClicked: {
-                            scene.distance = index + 1;
-                            scene.feedback = "";
-                            board.forceActiveFocus();
-                        }
-                    }
-                }
-            }
-            Row {
-                anchors.horizontalCenter: parent.horizontalCenter
-                spacing: 6
-                Repeater {
-                    model: 4
-                    GCButton {
-                        focusPolicy: Qt.StrongFocus
-                        required property int index
-                        objectName: "direction" + index
-                        text: (scene.direction === index ? "✓ " : "") + [qsTr("↑ Cima"), qsTr("→ Direita"), qsTr("↓ Baixo"), qsTr("← Esquerda")][index]
-                        enabled: scene.accepting && !scene.winner
-                        onClicked: {
-                            scene.direction = index;
-                            scene.feedback = "";
-                            board.forceActiveFocus();
-                        }
-                    }
-                }
-            }
-        }
-        Flow {
-            id: controls
-            width: Math.min(parent.width - 16, 800)
-            anchors {
-                bottom: bar.top
-                horizontalCenter: parent.horizontalCenter
-                bottomMargin: 6
-            }
-            spacing: 6
-            GCButton {
-                focusPolicy: Qt.StrongFocus
-                objectName: "lessonNext"
-                visible: scene.phase === "intro"
-                text: qsTr("Experimentar")
-                onClicked: scene.exercise()
-            }
-            GCButton {
-                focusPolicy: Qt.StrongFocus
-                objectName: "hintFaisca"
-                text: qsTr("Pista")
-                enabled: scene.accepting && !scene.winner
-                onClicked: scene.hint()
-            }
-            GCButton {
-                focusPolicy: Qt.StrongFocus
-                objectName: "reviewFaisca"
-                visible: scene.winner > 0 && scene.phase === "match" && scene.decision !== null
-                text: qsTr("Rever decisão")
-                onClicked: scene.review()
-            }
-            GCButton {
-                focusPolicy: Qt.StrongFocus
-                objectName: "confirmFaisca"
-                text: qsTr("Confirmar")
-                enabled: scene.validSelection
-                onClicked: scene.confirm()
-            }
-            GCButton {
-                focusPolicy: Qt.StrongFocus
-                objectName: "restartFaisca"
-                text: qsTr("Nova partida")
-                onClicked: scene.reset()
-            }
-        }
         DialogHelp {
             id: dialogHelp
             onClose: home()
         }
         Bar {
             id: bar
+            scale: Math.min(1, Math.max(56, Math.min(96, scene.width * 0.1, scene.height * 0.1)) / buttonSize)
+            transformOrigin: Item.BottomLeft
             content: BarEnumContent {
                 value: help | home | reload
             }

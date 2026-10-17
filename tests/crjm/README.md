@@ -98,3 +98,35 @@ The equivalent four-neighbor predicate now avoids these allocations. The same
 full native case then passed at 512 MiB with a 193 MiB memory peak and no OOM
 events. The failed runs and the isolated red/green evidence remain in ticket 18.
 A virtual quota is not a minimum RAM specification for physical school devices.
+
+
+## Interface, monitor scaling and small windows
+
+The UI follow-up in `.scratch/crjm-ui/` replaces the vertical piles of controls
+with a board-first layout. Tools sit beside the board in landscape and below it
+in portrait. Secondary tools scroll independently. Text and buttons use the
+available window instead of multiplying their size by the primary monitor's
+font ratio. The regular GCompris navigation bar stays available.
+
+Resizing a Qt window alone does not reproduce a different primary screen. Use
+`--screen-size` to configure the real offscreen platform screen before Qt starts:
+
+```sh
+python3 tools/run-native-qml-case.py \
+  --resource-snapshot build/crjm-complete \
+  --activity menu --from-menu --qml-file src/activities/menu/Menu.qml \
+  --case tests/crjm/ui-audit.qml --screen-size 2048x1152 \
+  --output /tmp/crjm-ui-audit --offline --timeout 150
+```
+
+This starts from the actual menu and checks all eight activities at 2048×1100,
+1280×800, 800×600 and 600×900, with the smallest, normal and largest user font settings.
+It also checks enlarged touch targets in Y/Nex, the Tux layouts, the first legal
+turn, help without losing that turn, and returning to the menu. Y and Nex show
+the full graph by default; Ampliar provides larger targets with scrolling.
+Faísca also accepts selecting the origin and then a highlighted destination.
+
+`ui-scale.qml` is the quick regression for the reported disappearing Faísca
+board. Before the fix, the same screen profile produced a board width of
+−52.8 pixels. The tests exercise native Qt; no browser or rule replacement is
+involved. Touch is still synthetic, not physical-device validation.

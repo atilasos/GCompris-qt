@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: NOASSERTION
 # SPDX-License-Identifier: GPL-3.0-or-later
 """Inject a QtTest fragment into a PRIVATE activity RCC and exercise the real app.
 
@@ -53,6 +54,7 @@ def main():
     parser.add_argument('--start-level', type=int)
     parser.add_argument('--resource-snapshot', type=Path, help='verified independent runtime snapshot to reuse')
     parser.add_argument('--keep-deployment', action='store_true', help='retain successful private deployment; failures are always retained')
+    parser.add_argument('--screen-size', help='Offscreen primary screen WIDTHxHEIGHT, including native font/DPI scaling')
     args = parser.parse_args()
     if (args.offline_cpus is not None or args.offline_memory_mib is not None) and not args.offline:
         parser.error('Resource limits require --offline')
@@ -64,6 +66,8 @@ def main():
         parser.error('OpenGL requires --offline and --xvfb')
     if args.xvfb and (args.renderer != 'opengl' or not args.xvfb.is_file()):
         parser.error('--xvfb requires OpenGL and an existing binary')
+    if args.screen_size and (args.renderer != 'software' or not re.fullmatch(r'[1-9][0-9]{2,4}x[1-9][0-9]{2,4}', args.screen_size)):
+        parser.error('--screen-size requires software rendering and WIDTHxHEIGHT')
     ROOT = args.source_root.resolve()
     for extra in args.extra_activity:
         if not re.fullmatch(r'[A-Za-z0-9_-]+', extra) or not (ROOT / 'src/activities' / extra / 'ActivityInfo.qml').is_file():
@@ -171,6 +175,11 @@ def main():
     config.parent.mkdir()
     config.write_text(f'[Internal]\nexeCount=1\nlastGCVersionRan={version_code}\n[%General]\nenableAutomaticDownloads=false\n')
     env = dict(os.environ, QT_QPA_PLATFORM='offscreen')
+    if args.screen_size:
+        screen_width, screen_height = map(int, args.screen_size.split('x'))
+        screen_config = profile / 'offscreen-screen.json'
+        screen_config.write_text(json.dumps({'screens': [{'width': screen_width, 'height': screen_height, 'logicalDpi': 96, 'logicalBaseDpi': 96}]}))
+        env['QT_QPA_PLATFORM'] += ':configfile=' + str(screen_config)
     for key, name in [('XDG_CONFIG_HOME', 'config'), ('XDG_DATA_HOME', 'data'), ('XDG_CACHE_HOME', 'cache')]:
         env[key] = str(profile / name)
     command = [str(binary), '--window', '--locale', args.locale, '--renderer', args.renderer, '--mute']
@@ -224,7 +233,7 @@ def main():
                 'source_sha256': sha(qml_path), 'portuguese_catalogue_sha256': sha(ROOT / 'poqm/pt/gcompris_qt.po'),
                 'private_qm_sha256': sha(qm), 'case_sha256': sha(args.case), 'private_rcc_sha256': sha(rcc),
                 'binary_sha256': sha(binary), 'runner_sha256': sha(Path(__file__)), 'deployment': str(deployment), 'version_code': version_code,
-                'renderer_requested': args.renderer, 'headless_helper_sha256': sha(ROOT / 'tools/native_qml_headless.py') if args.renderer == 'opengl' else None,
+                'renderer_requested': args.renderer, 'screen_size_requested': args.screen_size, 'headless_helper_sha256': sha(ROOT / 'tools/native_qml_headless.py') if args.renderer == 'opengl' else None,
                 'xvfb_sha256': sha(args.xvfb.resolve()) if args.xvfb else None,
                 'offline_limits': {'cpus': args.offline_cpus, 'memory_mib': args.offline_memory_mib, 'swap_disabled': args.offline_memory_mib is not None},
                 'network': 'docker-none' if args.offline else 'not-enforced', 'timestamp_utc': datetime.now(timezone.utc).isoformat(),

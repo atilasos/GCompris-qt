@@ -1,6 +1,23 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // Acceptance seam: real native menu, controls and observable board.
 TestCase {
+    function clickNative(item, x, y) {
+        // Scroll secondary tools into view through the real Flickable, without
+        // delaying immediate restart/exit cases while Tux is calculating.
+        var area = item.parent;
+        while (area) {
+            if (area.objectName === "boardGameToolsViewport") {
+                area.cancelFlick();
+                var point = item.mapToItem(area.contentItem, 0, 0);
+                if (point.y < area.contentY || point.y + item.height > area.contentY + area.height)
+                    area.contentY = Math.max(0, Math.min(area.contentHeight - area.height, point.y - 8));
+                break;
+            }
+            area = area.parent;
+        }
+        mouseClick(item, x, y);
+    }
+
     id: nativeCase
     name: "FaiscaTuxNative"
     property double lastBeat: 0
@@ -22,7 +39,7 @@ TestCase {
         return null;
     }
     function ensure(value, message) { if(!value) console.log("FAISCA_ASSERT_FAILED", message, new Error().stack); verify(value, message || ""); }
-    function click(item) { ensure(item !== null, "Control exists"); mouseClick(item,item.width/2,item.height/2); wait(60); }
+    function click(item) { ensure(item !== null, "Control exists"); clickNative(item,item.width/2,item.height/2); wait(60); }
     function tabTo(button) {
         for(var k=0;k<30 && !button.activeFocus;++k) keyClick(Qt.Key_Tab);
         ensure(button.activeFocus,"Tab reaches "+button.objectName);
@@ -49,7 +66,7 @@ TestCase {
         for(var level=0;level<3;++level) {
             ensure(textIn(difficulty,["Fácil","Médio","Difícil"][level]));
             click(findChild(game,"faiscaCell2")); click(findChild(game,"distance1")); click(findChild(game,"direction2"));
-            var start=Date.now(); mouseClick(confirm,confirm.width/2,confirm.height/2);
+            var start=Date.now(); clickNative(confirm,confirm.width/2,confirm.height/2);
             tryVerify(function(){return textIn(game,"Tu · 1") || textIn(game,"Venceu");},2000);
             times.push(Date.now()-start);
             ensure(pieceCount(game,1)===1 && pieceCount(game,2)===1,"One complete legal Tux arrow");
@@ -77,9 +94,9 @@ TestCase {
             var expectedTux=-1;
             for(var target=0;target<30;++target) if(textIn(findChild(game,"faiscaCell"+target),"↳")) expectedTux=target;
             ensure(expectedTux>=0,"Arrow destination visible before confirmation");
-            var started=Date.now(); mouseClick(confirm,confirm.width/2,confirm.height/2);
+            var started=Date.now(); clickNative(confirm,confirm.width/2,confirm.height/2);
             if(moves===0) {
-                var helpStart=Date.now(); var help=icon(game,"bar_help.svg"); mouseClick(help,help.width/2,help.height/2);
+                var helpStart=Date.now(); var help=icon(game,"bar_help.svg"); clickNative(help,help.width/2,help.height/2);
                 tryCompare(pageView,"depth",3,1500); helpTimes.push(Date.now()-helpStart);
                 keyClick(Qt.Key_Escape); tryCompare(pageView,"depth",2,2000); wait(1000);
             }
@@ -100,13 +117,13 @@ TestCase {
         grabImage(pageView).save("__QA_OUTPUT__/review.png");
         // Restart and leaving discard late worker replies without any test state mutation.
         activate(restart); click(findChild(game,"faiscaCell2"));click(findChild(game,"direction2"));
-        mouseClick(confirm,confirm.width/2,confirm.height/2);mouseClick(restart,restart.width/2,restart.height/2);wait(400);
+        clickNative(confirm,confirm.width/2,confirm.height/2);clickNative(restart,restart.width/2,restart.height/2);wait(400);
         ensure(pieceCount(game,1)===0 && pieceCount(game,2)===0,"Restart discards pending reply");ensure(textIn(game,"Tu · 1"));
         var window=game.Window.window;window.width=1100;window.height=700;wait(350);
         ensure(board.width/6>=40,"Desktop targets");grabImage(pageView).save("__QA_OUTPUT__/desktop.png");
         window.width=600;window.height=900;wait(350);ensure(board.width/6>=40,"Portrait targets");
         ensure(confirm.mapToItem(game,0,0).y+confirm.height<=game.height);grabImage(pageView).save("__QA_OUTPUT__/portrait.png");
-        click(findChild(game,"faiscaCell2"));click(findChild(game,"direction2"));mouseClick(confirm,confirm.width/2,confirm.height/2);
+        click(findChild(game,"faiscaCell2"));click(findChild(game,"direction2"));clickNative(confirm,confirm.width/2,confirm.height/2);
         click(icon(game,"bar_home.svg"));tryCompare(pageView,"depth",1,2000);wait(1000);ensure(pageView.currentItem.isMenu);
         // Resizing the menu can recreate its delegates; use its current card.
         card=null;
