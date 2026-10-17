@@ -1,5 +1,12 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // Independent implementation of Nex rules. Cell index is x*11+y.
+const neighbors = Array.from({length:121}, (_, i) => {
+    const x=Math.floor(i/11), y=i%11;
+    return [[1,0],[-1,0],[0,1],[0,-1],[1,-1],[-1,1]]
+        .map(([dx,dy]) => [x+dx,y+dy])
+        .filter(([nx,ny]) => nx>=0&&nx<11&&ny>=0&&ny<11)
+        .map(([nx,ny]) => nx*11+ny);
+});
 export function emptyBoard() { return Array(121).fill(0); }
 export function connected(board, color) {
     const seen = new Set(), queue = [];
@@ -7,9 +14,8 @@ export function connected(board, color) {
     while (queue.length) {
         const i=queue.pop(), x=Math.floor(i/11), y=i%11;
         if (color===1 ? y===10 : x===10) return true;
-        for (const [dx,dy] of [[1,0],[-1,0],[0,1],[0,-1],[1,-1],[-1,1]]) {
-            const nx=x+dx, ny=y+dy, n=nx*11+ny;
-            if(nx>=0&&nx<11&&ny>=0&&ny<11&&board[n]===color&&!seen.has(n)) { seen.add(n);queue.push(n); }
+        for (const n of neighbors[i]) {
+            if(board[n]===color&&!seen.has(n)) { seen.add(n);queue.push(n); }
         }
     }
     return false;
@@ -25,7 +31,7 @@ export function apply(board, own, mode, selection) {
     return next;
 }
 // Resolve only the three specified terminal conventions, never generic lack of empties.
-export function rare(board, own) {
+export function resolveSpecialEnding(board, own) {
     const empty=[], neutral=[];
     board.forEach((v,i)=>{ if(v===0) empty.push(i); else if(v===3) neutral.push(i); });
     if(!((empty.length===1&&neutral.length===0)||(empty.length===0&&neutral.length===1)||(empty.length===1&&neutral.length===1))) return null;
@@ -45,10 +51,8 @@ export function distance(board, own) {
         if(at<0||costs[at]===999) break;
         if(own===1?at%11===10:Math.floor(at/11)===10) return costs[at];
         seen[at]=true;
-        const x=Math.floor(at/11),y=at%11;
-        for(const [dx,dy] of [[1,0],[-1,0],[0,1],[0,-1],[1,-1],[-1,1]]) {
-            const nx=x+dx,ny=y+dy,n=nx*11+ny;
-            if(nx<0||nx>10||ny<0||ny>10||board[n]===3-own) continue;
+        for(const n of neighbors[at]) {
+            if(board[n]===3-own) continue;
             costs[n]=Math.min(costs[n],costs[at]+(board[n]===own?0:1));
         }
     }
@@ -61,9 +65,8 @@ export function candidates(board, own, level) {
     function local(i) {
         const x=Math.floor(i/11),y=i%11;
         let value=0;
-        for(const [dx,dy] of [[1,0],[-1,0],[0,1],[0,-1],[1,-1],[-1,1]]) {
-            const nx=x+dx,ny=y+dy;
-            if(nx>=0&&nx<11&&ny>=0&&ny<11) value+=board[nx*11+ny]===own?5:board[nx*11+ny]===3-own?1:0;
+        for(const n of neighbors[i]) {
+            value+=board[n]===own?5:board[n]===3-own?1:0;
         }
         return value-Math.abs((own===1?x:y)-5)*0.1;
     }
