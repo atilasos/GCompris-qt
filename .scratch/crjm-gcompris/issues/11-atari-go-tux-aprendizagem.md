@@ -2,7 +2,7 @@
 
 Status: ready-for-agent
 Type: task
-Progress: open
+Progress: claimed
 Blocked by: 10
 Parent: 01, Integrar os oito jogos CRJM no nosso fork do GCompris
 
