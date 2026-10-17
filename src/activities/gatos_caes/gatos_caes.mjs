@@ -7,12 +7,14 @@ export function legal(board, index, player) {
     var first = board.indexOf(player) === -1;
     if (first && (player === 1 ? !central(index) : central(index))) return false;
     var row = Math.floor(index / 8), col = index % 8;
-    var neighbors = [];
-    if (row > 0) neighbors.push(index - 8);
-    if (row < 7) neighbors.push(index + 8);
-    if (col > 0) neighbors.push(index - 1);
-    if (col < 7) neighbors.push(index + 1);
-    return neighbors.every(function(i) { return board[i] !== 3 - player; });
+    // This predicate also runs in the bounded opponent search. Avoid allocating
+    // arrays and closures for every candidate: WorkerScript's GC may otherwise
+    // retain hundreds of MiB of temporary objects during a complete match.
+    var opponent = 3 - player;
+    return !(row > 0 && board[index - 8] === opponent) &&
+           !(row < 7 && board[index + 8] === opponent) &&
+           !(col > 0 && board[index - 1] === opponent) &&
+           !(col < 7 && board[index + 1] === opponent);
 }
 export function place(board, index, player) {
     var next = board.slice(); next[index] = player; return next;

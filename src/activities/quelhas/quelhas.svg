@@ -1,4 +1,8 @@
-<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<!--
+SPDX-FileCopyrightText: NONE
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
 <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
 <rect x="8" y="8" width="240" height="240" rx="24" fill="#edf4eb" stroke="#183c50" stroke-width="6"/>
 <path d="M48 28v200m40-200v200m40-200v200m40-200v200m40-200v200M28 48h200M28 88h200M28 128h200M28 168h200M28 208h200" stroke="#647986" stroke-width="2"/>

@@ -1,2 +1,6 @@
-<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<!--
+SPDX-FileCopyrightText: NONE
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
 <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><rect x="8" y="8" width="240" height="240" rx="36" fill="#edf4eb"/><path d="M32 112V48l34 24 34-24v64a34 34 0 0 1-68 0" fill="#175f88"/><path d="M148 96q-36 18-22 66l24-16v26q32 38 66 0v-26l24 16q14-48-22-66" fill="#804100"/><g fill="white"><circle cx="54" cy="105" r="5"/><circle cx="80" cy="105" r="5"/><circle cx="167" cy="143" r="5"/><circle cx="199" cy="143" r="5"/></g><path d="m60 123 7 8 7-8m101 41 8 9 8-9" fill="none" stroke="white" stroke-width="5"/><text x="44" y="207" font-size="32" fill="#175f88">1</text><text x="177" y="224" font-size="32" fill="#804100">2</text></svg>
