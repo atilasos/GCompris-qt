@@ -35,7 +35,7 @@ são verificadas antes de resolver cada ticket.
 | [02](issues/02-dominorio-duas-pessoas.md) | Dominório para duas pessoas | Nenhum | resolved |
 | [03](issues/03-dominorio-tux-aprendizagem.md) | Dominório contra Tux e aprendizagem guiada | 02 | resolved |
 | [04](issues/04-gatos-caes-duas-pessoas.md) | Gatos & Cães para duas pessoas | 03 | resolved |
-| [05](issues/05-gatos-caes-tux-aprendizagem.md) | Gatos & Cães contra Tux e aprendizagem guiada | 04 | open |
+| [05](issues/05-gatos-caes-tux-aprendizagem.md) | Gatos & Cães contra Tux e aprendizagem guiada | 04 | claimed |
 | [06](issues/06-faisca-duas-pessoas.md) | Faísca para duas pessoas | 03 | claimed |
 | [07](issues/07-faisca-tux-aprendizagem.md) | Faísca contra Tux e aprendizagem guiada | 06 | open |
 | [08](issues/08-quelhas-duas-pessoas.md) | Quelhas para duas pessoas | 03 | resolved |
