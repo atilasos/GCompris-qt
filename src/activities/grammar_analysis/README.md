@@ -65,6 +65,29 @@ You can delete a class which is not used in your language or add new ones if nee
 The classes will be displayed in the same order as they are declared in the `syntax` section.\
 If there are not enough images to represent all your classes, let us know and we will add new ones as needed.
 
+### One answer box for a contraction
+
+A language can optionally define a combined token for a contraction of two classes:
+
+```json
+{ "code": "pdt",
+  "wordClass": "Preposição + determinante",
+  "image": "preposition-determiner.svg",
+  "mergedClasses": "ppt dtm"
+}
+```
+
+Keep `ppt+dtm` in the exercise answer. The order of `mergedClasses` must match
+the answer. For Portuguese `no`, for example, the game shows one box. If the
+level asks for both classes, the combined token is available. If it asks for
+only prepositions or only determiners, use that individual token. If it asks
+for neither class, leave the box empty. Combined tokens appear only in sentences
+that need them. Without this optional definition, merged classes keep their
+separate boxes.
+
+The Portuguese datasets also define `ppr` for `ppt+prn`, using
+`preposition-pronoun.svg`. Combined token codes must not contain `+`.
+
 ### Base grammatical classes
 
     noun

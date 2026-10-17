@@ -17,7 +17,9 @@
             property int keyboardExercises: 0
             property int erased: 0
             property int completedLevels: 0
-            property int mergedWords: 0
+            property int contractionWords: 0
+            property int expectedExercises: 0
+            property bool contractionScreenshot: false
 
             function chooseToken(code, keyboard) {
                 stage = "select " + code + " at box " + items.selectedBox + " tokensFocus=" + items.keysOnTokens;
@@ -63,13 +65,14 @@
                 keyClick(Qt.Key_Return);
                 tryCompare(tutorialScreen, "visible", false);
                 equal(items.currentLevel, 0);
-                var count = activity.grammarMode === "_classes" ? 8 : 7;
+                var count = Activity.datas.levels.length;
                 equal(items.numberOfLevel, count);
                 checked(items.translationFile.indexOf("-pt.json") >= 0);
                 for (var level = 0; level < count; level++) {
                     equal(items.currentLevel, level);
                     var exercises = items.datasetModel.count;
-                    checked(exercises > 0);
+                    checked(exercises >= 12);
+                    expectedExercises += exercises;
                     for (var exercise = 0; exercise < exercises; exercise++) {
                         tryVerify(function() {
                             return !items.buttonsBlocked && !items.score.isWinAnimationPlaying;
@@ -91,7 +94,14 @@
                             var card = items.rowAnswer.itemAt(word);
                             if (card.expected === "") continue;
                             var classes = card.expected.split("+");
-                            if (classes.length > 1) mergedWords++;
+                            equal(classes.length, 1, "Portuguese words have a single answer box");
+                            if (classes[0] === "pdt" || classes[0] === "ppr") {
+                                contractionWords++;
+                                if (!contractionScreenshot) {
+                                    grabImage(activityBackground).save("__QA_OUTPUT__/contraction.png");
+                                    contractionScreenshot = true;
+                                }
+                            }
                             equal(card.boxModel.count, classes.length);
                             for (var box = 0; box < classes.length; box++) {
                                 if (classes[box] === "_" && !keyboard) continue;
@@ -124,12 +134,13 @@
                     completedLevels++;
                     console.log("NATIVE_GRAMMAR_LEVEL", activity.grammarMode, level + 1, exercises, "passed");
                 }
-                equal(solved, activity.grammarMode === "_classes" ? 92 : 80);
+                equal(solved, expectedExercises);
                 equal(completedLevels, count);
                 equal(wrongRejected, count);
                 equal(keyboardExercises, count);
                 equal(erased, count);
-                checked(mergedWords > 0, "Contractions with multiple boxes were exercised");
+                if (activity.grammarMode === "_analysis")
+                    checked(contractionWords > 0, "Combined contraction tokens were exercised");
             }
 
             function cleanupTestCase() {
@@ -137,7 +148,7 @@
                     failures: qtest_results.failCount, passes: qtest_results.passCount,
                     solved: solved, wrongRejected: wrongRejected,
                     keyboardExercises: keyboardExercises, erased: erased,
-                    completedLevels: completedLevels, mergedWords: mergedWords
+                    completedLevels: completedLevels, contractionWords: contractionWords
                 }));
             }
         }

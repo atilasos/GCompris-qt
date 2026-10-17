@@ -1,5 +1,8 @@
 # Revisão dos conteúdos de gramática PT-PT
 
+Registo inicial de 15 de outubro de 2026. A ampliação dos conteúdos e a
+substituição das caixas duplas estão descritas em [grammar-enrichment.md](grammar-enrichment.md).
+
 Estado: revisão do professor pendente.
 
 Os novos ficheiros estão em:
