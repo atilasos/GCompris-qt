@@ -50,5 +50,5 @@ network isolation, Qt output and screenshot digests. `red-result.json` and
 
 After merging integration tip e26db408e, menu discovery and every transcript
 passed again. Final run also verifies restart via Tab/Space. The last integration
-merge incorporates only later tracker claims and leaves tested activity sources
-unchanged.
+merge incorporates later tracker claims and Atari Go teaching changes. It leaves
+the tested Y activity, menu and native runner sources unchanged.
