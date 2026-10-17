@@ -2,7 +2,7 @@
 
 Status: ready-for-agent
 Type: task
-Progress: open
+Progress: claimed
 
 ## Scope
 
@@ -25,3 +25,5 @@ Y e Nex. Concluir o piloto não resolve esta tarefa inteira.
 2026-10-17: Especificação sintetizada da análise e da confirmação do utilizador.
 O destino é o nosso fork. A aceitação upstream não faz parte da tarefa.
 O utilizador confirmou testes centrados na atividade nativa completa.
+
+Implementação iniciada na branch `integration/crjm-games`. O coordenador acompanha a tarefa principal e os agentes assumem as subtarefas desbloqueadas.

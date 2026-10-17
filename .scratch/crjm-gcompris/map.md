@@ -19,11 +19,12 @@
 
 ## Estado
 
-A investigação e a especificação estão concluídas. A implementação não começou.
+A investigação e a especificação estão concluídas. A implementação decorre na branch
+`integration/crjm-games`, a partir de `620fde9e5`.
 Os 17 tickets de execução estão publicados como `ready-for-agent`, com `Progress: open`.
 O ticket 02 é a primeira tarefa desbloqueada. A tarefa 01 agrega o âmbito e não deve
-ser assumida como uma implementação concorrente das subtarefas. A aprovação
-da divisão não iniciou a implementação nem alterou o estado da tarefa principal.
+ser assumida como uma implementação concorrente das subtarefas. A tarefa principal está assumida pelo coordenador. A implementação e a integração
+são verificadas antes de resolver cada ticket.
 
 
 ## Tickets aprovados
