@@ -45,7 +45,7 @@ são verificadas antes de resolver cada ticket.
 | [12](issues/12-produto-duas-pessoas.md) | Produto para duas pessoas | 03 | resolved |
 | [13](issues/13-produto-tux-aprendizagem.md) | Produto contra Tux e aprendizagem guiada | 12 | claimed |
 | [14](issues/14-y-duas-pessoas.md) | Y para duas pessoas | 03 | resolved |
-| [15](issues/15-y-tux-aprendizagem.md) | Y contra Tux e aprendizagem guiada | 14 | open |
+| [15](issues/15-y-tux-aprendizagem.md) | Y contra Tux e aprendizagem guiada | 14 | claimed |
 | [16](issues/16-nex-duas-pessoas.md) | Nex para duas pessoas | 03 | claimed |
 | [17](issues/17-nex-tux-aprendizagem.md) | Nex contra Tux e aprendizagem guiada | 16 | open |
 | [18](issues/18-validar-build-oito-jogos.md) | Validar os oito jogos numa build do fork | 05, 07, 09, 11, 13, 15, 17 | open |
@@ -112,3 +112,8 @@ conexão dos três lados e alvos de 44 px com zoom e deslocação. Evidência em
 `evidence/14-y/README.md`; 2 passes, 0 falhas e 0 erros QML. Proveniência distingue
 transcrição factual do grafo e implementação original; revisão de permissões antes
 de distribuição permanece aplicável. Ticket 15 desbloqueado.
+
+Nex inclui no ticket16 três exercícios reais de últimas casas para validar as
+convenções raras na interface normal. O ticket17 mantém IA e aprendizagem geral.
+As posições preparadas não devem conter vencedor prévio nem atribuir resultado
+por configuração. Esta opção respeita a preparação de exercícios prevista na especificação.
