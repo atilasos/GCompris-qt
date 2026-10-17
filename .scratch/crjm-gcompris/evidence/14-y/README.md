@@ -10,9 +10,10 @@ python3 tools/run-native-qml-case.py \
   --binary /tmp/crjm-native-base/bin/gcompris-qt \
   --activity menu --from-menu \
   --extra-activity dominorio --extra-activity gatos_caes \
-  --extra-activity faisca --extra-activity quelhas --extra-activity y \
+  --extra-activity faisca --extra-activity quelhas \
+  --extra-activity atari_go --extra-activity produto --extra-activity y \
   --qml-file src/activities/menu/Menu.qml --case tests/crjm/y.qml \
-  --output /tmp/crjm-14-final --offline
+  --output /tmp/crjm-14-keyboard --offline
 ```
 
 The red invocation omitted `--extra-activity y`, before Y implementation. The
@@ -26,7 +27,7 @@ legal sequence that only wins when D3 joins the groups. Disconnected boundary
 groups do not win. No fixture or test-only state/winner setter is present.
 Every node can be reached with arrows; Space places through production logic
 and reveals the cursor in the scroll viewport. Touch and mouse activate native
-nodes; Tab reaches swap, restart, zoom and help; help is activated with Space.
+nodes; Tab reaches swap, restart, zoom and help; swap, restart and help are activated with Space.
 The test confirms restart resets the board by replaying transcripts from A1.
 
 The final desktop capture at 1100×1050 was inspected: all 93 nodes and three
@@ -46,3 +47,8 @@ records and provenance are separate from original GPL rule code.
 `result.json` retains source, case, binary and resource hashes, timestamps,
 network isolation, Qt output and screenshot digests. `red-result.json` and
 `red-native.log` preserve the initial failing acceptance.
+
+After merging integration tip e26db408e, menu discovery and every transcript
+passed again. Final run also verifies restart via Tab/Space. The last integration
+merge incorporates only later tracker claims and leaves tested activity sources
+unchanged.

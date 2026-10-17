@@ -1,11 +1,11 @@
 {
-  "resource_snapshot": "/tmp/.native-qml-2f39379e55934f2a884e1c665786d5dd/resource-snapshot",
+  "resource_snapshot": "/tmp/.native-qml-5628b8a01ebf42a384073c0171eb903e/resource-snapshot",
   "resource_manifest_sha256": "acd0d708a843d0998516df656e4d621e337b28b791234dbc558f192acdb20ff6",
   "resource_files_sha256": {
     "bin/gcompris-qt": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
     "lib/qml/Box2D.2.0/libqmlbox2d.so": "783cccd77278ff33d8889c739816df82d5978359f02f7a4d760e9299a4183a8a",
     "lib/qml/Box2D.2.0/qmldir": "66e2de0d9bf5d1ee4632411b6715a695a49174c8c1dfd5ed96cbc6e12c01e4da",
-    "share/gcompris-qt/rcc/activities.rcc": "d261cf8e84babe098179fd4d975bc9645f844335c8b73dd879819fb4c558ca7e",
+    "share/gcompris-qt/rcc/activities.rcc": "e469817d081376f5b408b8d39286ca79a8970e5aac2569cc630ac56b513fef3f",
     "share/gcompris-qt/rcc/activities_light.rcc": "c1a2aa341e301fecfa4838d8bb8a374d091bd4bb54f84b3c27497bf7ec6c60f8",
     "share/gcompris-qt/rcc/adjacent_numbers.rcc": "9046b3d986bbfe31d1d6667c0b2b67a7c026a747b8ffb055576feff5e0edb4c9",
     "share/gcompris-qt/rcc/advanced_colors.rcc": "a94b2cfb7b559ae8b4b208e5dcf33146150217c9b680dc5fefff15299085dee3",
@@ -155,7 +155,7 @@
     "share/gcompris-qt/rcc/memory-tux.rcc": "8642fdae2645b7d254c67ccb9ef99978a8ba4f70e6948acb90a78d265cd704f8",
     "share/gcompris-qt/rcc/memory-wordnumber.rcc": "085550c8417e68db517f6bde33d19275ed48c7bdf85b951d90d171834b4acdf7",
     "share/gcompris-qt/rcc/memory.rcc": "ef45600bb60b07b82ac6bca2b28c5a209991de49de656c2c0e03c11097eb94e7",
-    "share/gcompris-qt/rcc/menu.rcc": "f0598a5e34fdc322cf428f39d6fda4740186c6c7b40e3eedd9a47a0601f12681",
+    "share/gcompris-qt/rcc/menu.rcc": "d55997ba4a4e1d522ad0e9f4d91a5b46d745401d11f975ef68a4bfbc0f722999",
     "share/gcompris-qt/rcc/mining.rcc": "510a6906e26fbfa26d87bc062bba826172a7bdf438c5e64373fe08af8838ff50",
     "share/gcompris-qt/rcc/missing-letter.rcc": "d27c3af03ce65765555321c8e5a02994ddabddf0abbdce32f49419fa239fe5a7",
     "share/gcompris-qt/rcc/money.rcc": "879a18c50e51fae765859acb4b51e6ba3f5a0bd8faadbcfc6ed562bce5e4fba4",
@@ -277,6 +277,8 @@
     "share/gcompris-qt/rcc/gatos_caes.rcc": "a6e80b3f29abbfe2a9f1f2c06c6cec282f5bd6842e00bfc770ae729488b51b24",
     "share/gcompris-qt/rcc/faisca.rcc": "080a1f09219741c1874e88b1676bf12fbdbcc5f527073a21e6350b499338e575",
     "share/gcompris-qt/rcc/quelhas.rcc": "339d6411c8f23fff66a4e4ba26216785c9ff696aa35882acb498af61704a2679",
+    "share/gcompris-qt/rcc/atari_go.rcc": "240a448340e327d59ffacd3d0bdfdd071d800a0a3298edf7a69a8fd8ef643090",
+    "share/gcompris-qt/rcc/produto.rcc": "acae51b7edac25f8cfb2e8dc9ea44c0fe9b2cefb2c218c1746f60394ba715666",
     "share/gcompris-qt/rcc/y.rcc": "2baee03284c28ac8a3c69d77b5984ed7918295077edd663f0ed734f77387f9db"
   },
   "runtime_uid": 1000,
@@ -288,17 +290,17 @@
   "source_sha256": "8a2d65319858e79888e18eb7cd97eb5c2a56fdfd43b263e2dc57bb87cccbf4e8",
   "portuguese_catalogue_sha256": "d5397fdc0ccb0d87636a1c7c542d7c5032b8ad7d30661dd11bae011f8ef2cd8c",
   "private_qm_sha256": "f586b0fd9a1ab2f322f5e07888a1b4b1d1bad65d4a8569256722e1bcc71b8f2f",
-  "case_sha256": "c154960473b13afd1a03c7c1249cc5020dfcef29e2ed06271be069b50e58d678",
-  "private_rcc_sha256": "f0598a5e34fdc322cf428f39d6fda4740186c6c7b40e3eedd9a47a0601f12681",
+  "case_sha256": "66f2c976b9aba9c2cfdef190daa57b0135f5ab6e28b53ae1fc6ec076f5268642",
+  "private_rcc_sha256": "d55997ba4a4e1d522ad0e9f4d91a5b46d745401d11f975ef68a4bfbc0f722999",
   "binary_sha256": "3a226ee745c25aa8cf5e77d7cfb438c83dc6956091e6230053598cca659314bb",
   "runner_sha256": "696a1130c0447c90bffcc7e7f2f0a932d8516aa2c3c9c7ca55646e768caa8e59",
-  "deployment": "/tmp/.native-qml-2f39379e55934f2a884e1c665786d5dd",
+  "deployment": "/tmp/.native-qml-5628b8a01ebf42a384073c0171eb903e",
   "version_code": 260200,
   "renderer_requested": "software",
   "headless_helper_sha256": null,
   "xvfb_sha256": null,
   "network": "docker-none",
-  "timestamp_utc": "2026-10-17T17:24:41.771449+00:00",
+  "timestamp_utc": "2026-10-17T17:26:17.134593+00:00",
   "scope": "Only actions and assertions in the named case; native Qt starts muted but cases may change audio settings; no physical sound, pronunciation or Windows approval.",
   "screenshots": [
     {
@@ -318,13 +320,13 @@
     },
     {
       "file": "help.png",
-      "sha256": "5c2bbf5646ca524bafea41953d38d53b18d91d4bb761e3a6836223ded74e3c02",
-      "bytes": 149190
+      "sha256": "24ee3182c2bd594a2f5131fd719c415165e60acf0131679dd8c9aad108c318c4",
+      "bytes": 154153
     },
     {
       "file": "menu.png",
-      "sha256": "e47e9b79131fabc933caa56398d5f0046350d86c140c2d31b23ebb1c322eb6fc",
-      "bytes": 235182
+      "sha256": "7a3e3bb9e074e52b7f9d70d7d6d2cd7eea9ed1a77d9c59208b07e321bca617c2",
+      "bytes": 230650
     },
     {
       "file": "non-geometric.png",

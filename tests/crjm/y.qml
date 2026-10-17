@@ -139,6 +139,11 @@ TestCase {
         wait(300);
         ensure(node("M1").mapToItem(game, 0, 0).y < before, "Board can slide with a pointer");
         ensure(textIn(node("A5"), "●")); ensure(textIn(node("M1"), "◆"));
+        board.forceActiveFocus(); keyClick(Qt.Key_Tab);
+        ensure(restart.activeFocus, "Tab reaches restart after a normal reply");
+        keyClick(Qt.Key_Space); wait(80); cursor = 0;
+        ensure(textIn(game, "Participante 1 · Azul")); ensure(!swap.enabled);
+        ensure(!textIn(node("A5"), "●")); ensure(!textIn(node("M1"), "◆"));
         click(icon(game, "bar_home.svg")); tryCompare(pageView, "depth", 1, 2000);
         ensure(pageView.currentItem.isMenu);
         grabImage(pageView).save("__QA_OUTPUT__/menu.png");
