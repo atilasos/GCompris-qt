@@ -21,9 +21,9 @@
 
 A investigação e a especificação estão concluídas. A implementação decorre na branch
 `integration/crjm-games`, a partir de `620fde9e5`.
-Os 17 tickets de execução estão publicados como `ready-for-agent`. O ticket 02 está
-resolvido e integrado; os restantes estão abertos. O ticket 03 é a primeira tarefa
-desbloqueada. A tarefa 01 agrega o âmbito e não deve
+Os 17 tickets de execução estão publicados como `ready-for-agent`. Os tickets 02 e
+03 estão resolvidos e integrados; os restantes estão abertos. A fronteira disponível
+é 04, 06, 08, 10, 12, 14 e 16; a primeira tarefa é 04. A tarefa 01 agrega o âmbito e não deve
 ser assumida como uma implementação concorrente das subtarefas. A tarefa principal está assumida pelo coordenador. A implementação e a integração
 são verificadas antes de resolver cada ticket.
 
