@@ -42,7 +42,7 @@ são verificadas antes de resolver cada ticket.
 | [09](issues/09-quelhas-tux-aprendizagem.md) | Quelhas contra Tux e aprendizagem guiada | 08 | resolved |
 | [10](issues/10-atari-go-duas-pessoas.md) | Atari Go para duas pessoas | 03 | claimed |
 | [11](issues/11-atari-go-tux-aprendizagem.md) | Atari Go contra Tux e aprendizagem guiada | 10 | open |
-| [12](issues/12-produto-duas-pessoas.md) | Produto para duas pessoas | 03 | open |
+| [12](issues/12-produto-duas-pessoas.md) | Produto para duas pessoas | 03 | claimed |
 | [13](issues/13-produto-tux-aprendizagem.md) | Produto contra Tux e aprendizagem guiada | 12 | open |
 | [14](issues/14-y-duas-pessoas.md) | Y para duas pessoas | 03 | open |
 | [15](issues/15-y-tux-aprendizagem.md) | Y contra Tux e aprendizagem guiada | 14 | open |
