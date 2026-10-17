@@ -50,6 +50,7 @@ TestCase {
         var cursor = 0, maxResponse = 0, maxGap = 0, helpTime = 0, lastPlay = 0;
         function node(id) { return findChild(game, "yNode" + id); }
         function occupied(id) { return textIn(node(id), "●") || textIn(node(id), "◆"); }
+        function count(symbol) { return ids.filter(function(id){return textIn(node(id),symbol);}).length; }
         function place(id) {
             board.forceActiveFocus(); var goal = ids.indexOf(id);
             while(cursor !== goal) { keyClick(Qt.Key_Right); cursor = (cursor+1)%93; }
@@ -85,10 +86,15 @@ TestCase {
             ensure(occupied("A1"));
             if(level) {
                 ensure(textIn(game,"Tu · Vermelho"),"Tux swaps colour, not identity");
+                ensure(count("●")===1 && count("◆")===0,"Swap retains the original stone");
                 place("A2"); awaitHuman();
                 ensure(textIn(node("A2"),"◆"));
                 ensure(textIn(game,"Tu · Vermelho"));
-            } else ensure(textIn(game,"Tu · Azul"));
+                ensure(count("●")===2 && count("◆")===1,"Exactly one legal Blue Tux reply after swap");
+            } else {
+                ensure(textIn(game,"Tu · Azul"));
+                ensure(count("●")===1 && count("◆")===1,"Exactly one legal Red Tux reply");
+            }
             reset();
         }
         // A full Hard game: every human action uses a currently empty visible node.
@@ -121,13 +127,25 @@ TestCase {
         ensure(textIn(game,"Venceu o participante 1!"));
         ensure(textIn(game,"Um único grupo liga os três lados"));
         // Restart during pending response invalidates it, including an immediate new game.
-        reset();place("A1");click(findChild(game,"restartY"));cursor=0;wait(400);
+        reset(); board.forceActiveFocus(); keyClick(Qt.Key_Right); cursor=1;
+        keyClick(Qt.Key_Space);
+        // No wait/yield between scheduling the real worker and the cancellation.
+        mouseClick(findChild(game,"restartY"),20,20); cursor=0;wait(400);
         ensure(textIn(game,"Tu · Azul"));
         for(var i=0;i<ids.length;i++) ensure(!occupied(ids[i]),"No stale move after reset");
         var window=game.Window.window;
         window.width=1100;window.height=1050;wait(150);
         place("A1");awaitHuman();
         grabImage(pageView).save("__QA_OUTPUT__/desktop.png");
+        window.width=1100;window.height=700;wait(150);
+        for(var smallHint=0;smallHint<3;smallHint++) tabActivate(findChild(game,"hintY"));
+        ensure(textIn(game,"está assinalada com ?"));
+        var smallRestart=findChild(game,"restartY");
+        ensure(smallRestart.mapToItem(game,0,0).y+smallRestart.height<game.height,"Controls fit normal desktop");
+        ensure(findChild(game,"yViewport").height>=200,"Normal desktop has usable scrolling graph");
+        grabImage(pageView).save("__QA_OUTPUT__/desktop-small-hint.png");
+        place("A2");awaitHuman();ensure(textIn(node("A2"),"◆"));
+        grabImage(pageView).save("__QA_OUTPUT__/desktop-small.png");
         window.width=600;window.height=900;wait(150);
         tabActivate(findChild(game,"zoomY"));
         // Reach lower graph with keyboard, then drag viewport back up.
@@ -139,7 +157,10 @@ TestCase {
         mouseDrag(viewport,viewport.width-8,30,0,180,Qt.LeftButton,Qt.NoModifier,400);wait(100);
         ensure(node("A1").mapToItem(game,0,0).y>before,"Zoomed board scrolls");
         grabImage(pageView).save("__QA_OUTPUT__/portrait-scroll.png");
-        reset();place("A1");click(icon(game,"bar_home.svg"));tryCompare(pageView,"depth",1,2000);wait(1100);
+        reset(); board.forceActiveFocus(); keyClick(Qt.Key_Right); cursor=1;
+        keyClick(Qt.Key_Space);
+        var home=icon(game,"bar_home.svg");mouseClick(home,home.width/2,home.height/2);
+        tryCompare(pageView,"depth",1,2000);wait(1100);
         ensure(pageView.currentItem.isMenu);
         card=null;
         for(var d=0;d<activitiesGrid.count;d++) {
