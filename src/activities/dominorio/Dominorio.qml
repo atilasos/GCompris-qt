@@ -153,9 +153,15 @@ ActivityBase {
             anchors { top: instruction.bottom; horizontalCenter: parent.horizontalCenter }
             width: Math.min(parent.width - 16, 800)
             spacing: 6
-            GCButton { objectName: "tuxMode"; text: scene.tux ? qsTr("Duas pessoas") : qsTr("Contra Tux"); onClicked: { scene.tux = !scene.tux; scene.reset(); } }
-            GCButton { objectName: "difficultyDomino"; visible: scene.tux; text: [qsTr("Fácil: escolhe ao acaso"), qsTr("Médio: limita opções"), qsTr("Difícil: antecipa resposta")][scene.difficulty]; onClicked: { scene.difficulty = (scene.difficulty + 1) % 3; scene.reset(); } }
-            GCButton { objectName: "learnDomino"; text: qsTr("Aprender"); onClicked: scene.lesson() }
+            GCButton {
+                focusPolicy: Qt.StrongFocus
+                objectName: "tuxMode"; text: scene.tux ? qsTr("Duas pessoas") : qsTr("Contra Tux"); onClicked: { scene.tux = !scene.tux; scene.reset(); } }
+            GCButton {
+                focusPolicy: Qt.StrongFocus
+                objectName: "difficultyDomino"; visible: scene.tux; text: [qsTr("Fácil: escolhe ao acaso"), qsTr("Médio: limita opções"), qsTr("Difícil: antecipa resposta")][scene.difficulty]; onClicked: { scene.difficulty = (scene.difficulty + 1) % 3; scene.reset(); } }
+            GCButton {
+                focusPolicy: Qt.StrongFocus
+                objectName: "learnDomino"; text: qsTr("Aprender"); onClicked: scene.lesson() }
         }
         Item {
             id: playArea
@@ -215,16 +221,24 @@ ActivityBase {
             width: Math.min(parent.width - 16, 650)
             anchors { bottom: bar.top; horizontalCenter: parent.horizontalCenter; bottomMargin: 6 }
             spacing: 12
-            GCButton { objectName: "lessonNext"; visible: scene.phase === "intro"; text: qsTr("Experimentar"); onClicked: scene.exercise() }
-            GCButton { objectName: "hintDomino"; text: qsTr("Pista"); enabled: scene.accepting && !scene.winner; onClicked: scene.hint() }
-            GCButton { objectName: "reviewDomino"; visible: scene.winner > 0 && scene.phase === "match" && scene.decision !== null; text: qsTr("Rever decisão"); onClicked: scene.review() }
             GCButton {
+                focusPolicy: Qt.StrongFocus
+                objectName: "lessonNext"; visible: scene.phase === "intro"; text: qsTr("Experimentar"); onClicked: scene.exercise() }
+            GCButton {
+                focusPolicy: Qt.StrongFocus
+                objectName: "hintDomino"; text: qsTr("Pista"); enabled: scene.accepting && !scene.winner; onClicked: scene.hint() }
+            GCButton {
+                focusPolicy: Qt.StrongFocus
+                objectName: "reviewDomino"; visible: scene.winner > 0 && scene.phase === "match" && scene.decision !== null; text: qsTr("Rever decisão"); onClicked: scene.review() }
+            GCButton {
+                focusPolicy: Qt.StrongFocus
                 objectName: "confirmDomino"
                 text: qsTr("Confirmar")
                 enabled: scene.validSelection
                 onClicked: scene.confirm()
             }
             GCButton {
+                focusPolicy: Qt.StrongFocus
                 objectName: "restartDomino"
                 text: qsTr("Nova partida")
                 onClicked: scene.reset()

@@ -44,3 +44,8 @@ Limitação material: host i5-12600K/46GiB, não dispositivo modesto; não exist
 equipamento físico modesto disponível. Esse critério fica explicitamente por
 validar antes de distribuição (ticket18), sem fingir uma medição nesse hardware.
 Progresso resolvido cobre entrega de software e validação nativa disponível.
+
+Keyboard follow-up: fixed StrongFocus on all Dominório controls after native
+Tab red proved the mode unreachable. New keyboard case reaches mode, difficulty,
+lesson, exercise, hints and review using Tab+Space; native green and two-person
+regression each2 passes/0 failures. Evidence footer records commands/results.

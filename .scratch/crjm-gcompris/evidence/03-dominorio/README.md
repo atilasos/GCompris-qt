@@ -71,3 +71,24 @@ its actual hardware and results; do not equate CPU throttling with that device.
 The worker evaluates at most 56 candidate moves and 56 replies each. Generation
 identifiers invalidate returned results on restart, mode/difficulty changes,
 lesson changes and stop; the bounded stale worker job can finish privately.
+
+## Keyboard accessibility correction
+
+Follow-up after integration base `210005497`: the shared GCButton defaults to
+NoFocus. Every button belonging to this activity now declares StrongFocus,
+including mode, difficulty, introduction, exercise, hint, review, confirm and
+restart. The shared component and other activities were not modified.
+
+A new native case `tests/crjm/dominorio-keyboard.qml` uses Tab from the board
+until the requested real control gains active focus, then Space to activate it.
+It traverses every new control, obtains the review after a naturally completed
+Hard match and preserves the original real-worker checks. It does not call
+button handlers or change focus on the button itself. This follows the same
+confirmed native-activity seam.
+
+Run the command above with case `tests/crjm/dominorio-keyboard.qml` and a fresh
+output. Red at `/tmp/dominorio03-keyboard-red` failed `Tab reaches tuxMode`.
+Green at `/tmp/dominorio03-keyboard-green2` passed2/failed0, QML errors0.
+Two-person regression at `/tmp/dominorio03-keyboard-regression` also passed2/
+failed0, QML errors0. Result manifests and logs are saved in the matching
+evidence subdirectories. No performance benchmark was repeated or newly claimed.
