@@ -59,7 +59,7 @@ for (const activity of ['grammar_classes', 'grammar_analysis']) {
         assert.equal(context.items.translationFile, `${activity}-pt.json`);
         assert.deepEqual(warnings, []);
         const labels = { nou: 'Nome', dtm: 'Determinante', adj: 'Adjetivo', prn: 'Pronome',
-                         vrb: 'Verbo', adv: 'Advérbio', cjt: 'Conjunção', ppt: 'Preposição', itj: 'Interjeição' };
+                         vrb: 'Verbo', adv: 'Advérbio', cjt: 'Conjunção', ppt: 'Preposição', itj: 'Interjeição', pdt: 'Preposição + determinante', ppr: 'Preposição + pronome' };
         for (const item of context.datas.syntax) {
             assert.equal(item.wordClass, labels[item.code]);
         }
@@ -69,13 +69,14 @@ for (const activity of ['grammar_classes', 'grammar_analysis']) {
     test(`${activity}: every level and exercise is valid in the real game parser`, () => {
         const { context } = loadActivity(activity);
         const reference = JSON.parse(readFileSync(new URL(`src/activities/${activity}/resource/${activity}-en.json`, root), 'utf8'));
-        assert.equal(context.datas.levels.length, reference.levels.length);
+        assert.ok(context.datas.levels.length > reference.levels.length);
         const englishSentences = new Set(Object.values(reference.dataset).flat().map(item => item.sentence));
         context.initSyntax();
         for (const [levelIndex, level] of context.datas.levels.entries()) {
             const exercises = context.datas.dataset[level.exercise];
-            assert.equal(exercises.length, reference.dataset[level.exercise].length, level.exercise);
+            assert.ok(exercises.length >= 12, level.exercise);
             for (const exercise of exercises) {
+                assert.ok(!/\s{2,}/u.test(exercise.sentence), `Repeated spaces: ${exercise.sentence}`);
                 assert.ok(!englishSentences.has(exercise.sentence), `Untranslated sentence: ${exercise.sentence}`);
                 const parsed = context.analyzeExercise(levelIndex, exercise);
                 assert.equal(parsed.errors, '', `${level.exercise}: ${exercise.sentence}`);
@@ -124,6 +125,13 @@ for (const activity of ['grammar_classes', 'grammar_analysis']) {
                 context.items.datasetModel.append({ exercise });
                 context.buildAnswer();
                 assert.equal(context.items.errors.text, '', exercise.sentence);
+                const words = context.items.answerModel.rows.filter(row => row.code);
+                assert.ok(words.every(row => !row.code.includes('+')), exercise.sentence);
+                assert.equal(context.boxCount, words.length, exercise.sentence);
+                for (const row of words) {
+                    assert.ok(row.code === '_' || context.items.goalModel.rows.some(token => token.code === row.code),
+                              `Missing selectable token: ${row.code} in ${exercise.sentence}`);
+                }
                 const cards = context.items.answerModel.rows.map(row => ({ expected: row.code, proposition: row.code }));
                 context.items.rowAnswer = { count: cards.length, itemAt: index => cards[index] };
                 context.checkResult();
@@ -140,3 +148,51 @@ for (const activity of ['grammar_classes', 'grammar_analysis']) {
         }
     });
 }
+
+for (const activity of ['grammar_classes', 'grammar_analysis']) {
+    test(`${activity}: contractions occupy one box with only the requested classes`, () => {
+        const { context } = loadActivity(activity);
+        context.initSyntax();
+        const cases = [
+            ['dtm nou', 'A chuva cai no jardim.', 'dtm nou vrb ppt+dtm nou', 'no', 'dtm'],
+            ['dtm', 'A gata dorme na sala.', 'dtm nou vrb ppt+dtm nou', 'na', 'dtm'],
+            ['ppt', 'A gata dorme na sala.', 'dtm nou vrb ppt+dtm nou', 'na', 'ppt'],
+            ['nou', 'A chuva cai no jardim.', 'dtm nou vrb ppt+dtm nou', 'no', '_'],
+            ['dtm nou ppt', 'O livro está na mochila.', 'dtm nou vrb ppt+dtm nou', 'na', 'pdt'],
+            ['ppt prn', 'Eu gosto disto.', 'prn vrb ppt+prn', 'disto', 'ppr'],
+            ['prn', 'Eu gosto disto.', 'prn vrb ppt+prn', 'disto', 'prn']
+        ];
+        for (const [goal, sentence, answer, word, expected] of cases) {
+            // Multi-class goals belong to analysis; classes uses only the first goal.
+            if (context.grammarMode === '_classes' && goal.includes(' ')) continue;
+            context.datas.levels = [{ goal, objective: 'Identifica as classes.' }];
+            context.items.currentLevel = 0;
+            context.items.currentExercise = 0;
+            context.items.datasetModel.clear();
+            context.items.datasetModel.append({ exercise: { sentence, answer } });
+            context.buildAnswer();
+            const row = context.items.answerModel.rows.find(row => row.word === word);
+            assert.equal(row.code, expected, `${sentence}: ${word} must have one box`);
+            assert.equal(context.boxCount, sentence.replace(/[.!]/g, '').split(' ').length);
+            assert.equal(context.items.boxIndexes.length, context.boxCount);
+            if (expected !== '_') {
+                assert.ok(context.items.goalModel.rows.some(row => row.code === expected));
+            }
+        }
+    });
+}
+
+test('Datasets without a combined token retain separate boxes for merged classes', () => {
+    const { context } = loadActivity('grammar_analysis');
+    context.datas.syntax = context.datas.syntax.filter(entry => !entry.mergedClasses);
+    context.initSyntax();
+    context.datas.levels = [{ goal: 'dtm nou', objective: 'Find determiners and nouns.' }];
+    context.items.currentLevel = 0;
+    context.items.currentExercise = 0;
+    context.items.datasetModel.append({ exercise: {
+        sentence: 'A chuva cai no jardim.', answer: 'dtm nou vrb ppt+dtm nou'
+    } });
+    context.buildAnswer();
+    assert.equal(context.items.answerModel.rows.find(row => row.word === 'no').code, '_+dtm');
+    assert.equal(context.boxCount, 6);
+});

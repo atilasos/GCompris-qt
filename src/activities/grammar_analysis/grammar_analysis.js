@@ -353,7 +353,17 @@ function buildAnswer() {
             var classList = parsed.classes[i].split(/\+/)               // Split merged classes
             var wordCodes = []
             var bCount = boxCount
-            for (var j = 0; j < classList.length; j++) {                // Loop on merged classes
+            // A dataset can provide a single token for a contraction. Keep its
+            // full analysis in the answer, but ask only for this level's classes.
+            var contraction = datas.syntax.find(function(entry) {
+                return entry.mergedClasses === classList.join(' ')
+            })
+            if (contraction) {
+                var selected = classList.filter(function(code) { return goalArray.includes(code) })
+                wordCodes.push(selected.length > 1 ? contraction.code : (selected[0] || '_'))
+                items.boxIndexes.push(items.answerModel.count + "-0")
+                boxCount++
+            } else for (var j = 0; j < classList.length; j++) {         // Loop on merged classes
                 idx = syntaxList.indexOf(classList[j])                  // Find index for this class
                 if (idx !== -1) {                                       // Check if it's a know class
                     if (goalArray.includes(datas.syntax[idx].code)) {   // Check if it's an expected class
@@ -392,7 +402,8 @@ function buildAnswer() {
     // Update goalModel
     items.goalModel.clear()
     for (k = 0; k < syntaxList.length ; k++) {                          // Loop on syntax order
-        if (goalArray.includes(syntaxList[k])) {                        // If class found in goal
+        if (goalArray.includes(syntaxList[k]) ||
+                (datas.syntax[k].mergedClasses && toArrayKeys(items.answerModel, "code").includes(syntaxList[k]))) {
             items.goalModel.append(
                         {   'code': datas.syntax[k].code,
                             'wordClass': datas.syntax[k].wordClass,

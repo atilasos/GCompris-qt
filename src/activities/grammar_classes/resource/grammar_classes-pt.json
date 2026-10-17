@@ -31,6 +31,12 @@
       "goal": "prn"
     },
     {
+      "objective": "Identifica os advérbios.",
+      "difficulty": "4",
+      "exercise": "adverbs",
+      "goal": "adv"
+    },
+    {
       "objective": "Identifica as preposições.",
       "difficulty": "4",
       "exercise": "prepositions",
@@ -47,6 +53,30 @@
       "difficulty": "4",
       "exercise": "interjections",
       "goal": "itj"
+    },
+    {
+      "objective": "Identifica os nomes em frases mais longas.",
+      "difficulty": "5",
+      "exercise": "nouns-challenge",
+      "goal": "nou"
+    },
+    {
+      "objective": "Identifica os verbos no passado, no presente e no futuro.",
+      "difficulty": "5",
+      "exercise": "verbs-challenge",
+      "goal": "vrb"
+    },
+    {
+      "objective": "Identifica os determinantes, incluindo os das contrações.",
+      "difficulty": "5",
+      "exercise": "determiners-challenge",
+      "goal": "dtm"
+    },
+    {
+      "objective": "Identifica as preposições, incluindo as das contrações.",
+      "difficulty": "5",
+      "exercise": "prepositions-challenge",
+      "goal": "ppt"
     }
   ],
   "dataset": {
@@ -98,6 +128,22 @@
       {
         "sentence": "O pão coze no forno.",
         "answer": "dtm nou vrb ppt+dtm nou"
+      },
+      {
+        "sentence": "A professora lê uma história.",
+        "answer": "dtm nou vrb dtm nou"
+      },
+      {
+        "sentence": "O Pedro rega as plantas.",
+        "answer": "dtm nou vrb dtm nou"
+      },
+      {
+        "sentence": "As crianças visitam a biblioteca.",
+        "answer": "dtm nou vrb dtm nou"
+      },
+      {
+        "sentence": "O vento agita as folhas.",
+        "answer": "dtm nou vrb dtm nou"
       }
     ],
     "verbs": [
@@ -148,6 +194,22 @@
       {
         "sentence": "Ela chama a sua amiga.",
         "answer": "prn vrb dtm dtm nou"
+      },
+      {
+        "sentence": "Tu desenhas uma estrela.",
+        "answer": "prn vrb dtm nou"
+      },
+      {
+        "sentence": "Nós construímos uma cabana.",
+        "answer": "prn vrb dtm nou"
+      },
+      {
+        "sentence": "A Rita fechou a janela.",
+        "answer": "dtm nou vrb dtm nou"
+      },
+      {
+        "sentence": "Os alunos escreverão um poema.",
+        "answer": "dtm nou vrb dtm nou"
       }
     ],
     "determiners": [
@@ -198,6 +260,22 @@
       {
         "sentence": "Ela chama a sua amiga.",
         "answer": "prn vrb dtm dtm nou"
+      },
+      {
+        "sentence": "Uma borboleta pousou nesta flor.",
+        "answer": "dtm nou vrb ppt+dtm nou"
+      },
+      {
+        "sentence": "Aqueles meninos trouxeram os seus livros.",
+        "answer": "dtm nou vrb dtm dtm nou"
+      },
+      {
+        "sentence": "Esta mochila tem uma bolsa.",
+        "answer": "dtm nou vrb dtm nou"
+      },
+      {
+        "sentence": "As nossas sementes estão na terra.",
+        "answer": "dtm dtm nou vrb ppt+dtm nou"
       }
     ],
     "adjectives": [
@@ -248,6 +326,22 @@
       {
         "sentence": "Ela chama a sua melhor amiga.",
         "answer": "prn vrb dtm dtm adj nou"
+      },
+      {
+        "sentence": "O casaco amarelo está molhado.",
+        "answer": "dtm nou adj vrb adj"
+      },
+      {
+        "sentence": "Uma raposa pequena atravessa a floresta escura.",
+        "answer": "dtm nou adj vrb dtm nou adj"
+      },
+      {
+        "sentence": "As maçãs vermelhas são doces.",
+        "answer": "dtm nou adj vrb adj"
+      },
+      {
+        "sentence": "O caderno novo tem folhas brancas.",
+        "answer": "dtm nou adj vrb nou adj"
       }
     ],
     "pronouns": [
@@ -298,6 +392,22 @@
       {
         "sentence": "Ela chamou alguém.",
         "answer": "prn vrb prn"
+      },
+      {
+        "sentence": "Tu conheces alguém?",
+        "answer": "prn vrb prn"
+      },
+      {
+        "sentence": "Nós partilhamos isto com ela.",
+        "answer": "prn vrb prn ppt prn"
+      },
+      {
+        "sentence": "Ela não encontrou ninguém.",
+        "answer": "prn adv vrb prn"
+      },
+      {
+        "sentence": "Aquilo pertence a ele.",
+        "answer": "prn vrb ppt prn"
       }
     ],
     "prepositions": [
@@ -348,6 +458,22 @@
       {
         "sentence": "Pensa sobre isso.",
         "answer": "vrb ppt prn"
+      },
+      {
+        "sentence": "A bola passou entre as cadeiras.",
+        "answer": "dtm nou vrb ppt dtm nou"
+      },
+      {
+        "sentence": "O barco segue para a ilha.",
+        "answer": "dtm nou vrb ppt dtm nou"
+      },
+      {
+        "sentence": "O desenho foi feito por mim.",
+        "answer": "dtm nou vrb vrb ppt prn"
+      },
+      {
+        "sentence": "O cão corre sem a trela.",
+        "answer": "dtm nou vrb ppt dtm nou"
       }
     ],
     "conjunctions": [
@@ -398,6 +524,22 @@
       {
         "sentence": "Como estás ocupado, eu farei isso.",
         "answer": "cjt vrb adj prn vrb prn"
+      },
+      {
+        "sentence": "A Ana lê e o Rui desenha.",
+        "answer": "dtm nou vrb cjt dtm nou vrb"
+      },
+      {
+        "sentence": "Queres maçã ou pera?",
+        "answer": "vrb nou cjt nou"
+      },
+      {
+        "sentence": "Ficámos em casa porque chovia.",
+        "answer": "vrb ppt nou cjt vrb"
+      },
+      {
+        "sentence": "Se chover, levamos as capas.",
+        "answer": "cjt vrb vrb dtm nou"
       }
     ],
     "interjections": [
@@ -432,6 +574,288 @@
       {
         "sentence": "Bravo! Tu fizeste um bolo delicioso.",
         "answer": "itj prn vrb dtm nou adj"
+      },
+      {
+        "sentence": "Olá! A aula vai começar.",
+        "answer": "itj dtm nou vrb vrb"
+      },
+      {
+        "sentence": "Ai! A sopa está quente!",
+        "answer": "itj dtm nou vrb adj"
+      },
+      {
+        "sentence": "Oh! A janela ficou aberta!",
+        "answer": "itj dtm nou vrb adj"
+      },
+      {
+        "sentence": "Viva! A nossa equipa ganhou!",
+        "answer": "itj dtm dtm nou vrb"
+      }
+    ],
+    "adverbs": [
+      {
+        "sentence": "Hoje, a turma visita o museu.",
+        "answer": "adv dtm nou vrb dtm nou"
+      },
+      {
+        "sentence": "O caracol avança lentamente.",
+        "answer": "dtm nou vrb adv"
+      },
+      {
+        "sentence": "A Rita chegou cedo.",
+        "answer": "dtm nou vrb adv"
+      },
+      {
+        "sentence": "O cão espera aqui.",
+        "answer": "dtm nou vrb adv"
+      },
+      {
+        "sentence": "Amanhã, nós plantaremos árvores.",
+        "answer": "adv prn vrb nou"
+      },
+      {
+        "sentence": "Eu não gosto de barulho.",
+        "answer": "prn adv vrb ppt nou"
+      },
+      {
+        "sentence": "O Pedro lê muito.",
+        "answer": "dtm nou vrb adv"
+      },
+      {
+        "sentence": "A sopa está demasiado quente.",
+        "answer": "dtm nou vrb adv adj"
+      },
+      {
+        "sentence": "Talvez ela venha.",
+        "answer": "adv prn vrb"
+      },
+      {
+        "sentence": "A professora explica bem.",
+        "answer": "dtm nou vrb adv"
+      },
+      {
+        "sentence": "Os pássaros voam alto.",
+        "answer": "dtm nou vrb adv"
+      },
+      {
+        "sentence": "Ontem, choveu intensamente.",
+        "answer": "adv vrb adv"
+      },
+      {
+        "sentence": "A biblioteca fica perto.",
+        "answer": "dtm nou vrb adv"
+      },
+      {
+        "sentence": "Nós já terminámos o trabalho.",
+        "answer": "prn adv vrb dtm nou"
+      },
+      {
+        "sentence": "O Miguel ainda dorme.",
+        "answer": "dtm nou adv vrb"
+      },
+      {
+        "sentence": "A Inês também participa.",
+        "answer": "dtm nou adv vrb"
+      }
+    ],
+    "nouns-challenge": [
+      {
+        "sentence": "A Joana levou uma lupa para a horta.",
+        "answer": "dtm nou vrb dtm nou ppt dtm nou"
+      },
+      {
+        "sentence": "Os alunos pesquisam animais na biblioteca.",
+        "answer": "dtm nou vrb nou ppt+dtm nou"
+      },
+      {
+        "sentence": "O padeiro prepara pão e bolos.",
+        "answer": "dtm nou vrb nou cjt nou"
+      },
+      {
+        "sentence": "A água da fonte enche o balde.",
+        "answer": "dtm nou ppt+dtm nou vrb dtm nou"
+      },
+      {
+        "sentence": "O barco do pescador regressou ao porto.",
+        "answer": "dtm nou ppt+dtm nou vrb ppt+dtm nou"
+      },
+      {
+        "sentence": "As folhas das árvores cobrem o passeio.",
+        "answer": "dtm nou ppt+dtm nou vrb dtm nou"
+      },
+      {
+        "sentence": "A Maria e o Tiago observam estrelas.",
+        "answer": "dtm nou cjt dtm nou vrb nou"
+      },
+      {
+        "sentence": "O rebanho atravessa a ponte de madeira.",
+        "answer": "dtm nou vrb dtm nou ppt nou"
+      },
+      {
+        "sentence": "Os livros desta estante falam de planetas.",
+        "answer": "dtm nou ppt+dtm nou vrb ppt nou"
+      },
+      {
+        "sentence": "Uma abelha recolhe pólen nas flores.",
+        "answer": "dtm nou vrb nou ppt+dtm nou"
+      },
+      {
+        "sentence": "A avó ofereceu um cachecol ao neto.",
+        "answer": "dtm nou vrb dtm nou ppt+dtm nou"
+      },
+      {
+        "sentence": "O respeito e a amizade unem a turma.",
+        "answer": "dtm nou cjt dtm nou vrb dtm nou"
+      }
+    ],
+    "verbs-challenge": [
+      {
+        "sentence": "Ontem, a turma visitou o castelo.",
+        "answer": "adv dtm nou vrb dtm nou"
+      },
+      {
+        "sentence": "Hoje, nós lemos uma notícia.",
+        "answer": "adv prn vrb dtm nou"
+      },
+      {
+        "sentence": "Amanhã, os alunos apresentarão o projeto.",
+        "answer": "adv dtm nou vrb dtm nou"
+      },
+      {
+        "sentence": "A Rita estava a desenhar.",
+        "answer": "dtm nou vrb ppt vrb"
+      },
+      {
+        "sentence": "Eu quero aprender a nadar.",
+        "answer": "prn vrb vrb ppt vrb"
+      },
+      {
+        "sentence": "O Rui abriu a porta e entrou.",
+        "answer": "dtm nou vrb dtm nou cjt vrb"
+      },
+      {
+        "sentence": "Nós vamos construir um abrigo.",
+        "answer": "prn vrb vrb dtm nou"
+      },
+      {
+        "sentence": "Quando o sino tocou, eles saíram.",
+        "answer": "cjt dtm nou vrb prn vrb"
+      },
+      {
+        "sentence": "Tu podes ajudar a tua irmã.",
+        "answer": "prn vrb vrb dtm dtm nou"
+      },
+      {
+        "sentence": "Eles tinham preparado o lanche.",
+        "answer": "prn vrb vrb dtm nou"
+      },
+      {
+        "sentence": "A semente germina e a planta cresce.",
+        "answer": "dtm nou vrb cjt dtm nou vrb"
+      },
+      {
+        "sentence": "Se estudarmos, compreenderemos o problema.",
+        "answer": "cjt vrb vrb dtm nou"
+      }
+    ],
+    "determiners-challenge": [
+      {
+        "sentence": "Este livro pertence à nossa escola.",
+        "answer": "dtm nou vrb ppt+dtm dtm nou"
+      },
+      {
+        "sentence": "A minha caneta está nessa caixa.",
+        "answer": "dtm dtm nou vrb ppt+dtm nou"
+      },
+      {
+        "sentence": "Os teus amigos trouxeram estas sementes.",
+        "answer": "dtm dtm nou vrb dtm nou"
+      },
+      {
+        "sentence": "Uma menina encontrou um ninho naquela árvore.",
+        "answer": "dtm nou vrb dtm nou ppt+dtm nou"
+      },
+      {
+        "sentence": "O nosso projeto fala dos oceanos.",
+        "answer": "dtm dtm nou vrb ppt+dtm nou"
+      },
+      {
+        "sentence": "Aquela bicicleta tem umas rodas grandes.",
+        "answer": "dtm nou vrb dtm nou adj"
+      },
+      {
+        "sentence": "A luz desta sala vem daquela janela.",
+        "answer": "dtm nou ppt+dtm nou vrb ppt+dtm nou"
+      },
+      {
+        "sentence": "As suas botas ficaram nas escadas.",
+        "answer": "dtm dtm nou vrb ppt+dtm nou"
+      },
+      {
+        "sentence": "O aluno escolheu uma tarefa.",
+        "answer": "dtm nou vrb dtm nou"
+      },
+      {
+        "sentence": "Esta história tem personagens divertidas.",
+        "answer": "dtm nou vrb nou adj"
+      },
+      {
+        "sentence": "Os meus desenhos estão nestas pastas.",
+        "answer": "dtm dtm nou vrb ppt+dtm nou"
+      },
+      {
+        "sentence": "O teu casaco ficou no autocarro.",
+        "answer": "dtm dtm nou vrb ppt+dtm nou"
+      }
+    ],
+    "prepositions-challenge": [
+      {
+        "sentence": "O lápis caiu no chão.",
+        "answer": "dtm nou vrb ppt+dtm nou"
+      },
+      {
+        "sentence": "A bola está na caixa.",
+        "answer": "dtm nou vrb ppt+dtm nou"
+      },
+      {
+        "sentence": "Os livros vieram da biblioteca.",
+        "answer": "dtm nou vrb ppt+dtm nou"
+      },
+      {
+        "sentence": "O carteiro entregou cartas aos vizinhos.",
+        "answer": "dtm nou vrb nou ppt+dtm nou"
+      },
+      {
+        "sentence": "As crianças caminham pelas ruas.",
+        "answer": "dtm nou vrb ppt+dtm nou"
+      },
+      {
+        "sentence": "A água corre pelos canais.",
+        "answer": "dtm nou vrb ppt+dtm nou"
+      },
+      {
+        "sentence": "Nós gostamos deste jardim.",
+        "answer": "prn vrb ppt+dtm nou"
+      },
+      {
+        "sentence": "A Ana precisa daquela régua.",
+        "answer": "dtm nou vrb ppt+dtm nou"
+      },
+      {
+        "sentence": "O gato dorme numa almofada.",
+        "answer": "dtm nou vrb ppt+dtm nou"
+      },
+      {
+        "sentence": "Ele pensa nisso.",
+        "answer": "prn vrb ppt+prn"
+      },
+      {
+        "sentence": "Eu gosto disto.",
+        "answer": "prn vrb ppt+prn"
+      },
+      {
+        "sentence": "A turma falou sobre a reciclagem.",
+        "answer": "dtm nou vrb ppt dtm nou"
       }
     ]
   },
@@ -480,6 +904,18 @@
       "code": "itj",
       "wordClass": "Interjeição",
       "image": "9.svg"
+    },
+    {
+      "code": "pdt",
+      "wordClass": "Preposição + determinante",
+      "image": "preposition-determiner.svg",
+      "mergedClasses": "ppt dtm"
+    },
+    {
+      "code": "ppr",
+      "wordClass": "Preposição + pronome",
+      "image": "preposition-pronoun.svg",
+      "mergedClasses": "ppt prn"
     }
   ]
 }
