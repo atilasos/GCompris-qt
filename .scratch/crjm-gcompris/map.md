@@ -1,0 +1,55 @@
+# Integração CRJM no nosso fork
+
+## Documentos
+
+- [Especificação](spec.md).
+- [Tarefa principal 01](issues/01-integrar-jogos-crjm.md), preservada. A execução usa os tickets 02 a 18.
+- [Análise de viabilidade](analise.md).
+- [Requisitos técnicos e comparação com o catálogo](requisitos-gcompris.md).
+
+## Decisões
+
+- Integrar os oito jogos no nosso fork, sem submissão upstream.
+- Começar pelo piloto de Dominório, tickets 02 e 03. Depois, seguir a ordem recomendada dos jogos sem criar dependências entre jogos independentes.
+- Usar QML e JavaScript, modos locais e componentes GCompris existentes.
+- Testar a atividade nativa completa. Confirmação expressa do utilizador em 2026-10-17.
+- Usar testes e posições CRJM como referência para os casos especiais.
+- Manter a plataforma web e os seus serviços fora da integração.
+- Verificar permissões dos componentes antes de distribuir o fork.
+
+## Estado
+
+A investigação e a especificação estão concluídas. A implementação não começou.
+Os 17 tickets de execução estão publicados como `ready-for-agent`, com `Progress: open`.
+O ticket 02 é a primeira tarefa desbloqueada. A tarefa 01 agrega o âmbito e não deve
+ser assumida como uma implementação concorrente das subtarefas. A aprovação
+da divisão não iniciou a implementação nem alterou o estado da tarefa principal.
+
+
+## Tickets aprovados
+
+| Ticket | Entrega | Bloqueado por | Progresso |
+| --- | --- | --- | --- |
+| [02](issues/02-dominorio-duas-pessoas.md) | Dominório para duas pessoas | Nenhum | open |
+| [03](issues/03-dominorio-tux-aprendizagem.md) | Dominório contra Tux e aprendizagem guiada | 02 | open |
+| [04](issues/04-gatos-caes-duas-pessoas.md) | Gatos & Cães para duas pessoas | 03 | open |
+| [05](issues/05-gatos-caes-tux-aprendizagem.md) | Gatos & Cães contra Tux e aprendizagem guiada | 04 | open |
+| [06](issues/06-faisca-duas-pessoas.md) | Faísca para duas pessoas | 03 | open |
+| [07](issues/07-faisca-tux-aprendizagem.md) | Faísca contra Tux e aprendizagem guiada | 06 | open |
+| [08](issues/08-quelhas-duas-pessoas.md) | Quelhas para duas pessoas | 03 | open |
+| [09](issues/09-quelhas-tux-aprendizagem.md) | Quelhas contra Tux e aprendizagem guiada | 08 | open |
+| [10](issues/10-atari-go-duas-pessoas.md) | Atari Go para duas pessoas | 03 | open |
+| [11](issues/11-atari-go-tux-aprendizagem.md) | Atari Go contra Tux e aprendizagem guiada | 10 | open |
+| [12](issues/12-produto-duas-pessoas.md) | Produto para duas pessoas | 03 | open |
+| [13](issues/13-produto-tux-aprendizagem.md) | Produto contra Tux e aprendizagem guiada | 12 | open |
+| [14](issues/14-y-duas-pessoas.md) | Y para duas pessoas | 03 | open |
+| [15](issues/15-y-tux-aprendizagem.md) | Y contra Tux e aprendizagem guiada | 14 | open |
+| [16](issues/16-nex-duas-pessoas.md) | Nex para duas pessoas | 03 | open |
+| [17](issues/17-nex-tux-aprendizagem.md) | Nex contra Tux e aprendizagem guiada | 16 | open |
+| [18](issues/18-validar-build-oito-jogos.md) | Validar os oito jogos numa build do fork | 05, 07, 09, 11, 13, 15, 17 | open |
+
+Os números de bloqueio são condições de início, não a ordem preferida de execução.
+O ticket 18 depende transitivamente de 02 e 03 e das entregas para duas pessoas
+através dos tickets finais de cada jogo. Não acrescentar esses bloqueios redundantes.
+
+Para validar a estrutura do tracker, executar `python3 .scratch/crjm-gcompris/verify-tickets.py`.
