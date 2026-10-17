@@ -3,7 +3,7 @@
 Green command, executed from the ticket worktree:
 
 ```sh
-python3 tools/run-native-qml-case.py --resource-snapshot /tmp/crjm-native-base --activity menu --from-menu --extra-activity dominorio --extra-activity gatos_caes --extra-activity faisca --extra-activity quelhas --extra-activity produto --qml-file src/activities/menu/Menu.qml --case tests/crjm/produto.qml --output /tmp/produto-green-12d --offline --timeout 100
+python3 tools/run-native-qml-case.py --resource-snapshot /tmp/crjm-native-base --activity menu --from-menu --extra-activity dominorio --extra-activity gatos_caes --extra-activity faisca --extra-activity quelhas --extra-activity atari_go --extra-activity produto --qml-file src/activities/menu/Menu.qml --case tests/crjm/produto.qml --output /tmp/produto-integrated-12 --offline --timeout 100
 ```
 
 Result: 2 passes, 0 failures, no QML errors. Native Qt 6.10 software renderer, isolated network namespace, immutable baseline snapshot. Full hashes, source/test/runtime hashes and environment are in result.json. The shared installed build was not changed.
@@ -15,3 +15,5 @@ Assertions cover real menu discovery, white opening, partial and complete turns,
 Full transcript fills axial q-then-r order, first 30 black and remaining 31 white, within the official 45-piece-per-colour material. Each colour is one connected group, both products are zero, so participant 1 wins with fewer own pieces. Reference calculations were checked independently against CRJM before implementation. Smaller group examples use ordinary placements too.
 
 Desktop and portrait screenshots were visually inspected. The board and controls stay within the page, with selectable cell widths at least 36px and 40px respectively. The native test starts muted and uses synthetic touch, so neither physical touchscreen interaction nor audio/pedagogical suitability with children is claimed. No CRJM TypeScript code, artwork or exercises were copied.
+
+Repeated after merging the integration tip with Atari Go and Faísca Tux: same 2 passes, 0 failures, no QML errors.
