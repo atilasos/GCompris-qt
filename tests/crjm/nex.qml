@@ -80,6 +80,13 @@ TestCase {
         for(var k=0;k<11;++k) { play(55+k,99+k);if(k<10)play(k,88+k); }
         ensure(textIn(game,"Venceu o participante 1!"));ensure(!confirm.enabled);select(40);ensure(!confirm.enabled);
         grabImage(pageView).save("__QA_OUTPUT__/result.png");
+        click(restart);
+        // Independent reference transcript verified with actual CRJM actions:
+        // black along y0 never reaches y10; white connects x0 to x10 at y5.
+        for(var w=0;w<11;++w) {play(w*11,w*11+8);play(w*11+5,w*11+9);}
+        ensure(textIn(game,"Venceu o participante 2!"));
+        ensure(textIn(game,"Ligaste as duas margens"));
+        grabImage(pageView).save("__QA_OUTPUT__/white-result.png");
         // Real didactic near-final positions. Neither colour has a connection beforehand.
         for(var f=0;f<3;++f) {
             tabClick(findChild(game,"finalNex"+f));ensure(textIn(game,"Exercício:"));ensure(!textIn(game,"Venceu"));
