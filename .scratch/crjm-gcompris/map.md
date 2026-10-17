@@ -22,8 +22,8 @@
 A investigação e a especificação estão concluídas. A implementação decorre na branch
 `integration/crjm-games`, a partir de `620fde9e5`.
 Os 17 tickets de execução estão publicados como `ready-for-agent`. Os tickets 02,
-03 e 04 estão resolvidos e integrados; 06 e 08 estão assumidos. A fronteira disponível
-é 05, 10, 12, 14 e 16; a primeira tarefa é 05. A tarefa 01 agrega o âmbito e não deve
+03, 04 e 08 estão resolvidos e integrados; 06 está assumido. A fronteira disponível
+é 05, 09, 10, 12, 14 e 16; a primeira tarefa é 05. A tarefa 01 agrega o âmbito e não deve
 ser assumida como uma implementação concorrente das subtarefas. A tarefa principal está assumida pelo coordenador. A implementação e a integração
 são verificadas antes de resolver cada ticket.
 
@@ -38,7 +38,7 @@ são verificadas antes de resolver cada ticket.
 | [05](issues/05-gatos-caes-tux-aprendizagem.md) | Gatos & Cães contra Tux e aprendizagem guiada | 04 | open |
 | [06](issues/06-faisca-duas-pessoas.md) | Faísca para duas pessoas | 03 | claimed |
 | [07](issues/07-faisca-tux-aprendizagem.md) | Faísca contra Tux e aprendizagem guiada | 06 | open |
-| [08](issues/08-quelhas-duas-pessoas.md) | Quelhas para duas pessoas | 03 | claimed |
+| [08](issues/08-quelhas-duas-pessoas.md) | Quelhas para duas pessoas | 03 | resolved |
 | [09](issues/09-quelhas-tux-aprendizagem.md) | Quelhas contra Tux e aprendizagem guiada | 08 | open |
 | [10](issues/10-atari-go-duas-pessoas.md) | Atari Go para duas pessoas | 03 | open |
 | [11](issues/11-atari-go-tux-aprendizagem.md) | Atari Go contra Tux e aprendizagem guiada | 10 | open |
@@ -69,3 +69,7 @@ nesse alvo antes da distribuição. Fronteira04/06/08/10/12/14/16 desbloqueada.
 Decisão da entrega 04: atividade independente com abertura especial, vizinhança e
 partida completa pelo menu. Evidência em `evidence/04-gatos-caes/README.md`;
 aceitação nativa com 2 passes, 0 falhas e 0 erros QML. Ticket 05 desbloqueado.
+
+Decisão da entrega 08: Quelhas nativo com segmentos, troca inicial e resultado
+misère, verificado pelo menu após sincronização com a integração. Evidência em
+`evidence/08-quelhas/README.md`; 2 passes, 0 falhas e 0 erros QML. Ticket 09 desbloqueado.
