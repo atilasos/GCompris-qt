@@ -92,7 +92,8 @@ TestCase {
         ensure(textIn(cell(1), "●"));
         keyClick(Qt.Key_Tab); ensure(inspect.activeFocus, "Tab reaches group help");
         keyClick(Qt.Key_Space); wait(80); ensure(textIn(game, "Toca numa pedra"));
-        keyClick(Qt.Key_Tab); ensure(restart.activeFocus, "Tab reaches restart");
+        for (var t = 0; t < 20 && !restart.activeFocus; ++t) keyClick(Qt.Key_Tab);
+        ensure(restart.activeFocus, "Tab reaches restart");
         keyClick(Qt.Key_Space); wait(80); ensure(!textIn(cell(1), "●"));
         var window = game.Window.window;
         window.width = 1100; window.height = 700; wait(350);

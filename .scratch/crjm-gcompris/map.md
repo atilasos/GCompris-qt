@@ -22,8 +22,8 @@
 A investigação e a especificação estão concluídas. A implementação decorre na branch
 `integration/crjm-games`, a partir de `620fde9e5`.
 Os 17 tickets de execução estão publicados como `ready-for-agent`. Os tickets 02,
-03, 04, 05, 06, 07, 08, 09, 10 e 12 estão resolvidos e integrados; 11 e 14 estão
-assumidos. A fronteira disponível é 13 e 16; a primeira tarefa é 13. A tarefa 01 agrega o âmbito e não deve
+03, 04, 05, 06, 07, 08, 09, 10, 11, 12 e 14 estão resolvidos e integrados; 13 e 16
+estão assumidos. A fronteira disponível é 15; a primeira tarefa é 15. A tarefa 01 agrega o âmbito e não deve
 ser assumida como uma implementação concorrente das subtarefas. A tarefa principal está assumida pelo coordenador. A implementação e a integração
 são verificadas antes de resolver cada ticket.
 
@@ -41,12 +41,12 @@ são verificadas antes de resolver cada ticket.
 | [08](issues/08-quelhas-duas-pessoas.md) | Quelhas para duas pessoas | 03 | resolved |
 | [09](issues/09-quelhas-tux-aprendizagem.md) | Quelhas contra Tux e aprendizagem guiada | 08 | resolved |
 | [10](issues/10-atari-go-duas-pessoas.md) | Atari Go para duas pessoas | 03 | resolved |
-| [11](issues/11-atari-go-tux-aprendizagem.md) | Atari Go contra Tux e aprendizagem guiada | 10 | claimed |
+| [11](issues/11-atari-go-tux-aprendizagem.md) | Atari Go contra Tux e aprendizagem guiada | 10 | resolved |
 | [12](issues/12-produto-duas-pessoas.md) | Produto para duas pessoas | 03 | resolved |
 | [13](issues/13-produto-tux-aprendizagem.md) | Produto contra Tux e aprendizagem guiada | 12 | claimed |
-| [14](issues/14-y-duas-pessoas.md) | Y para duas pessoas | 03 | claimed |
-| [15](issues/15-y-tux-aprendizagem.md) | Y contra Tux e aprendizagem guiada | 14 | open |
-| [16](issues/16-nex-duas-pessoas.md) | Nex para duas pessoas | 03 | open |
+| [14](issues/14-y-duas-pessoas.md) | Y para duas pessoas | 03 | resolved |
+| [15](issues/15-y-tux-aprendizagem.md) | Y contra Tux e aprendizagem guiada | 14 | claimed |
+| [16](issues/16-nex-duas-pessoas.md) | Nex para duas pessoas | 03 | claimed |
 | [17](issues/17-nex-tux-aprendizagem.md) | Nex contra Tux e aprendizagem guiada | 16 | open |
 | [18](issues/18-validar-build-oito-jogos.md) | Validar os oito jogos numa build do fork | 05, 07, 09, 11, 13, 15, 17 | open |
 
@@ -101,3 +101,19 @@ Decisão da entrega 12: Produto nativo com 61 casas, abertura de qualquer cor,
 turnos de duas colocações corrigíveis, pontuação e desempate. Evidência em
 `evidence/12-produto/README.md`; aceitação pós-sincronização com 2 passes,
 0 falhas e 0 erros QML. Ticket 13 desbloqueado.
+
+Decisão da entrega 11: Atari Go com Tux local, três níveis, captura guiada, pistas
+e revisão da primeira decisão. Evidência em `evidence/11-atari-go/validation.md`;
+Tux pós-sincronização e regressão 10 com 2 passes, 0 falhas e 0 erros QML cada.
+As medições de resposta correspondem ao host disponível.
+
+Decisão da entrega 14: Y nativo com 93 nós e 252 arestas explícitas, troca inicial,
+conexão dos três lados e alvos de 44 px com zoom e deslocação. Evidência em
+`evidence/14-y/README.md`; 2 passes, 0 falhas e 0 erros QML. Proveniência distingue
+transcrição factual do grafo e implementação original; revisão de permissões antes
+de distribuição permanece aplicável. Ticket 15 desbloqueado.
+
+Nex inclui no ticket16 três exercícios reais de últimas casas para validar as
+convenções raras na interface normal. O ticket17 mantém IA e aprendizagem geral.
+As posições preparadas não devem conter vencedor prévio nem atribuir resultado
+por configuração. Esta opção respeita a preparação de exercícios prevista na especificação.
