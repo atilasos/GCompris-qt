@@ -19,14 +19,18 @@
 
 ## Estado
 
-A investigação e a especificação estão concluídas. A implementação decorre na branch
-`integration/crjm-games`, a partir de `620fde9e5`.
-Os 17 tickets de execução estão publicados como `ready-for-agent`. Os tickets 02
-a 18 estão resolvidos e integrados. A validação conjunta passou; aguardam-se
-as revisões finais antes de concluir a tarefa principal 01. A tarefa 01 agrega o âmbito e não deve
-ser assumida como uma implementação concorrente das subtarefas. A tarefa principal está assumida pelo coordenador. A implementação e a integração
-são verificadas antes de resolver cada ticket.
+A implementação está concluída na branch `integration/crjm-games`, a partir de
+`620fde9e5`. A tarefa principal 01 e os 17 tickets de execução 02–18 estão
+resolvidos. Não há tarefas abertas ou assumidas nesta integração.
 
+A [aceitação da build completa](evidence/18-build/README.md) regista 18 percursos
+Qt offline com 1 CPU e 512 MiB. A [revisão final](final-review.md) registou zero
+violações documentadas e zero desvios funcionais confirmados. As três observações
+de manutenção foram tratadas e os quatro percursos afetados voltaram a passar.
+
+Build Linux local: `build/crjm-complete/run-crjm.sh`. Sem publicação ou
+distribuição. Validação em dispositivos físicos e com crianças permanece
+pendente, conforme os limites registados na evidência.
 
 ## Tickets aprovados
 
@@ -144,3 +148,11 @@ aprovados, 0 erros QML e 0 OOM sob cgroup 1 CPU / 512 MiB. Evidência em
 `evidence/18-build/README.md`; launcher local `build/crjm-complete/run-crjm.sh`.
 Correção de alocações no predicado de Gatos & Cães preserva regras e limita memória.
 Não houve publicação; hardware físico e revisão final permanecem por concluir.
+
+
+Decisão da revisão final: concentrar a geometria de Nex e a elegibilidade dos
+pares de Quelhas nos respetivos módulos, e nomear explicitamente a resolução
+dos finais especiais de Nex. Os únicos dois RCC alterados foram recompilados;
+os quatro percursos passaram e os restantes 278 ficheiros do artefacto ficaram
+idênticos. Manifesto final em `evidence/review-fixes/artifact-manifest.json`.
+Tarefa principal e especificação resolvidas após estas verificações.

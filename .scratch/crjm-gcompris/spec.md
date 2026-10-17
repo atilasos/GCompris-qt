@@ -2,7 +2,7 @@
 
 Status: ready-for-agent
 Type: task
-Progress: open
+Progress: resolved
 
 ## Problem Statement
 
@@ -148,8 +148,8 @@ complementa a comparação com as atividades existentes.
 A referência CRJM verificada é o commit
 `b206a7b4948673be935a5cb6a5a84df92d3ba6c2`, igual no checkout local e no
 main remoto durante a análise. Os oito ficheiros de testes das regras passaram
-com 187 testes e zero falhas. Não existe ainda uma implementação Qt destes
-jogos verificada por esta investigação.
+com 187 testes e zero falhas. À data da investigação, não existia uma implementação Qt destes
+jogos verificada.
 
 A faixa de 2 a 10 anos declarada pelo projeto oficial não limita o público do
 nosso fork. A classificação por ciclo do CRJM informa a apresentação e a
@@ -158,3 +158,20 @@ introdução pedagógica, sem impedir jogos avançados para alunos mais velhos.
 O utilizador confirmou os testes pela atividade nativa em 2026-10-17.
 As escolhas técnicas desta especificação sintetizam a análise anterior.
 Não houve protótipo, compromisso de prazo ou aprovação de uma distribuição.
+
+
+## Resultado da implementação
+
+Implementação concluída na branch `integration/crjm-games`. Os oito jogos são
+atividades nativas com dois modos locais, ajuda, aprendizagem e revisão.
+Os tickets 02 a 18 estão resolvidos. A [aceitação da build](evidence/18-build/README.md)
+regista 18 percursos Qt sem rede, com cota virtual de 1 CPU e 512 MiB, sem
+falhas, erros QML ou eventos OOM. A [revisão final](final-review.md) tratou três
+observações de manutenção e não encontrou desvios funcionais da especificação.
+Os quatro percursos de Nex e Quelhas voltaram a passar após essas alterações.
+
+A build Linux local abre por `build/crjm-complete/run-crjm.sh` e usa o Qt
+instalado nesta máquina. Os manifestos e a auditoria de origem estão na
+evidência. Não houve publicação ou distribuição. Testes em dispositivos físicos,
+som físico e observação com crianças permanecem pendentes; o ensaio virtual e
+o toque QtTest não substituem essas validações.
