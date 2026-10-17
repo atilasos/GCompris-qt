@@ -16,7 +16,7 @@ exist yet; the menu was compiled from the unchanged activities list.
 Run from the worktree root:
 
 ```
-python3 tools/run-native-qml-case.py --resource-snapshot /tmp/crjm-native-base --activity menu --from-menu --extra-activity dominorio --extra-activity faisca --qml-file src/activities/menu/Menu.qml --case tests/crjm/faisca.qml --output /tmp/crjm-06-final --offline --timeout 100
+python3 tools/run-native-qml-case.py --resource-snapshot /tmp/crjm-native-base --activity menu --from-menu --extra-activity dominorio --extra-activity faisca --qml-file src/activities/menu/Menu.qml --case tests/crjm/faisca.qml --output /tmp/crjm-06-focus-green --offline --timeout 100
 ```
 
 Result: native Qt, Portuguese, software renderer, Docker network none; two
@@ -46,3 +46,12 @@ Rules/transcript reference: CRJM Faísca, independently checked runtime transcri
 recorded in /tmp/crjm-basic-transcripts.json during exploration. The native code
 and help/icon are independently written; PROVENANCE.md records origin and rights.
 No external publication or CRJM source relicensing occurred.
+
+## Keyboard button focus regression
+
+An additional red run (focus-red-result.json) failed at `Tab reaches distance2`: the
+shared GCButton defaults to Qt.NoFocus. Every Faísca button now explicitly uses
+Qt.StrongFocus. The final run traverses real Tab focus to restart, distance,
+direction and confirmation and activates them with Space, in addition to board
+keyboard navigation and direct 1/2/3 and WASD shortcuts. It passes with no QML
+errors. Final screenshots were inspected again after this change.

@@ -228,6 +228,7 @@ ActivityBase {
                 Repeater {
                     model: 3
                     GCButton {
+                        focusPolicy: Qt.StrongFocus
                         required property int index
                         objectName: "distance" + (index + 1)
                         text: (scene.distance === index + 1 ? "✓ " : "") + qsTr("Distância %1").arg(index + 1)
@@ -246,6 +247,7 @@ ActivityBase {
                 Repeater {
                     model: 4
                     GCButton {
+                        focusPolicy: Qt.StrongFocus
                         required property int index
                         objectName: "direction" + index
                         text: (scene.direction === index ? "✓ " : "") + [qsTr("↑ Cima"), qsTr("→ Direita"), qsTr("↓ Baixo"), qsTr("← Esquerda")][index]
@@ -268,12 +270,14 @@ ActivityBase {
             }
             spacing: 12
             GCButton {
+                focusPolicy: Qt.StrongFocus
                 objectName: "confirmFaisca"
                 text: qsTr("Confirmar")
                 enabled: scene.validSelection
                 onClicked: scene.confirm()
             }
             GCButton {
+                focusPolicy: Qt.StrongFocus
                 objectName: "restartFaisca"
                 text: qsTr("Nova partida")
                 onClicked: scene.reset()

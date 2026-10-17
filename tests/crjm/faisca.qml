@@ -15,6 +15,10 @@ TestCase {
     }
     function ensure(value, message) { if(!value) console.log("FAISCA_ASSERT_FAILED", message, new Error().stack); verify(value, message || ""); }
     function click(item) { ensure(item !== null, "Control exists"); mouseClick(item,item.width/2,item.height/2); wait(60); }
+    function tabTo(button) {
+        for(var k=0;k<30 && !button.activeFocus;++k) keyClick(Qt.Key_Tab);
+        ensure(button.activeFocus,"Tab reaches "+button.objectName);
+    }
     function test_complete_game() {
         wait(1500); click(section.itemAtIndex(section.count-1)); click(searchTextField);
         keyClick(Qt.Key_F); keyClick(Qt.Key_A); keyClick(Qt.Key_I); keyClick(Qt.Key_S); keyClick(Qt.Key_C); keyClick(Qt.Key_A); wait(800);
@@ -53,9 +57,12 @@ TestCase {
         ensure(textIn(findChild(game,"faiscaCell23"),"1 ←3")); ensure(!confirm.enabled);
         ensure(textIn(findChild(game,"reserve2"),"1: 0 · 2: 5 · 3: 5"));
         grabImage(pageView).save("__QA_OUTPUT__/result.png");
-        click(findChild(game,"restartFaisca")); ensure(textIn(game,"Participante 1")); ensure(!textIn(findChild(game,"faiscaCell2"),"1 ↓1"));
+        tabTo(findChild(game,"restartFaisca")); keyClick(Qt.Key_Space); wait(80); ensure(textIn(game,"Participante 1")); ensure(!textIn(findChild(game,"faiscaCell2"),"1 ↓1"));
         ensure(textIn(findChild(game,"reserve2"),"1: 5 · 2: 5 · 3: 5"));
-        board.forceActiveFocus(); keyClick(Qt.Key_Right); keyClick(Qt.Key_Space); keyClick(Qt.Key_2); keyClick(Qt.Key_D); keyClick(Qt.Key_Return); wait(80);
+        board.forceActiveFocus(); keyClick(Qt.Key_Right); keyClick(Qt.Key_Space); keyClick(Qt.Key_2); keyClick(Qt.Key_D);
+        tabTo(findChild(game,"distance2")); keyClick(Qt.Key_Space);
+        tabTo(findChild(game,"direction1")); keyClick(Qt.Key_Space);
+        tabTo(confirm); keyClick(Qt.Key_Space); wait(80);
         ensure(textIn(findChild(game,"faiscaCell1"),"1 →2"));
         var window=game.Window.window; window.width=1100;window.height=700;wait(350);
         ensure(board.width/6>=40); grabImage(pageView).save("__QA_OUTPUT__/desktop.png");
