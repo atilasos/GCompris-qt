@@ -58,7 +58,7 @@ ActivityBase {
             return at<0?cells[i]:(mode===0?(at===0?own:3):(at===2?3:own));
         }
         function finishRare() {
-            var result=Rules.rare(cells,own);
+            var result=Rules.resolveSpecialEnding(cells,own);
             if(!result) return;
             cells=result.board;pending=[];swapped=true;
             winner=result.winner===3?3:(colors[0]===result.winner?1:2);

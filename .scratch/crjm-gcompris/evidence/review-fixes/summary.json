@@ -1,0 +1,155 @@
+[
+  {
+    "case": "quelhas",
+    "command": [
+      "python3",
+      "tools/run-native-qml-case.py",
+      "--resource-snapshot",
+      "/home/proteu/Projetos/GCompris-qt/build/crjm-review-candidate",
+      "--activity",
+      "menu",
+      "--from-menu",
+      "--qml-file",
+      "src/activities/menu/Menu.qml",
+      "--case",
+      "tests/crjm/quelhas.qml",
+      "--output",
+      "/tmp/crjm-review-native/quelhas",
+      "--offline",
+      "--offline-cpus",
+      "1",
+      "--offline-memory-mib",
+      "512",
+      "--timeout",
+      "240"
+    ],
+    "seconds": 11.353,
+    "passed": true,
+    "case_result": {
+      "failures": 0,
+      "passes": 2
+    },
+    "qml_errors": [],
+    "timings": [],
+    "memory_peak_bytes": 127238144,
+    "oom_kill": 0
+  },
+  {
+    "case": "quelhas-tux",
+    "command": [
+      "python3",
+      "tools/run-native-qml-case.py",
+      "--resource-snapshot",
+      "/home/proteu/Projetos/GCompris-qt/build/crjm-review-candidate",
+      "--activity",
+      "menu",
+      "--from-menu",
+      "--qml-file",
+      "src/activities/menu/Menu.qml",
+      "--case",
+      "tests/crjm/quelhas-tux.qml",
+      "--output",
+      "/tmp/crjm-review-native/quelhas-tux",
+      "--offline",
+      "--offline-cpus",
+      "1",
+      "--offline-memory-mib",
+      "512",
+      "--timeout",
+      "240"
+    ],
+    "seconds": 16.526,
+    "passed": true,
+    "case_result": {
+      "failures": 0,
+      "passes": 2
+    },
+    "qml_errors": [],
+    "timings": [
+      {
+        "maxResponseIncludingFirstHelpMs": 1241,
+        "heartbeatMaxMs": 212
+      }
+    ],
+    "memory_peak_bytes": 229900288,
+    "oom_kill": 0
+  },
+  {
+    "case": "nex",
+    "command": [
+      "python3",
+      "tools/run-native-qml-case.py",
+      "--resource-snapshot",
+      "/home/proteu/Projetos/GCompris-qt/build/crjm-review-candidate",
+      "--activity",
+      "menu",
+      "--from-menu",
+      "--qml-file",
+      "src/activities/menu/Menu.qml",
+      "--case",
+      "tests/crjm/nex.qml",
+      "--output",
+      "/tmp/crjm-review-native/nex",
+      "--offline",
+      "--offline-cpus",
+      "1",
+      "--offline-memory-mib",
+      "512",
+      "--timeout",
+      "240"
+    ],
+    "seconds": 23.611,
+    "passed": true,
+    "case_result": {
+      "failures": 0,
+      "passes": 2
+    },
+    "qml_errors": [],
+    "timings": [],
+    "memory_peak_bytes": 137695232,
+    "oom_kill": 0
+  },
+  {
+    "case": "nex-tux",
+    "command": [
+      "python3",
+      "tools/run-native-qml-case.py",
+      "--resource-snapshot",
+      "/home/proteu/Projetos/GCompris-qt/build/crjm-review-candidate",
+      "--activity",
+      "menu",
+      "--from-menu",
+      "--qml-file",
+      "src/activities/menu/Menu.qml",
+      "--case",
+      "tests/crjm/nex-tux.qml",
+      "--output",
+      "/tmp/crjm-review-native/nex-tux",
+      "--offline",
+      "--offline-cpus",
+      "1",
+      "--offline-memory-mib",
+      "512",
+      "--timeout",
+      "240"
+    ],
+    "seconds": 25.502,
+    "passed": true,
+    "case_result": {
+      "failures": 0,
+      "passes": 2
+    },
+    "qml_errors": [],
+    "timings": [
+      {
+        "replyMaxMs": 148,
+        "heartbeatMaxMs": 49,
+        "hardRounds": 18,
+        "lockedChecks": 30,
+        "helpMs": 9
+      }
+    ],
+    "memory_peak_bytes": 147836928,
+    "oom_kill": 0
+  }
+]

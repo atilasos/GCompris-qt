@@ -16,10 +16,13 @@ export function place(board, selected) {
     selected.forEach(index => { next[index] = 1; });
     return next;
 }
+function eligiblePair(board, first, vertical) {
+    var other = first + (vertical ? 10 : 1);
+    return other < 100 && (vertical || first % 10 < 9) && !board[first] && !board[other];
+}
 export function hasMove(board, vertical) {
     for (var i = 0; i < 100; ++i) {
-        var other = i + (vertical ? 10 : 1);
-        if (other < 100 && (vertical || i % 10 < 9) && !board[i] && !board[other]) return true;
+        if (eligiblePair(board, i, vertical)) return true;
     }
     return false;
 }
@@ -37,8 +40,7 @@ export function options(board, vertical) {
 export function pairs(board, vertical) {
     var count = 0;
     for (var i = 0; i < 100; ++i) {
-        var other = i + (vertical ? 10 : 1);
-        if (other < 100 && (vertical || i % 10 < 9) && !board[i] && !board[other]) ++count;
+        if (eligiblePair(board, i, vertical)) ++count;
     }
     return count;
 }
