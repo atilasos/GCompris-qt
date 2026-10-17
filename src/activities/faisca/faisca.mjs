@@ -19,3 +19,18 @@ export function hasMove(board, reserves, mandatory) {
             if (legal(board, reserves, mandatory, mandatory, distance, direction)) return true;
     return false;
 }
+export function moves(board, reserves, mandatory) {
+    var options = [];
+    for (var start = mandatory < 0 ? 0 : mandatory; start < (mandatory < 0 ? 30 : mandatory + 1); ++start)
+        for (var distance = 1; distance <= 3; ++distance)
+            for (var direction = 0; direction < 4; ++direction)
+                if (legal(board, reserves, start, mandatory, distance, direction))
+                    options.push({start: start, distance: distance, direction: direction});
+    return options;
+}
+export function place(board, reserves, player, move) {
+    var cells = board.slice(), stock = [reserves[0].slice(), reserves[1].slice()];
+    cells[move.start] = {player: player, distance: move.distance, direction: move.direction};
+    stock[player - 1][move.distance - 1]--;
+    return {cells: cells, reserves: stock, mandatory: destination(move.start, move.distance, move.direction)};
+}
