@@ -10,3 +10,7 @@ distinct liberties, suicide/capture exception and first-capture win condition.
 The native acceptance case replays short legal histories independently
 verified against that reference. These factual move histories are not copied
 implementation code. The application needs no CRJM runtime or service.
+
+The bounded local Tux policies, prepared corner-capture lesson, three hints and
+post-match comparison of a real decision were independently authored here.
+The lesson is marked didactic and does not change the complete-match rules.
