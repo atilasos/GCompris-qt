@@ -22,25 +22,92 @@ ActivityBase {
         property bool inspecting: false
         property var selected: ({stones: [], liberties: []})
         property string feedback: ""
+        property bool tux: false
+        property int difficulty: 0
+        property bool thinking: false
+        property int generation: 0
+        property string phase: "match"
+        property int hints: 0
+        property int hintPoint: -1
+        property var decision: null
+        readonly property bool accepting: !thinking && phase !== "intro" && phase !== "reviewDone"
         function reset() {
+            generation++; thinking = false; phase = "match"; hints = 0; hintPoint = -1; decision = null;
             cells = Rules.emptyBoard(); player = 1; winner = 0; captured = 0;
             cursor = 0; inspecting = false; selected = {stones: [], liberties: []};
             feedback = ""; board.forceActiveFocus();
+        }
+        function lesson() {
+            reset(); phase = "intro";
+            feedback = qsTr("Introdução: um grupo liga pedras na horizontal e vertical. Cada interseção vazia junto do grupo é uma liberdade. Retira a última liberdade ao adversário: a primeira captura ganha. As diagonais não ligam pedras.");
+        }
+        function exercise() {
+            reset(); phase = "exercise";
+            var position = Rules.emptyBoard(); position[0] = 2; position[9] = 1; cells = position;
+            feedback = qsTr("Exercício didático preparado: a pedra branca no canto tem uma liberdade. Usa Grupo e liberdades para a observar; depois volta a jogar e faz a primeira captura com as Pretas.");
+        }
+        function hint() {
+            if (!accepting || winner) return;
+            hints++;
+            var target = -1;
+            for (var i = 0; i < 81; ++i) {
+                var move = Rules.place(cells, player, i);
+                if (!move.error && (target < 0 || move.captured.length)) target = i;
+                if (!move.error && move.captured.length) break;
+            }
+            if (hints === 1) feedback = qsTr("Conta as liberdades dos grupos adversários. Um grupo com uma só liberdade pode ser capturado.");
+            else if (hints === 2) feedback = qsTr("Observa a linha %1. Confirma as liberdades antes de colocar a pedra.").arg(Math.floor(target / 9) + 1);
+            else { hintPoint = target; feedback = qsTr("Experimenta a interseção assinalada com ?. É uma jogada legal; só ganha se retirar a última liberdade de um grupo adversário."); }
+        }
+        function review() {
+            if (!decision) return;
+            generation++; thinking = false; phase = "review"; winner = 0; captured = 0;
+            cells = decision.cells.slice(); player = 1; inspecting = false; selected = {stones: [], liberties: []}; hints = 0; hintPoint = -1;
+            feedback = qsTr("Revisão: jogaste na linha %1, coluna %2. Experimenta outra interseção e compara as liberdades do grupo formado.").arg(Math.floor(decision.index / 9) + 1).arg(decision.index % 9 + 1);
+            board.forceActiveFocus();
+        }
+        function requestTux() {
+            if (!tux || phase !== "match" || winner || player !== 2) return;
+            thinking = true; feedback = qsTr("Tux está a pensar… Podes consultar a ajuda ou reiniciar.");
+            opponent.sendMessage({board: cells, difficulty: difficulty, generation: generation});
+        }
+        WorkerScript {
+            id: opponent
+            source: "opponent.mjs"
+            onMessage: message => {
+                if (message.generation !== scene.generation || !scene.thinking || scene.player !== 2 || scene.winner || scene.phase !== "match") return;
+                scene.thinking = false;
+                if (message.index >= 0) scene.place(message.index);
+            }
+        }
+        onStop: { generation++; thinking = false; }
+        function place(index) {
+            const move = Rules.place(cells, player, index);
+            if (move.error) {
+                feedback = move.error === "suicide" ? qsTr("Suicídio: o grupo ficaria sem liberdades e não capturaria pedras. Escolhe outra interseção.") : qsTr("Esta interseção está ocupada. Escolhe outra.");
+                return;
+            }
+            if (phase === "review") {
+                if (index === decision.index) { feedback = qsTr("Escolhe uma alternativa à jogada original."); return; }
+                var original = Rules.place(decision.cells, 1, decision.index);
+                var before = Rules.group(original.board, decision.index).liberties.length;
+                var after = Rules.group(move.board, index).liberties.length;
+                cells = move.board; phase = "reviewDone";
+                feedback = qsTr("Revisão concluída: o grupo da jogada original tinha %1 liberdades e capturava %2 pedra(s); a alternativa tem %3 liberdades e captura %4. Mais liberdades dão espaço para respirar, mas observa também as ameaças adversárias.").arg(before).arg(original.captured.length).arg(after).arg(move.captured.length);
+                return;
+            }
+            if (phase === "match" && player === 1 && !decision) decision = {cells: cells.slice(), index: index};
+            cells = move.board; feedback = ""; hints = 0; hintPoint = -1; selected = {stones: [], liberties: []};
+            if (move.captured.length) { winner = player; captured = move.captured.length; generation++; thinking = false; }
+            else player = 3 - player;
+            requestTux();
         }
         function choose(index) {
             cursor = index;
             if (inspecting) {
                 selected = Rules.group(cells, index);
                 feedback = selected.stones.length ? qsTr("%1 pedras · %2 liberdades").arg(selected.stones.length).arg(selected.liberties.length) : qsTr("Toca numa pedra para ver o seu grupo.");
-            } else if (!winner) {
-                const move = Rules.place(cells, player, index);
-                if (move.error) feedback = move.error === "suicide" ? qsTr("Suicídio: o grupo ficaria sem liberdades e não capturaria pedras. Escolhe outra interseção.") : qsTr("Esta interseção está ocupada. Escolhe outra.");
-                else {
-                    cells = move.board; feedback = "";
-                    if (move.captured.length) { winner = player; captured = move.captured.length; }
-                    else player = 3 - player;
-                }
-            }
+            } else if (!winner && accepting) place(index);
             board.forceActiveFocus();
         }
         Component.onCompleted: { activity.start.connect(start); activity.stop.connect(stop); }
@@ -50,7 +117,7 @@ ActivityBase {
             anchors { top: parent.top; horizontalCenter: parent.horizontalCenter; topMargin: 8 }
             width: parent.width - 20; horizontalAlignment: Text.AlignHCenter
             fontSize: 24; font.bold: true; color: "#183c50"
-            text: scene.winner ? (scene.winner === 1 ? qsTr("Venceram as Pretas ●!") : qsTr("Venceram as Brancas ○!")) : scene.player === 1 ? qsTr("Pretas ● · Participante 1") : qsTr("Brancas ○ · Participante 2")
+            text: scene.phase === "intro" ? qsTr("Aprender Atari Go") : scene.phase === "reviewDone" ? qsTr("Compara as duas decisões") : scene.tux && scene.phase === "match" && !scene.winner ? (scene.player === 1 ? qsTr("Tu · Pretas ●") : qsTr("Tux · Brancas ○")) : scene.winner ? (scene.winner === 1 ? qsTr("Venceram as Pretas ●!") : qsTr("Venceram as Brancas ○!")) : scene.player === 1 ? qsTr("Pretas ● · Participante 1") : qsTr("Brancas ○ · Participante 2")
         }
         GCText {
             id: instruction
@@ -59,8 +126,16 @@ ActivityBase {
             fontSize: 14; color: "#183c50"; wrapMode: Text.WordWrap
             text: scene.feedback || (scene.winner ? qsTr("Primeira captura: %1 pedra(s). A partida terminou.").arg(scene.captured) : scene.inspecting ? qsTr("Toca numa pedra para ver o seu grupo e as liberdades (+).") : qsTr("Coloca uma pedra numa interseção. Vence quem faz a primeira captura."))
         }
+        Flow {
+            id: modes
+            anchors { top: instruction.bottom; horizontalCenter: parent.horizontalCenter }
+            width: Math.min(parent.width - 16, 950); spacing: 6
+            GCButton { focusPolicy: Qt.StrongFocus; objectName: "tuxAtari"; text: scene.tux ? qsTr("Duas pessoas") : qsTr("Contra Tux"); onClicked: { scene.tux = !scene.tux; scene.reset(); } }
+            GCButton { focusPolicy: Qt.StrongFocus; objectName: "difficultyAtari"; visible: scene.tux; text: [qsTr("Fácil: ao acaso"), qsTr("Médio: captura e liberdades"), qsTr("Difícil: antecipa capturas")][scene.difficulty]; onClicked: { scene.difficulty = (scene.difficulty + 1) % 3; scene.reset(); } }
+            GCButton { focusPolicy: Qt.StrongFocus; objectName: "learnAtari"; text: qsTr("Aprender"); onClicked: scene.lesson() }
+        }
         Item {
-            anchors { top: instruction.bottom; bottom: controls.top; left: parent.left; right: parent.right; margins: 10 }
+            anchors { top: modes.bottom; bottom: controls.top; left: parent.left; right: parent.right; margins: 10 }
             Rectangle {
                 id: board
                 objectName: "atariBoard"
@@ -104,6 +179,7 @@ ActivityBase {
                         }
                         GCText { anchors.centerIn: parent; visible: scene.selected.liberties.indexOf(index) >= 0; text: "+"; color: "#00577c"; font.bold: true; fontSize: 22 }
                         Rectangle { anchors.fill: parent; anchors.margins: 2; color: "transparent"; border.color: "#804100"; border.width: 3; visible: board.activeFocus && scene.cursor === index }
+                        GCText { anchors.centerIn: parent; text: "?"; font.bold: true; color: "#b00064"; visible: scene.hintPoint === index; fontSize: 24 }
                         MouseArea { anchors.fill: parent; onClicked: scene.choose(parent.index) }
                         Accessible.role: Accessible.Button
                         Accessible.name: qsTr("Linha %1, coluna %2: %3").arg(Math.floor(index/9)+1).arg(index%9+1).arg(scene.cells[index] === 1 ? qsTr("Preta") : scene.cells[index] === 2 ? qsTr("Branca") : qsTr("vazia"))
@@ -114,7 +190,7 @@ ActivityBase {
         }
         Flow {
             id: controls
-            width: Math.min(parent.width - 16, 600)
+            width: Math.min(parent.width - 16, 1000)
             anchors { bottom: bar.top; horizontalCenter: parent.horizontalCenter; bottomMargin: 8 }
             spacing: 8
             GCButton {
@@ -122,6 +198,9 @@ ActivityBase {
                 text: scene.inspecting ? qsTr("Voltar a jogar") : qsTr("Grupo e liberdades")
                 onClicked: { scene.inspecting = !scene.inspecting; scene.selected = {stones: [], liberties: []}; scene.feedback = ""; }
             }
+            GCButton { focusPolicy: Qt.StrongFocus; objectName: "lessonAtari"; visible: scene.phase === "intro"; text: qsTr("Experimentar"); onClicked: scene.exercise() }
+            GCButton { focusPolicy: Qt.StrongFocus; objectName: "hintAtari"; text: qsTr("Pista"); enabled: scene.accepting && !scene.winner; onClicked: scene.hint() }
+            GCButton { focusPolicy: Qt.StrongFocus; objectName: "reviewAtari"; text: qsTr("Rever decisão"); visible: scene.winner > 0 && scene.phase === "match" && scene.decision !== null; onClicked: scene.review() }
             GCButton { focusPolicy: Qt.StrongFocus; objectName: "restartAtari"; text: qsTr("Nova partida"); onClicked: scene.reset() }
         }
         DialogHelp { id: dialogHelp; onClose: home() }
