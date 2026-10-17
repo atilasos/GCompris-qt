@@ -69,3 +69,13 @@ https://projetosdre.madeira.gov.pt/crjmram/wp-content/uploads/sites/5/2026/09/Ta
 SHA256 7df37e66c0bdda90b687e914fe21df23cce59e5d162c810f14c949f5d469022c.
 A sequência de nove segmentos foi previamente executada contra as regras CRJM;
 é uma posição de teste, não uma cópia da implementação do motor.
+
+## Verificação após integração
+
+Merge do tip integration/crjm-games 210005497 para a branch de trabalho,
+commit 2201a5049. O único conflito foi Progress do ticket 08, preservado
+resolved porque os testes e evidências já estavam completos.
+O mesmo comando foi repetido depois do merge com a opção adicional
+`--extra-activity gatos_caes`, saída `/tmp/quelhas-08-merged`.
+Resultado em `merged/`: dois passes, zero falhas, zero erros QML, sem rede.
+A entrada do catálogo dos dois jogos está preservada.
