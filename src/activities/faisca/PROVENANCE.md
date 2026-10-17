@@ -6,3 +6,8 @@ No CRJM code, artwork or pedagogical text is copied or relicensed here.
 The native source and original icon are GPL-3.0-or-later; build metadata is
 BSD-2-Clause. Native acceptance uses a fixed legal game independently checked
 against the CRJM reference runtime, including a jump and exhausted reserves.
+
+The local teaching opponent, introduction, graded hints and decision review are
+original work for this native activity under GPL-3.0-or-later. The worker and
+interface share the same independent rule module. No CRJM AI or teaching text
+was copied.
