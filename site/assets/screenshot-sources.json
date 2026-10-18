@@ -1,0 +1,126 @@
+[
+  {
+    "file": "dominorio.webp",
+    "title": "Dominório",
+    "description": "Tabuleiro amplo, orientação e confirmação da jogada à mão.",
+    "source": ".scratch/crjm-ui/evidence/ui/DOMIN-1280-font7.png",
+    "source_sha256": "87d6b2498cfe54cee0e03dfaabb060657aa23ace5fd569b2a3c2e93a8ba7b777",
+    "dimensions": [
+      1280,
+      800
+    ]
+  },
+  {
+    "file": "gatos-caes.webp",
+    "title": "Gatos & Cães",
+    "description": "Peças com animais e indicação clara de quem joga.",
+    "source": ".scratch/crjm-ui/evidence/ui/GATOS-1280-font7.png",
+    "source_sha256": "dd751b10fd09f5561ee8e9fd3f6fe7693596eac82dee580e6c8efe0bb5e1730f",
+    "dimensions": [
+      1280,
+      800
+    ]
+  },
+  {
+    "file": "faisca.webp",
+    "title": "Faísca",
+    "description": "Escolha de origem e destino sem perder o tabuleiro de vista.",
+    "source": ".scratch/crjm-ui/evidence/ui/FAISC-1280-font7.png",
+    "source_sha256": "3ce4a1bc264df1585814747e28102fccbbc8d5ae815603b3f7be1d0084740123",
+    "dimensions": [
+      1280,
+      800
+    ]
+  },
+  {
+    "file": "quelhas.webp",
+    "title": "Quelhas",
+    "description": "Seleção, orientação e confirmação junto ao tabuleiro.",
+    "source": ".scratch/crjm-ui/evidence/ui/QUELHAS-1280-font7.png",
+    "source_sha256": "f53bbcf16dc3e339d389b4b605bc3107eb5a693f40bf32c5884022f04bd1469b",
+    "dimensions": [
+      1280,
+      800
+    ]
+  },
+  {
+    "file": "atari-go.webp",
+    "title": "Atari Go",
+    "description": "Tabuleiro de madeira 9 × 9 e inspeção de grupos e liberdades.",
+    "source": ".scratch/crjm-ui/evidence/ui/ATARI-1280-font7.png",
+    "source_sha256": "c703e3d6c542abfd974c4de488cfc102254b01d03ef0c9318acce6e2bbf8b623",
+    "dimensions": [
+      1280,
+      800
+    ]
+  },
+  {
+    "file": "produto.webp",
+    "title": "Produto",
+    "description": "Tabuleiro completo e paleta de cores com seleção visível.",
+    "source": ".scratch/crjm-ui/evidence/ui/PRODUTO-1280-font7.png",
+    "source_sha256": "aaed2392070475b7b115bf6debc7276df2c0471436f70a9f678b6e800be93d2c",
+    "dimensions": [
+      1280,
+      800
+    ]
+  },
+  {
+    "file": "y.webp",
+    "title": "Y",
+    "description": "Vista completa do grafo e ampliação para jogar com precisão.",
+    "source": ".scratch/crjm-ui/evidence/ui/Y-1280-font7.png",
+    "source_sha256": "b3224aff697fad6988b63554ed8cb807b13dc546cb4f80b2742677aaac06013f",
+    "dimensions": [
+      1280,
+      800
+    ]
+  },
+  {
+    "file": "nex.webp",
+    "title": "Nex",
+    "description": "Tabuleiro centrado, modos de ação e aprendizagem guiada.",
+    "source": ".scratch/crjm-ui/evidence/ui/NEX-1280-font7.png",
+    "source_sha256": "52d8f5a64020cf2d846ea93d482b2709a01e6483ab63f2f78525502c7af0e205",
+    "dimensions": [
+      1280,
+      800
+    ]
+  },
+  {
+    "file": "faisca-before.webp",
+    "source": ".scratch/crjm-ui/evidence/red/faisca-large.png",
+    "source_sha256": "0480c628f06d25cf9400b6906061ab1a0298b44eb70509196ef3cffd1a7b1b98",
+    "dimensions": [
+      2048,
+      1100
+    ]
+  },
+  {
+    "file": "faisca-after.webp",
+    "source": ".scratch/crjm-ui/evidence/ui/FAISC-2048-font0.png",
+    "source_sha256": "b738e9765f013757cd3ddb800bc6ba1eeb7435a5d66225b5488f08095bb34559",
+    "dimensions": [
+      2048,
+      1100
+    ]
+  },
+  {
+    "file": "nex-portrait.webp",
+    "source": ".scratch/crjm-ui/evidence/ui/NEX-600-font7.png",
+    "source_sha256": "957c149b757fd8f2e3733723187c67f9c5f74bf2b12add11e46da1742fa63f57",
+    "dimensions": [
+      600,
+      900
+    ]
+  },
+  {
+    "file": "grammar.webp",
+    "source": "build/grammar-enrichment-analysis/contraction.png",
+    "source_sha256": "96c480a7f5cc60d1c55bcafc0a550161c542671257b130236ba8e411e2cdd9fe",
+    "dimensions": [
+      800,
+      800
+    ]
+  }
+]
