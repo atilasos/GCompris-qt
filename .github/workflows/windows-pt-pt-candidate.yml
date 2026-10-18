@@ -2,7 +2,7 @@ name: Windows PT-PT candidate
 
 on:
   push:
-    branches: [integration/pt-pt]
+    branches: [master, 'integration/**']
     paths:
       - 'src/**'
       - 'poqm/pt/**'
@@ -12,6 +12,7 @@ on:
       - 'CMakeLists.txt'
       - 'cmake/**'
       - 'external/**'
+      - 'tests/test_windows_candidate.py'
       - '.github/workflows/windows-pt-pt-candidate.yml'
   workflow_dispatch:
 
@@ -90,3 +91,33 @@ jobs:
             build/windows-candidate/CMakeCache.txt
           if-no-files-found: warn
           retention-days: 30
+
+  publish:
+    needs: candidate
+    if: github.repository == 'atilasos/GCompris-qt'
+    runs-on: ubuntu-24.04
+    permissions:
+      actions: read
+      contents: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Download the verified candidate from this run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download "$GITHUB_RUN_ID" --repo "$GITHUB_REPOSITORY" --name "GCompris-PT-PT-Windows-x64-candidate-$GITHUB_SHA" --dir release-artifacts
+      - name: Verify evidence and prepare release metadata
+        run: python3 tools/windows/prepare-release.py release-artifacts
+      - name: Publish a versioned test installer
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "windows-$GITHUB_RUN_ID" \
+            --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --prerelease \
+            --title "GCompris Windows · $GITHUB_RUN_ID · ${GITHUB_SHA:0:10}" \
+            --notes-file release-artifacts/release-notes.md \
+            release-artifacts/artifacts/GCompris-PT-PT-Windows-x64-candidate.exe \
+            release-artifacts/artifacts/GCompris-PT-PT-Windows-x64-portable.zip \
+            release-artifacts/artifacts/SHA256SUMS.txt \
+            release-artifacts/artifacts/release.json
