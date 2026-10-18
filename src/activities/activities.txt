@@ -49,6 +49,8 @@ details
 digital_electricity
 drawing_wheels
 drawletters
+dominorio
+quelhas
 drawnumbers
 enumerate
 erase
@@ -58,6 +60,7 @@ explore_farm_animals
 explore_monuments
 explore_world_animals
 explore_world_music
+faisca
 family
 family_find_relative
 fifteen
@@ -203,3 +206,8 @@ vertical_subtraction
 vertical_subtraction_compensation
 watercycle
 wordsgame
+gatos_caes
+atari_go
+produto
+y
+nex

@@ -1,0 +1,23 @@
+{
+  "reviewed_head": "9dfb5b79421f0b78534303941c5d4eb9310c89e0",
+  "previous_manifest": ".scratch/crjm-gcompris/evidence/18-build/artifact-manifest.json",
+  "final_artifact": "/home/proteu/Projetos/GCompris-qt/build/crjm-complete",
+  "previous_artifact": "/home/proteu/Projetos/GCompris-qt/build/crjm-complete-pre-review",
+  "changed_resources": {
+    "share/gcompris-qt/rcc/nex.rcc": {
+      "before": "3317795c5183a45cc531dbe6a5fbb8a7432084702e05c42019993f2e0e8251c9",
+      "after": "4e34329b786c12d642de35892135c4756ae097beac20746819f9fb8d0bef5e4d"
+    },
+    "share/gcompris-qt/rcc/quelhas.rcc": {
+      "before": "1bbbf6eb7d3a0749a3ae124028a3c289d7e1dc1478e4f44b8ffcc7101d0e4478",
+      "after": "278968d5640c03f531b7cb132079659344f2558d707ed31c57cdd7e718a14b65"
+    }
+  },
+  "source_sha256": {
+    "src/activities/nex/nex.mjs": "8b5599a2bbd42e48d6cb95351a131e51d366fc9e1fa874cafaf2cf23712d0b66",
+    "src/activities/nex/Nex.qml": "42b42628dee8cbc7d869624a09fddea8c9a458da5415eed996fd66ca0279bd28",
+    "src/activities/quelhas/quelhas.mjs": "8d6010851eb5c3181a6c804a1b41b189e58f95d89ff5ca3897635bcba2e3b7e7",
+    "src/activities/nex/CMakeLists.txt": "9d1ccd57b71b1bb6ecbafeef62fdb09e1747d7602dacd695cf8335c3612ef09f",
+    "src/activities/quelhas/CMakeLists.txt": "8f0c72365f77ec7ba813f504570fc48c468f2ed0d863585971c59953d01bc77e"
+  }
+}

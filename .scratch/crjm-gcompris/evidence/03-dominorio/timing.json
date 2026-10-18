@@ -1,0 +1,24 @@
+{
+  "difficulty": "hard",
+  "response_ms": [
+    595,
+    108,
+    106,
+    104,
+    60,
+    59,
+    53,
+    53,
+    54,
+    53,
+    53
+  ],
+  "help_ms": [
+    3
+  ],
+  "max_heartbeat_gap_ms": 23,
+  "response_without_help_samples": 10,
+  "response_without_help_max_ms": 108,
+  "response_without_help_p95_ms": 108,
+  "note": "First sample includes help dialog transition; remaining samples include QtTest polling (up to 50ms). Not pure engine timing."
+}

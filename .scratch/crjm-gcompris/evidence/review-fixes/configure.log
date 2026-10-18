@@ -1,0 +1,69 @@
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found WrapAtomic: TRUE
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+-- Found WrapOpenGL: TRUE
+-- Found WrapVulkanHeaders: /usr/include
+-- Could NOT find Wayland_Client (missing: Wayland_Client_LIBRARY Wayland_Client_INCLUDE_DIR) (found version "")
+-- Could NOT find Wayland_Server (missing: Wayland_Server_LIBRARY Wayland_Server_INCLUDE_DIR) (found version "")
+-- Could NOT find Wayland_Cursor (missing: Wayland_Cursor_LIBRARY Wayland_Cursor_INCLUDE_DIR) (found version "")
+-- Could NOT find Wayland_Egl (missing: Wayland_Egl_LIBRARY Wayland_Egl_INCLUDE_DIR Wayland_Client_FOUND) (found version "")
+-- Could NOT find Wayland (missing: Wayland_LIBRARIES) 
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.5.5")
+-- Installing in the same prefix as Qt, adopting their path scheme.
+-- The following OPTIONAL packages have been found:
+
+ * ECM (required version >= 1.4.0)
+ * QT
+ * Qt6QmlTools (required version >= 6.10.2)
+ * Qt6QuickTools (required version >= 6.10.2)
+ * OpenGL
+ * Vulkan
+ * Qt6GuiTools (required version >= 6.10.2)
+ * Qt6CoreTools (required version >= 6.10.2)
+ * Qt6DBusTools (required version >= 6.10.2)
+ * WrapVulkanHeaders
+ * Qt6Quick3DTools (required version >= 6.10.2)
+ * Qt6ShaderToolsTools (required version >= 6.10.2)
+ * Qt6QuickControls2Basic (required version >= 6.5.0)
+ * PkgConfig
+
+-- The following REQUIRED packages have been found:
+
+ * Qt6Qml (required version >= 6.5.0)
+ * Qt6Quick (required version >= 6.5.0)
+ * Qt6Multimedia (required version >= 6.5.0)
+ * Qt6Svg (required version >= 6.5.0)
+ * Qt6LinguistTools (required version >= 6.5.0)
+ * Qt6Sensors (required version >= 6.5.0)
+ * Qt6QuickControls2 (required version >= 6.5.0)
+ * Qt6Graphs (required version >= 6.5.0)
+ * OpenSSL
+ * Qt6
+
+-- The following OPTIONAL packages have not been found:
+
+ * Qt6QmlCompilerPlusPrivateTools (required version >= 6.10.2)
+ * Qt6WaylandClient (required version >= 6.5.0)
+
+-- Did not find the qml-box2d module in system scope, falling back to submodule build ...
+-- Found Git: /usr/bin/git (found version "2.53.0")
+Submodule path 'external/qml-box2d': checked out 'e3674e0fe030c406a1d915e47eab760624fffa55'
+-- Configuring done (3.2s)
+-- Generating done (0.2s)
+-- Build files have been written to: /tmp/crjm-review-resource-build
