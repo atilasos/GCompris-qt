@@ -21,6 +21,11 @@
           !Number.isInteger(metadata.activities) || metadata.activities < (pinned.activities || 203) ||
           Date.parse(metadata.date) < Date.parse(pinned.date)) continue;
       if (metadata.run === pinned.run) return;
+      // Later pages keep the history status and omit potentially large file patches.
+      const comparison = await fetch(`https://api.github.com/repos/atilasos/GCompris-qt/compare/${pinned.source}...${metadata.source}?per_page=1&page=2`, {signal: AbortSignal.timeout(6000)});
+      if (!comparison.ok) return;
+      const history = await comparison.json();
+      if (!['ahead', 'identical'].includes(history.status)) continue;
       document.querySelector('.download-button').href = metadata.url;
       document.querySelector('#download-description').textContent = `O candidato de teste mais recente inclui ${metadata.activities} atividades e os recursos para jogar sem Internet.`;
       const date = new Date(metadata.date + 'T12:00:00Z').toLocaleDateString('pt-PT', {timeZone:'UTC'});

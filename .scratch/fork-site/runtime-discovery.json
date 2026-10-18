@@ -1,0 +1,9 @@
+{
+  "hostname": "https://gcompris.infantinho.xyz",
+  "pinned_before": "38894977302",
+  "selected_run": "39151266113",
+  "selected_url": "https://github.com/atilasos/GCompris-qt/releases/download/windows-39151266113/GCompris-PT-PT-Windows-x64-candidate.exe",
+  "observed_summary": "O candidato de teste mais recente inclui 211 atividades e os recursos para jogar sem Internet.",
+  "observed_availability": "Instalador alojado no GitHub, disponível mesmo com o nosso computador desligado.",
+  "verification": "Observed in T3 browser after reloading the live site, before updating the static release pin"
+}

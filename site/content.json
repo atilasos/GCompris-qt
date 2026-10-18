@@ -1,19 +1,32 @@
 {
   "updated": "2026-10-18",
   "installer": {
-    "date": "2026-10-16",
-    "run": "38894977302",
-    "source": "3c98f5c6b4543e15dda66e2b0e275f5d9e6b49df",
-    "sha256": "1955a4fbde1c91721921fe0ea40843c40f86fa42b0f86ba91a8fb54f19a65543",
-    "bytes": 825758994,
-    "url": "https://downloads-gcompris.infantinho.xyz/GCompris-PT-PT-Windows-x64.exe",
-    "activities": 203
+    "date": "2026-10-18",
+    "run": "39151266113",
+    "source": "97ff78c34ab5383bdbe633120a6777abd15dac8c",
+    "sha256": "d3484321d7b80dd08feef1cad172a8bf289d9a31e23cc5ca3b88949363c91f34",
+    "bytes": 825829968,
+    "activities": 211,
+    "url": "https://github.com/atilasos/GCompris-qt/releases/download/windows-39151266113/GCompris-PT-PT-Windows-x64-candidate.exe"
   },
   "changes": [
     {
+      "date": "2026-10-18",
+      "label": "Windows · novo pacote",
+      "status": "Instalador disponível · candidato de teste",
+      "title": "Todas as novidades, num novo instalador.",
+      "body": "O novo candidato Windows x64 reúne 211 atividades: as 203 da edição PT-PT e os oito jogos CRJM. Inclui as interfaces revistas e os 356 exercícios de gramática, com os recursos necessários para jogar sem Internet.",
+      "details": [
+        "Compilação, instalação e arranque offline das 211 atividades verificados na CI Windows Server 2022.",
+        "Conferência do EXE publicado: recursos dos novos jogos, interface e gramática comparados com o código da revisão compilada.",
+        "Instalador e versão portátil disponíveis no GitHub, com SHA-256 e revisão de origem. A validação no Windows 10 da escola continua pendente."
+      ],
+      "commit": "97ff78c34ab5383bdbe633120a6777abd15dac8c"
+    },
+    {
       "date": "2026-10-17",
       "label": "Interface",
-      "status": "No código · próximo instalador",
+      "status": "Incluído no Windows de 18.10.2026",
       "title": "Mais espaço para jogar.",
       "body": "As oito atividades CRJM passam a dar prioridade ao tabuleiro. Os controlos ficam ao lado em paisagem e numa faixa inferior em retrato. Textos, foco por teclado e ampliação de Y e Nex foram revistos.",
       "details": [
@@ -26,7 +39,7 @@
     {
       "date": "2026-10-17",
       "label": "Novas atividades",
-      "status": "No código · próximo instalador",
+      "status": "Incluído no Windows de 18.10.2026",
       "title": "Oito jogos. Novas maneiras de pensar.",
       "body": "Dominório, Gatos & Cães, Faísca, Quelhas, Atari Go, Produto, Y e Nex chegam ao GCompris como atividades nativas. Cada jogo inclui partidas entre duas pessoas, um adversário local Tux e exercícios de aprendizagem guiada.",
       "details": [
@@ -39,7 +52,7 @@
     {
       "date": "2026-10-17",
       "label": "Português de Portugal",
-      "status": "No código · próximo instalador",
+      "status": "Incluído no Windows de 18.10.2026",
       "title": "Gramática com mais desafios.",
       "body": "Classes gramaticais passa de 8 para 13 níveis e de 92 para 188 frases. Análise gramatical passa de 7 para 12 níveis e de 80 para 168 frases: 356 exercícios no total.",
       "details": [
@@ -52,7 +65,7 @@
     {
       "date": "2026-10-16",
       "label": "Windows · PT-PT",
-      "status": "Instalador disponível · candidato de teste",
+      "status": "Versão anterior · Windows de 16.10.2026",
       "title": "O nosso primeiro ponto de partida para Windows.",
       "body": "Candidato Windows x64 com 203 atividades, tradução portuguesa e recursos de imagens, vozes, sons e música incluídos para utilização sem Internet. O pacote incorpora as correções PT-PT integradas até ao commit 3c98f5c6b.",
       "details": [

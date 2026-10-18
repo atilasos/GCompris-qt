@@ -3,12 +3,12 @@
 Nota de operação, 18 de outubro de 2026: este registo descreve a publicação
 histórica. O mesmo serviço passou para
 https://downloads-gcompris.infantinho.xyz/; a raiz de `gcompris.infantinho.xyz`
-passou a alojar a página estática do fork. Os caminhos de download antigos
-redirecionam para o serviço histórico. Não executar a remoção DNS descrita
+passou a alojar a página estática do fork. Os caminhos de download nesse hostname
+acompanham o pacote fixado na página. Não executar a remoção DNS descrita
 abaixo: esse registo agora pertence ao site Pages. Operação atual em
 [site/README.md](../../../site/README.md).
 
-[Descarregar o instalador](https://gcompris.infantinho.xyz/).
+[Descarregar o instalador histórico](https://downloads-gcompris.infantinho.xyz/).
 Run `38894977302`, fonte `3c98f5c6b4543e15dda66e2b0e275f5d9e6b49df`.
 EXE: 825758994 bytes, SHA-256
 `1955a4fbde1c91721921fe0ea40843c40f86fa42b0f86ba91a8fb54f19a65543`.

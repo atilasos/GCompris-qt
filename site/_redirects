@@ -1,4 +1,4 @@
-/gcompris.exe https://downloads-gcompris.infantinho.xyz/gcompris.exe 302
-/GCompris-PT-PT-Windows-x64.exe https://downloads-gcompris.infantinho.xyz/GCompris-PT-PT-Windows-x64.exe 302
-/version.json https://downloads-gcompris.infantinho.xyz/version.json 302
-/SHA256SUMS.txt https://downloads-gcompris.infantinho.xyz/SHA256SUMS.txt 302
+/gcompris.exe {{DOWNLOAD}} 302
+/GCompris-PT-PT-Windows-x64.exe {{DOWNLOAD}} 302
+/version.json /release.json 302
+/SHA256SUMS.txt {{CHECKSUM_URL}} 302

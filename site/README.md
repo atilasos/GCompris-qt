@@ -6,6 +6,23 @@ Página pública: https://gcompris.infantinho.xyz/.
 Projeto Cloudflare Pages Direct Upload: `gcompris-fork`, produção `main`.
 Alias: https://gcompris-fork.pages.dev/.
 
+## Entregar alterações de atividades, conteúdos ou interface
+
+1. Atualizar o changelog com o comportamento resultante e o commit. Identificar
+   se a alteração já está no instalador publicado ou aguarda compilação.
+2. Quando mudar a interface ou entrar uma atividade, acrescentar capturas reais
+   representativas, a respetiva proveniência e os créditos aplicáveis.
+3. Para entrar no pacote automático, a alteração precisa de chegar a uma branch
+   abrangida pelo workflow, dentro do âmbito autorizado da tarefa. A publicação
+   conserva todos os recursos e atividades do manifesto dessa revisão.
+4. Quando a tarefa incluir entregar um instalador, acompanhar a CI até terminar,
+   verificar os bytes/hash e o commit do pacote publicado, e atualizar o pacote
+   fixado na página. Confirmar que o commit da alteração está na história da
+   fonte compilada antes de marcar a entrada como incluída no Windows.
+5. Publicar e verificar o hostname final quando a tarefa autorizar a atualização
+   do site. Se a compilação falhar, corrigir o bloqueio ou identificar a falha
+   concreta; conservar o candidato anterior como fallback.
+
 ## Atualizar o changelog
 
 Editar `site/content.json`: uma entrada por alteração relevante, data, descrição
@@ -66,7 +83,9 @@ O Windows Server da CI não substitui a validação no Windows 10 da escola.
 
 `latest.js` consulta as Releases públicas, valida a identidade do EXE contra os
 metadados e o digest GitHub, e atualiza o botão se houver um pacote mais recente
-com pelo menos o número de atividades do pacote fixado. Se a API não responder,
+com pelo menos o número de atividades do pacote fixado e cuja fonte descenda
+da revisão fixada. A comparação GitHub recusa branches divergentes ou anteriores.
+Se a API não responder,
 a página mantém o download estático. O changelog é editorial e deve continuar a
 ser atualizado com as descrições e capturas das alterações.
 
@@ -83,11 +102,12 @@ O antigo serviço de ficheiros foi mantido em
 Essa origem depende de o computador estar ligado. Os instaladores novos em
 GitHub Releases e o site Pages continuam disponíveis com o computador desligado.
 
-Os caminhos `/gcompris.exe`, `/GCompris-PT-PT-Windows-x64.exe`, `/version.json` e
-`/SHA256SUMS.txt` na página redirecionam para esse serviço histórico. A raiz agora
-serve a página, conforme pedido. O manifesto do serviço antigo continua a
-identificar o candidato de 16 de outubro; não deve ser confundido com o JSON
-`/release.json` do site e os candidatos novos do GitHub.
+Os caminhos `/gcompris.exe` e `/GCompris-PT-PT-Windows-x64.exe` redirecionam para
+o instalador fixado em `content.json`. `/SHA256SUMS.txt` acompanha esse pacote e
+`/version.json` redireciona para `/release.json`. O build gera estes destinos a
+partir dos mesmos metadados usados no HTML. A raiz agora serve a página.
+O manifesto no subdomínio histórico continua a identificar o candidato de
+16 de outubro, preservando esse pacote para consulta e reversão.
 
 Não executar os antigos scripts de remoção da publicação91: o registo DNS
 `570102f98aba7f305d8c7ab404ff8d23` agora pertence ao site Pages.

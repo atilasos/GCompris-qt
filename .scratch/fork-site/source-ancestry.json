@@ -1,0 +1,25 @@
+{
+  "source": "97ff78c34ab5383bdbe633120a6777abd15dac8c",
+  "changes": [
+    {
+      "commit": "58796d9f3",
+      "title": "Mais espaço para jogar.",
+      "ancestor_of_candidate_source": true
+    },
+    {
+      "commit": "df67c658b",
+      "title": "Oito jogos. Novas maneiras de pensar.",
+      "ancestor_of_candidate_source": true
+    },
+    {
+      "commit": "a5073a1f6",
+      "title": "Gramática com mais desafios.",
+      "ancestor_of_candidate_source": true
+    },
+    {
+      "commit": "3c98f5c6b4543e15dda66e2b0e275f5d9e6b49df",
+      "title": "O nosso primeiro ponto de partida para Windows.",
+      "ancestor_of_candidate_source": true
+    }
+  ]
+}

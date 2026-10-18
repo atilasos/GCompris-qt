@@ -26,14 +26,14 @@ const release = {
   ],
 };
 
-async function downloadSelected(releases, ok = true) {
+async function downloadSelected(releases, ok = true, history = 'ahead') {
   const nodes = new Map();
   const context = {
     fetch: async url => ({
       ok,
       json: async () => url === 'release.json'
-        ? {date: '2026-10-16', run: 'old', activities: 211}
-        : releases,
+        ? {date: '2026-10-16', run: 'old', activities: 211, source: 'c'.repeat(40)}
+        : url.includes('/compare/') ? {status: history} : releases,
     }),
     AbortSignal, Date, Number, JSON,
     document: {
@@ -65,4 +65,12 @@ test('does not select a package with fewer activities than the pinned build', as
   const fewer = structuredClone(release);
   fewer.body = fewer.body.replace('"activities":211', '"activities":203');
   assert.equal(await downloadSelected([fewer]), undefined);
+});
+
+test('does not select a newer package from a divergent source branch', async () => {
+  assert.equal(await downloadSelected([release], true, 'diverged'), undefined);
+});
+
+test('does not replace the installer with a build of an older source revision', async () => {
+  assert.equal(await downloadSelected([release], true, 'behind'), undefined);
 });

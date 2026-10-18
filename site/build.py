@@ -8,6 +8,7 @@ import shutil
 from datetime import date
 from html import escape
 from pathlib import Path
+from urllib.parse import urljoin, urlsplit
 
 SITE = Path(__file__).resolve().parent
 OUT = SITE.parent / "build/fork-site"
@@ -20,7 +21,7 @@ OUT.mkdir(parents=True, exist_ok=True)
 for item in OUT.iterdir():
     shutil.rmtree(item) if item.is_dir() else item.unlink()
 shutil.copytree(SITE / "assets", OUT / "assets")
-for name in ("style.css", "gallery.js", "latest.js", "_headers", "_redirects", "404.html", "credits.html"):
+for name in ("style.css", "gallery.js", "latest.js", "_headers", "404.html", "credits.html"):
     shutil.copyfile(SITE / name, OUT / name)
 
 def pretty(value):
@@ -41,13 +42,25 @@ replacements = {
     "{{GALLERY}}": cards, "{{CHANGELOG}}": "\n".join(entries),
     "{{DOWNLOAD}}": escape(release["url"], quote=True), "{{SHA256}}": release["sha256"],
     "{{RELEASE_DATE}}": pretty(release["date"]), "{{SOURCE}}": release["source"][:10],
+    "{{SOURCE_FULL}}": release["source"],
     "{{RUN}}": release["run"], "{{SIZE}}": f"{release['bytes'] / 1_000_000:.1f}".replace(".", ","),
     "{{UPDATED}}": pretty(data["updated"]),
+    "{{ACTIVITY_COUNT}}": str(release["activities"]),
+    "{{INSTALLER_NAME}}": escape(Path(urlsplit(release["url"]).path).name),
+    "{{CHECKSUM_URL}}": escape(urljoin(release["url"], "SHA256SUMS.txt"), quote=True),
+    "{{AVAILABILITY}}": ("Instalador alojado no GitHub, disponível mesmo com o nosso computador desligado."
+                         if urlsplit(release["url"]).hostname == "github.com" else
+                         "A página fica sempre online. O download depende de o servidor de ficheiros estar ligado."),
 }
 for key, value in replacements.items():
     template = template.replace(key, value)
 assert "{{" not in template
 (OUT / "index.html").write_text(template)
+redirects = (SITE / "_redirects").read_text()
+for key, value in replacements.items():
+    redirects = redirects.replace(key, value)
+assert "{{" not in redirects
+(OUT / "_redirects").write_text(redirects)
 (OUT / "release.json").write_text(json.dumps(release, indent=2) + "\n")
 manifest = {str(p.relative_to(OUT)): hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(OUT.rglob("*")) if p.is_file()}
 print(f"Built {len(manifest)} public files in {OUT}")

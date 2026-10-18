@@ -1,0 +1,36 @@
+{
+  "html_url": "https://github.com/atilasos/GCompris-qt/releases/tag/windows-39151266113",
+  "tag_name": "windows-39151266113",
+  "prerelease": true,
+  "published_at": "2026-10-18T18:37:16Z",
+  "assets": [
+    {
+      "name": "GCompris-PT-PT-Windows-x64-candidate.exe",
+      "size": 825829968,
+      "digest": "sha256:d3484321d7b80dd08feef1cad172a8bf289d9a31e23cc5ca3b88949363c91f34",
+      "browser_download_url": "https://github.com/atilasos/GCompris-qt/releases/download/windows-39151266113/GCompris-PT-PT-Windows-x64-candidate.exe",
+      "state": "uploaded"
+    },
+    {
+      "name": "GCompris-PT-PT-Windows-x64-portable.zip",
+      "size": 963319774,
+      "digest": "sha256:792461578189cc40ba95d3ae02534f8ed6b6cb65fcf5b76000e9ea3cc9b6d153",
+      "browser_download_url": "https://github.com/atilasos/GCompris-qt/releases/download/windows-39151266113/GCompris-PT-PT-Windows-x64-portable.zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "release.json",
+      "size": 361,
+      "digest": "sha256:37649ff04bd970554a8458ef4e50e507e4585d9c59ff13dc0946ada5ae05f796",
+      "browser_download_url": "https://github.com/atilasos/GCompris-qt/releases/download/windows-39151266113/release.json",
+      "state": "uploaded"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 215,
+      "digest": "sha256:f296e652e5a166c853c7bde53f0fdff6dfcec6e5195baf6f03727ca9898833fc",
+      "browser_download_url": "https://github.com/atilasos/GCompris-qt/releases/download/windows-39151266113/SHA256SUMS.txt",
+      "state": "uploaded"
+    }
+  ]
+}

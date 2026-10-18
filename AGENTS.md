@@ -21,3 +21,8 @@ Consulta `docs/agents/triage-labels.md`.
 
 Antes de explorar o código, consulta `docs/agents/domain.md`.
 O projeto usa um único contexto, com `GLOSSARY.md` e `docs/adr/`.
+
+### Entregas do fork
+
+Ao alterar atividades, conteúdos ou interface, segue o processo de changelog,
+capturas e instalador em `site/README.md` antes de concluir a entrega.
