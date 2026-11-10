@@ -103,8 +103,10 @@ class NativeActivityProbeTest(unittest.TestCase):
         probe = importlib.util.module_from_spec(probe_spec)
         probe_spec.loader.exec_module(probe)
         names = probe.read_activities(ROOT / 'src/activities/activities.txt')
-        self.assertEqual(len(names), 203)
-        self.assertEqual(len(set(names)), 203)
+        self.assertEqual(len(names), len(set(names)))
+        # Packaging follows the complete source manifest as activities are added.
+        for activity in ('dominorio', 'gatos_caes', 'faisca', 'quelhas', 'atari_go', 'produto', 'y', 'nex'):
+            self.assertIn(activity, names)
         self.assertIn('programmingMaze', names)
         self.assertIn('alphabet-sequence', names)
         with tempfile.TemporaryDirectory() as directory:

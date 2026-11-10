@@ -1,0 +1,55 @@
+{
+  "index.html": {
+    "status": 200,
+    "matches_local": true
+  },
+  "release.json": {
+    "status": 200,
+    "matches_local": true
+  },
+  "style.css": {
+    "status": 200,
+    "matches_local": true
+  },
+  "gallery.js": {
+    "status": 200,
+    "matches_local": true
+  },
+  "latest.js": {
+    "status": 200,
+    "matches_local": true
+  },
+  "assets/screenshots/grammar.webp": {
+    "status": 200,
+    "matches_local": true
+  },
+  "assets/screenshots/atari-go.webp": {
+    "status": 200,
+    "matches_local": true
+  },
+  "credits.html": {
+    "status": 200,
+    "matches_local": true
+  },
+  "gcompris.exe": {
+    "status": 200,
+    "final_host": "release-assets.githubusercontent.com",
+    "length": 825829968
+  },
+  "GCompris-PT-PT-Windows-x64.exe": {
+    "status": 200,
+    "final_host": "release-assets.githubusercontent.com",
+    "length": 825829968
+  },
+  "SHA256SUMS.txt": {
+    "status": 200,
+    "final_host": "release-assets.githubusercontent.com",
+    "length": 215
+  },
+  "version.json": {
+    "status": 200,
+    "run": "39151266113",
+    "activities": 211
+  },
+  "404": 404
+}

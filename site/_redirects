@@ -1,0 +1,4 @@
+/gcompris.exe {{DOWNLOAD}} 302
+/GCompris-PT-PT-Windows-x64.exe {{DOWNLOAD}} 302
+/version.json /release.json 302
+/SHA256SUMS.txt {{CHECKSUM_URL}} 302

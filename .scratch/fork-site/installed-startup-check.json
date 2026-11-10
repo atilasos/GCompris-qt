@@ -1,0 +1,1908 @@
+{
+  "passed": true,
+  "activity_list_matches_manifest": true,
+  "expected_activities": 211,
+  "list_exit_code": 0,
+  "activities": [
+    {
+      "activity": "adjacent_numbers",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "advanced_colors",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "algebra_by",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "algebra_div",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "algebra_minus",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "algebra_plus",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "algorithm",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "align4",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "align4_2players",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "alphabet-sequence",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "analog_electricity",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "baby_keyboard",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "baby_mouse",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "baby_tangram",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "baby_wordprocessor",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "babymatch",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "babyshapes",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "balancebox",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "ballcatch",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "bargame",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "bargame_2players",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "binary_bulb",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "braille_alphabets",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "braille_fun",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "calcudoku",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "calendar",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "canal_lock",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "categorization",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "checkers",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "checkers_2players",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "chess",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "chess_2players",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "chess_partyend",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "chronos",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "click_on_letter",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "click_on_letter_up",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "clickanddraw",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "clickgame",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "clockgame",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "color_mix",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "color_mix_light",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "colors",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "comparator",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "compass",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "crane",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "details",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "digital_electricity",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "drawing_wheels",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "drawletters",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "dominorio",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "quelhas",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "drawnumbers",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "enumerate",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "erase",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "erase_2clic",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "erase_clic",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "explore_farm_animals",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "explore_monuments",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "explore_world_animals",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "explore_world_music",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "faisca",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "family",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "family_find_relative",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "fifteen",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "find_the_day",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "followline",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "football",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "fractions_create",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "fractions_find",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "frieze",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "geo-country",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "geography",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "gletters",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "gnumch-equality",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "gnumch-factors",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "gnumch-inequality",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "gnumch-multiples",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "gnumch-primes",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "graduated_line_read",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "graduated_line_use",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "grammar_analysis",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "grammar_classes",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "graph-coloring",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "gravity",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "guess24",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "guesscount",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "guessnumber",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "hangman",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "hanoi",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "hanoi_real",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "hexagon",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "imagename",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "instruments",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "keyboard_training",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "land_safe",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "lang",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "learn_additions",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "learn_decimals",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "learn_decimals_additions",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "learn_decimals_subtractions",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "learn_digits",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "learn_quantities",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "learn_subtractions",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "left_right_click",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "leftright",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "letter-in-word",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "lightsoff",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "louis-braille",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "magic-hat-minus",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "magic-hat-plus",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "maze",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "mazeinvisible",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "mazerelative",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "melody",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-case-association",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-case-association-tux",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-enumerate",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-math-add",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-math-add-minus",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-math-add-minus-mult-div",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-math-add-minus-mult-div-tux",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-math-add-minus-tux",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-math-add-tux",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-math-div",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-math-div-tux",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-math-minus",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-math-minus-tux",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-math-mult",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-math-mult-div",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-math-mult-div-tux",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-math-mult-tux",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-sound",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-sound-tux",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-tux",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "memory-wordnumber",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "mining",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "missing-letter",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "money",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "money_back",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "money_back_cents",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "money_cents",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "morse_code",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "mosaic",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "multiple_choice_questions",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "nine_men_morris",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "nine_men_morris_2players",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "note_names",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "number_sequence",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "numbers-odd-even",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "ordering_alphabets",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "ordering_chronology",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "ordering_numbers",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "ordering_sentences",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "oware",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "oware_2players",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "paintings",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "path_decoding",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "path_decoding_relative",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "path_encoding",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "path_encoding_relative",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "peg_solitaire",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "penalty",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "photo_hunter",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "piano_composition",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "planegame",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "play_piano",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "play_rhythm",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "polygons",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "positions",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "programmingMaze",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "railroad",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "readingh",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "readingv",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "redraw",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "redraw_symmetrical",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "renewable_energy",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "reversecount",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "roman_numerals",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "scalesboard",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "scalesboard_weight",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "scalesboard_weight_avoirdupois",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "share",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "simplepaint",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "sixteen",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "sketch",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "smallnumbers",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "smallnumbers2",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "solar_system",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "submarine",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "sudoku",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "superbrain",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "tangram",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "target",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "tens_complement_calculate",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "tens_complement_find",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "tens_complement_swap",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "tens_complement_use",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "tic_tac_toe",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "tic_tac_toe_2players",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "traffic",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "vertical_addition",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "vertical_subtraction",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "vertical_subtraction_compensation",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "watercycle",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "wordsgame",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "gatos_caes",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "atari_go",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "produto",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "y",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    },
+    {
+      "activity": "nex",
+      "passed": true,
+      "early_exit": null,
+      "launch_marker": true,
+      "completed_voices_registered": true,
+      "qml_errors": [],
+      "seconds": 6
+    }
+  ],
+  "scope": "Native offline startup in the same CI Windows user; no level completion or audible playback acceptance"
+}

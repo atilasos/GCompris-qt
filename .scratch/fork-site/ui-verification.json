@@ -1,0 +1,25 @@
+{
+  "hostname": "https://gcompris.infantinho.xyz",
+  "browser": "T3 collaborative preview",
+  "viewports": [
+    [
+      390,
+      844
+    ],
+    [
+      1440,
+      960
+    ]
+  ],
+  "horizontal_overflow": false,
+  "broken_images": [],
+  "game_cards": 8,
+  "dialog_opened": true,
+  "escape_closed": true,
+  "desktop_screenshot": "/home/proteu/.t3/userdata/browser-artifacts/browser-screenshot-gcompris-infantinho-xyz-mve4jxs5-2bfa5cf2.png",
+  "release_run": "39151266113",
+  "activities": 211,
+  "changelog_entries": 5,
+  "mobile_screenshot": "/home/proteu/.t3/userdata/browser-artifacts/browser-screenshot-gcompris-infantinho-xyz-mve6arxd-59b73238.png",
+  "static_download_and_source_confirmed": true
+}
