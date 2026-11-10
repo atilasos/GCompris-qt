@@ -6,6 +6,9 @@ TestCase {
     property bool recovered: false
     function test_speeds_restart_and_timeout() {
         wait(1600);
+        // The runner starts without saved configuration, i.e. without time limit.
+        compare(activity.timeLimit, "off");
+        activity.timeLimit = "on";
         for(var speed = 1; speed <= 10; speed++) {
             activityBackground.stop();
             activity.speedSetting = speed;

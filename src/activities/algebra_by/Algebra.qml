@@ -14,6 +14,8 @@ import "algebra.js" as Activity
 ActivityBase {
     id: activity
     property int speedSetting: 5
+    // "off" (default) or "on". Without a time limit the balloon never falls.
+    property string timeLimit: "off"
 
     onStart: {
         focus = true;
@@ -64,7 +66,7 @@ ActivityBase {
 
         onStart: {
             operand.text = Activity.operandText;
-            Activity.start(items, operand, speedSetting);
+            Activity.start(items, operand, speedSetting, timeLimit === "on");
         }
 
         onStop: Activity.stop()
@@ -95,6 +97,14 @@ ActivityBase {
             onLoadData: {
                 if(activityData && activityData["speedSetting"]) {
                     activity.speedSetting = activityData["speedSetting"];
+                }
+                // Applied after speedSetting. A configuration saved before
+                // this option existed always has speedSetting: keep its timer.
+                if(activityData && (activityData["timeLimit"] === "on" || activityData["timeLimit"] === "off")) {
+                    activity.timeLimit = activityData["timeLimit"];
+                }
+                else {
+                    activity.timeLimit = (activityData && activityData["speedSetting"]) ? "on" : "off";
                 }
             }
 
@@ -163,6 +173,8 @@ ActivityBase {
 
         Balloon {
             id: balloon
+            // The balloon is only the countdown: hide it without a time limit.
+            visible: activity.timeLimit === "on"
             onTimeout: {
                 client.sendToServer(false)
                 bonus.bad("smiley")
