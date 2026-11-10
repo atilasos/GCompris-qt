@@ -1,0 +1,14 @@
+✔ selects a newer installer with matching GitHub asset identity (24.237583ms)
+✔ preserves the static download when the asset digest differs (0.797865ms)
+✔ preserves the static download when the API fails (0.529643ms)
+✔ does not select a package with fewer activities than the pinned build (0.541249ms)
+✔ does not select a newer package from a divergent source branch (0.576691ms)
+✔ does not replace the installer with a build of an older source revision (0.537566ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 72.09164

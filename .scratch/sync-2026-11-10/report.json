@@ -1,0 +1,717 @@
+{
+  "timestamp": "2026-11-10T15:51:04.847639+00:00",
+  "base": "master",
+  "head": "297a96e4bd2085c22b652143df1987e1d81e147c",
+  "origin": "fef59471d15b02ba8918f571731de0fe858a2e27",
+  "upstream": "9cd47df224573829d9986a0bc12d8db99595f432",
+  "upstream_integrated": true,
+  "origin_integrated": true,
+  "branches": [
+    {
+      "name": "fix/crjm-native-ui",
+      "head": "089e48cf8d7981f087a269aca99f1088fca4d3ee",
+      "integrated": true
+    },
+    {
+      "name": "implement/pt-audio-review",
+      "head": "19cc803237b332f2e44ff2c9f225481cc5a63637",
+      "integrated": true
+    },
+    {
+      "name": "implement/pt-balances",
+      "head": "7a084aa6654f07e757802dcf9b3617942d03499a",
+      "integrated": true
+    },
+    {
+      "name": "implement/pt-colors",
+      "head": "2adfa7e52374518373af3288bf4320db48ebf92d",
+      "integrated": true
+    },
+    {
+      "name": "implement/pt-colors-identity",
+      "head": "b56afbc21fe4d2de932061241b02ef7c91180c5e",
+      "integrated": true
+    },
+    {
+      "name": "implement/pt-counting-dice",
+      "head": "bce2d43b0d969cb03c294d10a5f47b95da70b9ed",
+      "integrated": true
+    },
+    {
+      "name": "implement/pt-money",
+      "head": "21a7b69e0667c5451eff3e1d96d9c65660d45277",
+      "integrated": true
+    },
+    {
+      "name": "implement/pt-plane-sequences",
+      "head": "872a4d2c898c6c9d27602c8b1bde877d7b7f8e09",
+      "integrated": true
+    },
+    {
+      "name": "implement/pt-resource-snapshot",
+      "head": "551f66867573fc847c48070af8368425bb64cea3",
+      "integrated": true
+    },
+    {
+      "name": "implement/pt-snapshot-tmp",
+      "head": "db5bbb0605e6171240d0480dcc615b4373ce63b8",
+      "integrated": true
+    },
+    {
+      "name": "implement/pt-tens-complement",
+      "head": "5623e66abd6bbb7f27a5973a3d81e48393e01e99",
+      "integrated": true
+    },
+    {
+      "name": "integration/crjm-games",
+      "head": "c23436c5ad7b01978e902a4ad7416b5277cc6bf1",
+      "integrated": true
+    },
+    {
+      "name": "integration/pt-pt",
+      "head": "cf1e3b1a753b1594c02b60b85af93b7aadeda492",
+      "integrated": true
+    },
+    {
+      "name": "master",
+      "head": "297a96e4bd2085c22b652143df1987e1d81e147c",
+      "integrated": true
+    },
+    {
+      "name": "work/crjm-02",
+      "head": "9c3ca8425b6ead9e034dbb9c90d6936213c5c49e",
+      "integrated": true
+    },
+    {
+      "name": "work/crjm-03",
+      "head": "f18eba800bda0fbc06d0dbcfd32af2396299f06f",
+      "integrated": true
+    },
+    {
+      "name": "work/crjm-04",
+      "head": "b21bfeff40021151faf630e9ccab20905cafb57d",
+      "integrated": true
+    },
+    {
+      "name": "work/crjm-05",
+      "head": "4fd48b0bda502d27c8be5162ddc679db06aafd69",
+      "integrated": true
+    },
+    {
+      "name": "work/crjm-06",
+      "head": "2458b1545f2691322e0876299bc288315447f4d4",
+      "integrated": true
+    },
+    {
+      "name": "work/crjm-07",
+      "head": "e321a34a4920b73aab7a98f043d7e8207da2c722",
+      "integrated": true
+    },
+    {
+      "name": "work/crjm-08",
+      "head": "5beaa8ff93f7f5590c28954239665f76a9886549",
+      "integrated": true
+    },
+    {
+      "name": "work/crjm-09",
+      "head": "677126dbc0a013c52daee36862c74d211ee84f6f",
+      "integrated": true
+    },
+    {
+      "name": "work/crjm-10",
+      "head": "4ea51f66a715648d82ebf10b4c7953dfc449d922",
+      "integrated": true
+    },
+    {
+      "name": "work/crjm-11",
+      "head": "40700666e64382e9f9fc9d21b3b682b4c3cfbbf7",
+      "integrated": true
+    },
+    {
+      "name": "work/crjm-12",
+      "head": "5a3fe8cc596f6adac52927587e8dc7a774982087",
+      "integrated": true
+    },
+    {
+      "name": "work/crjm-13",
+      "head": "0072a9ad26e82bd67ca0e124237421f22258fb10",
+      "integrated": true
+    },
+    {
+      "name": "work/crjm-14",
+      "head": "f767c03884e70d50d46325d742c97d5058822dea",
+      "integrated": true
+    },
+    {
+      "name": "work/crjm-15",
+      "head": "45a9a692be938a7c12e3a48477a71170c992c157",
+      "integrated": true
+    },
+    {
+      "name": "work/crjm-16",
+      "head": "cb9444edd90ee0341ece0a895bdcb97bc509ca87",
+      "integrated": true
+    },
+    {
+      "name": "work/crjm-17",
+      "head": "e34a0053b1c8cc2b3a511c70d63f09e13dc9c7e7",
+      "integrated": true
+    },
+    {
+      "name": "work/crjm-18",
+      "head": "27f96b96f1367b762d6fc6ba3a8ace1d4c3405bf",
+      "integrated": true
+    },
+    {
+      "name": "work/crjm-review-fixes",
+      "head": "2179526a5fa860b4eef34517b8a48993237ec2fa",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-algorithm",
+      "head": "5607708c336b59061767b9b8088ee9535287e53d",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-alignment-games",
+      "head": "30876d04c711f10783c843cd673242a5512026b7",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-arithmetic-challenges",
+      "head": "1c460a75871c821e8fb7d5a4f75041496063aff2",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-audio",
+      "head": "777158b4e2491dac649370d913cca2401abd0abb",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-audio-approval",
+      "head": "5dfd78a0d5db70b2f552f8ef4bdff26aa0750a40",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-audio-complete",
+      "head": "3222346dddf094986374767be0a790c399f65de4",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-baby-keyboard",
+      "head": "bba4e165d81300e382d33608d2a52dd67e68304d",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-ball-coordination",
+      "head": "14119351e44f09b195e105fac9b8136a24343844",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-calendars",
+      "head": "3930c89490c0d323260d20c1048471d8737677e4",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-clock",
+      "head": "84e25fc68ff65c4a41bd50ac3e222234ffb7ab4b",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-comparisons-audit",
+      "head": "a84b22dc92775aa12428b04fa1fd7fbe4bdf9cff",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-creation-review",
+      "head": "99c1cebe479ca7824d002036286c292bf6c17a84",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-data",
+      "head": "055cbfd4c6e105bca8088d23bf5ed5b66e1450d1",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-decimal-runner",
+      "head": "a1bbc2c80cb5fe5cc4d3f4eca67efc6a7128de37",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-drawing-creation",
+      "head": "83431932c97b9e84c794434509a250129216d9dd",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-duplicate-keys",
+      "head": "903a2e1334010ffbf64fb77385a0e314fe846c09",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-firewall-path",
+      "head": "9d41685a2bb468cee7b5e2c6bbce49309d86c2c5",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-first-wordprocessor",
+      "head": "f858f92afc681c1299f0063e9e21f6d6862b88db",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-fractions",
+      "head": "57fd1c88b6cb9e60f24a6c765b72ce09a5be3664",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-functional-algebra",
+      "head": "44707865443ea7d5c3ca49b9ebb2bb31230f3edf",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-functional-decimals",
+      "head": "895fa3b3adb7c3f59f0367eb15fdc7831aa3eb71",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-functional-drawing",
+      "head": "8530928bad0539cc17406c2ed1d0e7ce9c25d526",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-functional-grammar",
+      "head": "8a0c2b4a5ce32bbe603f0c2af058d255ec103970",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-functional-guessnumber",
+      "head": "19c8c0826a120383648362fead8dec732bdbc3a9",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-functional-letters",
+      "head": "53ac1146d9423702bee62940f868ea41434af81c",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-functional-memory",
+      "head": "563803035edd3217357b88713f3fcdd9ebb3e3c1",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-functional-memory-math",
+      "head": "600304b0f216d1a86918204e6b53ba0c713d8bc6",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-functional-memory-rest",
+      "head": "06cec9e3d5c54ad497dc579ddb86531c22d59f1e",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-functional-mouse-fish",
+      "head": "ffcea7f5efb70a008c7840834d1e294d3a3e644b",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-functional-reading",
+      "head": "0704aebd8fd019406711d2384eeeb35a474b7de1",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-functional-sequences",
+      "head": "f4a1c75e395361a2af07fcd07daa9dff47edc6f7",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-functional-words",
+      "head": "74a89f0fecf66832827e6f4661e15ac0a1accce1",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-graduated-lines",
+      "head": "2c911f0a934a174d9fc0de3fd77b86f5aa22b579",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-grammar-icons",
+      "head": "0cd4a1d3dce0375bb0641494eac1c0e47deceb5f",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-hangman-portable",
+      "head": "1fff30dcef123547a2908b58a08aefad40adb030",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-hanoi",
+      "head": "7ee53fa007ff81275cd20ee9e25cd6743ef5c46c",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-hanoi-history",
+      "head": "5981f09d0ca0331cf5b55f2a753439a5fcf6e219",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-hanoi-negative",
+      "head": "2f650ff18dcb0ac91a15b037ee9f093bb8b5c568",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-help-categories",
+      "head": "2f079c2843c36bb970e82ebccebc412a308e7f1e",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-image-association",
+      "head": "f9e2764bb7b78d10bf8e489b705e34d4fa6b9f95",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-image-reveal",
+      "head": "f6c32dfe14dd1c15afdb4327b7f506f0e0016375",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-interface",
+      "head": "c0940b4935417f0c4256b46739a71deff193460f",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-learn-operations",
+      "head": "ebc4c96a87d08189804087199298d0717c4946bd",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-legacy-pair-review",
+      "head": "8eec810747ac917e7e8194b9d5f677595100c4cf",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-legacy-voices-approved",
+      "head": "daf3ae13f2c23597945a37c99407a3b914305e1a",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-legacy-voices-review",
+      "head": "a9365de35641a6bf3a21385b35233d134c879b7d",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-letter-test-review",
+      "head": "dadb99f457ef7ac597d1e7420ddab07ac63c2552",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-lights-off",
+      "head": "f2cfc6fd5505488cfe8b6410a912443ec280a11d",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-locale-test",
+      "head": "a35b4f0f91879f32f86d4398315fe291ef3f909d",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-magic-hat",
+      "head": "33467714fdfa10b7aa04243a9c5227b4d7612d6d",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-mazes",
+      "head": "7b455d649a2c2a63bbbffc3b3029e7024f59fc41",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-native-runner-ids",
+      "head": "1da98b7b5b5dfa697983c70fbb9a7e97da982e94",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-number-comparisons",
+      "head": "c29601eba08028b5ca941c893d0a70d7feea881f",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-number-munchers",
+      "head": "d4e7acc51ad75332fbb5da83041a298f7af5557d",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-numpad-consumers",
+      "head": "ce2dc21752aeafdc7ad4aa9d799eb3a069538530",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-numpad-lock",
+      "head": "92a1ac25f6343fae07cbdf2e5225eca3f5bc4bed",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-ordering",
+      "head": "2de37aa810e1d38f0cc2fdc686537d8e2c09abdd",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-orientation-mouse",
+      "head": "8768646e0c3906d31e22226185eb4bc8ef9472fe",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-paths",
+      "head": "bf21a77140d22e5745ac04db077dde72738850e2",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-pattern-controls-audit",
+      "head": "d51faee7a1c8b53b7410f2b01db8eea0ad1c12f6",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-pattern-grid",
+      "head": "43d6f3e0e2382bd974f5a49d65fce0829b340094",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-pattern-scene-pixels",
+      "head": "fc74903a99aa58d77d59805e6352cb1be9995200",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-patterns",
+      "head": "4f50623c48b48c36197c510435b9a89d7ef1e825",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-penalty-shutdown",
+      "head": "9fdf638fda0b5475b4c4edf0de434f20a8865221",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-polygon-cases",
+      "head": "6aa845bcf886c3e9bd2b60441ff6b5d37722b37c",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-polygon-geometry",
+      "head": "23c7f69696e90e20b5f13c164953b6d515e03404",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-polygon-observation",
+      "head": "fdf44a66f5bf87e663995ed81aaea596b6fc2427",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-pt",
+      "head": "1d49ed1b397caca8243bd2b6bbc427a112219bda",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-public-level-contracts",
+      "head": "ae72b7802a87ce815f814ae730f140082b2c2788",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-reading-crash",
+      "head": "dfc26b730790f2b0488864d6b9941c2c25109541",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-resource-updates",
+      "head": "73e315d2e31faf3d8a074eb82241a1828cf3bef3",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-review-status-anchors",
+      "head": "8b9a7a0d6cb055339f56092f19d950b823e0810c",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-roman-audit",
+      "head": "5425ec71e4718631f536a023ad0940c868b4d378",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-roman-numerals",
+      "head": "245a477f0261beff02e16258780e3c851840a7e6",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-runtime",
+      "head": "0714dbf295e8ad9753edfad41956d098933da6b5",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-scales-output",
+      "head": "e8f9f87440497e710736143c5da55af7a46f2d40",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-sharing",
+      "head": "5bd054d89f3b61ee155adff1ec1566b99957f191",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-sliding-puzzles",
+      "head": "72716bea6960b5899f2a6f4233e2910e4e6065d4",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-solitaire-levels",
+      "head": "12011a2641d60fb690becb9146c70d8747d20bb6",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-source-preparation",
+      "head": "03d89313716d3df09ce7d7b46f4b4d20e74c9316",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-vertical-operations",
+      "head": "399f34682952cc9b02d621957b8fd08335ea03f2",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-windows",
+      "head": "310c915515b6e92cc8d511fb0218cba78f3f4f17",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-windows-rcc-policy",
+      "head": "397ca3e74545c44c8efa3c5988b468020ccbfc3a",
+      "integrated": true
+    },
+    {
+      "name": "work/pt-words-letters",
+      "head": "b698b1b004dc744eac914bea9887ae1ff9add77e",
+      "integrated": true
+    }
+  ],
+  "worktrees": [
+    {
+      "path": "/home/proteu/Projetos/GCompris-qt",
+      "head": "297a96e4bd2085c22b652143df1987e1d81e147c",
+      "branch": "refs/heads/master",
+      "integrated": true,
+      "status": [
+        " M site/assets/screenshot-sources.json",
+        " M site/content.json",
+        "?? .scratch/sync-2026-11-10/",
+        "?? site/assets/screenshots/hanoi-keyboard.webp"
+      ]
+    },
+    {
+      "path": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-creation-review",
+      "head": "99c1cebe479ca7824d002036286c292bf6c17a84",
+      "branch": "refs/heads/work/pt-creation-review",
+      "integrated": true,
+      "status": []
+    },
+    {
+      "path": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-drawing-creation",
+      "head": "83431932c97b9e84c794434509a250129216d9dd",
+      "branch": "refs/heads/work/pt-drawing-creation",
+      "integrated": true,
+      "status": [
+        "?? tools/__pycache__/"
+      ]
+    },
+    {
+      "path": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-legacy-voices-approved",
+      "head": "daf3ae13f2c23597945a37c99407a3b914305e1a",
+      "branch": "refs/heads/work/pt-legacy-voices-approved",
+      "integrated": true,
+      "status": [
+        "?? tests/__pycache__/",
+        "?? tools/pt-pt-audio/__pycache__/",
+        "?? tools/windows/__pycache__/"
+      ]
+    },
+    {
+      "path": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-legacy-voices-review",
+      "head": "a9365de35641a6bf3a21385b35233d134c879b7d",
+      "branch": "refs/heads/work/pt-legacy-voices-review",
+      "integrated": true,
+      "status": []
+    },
+    {
+      "path": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-controls-audit",
+      "head": "d51faee7a1c8b53b7410f2b01db8eea0ad1c12f6",
+      "branch": "refs/heads/work/pt-pattern-controls-audit",
+      "integrated": true,
+      "status": []
+    },
+    {
+      "path": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-grid",
+      "head": "43d6f3e0e2382bd974f5a49d65fce0829b340094",
+      "branch": "refs/heads/work/pt-pattern-grid",
+      "integrated": true,
+      "status": []
+    },
+    {
+      "path": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-pattern-scene-pixels",
+      "head": "fc74903a99aa58d77d59805e6352cb1be9995200",
+      "branch": "refs/heads/work/pt-pattern-scene-pixels",
+      "integrated": true,
+      "status": []
+    },
+    {
+      "path": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-patterns",
+      "head": "4f50623c48b48c36197c510435b9a89d7ef1e825",
+      "branch": "refs/heads/work/pt-patterns",
+      "integrated": true,
+      "status": []
+    },
+    {
+      "path": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-penalty-shutdown",
+      "head": "9fdf638fda0b5475b4c4edf0de434f20a8865221",
+      "branch": "refs/heads/work/pt-penalty-shutdown",
+      "integrated": true,
+      "status": []
+    },
+    {
+      "path": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-polygon-cases",
+      "head": "6aa845bcf886c3e9bd2b60441ff6b5d37722b37c",
+      "branch": "refs/heads/work/pt-polygon-cases",
+      "integrated": true,
+      "status": []
+    },
+    {
+      "path": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-polygon-geometry",
+      "head": "23c7f69696e90e20b5f13c164953b6d515e03404",
+      "branch": "refs/heads/work/pt-polygon-geometry",
+      "integrated": true,
+      "status": []
+    },
+    {
+      "path": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-polygon-observation",
+      "head": "fdf44a66f5bf87e663995ed81aaea596b6fc2427",
+      "branch": "refs/heads/work/pt-polygon-observation",
+      "integrated": true,
+      "status": []
+    },
+    {
+      "path": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-reading-crash",
+      "head": "dfc26b730790f2b0488864d6b9941c2c25109541",
+      "branch": "refs/heads/work/pt-reading-crash",
+      "integrated": true,
+      "status": [
+        " M tools/run-native-qml-case.py",
+        "?? .scratch/pt-pt/issues/23-reading-crash.md",
+        "?? .scratch/pt-pt/reading-crash/",
+        "?? tests/reading_crash/",
+        "?? tools/__pycache__/",
+        "?? tools/native_qml_resources.py",
+        "?? tools/stress-reading-crash.py"
+      ]
+    },
+    {
+      "path": "/home/proteu/Projetos/GCompris-qt-worktrees/pt-windows-rcc-policy",
+      "head": "397ca3e74545c44c8efa3c5988b468020ccbfc3a",
+      "branch": "refs/heads/work/pt-windows-rcc-policy",
+      "integrated": true,
+      "status": []
+    }
+  ]
+}

@@ -122,5 +122,16 @@
       800,
       800
     ]
+  },
+  {
+    "file": "hanoi-keyboard.webp",
+    "title": "Hanói com teclado",
+    "description": "Seleção de um disco e da torre de destino com os novos controlos de teclado.",
+    "source": ".scratch/sync-2026-11-10/hanoi-keyboard.png",
+    "source_sha256": "73f609a6dc56a24cd9125cdb4edf62938d67f8a19f7e6c51fc0fbfd5783f2d08",
+    "dimensions": [
+      800,
+      800
+    ]
   }
 ]

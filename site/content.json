@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-11-10",
   "installer": {
     "date": "2026-10-18",
     "run": "39151266113",
@@ -10,6 +10,19 @@
     "url": "https://github.com/atilasos/GCompris-qt/releases/download/windows-39151266113/GCompris-PT-PT-Windows-x64-candidate.exe"
   },
   "changes": [
+    {
+      "date": "2026-11-10",
+      "label": "Atualização do projeto original",
+      "status": "Integrado no código · aguarda novo instalador Windows",
+      "title": "Hanói com teclado e correções na Grua.",
+      "body": "As duas variantes de Hanói recebem controlos por setas, espaço e Enter. A Grua verifica as palavras traduzidas antes de criar os desafios. Inclui também as traduções atualizadas do projeto original.",
+      "details": [
+        "Integrados os 21 commits do projeto original até 9cd47df224573829d9986a0bc12d8db99595f432.",
+        "Verificação local no Qt nativo em Linux: três níveis completos de Hanói clássico, teclado no Hanói simplificado e navegação na Grua.",
+        "Estas alterações ainda não fazem parte do instalador Windows fixado nesta página."
+      ],
+      "commit": "297a96e4bd2085c22b652143df1987e1d81e147c"
+    },
     {
       "date": "2026-10-18",
       "label": "Windows · novo pacote",
@@ -124,6 +137,11 @@
       "title": "Nex",
       "description": "Tabuleiro centrado, modos de ação e aprendizagem guiada.",
       "source": ".scratch/crjm-ui/evidence/ui/NEX-1280-font7.png"
+    },
+    {
+      "file": "hanoi-keyboard.webp",
+      "title": "Hanói com teclado",
+      "description": "Seleção de um disco e da torre de destino com os novos controlos de teclado."
     }
   ]
 }

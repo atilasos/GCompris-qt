@@ -1,0 +1,51 @@
+{
+  "source_integration": "297a96e4bd2085c22b652143df1987e1d81e147c",
+  "upstream": "9cd47df224573829d9986a0bc12d8db99595f432",
+  "unmerged_branches_before": [
+    "integration/crjm-games",
+    "work/pt-alignment-games",
+    "work/pt-pattern-grid",
+    "work/pt-public-level-contracts"
+  ],
+  "branch_audit_command": "python3 .scratch/sync-2026-11-10/audit.py",
+  "validation": {
+    "public_levels": {
+      "tests": 7,
+      "passed": true
+    },
+    "alignment_resources": {
+      "tests": 10,
+      "passed": true
+    },
+    "windows_tooling": {
+      "tests": 15,
+      "skipped": 2,
+      "passed": true
+    },
+    "site_latest": {
+      "passed": true
+    },
+    "native_crane_navigation": {
+      "passed": true
+    },
+    "native_hanoi_classic": {
+      "passed": true,
+      "levels": 3,
+      "solution_moves": 53,
+      "rejected_moves": 3
+    },
+    "native_hanoi_keyboard": {
+      "passed": true,
+      "variants": [
+        "hanoi",
+        "hanoi_real"
+      ]
+    }
+  },
+  "limits": [
+    "Native tests use a prebuilt Linux executable with private RCC bundles rebuilt from the current activity sources and the current Portuguese catalogue. No C++ source changed in the upstream merge.",
+    "No new Windows installer has been verified. The existing pinned installer and published website were preserved.",
+    "Uncommitted work in pt-reading-crash was not merged or changed.",
+    "An initial temporary keyboard fixture focused the child background and caused duplicate forwarded events. The final fixture focuses the activity, matching its onStart behavior."
+  ]
+}
