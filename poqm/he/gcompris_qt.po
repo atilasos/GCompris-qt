@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris\n"
 "POT-Creation-Date: 2019-09-04 13:03+0000\n"
-"PO-Revision-Date: 2026-09-29 08:40+0300\n"
+"PO-Revision-Date: 2026-11-03 20:33+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Lokalize 26.08.0\n"
+"X-Generator: Lokalize 26.08.1\n"
 "X-Qt-Contexts: true\n"
 "X-Poedit-Bookmarks: -1,2919,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
@@ -225,6 +225,8 @@ msgstr ""
 #: activities/gravity/ActivityInfo.qml:28
 #: activities/guess24/ActivityInfo.qml:24
 #: activities/guessnumber/ActivityInfo.qml:24
+#: activities/hanoi/ActivityInfo.qml:25
+#: activities/hanoi_real/ActivityInfo.qml:24
 #: activities/imagename/ActivityInfo.qml:28
 #: activities/instruments/ActivityInfo.qml:24
 #: activities/land_safe/ActivityInfo.qml:28 activities/lang/ActivityInfo.qml:33
@@ -2364,7 +2366,7 @@ msgstr ""
 msgctxt "ActivityInfo|"
 msgid ""
 "Arrows: move the selection cursor through the panel items and board spots"
-msgstr ""
+msgstr "חיצים: להעביר את סמן הבחירה בין פריטי הסרגל והנקודות בלוח"
 
 #: activities/babymatch/ActivityInfo.qml:30
 #: activities/babyshapes/ActivityInfo.qml:30
@@ -2379,6 +2381,8 @@ msgid ""
 "Space: select an item in the list, and place it on a spot. If there is "
 "nothing selected in the list, remove item from selected spot"
 msgstr ""
+"רווח: בחירת פריט ברשימה ולהציב אותו במקום מסוים. אם לא נבחר שום דבר ברשימה, "
+"להסיר את הפריט מהמקום הנבחר"
 
 #: activities/babymatch/ActivityInfo.qml:31
 #: activities/babyshapes/ActivityInfo.qml:31
@@ -2388,14 +2392,11 @@ msgstr ""
 #: activities/geography/ActivityInfo.qml:31
 #: activities/imagename/ActivityInfo.qml:31
 #: activities/paintings/ActivityInfo.qml:33
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Tab: navigate between the bottom and the top areas"
 msgctxt "ActivityInfo|"
 msgid ""
 "Tab: toggle navigation between the panel and the board without any other "
 "action"
-msgstr "‏Tab: לנווט בין האזור התחתון והעליון"
+msgstr "‏Tab: להחליף את הניווט בין הסרגל והלוח מבלי לנקוט בפעולה נוספת"
 
 #: activities/babymatch/ActivityInfo.qml:32
 #: activities/babyshapes/ActivityInfo.qml:32
@@ -2405,12 +2406,9 @@ msgstr "‏Tab: לנווט בין האזור התחתון והעליון"
 #: activities/geography/ActivityInfo.qml:32
 #: activities/imagename/ActivityInfo.qml:32
 #: activities/paintings/ActivityInfo.qml:34
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Delete or Backspace: remove the selected item from the answer area"
 msgctxt "ActivityInfo|"
 msgid "Delete or Backspace: remove item from selected spot"
-msgstr "‏Delete או Backspace: למחוק את הפריט הנבחר מאזור התשובה"
+msgstr "‏Delete או Backspace: הסרת פריט מהמקום הנבחר"
 
 #: activities/babymatch/resource/board/board1_0.qml:14
 msgctxt "board1_0|"
@@ -6045,7 +6043,7 @@ msgid "Space or Enter or Tab: select the next item"
 msgstr "רווח או Enter או Tab: לבחור את הפריט הבא"
 
 #. Translators: NOTE: Word list for crane activity. Translate this into a list of 15–25 simple 3-letter words separated by semi-colons. The words can only contain lowercase ASCII letters (a–z). Example: cat;dog;win;red;yes
-#: activities/crane/crane.js:40
+#: activities/crane/crane.js:44
 msgctxt "crane|"
 msgid ""
 "cat;dog;win;red;yes;big;box;air;arm;car;bus;fun;day;eat;hat;leg;ice;old;egg"
@@ -6053,7 +6051,7 @@ msgstr ""
 "cat;dog;win;red;yes;big;box;air;arm;car;bus;fun;day;eat;hat;leg;ice;old;egg"
 
 #. Translators: NOTE: Word list for crane activity. Translate this into a list of 10–20 simple 4-letter words separated by semi-colons. The words can only contain lowercase ASCII letters (a–z). Example: blue;best;good;area
-#: activities/crane/crane.js:47
+#: activities/crane/crane.js:51
 msgctxt "crane|"
 msgid ""
 "blue;best;good;area;bell;coat;easy;farm;food;else;girl;give;hero;help;hour;"
@@ -6063,7 +6061,7 @@ msgstr ""
 "sand;song"
 
 #. Translators: NOTE: Word list for crane activity. Translate this into a list of 10–20 simple 5-letter words separated by semi-colons. The words can only contain lowercase ASCII letters (a–z). Example: happy;child;white;apple
-#: activities/crane/crane.js:54
+#: activities/crane/crane.js:58
 msgctxt "crane|"
 msgid ""
 "happy;child;white;apple;brown;truth;fresh;green;horse;hotel;house;paper;"
@@ -15963,7 +15961,23 @@ msgstr ""
 "יש לגרור ולהפיל טבעת עליונה אחת בכל פעם, ממגדל אחד לשני, כדי לשכפל את את "
 "המגדל מימין לעמוד באזור הריק."
 
-#: activities/hanoi/ActivityInfo.qml:25
+#: activities/hanoi/ActivityInfo.qml:26
+#: activities/hanoi_real/ActivityInfo.qml:25
+msgctxt "ActivityInfo|"
+msgid "Arrows: move the selection cursor through the pegs"
+msgstr "חיצים: להעביר את סמן הבחירה בין הנעצים"
+
+#: activities/hanoi/ActivityInfo.qml:27
+#: activities/hanoi_real/ActivityInfo.qml:26
+msgctxt "ActivityInfo|"
+msgid ""
+"Space or Enter: select/deselect the top disc on the selected peg, or move "
+"the selected disc to the selected peg"
+msgstr ""
+"רווח או Enter: לבחור/לבטל את הבחירה בדיסק העליון בנעץ הנבחר, או להעביר את "
+"הדיסק הנבחר לנעץ הנבחר"
+
+#: activities/hanoi/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "Concept taken from EPI games."
 msgstr "הרעיון נלקח ממשחקי EPI."
@@ -15995,7 +16009,7 @@ msgstr ""
 "עוד מתקיימים שני כללים: אפשר להעביר רק טבעת אחת בכל פעם, ואי אפשר להציב טבעת "
 "על טבעת שקטנה ממנה."
 
-#: activities/hanoi_real/ActivityInfo.qml:24
+#: activities/hanoi_real/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid ""
 "The puzzle was invented by the French mathematician Edouard Lucas in 1883. "
@@ -16014,12 +16028,12 @@ msgstr ""
 "האגדה הזו או הושפע ממנה. (מקור ויקיפדיה : https://he.wikipedia.org/"
 "wiki/מגדלי_האנוי)"
 
-#: activities/hanoi_real/HanoiReal.qml:82
+#: activities/hanoi_real/HanoiReal.qml:117
 msgctxt "HanoiReal|"
 msgid "Move the entire stack to the right peg, one disc at a time."
 msgstr "להזיז את כל הערמה אל המוט הימני, טבעת אחת בכל פעם."
 
-#: activities/hanoi_real/HanoiReal.qml:83
+#: activities/hanoi_real/HanoiReal.qml:118
 msgctxt "HanoiReal|"
 msgid ""
 "Build the same tower in the empty area as the one you see on the right-hand "
@@ -22671,44 +22685,41 @@ msgid ""
 "restart the shape by clicking on the reload button. When the shape is "
 "correct, press the OK button to validate your answer."
 msgstr ""
+"לחיצה על הרשת תציב נקודות לפי קצוות קווי המצולע. כל עוד הצורה לא סגורה, "
+"הנקודה האחרונה תהיה בצבע שונה כדי לציין שהיא תתחבר לנקודה הבאה שמתווספת. "
+"לאחר הצבת 3 נקודות לפחות, אפשר לסגור את הצורה על ידי לחיצה על הנקודה הראשונה "
+"או האחרונה. כשהצורה סגורה, אי אפשר להוסיף נקודות חדשות. אפשר להזיז נקודה "
+"בגרירה או למחוק אותה בלחיצה כפולה. אפשר להתחיל את הצורה מחדש על ידי לחיצה על "
+"כפתור הריענון. כשהצורה נכונה, יש ללחוץ על כפתור OK כדי לתקף את התשובה שלך."
 
 #: activities/polygons/ActivityInfo.qml:30
 msgctxt "ActivityInfo|"
 msgid ""
 "Arrows: move the keyboard cursor in the grid, and if a point is selected "
 "move it"
-msgstr ""
+msgstr "חיצים: העברת סמן המקלדת ברשת ואם נבחרה נקודה להזיז אותה"
 
 #: activities/polygons/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
 msgid ""
 "Enter: create a point at the cursor position, or validate your answer when "
 "the shape is closed"
-msgstr ""
+msgstr "Enter: ליצור נקודה במקום של הסמן או לאמת את התשובה שלך כשהצורה סגורה"
 
 #: activities/polygons/ActivityInfo.qml:32
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Space: select or deselect the highlighted answer"
 msgctxt "ActivityInfo|"
 msgid "Space: select or deselect the point at the cursor position"
-msgstr "רווח: לבחור או לבטל בחירה של תשובה מודגשת"
+msgstr "רווח: לבחור או לבטל בחירה של הנקודה במקום של הסמן"
 
 #: activities/polygons/ActivityInfo.qml:33
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Up arrow: select next item"
 msgctxt "ActivityInfo|"
 msgid "Tab: select next point"
-msgstr "חץ למעלה: לבחור את הפריט הבא"
+msgstr "Tab: בחירת הנקודה הבאה"
 
 #: activities/polygons/ActivityInfo.qml:34
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Ctrl + D: delete selected text"
 msgctxt "ActivityInfo|"
 msgid "Delete: delete selected point"
-msgstr "Ctrl+ג: למחוק את הכתוב שנבחר"
+msgstr "Delete: מחיקת הנקודה הנבחרת"
 
 #: activities/polygons/TutorialDataset.qml:20
 msgctxt "TutorialDataset|"

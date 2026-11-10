@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris_qt\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-10-13 08:40-0300\n"
+"PO-Revision-Date: 2026-10-31 14:08-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -226,6 +226,8 @@ msgstr ""
 #: activities/gravity/ActivityInfo.qml:28
 #: activities/guess24/ActivityInfo.qml:24
 #: activities/guessnumber/ActivityInfo.qml:24
+#: activities/hanoi/ActivityInfo.qml:25
+#: activities/hanoi_real/ActivityInfo.qml:24
 #: activities/imagename/ActivityInfo.qml:28
 #: activities/instruments/ActivityInfo.qml:24
 #: activities/land_safe/ActivityInfo.qml:28 activities/lang/ActivityInfo.qml:33
@@ -2472,6 +2474,8 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Arrows: move the selection cursor through the panel items and board spots"
 msgstr ""
+"Setas: movem o cursor de seleção pelos itens do painel e pelos espaços do "
+"tabuleiro"
 
 #: activities/babymatch/ActivityInfo.qml:30
 #: activities/babyshapes/ActivityInfo.qml:30
@@ -2486,6 +2490,8 @@ msgid ""
 "Space: select an item in the list, and place it on a spot. If there is "
 "nothing selected in the list, remove item from selected spot"
 msgstr ""
+"Espaço: seleciona um item na lista e coloca-o em um local. Se não houver "
+"nada selecionado na lista, remove o item do local selecionado"
 
 #: activities/babymatch/ActivityInfo.qml:31
 #: activities/babyshapes/ActivityInfo.qml:31
@@ -2495,14 +2501,12 @@ msgstr ""
 #: activities/geography/ActivityInfo.qml:31
 #: activities/imagename/ActivityInfo.qml:31
 #: activities/paintings/ActivityInfo.qml:33
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Tab: navigate between the bottom and the top areas"
 msgctxt "ActivityInfo|"
 msgid ""
 "Tab: toggle navigation between the panel and the board without any other "
 "action"
-msgstr "Tab: navegar entre as áreas inferior e superior"
+msgstr ""
+"Tab: alterna a navegação entre o painel e o quadro sem nenhuma outra ação"
 
 #: activities/babymatch/ActivityInfo.qml:32
 #: activities/babyshapes/ActivityInfo.qml:32
@@ -2512,12 +2516,9 @@ msgstr "Tab: navegar entre as áreas inferior e superior"
 #: activities/geography/ActivityInfo.qml:32
 #: activities/imagename/ActivityInfo.qml:32
 #: activities/paintings/ActivityInfo.qml:34
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Delete or Backspace: remove the selected item from the answer area"
 msgctxt "ActivityInfo|"
 msgid "Delete or Backspace: remove item from selected spot"
-msgstr "Delete ou Backspace: remover o item selecionado da área de resposta"
+msgstr "Delete ou Backspace: remove o item da posição selecionada"
 
 #: activities/babymatch/resource/board/board1_0.qml:14
 msgctxt "board1_0|"
@@ -6333,7 +6334,7 @@ msgid "Space or Enter or Tab: select the next item"
 msgstr "Espaço ou Enter: selecionar o próximo item"
 
 #. Translators: NOTE: Word list for crane activity. Translate this into a list of 15–25 simple 3-letter words separated by semi-colons. The words can only contain lowercase ASCII letters (a–z). Example: cat;dog;win;red;yes
-#: activities/crane/crane.js:40
+#: activities/crane/crane.js:44
 msgctxt "crane|"
 msgid ""
 "cat;dog;win;red;yes;big;box;air;arm;car;bus;fun;day;eat;hat;leg;ice;old;egg"
@@ -6342,7 +6343,7 @@ msgstr ""
 "pai;pia;rei;sal;sol"
 
 #. Translators: NOTE: Word list for crane activity. Translate this into a list of 10–20 simple 4-letter words separated by semi-colons. The words can only contain lowercase ASCII letters (a–z). Example: blue;best;good;area
-#: activities/crane/crane.js:47
+#: activities/crane/crane.js:51
 msgctxt "crane|"
 msgid ""
 "blue;best;good;area;bell;coat;easy;farm;food;else;girl;give;hero;help;hour;"
@@ -6352,7 +6353,7 @@ msgstr ""
 "jogo;lata;mala;moto;vaca;veia;vela;tatu;vela;vida;voto"
 
 #. Translators: NOTE: Word list for crane activity. Translate this into a list of 10–20 simple 5-letter words separated by semi-colons. The words can only contain lowercase ASCII letters (a–z). Example: happy;child;white;apple
-#: activities/crane/crane.js:54
+#: activities/crane/crane.js:58
 msgctxt "crane|"
 msgid ""
 "happy;child;white;apple;brown;truth;fresh;green;horse;hotel;house;paper;"
@@ -16576,7 +16577,23 @@ msgstr ""
 "Arraste e solte um disco superior de cada vez, de uma torre para a outra, "
 "para reproduzir a torre do lado direito no pino vazio."
 
-#: activities/hanoi/ActivityInfo.qml:25
+#: activities/hanoi/ActivityInfo.qml:26
+#: activities/hanoi_real/ActivityInfo.qml:25
+msgctxt "ActivityInfo|"
+msgid "Arrows: move the selection cursor through the pegs"
+msgstr "Setas: movem o cursor de seleção pelos pinos"
+
+#: activities/hanoi/ActivityInfo.qml:27
+#: activities/hanoi_real/ActivityInfo.qml:26
+msgctxt "ActivityInfo|"
+msgid ""
+"Space or Enter: select/deselect the top disc on the selected peg, or move "
+"the selected disc to the selected peg"
+msgstr ""
+"Espaço ou Enter: selecionar/desselecionar o disco do topo no pino "
+"selecionado, ou mover o disco selecionado para o pino selecionado"
+
+#: activities/hanoi/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "Concept taken from EPI games."
 msgstr "Conceito inspirado em jogos da EPI."
@@ -16609,7 +16626,7 @@ msgstr ""
 "disco pode ser movido de cada vez e um disco nunca pode ser colocado em um "
 "disco menor."
 
-#: activities/hanoi_real/ActivityInfo.qml:24
+#: activities/hanoi_real/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid ""
 "The puzzle was invented by the French mathematician Edouard Lucas in 1883. "
@@ -16630,12 +16647,12 @@ msgstr ""
 "Lucas inventou essa lenda ou foi inspirado por ela. (Fonte: Wikipédia "
 "https://en.wikipedia.org/wiki/Tower_of_hanoi)."
 
-#: activities/hanoi_real/HanoiReal.qml:82
+#: activities/hanoi_real/HanoiReal.qml:117
 msgctxt "HanoiReal|"
 msgid "Move the entire stack to the right peg, one disc at a time."
 msgstr "Mova a pilha inteira para o pino da direita, um disco de cada vez."
 
-#: activities/hanoi_real/HanoiReal.qml:83
+#: activities/hanoi_real/HanoiReal.qml:118
 msgctxt "HanoiReal|"
 msgid ""
 "Build the same tower in the empty area as the one you see on the right-hand "
@@ -29393,9 +29410,9 @@ msgstr ""
 "de muitos tipos de contribuições, incluindo a financeira. Nós usamos o "
 "dinheiro para reembolsar membros e outras pessoas devido aos gastos com o "
 "projeto. Parte do dinheiro é usado para dar assistência jurídica e organizar "
-"conferências e reuniões. <br /> <br />Você pode ajudar a KDE através de uma "
-"doação financeira, usando uma das maneiras descritas em <a href=\"%2\">%2</"
-"a>.<br /><br />Obrigado pela sua ajuda."
+"conferências e reuniões. <br /> <br />Você pode ajudar a comunidade KDE "
+"através de uma doação financeira, usando uma das maneiras descritas em <a "
+"href=\"%2\">%2</a>.<br /><br />Obrigado pela sua ajuda."
 
 #: core/DialogAbout.qml:139
 #, qt-format

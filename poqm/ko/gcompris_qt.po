@@ -34,7 +34,7 @@ msgstr ""
 #: activities/number_sequence/ActivityConfig.qml:23
 msgctxt "ActivityConfig|"
 msgid "Automatic"
-msgstr ""
+msgstr "자동"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:20
 #: activities/enumerate/ActivityConfig.qml:23
@@ -44,7 +44,7 @@ msgstr ""
 #: activities/money_cents/ActivityConfig.qml:23
 msgctxt "ActivityConfig|"
 msgid "OK button"
-msgstr ""
+msgstr "확인 단추"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:30
 #: activities/enumerate/ActivityConfig.qml:33
@@ -54,105 +54,88 @@ msgstr ""
 #: activities/money_cents/ActivityConfig.qml:33
 msgctxt "ActivityConfig|"
 msgid "Validate answers"
-msgstr ""
+msgstr "정답 확인 방식"
 
 #. Activity title
 #: activities/adjacent_numbers/ActivityInfo.qml:14
-#, fuzzy
-#| msgctxt "board6_0|"
-#| msgid "Romania"
 msgctxt "ActivityInfo|"
 msgid "Find the adjacent numbers"
-msgstr "루마니아"
+msgstr "이웃한 수 찾기"
 
 #. Help title
 #: activities/adjacent_numbers/ActivityInfo.qml:16
-#, fuzzy
-#| msgctxt "board6_0|"
-#| msgid "Romania"
 msgctxt "ActivityInfo|"
 msgid "Find the missing adjacent numbers."
-msgstr "루마니아"
+msgstr "비어 있는 칸에 들어갈 이웃한 수를 찾으세요."
 
 #. Help goal
 #: activities/adjacent_numbers/ActivityInfo.qml:19
-#, fuzzy
-#| msgctxt "board6_0|"
-#| msgid "Romania"
 msgctxt "ActivityInfo|"
 msgid "Learn to order numbers."
-msgstr "루마니아"
+msgstr "수의 순서를 배웁니다."
 
 #. Help manual
 #: activities/adjacent_numbers/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Find the requested numbers and drag them to the corresponding spot."
-msgstr ""
+msgstr "문제에 맞는 수를 찾아 알맞은 칸으로 끌어 놓으세요."
 
 #. One or more numbers to find, all at the beginning of the list. Don't display the %n in the translation if possible (actual English strings are "Find the previous number" and "Find the previous numbers")
 #: activities/adjacent_numbers/Adjacent_numbers.qml:60
-#, fuzzy, qt-format
-#| msgctxt "board6_0|"
-#| msgid "Romania"
+#, qt-format
 msgctxt "Adjacent_numbers|"
 msgid "Find the %n previous number(s)."
 msgid_plural "Find the %n previous number(s)."
-msgstr[0] "루마니아"
+msgstr[0] "앞에 올 수를 찾으세요."
 
 #. One or more numbers to find, at the end of the list. Don't display the %n in the translation if possible (actual English strings are "Find the next number" and "Find the next numbers")
 #: activities/adjacent_numbers/Adjacent_numbers.qml:64
-#, fuzzy, qt-format
-#| msgctxt "board6_0|"
-#| msgid "Romania"
+#, qt-format
 msgctxt "Adjacent_numbers|"
 msgid "Find the %n next number(s)."
 msgid_plural "Find the %n next number(s)."
-msgstr[0] "루마니아"
+msgstr[0] "뒤에 올 수를 찾으세요."
 
 #. One or more numbers to find, not at the beginning nor at the end of the list. Don't display the %n in the translation if possible (actual English strings are "Find the in-between number" and "Find the in-between numbers")
 #: activities/adjacent_numbers/Adjacent_numbers.qml:68
-#, fuzzy, qt-format
-#| msgctxt "board6_0|"
-#| msgid "Romania"
+#, qt-format
 msgctxt "Adjacent_numbers|"
 msgid "Find the %n in-between number(s)"
 msgid_plural "Find the %n in-between number(s)"
-msgstr[0] "루마니아"
+msgstr[0] "사이에 들어갈 수를 찾으세요."
 
 #. More than one number to find, with at least one number at the beginning or at the end of the list. Don't display the %n in the translation if possible (actual English string is "Find the missing numbers")
 #: activities/adjacent_numbers/Adjacent_numbers.qml:72
-#, fuzzy, qt-format
-#| msgctxt "board6_0|"
-#| msgid "Romania"
+#, qt-format
 msgctxt "Adjacent_numbers|"
 msgid "Find the %n missing numbers"
 msgid_plural "Find the %n missing numbers"
-msgstr[0] "루마니아"
+msgstr[0] "빠진 수를 찾으세요."
 
 #: activities/adjacent_numbers/resource/1/Data.qml:9
 msgctxt "Data|"
 msgid "Find numbers between 1 and 10."
-msgstr ""
+msgstr "1부터 10까지의 수를 찾으세요."
 
 #: activities/adjacent_numbers/resource/2/Data.qml:9
 msgctxt "Data|"
 msgid "Find numbers between 0 and 20."
-msgstr ""
+msgstr "0부터 20까지의 수를 찾으세요."
 
 #: activities/adjacent_numbers/resource/3/Data.qml:9
 msgctxt "Data|"
 msgid "Find numbers between 0 and 100."
-msgstr ""
+msgstr "0부터 100까지의 수를 찾으세요."
 
 #: activities/adjacent_numbers/resource/4/Data.qml:9
 msgctxt "Data|"
 msgid "Find numbers between -10 and -1."
-msgstr ""
+msgstr "-10부터 -1까지의 수를 찾으세요."
 
 #: activities/adjacent_numbers/resource/5/Data.qml:9
 msgctxt "Data|"
 msgid "Find numbers between -10 and 10."
-msgstr ""
+msgstr "-10부터 10까지의 수를 찾으세요."
 
 #. Activity title
 #: activities/advanced_colors/ActivityInfo.qml:15
@@ -229,6 +212,8 @@ msgstr ""
 #: activities/gravity/ActivityInfo.qml:28
 #: activities/guess24/ActivityInfo.qml:24
 #: activities/guessnumber/ActivityInfo.qml:24
+#: activities/hanoi/ActivityInfo.qml:25
+#: activities/hanoi_real/ActivityInfo.qml:24
 #: activities/imagename/ActivityInfo.qml:28
 #: activities/instruments/ActivityInfo.qml:24
 #: activities/land_safe/ActivityInfo.qml:28 activities/lang/ActivityInfo.qml:33
@@ -5918,14 +5903,14 @@ msgid "Space or Enter or Tab: select the next item"
 msgstr ""
 
 #. Translators: NOTE: Word list for crane activity. Translate this into a list of 15–25 simple 3-letter words separated by semi-colons. The words can only contain lowercase ASCII letters (a–z). Example: cat;dog;win;red;yes
-#: activities/crane/crane.js:40
+#: activities/crane/crane.js:44
 msgctxt "crane|"
 msgid ""
 "cat;dog;win;red;yes;big;box;air;arm;car;bus;fun;day;eat;hat;leg;ice;old;egg"
 msgstr ""
 
 #. Translators: NOTE: Word list for crane activity. Translate this into a list of 10–20 simple 4-letter words separated by semi-colons. The words can only contain lowercase ASCII letters (a–z). Example: blue;best;good;area
-#: activities/crane/crane.js:47
+#: activities/crane/crane.js:51
 msgctxt "crane|"
 msgid ""
 "blue;best;good;area;bell;coat;easy;farm;food;else;girl;give;hero;help;hour;"
@@ -5933,7 +5918,7 @@ msgid ""
 msgstr ""
 
 #. Translators: NOTE: Word list for crane activity. Translate this into a list of 10–20 simple 5-letter words separated by semi-colons. The words can only contain lowercase ASCII letters (a–z). Example: happy;child;white;apple
-#: activities/crane/crane.js:54
+#: activities/crane/crane.js:58
 msgctxt "crane|"
 msgid ""
 "happy;child;white;apple;brown;truth;fresh;green;horse;hotel;house;paper;"
@@ -15798,7 +15783,24 @@ msgid ""
 "reproduce the tower on the right-hand side onto the empty peg."
 msgstr ""
 
-#: activities/hanoi/ActivityInfo.qml:25
+#: activities/hanoi/ActivityInfo.qml:26
+#: activities/hanoi_real/ActivityInfo.qml:25
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Arrows: navigate through the answers"
+msgctxt "ActivityInfo|"
+msgid "Arrows: move the selection cursor through the pegs"
+msgstr "방향키: 답 사이로 이동"
+
+#: activities/hanoi/ActivityInfo.qml:27
+#: activities/hanoi_real/ActivityInfo.qml:26
+msgctxt "ActivityInfo|"
+msgid ""
+"Space or Enter: select/deselect the top disc on the selected peg, or move "
+"the selected disc to the selected peg"
+msgstr ""
+
+#: activities/hanoi/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "Concept taken from EPI games."
 msgstr ""
@@ -15826,7 +15828,7 @@ msgid ""
 "disc."
 msgstr ""
 
-#: activities/hanoi_real/ActivityInfo.qml:24
+#: activities/hanoi_real/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid ""
 "The puzzle was invented by the French mathematician Edouard Lucas in 1883. "
@@ -15839,12 +15841,12 @@ msgid ""
 "Tower_of_hanoi)"
 msgstr ""
 
-#: activities/hanoi_real/HanoiReal.qml:82
+#: activities/hanoi_real/HanoiReal.qml:117
 msgctxt "HanoiReal|"
 msgid "Move the entire stack to the right peg, one disc at a time."
 msgstr ""
 
-#: activities/hanoi_real/HanoiReal.qml:83
+#: activities/hanoi_real/HanoiReal.qml:118
 msgctxt "HanoiReal|"
 msgid ""
 "Build the same tower in the empty area as the one you see on the right-hand "

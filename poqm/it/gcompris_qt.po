@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gcompris_qt\n"
-"PO-Revision-Date: 2026-09-22 11:26+0200\n"
+"PO-Revision-Date: 2026-10-19 14:13+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 26.08.1\n"
+"X-Generator: Lokalize 26.08.2\n"
 "X-Qt-Contexts: true\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
@@ -213,6 +213,8 @@ msgstr ""
 #: activities/gravity/ActivityInfo.qml:28
 #: activities/guess24/ActivityInfo.qml:24
 #: activities/guessnumber/ActivityInfo.qml:24
+#: activities/hanoi/ActivityInfo.qml:25
+#: activities/hanoi_real/ActivityInfo.qml:24
 #: activities/imagename/ActivityInfo.qml:28
 #: activities/instruments/ActivityInfo.qml:24
 #: activities/land_safe/ActivityInfo.qml:28 activities/lang/ActivityInfo.qml:33
@@ -2455,6 +2457,8 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Arrows: move the selection cursor through the panel items and board spots"
 msgstr ""
+"Frecce direzionali: spostano il cursore di selezione tra gli elementi del "
+"pannello e le caselle del tavoliere"
 
 #: activities/babymatch/ActivityInfo.qml:30
 #: activities/babyshapes/ActivityInfo.qml:30
@@ -2469,6 +2473,9 @@ msgid ""
 "Space: select an item in the list, and place it on a spot. If there is "
 "nothing selected in the list, remove item from selected spot"
 msgstr ""
+"Barra spaziatrice: seleziona un elemento dall'elenco e posizionalo in un "
+"punto. Se non è selezionato alcun elemento nell'elenco, rimuovi l'elemento "
+"dal punto selezionato."
 
 #: activities/babymatch/ActivityInfo.qml:31
 #: activities/babyshapes/ActivityInfo.qml:31
@@ -2478,14 +2485,12 @@ msgstr ""
 #: activities/geography/ActivityInfo.qml:31
 #: activities/imagename/ActivityInfo.qml:31
 #: activities/paintings/ActivityInfo.qml:33
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Tab: navigate between the bottom and the top areas"
 msgctxt "ActivityInfo|"
 msgid ""
 "Tab: toggle navigation between the panel and the board without any other "
 "action"
-msgstr "Tab: naviga tra le aree in basso e in alto"
+msgstr ""
+"Tab: alterna la navigazione tra il pannello e la bacheca senza altre azioni"
 
 #: activities/babymatch/ActivityInfo.qml:32
 #: activities/babyshapes/ActivityInfo.qml:32
@@ -2495,13 +2500,9 @@ msgstr "Tab: naviga tra le aree in basso e in alto"
 #: activities/geography/ActivityInfo.qml:32
 #: activities/imagename/ActivityInfo.qml:32
 #: activities/paintings/ActivityInfo.qml:34
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Delete or Backspace: remove the selected item from the answer area"
 msgctxt "ActivityInfo|"
 msgid "Delete or Backspace: remove item from selected spot"
-msgstr ""
-"Canc o Backspace: rimuovi l'elemento selezionato dalla zona di risposta"
+msgstr "Canc o Backspace: rimuovi l'elemento dal punto selezionato"
 
 #: activities/babymatch/resource/board/board1_0.qml:14
 msgctxt "board1_0|"
@@ -6338,7 +6339,7 @@ msgid "Space or Enter or Tab: select the next item"
 msgstr "Barra spaziatrice o Invio o Tab: seleziona l'elemento successivo"
 
 #. Translators: NOTE: Word list for crane activity. Translate this into a list of 15–25 simple 3-letter words separated by semi-colons. The words can only contain lowercase ASCII letters (a–z). Example: cat;dog;win;red;yes
-#: activities/crane/crane.js:40
+#: activities/crane/crane.js:44
 msgctxt "crane|"
 msgid ""
 "cat;dog;win;red;yes;big;box;air;arm;car;bus;fun;day;eat;hat;leg;ice;old;egg"
@@ -6346,7 +6347,7 @@ msgstr ""
 "ara;mio;gru;oca;ego;duo;ape;sci;uva;via;zio;mai;ufo;neo;lei;ila;oro;zoo"
 
 #. Translators: NOTE: Word list for crane activity. Translate this into a list of 10–20 simple 4-letter words separated by semi-colons. The words can only contain lowercase ASCII letters (a–z). Example: blue;best;good;area
-#: activities/crane/crane.js:47
+#: activities/crane/crane.js:51
 msgctxt "crane|"
 msgid ""
 "blue;best;good;area;bell;coat;easy;farm;food;else;girl;give;hero;help;hour;"
@@ -6356,7 +6357,7 @@ msgstr ""
 "sale;seme"
 
 #. Translators: NOTE: Word list for crane activity. Translate this into a list of 10–20 simple 5-letter words separated by semi-colons. The words can only contain lowercase ASCII letters (a–z). Example: happy;child;white;apple
-#: activities/crane/crane.js:54
+#: activities/crane/crane.js:58
 msgctxt "crane|"
 msgid ""
 "happy;child;white;apple;brown;truth;fresh;green;horse;hotel;house;paper;"
@@ -16593,7 +16594,23 @@ msgstr ""
 "Trascina e rilascia un disco superiore alla volta, da una torre all'altra, "
 "per riprodurre la torre sulla destra sul piolo vuoto."
 
-#: activities/hanoi/ActivityInfo.qml:25
+#: activities/hanoi/ActivityInfo.qml:26
+#: activities/hanoi_real/ActivityInfo.qml:25
+msgctxt "ActivityInfo|"
+msgid "Arrows: move the selection cursor through the pegs"
+msgstr "Frecce direzionali: spostano il cursore di selezione tra i pioli"
+
+#: activities/hanoi/ActivityInfo.qml:27
+#: activities/hanoi_real/ActivityInfo.qml:26
+msgctxt "ActivityInfo|"
+msgid ""
+"Space or Enter: select/deselect the top disc on the selected peg, or move "
+"the selected disc to the selected peg"
+msgstr ""
+"Barra spaziatrice o Invio: seleziona/deseleziona il disco in cima al piolo "
+"selezionato, oppure sposta il disco selezionato sul piolo selezionato"
+
+#: activities/hanoi/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "Concept taken from EPI games."
 msgstr "L'idea è presa dai giochi EPI."
@@ -16626,7 +16643,7 @@ msgstr ""
 "regole: si può muovere solo un disco alla volta e un disco non può mai "
 "essere posizionato su un disco più piccolo."
 
-#: activities/hanoi_real/ActivityInfo.qml:24
+#: activities/hanoi_real/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid ""
 "The puzzle was invented by the French mathematician Edouard Lucas in 1883. "
@@ -16647,12 +16664,12 @@ msgstr ""
 "chiaro se Lucas abbia inventato questa leggenda o se sia stato ispirato da "
 "essa. (fonte Wikipedia: https://it.wikipedia.org/wiki/Torre_di_Hanoi)"
 
-#: activities/hanoi_real/HanoiReal.qml:82
+#: activities/hanoi_real/HanoiReal.qml:117
 msgctxt "HanoiReal|"
 msgid "Move the entire stack to the right peg, one disc at a time."
 msgstr "Sposta la pila sul piolo a destra, un disco per volta."
 
-#: activities/hanoi_real/HanoiReal.qml:83
+#: activities/hanoi_real/HanoiReal.qml:118
 msgctxt "HanoiReal|"
 msgid ""
 "Build the same tower in the empty area as the one you see on the right-hand "
@@ -23572,6 +23589,8 @@ msgid ""
 "Arrows: move the keyboard cursor in the grid, and if a point is selected "
 "move it"
 msgstr ""
+"Frecce direzionali: spostano il cursore della tastiera nella griglia e, se "
+"un punto è selezionato, lo spostano."
 
 #: activities/polygons/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
@@ -23579,30 +23598,25 @@ msgid ""
 "Enter: create a point at the cursor position, or validate your answer when "
 "the shape is closed"
 msgstr ""
+"Invio: crea un punto nella posizione del cursore o conferma la risposta "
+"quando la forma è chiusa."
 
 #: activities/polygons/ActivityInfo.qml:32
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Space: select or deselect the highlighted answer"
 msgctxt "ActivityInfo|"
 msgid "Space: select or deselect the point at the cursor position"
-msgstr "Barra spaziatrice: seleziona o deseleziona la risposta evidenziata"
+msgstr ""
+"Barra spaziatrice: seleziona o deseleziona il punto in corrispondenza del "
+"cursore"
 
 #: activities/polygons/ActivityInfo.qml:33
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Up arrow: select next item"
 msgctxt "ActivityInfo|"
 msgid "Tab: select next point"
-msgstr "Barra spaziatrice: seleziona un elemento"
+msgstr "Tab: seleziona il punto successivo"
 
 #: activities/polygons/ActivityInfo.qml:34
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Ctrl + D: delete selected text"
 msgctxt "ActivityInfo|"
 msgid "Delete: delete selected point"
-msgstr "Ctrl + D: elimina il testo selezionato"
+msgstr "Canc: elimina il punto selezionato"
 
 #: activities/polygons/TutorialDataset.qml:20
 msgctxt "TutorialDataset|"

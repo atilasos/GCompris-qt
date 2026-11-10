@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Poedit 3.10\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
 #: activities/clickanddraw/ActivityConfig.qml:22
@@ -212,6 +212,8 @@ msgstr ""
 #: activities/gravity/ActivityInfo.qml:28
 #: activities/guess24/ActivityInfo.qml:24
 #: activities/guessnumber/ActivityInfo.qml:24
+#: activities/hanoi/ActivityInfo.qml:25
+#: activities/hanoi_real/ActivityInfo.qml:24
 #: activities/imagename/ActivityInfo.qml:28
 #: activities/instruments/ActivityInfo.qml:24
 #: activities/land_safe/ActivityInfo.qml:28 activities/lang/ActivityInfo.qml:33
@@ -2398,14 +2400,11 @@ msgstr ""
 #: activities/geography/ActivityInfo.qml:31
 #: activities/imagename/ActivityInfo.qml:31
 #: activities/paintings/ActivityInfo.qml:33
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Tab: navigate between the bottom and the top areas"
 msgctxt "ActivityInfo|"
 msgid ""
 "Tab: toggle navigation between the panel and the board without any other "
 "action"
-msgstr "Tab: გადასვლა ქვედა და ზედა ადგილებს შორის"
+msgstr "Tab: ნავიგაციის გადართვა პანელსა და დაფას შორის სხვა ქმედების გარეშე"
 
 #: activities/babymatch/ActivityInfo.qml:32
 #: activities/babyshapes/ActivityInfo.qml:32
@@ -2415,12 +2414,9 @@ msgstr "Tab: გადასვლა ქვედა და ზედა ად
 #: activities/geography/ActivityInfo.qml:32
 #: activities/imagename/ActivityInfo.qml:32
 #: activities/paintings/ActivityInfo.qml:34
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Delete or Backspace: remove the selected item from the answer area"
 msgctxt "ActivityInfo|"
 msgid "Delete or Backspace: remove item from selected spot"
-msgstr "Delete ან Backspace: წაშლის მონიშნულ ელემენტს პასუხის ადგილიდან"
+msgstr "Delete ან Backspace: წაშლის ელემენტს მონიშნული ადგილიდან"
 
 #: activities/babymatch/resource/board/board1_0.qml:14
 msgctxt "board1_0|"
@@ -6005,7 +6001,7 @@ msgid "Space or Enter or Tab: select the next item"
 msgstr "გამოტოვება, ან Tab ან Enter: შემდეგი ელემენტის არჩევა"
 
 #. Translators: NOTE: Word list for crane activity. Translate this into a list of 15–25 simple 3-letter words separated by semi-colons. The words can only contain lowercase ASCII letters (a–z). Example: cat;dog;win;red;yes
-#: activities/crane/crane.js:40
+#: activities/crane/crane.js:44
 msgctxt "crane|"
 msgid ""
 "cat;dog;win;red;yes;big;box;air;arm;car;bus;fun;day;eat;hat;leg;ice;old;egg"
@@ -6014,7 +6010,7 @@ msgstr ""
 "ძაღლი;კატა;წითელი;მოგება;დიახ;დიდი;ყუთი;გართობა;დღე;ყინული;კვერცხი"
 
 #. Translators: NOTE: Word list for crane activity. Translate this into a list of 10–20 simple 4-letter words separated by semi-colons. The words can only contain lowercase ASCII letters (a–z). Example: blue;best;good;area
-#: activities/crane/crane.js:47
+#: activities/crane/crane.js:51
 msgctxt "crane|"
 msgid ""
 "blue;best;good;area;bell;coat;easy;farm;food;else;girl;give;hero;help;hour;"
@@ -6024,7 +6020,7 @@ msgstr ""
 "sand;song;სიმღერა;ქვიშა;დახმარება;გოგო;არადა;საჭმელი;ფერმა;ადვილი;ზარი;ლურჯი"
 
 #. Translators: NOTE: Word list for crane activity. Translate this into a list of 10–20 simple 5-letter words separated by semi-colons. The words can only contain lowercase ASCII letters (a–z). Example: happy;child;white;apple
-#: activities/crane/crane.js:54
+#: activities/crane/crane.js:58
 msgctxt "crane|"
 msgid ""
 "happy;child;white;apple;brown;truth;fresh;green;horse;hotel;house;paper;"
@@ -14523,6 +14519,8 @@ msgid ""
 "Guide the Number Muncher to all the expressions that do not equal the number "
 "at the bottom of the screen."
 msgstr ""
+"მიიყვანეთ რიცხვთმჭამელი ეკრანის ქვედა მხარეს ყველა გამოსახულებასთან, რომელიც "
+"რიცხვს არ უდრის."
 
 #. Help goal
 #: activities/gnumch-inequality/ActivityInfo.qml:21
@@ -14562,7 +14560,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Guide the Number Muncher to all the multiples of the number at the bottom of "
 "the screen."
-msgstr ""
+msgstr "მიიყვანეთ რიცხვთმჭამელი რიცხვის ყველა ნამრავლთან ეკრანის ქვედა მხარეს."
 
 #. Help manual
 #: activities/gnumch-multiples/ActivityInfo.qml:23
@@ -15492,7 +15490,21 @@ msgid ""
 "reproduce the tower on the right-hand side onto the empty peg."
 msgstr ""
 
-#: activities/hanoi/ActivityInfo.qml:25
+#: activities/hanoi/ActivityInfo.qml:26
+#: activities/hanoi_real/ActivityInfo.qml:25
+msgctxt "ActivityInfo|"
+msgid "Arrows: move the selection cursor through the pegs"
+msgstr "ისრები: მონიშვნის კურსორის გადაადგილება"
+
+#: activities/hanoi/ActivityInfo.qml:27
+#: activities/hanoi_real/ActivityInfo.qml:26
+msgctxt "ActivityInfo|"
+msgid ""
+"Space or Enter: select/deselect the top disc on the selected peg, or move "
+"the selected disc to the selected peg"
+msgstr ""
+
+#: activities/hanoi/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "Concept taken from EPI games."
 msgstr "იდეა აღებულია EPI თამაშებიდან."
@@ -15520,7 +15532,7 @@ msgid ""
 "disc."
 msgstr ""
 
-#: activities/hanoi_real/ActivityInfo.qml:24
+#: activities/hanoi_real/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid ""
 "The puzzle was invented by the French mathematician Edouard Lucas in 1883. "
@@ -15533,18 +15545,18 @@ msgid ""
 "Tower_of_hanoi)"
 msgstr ""
 
-#: activities/hanoi_real/HanoiReal.qml:82
+#: activities/hanoi_real/HanoiReal.qml:117
 msgctxt "HanoiReal|"
 msgid "Move the entire stack to the right peg, one disc at a time."
 msgstr ""
 "გადაიტანეთ მთელი ნაკრები მარჯვენა პალოზე, ერთბაშად, მხოლოდ, ერთი დისკო."
 
-#: activities/hanoi_real/HanoiReal.qml:83
+#: activities/hanoi_real/HanoiReal.qml:118
 msgctxt "HanoiReal|"
 msgid ""
 "Build the same tower in the empty area as the one you see on the right-hand "
 "side"
-msgstr ""
+msgstr "ააგეთ იგივე კოშკი ცარიელ მხარეს ისე, როგორც მას მარჯვენა მხარეს ხედავთ"
 
 #. Activity title
 #: activities/hexagon/ActivityInfo.qml:15
@@ -15571,6 +15583,8 @@ msgid ""
 "Try to find the strawberry under the blue fields. The fields become redder "
 "as you get closer."
 msgstr ""
+"სცადეთ, იპოვოთ მარწყვი ლურჯ ველებში. ველი, რაც უფრო უახლოვდებით, უფრო "
+"წითლდება."
 
 #. Activity title
 #: activities/imagename/ActivityInfo.qml:18
@@ -16575,6 +16589,8 @@ msgid ""
 "If the answer is correct, type the corresponding result, and click on the OK "
 "button to validate your answer."
 msgstr ""
+"თუ პასუხი სწორია, აკრიფეთ შესაბამისი შედეგი და დააწკაპუნეთ ღილაკზე 'OK', რომ "
+"დაადასტუროთ თქვენი პასუხი."
 
 #: activities/learn_decimals_additions/ActivityInfo.qml:26
 #: activities/learn_decimals_subtractions/ActivityInfo.qml:26
@@ -16589,6 +16605,8 @@ msgid ""
 "represents a full unit, and each square in it represents one tenth of this "
 "unit."
 msgstr ""
+"ნაჩვენებია მიმატება ორი ათობითი რიცხვით. ზოლი ისრით წარმოადგენს მთელ ერთეულს "
+"და მასში არსებული თითოეული კვადრატი წარმოადგენს ამ ერთეულის ერთ მეათედს."
 
 #: activities/learn_decimals_additions/Learn_decimals_additions.qml:20
 msgctxt "Learn_decimals_additions|"
@@ -16605,6 +16623,8 @@ msgid ""
 "If the answer is correct, type the corresponding result, and click on the OK "
 "button to validate your answer."
 msgstr ""
+"თუ პასუხი სწორია, აკრიფეთ შესაბამისი შედეგი და დააწკაპუნეთ ღილაკზე 'OK', რომ "
+"დაადასტუროთ თქვენი პასუხი."
 
 #: activities/learn_decimals_additions/resource/1/Data.qml:13
 msgctxt "Data|"
@@ -16640,6 +16660,8 @@ msgid ""
 "Learn subtraction with decimal numbers by manipulating their visual "
 "representation."
 msgstr ""
+"ისწავლეთ ათობითი რიცხვების გამოკლება მათი ვიზუალური წარმოდგენის "
+"მანიპულირებით."
 
 #. Help manual
 #: activities/learn_decimals_subtractions/ActivityInfo.qml:22
@@ -16673,6 +16695,8 @@ msgid ""
 "If the answer is correct, type the corresponding result, and click on the OK "
 "button to validate your answer."
 msgstr ""
+"თუ პასუხი სწორია, აკრიფეთ შესაბამისი შედეგი და დააწკაპუნეთ ღილაკზე 'OK', რომ "
+"დაადასტუროთ თქვენი პასუხი."
 
 #: activities/learn_decimals_subtractions/resource/1/Data.qml:13
 msgctxt "Data|"
@@ -27843,203 +27867,3 @@ msgstr "გამოტოვება"
 msgctxt "Tutorial|"
 msgid "Start"
 msgstr "დაწყება"
-
-#~ msgctxt "Data|"
-#~ msgid "Enumerate up to 2 fruit."
-#~ msgstr "ჩამოთვალეთ 2-მდე ხილი."
-
-#~ msgctxt "Data|"
-#~ msgid "Enumerate up to 3 fruit."
-#~ msgstr "ჩამოთვალეთ 3-მდე ხილი."
-
-#~ msgctxt "Data|"
-#~ msgid "Group 2 types of fruit and enumerate each group (3 fruit max)."
-#~ msgstr "დააჯგუფეთ 2 ტიპის ხილი და ჩამოთვალეთ თითოეული ჯგუფი (მაქს 3 ხილი)."
-
-#~ msgctxt "Data|"
-#~ msgid "Group 2 types of fruit and enumerate each group (4 fruit max)."
-#~ msgstr "დააჯგუფეთ 2 ტიპის ხილი და ჩამოთვალეთ თითოეული ჯგუფი (მაქს 4 ხილი)."
-
-#~ msgctxt "Data|"
-#~ msgid "Group 3 types of fruit and enumerate each group (6 fruit max)."
-#~ msgstr "დააჯგუფეთ 3 ტიპის ხილი და ჩამოთვალეთ თითოეული ჯგუფი (მაქს 6 ხილი)."
-
-#~ msgctxt "Data|"
-#~ msgid "Group 3 types of fruit and enumerate each group (3 fruit max)."
-#~ msgstr "დააჯგუფეთ 3 ტიპის ხილი და ჩამოთვალეთ თითოეული ჯგუფი (მაქს 3 ხილი)."
-
-#~ msgctxt "Data|"
-#~ msgid "Group 3 types of fruit and enumerate each group (4 fruit max)."
-#~ msgstr "დააჯგუფეთ 3 ტიპის ხილი და ჩამოთვალეთ თითოეული ჯგუფი (მაქს 4 ხილი)."
-
-#~ msgctxt "Data|"
-#~ msgid "Group 4 types of fruit and enumerate each group (9 fruit max)."
-#~ msgstr "დააჯგუფეთ 4 ტიპის ხილი და ჩამოთვალეთ თითოეული ჯგუფი (მაქს 9 ხილი)."
-
-#~ msgctxt "Data|"
-#~ msgid "Group 4 types of fruit and enumerate each group (6 fruit max)."
-#~ msgstr "დააჯგუფეთ 4 ტიპის ხილი და ჩამოთვალეთ თითოეული ჯგუფი (მაქს 6 ხილი)."
-
-#~ msgctxt "Data|"
-#~ msgid "Group 4 types of fruit and enumerate each group (7 fruit max)."
-#~ msgstr "დააჯგუფეთ 4 ტიპის ხილი და ჩამოთვალეთ თითოეული ჯგუფი (მაქს 7 ხილი)."
-
-#~ msgctxt "Data|"
-#~ msgid "Group 4 types of fruit and enumerate each group (8 fruit max)."
-#~ msgstr "დააჯგუფეთ 4 ტიპის ხილი და ჩამოთვალეთ თითოეული ჯგუფი (მაქს 8 ხილი)."
-
-#~ msgctxt "ColorSelector|"
-#~ msgid "Palette Colors"
-#~ msgstr "პალიტრის ფერები"
-
-#~ msgctxt "ColorSelector|"
-#~ msgid "Reset palette"
-#~ msgstr "პალიტრის ჩამოყრა"
-
-#~ msgctxt "ColorSelector|"
-#~ msgid "Selected Color"
-#~ msgstr "არჩეული ფერი"
-
-#~ msgctxt "ColorSelector|color hue"
-#~ msgid "Hue"
-#~ msgstr "ტონი"
-
-#~ msgctxt "ColorSelector|color saturation"
-#~ msgid "Saturation"
-#~ msgstr "გაჯერებულობა"
-
-#~ msgctxt "ColorSelector|color lightness"
-#~ msgid "Lightness"
-#~ msgstr "სიკაშკაშე"
-
-#~ msgctxt "ColorSelector|"
-#~ msgid "Reset Color"
-#~ msgstr "ფერის ჩამოყრა"
-
-#~ msgctxt "Data|"
-#~ msgid "Maximum value: 500000."
-#~ msgstr "მაქსიმალური მნიშვნელობა: 500000."
-
-#~ msgctxt "Data|"
-#~ msgid "Find the correct answer."
-#~ msgstr "იპოვეთ სწორი პასუხი."
-
-#~ msgctxt "Data|"
-#~ msgid "What is the first number?"
-#~ msgstr "რომელია პირველი რიცხვი?"
-
-#~ msgctxt "Data|"
-#~ msgid "What is a color?"
-#~ msgstr "რა არის ფერი?"
-
-#~ msgctxt "Data|"
-#~ msgid "What are the first two numbers?"
-#~ msgstr "რომელია პირველი ორი რიცხვი?"
-
-#~ msgctxt "Data|"
-#~ msgid "What are animals?"
-#~ msgstr "რა არიან ცხოველები?"
-
-#~ msgctxt "Data|"
-#~ msgid "Answers always in order, select the first one"
-#~ msgstr "უპასუხეთ ყოველთვის რიგში. აირჩიეთ პირველი"
-
-#~ msgctxt "Data|"
-#~ msgid "Find the previous number."
-#~ msgstr "იპოვეთ წინა რიცხვი."
-
-#~ msgctxt "Data|"
-#~ msgid "Find the in-between number."
-#~ msgstr "იპოვეთ შუალედური რიცხვი."
-
-#~ msgctxt "Data|"
-#~ msgid "Find the missing numbers."
-#~ msgstr "იპოვეთ ნაკლული რიცხვები."
-
-#~ msgctxt "ActivityInfo|"
-#~ msgid "Ctrl + D: save the drawing"
-#~ msgstr "Ctrl + D: ნახატის შენახვა"
-
-#~ msgctxt "DrawingWheels|"
-#~ msgid "Save drawing"
-#~ msgstr "ნახატის შენახვა"
-
-#~ msgctxt "DrawingWheels|"
-#~ msgid "Save vector image (SVG)"
-#~ msgstr "ვექტორული გამოსახულების შენახვა (SVG)"
-
-#~ msgctxt "DrawingWheels|"
-#~ msgid "Export image (PNG)"
-#~ msgstr "გამოსახულების გატანა (PNG)"
-
-#~ msgctxt "DrawingWheels|"
-#~ msgid "Pencil's color and width"
-#~ msgstr "ფანქრის ფერი და სიგანე"
-
-#~ msgctxt "DrawingWheels|"
-#~ msgid "Save as a drawing"
-#~ msgstr "შენახვა ნახატის სახით"
-
-#~ msgctxt "DrawingWheels|"
-#~ msgid "Distance to center"
-#~ msgstr "მანძილი ცენტრამდე"
-
-#~ msgctxt "ColorsPanel|"
-#~ msgid "Palettes"
-#~ msgstr "პალიტრები"
-
-#~ msgctxt "Frieze|"
-#~ msgid "What is the binary representation of %1?"
-#~ msgstr "რა არის %1-ის ორობითი წარმოდგენა?"
-
-#~ msgctxt "grammar_analysis|"
-#~ msgid "Grammatical analysis"
-#~ msgstr "გრამატიკული ანალიზი"
-
-#~ msgctxt "grammar_analysis|"
-#~ msgid "Learn to identify grammatical classes."
-#~ msgstr "ისწავლეთ გრამატიკული კლასების ამოცნობა."
-
-#~ msgctxt "grammar_analysis|"
-#~ msgid "Leave the box blank if no class matches."
-#~ msgstr "დატოვეთ ველი ცარიელი, თუ კლასი არ ემთხვევა."
-
-#~ msgctxt "ActivityInfo|"
-#~ msgid "<b>Keyboard controls:"
-#~ msgstr "<b>კლავიატურით მართვა:"
-
-#~ msgctxt "ActivityInfo|"
-#~ msgid "Draw the letters by connecting the dots in the correct order."
-#~ msgstr "დახატეთ ასოები წერტილების სწორი მიმდევრობის შეერთებით."
-
-#~ msgctxt "ActivityInfo|"
-#~ msgid "Draw the numbers by connecting the dots in the correct order."
-#~ msgstr "დახატეთ რიცხვები წერტილების სწორი მიმდევრობის შეერთებით."
-
-#~ msgctxt "Data|"
-#~ msgid "Solve subtraction, 2 digits, 2 lines."
-#~ msgstr "ამოხსენით გამოკლება, 2 ციფრი, 2 ხაზი."
-
-#~ msgctxt "Balancebox|"
-#~ msgid "Ok"
-#~ msgstr "დიახ"
-
-#~ msgctxt "GCCreationHandler|"
-#~ msgid "Ok"
-#~ msgstr "დიახ"
-
-#~ msgctxt "ActivityInfo|"
-#~ msgid "Alphabet sequence."
-#~ msgstr "ანბანის თანმიმდევრობა."
-
-#~ msgctxt "ActivityInfo|"
-#~ msgid "Baby mouse"
-#~ msgstr "წრუწუნა"
-
-#~ msgctxt "Guesscount|"
-#~ msgid "%1/%2"
-#~ msgstr "%1/%2"
-
-#~ msgctxt "board1|"
-#~ msgid "Rooster"
-#~ msgstr "მამალი"
