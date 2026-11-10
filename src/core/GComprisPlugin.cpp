@@ -16,6 +16,7 @@
 #include "DownloadManager.h"
 #include "GImageGrabber.h"
 #include "GSynth.h"
+#include "WorkLog.h"
 #include <QQmlComponent>
 
 const int versionMajor = 1;
@@ -48,6 +49,9 @@ void GComprisPlugin::registerTypes(const char *uri)
                                               "DownloadManager", DownloadManager::create);
     qmlRegisterUncreatableMetaObject(GCompris::staticMetaObject,
                                      uri, versionMajor, versionMinor, "GCompris", "");
+
+    qmlRegisterSingletonType<WorkLog>(uri, versionMajor, versionMinor,
+                                      "WorkLog", WorkLog::create);
 
     qmlRegisterSingletonType<GSynth>(uri, versionMajor, versionMinor,
                                      "GSynth", GSynth::create);

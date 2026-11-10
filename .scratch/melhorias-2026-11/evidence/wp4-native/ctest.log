@@ -1,0 +1,23 @@
+Test project /home/proteu/.t3/worktrees/GCompris-qt/t3-3882e41a-cd02cb44cacda54a/build/pt-pt
+    Start 1: CoreActivityInfoTest
+1/9 Test #1: CoreActivityInfoTest .............   Passed    0.03 sec
+    Start 2: CoreApplicationSettingsTest
+2/9 Test #2: CoreApplicationSettingsTest ......   Passed    0.11 sec
+    Start 3: CoreDatasetTest
+3/9 Test #3: CoreDatasetTest ..................   Passed    0.02 sec
+    Start 4: CoreDirectoryTest
+4/9 Test #4: CoreDirectoryTest ................   Passed    0.02 sec
+    Start 5: CoreFileTest
+5/9 Test #5: CoreFileTest .....................   Passed    0.02 sec
+    Start 6: CoreApplicationInfoTest
+6/9 Test #6: CoreApplicationInfoTest ..........   Passed    0.20 sec
+    Start 7: CoreDownloadManagerTest
+7/9 Test #7: CoreDownloadManagerTest ..........   Passed    0.79 sec
+    Start 8: CoreGImageGrabberTest
+8/9 Test #8: CoreGImageGrabberTest ............   Passed    0.03 sec
+    Start 9: CoreWorkLogTest
+9/9 Test #9: CoreWorkLogTest ..................   Passed    0.01 sec
+
+100% tests passed, 0 tests failed out of 9
+
+Total Test time (real) =   1.25 sec

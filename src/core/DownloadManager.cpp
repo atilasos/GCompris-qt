@@ -11,6 +11,7 @@
 #include "DownloadManager.h"
 #include "ApplicationSettings.h"
 #include "ApplicationInfo.h"
+#include "StartupLogging.h"
 
 #include <QFile>
 #include <QDir>
@@ -21,6 +22,9 @@
 #include <QCoreApplication>
 #include <QDateTime>
 #include <QRegularExpression>
+#include <QJsonDocument>
+#include <QSaveFile>
+#include <QThread>
 
 const QString DownloadManager::contentsFilename = QLatin1String("Contents");
 DownloadManager *DownloadManager::_instance = nullptr;
@@ -113,6 +117,7 @@ void DownloadManager::abortDownloads()
 
                     // close and remove new rcc file
                     job->file.close();
+                    invalidateChecksum(job->file.fileName());
                     job->file.remove();
                 }
                 job->reply->deleteLater();
@@ -237,23 +242,44 @@ QString DownloadManager::getResourcePath(int rt, const QVariantMap &data) const
 
 bool DownloadManager::updateResource(/*const GCompris::ResourceType &*/ int rt, const QVariantMap &extra)
 {
-    if (checkDownloadRestriction())
-        return downloadResource(rt, extra); // check for updates and register
+    QElapsedTimer startupTimer;
+    startupTimer.start();
+    const auto logStartup = [&](const char *path, const QString &file, qint64 checksumNanoseconds) {
+        qCInfo(lcStartup).noquote() << "updateResource" << QMetaEnum::fromType<GCompris::ResourceType>().valueToKey(rt)
+                                    << path << (file.isEmpty() ? QStringLiteral("-") : file)
+                                    << "total" << startupMilliseconds(startupTimer.nsecsElapsed())
+                                    << "ms, checksum" << startupMilliseconds(checksumNanoseconds) << "ms";
+    };
+
+    if (checkDownloadRestriction()) {
+        const bool result = downloadResource(rt, extra); // check for updates and register
+        // Only the synchronous part: the download and its checksum run later.
+        logStartup("download", QString(), 0);
+        return result;
+    }
 
     const QString resourcePath = getResourcePath(rt, extra);
     const auto entry = selectedResource(rt, extra);
+    qint64 checksumNanoseconds = 0;
     // A packaged and a cached RCC may share a name but have different contents.
     // Register only the file matching the selected index.
     if (!resourcePath.isEmpty()) {
         for (const auto &base : getSystemResourcePaths()) {
             const QString absolutePath = base + '/' + resourcePath;
-            if (checksumMatches(absolutePath, entry.checksum))
-                return registerResourceAbsolute(absolutePath);
+            const qint64 checksumStart = startupTimer.nsecsElapsed();
+            const bool matches = checksumMatches(absolutePath, entry.checksum);
+            checksumNanoseconds += startupTimer.nsecsElapsed() - checksumStart;
+            if (matches) {
+                const bool result = registerResourceAbsolute(absolutePath);
+                logStartup("local", absolutePath, checksumNanoseconds);
+                return result;
+            }
         }
     }
 
     qDebug() << "No such local resource and download prohibited: "
              << GCompris::ResourceType(rt) << extra;
+    logStartup("missing", resourcePath, checksumNanoseconds);
     return false;
 }
 
@@ -342,6 +368,7 @@ bool DownloadManager::download(DownloadJob *job)
     }
 
     job->file.setFileName(tempFilenameForFilename(fi.filePath()));
+    invalidateChecksum(job->file.fileName());
     if (!job->file.open(QIODevice::WriteOnly)) {
         Q_EMIT error(QNetworkReply::ProtocolUnknownError,
                      QObject::tr("Could not open target file %1").arg(job->file.fileName()));
@@ -527,26 +554,104 @@ bool DownloadManager::parseContents(DownloadJob *job)
     return true;
 }
 
-bool DownloadManager::checksumMatches(const QString &filename, const QString &expectedChecksum) const
+void DownloadManager::loadChecksumCache() const
 {
-    if (expectedChecksum.isEmpty() || !QFile::exists(filename))
-        return false;
+    // QML calls run on the GUI thread. Network replies use AutoConnection to
+    // this object's thread; the manager is created in main.cpp and never moved.
+    Q_ASSERT(QThread::currentThread() == QCoreApplication::instance()->thread());
+    const QString path = QDir(getSystemDownloadPath()).filePath(QStringLiteral("rcc-checksums-v1.json"));
+    if (checksumCachePath == path) return;
+    checksumCachePath = path;
+    checksumCache = {};
+    QFile file(path);
+    if (!file.open(QIODevice::ReadOnly)) return;
+    const auto document = QJsonDocument::fromJson(file.readAll());
+    const auto root = document.object();
+    if (root.value(QStringLiteral("version")).toInt() != 1 ||
+        !root.value(QStringLiteral("entries")).isObject()) return;
+    const auto entries = root.value(QStringLiteral("entries")).toObject();
+    static const QRegularExpression md5(QStringLiteral("^[0-9a-f]{32}$"));
+    for (auto it = entries.begin(); it != entries.end(); ++it) {
+        const auto entry = it.value().toObject();
+        bool validSize = false, validTime = false;
+        const auto size = entry.value(QStringLiteral("size")).toString().toLongLong(&validSize);
+        entry.value(QStringLiteral("mtime")).toString().toLongLong(&validTime);
+        if (!QDir::isAbsolutePath(it.key()) || !validSize || size < 0 || !validTime ||
+            !md5.match(entry.value(QStringLiteral("md5")).toString()).hasMatch()) return;
+    }
+    checksumCache = entries;
+}
+
+void DownloadManager::saveChecksumCache() const
+{
+    if (!QDir().mkpath(QFileInfo(checksumCachePath).absolutePath())) return;
+    QSaveFile file(checksumCachePath);
+    if (!file.open(QIODevice::WriteOnly)) return;
+    const QByteArray bytes = QJsonDocument(QJsonObject{
+        {QStringLiteral("version"), 1}, {QStringLiteral("entries"), checksumCache}
+    }).toJson(QJsonDocument::Compact);
+    if (file.write(bytes) == bytes.size()) file.commit();
+}
+
+void DownloadManager::invalidateChecksum(const QString &filename) const
+{
+    loadChecksumCache();
+    const QFileInfo info(filename);
+    const QString canonical = info.canonicalFilePath();
+    const QString key = canonical.isEmpty() ? info.absoluteFilePath() : canonical;
+    if (checksumCache.contains(key)) {
+        checksumCache.remove(key);
+        saveChecksumCache();
+    }
+}
+
+bool DownloadManager::checksumMatches(const QString &filename, const QString &expectedChecksum, bool forceHash) const
+{
+    loadChecksumCache();
+    const QFileInfo info(filename);
+    if (expectedChecksum.isEmpty() || !info.isFile()) return false;
+    const QString path = info.canonicalFilePath();
+    // Some Qt virtual resource paths have no canonical filesystem path.
+    if (forceHash && !path.isEmpty()) {
+        checksumUnsettled.insert(path);
+        if (checksumCache.contains(path)) {
+            checksumCache.remove(path);
+            saveChecksumCache();
+        }
+    }
+    const bool cacheable = !path.isEmpty() && !checksumUnsettled.contains(path);
+    const QString size = QString::number(info.size());
+    const QString mtime = QString::number(info.lastModified().toMSecsSinceEpoch());
+    const auto cached = checksumCache.value(path).toObject();
+    // Equal size and mtime do not prove equal bytes. This chooses between
+    // packaged and cached RCCs with the same name, not a tamper defence.
+    if (!forceHash && cacheable && cached.value(QStringLiteral("size")) == size &&
+        cached.value(QStringLiteral("mtime")) == mtime)
+        return cached.value(QStringLiteral("md5")).toString() == expectedChecksum;
 
     QFile file(filename);
-    bool isFileOpened = file.open(QIODevice::ReadOnly);
-    if (!isFileOpened) {
+    if (!file.open(QIODevice::ReadOnly)) {
         qWarning() << "Unable to open: " << filename;
         return false;
     }
-
     QCryptographicHash fileHasher(hashMethod);
+    ++fullHashCount;
     if (!fileHasher.addData(&file)) {
         qWarning() << "Could not read file for hashing: " << filename;
         return false;
     }
-    file.close();
-    QByteArray fileHash = fileHasher.result().toHex();
-    return fileHash == expectedChecksum;
+    const QString digest = QString::fromLatin1(fileHasher.result().toHex());
+    const QFileInfo after(filename);
+    if (cacheable && after.canonicalFilePath() == path && after.size() == info.size() &&
+        after.lastModified() == info.lastModified()) {
+        const QJsonObject entry{{QStringLiteral("size"), size}, {QStringLiteral("mtime"), mtime},
+                                {QStringLiteral("md5"), digest}};
+        if (cached != entry) {
+            checksumCache.insert(path, entry);
+            saveChecksumCache();
+        }
+    }
+    return digest == expectedChecksum;
 }
 
 void DownloadManager::unregisterResource_locked(const QString &filename)
@@ -668,6 +773,7 @@ void DownloadManager::finishAllDownloads(int code)
             QFileInfo fi = it.fileInfo();
             if (fi.isFile() && (filename.endsWith(QLatin1String(".rcc")))) {
                 if (!registeredFiles.contains(fi.fileName())) {
+                    invalidateChecksum(filename);
                     if (!QFile::remove(filename)) {
                         qDebug() << "Unable to remove" << filename;
                     }
@@ -692,9 +798,12 @@ void DownloadManager::finishDownload()
     }
 
     if (reply->error() != 0 && job->file.exists()) {
+        invalidateChecksum(job->file.fileName());
         job->file.remove();
     }
     else if (job->url.fileName() != contentsFilename) {
+        invalidateChecksum(targetFilename);
+        invalidateChecksum(job->file.fileName());
         // remove old rcc file and rename the new file
         // remove old Contents file, rename the new Contents file
 
@@ -758,12 +867,13 @@ void DownloadManager::finishDownload()
                              .arg(job->url.toString()));
             code = Error;
             if (QFile::exists(targetFilename)) {
+                invalidateChecksum(targetFilename);
                 QFile::remove(targetFilename);
             }
         }
         else {
             qDebug() << "Download of RCC file finished successfully: " << job->url;
-            if (!checksumMatches(targetFilename, job->contents.value(QFileInfo(targetFilename).fileName()))) {
+            if (!checksumMatches(targetFilename, job->contents.value(QFileInfo(targetFilename).fileName()), true)) {
                 qWarning() << "Checksum of downloaded file does not match: "
                            << targetFilename;
                 Q_EMIT error(QNetworkReply::UnknownContentError,

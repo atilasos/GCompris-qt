@@ -1,0 +1,20 @@
+Test project /home/proteu/.t3/worktrees/GCompris-qt/t3-3882e41a-cd02cb44cacda54a/build/pt-pt
+    Start 9: CoreWorkLogTest
+1/1 Test #9: CoreWorkLogTest ..................***Failed    0.03 sec
+********* Start testing of WorkLogTest *********
+Config: Using QtTest library 6.10.2, Qt 6.10.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 15.2.0), ubuntu 26.04
+PASS   : WorkLogTest::initTestCase()
+FAIL!  : WorkLogTest::completedRound() 'log.entries().first().toMap().value("hasRounds").toBool()' returned FALSE. ()
+   Loc: [/home/proteu/.t3/worktrees/GCompris-qt/t3-3882e41a-cd02cb44cacda54a/tests/core/WorkLogTest.cpp(25)]
+PASS   : WorkLogTest::cleanupTestCase()
+Totals: 2 passed, 1 failed, 0 skipped, 0 blacklisted, 0ms
+********* Finished testing of WorkLogTest *********
+
+
+0% tests passed, 1 tests failed out of 1
+
+Total Test time (real) =   0.03 sec
+
+The following tests FAILED:
+	  9 - CoreWorkLogTest (Failed)
+Errors while running CTest

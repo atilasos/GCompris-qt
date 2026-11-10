@@ -1,0 +1,39 @@
+NATIVE_CGROUP_CPU max 100000
+NATIVE_CGROUP_MEMORY max
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/tmp/wp4-snapshot-final/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+No audio device detected
+qml: enter main.qml (run #2, ratio=1, fontRatio=1.0135135135135136, dpi=100, userDataPath=/tmp/.native-qml-1936d314eda24faf9af6c12d683f51a8/profile/data/GCompris)
+No such local resource and download prohibited:  GCompris::VOICES QMap(("locale", QVariant(QString, "pt")))
+No such local resource and download prohibited:  GCompris::WORDSET QMap()
+No such local resource and download prohibited:  GCompris::BACKGROUND_MUSIC QMap()
+qml: MENU_PARTICLES {"stage":"menu","loaders":1,"systems":1,"cards":23,"gridCount":23,"hasShader":true}
+qml: MENU_PARTICLES_SCROLL {"index":6,"contentY":204,"cardX":0,"cardY":204}
+qml: MENU_PARTICLES_GEOMETRY {"dx":0,"dy":0,"width":127.5,"height":199,"cardWidth":127.5,"cardHeight":199,"parentIsContent":true,"running":true,"opacity":1}
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+qml: MENU_PARTICLES {"stage":"return","loaders":1,"systems":1,"cards":23,"gridCount":23,"hasShader":true}
+qml: NATIVE_RESULT {"failures":0,"passes":2}
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+NATIVE_CGROUP_PEAK 102846464
+NATIVE_CGROUP_EVENT low 0
+NATIVE_CGROUP_EVENT high 0
+NATIVE_CGROUP_EVENT max 0
+NATIVE_CGROUP_EVENT oom 0
+NATIVE_CGROUP_EVENT oom_kill 0
+NATIVE_CGROUP_EVENT oom_group_kill 0
+NATIVE_CGROUP_EVENT sock_throttled 0

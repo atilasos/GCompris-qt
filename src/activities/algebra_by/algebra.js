@@ -16,6 +16,7 @@ var secondOperandVal
 var firstOperandVal
 var subLevelData = []
 var speedSetting
+var timeLimitEnabled = false
 var operandText
 var OperandsEnum = {
     TIMES_SIGN : "\u00D7",
@@ -50,10 +51,15 @@ var OperandsEnum = {
  */
 
 
-function start(items_, operand_, speedSetting_) {
+function start(items_, operand_, speedSetting_, timeLimitEnabled_) {
     operand = operand_
     items = items_
     speedSetting = speedSetting_
+    timeLimitEnabled = timeLimitEnabled_
+    // Balloon restarts its countdown on resize while activityRunning. Set it
+    // on every start: stopBalloon() clears it, and the limit can be switched
+    // on from the configuration dialog after an untimed start.
+    items.balloon.activityRunning = timeLimitEnabled
     dataset = items.levels
     items.numberOfLevel = dataset.length
     items.currentLevel = Core.getInitialLevel(items.numberOfLevel)
@@ -200,14 +206,18 @@ function run() {
     items.iAmReady.visible = false
     items.numpad.answerFlag = false
     items.result = getAnswer(firstOperandVal, secondOperandVal)
-    items.balloon.startMoving(100000 / speedSetting)
+    if(timeLimitEnabled)
+        items.balloon.startMoving(100000 / speedSetting)
+    else
+        items.balloon.stopMoving()
     items.buttonsBlocked = false
     items.client.startTiming()      // for server version
 }
 
 function checkAnswer() {
     items.buttonsBlocked = true
-    items.balloon.startMoving(100000)
+    if(timeLimitEnabled)
+        items.balloon.startMoving(100000)
     if(validateAnswer(parseInt(items.numpad.answer))) {
         items.client.sendToServer(true)
         items.score.currentSubLevel++

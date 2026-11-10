@@ -133,5 +133,27 @@
       800,
       800
     ]
+  },
+  {
+    "file": "o-meu-trabalho.webp",
+    "title": "O meu trabalho",
+    "description": "Lista do que o aluno fez nesta sessão, para copiar para o Plano Individual de Trabalho.",
+    "source": ".scratch/melhorias-2026-11/evidence/wp4-native/session/work-log-entries.png",
+    "source_sha256": "58991efcf12e337527b9c844ac7df805db9cee56ce9aa1489e5f243c3ab9b664",
+    "dimensions": [
+      800,
+      800
+    ]
+  },
+  {
+    "file": "calculo-sem-limite-de-tempo.webp",
+    "title": "Cálculo sem limite de tempo",
+    "description": "Opção nova nas quatro atividades de cálculo; o professor pode voltar a ligar a velocidade.",
+    "source": ".scratch/melhorias-2026-11/evidence/wp3-algebra/config-no-limit-algebra_plus.png",
+    "source_sha256": "e28ecb3a00603138e95fda63b5dad911443c4bd6f27129adb8ecf0e64dfb9da7",
+    "dimensions": [
+      800,
+      800
+    ]
   }
 ]

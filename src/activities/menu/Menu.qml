@@ -180,6 +180,7 @@ ActivityBase {
         fillMode: Image.PreserveAspectCrop
 
         function loadActivity() {
+            WorkLog.activityStarted(activityLoader.item.activityInfo.name)
             //take the focus away from textField before starting an activity
             searchTextField.focus = false
 
@@ -256,8 +257,12 @@ ActivityBase {
             event.accepted = false
         }
         Keys.onTabPressed: (event) => {
-            if(!ApplicationSettings.sectionVisible) {
-                currentActiveGrid = activitiesGrid;
+            if(currentActiveGrid == workLogButton) {
+                currentActiveGrid = ApplicationSettings.sectionVisible ? section : activitiesGrid;
+            }
+            else if(!ApplicationSettings.sectionVisible) {
+                currentActiveGrid = workLogButton;
+                workLogButton.forceActiveFocus();
             }
             else if(currentActiveGrid == section) {
                 if(activity.currentTagCategories && activity.currentTagCategories.length != 0) {
@@ -271,7 +276,8 @@ ActivityBase {
                 currentActiveGrid = activitiesGrid;
             }
             else {
-                currentActiveGrid = section;
+                currentActiveGrid = workLogButton;
+                workLogButton.forceActiveFocus();
             }
         }
         Keys.onEnterPressed: if(currentActiveGrid.currentItem && !loading.active) currentActiveGrid.currentItem.selectCurrentItem();
@@ -466,7 +472,7 @@ ActivityBase {
                     else
                         return activityBackground.top
                 }
-                bottom: bar.top
+                bottom: workLogButton.top
                 right: activityBackground.right
                 margins: GCStyle.halfMargins
                 rightMargin: 0
@@ -482,6 +488,28 @@ ActivityBase {
             // Needed to calculate the OpacityMask offset
             // If using software renderer, this value is not used, so we save the calculation and set it to 1
             property real hiddenBottom: ApplicationInfo.useSoftwareRenderer ? 1 : contentHeight - height - contentY
+
+            // One particle system shared by all cards instead of one per
+            // delegate. It lives in the contentItem, so it scrolls and is
+            // clipped like the cards, and is moved onto the clicked card.
+            Item {
+                id: activityParticlesArea
+                parent: activitiesGrid.contentItem
+                z: 2 // above the delegates (default z: 1)
+                ParticleSystemStarLoader {
+                    id: activityParticles
+                    objectName: "activityParticles"
+                }
+            }
+
+            function burstParticles(card) {
+                var origin = card.mapToItem(activitiesGrid.contentItem, 0, 0)
+                activityParticlesArea.x = origin.x
+                activityParticlesArea.y = origin.y
+                activityParticlesArea.width = card.width
+                activityParticlesArea.height = card.height
+                activityParticles.burst(50)
+            }
 
             delegate: Item {
                 id: delegateItem
@@ -558,10 +586,6 @@ ActivityBase {
                     textFormat: Text.PlainText
                     opacity: activityIcon.opacity
                 }
-                ParticleSystemStarLoader {
-                    id: particles
-                    anchors.fill: activityCard
-                }
                 MouseArea {
                     anchors.fill: activityCard
                     onClicked: selectCurrentItem()
@@ -620,7 +644,7 @@ ActivityBase {
                         return
 
                     if(activity.clickMode === "play") {
-                        particles.burst(50)
+                        activitiesGrid.burstParticles(activityCard)
                         ActivityInfoTree.currentActivity = activityInfoTreeItem
                         activityLoader.setSource("qrc:/gcompris/src/activities/" + ActivityInfoTree.currentActivity.name,
                         {
@@ -1077,6 +1101,66 @@ ActivityBase {
                 dialogActivityConfig.active = true
                 dialogActivityConfig.loader.item.loadFromConfig()
                 displayDialog(dialogActivityConfig)
+            }
+        }
+
+        function openWorkLog() {
+            searchTextField.focus = false;
+            displayDialog(dialogWorkLog);
+        }
+
+        Shortcut {
+            sequence: "Ctrl+T"
+            enabled: pageView.currentItem === activity && !loading.active
+            onActivated: activityBackground.openWorkLog()
+        }
+
+        GCButton {
+            id: workLogButton
+            objectName: "openWorkLog"
+            enabled: !loading.active
+            // The virtual keyboard of the search tab is anchored to the same edge.
+            visible: !keyboard.visible
+            // Reached with Tab; a mouse click must not take the arrow keys
+            // away from the grids.
+            focusPolicy: Qt.TabFocus
+            // The menu's grid focus cycle also includes this button.
+            readonly property var currentItem: null
+            anchors.right: parent.right
+            anchors.bottom: bar.top
+            anchors.margins: GCStyle.halfMargins
+            width: Math.min(parent.width * 0.7, 360)
+            height: Math.max(52, GCStyle.smallButtonHeight)
+            theme: "categories"
+            text: qsTr("O meu trabalho")
+            contentItem: BoardGameText {
+                text: workLogButton.text
+                horizontalAlignment: Text.AlignHCenter
+                verticalAlignment: Text.AlignVCenter
+                wrapMode: Text.WordWrap
+            }
+            onActiveFocusChanged: if(activeFocus) activityBackground.currentActiveGrid = workLogButton
+            Keys.onTabPressed: {
+                activityBackground.currentActiveGrid = ApplicationSettings.sectionVisible ? section : activitiesGrid;
+                activityBackground.forceActiveFocus();
+            }
+            Keys.onBacktabPressed: {
+                activityBackground.currentActiveGrid = activitiesGrid;
+                activityBackground.forceActiveFocus();
+            }
+            Keys.onReturnPressed: activityBackground.openWorkLog()
+            Keys.onEnterPressed: activityBackground.openWorkLog()
+            onClicked: activityBackground.openWorkLog()
+        }
+
+        DialogWorkLog {
+            id: dialogWorkLog
+            onClose: {
+                home();
+                if(activityBackground.currentActiveGrid === workLogButton)
+                    workLogButton.forceActiveFocus();
+                else
+                    activityBackground.forceActiveFocus();
             }
         }
 

@@ -38,8 +38,12 @@ set(gcompris_SRCS
   ClientNetworkMessages.cpp
   ClientNetworkMessages.h
   netconst.h
+  WorkLog.cpp
+  WorkLog.h
   Sequence.cpp
   Sequence.h
+  StartupLogging.cpp
+  StartupLogging.h
   synth/ADSRenvelope.cpp
   synth/ADSRenvelope.h
   GSynth.cpp

@@ -12,6 +12,22 @@
   "changes": [
     {
       "date": "2026-11-10",
+      "label": "Pedagogia e arranque",
+      "status": "Integrado no código · aguarda novo instalador Windows",
+      "title": "Cálculo sem cronómetro e «O meu trabalho».",
+      "body": "As quatro atividades de cálculo (adição, subtração, multiplicação e divisão) deixam de ter limite de tempo por omissão; o professor pode voltar a ligar a velocidade na configuração. O menu ganha «O meu trabalho», uma lista do que o aluno fez nesta sessão para copiar para o Plano Individual de Trabalho. O arranque deixa de reler os recursos de vozes, palavras e música em cada abertura.",
+      "details": [
+        "«O meu trabalho» fica só em memória: nada é gravado no computador, não há nomes nem horas, e «Começar de novo» apaga a lista para o aluno seguinte. Atalho: Ctrl+T.",
+        "As rondas concluídas só são contadas nas atividades que mostram o bónus de vitória; nas outras, como os jogos CRJM, aparece «—».",
+        "Quem já tinha guardado uma velocidade nas atividades de cálculo mantém o cronómetro com essa velocidade.",
+        "Na máquina de desenvolvimento, a verificação dos recursos no arranque desce de 200 ms para menos de 1 ms a partir do segundo arranque, com as descargas automáticas desligadas. O ganho em computadores escolares não foi medido.",
+        "O menu passa a usar um só efeito de partículas na grelha de atividades, em vez de um por cartão.",
+        "Verificação local no Qt nativo em Linux. Não validado em Windows 10 escolar, em tablets nem com crianças. Estas alterações ainda não fazem parte do instalador Windows fixado nesta página."
+      ],
+      "commit": "6c928ba6bcd41cd09e274c90d48c80cbdcc8b08d"
+    },
+    {
+      "date": "2026-11-10",
       "label": "Atualização do projeto original",
       "status": "Integrado no código · aguarda novo instalador Windows",
       "title": "Hanói com teclado e correções na Grua.",
@@ -142,6 +158,16 @@
       "file": "hanoi-keyboard.webp",
       "title": "Hanói com teclado",
       "description": "Seleção de um disco e da torre de destino com os novos controlos de teclado."
+    },
+    {
+      "file": "o-meu-trabalho.webp",
+      "title": "O meu trabalho",
+      "description": "Lista do que o aluno fez nesta sessão, para copiar para o Plano Individual de Trabalho."
+    },
+    {
+      "file": "calculo-sem-limite-de-tempo.webp",
+      "title": "Cálculo sem limite de tempo",
+      "description": "Opção nova nas quatro atividades de cálculo; o professor pode voltar a ligar a velocidade."
     }
   ]
 }

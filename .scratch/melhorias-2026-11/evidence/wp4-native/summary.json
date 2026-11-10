@@ -1,0 +1,78 @@
+{
+  "source_commit": "e7b89dc986aed99d6a7b7db1a88efcf9ca5940d8",
+  "base_commit": "a919b1425b460f4398051308c2132494f0563c5d",
+  "binary_sha256": "67eb9c1a6e1279a74691a90cf82f2d7cdb64a330b747b9a20088b62d94b8fa87",
+  "snapshot_manifest_sha256": "843b56ff26c6cdfb32394358324c193bbae7e1d1181a0452f1baf7840979f7b0",
+  "menu_source_sha256": "76bd10cbb2f73a2d5678068742f8fb305d88b86aa7ffb6b75b2f49ec78bfd59d",
+  "particle_block_sha256": "3d8a3124927c956cd2c597272de03c8c13aa6794967f86c8cde067e44f541596",
+  "cases": [
+    {
+      "case": "session",
+      "passed": true,
+      "passes": 2,
+      "failures": 0,
+      "qml_errors": [],
+      "memory_peak_bytes": 117817344
+    },
+    {
+      "case": "scale",
+      "passed": true,
+      "passes": 2,
+      "failures": 0,
+      "qml_errors": [],
+      "memory_peak_bytes": 175312896
+    },
+    {
+      "case": "particles",
+      "passed": true,
+      "passes": 2,
+      "failures": 0,
+      "qml_errors": [],
+      "memory_peak_bytes": 102846464
+    },
+    {
+      "case": "dominorio",
+      "passed": true,
+      "passes": 2,
+      "failures": 0,
+      "qml_errors": [],
+      "memory_peak_bytes": 124645376
+    }
+  ],
+  "core_rcc_and_activities_match_build_and_snapshot": true,
+  "source_files_sha256": {
+    "src/activities/menu/Menu.qml": "76bd10cbb2f73a2d5678068742f8fb305d88b86aa7ffb6b75b2f49ec78bfd59d",
+    "src/core/Bonus.qml": "41e05fbccf5e8111880272bcd4e9133e95897c39830556fcdd0bd02b075f01fa",
+    "src/core/CMakeLists.txt": "dfea396475ebe93f30038ad149968c12b55c4cd7d47f8347d365bf59a7d74235",
+    "src/core/DialogWorkLog.qml": "cb5d54f64eb66e61b4d4a157c2df0802c2ed44433e81210d9e2af16ceaa14391",
+    "src/core/GComprisPlugin.cpp": "39302beca3766b742578e38a71aee24318920dcf2b2f6573633b834b1016ea6e",
+    "src/core/WorkLog.cpp": "034b23b713cb6773fdc7c5fc6ffa5f087f9bc1da8c42f43a7aff7fdbf2c9bbee",
+    "src/core/WorkLog.h": "09d262737b3e0b7169a6071326cd630b3d4d523ea728a138cdd2a5a925149e5c",
+    "tests/core/CMakeLists.txt": "77189d730cd9c59e47214d4e348a9b266e2e15c64ce7fa38d13377e03330efd5",
+    "tests/core/WorkLogTest.cpp": "aa2ec677ba61f5e866f600b9c7489b135bbb050db6ae496258b52bdf93eb0340",
+    "tests/work_log/README.md": "3b745c2bc300fc23a9e91891c13c740e915f6f2c5302a2ea126015cd8b8eaad3",
+    "tests/work_log/session.qml": "0181369f46f3f13483e9017e7809c53112388a2c7618e80b9047ead2e8ce2ae0"
+  },
+  "screenshots": [
+    {
+      "path": "wp4-native/scale/work-log-600x480.png",
+      "sha256": "ebbed2c3306f98c326c1772ca1067339ec5abb8dd4692bcf8540fd1e2ee6ec2b"
+    },
+    {
+      "path": "wp4-native/scale/work-log-empty.png",
+      "sha256": "cb01422b1caff573fdb3586c5322b449faf2fd1a5612772023888b8b6140b5cd"
+    },
+    {
+      "path": "wp4-native/scale/work-log-entries.png",
+      "sha256": "5729052932827b9316d1253d22bbaf7f51dfe60c2f22a45b1e534fa9dc2a0e2d"
+    },
+    {
+      "path": "wp4-native/session/work-log-empty.png",
+      "sha256": "0eb7bd6e3551640a504fb087ac0f9311f2d9b8259920a4d79a0898fb3149094f"
+    },
+    {
+      "path": "wp4-native/session/work-log-entries.png",
+      "sha256": "58991efcf12e337527b9c844ac7df805db9cee56ce9aa1489e5f243c3ab9b664"
+    }
+  ]
+}

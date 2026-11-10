@@ -13,7 +13,9 @@
 
 #include <QCryptographicHash>
 #include <QFile>
+#include <QJsonObject>
 #include <QNetworkAccessManager>
+#include <QSet>
 #include <QNetworkReply>
 #include <QMutex>
 #include <QString>
@@ -201,8 +203,18 @@ private:
     /** Parses upstream Contents file and build checksum map. */
     bool parseContents(DownloadJob *job);
 
-    /** Compare the file bytes with the checksum selected from a Contents entry. */
-    bool checksumMatches(const QString &filename, const QString &expectedChecksum) const;
+    /** Compare the actual or cached MD5 with a Contents checksum; downloads force a full read. */
+    bool checksumMatches(const QString &filename, const QString &expectedChecksum, bool forceHash = false) const;
+    void loadChecksumCache() const;
+    void saveChecksumCache() const;
+    void invalidateChecksum(const QString &filename) const;
+    mutable QString checksumCachePath;
+    mutable QJsonObject checksumCache;
+    // Files this process has just downloaded. Their bytes may still sit in the
+    // OS write cache, so they are hashed again and only trusted from the next
+    // start: a power cut must not leave a truncated RCC recorded as verified.
+    mutable QSet<QString> checksumUnsettled;
+    mutable quint64 fullHashCount = 0; // Observable by the friend test, never used for cache decisions.
 
     bool registerResourceAbsolute(const QString &filename);
 

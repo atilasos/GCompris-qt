@@ -21,6 +21,7 @@ ecm_add_tests(ActivityInfoTest.cpp
               ApplicationInfoTest.cpp
               DownloadManagerTest.cpp
               GImageGrabberTest.cpp
+              WorkLogTest.cpp
               # add new test file here
               NAME_PREFIX Core
               LINK_LIBRARIES ${CORE_TEST_LIBRARIES})
