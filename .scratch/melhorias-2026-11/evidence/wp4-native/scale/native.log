@@ -1,0 +1,67 @@
+NATIVE_CGROUP_CPU max 100000
+NATIVE_CGROUP_MEMORY max
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+exeCount set to:  2
+notifyAudioEffects:  false
+notifyAudioVoices:  false
+new locale:  "pt_PT.UTF-8"
+renderer set to:  "software"
+Connected to UdpSocket on port 65524
+Found box2d in  "/tmp/wp4-snapshot-final/lib/qml"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to connect to pipewire instance "Host is down"
+PulseAudioService: pa_context_connect() failed
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+No audio device detected
+qml: enter main.qml (run #2, ratio=2.2153846153846155, fontRatio=2.4, dpi=100, userDataPath=/tmp/.native-qml-4785bcba7add4b308b54dc208c193942/profile/data/GCompris)
+No such local resource and download prohibited:  GCompris::VOICES QMap(("locale", QVariant(QString, "pt")))
+No such local resource and download prohibited:  GCompris::WORDSET QMap()
+No such local resource and download prohibited:  GCompris::BACKGROUND_MUSIC QMap()
+No audio device detected
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+load configuration for: "enumerate"
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: WORK_LOG_FRUIT_ANSWER 0 2
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: WORK_LOG_FRUIT_ANSWER 1 2
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: WORK_LOG_FRUIT_ANSWER 2 2
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qml: WORK_LOG_FRUIT_ANSWER 3 1
+[vorbis @ 0x64910d849840] Could not update timestamps for discarded samples.
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+No audio device detected
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+qt.core.qobject.connect: QObject::connect(QJSEngine, QtObject): invalid nullptr parameter
+load configuration for: "enumerate"
+No audio device detected
+qt.multimedia.soundeffect: Failed to update audio output. No audio devices available.
+load configuration for: "enumerate"
+notifySectionVisible:  false
+notifySectionVisible:  true
+qml: WORK_LOG_SCREEN {"screenWidth":2048,"screenHeight":1152,"fontRatio":2.4,"width":2048,"height":1100}
+qml: NATIVE_RESULT {"failures":0,"passes":2}
+DownloadManager: shutting down, 0 active jobs
+previous height set to:  1100
+DownloadManager: shutting down, 0 active jobs
+DownloadManager: shutting down, 0 active jobs
+NATIVE_CGROUP_PEAK 175312896
+NATIVE_CGROUP_EVENT low 0
+NATIVE_CGROUP_EVENT high 0
+NATIVE_CGROUP_EVENT max 0
+NATIVE_CGROUP_EVENT oom 0
+NATIVE_CGROUP_EVENT oom_kill 0
+NATIVE_CGROUP_EVENT oom_group_kill 0
+NATIVE_CGROUP_EVENT sock_throttled 0
