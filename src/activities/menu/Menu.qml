@@ -180,6 +180,7 @@ ActivityBase {
         fillMode: Image.PreserveAspectCrop
 
         function loadActivity() {
+            WorkLog.activityStarted(activityLoader.item.activityInfo.name)
             //take the focus away from textField before starting an activity
             searchTextField.focus = false
 
@@ -256,8 +257,12 @@ ActivityBase {
             event.accepted = false
         }
         Keys.onTabPressed: (event) => {
-            if(!ApplicationSettings.sectionVisible) {
-                currentActiveGrid = activitiesGrid;
+            if(currentActiveGrid == workLogButton) {
+                currentActiveGrid = ApplicationSettings.sectionVisible ? section : activitiesGrid;
+            }
+            else if(!ApplicationSettings.sectionVisible) {
+                currentActiveGrid = workLogButton;
+                workLogButton.forceActiveFocus();
             }
             else if(currentActiveGrid == section) {
                 if(activity.currentTagCategories && activity.currentTagCategories.length != 0) {
@@ -271,7 +276,8 @@ ActivityBase {
                 currentActiveGrid = activitiesGrid;
             }
             else {
-                currentActiveGrid = section;
+                currentActiveGrid = workLogButton;
+                workLogButton.forceActiveFocus();
             }
         }
         Keys.onEnterPressed: if(currentActiveGrid.currentItem && !loading.active) currentActiveGrid.currentItem.selectCurrentItem();
@@ -466,7 +472,7 @@ ActivityBase {
                     else
                         return activityBackground.top
                 }
-                bottom: bar.top
+                bottom: workLogButton.top
                 right: activityBackground.right
                 margins: GCStyle.halfMargins
                 rightMargin: 0
@@ -1095,6 +1101,58 @@ ActivityBase {
                 dialogActivityConfig.active = true
                 dialogActivityConfig.loader.item.loadFromConfig()
                 displayDialog(dialogActivityConfig)
+            }
+        }
+
+        function openWorkLog() {
+            searchTextField.focus = false;
+            displayDialog(dialogWorkLog);
+        }
+
+        Shortcut {
+            sequence: "Ctrl+T"
+            enabled: pageView.currentItem === activity && !loading.active
+            onActivated: activityBackground.openWorkLog()
+        }
+
+        GCButton {
+            id: workLogButton
+            objectName: "openWorkLog"
+            enabled: !loading.active
+            // The menu's grid focus cycle also includes this button.
+            readonly property var currentItem: null
+            anchors.right: parent.right
+            anchors.bottom: bar.top
+            anchors.margins: GCStyle.halfMargins
+            width: Math.min(parent.width * 0.7, 360)
+            height: 52
+            theme: "categories"
+            text: qsTr("O meu trabalho (Ctrl+T)")
+            contentItem: BoardGameText {
+                text: workLogButton.text
+                horizontalAlignment: Text.AlignHCenter
+                verticalAlignment: Text.AlignVCenter
+                wrapMode: Text.WordWrap
+            }
+            onActiveFocusChanged: if(activeFocus) activityBackground.currentActiveGrid = workLogButton
+            Keys.onTabPressed: {
+                activityBackground.currentActiveGrid = ApplicationSettings.sectionVisible ? section : activitiesGrid;
+                activityBackground.forceActiveFocus();
+            }
+            Keys.onBacktabPressed: {
+                activityBackground.currentActiveGrid = activitiesGrid;
+                activityBackground.forceActiveFocus();
+            }
+            Keys.onReturnPressed: activityBackground.openWorkLog()
+            Keys.onEnterPressed: activityBackground.openWorkLog()
+            onClicked: activityBackground.openWorkLog()
+        }
+
+        DialogWorkLog {
+            id: dialogWorkLog
+            onClose: {
+                home();
+                workLogButton.forceActiveFocus();
             }
         }
 

@@ -140,6 +140,7 @@ Image {
      * Possible values are "flower", "gnu", "lion", "note", "smiley", "tux"
      */
     function good(name) {
+        if (!isPlaying) WorkLog.roundCompleted();
         source = url + "bonus/" + name + "_good.svg"
         isWin = true
         timer.restart()
