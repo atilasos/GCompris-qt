@@ -40,6 +40,8 @@ set(gcompris_SRCS
   netconst.h
   Sequence.cpp
   Sequence.h
+  StartupLogging.cpp
+  StartupLogging.h
   synth/ADSRenvelope.cpp
   synth/ADSRenvelope.h
   GSynth.cpp

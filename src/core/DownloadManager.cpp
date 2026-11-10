@@ -11,6 +11,7 @@
 #include "DownloadManager.h"
 #include "ApplicationSettings.h"
 #include "ApplicationInfo.h"
+#include "StartupLogging.h"
 
 #include <QFile>
 #include <QDir>
@@ -237,23 +238,44 @@ QString DownloadManager::getResourcePath(int rt, const QVariantMap &data) const
 
 bool DownloadManager::updateResource(/*const GCompris::ResourceType &*/ int rt, const QVariantMap &extra)
 {
-    if (checkDownloadRestriction())
-        return downloadResource(rt, extra); // check for updates and register
+    QElapsedTimer startupTimer;
+    startupTimer.start();
+    const auto logStartup = [&](const char *path, const QString &file, qint64 checksumNanoseconds) {
+        qCInfo(lcStartup).noquote() << "updateResource" << QMetaEnum::fromType<GCompris::ResourceType>().valueToKey(rt)
+                                    << path << (file.isEmpty() ? QStringLiteral("-") : file)
+                                    << "total" << startupMilliseconds(startupTimer.nsecsElapsed())
+                                    << "ms, checksum" << startupMilliseconds(checksumNanoseconds) << "ms";
+    };
+
+    if (checkDownloadRestriction()) {
+        const bool result = downloadResource(rt, extra); // check for updates and register
+        // Only the synchronous part: the download and its checksum run later.
+        logStartup("download", QString(), 0);
+        return result;
+    }
 
     const QString resourcePath = getResourcePath(rt, extra);
     const auto entry = selectedResource(rt, extra);
+    qint64 checksumNanoseconds = 0;
     // A packaged and a cached RCC may share a name but have different contents.
     // Register only the file matching the selected index.
     if (!resourcePath.isEmpty()) {
         for (const auto &base : getSystemResourcePaths()) {
             const QString absolutePath = base + '/' + resourcePath;
-            if (checksumMatches(absolutePath, entry.checksum))
-                return registerResourceAbsolute(absolutePath);
+            const qint64 checksumStart = startupTimer.nsecsElapsed();
+            const bool matches = checksumMatches(absolutePath, entry.checksum);
+            checksumNanoseconds += startupTimer.nsecsElapsed() - checksumStart;
+            if (matches) {
+                const bool result = registerResourceAbsolute(absolutePath);
+                logStartup("local", absolutePath, checksumNanoseconds);
+                return result;
+            }
         }
     }
 
     qDebug() << "No such local resource and download prohibited: "
              << GCompris::ResourceType(rt) << extra;
+    logStartup("missing", resourcePath, checksumNanoseconds);
     return false;
 }
 

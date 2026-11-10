@@ -10,6 +10,7 @@
 #include "ActivityInfoTree.h"
 #include "ApplicationInfo.h"
 #include "File.h"
+#include "StartupLogging.h"
 
 #include <QDir>
 #include <QFile>
@@ -293,6 +294,8 @@ QStringList ActivityInfoTree::getActivityList()
 
 void ActivityInfoTree::initialize(QQmlEngine *engine)
 {
+    QElapsedTimer startupTimer;
+    startupTimer.start();
     QQmlComponent componentRoot(engine,
                                 QUrl("qrc:/gcompris/src/activities/menu/ActivityInfo.qml"));
     QObject *objectRoot = componentRoot.create();
@@ -356,6 +359,10 @@ void ActivityInfoTree::initialize(QQmlEngine *engine)
 
     filterByTag("favorite", "", false);
     filterEnabledActivities(true);
+
+    qCInfo(lcStartup).noquote() << "ActivityInfoTree::initialize:"
+                                << startupMilliseconds(startupTimer.nsecsElapsed()) << "ms,"
+                                << activities.size() << "activities";
 }
 
 ActivityInfoTree *ActivityInfoTree::create(QQmlEngine *engine, QJSEngine *scriptEngine)
