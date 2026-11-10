@@ -483,6 +483,28 @@ ActivityBase {
             // If using software renderer, this value is not used, so we save the calculation and set it to 1
             property real hiddenBottom: ApplicationInfo.useSoftwareRenderer ? 1 : contentHeight - height - contentY
 
+            // One particle system shared by all cards instead of one per
+            // delegate. It lives in the contentItem, so it scrolls and is
+            // clipped like the cards, and is moved onto the clicked card.
+            Item {
+                id: activityParticlesArea
+                parent: activitiesGrid.contentItem
+                z: 2 // above the delegates (default z: 1)
+                ParticleSystemStarLoader {
+                    id: activityParticles
+                    objectName: "activityParticles"
+                }
+            }
+
+            function burstParticles(card) {
+                var origin = card.mapToItem(activitiesGrid.contentItem, 0, 0)
+                activityParticlesArea.x = origin.x
+                activityParticlesArea.y = origin.y
+                activityParticlesArea.width = card.width
+                activityParticlesArea.height = card.height
+                activityParticles.burst(50)
+            }
+
             delegate: Item {
                 id: delegateItem
                 width: activityCellWidth - GCStyle.halfMargins
@@ -558,10 +580,6 @@ ActivityBase {
                     textFormat: Text.PlainText
                     opacity: activityIcon.opacity
                 }
-                ParticleSystemStarLoader {
-                    id: particles
-                    anchors.fill: activityCard
-                }
                 MouseArea {
                     anchors.fill: activityCard
                     onClicked: selectCurrentItem()
@@ -620,7 +638,7 @@ ActivityBase {
                         return
 
                     if(activity.clickMode === "play") {
-                        particles.burst(50)
+                        activitiesGrid.burstParticles(activityCard)
                         ActivityInfoTree.currentActivity = activityInfoTreeItem
                         activityLoader.setSource("qrc:/gcompris/src/activities/" + ActivityInfoTree.currentActivity.name,
                         {
