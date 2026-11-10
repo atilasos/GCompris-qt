@@ -20,6 +20,8 @@
 #include <QNetworkProxy>
 #include <QSignalSpy>
 #include <QScopeGuard>
+#include <QDateTime>
+#include <QJsonDocument>
 
 #include "src/core/DownloadManager.h"
 #include "src/core/ApplicationInfo.h"
@@ -45,6 +47,144 @@ private Q_SLOTS:
         }
         ApplicationSettingsMock::getInstance()->setIsAutomaticDownloadsEnabled(false);
         downloadManager = DownloadManager::getInstance();
+    }
+
+    void test_checksumCache_data()
+    {
+        QTest::addColumn<QString>("change");
+        for (const auto *name : {"reuse", "size", "mtime", "expected", "force", "corrupt", "version", "unwritable"})
+            QTest::newRow(name) << QString::fromLatin1(name);
+    }
+
+    void test_checksumCache()
+    {
+        QFETCH(QString, change);
+        QTemporaryDir folder;
+        QVERIFY(folder.isValid());
+        auto *settings = ApplicationSettingsMock::getInstance();
+        const QString originalCache = settings->cachePath();
+        const auto restore = qScopeGuard([&] { settings->setCachePath(originalCache); });
+        settings->setCachePath(folder.path());
+        const QString path = folder.filePath(QStringLiteral("fixture.rcc"));
+        const QByteArray original("original");
+        const QString expected = QString::fromLatin1(QCryptographicHash::hash(original, QCryptographicHash::Md5).toHex());
+        QVERIFY(writeFixture(path, original));
+        if (change == QLatin1String("unwritable")) {
+            // A regular file as parent fails reliably even when run as root.
+            settings->setCachePath(path + QStringLiteral("/cache"));
+        }
+        DownloadManager manager;
+        if (change == QLatin1String("expected")) {
+            QVERIFY(!manager.checksumMatches(path, QStringLiteral("wrong")));
+            QCOMPARE(manager.fullHashCount, quint64(1));
+        }
+        QVERIFY(manager.checksumMatches(path, expected));
+        QCOMPARE(manager.fullHashCount, quint64(1));
+        const QDateTime timestamp = QFileInfo(path).lastModified();
+        const QString cache = folder.filePath(QStringLiteral("rcc-checksums-v1.json"));
+        if (change == QLatin1String("corrupt") || change == QLatin1String("version")) {
+            QVERIFY(writeFixture(cache, change == QLatin1String("corrupt") ? QByteArray("{broken") :
+                                 QByteArray("{\"version\":999,\"entries\":{}}")));
+            DownloadManager restarted;
+            QVERIFY(restarted.checksumMatches(path, expected));
+            QCOMPARE(restarted.fullHashCount, quint64(1));
+            const auto repaired = QJsonDocument::fromJson(fixtureBytes(cache)).object();
+            QCOMPARE(repaired.value(QStringLiteral("version")).toInt(), 1);
+            QVERIFY(!repaired.value(QStringLiteral("entries")).toObject().isEmpty());
+            DownloadManager again;
+            QVERIFY(again.checksumMatches(path, expected));
+            QCOMPARE(again.fullHashCount, quint64(0));
+            return;
+        }
+        if (change == QLatin1String("size")) QVERIFY(writeFixture(path, QByteArray("longer content")));
+        else if (change == QLatin1String("mtime")) {
+            QFile file(path);
+            QVERIFY(file.open(QIODevice::ReadWrite));
+            QVERIFY(file.setFileTime(timestamp.addSecs(10), QFileDevice::FileModificationTime));
+            QCOMPARE(QFileInfo(path).size(), qint64(original.size()));
+        }
+        else if (change == QLatin1String("reuse") || change == QLatin1String("force")) {
+            QVERIFY(writeFixture(path, QByteArray("modified")));
+            QFile file(path);
+            QVERIFY(file.open(QIODevice::ReadWrite));
+            QVERIFY(file.setFileTime(timestamp, QFileDevice::FileModificationTime));
+            QCOMPARE(QFileInfo(path).lastModified().toMSecsSinceEpoch(), timestamp.toMSecsSinceEpoch());
+            QCOMPARE(QFileInfo(path).size(), qint64(original.size()));
+        }
+        if (change == QLatin1String("expected")) {
+            QVERIFY(!manager.checksumMatches(path, QStringLiteral("wrong")));
+            QCOMPARE(manager.fullHashCount, quint64(1));
+        }
+        else if (change == QLatin1String("force")) {
+            QVERIFY(!manager.checksumMatches(path, expected, true));
+            QVERIFY(!manager.checksumMatches(path, expected, true));
+            QCOMPARE(manager.fullHashCount, quint64(3));
+            QVERIFY(!manager.checksumMatches(path, expected));
+            QCOMPARE(manager.fullHashCount, quint64(3));
+        }
+        else {
+            QCOMPARE(manager.checksumMatches(path, expected), change != QLatin1String("size"));
+            QCOMPARE(manager.fullHashCount, quint64(change == QLatin1String("size") || change == QLatin1String("mtime") ? 2 : 1));
+        }
+    }
+
+    void test_checksumCacheCanonicalPathAndWrites()
+    {
+        QTemporaryDir folder;
+        QVERIFY(folder.isValid());
+        auto *settings = ApplicationSettingsMock::getInstance();
+        const QString originalCache = settings->cachePath();
+        const auto restore = qScopeGuard([&] { settings->setCachePath(originalCache); });
+        settings->setCachePath(folder.path());
+        const QString path = folder.filePath(QStringLiteral("fixture.rcc"));
+        QVERIFY(writeFixture(path, QByteArray("original")));
+        const QString expected = QString::fromLatin1(QCryptographicHash::hash(QByteArray("original"), QCryptographicHash::Md5).toHex());
+        DownloadManager manager;
+        QVERIFY(manager.checksumMatches(path, expected));
+        const QString cache = folder.filePath(QStringLiteral("rcc-checksums-v1.json"));
+        const auto sentinel = QDateTime::fromMSecsSinceEpoch(1000000000000LL);
+        {
+            QFile file(cache);
+            QVERIFY(file.open(QIODevice::ReadWrite));
+            QVERIFY(file.setFileTime(sentinel, QFileDevice::FileModificationTime));
+        }
+        QVERIFY(manager.checksumMatches(folder.path() + QStringLiteral("/./fixture.rcc"), expected));
+        QCOMPARE(manager.fullHashCount, quint64(1));
+        QVERIFY(manager.checksumMatches(path, expected, true));
+        QCOMPARE(manager.fullHashCount, quint64(2));
+        QCOMPARE(QFileInfo(cache).lastModified().toMSecsSinceEpoch(), sentinel.toMSecsSinceEpoch());
+        manager.invalidateChecksum(path);
+        QVERIFY(QJsonDocument::fromJson(fixtureBytes(cache)).object().value(QStringLiteral("entries")).toObject().isEmpty());
+        QVERIFY(manager.checksumMatches(path, expected));
+        QCOMPARE(manager.fullHashCount, quint64(3));
+    }
+
+    void test_checksumCachePersistsAcrossProcesses()
+    {
+        const QString shared = qEnvironmentVariable("GCOMPRIS_CHECKSUM_FIXTURE");
+        if (!shared.isEmpty()) {
+            ApplicationSettingsMock::getInstance()->setCachePath(shared);
+            DownloadManager manager;
+            QVERIFY(manager.checksumMatches(shared + QStringLiteral("/fixture.rcc"),
+                QString::fromLatin1(QCryptographicHash::hash(QByteArray("original"), QCryptographicHash::Md5).toHex())));
+            QCOMPARE(manager.fullHashCount, quint64(qEnvironmentVariableIntValue("GCOMPRIS_EXPECT_HASHES")));
+            return;
+        }
+        QTemporaryDir folder;
+        QVERIFY(folder.isValid());
+        QVERIFY(writeFixture(folder.filePath(QStringLiteral("fixture.rcc")), QByteArray("original")));
+        for (int hashes : {1, 0}) {
+            auto environment = QProcessEnvironment::systemEnvironment();
+            environment.insert(QStringLiteral("GCOMPRIS_CHECKSUM_FIXTURE"), folder.path());
+            environment.insert(QStringLiteral("GCOMPRIS_EXPECT_HASHES"), QString::number(hashes));
+            QProcess process;
+            process.setProcessEnvironment(environment);
+            process.start(QCoreApplication::applicationFilePath(), {QString::fromLatin1(QTest::currentTestFunction())});
+            QVERIFY(process.waitForFinished(20000));
+            QCOMPARE(process.exitStatus(), QProcess::NormalExit);
+            const QByteArray output = process.readAllStandardOutput() + process.readAllStandardError();
+            QVERIFY2(process.exitCode() == 0, output.constData());
+        }
     }
 
     void test_getVoicesResourceForLocale_data()
@@ -201,8 +341,20 @@ private Q_SLOTS:
         manager.initializeAssets();
         QSignalSpy completed(&manager, &DownloadManager::downloadFinished);
         QSignalSpy errors(&manager, &DownloadManager::error);
+        quint64 hashesBeforeTransfer = 0;
+        bool transferred = false;
+        connect(&manager, &DownloadManager::downloadStarted, &manager, [&](const QString &resource) {
+            if (resource.endsWith(QLatin1String(".rcc"))) {
+                transferred = true;
+                hashesBeforeTransfer = manager.fullHashCount;
+            }
+        });
         QVERIFY(manager.downloadResource(GCompris::VOICES, {{QStringLiteral("locale"), QStringLiteral("pt")}}));
         QTRY_COMPARE_WITH_TIMEOUT(completed.size(), 1, 5000);
+        QVERIFY(transferred);
+        QCOMPARE(manager.fullHashCount, hashesBeforeTransfer + 1);
+        QVERIFY(manager.checksumMatches(directory + remoteName, QString::fromLatin1(QCryptographicHash::hash(remoteBytes, QCryptographicHash::Md5).toHex())));
+        QCOMPARE(manager.fullHashCount, hashesBeforeTransfer + 1);
         QCOMPARE(errors.size(), 0);
         QCOMPARE(manager.getVoicesResourceForLocale(QStringLiteral("pt_PT")), relative + remoteName);
         QCOMPARE(requests, QStringList({'/' + relative + QStringLiteral("Contents"), '/' + relative + remoteName}));

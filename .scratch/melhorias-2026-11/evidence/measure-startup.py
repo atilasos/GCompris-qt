@@ -6,7 +6,9 @@
 Each run uses a fresh isolated profile (HOME and XDG_* in a temporary
 directory) with automatic downloads disabled and the external words, voices
 and background music RCC folders linked into $XDG_DATA_HOME/gcompris-qt/data3.
-Cold runs evict the RCC files, the binary and the core/activity RCC files from
+With --reuse-cache only XDG_CACHE_HOME is shared across the warm-up and measured
+processes, to measure persistent checksum reuse. Cold runs evict the RCC files,
+the binary and the core/activity RCC files from
 the page cache with posix_fadvise(DONTNEED) and verify the eviction with
 mincore(2). The application is terminated once all expected timing lines are
 logged.
@@ -115,10 +117,12 @@ def make_profile(root, resources):
     return env
 
 
-def run_once(binary, resources, cold, evict_paths, timeout, keep_log):
+def run_once(binary, resources, cold, evict_paths, timeout, keep_log, shared_cache=None):
     with tempfile.TemporaryDirectory(prefix="gcompris-startup-") as tmp:
         root = Path(tmp)
         env = make_profile(root, resources)
+        if shared_cache is not None:
+            env["XDG_CACHE_HOME"] = str(shared_cache)
         residency = None
         if cold:
             evict(evict_paths)
@@ -217,6 +221,8 @@ def main():
     parser.add_argument("--timeout", type=float, default=90)
     parser.add_argument("--json", type=Path, help="write raw per-run results here")
     parser.add_argument("--log-dir", type=Path, help="keep each run's application log here")
+    parser.add_argument("--reuse-cache", action="store_true",
+                        help="share an isolated checksum cache from warm-up through all measured runs")
     args = parser.parse_args()
 
     binary = args.binary.resolve()
@@ -231,11 +237,14 @@ def main():
         args.log_dir.mkdir(parents=True, exist_ok=True)
 
     runs = []
+    shared = tempfile.TemporaryDirectory(prefix="gcompris-startup-cache-") if args.reuse_cache else None
+    first_run = None
     # One discarded warm-up run fills the page cache before the warm series.
     plan = [("warmup", False)] + [("warm", False)] * args.warm + [("cold", True)] * args.cold
     for index, (kind, cold) in enumerate(plan):
         keep = args.log_dir / ("%02d-%s.log" % (index, kind)) if args.log_dir else None
-        result = run_once(binary, resources, cold, evict_paths, args.timeout, keep)
+        result = run_once(binary, resources, cold, evict_paths, args.timeout, keep,
+                          Path(shared.name) if shared else None)
         result["kind"] = kind
         if cold:
             worst = max(result["residency_before_start"].values())
@@ -246,10 +255,15 @@ def main():
             kind, index, result["initialize_ms"], len(result["updates"]), result["complete"],
             ", max residency before start=%.3f" % result["max_residency_before_start"] if cold else ""),
             file=sys.stderr)
+        if kind == "warmup":
+            first_run = result
         if kind != "warmup":
             runs.append(result)
 
-    info = {"binary": str(binary), "binary_sha256": sha256(binary), "resources": str(resources),
+    if shared:
+        shared.cleanup()
+    info = {"reuse_cache": args.reuse_cache, "first_run_empty_cache": first_run,
+            "binary": str(binary), "binary_sha256": sha256(binary), "resources": str(resources),
             "external_rcc": [str(p) for p in rcc_files],
             "evicted_files_for_cold": len(evict_paths)}
     if args.json:
@@ -263,6 +277,10 @@ def main():
             max(r["max_external_rcc_residency_before_start"] for r in cold_runs),
             max(r["max_residency_before_start"] for r in cold_runs)))
     print()
+    if args.reuse_cache:
+        print("First startup with empty checksum cache:")
+        print(table([first_run]))
+        print("Subsequent startups with persistent checksum cache:")
     print(table(runs))
     return 0 if all(r["complete"] for r in runs) else 1
 
