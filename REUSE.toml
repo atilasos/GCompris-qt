@@ -5389,7 +5389,7 @@ precedence = "aggregate"
 SPDX-FileCopyrightText = "NONE"
 
 [[annotations]]
-path = ["src/activities/y/board.mjs", "src/activities/y/PROVENANCE.md", "tests/crjm/README.md", "src/activities/atari_go/ORIGIN.md", "src/activities/dominorio/PROVENANCE.md", "src/activities/faisca/PROVENANCE.md", "src/activities/nex/PROVENANCE.md", "src/activities/produto/PROVENANCE.md"]
+path = ["src/activities/y/board.mjs", "src/activities/y/PROVENANCE.md", "tests/crjm/README.md", "src/activities/atari_go/ORIGIN.md", "src/activities/dominorio/PROVENANCE.md", "src/activities/faisca/PROVENANCE.md", "src/activities/gatos_caes/PROVENANCE.md", "src/activities/nex/PROVENANCE.md", "src/activities/produto/PROVENANCE.md", "src/activities/quelhas/PROVENANCE.md"]
 precedence = "aggregate"
 SPDX-License-Identifier = "GPL-3.0-or-later"
 SPDX-FileCopyrightText = "NONE"
