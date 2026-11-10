@@ -140,7 +140,9 @@ Image {
      * Possible values are "flower", "gnu", "lion", "note", "smiley", "tux"
      */
     function good(name) {
-        if (!isPlaying) WorkLog.roundCompleted();
+        // Ignore a repeated good() while the same feedback is still showing,
+        // but count a good answer given during the feedback of a wrong one.
+        if (!(isPlaying && isWin)) WorkLog.roundCompleted();
         source = url + "bonus/" + name + "_good.svg"
         isWin = true
         timer.restart()

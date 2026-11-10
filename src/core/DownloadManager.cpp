@@ -612,7 +612,14 @@ bool DownloadManager::checksumMatches(const QString &filename, const QString &ex
     if (expectedChecksum.isEmpty() || !info.isFile()) return false;
     const QString path = info.canonicalFilePath();
     // Some Qt virtual resource paths have no canonical filesystem path.
-    const bool cacheable = !path.isEmpty();
+    if (forceHash && !path.isEmpty()) {
+        checksumUnsettled.insert(path);
+        if (checksumCache.contains(path)) {
+            checksumCache.remove(path);
+            saveChecksumCache();
+        }
+    }
+    const bool cacheable = !path.isEmpty() && !checksumUnsettled.contains(path);
     const QString size = QString::number(info.size());
     const QString mtime = QString::number(info.lastModified().toMSecsSinceEpoch());
     const auto cached = checksumCache.value(path).toObject();

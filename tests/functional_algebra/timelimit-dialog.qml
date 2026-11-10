@@ -84,6 +84,7 @@ TestCase {
         mouseClick(iAmReady);
         compare(balloon.duration, limitMs);
         verify(balloon.visible);
+        verify(balloon.activityRunning, "A resize restarts the countdown once the limit is switched on");
         var y = balloon.y;
         wait(2000);
         verify(balloon.y !== y, "Balloon falls with a time limit");
@@ -112,6 +113,7 @@ TestCase {
         var timeoutsBefore = timeouts;
         mouseClick(iAmReady);
         tryCompare(items, "buttonsBlocked", false);
+        verify(!balloon.activityRunning, "A resize cannot start the countdown without a time limit");
         for(var elapsed = 0; elapsed <= windowMs; elapsed += 500) {
             wait(500);
             // Resting place above the screen, as before the first question.

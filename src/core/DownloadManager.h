@@ -15,6 +15,7 @@
 #include <QFile>
 #include <QJsonObject>
 #include <QNetworkAccessManager>
+#include <QSet>
 #include <QNetworkReply>
 #include <QMutex>
 #include <QString>
@@ -209,6 +210,10 @@ private:
     void invalidateChecksum(const QString &filename) const;
     mutable QString checksumCachePath;
     mutable QJsonObject checksumCache;
+    // Files this process has just downloaded. Their bytes may still sit in the
+    // OS write cache, so they are hashed again and only trusted from the next
+    // start: a power cut must not leave a truncated RCC recorded as verified.
+    mutable QSet<QString> checksumUnsettled;
     mutable quint64 fullHashCount = 0; // Observable by the friend test, never used for cache decisions.
 
     bool registerResourceAbsolute(const QString &filename);

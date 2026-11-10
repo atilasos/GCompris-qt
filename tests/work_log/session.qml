@@ -194,7 +194,19 @@ TestCase {
         ensure(textIn(log, "Ainda não há atividades nesta sessão."), "Clear empties the session");
         closeLog();
 
+        // Opened with the shortcut or the mouse, the view gives the keys back
+        // to the grid it came from, so the arrows keep working.
+        ensure(!workLogButton.activeFocus, "Closing does not strand focus on the button");
+        ensure(activityBackground.currentActiveGrid !== workLogButton, "Arrow keys stay with a grid");
+        click(workLogButton);
+        tryCompare(pageView, "depth", 2, 2000); settled();
+        closeLog();
+        ensure(!workLogButton.activeFocus, "A mouse click does not move keyboard focus to the button");
+        ensure(activityBackground.currentActiveGrid !== workLogButton, "Arrow keys stay with a grid after a click");
+
         // Existing grid cycle reaches the new button, and continues to sections.
+        activityBackground.currentActiveGrid = workLogButton;
+        workLogButton.forceActiveFocus();
         keyClick(Qt.Key_Tab);
         compare(activityBackground.currentActiveGrid, section);
         keyClick(Qt.Key_Tab);

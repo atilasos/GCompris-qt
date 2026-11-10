@@ -119,8 +119,16 @@ private Q_SLOTS:
             QVERIFY(!manager.checksumMatches(path, expected, true));
             QVERIFY(!manager.checksumMatches(path, expected, true));
             QCOMPARE(manager.fullHashCount, quint64(3));
+            // A file hashed as a finished download stays untrusted for this
+            // process and leaves no cache entry behind.
             QVERIFY(!manager.checksumMatches(path, expected));
-            QCOMPARE(manager.fullHashCount, quint64(3));
+            QCOMPARE(manager.fullHashCount, quint64(4));
+            const auto entries = QJsonDocument::fromJson(fixtureBytes(cache)).object().value(QStringLiteral("entries")).toObject();
+            QVERIFY(entries.isEmpty());
+            DownloadManager restarted;
+            QVERIFY(!restarted.checksumMatches(path, expected));
+            QVERIFY(!restarted.checksumMatches(path, expected));
+            QCOMPARE(restarted.fullHashCount, quint64(1));
         }
         else {
             QCOMPARE(manager.checksumMatches(path, expected), change != QLatin1String("size"));
@@ -150,11 +158,13 @@ private Q_SLOTS:
         }
         QVERIFY(manager.checksumMatches(folder.path() + QStringLiteral("/./fixture.rcc"), expected));
         QCOMPARE(manager.fullHashCount, quint64(1));
+        // Reusing an entry through an equivalent path does not rewrite the cache.
+        QCOMPARE(QFileInfo(cache).lastModified().toMSecsSinceEpoch(), sentinel.toMSecsSinceEpoch());
+        // A finished download drops its entry until the next start.
         QVERIFY(manager.checksumMatches(path, expected, true));
         QCOMPARE(manager.fullHashCount, quint64(2));
-        QCOMPARE(QFileInfo(cache).lastModified().toMSecsSinceEpoch(), sentinel.toMSecsSinceEpoch());
-        manager.invalidateChecksum(path);
         QVERIFY(QJsonDocument::fromJson(fixtureBytes(cache)).object().value(QStringLiteral("entries")).toObject().isEmpty());
+        manager.invalidateChecksum(path);
         QVERIFY(manager.checksumMatches(path, expected));
         QCOMPARE(manager.fullHashCount, quint64(3));
     }
@@ -353,8 +363,9 @@ private Q_SLOTS:
         QTRY_COMPARE_WITH_TIMEOUT(completed.size(), 1, 5000);
         QVERIFY(transferred);
         QCOMPARE(manager.fullHashCount, hashesBeforeTransfer + 1);
+        // The downloaded file stays unsettled for this process: it is read again.
         QVERIFY(manager.checksumMatches(directory + remoteName, QString::fromLatin1(QCryptographicHash::hash(remoteBytes, QCryptographicHash::Md5).toHex())));
-        QCOMPARE(manager.fullHashCount, hashesBeforeTransfer + 1);
+        QCOMPARE(manager.fullHashCount, hashesBeforeTransfer + 2);
         QCOMPARE(errors.size(), 0);
         QCOMPARE(manager.getVoicesResourceForLocale(QStringLiteral("pt_PT")), relative + remoteName);
         QCOMPARE(requests, QStringList({'/' + relative + QStringLiteral("Contents"), '/' + relative + remoteName}));

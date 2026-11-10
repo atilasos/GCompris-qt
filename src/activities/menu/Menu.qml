@@ -1119,15 +1119,20 @@ ActivityBase {
             id: workLogButton
             objectName: "openWorkLog"
             enabled: !loading.active
+            // The virtual keyboard of the search tab is anchored to the same edge.
+            visible: !keyboard.visible
+            // Reached with Tab; a mouse click must not take the arrow keys
+            // away from the grids.
+            focusPolicy: Qt.TabFocus
             // The menu's grid focus cycle also includes this button.
             readonly property var currentItem: null
             anchors.right: parent.right
             anchors.bottom: bar.top
             anchors.margins: GCStyle.halfMargins
             width: Math.min(parent.width * 0.7, 360)
-            height: 52
+            height: Math.max(52, GCStyle.smallButtonHeight)
             theme: "categories"
-            text: qsTr("O meu trabalho (Ctrl+T)")
+            text: qsTr("O meu trabalho")
             contentItem: BoardGameText {
                 text: workLogButton.text
                 horizontalAlignment: Text.AlignHCenter
@@ -1152,7 +1157,10 @@ ActivityBase {
             id: dialogWorkLog
             onClose: {
                 home();
-                workLogButton.forceActiveFocus();
+                if(activityBackground.currentActiveGrid === workLogButton)
+                    workLogButton.forceActiveFocus();
+                else
+                    activityBackground.forceActiveFocus();
             }
         }
 

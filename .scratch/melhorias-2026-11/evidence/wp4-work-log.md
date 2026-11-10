@@ -51,7 +51,6 @@ foi comparado byte a byte com `a919b1425` e está igual, SHA256
 
 Todos estão em `qsTr()`, em pt-PT, AO90:
 
-- `O meu trabalho (Ctrl+T)`
 - `O meu trabalho`
 - `Copia para o teu plano o que fizeste e escreve como correu.`
 - `Rondas concluídas: %1`

@@ -56,10 +56,10 @@ function start(items_, operand_, speedSetting_, timeLimitEnabled_) {
     items = items_
     speedSetting = speedSetting_
     timeLimitEnabled = timeLimitEnabled_
-    if(!timeLimitEnabled) {
-        // Balloon restarts its countdown on resize while activityRunning.
-        items.balloon.activityRunning = false
-    }
+    // Balloon restarts its countdown on resize while activityRunning. Set it
+    // on every start: stopBalloon() clears it, and the limit can be switched
+    // on from the configuration dialog after an untimed start.
+    items.balloon.activityRunning = timeLimitEnabled
     dataset = items.levels
     items.numberOfLevel = dataset.length
     items.currentLevel = Core.getInitialLevel(items.numberOfLevel)
