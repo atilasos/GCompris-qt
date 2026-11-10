@@ -3,7 +3,7 @@
 # Melhorias pedagógicas e do motor — ciclo de novembro de 2026
 
 Status: ready-for-agent
-Progress: claimed
+Progress: resolved
 Base: `8108a5fe3` (master do fork, upstream integrado em 2026-11-10)
 
 ## Contexto
@@ -237,3 +237,20 @@ Ronda 2 (revisão 2): GPT Sol 8/10 «aprovar»; Claude Opus 8/10 «aprovar com
 alterações» (um bloqueador: `configurations.qml` não podia passar sem ligar
 o limite de tempo — corrigido acima, com as restantes recomendações);
 Gemini 4 Argon 9/10 «aprovar».
+
+Ronda 3 (confirmação da correção do WP3): Claude Opus 9/10 «aprovar», sem
+bloqueadores.
+
+## Answer
+
+Implementado em `feat/game-improvement-plan`: WP5 `afd244b9a`, WP2a
+`e46034a27`, WP1 `cd486b726`, WP2b `a919b1425`, WP4 `e7b89dc98`, WP3
+`9f39d5c50`, correções da revisão de código `6c928ba6b`. Evidência por pacote
+em `evidence/`. Revisão de código cruzada: GPT Sol 8/10 (WP2a, WP2b, WP3,
+WP5) e Claude Opus 7/10 (WP1, WP4), ambos «pronto após correções»; as
+correções e o que ficou por fazer estão em `evidence/review-fixes.md`.
+
+Medido nesta máquina (NVMe, descargas automáticas desligadas): verificação
+dos recursos no arranque 199,9 ms → 0,3 ms com a cache preenchida (133,4 ms
+no primeiro arranque); `ActivityInfoTree::initialize` 331 ms, inalterado e
+agora mensurável. Não validado em Windows 10 escolar, tablets ou com crianças.
